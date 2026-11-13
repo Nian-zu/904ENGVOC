@@ -406,20 +406,32 @@ function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({se
 $('seat').onchange = () => { saveStudent(); update(); };
 $('sname').oninput = () => { saveStudent(); update(); };
 
+// Google Apps Script 網頁應用程式網址（部署後貼在這裡）
+const SHEET_URL = '';
+
 async function upload(){
   const s = session, box = $('rUpload');
+  if (!SHEET_URL) { box.className = 'upload bad'; box.textContent = '老師尚未設定成績上傳網址，這次成績沒有上傳。'; return; }
   box.className = 'upload'; box.textContent = '成績上傳中…';
-  const body = {
+  const body = JSON.stringify({
     seat: $('seat').value, name: $('sname').value.trim(), range: s.rangeText, kind,
-    total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000),
-    answers: s.log
-  };
+    total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log
+  });
+  const okMsg = sc => `✓ 成績已上傳（${$('seat').value} 號 ${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
   try {
-    const r = await fetch('/api/submit', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)});
+    const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'}, body});
     const j = await r.json();
-    if (!r.ok || !j.ok) throw new Error(j.error || ('HTTP ' + r.status));
-    box.className = 'upload ok'; box.textContent = `✓ 成績已上傳（${body.seat} 號 ${body.name}，${j.score} 分）`;
+    if (!j.ok) throw new Error(j.error || '上傳失敗');
+    box.className = 'upload ok'; box.textContent = okMsg(j.score);
   } catch (e) {
+    if (e instanceof TypeError) {
+      // 讀不到回應（瀏覽器限制）時，改用不讀回應的方式送出
+      try {
+        await fetch(SHEET_URL, {method: 'POST', mode: 'no-cors', headers: {'Content-Type': 'text/plain;charset=utf-8'}, body});
+        box.className = 'upload ok'; box.textContent = okMsg(null) + '，請老師在試算表確認';
+        return;
+      } catch (e2) {}
+    }
     box.className = 'upload bad';
     box.innerHTML = `上傳失敗：${esc(e.message)}　<button class="ghost" id="retryUp">重新上傳</button>`;
     $('retryUp').onclick = upload;

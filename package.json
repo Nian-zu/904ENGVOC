@@ -1,8 +1,0 @@
-{
-  "name": "cap-english-daily-quiz",
-  "private": true,
-  "type": "module",
-  "dependencies": {
-    "@netlify/blobs": "^8.2.0"
-  }
-}
