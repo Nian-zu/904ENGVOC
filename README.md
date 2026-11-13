@@ -38,5 +38,5 @@ apps-script/Code.gs    貼到 Google 試算表 Apps Script 的成績接收程式
 
 ## 可以自己改的地方
 
-- 班級人數：`docs/index.html` 的 `const CLASS_SIZE = 28;`
+- 座號清單：`docs/index.html` 的 `const SEATS = [...]`（目前沒有 8、22 號，30 號是測試用）
 - 起始日期：`docs/index.html` 的 `const START = new Date(2026, 10, 13);`（2026/11/13 = D183，月份從 0 算）

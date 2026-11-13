@@ -134,7 +134,6 @@ input[type=text]{flex:1;min-width:200px}
       <label for="from">從</label><select id="from"></select>
       <label for="to">到</label><select id="to"></select>
     </div>
-    <div class="hint">D183 是第一天，數字越小越接近會考。</div>
   </div>
 
   <div id="pickBox" class="field hidden">
@@ -399,8 +398,9 @@ document.addEventListener('keydown', e => {
   else if (e.key === 'Enter' && session.answered){ e.preventDefault(); next(); }
 });
 // ---- student info
-const CLASS_SIZE = 28;   // 班級人數，可自行修改
-for (let i = 1; i <= CLASS_SIZE; i++) $('seat').add(new Option(i + ' 號', i));
+// 班級座號（沒有 8、22 號；30 號是老師測試用）
+const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30];
+SEATS.forEach(i => $('seat').add(new Option(i === 30 ? '30 號（測試用）' : i + ' 號', i)));
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; } catch (e) {}
 function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim()})); } catch (e) {} }
 $('seat').onchange = () => { saveStudent(); update(); };
