@@ -95,6 +95,18 @@ input[type=text]{flex:1;min-width:200px}
 .wrong .a b{color:var(--ok)}
 .wrong .a s{color:var(--bad)}
 .hidden{display:none !important}
+.board{margin-top:16px}
+.board h2{margin:0;font-size:1.1rem}
+.board table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.board th,.board td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left}
+.board th{font-size:.82rem;color:var(--muted);font-weight:700}
+.board td.n,.board th.n{text-align:right}
+.board .rk{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--paper);border:1px solid var(--line);font-weight:900}
+.board tr.r1 .rk{background:var(--chalk);border-color:var(--chalk);color:#2a2410}
+.board tr.r2 .rk{background:#d9dee0;border-color:#d9dee0;color:#1c2321}
+.board tr.r3 .rk{background:#e8c7a6;border-color:#e8c7a6;color:#3a2410}
+.board tr.me td{font-weight:700}
+.board .empty{color:var(--muted);padding:12px 0}
 .upload{padding:10px 14px;border-radius:10px;background:var(--paper);border:1px solid var(--line);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .upload.ok{border-color:var(--ok);background:var(--ok-bg)}
 .upload.bad{border-color:var(--bad);background:var(--bad-bg)}
@@ -210,6 +222,18 @@ input[type=text]{flex:1;min-width:200px}
   </div>
 </section>
 
+<section id="board" class="panel board" aria-label="排行榜">
+  <div class="row" style="justify-content:space-between">
+    <h2>排行榜・答對題數前 10 名</h2>
+    <div class="seg" role="group" aria-label="期間">
+      <button data-p="week" aria-pressed="true">本週</button>
+      <button data-p="month" aria-pressed="false">本月</button>
+      <button data-p="all" aria-pressed="false">全部</button>
+    </div>
+  </div>
+  <div id="boardBody" class="empty">載入中…</div>
+  <div class="hint">依答對題數加總排名，做越多、答對越多就越前面。每次交卷後會更新。</div>
+</section>
 </div></main>
 <script>
 let DATA = null;
@@ -303,7 +327,7 @@ function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.ran
 function start(items){
   session = {items, i:0, right:0, wrong:[], answered:false, order: items.map(qi => shuffle([0,1,2,3])),
     log: [], t0: Date.now(), planned: items.length, rangeText: rangeText()};
-  $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden');
+  $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); $('board').classList.add('hidden');
   show();
 }
 function show(){
@@ -347,7 +371,7 @@ function next(){
 }
 function finish(){
   const s = session, total = s.items.length;
-  $('quiz').classList.add('hidden'); $('result').classList.remove('hidden');
+  $('quiz').classList.add('hidden'); $('result').classList.remove('hidden'); $('board').classList.remove('hidden');
   $('rScore').textContent = Math.round(s.right / total * 100) + ' 分';
   $('rDetail').textContent = `答對 ${s.right} 題，共 ${total} 題`;
   const ul = $('rWrong'); ul.innerHTML = '';
@@ -405,7 +429,7 @@ $('startBtn').onclick = () => {
 };
 $('nextBtn').onclick = next;
 $('quitBtn').onclick = () => { if (session.i === 0 && !session.answered) { back(); return; } session.items = session.items.slice(0, session.i + (session.answered?1:0)); finish(); };
-function back(){ $('quiz').classList.add('hidden'); $('result').classList.add('hidden'); $('setup').classList.remove('hidden'); update(); }
+function back(){ $('quiz').classList.add('hidden'); $('result').classList.add('hidden'); $('setup').classList.remove('hidden'); $('board').classList.remove('hidden'); update(); }
 $('backBtn').onclick = back;
 $('redoWrong').onclick = () => { const rt = session.rangeText; start(shuffle(session.wrong.map(w => w.qi))); session.rangeText = (rt + '（錯題重做）').slice(0, 120); };
 $('againBtn').onclick = () => $('startBtn').click();
@@ -441,6 +465,7 @@ async function upload(){
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '上傳失敗');
     box.className = 'upload ok'; box.textContent = okMsg(j.score);
+    loadBoard();
   } catch (e) {
     if (e instanceof TypeError) {
       // 讀不到回應（瀏覽器限制）時，改用不讀回應的方式送出
@@ -455,6 +480,30 @@ async function upload(){
     $('retryUp').onclick = upload;
   }
 }
+
+let boardPeriod = 'week';
+async function loadBoard(){
+  const body = $('boardBody');
+  if (!SHEET_URL) { body.textContent = '尚未設定成績網址。'; return; }
+  body.className = 'empty'; body.textContent = '載入中…';
+  try {
+    const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod);
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || '');
+    if (!j.top || !j.top.length) { body.textContent = '這段期間還沒有人交卷，搶第一名吧！'; return; }
+    const me = +$('seat').value;
+    body.className = '';
+    body.innerHTML = '<table><thead><tr><th>名次</th><th>座號</th><th>姓名</th><th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th></tr></thead><tbody>' +
+      j.top.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${esc(x.name)}</td><td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${x.rate}%</td></tr>`).join('') +
+      '</tbody></table>';
+  } catch (e) { body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; }
+}
+document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
+  boardPeriod = b.dataset.p;
+  document.querySelectorAll('[data-p]').forEach(x => x.setAttribute('aria-pressed', x === b));
+  loadBoard();
+});
+loadBoard();
 
 fetch('bank.json').then(r => r.json()).then(d => {
   DATA = d;

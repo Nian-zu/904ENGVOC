@@ -57,8 +57,48 @@ function doPost(e) {
   }
 }
 
-function doGet() {
-  return out_({ ok: true, message: '成績接收程式運作中' });
+// 排行榜：GET ?action=board&period=week|month|all
+// 依「答對題數」加總排名，只回傳前 10 名，30 號（測試用）不列入
+function doGet(e) {
+  const p = (e && e.parameter) || {};
+  if (p.action !== 'board') return out_({ ok: true, message: '成績接收程式運作中' });
+  const period = ['week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
+
+  const tz = 'Asia/Taipei';
+  const today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  let from = '0000-00-00';
+  if (period === 'month') from = today.slice(0, 8) + '01';
+  if (period === 'week') {
+    const dow = parseInt(Utilities.formatDate(new Date(), tz, 'u'), 10); // 1=週一 … 7=週日
+    from = Utilities.formatDate(new Date(Date.now() - (dow - 1) * 86400000), tz, 'yyyy-MM-dd');
+  }
+
+  const sh = SpreadsheetApp.getActive().getSheetByName(SHEET_NAME);
+  const n = sh.getLastRow() - 1;
+  const stats = {};
+  if (n > 0) {
+    const rows = sh.getRange(2, 1, n, 10).getValues(); // A:J
+    rows.forEach(function (r) {
+      const d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]);
+      const seat = parseInt(r[2], 10);
+      if (!seat || seat === 30 || d < from) return;
+      const s = stats[seat] || (stats[seat] = { seat: seat, name: '', right: 0, answered: 0, tests: 0 });
+      s.name = String(r[3]);
+      s.right += Number(r[8]) || 0;
+      s.answered += Number(r[7]) || 0;
+      s.tests++;
+    });
+  }
+  const list = Object.keys(stats).map(function (k) { return stats[k]; })
+    .sort(function (a, b) { return b.right - a.right || a.seat - b.seat; });
+  let rank = 0, prev = null;
+  const top = [];
+  list.forEach(function (s, i) {
+    if (s.right !== prev) { rank = i + 1; prev = s.right; }
+    if (rank <= 10) top.push({ rank: rank, seat: s.seat, name: s.name, right: s.right, tests: s.tests,
+      rate: s.answered ? Math.round(s.right / s.answered * 100) : 0 });
+  });
+  return out_({ ok: true, period: period, from: from, today: today, top: top });
 }
 
 function loadKey_() {
