@@ -50,6 +50,9 @@ select,input[type=text]{font:inherit;padding:8px 10px;border:1px solid var(--lin
 input[type=text]{flex:1;min-width:200px}
 .quick{display:flex;gap:8px;flex-wrap:wrap}
 .quick button{border:1px dashed var(--board-2);background:transparent;color:var(--ink);padding:6px 12px;border-radius:8px;font-size:.9rem}
+.quick button[aria-pressed="true"]{background:var(--chalk);border:1px solid var(--chalk);color:#2a2410;font-weight:700}
+.rangeNow{font-size:.9rem;color:var(--muted)}
+.rangeNow b{color:var(--ink);font-variant-numeric:tabular-nums}
 .daygrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:6px;max-height:220px;overflow:auto;padding:4px;border:1px solid var(--line);border-radius:8px;background:var(--paper)}
 .daygrid button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:4px 0;font-size:.85rem;font-variant-numeric:tabular-nums}
 .daygrid button[aria-pressed="true"]{background:var(--chalk);border-color:var(--chalk);color:#2a2410;font-weight:700}
@@ -127,6 +130,7 @@ input[type=text]{flex:1;min-width:200px}
       <button id="qUpto">從 D183 考到今天</button>
       <button id="qWeek">最近 7 天</button>
     </div>
+    <div class="rangeNow" id="rangeNow" aria-live="polite"></div>
   </div>
 
   <div id="rangeBox" class="field">
@@ -277,6 +281,7 @@ function pool(){
 let session_days = new Set();
 function update(){
   if (!DATA) return;
+  syncQuick();
   const {days, items} = pool();
   const n = num === 0 ? items.length : Math.min(num, items.length);
   const words = days.reduce((s,i)=>s+DATA.words[i].length,0);
@@ -377,6 +382,19 @@ document.querySelectorAll('[data-n]').forEach(b => b.onclick = () => {
 $('pickApply').onclick = () => { picked = parsePick($('pickText').value); syncGrid(); update(); };
 $('pickText').addEventListener('keydown', e => { if (e.key === 'Enter'){ e.preventDefault(); $('pickApply').click(); } });
 $('pickClear').onclick = () => { picked.clear(); syncGrid(); update(); };
+function syncQuick(){
+  const t = todayIdx(), a = Math.min(+$('from').value, +$('to').value), b = Math.max(+$('from').value, +$('to').value);
+  const isR = mode === 'range';
+  $('qToday').setAttribute('aria-pressed', isR && a === t && b === t);
+  $('qUpto').setAttribute('aria-pressed', isR && a === 0 && b === t);
+  $('qWeek').setAttribute('aria-pressed', isR && a === Math.max(0, t-6) && b === t);
+  let txt;
+  if (isR) txt = `目前範圍：<b>${lab(a)}${a !== b ? ' 到 ' + lab(b) : ''}</b>（${b - a + 1} 天）`;
+  else txt = `目前範圍：已指定 <b>${picked.size}</b> 天`;
+  if (t === 0) txt += '。今天是第一天，所以「只考今天」「從 D183 考到今天」「最近 7 天」範圍相同，之後天數變多就會不一樣。';
+  else if (t < 6) txt += `。目前只過了 ${t + 1} 天，「最近 7 天」和「從 D183 考到今天」範圍相同。`;
+  $('rangeNow').innerHTML = txt;
+}
 $('qToday').onclick = () => { const t = todayIdx(); setMode('range'); $('from').value = t; $('to').value = t; update(); };
 $('qUpto').onclick = () => { setMode('range'); $('from').value = 0; $('to').value = todayIdx(); update(); };
 $('qWeek').onclick = () => { const t = todayIdx(); setMode('range'); $('from').value = Math.max(0, t-6); $('to').value = t; update(); };
