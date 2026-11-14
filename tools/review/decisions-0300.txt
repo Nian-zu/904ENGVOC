@@ -1,0 +1,44 @@
+36735251b5|hard,late,early,fast
+a9eac48484|probably
+bdb9a17961|slowly|We sang the song ____. All of us sang at the same time.
+eebad1323e|hard,carefully
+220b382a8c|museum,cousin,ticket|The ____ is nice today. It's sunny and warm.
+65bf21b364|news,smell
+8bf504c51d|plan
+e209ed47ed|homework
+fce418ba10|deal
+5810d613ab|reach
+cbc4d945a5|attract
+e2d9485fb9|plan
+b20be694be|bring,check
+6a6cb9cb56||The waiter asks, "Are you ready to ____?"
+3346ea7374|letter,treat|I played already. Now it's your ____.
+c7b56ac900||Please ____ off the TV.|v
+fd5dbe300d|through
+913fe5b3b7|beyond
+4aef94a1ab|change,protect
+e09db47fe9|put
+7f05b66ffb|break
+2b88c5401e|plan
+242a920273|hard,quiet|Mom made a(n) ____ cake for my birthday. It's only for me.
+24372f3881|real,same
+46c68d4767|terrible,difficult|Today is my birthday. It is a(n) ____ day for me.
+23ce0596e6|finally
+260474e680|about,exactly
+33711c8b1f|actually,finally,perhaps
+7473b1eedc|almost
+792b381ad7|great
+797c849b31|foreign|He is a(n) ____ singer. Everyone knows his songs.
+a5d16b782f||Spring, summer, fall, or winter? Which ____ do you like best?
+339236074f|probably,actually
+3bb7ff5b8b|actually
+6412e07905|actually
+bc4c18e525|actually
+5138a5dbdf||You want to swim in winter? You must be ____!
+c2c6cf261a|terrible
+9fb58afb17|language
+0b96c17976|probably
+d8bf17f809|exactly
+68a88e9ae2|impossible
+68deba60a0|popular
+f78b62a8a7|impossible|I can't do this math problem. It's too ____ for me.

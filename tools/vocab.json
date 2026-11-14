@@ -1,0 +1,10283 @@
+{
+"about": {
+"day": 0,
+"pos": [
+"adv",
+"prep"
+],
+"zh": "(prep.) 關於；(adv.) 大約",
+"syn": []
+},
+"get": {
+"day": 0,
+"pos": [
+"v"
+],
+"zh": "(v.) 得到；變得；到達",
+"syn": [
+"give",
+"receive"
+]
+},
+"change": {
+"day": 0,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 改變；(n.) 零錢；改變",
+"syn": [
+"keep"
+]
+},
+"learn": {
+"day": 0,
+"pos": [
+"v"
+],
+"zh": "(v.) 學習",
+"syn": [
+"study",
+"teach"
+]
+},
+"find": {
+"day": 0,
+"pos": [
+"v"
+],
+"zh": "(v.) 找到；發現",
+"syn": [
+"discover",
+"lose"
+]
+},
+"give": {
+"day": 0,
+"pos": [
+"v"
+],
+"zh": "(v.) 給",
+"syn": [
+"offer",
+"take"
+]
+},
+"than": {
+"day": 0,
+"pos": [
+"conj",
+"prep"
+],
+"zh": "(conj.) 比；(prep.) 比",
+"syn": []
+},
+"just": {
+"day": 0,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 剛剛；只是",
+"syn": []
+},
+"start": {
+"day": 0,
+"pos": [
+"v"
+],
+"zh": "(v.) 開始",
+"syn": [
+"begin",
+"end",
+"finish"
+]
+},
+"because": {
+"day": 0,
+"pos": [
+"conj"
+],
+"zh": "(conj.) 因為",
+"syn": []
+},
+"keep": {
+"day": 1,
+"pos": [
+"v"
+],
+"zh": "(v.) 保持；持續",
+"syn": [
+"lose"
+]
+},
+"mean": {
+"day": 1,
+"pos": [
+"v"
+],
+"zh": "(v.) 意思是",
+"syn": []
+},
+"need": {
+"day": 1,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 需要；(n.) 需求",
+"syn": []
+},
+"show": {
+"day": 1,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 展示；給…看；(n.) 表演；節目",
+"syn": [
+"hide"
+]
+},
+"problem": {
+"day": 1,
+"pos": [
+"n"
+],
+"zh": "(n.) 問題",
+"syn": []
+},
+"away": {
+"day": 1,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 離開；遠離",
+"syn": []
+},
+"become": {
+"day": 1,
+"pos": [
+"v"
+],
+"zh": "(v.) 變成",
+"syn": []
+},
+"different": {
+"day": 1,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 不同的",
+"syn": [
+"same",
+"similar"
+]
+},
+"last": {
+"day": 1,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(adj.) 最後的；上一個的；(v.) 持續",
+"syn": [
+"final",
+"first"
+]
+},
+"free": {
+"day": 1,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 免費的；空閒的",
+"syn": [
+"busy"
+]
+},
+"often": {
+"day": 2,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 常常",
+"syn": [
+"never",
+"seldom",
+"usually"
+]
+},
+"every": {
+"day": 2,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 每一",
+"syn": []
+},
+"business": {
+"day": 2,
+"pos": [
+"n"
+],
+"zh": "(n.) 生意；商業",
+"syn": []
+},
+"right": {
+"day": 2,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 對的；右邊的；(adv.) 向右",
+"syn": [
+"correct",
+"wrong"
+]
+},
+"decide": {
+"day": 2,
+"pos": [
+"v"
+],
+"zh": "(v.) 決定",
+"syn": []
+},
+"however": {
+"day": 2,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 然而",
+"syn": [
+"but"
+]
+},
+"popular": {
+"day": 2,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 受歡迎的",
+"syn": [
+"unpopular"
+]
+},
+"likely": {
+"day": 2,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 可能的",
+"syn": [
+"probably",
+"unlikely"
+]
+},
+"try": {
+"day": 2,
+"pos": [
+"v"
+],
+"zh": "(v.) 嘗試",
+"syn": []
+},
+"news": {
+"day": 2,
+"pos": [
+"n"
+],
+"zh": "(n.) 消息；新聞",
+"syn": []
+},
+"move": {
+"day": 3,
+"pos": [
+"v"
+],
+"zh": "(v.) 移動；搬家",
+"syn": [
+"stay"
+]
+},
+"save": {
+"day": 3,
+"pos": [
+"v"
+],
+"zh": "(v.) 拯救；節省；儲存",
+"syn": [
+"spend",
+"waste"
+]
+},
+"plan": {
+"day": 3,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 計畫；(v.) 計畫；打算",
+"syn": []
+},
+"pay": {
+"day": 3,
+"pos": [
+"v"
+],
+"zh": "(v.) 付錢",
+"syn": [
+"earn"
+]
+},
+"feel": {
+"day": 3,
+"pos": [
+"v"
+],
+"zh": "(v.) 感覺",
+"syn": []
+},
+"report": {
+"day": 3,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 報告；(v.) 報導",
+"syn": []
+},
+"experience": {
+"day": 3,
+"pos": [
+"n"
+],
+"zh": "(n.) 經驗；經歷",
+"syn": []
+},
+"enjoy": {
+"day": 3,
+"pos": [
+"v"
+],
+"zh": "(v.) 享受；喜愛",
+"syn": [
+"hate",
+"like"
+]
+},
+"even": {
+"day": 3,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 甚至",
+"syn": []
+},
+"kind": {
+"day": 3,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 種類；(adj.) 仁慈的；親切的",
+"syn": []
+},
+"enough": {
+"day": 4,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 足夠的；(adv.) 足夠地",
+"syn": []
+},
+"use": {
+"day": 4,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 使用；(n.) 用途",
+"syn": []
+},
+"call": {
+"day": 4,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 打電話；稱呼；(n.) 電話",
+"syn": [
+"phone"
+]
+},
+"story": {
+"day": 4,
+"pos": [
+"n"
+],
+"zh": "(n.) 故事",
+"syn": []
+},
+"leave": {
+"day": 4,
+"pos": [
+"v"
+],
+"zh": "(v.) 離開；留下",
+"syn": [
+"arrive",
+"stay"
+]
+},
+"idea": {
+"day": 4,
+"pos": [
+"n"
+],
+"zh": "(n.) 想法；主意",
+"syn": []
+},
+"still": {
+"day": 4,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 仍然",
+"syn": []
+},
+"same": {
+"day": 4,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 相同的",
+"syn": [
+"different"
+]
+},
+"hard": {
+"day": 4,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 困難的；硬的；(adv.) 努力地",
+"syn": [
+"difficult",
+"easy"
+]
+},
+"during": {
+"day": 4,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 在…期間",
+"syn": []
+},
+"lose": {
+"day": 5,
+"pos": [
+"v"
+],
+"zh": "(v.) 遺失；輸",
+"syn": [
+"find",
+"win"
+]
+},
+"lot": {
+"day": 5,
+"pos": [
+"n"
+],
+"zh": "(n.) 許多",
+"syn": []
+},
+"stay": {
+"day": 5,
+"pos": [
+"v"
+],
+"zh": "(v.) 停留",
+"syn": [
+"leave",
+"remain"
+]
+},
+"sell": {
+"day": 5,
+"pos": [
+"v"
+],
+"zh": "(v.) 賣",
+"syn": [
+"buy"
+]
+},
+"few": {
+"day": 5,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 很少的(可數)",
+"syn": [
+"many"
+]
+},
+"chance": {
+"day": 5,
+"pos": [
+"n"
+],
+"zh": "(n.) 機會",
+"syn": [
+"opportunity"
+]
+},
+"park": {
+"day": 5,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 公園；(v.) 停車",
+"syn": []
+},
+"example": {
+"day": 5,
+"pos": [
+"n"
+],
+"zh": "(n.) 例子",
+"syn": []
+},
+"care": {
+"day": 5,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 關心；在乎；(n.) 照顧",
+"syn": []
+},
+"hurt": {
+"day": 5,
+"pos": [
+"v"
+],
+"zh": "(v.) 使受傷；疼痛",
+"syn": []
+},
+"surprise": {
+"day": 6,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 驚喜；(v.) 使驚訝",
+"syn": []
+},
+"cook": {
+"day": 6,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 烹調；(n.) 廚師",
+"syn": []
+},
+"festival": {
+"day": 6,
+"pos": [
+"n"
+],
+"zh": "(n.) 節日",
+"syn": []
+},
+"worry": {
+"day": 6,
+"pos": [
+"v"
+],
+"zh": "(v.) 擔心",
+"syn": []
+},
+"next": {
+"day": 6,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 下一個",
+"syn": []
+},
+"fight": {
+"day": 6,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 打架；爭吵；(n.) 打鬥",
+"syn": []
+},
+"fact": {
+"day": 6,
+"pos": [
+"n"
+],
+"zh": "(n.) 事實",
+"syn": []
+},
+"share": {
+"day": 6,
+"pos": [
+"v"
+],
+"zh": "(v.) 分享",
+"syn": []
+},
+"market": {
+"day": 6,
+"pos": [
+"n"
+],
+"zh": "(n.) 市場",
+"syn": []
+},
+"place": {
+"day": 6,
+"pos": [
+"n"
+],
+"zh": "(n.) 地方",
+"syn": []
+},
+"whether": {
+"day": 7,
+"pos": [
+"conj"
+],
+"zh": "(conj.) 是否",
+"syn": []
+},
+"hit": {
+"day": 7,
+"pos": [
+"v"
+],
+"zh": "(v.) 打；撞",
+"syn": []
+},
+"hope": {
+"day": 7,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 希望；(n.) 希望",
+"syn": [
+"wish"
+]
+},
+"choose": {
+"day": 7,
+"pos": [
+"v"
+],
+"zh": "(v.) 選擇",
+"syn": [
+"pick"
+]
+},
+"hear": {
+"day": 7,
+"pos": [
+"v"
+],
+"zh": "(v.) 聽到",
+"syn": []
+},
+"until": {
+"day": 7,
+"pos": [
+"conj",
+"prep"
+],
+"zh": "(prep.) 直到；(conj.) 直到",
+"syn": []
+},
+"least": {
+"day": 7,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 最少的；(adv.) 最少地",
+"syn": [
+"most"
+]
+},
+"wrong": {
+"day": 7,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 錯的",
+"syn": [
+"correct",
+"right"
+]
+},
+"invite": {
+"day": 7,
+"pos": [
+"v"
+],
+"zh": "(v.) 邀請",
+"syn": []
+},
+"spend": {
+"day": 7,
+"pos": [
+"v"
+],
+"zh": "(v.) 花費(時間/錢)",
+"syn": [
+"save"
+]
+},
+"together": {
+"day": 8,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 一起",
+"syn": [
+"alone"
+]
+},
+"happen": {
+"day": 8,
+"pos": [
+"v"
+],
+"zh": "(v.) 發生",
+"syn": []
+},
+"great": {
+"day": 8,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 很棒的；偉大的",
+"syn": [
+"terrible",
+"wonderful"
+]
+},
+"gift": {
+"day": 8,
+"pos": [
+"n"
+],
+"zh": "(n.) 禮物",
+"syn": [
+"present"
+]
+},
+"sure": {
+"day": 8,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 確定的",
+"syn": [
+"certain",
+"unsure"
+]
+},
+"weather": {
+"day": 8,
+"pos": [
+"n"
+],
+"zh": "(n.) 天氣",
+"syn": []
+},
+"own": {
+"day": 8,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(adj.) 自己的；(v.) 擁有",
+"syn": []
+},
+"believe": {
+"day": 8,
+"pos": [
+"v"
+],
+"zh": "(v.) 相信",
+"syn": [
+"doubt",
+"trust"
+]
+},
+"rise": {
+"day": 8,
+"pos": [
+"v"
+],
+"zh": "(v.) 上升",
+"syn": [
+"fall"
+]
+},
+"ticket": {
+"day": 8,
+"pos": [
+"n"
+],
+"zh": "(n.) 票",
+"syn": []
+},
+"collect": {
+"day": 9,
+"pos": [
+"v"
+],
+"zh": "(v.) 收集",
+"syn": [
+"gather"
+]
+},
+"catch": {
+"day": 9,
+"pos": [
+"v"
+],
+"zh": "(v.) 抓住；趕上",
+"syn": [
+"throw"
+]
+},
+"turn": {
+"day": 9,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 轉；翻；(n.) 輪流",
+"syn": []
+},
+"join": {
+"day": 9,
+"pos": [
+"v"
+],
+"zh": "(v.) 加入",
+"syn": [
+"leave"
+]
+},
+"order": {
+"day": 9,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 點餐；命令；(n.) 順序；命令",
+"syn": []
+},
+"remember": {
+"day": 9,
+"pos": [
+"v"
+],
+"zh": "(v.) 記得",
+"syn": [
+"forget"
+]
+},
+"agree": {
+"day": 9,
+"pos": [
+"v"
+],
+"zh": "(v.) 同意",
+"syn": [
+"disagree"
+]
+},
+"without": {
+"day": 9,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 沒有",
+"syn": []
+},
+"later": {
+"day": 9,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 稍後",
+"syn": [
+"earlier"
+]
+},
+"celebrate": {
+"day": 9,
+"pos": [
+"v"
+],
+"zh": "(v.) 慶祝",
+"syn": []
+},
+"prize": {
+"day": 10,
+"pos": [
+"n"
+],
+"zh": "(n.) 獎品",
+"syn": []
+},
+"build": {
+"day": 10,
+"pos": [
+"v"
+],
+"zh": "(v.) 建造",
+"syn": [
+"destroy"
+]
+},
+"notice": {
+"day": 10,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 注意到；(n.) 公告",
+"syn": [
+"ignore"
+]
+},
+"below": {
+"day": 10,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 在…下方",
+"syn": []
+},
+"answer": {
+"day": 10,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 回答；(n.) 答案",
+"syn": [
+"ask",
+"reply"
+]
+},
+"understand": {
+"day": 10,
+"pos": [
+"v"
+],
+"zh": "(v.) 了解",
+"syn": []
+},
+"prepare": {
+"day": 10,
+"pos": [
+"v"
+],
+"zh": "(v.) 準備",
+"syn": []
+},
+"grow": {
+"day": 10,
+"pos": [
+"v"
+],
+"zh": "(v.) 成長；種植",
+"syn": []
+},
+"holiday": {
+"day": 10,
+"pos": [
+"n"
+],
+"zh": "(n.) 假日",
+"syn": []
+},
+"special": {
+"day": 10,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 特別的",
+"syn": []
+},
+"season": {
+"day": 11,
+"pos": [
+"n"
+],
+"zh": "(n.) 季節",
+"syn": []
+},
+"already": {
+"day": 11,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 已經",
+"syn": []
+},
+"follow": {
+"day": 11,
+"pos": [
+"v"
+],
+"zh": "(v.) 跟隨；遵守",
+"syn": [
+"lead"
+]
+},
+"hospital": {
+"day": 11,
+"pos": [
+"n"
+],
+"zh": "(n.) 醫院",
+"syn": []
+},
+"since": {
+"day": 11,
+"pos": [
+"conj",
+"prep"
+],
+"zh": "(prep.) 自從；(conj.) 自從；因為",
+"syn": []
+},
+"interest": {
+"day": 11,
+"pos": [
+"n"
+],
+"zh": "(n.) 興趣",
+"syn": []
+},
+"wait": {
+"day": 11,
+"pos": [
+"v"
+],
+"zh": "(v.) 等待",
+"syn": []
+},
+"travel": {
+"day": 11,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 旅行；(n.) 旅行",
+"syn": []
+},
+"famous": {
+"day": 11,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有名的",
+"syn": [
+"unknown",
+"wellknown"
+]
+},
+"usually": {
+"day": 11,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 通常",
+"syn": [
+"often",
+"seldom"
+]
+},
+"fix": {
+"day": 12,
+"pos": [
+"v"
+],
+"zh": "(v.) 修理",
+"syn": [
+"break",
+"repair"
+]
+},
+"miss": {
+"day": 12,
+"pos": [
+"v"
+],
+"zh": "(v.) 想念；錯過",
+"syn": [
+"catch"
+]
+},
+"history": {
+"day": 12,
+"pos": [
+"n"
+],
+"zh": "(n.) 歷史",
+"syn": []
+},
+"crazy": {
+"day": 12,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 瘋狂的",
+"syn": [
+"mad"
+]
+},
+"safe": {
+"day": 12,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 安全的",
+"syn": [
+"dangerous"
+]
+},
+"dangerous": {
+"day": 12,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 危險的",
+"syn": [
+"safe"
+]
+},
+"able": {
+"day": 12,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 能夠的",
+"syn": [
+"unable"
+]
+},
+"marry": {
+"day": 12,
+"pos": [
+"v"
+],
+"zh": "(v.) 和…結婚",
+"syn": []
+},
+"drop": {
+"day": 12,
+"pos": [
+"v"
+],
+"zh": "(v.) 掉落",
+"syn": [
+"pick up"
+]
+},
+"wear": {
+"day": 12,
+"pos": [
+"v"
+],
+"zh": "(v.) 穿；戴",
+"syn": []
+},
+"space": {
+"day": 13,
+"pos": [
+"n"
+],
+"zh": "(n.) 空間；太空",
+"syn": []
+},
+"difficult": {
+"day": 13,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 困難的",
+"syn": [
+"easy",
+"hard"
+]
+},
+"government": {
+"day": 13,
+"pos": [
+"n"
+],
+"zh": "(n.) 政府",
+"syn": []
+},
+"size": {
+"day": 13,
+"pos": [
+"n"
+],
+"zh": "(n.) 尺寸",
+"syn": []
+},
+"forget": {
+"day": 13,
+"pos": [
+"v"
+],
+"zh": "(v.) 忘記",
+"syn": [
+"remember"
+]
+},
+"almost": {
+"day": 13,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 幾乎",
+"syn": [
+"nearly"
+]
+},
+"paint": {
+"day": 13,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 油漆；畫；(n.) 油漆",
+"syn": []
+},
+"ago": {
+"day": 13,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 以前",
+"syn": []
+},
+"welcome": {
+"day": 13,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(v.) 歡迎；(adj.) 受歡迎的",
+"syn": []
+},
+"cry": {
+"day": 13,
+"pos": [
+"v"
+],
+"zh": "(v.) 哭；叫喊",
+"syn": [
+"laugh"
+]
+},
+"dream": {
+"day": 14,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 夢；夢想；(v.) 做夢；夢想",
+"syn": []
+},
+"easy": {
+"day": 14,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 簡單的",
+"syn": [
+"difficult",
+"hard",
+"simple"
+]
+},
+"past": {
+"day": 14,
+"pos": [
+"n",
+"prep"
+],
+"zh": "(n.) 過去；(prep.) 經過；超過",
+"syn": [
+"future"
+]
+},
+"dead": {
+"day": 14,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 死的",
+"syn": [
+"alive"
+]
+},
+"date": {
+"day": 14,
+"pos": [
+"n"
+],
+"zh": "(n.) 日期；約會",
+"syn": []
+},
+"moment": {
+"day": 14,
+"pos": [
+"n"
+],
+"zh": "(n.) 片刻",
+"syn": []
+},
+"half": {
+"day": 14,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 一半；(adj.) 一半的",
+"syn": []
+},
+"group": {
+"day": 14,
+"pos": [
+"n"
+],
+"zh": "(n.) 群；組",
+"syn": []
+},
+"lesson": {
+"day": 14,
+"pos": [
+"n"
+],
+"zh": "(n.) 課；教訓",
+"syn": []
+},
+"piece": {
+"day": 14,
+"pos": [
+"n"
+],
+"zh": "(n.) 一片；一塊",
+"syn": []
+},
+"fun": {
+"day": 15,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 樂趣；(adj.) 有趣的",
+"syn": []
+},
+"sick": {
+"day": 15,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 生病的",
+"syn": [
+"healthy",
+"ill",
+"well"
+]
+},
+"soon": {
+"day": 15,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 很快地",
+"syn": []
+},
+"bake": {
+"day": 15,
+"pos": [
+"v"
+],
+"zh": "(v.) 烘烤",
+"syn": []
+},
+"except": {
+"day": 15,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 除了…之外",
+"syn": []
+},
+"pick": {
+"day": 15,
+"pos": [
+"v"
+],
+"zh": "(v.) 挑選；撿",
+"syn": [
+"choose"
+]
+},
+"hide": {
+"day": 15,
+"pos": [
+"v"
+],
+"zh": "(v.) 躲藏；隱藏",
+"syn": [
+"show"
+]
+},
+"ever": {
+"day": 15,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 曾經",
+"syn": []
+},
+"scared": {
+"day": 15,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 害怕的",
+"syn": [
+"afraid",
+"brave",
+"frightened"
+]
+},
+"else": {
+"day": 15,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 其他",
+"syn": []
+},
+"power": {
+"day": 16,
+"pos": [
+"n"
+],
+"zh": "(n.) 力量；電力",
+"syn": []
+},
+"end": {
+"day": 16,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 結束；末端；(v.) 結束",
+"syn": [
+"beginning",
+"finish",
+"start"
+]
+},
+"serious": {
+"day": 16,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 嚴重的；認真的",
+"syn": []
+},
+"send": {
+"day": 16,
+"pos": [
+"v"
+],
+"zh": "(v.) 寄；送",
+"syn": [
+"receive"
+]
+},
+"throw": {
+"day": 16,
+"pos": [
+"v"
+],
+"zh": "(v.) 丟",
+"syn": [
+"catch"
+]
+},
+"maybe": {
+"day": 16,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 或許",
+"syn": [
+"perhaps"
+]
+},
+"begin": {
+"day": 16,
+"pos": [
+"v"
+],
+"zh": "(v.) 開始",
+"syn": [
+"end",
+"finish",
+"start"
+]
+},
+"strong": {
+"day": 16,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 強壯的",
+"syn": [
+"weak"
+]
+},
+"late": {
+"day": 16,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 遲的；晚的；(adv.) 晚地",
+"syn": [
+"early"
+]
+},
+"early": {
+"day": 16,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 早的；(adv.) 早地",
+"syn": [
+"late"
+]
+},
+"point": {
+"day": 17,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 點；重點；(v.) 指",
+"syn": []
+},
+"letter": {
+"day": 17,
+"pos": [
+"n"
+],
+"zh": "(n.) 信；字母",
+"syn": []
+},
+"museum": {
+"day": 17,
+"pos": [
+"n"
+],
+"zh": "(n.) 博物館",
+"syn": []
+},
+"distance": {
+"day": 17,
+"pos": [
+"n"
+],
+"zh": "(n.) 距離",
+"syn": []
+},
+"voice": {
+"day": 17,
+"pos": [
+"n"
+],
+"zh": "(n.) 聲音(人聲)",
+"syn": []
+},
+"heavy": {
+"day": 17,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 重的；大量的",
+"syn": [
+"light"
+]
+},
+"pass": {
+"day": 17,
+"pos": [
+"v"
+],
+"zh": "(v.) 經過；傳遞；通過",
+"syn": [
+"fail"
+]
+},
+"cover": {
+"day": 17,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 覆蓋；(n.) 封面",
+"syn": [
+"uncover"
+]
+},
+"fire": {
+"day": 17,
+"pos": [
+"n"
+],
+"zh": "(n.) 火；火災",
+"syn": []
+},
+"office": {
+"day": 17,
+"pos": [
+"n"
+],
+"zh": "(n.) 辦公室",
+"syn": []
+},
+"vacation": {
+"day": 18,
+"pos": [
+"n"
+],
+"zh": "(n.) 假期",
+"syn": []
+},
+"near": {
+"day": 18,
+"pos": [
+"adj",
+"prep"
+],
+"zh": "(prep.) 在…附近；(adj.) 近的",
+"syn": [
+"close to",
+"far from"
+]
+},
+"break": {
+"day": 18,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 打破；(n.) 休息",
+"syn": [
+"fix",
+"repair"
+]
+},
+"appear": {
+"day": 18,
+"pos": [
+"v"
+],
+"zh": "(v.) 出現",
+"syn": [
+"disappear"
+]
+},
+"deal": {
+"day": 18,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 交易；(v.) 處理",
+"syn": []
+},
+"fast": {
+"day": 18,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 快的；(adv.) 快地",
+"syn": [
+"quick",
+"slow"
+]
+},
+"trouble": {
+"day": 18,
+"pos": [
+"n"
+],
+"zh": "(n.) 麻煩",
+"syn": [
+"problem"
+]
+},
+"cost": {
+"day": 18,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 花費(錢)；(n.) 費用",
+"syn": []
+},
+"enter": {
+"day": 18,
+"pos": [
+"v"
+],
+"zh": "(v.) 進入",
+"syn": [
+"exit",
+"go into",
+"leave"
+]
+},
+"sharp": {
+"day": 18,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 尖銳的；整(點)",
+"syn": [
+"dull"
+]
+},
+"pocket": {
+"day": 19,
+"pos": [
+"n"
+],
+"zh": "(n.) 口袋",
+"syn": []
+},
+"dry": {
+"day": 19,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(adj.) 乾的；(v.) 弄乾",
+"syn": [
+"wet"
+]
+},
+"finish": {
+"day": 19,
+"pos": [
+"v"
+],
+"zh": "(v.) 完成",
+"syn": [
+"begin",
+"complete",
+"end",
+"start"
+]
+},
+"center": {
+"day": 19,
+"pos": [
+"n"
+],
+"zh": "(n.) 中心",
+"syn": []
+},
+"future": {
+"day": 19,
+"pos": [
+"n"
+],
+"zh": "(n.) 未來",
+"syn": [
+"past"
+]
+},
+"health": {
+"day": 19,
+"pos": [
+"n"
+],
+"zh": "(n.) 健康",
+"syn": [
+"illness"
+]
+},
+"proud": {
+"day": 19,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 驕傲的",
+"syn": [
+"ashamed"
+]
+},
+"minute": {
+"day": 19,
+"pos": [
+"n"
+],
+"zh": "(n.) 分鐘",
+"syn": []
+},
+"couple": {
+"day": 19,
+"pos": [
+"n"
+],
+"zh": "(n.) 一對；夫妻",
+"syn": []
+},
+"fresh": {
+"day": 19,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 新鮮的",
+"syn": [
+"new",
+"stale"
+]
+},
+"while": {
+"day": 20,
+"pos": [
+"conj",
+"n"
+],
+"zh": "(conj.) 當…時；(n.) 一會兒",
+"syn": []
+},
+"angry": {
+"day": 20,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 生氣的",
+"syn": [
+"calm",
+"mad"
+]
+},
+"drive": {
+"day": 20,
+"pos": [
+"v"
+],
+"zh": "(v.) 開車",
+"syn": []
+},
+"delicious": {
+"day": 20,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 美味的",
+"syn": [
+"tasty",
+"yummy"
+]
+},
+"through": {
+"day": 20,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 穿過；透過",
+"syn": []
+},
+"beside": {
+"day": 20,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 在…旁邊",
+"syn": []
+},
+"wet": {
+"day": 20,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 濕的",
+"syn": [
+"dry"
+]
+},
+"check": {
+"day": 20,
+"pos": [
+"v"
+],
+"zh": "(v.) 檢查",
+"syn": [
+"examine"
+]
+},
+"light": {
+"day": 20,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 光；燈；(adj.) 輕的；明亮的",
+"syn": [
+"dark",
+"heavy"
+]
+},
+"machine": {
+"day": 20,
+"pos": [
+"n"
+],
+"zh": "(n.) 機器",
+"syn": []
+},
+"poor": {
+"day": 21,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 窮的；可憐的",
+"syn": [
+"rich"
+]
+},
+"teach": {
+"day": 21,
+"pos": [
+"v"
+],
+"zh": "(v.) 教",
+"syn": [
+"learn"
+]
+},
+"owner": {
+"day": 21,
+"pos": [
+"n"
+],
+"zh": "(n.) 主人；擁有者",
+"syn": []
+},
+"village": {
+"day": 21,
+"pos": [
+"n"
+],
+"zh": "(n.) 村莊",
+"syn": []
+},
+"meal": {
+"day": 21,
+"pos": [
+"n"
+],
+"zh": "(n.) 一餐",
+"syn": []
+},
+"waste": {
+"day": 21,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 浪費；(n.) 浪費；廢物",
+"syn": [
+"save"
+]
+},
+"bite": {
+"day": 21,
+"pos": [
+"v"
+],
+"zh": "(v.) 咬",
+"syn": []
+},
+"real": {
+"day": 21,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 真的",
+"syn": [
+"fake",
+"true"
+]
+},
+"burn": {
+"day": 21,
+"pos": [
+"v"
+],
+"zh": "(v.) 燃燒；燒傷",
+"syn": []
+},
+"borrow": {
+"day": 21,
+"pos": [
+"v"
+],
+"zh": "(v.) 借(入)",
+"syn": [
+"lend"
+]
+},
+"somewhere": {
+"day": 22,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 某處",
+"syn": []
+},
+"afraid": {
+"day": 22,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 害怕的；恐怕",
+"syn": [
+"brave",
+"scared"
+]
+},
+"interesting": {
+"day": 22,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有趣的",
+"syn": [
+"boring"
+]
+},
+"excuse": {
+"day": 22,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 藉口；(v.) 原諒",
+"syn": []
+},
+"busy": {
+"day": 22,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 忙碌的",
+"syn": [
+"free"
+]
+},
+"shout": {
+"day": 22,
+"pos": [
+"v"
+],
+"zh": "(v.) 大叫",
+"syn": [
+"whisper",
+"yell"
+]
+},
+"arrive": {
+"day": 22,
+"pos": [
+"v"
+],
+"zh": "(v.) 到達",
+"syn": [
+"get to",
+"leave",
+"reach"
+]
+},
+"service": {
+"day": 22,
+"pos": [
+"n"
+],
+"zh": "(n.) 服務",
+"syn": []
+},
+"across": {
+"day": 22,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 橫越；在對面",
+"syn": []
+},
+"terrible": {
+"day": 22,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 可怕的；糟糕的",
+"syn": [
+"awful",
+"great",
+"wonderful"
+]
+},
+"useful": {
+"day": 23,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有用的",
+"syn": [
+"helpful",
+"useless"
+]
+},
+"national": {
+"day": 23,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 國家的",
+"syn": []
+},
+"smell": {
+"day": 23,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 聞；聞起來；(n.) 氣味",
+"syn": []
+},
+"guess": {
+"day": 23,
+"pos": [
+"v"
+],
+"zh": "(v.) 猜",
+"syn": []
+},
+"level": {
+"day": 23,
+"pos": [
+"n"
+],
+"zh": "(n.) 程度；層級",
+"syn": []
+},
+"hold": {
+"day": 23,
+"pos": [
+"v"
+],
+"zh": "(v.) 握；舉辦",
+"syn": []
+},
+"host": {
+"day": 23,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 主人；主持人；(v.) 主辦",
+"syn": []
+},
+"visitor": {
+"day": 23,
+"pos": [
+"n"
+],
+"zh": "(n.) 訪客",
+"syn": [
+"guest",
+"host"
+]
+},
+"decision": {
+"day": 23,
+"pos": [
+"n"
+],
+"zh": "(n.) 決定",
+"syn": []
+},
+"language": {
+"day": 23,
+"pos": [
+"n"
+],
+"zh": "(n.) 語言",
+"syn": []
+},
+"death": {
+"day": 24,
+"pos": [
+"n"
+],
+"zh": "(n.) 死亡",
+"syn": []
+},
+"sound": {
+"day": 24,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 聽起來；(n.) 聲音",
+"syn": []
+},
+"bright": {
+"day": 24,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 明亮的；聰明的",
+"syn": [
+"dark"
+]
+},
+"brush": {
+"day": 24,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 刷；(n.) 刷子",
+"syn": []
+},
+"wish": {
+"day": 24,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 希望；祝；(n.) 願望；祝福",
+"syn": []
+},
+"kick": {
+"day": 24,
+"pos": [
+"v"
+],
+"zh": "(v.) 踢",
+"syn": []
+},
+"pull": {
+"day": 24,
+"pos": [
+"v"
+],
+"zh": "(v.) 拉",
+"syn": [
+"push"
+]
+},
+"stranger": {
+"day": 24,
+"pos": [
+"n"
+],
+"zh": "(n.) 陌生人",
+"syn": [
+"friend"
+]
+},
+"interview": {
+"day": 24,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 面試；訪問；(v.) 訪問",
+"syn": []
+},
+"hate": {
+"day": 24,
+"pos": [
+"v"
+],
+"zh": "(v.) 討厭",
+"syn": [
+"like",
+"love"
+]
+},
+"simple": {
+"day": 25,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 簡單的",
+"syn": [
+"complex",
+"difficult",
+"easy"
+]
+},
+"favorite": {
+"day": 25,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 最喜愛的",
+"syn": []
+},
+"pack": {
+"day": 25,
+"pos": [
+"v"
+],
+"zh": "(v.) 打包",
+"syn": [
+"unpack"
+]
+},
+"note": {
+"day": 25,
+"pos": [
+"n"
+],
+"zh": "(n.) 筆記；便條",
+"syn": []
+},
+"dirty": {
+"day": 25,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 髒的",
+"syn": [
+"clean"
+]
+},
+"rest": {
+"day": 25,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 休息；其餘；(v.) 休息",
+"syn": [
+"break",
+"work"
+]
+},
+"strange": {
+"day": 25,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 奇怪的",
+"syn": [
+"common",
+"normal",
+"odd"
+]
+},
+"foreign": {
+"day": 25,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 外國的",
+"syn": [
+"local"
+]
+},
+"ready": {
+"day": 25,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 準備好的",
+"syn": [
+"prepared"
+]
+},
+"seat": {
+"day": 25,
+"pos": [
+"n"
+],
+"zh": "(n.) 座位",
+"syn": []
+},
+"traffic": {
+"day": 26,
+"pos": [
+"n"
+],
+"zh": "(n.) 交通",
+"syn": []
+},
+"expensive": {
+"day": 26,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 昂貴的",
+"syn": [
+"cheap"
+]
+},
+"quick": {
+"day": 26,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 快的",
+"syn": [
+"fast",
+"slow"
+]
+},
+"common": {
+"day": 26,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 常見的",
+"syn": [
+"ordinary",
+"rare",
+"unusual"
+]
+},
+"perhaps": {
+"day": 26,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 也許",
+"syn": [
+"maybe"
+]
+},
+"push": {
+"day": 26,
+"pos": [
+"v"
+],
+"zh": "(v.) 推",
+"syn": [
+"pull"
+]
+},
+"homework": {
+"day": 26,
+"pos": [
+"n"
+],
+"zh": "(n.) 功課",
+"syn": []
+},
+"information": {
+"day": 26,
+"pos": [
+"n"
+],
+"zh": "(n.) 資訊",
+"syn": []
+},
+"trick": {
+"day": 26,
+"pos": [
+"n"
+],
+"zh": "(n.) 把戲；詭計",
+"syn": []
+},
+"once": {
+"day": 26,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 一次；曾經",
+"syn": []
+},
+"practice": {
+"day": 27,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 練習；(n.) 練習",
+"syn": []
+},
+"cross": {
+"day": 27,
+"pos": [
+"v"
+],
+"zh": "(v.) 越過",
+"syn": []
+},
+"either": {
+"day": 27,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adv.) 也(用於否定)；(adj.) 兩者任一的",
+"syn": []
+},
+"course": {
+"day": 27,
+"pos": [
+"n"
+],
+"zh": "(n.) 課程",
+"syn": []
+},
+"draw": {
+"day": 27,
+"pos": [
+"v"
+],
+"zh": "(v.) 畫",
+"syn": []
+},
+"blow": {
+"day": 27,
+"pos": [
+"v"
+],
+"zh": "(v.) 吹",
+"syn": []
+},
+"fine": {
+"day": 27,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 好的；晴朗的",
+"syn": [
+"well"
+]
+},
+"case": {
+"day": 27,
+"pos": [
+"n"
+],
+"zh": "(n.) 情況；箱",
+"syn": []
+},
+"attack": {
+"day": 27,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 攻擊；(n.) 攻擊",
+"syn": []
+},
+"area": {
+"day": 27,
+"pos": [
+"n"
+],
+"zh": "(n.) 地區",
+"syn": []
+},
+"lucky": {
+"day": 28,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 幸運的",
+"syn": [
+"fortunate",
+"unlucky"
+]
+},
+"modern": {
+"day": 28,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 現代的",
+"syn": [
+"ancient",
+"old"
+]
+},
+"boring": {
+"day": 28,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 無聊的",
+"syn": [
+"dull",
+"exciting",
+"interesting"
+]
+},
+"hurry": {
+"day": 28,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 趕快；(n.) 匆忙",
+"syn": [
+"rush"
+]
+},
+"front": {
+"day": 28,
+"pos": [
+"n"
+],
+"zh": "(n.) 前面",
+"syn": [
+"back"
+]
+},
+"stupid": {
+"day": 28,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 愚笨的",
+"syn": [
+"clever",
+"foolish",
+"smart"
+]
+},
+"such": {
+"day": 28,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 如此的",
+"syn": []
+},
+"taste": {
+"day": 28,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 嚐起來；(n.) 味道；品味",
+"syn": []
+},
+"seldom": {
+"day": 28,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 很少",
+"syn": [
+"often",
+"rarely"
+]
+},
+"abroad": {
+"day": 28,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 在國外",
+"syn": [
+"at home",
+"overseas"
+]
+},
+"factory": {
+"day": 29,
+"pos": [
+"n"
+],
+"zh": "(n.) 工廠",
+"syn": []
+},
+"choice": {
+"day": 29,
+"pos": [
+"n"
+],
+"zh": "(n.) 選擇",
+"syn": []
+},
+"clear": {
+"day": 29,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 清楚的",
+"syn": [
+"unclear"
+]
+},
+"habit": {
+"day": 29,
+"pos": [
+"n"
+],
+"zh": "(n.) 習慣",
+"syn": []
+},
+"hunt": {
+"day": 29,
+"pos": [
+"v"
+],
+"zh": "(v.) 打獵；搜尋",
+"syn": []
+},
+"land": {
+"day": 29,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 陸地；(v.) 降落",
+"syn": []
+},
+"treat": {
+"day": 29,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 對待；請客；(n.) 款待",
+"syn": []
+},
+"full": {
+"day": 29,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 滿的；飽的",
+"syn": [
+"empty",
+"hungry"
+]
+},
+"feed": {
+"day": 29,
+"pos": [
+"v"
+],
+"zh": "(v.) 餵",
+"syn": []
+},
+"outside": {
+"day": 29,
+"pos": [
+"adv",
+"prep"
+],
+"zh": "(adv.) 在外面；(prep.) 在…外面",
+"syn": [
+"inside"
+]
+},
+"fail": {
+"day": 30,
+"pos": [
+"v"
+],
+"zh": "(v.) 失敗；不及格",
+"syn": [
+"pass",
+"succeed"
+]
+},
+"mix": {
+"day": 30,
+"pos": [
+"v"
+],
+"zh": "(v.) 混合",
+"syn": []
+},
+"helpful": {
+"day": 30,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有幫助的",
+"syn": [
+"useful"
+]
+},
+"allow": {
+"day": 30,
+"pos": [
+"v"
+],
+"zh": "(v.) 允許",
+"syn": [
+"forbid",
+"let"
+]
+},
+"sentence": {
+"day": 30,
+"pos": [
+"n"
+],
+"zh": "(n.) 句子",
+"syn": []
+},
+"actually": {
+"day": 30,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 實際上",
+"syn": [
+"in fact"
+]
+},
+"explain": {
+"day": 30,
+"pos": [
+"v"
+],
+"zh": "(v.) 解釋",
+"syn": []
+},
+"alone": {
+"day": 30,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adv.) 單獨地；(adj.) 單獨的",
+"syn": [
+"together"
+]
+},
+"honest": {
+"day": 30,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 誠實的",
+"syn": [
+"dishonest"
+]
+},
+"hobby": {
+"day": 30,
+"pos": [
+"n"
+],
+"zh": "(n.) 嗜好",
+"syn": []
+},
+"ahead": {
+"day": 31,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 在前面；預先",
+"syn": [
+"behind"
+]
+},
+"wonderful": {
+"day": 31,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 極好的",
+"syn": [
+"amazing",
+"great",
+"terrible"
+]
+},
+"die": {
+"day": 31,
+"pos": [
+"v"
+],
+"zh": "(v.) 死",
+"syn": [
+"live"
+]
+},
+"lead": {
+"day": 31,
+"pos": [
+"v"
+],
+"zh": "(v.) 帶領",
+"syn": [
+"follow",
+"guide"
+]
+},
+"count": {
+"day": 31,
+"pos": [
+"v"
+],
+"zh": "(v.) 數；計算",
+"syn": []
+},
+"pray": {
+"day": 31,
+"pos": [
+"v"
+],
+"zh": "(v.) 祈禱",
+"syn": []
+},
+"carry": {
+"day": 31,
+"pos": [
+"v"
+],
+"zh": "(v.) 攜帶；搬",
+"syn": []
+},
+"far": {
+"day": 31,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adj.) 遠的；(adv.) 遠地",
+"syn": [
+"close",
+"near"
+]
+},
+"whole": {
+"day": 31,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 全部的",
+"syn": [
+"entire",
+"part"
+]
+},
+"mistake": {
+"day": 31,
+"pos": [
+"n"
+],
+"zh": "(n.) 錯誤",
+"syn": [
+"error"
+]
+},
+"noise": {
+"day": 32,
+"pos": [
+"n"
+],
+"zh": "(n.) 噪音",
+"syn": [
+"silence"
+]
+},
+"cheer": {
+"day": 32,
+"pos": [
+"v"
+],
+"zh": "(v.) 歡呼",
+"syn": []
+},
+"garbage": {
+"day": 32,
+"pos": [
+"n"
+],
+"zh": "(n.) 垃圾",
+"syn": []
+},
+"nature": {
+"day": 32,
+"pos": [
+"n"
+],
+"zh": "(n.) 大自然",
+"syn": []
+},
+"hungry": {
+"day": 32,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 飢餓的",
+"syn": [
+"full"
+]
+},
+"large": {
+"day": 32,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 大的",
+"syn": [
+"big",
+"huge",
+"little",
+"small"
+]
+},
+"lend": {
+"day": 32,
+"pos": [
+"v"
+],
+"zh": "(v.) 借(出)",
+"syn": [
+"borrow"
+]
+},
+"low": {
+"day": 32,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 低的",
+"syn": [
+"high"
+]
+},
+"seem": {
+"day": 32,
+"pos": [
+"v"
+],
+"zh": "(v.) 似乎",
+"syn": [
+"appear",
+"look"
+]
+},
+"quite": {
+"day": 32,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 相當",
+"syn": [
+"very"
+]
+},
+"smoke": {
+"day": 33,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 抽菸；(n.) 煙",
+"syn": []
+},
+"reason": {
+"day": 33,
+"pos": [
+"n"
+],
+"zh": "(n.) 理由",
+"syn": [
+"cause"
+]
+},
+"main": {
+"day": 33,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 主要的",
+"syn": [
+"major"
+]
+},
+"probably": {
+"day": 33,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 很可能",
+"syn": [
+"likely"
+]
+},
+"middle": {
+"day": 33,
+"pos": [
+"n"
+],
+"zh": "(n.) 中間",
+"syn": [
+"center"
+]
+},
+"plant": {
+"day": 33,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 植物；(v.) 種植",
+"syn": []
+},
+"topic": {
+"day": 33,
+"pos": [
+"n"
+],
+"zh": "(n.) 話題；主題",
+"syn": []
+},
+"grade": {
+"day": 33,
+"pos": [
+"n"
+],
+"zh": "(n.) 年級；成績",
+"syn": []
+},
+"joy": {
+"day": 33,
+"pos": [
+"n"
+],
+"zh": "(n.) 喜悅",
+"syn": [
+"happiness",
+"sadness"
+]
+},
+"lonely": {
+"day": 33,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 寂寞的",
+"syn": []
+},
+"fill": {
+"day": 34,
+"pos": [
+"v"
+],
+"zh": "(v.) 裝滿",
+"syn": [
+"empty"
+]
+},
+"straight": {
+"day": 34,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adv.) 直地；(adj.) 直的",
+"syn": []
+},
+"influence": {
+"day": 34,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 影響；(n.) 影響",
+"syn": []
+},
+"convenient": {
+"day": 34,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 方便的",
+"syn": [
+"inconvenient"
+]
+},
+"friendly": {
+"day": 34,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 友善的",
+"syn": [
+"kind",
+"unfriendly"
+]
+},
+"rich": {
+"day": 34,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 富有的",
+"syn": [
+"poor",
+"wealthy"
+]
+},
+"copy": {
+"day": 34,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 複製；抄寫；(n.) 一份；副本",
+"syn": []
+},
+"sight": {
+"day": 34,
+"pos": [
+"n"
+],
+"zh": "(n.) 視力；景象",
+"syn": []
+},
+"sign": {
+"day": 34,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 標誌；告示；(v.) 簽名",
+"syn": []
+},
+"list": {
+"day": 34,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 清單；(v.) 列出",
+"syn": []
+},
+"energy": {
+"day": 35,
+"pos": [
+"n"
+],
+"zh": "(n.) 能量；精力",
+"syn": []
+},
+"offer": {
+"day": 35,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 提供；(n.) 提議",
+"syn": [
+"provide",
+"refuse"
+]
+},
+"wake": {
+"day": 35,
+"pos": [
+"v"
+],
+"zh": "(v.) 醒來；叫醒",
+"syn": [
+"sleep"
+]
+},
+"suggest": {
+"day": 35,
+"pos": [
+"v"
+],
+"zh": "(v.) 建議",
+"syn": []
+},
+"shy": {
+"day": 35,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 害羞的",
+"syn": [
+"outgoing"
+]
+},
+"raise": {
+"day": 35,
+"pos": [
+"v"
+],
+"zh": "(v.) 舉起；飼養；募集",
+"syn": [
+"lift",
+"lower"
+]
+},
+"thick": {
+"day": 35,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 厚的",
+"syn": [
+"thin"
+]
+},
+"test": {
+"day": 35,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 考試；(v.) 測試",
+"syn": []
+},
+"corner": {
+"day": 35,
+"pos": [
+"n"
+],
+"zh": "(n.) 角落；轉角",
+"syn": []
+},
+"headache": {
+"day": 35,
+"pos": [
+"n"
+],
+"zh": "(n.) 頭痛",
+"syn": []
+},
+"along": {
+"day": 36,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 沿著",
+"syn": []
+},
+"spell": {
+"day": 36,
+"pos": [
+"v"
+],
+"zh": "(v.) 拼字",
+"syn": []
+},
+"expect": {
+"day": 36,
+"pos": [
+"v"
+],
+"zh": "(v.) 期待；預期",
+"syn": []
+},
+"reach": {
+"day": 36,
+"pos": [
+"v"
+],
+"zh": "(v.) 到達；伸手拿",
+"syn": [
+"arrive at",
+"get to"
+]
+},
+"activity": {
+"day": 36,
+"pos": [
+"n"
+],
+"zh": "(n.) 活動",
+"syn": []
+},
+"brave": {
+"day": 36,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 勇敢的",
+"syn": [
+"afraid",
+"scared"
+]
+},
+"polite": {
+"day": 36,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有禮貌的",
+"syn": [
+"impolite",
+"rude"
+]
+},
+"pleasure": {
+"day": 36,
+"pos": [
+"n"
+],
+"zh": "(n.) 樂趣；榮幸",
+"syn": []
+},
+"glad": {
+"day": 36,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 高興的",
+"syn": [
+"happy",
+"sad"
+]
+},
+"uniform": {
+"day": 36,
+"pos": [
+"n"
+],
+"zh": "(n.) 制服",
+"syn": []
+},
+"touch": {
+"day": 37,
+"pos": [
+"v"
+],
+"zh": "(v.) 觸摸",
+"syn": []
+},
+"cheap": {
+"day": 37,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 便宜的",
+"syn": [
+"expensive"
+]
+},
+"weak": {
+"day": 37,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 虛弱的",
+"syn": [
+"strong"
+]
+},
+"bill": {
+"day": 37,
+"pos": [
+"n"
+],
+"zh": "(n.) 帳單；紙鈔",
+"syn": []
+},
+"program": {
+"day": 37,
+"pos": [
+"n"
+],
+"zh": "(n.) 節目；計畫",
+"syn": []
+},
+"boil": {
+"day": 37,
+"pos": [
+"v"
+],
+"zh": "(v.) 煮沸",
+"syn": []
+},
+"laugh": {
+"day": 37,
+"pos": [
+"v"
+],
+"zh": "(v.) 笑",
+"syn": [
+"cry"
+]
+},
+"knowledge": {
+"day": 37,
+"pos": [
+"n"
+],
+"zh": "(n.) 知識",
+"syn": []
+},
+"respect": {
+"day": 37,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 尊敬；(n.) 尊敬",
+"syn": []
+},
+"secret": {
+"day": 37,
+"pos": [
+"n"
+],
+"zh": "(n.) 秘密",
+"syn": [
+"public"
+]
+},
+"deep": {
+"day": 38,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 深的",
+"syn": [
+"shallow"
+]
+},
+"wise": {
+"day": 38,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有智慧的",
+"syn": [
+"clever",
+"foolish",
+"smart"
+]
+},
+"repeat": {
+"day": 38,
+"pos": [
+"v"
+],
+"zh": "(v.) 重複",
+"syn": []
+},
+"belong": {
+"day": 38,
+"pos": [
+"v"
+],
+"zh": "(v.) 屬於",
+"syn": []
+},
+"event": {
+"day": 38,
+"pos": [
+"n"
+],
+"zh": "(n.) 事件；活動",
+"syn": []
+},
+"careful": {
+"day": 38,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 小心的",
+"syn": [
+"careless"
+]
+},
+"type": {
+"day": 38,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 類型；(v.) 打字",
+"syn": []
+},
+"pair": {
+"day": 38,
+"pos": [
+"n"
+],
+"zh": "(n.) 一雙；一對",
+"syn": []
+},
+"difference": {
+"day": 38,
+"pos": [
+"n"
+],
+"zh": "(n.) 差異",
+"syn": []
+},
+"loud": {
+"day": 38,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 大聲的",
+"syn": [
+"noisy",
+"quiet"
+]
+},
+"member": {
+"day": 39,
+"pos": [
+"n"
+],
+"zh": "(n.) 成員",
+"syn": []
+},
+"thirsty": {
+"day": 39,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 口渴的",
+"syn": []
+},
+"feeling": {
+"day": 39,
+"pos": [
+"n"
+],
+"zh": "(n.) 感覺；感情",
+"syn": []
+},
+"describe": {
+"day": 39,
+"pos": [
+"v"
+],
+"zh": "(v.) 描述",
+"syn": []
+},
+"relative": {
+"day": 39,
+"pos": [
+"n"
+],
+"zh": "(n.) 親戚",
+"syn": []
+},
+"accident": {
+"day": 39,
+"pos": [
+"n"
+],
+"zh": "(n.) 意外",
+"syn": []
+},
+"successful": {
+"day": 39,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 成功的",
+"syn": [
+"unsuccessful"
+]
+},
+"comfortable": {
+"day": 39,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 舒適的",
+"syn": [
+"uncomfortable"
+]
+},
+"imagine": {
+"day": 39,
+"pos": [
+"v"
+],
+"zh": "(v.) 想像",
+"syn": []
+},
+"avoid": {
+"day": 39,
+"pos": [
+"v"
+],
+"zh": "(v.) 避免",
+"syn": []
+},
+"excellent": {
+"day": 40,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 優秀的",
+"syn": [
+"great",
+"poor",
+"terrible",
+"wonderful"
+]
+},
+"impossible": {
+"day": 40,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 不可能的",
+"syn": [
+"possible"
+]
+},
+"present": {
+"day": 40,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 禮物；(adj.) 出席的；現在的",
+"syn": [
+"gift"
+]
+},
+"used": {
+"day": 40,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 習慣的；過去常",
+"syn": []
+},
+"volunteer": {
+"day": 40,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 志工；(v.) 自願",
+"syn": []
+},
+"decorate": {
+"day": 40,
+"pos": [
+"v"
+],
+"zh": "(v.) 裝飾",
+"syn": []
+},
+"passenger": {
+"day": 40,
+"pos": [
+"n"
+],
+"zh": "(n.) 乘客",
+"syn": []
+},
+"talent": {
+"day": 40,
+"pos": [
+"n"
+],
+"zh": "(n.) 天分",
+"syn": []
+},
+"fault": {
+"day": 40,
+"pos": [
+"n"
+],
+"zh": "(n.) 過錯",
+"syn": []
+},
+"brand": {
+"day": 40,
+"pos": [
+"n"
+],
+"zh": "(n.) 品牌",
+"syn": []
+},
+"illegal": {
+"day": 41,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 違法的",
+"syn": []
+},
+"tidy": {
+"day": 41,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(adj.) 整潔的；(v.) 整理",
+"syn": [
+"messy",
+"neat"
+]
+},
+"opportunity": {
+"day": 41,
+"pos": [
+"n"
+],
+"zh": "(n.) 機會",
+"syn": [
+"chance"
+]
+},
+"communication": {
+"day": 41,
+"pos": [
+"n"
+],
+"zh": "(n.) 溝通",
+"syn": []
+},
+"semester": {
+"day": 41,
+"pos": [
+"n"
+],
+"zh": "(n.) 學期",
+"syn": []
+},
+"concentrate": {
+"day": 41,
+"pos": [
+"v"
+],
+"zh": "(v.) 專心",
+"syn": [
+"focus"
+]
+},
+"exciting": {
+"day": 41,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 令人興奮的",
+"syn": [
+"boring"
+]
+},
+"excited": {
+"day": 41,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 感到興奮的",
+"syn": [
+"bored"
+]
+},
+"bored": {
+"day": 41,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 感到無聊的",
+"syn": [
+"excited"
+]
+},
+"luckily": {
+"day": 41,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 幸運地",
+"syn": [
+"fortunately",
+"unluckily"
+]
+},
+"finally": {
+"day": 42,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 最後；終於",
+"syn": [
+"at last",
+"first"
+]
+},
+"carefully": {
+"day": 42,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 小心地",
+"syn": [
+"carelessly"
+]
+},
+"slowly": {
+"day": 42,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 慢慢地",
+"syn": [
+"fast",
+"quickly"
+]
+},
+"nothing": {
+"day": 42,
+"pos": [
+"pron"
+],
+"zh": "(pron.) 沒有東西",
+"syn": [
+"everything"
+]
+},
+"anything": {
+"day": 42,
+"pos": [
+"pron"
+],
+"zh": "(pron.) 任何事物",
+"syn": []
+},
+"crowded": {
+"day": 42,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 擁擠的",
+"syn": [
+"empty"
+]
+},
+"noisy": {
+"day": 42,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 吵鬧的",
+"syn": [
+"loud",
+"quiet"
+]
+},
+"quiet": {
+"day": 42,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 安靜的",
+"syn": [
+"loud",
+"noisy",
+"silent"
+]
+},
+"instead": {
+"day": 42,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 代替",
+"syn": []
+},
+"mind": {
+"day": 42,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 頭腦；心思；(v.) 介意",
+"syn": []
+},
+"manage": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 設法做到；管理",
+"syn": []
+},
+"matter": {
+"day": 43,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 要緊；(n.) 事情；問題",
+"syn": []
+},
+"look": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 看；看起來",
+"syn": []
+},
+"take": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 拿；搭乘；花(時間)",
+"syn": [
+"give"
+]
+},
+"stop": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 停止",
+"syn": [
+"begin",
+"start"
+]
+},
+"put": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 放",
+"syn": [
+"place"
+]
+},
+"run": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 跑；經營",
+"syn": []
+},
+"bring": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 帶來",
+"syn": [
+"take"
+]
+},
+"return": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 歸還；返回",
+"syn": [
+"go back",
+"leave"
+]
+},
+"protect": {
+"day": 43,
+"pos": [
+"v"
+],
+"zh": "(v.) 保護",
+"syn": [
+"harm",
+"hurt"
+]
+},
+"improve": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 改善",
+"syn": []
+},
+"solve": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 解決",
+"syn": []
+},
+"receive": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 收到",
+"syn": [
+"get",
+"give",
+"send"
+]
+},
+"prefer": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 比較喜歡",
+"syn": []
+},
+"introduce": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 介紹",
+"syn": []
+},
+"realize": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 了解；領悟",
+"syn": [
+"understand"
+]
+},
+"encourage": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 鼓勵",
+"syn": [
+"discourage"
+]
+},
+"accept": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 接受",
+"syn": [
+"refuse"
+]
+},
+"worth": {
+"day": 44,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 值得的",
+"syn": []
+},
+"explore": {
+"day": 44,
+"pos": [
+"v"
+],
+"zh": "(v.) 探索",
+"syn": []
+},
+"handsome": {
+"day": 45,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 英俊的",
+"syn": [
+"goodlooking",
+"ugly"
+]
+},
+"beautiful": {
+"day": 45,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 美麗的",
+"syn": [
+"lovely",
+"pretty",
+"ugly"
+]
+},
+"ugly": {
+"day": 45,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 醜的",
+"syn": [
+"beautiful",
+"pretty"
+]
+},
+"slim": {
+"day": 45,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 苗條的",
+"syn": [
+"fat",
+"thin"
+]
+},
+"thin": {
+"day": 45,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 瘦的；薄的",
+"syn": [
+"fat",
+"slim",
+"thick"
+]
+},
+"cute": {
+"day": 46,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 可愛的",
+"syn": [
+"lovely"
+]
+},
+"blind": {
+"day": 46,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 瞎的",
+"syn": []
+},
+"height": {
+"day": 46,
+"pos": [
+"n"
+],
+"zh": "(n.) 身高；高度",
+"syn": []
+},
+"weight": {
+"day": 46,
+"pos": [
+"n"
+],
+"zh": "(n.) 體重；重量",
+"syn": []
+},
+"young": {
+"day": 46,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 年輕的",
+"syn": [
+"old"
+]
+},
+"lazy": {
+"day": 47,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 懶惰的",
+"syn": [
+"hardworking"
+]
+},
+"hard-working": {
+"day": 47,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 勤奮的",
+"syn": [
+"lazy"
+]
+},
+"smart": {
+"day": 47,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 聰明的",
+"syn": [
+"clever",
+"foolish",
+"stupid"
+]
+},
+"clever": {
+"day": 47,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 聰明的",
+"syn": [
+"foolish",
+"smart",
+"stupid"
+]
+},
+"gentle": {
+"day": 47,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 溫和的",
+"syn": [
+"kind",
+"rough",
+"soft"
+]
+},
+"patient": {
+"day": 48,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(adj.) 有耐心的；(n.) 病人",
+"syn": [
+"impatient"
+]
+},
+"curious": {
+"day": 48,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 好奇的",
+"syn": []
+},
+"confident": {
+"day": 48,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有自信的",
+"syn": [
+"nervous"
+]
+},
+"careless": {
+"day": 48,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 粗心的",
+"syn": [
+"careful"
+]
+},
+"rude": {
+"day": 48,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 無禮的",
+"syn": [
+"impolite",
+"polite"
+]
+},
+"upset": {
+"day": 49,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 心煩的",
+"syn": [
+"happy",
+"unhappy"
+]
+},
+"nervous": {
+"day": 49,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 緊張的",
+"syn": [
+"anxious",
+"calm",
+"relaxed"
+]
+},
+"worried": {
+"day": 49,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 擔心的",
+"syn": [
+"anxious"
+]
+},
+"disappointed": {
+"day": 49,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 失望的",
+"syn": [
+"satisfied"
+]
+},
+"satisfied": {
+"day": 49,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 滿意的",
+"syn": [
+"disappointed",
+"pleased"
+]
+},
+"surprised": {
+"day": 50,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 驚訝的",
+"syn": [
+"amazed"
+]
+},
+"mad": {
+"day": 50,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 生氣的；瘋的",
+"syn": [
+"angry"
+]
+},
+"unhappy": {
+"day": 50,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 不快樂的",
+"syn": [
+"happy",
+"sad"
+]
+},
+"tired": {
+"day": 50,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 疲累的",
+"syn": [
+"energetic"
+]
+},
+"sad": {
+"day": 50,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 悲傷的",
+"syn": [
+"glad",
+"happy",
+"unhappy"
+]
+},
+"shoulder": {
+"day": 51,
+"pos": [
+"n"
+],
+"zh": "(n.) 肩膀",
+"syn": []
+},
+"stomach": {
+"day": 51,
+"pos": [
+"n"
+],
+"zh": "(n.) 胃；肚子",
+"syn": []
+},
+"throat": {
+"day": 51,
+"pos": [
+"n"
+],
+"zh": "(n.) 喉嚨",
+"syn": []
+},
+"neck": {
+"day": 51,
+"pos": [
+"n"
+],
+"zh": "(n.) 脖子",
+"syn": []
+},
+"knee": {
+"day": 51,
+"pos": [
+"n"
+],
+"zh": "(n.) 膝蓋",
+"syn": []
+},
+"finger": {
+"day": 52,
+"pos": [
+"n"
+],
+"zh": "(n.) 手指",
+"syn": []
+},
+"toe": {
+"day": 52,
+"pos": [
+"n"
+],
+"zh": "(n.) 腳趾",
+"syn": []
+},
+"tooth": {
+"day": 52,
+"pos": [
+"n"
+],
+"zh": "(n.) 牙齒(複 teeth)",
+"syn": []
+},
+"lip": {
+"day": 52,
+"pos": [
+"n"
+],
+"zh": "(n.) 嘴唇",
+"syn": []
+},
+"skin": {
+"day": 52,
+"pos": [
+"n"
+],
+"zh": "(n.) 皮膚",
+"syn": []
+},
+"fever": {
+"day": 53,
+"pos": [
+"n"
+],
+"zh": "(n.) 發燒",
+"syn": []
+},
+"flu": {
+"day": 53,
+"pos": [
+"n"
+],
+"zh": "(n.) 流感",
+"syn": []
+},
+"cough": {
+"day": 53,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 咳嗽；(n.) 咳嗽",
+"syn": []
+},
+"medicine": {
+"day": 53,
+"pos": [
+"n"
+],
+"zh": "(n.) 藥",
+"syn": []
+},
+"healthy": {
+"day": 53,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 健康的",
+"syn": [
+"ill",
+"sick",
+"well"
+]
+},
+"pain": {
+"day": 54,
+"pos": [
+"n"
+],
+"zh": "(n.) 疼痛",
+"syn": []
+},
+"sore": {
+"day": 54,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 痠痛的",
+"syn": []
+},
+"dentist": {
+"day": 54,
+"pos": [
+"n"
+],
+"zh": "(n.) 牙醫",
+"syn": []
+},
+"nurse": {
+"day": 54,
+"pos": [
+"n"
+],
+"zh": "(n.) 護士",
+"syn": []
+},
+"ambulance": {
+"day": 54,
+"pos": [
+"n"
+],
+"zh": "(n.) 救護車",
+"syn": []
+},
+"mask": {
+"day": 55,
+"pos": [
+"n"
+],
+"zh": "(n.) 口罩；面具",
+"syn": []
+},
+"injury": {
+"day": 55,
+"pos": [
+"n"
+],
+"zh": "(n.) 受傷",
+"syn": []
+},
+"exercise": {
+"day": 55,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 運動；練習題；(v.) 運動",
+"syn": []
+},
+"sleep": {
+"day": 55,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 睡覺；(n.) 睡眠",
+"syn": [
+"wake"
+]
+},
+"dizzy": {
+"day": 55,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 頭暈的",
+"syn": []
+},
+"rice": {
+"day": 56,
+"pos": [
+"n"
+],
+"zh": "(n.) 米飯",
+"syn": []
+},
+"noodle": {
+"day": 56,
+"pos": [
+"n"
+],
+"zh": "(n.) 麵",
+"syn": []
+},
+"bread": {
+"day": 56,
+"pos": [
+"n"
+],
+"zh": "(n.) 麵包",
+"syn": []
+},
+"dumpling": {
+"day": 56,
+"pos": [
+"n"
+],
+"zh": "(n.) 水餃",
+"syn": []
+},
+"sandwich": {
+"day": 56,
+"pos": [
+"n"
+],
+"zh": "(n.) 三明治",
+"syn": []
+},
+"beef": {
+"day": 57,
+"pos": [
+"n"
+],
+"zh": "(n.) 牛肉",
+"syn": []
+},
+"pork": {
+"day": 57,
+"pos": [
+"n"
+],
+"zh": "(n.) 豬肉",
+"syn": []
+},
+"steak": {
+"day": 57,
+"pos": [
+"n"
+],
+"zh": "(n.) 牛排",
+"syn": []
+},
+"seafood": {
+"day": 57,
+"pos": [
+"n"
+],
+"zh": "(n.) 海鮮",
+"syn": []
+},
+"soup": {
+"day": 57,
+"pos": [
+"n"
+],
+"zh": "(n.) 湯",
+"syn": []
+},
+"vegetable": {
+"day": 58,
+"pos": [
+"n"
+],
+"zh": "(n.) 蔬菜",
+"syn": []
+},
+"fruit": {
+"day": 58,
+"pos": [
+"n"
+],
+"zh": "(n.) 水果",
+"syn": []
+},
+"banana": {
+"day": 58,
+"pos": [
+"n"
+],
+"zh": "(n.) 香蕉",
+"syn": []
+},
+"grape": {
+"day": 58,
+"pos": [
+"n"
+],
+"zh": "(n.) 葡萄",
+"syn": []
+},
+"lemon": {
+"day": 58,
+"pos": [
+"n"
+],
+"zh": "(n.) 檸檬",
+"syn": []
+},
+"mango": {
+"day": 59,
+"pos": [
+"n"
+],
+"zh": "(n.) 芒果",
+"syn": []
+},
+"strawberry": {
+"day": 59,
+"pos": [
+"n"
+],
+"zh": "(n.) 草莓",
+"syn": []
+},
+"pumpkin": {
+"day": 59,
+"pos": [
+"n"
+],
+"zh": "(n.) 南瓜",
+"syn": []
+},
+"bean": {
+"day": 59,
+"pos": [
+"n"
+],
+"zh": "(n.) 豆子",
+"syn": []
+},
+"tomato": {
+"day": 59,
+"pos": [
+"n"
+],
+"zh": "(n.) 番茄",
+"syn": []
+},
+"dessert": {
+"day": 60,
+"pos": [
+"n"
+],
+"zh": "(n.) 甜點",
+"syn": []
+},
+"snack": {
+"day": 60,
+"pos": [
+"n"
+],
+"zh": "(n.) 點心；零食",
+"syn": []
+},
+"cookie": {
+"day": 60,
+"pos": [
+"n"
+],
+"zh": "(n.) 餅乾",
+"syn": []
+},
+"candy": {
+"day": 60,
+"pos": [
+"n"
+],
+"zh": "(n.) 糖果",
+"syn": []
+},
+"chocolate": {
+"day": 60,
+"pos": [
+"n"
+],
+"zh": "(n.) 巧克力",
+"syn": []
+},
+"juice": {
+"day": 61,
+"pos": [
+"n"
+],
+"zh": "(n.) 果汁",
+"syn": []
+},
+"tea": {
+"day": 61,
+"pos": [
+"n"
+],
+"zh": "(n.) 茶",
+"syn": []
+},
+"coffee": {
+"day": 61,
+"pos": [
+"n"
+],
+"zh": "(n.) 咖啡",
+"syn": []
+},
+"sugar": {
+"day": 61,
+"pos": [
+"n"
+],
+"zh": "(n.) 糖",
+"syn": []
+},
+"butter": {
+"day": 61,
+"pos": [
+"n"
+],
+"zh": "(n.) 奶油",
+"syn": []
+},
+"fry": {
+"day": 62,
+"pos": [
+"v"
+],
+"zh": "(v.) 炸；煎",
+"syn": []
+},
+"menu": {
+"day": 62,
+"pos": [
+"n"
+],
+"zh": "(n.) 菜單",
+"syn": []
+},
+"bowl": {
+"day": 62,
+"pos": [
+"n"
+],
+"zh": "(n.) 碗",
+"syn": []
+},
+"plate": {
+"day": 62,
+"pos": [
+"n"
+],
+"zh": "(n.) 盤子",
+"syn": []
+},
+"spoon": {
+"day": 62,
+"pos": [
+"n"
+],
+"zh": "(n.) 湯匙",
+"syn": []
+},
+"fork": {
+"day": 63,
+"pos": [
+"n"
+],
+"zh": "(n.) 叉子",
+"syn": []
+},
+"chopsticks": {
+"day": 63,
+"pos": [
+"n"
+],
+"zh": "(n.) 筷子",
+"syn": []
+},
+"knife": {
+"day": 63,
+"pos": [
+"n"
+],
+"zh": "(n.) 刀子(複 knives)",
+"syn": []
+},
+"breakfast": {
+"day": 63,
+"pos": [
+"n"
+],
+"zh": "(n.) 早餐",
+"syn": []
+},
+"yummy": {
+"day": 63,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 好吃的",
+"syn": [
+"delicious",
+"tasty"
+]
+},
+"salty": {
+"day": 64,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 鹹的",
+"syn": []
+},
+"sour": {
+"day": 64,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 酸的",
+"syn": [
+"sweet"
+]
+},
+"bitter": {
+"day": 64,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 苦的",
+"syn": [
+"sweet"
+]
+},
+"spicy": {
+"day": 64,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 辣的",
+"syn": []
+},
+"sweet": {
+"day": 64,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 甜的",
+"syn": [
+"bitter",
+"sour"
+]
+},
+"jacket": {
+"day": 65,
+"pos": [
+"n"
+],
+"zh": "(n.) 夾克",
+"syn": []
+},
+"coat": {
+"day": 65,
+"pos": [
+"n"
+],
+"zh": "(n.) 大衣",
+"syn": []
+},
+"sweater": {
+"day": 65,
+"pos": [
+"n"
+],
+"zh": "(n.) 毛衣",
+"syn": []
+},
+"jeans": {
+"day": 65,
+"pos": [
+"n"
+],
+"zh": "(n.) 牛仔褲",
+"syn": []
+},
+"shorts": {
+"day": 65,
+"pos": [
+"n"
+],
+"zh": "(n.) 短褲",
+"syn": []
+},
+"skirt": {
+"day": 66,
+"pos": [
+"n"
+],
+"zh": "(n.) 裙子",
+"syn": []
+},
+"sneakers": {
+"day": 66,
+"pos": [
+"n"
+],
+"zh": "(n.) 運動鞋",
+"syn": []
+},
+"sock": {
+"day": 66,
+"pos": [
+"n"
+],
+"zh": "(n.) 襪子",
+"syn": []
+},
+"glove": {
+"day": 66,
+"pos": [
+"n"
+],
+"zh": "(n.) 手套",
+"syn": []
+},
+"belt": {
+"day": 66,
+"pos": [
+"n"
+],
+"zh": "(n.) 皮帶",
+"syn": []
+},
+"cap": {
+"day": 67,
+"pos": [
+"n"
+],
+"zh": "(n.) 帽子(鴨舌帽)",
+"syn": []
+},
+"glasses": {
+"day": 67,
+"pos": [
+"n"
+],
+"zh": "(n.) 眼鏡",
+"syn": []
+},
+"umbrella": {
+"day": 67,
+"pos": [
+"n"
+],
+"zh": "(n.) 雨傘",
+"syn": []
+},
+"wallet": {
+"day": 67,
+"pos": [
+"n"
+],
+"zh": "(n.) 皮夾",
+"syn": []
+},
+"dress": {
+"day": 67,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 洋裝；(v.) 穿衣",
+"syn": []
+},
+"price": {
+"day": 68,
+"pos": [
+"n"
+],
+"zh": "(n.) 價格",
+"syn": []
+},
+"dollar": {
+"day": 68,
+"pos": [
+"n"
+],
+"zh": "(n.) 元",
+"syn": []
+},
+"coin": {
+"day": 68,
+"pos": [
+"n"
+],
+"zh": "(n.) 硬幣",
+"syn": []
+},
+"discount": {
+"day": 68,
+"pos": [
+"n"
+],
+"zh": "(n.) 折扣",
+"syn": []
+},
+"sale": {
+"day": 68,
+"pos": [
+"n"
+],
+"zh": "(n.) 拍賣",
+"syn": []
+},
+"clerk": {
+"day": 69,
+"pos": [
+"n"
+],
+"zh": "(n.) 店員",
+"syn": []
+},
+"shopkeeper": {
+"day": 69,
+"pos": [
+"n"
+],
+"zh": "(n.) 店主",
+"syn": []
+},
+"customer": {
+"day": 69,
+"pos": [
+"n"
+],
+"zh": "(n.) 顧客",
+"syn": []
+},
+"credit": {
+"day": 69,
+"pos": [
+"n"
+],
+"zh": "(n.) 信用",
+"syn": []
+},
+"afford": {
+"day": 69,
+"pos": [
+"v"
+],
+"zh": "(v.) 負擔得起",
+"syn": []
+},
+"supermarket": {
+"day": 70,
+"pos": [
+"n"
+],
+"zh": "(n.) 超市",
+"syn": []
+},
+"receipt": {
+"day": 70,
+"pos": [
+"n"
+],
+"zh": "(n.) 收據",
+"syn": []
+},
+"cash": {
+"day": 70,
+"pos": [
+"n"
+],
+"zh": "(n.) 現金",
+"syn": []
+},
+"department": {
+"day": 70,
+"pos": [
+"n"
+],
+"zh": "(n.) 部門",
+"syn": []
+},
+"coupon": {
+"day": 70,
+"pos": [
+"n"
+],
+"zh": "(n.) 折價券",
+"syn": []
+},
+"apartment": {
+"day": 71,
+"pos": [
+"n"
+],
+"zh": "(n.) 公寓",
+"syn": []
+},
+"balcony": {
+"day": 71,
+"pos": [
+"n"
+],
+"zh": "(n.) 陽台",
+"syn": []
+},
+"bedroom": {
+"day": 71,
+"pos": [
+"n"
+],
+"zh": "(n.) 臥室",
+"syn": []
+},
+"bathroom": {
+"day": 71,
+"pos": [
+"n"
+],
+"zh": "(n.) 浴室",
+"syn": []
+},
+"kitchen": {
+"day": 71,
+"pos": [
+"n"
+],
+"zh": "(n.) 廚房",
+"syn": []
+},
+"living": {
+"day": 72,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 生活的",
+"syn": []
+},
+"dining": {
+"day": 72,
+"pos": [
+"n"
+],
+"zh": "(n.) 用餐",
+"syn": []
+},
+"floor": {
+"day": 72,
+"pos": [
+"n"
+],
+"zh": "(n.) 地板；樓層",
+"syn": []
+},
+"wall": {
+"day": 72,
+"pos": [
+"n"
+],
+"zh": "(n.) 牆",
+"syn": []
+},
+"stair": {
+"day": 72,
+"pos": [
+"n"
+],
+"zh": "(n.) 樓梯",
+"syn": []
+},
+"elevator": {
+"day": 73,
+"pos": [
+"n"
+],
+"zh": "(n.) 電梯",
+"syn": []
+},
+"garden": {
+"day": 73,
+"pos": [
+"n"
+],
+"zh": "(n.) 花園",
+"syn": []
+},
+"yard": {
+"day": 73,
+"pos": [
+"n"
+],
+"zh": "(n.) 院子",
+"syn": []
+},
+"gate": {
+"day": 73,
+"pos": [
+"n"
+],
+"zh": "(n.) 大門",
+"syn": []
+},
+"roof": {
+"day": 73,
+"pos": [
+"n"
+],
+"zh": "(n.) 屋頂",
+"syn": []
+},
+"furniture": {
+"day": 74,
+"pos": [
+"n"
+],
+"zh": "(n.) 家具",
+"syn": []
+},
+"sofa": {
+"day": 74,
+"pos": [
+"n"
+],
+"zh": "(n.) 沙發",
+"syn": []
+},
+"drawer": {
+"day": 74,
+"pos": [
+"n"
+],
+"zh": "(n.) 抽屜",
+"syn": []
+},
+"shelf": {
+"day": 74,
+"pos": [
+"n"
+],
+"zh": "(n.) 架子",
+"syn": []
+},
+"lamp": {
+"day": 74,
+"pos": [
+"n"
+],
+"zh": "(n.) 燈",
+"syn": []
+},
+"mirror": {
+"day": 75,
+"pos": [
+"n"
+],
+"zh": "(n.) 鏡子",
+"syn": []
+},
+"refrigerator": {
+"day": 75,
+"pos": [
+"n"
+],
+"zh": "(n.) 冰箱",
+"syn": []
+},
+"fan": {
+"day": 75,
+"pos": [
+"n"
+],
+"zh": "(n.) 電扇；迷",
+"syn": []
+},
+"air-conditioner": {
+"day": 75,
+"pos": [
+"n"
+],
+"zh": "(n.) 冷氣機",
+"syn": []
+},
+"blanket": {
+"day": 75,
+"pos": [
+"n"
+],
+"zh": "(n.) 毯子",
+"syn": []
+},
+"towel": {
+"day": 76,
+"pos": [
+"n"
+],
+"zh": "(n.) 毛巾",
+"syn": []
+},
+"bottle": {
+"day": 76,
+"pos": [
+"n"
+],
+"zh": "(n.) 瓶子",
+"syn": []
+},
+"key": {
+"day": 76,
+"pos": [
+"n"
+],
+"zh": "(n.) 鑰匙；關鍵",
+"syn": []
+},
+"doorbell": {
+"day": 76,
+"pos": [
+"n"
+],
+"zh": "(n.) 門鈴",
+"syn": []
+},
+"candle": {
+"day": 76,
+"pos": [
+"n"
+],
+"zh": "(n.) 蠟燭",
+"syn": []
+},
+"clean": {
+"day": 77,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(v.) 打掃；(adj.) 乾淨的",
+"syn": [
+"dirty"
+]
+},
+"wash": {
+"day": 77,
+"pos": [
+"v"
+],
+"zh": "(v.) 洗",
+"syn": [
+"clean"
+]
+},
+"mop": {
+"day": 77,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 拖地；(n.) 拖把",
+"syn": []
+},
+"sweep": {
+"day": 77,
+"pos": [
+"v"
+],
+"zh": "(v.) 掃",
+"syn": []
+},
+"laundry": {
+"day": 77,
+"pos": [
+"n"
+],
+"zh": "(n.) 待洗衣物",
+"syn": []
+},
+"trash": {
+"day": 78,
+"pos": [
+"n"
+],
+"zh": "(n.) 垃圾",
+"syn": []
+},
+"recycle": {
+"day": 78,
+"pos": [
+"v"
+],
+"zh": "(v.) 回收",
+"syn": []
+},
+"chore": {
+"day": 78,
+"pos": [
+"n"
+],
+"zh": "(n.) 雜事；家事",
+"syn": []
+},
+"hang": {
+"day": 78,
+"pos": [
+"v"
+],
+"zh": "(v.) 掛",
+"syn": []
+},
+"iron": {
+"day": 78,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 燙(衣服)；(n.) 熨斗；鐵",
+"syn": []
+},
+"classroom": {
+"day": 79,
+"pos": [
+"n"
+],
+"zh": "(n.) 教室",
+"syn": []
+},
+"library": {
+"day": 79,
+"pos": [
+"n"
+],
+"zh": "(n.) 圖書館",
+"syn": []
+},
+"playground": {
+"day": 79,
+"pos": [
+"n"
+],
+"zh": "(n.) 操場",
+"syn": []
+},
+"gym": {
+"day": 79,
+"pos": [
+"n"
+],
+"zh": "(n.) 體育館",
+"syn": []
+},
+"principal": {
+"day": 79,
+"pos": [
+"n"
+],
+"zh": "(n.) 校長",
+"syn": []
+},
+"classmate": {
+"day": 80,
+"pos": [
+"n"
+],
+"zh": "(n.) 同學",
+"syn": []
+},
+"subject": {
+"day": 80,
+"pos": [
+"n"
+],
+"zh": "(n.) 科目；主題",
+"syn": []
+},
+"science": {
+"day": 80,
+"pos": [
+"n"
+],
+"zh": "(n.) 科學",
+"syn": []
+},
+"math": {
+"day": 80,
+"pos": [
+"n"
+],
+"zh": "(n.) 數學",
+"syn": []
+},
+"geography": {
+"day": 80,
+"pos": [
+"n"
+],
+"zh": "(n.) 地理",
+"syn": []
+},
+"art": {
+"day": 81,
+"pos": [
+"n"
+],
+"zh": "(n.) 藝術；美術",
+"syn": []
+},
+"music": {
+"day": 81,
+"pos": [
+"n"
+],
+"zh": "(n.) 音樂",
+"syn": []
+},
+"club": {
+"day": 81,
+"pos": [
+"n"
+],
+"zh": "(n.) 社團",
+"syn": []
+},
+"graduate": {
+"day": 81,
+"pos": [
+"v"
+],
+"zh": "(v.) 畢業",
+"syn": []
+},
+"university": {
+"day": 81,
+"pos": [
+"n"
+],
+"zh": "(n.) 大學",
+"syn": []
+},
+"exam": {
+"day": 82,
+"pos": [
+"n"
+],
+"zh": "(n.) 考試",
+"syn": []
+},
+"quiz": {
+"day": 82,
+"pos": [
+"n"
+],
+"zh": "(n.) 小考",
+"syn": []
+},
+"score": {
+"day": 82,
+"pos": [
+"n"
+],
+"zh": "(n.) 分數",
+"syn": []
+},
+"review": {
+"day": 82,
+"pos": [
+"v"
+],
+"zh": "(v.) 複習",
+"syn": []
+},
+"preview": {
+"day": 82,
+"pos": [
+"v"
+],
+"zh": "(v.) 預習",
+"syn": []
+},
+"question": {
+"day": 83,
+"pos": [
+"n"
+],
+"zh": "(n.) 問題",
+"syn": []
+},
+"dictionary": {
+"day": 83,
+"pos": [
+"n"
+],
+"zh": "(n.) 字典",
+"syn": []
+},
+"textbook": {
+"day": 83,
+"pos": [
+"n"
+],
+"zh": "(n.) 課本",
+"syn": []
+},
+"notebook": {
+"day": 83,
+"pos": [
+"n"
+],
+"zh": "(n.) 筆記本",
+"syn": []
+},
+"eraser": {
+"day": 83,
+"pos": [
+"n"
+],
+"zh": "(n.) 橡皮擦",
+"syn": []
+},
+"ruler": {
+"day": 84,
+"pos": [
+"n"
+],
+"zh": "(n.) 尺",
+"syn": []
+},
+"scissors": {
+"day": 84,
+"pos": [
+"n"
+],
+"zh": "(n.) 剪刀",
+"syn": []
+},
+"pencil": {
+"day": 84,
+"pos": [
+"n"
+],
+"zh": "(n.) 鉛筆",
+"syn": []
+},
+"blackboard": {
+"day": 84,
+"pos": [
+"n"
+],
+"zh": "(n.) 黑板",
+"syn": []
+},
+"paper": {
+"day": 84,
+"pos": [
+"n"
+],
+"zh": "(n.) 紙；報告",
+"syn": []
+},
+"basketball": {
+"day": 85,
+"pos": [
+"n"
+],
+"zh": "(n.) 籃球",
+"syn": []
+},
+"baseball": {
+"day": 85,
+"pos": [
+"n"
+],
+"zh": "(n.) 棒球",
+"syn": []
+},
+"soccer": {
+"day": 85,
+"pos": [
+"n"
+],
+"zh": "(n.) 足球",
+"syn": []
+},
+"tennis": {
+"day": 85,
+"pos": [
+"n"
+],
+"zh": "(n.) 網球",
+"syn": []
+},
+"badminton": {
+"day": 85,
+"pos": [
+"n"
+],
+"zh": "(n.) 羽毛球",
+"syn": []
+},
+"volleyball": {
+"day": 86,
+"pos": [
+"n"
+],
+"zh": "(n.) 排球",
+"syn": []
+},
+"swim": {
+"day": 86,
+"pos": [
+"v"
+],
+"zh": "(v.) 游泳",
+"syn": []
+},
+"jog": {
+"day": 86,
+"pos": [
+"v"
+],
+"zh": "(v.) 慢跑",
+"syn": []
+},
+"hike": {
+"day": 86,
+"pos": [
+"v"
+],
+"zh": "(v.) 健行",
+"syn": []
+},
+"race": {
+"day": 86,
+"pos": [
+"n"
+],
+"zh": "(n.) 賽跑；比賽",
+"syn": []
+},
+"player": {
+"day": 87,
+"pos": [
+"n"
+],
+"zh": "(n.) 球員；選手",
+"syn": []
+},
+"coach": {
+"day": 87,
+"pos": [
+"n"
+],
+"zh": "(n.) 教練",
+"syn": []
+},
+"win": {
+"day": 87,
+"pos": [
+"v"
+],
+"zh": "(v.) 贏",
+"syn": [
+"lose"
+]
+},
+"team": {
+"day": 87,
+"pos": [
+"n"
+],
+"zh": "(n.) 隊",
+"syn": []
+},
+"match": {
+"day": 87,
+"pos": [
+"n"
+],
+"zh": "(n.) 比賽",
+"syn": []
+},
+"movie": {
+"day": 88,
+"pos": [
+"n"
+],
+"zh": "(n.) 電影",
+"syn": []
+},
+"concert": {
+"day": 88,
+"pos": [
+"n"
+],
+"zh": "(n.) 音樂會",
+"syn": []
+},
+"piano": {
+"day": 88,
+"pos": [
+"n"
+],
+"zh": "(n.) 鋼琴",
+"syn": []
+},
+"guitar": {
+"day": 88,
+"pos": [
+"n"
+],
+"zh": "(n.) 吉他",
+"syn": []
+},
+"comic": {
+"day": 88,
+"pos": [
+"n"
+],
+"zh": "(n.) 漫畫",
+"syn": []
+},
+"novel": {
+"day": 89,
+"pos": [
+"n"
+],
+"zh": "(n.) 小說",
+"syn": []
+},
+"photo": {
+"day": 89,
+"pos": [
+"n"
+],
+"zh": "(n.) 照片",
+"syn": []
+},
+"camp": {
+"day": 89,
+"pos": [
+"v"
+],
+"zh": "(v.) 露營",
+"syn": []
+},
+"picnic": {
+"day": 89,
+"pos": [
+"n"
+],
+"zh": "(n.) 野餐",
+"syn": []
+},
+"kite": {
+"day": 89,
+"pos": [
+"n"
+],
+"zh": "(n.) 風箏",
+"syn": []
+},
+"chess": {
+"day": 90,
+"pos": [
+"n"
+],
+"zh": "(n.) 西洋棋",
+"syn": []
+},
+"dance": {
+"day": 90,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 跳舞；(n.) 舞蹈",
+"syn": []
+},
+"sing": {
+"day": 90,
+"pos": [
+"v"
+],
+"zh": "(v.) 唱歌",
+"syn": []
+},
+"magic": {
+"day": 90,
+"pos": [
+"n"
+],
+"zh": "(n.) 魔術",
+"syn": []
+},
+"fishing": {
+"day": 90,
+"pos": [
+"n"
+],
+"zh": "(n.) 釣魚",
+"syn": []
+},
+"bicycle": {
+"day": 91,
+"pos": [
+"n"
+],
+"zh": "(n.) 腳踏車",
+"syn": []
+},
+"scooter": {
+"day": 91,
+"pos": [
+"n"
+],
+"zh": "(n.) 機車",
+"syn": []
+},
+"taxi": {
+"day": 91,
+"pos": [
+"n"
+],
+"zh": "(n.) 計程車",
+"syn": []
+},
+"subway": {
+"day": 91,
+"pos": [
+"n"
+],
+"zh": "(n.) 地鐵",
+"syn": []
+},
+"MRT": {
+"day": 91,
+"pos": [
+"n"
+],
+"zh": "(n.) 捷運",
+"syn": []
+},
+"train": {
+"day": 92,
+"pos": [
+"n"
+],
+"zh": "(n.) 火車",
+"syn": []
+},
+"plane": {
+"day": 92,
+"pos": [
+"n"
+],
+"zh": "(n.) 飛機",
+"syn": []
+},
+"ship": {
+"day": 92,
+"pos": [
+"n"
+],
+"zh": "(n.) 船",
+"syn": []
+},
+"truck": {
+"day": 92,
+"pos": [
+"n"
+],
+"zh": "(n.) 卡車",
+"syn": []
+},
+"ride": {
+"day": 92,
+"pos": [
+"v"
+],
+"zh": "(v.) 騎；搭乘",
+"syn": []
+},
+"road": {
+"day": 93,
+"pos": [
+"n"
+],
+"zh": "(n.) 路",
+"syn": []
+},
+"sidewalk": {
+"day": 93,
+"pos": [
+"n"
+],
+"zh": "(n.) 人行道",
+"syn": []
+},
+"bridge": {
+"day": 93,
+"pos": [
+"n"
+],
+"zh": "(n.) 橋",
+"syn": []
+},
+"block": {
+"day": 93,
+"pos": [
+"n"
+],
+"zh": "(n.) 街區",
+"syn": []
+},
+"crosswalk": {
+"day": 93,
+"pos": [
+"n"
+],
+"zh": "(n.) 斑馬線",
+"syn": []
+},
+"direction": {
+"day": 94,
+"pos": [
+"n"
+],
+"zh": "(n.) 方向",
+"syn": []
+},
+"left": {
+"day": 94,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 左邊；(adj.) 左邊的",
+"syn": []
+},
+"map": {
+"day": 94,
+"pos": [
+"n"
+],
+"zh": "(n.) 地圖",
+"syn": []
+},
+"station": {
+"day": 94,
+"pos": [
+"n"
+],
+"zh": "(n.) 車站",
+"syn": []
+},
+"north": {
+"day": 94,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 北方；(adj.) 北方的",
+"syn": []
+},
+"trip": {
+"day": 95,
+"pos": [
+"n"
+],
+"zh": "(n.) 旅行",
+"syn": []
+},
+"tour": {
+"day": 95,
+"pos": [
+"n"
+],
+"zh": "(n.) 旅遊；參觀",
+"syn": []
+},
+"passport": {
+"day": 95,
+"pos": [
+"n"
+],
+"zh": "(n.) 護照",
+"syn": []
+},
+"airport": {
+"day": 95,
+"pos": [
+"n"
+],
+"zh": "(n.) 機場",
+"syn": []
+},
+"hotel": {
+"day": 95,
+"pos": [
+"n"
+],
+"zh": "(n.) 旅館",
+"syn": []
+},
+"suitcase": {
+"day": 96,
+"pos": [
+"n"
+],
+"zh": "(n.) 行李箱",
+"syn": []
+},
+"luggage": {
+"day": 96,
+"pos": [
+"n"
+],
+"zh": "(n.) 行李",
+"syn": []
+},
+"postcard": {
+"day": 96,
+"pos": [
+"n"
+],
+"zh": "(n.) 明信片",
+"syn": []
+},
+"souvenir": {
+"day": 96,
+"pos": [
+"n"
+],
+"zh": "(n.) 紀念品",
+"syn": []
+},
+"foreigner": {
+"day": 96,
+"pos": [
+"n"
+],
+"zh": "(n.) 外國人",
+"syn": []
+},
+"bank": {
+"day": 97,
+"pos": [
+"n"
+],
+"zh": "(n.) 銀行；河岸",
+"syn": []
+},
+"bakery": {
+"day": 97,
+"pos": [
+"n"
+],
+"zh": "(n.) 麵包店",
+"syn": []
+},
+"bookstore": {
+"day": 97,
+"pos": [
+"n"
+],
+"zh": "(n.) 書店",
+"syn": []
+},
+"restaurant": {
+"day": 97,
+"pos": [
+"n"
+],
+"zh": "(n.) 餐廳",
+"syn": []
+},
+"theater": {
+"day": 97,
+"pos": [
+"n"
+],
+"zh": "(n.) 劇院；電影院",
+"syn": []
+},
+"temple": {
+"day": 98,
+"pos": [
+"n"
+],
+"zh": "(n.) 廟",
+"syn": []
+},
+"zoo": {
+"day": 98,
+"pos": [
+"n"
+],
+"zh": "(n.) 動物園",
+"syn": []
+},
+"church": {
+"day": 98,
+"pos": [
+"n"
+],
+"zh": "(n.) 教堂",
+"syn": []
+},
+"post": {
+"day": 98,
+"pos": [
+"n"
+],
+"zh": "(n.) 郵政",
+"syn": []
+},
+"police": {
+"day": 98,
+"pos": [
+"n"
+],
+"zh": "(n.) 警察",
+"syn": []
+},
+"convenience": {
+"day": 99,
+"pos": [
+"n"
+],
+"zh": "(n.) 便利",
+"syn": []
+},
+"downtown": {
+"day": 99,
+"pos": [
+"adv",
+"n"
+],
+"zh": "(adv.) 在／往市中心；(n.) 市中心",
+"syn": []
+},
+"neighbor": {
+"day": 99,
+"pos": [
+"n"
+],
+"zh": "(n.) 鄰居",
+"syn": []
+},
+"parking": {
+"day": 99,
+"pos": [
+"n"
+],
+"zh": "(n.) 停車",
+"syn": []
+},
+"gas station": {
+"day": 99,
+"pos": [
+"n"
+],
+"zh": "(n.) 加油站",
+"syn": []
+},
+"engineer": {
+"day": 100,
+"pos": [
+"n"
+],
+"zh": "(n.) 工程師",
+"syn": []
+},
+"farmer": {
+"day": 100,
+"pos": [
+"n"
+],
+"zh": "(n.) 農夫",
+"syn": []
+},
+"reporter": {
+"day": 100,
+"pos": [
+"n"
+],
+"zh": "(n.) 記者",
+"syn": []
+},
+"waiter": {
+"day": 100,
+"pos": [
+"n"
+],
+"zh": "(n.) 服務生",
+"syn": []
+},
+"artist": {
+"day": 100,
+"pos": [
+"n"
+],
+"zh": "(n.) 藝術家",
+"syn": []
+},
+"singer": {
+"day": 101,
+"pos": [
+"n"
+],
+"zh": "(n.) 歌手",
+"syn": []
+},
+"actor": {
+"day": 101,
+"pos": [
+"n"
+],
+"zh": "(n.) 演員",
+"syn": []
+},
+"businessman": {
+"day": 101,
+"pos": [
+"n"
+],
+"zh": "(n.) 商人",
+"syn": []
+},
+"soldier": {
+"day": 101,
+"pos": [
+"n"
+],
+"zh": "(n.) 士兵",
+"syn": []
+},
+"pilot": {
+"day": 101,
+"pos": [
+"n"
+],
+"zh": "(n.) 飛行員",
+"syn": []
+},
+"lawyer": {
+"day": 102,
+"pos": [
+"n"
+],
+"zh": "(n.) 律師",
+"syn": []
+},
+"scientist": {
+"day": 102,
+"pos": [
+"n"
+],
+"zh": "(n.) 科學家",
+"syn": []
+},
+"mail": {
+"day": 102,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 郵件；(v.) 郵寄",
+"syn": []
+},
+"firefighter": {
+"day": 102,
+"pos": [
+"n"
+],
+"zh": "(n.) 消防員",
+"syn": []
+},
+"boss": {
+"day": 102,
+"pos": [
+"n"
+],
+"zh": "(n.) 老闆",
+"syn": []
+},
+"sunny": {
+"day": 103,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 晴朗的",
+"syn": []
+},
+"cloudy": {
+"day": 103,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 多雲的",
+"syn": []
+},
+"windy": {
+"day": 103,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 颳風的",
+"syn": []
+},
+"rainy": {
+"day": 103,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 下雨的",
+"syn": []
+},
+"snowy": {
+"day": 103,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 下雪的",
+"syn": []
+},
+"typhoon": {
+"day": 104,
+"pos": [
+"n"
+],
+"zh": "(n.) 颱風",
+"syn": []
+},
+"storm": {
+"day": 104,
+"pos": [
+"n"
+],
+"zh": "(n.) 暴風雨",
+"syn": []
+},
+"thunder": {
+"day": 104,
+"pos": [
+"n"
+],
+"zh": "(n.) 雷",
+"syn": []
+},
+"rainbow": {
+"day": 104,
+"pos": [
+"n"
+],
+"zh": "(n.) 彩虹",
+"syn": []
+},
+"temperature": {
+"day": 104,
+"pos": [
+"n"
+],
+"zh": "(n.) 溫度",
+"syn": []
+},
+"cool": {
+"day": 105,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 涼爽的",
+"syn": [
+"warm"
+]
+},
+"warm": {
+"day": 105,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 溫暖的",
+"syn": [
+"cold",
+"cool"
+]
+},
+"earthquake": {
+"day": 105,
+"pos": [
+"n"
+],
+"zh": "(n.) 地震",
+"syn": []
+},
+"spring": {
+"day": 105,
+"pos": [
+"n"
+],
+"zh": "(n.) 春天",
+"syn": []
+},
+"autumn": {
+"day": 105,
+"pos": [
+"n"
+],
+"zh": "(n.) 秋天(= fall)",
+"syn": []
+},
+"mountain": {
+"day": 106,
+"pos": [
+"n"
+],
+"zh": "(n.) 山",
+"syn": []
+},
+"hill": {
+"day": 106,
+"pos": [
+"n"
+],
+"zh": "(n.) 小山",
+"syn": []
+},
+"river": {
+"day": 106,
+"pos": [
+"n"
+],
+"zh": "(n.) 河",
+"syn": []
+},
+"lake": {
+"day": 106,
+"pos": [
+"n"
+],
+"zh": "(n.) 湖",
+"syn": []
+},
+"sea": {
+"day": 106,
+"pos": [
+"n"
+],
+"zh": "(n.) 海",
+"syn": []
+},
+"beach": {
+"day": 107,
+"pos": [
+"n"
+],
+"zh": "(n.) 海灘",
+"syn": []
+},
+"island": {
+"day": 107,
+"pos": [
+"n"
+],
+"zh": "(n.) 島",
+"syn": []
+},
+"forest": {
+"day": 107,
+"pos": [
+"n"
+],
+"zh": "(n.) 森林",
+"syn": []
+},
+"desert": {
+"day": 107,
+"pos": [
+"n"
+],
+"zh": "(n.) 沙漠",
+"syn": []
+},
+"ocean": {
+"day": 107,
+"pos": [
+"n"
+],
+"zh": "(n.) 海洋",
+"syn": []
+},
+"earth": {
+"day": 108,
+"pos": [
+"n"
+],
+"zh": "(n.) 地球",
+"syn": []
+},
+"environment": {
+"day": 108,
+"pos": [
+"n"
+],
+"zh": "(n.) 環境",
+"syn": []
+},
+"pollution": {
+"day": 108,
+"pos": [
+"n"
+],
+"zh": "(n.) 汙染",
+"syn": []
+},
+"planet": {
+"day": 108,
+"pos": [
+"n"
+],
+"zh": "(n.) 行星",
+"syn": []
+},
+"moon": {
+"day": 108,
+"pos": [
+"n"
+],
+"zh": "(n.) 月亮",
+"syn": []
+},
+"pet": {
+"day": 109,
+"pos": [
+"n"
+],
+"zh": "(n.) 寵物",
+"syn": []
+},
+"puppy": {
+"day": 109,
+"pos": [
+"n"
+],
+"zh": "(n.) 小狗",
+"syn": []
+},
+"rabbit": {
+"day": 109,
+"pos": [
+"n"
+],
+"zh": "(n.) 兔子",
+"syn": []
+},
+"mouse": {
+"day": 109,
+"pos": [
+"n"
+],
+"zh": "(n.) 老鼠(複 mice)",
+"syn": []
+},
+"monkey": {
+"day": 109,
+"pos": [
+"n"
+],
+"zh": "(n.) 猴子",
+"syn": []
+},
+"elephant": {
+"day": 110,
+"pos": [
+"n"
+],
+"zh": "(n.) 大象",
+"syn": []
+},
+"tiger": {
+"day": 110,
+"pos": [
+"n"
+],
+"zh": "(n.) 老虎",
+"syn": []
+},
+"lion": {
+"day": 110,
+"pos": [
+"n"
+],
+"zh": "(n.) 獅子",
+"syn": []
+},
+"snake": {
+"day": 110,
+"pos": [
+"n"
+],
+"zh": "(n.) 蛇",
+"syn": []
+},
+"turtle": {
+"day": 110,
+"pos": [
+"n"
+],
+"zh": "(n.) 烏龜",
+"syn": []
+},
+"whale": {
+"day": 111,
+"pos": [
+"n"
+],
+"zh": "(n.) 鯨魚",
+"syn": []
+},
+"shark": {
+"day": 111,
+"pos": [
+"n"
+],
+"zh": "(n.) 鯊魚",
+"syn": []
+},
+"insect": {
+"day": 111,
+"pos": [
+"n"
+],
+"zh": "(n.) 昆蟲",
+"syn": []
+},
+"mosquito": {
+"day": 111,
+"pos": [
+"n"
+],
+"zh": "(n.) 蚊子",
+"syn": []
+},
+"bee": {
+"day": 111,
+"pos": [
+"n"
+],
+"zh": "(n.) 蜜蜂",
+"syn": []
+},
+"weekday": {
+"day": 112,
+"pos": [
+"n"
+],
+"zh": "(n.) 平日",
+"syn": []
+},
+"weekend": {
+"day": 112,
+"pos": [
+"n"
+],
+"zh": "(n.) 週末",
+"syn": []
+},
+"noon": {
+"day": 112,
+"pos": [
+"n"
+],
+"zh": "(n.) 中午",
+"syn": [
+"midday",
+"midnight"
+]
+},
+"midnight": {
+"day": 112,
+"pos": [
+"n"
+],
+"zh": "(n.) 半夜",
+"syn": [
+"noon"
+]
+},
+"tonight": {
+"day": 112,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 今晚",
+"syn": []
+},
+"yesterday": {
+"day": 113,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 昨天",
+"syn": [
+"tomorrow"
+]
+},
+"tomorrow": {
+"day": 113,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 明天",
+"syn": [
+"yesterday"
+]
+},
+"century": {
+"day": 113,
+"pos": [
+"n"
+],
+"zh": "(n.) 世紀",
+"syn": []
+},
+"calendar": {
+"day": 113,
+"pos": [
+"n"
+],
+"zh": "(n.) 月曆",
+"syn": []
+},
+"clock": {
+"day": 113,
+"pos": [
+"n"
+],
+"zh": "(n.) 時鐘",
+"syn": []
+},
+"Christmas": {
+"day": 114,
+"pos": [
+"n"
+],
+"zh": "(n.) 聖誕節",
+"syn": []
+},
+"Halloween": {
+"day": 114,
+"pos": [
+"n"
+],
+"zh": "(n.) 萬聖節",
+"syn": []
+},
+"Easter": {
+"day": 114,
+"pos": [
+"n"
+],
+"zh": "(n.) 復活節",
+"syn": []
+},
+"Valentine": {
+"day": 114,
+"pos": [
+"n"
+],
+"zh": "(n.) 情人",
+"syn": []
+},
+"Lantern": {
+"day": 114,
+"pos": [
+"n"
+],
+"zh": "(n.) 燈籠",
+"syn": []
+},
+"Dragon": {
+"day": 115,
+"pos": [
+"n"
+],
+"zh": "(n.) 龍",
+"syn": []
+},
+"New Year": {
+"day": 115,
+"pos": [
+"n"
+],
+"zh": "(n.) 新年",
+"syn": []
+},
+"envelope": {
+"day": 115,
+"pos": [
+"n"
+],
+"zh": "(n.) 信封",
+"syn": []
+},
+"fireworks": {
+"day": 115,
+"pos": [
+"n"
+],
+"zh": "(n.) 煙火",
+"syn": []
+},
+"party": {
+"day": 115,
+"pos": [
+"n"
+],
+"zh": "(n.) 派對",
+"syn": []
+},
+"computer": {
+"day": 116,
+"pos": [
+"n"
+],
+"zh": "(n.) 電腦",
+"syn": []
+},
+"Internet": {
+"day": 116,
+"pos": [
+"n"
+],
+"zh": "(n.) 網路",
+"syn": []
+},
+"email": {
+"day": 116,
+"pos": [
+"n"
+],
+"zh": "(n.) 電子郵件",
+"syn": []
+},
+"cellphone": {
+"day": 116,
+"pos": [
+"n"
+],
+"zh": "(n.) 手機",
+"syn": []
+},
+"message": {
+"day": 116,
+"pos": [
+"n"
+],
+"zh": "(n.) 訊息",
+"syn": []
+},
+"online": {
+"day": 117,
+"pos": [
+"adj",
+"adv"
+],
+"zh": "(adv.) 在線上；(adj.) 線上的",
+"syn": [
+"offline"
+]
+},
+"website": {
+"day": 117,
+"pos": [
+"n"
+],
+"zh": "(n.) 網站",
+"syn": []
+},
+"screen": {
+"day": 117,
+"pos": [
+"n"
+],
+"zh": "(n.) 螢幕",
+"syn": []
+},
+"video": {
+"day": 117,
+"pos": [
+"n"
+],
+"zh": "(n.) 影片",
+"syn": []
+},
+"robot": {
+"day": 117,
+"pos": [
+"n"
+],
+"zh": "(n.) 機器人",
+"syn": []
+},
+"radio": {
+"day": 118,
+"pos": [
+"n"
+],
+"zh": "(n.) 收音機；廣播",
+"syn": []
+},
+"newspaper": {
+"day": 118,
+"pos": [
+"n"
+],
+"zh": "(n.) 報紙",
+"syn": []
+},
+"magazine": {
+"day": 118,
+"pos": [
+"n"
+],
+"zh": "(n.) 雜誌",
+"syn": []
+},
+"speech": {
+"day": 118,
+"pos": [
+"n"
+],
+"zh": "(n.) 演講",
+"syn": []
+},
+"conversation": {
+"day": 118,
+"pos": [
+"n"
+],
+"zh": "(n.) 對話",
+"syn": []
+},
+"discuss": {
+"day": 119,
+"pos": [
+"v"
+],
+"zh": "(v.) 討論",
+"syn": []
+},
+"argue": {
+"day": 119,
+"pos": [
+"v"
+],
+"zh": "(v.) 爭論",
+"syn": [
+"agree",
+"quarrel"
+]
+},
+"complain": {
+"day": 119,
+"pos": [
+"v"
+],
+"zh": "(v.) 抱怨",
+"syn": []
+},
+"apologize": {
+"day": 119,
+"pos": [
+"v"
+],
+"zh": "(v.) 道歉",
+"syn": []
+},
+"thank": {
+"day": 119,
+"pos": [
+"v"
+],
+"zh": "(v.) 感謝",
+"syn": []
+},
+"promise": {
+"day": 120,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 承諾；(n.) 諾言",
+"syn": []
+},
+"reply": {
+"day": 120,
+"pos": [
+"v"
+],
+"zh": "(v.) 回覆",
+"syn": [
+"answer",
+"ask"
+]
+},
+"whisper": {
+"day": 120,
+"pos": [
+"v"
+],
+"zh": "(v.) 低聲說",
+"syn": [
+"shout"
+]
+},
+"smile": {
+"day": 120,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 微笑；(n.) 微笑",
+"syn": [
+"frown"
+]
+},
+"hug": {
+"day": 120,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 擁抱；(n.) 擁抱",
+"syn": []
+},
+"circle": {
+"day": 121,
+"pos": [
+"n"
+],
+"zh": "(n.) 圓圈",
+"syn": []
+},
+"square": {
+"day": 121,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 正方形；廣場；(adj.) 正方形的",
+"syn": []
+},
+"line": {
+"day": 121,
+"pos": [
+"n"
+],
+"zh": "(n.) 線；行列",
+"syn": []
+},
+"kilogram": {
+"day": 121,
+"pos": [
+"n"
+],
+"zh": "(n.) 公斤",
+"syn": []
+},
+"meter": {
+"day": 121,
+"pos": [
+"n"
+],
+"zh": "(n.) 公尺",
+"syn": []
+},
+"centimeter": {
+"day": 122,
+"pos": [
+"n"
+],
+"zh": "(n.) 公分",
+"syn": []
+},
+"dozen": {
+"day": 122,
+"pos": [
+"n"
+],
+"zh": "(n.) 一打",
+"syn": []
+},
+"hundred": {
+"day": 122,
+"pos": [
+"n"
+],
+"zh": "(n.) 百",
+"syn": []
+},
+"thousand": {
+"day": 122,
+"pos": [
+"n"
+],
+"zh": "(n.) 千",
+"syn": []
+},
+"million": {
+"day": 122,
+"pos": [
+"n"
+],
+"zh": "(n.) 百萬",
+"syn": []
+},
+"achieve": {
+"day": 123,
+"pos": [
+"v"
+],
+"zh": "(v.) 達成",
+"syn": [
+"fail",
+"reach"
+]
+},
+"skill": {
+"day": 123,
+"pos": [
+"n"
+],
+"zh": "(n.) 技能",
+"syn": []
+},
+"attend": {
+"day": 123,
+"pos": [
+"v"
+],
+"zh": "(v.) 參加；出席",
+"syn": [
+"go to",
+"miss"
+]
+},
+"attention": {
+"day": 123,
+"pos": [
+"n"
+],
+"zh": "(n.) 注意",
+"syn": []
+},
+"effort": {
+"day": 123,
+"pos": [
+"n"
+],
+"zh": "(n.) 努力",
+"syn": []
+},
+"goal": {
+"day": 124,
+"pos": [
+"n"
+],
+"zh": "(n.) 目標",
+"syn": [
+"aim"
+]
+},
+"education": {
+"day": 124,
+"pos": [
+"n"
+],
+"zh": "(n.) 教育",
+"syn": []
+},
+"memory": {
+"day": 124,
+"pos": [
+"n"
+],
+"zh": "(n.) 記憶；回憶",
+"syn": []
+},
+"method": {
+"day": 124,
+"pos": [
+"n"
+],
+"zh": "(n.) 方法",
+"syn": []
+},
+"progress": {
+"day": 124,
+"pos": [
+"n"
+],
+"zh": "(n.) 進步",
+"syn": []
+},
+"record": {
+"day": 125,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 紀錄；(v.) 錄製；記錄",
+"syn": []
+},
+"result": {
+"day": 125,
+"pos": [
+"n"
+],
+"zh": "(n.) 結果",
+"syn": [
+"cause"
+]
+},
+"success": {
+"day": 125,
+"pos": [
+"n"
+],
+"zh": "(n.) 成功",
+"syn": [
+"failure"
+]
+},
+"compare": {
+"day": 125,
+"pos": [
+"v"
+],
+"zh": "(v.) 比較",
+"syn": []
+},
+"correct": {
+"day": 125,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(adj.) 正確的；(v.) 改正",
+"syn": [
+"incorrect",
+"right",
+"wrong"
+]
+},
+"admire": {
+"day": 126,
+"pos": [
+"v"
+],
+"zh": "(v.) 欽佩；欣賞",
+"syn": [
+"respect"
+]
+},
+"appreciate": {
+"day": 126,
+"pos": [
+"v"
+],
+"zh": "(v.) 感激；欣賞",
+"syn": [
+"thank"
+]
+},
+"anxious": {
+"day": 126,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 焦慮的",
+"syn": [
+"calm",
+"nervous",
+"worried"
+]
+},
+"attitude": {
+"day": 126,
+"pos": [
+"n"
+],
+"zh": "(n.) 態度",
+"syn": []
+},
+"emotion": {
+"day": 126,
+"pos": [
+"n"
+],
+"zh": "(n.) 情緒",
+"syn": []
+},
+"fear": {
+"day": 127,
+"pos": [
+"n"
+],
+"zh": "(n.) 恐懼",
+"syn": [
+"courage"
+]
+},
+"positive": {
+"day": 127,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 正面的；積極的",
+"syn": [
+"negative"
+]
+},
+"blame": {
+"day": 127,
+"pos": [
+"v"
+],
+"zh": "(v.) 責怪",
+"syn": [
+"praise"
+]
+},
+"bother": {
+"day": 127,
+"pos": [
+"v"
+],
+"zh": "(v.) 打擾；煩擾",
+"syn": [
+"disturb"
+]
+},
+"trust": {
+"day": 127,
+"pos": [
+"v"
+],
+"zh": "(v.) 信任",
+"syn": [
+"believe",
+"doubt"
+]
+},
+"familiar": {
+"day": 128,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 熟悉的",
+"syn": [
+"strange",
+"unfamiliar"
+]
+},
+"amazing": {
+"day": 128,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 驚人的；很棒的",
+"syn": [
+"wonderful"
+]
+},
+"embarrassed": {
+"day": 128,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 尷尬的",
+"syn": []
+},
+"pleased": {
+"day": 128,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 高興的；滿意的",
+"syn": [
+"glad",
+"happy",
+"unhappy"
+]
+},
+"thankful": {
+"day": 128,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 感謝的",
+"syn": [
+"grateful"
+]
+},
+"culture": {
+"day": 129,
+"pos": [
+"n"
+],
+"zh": "(n.) 文化",
+"syn": []
+},
+"tradition": {
+"day": 129,
+"pos": [
+"n"
+],
+"zh": "(n.) 傳統",
+"syn": []
+},
+"traditional": {
+"day": 129,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 傳統的",
+"syn": [
+"modern"
+]
+},
+"society": {
+"day": 129,
+"pos": [
+"n"
+],
+"zh": "(n.) 社會",
+"syn": []
+},
+"citizen": {
+"day": 129,
+"pos": [
+"n"
+],
+"zh": "(n.) 公民；市民",
+"syn": []
+},
+"public": {
+"day": 130,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 公共的",
+"syn": [
+"private"
+]
+},
+"private": {
+"day": 130,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 私人的",
+"syn": [
+"personal",
+"public"
+]
+},
+"local": {
+"day": 130,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 當地的",
+"syn": [
+"foreign",
+"global"
+]
+},
+"peace": {
+"day": 130,
+"pos": [
+"n"
+],
+"zh": "(n.) 和平",
+"syn": [
+"war"
+]
+},
+"human": {
+"day": 130,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 人類；(adj.) 人類的",
+"syn": []
+},
+"generation": {
+"day": 131,
+"pos": [
+"n"
+],
+"zh": "(n.) 世代",
+"syn": []
+},
+"rule": {
+"day": 131,
+"pos": [
+"n"
+],
+"zh": "(n.) 規則",
+"syn": [
+"law"
+]
+},
+"law": {
+"day": 131,
+"pos": [
+"n"
+],
+"zh": "(n.) 法律",
+"syn": []
+},
+"symbol": {
+"day": 131,
+"pos": [
+"n"
+],
+"zh": "(n.) 象徵",
+"syn": []
+},
+"advertisement": {
+"day": 131,
+"pos": [
+"n"
+],
+"zh": "(n.) 廣告",
+"syn": []
+},
+"technology": {
+"day": 132,
+"pos": [
+"n"
+],
+"zh": "(n.) 科技",
+"syn": []
+},
+"invent": {
+"day": 132,
+"pos": [
+"v"
+],
+"zh": "(v.) 發明",
+"syn": [
+"create"
+]
+},
+"invention": {
+"day": 132,
+"pos": [
+"n"
+],
+"zh": "(n.) 發明(物)",
+"syn": []
+},
+"discover": {
+"day": 132,
+"pos": [
+"v"
+],
+"zh": "(v.) 發現",
+"syn": [
+"find"
+]
+},
+"create": {
+"day": 132,
+"pos": [
+"v"
+],
+"zh": "(v.) 創造",
+"syn": [
+"destroy",
+"make"
+]
+},
+"design": {
+"day": 133,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 設計；(n.) 設計",
+"syn": []
+},
+"develop": {
+"day": 133,
+"pos": [
+"v"
+],
+"zh": "(v.) 發展；開發",
+"syn": [
+"grow"
+]
+},
+"electricity": {
+"day": 133,
+"pos": [
+"n"
+],
+"zh": "(n.) 電",
+"syn": []
+},
+"experiment": {
+"day": 133,
+"pos": [
+"n"
+],
+"zh": "(n.) 實驗",
+"syn": []
+},
+"research": {
+"day": 133,
+"pos": [
+"n"
+],
+"zh": "(n.) 研究",
+"syn": []
+},
+"system": {
+"day": 134,
+"pos": [
+"n"
+],
+"zh": "(n.) 系統",
+"syn": []
+},
+"digital": {
+"day": 134,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 數位的",
+"syn": []
+},
+"connect": {
+"day": 134,
+"pos": [
+"v"
+],
+"zh": "(v.) 連接",
+"syn": [
+"disconnect",
+"join"
+]
+},
+"data": {
+"day": 134,
+"pos": [
+"n"
+],
+"zh": "(n.) 資料",
+"syn": []
+},
+"app": {
+"day": 134,
+"pos": [
+"n"
+],
+"zh": "(n.) 應用程式",
+"syn": []
+},
+"disease": {
+"day": 135,
+"pos": [
+"n"
+],
+"zh": "(n.) 疾病",
+"syn": []
+},
+"emergency": {
+"day": 135,
+"pos": [
+"n"
+],
+"zh": "(n.) 緊急情況",
+"syn": []
+},
+"safety": {
+"day": 135,
+"pos": [
+"n"
+],
+"zh": "(n.) 安全",
+"syn": []
+},
+"prevent": {
+"day": 135,
+"pos": [
+"v"
+],
+"zh": "(v.) 預防；阻止",
+"syn": [
+"stop"
+]
+},
+"harm": {
+"day": 135,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 傷害；(v.) 傷害",
+"syn": [
+"help",
+"hurt"
+]
+},
+"danger": {
+"day": 136,
+"pos": [
+"n"
+],
+"zh": "(n.) 危險",
+"syn": [
+"safety"
+]
+},
+"survive": {
+"day": 136,
+"pos": [
+"v"
+],
+"zh": "(v.) 存活",
+"syn": [
+"die",
+"live"
+]
+},
+"physical": {
+"day": 136,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 身體的",
+"syn": [
+"mental"
+]
+},
+"pressure": {
+"day": 136,
+"pos": [
+"n"
+],
+"zh": "(n.) 壓力",
+"syn": []
+},
+"balance": {
+"day": 136,
+"pos": [
+"n"
+],
+"zh": "(n.) 平衡",
+"syn": []
+},
+"diet": {
+"day": 137,
+"pos": [
+"n"
+],
+"zh": "(n.) 飲食",
+"syn": []
+},
+"fat": {
+"day": 137,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(adj.) 胖的；(n.) 脂肪",
+"syn": []
+},
+"recover": {
+"day": 137,
+"pos": [
+"v"
+],
+"zh": "(v.) 康復",
+"syn": []
+},
+"alive": {
+"day": 137,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 活著的",
+"syn": [
+"dead",
+"living"
+]
+},
+"breathe": {
+"day": 137,
+"pos": [
+"v"
+],
+"zh": "(v.) 呼吸",
+"syn": []
+},
+"climate": {
+"day": 138,
+"pos": [
+"n"
+],
+"zh": "(n.) 氣候",
+"syn": []
+},
+"natural": {
+"day": 138,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 自然的",
+"syn": []
+},
+"wild": {
+"day": 138,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 野生的",
+"syn": []
+},
+"damage": {
+"day": 138,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 損害；(v.) 損壞",
+"syn": [
+"harm",
+"repair"
+]
+},
+"reduce": {
+"day": 138,
+"pos": [
+"v"
+],
+"zh": "(v.) 減少",
+"syn": [
+"cut down",
+"increase"
+]
+},
+"plastic": {
+"day": 139,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(n.) 塑膠；(adj.) 塑膠的",
+"syn": []
+},
+"global": {
+"day": 139,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 全球的",
+"syn": [
+"local",
+"worldwide"
+]
+},
+"resource": {
+"day": 139,
+"pos": [
+"n"
+],
+"zh": "(n.) 資源",
+"syn": []
+},
+"disappear": {
+"day": 139,
+"pos": [
+"v"
+],
+"zh": "(v.) 消失",
+"syn": [
+"appear",
+"vanish"
+]
+},
+"heat": {
+"day": 139,
+"pos": [
+"n"
+],
+"zh": "(n.) 熱",
+"syn": [
+"cold"
+]
+},
+"flood": {
+"day": 140,
+"pos": [
+"n"
+],
+"zh": "(n.) 洪水",
+"syn": []
+},
+"disaster": {
+"day": 140,
+"pos": [
+"n"
+],
+"zh": "(n.) 災難",
+"syn": []
+},
+"cause": {
+"day": 140,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 造成；(n.) 原因",
+"syn": [
+"result"
+]
+},
+"melt": {
+"day": 140,
+"pos": [
+"v"
+],
+"zh": "(v.) 融化",
+"syn": [
+"freeze"
+]
+},
+"solar": {
+"day": 140,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 太陽的",
+"syn": []
+},
+"consider": {
+"day": 141,
+"pos": [
+"v"
+],
+"zh": "(v.) 考慮",
+"syn": [
+"think about"
+]
+},
+"continue": {
+"day": 141,
+"pos": [
+"v"
+],
+"zh": "(v.) 繼續",
+"syn": [
+"go on",
+"stop"
+]
+},
+"depend": {
+"day": 141,
+"pos": [
+"v"
+],
+"zh": "(v.) 依靠；取決於",
+"syn": []
+},
+"earn": {
+"day": 141,
+"pos": [
+"v"
+],
+"zh": "(v.) 賺",
+"syn": [
+"make (money)",
+"spend"
+]
+},
+"express": {
+"day": 141,
+"pos": [
+"v"
+],
+"zh": "(v.) 表達",
+"syn": []
+},
+"ignore": {
+"day": 142,
+"pos": [
+"v"
+],
+"zh": "(v.) 忽視",
+"syn": [
+"notice",
+"pay attention to"
+]
+},
+"increase": {
+"day": 142,
+"pos": [
+"v"
+],
+"zh": "(v.) 增加",
+"syn": [
+"decrease",
+"reduce"
+]
+},
+"mention": {
+"day": 142,
+"pos": [
+"v"
+],
+"zh": "(v.) 提到",
+"syn": []
+},
+"provide": {
+"day": 142,
+"pos": [
+"v"
+],
+"zh": "(v.) 提供",
+"syn": [
+"offer"
+]
+},
+"refuse": {
+"day": 142,
+"pos": [
+"v"
+],
+"zh": "(v.) 拒絕",
+"syn": [
+"accept",
+"agree"
+]
+},
+"remind": {
+"day": 143,
+"pos": [
+"v"
+],
+"zh": "(v.) 提醒",
+"syn": []
+},
+"support": {
+"day": 143,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 支持；(n.) 支持",
+"syn": [
+"help",
+"oppose"
+]
+},
+"deliver": {
+"day": 143,
+"pos": [
+"v"
+],
+"zh": "(v.) 遞送",
+"syn": [
+"send"
+]
+},
+"organize": {
+"day": 143,
+"pos": [
+"v"
+],
+"zh": "(v.) 組織；籌辦",
+"syn": [
+"arrange"
+]
+},
+"perform": {
+"day": 143,
+"pos": [
+"v"
+],
+"zh": "(v.) 表演；執行",
+"syn": []
+},
+"produce": {
+"day": 144,
+"pos": [
+"v"
+],
+"zh": "(v.) 生產",
+"syn": [
+"make"
+]
+},
+"search": {
+"day": 144,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 搜尋；(n.) 搜尋",
+"syn": [
+"look for"
+]
+},
+"guide": {
+"day": 144,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 導遊；指南；(v.) 引導",
+"syn": []
+},
+"control": {
+"day": 144,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 控制；(n.) 控制",
+"syn": []
+},
+"exist": {
+"day": 144,
+"pos": [
+"v"
+],
+"zh": "(v.) 存在",
+"syn": []
+},
+"huge": {
+"day": 145,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 巨大的",
+"syn": [
+"giant",
+"large",
+"tiny"
+]
+},
+"perfect": {
+"day": 145,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 完美的",
+"syn": [
+"imperfect"
+]
+},
+"possible": {
+"day": 145,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 可能的",
+"syn": [
+"impossible"
+]
+},
+"necessary": {
+"day": 145,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 必要的",
+"syn": [
+"unnecessary"
+]
+},
+"important": {
+"day": 145,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 重要的",
+"syn": [
+"unimportant"
+]
+},
+"valuable": {
+"day": 146,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有價值的",
+"syn": [
+"precious",
+"worthless"
+]
+},
+"ordinary": {
+"day": 146,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 普通的",
+"syn": [
+"common",
+"special",
+"unusual",
+"usual"
+]
+},
+"recent": {
+"day": 146,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 最近的",
+"syn": []
+},
+"regular": {
+"day": 146,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 規律的",
+"syn": [
+"irregular"
+]
+},
+"fair": {
+"day": 146,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 公平的",
+"syn": [
+"unfair"
+]
+},
+"empty": {
+"day": 147,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 空的",
+"syn": [
+"full"
+]
+},
+"independent": {
+"day": 147,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 獨立的",
+"syn": [
+"dependent"
+]
+},
+"available": {
+"day": 147,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 可用的；有空的",
+"syn": [
+"unavailable"
+]
+},
+"average": {
+"day": 147,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(adj.) 平均的；(n.) 平均",
+"syn": []
+},
+"personal": {
+"day": 147,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 個人的",
+"syn": [
+"private",
+"public"
+]
+},
+"advantage": {
+"day": 148,
+"pos": [
+"n"
+],
+"zh": "(n.) 優點",
+"syn": [
+"benefit",
+"disadvantage"
+]
+},
+"benefit": {
+"day": 148,
+"pos": [
+"n"
+],
+"zh": "(n.) 好處",
+"syn": [
+"advantage"
+]
+},
+"situation": {
+"day": 148,
+"pos": [
+"n"
+],
+"zh": "(n.) 情況",
+"syn": []
+},
+"solution": {
+"day": 148,
+"pos": [
+"n"
+],
+"zh": "(n.) 解決方法",
+"syn": [
+"answer",
+"problem"
+]
+},
+"purpose": {
+"day": 148,
+"pos": [
+"n"
+],
+"zh": "(n.) 目的",
+"syn": [
+"aim",
+"goal"
+]
+},
+"project": {
+"day": 149,
+"pos": [
+"n"
+],
+"zh": "(n.) 計畫；專題",
+"syn": []
+},
+"quality": {
+"day": 149,
+"pos": [
+"n"
+],
+"zh": "(n.) 品質",
+"syn": []
+},
+"schedule": {
+"day": 149,
+"pos": [
+"n"
+],
+"zh": "(n.) 行程表",
+"syn": []
+},
+"audience": {
+"day": 149,
+"pos": [
+"n"
+],
+"zh": "(n.) 觀眾；聽眾",
+"syn": []
+},
+"award": {
+"day": 149,
+"pos": [
+"n"
+],
+"zh": "(n.) 獎",
+"syn": [
+"prize"
+]
+},
+"character": {
+"day": 150,
+"pos": [
+"n"
+],
+"zh": "(n.) 個性；角色",
+"syn": []
+},
+"hero": {
+"day": 150,
+"pos": [
+"n"
+],
+"zh": "(n.) 英雄",
+"syn": []
+},
+"material": {
+"day": 150,
+"pos": [
+"n"
+],
+"zh": "(n.) 材料",
+"syn": []
+},
+"mystery": {
+"day": 150,
+"pos": [
+"n"
+],
+"zh": "(n.) 謎",
+"syn": []
+},
+"journey": {
+"day": 150,
+"pos": [
+"n"
+],
+"zh": "(n.) 旅程",
+"syn": [
+"trip"
+]
+},
+"especially": {
+"day": 151,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 尤其",
+"syn": [
+"particularly"
+]
+},
+"exactly": {
+"day": 151,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 確切地；正是",
+"syn": []
+},
+"hardly": {
+"day": 151,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 幾乎不",
+"syn": [
+"almost not"
+]
+},
+"suddenly": {
+"day": 151,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 突然地",
+"syn": [
+"all of a sudden"
+]
+},
+"neither": {
+"day": 151,
+"pos": [
+"adv",
+"conj"
+],
+"zh": "(adv.) 也不；(conj.) 既不…也不",
+"syn": []
+},
+"although": {
+"day": 152,
+"pos": [
+"conj"
+],
+"zh": "(conj.) 雖然",
+"syn": [
+"though"
+]
+},
+"unless": {
+"day": 152,
+"pos": [
+"conj"
+],
+"zh": "(conj.) 除非",
+"syn": []
+},
+"therefore": {
+"day": 152,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 因此",
+"syn": [
+"so"
+]
+},
+"anyway": {
+"day": 152,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 無論如何",
+"syn": []
+},
+"nowadays": {
+"day": 152,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 現今",
+"syn": [
+"in the past",
+"today"
+]
+},
+"relationship": {
+"day": 153,
+"pos": [
+"n"
+],
+"zh": "(n.) 關係",
+"syn": []
+},
+"partner": {
+"day": 153,
+"pos": [
+"n"
+],
+"zh": "(n.) 夥伴",
+"syn": []
+},
+"adult": {
+"day": 153,
+"pos": [
+"n"
+],
+"zh": "(n.) 成人",
+"syn": [
+"child",
+"grownup"
+]
+},
+"elder": {
+"day": 153,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 年長的",
+"syn": [
+"older",
+"younger"
+]
+},
+"grandparent": {
+"day": 153,
+"pos": [
+"n"
+],
+"zh": "(n.) 祖父母",
+"syn": []
+},
+"cousin": {
+"day": 154,
+"pos": [
+"n"
+],
+"zh": "(n.) 堂(表)兄弟姊妹",
+"syn": []
+},
+"wedding": {
+"day": 154,
+"pos": [
+"n"
+],
+"zh": "(n.) 婚禮",
+"syn": []
+},
+"quarrel": {
+"day": 154,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 爭吵；(n.) 爭吵",
+"syn": [
+"argue"
+]
+},
+"forgive": {
+"day": 154,
+"pos": [
+"v"
+],
+"zh": "(v.) 原諒",
+"syn": [
+"blame",
+"excuse"
+]
+},
+"lie": {
+"day": 154,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 說謊；(n.) 謊言",
+"syn": [
+"tell the truth"
+]
+},
+"tease": {
+"day": 155,
+"pos": [
+"v"
+],
+"zh": "(v.) 取笑",
+"syn": []
+},
+"greet": {
+"day": 155,
+"pos": [
+"v"
+],
+"zh": "(v.) 打招呼",
+"syn": []
+},
+"nod": {
+"day": 155,
+"pos": [
+"v"
+],
+"zh": "(v.) 點頭",
+"syn": []
+},
+"mood": {
+"day": 155,
+"pos": [
+"n"
+],
+"zh": "(n.) 心情",
+"syn": []
+},
+"invitation": {
+"day": 155,
+"pos": [
+"n"
+],
+"zh": "(n.) 邀請",
+"syn": []
+},
+"behavior": {
+"day": 156,
+"pos": [
+"n"
+],
+"zh": "(n.) 行為",
+"syn": []
+},
+"discipline": {
+"day": 156,
+"pos": [
+"n"
+],
+"zh": "(n.) 紀律",
+"syn": []
+},
+"report card": {
+"day": 156,
+"pos": [
+"n"
+],
+"zh": "(n.) 成績單",
+"syn": []
+},
+"homeroom": {
+"day": 156,
+"pos": [
+"n"
+],
+"zh": "(n.) 導師時間",
+"syn": []
+},
+"absent": {
+"day": 156,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 缺席的",
+"syn": [
+"present"
+]
+},
+"cheat": {
+"day": 157,
+"pos": [
+"v"
+],
+"zh": "(v.) 作弊；欺騙",
+"syn": []
+},
+"punish": {
+"day": 157,
+"pos": [
+"v"
+],
+"zh": "(v.) 處罰",
+"syn": [
+"reward"
+]
+},
+"reward": {
+"day": 157,
+"pos": [
+"n"
+],
+"zh": "(n.) 獎賞",
+"syn": [
+"prize",
+"punishment"
+]
+},
+"contest": {
+"day": 157,
+"pos": [
+"n"
+],
+"zh": "(n.) 比賽",
+"syn": [
+"competition"
+]
+},
+"competition": {
+"day": 157,
+"pos": [
+"n"
+],
+"zh": "(n.) 競賽",
+"syn": [
+"contest"
+]
+},
+"lecture": {
+"day": 158,
+"pos": [
+"n"
+],
+"zh": "(n.) 演講；講課",
+"syn": []
+},
+"term": {
+"day": 158,
+"pos": [
+"n"
+],
+"zh": "(n.) 學期；用語",
+"syn": []
+},
+"assignment": {
+"day": 158,
+"pos": [
+"n"
+],
+"zh": "(n.) 作業",
+"syn": []
+},
+"challenge": {
+"day": 158,
+"pos": [
+"n"
+],
+"zh": "(n.) 挑戰",
+"syn": []
+},
+"mark": {
+"day": 158,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 分數；記號；(v.) 標記",
+"syn": []
+},
+"career": {
+"day": 159,
+"pos": [
+"n"
+],
+"zh": "(n.) 職業生涯",
+"syn": []
+},
+"salary": {
+"day": 159,
+"pos": [
+"n"
+],
+"zh": "(n.) 薪水",
+"syn": []
+},
+"company": {
+"day": 159,
+"pos": [
+"n"
+],
+"zh": "(n.) 公司",
+"syn": []
+},
+"employ": {
+"day": 159,
+"pos": [
+"v"
+],
+"zh": "(v.) 僱用",
+"syn": [
+"fire",
+"hire"
+]
+},
+"hire": {
+"day": 159,
+"pos": [
+"v"
+],
+"zh": "(v.) 僱用",
+"syn": [
+"employ",
+"fire"
+]
+},
+"manager": {
+"day": 160,
+"pos": [
+"n"
+],
+"zh": "(n.) 經理",
+"syn": []
+},
+"income": {
+"day": 160,
+"pos": [
+"n"
+],
+"zh": "(n.) 收入",
+"syn": [
+"expense"
+]
+},
+"budget": {
+"day": 160,
+"pos": [
+"n"
+],
+"zh": "(n.) 預算",
+"syn": []
+},
+"rent": {
+"day": 160,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 租；(n.) 租金",
+"syn": []
+},
+"product": {
+"day": 160,
+"pos": [
+"n"
+],
+"zh": "(n.) 產品",
+"syn": []
+},
+"media": {
+"day": 161,
+"pos": [
+"n"
+],
+"zh": "(n.) 媒體",
+"syn": []
+},
+"announce": {
+"day": 161,
+"pos": [
+"v"
+],
+"zh": "(v.) 宣布",
+"syn": []
+},
+"communicate": {
+"day": 161,
+"pos": [
+"v"
+],
+"zh": "(v.) 溝通",
+"syn": []
+},
+"inform": {
+"day": 161,
+"pos": [
+"v"
+],
+"zh": "(v.) 通知",
+"syn": [
+"tell"
+]
+},
+"article": {
+"day": 161,
+"pos": [
+"n"
+],
+"zh": "(n.) 文章",
+"syn": []
+},
+"headline": {
+"day": 162,
+"pos": [
+"n"
+],
+"zh": "(n.) 標題",
+"syn": []
+},
+"channel": {
+"day": 162,
+"pos": [
+"n"
+],
+"zh": "(n.) 頻道",
+"syn": []
+},
+"comment": {
+"day": 162,
+"pos": [
+"n"
+],
+"zh": "(n.) 評論；留言",
+"syn": []
+},
+"opinion": {
+"day": 162,
+"pos": [
+"n"
+],
+"zh": "(n.) 意見",
+"syn": [
+"view"
+]
+},
+"advice": {
+"day": 162,
+"pos": [
+"n"
+],
+"zh": "(n.) 建議",
+"syn": [
+"suggestion"
+]
+},
+"argument": {
+"day": 163,
+"pos": [
+"n"
+],
+"zh": "(n.) 爭論",
+"syn": [
+"quarrel"
+]
+},
+"rumor": {
+"day": 163,
+"pos": [
+"n"
+],
+"zh": "(n.) 謠言",
+"syn": [
+"fact"
+]
+},
+"detail": {
+"day": 163,
+"pos": [
+"n"
+],
+"zh": "(n.) 細節",
+"syn": []
+},
+"advertise": {
+"day": 163,
+"pos": [
+"v"
+],
+"zh": "(v.) 做廣告",
+"syn": []
+},
+"update": {
+"day": 163,
+"pos": [
+"v"
+],
+"zh": "(v.) 更新",
+"syn": []
+},
+"destination": {
+"day": 164,
+"pos": [
+"n"
+],
+"zh": "(n.) 目的地",
+"syn": []
+},
+"flight": {
+"day": 164,
+"pos": [
+"n"
+],
+"zh": "(n.) 班機",
+"syn": []
+},
+"board": {
+"day": 164,
+"pos": [
+"v"
+],
+"zh": "(v.) 登上(交通工具)",
+"syn": []
+},
+"delay": {
+"day": 164,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 延誤；(n.) 延誤",
+"syn": []
+},
+"check-in": {
+"day": 164,
+"pos": [
+"n"
+],
+"zh": "(n.) 報到手續",
+"syn": []
+},
+"reserve": {
+"day": 165,
+"pos": [
+"v"
+],
+"zh": "(v.) 預訂",
+"syn": [
+"book"
+]
+},
+"guest": {
+"day": 165,
+"pos": [
+"n"
+],
+"zh": "(n.) 客人",
+"syn": [
+"host",
+"visitor"
+]
+},
+"view": {
+"day": 165,
+"pos": [
+"n"
+],
+"zh": "(n.) 景色；看法",
+"syn": []
+},
+"scenery": {
+"day": 165,
+"pos": [
+"n"
+],
+"zh": "(n.) 風景",
+"syn": [
+"view"
+]
+},
+"crowd": {
+"day": 165,
+"pos": [
+"n"
+],
+"zh": "(n.) 人群",
+"syn": []
+},
+"route": {
+"day": 166,
+"pos": [
+"n"
+],
+"zh": "(n.) 路線",
+"syn": []
+},
+"transportation": {
+"day": 166,
+"pos": [
+"n"
+],
+"zh": "(n.) 交通運輸",
+"syn": []
+},
+"vehicle": {
+"day": 166,
+"pos": [
+"n"
+],
+"zh": "(n.) 車輛",
+"syn": []
+},
+"highway": {
+"day": 166,
+"pos": [
+"n"
+],
+"zh": "(n.) 公路",
+"syn": []
+},
+"tourist": {
+"day": 166,
+"pos": [
+"n"
+],
+"zh": "(n.) 觀光客",
+"syn": []
+},
+"calm": {
+"day": 167,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 冷靜的",
+"syn": [
+"excited",
+"nervous",
+"quiet"
+]
+},
+"cheerful": {
+"day": 167,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 開朗的",
+"syn": [
+"happy",
+"sad"
+]
+},
+"generous": {
+"day": 167,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 慷慨的",
+"syn": [
+"kind",
+"selfish"
+]
+},
+"selfish": {
+"day": 167,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 自私的",
+"syn": [
+"generous"
+]
+},
+"responsible": {
+"day": 167,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 負責任的",
+"syn": [
+"irresponsible"
+]
+},
+"creative": {
+"day": 168,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 有創意的",
+"syn": []
+},
+"humorous": {
+"day": 168,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 幽默的",
+"syn": [
+"funny",
+"serious"
+]
+},
+"jealous": {
+"day": 168,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 嫉妒的",
+"syn": []
+},
+"terrified": {
+"day": 168,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 嚇壞的",
+"syn": [
+"very scared"
+]
+},
+"grateful": {
+"day": 168,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 感激的",
+"syn": [
+"thankful",
+"ungrateful"
+]
+},
+"ability": {
+"day": 169,
+"pos": [
+"n"
+],
+"zh": "(n.) 能力",
+"syn": [
+"skill"
+]
+},
+"freedom": {
+"day": 169,
+"pos": [
+"n"
+],
+"zh": "(n.) 自由",
+"syn": []
+},
+"honor": {
+"day": 169,
+"pos": [
+"n"
+],
+"zh": "(n.) 榮譽",
+"syn": []
+},
+"importance": {
+"day": 169,
+"pos": [
+"n"
+],
+"zh": "(n.) 重要性",
+"syn": []
+},
+"patience": {
+"day": 169,
+"pos": [
+"n"
+],
+"zh": "(n.) 耐心",
+"syn": [
+"impatience"
+]
+},
+"courage": {
+"day": 170,
+"pos": [
+"n"
+],
+"zh": "(n.) 勇氣",
+"syn": [
+"bravery",
+"fear"
+]
+},
+"truth": {
+"day": 170,
+"pos": [
+"n"
+],
+"zh": "(n.) 事實；真相",
+"syn": [
+"fact",
+"lie"
+]
+},
+"spirit": {
+"day": 170,
+"pos": [
+"n"
+],
+"zh": "(n.) 精神",
+"syn": []
+},
+"belief": {
+"day": 170,
+"pos": [
+"n"
+],
+"zh": "(n.) 信念",
+"syn": []
+},
+"custom": {
+"day": 170,
+"pos": [
+"n"
+],
+"zh": "(n.) 習俗",
+"syn": [
+"tradition"
+]
+},
+"value": {
+"day": 171,
+"pos": [
+"n"
+],
+"zh": "(n.) 價值",
+"syn": []
+},
+"risk": {
+"day": 171,
+"pos": [
+"n"
+],
+"zh": "(n.) 風險",
+"syn": []
+},
+"victory": {
+"day": 171,
+"pos": [
+"n"
+],
+"zh": "(n.) 勝利",
+"syn": [
+"defeat",
+"win"
+]
+},
+"favor": {
+"day": 171,
+"pos": [
+"n"
+],
+"zh": "(n.) 幫忙；恩惠",
+"syn": []
+},
+"failure": {
+"day": 171,
+"pos": [
+"n"
+],
+"zh": "(n.) 失敗",
+"syn": [
+"success"
+]
+},
+"examine": {
+"day": 172,
+"pos": [
+"v"
+],
+"zh": "(v.) 檢查",
+"syn": [
+"check"
+]
+},
+"gather": {
+"day": 172,
+"pos": [
+"v"
+],
+"zh": "(v.) 聚集；收集",
+"syn": [
+"collect"
+]
+},
+"hang out": {
+"day": 172,
+"pos": [
+"v"
+],
+"zh": "(v.) 閒晃；出去玩",
+"syn": []
+},
+"judge": {
+"day": 172,
+"pos": [
+"v"
+],
+"zh": "(v.) 判斷；評審",
+"syn": []
+},
+"limit": {
+"day": 172,
+"pos": [
+"n",
+"v"
+],
+"zh": "(n.) 限制；(v.) 限制",
+"syn": []
+},
+"measure": {
+"day": 173,
+"pos": [
+"v"
+],
+"zh": "(v.) 測量",
+"syn": []
+},
+"obey": {
+"day": 173,
+"pos": [
+"v"
+],
+"zh": "(v.) 遵守",
+"syn": [
+"disobey",
+"follow"
+]
+},
+"observe": {
+"day": 173,
+"pos": [
+"v"
+],
+"zh": "(v.) 觀察",
+"syn": [
+"watch"
+]
+},
+"predict": {
+"day": 173,
+"pos": [
+"v"
+],
+"zh": "(v.) 預測",
+"syn": []
+},
+"pretend": {
+"day": 173,
+"pos": [
+"v"
+],
+"zh": "(v.) 假裝",
+"syn": []
+},
+"publish": {
+"day": 174,
+"pos": [
+"v"
+],
+"zh": "(v.) 出版",
+"syn": []
+},
+"replace": {
+"day": 174,
+"pos": [
+"v"
+],
+"zh": "(v.) 取代；更換",
+"syn": []
+},
+"require": {
+"day": 174,
+"pos": [
+"v"
+],
+"zh": "(v.) 需要；要求",
+"syn": [
+"need"
+]
+},
+"respond": {
+"day": 174,
+"pos": [
+"v"
+],
+"zh": "(v.) 回應",
+"syn": [
+"answer",
+"reply"
+]
+},
+"steal": {
+"day": 174,
+"pos": [
+"v"
+],
+"zh": "(v.) 偷",
+"syn": []
+},
+"apply": {
+"day": 175,
+"pos": [
+"v"
+],
+"zh": "(v.) 申請",
+"syn": []
+},
+"arrange": {
+"day": 175,
+"pos": [
+"v"
+],
+"zh": "(v.) 安排",
+"syn": [
+"organize"
+]
+},
+"behave": {
+"day": 175,
+"pos": [
+"v"
+],
+"zh": "(v.) 表現；守規矩",
+"syn": [
+"misbehave"
+]
+},
+"calculate": {
+"day": 175,
+"pos": [
+"v"
+],
+"zh": "(v.) 計算",
+"syn": []
+},
+"complete": {
+"day": 175,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(v.) 完成；(adj.) 完整的",
+"syn": [
+"finish"
+]
+},
+"destroy": {
+"day": 176,
+"pos": [
+"v"
+],
+"zh": "(v.) 摧毀",
+"syn": [
+"build",
+"create"
+]
+},
+"disagree": {
+"day": 176,
+"pos": [
+"v"
+],
+"zh": "(v.) 不同意",
+"syn": [
+"agree"
+]
+},
+"doubt": {
+"day": 176,
+"pos": [
+"n",
+"v"
+],
+"zh": "(v.) 懷疑；(n.) 懷疑",
+"syn": [
+"believe",
+"trust"
+]
+},
+"download": {
+"day": 176,
+"pos": [
+"v"
+],
+"zh": "(v.) 下載",
+"syn": [
+"upload"
+]
+},
+"escape": {
+"day": 176,
+"pos": [
+"v"
+],
+"zh": "(v.) 逃脫",
+"syn": [
+"run away"
+]
+},
+"fit": {
+"day": 177,
+"pos": [
+"adj",
+"v"
+],
+"zh": "(v.) 合身；適合；(adj.) 健康的",
+"syn": []
+},
+"handle": {
+"day": 177,
+"pos": [
+"v"
+],
+"zh": "(v.) 處理",
+"syn": [
+"deal with"
+]
+},
+"include": {
+"day": 177,
+"pos": [
+"v"
+],
+"zh": "(v.) 包含",
+"syn": [
+"exclude"
+]
+},
+"lay": {
+"day": 177,
+"pos": [
+"v"
+],
+"zh": "(v.) 放置；下(蛋)",
+"syn": []
+},
+"attract": {
+"day": 177,
+"pos": [
+"v"
+],
+"zh": "(v.) 吸引",
+"syn": []
+},
+"active": {
+"day": 178,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 活躍的",
+"syn": [
+"lazy",
+"lively"
+]
+},
+"ancient": {
+"day": 178,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 古老的",
+"syn": [
+"modern",
+"old"
+]
+},
+"awful": {
+"day": 178,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 糟糕的",
+"syn": [
+"terrible",
+"wonderful"
+]
+},
+"basic": {
+"day": 178,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 基本的",
+"syn": [
+"advanced"
+]
+},
+"complex": {
+"day": 178,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 複雜的",
+"syn": [
+"difficult",
+"simple"
+]
+},
+"direct": {
+"day": 179,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 直接的",
+"syn": [
+"indirect"
+]
+},
+"entire": {
+"day": 179,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 整個的",
+"syn": [
+"whole"
+]
+},
+"extra": {
+"day": 179,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 額外的",
+"syn": [
+"additional"
+]
+},
+"formal": {
+"day": 179,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 正式的",
+"syn": [
+"casual",
+"informal"
+]
+},
+"major": {
+"day": 179,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 主要的",
+"syn": [
+"main",
+"minor"
+]
+},
+"narrow": {
+"day": 180,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 窄的",
+"syn": [
+"wide"
+]
+},
+"similar": {
+"day": 180,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 相似的",
+"syn": [
+"alike",
+"different"
+]
+},
+"smooth": {
+"day": 180,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 平滑的；順利的",
+"syn": [
+"rough"
+]
+},
+"rapid": {
+"day": 180,
+"pos": [
+"adj"
+],
+"zh": "(adj.) 快速的",
+"syn": [
+"fast",
+"quick",
+"slow"
+]
+},
+"total": {
+"day": 180,
+"pos": [
+"adj",
+"n"
+],
+"zh": "(adj.) 總共的；(n.) 總數",
+"syn": [
+"whole"
+]
+},
+"besides": {
+"day": 181,
+"pos": [
+"adv",
+"prep"
+],
+"zh": "(adv.) 此外；(prep.) 除…之外還有",
+"syn": []
+},
+"against": {
+"day": 181,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 反對；倚靠",
+"syn": [
+"for"
+]
+},
+"beyond": {
+"day": 181,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 超過；在…之外",
+"syn": []
+},
+"toward": {
+"day": 181,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 朝向",
+"syn": [
+"away from"
+]
+},
+"within": {
+"day": 181,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 在…之內",
+"syn": []
+},
+"among": {
+"day": 182,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 在…之中",
+"syn": []
+},
+"despite": {
+"day": 182,
+"pos": [
+"prep"
+],
+"zh": "(prep.) 儘管",
+"syn": [
+"in spite of"
+]
+},
+"otherwise": {
+"day": 182,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 否則",
+"syn": [
+"or"
+]
+},
+"indeed": {
+"day": 182,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 確實",
+"syn": [
+"really"
+]
+},
+"rather": {
+"day": 182,
+"pos": [
+"adv"
+],
+"zh": "(adv.) 相當；寧願",
+"syn": []
+}
+}

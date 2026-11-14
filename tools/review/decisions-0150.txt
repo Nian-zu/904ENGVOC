@@ -1,0 +1,55 @@
+13f6d2af5e|early
+579f9780b6|favorite,local,rich,dry,thin|Snorlax (卡比獸) eats all day, but he never has ____ food.
+83370746c5|different,necessary,common|We have 20 chairs but 30 students. We don't have ____ chairs for everyone.
+b22c4d06fc|basic,dangerous
+0ed2a891f2|success
+5b93a60d1b|difference,cook
+f16e58604b|plan
+d2788d9c7f|move
+296db09a98|right,wrong
+6a7a427e10|bright,clear,cool|We are twins. We were born on the ____ day.
+cbf35fe86a|wrong,great,smart
+c07efd32c8|already,alone
+c75dab3b40|indeed
+f729a00f37|often,indeed,luckily
+8d8eccfaf5|information
+4b1aef2161|record
+4f57fc47e9|pray
+093db0f7a8|story
+1846609110|Tired,Patient,Living
+05aee97807|paint,change
+5c949796ae|hit
+5103b24cec|join
+629ec8a589|couple
+3e8f556bbc|leave
+71214f3e49|move,sell,push,return
+51d71e7a07|prepare
+c958fc4264|sleep
+cca1c3cc1d|pray
+a216e9f0cb|bake|Can you ____? I'm hungry.
+d772ed4ae7|grow,join,type,sound|Remy the rat (料理鼠王) is a great chef. He can ____ very well.
+21bd87116f|Show
+372ba6719b|Holiday
+5c919688ff||The dogs began to ____. They bit each other.
+5b369b72b3|show
+53628f5a43||We're waiting in line. Who is ____?
+b10da32758|prepare,collect
+ceb1c8e1f3|keep
+95a34659ec|mistake
+a47c576c0a|show
+dbdfcce930||You're here! What a(n) ____! I didn't know you were coming.
+365108d10f|find,borrow
+7ef917cabf|try,put
+84874fe9b2|pack
+a9a9f3b0a7|own,hold
+2304e362e1|reach
+33e876ab57|hurt
+8d0863c001|believe
+8e8656c51b|send,lend
+019548a67a||You look sad. What's ____?
+965907270c|strange,special
+35a357e1bc|cheap,free
+f5fb6c501d|perfect
+6d4da95b9b|large,modern
+7466a0c6a7|move
+cd308ba623|worried
