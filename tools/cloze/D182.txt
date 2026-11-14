@@ -353,8 +353,8 @@ Last weekend, my family visited the Taipei Zoo to see the pandas. There was a lo
 = 上個週末，我們全家去台北市立動物園看貓熊。隊伍很長，我們等了一個小時。好不容易進去了，貓熊卻在睡覺！妹妹很失望：「我想看牠們的臉！」一位管理員聽到了，笑著告訴我們，貓熊一天睡超過十個小時，因為竹子提供的能量不多。接著，他給我們看一段貓熊早上玩耍的影片。「上次我們來，牠們也在睡覺，」爸爸說，「下次我們得早點來。」
 
 ## 一日麵包師傅
-Our class had a Job Day. Each student could [[become|keep|need|show]] something new for one day. I chose to work at a bakery. At 6 a.m., the baker [[showed|kept|needed|meant]] me how to make bread. My hands got covered in flour. Then customers started to come in, and I had to [[keep|need|show|mean]] smiling even though I was tired. The hardest [[problem|answer|minute|color]] was giving people the right change quickly. At the end of the day, the baker gave me a [[free|careful|hungry|empty]] loaf of bread. I learned that every job is harder than it looks.
-> 1 become + 名詞「成為…」：每個學生可以當一天別的身分。keep、need、show something new 在這裡都不合理。
+Our class had a Job Day. Each student could [[become|keep|mean|last]] a worker at a real shop for one day. I chose to work at a bakery. At 6 a.m., the baker [[showed|kept|needed|meant]] me how to make bread. My hands got covered in flour. Then customers started to come in, and I had to [[keep|need|show|mean]] smiling even though I was tired. The hardest [[problem|answer|minute|color]] was giving people the right change quickly. At the end of the day, the baker gave me a [[free|careful|hungry|empty]] loaf of bread. I learned that every job is harder than it looks.
+> 1 become + 名詞「成為…」：每個學生可以當一天真正商店的員工。keep、mean a worker 意思不通，last 當動詞是「持續」，後面不能接 a worker。
 > 2 show + 人 + how to …「教某人怎麼做」：師傅教我怎麼做麵包。kept、needed、meant 不能這樣用。
 > 3 keep + V-ing「持續…」：就算很累也得一直保持微笑。need smiling、show smiling、mean smiling 都不對。
 > 4 the hardest problem「最難的問題」：最難的是快速找對零錢。answer、minute、color 都不合理。
@@ -364,7 +364,7 @@ Our class had a Job Day. Each student could [[become|keep|need|show]] something 
 + flour = 麵粉
 + change = 找的零錢
 + loaf = （一條）麵包
-= 我們班舉辦了職業體驗日，每個學生可以當一天別的身分。我選擇到麵包店工作。早上六點，師傅教我怎麼做麵包，我的手沾滿了麵粉。接著客人開始上門，就算很累，我也得一直保持微笑。最難的是快速找對零錢。下班時，師傅送了我一條免費的麵包。我學到，每一份工作都比看起來還難。
+= 我們班舉辦了職業體驗日，每個學生可以到真正的店裡當一天員工。我選擇到麵包店工作。早上六點，師傅教我怎麼做麵包，我的手沾滿了麵粉。接著客人開始上門，就算很累，我也得一直保持微笑。最難的是快速找對零錢。下班時，師傅送了我一條免費的麵包。我學到，每一份工作都比看起來還難。
 
 ## 不再怕牙醫
 Kelly was afraid of dentists. Every time she had an appointment, she said she was sick. But one day, her tooth hurt so much that she could not [[keep|need|show|mean]] quiet. She [[needed|kept|showed|meant]] help. Her mom took her to a new dentist, Dr. Lee. He was very [[different|careful|hungry|kind]] from her old dentist. He [[showed|kept|needed|meant]] her every tool and explained what it did. He even let her wear sunglasses and listen to music. The visit was easier than she thought, and the pain went [[away|careful|happy|kind]].
