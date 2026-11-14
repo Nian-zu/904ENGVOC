@@ -246,3 +246,132 @@ Ariel was a mermaid who lived deep in the sea. She wanted to see the world above
 + shell = 貝殼
 + necklace = 項鍊
 = 艾莉兒是一條住在深海裡的美人魚。她很想看看海面上的世界，但她父親說人類很危險。艾莉兒不懂為什麼。有一天晚上，她游上海面，看到一艘船。一個年輕人站在船上看星星。突然，暴風雨來了，他掉進海裡。艾莉兒把他拉到沙灘上，然後游走了。回到海面下的房間，她一直想著他。她為他準備了一份禮物：一條貝殼項鍊。隔天，她游回去，把項鍊放在一塊石頭上。年輕人發現了它，笑了。他望著大海問：「你是誰？」當然，大海沒有回答。但艾莉兒在水面下看著他，心裡漸漸暖了起來。
+
+## 東尼的深海盔甲
+Tony Stark is a genius. In his workshop, he can [[build|answer|notice|understand]] almost anything. One day, he wanted to make a new suit that could go to the bottom of the ocean. "The water pressure [[below|until|during|than]] two thousand meters is very strong," his computer, JARVIS, warned. Tony didn't listen. He worked for three days without sleep. When he tested the suit in the sea, everything was fine at first. Then he [[noticed|grew|built|prepared]] a small crack in the glass. "JARVIS, what's happening?" he asked. JARVIS didn't [[answer|build|grow|prepare]]. The water was too deep for the radio! Tony quickly flew back up. Back in his workshop, he laughed. "OK, JARVIS, I [[understand|build|grow|prepare]]. Next time, I'll listen to you."
+> 1 build almost anything「幾乎什麼都做得出來」。answer、notice、understand almost anything 和「工作室」搭配意思不通。
+> 2 below + 數量「在…以下（更深的地方）」：兩千公尺以下的水壓很強。until、during、than 接 two thousand meters 意思不通。
+> 3 notice a crack「注意到一道裂縫」。grew、built、prepared a small crack 意思不通。
+> 4 didn't answer「沒有回應」：JARVIS 沒有回答（收不到訊號）。build、grow、prepare 放在這裡意思不通。
+> 5 I understand.「我懂了。」understand 可以不接受詞。build、grow、prepare 放在這裡意思不通。
++ Tony Stark = 東尼．史塔克（鋼鐵人）
++ genius = 天才
++ suit = （鋼鐵人的）盔甲裝
++ pressure = 壓力
++ crack = 裂縫
+= 東尼．史塔克是個天才，在他的工作室裡，他幾乎什麼都做得出來。有一天，他想做一套能潛到海底的新盔甲。「兩千公尺以下的水壓非常強。」他的電腦 JARVIS 警告他。東尼不聽，三天沒睡一直趕工。他在海裡測試盔甲時，一開始一切正常。接著他發現玻璃上有一道小裂縫。「JARVIS，怎麼回事？」他問。JARVIS 沒有回答──水太深，無線電收不到！東尼趕緊飛回海面。回到工作室後，他笑著說：「好啦，JARVIS，我懂了。下次我會聽你的。」
+
+## 英文演講比賽
+Our teacher chose me for the English speech contest. The winner would get a [[prize|weather|notice|answer]] of NT$3,000! I had only two weeks to [[prepare|notice|grow|answer]]. Every night, I practiced in front of the mirror. My little sister was my only audience. At first, she didn't [[understand|build|grow|prepare]] anything, but after a week, she could say some of my lines too! On the day of the contest, my hands were shaking. But when I saw my sister in the audience, I felt better. At the end, the judges asked me a hard question, but I [[answered|grew|built|noticed]] it well. I didn't win first place, but I got third. After the contest, my sister gave me a [[special|asleep|alone|afraid]] gift: a drawing of me on the stage.
+> 1 a prize of + 金額「…元的獎金」。weather、notice、answer of NT$3,000 都不通。
+> 2 have two weeks to prepare「有兩週可以準備」。notice、grow、answer 放在這裡意思不通。
+> 3 didn't understand anything「什麼都聽不懂」。build、grow、prepare anything 和「觀眾」搭配意思不通。
+> 4 answer a question「回答問題」。grew、built、noticed it 和「問題」搭配意思不通。
+> 5 a special gift「一份特別的禮物」。asleep、alone、afraid 不能放在名詞前面。
++ speech contest = 演講比賽
++ mirror = 鏡子
++ audience = 觀眾
++ judge = 評審
+= 老師選我參加英文演講比賽，冠軍可以得到三千元的獎金！我只有兩個星期可以準備。每天晚上，我都對著鏡子練習，妹妹是我唯一的觀眾。一開始她什麼都聽不懂，但一個星期後，她也會說我的一些台詞了！比賽那天，我的手一直發抖，但看到妹妹坐在觀眾席，我就覺得好多了。最後評審問了一個很難的問題，但我回答得很好。我沒有拿到第一名，而是第三名。比賽結束後，妹妹送我一份特別的禮物：一張畫著我站在台上的圖。
+
+## 公園的新告示
+There is a small park [[below|until|during|than]] our apartment, and many pigeons live there. Every morning, an old woman feeds them bread. Last week, a new [[notice|prize|holiday|answer]] appeared on the gate: "Please do not feed the birds." The old woman didn't [[notice|build|grow|prepare]] it, and she kept feeding them. A man shouted at her, "Can't you read?" She looked sad and started to leave. I wanted to help, so I walked over and explained the sign to her. "Too much bread makes the birds sick," I said. She [[understood|grew|built|prepared]] and thanked me. The next day, she came back with a camera instead of bread. Now she takes photos of the pigeons and shows them to everyone. "They are my [[special|asleep|alone|afraid]] friends," she says.
+> 1 below + 名詞「在…下方」：我們公寓樓下有座小公園。until、during、than 接 our apartment 意思不通。
+> 2 notice 當名詞「告示」：大門上出現一張新告示。prize、holiday、answer 都不會貼在門上寫「請勿餵鳥」。
+> 3 notice it「注意到它」：老太太沒注意到告示。build、grow、prepare it 意思不通。
+> 4 understand 可以不接受詞「明白了」。grew、built、prepared 放在這裡意思不通。
+> 5 special friends「特別的朋友」。asleep、alone、afraid 不能放在名詞前面。
++ pigeon = 鴿子
++ gate = 大門
++ explain = 解釋
+= 我們公寓樓下有一座小公園，那裡住了很多鴿子。每天早上，一位老太太都會拿麵包餵牠們。上星期，大門上出現一張新告示：「請勿餵食鳥類。」老太太沒注意到，還是繼續餵。一個男人對她大吼：「你不識字嗎？」她看起來很難過，準備離開。我想幫忙，就走過去跟她解釋告示的意思。「吃太多麵包會讓鳥生病。」我說。她明白了，還跟我道謝。隔天，她帶著相機而不是麵包回來。現在她都幫鴿子拍照，拿給大家看。「牠們是我特別的朋友。」她說。
+
+## 會長大的鉛筆
+Ben found an old pencil on the floor [[below|until|during|than]] the classroom window. It looked normal, but when he wrote with it, something strange happened. Every word he wrote made the pencil [[grow|answer|build|notice]] a little longer! By the end of math class, it was as long as his arm. His friends [[noticed|built|grew|prepared]] and laughed. Ben didn't [[understand|build|grow|prepare]] what was going on. That night, he had a dream. An old man said to him, "The pencil grows when you work hard. Use it well." The next day, Ben used the pencil to [[prepare|grow|notice|build]] for his English test. He wrote and wrote, and the pencil grew taller than him. He got 100 on the test! But now he has a new problem: the pencil can't fit in his bag.
+> 1 below the window「在窗戶下方」。until、during、than 接 the classroom window 意思不通。
+> 2 make + 物 + 原形動詞「使…」：寫的每個字都讓鉛筆變長一點。answer、build、notice a little longer 都不通。
+> 3 notice 可以不接受詞「注意到」：朋友們發現了，哈哈大笑。built、grew、prepared 放在這裡意思不通。
+> 4 understand what …「明白…」。build、grow、prepare what was going on 都不通。
+> 5 prepare for a test「準備考試」。grow、notice、build for his English test 意思不通。
++ normal = 正常的、普通的
++ strange = 奇怪的
++ fit = 放得進
+= Ben 在教室窗戶下方的地板上撿到一支舊鉛筆。它看起來很普通，但他用它寫字時，怪事發生了：每寫一個字，鉛筆就變長一點！數學課結束時，它已經跟他的手臂一樣長了。朋友們發現了，都哈哈大笑。Ben 搞不懂到底怎麼回事。那天晚上，他做了一個夢，一位老爺爺對他說：「你越用功，鉛筆就越長。好好用它。」隔天，Ben 用這支鉛筆準備英文考試。他寫啊寫，鉛筆長得比他還高，結果他考了一百分！不過現在他有了新麻煩：鉛筆放不進書包了。
+
+## 校園職業日
+Last Friday was a [[special|least|likely|asleep]] day at our school: Career Day. People with different jobs came to talk to us. A firefighter showed us how to [[prepare|notice|answer|grow]] for an earthquake. A farmer told us how she [[grows|builds|answers|notices]] vegetables without chemicals. My favorite speaker was an engineer who [[builds|answers|grows|understands]] bridges. She showed us a model of a bridge and let us ask questions. I asked, "What if a bridge breaks?" She smiled and [[answered|grew|built|prepared]], "That's why we check our work again and again." After that day, I started to dream about building bridges too.
+> 1 a special day「特別的一天」。least、likely、asleep 都不能這樣放在名詞前面。
+> 2 prepare for an earthquake「為地震做準備」。notice、answer、grow for 都不通。
+> 3 grow vegetables「種菜」。builds、answers、notices vegetables 意思不通。
+> 4 build bridges「造橋」：工程師的工作是造橋。answers、grows、understands bridges 意思不通。
+> 5 answer「回答」後面可直接接說的話。grew、built、prepared 後面不能接引號裡的話。
++ Career Day = 職業日
++ firefighter = 消防員
++ chemical = 化學藥劑
++ engineer = 工程師
++ bridge = 橋
+= 上星期五是我們學校特別的一天：職業日。從事各種工作的人來跟我們分享。一位消防員教我們怎麼為地震做準備；一位農夫告訴我們她如何不用化學藥劑種菜。我最喜歡的講者是一位造橋的工程師。她拿出一座橋的模型，讓我們發問。我問：「如果橋斷了怎麼辦？」她笑著回答：「所以我們會一再檢查自己的工作。」從那天起，我也開始夢想著要造橋了。
+
+## 寫給十年後的自己
+It was the last day of school before the summer [[holiday|prize|answer|notice]]. Everyone was excited, but our teacher had one more surprise. "Before you go," she said, "please write a letter to yourself. I will mail it to you in ten years." At first, we didn't [[understand|grow|build|prepare]] why. Then she said, "People change as they [[grow|answer|build|notice]] older. One day, you will want to remember who you are today." So I wrote about my best friend, my favorite songs, and my dream to [[build|answer|notice|understand]] robots. I put the letter in an envelope and wrote my name [[below|until|during|than]] the address. I wonder what I will think when I read it at twenty-five.
+> 1 summer holiday「暑假」。summer prize、summer answer、summer notice 都不通。
+> 2 understand why「明白為什麼」。grow、build、prepare why 都不通。
+> 3 grow older「漸漸長大、變老」。answer、build、notice older 都不通。
+> 4 build robots「打造機器人」。answer、notice、understand robots 和「夢想」搭配意思不通。
+> 5 below the address「在地址下面」。until、during、than 接 the address 意思不通。
++ mail = 寄
++ envelope = 信封
++ address = 地址
++ wonder = 想知道
+= 那天是放暑假前的最後一天。大家都很興奮，但老師還有最後一個驚喜。「回家之前，」她說，「請寫一封信給自己，我會在十年後寄給你們。」一開始我們不懂為什麼。接著她說：「人長大會改變，有一天你們會想記得今天的自己。」於是我寫下我最好的朋友、我最愛的歌，還有我想打造機器人的夢想。我把信放進信封，在地址下面寫上我的名字。真想知道，二十五歲的我讀到這封信時會怎麼想。
+
+## 密室逃脫
+For my birthday, my friends and I went to an escape room. The rules were simple: we had one hour to [[answer|build|grow|prepare]] five questions and find the key. The first question was on the wall: "What has hands but can't clap?" "A clock!" said Amy. A door opened. In the next room, I [[noticed|grew|built|prepared]] some numbers [[below|until|during|than]] a painting. We tried them on a box, and it opened! Inside was a map, but nobody could [[understand|grow|build|prepare]] it. Time was running out. Then Ken turned the map upside down. "It's our school!" he said. We found the key just in time. The staff gave us a small [[prize|weather|notice|answer]]: free drinks for everyone.
+> 1 answer questions「回答問題」。build、grow、prepare five questions 意思不通。
+> 2 notice + 物「注意到」：我發現畫下面有一些數字。grew、built、prepared some numbers 意思不通。
+> 3 below a painting「在畫的下方」。until、during、than 接 a painting 意思不通。
+> 4 understand a map「看懂地圖」。grow、build、prepare it 意思不通。
+> 5 a small prize「一個小獎品」：免費飲料。weather、notice、answer 都不能說明「免費飲料」。
++ escape room = 密室逃脫
++ clap = 拍手
++ upside down = 上下顛倒
++ staff = 工作人員
+= 我生日那天，和朋友去玩密室逃脫。規則很簡單：我們有一小時要回答五個問題、找到鑰匙。第一題寫在牆上：「什麼東西有手卻不會拍手？」「時鐘！」Amy 說。一扇門打開了。在下一個房間裡，我注意到一幅畫下面有一些數字。我們拿去試一個箱子，箱子打開了！裡面有一張地圖，但沒人看得懂。時間快到了，接著 Ken 把地圖倒過來。「是我們學校！」他說。我們及時找到了鑰匙。工作人員給了我們一個小獎品：每人一杯免費飲料。
+
+## 門框上的身高線
+In my grandma's kitchen, there are many lines on the door frame. Every Lunar New Year [[holiday|prize|answer|notice]], Grandma checks how tall we are. She draws a line and writes our names and the year [[below|until|during|than]] it. This year, my cousin Tom and I stood next to the door. Tom was always taller than me, but this time, Grandma said, "Wow, you [[grew|built|answered|noticed]] ten centimeters!" I was taller than Tom! Tom didn't say anything. Later, I [[noticed|prepared|built|grew]] that he was quiet at dinner. I went to him and said, "Don't worry. You'll catch up." He laughed. "I know. I just need to eat more of Grandma's food!" Grandma heard this and [[prepared|noticed|answered|understood]] a big bowl of noodles for him.
+> 1 the Lunar New Year holiday「農曆新年假期」。prize、answer、notice 放在這裡意思不通。
+> 2 below it「在它（線）下面」寫名字和年份。until、during、than 接 it 意思不通。
+> 3 grow + 長度「長高了…」：你長高了十公分！built、answered、noticed ten centimeters 意思不通。
+> 4 notice that + 句子「注意到…」。prepared、built、grew that 都不通。
+> 5 prepare + 食物 + for + 人「為某人準備…」。noticed、answered、understood a big bowl of noodles 意思不通。
++ door frame = 門框
++ Lunar New Year = 農曆新年
++ centimeter = 公分
++ catch up = 趕上
+= 奶奶家廚房的門框上有很多條線。每年農曆新年假期，奶奶都會量我們有多高。她畫一條線，在線下面寫上我們的名字和年份。今年，表哥 Tom 和我站到門邊。Tom 一直比我高，但這次奶奶說：「哇，你長高了十公分！」我比 Tom 還高了！Tom 什麼都沒說。後來，我發現他吃晚餐時很安靜。我走過去對他說：「別擔心，你會追上的。」他笑了：「我知道，我只是要多吃一點奶奶煮的菜！」奶奶聽到了，馬上幫他準備了一大碗麵。
+
+## 考卷下面的小字
+Last week, I got my math test back. I got only 58. I was ready to hide it in my bag, but then I [[noticed|grew|built|prepared]] some small words [[below|until|during|than]] my score. My teacher wrote: "I know you can do better. Come and see me after school." I was nervous, but I went. She didn't shout at me. She just asked, "Which part don't you [[understand|build|grow|prepare]]?" We went through the test together. She explained every question slowly, and I tried to [[answer|grow|build|notice]] them again. For the next month, I went to see her every Wednesday. On the next test, I got 85. Next to my score, she put a [[special|least|likely|asleep]] sticker of a smiling sun. I still keep that test in my desk.
+> 1 notice + 物「注意到」：我注意到分數下面有幾個小字。grew、built、prepared some small words 意思不通。
+> 2 below my score「在我的分數下面」。until、during、than 接 my score 意思不通。
+> 3 understand「懂」：你哪個部分不懂？build、grow、prepare 放在這裡意思不通。
+> 4 answer questions「回答問題」：我試著再回答一次。grow、build、notice them 和「題目」搭配意思不通。
+> 5 a special sticker「一張特別的貼紙」。least、likely、asleep 都不能這樣放在名詞前面。
++ score = 分數
++ explain = 解釋
++ sticker = 貼紙
+= 上星期，數學考卷發回來了，我只考了 58 分。我正準備把它藏進書包，卻注意到分數下面有幾個小字。老師寫著：「我知道你可以做得更好，放學後來找我。」我很緊張，但還是去了。她沒有罵我，只問：「你哪個部分不懂？」我們一起把考卷從頭看一遍，她慢慢講解每一題，我也試著再作答一次。接下來一個月，我每週三都去找她。下一次考試，我考了 85 分。她在我的分數旁邊貼了一張特別的貼紙：一個微笑的太陽。我到現在還把那張考卷收在書桌裡。
+
+## 看不懂的表情符號
+My mom just learned to use emojis. Yesterday, she sent me a message: "Dinner is ready," with a picture of a smiling poop. I didn't [[understand|build|grow|prepare]] what she meant. When I got home, I asked her about it. "I thought it was chocolate ice cream!" she said. We both laughed. Then she [[noticed|grew|built|prepared]] that she sent the same picture to her boss! Her face turned red. "Oh no! How should I [[answer|build|grow|prepare]] if he asks about it?" I helped her write a message: "Sorry, that was a mistake. I wanted to send a heart." Her boss wrote back, "Haha, no problem. My kids taught me the same thing last [[holiday|prize|answer|notice]]." Now Mom asks me to check her messages before she sends them. I even made her a [[special|least|likely|asleep]] list of emojis and their meanings.
+> 1 understand what …「明白…的意思」。build、grow、prepare what she meant 都不通。
+> 2 notice that + 句子「發現…」：她發現自己也把同一張圖傳給了老闆。grew、built、prepared that 都不通。
+> 3 How should I answer?「我該怎麼回答？」answer 可以不接受詞。build、grow、prepare 放在這裡意思不通。
+> 4 last holiday「上次放假時」。last prize、last answer、last notice 都不能表示時間。
+> 5 a special list「一份特別的清單」。least、likely、asleep 都不能這樣放在名詞前面。
++ emoji = 表情符號
++ poop = 便便
++ boss = 老闆
++ meaning = 意思
+= 我媽媽剛學會用表情符號。昨天她傳了一則訊息給我：「晚餐好了」，後面加了一個微笑的便便。我看不懂她是什麼意思。回到家後，我問她，她說：「我以為那是巧克力冰淇淋！」我們兩個都笑了。接著她發現自己也把同一張圖傳給了老闆！她的臉一下子紅了。「糟了！如果他問起來，我該怎麼回答？」我幫她寫了一則訊息：「抱歉，傳錯了，我本來想傳愛心。」她的老闆回覆：「哈哈，沒關係，上次放假我的小孩也教了我同樣的事。」現在媽媽傳訊息前都會先請我檢查。我甚至幫她做了一份特別的清單，列出各種表情符號和它們的意思。
