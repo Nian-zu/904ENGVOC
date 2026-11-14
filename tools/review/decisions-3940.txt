@@ -1,0 +1,29 @@
+f45c1bfc7b|Record
+68eed7cbd4|Explain
+26d4e21770|update
+a71229e613|escape
+c790b34742|stay
+11d91c000e|count
+2f69136a10|travel,start
+6ab5b3e000|replace,handle||v
+738ba55c05||"He will be on time." "I ____ it. He is always late."
+5a5548dc69|start,rent
+c0bf2bf42a|find
+a296d4fa98|hit||v
+cc1048068d|hit||v
+366e1036dc|busy
+a572d1d354|strange
+4802521143||The movie was ____. I wanted to leave early.
+7b67df5cb4|unhappy
+95f22e3302|interesting
+c0b11fa557|large
+3f3b59a4eb|smooth
+3592a65c85|excellent
+3b88afbf12|beautiful
+51e609f3b2|beside
+75f2be607f|among,along,past
+2f3b40af5a|through,across
+6508608341|beyond
+d13380a1a1|past
+c8ab06e5c2|beyond,near,beside
+d92733da83|rather
