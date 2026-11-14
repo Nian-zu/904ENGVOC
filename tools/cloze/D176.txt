@@ -126,3 +126,131 @@ Mia is the only girl on the school baseball team. At first, she couldn't [[hit|s
 + bat = 球棒
 + fence = 圍牆
 = Mia 是校棒球隊裡唯一的女生。一開始，她完全打不到球。有些男生笑她：「棒球不是女生玩的。」Mia 沒有理他們。她每天放學後都練習到天黑，甚至把所有零用錢都花在一支新球棒上。在決賽中，我們以 2 比 3 落後，輪到 Mia 打擊。大家都希望她能做點什麼。Mia 把球打出了圍牆，我們贏了比賽！那些笑過她的男生是第一批衝向她的人。「我們看錯你了。」他們說。
+
+## 小木偶的長鼻子
+Pinocchio is a wooden boy. Every time he tells a lie, his nose grows longer. One day, his father asked [[whether|until|than|during]] he had gone to school. "Yes," Pinocchio said. But that was a lie. In fact, he had [[spent|hit|heard|invited]] the whole day watching a puppet show. His nose grew so long that it [[hit|heard|hoped|chose]] the lamp on the table. The lamp fell to the floor. "I think you said something [[wrong|least|few|every]]," his father said, but he was not angry. "I just [[hope|spend|hit|invite]] you can tell me the truth." Pinocchio cried and said sorry. Then his nose became short again. From that day on, he never lied to his father.
+> 1 ask whether …「問是否…」：爸爸問他有沒有去上學。until、than、during 都不能接在 asked 後面表示「問…」。
+> 2 spend + 時間 + V-ing「花時間做…」：他整天都在看木偶戲。hit、heard、invited the whole day 都不通。
+> 3 hit「撞到、打到」：鼻子長到撞到桌上的燈。heard、hoped、chose the lamp 都不通。
+> 4 say something wrong「說錯話、說了不對的話」。something least、something few、something every 都不通。
+> 5 I hope (that) …「我希望…」。spend、hit、invite 後面不能接句子。
++ Pinocchio = 小木偶皮諾丘（童話角色）
++ wooden = 木頭做的
++ lie = 謊話；說謊
++ puppet show = 木偶戲
++ lamp = 燈
+= 皮諾丘是一個木頭做的男孩，他每說一次謊，鼻子就會變長。有一天，爸爸問他有沒有去上學。「有啊。」皮諾丘說。但那是謊話。事實上，他整天都在看木偶戲。他的鼻子長到撞到了桌上的燈，燈掉到了地上。「我想你說了不對的話。」爸爸說，但他並沒有生氣。「我只希望你能跟我說實話。」皮諾丘哭著道歉，鼻子又變短了。從那天起，他再也沒有對爸爸說過謊。
+
+## 奶奶的助聽器
+My grandma is eighty, and she can't [[hear|hit|spend|invite]] very well. When we talk to her, we have to speak loudly. Sometimes she still gets our words [[wrong|least|likely|few]]. Last week, I said, "Grandma, I'm hungry." She said, "You're angry? Why?" We all laughed, but Mom was worried. She took Grandma to see a doctor. The doctor told her to [[choose|hit|hope|spend]] a hearing aid. Grandma was not sure [[whether|until|than|during]] she wanted one. "I'm too old for new things," she said. But she agreed to try it for at [[least|lot|few|same]] one week. On the first morning, she sat by the window with a big smile. "I can hear the birds again!" she said. Now she wears it every day.
+> 1 can't hear well「聽不太清楚」。hit、spend、invite very well 都不合句意。
+> 2 get … wrong「把…弄錯、聽錯」：奶奶把 hungry 聽成 angry。least、likely、few 都不通。
+> 3 choose a hearing aid「挑選助聽器」。hit、hope、spend a hearing aid 都不通。
+> 4 be not sure whether …「不確定是否…」。until、than、during 都不通。
+> 5 at least「至少」：同意至少試一個星期。at lot、at few、at same 都不是片語。
++ hearing aid = 助聽器
++ loudly = 大聲地
++ agree = 同意
+= 我奶奶八十歲了，耳朵不太聽得清楚。我們跟她說話時要很大聲，有時候她還是會聽錯。上星期我說：「奶奶，我餓了。」她說：「你生氣了？為什麼？」大家都笑了，但媽媽很擔心，帶奶奶去看醫生。醫生要她去挑一副助聽器。奶奶不確定自己要不要。「我太老了，不適合新東西。」她說。但她答應至少試戴一個星期。第一天早上，她坐在窗邊，笑得好開心：「我又聽得到鳥叫聲了！」現在她每天都戴著。
+
+## 樓上的鋼琴聲
+Every night, I could [[hear|hit|spend|choose]] piano music from the apartment upstairs. At first, I was angry because I couldn't sleep. One night, the music didn't stop [[until|whether|than|during]] eleven o'clock. I went upstairs to complain. A girl about my age opened the door. "I'm so sorry," she said. "I have a big piano contest next week, and I [[hope|hit|spend|invite]] to win first place." I suddenly felt bad. I told her she played very well. She smiled and [[invited|hit|heard|spent]] me to her contest. On the day of the contest, I sat in the front row. She won second place, and she was very happy. Now she stops practicing at nine every night. On Fridays, she even lets me [[choose|hit|spend|hope]] a song for her to play.
+> 1 hear music「聽到音樂」：每晚聽到樓上的鋼琴聲。hit、spend、choose piano music from upstairs 都不通。
+> 2 not … until …「直到…才…」：音樂到十一點才停。whether、than、during 都不通。
+> 3 hope to + 原形動詞「希望做…」：希望拿第一名。hit、spend、invite to win 都不通。
+> 4 invite + 人 + to + 活動「邀請某人來…」。hit、heard、spent me to her contest 都不通。
+> 5 choose a song「選一首歌」：讓我選歌給她彈。hit、spend、hope a song 都不通。
++ apartment = 公寓
++ upstairs = 樓上
++ complain = 抱怨
++ contest = 比賽
+= 每天晚上，我都會聽到樓上公寓傳來鋼琴聲。一開始我很生氣，因為我睡不著。有一天晚上，琴聲到十一點都還沒停，我就上樓去抱怨。開門的是一個跟我差不多大的女孩。「真的很抱歉，」她說，「我下星期有一場重要的鋼琴比賽，我希望能拿第一名。」我突然覺得很不好意思，告訴她她彈得很好。她笑了，還邀請我去看她的比賽。比賽那天，我坐在第一排。她得了第二名，非常開心。現在她每天晚上九點就停止練琴。每個星期五，她甚至讓我選一首歌給她彈。
+
+## 存錢買遊戲機
+I wanted a new game machine, but Mom said I had to pay for it myself. It cost 9,000 dollars. "I will never save that much," I said. "You can, if you don't [[spend|hit|hear|invite]] your money on snacks," Mom said. So I made a plan. I saved my pocket money every week and didn't buy any drinks. I also helped my uncle wash his car on weekends. It was hard. My friends often [[invited|hoped|heard|spent]] me to go to the movies, but I always said no. I kept saving [[until|whether|than|because]] the summer vacation. Finally, I had [[enough|likely|wrong|kind]] money. When I bought the machine, it felt different. I worked hard for it, so I enjoyed it even more. I [[hope|spend|hit|invite]] my little brother can learn this lesson, too.
+> 1 spend + 錢 + on + 物「把錢花在…」。hit、hear、invite your money on snacks 都不通。
+> 2 invite + 人 + to + 原形動詞「邀請某人做…」。hoped、heard、spent me to go 都不通。
+> 3 until + 時間「一直到…」：一直存到暑假。whether、than、because 後面都不能直接接 the summer vacation。
+> 4 enough money「足夠的錢」。likely、wrong、kind 都不能這樣形容錢。
+> 5 I hope (that) …「我希望…」。spend、hit、invite 後面不能接句子。
++ game machine = 遊戲機
++ cost = 花費（價錢是…）
++ lesson = 教訓、道理
+= 我想要一台新的遊戲機，但媽媽說要我自己出錢。它要價 9,000 元。「我永遠存不到那麼多錢啦。」我說。「可以的，只要你不把錢花在零食上。」媽媽說。於是我訂了計畫：每週把零用錢存起來，一杯飲料都不買，週末還幫舅舅洗車。真的很辛苦。朋友常邀我去看電影，我都說不。我一直存到暑假，終於存夠錢了。買到遊戲機的那一刻，感覺很不一樣。因為是我努力換來的，所以玩得更開心。我希望弟弟也能學到這個道理。
+
+## 要不要養狗
+My family couldn't decide [[whether|until|than|during]] to get a dog. My sister and I really wanted one, but Dad said, "A dog needs a lot of care. Who will walk it every day?" "We will!" we said. Dad didn't believe us, so he made a plan. For one month, we had to take care of our neighbor's dog, Lucky, while she was away. We got up early every day to walk Lucky, even when it was raining. One morning, I chose the [[wrong|least|likely|few]] road, and we got lost for an hour. When we finally got home, I [[heard|hit|spent|invited]] Lucky bark happily. At the end of the month, Dad asked, "Do you still want a dog?" We said yes. So we [[spent|hit|heard|invited]] the next weekend at an animal shelter and [[chose|hit|heard|spent]] a little brown dog.
+> 1 decide whether to …「決定要不要…」。until、than、during 後面不能接 to + 原形動詞。
+> 2 choose the wrong road「走錯路」，所以迷路了。least、likely、few 都不通。
+> 3 hear + 動物 + 原形動詞「聽到…叫」。hit、spent、invited Lucky bark 都不通。
+> 4 spend + 時間 + at + 地方「在某地度過…」。hit、heard、invited the next weekend 都不通。
+> 5 choose a dog「挑一隻狗」。hit、heard、spent a little brown dog 都不通。
++ neighbor = 鄰居
++ bark = 吠叫
++ animal shelter = 動物收容所
+= 我們家一直無法決定要不要養狗。我和妹妹很想養，但爸爸說：「養狗要花很多心力照顧，誰要每天帶牠散步？」「我們！」我們說。爸爸不相信，所以他想了一個計畫：鄰居出門的一個月裡，我們要幫她照顧她的狗 Lucky。我們每天早起帶 Lucky 散步，下雨天也一樣。有一天早上，我走錯路，我們迷路了一個小時。終於回到家時，我聽到 Lucky 開心地叫。一個月結束時，爸爸問：「你們還想養狗嗎？」我們說想。於是我們下個週末去了動物收容所，挑了一隻棕色的小狗。
+
+## 聽錯的作文題目
+Our English teacher asked us to write about "My Hero." But I didn't [[hear|hit|spend|invite]] her clearly. I thought she said "My Hair." That night, I [[spent|hit|heard|invited]] two hours writing about my hair: how I wash it, how I cut it, and why I hate it on rainy days. The next day, I read my story in front of the class. Everyone laughed. "I think you got the topic [[wrong|least|likely|few]]," the teacher said. My face turned red. I was not sure [[whether|until|than|during]] she would give me a zero. But she said, "This is the funniest story I have read this year. You can write about your hero next week." Since then, I always listen carefully [[until|whether|than|during]] the teacher finishes talking.
+> 1 hear + 人 + clearly「聽清楚某人說話」。hit、spend、invite her clearly 都不通。
+> 2 spend + 時間 + V-ing「花時間做…」。hit、heard、invited two hours writing 都不通。
+> 3 get the topic wrong「把題目弄錯」。least、likely、few 都不通。
+> 4 be not sure whether …「不確定會不會…」。until、than、during 都不通。
+> 5 until + 句子「直到…」：專心聽到老師講完。whether、than、during 在這裡都不合句意或文法。
++ hero = 英雄
++ topic = 題目
++ zero = 零分
+= 英文老師要我們寫〈我的英雄〉。但我沒聽清楚，以為她說的是〈我的頭髮〉。那天晚上，我花了兩個小時寫我的頭髮：我怎麼洗、怎麼剪，還有為什麼下雨天我最討厭它。隔天，我在全班面前唸我的作文，大家都笑了。「我想你把題目弄錯了。」老師說。我的臉都紅了，不知道她會不會給我零分。但她說：「這是我今年讀過最好笑的作文。你下星期再寫你的英雄吧。」從那之後，我都會專心聽到老師把話說完。
+
+## 一個人吃午餐的轉學生
+A new student, Kenji, came to our class from Japan. He didn't speak much Chinese, so he always ate lunch alone. One day, I [[chose|hit|heard|spent]] to sit next to him. I didn't know [[whether|until|than|during]] he could understand English, but I tried. "Do you like basketball?" I asked. His eyes lit up. "Yes! I love it!" After school, I [[invited|hoped|heard|spent]] him to play with my friends. He was really good. Almost every shot went in. Even when the ball [[hit|heard|chose|invited]] the edge of the basket, it still dropped in. My friends couldn't believe it. Now Kenji is one of my best friends. We [[spend|hit|hear|invite]] every lunch break together, and he is teaching me some Japanese.
+> 1 choose to + 原形動詞「選擇做…」。hit、heard、spent 後面不能接 to sit。
+> 2 don't know whether …「不知道是否…」。until、than、during 都不通。
+> 3 invite + 人 + to + 原形動詞「邀請某人來做…」。hoped、heard、spent him to play 都不通。
+> 4 hit「撞到」：球打到籃框邊緣還是進了。heard、chose、invited the edge 都不通。
+> 5 spend + 時間 + together「一起度過…」。hit、hear、invite every lunch break 都不通。
++ shot = 投籃
++ edge = 邊緣
++ basket = 籃框
++ Japanese = 日語
+= 一位新同學健二從日本轉來我們班。他中文說得不多，所以總是一個人吃午餐。有一天，我選擇坐到他旁邊。我不知道他聽不聽得懂英文，但還是試了一下。「你喜歡籃球嗎？」我問。他的眼睛一亮：「喜歡！我超愛！」放學後，我邀他和我朋友一起打球。他真的很厲害，幾乎每球都進。就算球打到籃框邊緣，最後還是掉進去，朋友們都不敢相信。現在健二是我最好的朋友之一。我們每天午休都待在一起，他還在教我說一點日語。
+
+## 給導師的離別禮物
+Our homeroom teacher, Ms. Lin, is leaving our school at the end of the year. Our class wanted to [[choose|hit|hear|hope]] a special gift for her. Some students wanted to buy flowers. Others wanted to give her a cake. "But flowers die, and a cake is gone in one day," said Amy. "We need something she can keep." So we decided not to [[spend|hit|hear|invite]] any money. Instead, each of us wrote her a letter, and we put all the letters into a book. We kept it a secret [[until|whether|than|during]] the last day of school. On that day, we [[invited|hoped|heard|spent]] her to the music room. When she opened the book, she started to cry. "This is the best gift in the world," she said. "I [[hope|spend|hit|invite]] you will all write to me again one day."
+> 1 choose a gift「挑選禮物」。hit、hear、hope a special gift 都不通。
+> 2 spend money「花錢」：決定不花錢，改寫信。hit、hear、invite any money 都不通。
+> 3 until + 時間「一直到…」：一直保密到最後一天。whether、than、during 都不通。
+> 4 invite + 人 + to + 地方「邀請某人到…」。hoped、heard、spent her to the music room 都不通。
+> 5 I hope (that) …「我希望…」。spend、hit、invite 後面不能接句子。
++ homeroom teacher = 導師
++ letter = 信
++ secret = 祕密
+= 我們的導師林老師學期末就要離開學校了。我們班想挑一份特別的禮物給她。有人想買花，有人想送蛋糕。「可是花會謝，蛋糕一天就吃完了，」Amy 說，「我們需要她可以留著的東西。」於是我們決定一毛錢都不花，改成每個人寫一封信給她，再把所有信做成一本書。我們一直保密到學期最後一天。那天，我們邀請老師到音樂教室。她打開那本書時，哭了出來。「這是世界上最棒的禮物，」她說，「希望有一天你們都會再寫信給我。」
+
+## 啄木鳥不會頭痛嗎
+Woodpeckers are amazing birds. They [[hit|hear|hope|invite]] trees with their beaks up to 20 times a second. Why don't they get headaches? For many years, people thought woodpeckers had something soft in their heads, like a pillow. But a new study says this idea is [[wrong|least|few|every]]. Their heads are hard like hammers, and their brains are very small, so the hits don't hurt them. Woodpeckers make holes in trees to find food. Some scientists think they can even [[hear|spend|invite|hope]] insects moving inside the wood! They also make holes for their homes. A woodpecker can [[spend|hit|hear|invite]] about two weeks making one nest. So next time you are in a forest and hear a "knock, knock" sound, look up. You may see at [[least|lot|few|same]] one of these busy birds.
+> 1 hit「敲、撞擊」：啄木鳥用嘴敲樹。hear、hope、invite trees 都不通。
+> 2 be wrong「是錯的」：新研究說這個想法是錯的。least、few、every 都不能放在 is 後面。
+> 3 hear + 受詞 + V-ing「聽到…正在…」：聽到蟲在木頭裡動。spend、invite、hope insects moving 都不通。
+> 4 spend + 時間 + V-ing「花時間做…」。hit、hear、invite about two weeks 都不通。
+> 5 at least「至少」：至少會看到一隻。at lot、at few、at same 都不是片語。
++ woodpecker = 啄木鳥
++ beak = 鳥嘴
++ hammer = 鐵鎚
++ insect = 昆蟲
++ nest = 鳥巢
+= 啄木鳥是很神奇的鳥。牠們用嘴敲樹，一秒鐘最多可以敲 20 下。牠們為什麼不會頭痛呢？很多年來，人們以為啄木鳥頭裡有像枕頭一樣軟軟的東西。但一項新研究說這個想法是錯的。牠們的頭硬得像鐵鎚，腦又很小，所以敲擊不會傷到牠們。啄木鳥在樹上挖洞找食物，有些科學家認為牠們甚至聽得到蟲在木頭裡爬動！牠們也會挖洞當家，一隻啄木鳥大約要花兩個星期才能做好一個巢。所以下次你在森林裡聽到「叩、叩」的聲音，抬頭看看，你也許至少會看到一隻忙碌的啄木鳥。
+
+## 下山走錯路
+Last summer, my dad and I went hiking on a mountain. On the way down, we took the [[wrong|least|likely|kind]] path. Soon we were lost. The sky was getting dark, and my phone had no signal. Dad told me to stay calm. "We will walk slowly [[until|whether|than|during]] we find the main path," he said. We walked for an hour. I was tired and scared. I [[hoped|hit|spent|invited]] someone would find us. Then we [[heard|hit|spent|chose]] a dog barking. A farmer and his dog were coming down the hill. He showed us the way to his house and [[invited|hoped|heard|spent]] us to have dinner with his family. That night, we ate the best rice I had ever had. Now, I always check the map before I go hiking.
+> 1 take the wrong path「走錯路」，所以迷路了。least、likely、kind 都不能這樣用。
+> 2 until + 句子「直到…」：慢慢走，直到找到主要步道。whether、than、during 都不通。
+> 3 hope (that) …「希望…」：希望有人找到我們。hit、spent、invited 後面不能接句子。
+> 4 hear + 動物 + V-ing「聽到…在叫」。hit、spent、chose a dog barking 都不通。
+> 5 invite + 人 + to + 原形動詞「邀請某人做…」。hoped、heard、spent us to have dinner 都不通。
++ hike = 健行、爬山
++ path = 小路
++ signal = 訊號
++ calm = 冷靜的
++ farmer = 農夫
+= 去年夏天，我和爸爸去爬山。下山時，我們走錯了路，很快就迷路了。天色漸漸變暗，我的手機也沒有訊號。爸爸要我保持冷靜：「我們慢慢走，直到找到主要步道。」我們走了一個小時，我又累又怕，只希望有人能找到我們。這時我們聽到狗叫聲，一位農夫帶著他的狗從山坡上走下來。他帶我們到他家，還邀請我們和他的家人一起吃晚餐。那天晚上，我們吃到了這輩子最好吃的米飯。現在，我每次去爬山之前都會先看地圖。
