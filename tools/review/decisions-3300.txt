@@ -1,0 +1,21 @@
+a0e8f9a148|huge
+2279b06645|glad
+e86eff3e40|hungry,fat
+079fc38bae|scared,warm|The ____ cat is sleeping. It eats too much food.|adj
+175346036a|bright,quick||adj
+7c0e3a8847|terrible
+a19df46906|prevent
+2eba1b19ab|fat,local
+4bdd7a34f5|amazing
+7e6dc04b40|huge,hungry
+4b72e85f0e|increase
+73541a9b16|digital
+01cf1430eb|furnitures,tooths
+2eda77a6b7|disasters,societies
+f35d17c3c7|storm
+a07999dc2c|natural
+688da54adf|sell
+2950902750|care
+e96597db4e|||v
+76829a6bc0|||v
+7e1ff250f7|possible
