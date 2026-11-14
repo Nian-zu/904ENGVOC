@@ -1,0 +1,36 @@
+69238e25dd|hotel
+635d26b6ba|living
+c90ba434ef|living
+d5487d4205|living
+4cb92dd0e1|roof
+459e3c8ec1|dining
+749dcab093|dining
+8439f6690c|dining
+be395dc9a4|dining
+0f44f28845|scissorses,shelfs,newses,sugars
+d140f81e92|shelfs,chopstickses
+f2f6590884|autumns,rents
+74456f4d8e|lefts,advices,hills
+8e6ad99db9|mirror,calendar
+d94a6eb083|butters,weathers,stomaches
+8885a845e9|bowl
+f6631a5b6c|restaurant
+07a3be316b|park
+cd202e36bf|road
+e3d4de56de|classroom,corner,front
+d427c2df83|sofa
+5e95f5e43c|photo,cap
+8726d1f63f||The ____ is broken, so I can't read at night.
+42e4f84fd7||We bought a big ____ for the living room.
+d4820e5d2f|seat
+829b361428|magics,lefts
+da5af2769f|fishings,tennises
+e318fc4972|safeties,qualities
+e46d661d39|||v
+59e17752ce||The floor is wet. Where is the ____?
+9bfadba979|Sweep,Wash
+ffef92f47a|wash
+28d79c5b65|knowledges
+fb6eac98f0|garbages,centuries
+2004e38ef4|wash
+814c14f79e||Do you ____ paper and plastic at home?

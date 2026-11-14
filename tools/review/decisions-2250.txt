@@ -1,0 +1,26 @@
+1a1052b1d9|clerk,artist
+44505aa472|customer
+efe84d1fe3|music
+92c50a0bf8|basketball
+130ad62185|team
+4cbb36a9e3|fruit,pork
+4efed4908f|churches,sugars,histories
+15384247eb|Examine
+5dbad5f38b|test
+194c8c4009|preview,look
+14eddd8c85|advices
+84cf30f795|soccers,peaces,rices,basketballs
+bc4d901faa||The teacher is writing. Look at the ____.
+993025e6b3||I need to write something. Do you have a(n) ____?
+3a3826fbc8|basketball
+3d945d53be|basketball
+f77fd446af|basketball
+28dac7a860|baseball
+961a4437ac|baseball
+e69952fe52|baseball
+c092d5f269||Do you like to ____? There are many trails in the mountains.
+f33eeae2ec|swim,jog
+732fdf77d0|dance,sweep
+842cb3f156|contest
+46e5d1dbee|concert
+68e91258a1|norths,parkings
