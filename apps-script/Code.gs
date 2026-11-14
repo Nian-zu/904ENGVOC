@@ -4,6 +4,13 @@
  * 再「部署 → 新增部署作業 → 網頁應用程式」，存取權選「所有人」。
  */
 const SHEET_NAME = '成績';
+// 直接指定試算表，不論這段程式放在哪個 Apps Script 專案都會寫進同一份試算表
+const SPREADSHEET_ID = '1v_YtQtmFH29t1Zugvi4A8pej9MHkGRB7_Oe9VtpiK3o';
+function sheet_() {
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(SHEET_NAME);
+  if (!sh) throw new Error('試算表裡找不到「' + SHEET_NAME + '」分頁');
+  return sh;
+}
 // 答案卷放在 GitHub Pages 上，伺服器用它重新計分（學生改網頁分數沒有用）
 const KEY_URL = 'https://nian-zu.github.io/904ENGVOC/answer-key.json';
 
@@ -46,7 +53,7 @@ function doPost(e) {
     const lock = LockService.getScriptLock();
     lock.waitLock(20000);
     try {
-      const sh = SpreadsheetApp.getActive().getSheetByName(SHEET_NAME);
+      const sh = sheet_();
       sh.getRange(sh.getLastRow() + 1, 1, 1, row.length).setValues([row]);
     } finally {
       lock.releaseLock();
@@ -73,7 +80,7 @@ function doGet(e) {
     from = Utilities.formatDate(new Date(Date.now() - (dow - 1) * 86400000), tz, 'yyyy-MM-dd');
   }
 
-  const sh = SpreadsheetApp.getActive().getSheetByName(SHEET_NAME);
+  const sh = sheet_();
   const n = sh.getLastRow() - 1;
   const stats = {};
   if (n > 0) {
