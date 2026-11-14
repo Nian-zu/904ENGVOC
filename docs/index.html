@@ -180,6 +180,7 @@ input[type=text]{flex:1;min-width:200px}
       <button data-n="30" aria-pressed="false">30 題</button>
       <button data-n="50" aria-pressed="false">50 題</button>
       <button data-n="100" aria-pressed="false">100 題</button>
+      <button data-n="200" aria-pressed="false">200 題</button>
       <button data-n="0" aria-pressed="false">全部</button>
     </div>
   </div>
@@ -295,24 +296,29 @@ function selectedDays(){
   const out = []; for (let i = a; i <= b; i++) out.push(i); return out;
 }
 function pool(){
-  const days = selectedDays(); const seen = new Set();
-  const keys = new Set();
+  const days = selectedDays(); const all = new Set(); const keys = new Set();
   days.forEach(i => DATA.days[i].forEach(qi => {
     const q = DATA.bank[qi];
-    if ((kind === 'all' || q.k === kind) && !keys.has(q.g)) { keys.add(q.g); seen.add(qi); }
+    if (kind === 'all' || q.k === kind) { all.add(qi); keys.add(q.g); }
   }));
   session_days = new Set(days);
-  return {days, items: [...seen]};
+  return {days, all: [...all], sentences: keys.size};
+}
+// 每個句子只抽一個版本（隨機選一種誘答），同一次測驗不重複
+function pickItems(all, n){
+  const list = shuffle(all.slice()), keys = new Set(), out = [];
+  for (const qi of list) { const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(qi); if (out.length >= n) break; }
+  return out;
 }
 let session_days = new Set();
 function update(){
   if (!DATA) return;
   syncQuick();
-  const {days, items} = pool();
-  const n = num === 0 ? items.length : Math.min(num, items.length);
+  const {days, all, sentences} = pool();
+  const n = num === 0 ? sentences : Math.min(num, sentences);
   const words = days.reduce((s,i)=>s+DATA.words[i].length,0);
   $('countLbl').innerHTML = days.length
-    ? `已選 <b>${days.length}</b> 天・${words} 個新字・題庫 <b>${items.length}</b> 題（每天 100 題，含複習題），本次出 <b>${n}</b> 題`
+    ? `已選 <b>${days.length}</b> 天・${words} 個新字・題庫 <b>${all.length}</b> 題（含舊字複習與誘答變化，不同句子 ${sentences} 句），本次出 <b>${n}</b> 題`
     : '還沒有選天數';
   const who = $('seat').value && $('sname').value.trim();
   $('startBtn').disabled = n === 0 || !who;
@@ -354,7 +360,7 @@ function answer(oi){
   const s = session; if (s.answered) return; s.answered = true;
   const q = DATA.bank[s.items[s.i]], ok = oi === q.c;
   if (ok) s.right++; else s.wrong.push({qi: s.items[s.i], pick: oi});
-  s.log.push([s.items[s.i], oi]);
+  s.log.push([q.r ?? s.items[s.i], oi]);  // 誘答變化題用原題編號計分（答案位置相同）
   $('qOpts').querySelectorAll('.opt').forEach(b => {
     const v = +b.dataset.oi; b.disabled = true;
     if (v === q.c) b.classList.add('ok'); else if (v === oi) b.classList.add('bad');
@@ -425,9 +431,9 @@ $('qToday').onclick = () => { const t = todayIdx(); setMode('range'); $('from').
 $('qUpto').onclick = () => { setMode('range'); $('from').value = 0; $('to').value = todayIdx(); update(); };
 $('qWeek').onclick = () => { const t = todayIdx(); setMode('range'); $('from').value = Math.max(0, t-6); $('to').value = t; update(); };
 $('startBtn').onclick = () => {
-  const {items} = pool(); shuffle(items);
-  const n = num === 0 ? items.length : Math.min(num, items.length);
-  start(items.slice(0, n));
+  const {all, sentences} = pool();
+  const n = num === 0 ? sentences : Math.min(num, sentences);
+  start(pickItems(all, n));
 };
 $('nextBtn').onclick = next;
 $('quitBtn').onclick = () => { if (session.i === 0 && !session.answered) { back(); return; } session.items = session.items.slice(0, session.i + (session.answered?1:0)); finish(); };
