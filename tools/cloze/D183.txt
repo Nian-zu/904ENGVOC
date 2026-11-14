@@ -272,3 +272,108 @@ On the first day of the new semester, our teacher said we could [[change|give|fi
 + semester = 學期
 + grade = 成績
 = 新學期的第一天，老師說我們可以換座位，每個人都跑去跟最好的朋友坐。我坐在 Kevin 旁邊，因為我們總是被同樣的笑話逗笑。但一個星期後，我們的成績退步了，因為我們上課一直在聊遊戲。於是老師給我們換了新座位。我得坐在全班最安靜的 Lily 旁邊。一開始我很不開心，但很快我就發現她其實很有趣，還會教我數學。現在我的數學成績比以往都好。有時候，我們不想要的改變，正是我們需要的改變。
+
+## 會議室裡的松鼠
+One morning, a squirrel got into my dad's office. Nobody knew how. It ran across the desks and jumped onto the big screen during an important meeting. Everyone [[started|found|gave|changed]] to laugh, even the boss. Dad tried to catch it, but the squirrel was much quicker [[than|about|because|just]] him. Then a young worker had an idea. She [[got|learned|started|changed]] a banana from the kitchen and put it near the open window. The squirrel smelled it, grabbed the banana, and jumped out the window. "That was the best meeting ever," the boss said. "We talked [[about|than|because|just]] a squirrel for an hour!" Dad told us the story at dinner, and we laughed [[because|than|about|just]] we could picture his face.
+> 1 start to + 原形動詞「開始…」：大家都開始笑。found to、gave to、changed to 都不對。
+> 2 quicker than him「比他快」，比較級 quicker 後面接 than。
+> 3 get + 物「去拿某物」：她從廚房拿了一根香蕉。learned、started、changed 接 a banana 意思不通。
+> 4 talk about …「談論…」：我們聊松鼠聊了一個小時。
+> 5 because 說明原因：我們笑了，因為我們想像得到爸爸的表情。
++ squirrel = 松鼠
++ screen = 螢幕
++ boss = 老闆
++ grab = 抓住
++ picture = 想像（動詞）
+= 有一天早上，一隻松鼠跑進了爸爸的辦公室，沒人知道牠是怎麼進來的。牠在桌子上跑來跑去，還在重要會議進行中跳上大螢幕。大家都笑了起來，連老闆也是。爸爸想抓住牠，但松鼠比他快多了。這時一位年輕同事想到一個辦法：她從廚房拿了一根香蕉，放在打開的窗戶旁邊。松鼠聞到香味，抓起香蕉就跳出窗外。「這是史上最棒的會議，」老闆說，「我們聊松鼠聊了一個小時！」爸爸晚餐時跟我們說這個故事，我們都笑了，因為我們完全想像得到他當時的表情。
+
+## 雨天的公車
+It was raining hard after school. Ella waited for the bus, but it was late. When it finally came, it was full. She had to stand [[just|than|about|because]] next to the door. Then the bus stopped suddenly, and her wet umbrella hit an old lady's bag. "I'm so sorry!" Ella said. The lady smiled. "Don't worry [[about|than|because|just]] it. You can [[give|learn|find|change]] me your umbrella. I'll hold it for you." Ella felt warm inside. Before she got off, the lady said, "You have a kind heart. Don't ever [[change|give|learn|start]]." Ella walked home in the rain, but she felt happier [[than|about|because|just]] on a sunny day.
+> 1 just next to …「就在…旁邊」，just 表示「正好、就」。than、about、because 都不能放在 next to 前面這樣用。
+> 2 worry about …「擔心…」是固定搭配：別擔心這件事。
+> 3 give + 人 + 物：你可以把雨傘給我 give me your umbrella。learn、find、change 不能接「人＋物」。
+> 4 Don't ever change.「永遠不要改變。」change 在這裡不需要受詞。give、learn、start 單獨放在句尾都不通。
+> 5 happier than on a sunny day「比晴天時還開心」，比較級後面接 than。
+= 放學後下著大雨。Ella 等公車，但公車遲到了。公車終於來了，卻擠滿了人，她只好站在門邊。接著公車突然煞車，她的濕雨傘撞到了一位老太太的包包。「真的很抱歉！」Ella 說。老太太笑著說：「別擔心。你可以把雨傘給我，我幫你拿。」Ella 覺得心裡暖暖的。下車前，老太太說：「你有一顆善良的心，永遠不要改變。」Ella 淋著雨走回家，卻覺得比晴天時還開心。
+
+## 學寫毛筆字
+Our art teacher wanted us to [[learn|give|find|change]] Chinese calligraphy this semester. On the first day, everyone got ink on their hands, faces, and even their shoes! Writing with a brush is much harder [[than|about|because|just]] writing with a pen. My first character looked like a sleeping cat. But the teacher said, "Don't [[give|learn|find|start]] up. Practice every day." So I practiced for ten minutes every night. After two months, my characters looked [[just|than|about|because]] like the ones in the book. Last week, our school had a calligraphy contest, and I won third place! I am proud of myself [[because|than|about|just]] I did not stop trying.
+> 1 learn calligraphy「學書法」。give、find、change 接 calligraphy 意思不通。
+> 2 much harder than …「比…難得多」，比較級後面接 than。
+> 3 give up「放棄」：別放棄。learn up、find up、start up 都不是這個意思。
+> 4 look just like …「看起來就跟…一模一樣」，just 加強語氣。
+> 5 because 說明原因：我以自己為榮，因為我沒有停止努力。
++ calligraphy = 書法
++ ink = 墨水
++ brush = 毛筆
++ character = （中文）字
++ contest = 比賽
+= 這學期，美術老師要我們學中國書法。第一天，每個人的手、臉，甚至鞋子上都沾到墨水！用毛筆寫字比用原子筆難多了，我寫的第一個字看起來像一隻睡著的貓。但老師說：「別放棄，每天練習。」於是我每天晚上練十分鐘。兩個月後，我的字看起來就跟書上的一模一樣。上星期學校舉辦書法比賽，我得了第三名！我以自己為榮，因為我一直沒有放棄努力。
+
+## 迷路的觀光客
+On my way to school, a tourist stopped me. She showed me a map and asked how to get to the National Palace Museum. My English is not perfect, but I wanted to help. First, I tried to [[find|give|learn|change]] the museum on her map. Then I [[gave|learned|started|changed]] her directions: "Take the MRT to Shilin Station, and then take a bus." She looked confused, so I wrote it down for her. She thanked me again and again [[because|than|about|just]] it was her first time in Taipei. Later that day, I told my English teacher [[about|than|because|just]] it. "You used English in real life," she said. "That is better [[than|about|because|just]] any test score."
+> 1 find「找到」：我試著在地圖上找到博物館。give、learn、change 都不是「找到」。
+> 2 give + 人 + 物：我告訴她怎麼走 gave her directions。learned、started、changed 不能接「人＋物」。
+> 3 because 說明原因：她一直道謝，因為那是她第一次來台北。
+> 4 tell + 人 + about …「告訴某人有關…的事」。
+> 5 better than any test score「比任何考試分數都好」，比較級 better 後面接 than。
++ tourist = 觀光客
++ National Palace Museum = 故宮博物院
++ directions = 路線指引
++ MRT = 捷運
++ confused = 困惑的
+= 上學途中，一位觀光客叫住我。她拿出地圖，問我怎麼去故宮博物院。我的英文不算完美，但我想幫忙。我先試著在她的地圖上找到博物館，然後告訴她怎麼走：「搭捷運到士林站，再轉公車。」她看起來很困惑，所以我把路線寫下來給她。她一直向我道謝，因為那是她第一次來台北。那天稍晚，我把這件事告訴英文老師。「你在真實生活中用了英文，」她說，「這比任何考試分數都棒。」
+
+## 冰箱裡的祕密
+Every night, someone was eating the cake in our fridge. Mom thought it was Dad. Dad thought it was me. I knew it was not me, so I wanted to [[find|give|learn|change]] the real thief. I hid a small camera in the kitchen. The next morning, I checked the video. At 2 a.m., the fridge door opened, and our cat, Oreo, jumped in! He ate the cake and then [[started|gave|found|changed]] licking his paws. We all laughed. Oreo was smarter [[than|about|because|just]] we thought — he knew how to open the fridge! Now there is a lock on it. Oreo is not happy [[about|than|because|just]] the lock, but our cake is safe. I [[learned|gave|started|changed]] that a good detective needs patience and a camera.
+> 1 find the thief「找到小偷」。give、learn、change 接 the real thief 意思不通。
+> 2 start + V-ing「開始…」：牠吃完蛋糕後開始舔腳掌。gave licking、found licking、changed licking 都不對。
+> 3 smarter than we thought「比我們想的還聰明」，比較級後面接 than。
+> 4 be happy about …「對…感到滿意」：Oreo 對鎖不太滿意。
+> 5 learn that + 句子「明白…」：我學到好偵探需要耐心和一台攝影機。gave that、started that、changed that 都不通。
++ fridge = 冰箱
++ thief = 小偷
++ lick = 舔
++ paw = （動物的）腳掌
++ detective = 偵探
+= 每天晚上，都有人偷吃冰箱裡的蛋糕。媽媽以為是爸爸，爸爸以為是我。我知道不是我，所以想找出真正的小偷。我在廚房藏了一台小攝影機。隔天早上，我檢查錄影：凌晨兩點，冰箱門打開了，我們家的貓 Oreo 跳了進去！牠吃完蛋糕，接著開始舔牠的腳掌。我們全都笑了。Oreo 比我們想的還聰明，牠竟然會開冰箱！現在冰箱上了鎖。Oreo 對那個鎖很不滿，但我們的蛋糕安全了。我學到，好偵探需要耐心，還有一台攝影機。
+
+## 跑步的理由
+Ryan never liked running. In PE class, he was always the last one. But this year, he decided to [[change|give|find|learn]]. Why? [[Because|Than|About|Just]] he wanted to play basketball with the older students, and they were all fast. Every morning, he got up at six and ran around the park. The first week was terrible. His legs hurt, and he wanted to stop. But his dad ran with him and [[gave|learned|found|changed]] him a lot of encouragement. After three months, Ryan could run three kilometers without stopping. In the school race, he did not win, but he finished faster [[than|about|because|just]] half of the class. "It's not [[about|than|because|just]] winning," he said. "It's about being better than yesterday."
+> 1 decide to change「決定改變」，change 在這裡不需要受詞。give、find、learn 單獨放在句尾都不通。
+> 2 回答 Why 的問題用 Because：因為他想跟學長們打籃球。
+> 3 give + 人 + 物：爸爸給他很多鼓勵。learned、found、changed 不能接「人＋物」。
+> 4 faster than half of the class「比班上一半的人快」，比較級後面接 than。
+> 5 It's not about …「重點不在於…」：重點不是贏。than、because、just 都不能這樣用。
++ PE = 體育課
++ encouragement = 鼓勵
++ kilometer = 公里
++ race = 賽跑
+= Ryan 從來不喜歡跑步，體育課他總是最後一名。但今年，他決定改變。為什麼呢？因為他想跟學長們一起打籃球，而他們都跑得很快。每天早上，他六點起床去公園跑步。第一個星期很痛苦，他的腿很痛，很想放棄。但爸爸陪他一起跑，給了他很多鼓勵。三個月後，Ryan 可以一口氣跑三公里。在學校的賽跑中，他沒有得第一，但比班上一半的同學還快。「重點不是贏，」他說，「而是比昨天的自己更好。」
+
+## 怪獸老師
+Every student at Hill Junior High was afraid of Mr. Kim. He was tall, he never smiled, and his voice was louder [[than|about|because|just]] a fire alarm. Students called him "the Monster." One day, Sam forgot his homework. He was sure Mr. Kim would [[get|give|learn|find]] angry. But Mr. Kim only said, "Bring it tomorrow." Then he saw Sam's broken umbrella and [[gave|learned|started|changed]] him his own. Sam was shocked. Later, he found out that Mr. Kim takes care of three cats and cooks for his old neighbor every weekend. Sam told his classmates [[about|than|because|just]] it, and slowly, everyone's feelings [[changed|gave|found|learned]]. Now they still call him "the Monster," but they say it with a smile.
+> 1 louder than a fire alarm「比火災警報器還大聲」，比較級後面接 than。
+> 2 get + 形容詞「變得…」：Sam 確定金老師會生氣 get angry。give、learn、find 不能接形容詞表示「變得」。
+> 3 give + 人 + 物：老師把自己的傘給了他。learned、started、changed 不能接「人＋物」。
+> 4 tell + 人 + about …「告訴某人有關…的事」。
+> 5 feelings changed「感覺改變了」，change 在這裡不需要受詞。gave、found、learned 單獨放在句尾都不通。
++ monster = 怪獸
++ fire alarm = 火災警報器
++ shocked = 震驚的
++ neighbor = 鄰居
+= 山丘國中的每個學生都怕金老師。他很高、從不笑，聲音比火災警報器還大聲，學生都叫他「怪獸」。有一天，Sam 忘了帶作業，他確定金老師會生氣。但金老師只說：「明天帶來。」接著他看到 Sam 的傘壞了，就把自己的傘給了他。Sam 嚇了一跳。後來他才知道，金老師養了三隻貓，每個週末還會煮飯給年邁的鄰居吃。Sam 把這件事告訴同學，慢慢地，大家對老師的感覺改變了。現在大家還是叫他「怪獸」，但說的時候都帶著笑容。
+
+## 一百元的冒險
+Grandpa gave me a 100-dollar bill and a challenge: "Use this money to make someone happy today." I thought [[about|than|because|just]] it all morning. Should I buy candy for my sister? A toy for my dog? Then I saw a street musician near the station. Nobody stopped to listen, but he kept playing [[because|than|about|just]] he loved music. I put the money in his hat. He smiled and [[started|gave|found|changed]] to play my favorite song. Some people stopped, and soon a small crowd was clapping. When I told Grandpa, he said, "You did more [[than|about|because|just]] make one person happy. You made a whole street happy!" I will never forget [[just|than|about|because]] how good that felt.
+> 1 think about …「思考、考慮…」：我整個早上都在想這件事。
+> 2 because 說明原因：他繼續演奏，因為他熱愛音樂。
+> 3 start to + 原形動詞「開始…」：他笑著開始演奏我最喜歡的歌。gave to、found to、changed to 都不對。
+> 4 do more than …「做的不只是…」，前面有 more，後面接 than。
+> 5 just how good …「那到底有多好」，just 加強語氣。than、about、because 都不能放在 how 前面這樣用。
++ bill = 紙鈔
++ challenge = 挑戰
++ musician = 音樂家；樂手
++ crowd = 人群
++ clap = 拍手
+= 爺爺給我一張一百元的紙鈔和一個挑戰：「今天用這筆錢讓一個人開心。」我整個早上都在想這件事。要買糖果給妹妹嗎？還是買玩具給我的狗？後來我在車站附近看到一位街頭樂手，沒有人停下來聽，但他還是繼續演奏，因為他熱愛音樂。我把錢放進他的帽子裡。他笑了，開始演奏我最喜歡的歌。有些人停下腳步，很快就有一小群人在拍手。我告訴爺爺這件事，他說：「你做的不只是讓一個人開心，你讓整條街都開心了！」我永遠不會忘記那種感覺有多美好。
