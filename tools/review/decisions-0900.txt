@@ -1,0 +1,30 @@
+00331bbc11|easy
+3a1148da77|important,yummy
+c3fd761898||Taipei is a(n) ____ city. Houses there cost a lot of money.
+d75cd004b9|useful,plastic
+fb4754ceda|break,holiday
+4fba79e400|example,question
+9e2d51e575|Actually
+a18a899fa3|Indeed
+e165977bf2|Probably
+24d0c28851|huge,cool|We only have ten minutes. Let's have a(n) ____ lunch.
+7c55399c7f|comfortable
+259e994032|glasseses,heros,sugars
+e1d3b9941d|funs,exercises,futures
+4d3426833e|factory
+dd178ed330|||v
+60c6e2ad2d|catch
+21f79be275|amazing
+45837133f3|serious
+4cdaecea49||You won the game again? You're so ____.
+2b1278558c|creative
+ab4c919f49|safe|Taipei is a(n) ____ city with tall new buildings and fast trains.
+1e36c11957|strange,awful
+5610988b9f|strange,different
+bb66b6b8e2|terrible,strange
+16aa80356e|polices,advices
+f015e27a56|clean
+0c43e3d53c|halfs,heats
+86b65a29fe|hard
+3272e17490|||v
+d6c57767fb||Put your money away. Dinner is on me. It's my ____.

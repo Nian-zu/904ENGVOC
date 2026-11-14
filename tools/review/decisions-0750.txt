@@ -1,0 +1,32 @@
+d2dfb1fc91|share
+d92d3b5c86|order
+9a73384f8c|toward,through
+aa5b237f52|through
+7e78b97fa1|anxious,shy
+63ee39d3be|full,active|The street is always ____. There are many cars and people.
+0d3c5ebc50||You're late again. That's not a good ____.
+458e97f189|||v
+14f79483af|awful
+cfde990b5e|wonderful,wild
+ea42727fd0|special
+1336bed7db|strong
+41e41ca706|sweet,warm
+8ff8bbb6f9|busy
+56d1a756a6|plan,prepare,choose
+c022c08a81|homeworks,halfs,respects
+6ebfb64859|popular,favorite
+6d87844713|||v
+771e28759a|notice
+36025f7c71|amazing
+04566d68d3|groups,informations,smokes,advices,plastics
+e5e3614633|volunteers,foreigners
+2024f8aa5f|successful,responsible|He is a(n) ____ student. He learns everything quickly.
+7fe350413c|wash
+2807129d20|seems,turns||v
+e7531dde31|||v
+3d64b509b9|dry
+56de948c62|move
+307c765fb0|businessmans
+6e3e5c9220|cheap
+7a78d5377d|great
+800378bc3f|weathers,medias

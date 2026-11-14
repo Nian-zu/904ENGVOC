@@ -1,0 +1,40 @@
+4b18d1ce76|show,event,festival
+6f6e883183|place
+d9f55fe132|theater,plant
+c4c8db429e|center
+951d8a0177|preview,attend,repeat
+01f9fa5573|experience,benefit,quality,area|You're right. That's a good ____.
+2472a61e54|secret,answer
+64b7f24e66|music
+6eb5665edb|throat|She sings well. She has a beautiful ____.
+7702e092b7|advice|Someone is calling me. I know her ____.
+4d35d10440|move,handle
+d127fe094d|protect,bite
+1e4e8c9d6b|||v
+c1d1457c16|||v
+b481d28e46|join||v
+b68567fb68|put
+f952879064|travel,begin
+f84a91f93d|main
+c4c5ee0295|large,different
+9b4ce76626|singer
+63f9a9d975|fix,review,clean
+450b20057c|special
+0421303848|knowledges,jeanses
+219f745ee2|garbages,conveniences
+6e659086c7|drawer
+99ec4c541e|suitcase
+ecec3e4aa0|geographies
+99af104173|disappointed
+c9231d28a7|disappointed|Why are you so ____? Please don't shout at me.
+477430f5ea|below
+7edddf2c04|near
+084bc2a601|awful
+97bd84760e|amazing,salty
+05d3672b71||This bag is very ____. It's easy to carry.
+715277c41d|||n
+115a0ae107|toward
+4446644e84|across,toward
+7e19811aa7|return
+686d331f5c||He was born into a(n) ____ family. They had little money.
+b2639dd3dd|awful|My math is ____. I got only 30 on the test.
