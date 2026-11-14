@@ -264,3 +264,137 @@ Marlin is a clownfish, and he lives in the sea with his only son, Nemo. Marlin w
 + diver = 潛水員
 + mask = 面罩
 = 馬林是一條小丑魚，和他唯一的兒子尼莫住在海裡。馬林什麼都擔心，他覺得大海太危險，一直想把尼莫保護得好好的。尼莫上學第一天，想讓朋友們看看他有多勇敢，就游過去摸一艘船的底部。突然，一個潛水員抓住他，把他帶上了船。馬林拚命追過去，卻差了幾秒沒追上。後來，馬林遇到一條叫多莉的藍色魚。她什麼事都記不了幾分鐘，卻看得懂潛水員面罩上的字。他們一起橫越大海去找尼莫。在路上，馬林學到：當個好爸爸，不代表要讓孩子遠離整個世界。
+
+## 外婆家的老狗
+When I was little, I lived with my grandma in Pingtung. She had a big brown dog named Lucky. Every morning, Lucky walked me to school and waited at the gate to make sure I was [[safe|least|own|than]]. When I was ten, my family moved to Taipei. Grandma said Lucky was too old for the city, so he had to stay with her. I [[missed|fixed|wore|married]] him so much that I cried every night for a month. Last winter, I finally went back to visit. Lucky was very old now. His face was gray, and he wasn't [[able|own|least|asleep]] to run anymore. But when he saw me, his tail moved so fast that his whole body shook. He [[still|least|below|than]] remembered me after all these years! I took off my scarf and [[dropped|wore|married|missed]] it on the floor, and Lucky lay down on it right away. Grandma smiled. "He knows it smells like you," she said.
+> 1 make sure + 人 + is safe「確保某人平安」。least、own、than 不能當補語放在 was 後面。
+> 2 miss + 人／動物「想念」：我想念 Lucky 想到每晚都哭。fixed、wore、married him 意思不通。
+> 3 be able to + 動詞「能夠…」：牠老了，不能再跑了。own、least 不能接 to run；asleep to run 意思不通。
+> 4 still「仍然」：過了這麼多年，牠還記得我。least、below、than 不能放在主詞和動詞 remembered 中間。
+> 5 drop + 物 + on the floor「把…丟在地上」：我把圍巾放到地上，狗就躺上去。wore、married、missed it on the floor 意思不通。
++ Pingtung = 屏東
++ tail = 尾巴
++ scarf = 圍巾
+= 我小時候和外婆一起住在屏東。她養了一隻叫 Lucky 的棕色大狗。每天早上，Lucky 都陪我走路上學，還會在校門口等著，確定我平安進去。我十歲時，我們家搬到台北。外婆說 Lucky 太老了，不適合住在城市，所以牠得留下來陪她。我好想念牠，整整一個月每晚都在哭。去年冬天，我終於回去看牠。Lucky 已經很老了，臉上的毛都白了，也不能再跑了。但牠一看到我，尾巴搖得好快，整個身體都在晃。過了這麼多年，牠還記得我！我把圍巾脫下來放在地上，Lucky 馬上就躺了上去。外婆笑著說：「牠知道上面有你的味道。」
+
+## 外星人的地球穿搭
+Zog is an alien from a small purple planet. His teacher sent him to Earth to study human [[history|hospital|weather|prize]]. Before he left, Zog read some very old books about Earth and its fashion. So when he landed in Taipei, he [[wore|fixed|married|missed]] a long silver cape, a tall black hat, and swimming goggles. People on the street stopped and stared at him. A boy pointed and shouted, "That's [[crazy|able|own|least]]!" Zog felt worried. He didn't understand why everyone was looking at him. Was he [[safe|least|own|than]] here? Then the boy walked over and smiled. "Don't worry," he said. "You just need some new clothes." He took Zog to a clothing store and helped him choose jeans, a hoodie, and sneakers. After that, Zog was [[able|own|least|asleep]] to walk around the city without anyone looking at him. In his report, Zog wrote, "Earth people are kind, but their fashion changes very fast."
+> 1 study human history「研究人類歷史」。hospital、weather、prize 和 human 搭配意思不通。
+> 2 wear + 衣物「穿戴」：他穿著銀色斗篷、戴高帽和蛙鏡。fixed、married、missed a cape 意思不通。
+> 3 That's crazy!「太誇張了吧！」，小男孩看到奇怪穿搭時的驚呼。able、own、least 不能單獨放在 That's 後面。
+> 4 Was he safe here?「他在這裡安全嗎？」，因為大家都盯著他看。least、own、than 不能當補語。
+> 5 be able to + 動詞「能夠…」：換了衣服後，他能在城裡走動而不被注意。own、least 不能接 to walk；asleep to walk 意思不通。
++ alien = 外星人
++ planet = 行星
++ fashion = 時尚、流行
++ cape = 斗篷
++ hoodie = 帽T
+= Zog 是一個來自紫色小行星的外星人。他的老師派他到地球研究人類歷史。出發前，Zog 讀了一些關於地球和地球時尚的老書。所以當他降落在台北時，他穿著一件長長的銀色斗篷，戴著一頂黑色高帽和一副蛙鏡。街上的人都停下來盯著他看。一個男孩指著他大喊：「也太誇張了吧！」Zog 很擔心，他不懂為什麼大家都在看他。他在這裡安全嗎？這時男孩走過來笑著說：「別擔心，你只是需要一些新衣服。」他帶 Zog 去服飾店，幫他挑了牛仔褲、帽T和運動鞋。之後，Zog 在城市裡走來走去，再也沒有人盯著他看了。Zog 在報告裡寫道：「地球人很友善，但他們的流行變得非常快。」
+
+## 跑上陽台的猴子
+Last Saturday, a monkey escaped from the zoo near my house. The news said it wasn't [[dangerous|able|own|least]], but people should not try to touch it or feed it. That afternoon, I was eating a banana on our balcony when the monkey suddenly jumped onto the railing right in front of me! I was so scared that I [[dropped|wore|married|fixed]] the banana. The monkey picked it up and ate it in three bites. Then it grabbed my dad's hat from a chair and [[wore|married|missed|answered]] it on its head. It looked like a tiny old man. My little sister laughed like [[crazy|able|own|least]] and tried to take a photo. Ten minutes later, two zoo workers arrived with a net and caught the monkey. They told us we were [[safe|least|own|than]] now, and that the monkey was just hungry. Dad never got his hat back, but he got a funny story to tell his friends.
+> 1 wasn't dangerous「不危險」，但仍不要碰或餵牠。able、own、least 不能這樣形容動物。
+> 2 drop + 物「把…弄掉」：我嚇到把香蕉掉了，猴子撿起來吃。wore、married the banana 意思不通；fixed 也不合情境。
+> 3 wear + 物 + on one's head「把…戴在頭上」。married、missed、answered it on its head 意思不通。
+> 4 laugh like crazy「笑到瘋掉、笑得很誇張」。like able、like own、like least 都不通。
+> 5 be safe「安全的」：工作人員說現在安全了。least、own、than 不能當補語放在 were 後面。
++ escape = 逃走
++ balcony = 陽台
++ railing = 欄杆
++ grab = 抓取
++ net = 網子
+= 上星期六，一隻猴子從我家附近的動物園逃了出來。新聞說牠不危險，但大家不要試著碰牠或餵牠。那天下午，我正在陽台上吃香蕉，那隻猴子突然跳上我面前的欄杆！我嚇得把香蕉掉了。猴子撿起香蕉，三口就吃光了。接著牠從椅子上抓起爸爸的帽子，戴在自己頭上，看起來就像一個小老頭。我妹妹笑到不行，還想拍照。十分鐘後，兩位動物園員工拿著網子趕到，抓住了猴子。他們告訴我們現在安全了，那隻猴子只是肚子餓。爸爸的帽子再也拿不回來了，但他多了一個可以跟朋友說的好笑故事。
+
+## 十三歲才學會游泳
+I wasn't [[able|own|least|asleep]] to swim until I was thirteen. Every summer, my friends went to the beach or the pool, and I [[missed|fixed|wore|married]] all the fun. I just sat on the sand and watched. My parents said swimming in the sea without lessons was too [[dangerous|able|own|least]], and I agreed. Water scared me. So last summer, I finally took swimming lessons at the city pool. On the first day, I [[wore|fixed|married|missed]] huge goggles and a bright red swimming cap. I looked silly, but I didn't care. I was too nervous to put my face in the water. The coach gave me a float and said, "Don't be afraid. With this, you're [[safe|least|own|than]]." Slowly, I learned to kick, breathe, and move my arms. After six weeks, I swam twenty-five meters by myself! This summer, I'm going to the beach with my friends, and I'm not sitting on the sand anymore.
+> 1 be able to + 動詞「能夠…」：我到十三歲才會游泳。own、least 不能接 to swim；asleep to swim 意思不通。
+> 2 miss the fun「錯過樂趣」：朋友去玩水，我只能在旁邊看。fixed、wore、married all the fun 意思不通。
+> 3 too dangerous「太危險」：沒上過課就去海裡游泳太危險。able、own、least 不能這樣形容游泳。
+> 4 wear goggles「戴蛙鏡」。fixed、married、missed huge goggles 意思不通。
+> 5 you're safe「你很安全」：有浮板就不用怕。least、own、than 不能當補語。
++ goggles = 蛙鏡
++ swimming cap = 泳帽
++ coach = 教練
++ float = 浮板
++ breathe = 呼吸
+= 我到十三歲才會游泳。每年夏天，朋友們都去海邊或游泳池，而我錯過了所有樂趣，只能坐在沙灘上看。爸媽說沒上過課就去海裡游泳太危險，我也同意，因為我很怕水。所以去年夏天，我終於去市立游泳池上游泳課。第一天，我戴著超大的蛙鏡和亮紅色泳帽，看起來很蠢，但我不在乎。我緊張到不敢把臉放進水裡。教練給我一塊浮板說：「別怕，有這個你就很安全。」慢慢地，我學會了踢水、換氣和划手。六個星期後，我自己游完了二十五公尺！今年夏天，我要跟朋友去海邊，再也不要坐在沙灘上了。
+
+## 機器人大賽
+Our school's robot team entered a city robot competition this year. Our robot, Bolt, had to pick up small balls and [[drop|marry|wear|miss]] them into a basket. We practiced for three months. But the night before the competition, Bolt suddenly stopped moving. We stayed at school until midnight to [[fix|miss|marry|wear]] it. Finally, we found the problem: one tiny wire had come loose. On the day of the competition, we all [[wore|fixed|married|missed]] matching orange T-shirts with Bolt's face on them. In the final round, Bolt picked up nine balls in a row. Everyone was cheering. But with the last ball, Bolt [[missed|fixed|wore|married]] the basket by one centimeter. We came in second. We were a little sad, but then the judges gave us a special award. They said our team was [[able|own|least|asleep]] to solve problems quickly and worked together very well.
+> 1 drop + 物 + into …「把…放進／丟進…」：機器人要把球丟進籃子。marry、wear、miss them into a basket 意思不通。
+> 2 fix + 物「修理」：我們留到半夜修機器人。miss、marry、wear it 意思不通。
+> 3 wear T-shirts「穿 T 恤」。fixed、married、missed matching T-shirts 意思不通。
+> 4 miss + 目標「沒射中、沒丟中」：最後一球差一公分沒進。fixed、wore、married the basket 意思不通。
+> 5 be able to + 動詞「能夠…」：評審說我們能很快解決問題。own、least 不能接 to solve；asleep to solve 意思不通。
++ competition = 比賽
++ wire = 電線
++ loose = 鬆脫的
++ in a row = 連續
++ award = 獎項
+= 今年我們學校的機器人隊參加了市內的機器人大賽。我們的機器人 Bolt 要撿起小球，再丟進籃子裡。我們練習了三個月。沒想到比賽前一晚，Bolt 突然不動了。我們在學校待到半夜修理它，終於找到問題：有一條很細的電線鬆掉了。比賽當天，我們都穿著印有 Bolt 臉的橘色隊服。決賽時，Bolt 連續撿起九顆球，大家都在歡呼。但最後一顆球，Bolt 差了一公分沒丟進籃子。我們得到第二名。雖然有點難過，但評審頒給我們一個特別獎。他們說我們隊能很快解決問題，而且合作得非常好。
+
+## 鄭成功上舞台
+For our [[history|hospital|weather|prize]] project this term, my group chose Koxinga, one of the most famous people in Taiwan's past. I didn't want to [[miss|fix|marry|wear]] any important details, so I read three books about him. We learned that he sailed to Taiwan in 1661 with hundreds of ships and drove the Dutch away. Instead of making a boring poster, we decided to act out a short play. I played Koxinga. I [[wore|fixed|married|missed]] a paper helmet and a long robe made from my mom's old curtain. My friend Joe played the Dutch leader, and he wore a wig made of yellow yarn. In the middle of the show, my paper sword broke in half. Everyone laughed, but Joe quickly [[fixed|wore|married|missed]] it with tape in ten seconds, and we kept going. At the end, our teacher clapped and said we were [[able|own|least|asleep]] to make history fun for the whole class.
+> 1 history project「歷史報告」，主題是台灣歷史人物鄭成功。hospital、weather、prize project 意思不通。
+> 2 miss details「漏掉細節」：我不想漏掉重要細節，所以讀了三本書。fix、marry、wear details 意思不通。
+> 3 wear a helmet and a robe「戴頭盔、穿長袍」。fixed、married、missed a paper helmet 意思不通。
+> 4 fix + 物 + with tape「用膠帶修好」：Joe 十秒就把斷掉的劍黏好。wore、married、missed it with tape 意思不通。
+> 5 be able to + 動詞「能夠…」：我們能讓全班覺得歷史很有趣。own、least 不能接 to make；asleep to make 意思不通。
++ Koxinga = 鄭成功
++ detail = 細節
++ curtain = 窗簾
++ wig = 假髮
++ yarn = 毛線
+= 這學期的歷史報告，我們這組選了鄭成功，他是台灣歷史上最有名的人物之一。我不想漏掉任何重要的細節，所以讀了三本關於他的書。我們知道他在 1661 年帶著好幾百艘船航行到台灣，趕走了荷蘭人。我們沒有做無聊的海報，而是決定演一齣短劇。我演鄭成功，戴著紙做的頭盔，穿著用媽媽的舊窗簾做的長袍。我朋友 Joe 演荷蘭指揮官，戴著黃色毛線做的假髮。演到一半，我的紙劍斷成兩截。大家都笑了，但 Joe 十秒內就用膠帶把它黏好，我們繼續演下去。最後，老師鼓掌說，我們讓全班都覺得歷史變有趣了。
+
+## 爺爺的老收音機
+My grandpa has an old radio that is older than my dad. It has a long [[history|hospital|weather|prize]] in our family. Grandpa bought it in 1975 with his first paycheck, and he has listened to it every morning since then. Last month, my little cousin was playing in the living room and [[dropped|wore|married|missed]] it on the floor. After that, it stopped working. Grandpa didn't get angry, but he looked very sad. He said he [[missed|fixed|wore|married]] the old songs he used to hear while drinking his tea. So I looked on the internet and found a small shop in Taichung that could [[fix|miss|marry|wear]] old radios. We took a train there together. The owner opened the radio and smiled. "They don't make them like this anymore," he said. After two hours, he was [[able|own|least|asleep]] to make it work again. On the train home, Grandpa held the radio on his lap like a baby.
+> 1 have a long history「有很長的歷史」：這台收音機在我們家很久了。hospital、weather、prize 和 long 搭配意思不通。
+> 2 drop + 物 + on the floor「把…摔到地上」：之後收音機就壞了。wore、married、missed it on the floor 意思不通。
+> 3 miss + 事物「懷念」：爺爺懷念以前邊喝茶邊聽的老歌。fixed、wore、married the old songs 意思不通。
+> 4 fix old radios「修理老收音機」。miss、marry、wear old radios 意思不通。
+> 5 be able to + 動詞「能夠…」：老闆花兩小時讓它恢復正常。own、least 不能接 to make；asleep to make 意思不通。
++ radio = 收音機
++ paycheck = 薪水
++ lap = 大腿上
+= 我爺爺有一台比我爸爸年紀還大的老收音機，它在我們家有很長的歷史。爺爺在 1975 年用第一份薪水買了它，從那以後每天早上都聽。上個月，我的小表弟在客廳玩，把它摔到地上，之後收音機就不能用了。爺爺沒有生氣，但看起來很難過。他說他很懷念以前一邊喝茶一邊聽的老歌。所以我上網找到台中一家會修老收音機的小店，我們一起搭火車過去。老闆打開收音機笑著說：「現在已經沒有人做這樣的收音機了。」兩個小時後，他讓收音機又能響了。回家的火車上，爺爺把收音機抱在腿上，像抱著一個小嬰兒一樣。
+
+## 差點錯過的演唱會
+My sister is [[crazy|able|own|least]] about a Korean pop group. When they came to Taipei, she waited online for three hours and finally got two tickets for us. On the day of the concert, she [[wore|fixed|married|missed]] a T-shirt with all five members' faces on it. But on the way there, our MRT train stopped between stations for forty minutes because of a problem. My sister was so worried. She kept saying, "We'll [[miss|fix|wear|marry]] the first song!" When we finally arrived, we ran all the way to the gate. My sister was so excited that she [[dropped|wore|married|missed]] her light stick on the stairs, and it rolled away. Luckily, a girl behind us picked it up and gave it back. We did miss the first song, but we were [[able|own|least|asleep]] to enjoy the rest of the show. My sister screamed so much that she lost her voice for two days.
+> 1 be crazy about + 事物「非常迷…」：姊姊超迷一個韓團。able、own、least about a group 意思不通。
+> 2 wear a T-shirt「穿 T 恤」。fixed、married、missed a T-shirt 意思不通。
+> 3 miss the first song「錯過第一首歌」，因為捷運停了四十分鐘。fix、wear、marry the first song 意思不通。
+> 4 drop + 物「把…弄掉」：她太興奮，手燈掉在樓梯上滾走了。wore、married、missed her light stick on the stairs 意思不通。
+> 5 be able to + 動詞「能夠…」：我們還是能看完剩下的表演。own、least 不能接 to enjoy；asleep to enjoy 意思不通。
++ Korean pop group = 韓國流行音樂團體
++ concert = 演唱會
++ light stick = 應援手燈
++ scream = 尖叫
+= 我姊姊超迷一個韓國流行團體。他們來台北時，她在網路上等了三個小時，終於搶到兩張票。演唱會當天，她穿著一件印有五位成員臉的 T 恤。可是在去的路上，捷運因為故障停在兩站之間四十分鐘。姊姊急死了，一直說：「我們會錯過第一首歌！」終於到站後，我們一路跑到入口。姊姊太興奮了，應援手燈掉在樓梯上滾走了。幸好後面一個女生幫忙撿起來還給她。我們真的錯過了第一首歌，但還是好好享受了剩下的表演。姊姊尖叫到失聲了兩天。
+
+## 玻璃鞋的疑問
+Everyone knows the story of Cinderella. With help from her fairy godmother, she [[wore|fixed|married|missed]] a beautiful dress and glass shoes to the prince's party. At midnight, she ran away and [[dropped|married|answered|missed]] one of her shoes on the stairs. The prince looked for her all over the kingdom with that shoe. When he found her, he [[married|wore|fixed|traveled]] her the next week, and they lived happily ever after. But my friend Amy and I have some questions. First, if the shoe fit Cinderella perfectly, why did it fall off? Second, glass shoes are [[dangerous|able|own|least]]! If one breaks, you could cut your feet badly. Amy says Cinderella was [[crazy|own|least|below]] to dance in them all night. "Next time," Amy said, "she should ask her fairy godmother for sneakers." I think that would make a much funnier story.
+> 1 wear a dress and shoes to + 場合「穿…去參加」。fixed、married、missed a dress 意思不通。
+> 2 drop + 物「掉了…」：她跑走時把一隻鞋掉在樓梯上。married、answered、missed one of her shoes on the stairs 意思不通。
+> 3 marry + 人「和某人結婚」：王子找到她，隔週就娶了她，從此過著幸福快樂的日子。wore、fixed、traveled her 意思不通。
+> 4 be dangerous「危險的」：玻璃鞋破了會割傷腳。able、own、least 不能這樣形容鞋子。
+> 5 be crazy to + 動詞「做…真是瘋了」：穿著玻璃鞋跳整晚的舞太瘋狂。own、least、below 不能放在 was 後面接 to dance。
++ Cinderella = 灰姑娘
++ fairy godmother = 仙女教母
++ prince = 王子
++ kingdom = 王國
++ stairs = 樓梯
+= 大家都知道灰姑娘的故事。在仙女教母的幫忙下，她穿著漂亮的禮服和玻璃鞋去參加王子的舞會。午夜時，她匆匆離開，把一隻鞋掉在樓梯上。王子帶著那隻鞋找遍了整個王國。找到她後，王子隔週就娶了她，兩人從此過著幸福快樂的日子。但我和朋友 Amy 有幾個疑問。第一，如果那隻鞋完全合灰姑娘的腳，為什麼會掉下來？第二，玻璃鞋很危險！要是破了，腳可能會被割傷得很嚴重。Amy 說灰姑娘穿著它跳一整晚的舞真是瘋了。「下次，」Amy 說，「她應該跟仙女教母要一雙運動鞋。」我覺得那樣的故事會好笑得多。
+
+## 爸爸的吉他
+My parents got [[married|able|own|least]] twenty years ago today. My brother and I wanted to give them a special surprise. Dad had an old guitar in the closet. One string was broken, and he hadn't played it [[since|than|whether|below]] I was born. So last week, we secretly took it to a music shop and had it [[fixed|missed|worn|married]]. That evening, Mom [[wore|fixed|married|missed]] the same blue dress from their first date, and we had dinner at home with candles on the table. After dinner, my brother brought out the guitar. Dad couldn't believe his eyes. He held it for a long time. Then he started to play the song he used to sing to Mom when they were in college. Mom cried, and so did Dad. Later that night, Dad told us he had really [[missed|fixed|worn|married]] playing music. Now he plays the guitar every weekend, and Mom sings along.
+> 1 get married「結婚」：爸媽二十年前的今天結婚。get able、get own、get least 都不是正確的說法。
+> 2 since + 子句，搭配過去完成式 hadn't played「自從我出生後就沒彈過」。than、whether、below 不能表示「從…以來」。
+> 3 have + 物 + p.p.「把…拿去給人處理」：我們把吉他拿去修好。had it missed／worn／married 意思不通。
+> 4 wear a dress「穿洋裝」。fixed、married、missed the blue dress 意思不通。
+> 5 miss + V-ing「懷念做…」：爸爸說他很懷念彈音樂。fixed、worn、married playing music 意思不通。
++ string = 琴弦
++ secretly = 偷偷地
++ candle = 蠟燭
++ sing along = 跟著唱
+= 爸媽在二十年前的今天結婚。我和哥哥想給他們一個特別的驚喜。爸爸的衣櫃裡有一把舊吉他，有一條弦斷了，從我出生以後他就沒再彈過。所以上星期，我們偷偷把它拿到樂器行修好。那天晚上，媽媽穿上他們第一次約會時穿的那件藍色洋裝，我們在家裡點著蠟燭吃晚餐。飯後，哥哥把吉他拿出來。爸爸不敢相信自己的眼睛，抱著吉他好久。接著，他彈起大學時常唱給媽媽聽的那首歌。媽媽哭了，爸爸也哭了。那天深夜，爸爸跟我們說他真的很懷念彈音樂的感覺。現在他每個週末都會彈吉他，媽媽就在旁邊跟著唱。
