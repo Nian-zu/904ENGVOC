@@ -29,3 +29,4 @@ c8ab06e5c2|beyond,near,beside
 d92733da83|rather
 b9faa7d595|familiar,helpful,fair,sad
 713018063c|wild
+97a5464a20|angry

@@ -4,7 +4,7 @@ c90ba434ef|living
 d5487d4205|living
 4cb92dd0e1|roof
 459e3c8ec1|dining
-749dcab093|dining
+749dcab093|dining,personal,regular,healthy
 8439f6690c|dining
 be395dc9a4|dining
 0f44f28845|scissorses,shelfs,newses,sugars
