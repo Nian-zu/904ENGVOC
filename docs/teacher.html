@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>904 每日背英單・老師儀表板</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script src="d3.min.js"></script>
+<style>
+:root{
+  --board:#1f3d33;--chalk:#f2c94c;--paper:#fbfaf6;
+  --color-fg:#1c2321;--color-fg-muted:#5f6b67;--color-bg:#fbfaf6;--color-panel:#ffffff;--color-border-line:#dde3df;
+  --color-ok:#1f8a4c;--color-warn:#b7791f;--color-bad:#c2412d;
+  --font-anthropic-sans:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;--font-anthropic-serif:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;
+  --cds-font-size-title:1.9rem;--cds-font-weight-medium:700;
+  --cds-gap-xs:4px;--cds-gap-sm:8px;--cds-gap-md:12px;--cds-gap-lg:16px;--cds-gap-xl:32px;
+  --cds-pad-sm:6px;--cds-pad-md:10px;--cds-pad-lg:18px;--cds-radius:12px;
+  --cds-chart-grid:#e8ece9;--cds-chart-axis:#b9c2be;--cds-chart-muted:#c9d3cf;--cds-chart-reference:#8a9590;--cds-text-secondary:#5f6b67;
+  --cds-surface-popover:#fff;--cds-border:#dde3df;--cds-shadow-popover:0 6px 20px rgba(0,0,0,.12);
+  color-scheme:light;
+}
+html,body{margin:0;background:var(--paper);color:var(--color-fg);font-family:var(--font-anthropic-sans);line-height:1.6}
+main{max-width:1200px;margin:0 auto;padding:20px 18px 60px}
+.topbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--board);color:#fff;border-radius:14px;padding:12px 16px;margin-bottom:24px}
+.topbar a{color:var(--chalk)}
+.topbar form{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.topbar input{font:inherit;font-size:16px;padding:7px 10px;border-radius:8px;border:0;width:10em}
+.topbar button{font:inherit;font-size:16px;padding:7px 14px;border-radius:8px;border:0;background:var(--chalk);color:#2a2410;font-weight:700;cursor:pointer}
+#status{font-size:15px;opacity:.9}
+.dash-select{font:inherit;font-size:16px;padding:7px 10px;border-radius:8px;border:1px solid var(--color-border-line);background:#fff}
+.dash-skeleton{color:transparent!important;background:linear-gradient(90deg,#eef1ef,#f7f9f8,#eef1ef);border-radius:6px}
+
+.t-wrap{--t-small:15px;font-size:17px;display:flex;flex-direction:column;gap:var(--cds-gap-xl);font-family:var(--font-anthropic-sans);color:var(--color-fg)}
+.t-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0}
+.t-lede{font-size:1.15rem;margin:var(--cds-gap-xs) 0 0;color:var(--color-fg-muted);line-height:1.6}
+.t-lede b{color:var(--color-fg);font-variant-numeric:tabular-nums}
+.t-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--cds-gap-md)}
+.t-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg)}
+.t-card h3{margin:0;font-size:var(--t-small);font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted)}
+.t-big{font-family:var(--font-anthropic-serif);font-weight:400;font-size:2.6rem;font-variant-numeric:tabular-nums;margin-top:var(--cds-gap-xs)}
+.t-sub{font-size:var(--t-small);color:var(--color-fg-muted);margin-top:var(--cds-gap-xs);line-height:1.5}
+.t-sec h2{font-size:1.4rem;font-weight:var(--cds-font-weight-medium);margin:0 0 var(--cds-gap-xs)}
+.t-note{font-size:var(--t-small);color:var(--color-fg-muted);margin:0 0 var(--cds-gap-md);line-height:1.6}
+.t-chart{position:relative;min-height:240px}
+.t-chart svg text{font-size:var(--t-small);fill:var(--cds-text-secondary)}
+.t-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:var(--cds-radius);padding:var(--cds-pad-sm) var(--cds-pad-md);font-size:var(--t-small);line-height:1.5;white-space:nowrap;z-index:2}
+.t-scroll{overflow-x:auto;border:1px solid var(--color-border-line);border-radius:var(--cds-radius)}
+.t-table{border-collapse:collapse;width:100%;font-size:var(--t-small);font-variant-numeric:tabular-nums}
+.t-table th,.t-table td{padding:10px 12px;border-bottom:1px solid var(--color-border-line);text-align:right;white-space:nowrap}
+.t-table th{font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted);background:var(--color-panel);position:sticky;top:0}
+.t-table .l{text-align:left}
+#matrix .t-table{width:auto}
+.t-wrap select.dash-select{min-width:14em;font-size:16px}
+.t-table .wrap{white-space:normal;min-width:220px;text-align:left}
+.t-table tr.t-pick td{background:color-mix(in srgb,var(--color-fg) 6%,transparent)}
+.t-table tbody tr[data-key]{cursor:pointer}
+.t-ok{color:var(--color-ok)} .t-warn{color:var(--color-warn)} .t-bad{color:var(--color-bad)}
+.t-h0{background:color-mix(in srgb,var(--color-bad) 30%,transparent)}
+.t-h1{background:color-mix(in srgb,var(--color-warn) 28%,transparent)}
+.t-h2{background:color-mix(in srgb,var(--color-ok) 18%,transparent)}
+.t-h3{background:color-mix(in srgb,var(--color-ok) 36%,transparent)}
+.t-flag{display:inline-block;margin-left:4px;padding:0 5px;border-radius:8px;font-size:13px;background:color-mix(in srgb,var(--color-bad) 18%,transparent);color:var(--color-bad)}
+.t-row{display:flex;gap:var(--cds-gap-md);align-items:center;flex-wrap:wrap;margin-bottom:var(--cds-gap-md)}
+.t-legend{display:flex;gap:var(--cds-gap-sm);flex-wrap:wrap;font-size:var(--t-small);color:var(--color-fg-muted)}
+.t-legend span{padding:1px 8px;border-radius:6px}
+.t-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:var(--cds-gap-lg)}
+.t-empty{color:var(--color-fg-muted);font-size:var(--t-small);padding:var(--cds-pad-md)}
+.t-q{color:var(--color-fg)} .t-zh{color:var(--color-fg-muted)}
+[data-dash-source-state=refreshing]{opacity:.5}
+details.t-def summary{cursor:pointer;color:var(--color-fg-muted);font-size:var(--t-small)}
+details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-height:1.7}
+
+</style>
+</head>
+<body>
+<main>
+<div class="topbar">
+  <div><b>老師儀表板</b>　<span id="status">請輸入密碼</span></div>
+  <form id="keyForm">
+    <input id="key" type="password" autocomplete="current-password" placeholder="老師密碼" aria-label="老師密碼">
+    <button type="submit">載入／重新整理</button>
+    <a href="./">學生頁面</a>
+  </form>
+</div>
+<div id="dash-root">
+<div class="t-wrap">
+  <header id="top">
+    <h1 class="t-title">904 每日背英單・老師儀表板</h1>
+    <p class="t-lede" id="summary">今天是 <b data-draw="todayDate">—</b>，進度 <b data-draw="todayUnit" data-source="c_kpi" data-field="今日回" data-row="0">—</b>。已有 <b data-draw="kpiSubs" data-source="c_kpi" data-field="今日交卷人數" data-row="0">—</b>／<b data-draw="kpiRoster" data-source="c_kpi" data-field="應交人數" data-row="0">—</b> 人交卷，今日答對率 <b data-draw="kpiToday" data-source="c_kpi" data-field="今日答對率" data-row="0">—</b>，近 7 天全班答對率 <b data-draw="kpiWeek" data-source="c_kpi" data-field="近7天答對率" data-row="0">—</b>。</p>
+  </header>
+
+  <section class="t-cards" id="cards">
+    <div class="t-card" id="card-subs"><h3>今日交卷人數</h3><div class="t-big" data-draw="cSubs" data-source="c_kpi" data-field="今日交卷人數" data-row="0">—</div><div class="t-sub">尚未交卷：<span data-draw="cMissing" data-source="c_kpi" data-field="今日未交" data-row="0">—</span></div></div>
+    <div class="t-card" id="card-today"><h3>今日答對率</h3><div class="t-big" data-draw="cToday" data-source="c_kpi" data-field="今日答對率" data-row="0">—</div><div class="t-sub">今天交卷的所有題目合計</div></div>
+    <div class="t-card" id="card-week"><h3>近 7 天答對率</h3><div class="t-big" data-draw="cWeek" data-source="c_kpi" data-field="近7天答對率" data-row="0">—</div><div class="t-sub">前 7 天：<span data-draw="cPrevWeek" data-source="c_kpi" data-field="前7天答對率" data-row="0">—</span></div></div>
+    <div class="t-card" id="card-all"><h3>開學以來答對率</h3><div class="t-big" data-draw="cAll" data-source="c_kpi" data-field="全期答對率" data-row="0">—</div><div class="t-sub">共 <span data-draw="cAllN" data-source="c_kpi" data-field="全期作答題數" data-row="0">—</span> 題次</div></div>
+  </section>
+
+  <section class="t-sec" id="daily">
+    <h2>每日答對率與交卷人數</h2>
+    <p class="t-note">折線是全班當天的答對率，長條是當天交卷人數（不含錯題重做）。點某一天，下面的「每回難題」就會切到那天進度的那一回。</p>
+    <div class="t-chart" data-draw="dailyChart" data-source="c_days"></div>
+  </section>
+
+  <section class="t-sec" id="hard">
+    <h2>每回難題</h2>
+    <p class="t-note">每一回（D183、D182…）答對率最低的題目，附上學生最常選錯的選項。只算第一次作答，不含錯題重做。作答不到 2 人次的題目先不列。</p>
+    <div class="t-row">
+      <select class="dash-select" data-draw="unitSelect" aria-label="選擇哪一回" data-source="c_items"></select>
+      <span class="t-note" style="margin:0">這一回已作答 <b data-draw="unitAttempts">—</b> 人次，平均答對率 <b data-draw="unitRate">—</b></span>
+    </div>
+    <div class="t-scroll">
+      <table class="t-table" data-source="c_items" data-row-key="題號">
+        <thead><tr><th class="l" data-field="回">回</th><th class="l" data-field="單字">單字</th><th class="l wrap" data-field="題目">題目</th><th class="l" data-field="答案">答案</th><th data-field="答對率">答對率</th><th data-field="作答次數">作答人次</th><th class="l" data-field="常見錯選">最常選錯</th><th data-field="常見錯選次數">次數</th></tr></thead>
+        <tbody data-draw="hardRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="t-sec" id="students">
+    <h2>學生總表</h2>
+    <p class="t-note">點一位學生，下方會顯示他的每回答對率走勢和常錯單字。紅色標記：最近 3 天以上沒交卷、近 7 天答對率比前 7 天掉 10 分以上、或平均每題不到 3 秒（可能沒看題目就按）。</p>
+    <div class="t-scroll">
+      <table class="t-table" data-source="c_students" data-row-key="座號">
+        <thead><tr><th data-field="座號">座號</th><th class="l" data-field="姓名">姓名</th><th data-field="交卷天數">交卷天數</th><th data-field="近7天交卷天數">近 7 天交卷</th><th class="l" data-field="最後交卷">最後交卷</th><th data-field="作答題數">作答題數</th><th data-field="總答對率">總答對率</th><th data-field="近7天答對率">近 7 天</th><th data-field="前7天答對率">前 7 天</th><th data-field="單字答對率">單字</th><th data-field="動詞變化答對率">動詞變化</th><th data-field="介系詞答對率">介系詞</th><th data-field="每題秒數">每題秒數</th><th data-field="訂正次數">錯題重做</th></tr></thead>
+        <tbody data-draw="studentRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="t-sec" id="matrix">
+    <h2>每回答對率（學生 × 回）</h2>
+    <p class="t-note">每一格是這位學生在這一回所有題目的答對率，最新的一回在左邊。空白表示還沒做過這一回。</p>
+    <div class="t-legend"><span class="t-h0">未滿 60%</span><span class="t-h1">60–79%</span><span class="t-h2">80–89%</span><span class="t-h3">90% 以上</span></div>
+    <div class="t-scroll" style="margin-top:var(--cds-gap-sm)" data-draw="matrixTable" data-source="c_matrix"></div>
+  </section>
+
+  <section class="t-sec" id="student">
+    <h2>個別學生</h2>
+    <div class="t-row"><select class="dash-select" data-draw="seatSelect" aria-label="選擇學生" data-source="c_students"></select></div>
+    <div class="t-grid2">
+      <div>
+        <p class="t-note">這位學生每回的答對率（實線），和全班同一回的答對率（虛線）。</p>
+        <div class="t-chart" data-draw="seatChart" data-source="c_matrix"></div>
+      </div>
+      <div>
+        <p class="t-note">這位學生答錯最多次的單字（不含錯題重做）。</p>
+        <div class="t-scroll">
+          <table class="t-table" data-source="wrong_words" data-row-key="座號,單字">
+            <thead><tr><th class="l" data-field="單字">單字</th><th data-field="答錯次數">答錯次數</th></tr></thead>
+            <tbody data-draw="seatWords"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="t-sec" id="words">
+    <h2>全班最常錯的單字</h2>
+    <p class="t-note">把同一個單字的所有題目合起來算，作答 5 人次以上、答對率最低的 20 個字。適合拿來上課複習。</p>
+    <div class="t-scroll">
+      <table class="t-table" data-source="c_words" data-row-key="單字">
+        <thead><tr><th class="l" data-field="單字">單字</th><th class="l" data-field="回">回</th><th class="l" data-field="題型">題型</th><th data-field="答對率">答對率</th><th data-field="作答次數">作答人次</th></tr></thead>
+        <tbody data-draw="wordRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <details class="t-def" id="notes">
+    <summary>名詞說明與資料來源</summary>
+    <ul>
+      <li>資料來自 Google 試算表的「儀表板資料」分頁，那一頁用公式從「成績」和「作答明細」自動整理；這個頁面透過 Apps Script 用老師密碼讀取。</li>
+      <li>「作答明細」每一題一列，在更新 Apps Script 之後才開始記錄，所以題目、單字、題型和每回答對率只包含那之後的作答。每日答對率和交卷人數來自「成績」，從第一筆就有。</li>
+      <li>答對率 = 答對題數 ÷ 作答題數。錯題重做的成績另外算在「錯題重做」次數，不放進答對率，避免灌高分數。</li>
+      <li>進度：2026/11/13 是 D183，之後每天往下一回。30 號是老師測試用，不列入統計。</li>
+    </ul>
+  </details>
+</div>
+</div>
+</main>
+<script>
+// 簡化版儀表板執行環境：資料來自 Apps Script（老師密碼）與題庫 bank.json
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbw6T_WzBoAochtIc19RzAVf05BnuCYXOrpSS__pQ2HwwOFkh2QPw8dNVHk9nBswbRdv9A/exec';
+(() => {
+  const raw = {}, loaders = {}, calcs = {}, draws = {}, cache = {};
+  let params = {unit: '', seat: ''}, state = 'idle', errMsg = '';
+  const redraw = () => {
+    Object.keys(cache).forEach(k => delete cache[k]);
+    document.querySelectorAll('[data-draw]').forEach(el => {
+      const f = draws[el.dataset.draw];
+      if (f) try { f(el); } catch (e) { console.error(el.dataset.draw, e); }
+    });
+  };
+  window.dash = {
+    colors: ['#2a7d63', '#c2412d', '#b7791f'],
+    loader(id, o) { loaders[id] = o; },
+    calc(id, o) { calcs[id] = o; },
+    draw(n, f) { draws[n] = f; },
+    params() { return params; },
+    setParams(p) { params = Object.assign({}, params, p); redraw(); },
+    resetParams() { params = {unit: '', seat: ''}; redraw(); },
+    setLink() {}, refresh() {}, onData(f) { f(); },
+    data(id) {
+      if (cache[id]) return cache[id];
+      if (state !== 'ok') return {status: state === 'error' ? 'error' : 'loading', data: calcs[id] ? null : [], message: errMsg};
+      let out;
+      if (calcs[id]) {
+        const c = calcs[id], ins = c.inputs.map(i => dash.data(i));
+        const bad = ins.find(x => x.status !== 'ok');
+        if (bad) return bad;
+        const v = c.fn(...ins.map(x => x.data));
+        out = {status: 'ok', data: v, columns: Array.isArray(v) && v[0] ? Object.keys(v[0]) : []};
+      } else if (raw[id]) {
+        if (loaders[id]) { const r = loaders[id].fn({answer: {values: raw[id]}}); out = {status: 'ok', data: r.rows, columns: r.columns}; }
+        else out = {status: 'ok', data: raw[id], columns: raw[id][0] ? Object.keys(raw[id][0]) : []};
+      } else out = {status: 'missing', data: []};
+      return cache[id] = out;
+    },
+    _load: async (key) => {
+      const st = document.getElementById('status');
+      state = 'loading'; redraw(); st.textContent = '載入中…';
+      try {
+        const [d, b] = await Promise.all([
+          fetch(SHEET_URL + '?action=dash&key=' + encodeURIComponent(key)).then(r => r.json()),
+          raw.items ? null : fetch('bank.json').then(r => r.json())
+        ]);
+        if (!d.ok) throw new Error(d.error || '讀取失敗');
+        if (b) {
+          const kz = {word: '單字', verb: '動詞變化', prep: '介系詞'}, items = [];
+          for (let i = 0; i < 6061; i++) { const q = b.bank[i]; items.push({題號: i, 回: b.labels[q.d], 題型: kz[q.k], 單字: q.w, 題目: q.a + '____' + q.b, 答案: q.o[q.c], 中文: q.z || ''}); }
+          raw.items = items;
+        }
+        Object.assign(raw, d.blocks);
+        state = 'ok'; errMsg = ''; st.textContent = '資料時間 ' + d.at;
+        try { localStorage.setItem('904teacherKey', key); } catch (e) {}
+      } catch (e) {
+        state = 'error'; errMsg = e.message; st.textContent = '⚠ ' + e.message;
+      }
+      redraw();
+    }
+  };
+})();
+</script>
+<script>
+// 班級固定設定
+window.T904 = {
+  SEATS: [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29],
+  START: '2026-11-13',
+  today() { return new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Taipei'}).format(new Date()); },
+  addDays(d, n) { return new Date(Date.parse(d) + n * 864e5).toISOString().slice(0, 10); },
+  diff(a, b) { return Math.round((Date.parse(a) - Date.parse(b)) / 864e5); },
+  unitOf(d) { const i = Math.round((Date.parse(d) - Date.parse('2026-11-13')) / 864e5); return i >= 0 && i < 183 ? 'D' + (183 - i) : ''; },
+  pct(r, n) { return n ? Math.round(r / n * 100) : null; },
+  heat(v) { return v == null ? '' : v < 60 ? 't-h0' : v < 80 ? 't-h1' : v < 90 ? 't-h2' : 't-h3'; },
+  tone(v) { return v == null ? '' : v < 60 ? 't-bad' : v < 80 ? 't-warn' : 't-ok'; },
+  fmt(v) { return v == null ? '—' : v + '%'; },
+  unitNum(u) { return parseInt(String(u).slice(1), 10) || 0; }
+};
+</script>
+<script>
+const SHEET_LOADER = ({answer}) => {
+  const a = (answer && answer.content) || answer || {};
+  if (a.error) throw new Error(typeof a.error === 'string' ? a.error : (a.error.message || '試算表讀取失敗'));
+  const v = a.values || [];
+  if (!v.length) return {columns: [], rows: []};
+  const head = v[0].map(String).filter(h => h !== '');
+  const text = new Set(['日期', '姓名', '回', '題型', '單字', '選的']);
+  const rows = v.slice(1).filter(r => r.some(x => x !== '' && x != null)).map(r => {
+    const o = {};
+    head.forEach((h, i) => {
+      const x = r[i];
+      if (x === undefined || x === '') o[h] = null;
+      else if (text.has(h)) o[h] = String(x);
+      else { const n = Number(String(x).replace(/,/g, '')); o[h] = Number.isFinite(n) ? n : String(x); }
+    });
+    return o;
+  });
+  return {columns: head, rows};
+};
+['daily', 'unit_stats', 'item_stats', 'wrong_picks', 'type_stats', 'wrong_words', 'redo_stats'].forEach(id =>
+  dash.loader(id, {description: '把試算表回傳的表格（第一列是欄名）轉成一列一列的資料，數字欄轉成數字。', fn: SHEET_LOADER}));
+
+dash.calc('c_days', {
+  title: '每日全班統計', description: '每天交卷人數、作答題數、答對題數與答對率（不含錯題重做）。',
+  inputs: ['daily'],
+  fn: (daily) => {
+    const by = new Map();
+    daily.forEach(r => {
+      if (!r['日期']) return;
+      const d = by.get(r['日期']) || {日期: r['日期'], seats: new Set(), 作答題數: 0, 答對題數: 0};
+      d.seats.add(r['座號']); d.作答題數 += r['作答題數'] || 0; d.答對題數 += r['答對題數'] || 0;
+      by.set(r['日期'], d);
+    });
+    return [...by.values()].sort((a, b) => a.日期 < b.日期 ? -1 : 1).map(d => ({
+      日期: d.日期, 回: T904.unitOf(d.日期), 交卷人數: d.seats.size, 作答題數: d.作答題數, 答對題數: d.答對題數,
+      答對率: T904.pct(d.答對題數, d.作答題數)}));
+  }
+});
+
+dash.calc('c_kpi', {
+  title: '今日與近期摘要', description: '今天交卷人數與未交名單，今天、近 7 天、前 7 天與開學以來的答對率。',
+  inputs: ['daily'],
+  fn: (daily) => {
+    const today = T904.today(), w0 = T904.addDays(today, -6), p0 = T904.addDays(today, -13);
+    const names = {}; daily.forEach(r => { names[r['座號']] = r['姓名']; });
+    const sum = (f) => { let a = 0, c = 0; daily.forEach(r => { if (f(r['日期'])) { a += r['作答題數'] || 0; c += r['答對題數'] || 0; } }); return [c, a]; };
+    const subs = new Set(daily.filter(r => r['日期'] === today).map(r => r['座號']));
+    const missing = T904.SEATS.filter(s => !subs.has(s)).map(s => s + (names[s] ? names[s] : '') ).join('、');
+    const [tc, ta] = sum(d => d === today), [wc, wa] = sum(d => d >= w0 && d <= today), [pc, pa] = sum(d => d >= p0 && d < w0), [ac, aa] = sum(() => true);
+    return [{今日: today, 今日回: T904.unitOf(today), 今日交卷人數: T904.SEATS.filter(s => subs.has(s)).length, 應交人數: T904.SEATS.length,
+      今日未交: missing || '全部交了', 今日答對率: T904.pct(tc, ta), 近7天答對率: T904.pct(wc, wa), 前7天答對率: T904.pct(pc, pa),
+      全期答對率: T904.pct(ac, aa), 全期作答題數: aa}];
+  }
+});
+
+dash.calc('c_students', {
+  title: '學生總表', description: '每位學生的交卷天數、最後交卷日、答對率（總、近 7 天、前 7 天、各題型）、每題秒數與錯題重做次數。',
+  inputs: ['daily', 'type_stats', 'redo_stats'],
+  fn: (daily, typeStats, redoStats) => {
+    const today = T904.today(), w0 = T904.addDays(today, -6), p0 = T904.addDays(today, -13);
+    return T904.SEATS.map(s => {
+      const rows = daily.filter(r => r['座號'] === s);
+      const days = new Set(rows.map(r => r['日期']));
+      const tot = (f) => rows.filter(r => f(r['日期'])).reduce((a, r) => [a[0] + (r['答對題數'] || 0), a[1] + (r['作答題數'] || 0), a[2] + (r['用時秒數'] || 0)], [0, 0, 0]);
+      const all = tot(() => true), wk = tot(d => d >= w0 && d <= today), pv = tot(d => d >= p0 && d < w0);
+      const last = [...days].sort().pop() || null;
+      const t = (k) => { const x = typeStats.find(r => r['座號'] === s && r['題型'] === k); return x ? T904.pct(x['答對題數'], x['作答題數']) : null; };
+      const redo = redoStats.find(r => r['座號'] === s);
+      return {座號: s, 姓名: rows.length ? rows[rows.length - 1]['姓名'] : '', 交卷天數: days.size,
+        近7天交卷天數: [...days].filter(d => d >= w0 && d <= today).length, 最後交卷: last,
+        未交天數: last ? T904.diff(today, last) : null, 作答題數: all[1], 總答對率: T904.pct(all[0], all[1]),
+        近7天答對率: T904.pct(wk[0], wk[1]), 前7天答對率: T904.pct(pv[0], pv[1]),
+        單字答對率: t('單字'), 動詞變化答對率: t('動詞變化'), 介系詞答對率: t('介系詞'),
+        每題秒數: all[1] ? Math.round(all[2] / all[1] * 10) / 10 : null, 訂正次數: redo ? redo['訂正次數'] : 0};
+    });
+  }
+});
+
+dash.calc('c_matrix', {
+  title: '學生 × 回 答對率', description: '每位學生在每一回的答對率（%），最後一列是全班。',
+  inputs: ['unit_stats', 'daily'],
+  fn: (unitStats, daily) => {
+    const names = {}; daily.forEach(r => { names[r['座號']] = r['姓名']; });
+    const units = [...new Set(unitStats.map(r => r['回']))].sort((a, b) => T904.unitNum(a) - T904.unitNum(b));
+    const rows = T904.SEATS.map(s => {
+      const o = {座號: String(s), 姓名: names[s] || ''};
+      units.forEach(u => { const x = unitStats.find(r => r['座號'] === s && r['回'] === u); o[u] = x ? T904.pct(x['答對題數'], x['作答題數']) : null; });
+      return o;
+    });
+    const cls = {座號: '全班', 姓名: ''};
+    units.forEach(u => { const xs = unitStats.filter(r => r['回'] === u && T904.SEATS.includes(r['座號']));
+      cls[u] = T904.pct(xs.reduce((a, r) => a + r['答對題數'], 0), xs.reduce((a, r) => a + r['作答題數'], 0)); });
+    rows.push(cls);
+    return rows;
+  }
+});
+
+dash.calc('c_items', {
+  title: '每題統計', description: '每一題的作答人次、答對率，以及學生最常選的錯誤選項（不含錯題重做）。',
+  inputs: ['item_stats', 'items', 'wrong_picks'],
+  fn: (itemStats, items, wrongPicks) => {
+    const info = new Map(items.map(r => [r['題號'], r]));
+    const pick = new Map();
+    wrongPicks.forEach(r => { const p = pick.get(r['題號']); if (!p || r['次數'] > p['次數']) pick.set(r['題號'], r); });
+    return itemStats.filter(r => info.has(r['題號'])).map(r => {
+      const q = info.get(r['題號']), p = pick.get(r['題號']);
+      return {題號: r['題號'], 回: q['回'], 題型: q['題型'], 單字: q['單字'], 題目: q['題目'], 答案: q['答案'], 中文: q['中文'],
+        作答次數: r['作答次數'], 答對次數: r['答對次數'], 答對率: T904.pct(r['答對次數'], r['作答次數']),
+        常見錯選: p ? p['選的'] : '', 常見錯選次數: p ? p['次數'] : 0};
+    });
+  }
+});
+
+dash.calc('c_words', {
+  title: '全班單字答對率', description: '同一個單字的所有題目合計的作答人次與答對率。',
+  inputs: ['c_items'],
+  fn: (cItems) => {
+    const by = new Map();
+    cItems.forEach(r => { const w = by.get(r['單字']) || {單字: r['單字'], 回: r['回'], 題型: r['題型'], 作答次數: 0, 答對次數: 0};
+      w.作答次數 += r['作答次數']; w.答對次數 += r['答對次數']; by.set(r['單字'], w); });
+    return [...by.values()].map(w => ({...w, 答對率: T904.pct(w.答對次數, w.作答次數)}));
+  }
+});
+</script>
+<script>
+// 文字與數字
+const kpiVal = (field, f) => (el) => {
+  const k = dash.data('c_kpi');
+  el.classList.toggle('dash-skeleton', k.status === 'loading');
+  if (k.status !== 'ok' || !k.data || !k.data.length) { el.textContent = '—'; return; }
+  const v = k.data[0][field];
+  el.textContent = f ? f(v) : (v == null ? '—' : String(v));
+};
+dash.draw('todayDate', el => { el.textContent = T904.today().replace(/-/g, '/'); });
+dash.draw('todayUnit', kpiVal('今日回', v => v || '（不在進度內）'));
+dash.draw('kpiSubs', kpiVal('今日交卷人數'));
+dash.draw('kpiRoster', kpiVal('應交人數'));
+dash.draw('kpiToday', kpiVal('今日答對率', T904.fmt));
+dash.draw('kpiWeek', kpiVal('近7天答對率', T904.fmt));
+dash.draw('cSubs', kpiVal('今日交卷人數'));
+dash.draw('cMissing', kpiVal('今日未交'));
+dash.draw('cToday', kpiVal('今日答對率', T904.fmt));
+dash.draw('cWeek', kpiVal('近7天答對率', T904.fmt));
+dash.draw('cPrevWeek', kpiVal('前7天答對率', T904.fmt));
+dash.draw('cAll', kpiVal('全期答對率', T904.fmt));
+dash.draw('cAllN', kpiVal('全期作答題數', v => v == null ? '—' : d3.format(',')(v)));
+
+// 每日折線＋長條
+dash.draw('dailyChart', (el) => {
+  const g = dash.data('c_days');
+  el.replaceChildren();
+  if (g.status === 'loading') { el.classList.add('dash-skeleton'); return; }
+  el.classList.remove('dash-skeleton');
+  if (g.status === 'error') { el.textContent = '無法載入'; return; }
+  const data = (g.data || []).filter(d => d['作答題數'] > 0);
+  if (!data.length) { const p = document.createElement('div'); p.className = 't-empty'; p.textContent = '還沒有學生交卷。'; el.append(p); return; }
+  const W = Math.max(280, el.clientWidth), H = 240, m = {t: 16, r: 50, b: 28, l: 52};
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+    .attr('aria-label', '每日全班答對率折線與交卷人數長條');
+  const x = d3.scaleBand().domain(data.map(d => d['日期'])).range([m.l, W - m.r]).padding(0.3);
+  const y = d3.scaleLinear().domain([0, 100]).range([H - m.b, m.t]);
+  const yc = d3.scaleLinear().domain([0, T904.SEATS.length]).range([H - m.b, m.t]);
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d => d + '%').tickSize(-(W - m.l - m.r)))
+    .call(a => a.selectAll('line').style('stroke', 'var(--cds-chart-grid)')).call(a => a.select('.domain').remove());
+  svg.append('g').attr('transform', `translate(${W - m.r},0)`).call(d3.axisRight(yc).ticks(4).tickFormat(d => d + '人'))
+    .call(a => a.select('.domain').remove()).call(a => a.selectAll('line').remove());
+  const step = Math.ceil(data.length / Math.max(1, Math.floor((W - m.l - m.r) / 56)));
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`)
+    .call(d3.axisBottom(x).tickValues(data.map(d => d['日期']).filter((d, i) => i % step === 0)).tickFormat(d => d.slice(5).replace('-', '/')))
+    .call(a => a.select('.domain').style('stroke', 'var(--cds-chart-axis)')).call(a => a.selectAll('line').remove());
+  svg.append('g').selectAll('rect').data(data).join('rect').attr('x', d => x(d['日期'])).attr('width', x.bandwidth())
+    .attr('y', d => yc(d['交卷人數'])).attr('height', d => yc(0) - yc(d['交卷人數'])).style('fill', 'var(--cds-chart-muted)').style('opacity', .55);
+  const cx = d => x(d['日期']) + x.bandwidth() / 2;
+  svg.append('path').datum(data).attr('d', d3.line().x(cx).y(d => y(d['答對率']))).style('fill', 'none').style('stroke', dash.colors[0]).style('stroke-width', 2);
+  svg.append('g').selectAll('circle').data(data).join('circle').attr('cx', cx).attr('cy', d => y(d['答對率'])).attr('r', 3.5).style('fill', dash.colors[0]);
+  const tip = document.createElement('div'); tip.className = 't-tip'; tip.hidden = true; el.append(tip);
+  svg.append('g').selectAll('rect').data(data).join('rect').attr('x', d => x(d['日期']) - x.step() * x.paddingInner() / 2).attr('width', x.step())
+    .attr('y', m.t).attr('height', H - m.t - m.b).style('fill', 'transparent').style('cursor', 'pointer')
+    .on('pointermove', (ev, d) => {
+      tip.hidden = false;
+      tip.textContent = `${d['日期'].replace(/-/g, '/')}（進度 ${d['回'] || '—'}）　答對率 ${d['答對率']}%　交卷 ${d['交卷人數']} 人　${d['答對題數']}/${d['作答題數']} 題`;
+      const [px, py] = d3.pointer(ev, el); tip.style.left = Math.min(px + 12, el.clientWidth - tip.offsetWidth - 4) + 'px'; tip.style.top = Math.max(0, py - 40) + 'px';
+    })
+    .on('pointerleave', () => { tip.hidden = true; })
+    .on('click', (ev, d) => { if (d['回']) { dash.setParams({unit: d['回']}); const h = document.getElementById('hard'); if (h) h.scrollIntoView({behavior: 'smooth'}); } });
+});
+
+// 每回難題
+const pickUnit = () => {
+  const p = dash.params().unit, it = dash.data('c_items');
+  if (p) return p;
+  const today = T904.unitOf(T904.today());
+  const have = it.status === 'ok' ? new Set(it.data.map(r => r['回'])) : new Set();
+  if (have.has(today)) return today;
+  const list = [...have].sort((a, b) => T904.unitNum(a) - T904.unitNum(b));
+  return list.length ? list[0] : 'all';
+};
+dash.draw('unitSelect', (sel) => {
+  const it = dash.data('c_items');
+  const units = it.status === 'ok' ? [...new Set(it.data.map(r => r['回']))].sort((a, b) => T904.unitNum(a) - T904.unitNum(b)) : [];
+  sel.replaceChildren(new Option('全部回合計', 'all'), ...units.map(u => new Option(u + (u === T904.unitOf(T904.today()) ? '（今天進度）' : ''), u)));
+  const cur = pickUnit(); sel.value = units.includes(cur) || cur === 'all' ? cur : 'all';
+  sel.onchange = () => dash.setParams({unit: sel.value});
+});
+const unitRows = () => { const it = dash.data('c_items'), u = pickUnit(); return it.status === 'ok' ? it.data.filter(r => u === 'all' || r['回'] === u) : []; };
+dash.draw('unitAttempts', el => { const rs = unitRows(); el.textContent = rs.length ? d3.sum(rs, r => r['作答次數']) : '—'; });
+dash.draw('unitRate', el => { const rs = unitRows(); el.textContent = rs.length ? T904.fmt(T904.pct(d3.sum(rs, r => r['答對次數']), d3.sum(rs, r => r['作答次數']))) : '—'; });
+dash.draw('hardRows', (tb) => {
+  const it = dash.data('c_items');
+  tb.replaceChildren();
+  const td = (tr, text, cls) => { const c = tr.insertCell(); c.textContent = text; if (cls) c.className = cls; return c; };
+  if (it.status !== 'ok') { const tr = tb.insertRow(); td(tr, it.status === 'loading' ? '載入中…' : '無法載入', 'l').colSpan = 8; return; }
+  const rs = unitRows().filter(r => r['作答次數'] >= 2).sort((a, b) => a['答對率'] - b['答對率'] || b['作答次數'] - a['作答次數']).slice(0, 15);
+  if (!rs.length) { const tr = tb.insertRow(); td(tr, '這一回還沒有足夠的逐題明細（每題至少 2 人次）。新版程式上線後學生交卷才會開始累積。', 'l').colSpan = 8; return; }
+  rs.forEach(r => {
+    const tr = tb.insertRow(); tr.dataset.key = String(r['題號']);
+    td(tr, r['回'], 'l'); td(tr, r['單字'], 'l');
+    const q = td(tr, '', 'wrap'); const a = document.createElement('div'); a.className = 't-q'; a.textContent = r['題目'];
+    const z = document.createElement('div'); z.className = 't-zh'; z.textContent = r['中文'] || ''; q.replaceChildren(a, z);
+    td(tr, r['答案'], 'l'); td(tr, T904.fmt(r['答對率']), T904.tone(r['答對率'])); td(tr, r['作答次數']);
+    td(tr, r['常見錯選'] || '—', 'l'); td(tr, r['常見錯選次數'] || '—');
+  });
+});
+
+// 學生總表
+dash.draw('studentRows', (tb) => {
+  const g = dash.data('c_students');
+  tb.replaceChildren();
+  const td = (tr, text, cls) => { const c = tr.insertCell(); c.textContent = text; if (cls) c.className = cls; return c; };
+  if (g.status !== 'ok') { const tr = tb.insertRow(); td(tr, g.status === 'loading' ? '載入中…' : '無法載入', 'l').colSpan = 14; return; }
+  const cur = String(dash.params().seat || '');
+  g.data.forEach(r => {
+    const tr = tb.insertRow(); tr.dataset.key = String(r['座號']); if (String(r['座號']) === cur) tr.className = 't-pick';
+    tr.onclick = () => { dash.setParams({seat: String(r['座號'])}); const s = document.getElementById('student'); if (s) s.scrollIntoView({behavior: 'smooth'}); };
+    td(tr, r['座號']); td(tr, r['姓名'] || '（未交過）', 'l'); td(tr, r['交卷天數']); td(tr, r['近7天交卷天數'] + '/7');
+    const last = td(tr, r['最後交卷'] ? r['最後交卷'].slice(5).replace('-', '/') : '—', 'l');
+    if (r['未交天數'] == null || r['未交天數'] >= 3) { const f = document.createElement('span'); f.className = 't-flag'; f.textContent = r['未交天數'] == null ? '未交' : r['未交天數'] + ' 天沒交'; last.append(f); }
+    td(tr, r['作答題數']);
+    ['總答對率', '近7天答對率', '前7天答對率', '單字答對率', '動詞變化答對率', '介系詞答對率'].forEach(k => {
+      const c = td(tr, T904.fmt(r[k]), T904.tone(r[k]));
+      if (k === '近7天答對率' && r[k] != null && r['前7天答對率'] != null && r[k] - r['前7天答對率'] <= -10) { const f = document.createElement('span'); f.className = 't-flag'; f.textContent = '↓'; c.append(f); }
+    });
+    const sec = td(tr, r['每題秒數'] == null ? '—' : r['每題秒數']);
+    if (r['每題秒數'] != null && r['每題秒數'] < 3) { const f = document.createElement('span'); f.className = 't-flag'; f.textContent = '太快'; sec.append(f); }
+    td(tr, r['訂正次數']);
+  });
+});
+
+// 學生 × 回 熱度表
+dash.draw('matrixTable', (box) => {
+  const g = dash.data('c_matrix');
+  box.replaceChildren();
+  if (g.status !== 'ok') { const p = document.createElement('div'); p.className = 't-empty'; p.textContent = g.status === 'loading' ? '載入中…' : '無法載入'; box.append(p); return; }
+  const units = (dash.data('c_matrix').columns || Object.keys(g.data[0] || {})).filter(k => /^D\d+$/.test(k));
+  if (!units.length) { const p = document.createElement('div'); p.className = 't-empty'; p.textContent = '還沒有逐題作答明細。11/14 晚上更新程式之前交的卷只記了總分（學生總表和每日答對率看得到），之後學生交卷，這裡就會開始累積每一回的答對率。'; box.append(p); return; }
+  const t = document.createElement('table'); t.className = 't-table'; t.dataset.source = 'c_matrix'; t.dataset.rowKey = '座號';
+  const hr = t.createTHead().insertRow();
+  [['座號', '座號'], ['姓名', '姓名'], ...units.map(u => [u, u])].forEach(([f, label], i) => { const th = document.createElement('th'); th.dataset.field = f; th.textContent = label; if (i === 1) th.className = 'l'; hr.append(th); });
+  const tb = t.createTBody();
+  g.data.forEach(r => {
+    const tr = tb.insertRow(); tr.dataset.key = r['座號'];
+    const a = tr.insertCell(); a.textContent = r['座號']; const b = tr.insertCell(); b.textContent = r['姓名']; b.className = 'l';
+    if (r['座號'] === '全班') { a.style.fontWeight = 600; }
+    units.forEach(u => { const c = tr.insertCell(); c.textContent = r[u] == null ? '' : r[u] + '%'; c.className = T904.heat(r[u]); });
+  });
+  box.append(t);
+});
+
+// 個別學生
+dash.draw('seatSelect', (sel) => {
+  const g = dash.data('c_students');
+  const rs = g.status === 'ok' ? g.data : [];
+  sel.replaceChildren(new Option('選擇學生…', ''), ...rs.map(r => new Option(r['座號'] + ' 號 ' + (r['姓名'] || ''), String(r['座號']))));
+  sel.value = String(dash.params().seat || '');
+  sel.onchange = () => dash.setParams({seat: sel.value});
+});
+dash.draw('seatChart', (el) => {
+  const g = dash.data('c_matrix'), seat = String(dash.params().seat || '');
+  el.replaceChildren();
+  const empty = (msg) => { const p = document.createElement('div'); p.className = 't-empty'; p.textContent = msg; el.append(p); };
+  if (g.status !== 'ok') { empty(g.status === 'loading' ? '載入中…' : '無法載入'); return; }
+  if (!seat) { empty('在上面選一位學生，或在學生總表點他的那一列。'); return; }
+  const me = g.data.find(r => r['座號'] === seat), cls = g.data.find(r => r['座號'] === '全班');
+  const units = Object.keys(me || {}).filter(k => /^D\d+$/.test(k)).sort((a, b) => T904.unitNum(b) - T904.unitNum(a));
+  const pts = units.filter(u => me[u] != null);
+  if (!pts.length) { empty('這位學生還沒有作答明細。'); return; }
+  const W = Math.max(260, el.clientWidth), H = 220, m = {t: 14, r: 14, b: 28, l: 52};
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', seat + ' 號每回答對率與全班比較');
+  const x = d3.scalePoint().domain(units).range([m.l, W - m.r]).padding(0.5), y = d3.scaleLinear().domain([0, 100]).range([H - m.b, m.t]);
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d => d + '%').tickSize(-(W - m.l - m.r)))
+    .call(a => a.selectAll('line').style('stroke', 'var(--cds-chart-grid)')).call(a => a.select('.domain').remove());
+  const step = Math.ceil(units.length / Math.max(1, Math.floor((W - m.l - m.r) / 44)));
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(units.filter((u, i) => i % step === 0)))
+    .call(a => a.select('.domain').style('stroke', 'var(--cds-chart-axis)')).call(a => a.selectAll('line').remove());
+  const line = (row) => d3.line().defined(u => row && row[u] != null).x(u => x(u)).y(u => y(row[u]))(units);
+  svg.append('path').attr('d', line(cls)).style('fill', 'none').style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 3').style('stroke-width', 1.5);
+  svg.append('path').attr('d', line(me)).style('fill', 'none').style('stroke', dash.colors[0]).style('stroke-width', 2);
+  const tip = document.createElement('div'); tip.className = 't-tip'; tip.hidden = true; el.append(tip);
+  svg.append('g').selectAll('circle').data(pts).join('circle').attr('cx', u => x(u)).attr('cy', u => y(me[u])).attr('r', 4).style('fill', dash.colors[0])
+    .on('pointermove', (ev, u) => { tip.hidden = false; tip.textContent = `${u}　本人 ${me[u]}%　全班 ${cls && cls[u] != null ? cls[u] + '%' : '—'}`;
+      const [px, py] = d3.pointer(ev, el); tip.style.left = Math.min(px + 10, el.clientWidth - tip.offsetWidth - 4) + 'px'; tip.style.top = Math.max(0, py - 36) + 'px'; })
+    .on('pointerleave', () => { tip.hidden = true; });
+});
+dash.draw('seatWords', (tb) => {
+  const g = dash.data('wrong_words'), seat = Number(dash.params().seat || 0);
+  tb.replaceChildren();
+  const td = (tr, text, cls) => { const c = tr.insertCell(); c.textContent = text; if (cls) c.className = cls; return c; };
+  if (g.status !== 'ok') { const tr = tb.insertRow(); td(tr, g.status === 'loading' ? '載入中…' : '無法載入', 'l').colSpan = 2; return; }
+  if (!seat) { const tr = tb.insertRow(); td(tr, '先選一位學生。', 'l').colSpan = 2; return; }
+  const rs = g.data.filter(r => r['座號'] === seat).sort((a, b) => b['答錯次數'] - a['答錯次數']).slice(0, 15);
+  if (!rs.length) { const tr = tb.insertRow(); td(tr, '目前沒有答錯紀錄。', 'l').colSpan = 2; return; }
+  rs.forEach(r => { const tr = tb.insertRow(); tr.dataset.key = encodeURIComponent(String(r['座號'])) + ',' + encodeURIComponent(r['單字']); td(tr, r['單字'], 'l'); td(tr, r['答錯次數']); });
+});
+
+// 全班常錯單字
+dash.draw('wordRows', (tb) => {
+  const g = dash.data('c_words');
+  tb.replaceChildren();
+  const td = (tr, text, cls) => { const c = tr.insertCell(); c.textContent = text; if (cls) c.className = cls; return c; };
+  if (g.status !== 'ok') { const tr = tb.insertRow(); td(tr, g.status === 'loading' ? '載入中…' : '無法載入', 'l').colSpan = 5; return; }
+  const rs = g.data.filter(r => r['作答次數'] >= 5).sort((a, b) => a['答對率'] - b['答對率'] || b['作答次數'] - a['作答次數']).slice(0, 20);
+  if (!rs.length) { const tr = tb.insertRow(); td(tr, '作答明細還不夠多（每個字至少 5 人次）。', 'l').colSpan = 5; return; }
+  rs.forEach(r => { const tr = tb.insertRow(); tr.dataset.key = r['單字']; td(tr, r['單字'], 'l'); td(tr, r['回'], 'l'); td(tr, r['題型'], 'l'); td(tr, T904.fmt(r['答對率']), T904.tone(r['答對率'])); td(tr, r['作答次數']); });
+});
+</script>
+<script>
+(() => {
+  const k = document.getElementById('key');
+  try { k.value = localStorage.getItem('904teacherKey') || ''; } catch (e) {}
+  document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); if (k.value) dash._load(k.value); };
+  if (k.value) dash._load(k.value); else dash.setParams({});
+})();
+</script>
+</body>
+</html>

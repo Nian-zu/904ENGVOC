@@ -89,6 +89,7 @@ const MIN_UP = { day: 10, week: 20, month: 20 };                 // 進步榜：
 
 function doGet(e) {
   const p = (e && e.parameter) || {};
+  if (p.action === 'dash') return out_(dash_(p.key));
   if (p.action !== 'board') return out_({ ok: true, message: '成績接收程式運作中' });
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const tz = 'Asia/Taipei';
@@ -128,6 +129,29 @@ function doGet(e) {
   return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
     titles: titles_(list, prv, streaks, period), fame: fame_(rows, today) });
+}
+
+// 老師儀表板：GET ?action=dash&key=密碼
+// 密碼放在「專案設定 → 指令碼屬性」的 TEACHER_KEY（不寫在程式碼裡，程式碼會公開在 GitHub）
+// 回傳「儀表板資料」分頁各區塊（由公式整理好的統計）
+const DASH_BLOCKS = { daily: [1, 7], unit_stats: [9, 4], item_stats: [14, 3], wrong_picks: [18, 3],
+  type_stats: [22, 4], wrong_words: [27, 3], redo_stats: [31, 4] }; // [起始欄（A=1）, 欄數]
+
+function dash_(key) {
+  const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
+  if (!want) return { ok: false, error: '尚未設定老師密碼（專案設定 → 指令碼屬性 → TEACHER_KEY）' };
+  if (String(key || '') !== want) return { ok: false, error: '密碼不正確' };
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('儀表板資料');
+  if (!sh) return { ok: false, error: '找不到「儀表板資料」分頁' };
+  const n = Math.max(1, sh.getLastRow());
+  const all = sh.getRange(1, 1, n, 34).getDisplayValues();
+  const blocks = {};
+  Object.keys(DASH_BLOCKS).forEach(function (k) {
+    const c = DASH_BLOCKS[k][0] - 1, w = DASH_BLOCKS[k][1];
+    blocks[k] = all.map(function (r) { return r.slice(c, c + w); })
+      .filter(function (r, i) { return i === 0 || r.some(function (x) { return x !== ''; }); });
+  });
+  return { ok: true, at: Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd HH:mm'), blocks: blocks };
 }
 
 function readRows_() {
