@@ -76,14 +76,36 @@ for fn in sorted(os.listdir(zdir)):
             if '\t' in line:
                 en, zh = line.rstrip('\n').split('\t', 1)
                 if zh.strip(): tr[re.sub(r'\s+', ' ', en.strip())] = zh.strip()
+    if fn.endswith('.en') and os.path.exists(os.path.join(zdir, fn[:-3] + '.zh')):
+        en = [l.rstrip('\n') for l in open(os.path.join(zdir, fn), encoding='utf-8') if l.strip() and not l.startswith('#')]
+        zh = [l.rstrip('\n') for l in open(os.path.join(zdir, fn[:-3] + '.zh'), encoding='utf-8') if l.strip()]
+        if len(en) != len(zh): sys.exit(f'{fn}: {len(en)} English lines but {len(zh)} Chinese lines')
+        for e, z in zip(en, zh):
+            e = re.sub(r'\s+', ' ', e.strip())
+            tr[e] = z.strip()
 old = {}
 for q in base['bank']:
     if q.get('z'): old.setdefault(full(q), q['z'])
 
+# rewrite awkward generated verb sentences (answer and option order unchanged)
+vfix = {}
+vf = os.path.join(zdir, 'verbfix.tsv')
+if os.path.exists(vf):
+    for line in open(vf, encoding='utf-8'):
+        if '\t' in line:
+            o_, n_ = line.rstrip('\n').split('\t')
+            vfix[o_.strip()] = n_.strip()
+fixed = 0
+for q in bank['bank']:
+    if q['k'] == 'verb' and full(q) in vfix:
+        q['_o'] = full(q)
+        q['a'], q['b'] = vfix[full(q)].split('____')
+        q['g'] = re.sub(r'[^a-z]+', '', (q['a'] + ' ' + q['b']).lower()); fixed += 1
+
 gl, todo, seen = {}, [], set()
 for q in bank['bank']:
     s = full(q)
-    q['z'] = tr.get(s) or old.get(s, '')
+    q['z'] = tr.get(s) or tr.get(q.pop('_o', ''), '') or old.get(s, '')
     if not q['z'] and s not in seen:
         seen.add(s); todo.append((q['d'], q['k'], s))
     for o in q['o']:
