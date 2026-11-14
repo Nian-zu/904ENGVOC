@@ -132,15 +132,15 @@ function doGet(e) {
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
-// 密碼放在「專案設定 → 指令碼屬性」的 TEACHER_KEY（不寫在程式碼裡，程式碼會公開在 GitHub）
+// 密碼（選用）放在「專案設定 → 指令碼屬性」的 TEACHER_KEY；沒設就不用密碼
 // 回傳「儀表板資料」分頁各區塊（由公式整理好的統計）
 const DASH_BLOCKS = { daily: [1, 7], unit_stats: [9, 4], item_stats: [14, 3], wrong_picks: [18, 3],
   type_stats: [22, 4], wrong_words: [27, 3], redo_stats: [31, 4] }; // [起始欄（A=1）, 欄數]
 
 function dash_(key) {
+  // 沒設 TEACHER_KEY 就不需要密碼；設了就要輸入正確密碼
   const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
-  if (!want) return { ok: false, error: '尚未設定老師密碼（專案設定 → 指令碼屬性 → TEACHER_KEY）' };
-  if (String(key || '') !== want) return { ok: false, error: '密碼不正確' };
+  if (want && String(key || '') !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入老師密碼' };
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('儀表板資料');
   if (!sh) return { ok: false, error: '找不到「儀表板資料」分頁' };
   const n = Math.max(1, sh.getLastRow());

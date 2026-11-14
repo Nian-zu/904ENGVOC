@@ -78,9 +78,9 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
 <body>
 <main>
 <div class="topbar">
-  <div><b>老師儀表板</b>　<span id="status">請輸入密碼</span></div>
+  <div><b>老師儀表板</b>　<span id="status">載入中…</span></div>
   <form id="keyForm">
-    <input id="key" type="password" autocomplete="current-password" placeholder="老師密碼" aria-label="老師密碼">
+    <input id="key" type="password" autocomplete="current-password" placeholder="密碼（沒設可留空）" aria-label="老師密碼">
     <button type="submit">載入／重新整理</button>
     <a href="./">學生頁面</a>
   </form>
@@ -235,7 +235,7 @@ const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxVmbIvH50EIkAU283p-M
         }
         Object.assign(raw, d.blocks);
         state = 'ok'; errMsg = ''; st.textContent = '資料時間 ' + d.at;
-        try { localStorage.setItem('904teacherKey', key); } catch (e) {}
+        if (key) try { localStorage.setItem('904teacherKey', key); } catch (e) {}
       } catch (e) {
         state = 'error'; errMsg = e.message; st.textContent = '⚠ ' + e.message;
       }
@@ -590,8 +590,8 @@ dash.draw('wordRows', (tb) => {
 (() => {
   const k = document.getElementById('key');
   try { k.value = localStorage.getItem('904teacherKey') || ''; } catch (e) {}
-  document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); if (k.value) dash._load(k.value); };
-  if (k.value) dash._load(k.value); else dash.setParams({});
+  document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); dash._load(k.value); };
+  dash._load(k.value);
 })();
 </script>
 </body>
