@@ -262,3 +262,140 @@ Farmer Lin has fifty sheep on his farm. Every evening, he counts them. One eveni
 + woods = 樹林
 + carry = 抱、搬
 = 林農夫的牧場上有五十隻羊，他每天傍晚都會數一數。有一天傍晚，竟然只有四十九隻，他少了一隻羊！天色愈來愈暗，但他不想等到天亮，因為他在乎每一隻羊。他的狗 Max 衝進了樹林。幾分鐘後，Max 帶著那隻小羊回來了。小羊走路一拐一拐的，原來牠的腳被石頭弄傷了。林農夫把牠抱回家，讓牠那天晚上待在屋子裡。隔天早上，小羊好多了，而 Max 的早餐多了一根骨頭。
+
+## 網路上賣舊球鞋
+Kai's feet grew so fast that his old basketball shoes did not fit anymore. They were still in good condition, so he decided to [[sell|stay|care|hurt]] them online. He took a [[few|lot|chance|park]] photos and wrote, "Size 26, used for six months, 800 dollars." Soon, a [[lot|few|chance|example]] of people sent him messages. One buyer asked him to mail the shoes first and said he would pay later. Kai's mom said, "Be careful. Some people want to cheat you. You might [[lose|park|stay|care]] your shoes and get no money." So Kai met a different buyer at the train station instead. The buyer paid him in cash, and Kai [[saved|stayed|hurt|cared]] the money for a new pair of shoes.
+> 1 sell + 物 + online「在網路上賣」：他決定把舊鞋放到網路上賣。stay、care、hurt 都不能接 them online 表示賣東西。
+> 2 a few photos「幾張照片」。a lot 後面要加 of；a chance photos、a park photos 都不通。
+> 3 a lot of people「很多人」。a few 後面不加 of；a chance of、an example of people 都不通。
+> 4 lose + 物「失去、損失」：你可能會損失鞋子，又拿不到錢。park、stay、care your shoes 都不通。
+> 5 save money for …「為了…存錢」。stayed、hurt、cared 接 the money 都不通。
++ condition = 狀況
++ online = 在網路上
++ buyer = 買家
++ mail = 郵寄
++ cheat = 欺騙
+= Kai 的腳長得好快，舊籃球鞋已經穿不下了。鞋子的狀況還很好，所以他決定放到網路上賣。他拍了幾張照片，寫上：「26 號，穿過六個月，800 元。」很快就有很多人傳訊息給他。有一個買家要他先把鞋子寄出去，說之後再付錢。Kai 的媽媽說：「小心，有些人想騙你。你可能會損失鞋子，又拿不到錢。」所以 Kai 改成和另一位買家約在火車站見面。對方用現金付款，Kai 把這筆錢存起來，要買一雙新鞋。
+
+## 會照顧植物的機器人
+Rosa built a small robot for the science fair. Its job was to take [[care|chance|example|lot]] of plants. Every morning, it checked the soil and gave the plants water. When the sun was too strong, it moved them into the shade. "My mom [[loses|sells|parks|stays]] interest in plants after a week," Rosa told the judges. "But a robot never gets tired." The judges liked her idea. But during the show, the robot made a mistake. It gave one plant too much water, and the water went everywhere. A [[few|lot|chance|park]] judges laughed. Rosa was embarrassed, but she did not give up. "Every mistake is a [[chance|example|park|care]] to learn," she said. She fixed the program that night, and the next day, the robot worked perfectly. Rosa won the "Best Idea" prize. Now the robot [[stays|sells|hurts|loses]] in her living room and waters the plants every day.
+> 1 take care of「照顧」：機器人的工作是照顧植物。take chance of、take example of、take lot of 都不對。
+> 2 lose interest in …「對…失去興趣」：媽媽一週後就對植物沒興趣了。sells、parks、stays interest 都不通。
+> 3 a few judges「幾位評審」。a lot 後面要加 of；a chance judges、a park judges 都不通。
+> 4 a chance to learn「學習的機會」。example 前要用 an；a park、a care to learn 都不通。
+> 5 stay in + 地方「待在…」：現在機器人待在她家客廳。sells、hurts、loses in her living room 都不通。
++ science fair = 科展
++ soil = 土壤
++ shade = 陰涼處
++ judge = 評審
++ embarrassed = 尷尬的
+= Rosa 為科展做了一個小機器人，它的工作是照顧植物。每天早上，它會檢查土壤、幫植物澆水；太陽太大時，它會把植物搬到陰涼處。「我媽媽照顧植物一個星期就沒興趣了，」Rosa 對評審說，「但機器人永遠不會累。」評審很喜歡她的點子。但展示的時候，機器人出錯了，它給一盆植物澆了太多水，水噴得到處都是。有幾位評審笑了出來。Rosa 很尷尬，但她沒有放棄。「每個錯誤都是學習的機會。」她說。那天晚上她修好了程式，隔天機器人運作得完美無缺。Rosa 得到了「最佳創意獎」。現在這個機器人待在她家客廳，每天幫植物澆水。
+
+## 海綿寶寶請假一天
+SpongeBob loves his job at the Krusty Krab. He has never [[stayed|lost|sold|hurt]] home from work. But one morning, he woke up with a bad cold. "I cannot go to work today," he told Patrick. "Can you help Mr. Krabs?" Patrick said yes, but he did not know how to make Krabby Patties. He put a [[lot|few|chance|example]] of salt in them and forgot the bread. Customers were angry, and some of them left without paying. Mr. Krabs was worried. "We will [[lose|park|stay|care]] all our customers!" he shouted. Squidward did not [[care|stay|park|hurt]] about the problem. He just read his magazine. The next day, SpongeBob came back, and everything was fine again. Mr. Krabs finally understood how important SpongeBob was, so he gave him a [[few|lot|care|park]] extra dollars that week.
+> 1 stay home from work「請假在家、不去上班」：他從來沒請假過。lost、sold、hurt home 都不通。
+> 2 a lot of salt「很多鹽」。a few 後面不加 of，也不能接不可數的 salt；a chance of、an example of salt 都不通。
+> 3 lose customers「失去客人」。park、stay、care 接 all our customers 都不通。
+> 4 not care about …「不在乎…」：章魚哥一點都不在乎這個問題。stay about、park about、hurt about 都不通。
+> 5 a few extra dollars「多幾塊錢」。a lot 後面要加 of；a care dollars、a park dollars 都不通。
++ SpongeBob = 海綿寶寶
++ Krusty Krab = 蟹堡王（餐廳）
++ Mr. Krabs = 蟹老闆
++ Krabby Patty = 美味蟹堡
++ Squidward = 章魚哥
+= 海綿寶寶很愛他在蟹堡王的工作，他從來沒有請假過。但有一天早上，他醒來時得了重感冒。「我今天不能去上班，」他對派大星說，「你可以去幫蟹老闆嗎？」派大星答應了，但他不會做美味蟹堡。他放了一大堆鹽，還忘了放麵包。客人很生氣，有些人沒付錢就走了。蟹老闆很擔心，大叫：「我們會失去所有的客人！」章魚哥一點都不在乎這個問題，只顧著看他的雜誌。隔天，海綿寶寶回來了，一切又恢復正常。蟹老闆終於明白海綿寶寶有多重要，所以那個星期多給了他幾塊錢。
+
+## 爸爸的車在哪裡
+Last Sunday, we went shopping at a big mall. Dad found an empty space in the huge parking lot and [[parked|cared|stayed|decided]] the car. "Don't worry. I never forget things," he said. We shopped for three hours and bought a [[lot|few|chance|example]] of things. When we came back, every floor of the parking lot looked the same. We could not find our car! We walked around for thirty minutes, and my feet started to [[hurt|sell|park|lose]]. Mom was angry. "You said you never forget things!" Then my sister had an idea. She took Dad's car key and pressed the button. Beep! Beep! A [[few|lot|chance|care]] rows away, our car's lights came on. Everyone laughed. Now Dad always takes a photo of the parking space. He does not want to [[lose|sell|stay|care]] our car again.
+> 1 park the car「停車」。cared、stayed、decided 都不能接 the car。
+> 2 a lot of things「很多東西」。a few 後面不加 of；a chance of、an example of things 都不通。
+> 3 start to hurt「開始痛」，hurt 當不及物動詞「疼痛」。sell、park、lose 後面需要受詞，放在這裡不通。
+> 4 a few rows away「隔幾排」。a lot 後面要加 of；a chance rows、a care rows 都不通。
+> 5 lose one's car「找不到車」：他不想再把車搞丟。sell、stay、care our car 都不通。
++ mall = 購物中心
++ parking lot = 停車場
++ button = 按鈕
++ row = 排
+= 上星期天，我們去一家大型購物中心逛街。爸爸在超大的停車場裡找到一個空位，把車停好。「別擔心，我從來不會忘東忘西。」他說。我們逛了三個小時，買了好多東西。回來的時候，停車場每一層看起來都一模一樣，我們找不到車子了！我們繞了三十分鐘，我的腳開始痛了。媽媽很生氣：「你不是說你從來不會忘東西嗎！」這時妹妹想到一個辦法，她拿爸爸的車鑰匙按下按鈕。嗶！嗶！隔了幾排的地方，我們的車燈亮了。大家都笑了。現在爸爸都會把停車位拍下來，他可不想再把車搞丟了。
+
+## 第一條黑帶
+Min has learned taekwondo for five years. Last month, she had a [[chance|example|park|care]] to take the black belt test. She was excited but also nervous. During practice, she kicked too hard and [[hurt|sold|stayed|parked]] her toe. Her coach said, "If your toe still hurts, you can wait for the next test." But Min did not want to [[lose|sell|park|stay]] this chance. She rested and put ice on her toe every day. On the day of the test, a [[lot|few|chance|example]] of people came to watch. Min had to break three boards. She took a deep breath and kicked. Crack! All three boards broke. When the coach gave her the black belt, Min almost cried. "Hard work always [[pays|sells|hurts|parks]] off," she said.
+> 1 have a chance to + 原形動詞「有機會做…」。example 前要用 an；a park、a care to take 都不通。
+> 2 hurt one's toe「傷到腳趾」。sold、stayed、parked 接 her toe 都不通。
+> 3 lose a chance「錯過、失去機會」：她不想錯過這次機會。sell、park、stay this chance 都不通。
+> 4 a lot of people「很多人」。a few 後面不加 of；a chance of、an example of people 都不通。
+> 5 pay off「有回報、值得」：努力總會有回報。sells off、hurts off、parks off 都不是這個意思。
++ taekwondo = 跆拳道
++ black belt = 黑帶
++ toe = 腳趾
++ board = 木板
++ pay off = 有回報
+= 阿敏學跆拳道已經五年了。上個月，她有機會參加黑帶考試。她既興奮又緊張。練習的時候，她踢得太用力，傷到了腳趾。教練說：「如果你的腳趾還會痛，可以等下一次考試。」但阿敏不想錯過這次機會。她每天休息、冰敷腳趾。考試當天，很多人來觀看。阿敏要踢斷三塊木板。她深吸一口氣，一腳踢出去。喀啦！三塊木板全斷了。教練把黑帶交給她時，阿敏差點哭出來。「努力總是會有回報的。」她說。
+
+## 不吃人的小龍
+In a small village, people were afraid of the dragon on the mountain. They thought it ate people. One day, a girl named Nina went up the mountain to look for her goat. There, she saw the dragon. It was small, and it was crying. A big rock was on its tail. "Did the rock [[hurt|sell|stay|park]] you?" she asked. The dragon nodded. Nina pushed the rock away. The dragon was so thankful that it helped her find her goat. "Why do people think you eat them?" Nina asked. "I only eat a [[few|lot|chance|care]] apples a day," the dragon said. Nina took the dragon to the village. At first, people ran away. But Nina said, "Give it a [[chance|example|park|care]]!" Soon, the villagers saw that the dragon was kind. Now it [[stays|sells|hurts|loses]] near the village and keeps the wolves away. The children love it a [[lot|few|chance|park]].
+> 1 hurt + 人／動物「弄傷」：石頭弄傷你了嗎？sell、stay、park you 都不通。
+> 2 a few apples「幾顆蘋果」。a lot 後面要加 of；a chance apples、a care apples 都不通。
+> 3 give + 人 + a chance「給…一個機會」。example 前要用 an；give it a park、a care 都不通。
+> 4 stay near …「待在…附近」：小龍現在住在村子附近。sells、hurts、loses near the village 都不通。
+> 5 love … a lot「非常喜愛」。a few、a chance、a park 不能放在動詞後面表示程度。
++ village = 村莊
++ dragon = 龍
++ goat = 山羊
++ tail = 尾巴
++ wolf = 狼（複數 wolves）
+= 在一個小村莊裡，人們都很怕山上的龍，以為牠會吃人。有一天，一個叫 Nina 的女孩上山找她的山羊，在那裡看到了那條龍。牠很小，正在哭，一塊大石頭壓在牠的尾巴上。「石頭弄傷你了嗎？」她問。小龍點點頭。Nina 把石頭推開，小龍非常感激，幫她找到了山羊。「大家為什麼會覺得你吃人？」Nina 問。「我一天只吃幾顆蘋果。」小龍說。Nina 把小龍帶到村子裡，一開始大家都嚇跑了。但 Nina 說：「給牠一個機會吧！」很快地，村民發現小龍很善良。現在牠住在村子附近，幫大家趕走狼群。孩子們都非常喜歡牠。
+
+## 班上的烏龜
+Our class has a pet turtle named Speedy. Every week, two students take [[care|chance|example|lot]] of him. Last Friday, it was my turn. I gave Speedy some food and cleaned his tank. But on Monday morning, the tank was empty! Did we [[lose|park|stay|care]] him? We had to find him before he [[hurt|sold|stayed|parked]] himself. Everyone looked under the desks and behind the bookshelves. After a [[few|lot|chance|park]] minutes, Amy found him in our teacher's shoe! Everyone laughed, even our teacher. "Speedy is not so slow after all," she said. Now we always [[keep|stay|hurt|care]] the lid on the tank.
+> 1 take care of「照顧」：每週有兩個學生負責照顧牠。take chance of、take example of、take lot of 都不對。
+> 2 lose + 動物「弄丟、走失」：我們把牠弄丟了嗎？park、stay、care him 都不通。
+> 3 hurt oneself「受傷」：要在牠受傷之前找到牠。sold、stayed、parked himself 都不通。
+> 4 after a few minutes「幾分鐘後」。a lot 後面要加 of；a chance minutes、a park minutes 都不通。
+> 5 keep the lid on「讓蓋子一直蓋著」，keep 表示保持某種狀態。stay、hurt、care the lid 都不通。
++ turtle = 烏龜
++ tank = 水族箱
++ bookshelf = 書架
++ lid = 蓋子
+= 我們班養了一隻叫「飛快」的寵物烏龜，每週都有兩個學生負責照顧牠。上星期五輪到我，我餵了牠，也把水族箱清乾淨。但到了星期一早上，水族箱竟然是空的！我們把牠弄丟了嗎？我們得在牠受傷之前找到牠。大家找遍了桌子底下和書架後面。幾分鐘後，Amy 在老師的鞋子裡找到了牠！大家都笑了，連老師也笑了。「看來飛快一點也不慢嘛。」她說。現在我們都會把水族箱的蓋子蓋好。
+
+## 媽祖遶境的人潮
+Every spring, my town holds a big festival for Mazu. Thousands of people come from all over Taiwan. The streets are so full that there is no place to [[park|care|hurt|become]]. This year, my mom and I went to see it. We walked for two hours with a [[lot|few|chance|example]] of other people. Along the road, people gave us free water and snacks. I held my mom's hand tightly because I did not want to [[lose|sell|park|stay]] her in the crowd. Some old people walk for nine days. "Don't your legs [[hurt|sell|stay|park]]?" I asked an old woman. She smiled and said, "A little. But I do this to thank Mazu." I took a [[few|lot|chance|care]] pictures of her and the beautiful sedan chair. It was a day I will never forget.
+> 1 no place to park「沒地方停車」。care、hurt、become 放在 no place to 後面都不通。
+> 2 a lot of other people「很多其他的人」。a few 後面不加 of；a chance of、an example of people 都不通。
+> 3 lose + 人 + in the crowd「在人群中走散」。sell、park、stay her 都不通。
+> 4 Don't your legs hurt?「你的腳不會痛嗎？」hurt 當「疼痛」。sell、stay、park 和 your legs 搭配都不通。
+> 5 a few pictures「幾張照片」。a lot 後面要加 of；a chance pictures、a care pictures 都不通。
++ festival = 節慶
++ Mazu = 媽祖
++ crowd = 人群
++ sedan chair = 神轎
++ tightly = 緊緊地
+= 每年春天，我們鎮上都會舉辦盛大的媽祖慶典，成千上萬的人從台灣各地來參加。街上擠滿了人，根本沒地方停車。今年我和媽媽一起去看，跟著好多人走了兩個小時。沿路上，有人免費送水和點心給我們。我緊緊牽著媽媽的手，因為我不想在人群中和她走散。有些老人家會連走九天。「你的腳不會痛嗎？」我問一位老奶奶。她笑著說：「有一點。但我這樣做是為了感謝媽祖。」我幫她和漂亮的神轎拍了幾張照片。那是我永遠不會忘記的一天。
+
+## 外送員舅舅
+My uncle is a food delivery worker. He rides his scooter all day and brings food to people's homes. Last week, he told me about his hardest day. "It was raining hard," he said. "I could not find a place to [[park|care|become|stay]] my scooter, so I had to walk in the rain. The customer lived on the tenth floor, and there was no elevator. My legs [[hurt|sold|parked|cared]] so much! When I got there, the customer was angry because the food was late. He did not [[care|sell|park|lose]] about the rain. But the next customer was an old lady. She gave me a hot drink and a [[few|lot|chance|park]] cookies. She told me to [[stay|sell|lose|hurt]] inside until the rain stopped. Kind people like her make my job worth it." Now I always say thank you to delivery workers.
+> 1 park one's scooter「停機車」。care、become、stay 都不能接 my scooter。
+> 2 my legs hurt「我的腳很痛」，hurt 過去式不變。sold、parked、cared so much 都不通。
+> 3 not care about …「不在乎…」：客人根本不管下雨。sell about、park about、lose about 都不通。
+> 4 a few cookies「幾塊餅乾」。a lot 後面要加 of；a chance cookies、a park cookies 都不通。
+> 5 tell + 人 + to stay inside「叫某人待在室內」。sell、lose、hurt inside 都不通。
++ delivery = 外送
++ scooter = 機車
++ customer = 客人
++ elevator = 電梯
++ worth it = 值得
+= 我舅舅是美食外送員，他每天騎著機車把食物送到別人家。上星期，他跟我說了他最辛苦的一天。「那天雨下得很大，」他說，「我找不到地方停機車，只好淋雨走路。客人住在十樓，又沒有電梯，我的腳痛死了！到了之後，客人因為餐點遲到而生氣，他根本不在乎下雨。但下一位客人是一位老太太，她給了我一杯熱飲和幾塊餅乾，還叫我待在屋裡等雨停。就是因為有像她這樣親切的人，我的工作才值得。」現在我都會對外送員說謝謝。
+
+## 神燈的三個願望
+Tim found an old lamp in his grandpa's house. When he cleaned it, a genie came out! "I can give you three wishes," the genie said. "But be careful. You will only have one [[chance|example|park|care]] for each wish." First, Tim wished for a [[lot|few|chance|park]] of money. Money fell from the sky. Then he wished to [[stay|sell|lose|care]] young forever. But his third wish surprised the genie. Tim's dog, Bobo, was old and sick. "Please make Bobo healthy again," he said. "Money and being young are nice, but I do not want to [[lose|sell|park|stay]] my best friend." Bobo jumped up and ran around the room. The genie smiled. "Most people only think about themselves. But you [[cared|sold|stayed|parked]] about your friend. That was your best wish."
+> 1 one chance for each wish「每個願望只有一次機會」。example 前要用 an；one park、one care 都不通。
+> 2 a lot of money「很多錢」。a few 後面不加 of，也不能接不可數的 money；a chance of、a park of money 都不通。
+> 3 stay young「保持年輕」，stay 後面可接形容詞表示「保持某種狀態」。sell、lose、care young 都不通。
+> 4 lose + 人「失去某人」：我不想失去最好的朋友。sell、park、stay my best friend 都不通。
+> 5 care about …「關心、在乎」，過去式 cared。sold、stayed、parked about 都不通。
++ lamp = 燈
++ genie = 神燈精靈
++ wish = 願望
++ forever = 永遠
+= Tim 在爺爺家發現了一盞舊燈。他擦燈的時候，一個精靈跑了出來！「我可以給你三個願望，」精靈說，「但要小心，每個願望只有一次機會。」首先，Tim 許願要很多錢，錢就從天上掉下來了。接著，他許願要永遠保持年輕。但他的第三個願望讓精靈很驚訝。Tim 的狗 Bobo 又老又病。「請讓 Bobo 恢復健康，」他說，「錢和年輕都很好，但我不想失去我最好的朋友。」Bobo 跳了起來，在房間裡跑來跑去。精靈笑了：「大部分的人只想到自己，但你關心你的朋友。這是你許過最好的願望。」
