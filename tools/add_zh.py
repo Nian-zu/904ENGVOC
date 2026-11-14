@@ -95,7 +95,11 @@ if os.path.exists(vf):
         if '\t' in line:
             o_, n_ = line.rstrip('\n').split('\t')
             vfix[o_.strip()] = n_.strip()
+SPELL = {'moping': 'mopping', 'wining': 'winning'}
 fixed = 0
+for q in bank['bank']:
+    if q['k'] == 'verb':
+        q['o'] = [SPELL.get(o, o) for o in q['o']]
 for q in bank['bank']:
     if q['k'] == 'verb' and full(q) in vfix:
         q['_o'] = full(q)
