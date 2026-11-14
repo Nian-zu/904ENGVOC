@@ -78,6 +78,10 @@ input[type=text]{flex:1;min-width:200px}
 .opt.ok{border-color:var(--ok);background:var(--ok-bg)}
 .opt.bad{border-color:var(--bad);background:var(--bad-bg)}
 .opt:disabled{cursor:default}
+.opt .ow{display:flex;flex-direction:column;gap:2px}
+.opt .oz{font-family:var(--font-body);font-size:.85rem;color:var(--muted);line-height:1.35}
+.feedback .zh{font-size:1rem}
+.wrong .z{font-size:.9rem;margin-top:2px}
 .feedback{margin-top:14px;padding:12px 14px;border-radius:10px;display:grid;gap:4px}
 .feedback.ok{background:var(--ok-bg);color:var(--ink);border-left:5px solid var(--ok)}
 .feedback.bad{background:var(--bad-bg);color:var(--ink);border-left:5px solid var(--bad)}
@@ -235,7 +239,7 @@ input[type=text]{flex:1;min-width:200px}
 </section>
 </div></main>
 <script>
-let DATA = null;
+let DATA = null, GL = {};
 let N = 183;
 const lab = i => DATA.labels[i];
 const dnum = i => parseInt(DATA.labels[i].slice(1), 10);
@@ -328,6 +332,7 @@ function setMode(m){
   $('rangeBox').classList.toggle('hidden', m!=='range'); $('pickBox').classList.toggle('hidden', m!=='pick');
   update();
 }
+function gloss(q, i){ const o = q.o[i]; return (q.k === 'verb' ? GL['v|' + q.w + '|' + o] : GL[o]) || ''; }
 function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
 function start(items){
@@ -348,7 +353,7 @@ function show(){
   s.order[s.i].forEach((oi, k) => {
     const b = document.createElement('button');
     b.className = 'opt'; b.dataset.oi = oi;
-    b.innerHTML = `<span class="key">${'ABCD'[k]}</span><span>${esc(q.o[oi])}</span>`;
+    b.innerHTML = `<span class="key">${'ABCD'[k]}</span><span class="ow"><span>${esc(q.o[oi])}</span></span>`;
     b.onclick = () => answer(oi);
     box.appendChild(b);
   });
@@ -362,12 +367,15 @@ function answer(oi){
   $('qOpts').querySelectorAll('.opt').forEach(b => {
     const v = +b.dataset.oi; b.disabled = true;
     if (v === q.c) b.classList.add('ok'); else if (v === oi) b.classList.add('bad');
+    const g = gloss(q, v);
+    if (g) b.querySelector('.ow').insertAdjacentHTML('beforeend', `<span class="oz">${esc(g)}</span>`);
   });
   $('qText').querySelector('.blank').textContent = q.o[q.c];
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
   fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` +
-    (q.z ? `<span>${esc(q.z)}</span>` : '') + `<span class="hint">單字：${esc(q.w)}</span>`;
+    (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') +
+    `<span class="hint">單字：${esc(q.w)}${q.k === 'verb' && GL['v|' + q.w] ? ' ' + esc(GL['v|' + q.w]) : ''}</span>`;
   $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
   const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
 }
@@ -387,7 +395,8 @@ function finish(){
     const q = DATA.bank[w.qi];
     const li = document.createElement('li');
     li.innerHTML = `<div class="s">${esc(q.a)}<b>${esc(q.o[q.c])}</b>${esc(q.b)}</div>` +
-      `<div class="a">${lab(q.d)}・你選 <s>${esc(q.o[w.pick])}</s>，正確是 <b>${esc(q.o[q.c])}</b>${q.z ? '・' + esc(q.z) : ''}</div>`;
+      (q.z ? `<div class="z">${esc(q.z)}</div>` : '') +
+      `<div class="a">${lab(q.d)}・你選 <s>${esc(q.o[w.pick])}</s>${gloss(q, w.pick) ? '（' + esc(gloss(q, w.pick)) + '）' : ''}，正確是 <b>${esc(q.o[q.c])}</b>${gloss(q, q.c) ? '（' + esc(gloss(q, q.c)) + '）' : ''}</div>`;
     ul.appendChild(li);
   });
   session.last = s.items;
@@ -512,7 +521,7 @@ document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
 loadBoard();
 
 fetch('bank.json').then(r => r.json()).then(d => {
-  DATA = d;
+  DATA = d; GL = d.gl || {};
   window.byDay = DATA.days;
   N = DATA.labels.length;
   const t = todayIdx();

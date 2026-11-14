@@ -1,0 +1,316 @@
+get|gets|got|Tom usually {V} up at six.|Tom {V} up late yesterday.
+change|changes|changed|Amy often {V} her mind.|Amy {V} her mind last night.
+learn|learns|learned|My sister {V} French at school.|I {V} to swim last summer.
+find|finds|found|He always {V} good ideas.|I {V} my key under the bed.
+give|gives|gave|Mom {V} me money every week.|He {V} me a gift yesterday.
+start|starts|started|The class {V} at eight.|It {V} to rain an hour ago.
+keep|keeps|kept|She {V} a diary every day.|He {V} the secret for years.
+mean|means|meant|This word {V} "happy."|I {V} to call you yesterday.
+need|needs|needed|My dog {V} a bath now.|We {V} more time last week.
+show|shows|showed|The map {V} the way to the park.|He {V} me his photos yesterday.
+become|becomes|became|It {V} cold in winter.|She {V} a teacher in 2020.
+last|lasts|lasted|The movie {V} two hours.|The rain {V} for three days.
+decide|decides|decided|He always {V} things quickly.|We {V} to go home early.
+try|tries|tried|She {V} her best every day.|I {V} sushi for the first time.
+move|moves|moved|The earth {V} around the sun.|They {V} to Taipei last year.
+save|saves|saved|Dad {V} money every month.|The doctor {V} his life.
+plan|plans|planned|She {V} her day every morning.|We {V} a trip last month.
+pay|pays|paid|He always {V} in cash.|I {V} 100 dollars for the book.
+feel|feels|felt|The baby {V} sleepy now.|I {V} tired yesterday.
+report|reports|reported|She {V} the news on TV.|They {V} the accident yesterday.
+enjoy|enjoys|enjoyed|My grandpa {V} reading.|We {V} the party last night.
+use|uses|used|He {V} a computer every day.|I {V} his pen this morning.
+call|calls|called|Mom {V} me every night.|He {V} me two hours ago.
+leave|leaves|left|The bus {V} at seven.|She {V} home early yesterday.
+lose|loses|lost|He often {V} his keys.|Our team {V} the game last week.
+stay|stays|stayed|She {V} at home on Sundays.|We {V} in Tainan for two days.
+sell|sells|sold|The shop {V} fresh bread.|He {V} his old bike last week.
+park|parks|parked|Dad {V} the car here every day.|She {V} her scooter near the park.
+care|cares|cared|He {V} about his family.|She {V} for the sick dog.
+hurt|hurts|hurt|My leg {V} now.|He {V} his arm last week.
+surprise|surprises|surprised|He always {V} us.|The news {V} everyone yesterday.
+cook|cooks|cooked|Dad {V} dinner every day.|Mom {V} beef noodles last night.
+worry|worries|worried|Mom {V} about me a lot.|I {V} about the test last night.
+fight|fights|fought|He often {V} with his brother.|The two dogs {V} yesterday.
+share|shares|shared|She {V} her snacks with us.|I {V} my cake with Amy.
+hit|hits|hit|He {V} the ball very hard.|A car {V} the tree last night.
+hope|hopes|hoped|She {V} to be a singer.|We {V} to win the game.
+choose|chooses|chose|He always {V} the red one.|I {V} the blue shirt yesterday.
+hear|hears|heard|My dog {V} everything.|I {V} a strange sound last night.
+invite|invites|invited|She {V} us to her party every year.|He {V} me to dinner yesterday.
+spend|spends|spent|He {V} two hours on homework every day.|I {V} all my money last week.
+happen|happens|happened|It often {V} in summer.|What {V} last night?
+own|owns|owned|His father {V} a big company.|My grandpa {V} a farm before.
+believe|believes|believed|She {V} in God.|Nobody {V} his story.
+rise|rises|rose|The sun {V} in the east.|Prices {V} last year.
+collect|collects|collected|My brother {V} stamps.|We {V} old bottles yesterday.
+catch|catches|caught|The cat {V} mice.|He {V} a cold last week.
+turn|turns|turned|She always {V} off the light.|He {V} left at the corner.
+join|joins|joined|She {V} us for lunch every Friday.|I {V} the music club last year.
+order|orders|ordered|He always {V} beef noodles.|We {V} a pizza last night.
+remember|remembers|remembered|My mom {V} everyone's birthday.|I {V} his name at last.
+agree|agrees|agreed|He always {V} with me.|They {V} to help us.
+celebrate|celebrates|celebrated|Our school {V} its birthday every year.|We {V} Christmas at home.
+build|builds|built|He {V} houses for a living.|They {V} a new bridge last year.
+notice|notices|noticed|She {V} everything around her.|I {V} a sign on the door.
+answer|answers|answered|He always {V} the phone quickly.|She {V} all the questions.
+understand|understands|understood|He {V} English well.|I {V} the lesson yesterday.
+prepare|prepares|prepared|Mom {V} breakfast every morning.|We {V} for the test last night.
+grow|grows|grew|My grandpa {V} vegetables.|He {V} up in Kaohsiung.
+follow|follows|followed|The dog always {V} me.|We {V} the map yesterday.
+wait|waits|waited|She {V} for the bus here every day.|I {V} for him for an hour.
+travel|travels|traveled|He {V} a lot for work.|We {V} to Japan last summer.
+fix|fixes|fixed|Dad {V} everything at home.|He {V} my bike yesterday.
+miss|misses|missed|She {V} her family a lot.|I {V} the bus this morning.
+marry|marries|married|—|She {V} a doctor last year.
+drop|drops|dropped|The baby often {V} his toys.|I {V} my phone yesterday.
+wear|wears|wore|He {V} glasses.|She {V} a red dress last night.
+forget|forgets|forgot|He often {V} my name.|I {V} to bring my book.
+paint|paints|painted|She {V} pictures in her free time.|We {V} the wall white.
+welcome|welcomes|welcomed|Our teacher {V} new students every year.|They {V} us warmly.
+cry|cries|cried|The baby {V} at night.|She {V} after the movie.
+dream|dreams|dreamed|He {V} of being a pilot.|I {V} about you last night.
+bake|bakes|baked|Grandma {V} cookies on weekends.|We {V} a cake yesterday.
+pick|picks|picked|He {V} up trash in the park.|She {V} the red one.
+hide|hides|hid|The cat {V} under the bed.|He {V} the money in a box.
+end|ends|ended|The class {V} at four.|The party {V} at ten.
+send|sends|sent|She {V} me emails every day.|I {V} him a card yesterday.
+throw|throws|threw|He {V} the ball very far.|She {V} away the old shoes.
+begin|begins|began|The show {V} at seven.|It {V} to snow last night.
+point|points|pointed|The teacher {V} at the map.|He {V} at the bird.
+pass|passes|passed|He always {V} his exams.|She {V} me the salt.
+cover|covers|covered|Snow {V} the mountain in winter.|She {V} her face with her hands.
+break|breaks|broke|He often {V} things.|I {V} the window yesterday.
+appear|appears|appeared|The singer often {V} on TV.|A cat {V} at the door.
+deal|deals|dealt|She {V} with problems well.|He {V} with it quickly.
+cost|costs|cost|This book {V} 300 dollars.|The trip {V} a lot of money last year.
+enter|enters|entered|He {V} the room quietly.|She {V} the contest last year.
+dry|dries|dried|She {V} her hair every night.|He {V} the dishes.
+finish|finishes|finished|He {V} his homework before dinner.|I {V} the book last night.
+drive|drives|drove|Dad {V} to work.|She {V} me home yesterday.
+check|checks|checked|She {V} her email every morning.|I {V} my answers twice.
+teach|teaches|taught|Mr. Lin {V} math.|She {V} me how to swim.
+waste|wastes|wasted|He {V} too much time on games.|I {V} my money on it.
+bite|bites|bit|My dog never {V} people.|A mosquito {V} me last night.
+burn|burns|burned|Wood {V} easily.|I {V} my hand yesterday.
+borrow|borrows|borrowed|He often {V} books from the library.|I {V} a pen from Amy.
+excuse|excuses|excused|The teacher never {V} late students.|She {V} him for being late.
+shout|shouts|shouted|He always {V} at his dog.|She {V} for help.
+arrive|arrives|arrived|The train {V} at ten.|We {V} at the airport at noon.
+smell|smells|smelled|The soup {V} good.|I {V} smoke last night.
+guess|guesses|guessed|She always {V} the answer right.|I {V} his age.
+hold|holds|held|Our school {V} a party every year.|She {V} the baby in her arms.
+host|hosts|hosted|He {V} a TV show.|Japan {V} the Olympics in 2021.
+sound|sounds|sounded|Your idea {V} great.|His voice {V} strange.
+brush|brushes|brushed|He {V} his teeth twice a day.|She {V} her hair.
+wish|wishes|wished|He {V} to see the sea.|We {V} her a happy birthday.
+kick|kicks|kicked|He {V} the ball hard.|She {V} the door.
+pull|pulls|pulled|The horse {V} the cart.|He {V} my hair.
+interview|interviews|interviewed|The reporter {V} famous people.|They {V} the singer yesterday.
+hate|hates|hated|He {V} waiting.|I {V} math before.
+pack|packs|packed|She {V} her bag every night.|We {V} our suitcases yesterday.
+rest|rests|rested|Grandpa {V} after lunch.|We {V} for a while.
+push|pushes|pushed|He {V} the door open.|She {V} the button.
+practice|practices|practiced|She {V} the piano every day.|We {V} English last night.
+cross|crosses|crossed|He {V} the street carefully.|They {V} the river by boat.
+draw|draws|drew|She {V} very well.|He {V} a cat on the paper.
+blow|blows|blew|The wind {V} hard in winter.|She {V} out the candles.
+attack|attacks|attacked|The dog {V} strangers.|The tiger {V} the man.
+hurry|hurries|hurried|He always {V} to school.|She {V} home after class.
+taste|tastes|tasted|This cake {V} sweet.|The soup {V} salty.
+hunt|hunts|hunted|The lion {V} at night.|They {V} for food in the forest.
+land|lands|landed|The plane {V} at nine.|The bird {V} on the roof.
+treat|treats|treated|He {V} me like a child.|She {V} us to dinner.
+feed|feeds|fed|She {V} the cat every morning.|I {V} the fish yesterday.
+fail|fails|failed|He never {V} a test.|She {V} the math test.
+mix|mixes|mixed|He {V} milk with coffee.|She {V} the eggs and sugar.
+allow|allows|allowed|Mom never {V} me to stay up late.|The teacher {V} us to go home.
+explain|explains|explained|Our teacher {V} things clearly.|He {V} the rule to us.
+die|dies|died|—|His dog {V} last year.
+lead|leads|led|She {V} the team.|He {V} us to the park.
+count|counts|counted|The baby {V} from one to ten.|I {V} the money twice.
+pray|prays|prayed|Grandma {V} every morning.|We {V} for peace.
+carry|carries|carried|He {V} a big bag to school.|She {V} the box upstairs.
+cheer|cheers|cheered|He always {V} for our team.|We {V} for the players.
+lend|lends|lent|He often {V} me his books.|She {V} me 100 dollars.
+seem|seems|seemed|He {V} happy today.|She {V} tired last night.
+smoke|smokes|smoked|My uncle {V} a lot.|He {V} when he was young.
+plant|plants|planted|Grandpa {V} trees every spring.|We {V} flowers in the yard.
+fill|fills|filled|She {V} the glass with water.|He {V} the bottle with juice.
+influence|influences|influenced|TV {V} children a lot.|His words {V} my decision.
+copy|copies|copied|He often {V} my homework.|She {V} the notes from the board.
+sign|signs|signed|He {V} his name here.|She {V} the card.
+list|lists|listed|She {V} everything she needs.|He {V} the names on the board.
+offer|offers|offered|The shop {V} free coffee.|He {V} to help me.
+wake|wakes|woke|He {V} up at six.|I {V} up late this morning.
+suggest|suggests|suggested|He often {V} new ideas.|She {V} taking a taxi.
+raise|raises|raised|She always {V} her hand in class.|They {V} money for the poor.
+test|tests|tested|The teacher {V} us every week.|The doctor {V} my eyes.
+spell|spells|spelled|He {V} words well.|She {V} my name wrong.
+expect|expects|expected|He {V} to win.|We {V} more people to come.
+reach|reaches|reached|The bus {V} the station at ten.|We {V} the top at noon.
+touch|touches|touched|The baby {V} everything.|He {V} my arm.
+boil|boils|boiled|Water {V} at 100°C.|She {V} some eggs.
+laugh|laughs|laughed|He always {V} at my jokes.|We {V} a lot last night.
+respect|respects|respected|Everyone {V} him.|They {V} the old man.
+repeat|repeats|repeated|She {V} the words after the teacher.|He {V} the question.
+belong|belongs|belonged|This bag {V} to me.|The house {V} to my grandpa.
+type|types|typed|She {V} very fast.|He {V} the report last night.
+describe|describes|described|The book {V} life in the past.|She {V} the man to the police.
+imagine|imagines|imagined|He often {V} living on the moon.|I {V} a different ending.
+avoid|avoids|avoided|She {V} eating sweets.|He {V} me all day.
+volunteer|volunteers|volunteered|She {V} at the hospital.|He {V} to clean the room.
+decorate|decorates|decorated|Mom {V} the house for Christmas.|We {V} the room with flowers.
+tidy|tidies|tidied|He {V} his room every day.|She {V} up the desk.
+concentrate|concentrates|concentrated|She {V} on her work.|He {V} on the test.
+mind|minds|minded|She never {V} the noise.|Nobody {V} the rain.
+manage|manages|managed|She {V} a small shop.|He {V} to finish the work.
+matter|matters|mattered|Your health {V} most.|It {V} a lot to me.
+look|looks|looked|She {V} happy today.|He {V} at the photo.
+take|takes|took|It {V} ten minutes to walk there.|I {V} a bus to school yesterday.
+stop|stops|stopped|The bus {V} here.|He {V} talking.
+put|puts|put|She always {V} her keys on the table.|He {V} on his coat an hour ago.
+run|runs|ran|He {V} every morning.|We {V} out of milk.
+bring|brings|brought|She {V} lunch to school.|He {V} me some flowers.
+return|returns|returned|He {V} home at six.|I {V} the book to the library.
+protect|protects|protected|The mother bird {V} her babies.|The police {V} the people.
+improve|improves|improved|His English {V} every day.|She {V} her grades.
+solve|solves|solved|He {V} problems quickly.|We {V} the problem together.
+receive|receives|received|She {V} many letters.|I {V} a gift yesterday.
+prefer|prefers|preferred|He {V} tea to coffee.|She {V} the red dress.
+introduce|introduces|introduced|The host {V} the singers.|He {V} me to his parents.
+realize|realizes|realized|He finally {V} his mistake.|I {V} I was wrong.
+encourage|encourages|encouraged|My teacher always {V} me.|She {V} me to try again.
+accept|accepts|accepted|The shop {V} credit cards.|He {V} my invitation.
+explore|explores|explored|He {V} new places on weekends.|We {V} the island.
+cough|coughs|coughed|The boy {V} a lot at night.|She {V} all night.
+exercise|exercises|exercised|Dad {V} every morning.|We {V} in the park yesterday.
+sleep|sleeps|slept|The baby {V} ten hours a day.|I {V} well last night.
+fry|fries|fried|Mom {V} eggs for breakfast.|He {V} some fish.
+dress|dresses|dressed|She {V} her baby.|He {V} quickly this morning.
+afford|affords|afforded|—|We {V} a new house last year.
+clean|cleans|cleaned|He {V} his room every Sunday.|We {V} the classroom yesterday.
+wash|washes|washed|She {V} the dishes after dinner.|I {V} my car last week.
+mop|mops|mopped|He {V} the floor every day.|She {V} the kitchen floor.
+sweep|sweeps|swept|She {V} the floor every morning.|He {V} the yard yesterday.
+recycle|recycles|recycled|Our school {V} paper.|We {V} the bottles.
+hang|hangs|hung|She {V} her coat on the door.|He {V} the picture on the wall.
+iron|irons|ironed|Dad {V} his shirts on Sunday.|She {V} my uniform.
+graduate|graduates|graduated|My brother {V} this year.|She {V} from college in 2020.
+review|reviews|reviewed|She {V} her lessons every night.|We {V} for the test.
+preview|previews|previewed|He {V} the new lesson at home.|I {V} Lesson 5 last night.
+swim|swims|swam|He {V} very fast.|We {V} in the sea last summer.
+jog|jogs|jogged|She {V} in the park every morning.|He {V} for an hour.
+hike|hikes|hiked|He {V} on weekends.|We {V} up the mountain.
+win|wins|won|Our team always {V}.|She {V} first prize.
+camp|camps|camped|He {V} by the lake every summer.|We {V} in the mountains.
+dance|dances|danced|She {V} very well.|We {V} all night.
+sing|sings|sang|He {V} in the shower.|She {V} a song for us.
+ride|rides|rode|He {V} a bike to school.|She {V} a horse last summer.
+mail|mails|mailed|She {V} letters to her friend.|I {V} the card yesterday.
+discuss|discusses|discussed|He {V} everything with his wife.|We {V} the plan last week.
+argue|argues|argued|He often {V} with his sister.|They {V} about money.
+complain|complains|complained|She always {V} about the food.|He {V} about the noise.
+apologize|apologizes|apologized|He never {V}.|She {V} to me.
+thank|thanks|thanked|He always {V} the bus driver.|I {V} her for her help.
+promise|promises|promised|He always {V} to come early.|She {V} to help me.
+reply|replies|replied|She always {V} to my emails.|He {V} quickly.
+whisper|whispers|whispered|She {V} in class.|He {V} something to me.
+smile|smiles|smiled|The baby {V} at me every day.|She {V} at the camera.
+hug|hugs|hugged|Mom {V} me every night.|She {V} her best friend.
+achieve|achieves|achieved|She always {V} her goals.|He {V} his dream last year.
+attend|attends|attended|He {V} church every Sunday.|I {V} the meeting yesterday.
+record|records|recorded|She {V} every song she writes.|We {V} a video last night.
+compare|compares|compared|Mom often {V} me with my sister.|We {V} the two maps.
+correct|corrects|corrected|The teacher {V} our mistakes.|She {V} my answers.
+admire|admires|admired|He {V} his father.|We {V} the view from the top.
+appreciate|appreciates|appreciated|She {V} small things in life.|I {V} your help yesterday.
+blame|blames|blamed|He always {V} others.|She {V} me for the mistake.
+bother|bothers|bothered|The noise {V} me.|He {V} me all night.
+trust|trusts|trusted|She {V} her best friend.|I {V} him before.
+invent|invents|invented|He {V} new toys for kids.|Edison {V} the light bulb.
+discover|discovers|discovered|She often {V} new places.|They {V} a new island.
+create|creates|created|The artist {V} beautiful works.|He {V} a new game.
+design|designs|designed|She {V} clothes.|He {V} our school logo.
+develop|develops|developed|The company {V} new apps.|They {V} a new plan.
+connect|connects|connected|This bridge {V} the two towns.|I {V} my phone to the TV.
+prevent|prevents|prevented|Exercise {V} many diseases.|The rain {V} us from going out.
+harm|harms|harmed|Smoking {V} your health.|The storm {V} many trees.
+survive|survives|survived|The plant {V} without much water.|He {V} the accident.
+recover|recovers|recovered|She {V} quickly from colds.|He {V} from the flu last week.
+breathe|breathes|breathed|The fish {V} through its gills.|I {V} deeply before the test.
+damage|damages|damaged|Too much sun {V} your skin.|The typhoon {V} the house.
+reduce|reduces|reduced|Recycling {V} waste.|They {V} the price last week.
+disappear|disappears|disappeared|The sun {V} at night.|My cat {V} yesterday.
+cause|causes|caused|Smoking {V} cancer.|The rain {V} a flood.
+melt|melts|melted|Ice {V} in the sun.|The snow {V} quickly.
+consider|considers|considered|He {V} everyone's ideas.|We {V} moving to Tainan.
+continue|continues|continued|The road {V} for miles.|They {V} to work after lunch.
+depend|depends|depended|It {V} on the weather.|We {V} on him last year.
+earn|earns|earned|She {V} a lot of money.|He {V} 500 dollars yesterday.
+express|expresses|expressed|He {V} his feelings in songs.|She {V} her thanks.
+ignore|ignores|ignored|He always {V} my advice.|She {V} the warning.
+increase|increases|increased|The price {V} every year.|The number {V} last month.
+mention|mentions|mentioned|He often {V} his hometown.|She {V} your name yesterday.
+provide|provides|provided|The school {V} lunch.|They {V} food for us.
+refuse|refuses|refused|He never {V} to help.|She {V} my offer.
+remind|reminds|reminded|This song {V} me of my childhood.|Mom {V} me to bring an umbrella.
+support|supports|supported|My family {V} my dream.|They {V} our idea.
+deliver|delivers|delivered|He {V} pizza every night.|They {V} the package this morning.
+organize|organizes|organized|She {V} the school party every year.|We {V} a trip last month.
+perform|performs|performed|The band {V} every Friday.|She {V} on stage last night.
+produce|produces|produced|This factory {V} cars.|They {V} a new movie.
+search|searches|searched|He {V} for information online.|We {V} for the lost dog.
+guide|guides|guided|She {V} visitors around the museum.|He {V} us to the hotel.
+control|controls|controlled|He {V} his temper well.|She {V} her feelings.
+exist|exists|existed|—|Dinosaurs {V} millions of years ago.
+quarrel|quarrels|quarreled|He often {V} with his sister.|They {V} about money last night.
+forgive|forgives|forgave|Mom always {V} me.|She {V} him for being late.
+lie|lies|lied|He never {V} to his parents.|She {V} to me yesterday.
+tease|teases|teased|He often {V} his little sister.|They {V} the new student.
+greet|greets|greeted|She {V} everyone with a smile.|He {V} the guests at the door.
+nod|nods|nodded|He {V} when he agrees.|She {V} and smiled.
+cheat|cheats|cheated|He never {V} on tests.|She {V} on the math test.
+punish|punishes|punished|The teacher never {V} us.|Dad {V} me for lying.
+mark|marks|marked|She {V} the important words.|He {V} the answers in red.
+employ|employs|employed|The company {V} 500 workers.|They {V} two new cooks last year.
+hire|hires|hired|The shop {V} students in summer.|We {V} a guide yesterday.
+rent|rents|rented|He {V} a small apartment.|We {V} a car last summer.
+announce|announces|announced|The principal {V} the news every Monday.|They {V} the winner yesterday.
+communicate|communicates|communicated|He {V} with his friends online.|We {V} by email.
+inform|informs|informed|The app {V} us of the weather.|She {V} me of the change.
+advertise|advertises|advertised|The shop {V} on TV.|They {V} the new phone online.
+update|updates|updated|He {V} his blog every week.|I {V} the app yesterday.
+board|boards|boarded|He {V} the bus at seven.|We {V} the plane at noon.
+delay|delays|delayed|Heavy rain often {V} the trains.|The storm {V} our flight.
+reserve|reserves|reserved|Dad always {V} a table.|We {V} a room last week.
+examine|examines|examined|The doctor {V} patients every day.|She {V} the old map.
+gather|gathers|gathered|The family {V} at New Year.|We {V} in the park.
+hang out|hangs out|hung out|He {V} with friends on weekends.|We {V} at the mall yesterday.
+judge|judges|judged|She never {V} people by their looks.|He {V} the singing contest.
+limit|limits|limited|Mom {V} my phone time.|They {V} the number of visitors.
+measure|measures|measured|The nurse {V} my height.|We {V} the room yesterday.
+obey|obeys|obeyed|He always {V} the rules.|The dog {V} its owner.
+observe|observes|observed|She {V} birds in the park.|We {V} the moon last night.
+predict|predicts|predicted|The app {V} the weather.|He {V} the winner.
+pretend|pretends|pretended|He often {V} to be busy.|She {V} to be asleep.
+publish|publishes|published|The company {V} comic books.|He {V} his first book last year.
+replace|replaces|replaced|He {V} his phone every year.|We {V} the old sofa.
+require|requires|required|This job {V} a lot of skill.|The test {V} hard work.
+respond|responds|responded|She always {V} quickly.|He {V} to my email.
+steal|steals|stole|The monkey often {V} food.|Someone {V} my bike last night.
+apply|applies|applied|He {V} for a new job every year.|She {V} for the school last month.
+arrange|arranges|arranged|She {V} the flowers every morning.|We {V} a meeting for Monday.
+behave|behaves|behaved|He {V} well in class.|The kids {V} badly yesterday.
+calculate|calculates|calculated|The app {V} the cost.|He {V} the total.
+complete|completes|completed|She {V} her homework on time.|We {V} the project last week.
+destroy|destroys|destroyed|Smoking {V} your health.|The fire {V} the house.
+disagree|disagrees|disagreed|He often {V} with me.|She {V} with the plan.
+doubt|doubts|doubted|Nobody {V} his words.|I {V} his story.
+download|downloads|downloaded|He {V} music every day.|I {V} the app yesterday.
+escape|escapes|escaped|The cat often {V} from the house.|The bird {V} from the cage.
+fit|fits|fit|This shirt {V} me well.|The shoes {V} me last year.
+handle|handles|handled|She {V} problems well.|He {V} the situation calmly.
+include|includes|included|The price {V} breakfast.|The trip {V} a visit to the zoo.
+lay|lays|laid|The hen {V} an egg every day.|She {V} the baby on the bed.
+attract|attracts|attracted|The night market {V} many tourists.|The show {V} a big crowd.
