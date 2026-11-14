@@ -125,3 +125,135 @@ Remy is a little rat, but he has a big dream: he wants to [[cook|worry|surprise|
 + food critic = 美食評論家
 + chef = 主廚
 = 小米是一隻小老鼠，但他有個大夢想：他想在巴黎一家有名的餐廳做菜。大部分的人都覺得老鼠很髒，事實上，小米比任何人都還常洗手。有一天晚上，他偷偷溜進廚房煮了一鍋湯。隔天，一位美食評論家嚐了這道湯，說：「這是全巴黎最好喝的湯！」廚房裡的每個人都很驚訝。但當他們發現湯是老鼠煮的，主廚就想把他趕出去。小米的朋友 Linguini 站出來說：「這隻老鼠是這裡最厲害的廚師！」從那天起，小米和 Linguini 一起共用廚房，餐廳也再度受到歡迎。
+
+## 爸爸第一次划龍舟
+The Dragon Boat [[Festival|Market|Fact|Worry]] is my favorite holiday. Every year, my town holds a boat race on the river. This year, my dad's company had a team. One week before the race, Mr. Lin hurt his back. "You can take my [[place|fact|surprise|market]]," he told Dad. Dad was [[worried|cooked|shared|fought]] because he had never rowed a boat before. The team practiced every evening for a week. On the day of the race, Mom [[cooked|fought|worried|hurt]] rice dumplings for the whole team. Dad's team did not win, but they came in third. After the race, everyone sat by the river and [[shared|fought|worried|hurt]] the rice dumplings. Dad said it was the best holiday ever.
+> 1 Dragon Boat Festival「端午節」。Dragon Boat Market、Fact、Worry 都不是節日名稱。
+> 2 take one's place「代替某人」：你可以代替我上場。take my fact、surprise、market 都不通。
+> 3 be worried「擔心」：爸爸沒划過船，所以很擔心。was cooked、was shared、was fought 用在人身上都不通。
+> 4 cook rice dumplings「煮粽子」。fought、worried、hurt rice dumplings 都不通。
+> 5 share + 食物「分著吃」：大家在河邊一起分著吃粽子。fought、worried、hurt the rice dumplings 都不通。
++ Dragon Boat = 龍舟
++ race = 比賽
++ row = 划（船）
++ rice dumpling = 粽子
+= 端午節是我最喜歡的節日。每年我們鎮上都會在河上舉辦龍舟比賽。今年，爸爸的公司也組了一隊。比賽前一週，林叔叔傷到了背。「你可以代替我上場。」他對爸爸說。爸爸很擔心，因為他從來沒有划過船。隊員們每天傍晚練習，練了一個星期。比賽當天，媽媽煮了粽子給全隊吃。爸爸的隊伍雖然沒有贏，但得了第三名。比賽結束後，大家坐在河邊一起分著吃粽子。爸爸說這是他過過最棒的節日。
+
+## 動物冷知識
+Do you know any fun [[facts|places|markets|festivals]] about animals? Here are three. First, cows have best friends. When they stay [[next|last|same|every]] to their best friends, they feel calm. Second, sea otters hold hands when they sleep, so they will not drift away from each other. They also [[share|fight|worry|cook]] food with their babies. Third, elephants are afraid of bees. When they hear bees, they run away. It may be a [[surprise|place|market|festival]] to you, but even the biggest animals have fears. The more you learn about animals, the more you will [[care|cook|sell|park]] about them.
+> 1 fun facts「有趣的小知識」。fun places、markets、festivals about animals 都不通。
+> 2 next to「在…旁邊」：和最好的朋友待在一起時會覺得平靜。last to、same to、every to 都不是正確用法。
+> 3 share + 物 + with + 人「和…分享」：海獺會和寶寶分享食物。fight、worry、cook food with their babies 都不通。
+> 4 It may be a surprise to you「你可能會很驚訝」。a place、a market、a festival to you 都不通。
+> 5 care about …「關心、在乎」。cook、sell、park about 都不通。
++ cow = 乳牛
++ calm = 平靜的
++ sea otter = 海獺
++ drift = 漂走
++ bee = 蜜蜂
+= 你知道哪些有趣的動物小知識嗎？這裡有三個。第一，乳牛有最好的朋友，當牠們待在好朋友身邊時，會覺得很平靜。第二，海獺睡覺時會手牽手，這樣才不會彼此漂散。牠們也會和寶寶分享食物。第三，大象怕蜜蜂，一聽到蜜蜂的聲音就會逃跑。你可能會很驚訝，但就連最大的動物也有害怕的東西。你對動物了解得愈多，就會愈關心牠們。
+
+## 野餐遇到螞蟻
+Last Sunday, my family went on a picnic in the park. Mom made sandwiches and [[cooked|fought|worried|hurt]] some fried chicken. We found a nice [[place|fact|surprise|festival]] under a big tree and put down our blanket. But soon, we had a problem: ants! A [[lot|few|chance|park]] of ants came out of the grass. They wanted to [[share|fight|worry|cook]] our lunch! My little brother screamed. Dad laughed and said, "Let's just move." So we took our food to a sunny spot [[next|last|same|every]] to the lake. The ants did not follow us, and we had a wonderful lunch.
+> 1 cook fried chicken「煮（炸）雞」。fought、worried、hurt some fried chicken 都不通。
+> 2 find a nice place「找到一個好地方」。a nice fact、surprise、festival under a tree 都不通。
+> 3 a lot of ants「很多螞蟻」。a few 後面不加 of；a chance of、a park of ants 都不通。
+> 4 share our lunch「分享（搶吃）我們的午餐」，這裡用幽默的說法。fight、worry、cook 我們的午餐都不合理。
+> 5 next to the lake「在湖旁邊」。last to、same to、every to 都不是正確用法。
++ picnic = 野餐
++ blanket = 野餐墊、毯子
++ ant = 螞蟻
++ scream = 尖叫
+= 上星期天，我們全家去公園野餐。媽媽做了三明治，還煮了一些炸雞。我們在一棵大樹下找到一個好地方，鋪好野餐墊。但很快就出現一個問題：螞蟻！很多螞蟻從草地裡跑出來，牠們想來分享我們的午餐！弟弟尖叫起來。爸爸笑著說：「我們換個地方就好。」於是我們把食物拿到湖邊一個有陽光的地方。螞蟻沒有跟過來，我們吃了一頓很棒的午餐。
+
+## 太辣的咖哩
+My sister Jenny wanted to [[surprise|sell|park|stay]] our parents on their anniversary. She decided to [[cook|fight|worry|place]] curry for dinner. She found a recipe online, but she put in too much curry powder. When she tasted it, her mouth was on fire! She did not know what to do. "Don't [[worry|place|sell|park]]," I said. I remembered that milk can make curry less spicy. We added some, and it tasted much better. When our parents came home, the whole [[place|fact|market|festival]] smelled wonderful. They loved the curry, and Dad even had three bowls. [[Next|Last|Same|Popular]] year, Jenny says she wants to make a cake.
+> 1 surprise + 人「給某人驚喜」。sell、park、stay our parents 都不通。
+> 2 cook curry「煮咖哩」。fight、worry、place curry 都不通。
+> 3 Don't worry.「別擔心」，後面我想出了解決的辦法。place、sell、park 後面需要受詞，放在這裡不通。
+> 4 the whole place「整個地方（整間屋子）」都很香。the whole fact、market、festival 都不通。
+> 5 next year「明年」，配合後面「想要做蛋糕」。Last year 是過去，和 wants to 不搭；Same year、Popular year 都不通。
++ anniversary = 結婚紀念日
++ curry = 咖哩
++ recipe = 食譜
++ powder = 粉
++ spicy = 辣的
+= 我姊姊 Jenny 想在爸媽的結婚紀念日給他們一個驚喜，她決定煮咖哩當晚餐。她在網路上找到食譜，卻放了太多咖哩粉。她一嚐，嘴巴像著火一樣！她不知道該怎麼辦。「別擔心。」我說。我想起牛奶可以讓咖哩沒那麼辣。我們加了一些牛奶，味道好多了。爸媽回到家時，整間屋子香噴噴的。他們很喜歡這道咖哩，爸爸還吃了三碗。Jenny 說，明年她想做蛋糕。
+
+## 捷運站的外國人
+Last week, I saw a foreign woman at the MRT station. She looked [[worried|cooked|shared|fought]] and was holding a map. I wanted to help, but I was shy. Then I thought, "This is my [[chance|example|park|care]] to use my English!" "Excuse me, can I help you?" I asked. She smiled. "I want to go to the night [[market|fact|surprise|place]] in Shilin." I told her to take the red line. "Get off at Jiantan. It is the [[next|same|every|few]] stop after Yuanshan." She thanked me and gave me a little gift from her country: a chocolate bar. It was a nice [[surprise|fact|market|place]]. That day, I felt proud of my English.
+> 1 look worried「看起來很擔心」。cooked、shared、fought 都不能形容她的樣子。
+> 2 a chance to + 原形動詞「做…的機會」：這是我用英文的機會！example 前要用 an；a park、a care 都不通。
+> 3 night market「夜市」：她想去士林夜市。night fact、surprise、place 都不是正確說法。
+> 4 the next stop「下一站」：劍潭是圓山的下一站。same、every、few 都不能這樣用。
+> 5 a nice surprise「令人開心的驚喜」：意外收到巧克力。a nice fact、market、place 都不能形容收到的禮物。
++ foreign = 外國的
++ MRT = 捷運
++ Jiantan = 劍潭（捷運站名）
++ Yuanshan = 圓山（捷運站名）
+= 上星期，我在捷運站看到一位外國女士，她看起來很擔心，手上拿著地圖。我想幫忙，但很害羞。接著我想：「這是我用英文的機會！」「不好意思，需要幫忙嗎？」我問。她笑了：「我想去士林夜市。」我告訴她搭紅線：「在劍潭下車，就是圓山的下一站。」她向我道謝，還送我一個她國家的小禮物：一條巧克力。這真是個驚喜。那天，我為自己的英文感到很驕傲。
+
+## 貓狗大戰
+Our cat, Mimi, and our dog, Bobo, used to [[fight|cook|surprise|place]] every day. Mimi did not want to [[share|fight|cook|worry]] her bed with Bobo, and Bobo always ate Mimi's food. My mom was [[worried|cooked|shared|fought]] that they would hurt each other. Then one cold winter night, the power went out. The house was dark and very cold. In the morning, we found a big [[surprise|fact|market|festival]]: Mimi and Bobo were sleeping together in the same bed! From that day on, they became best friends. Now Bobo sleeps [[next|last|same|every]] to Mimi every night, and they even eat from the same bowl.
+> 1 used to fight「以前常打架」。貓狗不會做菜（cook），surprise、place 後面需要受詞，都不通。
+> 2 share + 物 + with + 人「和…共用」：Mimi 不想和 Bobo 共用床。fight、cook、worry her bed 都不通。
+> 3 be worried that …「擔心…」。was cooked、was shared、was fought 用在人身上都不通。
+> 4 find a big surprise「發現一個大驚喜」，後面說貓狗睡在一起。a big fact、market、festival 都不通。
+> 5 next to「在…旁邊」。last to、same to、every to 都不是正確用法。
++ power = 電力
++ go out = 熄滅、停（電）
++ bowl = 碗
+= 我們家的貓 Mimi 和狗 Bobo 以前每天都打架。Mimi 不想跟 Bobo 共用床，Bobo 又老是偷吃 Mimi 的食物。媽媽很擔心牠們會傷到彼此。後來在一個寒冷的冬夜，家裡停電了，屋子又黑又冷。早上，我們發現一個大驚喜：Mimi 和 Bobo 睡在同一張床上！從那天起，牠們變成了好朋友。現在 Bobo 每天晚上都睡在 Mimi 旁邊，牠們甚至會用同一個碗吃東西。
+
+## 一起撐傘回家
+It started to rain hard after school. I did not have an umbrella, so I stood at the school gate and [[worried|cooked|fought|shared]] about how to get home. Then Yuna, the girl who sits [[next|last|same|every]] to me in class, came over. We did not talk much before. "Do you want to [[share|fight|cook|place]] my umbrella?" she asked. On the way home, we talked about our favorite anime. We found out that we liked the same singer, too. It was a nice [[surprise|market|place|worry]]. The rain did not stop until we got to my [[place|fact|surprise|festival]]. Now we walk home together every day, rain or shine. I am glad it rained that day.
+> 1 worry about …「擔心…」：我擔心要怎麼回家。cooked、fought、shared about 都不通。
+> 2 sit next to + 人「坐在某人旁邊」。last to、same to、every to 都不是正確用法。
+> 3 share an umbrella「共撐一把傘」。fight、cook、place my umbrella 都不通。
+> 4 a nice surprise「令人開心的驚喜」：發現喜歡同一位歌手。a nice market、place、worry 都不通。
+> 5 my place「我家」，place 可以指某人住的地方。my fact、my surprise、my festival 都不通。
++ gate = 大門
++ anime = 動漫
++ rain or shine = 不論晴雨
+= 放學後開始下起大雨。我沒帶傘，只好站在校門口，擔心該怎麼回家。這時，坐在我旁邊的 Yuna 走了過來。我們以前沒說過幾句話。「你要不要跟我一起撐傘？」她問。回家路上，我們聊起最喜歡的動漫，還發現我們喜歡同一位歌手，真是個驚喜。雨一直下到我們走到我家才停。現在不論晴雨，我們每天都一起走路回家。我很高興那天下了雨。
+
+## 第一次逛漫畫博覽會
+Every summer, there is a big comic [[festival|fact|surprise|worry]] in Taipei. Thousands of fans come to buy comics and meet their favorite artists. This year, my friend Ivy and I went there for the first time. The [[place|fact|surprise|worry]] was so crowded that we could hardly move. Ivy wanted to meet a famous artist, so we waited in line for two hours. When it was finally our turn, the artist drew a little picture for Ivy. She was so [[surprised|cooked|shared|fought]] that she could not say a word. On the train home, we [[shared|fought|cooked|worried]] the comics we bought and read them together. We are already planning to go again [[next|last|same|few]] year.
+> 1 comic festival「漫畫節、漫畫博覽會」。comic fact、comic surprise、comic worry 都不通。
+> 2 The place was crowded「那個地方很擁擠」。The fact、surprise、worry was crowded 都不通。
+> 3 be surprised「驚訝」：她驚訝得說不出話。cooked、shared、fought 用在人身上都不通。
+> 4 share + 物「分享」：我們交換看買到的漫畫。fought、cooked、worried the comics 都不通。
+> 5 next year「明年」，配合 are planning to go again。last year 是過去，same year、few year 都不通。
++ comic = 漫畫
++ fan = 粉絲
++ artist = 畫家
++ crowded = 擁擠的
++ hardly = 幾乎不
+= 每年夏天，台北都會舉辦盛大的漫畫博覽會。成千上萬的粉絲來這裡買漫畫、見自己喜歡的畫家。今年，我和朋友 Ivy 第一次去。那裡擠到我們幾乎動不了。Ivy 想見一位有名的畫家，所以我們排了兩個小時的隊。終於輪到我們時，那位畫家為 Ivy 畫了一張小圖。她驚訝得說不出話來。回家的火車上，我們交換看買到的漫畫。我們已經在計畫明年再去了。
+
+## 功夫熊貓包餃子
+Po the panda loves food more than anything. One day, his dad, Mr. Ping, said, "Today, I will teach you how to [[cook|worry|fight|surprise]] dumplings." Po was excited, but he was not good at it. He used too much water, and the dumplings broke. "Don't [[worry|place|sell|park]]," his dad said. "Even kung fu masters make mistakes." Po tried again and again. At last, he made a perfect plate of dumplings. "Let's [[share|fight|worry|surprise]] them with the Furious Five!" he said. His friends came, and they all sat [[next|last|same|every]] to the window and ate together. Then Po gave his last dumpling to Tigress. It was a big [[surprise|fact|market|festival]] to everyone, because Po never gives away food!
+> 1 cook dumplings「煮餃子」。worry、fight、surprise dumplings 都不通。
+> 2 Don't worry.「別擔心」，後面安慰他「大師也會犯錯」。place、sell、park 需要受詞，放在這裡不通。
+> 3 share + 物 + with + 人「和…分享」。fight、worry、surprise them with the Furious Five 都不通。
+> 4 sit next to the window「坐在窗邊」。last to、same to、every to 都不是正確用法。
+> 5 a big surprise to everyone「讓大家很驚訝的事」，因為阿波從不把食物送人。a big fact、market、festival 都不通。
++ Po = 阿波（《功夫熊貓》的主角）
++ dumpling = 餃子
++ kung fu master = 功夫大師
++ Furious Five = 蓋世五俠
++ Tigress = 悍嬌虎
+= 熊貓阿波最愛的就是食物。有一天，他的爸爸平先生說：「今天我來教你煮餃子。」阿波很興奮，但他不太會煮。他水放太多，餃子都破了。「別擔心，」爸爸說，「連功夫大師也會犯錯。」阿波一次又一次地嘗試，終於煮出一盤完美的餃子。「我們跟蓋世五俠一起分享吧！」他說。朋友們來了，大家坐在窗邊一起吃。接著阿波把最後一顆餃子讓給了悍嬌虎。這讓大家都很驚訝，因為阿波從來不會把食物讓給別人！
+
+## 圖書館最好的座位
+In our school library, there is one perfect [[place|fact|surprise|worry]] to study: the seat by the big window. Every student wants it, so people often [[fight|cook|share|surprise]] over it. Last month, the librarian made a new rule. "If you want the seat, write your name on the list. You can only use it for one hour. After that, you must move to the table [[next|last|same|every]] to the door." At first, some students were not happy. But now everyone gets a turn, and nobody [[worries|cooks|shares|places]] about the seat anymore. The librarian said, "A good seat is like a good book. It is better when you [[share|fight|cook|worry]] it."
+> 1 a perfect place to study「讀書的完美地點」。a perfect fact、surprise、worry to study 都不通。
+> 2 fight over …「為了…爭搶」。cook over、share over、surprise over it 都不通。
+> 3 next to the door「門旁邊」。last to、same to、every to 都不是正確用法。
+> 4 worry about …「擔心」，nobody 用第三人稱單數 worries。cooks、shares、places about 都不通。
+> 5 share + 物「分享」：好座位和好書一樣，分享才更好。fight、cook、worry it 都不通。
++ librarian = 圖書館員
++ rule = 規定
++ list = 名單
++ turn = 輪流的機會
+= 我們學校的圖書館裡，有一個讀書的完美地點：大窗戶旁邊的座位。每個學生都想坐，所以大家常常為了它搶來搶去。上個月，圖書館員訂了一條新規定：「想坐那個位子，就把名字寫在名單上。每人只能用一個小時，時間到了就要移到門旁邊的桌子。」一開始，有些同學不太高興。但現在每個人都輪得到，再也沒有人為那個位子煩惱了。圖書館員說：「好座位就像好書一樣，分享出去會更好。」
