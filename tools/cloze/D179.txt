@@ -131,3 +131,134 @@ Mr. Huang has a bubble tea shop near our school. Last year, his shop was not doi
 + line up = 排隊
 + rainy season = 雨季
 = 黃先生在我們學校附近開了一家珍奶店。去年，他的生意不太好，因為同一條街上就有五家飲料店。他需要一個點子。一天晚上，他女兒說：「學生都愛看故事，何不在每個杯子上放一個短篇故事？」於是黃先生開始每天寫一個新故事，有的好笑，有的有點恐怖。每個故事都停在最精采的地方，下一段要看隔天的杯子。學生因為想知道後來怎麼了，每天都回來買。現在他的店是整條街最受歡迎的，就算在雨季，學生還是排隊買他的飲料。
+
+## 會開冰箱的狗
+Our neighbor Mr. Chen has a big dog [[called|used|left|paid]] Lucky. Lucky is very smart. Every morning, Mr. Chen [[leaves|uses|pays|feels]] for work at seven, and Lucky stays home alone. One afternoon, I heard a strange sound from his house. I looked through the window and saw Lucky open the fridge with his paw! He took out a sausage and ate it. Then he closed the door with his nose, so nobody would know. I could not believe my eyes! When Mr. Chen came home, I told him the whole [[story|use|call|kind]]. He laughed very [[hard|same|still|during]]. "So that's why my sausages are always gone!" he said. "I thought I was getting old." Now he [[uses|feels|calls|pays]] a lock on his fridge. But Lucky is still trying to find a way to open it.
+> 1 a dog called + 名字「一隻叫…的狗」。used、left、paid Lucky 都不通。
+> 2 leave for work「出門上班」。uses、pays、feels for work 都不通。
+> 3 tell + 人 + the whole story「把整件事告訴某人」。use、call、kind 都不能「講」。
+> 4 laugh hard「大笑」：他笑得很厲害。same、still、during 都不能接在 laughed very 後面。
+> 5 use a lock「使用鎖」：現在他在冰箱上加了鎖。feels、calls、pays a lock 都不通。
++ paw = 腳掌
++ sausage = 香腸
++ fridge = 冰箱
++ lock = 鎖
+= 我們的鄰居陳先生養了一隻叫 Lucky 的大狗，Lucky 非常聰明。每天早上七點，陳先生出門上班，Lucky 就自己待在家。有一天下午，我聽到他家傳出奇怪的聲音。我從窗戶看進去，竟然看到 Lucky 用腳掌打開冰箱！牠拿出一根香腸吃掉，再用鼻子把冰箱門關上，好讓沒人發現。我簡直不敢相信自己的眼睛！陳先生回家後，我把整件事告訴他，他笑得好大聲：「原來這就是我的香腸老是不見的原因！我還以為是自己老了。」現在他在冰箱上加了鎖，但 Lucky 還在想辦法打開它。
+
+## 忘了帶鑰匙的下午
+Yesterday, I [[left|called|paid|felt]] my keys at school. When I got home, nobody was there. My parents were [[still|enough|same|during]] at work, and my sister was at her dance class. I tried to [[call|use|save|enjoy]] my mom, but her phone was off. It was cold and windy, and I was very hungry. I had only ten dollars in my pocket. That was not [[enough|same|during|still]] money to buy dinner. I sat in front of the door and almost cried. Then Mrs. Lin from next door saw me. She invited me in and cooked hot noodles for me. We talked about her trip to Japan and looked at her photos. At six, my mom finally came home. I learned a [[hard|same|enough|still]] lesson that day: always check your bag before you leave school.
+> 1 leave + 物 + 地方「把…忘在某處」：我把鑰匙忘在學校。called、paid、felt my keys 都不通。
+> 2 still「仍然」：爸媽還在上班。enough、same、during 都不能放在 were 和 at work 中間。
+> 3 call + 人「打電話給某人」。use、save、enjoy my mom 都不通。
+> 4 enough money「足夠的錢」：十元不夠買晚餐。same 前要加 the，during、still 不能修飾 money。
+> 5 a hard lesson「慘痛的教訓」。same 前要用 the，enough、still 不能這樣修飾 lesson。
++ pocket = 口袋
++ invite = 邀請
++ noodle = 麵
+= 昨天，我把鑰匙忘在學校了。回到家時，家裡一個人都沒有：爸媽還在上班，姊姊在上舞蹈課。我想打電話給媽媽，但她的手機關機了。天氣又冷又颳風，我也好餓，口袋裡只有十塊錢，根本不夠買晚餐。我坐在門口，差點哭出來。這時隔壁的林太太看到我，請我進她家，還煮了熱騰騰的麵給我吃。我們聊她去日本的旅行，一起看她的照片。六點時，媽媽終於回來了。那天我學到一個慘痛的教訓：離開學校前一定要檢查書包。
+
+## 營火旁的鬼故事
+[[During|Because|Than|About]] our class camping trip, we sat around the fire after dinner. Jack turned off his flashlight and said, "Let me tell you a scary [[story|use|call|kind]]." Everyone moved closer. "Long ago, a girl got lost in these mountains, and nobody ever found her. People say you can [[still|enough|same|during]] hear her crying at night." Just then, we heard a sound from the trees! Everyone screamed. Some students wanted to [[leave|use|feel|pay]] right away and run back to the cabin. Then a small animal walked out of the bushes. It was just a raccoon dog looking for food! We all laughed, and Jack laughed the loudest. But that night, nobody wanted to sleep alone. All twelve of us slept in the [[same|enough|during|than]] tent, and nobody slept well.
+> 1 during + 名詞「在…期間」：在班級露營期間。Because 後面要接句子，Than、About 放在這裡不通。
+> 2 tell a scary story「講鬼故事」。use、call、kind 都不能「講」。
+> 3 still「仍然」：到現在還聽得到她的哭聲。enough、same、during 都不能放在 can 和動詞中間。
+> 4 leave「離開」：有些同學想馬上離開。use、feel、pay right away 都不通。
+> 5 the same tent「同一頂帳篷」。enough、during、than 都不能放在 the 和名詞中間。
++ flashlight = 手電筒
++ cabin = 小木屋
++ bush = 灌木叢
++ raccoon dog = 貉（俗稱狸貓）
++ tent = 帳篷
+= 班級露營時，我們晚餐後圍坐在營火旁。Jack 關掉手電筒說：「我來講個鬼故事。」大家都靠了過來。「很久以前，有個女孩在這座山裡迷路了，再也沒有人找到她。聽說到現在晚上還聽得到她的哭聲。」就在這時，樹林裡傳來一陣聲響！大家都尖叫起來，有些同學想馬上離開，跑回小木屋。接著一隻小動物從灌木叢裡走出來，原來只是一隻找食物的狸貓！大家都笑了，Jack 笑得最大聲。但那天晚上，沒有人敢自己睡。我們十二個人全擠在同一頂帳篷裡，誰也沒睡好。
+
+## 黃色小鴨兄弟
+On the first day of the new school year, I wore my favorite T-shirt. It had a big yellow duck on it. When I walked into the classroom, I could not believe my eyes. Ken, the new boy, was wearing the [[same|enough|during|than]] T-shirt! Everyone laughed and [[called|used|left|paid]] us "the Duck Brothers." I felt so embarrassed. I wanted to [[leave|pay|feel|become]] the classroom and go home. But Ken just smiled at me. "You have good taste," he said. We started to talk and found out that we like similar games and music. [[During|Because|Than|About]] lunch, we sat together and talked about our favorite cartoons. Now Ken is my best friend. We [[still|enough|same|during]] wear our duck T-shirts on the same day sometimes, just for fun.
+> 1 the same + 名詞「同一件、一樣的」：Ken 穿著一樣的 T 恤。enough、during、than 都不能放在 the 和名詞中間。
+> 2 call + 人 + 稱呼「叫某人…」：大家叫我們「小鴨兄弟」。used、left、paid us 都不通。
+> 3 leave + 地方「離開…」：我想離開教室回家。pay、feel、become the classroom 都不通。
+> 4 during lunch「午餐時間」。Because 後面要接句子，Than、About 放在這裡不通。
+> 5 still「仍然」：我們現在還是偶爾會在同一天穿小鴨 T 恤。enough、same、during 都不能放在主詞和動詞中間。
++ embarrassed = 尷尬的
++ taste = 品味
++ similar = 相似的
++ cartoon = 卡通
+= 新學年的第一天，我穿了最喜歡的 T 恤，上面有一隻大大的黃色小鴨。走進教室時，我簡直不敢相信自己的眼睛：新同學 Ken 竟然穿著一模一樣的 T 恤！大家都笑了，叫我們「小鴨兄弟」。我覺得好尷尬，只想離開教室回家。但 Ken 只是對我笑笑：「你很有品味喔。」我們聊了起來，發現我們喜歡的遊戲和音樂都差不多。午餐時，我們坐在一起聊最喜歡的卡通。現在 Ken 是我最好的朋友，我們偶爾還是會在同一天穿小鴨 T 恤，只是為了好玩。
+
+## 坐火車去花蓮
+Last weekend, my family took a train to Hualien. The train [[left|used|called|felt]] Taipei at seven in the morning. I wanted to sleep, but the view was too beautiful. [[During|Because|Than|About]] the trip, I saw the blue sea on one side and green mountains on the other. In Hualien, we rented bikes and rode along the coast. The road was long, and the wind was strong. After two hours, my legs were tired, but my little brother wanted to keep going. "I am [[still|enough|same|during]] full of energy!" he said. At lunch, we ate at a small restaurant. The owner gave us so much food. "Is this [[enough|same|during|than]] for you?" she asked with a smile. We ate it all! I took many photos on this trip, and I will [[use|call|feel|pay]] them for my school project.
+> 1 leave + 地方「從…出發」：火車早上七點從台北出發。used、called、felt Taipei 都不通。
+> 2 during the trip「在旅途中」。Because 後面要接句子，Than、About 放在這裡不通。
+> 3 still「仍然」：我還是精力充沛！enough、same、during 都不能放在 am 和形容詞中間。
+> 4 enough「足夠的」：這樣夠你們吃嗎？same 前面要加 the，during、than 都不能這樣用。
+> 5 use + 物 + for …「把…用在…」：我會把照片用在學校專題上。call、feel、pay them 都不通。
++ Hualien = 花蓮
++ view = 景色
++ rent = 租
++ coast = 海岸
++ energy = 精力
+= 上週末，我們全家搭火車去花蓮。火車早上七點從台北出發。我本來想睡覺，但風景實在太美了。一路上，一邊是藍色的大海，另一邊是青翠的高山。到了花蓮，我們租腳踏車沿著海岸騎。路很長，風也很大，騎了兩個小時後我的腿好痠，但弟弟還想繼續騎：「我還是精力充沛！」午餐時，我們在一家小餐廳吃飯，老闆娘給了我們好多菜，還笑著問：「這樣夠你們吃嗎？」我們全吃光了！這趟旅行我拍了很多照片，我要把它們用在學校的專題上。
+
+## 籃球隊的暑假特訓
+Our school basketball team practices [[hard|same|still|during]] every day. Coach Wang is very strict. "If you want to win, you have to work for it," he always says. [[During|Because|Than|About]] the summer vacation, we practiced from seven to eleven every morning. It was very hot, and we were always tired. One day, Andy wanted to [[leave|use|pay|feel]] the team. "I'm not good [[enough|same|during|still]]," he said. "I can never make a shot when it matters." Coach Wang did not get angry. Instead, he told Andy a [[story|use|call|kind]] about Michael Jordan. "When he was young, he did not make his high school team. But he did not give up. He practiced every day." Andy thought about it for a long time and decided to stay. Now he is the best shooter on our team.
+> 1 practice hard「努力練習」。same、still、during 都不能修飾 practices。
+> 2 during + 時段「在…期間」：暑假期間每天早上練球。Because、Than、About 都不能這樣接時間。
+> 3 leave the team「退出球隊」。use、pay、feel the team 都不通。
+> 4 good enough「夠好」：enough 放在形容詞後面。same、during、still 都不能這樣用。
+> 5 tell + 人 + a story「講故事給某人聽」。use、call、kind 都不能「講」。
++ strict = 嚴格的
++ shot = 投籃
++ Michael Jordan = 麥可‧喬丹（籃球明星）
++ shooter = 射手
+= 我們學校的籃球隊每天都努力練習。王教練非常嚴格，他總是說：「想贏，就要努力。」暑假期間，我們每天早上七點練到十一點，天氣非常熱，大家總是很累。有一天，Andy 想退出球隊：「我不夠好，關鍵時刻總是投不進。」王教練沒有生氣，而是跟他講了麥可‧喬丹的故事：「他年輕時沒有選上高中校隊，但他沒有放棄，每天都練習。」Andy 想了很久，決定留下來。現在他是我們隊上最好的射手。
+
+## 灰姑娘的智慧型手機
+In this new [[story|use|call|kind]], Cinderella has a smartphone. One night, her stepsisters went to the prince's party, but Cinderella had to stay home and clean the kitchen. She felt very sad. Then her phone rang. It was her fairy godmother! "I have an [[idea|story|plan|kind]]," she said. She sent Cinderella a beautiful dress and called a taxi for her with an app. "But you must [[leave|use|call|pay]] the party before midnight," she said. At the party, Cinderella danced with the prince all night. When the clock struck twelve, she ran away and dropped her phone on the stairs. The prince picked it up and [[called|felt|paid|enjoyed]] the number saved as "Home." Her stepmother answered, but the prince knew it was not the [[same|enough|during|than]] voice. So he went to the house and found the real Cinderella.
+> 1 a new story「一個新的故事」：在這個新版故事裡。use、call、kind 意思都不通。
+> 2 have an idea「有個點子」。前面是 an，story、plan、kind 都要用 a。
+> 3 leave the party「離開派對」。use、call、pay the party 都不通。
+> 4 call the number「打那個號碼」。felt、paid、enjoyed the number 都不通。
+> 5 the same voice「同一個聲音」：王子知道那不是同一個聲音。enough、during、than 都不能放在 the 和名詞中間。
++ Cinderella = 灰姑娘
++ stepsister = 繼姊
++ fairy godmother = 神仙教母
++ midnight = 午夜
++ strike = （鐘）敲響（過去式 struck）
+= 在這個新版故事裡，灰姑娘有一支智慧型手機。有天晚上，繼姊們去參加王子的派對，灰姑娘卻得留在家裡打掃廚房，她難過極了。這時她的手機響了，是神仙教母打來的！「我有個點子。」她說。她送給灰姑娘一件漂亮的禮服，還用 app 幫她叫了計程車。「但是你一定要在午夜前離開派對。」她說。派對上，灰姑娘和王子跳了一整晚的舞。鐘聲敲響十二下時，她跑走了，把手機掉在樓梯上。王子撿起手機，撥了存成「家」的那個號碼。接電話的是繼母，但王子知道那不是同一個聲音。於是他找到那棟房子，找到了真正的灰姑娘。
+
+## 一天十分鐘的吉他
+Last year, I [[used|left|called|felt]] my birthday money to buy a guitar. I thought playing the guitar would be easy, but it was really [[hard|same|enough|during]]. My fingers hurt, and the sound was terrible. My sister said it sounded like a sick cat! After two weeks, I wanted to give up. Then my music teacher gave me an [[idea|story|plan|kind]]: "Practice for just ten minutes a day." Ten minutes did not sound like much, but it was [[enough|same|during|than]]. Little by little, my fingers got stronger, and the sound got better. After six months, I could play five songs. [[During|Because|Than|About]] our school's Christmas party, I played a song in front of everyone. My hands were shaking, but I did not make any mistakes. Even my sister clapped for me!
+> 1 use + 物 + to + 原形動詞「用…來做…」：我用生日紅包買了吉他。left、called、felt my birthday money 都不通。
+> 2 hard「困難的」：彈吉他真的很難。same 前面要加 the，enough、during 都不能接在 really 後面。
+> 3 give + 人 + an idea「給某人一個點子」。前面是 an，story、plan、kind 都要用 a。
+> 4 enough「足夠的」：十分鐘聽起來不多，但已經夠了。same 前要加 the，during、than 都不能放在 was 後面。
+> 5 during + 名詞「在…期間」：在學校的聖誕派對上。Because、Than、About 都不能這樣接名詞表時間。
++ guitar = 吉他
++ terrible = 糟糕的
++ little by little = 一點一點地
++ clap = 拍手
+= 去年，我用生日紅包買了一把吉他。我以為彈吉他很簡單，沒想到真的很難：手指好痛，聲音也很難聽，姊姊說聽起來像一隻生病的貓！兩個星期後，我就想放棄了。這時音樂老師給了我一個點子：「一天只要練十分鐘就好。」十分鐘聽起來不多，但已經足夠了。一點一點地，我的手指變得更有力，聲音也愈來愈好聽。六個月後，我已經會彈五首歌。在學校的聖誕派對上，我在大家面前彈了一首歌。我的手在發抖，但一個錯都沒有。就連姊姊也為我拍手！
+
+## 給媽媽的生日影片
+Mom's birthday was on Sunday. My brother and I wanted to give her a surprise, but we did not have [[enough|same|during|still]] money for a big present. Then my brother said, "Let's make a video for her!" It was a great [[idea|news|money|homework]]. We [[called|used|left|paid]] Mom's old friends and asked them to say something to her. Some of them had not seen her for twenty years! We also [[used|paid|called|felt]] old photos from our family albums. We worked on the video late at night, so Mom would not see. On her birthday, we played it on the TV. When Mom saw her old friends, she cried and laughed at the same time. "This is the best present I have ever gotten," she said. She [[still|enough|same|during]] watches the video when she misses her friends.
+> 1 enough money「足夠的錢」。same 前要加 the，during、still 不能修飾 money。
+> 2 a great idea「好主意」。news、money、homework 是不可數名詞，不能加 a。
+> 3 call + 人「打電話給某人」：我們打電話給媽媽的老朋友。used、left、paid Mom's old friends 都不通。
+> 4 use old photos「使用舊照片」：我們也用了相簿裡的老照片。paid、called、felt old photos 都不通。
+> 5 still「仍然」：她到現在想念朋友時還會看這支影片。enough、same、during 都不能放在主詞和動詞中間。
++ surprise = 驚喜
++ album = 相簿
+= 媽媽的生日在星期天。我和哥哥想給她一個驚喜，但我們沒有足夠的錢買大禮物。這時哥哥說：「我們幫她做一支影片吧！」真是個好主意。我們打電話給媽媽的老朋友，請他們對媽媽說幾句話，有些人已經二十年沒見過她了！我們也用了家裡相簿的老照片。我們都在深夜做影片，免得被媽媽看到。生日那天，我們在電視上播放影片。媽媽看到老朋友們時，又哭又笑。「這是我收過最棒的禮物。」她說。直到現在，她想念朋友時還會拿出這支影片來看。
+
+## 故宮裡的小蟲
+Last Saturday, our class visited the National Palace Museum. Our guide was an old man with white hair, and he told us a [[story|use|call|kind]] about every treasure. The most famous one is the Jadeite Cabbage. "Look carefully," he said. "There are two insects on the leaves. Can you find them?" It was [[hard|same|still|during]] to see them at first, but finally I found them. They looked so real! [[During|Because|Than|About]] the tour, we were not allowed to take photos, so I drew pictures in my notebook. The museum was so big that we could not see everything in one day. We had to [[leave|use|feel|enjoy]] at four o'clock because the bus was waiting. But I [[still|enough|same|during]] want to go back. Next time, I will bring my parents and be their guide.
+> 1 tell + 人 + a story「講故事給某人聽」：導覽員每件寶物都講一個故事。use、call、kind 都不能「講」。
+> 2 It is hard to + 原形動詞「…很困難」：一開始很難看到。same 前要加 the，still、during 不能這樣用。
+> 3 during the tour「參觀期間」。Because 後面要接句子，Than、About 放在這裡不通。
+> 4 leave「離開」：我們四點就得離開。use、feel、enjoy at four o'clock 都不通（後面都需要受詞）。
+> 5 still「仍然」：我還是想再去。enough、same、during 都不能放在主詞和動詞中間。
++ National Palace Museum = 故宮博物院
++ guide = 導覽員
++ treasure = 寶物
++ Jadeite Cabbage = 翠玉白菜
++ insect = 昆蟲
+= 上星期六，我們班去參觀故宮博物院。導覽員是一位白髮老先生，每件寶物他都講了一個故事給我們聽。最有名的是翠玉白菜。「仔細看，」他說，「葉子上有兩隻昆蟲，你們找得到嗎？」一開始很難看出來，但最後我找到了，牠們看起來好逼真！參觀時不能拍照，所以我在筆記本上畫圖。博物院太大了，一天根本看不完，因為巴士在等，我們四點就得離開。但我還是很想再去。下次我要帶爸媽去，當他們的導覽員。
