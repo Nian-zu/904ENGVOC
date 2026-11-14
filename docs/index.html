@@ -266,6 +266,13 @@ input[type=text]{flex:1;min-width:200px}
       <button data-p="all" aria-pressed="false">全部</button>
     </div>
   </div>
+  <div class="seg sortseg" role="group" aria-label="題型">
+    <button data-bt="all" aria-pressed="true">全部題型</button>
+    <button data-bt="word" aria-pressed="false">單字</button>
+    <button data-bt="verb" aria-pressed="false">動詞變化</button>
+    <button data-bt="prep" aria-pressed="false">介系詞</button>
+    <button data-bt="cloze" aria-pressed="false">克漏字</button>
+  </div>
   <div class="seg sortseg" role="group" aria-label="排名方式">
     <button data-s="right" aria-pressed="true">答對數</button>
     <button data-s="rate" aria-pressed="false">答對率</button>
@@ -646,7 +653,8 @@ function givenName(n) {
   const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
   return n.slice(cut) || n;
 }
-let boardPeriod = 'week', boardSort = 'right', boardData = null;
+let boardPeriod = 'week', boardSort = 'right', boardType = 'all', boardData = null;
+const TYPE_ZH = {all: '', word: '單字題', verb: '動詞變化題', prep: '介系詞題', cloze: '克漏字'};
 const PERIOD_ZH = {day: '今天', week: '本週', month: '本月', all: '開學以來'};
 const PREV_ZH = {day: '昨天', week: '上週', month: '上個月'};
 async function loadBoard(){
@@ -654,7 +662,7 @@ async function loadBoard(){
   if (!SHEET_URL) { body.textContent = '尚未設定成績網址。'; return; }
   body.className = 'empty'; body.textContent = '載入中…';
   try {
-    const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod);
+    const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod + '&type=' + boardType);
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '');
     boardData = j; drawBoard();
@@ -664,6 +672,7 @@ function drawBoard(){
   const j = boardData, body = $('boardBody'), me = +$('seat').value;
   if (!j) return;
   const boards = j.boards || {right: j.top || []};
+  const tz = TYPE_ZH[j.type || 'all'] || '';
   if (boardPeriod === 'all' && boardSort === 'up') boardSort = 'right';
   document.querySelectorAll('[data-s]').forEach(x => {
     x.setAttribute('aria-pressed', x.dataset.s === boardSort);
@@ -686,13 +695,13 @@ function drawBoard(){
       list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${nm(x)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
     : `<div class="empty">${empty}</div>`);
   $('boardHint').textContent = {
-    right: `依${PERIOD_ZH[boardPeriod]}答對題數加總排名，做越多、答對越多就越前面。`,
-    rate: `依${PERIOD_ZH[boardPeriod]}答對率排名，至少作答 ${j.min ? j.min.rate : ''} 題才上榜；不含錯題重做。`,
-    up: `${PERIOD_ZH[boardPeriod]}的答對率比${PREV_ZH[boardPeriod] || '上期'}進步多少分；兩段都要作答滿 ${j.min && j.min.up || ''} 題，不含錯題重做。`
-  }[boardSort] + '每次交卷後會更新。';
+    right: `依${PERIOD_ZH[boardPeriod]}${tz}答對題數加總排名，做越多、答對越多就越前面。`,
+    rate: `依${PERIOD_ZH[boardPeriod]}${tz}答對率排名，至少作答 ${j.min ? j.min.rate : ''} 題才上榜；不含錯題重做。`,
+    up: `${PERIOD_ZH[boardPeriod]}${tz}的答對率比${PREV_ZH[boardPeriod] || '上期'}進步多少分；兩段都要作答滿 ${j.min && j.min.up || ''} 題，不含錯題重做。`
+  }[boardSort] + '每次交卷後會更新。' + (tz ? '各題型排行從 11/15 開始累積。' : '');
   const f = j.fame;
   const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
-  $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王')}${famed(f.months, '🏆 歷屆月冠王')}</div>` : '';
+  $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王（全部題型）')}${famed(f.months, '🏆 歷屆月冠王（全部題型）')}</div>` : '';
 }
 document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
   boardPeriod = b.dataset.p;
@@ -700,6 +709,11 @@ document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
   loadBoard();
 });
 document.querySelectorAll('[data-s]').forEach(b => b.onclick = () => { boardSort = b.dataset.s; drawBoard(); });
+document.querySelectorAll('[data-bt]').forEach(b => b.onclick = () => {
+  boardType = b.dataset.bt;
+  document.querySelectorAll('[data-bt]').forEach(x => x.setAttribute('aria-pressed', x === b));
+  loadBoard();
+});
 loadBoard();
 
 fetch('bank.json').then(r => r.json()).then(d => {

@@ -102,7 +102,11 @@ function doGet(e) {
   if (period === 'week') { from = weekStart_(today); prevFrom = shift_(from, -7); prevTo = shift_(from, -1); }
   if (period === 'month') { from = today.slice(0, 8) + '01'; prevTo = shift_(from, -1); prevFrom = prevTo.slice(0, 8) + '01'; }
 
-  const rows = readRows_();
+  // type=word|verb|prep|cloze：只算這種題型（用「作答明細」逐題資料）；不給就是全部題型（用「成績」）
+  const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字' };
+  const type = TYPE_ZH[p.type] ? p.type : 'all';
+  const allRows = readRows_();
+  const rows = type === 'all' ? allRows : readDetail_(TYPE_ZH[type]);
   const cur = agg_(rows, from, today), prv = prevFrom ? agg_(rows, prevFrom, prevTo) : {};
   const list = Object.keys(cur).map(function (k) { return cur[k]; });
   const rateOf = function (s) { return s.fAns ? Math.round(s.fRight / s.fAns * 100) : null; };
@@ -130,7 +134,7 @@ function doGet(e) {
 
   return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    titles: titles_(list, prv, streaks, period), fame: fame_(rows, today) });
+    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today) });
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -164,6 +168,23 @@ function readRows_() {
     if (!seat || seat === 30) return;
     out.push({ d: r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]), seat: seat, name: String(r[3]),
       redo: String(r[4]).indexOf('錯題重做') >= 0, answered: Number(r[7]) || 0, right: Number(r[8]) || 0 });
+  });
+  return out;
+}
+
+// 「作答明細」某一題型的逐題資料，依每次交卷合併成一列（格式同 readRows_）
+function readDetail_(kindZh) {
+  const tz = 'Asia/Taipei', sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
+  const out = [], by = {};
+  if (!sh || sh.getLastRow() < 2) return out;
+  sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues().forEach(function (r) { // A:K
+    const seat = parseInt(r[1], 10);
+    if (!seat || seat === 30 || String(r[6]) !== kindZh) return;
+    const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).slice(0, 10);
+    const k = seat + '|' + String(r[10]);
+    let t = by[k];
+    if (!t) { t = by[k] = { d: d, seat: seat, name: String(r[2]), redo: Number(r[9]) === 1, answered: 0, right: 0 }; out.push(t); }
+    t.answered++; t.right += Number(r[7]) === 1 ? 1 : 0;
   });
   return out;
 }
