@@ -1,0 +1,32 @@
+738e181797|maybe,indeed
+ec533fee5f|seldom,often,indeed,luckily|Most people don't like rain, but I ____ like rainy days.
+6f298926a9|brave,perfect|She likes to be ____. She doesn't like crowds.
+2c846f5d10|understand
+572bfaef07|learn,stop|Everyone makes mistakes. Don't be afraid to ____.
+25f5070617|safe
+2ed1e49a4d||The clerk was very ____. She answered all my questions.
+db7071f583|fast
+6ecc8b72f5|angry,mad
+671128ea1b|Cook
+cc7646d71f|tomatos
+d451599cce|away
+be4a0cb3d5|hide,build,push|The Count (伯爵) on Sesame Street (芝麻街) loves numbers and likes to ____ things.
+2041f64740|breads,pasts
+c94043650c|flus,sleeps,plastics
+cb176fe669|healths,smokes,middles
+cb59f7d75f|wish
+37b10e43a2|delicious,yummy
+6213ed1ac7|exciting
+c57ac7b08a|cool
+e212009097||I'm ____. Can I have a sandwich?
+fdcb6d182c||Are you ____? There's some cake in the fridge.
+71134d805c|expensive
+d85e598195|comfortable,private
+8a3ccadec9|future
+e2b56528cc|rather
+6c0957883c|favorite
+3f9cec8d7b|natures
+4b7ed66c4e|perhaps
+8121668e53|finally
+25893c2547|right
+47cc840891|homeworks

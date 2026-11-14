@@ -1,0 +1,31 @@
+9d58b38794|low,clear
+cf65430d14|datas
+689e4d4cbb|spell
+f8cea7bd3b|spell,sign
+0f02840d69|calculate
+265c5b15ee|weak|My grandpa is old and ____. He gives me good advice.
+95243251d4|lazy,brave
+571edc6771|touch,attack|Ron (榮恩) is afraid of spiders, so he tries to ____ them.
+6af26d864e|refuse,choose
+ffaa850fba|imagine
+a9cb271430|natures,sugars
+da8c3cca8c|patiences,hurries
+682dd02cfa|porks
+0c29d45ee4|quizs
+5e3503fb80|polices
+1743b73d9f||The plan was ____. Everything went well.
+54ce11a749|fun,perfect
+123bbc28ab|careful
+16522c1d4e|tooths,knifes,safeties
+1d62f9d9c2|garbages,breads
+48025d9ae8|sugars,chocolates
+ebe781b28a|stomaches,visitors,guests
+575de81c3c|snack
+bf9c78b799|||n
+f7e80b498f|||n
+84ff679b3e|excited
+6385ade2e8|||adj
+980ab735a9|hold,end,keep||v
+6fc1349825|slowly
+44ea0ff5e7|busy
+ef7fd73b79|full
