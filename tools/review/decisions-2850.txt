@@ -1,0 +1,35 @@
+bb733a0fe2|Sharks,Harms
+8ae6e7d27c|Chesses,Progresses,Conveniences
+deac6b029f|quizs,volleyballs
+e007a5fe04|Fireworkses
+0423a256fa|mouse
+466ddfdf80|Heros,Sugars,Centuries
+3cbc5e3279|tiger
+9ce4e4e8ec|Technologies,Autumns,Jeanses
+d8c7c05adb|heats
+1de14cf26b|tomorrow,online,downtown,outside,somewhere|It's 6 p.m. now. What are you doing ____?
+8d7ca01bbd|tomorrow,online
+be76ed2293|tomorrow,downtown
+eb2b2a42e1|downtown,tomorrow
+5ddccf6393|weekends,downtowns,transportations
+cc268ba461|dinings,courages
+da1ca4651d|polices,pressures,natures,weekends
+fa73fa6b21|centuries
+a1018f49ad|weekday
+e74bca62d3|weekday
+fe681d5224|vacation,weekday
+5da2f566c1|polices,cashes,coffees
+88053b54e8|tonight,downtown,online,early
+9a5318a743|tonight,online
+9ee6c9da37|tonight,downtown,online
+d5bfaa3a69|Tonight
+166c3133ec|downtown
+dde92f2dac|early,later,finally
+ffe2eab10e|outside,later
+9e42e4ae99|answer,question
+c8bd9707c7|report
+4c60f0784c|private
+4aa75b9032|machine
+a31a7b1466||Look at the ____. The movie is starting.
+b6436385f0|polices,transportations
+14be6e9802|norths,researches

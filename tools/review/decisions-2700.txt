@@ -1,0 +1,35 @@
+0e2c06e778|cool
+709f5eb2db|snowy
+aeadba81a4|snowy,sunny
+f75691f750|warm,wet
+503ce76027|cloudy,windy,sunny|It was a cold and ____ day. We built a snowman.
+a06aa6e4d0|safe,familiar
+a3cd2e1e9a|cool,windy
+b81e87106f|rainy,windy
+25733ef123|cloudy
+7db6a2359c|snowy,rainy,windy|It will be ____ tomorrow. Don't forget your sunglasses.
+4794f359f4|warm,comfortable,dangerous,awful
+5b9c8e15d0|strong,rainy
+9abd688fcc|cloudy
+7cd719d4a4|heat
+532e721ef4|storm
+6ead70351d|cloudy
+6fdff6f524|clean,public
+d08a07ec98|cloudy,windy
+017ca12948|geographies,jeanses
+d576a9785e|fats
+0165176574|friendly,strong,amazing,beautiful
+dde3676f59|sunny,cloudy,clear|It's ____ today. We don't need our coats.
+31bfc04a02|lake
+3fa2a27e17|mountain
+24b930d74e|sea
+6f6cc843db|beach
+8baedc9f9c|fishings
+04314956fb|heats
+2c06daf712|fishings
+9c1c0cdfeb|snake
+fc4434c577|badmintons
+2531e64e7c|centuries,salaries,turtles
+d157b6efd9|autumns,springs
+aebc464920|Patiences,Quizs,Pressures
+4eea1ef19a|shortses
