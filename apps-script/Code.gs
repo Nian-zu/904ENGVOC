@@ -4,6 +4,8 @@
  * 再「部署 → 新增部署作業 → 網頁應用程式」，存取權選「所有人」。
  */
 const SHEET_NAME = '成績';
+const DETAIL_NAME = '作答明細';   // 每題一列，給老師儀表板用（找不到會自動建立）
+const DETAIL_HEAD = ['日期', '座號', '姓名', '回', '題號', '單字', '題型', '答對', '選的', '訂正', '交卷時間'];
 // 直接指定試算表，不論這段程式放在哪個 Apps Script 專案都會寫進同一份試算表
 const SPREADSHEET_ID = '1v_YtQtmFH29t1Zugvi4A8pej9MHkGRB7_Oe9VtpiK3o';
 function sheet_() {
@@ -26,12 +28,17 @@ function doPost(e) {
 
     // 重新計分
     const key = loadKey_();
+    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞' };
+    const range = String(body.range || '').slice(0, 120);
+    const redo = range.indexOf('錯題重做') >= 0 ? 1 : 0;
     let right = 0;
-    const wrong = [];
+    const wrong = [], detail = [];
     answers.forEach(function (a) {
-      const k = key[parseInt(a[0], 10)];
+      const id = parseInt(a[0], 10), k = key[id];
       if (!k) return;
-      if (k[0] === parseInt(a[1], 10)) right++; else wrong.push(k[1]);
+      const ok = k[0] === parseInt(a[1], 10);
+      if (ok) right++; else wrong.push(k[1]);
+      detail.push([id, k, ok, String(a[2] == null ? '' : a[2]).slice(0, 40), kindZh[a[3]] || '']);
     });
     const answered = answers.length;
     const total = Math.max(answered, Math.min(300, parseInt(body.total, 10) || answered));
@@ -45,7 +52,7 @@ function doPost(e) {
     const row = [
       '=DATE(' + p[0] + ',' + p[1] + ',' + p[2] + ')+TIME(' + p[3] + ',' + p[4] + ',' + p[5] + ')',
       '=DATE(' + p[0] + ',' + p[1] + ',' + p[2] + ')',
-      seat, "'" + name, "'" + String(body.range || '').slice(0, 120),
+      seat, "'" + name, "'" + range,
       kinds[body.kind] || '全部', total, answered, right, score, seconds,
       answered >= total ? '是' : '否', wrong.slice(0, 100).join(' ')
     ];
@@ -54,7 +61,16 @@ function doPost(e) {
     lock.waitLock(20000);
     try {
       const sh = sheet_();
-      sh.getRange(sh.getLastRow() + 1, 1, 1, row.length).setValues([row]);
+      append_(sh, [row]);
+      const day = "'" + p[0] + '-' + ('0' + p[1]).slice(-2) + '-' + ('0' + p[2]).slice(-2);
+      const stamp = "'" + day.slice(1) + ' ' + ('0' + p[3]).slice(-2) + ':' + ('0' + p[4]).slice(-2) + ':' + ('0' + p[5]).slice(-2);
+      const rows = detail.map(function (x) {
+        return [day, seat, "'" + name, 'D' + (183 - x[1][2]), x[0], "'" + x[1][1], x[4], x[2] ? 1 : 0, "'" + x[3], redo, stamp];
+      });
+      if (rows.length) {
+        const dt = detailSheet_();
+        append_(dt, rows);
+      }
     } finally {
       lock.releaseLock();
     }
@@ -106,6 +122,24 @@ function doGet(e) {
       rate: s.answered ? Math.round(s.right / s.answered * 100) : 0 });
   });
   return out_({ ok: true, period: period, from: from, today: today, top: top });
+}
+
+// 接在最後一列後面；工作表列數不夠時先加列
+function append_(sh, rows) {
+  const at = sh.getLastRow() + 1, need = at + rows.length - 1 - sh.getMaxRows();
+  if (need > 0) sh.insertRowsAfter(sh.getMaxRows(), Math.max(need, 500));
+  sh.getRange(at, 1, rows.length, rows[0].length).setValues(rows);
+}
+
+function detailSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName(DETAIL_NAME);
+  if (!sh) {
+    sh = ss.insertSheet(DETAIL_NAME);
+    sh.getRange(1, 1, 1, DETAIL_HEAD.length).setValues([DETAIL_HEAD]).setFontWeight('bold');
+    sh.setFrozenRows(1);
+  }
+  return sh;
 }
 
 function loadKey_() {

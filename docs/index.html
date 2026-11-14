@@ -363,7 +363,7 @@ function answer(oi){
   const s = session; if (s.answered) return; s.answered = true;
   const q = DATA.bank[s.items[s.i]], ok = oi === q.c;
   if (ok) s.right++; else s.wrong.push({qi: s.items[s.i], pick: oi});
-  s.log.push([q.r ?? s.items[s.i], oi]);  // 誘答變化題用原題編號計分（答案位置相同）
+  s.log.push([q.r ?? s.items[s.i], oi, q.o[oi], q.k]);  // 誘答變化題用原題編號計分（答案位置相同）；選的字與題型給老師儀表板
   $('qOpts').querySelectorAll('.opt').forEach(b => {
     const v = +b.dataset.oi; b.disabled = true;
     if (v === q.c) b.classList.add('ok'); else if (v === oi) b.classList.add('bad');
