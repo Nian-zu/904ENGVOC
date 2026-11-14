@@ -1,0 +1,31 @@
+f5c3540e38|show
+3f39a02018|health,weather,train
+75a4bd65ce|tour,course
+29b157b822|citizens
+a051a2da67|nurse
+aefbb7f586|laundries,arts,fishings,wastes,humans
+8500be35ec|guitar
+f582b22e89|fruit
+6de5e97950|reward
+720a195e22|businessmans,mosquitos,porks,wastes
+76d788e280||I bought this ____ in Japan to remember my trip.
+85abce1dd7||There is a(n) ____ near the station. You can get money there.
+a8ac72d651||I need to go to the ____ to save my money.
+7255070a4e|library,post
+27ca8dc3c6|bridge
+58d73103bf|online
+707d194dc6|online,tomorrow,tonight
+5d1762a057|airport
+bddebb006c|earths,rices,truths
+c70ba8e128|dentist
+3cb9aa7d5f|clerk
+02a811c4ae|manager
+3d97def679|coach
+58c2031693|artist
+c7314e2a25|nurse
+458b8421b0|pressures,researches,weathers
+79319650c3|businessman
+fd12e9cb30|message,souvenir
+ea31934f5f|reporter
+3a1441172e|windy,beautiful
+61f0237886|sunny|It's ____ today. I can't see the sun.
