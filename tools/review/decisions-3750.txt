@@ -1,0 +1,25 @@
+c67f2bf052|norths
+e6dc34fb15|hobby
+15bd91a987|update
+6956d36be9|problem
+518b1d9494|weathers,sleeps
+2c7a5d39ea|check
+f308b9727e|leave
+02ee50f2c9|centuries,earths
+696f0ffd2f|butters,fishings
+7bdde20636|get
+adddecb3c7|journey
+55fa237113|advices,plastics,centuries
+728a392c5a|guests,advices
+a9cf4b782e|midnights,sciences
+ba73ef5537||He is a(n) ____ boy. He is always happy and smiling.
+224041a22c||He is a(n) ____ student. He always does his job well.
+30e53f6a34|excellent,special
+e62c838132||My dad is ____. He tells funny jokes.
+c11ae595dd|medias,societies
+e042bb0132|chopstickses
+9c7efe7a01|maths
+f35ed1290f|energies
+1965721cbd|importance
+61fad5d3fe|gather
+748a1fa022|gather

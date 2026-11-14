@@ -1,0 +1,13 @@
+d57bde19f4|qualities
+c27e993ede|punish
+67f04342cc|lie,move||v
+c333d06e38|push,surprise
+faf8673aab|attack
+a60cd0a35b|forgive
+55d5382d49|risk
+b312008138||I like ____. Hard things make me stronger.
+ade606af7f|quizs
+85d6819f37|need
+27d270e237|attentions,salaries
+94eb795c82|societies
+17113da6b9|weathers
