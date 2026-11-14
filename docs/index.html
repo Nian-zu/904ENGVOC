@@ -111,6 +111,13 @@ input[type=text]{flex:1;min-width:200px}
 .board tr.r3 .rk{background:#e8c7a6;border-color:#e8c7a6;color:#3a2410}
 .board tr.me td{font-weight:700}
 .board .empty{color:var(--muted);padding:12px 0}
+.titles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:10px 0 12px}
+.ttl{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--paper)}
+.ttl b{display:block;font-size:.8rem;color:var(--muted)}
+.ttl .who{font-weight:900;font-size:1.02rem;margin:2px 0}
+.ttl .val{font-size:.85rem;font-variant-numeric:tabular-nums}
+.ttl small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px;line-height:1.35}
+.ttl.mine{border-color:var(--chalk);box-shadow:0 0 0 1px var(--chalk) inset}
 .upload{padding:10px 14px;border-radius:10px;background:var(--paper);border:1px solid var(--line);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .upload.ok{border-color:var(--ok);background:var(--ok-bg)}
 .upload.bad{border-color:var(--bad);background:var(--bad-bg)}
@@ -516,7 +523,9 @@ async function loadBoard(){
     if (!j.top || !j.top.length) { body.textContent = '這段期間還沒有人交卷，搶第一名吧！'; return; }
     const me = +$('seat').value;
     body.className = '';
-    body.innerHTML = '<table><thead><tr><th>名次</th><th>座號</th><th>名字</th><th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th></tr></thead><tbody>' +
+    const icon = {strong: '👑', sharp: '🎯', up: '📈', busy: '📅', streak: '🔥'};
+    const titles = (j.titles || []).map(t => `<div class="ttl${t.who.some(w => w.seat === me) ? ' mine' : ''}"><b>${icon[t.key] || '🏅'} ${esc(t.label)}</b><div class="who">${t.who.map(w => esc(w.given)).join('、')}${t.more ? ` 等 ${t.more + t.who.length} 人` : ''}</div><div class="val">${esc(t.value)}</div><small>${esc(t.desc)}</small></div>`).join('');
+    body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + '<table><thead><tr><th>名次</th><th>座號</th><th>名字</th><th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th></tr></thead><tbody>' +
       j.top.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${esc(x.given ?? givenName(x.name))}</td><td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${x.rate}%</td></tr>`).join('') +
       '</tbody></table>';
   } catch (e) { body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; }
