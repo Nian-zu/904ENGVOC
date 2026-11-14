@@ -31,3 +31,5 @@ b9faa7d595|familiar,helpful,fair,sad
 713018063c|wild
 97a5464a20|angry
 84c4b3bc96|valuable
+d968d69517|sell
+4f11a24c0c|exercise
