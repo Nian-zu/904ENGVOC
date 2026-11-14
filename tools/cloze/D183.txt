@@ -172,3 +172,103 @@ On a small farm, there was a rooster named Rocky. Every rooster on the farm crow
 + fox = 狐狸
 + weird = 奇怪的
 = 在一座小農場裡，有一隻叫 Rocky 的公雞。農場裡每隻公雞都在日出時啼叫，但 Rocky 不會，他只能發出像門吱吱響的小聲音，其他動物都笑他。Rocky 很難過，想要放棄。有一天晚上，一隻狐狸跑進農場。所有動物都睡著了，但 Rocky 看到了牠，因為他還醒著在練習唱歌。他張開嘴，發出他那奇怪的吱吱聲。聲音又大又怪，狐狸嚇壞了，轉身就跑！隔天早上，大家開始叫 Rocky 英雄。現在 Rocky 知道，與眾不同有時候比跟大家一樣更好。
+
+## 寫給未來的信
+In our English class, the teacher asked us to write a letter to ourselves. We will open it [[just|than|about|because]] before we graduate from senior high school. At first, I did not know what to write. Then I [[started|gave|found|changed]] with simple things: my favorite food, my best friends, and my dream job. I wrote that I want to be a game designer [[because|than|about|just]] I love creating new worlds. I also wrote some questions. "Did you [[learn|give|find|change]] to play the guitar?" "Are you still afraid of dogs?" Finally, I wrote, "Don't forget who you are, even if many things [[change|give|find|learn]]." I put the letter in an envelope and handed it to the teacher. I can't wait to read it in three years.
+> 1 just before …「就在…之前」：我們會在高中畢業前夕打開它。than、about、because 都不能放在 before 前面這樣用。
+> 2 start with …「從…開始」：我從簡單的事開始寫。gave with、found with、changed with 都不通。
+> 3 because 說明原因：我想當遊戲設計師，因為我喜歡創造新世界。
+> 4 learn to + 原形動詞「學會…」：你學會彈吉他了嗎？give to、find to、change to 都不對。
+> 5 things change「事情改變」，change 在這裡不需要受詞。give、find、learn 後面通常要接受詞，放在句尾不通。
++ graduate = 畢業
++ designer = 設計師
++ guitar = 吉他
++ envelope = 信封
+= 英文課上，老師要我們寫一封信給自己，我們會在高中畢業前夕打開它。一開始，我不知道要寫什麼。後來我從簡單的事開始寫：我最喜歡的食物、最好的朋友，還有夢想的工作。我寫說我想當遊戲設計師，因為我喜歡創造新世界。我也寫了一些問題：「你學會彈吉他了嗎？」「你還怕狗嗎？」最後我寫：「就算很多事情改變了，也別忘了你是誰。」我把信放進信封交給老師。我等不及三年後讀它了。
+
+## 超市機器人 Bobo
+A new supermarket opened in our town. It has a robot helper named Bobo. If you cannot [[find|give|learn|change]] something, you can ask Bobo, and it will take you there. One day, Mrs. Wu asked Bobo, "Where is the milk?" Bobo said, "Follow me!" and [[started|gave|learned|found]] to roll away. But it went to the toy section instead! Mrs. Wu laughed. "I asked [[about|than|because|just]] milk, not toys." Bobo stopped and said, "Sorry. Today there is a sale on toy cows." Everyone around them laughed. The manager quickly [[changed|gave|learned|found]] Bobo's program, and now it works well. Still, many kids ask Bobo about milk on purpose [[because|than|about|just]] they want to see the toy cows again.
+> 1 find「找到」：如果找不到東西，可以問 Bobo。give、learn、change 都不是「找到」。
+> 2 start to + 原形動詞「開始…」：Bobo 開始往前滾。gave to、learned to、found to 都不對。
+> 3 ask about …「詢問有關…」：我問的是牛奶，不是玩具。than、because、just 都不能接在 asked 後面這樣用。
+> 4 change the program「修改程式」。gave、learned、found 接 Bobo's program 意思不通。
+> 5 because 說明原因：很多小孩故意問牛奶，因為他們想再看一次玩具牛。
++ supermarket = 超市
++ robot = 機器人
++ section = 區域
++ sale = 特價
++ on purpose = 故意
+= 我們鎮上新開了一間超市，裡面有一個叫 Bobo 的機器人小幫手。如果你找不到東西，可以問 Bobo，它會帶你過去。有一天，吳太太問 Bobo：「牛奶在哪裡？」Bobo 說：「跟我來！」然後開始往前滾，結果卻跑到了玩具區！吳太太笑了：「我問的是牛奶，不是玩具。」Bobo 停下來說：「抱歉，今天玩具乳牛在特價。」旁邊的人都笑了。經理很快修改了 Bobo 的程式，現在它運作得很好。不過，還是有很多小孩故意問 Bobo 牛奶在哪裡，因為他們想再看一次玩具乳牛。
+
+## 考試前一晚
+It was the night before the big exam. Amy opened her book and [[started|gave|found|changed]] to read, but she could not focus. Her phone kept buzzing. "Just one message," she told herself. One message became twenty. Soon it was midnight, and she had [[just|than|about|because]] finished one page. She felt worried. Then she remembered her teacher's advice: "Sleep is more important [[than|about|because|just]] one more hour of study." So she turned off her phone and went to bed. The next morning, she woke up early and reviewed the most important parts. The test was not easy, but she did fine. Now Amy knows something [[about|than|because|just]] herself: she should keep her phone away when she studies. She also [[learned|gave|started|changed]] that a good night's sleep really helps.
+> 1 start to + 原形動詞「開始…」：她打開書開始讀。gave to、found to、changed to 都不對。
+> 2 just「才、只」：到了半夜，她才讀完一頁。than、about、because 放在 had 和過去分詞中間都不通。
+> 3 more important than …「比…更重要」，前面有 more，後面接 than。
+> 4 know something about herself「了解自己的一件事」，about 表示「關於」。
+> 5 learn that + 句子「明白…」：她也明白一夜好眠真的有幫助。gave that、started that、changed that 都不通。
++ focus = 專心
++ buzz = （手機）震動
++ advice = 建議
++ review = 複習
+= 那是大考的前一晚。Amy 打開書開始讀，卻沒辦法專心，她的手機一直震動。「只看一則訊息就好。」她對自己說。結果一則變成二十則。很快就到了半夜，她才讀完一頁。她很擔心。這時她想起老師的建議：「睡眠比多讀一小時更重要。」於是她關掉手機去睡覺。隔天早上，她早早起床，複習了最重要的部分。考試不簡單，但她考得還不錯。現在 Amy 了解自己一件事：讀書時應該把手機放遠一點。她也明白了，一夜好眠真的很有幫助。
+
+## 第一次搭高鐵
+Last summer, I took the High Speed Rail for the first time. My family wanted to visit my aunt in Kaohsiung. The train was much faster [[than|about|because|just]] our car. It took only ninety minutes! On the train, I sat next to an old man. He told me stories [[about|than|because|just]] Taiwan fifty years ago. Back then, the same trip took almost a whole day. "Things [[change|give|find|learn]] so fast," he said with a smile. When we arrived, he [[gave|learned|started|changed]] me a piece of candy and said, "Enjoy your trip, young man." I still remember him [[because|than|about|just]] he made my first train ride so special.
+> 1 faster than our car「比我們家的車快」，比較級 faster 後面接 than。
+> 2 stories about …「關於…的故事」：他告訴我五十年前台灣的故事。
+> 3 things change「事情改變」：世界變化得好快。give、find、learn 後面通常要有受詞，放在這裡不通。
+> 4 give + 人 + 物：他給了我一顆糖。learned、started、changed 不能接「人＋物」。
+> 5 because 說明原因：我還記得他，因為他讓我第一次搭火車的經驗很特別。
++ High Speed Rail = 高鐵
++ Kaohsiung = 高雄
+= 去年夏天，我第一次搭高鐵。我們全家要去高雄看阿姨。高鐵比我們家的車快多了，只花了九十分鐘！在車上，我坐在一位老先生旁邊。他跟我說五十年前台灣的故事：那時候，同樣的路程幾乎要花一整天。「世界變得好快啊。」他笑著說。到站時，他給了我一顆糖，說：「年輕人，旅途愉快。」我到現在還記得他，因為他讓我第一次搭火車的經驗變得好特別。
+
+## 懶惰的皮卡丘
+In a small town, there was a lazy Pikachu named Pika. Unlike other Pikachu, Pika did not like to use electricity. "It makes me tired," he said. One evening, the town lost power. The streets were dark, and the children were scared. The mayor asked Pika for help, but Pika [[just|than|about|because]] shook his head. Then he heard a little girl crying [[because|than|about|just]] she could not find her mother in the dark. Pika felt bad. He took a deep breath and [[gave|learned|found|changed]] the town all his power. Lights came on everywhere, and the girl found her mom. Pika was tired, but he felt happier [[than|about|because|just]] ever. From that day on, he [[started|found|gave|changed]] to use his power to help others.
+> 1 just「只是」：皮卡丘只是搖搖頭。than、about、because 放在主詞和動詞中間都不通。
+> 2 because 說明原因：小女孩在哭，因為她在黑暗中找不到媽媽。
+> 3 give + 物 + 人：他把全部的電力給了整個小鎮 gave the town all his power。learned、found、changed 不能接「人＋物」。
+> 4 happier than ever「比以往都開心」，比較級後面接 than。
+> 5 start to + 原形動詞「開始…」：從那天起，他開始用電力幫助別人。found to、gave to、changed to 都不對。
++ Pikachu = 皮卡丘
++ electricity = 電
++ power = 電力；力量
++ mayor = 鎮長
+= 在一個小鎮上，有一隻叫 Pika 的懶惰皮卡丘。和其他皮卡丘不一樣，Pika 不喜歡放電。「放電會讓我很累。」他說。有一天傍晚，小鎮停電了，街道一片漆黑，孩子們都很害怕。鎮長請 Pika 幫忙，但 Pika 只是搖搖頭。接著他聽到一個小女孩在哭，因為她在黑暗中找不到媽媽。Pika 覺得很難過，他深吸一口氣，把全部的電力都給了小鎮。到處的燈都亮了，小女孩也找到了媽媽。Pika 很累，卻比以往都開心。從那天起，他開始用自己的電力幫助別人。
+
+## 我的豆子朋友
+For my science class, I had to grow a bean plant and write about it. I put the seed in a cup of soil and [[gave|learned|started|changed]] it water every morning. Nothing happened for four days. I was ready to [[give|find|learn|start]] up. Then, on the fifth day, a tiny green leaf came out! I was so excited that I [[started|gave|found|changed]] talking to my plant every day. My sister said I was crazy, but I read [[about|than|because|just]] it online: some people believe plants grow better when you talk to them. After a month, my plant was taller [[than|about|because|just]] my sister's, and she never talked to hers at all!
+> 1 give + 物 + 東西：我每天早上給它澆水 gave it water。learned、started、changed 不能接「物＋東西」。
+> 2 give up「放棄」是固定片語。find up、learn up、start up 都不是「放棄」。
+> 3 start + V-ing「開始做…」：我開始每天跟植物說話。gave talking、found talking、changed talking 都不對。
+> 4 read about …「讀到有關…的資料」：我在網路上讀過相關的資料。
+> 5 taller than my sister's「比我姊姊的（植物）高」，比較級後面接 than。
++ bean = 豆子
++ seed = 種子
++ soil = 土壤
++ leaf = 葉子
+= 自然課要我種一株豆子並寫觀察紀錄。我把種子放進一杯土裡，每天早上幫它澆水。四天過去了，什麼都沒發生，我差點就要放棄了。結果第五天，一片小小的綠葉冒了出來！我興奮到開始每天跟我的植物說話。姊姊說我瘋了，但我在網路上讀過相關的資料：有些人相信，跟植物說話會讓它長得更好。一個月後，我的植物比姊姊的還高，而她從來沒跟她的植物說過話！
+
+## 誰拿了我的便當
+At lunchtime, Jason opened his bag, but his lunch box was not there. "Who took my lunch?" he shouted. He was sure he had brought it [[because|than|about|just]] his mom made his favorite fried rice that morning. The whole class [[started|found|gave|changed]] to look for it. They looked under the desks and in the hallway. Finally, Mia found it in the teachers' office. "Oh, I [[just|than|about|because]] remembered," said Mr. Lee, their homeroom teacher. "I saw your lunch box on the floor this morning, so I took it to my office." Jason laughed and [[gave|learned|started|changed]] Mr. Lee some fried rice to say thank you. It was a happier ending [[than|about|because|just]] he expected.
+> 1 because 說明原因：他確定有帶便當，因為媽媽那天早上做了他最愛的炒飯。
+> 2 start to + 原形動詞「開始…」：全班開始幫忙找。found to、gave to、changed to 都不對。
+> 3 just「剛剛」：我剛剛才想起來。than、about、because 放在主詞和動詞中間都不通。
+> 4 give + 人 + 物：Jason 分給李老師一些炒飯表示感謝。learned、started、changed 不能接「人＋物」。
+> 5 happier than he expected「比他預期的更開心」，比較級後面接 than。
++ fried rice = 炒飯
++ hallway = 走廊
++ homeroom teacher = 導師
+= 午餐時間，Jason 打開書包，便當卻不見了。「誰拿了我的便當？」他大喊。他很確定有帶便當，因為媽媽那天早上做了他最愛的炒飯。全班開始幫忙找，大家找了桌子底下，也找了走廊。最後，Mia 在教師辦公室找到了它。「喔，我剛剛才想起來，」導師李老師說，「我今天早上看到你的便當在地上，就把它拿到辦公室了。」Jason 笑了，分給李老師一些炒飯當作謝禮。這個結局比他預期的開心多了。
+
+## 換位子
+On the first day of the new semester, our teacher said we could [[change|give|find|learn]] seats. Everyone ran to sit with their best friends. I sat next to Kevin [[because|than|about|just]] we always laugh at the same jokes. But after one week, our grades went down. We talked [[about|than|because|just]] games all the time in class. So the teacher [[gave|learned|started|changed]] us new seats. I had to sit next to Lily, the quietest girl in the class. At first, I was unhappy. But soon I learned that she was really funny, and she helped me with math. Now my math grade is higher [[than|about|because|just]] ever. Sometimes the change we don't want is the change we need.
+> 1 change seats「換座位」是常見說法。give seats、find seats、learn seats 在這裡意思不通。
+> 2 because 說明原因：我坐在 Kevin 旁邊，因為我們總是被同樣的笑話逗笑。
+> 3 talk about …「談論…」：我們上課一直在聊遊戲。
+> 4 give + 人 + 物：老師給了我們新的座位。learned、started、changed 不能接「人＋物」。
+> 5 higher than ever「比以往都高」，比較級後面接 than。
++ semester = 學期
++ grade = 成績
+= 新學期的第一天，老師說我們可以換座位，每個人都跑去跟最好的朋友坐。我坐在 Kevin 旁邊，因為我們總是被同樣的笑話逗笑。但一個星期後，我們的成績退步了，因為我們上課一直在聊遊戲。於是老師給我們換了新座位。我得坐在全班最安靜的 Lily 旁邊。一開始我很不開心，但很快我就發現她其實很有趣，還會教我數學。現在我的數學成績比以往都好。有時候，我們不想要的改變，正是我們需要的改變。
