@@ -97,12 +97,12 @@ In math class, Mr. Huang asked a hard question. Nobody raised a hand. Then Lily,
 = 數學課上，黃老師問了一個很難的問題，沒有人舉手。這時，安靜的女生 Lily 說：「是 42 嗎？」她答對了！大家都很驚訝，因為 Lily 上課常常一句話也不說。下課後，我問她是怎麼辦到的。「我每天晚上都試著解一道難題。」她說。那天之後，Lily 變得很受歡迎，大家都想跟她一起讀書。
 
 ## 群組裡的假新聞
-One day, my uncle shared some [[news|business|weather|homework]] in our family chat: "Drinking cold water after meals can cause cancer!" Many relatives believed it [[because|than|about|just]] the message looked serious. My sister is a doctor, so she [[decided|became|kept|showed]] to check it. She found that the story was fake. "Messages like this are [[popular|likely|right|free]] online," she said, "but they are not true." [[However|Because|Often|Every]], my uncle still drinks warm water after meals, just in case.
+One day, my uncle shared some [[news|business|weather|homework]] in our family chat: "Drinking cold water after meals can cause cancer!" Many relatives believed it [[because|than|about|just]] the message looked serious. My sister is a doctor, so she [[decided|became|kept|showed]] to check it. She found that the story was fake. "Messages like this are [[popular|likely|right|last]] online," she said, "but they are not true." [[However|Because|Often|Every]], my uncle still drinks warm water after meals, just in case.
 > 1 share some news「分享一則消息」。business、weather、homework 都不合理。
-> 2 because 說明原因：很多親戚相信，因為訊息看起來很正式。
+> 2 because 說明原因：很多親戚相信，因為訊息看起來很正式。than、about、just 都不能連接兩個句子表原因。
 > 3 decide to + 原形動詞「決定…」：姊姊決定查證一下。became to、kept to、showed to 都不對。
-> 4 popular「流行的、很多人傳的」：這種訊息在網路上很流行。likely、right、free 都不合理。
-> 5 However「然而；不過」表示轉折：不過舅舅飯後還是喝溫水，以防萬一。
+> 4 popular「流行的、很多人傳的」：這種訊息在網路上很流行。be likely 後面要接 to 或句子；right online、last online 都不通。
+> 5 However「然而；不過」表示轉折：不過舅舅飯後還是喝溫水，以防萬一。Because 後面要接完整子句，不能加逗號單獨放句首；Often、Every 都不能表示轉折。
 + chat = 聊天群組
 + relative = 親戚
 + cancer = 癌症
