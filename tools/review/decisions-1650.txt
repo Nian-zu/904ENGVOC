@@ -1,0 +1,29 @@
+090e15371c|honest
+74f73a25e1|honest|Master Oogway (烏龜大師) is very ____. He never gets angry when Po makes mistakes.
+7db7bc9953|energies,fevers,scissorses,downtowns
+7deb5e2c64|nurse,finger
+8f0cdf6b5b|angry
+b341177d16|mad
+f4e6c30e35|upset
+faf93da4f8|bored
+3d9ffe3013|confident
+08a914443e|unhappy|Mom looked ____. She kept asking where my brother was.
+291b3362b7|excited
+02a9ca2f3b|excited
+5b9ccde6a9||She looked ____. She didn't know about the party.
+a521de4f53|worried
+bb64add135|knowledges
+f847431dd0|rices,sceneries
+5e2c3e684a|shelfs,maths
+92071830ec|shortses
+a7002a49de|soccers
+df0126a34a|knowledges
+eb7bc630c4|beefs,wastes
+512f6f8c5a|wastes
+d475074f93|laugh
+50613197de|young
+0b93b365bc|tired
+e8f9f03e82|nervous
+61c48a7fab|Sleep
+9656a58f79|garbages
+d40d89f4b4|||v
