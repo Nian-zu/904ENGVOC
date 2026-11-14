@@ -27,8 +27,10 @@ function doPost(e) {
     if (!answers.length) return out_({ ok: false, error: '沒有作答資料' });
 
     // 重新計分
-    const key = loadKey_();
-    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞' };
+    let key = loadKey_();
+    // 新加的克漏字題號可能還不在快取裡：缺題號就重新抓一次答案檔
+    if (answers.some(function (a) { return !key[parseInt(a[0], 10)]; })) key = loadKey_(true);
+    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字' };
     const range = String(body.range || '').slice(0, 120);
     const redo = range.indexOf('錯題重做') >= 0 ? 1 : 0;
     let right = 0;
@@ -44,7 +46,7 @@ function doPost(e) {
     const total = Math.max(answered, Math.min(300, parseInt(body.total, 10) || answered));
     const score = Math.round(right / answered * 100);
     const seconds = Math.max(0, Math.min(36000, parseInt(body.seconds, 10) || 0));
-    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞' };
+    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字' };
 
     // 台灣時間
     const now = new Date();
@@ -53,7 +55,7 @@ function doPost(e) {
       '=DATE(' + p[0] + ',' + p[1] + ',' + p[2] + ')+TIME(' + p[3] + ',' + p[4] + ',' + p[5] + ')',
       '=DATE(' + p[0] + ',' + p[1] + ',' + p[2] + ')',
       seat, "'" + name, "'" + range,
-      kinds[body.kind] || '全部', total, answered, right, score, seconds,
+      (String(body.kind || 'all').split('+').map(function (k) { return kinds[k]; }).filter(Boolean).join('、') || '全部'), total, answered, right, score, seconds,
       answered >= total ? '是' : '否', wrong.slice(0, 100).join(' ')
     ];
 
@@ -278,9 +280,9 @@ function givenName(n) {
   return n.slice(cut) || n;
 }
 
-function loadKey_() {
+function loadKey_(fresh) {
   const cache = CacheService.getScriptCache();
-  const parts = cache.get('key_parts');
+  const parts = fresh ? null : cache.get('key_parts');
   if (parts) {
     const n = parseInt(parts, 10), keys = [];
     for (let i = 0; i < n; i++) keys.push('key_' + i);

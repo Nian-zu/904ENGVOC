@@ -45,6 +45,17 @@ main{padding:18px 16px 40px}
 .seg{justify-self:start;display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;gap:3px;background:var(--paper);flex-wrap:wrap}
 .seg button{border:0;background:transparent;color:var(--ink);padding:6px 14px;border-radius:999px;font-weight:500}
 .seg button[aria-pressed="true"]{background:var(--board);color:#fff}
+.seg.multi button::before{content:'☐ ';opacity:.6}
+.seg.multi button[aria-pressed="true"]::before{content:'☑ ';opacity:1}
+.passage{font-family:var(--font-en);font-size:1.15rem;line-height:2;margin:6px 0 14px;text-wrap:pretty}
+.cb{display:inline-block;min-width:4.2em;padding:0 6px;margin:0 2px;border-bottom:3px solid var(--line);text-align:center;color:var(--muted);font-weight:700;line-height:1.4}
+.cb.cur{border-color:var(--chalk);background:#fff6d6;color:var(--ink)}
+.cb.ok{border-color:var(--ok);color:var(--ok)}
+.cb.bad{border-color:var(--bad);color:var(--bad)}
+.cgloss{font-size:.88rem;color:var(--muted);background:var(--paper);border:1px dashed var(--line);border-radius:10px;padding:8px 12px;margin:-4px 0 14px;line-height:1.6}
+.cgloss b{color:var(--ink);font-family:var(--font-en)}
+.feedback .why{font-size:.95rem}
+.feedback .trans{margin-top:6px;padding-top:8px;border-top:1px dashed var(--line);font-size:.95rem;line-height:1.7}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 select,input[type=text]{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);min-width:0}
 input[type=text]{flex:1;min-width:200px}
@@ -184,13 +195,15 @@ input[type=text]{flex:1;min-width:200px}
   </div>
 
   <div class="field">
-    <div class="label">題型</div>
-    <div class="seg" role="group" aria-label="題型">
-      <button data-k="all" aria-pressed="true">全部</button>
-      <button data-k="word" aria-pressed="false">單字選擇</button>
-      <button data-k="verb" aria-pressed="false">動詞變化</button>
-      <button data-k="prep" aria-pressed="false">介系詞搭配</button>
+    <div class="label">題型（可複選）</div>
+    <div class="seg multi" role="group" aria-label="題型（可複選）">
+      <button data-k="all" aria-pressed="true">全選</button>
+      <button data-k="word" aria-pressed="true">單字選擇</button>
+      <button data-k="verb" aria-pressed="true">動詞變化</button>
+      <button data-k="prep" aria-pressed="true">介系詞搭配</button>
+      <button data-k="cloze" aria-pressed="true">克漏字</button>
     </div>
+    <div class="hint" id="kindHint">只會出現有勾選的題型。克漏字一篇 5 格，每格算 1 題。</div>
   </div>
 
   <div class="field">
@@ -217,7 +230,8 @@ input[type=text]{flex:1;min-width:200px}
       <div class="hint" id="qProg"></div>
     </div>
     <div class="bar"><span id="qBar"></span></div>
-    <p class="ask">＿＿＿ 處適合填入何者？</p>
+    <p class="ask" id="qAsk">＿＿＿ 處適合填入何者？</p>
+    <div id="qGloss" class="cgloss hidden"></div>
     <div class="sentence" id="qText"></div>
     <div class="opts" id="qOpts"></div>
     <div id="qFb" class="feedback hidden"></div>
@@ -277,7 +291,19 @@ function todayIdx(){
 const $ = id => document.getElementById(id);
 
 
-let mode = 'range', kind = 'all', num = 20;
+let mode = 'range', num = 20;
+// 題型可複選；只有勾選的題型會出題
+const KINDS = ['word', 'verb', 'prep', 'cloze'];
+let types = new Set(KINDS);
+try { const t = JSON.parse(localStorage.getItem('types') || 'null'); if (Array.isArray(t)) types = new Set(t.filter(k => KINDS.includes(k))); } catch (e) {}
+const kindCode = () => types.size === KINDS.length ? 'all' : KINDS.filter(k => types.has(k)).join('+');
+// 克漏字：docs/cloze/index.json 列出各回篇數，作答時才載入該回的文章
+const CLOZE = {units: {}, data: {}};
+fetch('cloze/index.json').then(r => r.json()).then(j => { CLOZE.units = j.units || {}; update(); }).catch(() => {});
+async function loadCloze(units){
+  await Promise.all(units.filter(u => !CLOZE.data[u]).map(u => fetch('cloze/' + u + '.json').then(r => r.json()).then(j => { CLOZE.data[u] = j; })));
+}
+const clozeOf = st => CLOZE.data[st.u].passages[st.p];
 let picked = new Set();
 let session = null;
 
@@ -325,10 +351,12 @@ function pool(){
   const days = selectedDays(); const all = new Set(); const keys = new Set();
   days.forEach(i => DATA.days[i].forEach(qi => {
     const q = DATA.bank[qi];
-    if (kind === 'all' || q.k === kind) { all.add(qi); keys.add(q.g); }
+    if (types.has(q.k)) { all.add(qi); keys.add(q.g); }
   }));
   session_days = new Set(days);
-  return {days, all: [...all], sentences: keys.size};
+  const passages = [];
+  if (types.has('cloze')) days.forEach(i => { const u = DATA.labels[i]; for (let p = 0; p < (CLOZE.units[u] || 0); p++) passages.push({u, p}); });
+  return {days, all: [...all], sentences: keys.size, passages};
 }
 // 每個句子只抽一個版本（隨機選一種誘答），同一次測驗不重複
 function pickItems(all, n){
@@ -340,12 +368,13 @@ let session_days = new Set();
 function update(){
   if (!DATA) return;
   syncQuick();
-  const {days, all, sentences} = pool();
-  const n = num === 0 ? sentences : Math.min(num, sentences);
-  const words = days.reduce((s,i)=>s+DATA.words[i].length,0);
-  $('countLbl').innerHTML = days.length
-    ? ''
-    : '還沒有選天數';
+  const {days, sentences, passages} = pool();
+  const n = sentences + passages.length * 5;
+  let msg = '';
+  if (!days.length) msg = '還沒有選天數';
+  else if (!types.size) msg = '請至少勾選一種題型';
+  else if (types.has('cloze') && !passages.length) msg = types.size === 1 ? '這個範圍還沒有克漏字文章，請換範圍或勾選其他題型。' : '這個範圍還沒有克漏字文章，這次只會出其他勾選的題型。';
+  $('countLbl').textContent = msg;
   const who = $('seat').value && $('sname').value.trim();
   $('startBtn').disabled = n === 0 || !who;
   $('startBtn').textContent = who ? '開始測驗' : '請先填座號和姓名';
@@ -360,14 +389,19 @@ function gloss(q, i){ const o = q.o[i]; return (q.k === 'verb' ? GL['v|' + q.w +
 function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
 function start(items){
-  session = {items, i:0, right:0, wrong:[], answered:false, order: items.map(qi => shuffle([0,1,2,3])),
+  session = {items, i:0, right:0, wrong:[], answered:false, done:{}, order: items.map(() => shuffle([0,1,2,3])),
     log: [], t0: Date.now(), planned: items.length, rangeText: rangeText()};
   $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); $('board').classList.add('hidden');
   show();
 }
 function show(){
-  const s = session, q = DATA.bank[s.items[s.i]];
+  const s = session, st = s.items[s.i];
   s.answered = false;
+  $('qGloss').classList.add('hidden');
+  if (typeof st === 'object') return showCloze(st);
+  const q = DATA.bank[st];
+  $('qAsk').textContent = '＿＿＿ 處適合填入何者？';
+  $('qText').className = 'sentence';
   $('qDay').textContent = lab(q.d);
   $('qKind').textContent = ({verb:'動詞變化', word:'單字選擇', prep:'介系詞搭配'})[q.k] + (session_days.has(q.d) ? '' : '・複習');
   $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
@@ -383,10 +417,65 @@ function show(){
   });
   $('qFb').className = 'feedback hidden'; $('nextBtn').classList.add('hidden');
 }
+// 克漏字：整篇文章顯示，目前這一格標黃色，前面作答過的格子顯示學生選的字
+function clozeHtml(st, reveal){
+  const P = clozeOf(st), s = session;
+  return esc(P.text).replace(/\{(\d)\}/g, (m, k) => {
+    const b = +k - 1, B = P.blanks[b];
+    if (b === st.b && !reveal) return `<span class="cb cur">(${k}) ＿＿</span>`;
+    const done = s.done && s.done[st.u + '-' + st.p + '-' + b];
+    if (b === st.b || done != null) { const pick = b === st.b ? reveal.pick : done; return `<span class="cb ${pick === B.c ? 'ok' : 'bad'}">(${k}) ${esc(B.o[B.c])}</span>`; }
+    return `<span class="cb">(${k}) ＿＿</span>`;
+  });
+}
+function showCloze(st){
+  const s = session, P = clozeOf(st), B = P.blanks[st.b];
+  $('qDay').textContent = CLOZE.data[st.u].unit;
+  $('qKind').textContent = '克漏字・' + P.title;
+  $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
+  $('qBar').style.width = (s.i / s.items.length * 100) + '%';
+  $('qAsk').textContent = `第 ${st.b + 1} 格（黃色）適合填入何者？`;
+  $('qText').className = 'passage';
+  $('qText').innerHTML = clozeHtml(st);
+  const g = $('qGloss');
+  if (P.gloss.length) { g.innerHTML = '生字：' + P.gloss.map(([w, z]) => `<b>${esc(w)}</b> ${esc(z)}`).join('；'); g.classList.remove('hidden'); }
+  const box = $('qOpts'); box.innerHTML = '';
+  s.order[s.i].forEach((oi, k) => {
+    const b = document.createElement('button');
+    b.className = 'opt'; b.dataset.oi = oi;
+    b.innerHTML = `<span class="key">${'ABCD'[k]}</span><span class="ow"><span>${esc(B.o[oi])}</span></span>`;
+    b.onclick = () => answer(oi);
+    box.appendChild(b);
+  });
+  const cur = $('qText').querySelector('.cb.cur'); if (cur && cur.scrollIntoView) cur.scrollIntoView({block: 'nearest'});
+  $('qFb').className = 'feedback hidden'; $('nextBtn').classList.add('hidden');
+}
+function answerCloze(oi){
+  const s = session, st = s.items[s.i], P = clozeOf(st), B = P.blanks[st.b], ok = oi === B.c;
+  if (ok) s.right++; else s.wrong.push({st, pick: oi});
+  s.log.push([B.id, oi, B.o[oi], 'cloze']);
+  (s.done = s.done || {})[st.u + '-' + st.p + '-' + st.b] = oi;
+  $('qOpts').querySelectorAll('.opt').forEach(b => {
+    const v = +b.dataset.oi; b.disabled = true;
+    if (v === B.c) b.classList.add('ok'); else if (v === oi) b.classList.add('bad');
+    const g = GL[B.o[v]];
+    if (g) b.querySelector('.ow').insertAdjacentHTML('beforeend', `<span class="oz">${esc(g)}</span>`);
+  });
+  $('qText').innerHTML = clozeHtml(st, {pick: oi});
+  const nx = s.items[s.i + 1], last = !(nx && typeof nx === 'object' && nx.u === st.u && nx.p === st.p);
+  const fb = $('qFb');
+  fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
+  fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(B.o[B.c])}</b>` +
+    (B.why ? `<span class="why">詳解：${esc(B.why)}</span>` : '') +
+    (last && P.zh ? `<div class="trans"><b>全文翻譯</b><br>${esc(P.zh)}</div>` : '');
+  $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
+  const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : (last ? '下一題' : '下一格'); nb.classList.remove('hidden'); nb.focus();
+}
 function answer(oi){
   const s = session; if (s.answered) return; s.answered = true;
+  if (typeof s.items[s.i] === 'object') return answerCloze(oi);
   const q = DATA.bank[s.items[s.i]], ok = oi === q.c;
-  if (ok) s.right++; else s.wrong.push({qi: s.items[s.i], pick: oi});
+  if (ok) s.right++; else s.wrong.push({st: s.items[s.i], qi: s.items[s.i], pick: oi});
   s.log.push([q.r ?? s.items[s.i], oi, q.o[oi], q.k]);  // 誘答變化題用原題編號計分（答案位置相同）；選的字與題型給老師儀表板
   $('qOpts').querySelectorAll('.opt').forEach(b => {
     const v = +b.dataset.oi; b.disabled = true;
@@ -416,8 +505,15 @@ function finish(){
   $('rWrongBox').classList.toggle('hidden', s.wrong.length === 0);
   $('redoWrong').classList.toggle('hidden', s.wrong.length === 0);
   s.wrong.forEach(w => {
-    const q = DATA.bank[w.qi];
     const li = document.createElement('li');
+    if (typeof w.st === 'object') {
+      const P = clozeOf(w.st), B = P.blanks[w.st.b];
+      li.innerHTML = `<div class="s">克漏字〈${esc(P.title)}〉第 ${w.st.b + 1} 格</div>` +
+        `<div class="a">${esc(CLOZE.data[w.st.u].unit)}・你選 <s>${esc(B.o[w.pick])}</s>，正確是 <b>${esc(B.o[B.c])}</b></div>` +
+        (B.why ? `<div class="z">${esc(B.why)}</div>` : '');
+      ul.appendChild(li); return;
+    }
+    const q = DATA.bank[w.qi];
     li.innerHTML = `<div class="s">${esc(q.a)}<b>${esc(q.o[q.c])}</b>${esc(q.b)}</div>` +
       (q.z ? `<div class="z">${esc(q.z)}</div>` : '') +
       `<div class="a">${lab(q.d)}・你選 <s>${esc(q.o[w.pick])}</s>${gloss(q, w.pick) ? '（' + esc(gloss(q, w.pick)) + '）' : ''}，正確是 <b>${esc(q.o[q.c])}</b>${gloss(q, q.c) ? '（' + esc(gloss(q, q.c)) + '）' : ''}</div>`;
@@ -438,8 +534,16 @@ function esc(t){ return String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt
 $('mRange').onclick = () => setMode('range');
 $('mPick').onclick = () => setMode('pick');
 $('from').onchange = update; $('to').onchange = update;
+function syncKinds(){
+  document.querySelectorAll('[data-k]').forEach(x => x.setAttribute('aria-pressed', x.dataset.k === 'all' ? types.size === KINDS.length : types.has(x.dataset.k)));
+  try { localStorage.setItem('types', JSON.stringify([...types])); } catch (e) {}
+}
 document.querySelectorAll('[data-k]').forEach(b => b.onclick = () => {
-  kind = b.dataset.k; document.querySelectorAll('[data-k]').forEach(x => x.setAttribute('aria-pressed', x===b)); update(); });
+  const k = b.dataset.k;
+  if (k === 'all') types = types.size === KINDS.length ? new Set() : new Set(KINDS);
+  else types.has(k) ? types.delete(k) : types.add(k);
+  syncKinds(); update(); });
+syncKinds();
 document.querySelectorAll('[data-n]').forEach(b => b.onclick = () => {
   num = +b.dataset.n; document.querySelectorAll('[data-n]').forEach(x => x.setAttribute('aria-pressed', x===b)); update(); });
 $('pickApply').onclick = () => { picked = parsePick($('pickText').value); syncGrid(); update(); };
@@ -461,16 +565,30 @@ function syncQuick(){
 $('qToday').onclick = () => { const t = todayIdx(); setMode('range'); $('from').value = t; $('to').value = t; update(); };
 $('qUpto').onclick = () => { setMode('range'); $('from').value = 0; $('to').value = todayIdx(); update(); };
 $('qWeek').onclick = () => { const t = todayIdx(); setMode('range'); $('from').value = Math.max(0, t-6); $('to').value = t; update(); };
-$('startBtn').onclick = () => {
-  const {all, sentences} = pool();
-  const n = num === 0 ? sentences : Math.min(num, sentences);
-  start(pickItems(all, n));
+// 組題：克漏字依勾選題型數平均分配題數（以 5 格為一篇），其餘由句子題補足；整篇的 5 格連在一起
+$('startBtn').onclick = async () => {
+  const {all, sentences, passages} = pool();
+  const sentTypes = KINDS.filter(k => k !== 'cloze' && types.has(k)).length;
+  let nP = 0;
+  if (passages.length) nP = sentTypes && sentences ? Math.max(1, Math.round(num / (sentTypes + 1) / 5)) : Math.max(1, Math.round(num / 5));
+  nP = Math.min(nP, passages.length);
+  const picks = shuffle(passages.slice()).slice(0, nP);
+  if (picks.length) {
+    $('startBtn').disabled = true; $('startBtn').textContent = '載入克漏字…';
+    try { await loadCloze([...new Set(picks.map(x => x.u))]); }
+    catch (e) { $('startBtn').disabled = false; $('countLbl').textContent = '克漏字載入失敗，請檢查網路後再試一次。'; update(); return; }
+  }
+  const sentN = Math.max(0, Math.min(sentences, num - nP * 5));
+  const blocks = pickItems(all, sentN).map(qi => [qi]);
+  picks.forEach(x => blocks.push(clozeOf({u: x.u, p: x.p}).blanks.map((_, b) => ({u: x.u, p: x.p, b}))));
+  start(shuffle(blocks).flat());
+  update();
 };
 $('nextBtn').onclick = next;
 $('quitBtn').onclick = () => { if (session.i === 0 && !session.answered) { back(); return; } session.items = session.items.slice(0, session.i + (session.answered?1:0)); finish(); };
 function back(){ $('quiz').classList.add('hidden'); $('result').classList.add('hidden'); $('setup').classList.remove('hidden'); $('board').classList.remove('hidden'); update(); }
 $('backBtn').onclick = back;
-$('redoWrong').onclick = () => { const rt = session.rangeText; start(shuffle(session.wrong.map(w => w.qi))); session.rangeText = (rt + '（錯題重做）').slice(0, 120); };
+$('redoWrong').onclick = () => { const rt = session.rangeText; start(shuffle(session.wrong.map(w => w.st))); session.rangeText = (rt + '（錯題重做）').slice(0, 120); };
 $('againBtn').onclick = () => $('startBtn').click();
 document.addEventListener('keydown', e => {
   if ($('quiz').classList.contains('hidden')) return;
@@ -495,7 +613,7 @@ async function upload(){
   if (!SHEET_URL) { box.className = 'upload bad'; box.textContent = '老師尚未設定成績上傳網址，這次成績沒有上傳。'; return; }
   box.className = 'upload'; box.textContent = '成績上傳中…';
   const body = JSON.stringify({
-    seat: $('seat').value, name: $('sname').value.trim(), range: s.rangeText, kind,
+    seat: $('seat').value, name: $('sname').value.trim(), range: s.rangeText, kind: kindCode(),
     total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log
   });
   const okMsg = sc => `✓ 成績已上傳（${$('seat').value} 號 ${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;

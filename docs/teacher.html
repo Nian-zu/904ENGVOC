@@ -125,7 +125,7 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
     <p class="t-note">點一位學生，下方會顯示他的每回答對率走勢和常錯單字。紅色標記：最近 3 天以上沒交卷、近 7 天答對率比前 7 天掉 10 分以上、或平均每題不到 3 秒（可能沒看題目就按）。</p>
     <div class="t-scroll">
       <table class="t-table" data-source="c_students" data-row-key="座號">
-        <thead><tr><th data-field="座號">座號</th><th class="l" data-field="姓名">姓名</th><th data-field="交卷天數">交卷天數</th><th data-field="近7天交卷天數">近 7 天交卷</th><th class="l" data-field="最後交卷">最後交卷</th><th data-field="作答題數">作答題數</th><th data-field="總答對率">總答對率</th><th data-field="近7天答對率">近 7 天</th><th data-field="前7天答對率">前 7 天</th><th data-field="單字答對率">單字</th><th data-field="動詞變化答對率">動詞變化</th><th data-field="介系詞答對率">介系詞</th><th data-field="每題秒數">每題秒數</th><th data-field="訂正次數">錯題重做</th></tr></thead>
+        <thead><tr><th data-field="座號">座號</th><th class="l" data-field="姓名">姓名</th><th data-field="交卷天數">交卷天數</th><th data-field="近7天交卷天數">近 7 天交卷</th><th class="l" data-field="最後交卷">最後交卷</th><th data-field="作答題數">作答題數</th><th data-field="總答對率">總答對率</th><th data-field="近7天答對率">近 7 天</th><th data-field="前7天答對率">前 7 天</th><th data-field="單字答對率">單字</th><th data-field="動詞變化答對率">動詞變化</th><th data-field="介系詞答對率">介系詞</th><th data-field="克漏字答對率">克漏字</th><th data-field="每題秒數">每題秒數</th><th data-field="訂正次數">錯題重做</th></tr></thead>
         <tbody data-draw="studentRows"></tbody>
       </table>
     </div>
@@ -333,7 +333,7 @@ dash.calc('c_students', {
         近7天交卷天數: [...days].filter(d => d >= w0 && d <= today).length, 最後交卷: last,
         未交天數: last ? T904.diff(today, last) : null, 作答題數: all[1], 總答對率: T904.pct(all[0], all[1]),
         近7天答對率: T904.pct(wk[0], wk[1]), 前7天答對率: T904.pct(pv[0], pv[1]),
-        單字答對率: t('單字'), 動詞變化答對率: t('動詞變化'), 介系詞答對率: t('介系詞'),
+        單字答對率: t('單字'), 動詞變化答對率: t('動詞變化'), 介系詞答對率: t('介系詞'), 克漏字答對率: t('克漏字'),
         每題秒數: all[1] ? Math.round(all[2] / all[1] * 10) / 10 : null, 訂正次數: redo ? redo['訂正次數'] : 0};
     });
   }
@@ -490,7 +490,7 @@ dash.draw('studentRows', (tb) => {
   const g = dash.data('c_students');
   tb.replaceChildren();
   const td = (tr, text, cls) => { const c = tr.insertCell(); c.textContent = text; if (cls) c.className = cls; return c; };
-  if (g.status !== 'ok') { const tr = tb.insertRow(); td(tr, g.status === 'loading' ? '載入中…' : '無法載入', 'l').colSpan = 14; return; }
+  if (g.status !== 'ok') { const tr = tb.insertRow(); td(tr, g.status === 'loading' ? '載入中…' : '無法載入', 'l').colSpan = 15; return; }
   const cur = String(dash.params().seat || '');
   g.data.forEach(r => {
     const tr = tb.insertRow(); tr.dataset.key = String(r['座號']); if (String(r['座號']) === cur) tr.className = 't-pick';
@@ -499,7 +499,7 @@ dash.draw('studentRows', (tb) => {
     const last = td(tr, r['最後交卷'] ? r['最後交卷'].slice(5).replace('-', '/') : '—', 'l');
     if (r['未交天數'] == null || r['未交天數'] >= 3) { const f = document.createElement('span'); f.className = 't-flag'; f.textContent = r['未交天數'] == null ? '未交' : r['未交天數'] + ' 天沒交'; last.append(f); }
     td(tr, r['作答題數']);
-    ['總答對率', '近7天答對率', '前7天答對率', '單字答對率', '動詞變化答對率', '介系詞答對率'].forEach(k => {
+    ['總答對率', '近7天答對率', '前7天答對率', '單字答對率', '動詞變化答對率', '介系詞答對率', '克漏字答對率'].forEach(k => {
       const c = td(tr, T904.fmt(r[k]), T904.tone(r[k]));
       if (k === '近7天答對率' && r[k] != null && r['前7天答對率'] != null && r[k] - r['前7天答對率'] <= -10) { const f = document.createElement('span'); f.className = 't-flag'; f.textContent = '↓'; c.append(f); }
     });
