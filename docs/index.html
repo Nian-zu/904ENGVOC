@@ -496,6 +496,14 @@ async function upload(){
   }
 }
 
+// 只留名字、去掉姓氏（複姓去兩字）；英文或其他寫法照原樣
+function givenName(n) {
+  n = String(n || '').trim();
+  if (!/^[\u4e00-\u9fff]{2,5}$/.test(n)) return n;
+  const two = ['歐陽', '司馬', '諸葛', '上官', '張簡', '范姜', '端木', '皇甫', '司徒', '東方', '公孫', '令狐', '夏侯', '慕容', '尉遲', '長孫', '宇文', '軒轅', '單于', '呼延'];
+  const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
+  return n.slice(cut) || n;
+}
 let boardPeriod = 'week';
 async function loadBoard(){
   const body = $('boardBody');
@@ -508,8 +516,8 @@ async function loadBoard(){
     if (!j.top || !j.top.length) { body.textContent = '這段期間還沒有人交卷，搶第一名吧！'; return; }
     const me = +$('seat').value;
     body.className = '';
-    body.innerHTML = '<table><thead><tr><th>名次</th><th>座號</th><th>姓名</th><th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th></tr></thead><tbody>' +
-      j.top.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${esc(x.name)}</td><td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${x.rate}%</td></tr>`).join('') +
+    body.innerHTML = '<table><thead><tr><th>名次</th><th>座號</th><th>名字</th><th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th></tr></thead><tbody>' +
+      j.top.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${esc(x.given ?? givenName(x.name))}</td><td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${x.rate}%</td></tr>`).join('') +
       '</tbody></table>';
   } catch (e) { body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; }
 }

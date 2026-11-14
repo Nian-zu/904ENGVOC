@@ -118,7 +118,7 @@ function doGet(e) {
   const top = [];
   list.forEach(function (s, i) {
     if (s.right !== prev) { rank = i + 1; prev = s.right; }
-    if (rank <= 10) top.push({ rank: rank, seat: s.seat, name: s.name, right: s.right, tests: s.tests,
+    if (rank <= 10) top.push({ rank: rank, seat: s.seat, given: givenName(s.name), right: s.right, tests: s.tests,
       rate: s.answered ? Math.round(s.right / s.answered * 100) : 0 });
   });
   return out_({ ok: true, period: period, from: from, today: today, top: top });
@@ -140,6 +140,15 @@ function detailSheet_() {
     sh.setFrozenRows(1);
   }
   return sh;
+}
+
+// 只留名字、去掉姓氏（複姓去兩字）；英文或其他寫法照原樣
+function givenName(n) {
+  n = String(n || '').trim();
+  if (!/^[\u4e00-\u9fff]{2,5}$/.test(n)) return n;
+  const two = ['歐陽', '司馬', '諸葛', '上官', '張簡', '范姜', '端木', '皇甫', '司徒', '東方', '公孫', '令狐', '夏侯', '慕容', '尉遲', '長孫', '宇文', '軒轅', '單于', '呼延'];
+  const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
+  return n.slice(cut) || n;
 }
 
 function loadKey_() {
