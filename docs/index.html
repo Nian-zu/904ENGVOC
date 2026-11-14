@@ -181,7 +181,6 @@ input[type=text]{flex:1;min-width:200px}
       <button data-n="50" aria-pressed="false">50 題</button>
       <button data-n="100" aria-pressed="false">100 題</button>
       <button data-n="200" aria-pressed="false">200 題</button>
-      <button data-n="0" aria-pressed="false">全部</button>
     </div>
   </div>
 
@@ -318,7 +317,7 @@ function update(){
   const n = num === 0 ? sentences : Math.min(num, sentences);
   const words = days.reduce((s,i)=>s+DATA.words[i].length,0);
   $('countLbl').innerHTML = days.length
-    ? `本次出 <b>${n}</b> 題`
+    ? ''
     : '還沒有選天數';
   const who = $('seat').value && $('sname').value.trim();
   $('startBtn').disabled = n === 0 || !who;
