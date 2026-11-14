@@ -117,6 +117,16 @@ input[type=text]{flex:1;min-width:200px}
 .ttl .who{font-weight:900;font-size:1.02rem;margin:2px 0}
 .ttl .val{font-size:.85rem;font-variant-numeric:tabular-nums}
 .ttl small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px;line-height:1.35}
+.sortseg{margin-top:10px}
+.board .up{color:var(--ok);font-weight:900}
+.fame{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:16px}
+.fame h3{margin:0 0 6px;font-size:.95rem}
+.fame ol{list-style:none;margin:0;padding:0}
+.fame li{display:flex;gap:8px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--line);font-size:.9rem}
+.fame li .when{color:var(--muted);min-width:7.5em;font-variant-numeric:tabular-nums}
+.fame li .who{font-weight:900;flex:1}
+.fame li .v{color:var(--muted);font-size:.8rem;white-space:nowrap}
+.fame li.me .who{color:var(--board)}
 .ttl.mine{border-color:var(--chalk);box-shadow:0 0 0 1px var(--chalk) inset}
 .upload{padding:10px 14px;border-radius:10px;background:var(--paper);border:1px solid var(--line);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .upload.ok{border-color:var(--ok);background:var(--ok-bg)}
@@ -234,15 +244,22 @@ input[type=text]{flex:1;min-width:200px}
 
 <section id="board" class="panel board" aria-label="排行榜">
   <div class="row" style="justify-content:space-between">
-    <h2>排行榜・答對題數前 10 名</h2>
+    <h2>排行榜</h2>
     <div class="seg" role="group" aria-label="期間">
+      <button data-p="day" aria-pressed="false">今日</button>
       <button data-p="week" aria-pressed="true">本週</button>
       <button data-p="month" aria-pressed="false">本月</button>
       <button data-p="all" aria-pressed="false">全部</button>
     </div>
   </div>
+  <div class="seg sortseg" role="group" aria-label="排名方式">
+    <button data-s="right" aria-pressed="true">答對數</button>
+    <button data-s="rate" aria-pressed="false">答對率</button>
+    <button data-s="up" aria-pressed="false">進步榜</button>
+  </div>
   <div id="boardBody" class="empty">載入中…</div>
-  <div class="hint">依答對題數加總排名，做越多、答對越多就越前面。每次交卷後會更新。</div>
+  <div class="hint" id="boardHint"></div>
+  <div id="fameBody"></div>
 </section>
 </div></main>
 <script>
@@ -467,7 +484,7 @@ const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,2
 SEATS.forEach(i => $('seat').add(new Option(i === 30 ? '30 號（測試用）' : i + ' 號', i)));
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; } catch (e) {}
 function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim()})); } catch (e) {} }
-$('seat').onchange = () => { saveStudent(); update(); };
+$('seat').onchange = () => { saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('sname').oninput = () => { saveStudent(); update(); };
 
 // Google Apps Script 網頁應用程式網址（部署後貼在這裡）
@@ -511,7 +528,9 @@ function givenName(n) {
   const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
   return n.slice(cut) || n;
 }
-let boardPeriod = 'week';
+let boardPeriod = 'week', boardSort = 'right', boardData = null;
+const PERIOD_ZH = {day: '今天', week: '本週', month: '本月', all: '開學以來'};
+const PREV_ZH = {day: '昨天', week: '上週', month: '上個月'};
 async function loadBoard(){
   const body = $('boardBody');
   if (!SHEET_URL) { body.textContent = '尚未設定成績網址。'; return; }
@@ -520,21 +539,49 @@ async function loadBoard(){
     const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod);
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '');
-    if (!j.top || !j.top.length) { body.textContent = '這段期間還沒有人交卷，搶第一名吧！'; return; }
-    const me = +$('seat').value;
-    body.className = '';
-    const icon = {strong: '👑', sharp: '🎯', up: '📈', busy: '📅', streak: '🔥'};
-    const titles = (j.titles || []).map(t => `<div class="ttl${t.who.some(w => w.seat === me) ? ' mine' : ''}"><b>${icon[t.key] || '🏅'} ${esc(t.label)}</b><div class="who">${t.who.map(w => esc(w.given)).join('、')}</div><div class="val">${esc(t.value)}</div><small>${esc(t.desc)}</small></div>`).join('');
-    body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + '<table><thead><tr><th>名次</th><th>座號</th><th>名字</th><th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th></tr></thead><tbody>' +
-      j.top.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${esc(x.given ?? givenName(x.name))}</td><td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${x.rate}%</td></tr>`).join('') +
-      '</tbody></table>';
-  } catch (e) { body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; }
+    boardData = j; drawBoard();
+  } catch (e) { boardData = null; body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; $('boardHint').textContent = ''; $('fameBody').innerHTML = ''; }
+}
+function drawBoard(){
+  const j = boardData, body = $('boardBody'), me = +$('seat').value;
+  if (!j) return;
+  const boards = j.boards || {right: j.top || []};
+  if (boardPeriod === 'all' && boardSort === 'up') boardSort = 'right';
+  document.querySelectorAll('[data-s]').forEach(x => {
+    x.setAttribute('aria-pressed', x.dataset.s === boardSort);
+    x.hidden = (x.dataset.s === 'up' && boardPeriod === 'all') || (x.dataset.s !== 'right' && !j.boards);
+  });
+  const icon = {strong: '👑', sharp: '🎯', up: '📈', busy: '📅', streak: '🔥'};
+  const titles = (j.titles || []).map(t => `<div class="ttl${t.who.some(w => w.seat === me) ? ' mine' : ''}"><b>${icon[t.key] || '🏅'} ${esc(t.label)}</b><div class="who">${t.who.map(w => esc(w.given)).join('、')}</div><div class="val">${esc(t.value)}</div><small>${esc(t.desc)}</small></div>`).join('');
+  const list = boards[boardSort] || [];
+  const nm = x => esc(x.given ?? givenName(x.name));
+  const pct = v => v == null ? '—' : v + '%';
+  const cols = {
+    right: ['<th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th>', x => `<td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${pct(x.rate)}</td>`],
+    rate: ['<th class="n">答對率</th><th class="n">作答題數</th>', x => `<td class="n">${pct(x.rate)}</td><td class="n">${x.fAns}</td>`],
+    up: [`<th class="n">進步</th><th class="n">${PREV_ZH[boardPeriod] || '上期'}</th><th class="n">${PERIOD_ZH[boardPeriod]}</th>`, x => `<td class="n up">+${x.up}</td><td class="n">${pct(x.prevRate)}</td><td class="n">${pct(x.rate)}</td>`]
+  }[boardSort];
+  const empty = {right: '這段期間還沒有人交卷，搶第一名吧！', rate: `還沒有人作答滿 ${j.min ? j.min.rate : ''} 題，多做幾回就能上榜！`, up: `還沒有人比${PREV_ZH[boardPeriod] || '上期'}進步（兩段都要作答滿 ${j.min && j.min.up || ''} 題才算）。`}[boardSort];
+  body.className = '';
+  body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + (list.length
+    ? `<table><thead><tr><th>名次</th><th>座號</th><th>名字</th>${cols[0]}</tr></thead><tbody>` +
+      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${nm(x)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
+    : `<div class="empty">${empty}</div>`);
+  $('boardHint').textContent = {
+    right: `依${PERIOD_ZH[boardPeriod]}答對題數加總排名，做越多、答對越多就越前面。`,
+    rate: `依${PERIOD_ZH[boardPeriod]}答對率排名，至少作答 ${j.min ? j.min.rate : ''} 題才上榜；不含錯題重做。`,
+    up: `${PERIOD_ZH[boardPeriod]}的答對率比${PREV_ZH[boardPeriod] || '上期'}進步多少分；兩段都要作答滿 ${j.min && j.min.up || ''} 題，不含錯題重做。`
+  }[boardSort] + '每次交卷後會更新。';
+  const f = j.fame;
+  const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
+  $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王')}${famed(f.months, '🏆 歷屆月冠王')}</div>` : '';
 }
 document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
   boardPeriod = b.dataset.p;
   document.querySelectorAll('[data-p]').forEach(x => x.setAttribute('aria-pressed', x === b));
   loadBoard();
 });
+document.querySelectorAll('[data-s]').forEach(b => b.onclick = () => { boardSort = b.dataset.s; drawBoard(); });
 loadBoard();
 
 fetch('bank.json').then(r => r.json()).then(d => {
