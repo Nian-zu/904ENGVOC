@@ -256,3 +256,138 @@ Mr. Lin wanted to sell his tea online, so he used a translation app to write an 
 + traditional = 傳統的
 + foreign = 外國的
 = 林先生想在網路上賣茶，所以用翻譯軟體寫了一則英文廣告。軟體把「老人茶」翻成了 old man tea（老男人茶），顧客都看得一頭霧水。「這是不是代表這茶只給老男人喝？」有人問。林先生一直不知道問題出在哪裡，直到孫女看了廣告。她笑著把錯誤指給他看：「爺爺，你需要找人檢查英文，不能只靠軟體。」他們一起寫了新廣告：「傳統台灣茶，最適合悠閒的午後。」很快地，林先生的茶就受到外國買家的歡迎。
+
+## 吃到飽的教訓
+For Dad's birthday, my family went to an all-you-can-eat buffet. My brother said, "I'm going to eat until I [[become|keep|show|need]] a balloon!" He ate sushi, steak, fried chicken, and five cakes. He did not [[need|keep|show|mean]] that much food, but he wanted to get his money's worth. On the way home, he felt sick and could not [[keep|need|show|mean]] his eyes open. The happy feeling did not [[last|mean|show|become]] long. The next morning, he said, "I learned something. Eating more does not [[mean|keep|last|become]] enjoying more."
+> 1 become + 名詞「變成…」：我要吃到變成一顆氣球！keep、show、need a balloon 都不合理。
+> 2 need「需要」：他並不需要吃那麼多。keep、show、mean that much food 都不通。
+> 3 keep + 受詞 + 形容詞「使…保持…」：他累到眼睛都張不開。need、show、mean 都不能這樣用。
+> 4 last long「持續很久」：開心的感覺沒持續多久。mean、show、become long 都不通。
+> 5 mean + V-ing「代表、意味著…」：吃得多不代表享受得多。keep、last、become enjoying 都不對。
++ all-you-can-eat = 吃到飽的
++ buffet = 自助餐
++ sushi = 壽司
++ steak = 牛排
++ money's worth = 值回票價
+= 爸爸生日那天，我們全家去吃到飽自助餐。弟弟說：「我要吃到變成一顆氣球！」他吃了壽司、牛排、炸雞，還有五塊蛋糕。他其實不需要吃那麼多，只是想吃回本。回家路上，他覺得很不舒服，連眼睛都快張不開了。開心的感覺沒持續多久。隔天早上，他說：「我學到一件事：吃得多，不代表享受得多。」
+
+## 雨中的英雄
+During a heavy rain, a small kitten got stuck in a drain near our school. It cried loudly, but nobody could reach it. Most people walked [[away|careful|kind|empty]], but a delivery driver stopped his scooter. He did not [[need|keep|show|become]] anyone to tell him what to do. He lay down on the wet ground and pulled the kitten out. Then he [[kept|became|showed|meant]] it warm inside his jacket until a vet came. Someone filmed it, and the video [[became|kept|showed|needed]] popular online. Later, a reporter asked him why he helped. "Being a hero doesn't [[mean|keep|last|become]] doing something big," he said. "It means helping when you can."
+> 1 walk away「走開」：大部分的人都走開了。walked careful、kind、empty 都不通。
+> 2 need + 人 + to …「需要某人去…」：他不需要別人告訴他該怎麼做。keep、show、become 都不能這樣用。
+> 3 keep + 受詞 + 形容詞「使…保持…」：他把小貓放在外套裡保暖。became、showed、meant it warm 都不對。
+> 4 become + 形容詞「變得…」：影片在網路上爆紅。kept、showed、needed popular 都不合理。
+> 5 mean + V-ing「代表…」：當英雄不代表要做大事。keep、last、become doing 都不對。
++ kitten = 小貓
++ drain = 排水溝
++ delivery driver = 外送員
++ scooter = 機車
++ vet = 獸醫
+= 一場大雨中，一隻小貓卡在我們學校附近的排水溝裡。牠大聲哭叫，卻沒有人搆得到牠。大部分的人都走開了，但一位外送員停下了機車。他不需要別人告訴他該怎麼做，就趴在濕濕的地上，把小貓拉了出來，然後把牠放在外套裡保暖，直到獸醫趕來。有人拍下了這一幕，影片在網路上爆紅。後來記者問他為什麼要幫忙。「當英雄不代表要做什麼大事，」他說，「而是能幫就幫。」
+
+## 隔壁的新同學
+A new family moved in next door. Their son, Omar, came from Egypt. On his first day at our school, he looked nervous [[because|than|about|just]] everything was new. Our teacher asked me to [[show|keep|need|mean]] him around the school. Omar's Chinese was not good, so we used English, hand signs, and drawings. Lunch was a [[problem|answer|minute|color]] at first because he did not eat pork, so I helped him find food he could eat. Soon Omar [[became|kept|needed|meant]] one of my best friends. Now he teaches me Arabic words, and I teach him Taiwanese slang. Our cultures are [[different|careful|hungry|kind]], but we laugh at the same jokes.
+> 1 because 說明原因：他看起來很緊張，因為一切都很陌生。
+> 2 show + 人 + around「帶某人參觀」是固定用法。keep、need、mean him around 都不對。
+> 3 a problem「一個問題」：一開始午餐是個問題，因為他不吃豬肉。answer、minute、color 都不合理。
+> 4 become + 名詞「成為…」：Omar 很快就成為我最好的朋友之一。kept、needed、meant 都不合理。
+> 5 different「不同的」：我們的文化不同，卻會被同樣的笑話逗笑。careful、hungry、kind 用來形容文化都不通。
++ Egypt = 埃及
++ nervous = 緊張的
++ pork = 豬肉
++ Arabic = 阿拉伯語
++ slang = 俚語
+= 隔壁搬來一戶新人家，他們的兒子 Omar 來自埃及。他來我們學校的第一天，看起來很緊張，因為一切都很陌生。老師請我帶他參觀學校。Omar 的中文不太好，所以我們用英文、手勢和畫圖溝通。一開始午餐是個問題，因為他不吃豬肉，所以我幫他找他能吃的食物。很快地，Omar 就成了我最好的朋友之一。現在他教我阿拉伯語，我教他台灣的流行用語。我們的文化不同，卻會被同樣的笑話逗笑。
+
+## 十年後的時間膠囊
+In 2016, our school buried a time capsule under the big tree. Inside were letters, photos, and toys from students. The principal said, "We will open it in ten years, so [[keep|need|show|mean]] your promise to come back." The wait [[lasted|kept|needed|showed]] ten long years. This year, we finally dug it up. Some things inside had [[become|kept|needed|shown]] old and yellow. One letter said, "Dear future me, do you still like dinosaurs?" Everyone laughed. The writer is now twenty-five and works at a museum, [[showing|keeping|needing|meaning]] dinosaur bones to kids every day! The principal smiled. "Some dreams change, but some [[last|need|mean|show]] forever."
+> 1 keep one's promise「遵守承諾」是固定搭配。need、show、mean your promise 都不通。
+> 2 last + 一段時間「持續…」：等待持續了十年。kept、needed、showed ten long years 都不通。
+> 3 become + 形容詞「變得…」：有些東西變得又舊又黃。kept、needed、shown old 都不對。
+> 4 show + 物 + to + 人「把…展示給某人看」：他每天給小朋友看恐龍骨頭。keeping、needing、meaning 都不合理。
+> 5 last forever「永遠持續」：有些夢想會一直存在。need、mean、show forever 都不通。
++ bury = 埋
++ time capsule = 時間膠囊
++ principal = 校長
++ dinosaur = 恐龍
++ museum = 博物館
+= 2016 年，我們學校在大樹下埋了一個時間膠囊，裡面有學生的信、照片和玩具。校長說：「我們十年後再打開，所以要遵守承諾回來喔。」這一等就是十年。今年，我們終於把它挖了出來，裡面有些東西已經變得又舊又黃。有一封信寫著：「親愛的未來的我，你還喜歡恐龍嗎？」大家都笑了。寫信的人現在二十五歲，在博物館工作，每天帶小朋友看恐龍骨頭！校長笑著說：「有些夢想會改變，但有些會永遠存在。」
+
+## 電玩團體賽
+Leo is the best gamer in our class. When he heard about a citywide game contest, he wanted to join. But there was one [[problem|answer|minute|color]]: it was a team contest, and he always played alone. He [[needed|kept|showed|meant]] four teammates. He asked some classmates, but they were not as good as him. At first, he got angry whenever they made mistakes. Then his teammate Amy said, "If you [[keep|need|show|mean]] shouting, we'll quit." Leo felt bad. He started to listen to his team and [[showed|kept|needed|meant]] them his tricks. They did not win first place, but they won third. More importantly, Leo [[became|kept|showed|needed]] a real team leader.
+> 1 one problem「一個問題」：這是團體賽，他卻總是一個人玩。answer、minute、color 都不合理。
+> 2 need「需要」：他需要四個隊友。kept、showed、meant four teammates 都不合理。
+> 3 keep + V-ing「一直…」：如果你一直大吼，我們就退出。need shouting、show shouting、mean shouting 都不對。
+> 4 show + 人 + 物「教／給某人看」：他把技巧教給隊友。kept、needed、meant 不能接「人＋物」。
+> 5 become + 名詞「成為…」：Leo 成了真正的隊長。kept、showed、needed 都不合理。
++ gamer = 玩家
++ contest = 比賽
++ teammate = 隊友
++ quit = 退出
++ trick = 技巧
+= Leo 是我們班最會打電玩的人。他聽說全市有一場電玩比賽，就想參加。但有個問題：那是團體賽，而他總是一個人玩。他需要四個隊友。他找了幾個同學，但他們都沒有他厲害。一開始，只要隊友出錯，他就生氣。後來隊友 Amy 說：「如果你再一直大吼，我們就退出。」Leo 覺得很愧疚。他開始聽隊友的意見，也把自己的技巧教給大家。他們沒有得到第一名，但拿到了第三名。更重要的是，Leo 成了一位真正的隊長。
+
+## 冰箱裡的手機
+"Mom! Have you seen my phone?" I shouted. I looked in my bag, under my bed, and in the living room. My phone was gone, and I [[needed|became|showed|meant]] it for my English homework! Mom said, "Why don't you call it?" Good idea. I used her phone and called mine. We heard a sound… from the fridge! I [[became|kept|needed|showed]] red in the face. Then I remembered: I put my phone [[away|careful|happy|kind]] in the fridge when I got a cold drink. Mom laughed. "That's a [[different|careful|hungry|empty]] kind of phone holder!" "From now on, I will [[keep|need|show|mean]] my phone in one place," I promised.
+> 1 need「需要」：我需要手機寫英文作業。became、showed、meant it 都不合理。
+> 2 become + 形容詞「變得…」：我的臉都紅了。kept red、needed red、showed red 都不對。
+> 3 put … away「把…收起來」：我拿冷飲時把手機順手放進冰箱。put careful、happy、kind 都不通。
+> 4 a different kind of …「另一種…」：這真是另類的手機架！careful、hungry 不合理，empty 前面也不能用 a。
+> 5 keep + 物 + 地點「把…放在…」：我以後會把手機放在固定的地方。need、show、mean 都不能這樣用。
++ fridge = 冰箱
++ holder = 架子；放東西的座
+= 「媽！你有看到我的手機嗎？」我大喊。我找了書包、床底下和客廳，手機都不見了，而我需要它寫英文作業！媽媽說：「你何不打給它看看？」好主意。我用媽媽的手機打給我的手機，結果聽到聲音從……冰箱傳來！我的臉一下子紅了。我這才想起來：我拿冷飲的時候，順手把手機放進冰箱了。媽媽笑著說：「這真是另類的手機架！」「從現在起，我會把手機放在固定的地方。」我保證。
+
+## 睡覺的貓熊
+Last weekend, my family visited the Taipei Zoo to see the pandas. There was a long line, so we waited for an hour. When we finally got in, the pandas were sleeping! My little sister was sad. "I want them to [[show|keep|need|mean]] their faces!" she said. A zookeeper heard her and smiled. He told us pandas sleep more than ten hours a day [[because|than|about|just]] bamboo does not give them much energy. Then he [[showed|kept|needed|meant]] us a video of the pandas playing in the morning. "The [[last|careful|hungry|kind]] time we came, they were sleeping too," Dad said. "We [[need|keep|show|become]] to come early next time."
+> 1 show their faces「露出臉來」。keep、need、mean their faces 都不合理。
+> 2 because 說明原因：貓熊一天睡超過十小時，因為竹子提供的能量不多。
+> 3 show + 人 + 物「給某人看」：他給我們看一段影片。kept、needed、meant 不能接「人＋物」。
+> 4 the last time「上一次」：上次我們來，牠們也在睡覺。careful、hungry、kind 都不通。
+> 5 need to + 原形動詞「需要…」：下次我們得早點來。keep to、show to、become to 都不對。
++ zoo = 動物園
++ panda = 貓熊
++ zookeeper = 動物園管理員
++ bamboo = 竹子
++ energy = 能量
+= 上個週末，我們全家去台北市立動物園看貓熊。隊伍很長，我們等了一個小時。好不容易進去了，貓熊卻在睡覺！妹妹很失望：「我想看牠們的臉！」一位管理員聽到了，笑著告訴我們，貓熊一天睡超過十個小時，因為竹子提供的能量不多。接著，他給我們看一段貓熊早上玩耍的影片。「上次我們來，牠們也在睡覺，」爸爸說，「下次我們得早點來。」
+
+## 一日麵包師傅
+Our class had a Job Day. Each student could [[become|keep|need|show]] something new for one day. I chose to work at a bakery. At 6 a.m., the baker [[showed|kept|needed|meant]] me how to make bread. My hands got covered in flour. Then customers started to come in, and I had to [[keep|need|show|mean]] smiling even though I was tired. The hardest [[problem|answer|minute|color]] was giving people the right change quickly. At the end of the day, the baker gave me a [[free|careful|hungry|empty]] loaf of bread. I learned that every job is harder than it looks.
+> 1 become + 名詞「成為…」：每個學生可以當一天別的身分。keep、need、show something new 在這裡都不合理。
+> 2 show + 人 + how to …「教某人怎麼做」：師傅教我怎麼做麵包。kept、needed、meant 不能這樣用。
+> 3 keep + V-ing「持續…」：就算很累也得一直保持微笑。need smiling、show smiling、mean smiling 都不對。
+> 4 the hardest problem「最難的問題」：最難的是快速找對零錢。answer、minute、color 都不合理。
+> 5 a free loaf of bread「一條免費的麵包」。careful、hungry 不合理，empty 前面也不能用 a。
++ bakery = 麵包店
++ baker = 麵包師傅
++ flour = 麵粉
++ change = 找的零錢
++ loaf = （一條）麵包
+= 我們班舉辦了職業體驗日，每個學生可以當一天別的身分。我選擇到麵包店工作。早上六點，師傅教我怎麼做麵包，我的手沾滿了麵粉。接著客人開始上門，就算很累，我也得一直保持微笑。最難的是快速找對零錢。下班時，師傅送了我一條免費的麵包。我學到，每一份工作都比看起來還難。
+
+## 不再怕牙醫
+Kelly was afraid of dentists. Every time she had an appointment, she said she was sick. But one day, her tooth hurt so much that she could not [[keep|need|show|mean]] quiet. She [[needed|kept|showed|meant]] help. Her mom took her to a new dentist, Dr. Lee. He was very [[different|careful|hungry|kind]] from her old dentist. He [[showed|kept|needed|meant]] her every tool and explained what it did. He even let her wear sunglasses and listen to music. The visit was easier than she thought, and the pain went [[away|careful|happy|kind]].
+> 1 keep quiet「保持安靜」：她痛到沒辦法安靜。need、show、mean quiet 都不對。
+> 2 need help「需要幫忙」。kept、showed、meant help 都不合理。
+> 3 different from …「和…不同」：李醫師和她以前的牙醫很不一樣。careful、hungry、kind 都不能和 from 這樣搭配。
+> 4 show + 人 + 物「給某人看」：他把每個工具拿給她看。kept、needed、meant 不能接「人＋物」。
+> 5 go away「消失」：疼痛消失了。went careful、happy、kind 都不通。
++ dentist = 牙醫
++ appointment = 預約
++ tooth = 牙齒
++ tool = 工具
++ pain = 疼痛
+= Kelly 很怕牙醫，每次有預約，她都說自己生病了。但有一天，她的牙痛到沒辦法安靜下來，她需要幫忙。媽媽帶她去看一位新的牙醫：李醫師。他和她以前的牙醫很不一樣：他把每個工具拿給她看，並解釋用途，甚至讓她戴墨鏡、聽音樂。看診比她想的輕鬆，牙痛也消失了。
+
+## 書包裡的驚喜
+On my birthday, I opened my schoolbag and found a small box. Inside were a key chain and a note: "Happy birthday! Guess who I am." I spent the whole day trying to find out. I [[showed|kept|needed|meant]] the note to my friends, but nobody knew. The handwriting looked [[different|careful|hungry|kind]] from everyone's in my class. After school, my little brother walked up to me. "Do you like it? I used my own money," he said. I was so surprised. He is only seven, and he had to [[keep|need|show|mean]] the secret all day! His face [[became|kept|needed|meant]] red when I hugged him. It was the best gift because it [[meant|kept|needed|became]] so much.
+> 1 show + 物 + to + 人「把…給某人看」：我把紙條給朋友看。kept、needed、meant 不能這樣用。
+> 2 different from …「和…不同」：字跡和班上每個人的都不一樣。careful、hungry、kind 都不能和 from 這樣搭配。
+> 3 keep the secret「保守祕密」。need、show、mean the secret 都不合理。
+> 4 become + 形容詞「變得…」：我抱他的時候，他的臉紅了。kept red、needed red、meant red 都不對。
+> 5 mean so much「意義重大」。kept、needed、became so much 都不通。
++ key chain = 鑰匙圈
++ note = 紙條
++ handwriting = 字跡
+= 生日那天，我打開書包，發現一個小盒子，裡面有一個鑰匙圈和一張紙條：「生日快樂！猜猜我是誰。」我花了一整天想找出答案。我把紙條給朋友看，但沒人知道是誰；字跡也和班上每個人的都不一樣。放學後，弟弟走過來問：「你喜歡嗎？是我用自己的錢買的。」我好驚訝。他才七歲，卻保守了一整天的祕密！我抱住他時，他的臉都紅了。這是最棒的禮物，因為它意義重大。
