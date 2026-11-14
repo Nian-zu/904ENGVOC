@@ -262,3 +262,138 @@ Tom borrowed three books from the city library. He was supposed to return them i
 + reminder = 提醒
 + due date = 到期日
 = Tom 從市立圖書館借了三本書，本來應該兩個星期內歸還，但他忘了。一個月後，他收到圖書館的訊息：他得繳九十元罰款。Tom 覺得很糟，他不想告訴媽媽，於是到處找那幾本書，最後在床底下找到了。書上積了灰塵，但沒有損壞。他到圖書館跟館員說：「對不起，我遲還是因為我把書弄丟了。」館員笑著說：「謝謝你說實話。」她甚至介紹他一個會在到期日前提醒的 app。Tom 用自己的零用錢繳了罰款。這次經驗讓他學會更小心，現在他總是準時還書。
+
+## 跌倒也要跑完
+Our class was in the relay race on Sports Day. Before the race, our PE teacher helped us [[plan|pay|feel|save]] the order of the runners. Wendy is the fastest, so she ran last. I was the third runner. When I got the baton, I [[felt|paid|planned|saved]] my heart beating fast. I ran as hard as I could, but near the corner, I fell down! My knees hurt, and our team [[moved|paid|saved|enjoyed]] from first place to fourth. I got up and kept running with tears in my eyes. Then Wendy took the baton. She passed one runner, then two, then three! We won! After the race, I said sorry to everyone, but they were very [[kind|likely|last|away]]. "You got up and finished. That is what matters," Wendy said. It was the best Sports Day [[experience|kind|right|money]] I have ever had.
+> 1 plan the order「安排順序」：老師幫我們安排跑者的棒次。pay、feel、save the order 都不通。
+> 2 feel + 受詞 + V-ing「感覺到…正在…」：我感覺到心跳得好快。paid、planned、saved my heart beating 都不通。
+> 3 move from A to B「從 A 變到 B」：我們隊從第一名掉到第四名。paid、saved、enjoyed from first place to fourth 都不通。
+> 4 kind「體貼的、好心的」：大家都很體諒我。likely、last 放在這裡不通，away 是副詞「離開」，不能形容人。
+> 5 the best experience「最棒的經驗」。kind、right、money 放在這裡都不合理。
++ relay race = 接力賽
++ Sports Day = 運動會
++ PE = 體育
++ baton = 接力棒
++ knee = 膝蓋
+= 運動會那天，我們班參加大隊接力。比賽前，體育老師幫我們安排跑者的棒次。Wendy 跑最快，所以她跑最後一棒，我是第三棒。拿到接力棒時，我感覺到自己心跳好快。我拚命地跑，卻在彎道附近跌倒了！我的膝蓋好痛，我們隊也從第一名掉到第四名。我爬起來，含著眼淚繼續跑。接著 Wendy 接過棒子，她超過一個、兩個、三個人！我們贏了！比賽結束後，我向大家道歉，但大家都很體諒我。「你爬起來跑完了，這才是最重要的。」Wendy 說。這是我參加過最棒的一次運動會。
+
+## 便利商店的一天
+For a school project, Nina [[experienced|paid|saved|moved]] life as a store clerk for one day. Her aunt owns a convenience store near the train station, so Nina worked there on Saturday. In the morning, she [[moved|felt|paid|enjoyed]] heavy boxes of drinks into the fridge. She also learned how to make coffee and heat up lunch boxes. By noon, her arms [[felt|paid|saved|planned]] so tired. Then an old woman came in. She wanted to send a package, but she did not know how to use the machine. Nina helped her step by step. The woman held Nina's hand and said, "What a [[kind|right|last|away]] girl!" At the end of the day, Nina wrote a [[report|kind|news|money]] for her project. Her title was "A Clerk's Job Is Not Easy." Now she always says thank you to the clerks when she buys something.
+> 1 experience 當動詞「體驗」：Nina 體驗了一天店員的生活。paid、saved、moved life as a store clerk 都不通。
+> 2 move + 物 + into + 地方「把…搬進…」：她把一箱箱飲料搬進冰箱。felt、paid、enjoyed heavy boxes 都不通。
+> 3 feel + 形容詞：her arms felt tired 她的手臂好痠。paid、saved、planned tired 都不通。
+> 4 What a kind girl!「真是好心的女孩！」right、last 不能這樣稱讚人，away 是副詞，不能放在 a 和名詞中間。
+> 5 write a report「寫報告」。kind 不通，news、money 是不可數名詞，不能加 a。
++ clerk = 店員
++ convenience store = 便利商店
++ heat up = 加熱
++ package = 包裹
+= 為了學校的專題，Nina 體驗了一天的店員生活。她阿姨在火車站附近開便利商店，所以她星期六去那裡工作。早上，她把一箱箱很重的飲料搬進冰箱，也學會煮咖啡和加熱便當。到了中午，她的手臂已經痠得不得了。後來一位老太太走進來，想寄包裹卻不會用機器，Nina 一步一步地幫她。老太太握著 Nina 的手說：「真是個好心的女孩！」一天結束時，Nina 為專題寫了一份報告，標題是〈店員的工作不簡單〉。現在她買東西時，總會跟店員說聲謝謝。
+
+## 柯南與消失的蛋糕
+"Someone ate my cake!" shouted Ayumi. She had put a piece of strawberry cake in the classroom fridge, but now the box was empty. She [[felt|paid|saved|planned]] so angry that she wanted to [[report|enjoy|feel|save]] it to the teacher right away. Genta [[planned|felt|paid|enjoyed]] to buy her a new one after school. But Conan said, "Wait. Let me look first." He found some white cream on the window. He also saw some small footprints on the desk. "The thief is not a person," he said. He opened the window and pointed at the tree outside. There was a fat cat on a branch, and it was licking cream from its mouth! Everyone laughed. The cat did not [[even|ago|away|than]] look sorry. "Well," said Ayumi, "that cat has good taste. It [[enjoyed|paid|moved|reported]] the best cake in town!"
+> 1 feel + 形容詞：felt so angry that … 氣到想要…。paid、saved、planned angry 都不通。
+> 2 report … to + 人「向某人報告…」：她想馬上報告老師。enjoy、feel、save it to the teacher 都不通。
+> 3 plan to + 原形動詞「打算做…」：元太打算放學後買一塊新的給她。felt to、paid to、enjoyed to buy 都不對。
+> 4 not even「連…都不」：那隻貓一點都沒有不好意思的樣子。ago、away、than 都不能放在 did not 和動詞中間。
+> 5 enjoy + 食物「享用」：牠享用了鎮上最好吃的蛋糕。paid、moved、reported the best cake 意思都不通。
++ Ayumi = 步美（《名偵探柯南》的角色）
++ Genta = 元太
++ Conan = 柯南
++ footprint = 腳印
++ lick = 舔
+= 「有人吃了我的蛋糕！」步美大喊。她把一塊草莓蛋糕放在教室的冰箱裡，現在盒子卻空了。她氣得想馬上去報告老師，元太則打算放學後買一塊新的給她。但柯南說：「等一下，讓我先看看。」他在窗戶上發現一些白色奶油，桌上還有幾個小小的腳印。「小偷不是人。」他說。他打開窗戶，指著外面的樹。樹枝上有一隻胖貓，正在舔嘴邊的奶油！大家都笑了，那隻貓一點都沒有不好意思的樣子。「好吧，」步美說，「那隻貓很有品味，牠享用了鎮上最好吃的蛋糕！」
+
+## 怕水的 Mark
+Mark was afraid of water. When he was six, he fell into a pool, and he never forgot that [[experience|kind|right|money]]. This summer, his mom took him to swimming lessons. On the first day, he [[felt|paid|saved|planned]] so scared that he did not want to get in. His coach was patient. "Let's just put your feet in today," she said. The next day, Mark put his whole body in the water. Slowly, he learned to [[move|pay|save|plan]] his arms and legs the right way. He swallowed a lot of water, but he did not give up. After a month, he could swim 25 meters. His mom cried when she saw it. Now Mark [[enjoys|pays|saves|reports]] swimming more than any other sport. He [[even|ago|away|than]] wants to join the school swimming team next year.
+> 1 that experience「那次經驗」：他一直忘不了那次掉進泳池的經驗。kind、right、money 和「掉進泳池」的語意都不合。
+> 2 feel + 形容詞：felt so scared that … 害怕到不想下水。paid、saved、planned scared 都不通。
+> 3 move one's arms and legs「擺動手腳」。pay、save、plan his arms and legs 都不通。
+> 4 enjoy + V-ing「喜歡做…」：他現在最喜歡游泳。pays、saves、reports swimming 都不通。
+> 5 even「甚至」：他甚至想參加校隊。ago、away、than 都不能放在主詞和動詞中間。
++ pool = 游泳池
++ coach = 教練
++ patient = 有耐心的
++ swallow = 吞下
++ meter = 公尺
+= Mark 很怕水。六歲時他曾掉進游泳池，一直忘不了那次經驗。今年夏天，媽媽帶他去上游泳課。第一天，他害怕得不肯下水。教練很有耐心：「我們今天先把腳放進水裡就好。」隔天，Mark 整個人都下水了。慢慢地，他學會用正確的方式擺動手腳。他喝了很多水，但沒有放棄。一個月後，他能游二十五公尺了，媽媽看到時感動得哭了。現在 Mark 喜歡游泳勝過任何運動，他甚至想在明年參加學校的游泳隊。
+
+## 演唱會的門票
+My favorite singer is coming to Taipei for a concert in December! A ticket costs 3,800 dollars, and my parents said I have to [[pay|feel|enjoy|become]] for it myself. So I started to [[save|feel|report|become]] money. I stopped buying bubble tea, and I walked my neighbor's dog every day after school. She [[paid|felt|enjoyed|planned]] me 100 dollars a week. After four months, I finally had enough money. But on the day the tickets went on sale, the website was very slow. When I finally got in, all the tickets were gone! I [[felt|paid|saved|planned]] like crying. Then my best friend called. "My sister can't go to the concert. Do you want her ticket?" I could not believe my luck! At the concert, I sang and danced all night. I [[enjoyed|paid|saved|reported]] every song. It was worth every dollar and every walk with the dog.
+> 1 pay for + 物「付…的錢」：爸媽說我得自己付票錢。feel、enjoy、become for it 都不通。
+> 2 save money「存錢」。feel、report、become money 意思都不通。
+> 3 pay + 人 + 金額「付給某人…錢」：鄰居每週付我一百元。felt、enjoyed、planned me 100 dollars 都不通。
+> 4 feel like + V-ing「想要…」：我好想哭。paid、saved、planned like crying 都不通。
+> 5 enjoy every song「享受每一首歌」。paid、saved、reported every song 意思都不通。
++ concert = 演唱會
++ ticket = 門票
++ bubble tea = 珍珠奶茶
++ on sale = 開賣
++ worth = 值得的
+= 我最喜歡的歌手十二月要來台北開演唱會！一張票三千八百元，爸媽說我得自己付錢。於是我開始存錢：我不再買珍珠奶茶，每天放學後幫鄰居遛狗，她每星期付我一百元。四個月後，我終於存夠了錢。但開賣那天，網站好慢，等我終於進去，票已經全部賣光了！我難過得好想哭。這時我最好的朋友打電話來：「我姊姊不能去演唱會了，你要她的票嗎？」我簡直不敢相信自己這麼幸運！演唱會上，我整晚又唱又跳，每一首歌都好享受。每一塊錢、每一次遛狗都值得了。
+
+## 我家的機器狗
+For my birthday, my uncle gave me a robot dog named Bolt. He is not a real dog, but he can [[move|pay|save|plan]] like one. He walks, sits, and shakes hands. When I come home, he wags his tail. When I am sad, he puts his head on my leg. It [[feels|pays|saves|plans]] like he understands me. Bolt can also [[report|become|save|pay]] the weather every morning: "Today will be sunny. Don't forget your hat!" But Bolt is not perfect. One day, he walked into the fish tank and broke his leg. I had to [[pay|feel|enjoy|become]] 2,000 dollars to fix him. My friends often ask me, "Is a robot dog better than a real one?" I think they are different [[kinds|news|weather|money]] of friends. Bolt can't eat or run in the park, but he is still my best friend.
+> 1 move「移動、活動」：牠能像真的狗一樣活動。pay、save、plan like one 都不通。
+> 2 It feels like …「感覺好像…」：感覺好像牠懂我。pays、saves、plans like 都不通。
+> 3 report the weather「報告天氣」：牠每天早上報天氣。become、save、pay the weather 都不通。
+> 4 pay + 金額 + to + 原形動詞「付…錢來做…」：我得花兩千元修牠。feel、enjoy、become 2,000 dollars 都不通。
+> 5 different kinds of …「不同種類的…」。news、weather、money 都是不可數名詞，不會說 different news of friends，意思也不通。
++ robot = 機器人
++ wag = 搖（尾巴）
++ tail = 尾巴
++ fish tank = 魚缸
+= 我生日的時候，叔叔送我一隻叫 Bolt 的機器狗。牠不是真的狗，卻能像真狗一樣活動：牠會走路、坐下、握手。我回家時，牠會搖尾巴；我難過時，牠會把頭靠在我腿上，感覺好像牠懂我。Bolt 每天早上還會報天氣：「今天是晴天，別忘了帶帽子！」但 Bolt 不是完美的。有一天，牠走進魚缸，把腿弄壞了，我得花兩千元修牠。朋友常問我：「機器狗比真的狗好嗎？」我覺得牠們是不同種類的朋友。Bolt 不能吃東西，也不能在公園裡跑，但牠還是我最好的朋友。
+
+## 去海邊撿垃圾
+Last Saturday, our class went to a beach in Keelung. We did not go there to swim. We went to clean it! When we got there, I could not believe my eyes. There were bottles, plastic bags, and old shoes everywhere. I [[felt|paid|saved|planned]] sad for the fish and sea turtles. We worked in groups of four. In two hours, we [[moved|felt|paid|enjoyed]] more than fifty bags of trash to the truck. It was hot, and my back hurt, but nobody stopped. When we finished, the beach looked clean and beautiful. Our teacher said, "You [[saved|felt|paid|reported]] this beach today." It was hard work, but it was a great [[experience|kind|news|right]] for all of us. Now I [[even|ago|away|than]] bring my own bag and bottle when I go out, so I make less trash.
+> 1 feel sad for + 名詞「為…感到難過」。paid、saved、planned sad 都不通。
+> 2 move + 物 + to + 地方「把…搬到…」：我們把五十多袋垃圾搬上卡車。felt、paid、enjoyed fifty bags of trash 都不通。
+> 3 save the beach「拯救了海灘」。felt、paid、reported this beach 意思都不通。
+> 4 a great experience「很棒的經驗」。kind、right 不通，news 不可數不能加 a。
+> 5 even「甚至」：我現在甚至會自備購物袋和水瓶。ago、away、than 都不能放在主詞和動詞中間。
++ Keelung = 基隆
++ plastic bag = 塑膠袋
++ sea turtle = 海龜
++ trash = 垃圾
+= 上星期六，我們班去基隆的一處海灘。我們不是去游泳，而是去打掃！一到那裡，我簡直不敢相信自己的眼睛：到處都是瓶子、塑膠袋和舊鞋子。我替魚和海龜感到難過。我們四人一組，兩個小時內就把五十多袋垃圾搬上卡車。天氣很熱，我的背也很痠，但沒有人停下來。結束時，海灘看起來乾淨又美麗。老師說：「你們今天拯救了這片海灘。」雖然很辛苦，但對我們每個人來說都是很棒的經驗。現在我出門甚至會自己帶袋子和水瓶，少製造一點垃圾。
+
+## 英文課的氣象報告
+In English class, Ms. Wang asked each of us to give a weather [[report|kind|plan|news]] in front of the class. My turn was on Monday. I [[planned|felt|paid|enjoyed]] to wear my dad's suit, just like a real TV weatherman. I practiced many times at home. But when I stood in front of the class, my mind went blank. I could not remember a single word! I [[felt|paid|saved|planned]] my face turn red. Then I saw my friend Joe in the back. He was holding up a piece of paper. It said, "SUNNY, 28 DEGREES." He [[saved|felt|enjoyed|planned]] me! I finished my report, and everyone clapped. Ms. Wang smiled and said, "[[Even|Ago|Away|Than]] real weathermen forget their words sometimes." After class, I bought Joe a cup of bubble tea to say thank you.
+> 1 give a weather report「做氣象報告」。kind、plan 放在這裡不通，news 不可數不能加 a。
+> 2 plan to + 原形動詞「打算做…」：我打算穿爸爸的西裝。felt to、paid to、enjoyed to wear 都不對。
+> 3 feel + 受詞 + 原形動詞「感覺到…」：我感覺到自己臉紅了。paid、saved、planned my face turn red 都不通。
+> 4 save + 人「救了某人」：他救了我！felt、enjoyed、planned me 意思都不通。
+> 5 even「甚至、連…都」：連真正的氣象主播有時也會忘詞。Ago、Away、Than 都不能放在句首修飾名詞。
++ suit = 西裝
++ weatherman = 氣象主播
++ mind went blank = 腦袋一片空白
++ degree = 度
++ clap = 拍手
+= 英文課上，王老師要我們每個人在全班面前做一段氣象報告。輪到我的那天是星期一。我打算穿爸爸的西裝，就像真正的電視氣象主播一樣。我在家練習了很多次，但當我站在全班面前時，腦袋突然一片空白，一個字都想不起來！我感覺到自己的臉都紅了。這時我看到坐在後面的好朋友 Joe，他舉著一張紙，上面寫著「晴天，28 度」。他救了我！我順利完成報告，大家都拍手。王老師笑著說：「連真正的氣象主播有時也會忘詞。」下課後，我請 Joe 喝一杯珍珠奶茶謝謝他。
+
+## 年前大掃除
+Every year before Chinese New Year, our class has a big cleaning day. This year, our teacher wanted us to [[move|pay|save|enjoy]] all the desks to the back of the room so we could wash the floor. The desks were heavy, so we worked in pairs. While I was pushing my desk, a lot of old things fell out: three pencils, a lost math test, and a very old sandwich! Everyone laughed, and I [[felt|paid|planned|saved]] so embarrassed. Then my classmate Ben found a 100-dollar bill under his desk. He did not keep it. He [[reported|enjoyed|felt|became]] it to the teacher. "Ben is an honest boy," she said. "We should all learn from him." By the end of the day, the classroom looked like new. It was hard work, but we [[enjoyed|paid|saved|reported]] it because we did it together. Our teacher [[even|ago|away|than]] bought us bubble tea.
+> 1 move + 物 + to + 地方「把…移到…」：老師要我們把桌子搬到教室後面。pay、save、enjoy all the desks 都不通。
+> 2 feel + 形容詞：felt embarrassed 覺得很丟臉。paid、planned、saved embarrassed 都不通。
+> 3 report … to + 人「把…報告給某人」：他把錢交給老師處理。enjoyed、felt、became it to the teacher 都不通。
+> 4 enjoy it「樂在其中」：雖然辛苦，但我們很開心。paid、saved、reported it 和「因為大家一起做」語意不合。
+> 5 even「甚至」：老師甚至請我們喝珍奶。ago、away、than 都不能放在主詞和動詞中間。
++ in pairs = 兩人一組
++ embarrassed = 尷尬的、丟臉的
++ bill = 鈔票
++ honest = 誠實的
+= 每年過年前，我們班都會大掃除。今年，老師要我們把所有桌子搬到教室後面，好把地板刷乾淨。桌子很重，所以我們兩人一組。我推桌子的時候，掉出一大堆舊東西：三枝鉛筆、一張不見很久的數學考卷，還有一個超級舊的三明治！大家都笑了，我覺得好丟臉。接著同學 Ben 在他桌子底下撿到一張一百元鈔票，他沒有據為己有，而是交給老師。「Ben 是個誠實的孩子，」老師說，「我們都應該向他學習。」到了傍晚，教室煥然一新。雖然很辛苦，但因為是大家一起做的，我們都很開心。老師甚至還請我們喝珍珠奶茶。
+
+## 魯夫偷吃便當
+Luffy loves meat more than anything. One day, Sanji made a big lunch box for everyone on the ship. Luffy finished his in one minute. Then he looked at Zoro's lunch box. Zoro was asleep. Luffy [[planned|felt|paid|reported]] to take just one piece of meat. But one piece became two, and two became five. Soon the box was empty! When Zoro woke up, he was very angry. Luffy [[felt|paid|saved|planned]] bad. "I'm sorry! I will [[pay|feel|enjoy|become]] you back!" he said. But Luffy had no money. So he went fishing all afternoon. He caught a huge fish and gave it to Sanji. That night, Sanji cooked a fish dinner for everyone. Zoro [[enjoyed|paid|saved|moved]] it so much that he forgot he was angry. Luffy smiled and asked, "Then can I have your fish too?" Zoro did not [[even|ago|away|than]] answer. He just ate faster.
+> 1 plan to + 原形動詞「打算做…」：魯夫打算只拿一塊肉。felt to、paid to、reported to take 都不對。
+> 2 feel bad「覺得過意不去」。paid、saved、planned bad 都不通。
+> 3 pay + 人 + back「還某人、補償某人」。feel、enjoy、become you back 都不通。
+> 4 enjoy + 食物「吃得很開心」：索隆吃得太開心，忘了自己在生氣。paid、saved、moved it 都不通。
+> 5 not even「連…都不」：索隆連回答都沒有。ago、away、than 都不能放在 did not 和動詞中間。
++ Luffy = 魯夫（《航海王》的主角）
++ Sanji = 香吉士
++ Zoro = 索隆
++ huge = 巨大的
+= 魯夫最愛吃肉了。有一天，香吉士為船上每個人做了一個大便當。魯夫一分鐘就吃完了自己的，然後看向索隆的便當。索隆正在睡覺，魯夫打算只拿一塊肉。結果一塊變兩塊，兩塊變五塊，很快便當就空了！索隆醒來後非常生氣。魯夫覺得很過意不去：「對不起！我會補償你的！」可是魯夫沒有錢，於是他釣了一整個下午的魚，釣到一條超大的魚交給香吉士。那天晚上，香吉士為大家煮了一頓魚大餐。索隆吃得太開心，忘了自己在生氣。魯夫笑著問：「那我可以也吃你的魚嗎？」索隆連回答都沒有，只是吃得更快了。
