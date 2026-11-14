@@ -318,7 +318,7 @@ function update(){
   const n = num === 0 ? sentences : Math.min(num, sentences);
   const words = days.reduce((s,i)=>s+DATA.words[i].length,0);
   $('countLbl').innerHTML = days.length
-    ? `已選 <b>${days.length}</b> 天・${words} 個新字・題庫 <b>${all.length}</b> 題（含舊字複習與誘答變化，不同句子 ${sentences} 句），本次出 <b>${n}</b> 題`
+    ? `本次出 <b>${n}</b> 題`
     : '還沒有選天數';
   const who = $('seat').value && $('sname').value.trim();
   $('startBtn').disabled = n === 0 || !who;
