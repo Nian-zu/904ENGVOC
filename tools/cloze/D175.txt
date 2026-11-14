@@ -260,3 +260,133 @@ Mei could change the [[weather|gift|ticket|example]] with her feelings. When she
 + sticker = 貼紙
 + temperature = 氣溫
 = 小美能用心情改變天氣：她開心時就出太陽，難過時就下雨。除了奶奶，沒有人相信她。有一天，班上計畫去野餐。前一晚，小美和好朋友小琳吵架了。隔天早上，烏雲布滿天空，天氣好冷。「我確定小琳還在生我的氣。」小美難過地想。但到了學校，小琳拿著一份小禮物來找她——一張太陽貼紙。「對不起。」小琳說。小美笑了。慢慢地，雲散了，氣溫開始回升。那天下午，全班在溫暖明亮的陽光下野餐。
+
+## 櫃子裡的喵喵聲
+Last Friday, something strange [[happened|believed|owned|chose]] in our classroom. During the math test, we heard a soft "meow." Everyone looked around. "Who is playing games on a phone?" our teacher asked. Nobody answered. Then we heard it again. I wasn't [[sure|own|great|likely]] where it came from. Finally, our teacher opened the cabinet at the back of the room. A little kitten was sleeping inside! Nobody could [[believe|happen|rise|own]] it. It probably came in through the window because the [[weather|gift|ticket|example]] outside was so cold. The teacher let us take care of it [[together|least|likely|than]] until we found its owner. But nobody came for it, so now it is our class cat.
+> 1 Something strange happened.「發生了奇怪的事。」believed、owned、chose 都不能這樣用。
+> 2 be not sure where …「不確定從哪裡…」。own、great、likely 都不能這樣用。
+> 3 can't believe it「不敢相信」。happen、rise、own it 都不合句意。
+> 4 the weather was cold「天氣很冷」，所以小貓跑進來取暖。gift、ticket、example 都不通。
+> 5 take care of it together「一起照顧牠」。least、likely、than 都不通。
++ meow = 喵（貓叫聲）
++ cabinet = 櫃子
++ kitten = 小貓
++ probably = 大概
+= 上星期五，我們教室發生了一件怪事。數學考試時，我們聽到一聲小小的「喵」。大家四處張望。「誰在用手機玩遊戲？」老師問。沒人回答。接著我們又聽到了。我不確定聲音是從哪裡來的。最後，老師打開教室後面的櫃子——一隻小貓正在裡面睡覺！大家都不敢相信。牠大概是因為外面天氣太冷，從窗戶跑進來的。老師讓我們一起照顧牠，直到找到主人。但一直沒有人來認領，所以現在牠成了我們的班貓。
+
+## 麵包為什麼會長大
+Have you ever made bread at home? If you have, you know that bread dough gets bigger before you bake it. Why does this [[happen|believe|own|choose]]? The secret is yeast. Yeast is a very small living thing. When it eats the sugar in the dough, it makes gas. The gas makes the dough [[rise|happen|believe|own]]. Many people can't [[believe|happen|rise|own]] that something so small can do so much! But the [[weather|gift|ticket|example]] is important, too. Yeast works best when it is warm. On cold days, the dough grows very slowly. So if you want to make bread in winter, make [[sure|own|great|likely]] you put the dough in a warm place.
+> 1 Why does this happen?「為什麼會這樣？」believe、own、choose 都不能這樣用。
+> 2 make the dough rise「讓麵團膨脹」。happen、believe、own 都不能形容麵團。
+> 3 can't believe that …「不敢相信…」。happen、rise、own that 都不通。
+> 4 the weather is important「天氣也很重要」，後面講冷熱。gift、ticket、example 都不通。
+> 5 make sure (that) …「務必…」。make own、make great、make likely 都不通。
++ dough = 麵團
++ bake = 烘烤
++ yeast = 酵母
++ gas = 氣體
+= 你在家做過麵包嗎？如果做過，你就知道麵團在烤之前會變大。為什麼會這樣呢？祕密就是酵母。酵母是一種非常小的生物，它吃掉麵團裡的糖後，會產生氣體，氣體就讓麵團膨脹起來。很多人不敢相信這麼小的東西能有這麼大的作用！不過天氣也很重要。酵母在溫暖的時候作用最好，冷天時麵團會長得很慢。所以如果你想在冬天做麵包，一定要把麵團放在溫暖的地方。
+
+## 爸爸的超速罰單
+Last month, Dad got a letter from the police. It was a speeding [[ticket|weather|gift|news]]! "I'm [[sure|own|great|likely]] I wasn't driving fast," Dad said. But there was a photo of his car on the highway. Mom looked at the date. "That was the day we drove to Grandma's house [[together|least|likely|than]]," she said. "You were in a hurry because you didn't want to be late for dinner." Dad was quiet for a moment. "Oh. So that's how it [[happened|believed|owned|chose]]." He had to pay 3,000 dollars. Now Dad always drives slowly, even when we are late. He says it's a [[great|least|own|likely]] way to save money and stay safe.
+> 1 speeding ticket「超速罰單」。speeding weather、gift、news 都不通。
+> 2 I'm sure (that) …「我確定…」。own、great、likely 都不能這樣用。
+> 3 drive … together「一起開車去」。least、likely、than 都不通。
+> 4 how it happened「事情是怎麼發生的」。believed、owned、chose 都不能這樣用。
+> 5 a great way to …「…的好方法」。a least、an own、a likely way 都不通。
++ police = 警察
++ speeding = 超速
++ highway = 高速公路
++ in a hurry = 匆忙
+= 上個月，爸爸收到一封警察寄來的信——是一張超速罰單！「我確定我沒有開很快啊。」爸爸說。但信裡有一張他的車在高速公路上的照片。媽媽看了看日期：「那天是我們一起開車去奶奶家的日子，」她說，「你那時很趕，因為不想晚餐遲到。」爸爸沉默了一下：「喔，原來是這樣。」他得繳 3,000 元。現在爸爸就算快遲到了也都開得很慢。他說這是省錢又安全的好方法。
+
+## 平溪放天燈
+During the Lantern Festival, my family went to Pingxi to send off sky lanterns. Each of us wrote a wish on the lantern. I wrote, "I hope I can do well on the CAP." My sister wrote, "I want my [[own|sure|likely|least]] phone." Mom and Dad wrote, "Health and happiness for our family." We held the lantern [[together|least|likely|than]] and lit it. Slowly, it began to [[rise|happen|believe|own]] into the night sky. Hundreds of lanterns were flying at the same time. It was a [[great|sure|own|likely]] sight. I'm not [[sure|own|great|likely]] if wishes really come true, but I will remember that night forever.
+> 1 my own phone「我自己的手機」。my sure、likely、least phone 都不通。
+> 2 hold … together「一起拿著」。least、likely、than 都不通。
+> 3 rise into the sky「升上天空」。happen、believe、own 都不能形容天燈。
+> 4 a great sight「壯觀的景象」。a sure、an own、a likely sight 都不通。
+> 5 be not sure if …「不確定是否…」。own、great、likely 都不能這樣用。
++ Lantern Festival = 元宵節
++ Pingxi = 平溪
++ sky lantern = 天燈
++ wish = 願望
++ sight = 景象
+= 元宵節時，我們全家去平溪放天燈。每個人都在天燈上寫下一個願望。我寫：「希望我會考考得好。」妹妹寫：「我想要一支自己的手機。」爸媽寫：「全家健康快樂。」我們一起拿著天燈，把它點燃。它慢慢升上夜空，好幾百個天燈同時在飛，真是壯觀的景象。我不確定願望是不是真的會實現，但我會永遠記得那一晚。
+
+## 說自己有感覺的機器人
+My uncle builds robots. His newest robot, Max, can talk and play chess. One day, Max said, "I feel sad today." I didn't [[believe|happen|rise|own]] him. "Robots can't feel anything," I said. "Are you [[sure|own|great|likely]]?" Max asked. "Today is my birthday, and nobody gave me a [[gift|weather|news|fact]]." I didn't know what to say. So I made him a paper hat, and we played chess [[together|least|likely|than]]. Max won three games. "Now I feel happy," he said. My uncle laughed. "He just learned that from a movie," he said. But I'm still thinking about it. What will [[happen|believe|own|choose]] if robots really have feelings one day?
+> 1 believe + 人「相信某人說的話」。happen、rise、own him 都不通。
+> 2 Are you sure?「你確定嗎？」own、great、likely 都不能這樣用。
+> 3 give + 人 + a gift「送某人禮物」。a weather、a news、a fact 都不通。
+> 4 play chess together「一起下棋」。least、likely、than 都不通。
+> 5 What will happen if …?「如果…會發生什麼事？」believe、own、choose 都不能這樣用。
++ robot = 機器人
++ chess = 西洋棋
++ feeling = 感覺、情感
+= 我舅舅會做機器人。他最新的機器人 Max 會說話，也會下西洋棋。有一天，Max 說：「我今天很難過。」我不相信他。「機器人根本沒有感覺。」我說。「你確定嗎？」Max 問，「今天是我的生日，可是沒有人送我禮物。」我不知道該說什麼，於是幫他做了一頂紙帽子，還陪他一起下棋。Max 贏了三盤。「現在我很開心。」他說。舅舅笑著說：「他只是從電影裡學來的啦。」但我還在想：如果有一天機器人真的有了感情，會發生什麼事呢？
+
+## 一起救小鳥
+On my way to school, I found a baby bird on the ground. It was too small to fly. I wasn't [[sure|own|great|likely]] what to do. Then my classmate Jack came by. "Let's help it [[together|least|likely|than]]," he said. We looked up and saw a nest in a tree. Jack held the bird, and I climbed the tree. It was hard, but I put the bird back in its nest. Then we [[heard|hit|spent|chose]] its mother singing nearby. We were late for school, and our teacher asked what [[happened|believed|owned|chose]]. When we told her, she didn't [[believe|happen|rise|own]] us at first. But Jack showed her a photo on his phone. She smiled and said, "Good job, you two."
+> 1 be not sure what to do「不知道該怎麼辦」。own、great、likely 都不能這樣用。
+> 2 help it together「一起幫牠」。least、likely、than 都不通。
+> 3 hear + 受詞 + V-ing「聽到…正在…」。hit、spent、chose its mother singing 都不通。
+> 4 ask what happened「問發生什麼事」。believed、owned、chose 都不能這樣用。
+> 5 believe + 人「相信某人」。happen、rise、own us 都不通。
++ nest = 鳥巢
++ climb = 爬
++ nearby = 在附近
+= 上學途中，我在地上發現一隻雛鳥，牠還太小，不會飛。我不知道該怎麼辦。這時同學 Jack 經過：「我們一起幫牠吧。」他說。我們抬頭看到樹上有一個鳥巢。Jack 捧著小鳥，我爬上樹。雖然很難，但我把小鳥放回了巢裡。接著我們聽到鳥媽媽在附近唱歌。我們上學遲到了，老師問發生了什麼事。我們告訴她時，她一開始不相信。但 Jack 給她看手機裡的照片，她笑著說：「你們兩個做得好。」
+
+## 最偉大的發明
+In English class, our teacher asked, "What is the [[greatest|surest|freest|likeliest]] invention in history?" Some students said the phone. Others said the computer. Amy said, "The light bulb. Before it, people went to bed early and got up when the sun [[rose|happened|believed|owned]]." Then Leo said, "Instant noodles!" Everyone laughed, but he was serious. "I'm [[sure|own|great|likely]] that millions of people eat them every day. They are cheap and easy to make." The teacher said, "Good point. In fact, instant noodles were first made in 1958 by a man in Japan, and he was born in Taiwan." Nobody [[believed|happened|rose|owned]] it at first. In the end, the teacher said every answer was right, because each invention made life better in its [[own|sure|likely|least]] way.
+> 1 the greatest invention「最偉大的發明」。surest、freest、likeliest 都不能用來形容「最…的發明」。
+> 2 the sun rose「太陽升起」。happened、believed、owned 都不能形容太陽。
+> 3 I'm sure that …「我確定…」。own、great、likely 都不能這樣用。
+> 4 believe it「相信這件事」。happened、rose、owned it 都不合句意。
+> 5 in its own way「以它自己的方式」。in its sure、likely、least way 都不通。
++ invention = 發明
++ light bulb = 電燈泡
++ instant noodles = 泡麵
++ serious = 認真的
++ millions of = 數百萬的
+= 英文課上，老師問：「歷史上最偉大的發明是什麼？」有人說手機，有人說電腦。Amy 說：「電燈泡。在它出現之前，人們很早就睡，太陽升起才起床。」接著 Leo 說：「泡麵！」大家都笑了，但他是認真的：「我確定每天有好幾百萬人在吃泡麵，又便宜又好做。」老師說：「說得好。事實上，泡麵是在 1958 年由一位在日本的男士發明的，而他是在台灣出生的。」一開始沒有人相信。最後，老師說每個答案都對，因為每一項發明都用自己的方式讓生活變得更好。
+
+## 茱蒂的停車罰單
+Judy Hopps is a rabbit police officer in Zootopia. On her first day, her boss gives her a job she doesn't like: writing parking [[tickets|gifts|weathers|examples]]. "I want to catch bad guys!" she thinks. Her friends don't [[believe|happen|rise|own]] she will last a week. It is a hot day, and the [[weather|gift|ticket|example]] makes everyone tired. But Judy works hard. Then something [[happens|believes|owns|chooses]]. She sees a little elephant crying on the street. The girl has lost her mom. Judy stops writing tickets and helps her. An hour later, they find her mom at the ice cream shop. That night, Judy feels happy. She is [[sure|own|great|likely]] now that helping others is the most important part of her job.
+> 1 parking tickets「停車罰單」。parking gifts、weathers、examples 都不通。
+> 2 don't believe (that) …「不相信…」：朋友不相信她能撐過一星期。happen、rise、own 都不能接句子。
+> 3 the weather makes everyone tired「天氣讓大家很累」。gift、ticket、example 都不合句意。
+> 4 Something happens.「發生了一件事。」believes、owns、chooses 都不能這樣用。
+> 5 be sure that …「確信…」。own、great、likely 都不能這樣用。
++ Judy Hopps = 茱蒂（電影《動物方城市》角色）
++ Zootopia = 動物方城市
++ police officer = 警察
++ last = 撐下去
++ elephant = 大象
+= 茱蒂是動物方城市裡的一隻兔子警察。上班第一天，上司給了她一份她不喜歡的工作：開停車罰單。「我想抓壞人啊！」她心想。她的朋友不相信她能撐過一個星期。那天很熱，天氣讓大家都很疲倦，但茱蒂很認真工作。接著發生了一件事：她看到一隻小象在路邊哭，原來她和媽媽走散了。茱蒂停下開罰單的工作去幫她。一個小時後，她們在冰淇淋店找到了小象的媽媽。那天晚上，茱蒂覺得很開心。現在她確信，幫助別人才是她工作中最重要的部分。
+
+## 我的 YouTube 頻道
+Last year, I started my [[own|sure|likely|least]] YouTube channel. I make videos about cooking easy food for students. At first, only my mom and my grandma watched them. I wasn't [[sure|own|great|likely]] I should keep going. Then one day, something amazing [[happened|believed|owned|chose]]. A famous cook shared one of my videos. Overnight, the number of people watching my videos began to [[rise|happen|believe|own]] quickly. In one week, I had 10,000 followers! I couldn't [[believe|happen|rise|own]] it. Now I make a new video every Saturday. My next one is about making fried rice in a rice cooker.
+> 1 my own channel「我自己的頻道」。my sure、likely、least channel 都不通。
+> 2 be not sure (that) …「不確定…」。own、great、likely 都不能這樣用。
+> 3 Something amazing happened.「發生了很棒的事。」believed、owned、chose 都不能這樣用。
+> 4 the number began to rise「數字開始上升」。happen、believe、own 都不能形容數字。
+> 5 can't believe it「不敢相信」。happen、rise、own it 都不合句意。
++ channel = 頻道
++ overnight = 一夜之間
++ follower = 追蹤者
++ rice cooker = 電鍋
+= 去年，我開了自己的 YouTube 頻道，拍一些教學生煮簡單料理的影片。一開始，只有我媽和我奶奶在看。我不確定該不該繼續下去。後來有一天，發生了一件很棒的事：一位有名的廚師分享了我的一支影片。一夜之間，看我影片的人數開始快速上升。一個星期內，我就有了一萬個追蹤者！我簡直不敢相信。現在我每個星期六都會上傳新影片，下一支是教大家用電鍋做炒飯。
+
+## 奶奶織的毛衣
+Every winter, Grandma knits a sweater for me. It is always her [[gift|weather|news|fact]] for my birthday in December. When I was little, I loved them. But last year, I thought they were not cool, so I didn't wear the new one. Then one day, the [[weather|gift|ticket|example]] suddenly became very cold. I had no other warm clothes, so I put on Grandma's sweater. At school, my classmates said it looked [[great|sure|own|likely]]. "Where did you buy it?" they asked. "My grandma made it," I said. They couldn't [[believe|happen|rise|own]] it. Some of them even asked if she could make one for them. Now I'm [[sure|own|great|likely]] Grandma's sweaters are the coolest in the world.
+> 1 her gift for my birthday「她送我的生日禮物」。weather、news、fact 都不通。
+> 2 the weather became cold「天氣變冷」。gift、ticket、example 都不能變冷。
+> 3 look great「看起來很棒」。look sure、look own、look likely 都不通。
+> 4 can't believe it「不敢相信」。happen、rise、own it 都不合句意。
+> 5 I'm sure (that) …「我確定…」。own、great、likely 都不能這樣用。
++ knit = 編織
++ sweater = 毛衣
++ cool = 酷的
+= 每年冬天，奶奶都會幫我織一件毛衣，那是她送我十二月生日的禮物。我小時候很喜歡，但去年我覺得它們不酷，所以沒穿新的那件。後來有一天，天氣突然變得很冷，我沒有其他保暖的衣服，只好穿上奶奶的毛衣。到了學校，同學都說它看起來很棒。「你在哪裡買的？」他們問。「我奶奶織的。」我說。他們都不敢相信，有些人甚至問奶奶能不能也幫他們織一件。現在我確定，奶奶的毛衣是世界上最酷的。
