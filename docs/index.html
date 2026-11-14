@@ -524,7 +524,7 @@ async function loadBoard(){
     const me = +$('seat').value;
     body.className = '';
     const icon = {strong: '👑', sharp: '🎯', up: '📈', busy: '📅', streak: '🔥'};
-    const titles = (j.titles || []).map(t => `<div class="ttl${t.who.some(w => w.seat === me) ? ' mine' : ''}"><b>${icon[t.key] || '🏅'} ${esc(t.label)}</b><div class="who">${t.who.map(w => esc(w.given)).join('、')}${t.more ? ` 等 ${t.more + t.who.length} 人` : ''}</div><div class="val">${esc(t.value)}</div><small>${esc(t.desc)}</small></div>`).join('');
+    const titles = (j.titles || []).map(t => `<div class="ttl${t.who.some(w => w.seat === me) ? ' mine' : ''}"><b>${icon[t.key] || '🏅'} ${esc(t.label)}</b><div class="who">${t.who.map(w => esc(w.given)).join('、')}</div><div class="val">${esc(t.value)}</div><small>${esc(t.desc)}</small></div>`).join('');
     body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + '<table><thead><tr><th>名次</th><th>座號</th><th>名字</th><th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th></tr></thead><tbody>' +
       j.top.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${esc(x.given ?? givenName(x.name))}</td><td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${x.rate}%</td></tr>`).join('') +
       '</tbody></table>';

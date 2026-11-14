@@ -141,7 +141,7 @@ function shift_(d, n) {
   return Utilities.formatDate(new Date(Date.parse(d + 'T12:00:00+08:00') + n * 86400000), 'Asia/Taipei', 'yyyy-MM-dd');
 }
 
-// 稱號：最強、最準、進步最多、最勤奮、連續達人（同分並列，最多列 3 人）
+// 稱號：最強、最準、進步最多、最勤奮、連續達人（同分全部並列）
 // 答對率只算一般測驗，不含錯題重做
 function titles_(list, prevStats, allDays, today, period) {
   const minAns = period === 'week' ? 30 : 100;
@@ -152,7 +152,7 @@ function titles_(list, prevStats, allDays, today, period) {
     if (top == null) return;
     const who = cands.filter(function (s) { return val(s) === top; }).sort(function (a, b) { return a.seat - b.seat; });
     out.push({ key: key, label: label, desc: desc, value: show(top),
-      who: who.slice(0, 3).map(function (s) { return { seat: s.seat, given: givenName(s.name) }; }), more: Math.max(0, who.length - 3) });
+      who: who.map(function (s) { return { seat: s.seat, given: givenName(s.name) }; }) });
   }
   const rate = function (s) { return s.fAns >= minAns ? Math.round(s.fRight / s.fAns * 100) : null; };
   best('strong', '最強', '答對題數最多', list, function (s) { return s.right || null; }, function (v) { return v + ' 題'; });
