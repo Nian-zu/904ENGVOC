@@ -129,3 +129,138 @@ Last month, our class took a trip to Chihkan Tower in Tainan. It is one of the o
 + damage = 損壞
 + turtle = 烏龜
 = 上個月，我們班去台南的赤崁樓校外教學。那是台灣最古老的建築之一，有很悠久的歷史，最早是荷蘭人在 1653 年建的。多年來，它被地震和戰爭破壞了很多次，但人們一次又一次地修復它。我們的導覽員穿著古裝，講了很多過去的趣事。我最好的朋友 Jay 超愛歷史，問了導覽員大概一百個問題。花園裡有九隻石龜，背上各馱著一塊大石碑。遊客不能爬上去，但可以摸摸牠們的頭。導覽員說摸了會帶來好運，Jay 九隻全摸了。「這樣我歷史考試就會考滿分，」他說。等著看吧！
+
+## 爸爸自己修水管
+Last Sunday, the pipe under our kitchen sink started leaking. Mom wanted to call someone, but Dad said, "No problem. I can [[fix|miss|marry|wear]] it myself. I watched a video online." He [[wore|missed|married|answered]] a pair of old gloves and lay down under the sink. For twenty minutes, we heard him talking to himself. Then he [[dropped|wore|married|fixed]] his heavy tool, and it hit the pipe hard. Water shot out everywhere! Mom and I ran around with towels, but the water kept coming. Soon, the kitchen floor looked like a small swimming pool. Our dog went [[crazy|able|own|least]] and started jumping and splashing in the water. Finally, Mom called a plumber. He came in half an hour and was [[able|own|least|asleep]] to fix everything in ten minutes. Dad looked a little embarrassed. "Well," he said, "at least now our kitchen floor is very clean."
+> 1 fix + 物「修理」：爸爸說他可以自己修好。miss、marry、wear it 意思不通。
+> 2 wear gloves「戴手套」。missed、married、answered a pair of gloves 意思不通。
+> 3 drop + 物「把…掉下去」：工具掉下去撞到水管，水就噴出來。wore、married his tool 意思不通；fixed 和後面「撞到水管」不合。
+> 4 go crazy「發狂、興奮得不得了」：狗在水裡跳來跳去。go able、go own、go least 都不通。
+> 5 be able to + 動詞「能夠…」：水電工十分鐘就修好了。own、least 不能接 to fix；asleep to fix 意思不通。
++ pipe = 水管
++ sink = 水槽
++ leak = 漏水
++ splash = 潑水、濺水
++ plumber = 水電工
+= 上星期天，廚房水槽下面的水管開始漏水。媽媽想找人來修，但爸爸說：「沒問題，我自己就能修好，我在網路上看過影片。」他戴上一雙舊手套，躺到水槽下面。二十分鐘裡，我們一直聽到他在自言自語。接著他手上的重工具掉了下去，重重撞到水管，水一下子噴得到處都是！媽媽和我拿著毛巾跑來跑去，但水一直流。很快地，廚房地板就像一個小游泳池。我們家的狗興奮得發狂，在水裡又跳又濺水。最後，媽媽打電話叫了水電工。他半小時後就到了，十分鐘就把一切修好。爸爸看起來有點不好意思。「嗯，」他說，「至少現在我們的廚房地板很乾淨。」
+
+## 高塔裡的長髮公主
+Rapunzel lived in a tall tower in the middle of a forest. She had never been outside. Her mother told her again and again that the world was [[dangerous|able|own|least]]. "There are bad people everywhere," she said. "You're only [[safe|least|own|than]] in this tower." Every year on her birthday, Rapunzel watched thousands of floating lights rise into the night sky. She never [[missed|fixed|wore|married]] them, and she always wondered what they were. One day, a thief named Flynn climbed into the tower to hide. Rapunzel asked him to take her to see the lights. At first, she was very scared. She [[wore|fixed|married|missed]] a simple purple dress and walked on the grass with bare feet for the first time. Then she laughed and ran. On her birthday, she was finally [[able|own|least|asleep]] to see the lights up close. She learned that the world isn't only scary. It's also full of beautiful things.
+> 1 the world was dangerous「外面的世界很危險」，後面說到處都是壞人。able、own、least 不能這樣形容世界。
+> 2 be safe in + 地方「在某處很安全」：你只有在塔裡才安全。least、own、than 不能當補語放在 You're only 後面。
+> 3 never miss + 事物「從不錯過」：她每年都看天燈。fixed、wore、married them 意思不通。
+> 4 wear a dress「穿洋裝」。fixed、married、missed a purple dress 意思不通。
+> 5 be able to + 動詞「能夠…」：她終於能近距離看到天燈。own、least 不能接 to see；asleep to see 意思不通。
++ Rapunzel = 樂佩（長髮公主）
++ tower = 高塔
++ floating = 漂浮的
++ thief = 小偷
++ bare feet = 赤腳
+= 樂佩住在森林中央的一座高塔裡，從來沒出去過。她的母親一再告訴她，外面的世界很危險。「到處都是壞人，」她說，「你只有在這座塔裡才安全。」每年生日，樂佩都會看到成千上萬盞漂浮的燈升上夜空。她從來沒錯過，也一直很好奇那些到底是什麼。有一天，一個叫佛林的小偷爬進塔裡躲藏。樂佩請他帶她去看那些燈。一開始，她非常害怕。她穿著一件簡單的紫色洋裝，第一次赤腳走在草地上。接著她笑了，跑了起來。生日那天，她終於能近距離看到那些燈。她明白了：世界不是只有可怕的一面，也充滿了美好的事物。
+
+## 瘋狂帽子日
+Every year in May, our school has Crazy Hat Day. On that day, everyone can [[wear|fix|miss|marry]] any hat they like to class. Last year, my friend Ken made a hat that looked like a giant birthday cake, with real candles on top. The teachers made him take the candles out. This year, I made a hat that looked like a fish tank, with paper fish inside. But it was too heavy. On the way to school, it [[dropped|married|fixed|missed]] off my head and fell into a puddle. One side was broken, so I had to [[fix|miss|marry|drop]] it with tape before the first class. At ten o'clock, we all walked around the playground in a parade. Then our principal appeared in a hat shaped like a huge yellow chicken. The whole school went [[crazy|able|own|least]]! Everyone clapped and shouted. I took a lot of photos because I didn't want to [[miss|fix|marry|wear]] anything. It was the best day of the year.
+> 1 wear a hat「戴帽子」。fix、miss、marry any hat they like 意思不通。
+> 2 drop off + 地方「從…掉下來」：帽子從頭上掉進水坑。married、fixed、missed off my head 都不通。
+> 3 fix + 物 + with tape「用膠帶修好」。miss、marry、drop it with tape 意思不通。
+> 4 go crazy「（群眾）陷入瘋狂、high 翻天」：全校看到校長的帽子都瘋了。go able、go own、go least 都不通。
+> 5 not want to miss anything「不想錯過任何事」，所以拍很多照片。fix、marry、wear anything 意思不通。
++ candle = 蠟燭
++ fish tank = 魚缸
++ puddle = 水坑
++ parade = 遊行
++ principal = 校長
+= 每年五月，我們學校都有「瘋狂帽子日」。那天，每個人都可以戴任何喜歡的帽子來上課。去年，我朋友 Ken 做了一頂像大生日蛋糕的帽子，上面還插著真的蠟燭，結果老師叫他把蠟燭拿掉。今年，我做了一頂像魚缸的帽子，裡面有紙做的魚，但它太重了。上學途中，帽子從我頭上掉下來，掉進一個水坑裡。有一邊破了，我只好在第一節課前用膠帶把它修好。十點的時候，我們全部在操場上繞圈遊行。接著校長出現了，她戴著一頂像巨大黃色小雞的帽子。全校都瘋了！大家又拍手又尖叫。我拍了好多照片，因為我什麼都不想錯過。那是一年裡最棒的一天。
+
+## 掉在地上的冰淇淋
+On a hot afternoon, my little brother Leo [[wore|fixed|married|missed]] his favorite dinosaur hat to the park. He bought an ice cream cone with his own money for the first time, and he was so proud. But after just two bites, he tripped and [[dropped|married|fixed|wore]] it on the ground. Leo looked at the ice cream for a second. Then he started crying so loudly that everyone in the park stared at us. I wanted to pick it up for him, but Mom always says it's not [[safe|least|own|than]] to eat food that falls on the ground. The ice cream man saw everything. He waved at Leo and said, "Don't cry, little dinosaur. I'll [[get|learn|change|start]] you another one." Leo stopped crying right away. This time, he held the cone with both hands and walked very slowly. He ate every bit of it and didn't [[miss|fix|marry|wear]] a single drop.
+> 1 wear a hat「戴帽子」：弟弟戴著他最喜歡的恐龍帽去公園。fixed、married、missed his hat 意思不通。
+> 2 drop + 物「把…掉落」：他絆倒，把冰淇淋掉在地上。married、wore it 意思不通；fixed 和後面哭出來不合。
+> 3 It's not safe to + 動詞「…不安全」：掉在地上的食物吃了不安全。least、own、than 不能放在 It's not … to 句型裡。
+> 4 get + 人 + 物「幫某人拿／買…」：我再拿一支給你。learn、change、start you another one 意思不通。
+> 5 not miss a single drop「一滴都沒浪費」：他吃得乾乾淨淨。fix、marry、wear a single drop 意思不通。
++ dinosaur = 恐龍
++ cone = 甜筒
++ proud = 驕傲的
++ trip = 絆倒
++ stare = 盯著看
+= 一個炎熱的下午，我弟弟 Leo 戴著他最喜歡的恐龍帽去公園。他第一次用自己的錢買了一支冰淇淋甜筒，非常得意。可是才吃了兩口，他就絆了一下，把冰淇淋掉在地上。Leo 盯著冰淇淋看了一秒，接著哭得超大聲，公園裡每個人都盯著我們看。我想幫他撿起來，但媽媽總是說掉在地上的食物吃了不安全。賣冰淇淋的叔叔全都看到了，他對 Leo 揮揮手說：「別哭，小恐龍，我再拿一支給你。」Leo 馬上不哭了。這一次，他用雙手握著甜筒，走得很慢很慢。他把整支吃得乾乾淨淨，一滴都沒浪費。
+
+## 歷史博物館的夜晚
+Mr. Wu works as a night guard at the city [[history|hospital|weather|prize]] museum. His job is to walk around the building and keep everything [[safe|least|own|than]]. For ten years, nothing special happened. Then one night, something [[crazy|able|own|least]] happened. At midnight, the old statues and skeletons came alive! A stone soldier began to march down the hall. A small dinosaur skeleton took Mr. Wu's hat and [[wore|missed|married|answered]] it on its head. Some of the animals were [[dangerous|able|own|least]], like a huge tiger with sharp teeth, so Mr. Wu hid behind a door. But soon he noticed that the tiger only wanted someone to play with. Mr. Wu threw a ball, and the tiger ran after it like a puppy. When the sun came up, everything went back to its place. The next morning, Mr. Wu told his boss, but nobody believed him. Only the dinosaur knew where his hat was.
+> 1 history museum「歷史博物館」，裡面有古老的雕像和骨骼。hospital、weather、prize museum 意思不通。
+> 2 keep + 物 + safe「保護…安全」：警衛的工作是保護館內一切。keep everything least／own／than 都不通。
+> 3 something crazy「瘋狂的事」，形容詞放在 something 後面。able、own、least 不能這樣修飾 something。
+> 4 wear + 物 + on one's head「把…戴在頭上」。missed、married、answered it on its head 意思不通。
+> 5 be dangerous「危險的」：有些動物很危險，例如牙齒尖銳的大老虎。able、own、least 不能這樣形容動物。
++ guard = 警衛
++ statue = 雕像
++ skeleton = 骨骼
++ march = 行進
+= 吳先生在市立歷史博物館當夜班警衛。他的工作是在館內巡邏，保護一切安全。十年來，什麼特別的事都沒發生過。後來有一天晚上，發生了一件瘋狂的事。午夜時，那些古老的雕像和骨骼全活了過來！一個石頭士兵開始沿著走廊行進，一副小恐龍骨骼拿走吳先生的帽子戴在自己頭上。有些動物很危險，像是一隻牙齒尖利的大老虎，所以吳先生躲到門後面。但很快他就發現，那隻老虎只是想找人玩。吳先生丟了一顆球，老虎就像小狗一樣追了過去。太陽升起時，一切又回到原位。隔天早上，吳先生把這件事告訴老闆，但沒有人相信他。只有那隻恐龍知道他的帽子在哪裡。
+
+## 姊姊的男朋友來吃飯
+My sister and her boyfriend, Tom, have been together for three years. Last Sunday, Tom came to our house for dinner. He had something important to say: he wanted to [[marry|miss|wear|fix]] my sister. He [[wore|dropped|married|fixed]] a white shirt and a tie, even though it was thirty-three degrees outside. He was so nervous that he [[dropped|married|wore|fixed]] his chopsticks twice before the soup came. After dinner, Tom finally told my parents. Then there was a long silence. Dad didn't say a word. He just looked at Tom. Tom's face turned red, and he looked like he was going to go [[crazy|able|own|least]]. My sister held his hand under the table. Finally, Dad smiled and asked, "Can you [[fix|miss|marry|wear]] a computer? Mine has been broken for a week." Tom said yes, and everyone started laughing. "Then welcome to the family," Dad said.
+> 1 want to marry + 人「想娶／嫁給某人」，後面說他要向爸媽提這件重要的事。miss、wear、fix my sister 意思不通。
+> 2 wear a shirt and a tie「穿襯衫打領帶」。dropped、married、fixed a white shirt 意思不通。
+> 3 drop + 物「把…弄掉」：他緊張到筷子掉了兩次。married、wore、fixed his chopsticks 意思不通。
+> 4 go crazy「快瘋掉」：爸爸一直不說話，Tom 緊張得要命。go able、go own、go least 都不通。
+> 5 fix a computer「修電腦」：爸爸的電腦壞了一週。miss、marry、wear a computer 意思不通。
++ tie = 領帶
++ degree = 度
++ chopsticks = 筷子
++ silence = 沉默
+= 我姊姊和她男朋友 Tom 已經交往三年了。上星期天，Tom 來我們家吃晚餐。他有一件很重要的事要說：他想娶我姊姊。雖然外面有三十三度，他還是穿了白襯衫、打了領帶。他緊張到湯還沒上，筷子就掉了兩次。晚餐後，Tom 終於跟我爸媽說了。接著是一段很長的沉默，爸爸一句話也沒說，只是看著 Tom。Tom 的臉都紅了，看起來快瘋掉了。姊姊在桌子底下握著他的手。最後，爸爸笑著問：「你會修電腦嗎？我的已經壞一個禮拜了。」Tom 說會，大家都笑了出來。「那就歡迎加入我們家，」爸爸說。
+
+## 河濱的爆胎
+On Saturday afternoon, my friend Ann and I rode our bikes along the Tamsui River. It was sunny and windy, and we sang songs as we rode. But halfway there, my back tire went flat. Neither of us knew how to [[fix|miss|marry|wear]] it. We didn't have any tools, either. The sun was going down, and riding on a flat tire in the dark was [[dangerous|able|own|least]]. We were also worried that we would [[miss|fix|wear|marry]] the last train home. Then an old man on a bike stopped next to us. He [[wore|fixed|married|missed]] a bright yellow jacket and a helmet covered in stickers. "Need help?" he asked. He took out a small repair kit from his bag. In just five minutes, he was [[able|own|least|asleep]] to fix my tire. Before he left, he said, "Always carry one of these." Now I never ride without my own repair kit.
+> 1 know how to fix it「知道怎麼修」，it 指爆胎的輪胎。miss、marry、wear it 意思不通。
+> 2 V-ing is dangerous「做…很危險」：天黑騎著沒氣的輪胎很危險。able、own、least 放在這裡意思不通。
+> 3 miss the last train「錯過末班車」。fix、wear、marry the last train 意思不通。
+> 4 wear a jacket「穿外套」。fixed、married、missed a yellow jacket 意思不通。
+> 5 be able to + 動詞「能夠…」：他五分鐘就修好了。own、least 不能接 to fix；asleep to fix 意思不通。
++ Tamsui River = 淡水河
++ tire = 輪胎
++ flat = 洩了氣的
++ sticker = 貼紙
++ repair kit = 修理工具組
+= 星期六下午，我和朋友 Ann 沿著淡水河騎腳踏車。天氣晴朗、風很大，我們一邊騎一邊唱歌。但騎到一半，我的後輪爆胎了。我們兩個都不知道怎麼修，也沒帶任何工具。太陽快下山了，天黑時騎著沒氣的輪胎很危險，我們也擔心會錯過回家的末班車。這時，一位騎腳踏車的老伯伯停在我們旁邊。他穿著亮黃色的外套，戴著貼滿貼紙的安全帽。「需要幫忙嗎？」他問。他從包包裡拿出一套小修理工具，只花了五分鐘就把我的輪胎修好了。離開前他說：「出門一定要帶一套。」現在我騎車都會帶著自己的修理工具組。
+
+## 夾不到的娃娃
+My classmate Danny is [[crazy|able|own|least]] about claw machines. Almost every day after school, he goes to the shop on the corner and spends his pocket money there. He says he can almost win a toy every time, but then the claw [[drops|wears|marries|fixes]] it at the last second. Last Friday, I went with him. He tried twenty times, and he [[missed|fixed|wore|married]] every time. His face got redder and redder. Then a little girl walked in with her mom. She put in one coin, moved the claw for two seconds, and was [[able|own|least|asleep]] to catch a big pink bear on her first try! Danny's mouth fell open. "That machine must be broken," he said. "Someone should [[fix|miss|marry|wear]] it." I laughed so hard that my stomach hurt. Since then, Danny has stopped going to that shop. Now he says he's saving his money for something better.
+> 1 be crazy about + 事物「非常熱愛…」：Danny 超迷夾娃娃機。able、own、least about claw machines 意思不通。
+> 2 drop + 物「把…放掉、掉下」：夾子在最後一秒把娃娃掉下來。wears、marries、fixes it 意思不通。
+> 3 miss「沒夾中、失手」：他夾了二十次，每次都沒中。fixed、wore、married every time 意思不通。
+> 4 be able to + 動詞「能夠…」：小女孩第一次就夾到大熊。own、least 不能接 to catch；asleep to catch 意思不通。
+> 5 fix + 物「修理」：Danny 說機器一定壞了，該有人來修。miss、marry、wear it 意思不通。
++ claw machine = 夾娃娃機
++ claw = 夾子
++ pocket money = 零用錢
++ stomach = 肚子
+= 我同學 Danny 超迷夾娃娃機。他幾乎每天放學都去轉角那家店，把零用錢花在那裡。他說他每次都差一點就夾到，可是夾子總在最後一秒把娃娃掉下來。上星期五，我跟他一起去。他夾了二十次，每次都沒中，臉越來越紅。這時，一個小女孩跟媽媽走進來。她投了一枚硬幣，移動夾子兩秒鐘，第一次就夾到一隻粉紅色大熊！Danny 嘴巴張得大大的。「那台機器一定壞了，」他說，「應該要有人來修。」我笑到肚子痛。從那以後，Danny 就不再去那家店了。現在他說他要把錢存下來，買更好的東西。
+
+## 半夜三點的地震
+At three in the morning, our whole building started shaking. I woke up and heard things falling. Books [[dropped|married|wore|missed]] off my shelves, and the lamp on my desk fell to the floor. I remembered what we had practiced at school: drop, cover, and hold on. I got under my desk and held its legs tightly. I stayed there until it was [[safe|least|own|than]] to come out. Mom ran into my room with a flashlight. "Are you OK?" she asked. I nodded, but my legs were still shaking. In the living room, a window was broken, and there was glass all over the floor. Dad said it was [[dangerous|able|own|least]] to walk around without shoes, so we all put on our sneakers. Nobody was [[able|own|least|asleep]] to fall asleep again that night. We sat on the sofa and watched the news until the sun came up. The next day, a worker came to [[fix|miss|marry|wear]] the window.
+> 1 drop off + 地方「從…掉落」：書從書架上掉下來。married、wore、missed off my shelves 意思不通。
+> 2 until it was safe to + 動詞「直到可以安全地…」。least、own、than 不能放在 it was … to 句型裡。
+> 3 It's dangerous to + 動詞「做…很危險」：地上有玻璃，不穿鞋走路很危險。able、own、least 放在這裡意思不通。
+> 4 be able to + 動詞「能夠…」：那晚沒人能再睡著。own、least 不能接 to fall；asleep to fall asleep 意思不通。
+> 5 fix the window「修窗戶」：隔天工人來修破掉的窗戶。miss、marry、wear the window 意思不通。
++ shelf = 架子（複數 shelves）
++ flashlight = 手電筒
++ nod = 點頭
++ sneakers = 運動鞋
+= 凌晨三點，我們整棟大樓開始搖晃。我醒過來，聽到東西掉落的聲音。書從架子上掉下來，書桌上的檯燈也摔到地上。我想起在學校練習過的：趴下、掩護、穩住。我躲到書桌底下，緊緊抓住桌腳，一直待到安全了才出來。媽媽拿著手電筒衝進我房間。「你還好嗎？」她問。我點點頭，但腿還在發抖。客廳有一扇窗戶破了，地上到處都是玻璃。爸爸說不穿鞋走來走去很危險，所以我們都穿上了運動鞋。那天晚上沒有人能再睡著。我們坐在沙發上看新聞，一直到太陽出來。隔天，工人來把窗戶修好了。
+
+## 尋找尼莫
+Marlin is a clownfish, and he lives in the sea with his only son, Nemo. Marlin worries about everything. He thinks the ocean is too [[dangerous|able|own|least]], and he wants to keep Nemo [[safe|least|own|than]] all the time. On Nemo's first day of school, Nemo wanted to show his friends how brave he was. He swam away to touch the bottom of a boat. Suddenly, a diver caught him and took him onto the boat. Marlin swam after it as fast as he could, but he [[missed|fixed|wore|married]] it by a few seconds. Later, Marlin met a blue fish named Dory. She couldn't remember anything for more than a few minutes, but she was [[able|own|least|asleep]] to read the words on the diver's mask. Together, they [[traveled|waited|interested|grew]] across the ocean to find Nemo. On the way, Marlin learned that being a good father doesn't mean keeping your child away from the whole world.
+> 1 too dangerous「太危險」：馬林覺得大海太危險。able、own、least 不能這樣形容大海。
+> 2 keep + 人 + safe「保護某人安全」。keep Nemo least／own／than 都不通。
+> 3 miss + 交通工具「沒趕上」：他差幾秒沒追上那艘船。fixed、wore、married it 意思不通。
+> 4 be able to + 動詞「能夠…」：多莉記性差，卻看得懂面罩上的字。own、least 不能接 to read；asleep to read 意思不通。
+> 5 travel across the ocean「橫越大海」：他們一起穿越大海去找尼莫。waited、interested、grew across the ocean 意思不通。
++ clownfish = 小丑魚
++ ocean = 海洋
++ diver = 潛水員
++ mask = 面罩
+= 馬林是一條小丑魚，和他唯一的兒子尼莫住在海裡。馬林什麼都擔心，他覺得大海太危險，一直想把尼莫保護得好好的。尼莫上學第一天，想讓朋友們看看他有多勇敢，就游過去摸一艘船的底部。突然，一個潛水員抓住他，把他帶上了船。馬林拚命追過去，卻差了幾秒沒追上。後來，馬林遇到一條叫多莉的藍色魚。她什麼事都記不了幾分鐘，卻看得懂潛水員面罩上的字。他們一起橫越大海去找尼莫。在路上，馬林學到：當個好爸爸，不代表要讓孩子遠離整個世界。
