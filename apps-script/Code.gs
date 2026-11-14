@@ -134,7 +134,7 @@ function doGet(e) {
 
   return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today) });
+    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, readDetail_('克漏字')) });
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -251,13 +251,18 @@ function titles_(list, prv, streaks, period) {
 }
 
 // 歷屆週冠王、月冠王（答對題數最多，同分並列），最新的在前面，各取最近 8 個
-function fame_(rows, today) {
+// 克漏字不算：從「成績」的答對題數扣掉同一人同一天克漏字答對的題數
+function fame_(rows, today, clozeRows) {
   function champs(keyOf, labelOf, curKey) {
     const by = {};
     rows.forEach(function (r) {
       const k = keyOf(r.d), g = by[k] || (by[k] = {});
       const s = g[r.seat] || (g[r.seat] = { seat: r.seat, name: r.name, right: 0 });
       s.name = r.name; s.right += r.right;
+    });
+    (clozeRows || []).forEach(function (r) {
+      const g = by[keyOf(r.d)], s = g && g[r.seat];
+      if (s) s.right -= r.right;
     });
     return Object.keys(by).sort().reverse().slice(0, 8).map(function (k) {
       const xs = Object.keys(by[k]).map(function (x) { return by[k][x]; });

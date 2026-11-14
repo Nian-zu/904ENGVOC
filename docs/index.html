@@ -701,7 +701,7 @@ function drawBoard(){
   }[boardSort] + '每次交卷後會更新。' + (tz ? '各題型排行從 11/15 開始累積。' : '');
   const f = j.fame;
   const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
-  $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王（全部題型）')}${famed(f.months, '🏆 歷屆月冠王（全部題型）')}</div>` : '';
+  $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王（不含克漏字）')}${famed(f.months, '🏆 歷屆月冠王（不含克漏字）')}</div>` : '';
 }
 document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
   boardPeriod = b.dataset.p;
