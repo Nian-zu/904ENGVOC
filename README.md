@@ -1,4 +1,4 @@
-# 會考英文每日測驗（GitHub Pages ＋ Google 試算表）
+# 永中904每日背英單（GitHub Pages ＋ Google 試算表）
 
 - 學生測驗頁：https://nian-zu.github.io/904ENGVOC/
 - 成績：自動寫進 Google 試算表「904 英文每日測驗成績」
