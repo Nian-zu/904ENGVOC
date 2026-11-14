@@ -257,3 +257,137 @@ In our school library, there is one perfect [[place|fact|surprise|worry]] to stu
 + list = 名單
 + turn = 輪流的機會
 = 我們學校的圖書館裡，有一個讀書的完美地點：大窗戶旁邊的座位。每個學生都想坐，所以大家常常為了它搶來搶去。上個月，圖書館員訂了一條新規定：「想坐那個位子，就把名字寫在名單上。每人只能用一個小時，時間到了就要移到門旁邊的桌子。」一開始，有些同學不太高興。但現在每個人都輪得到，再也沒有人為那個位子煩惱了。圖書館員說：「好座位就像好書一樣，分享出去會更好。」
+
+## 聖誕節交換禮物
+Our class had a gift exchange before Christmas. Everyone bought a small gift and put it in a big box. Then we took turns picking one. Nobody knew what they would get, so every gift was a [[surprise|fact|market|festival]]. I got a pair of socks with cats on them. My friend Andy got a cookbook. "I can't even [[cook|worry|fight|surprise]] an egg!" he said. Everyone laughed. Andy was [[worried|cooked|shared|fought]] at first, but he tried one recipe that night. The [[next|few|every|enough]] day, he brought a big box of fried rice to school. He [[shared|fought|worried|placed]] it with everyone in class. "This is the best gift ever," he said.
+> 1 be a surprise「是個驚喜」：沒人知道會拿到什麼，所以每份禮物都是驚喜。a fact、a market、a festival 都不通。
+> 2 cook an egg「煮（煎）一顆蛋」，配合拿到食譜書。worry、fight、surprise an egg 都不通。
+> 3 be worried「擔心」。was cooked、was shared、was fought 用在人身上都不通。
+> 4 the next day「隔天」。the few day、the every day、the enough day 都不是正確說法。
+> 5 share + 物 + with + 人「和…分享」。fought、worried、placed it with everyone 都不通。
++ gift exchange = 交換禮物
++ take turns = 輪流
++ cookbook = 食譜書
++ recipe = 食譜
+= 聖誕節前，我們班舉辦了交換禮物。每個人買一份小禮物放進一個大箱子，然後輪流抽一份。沒有人知道自己會拿到什麼，所以每份禮物都是驚喜。我拿到一雙有貓咪圖案的襪子。我的朋友 Andy 拿到一本食譜書。「我連一顆蛋都不會煎！」他說。大家都笑了。Andy 一開始很擔心，但那天晚上他試做了一道菜。隔天，他帶了一大盒炒飯到學校，分給全班同學吃。「這是我收過最棒的禮物。」他說。
+
+## 台南美食之旅
+Last summer, my family took a trip to Tainan. It is a [[place|fact|surprise|worry]] famous for its delicious food. On the first night, we went to a night [[market|fact|surprise|worry]] and tried shrimp rolls and beef soup. The beef soup was amazing. The cook [[placed|fought|worried|shared]] raw beef in a bowl and poured hot soup on it. "Is it safe to eat?" I asked. "Don't [[worry|place|sell|park]]," Dad said. "The hot soup [[cooks|fights|worries|shares]] the meat in a few seconds." I tried it, and it was the best beef soup I have ever had. Now I want to go back to Tainan every year.
+> 1 a place famous for …「以…出名的地方」。a fact、a surprise、a worry famous for food 都不通。
+> 2 night market「夜市」。night fact、night surprise、night worry 都不是正確說法。
+> 3 place + 物 + in + 地方「把…放在…」：廚師把生牛肉放進碗裡。fought、worried、shared raw beef in a bowl 都不通。
+> 4 Don't worry.「別擔心」，回答「安全嗎？」。place、sell、park 需要受詞，放在這裡不通。
+> 5 cook the meat「把肉煮熟」，主詞 the hot soup 用 cooks。fights、worries、shares the meat 都不通。
++ Tainan = 台南
++ delicious = 美味的
++ shrimp roll = 蝦捲
++ raw = 生的
++ pour = 倒
+= 去年夏天，我們全家去台南旅行。台南是以美食出名的地方。第一天晚上，我們去夜市吃了蝦捲和牛肉湯。牛肉湯好吃極了！老闆把生牛肉放進碗裡，再把熱湯淋上去。「這樣吃安全嗎？」我問。「別擔心，」爸爸說，「熱湯幾秒鐘就能把肉燙熟。」我吃了一口，那是我喝過最好喝的牛肉湯。現在我每年都想回台南。
+
+## 傑克與魔豆
+Jack and his mother were very poor. One day, his mother said, "Take our cow to the [[market|fact|surprise|worry]] and sell it." On the way, Jack met an old man. "I will give you five magic beans for your cow," the man said. Jack said yes. When he got home, his mother was angry and threw the beans out of the window. In the morning, Jack got a big [[surprise|fact|market|festival]]: a huge beanstalk outside his window! He climbed it and found a giant's castle at the top. He took a golden hen and ran down. Then he cut the beanstalk, so he did not need to [[fight|cook|share|place]] the giant. The hen laid a golden egg every day. "Don't [[worry|place|sell|park]], Mother," Jack said. "We will never be poor again." He even [[shared|fought|worried|placed]] the eggs with poor people in his town.
+> 1 take + 物 + to the market「帶…去市場」，後面要把牛賣掉。to the fact、surprise、worry 都不通。
+> 2 get a big surprise「大吃一驚」：窗外長出巨大的豆莖。a big fact、market、festival 都不通。
+> 3 fight the giant「和巨人打鬥」：砍斷豆莖，就不用和巨人打了。cook、share、place the giant 都不通。
+> 4 Don't worry.「別擔心」，後面說「再也不會窮了」。place、sell、park 需要受詞，這裡不通。
+> 5 share + 物 + with + 人「分給…」：他把金蛋分給鎮上的窮人。fought、worried、placed the eggs with people 都不通。
++ magic = 魔法的
++ bean = 豆子
++ beanstalk = 豆莖
++ giant = 巨人
++ hen = 母雞
+= 傑克和媽媽非常貧窮。有一天，媽媽說：「把我們的牛牽到市場去賣。」路上，傑克遇到一位老人。「我用五顆魔豆換你的牛。」老人說。傑克答應了。回到家，媽媽很生氣，把豆子丟出窗外。隔天早上，傑克大吃一驚：窗外長出一棵巨大的豆莖！他爬上去，在頂端發現一座巨人的城堡。他拿走一隻金母雞，趕快爬下來，然後砍斷豆莖，這樣就不必和巨人打鬥了。母雞每天都會下一顆金蛋。「別擔心，媽媽，」傑克說，「我們再也不會窮了。」他甚至把金蛋分給鎮上的窮人。
+
+## 第一次上台演講
+Next week, I have to give an English speech in front of the whole school. I am very [[worried|cooked|shared|fought]]. My teacher gave me some advice. "Choose a topic you love. Then it will be easy to [[share|fight|cook|place]] your ideas." So I decided to talk about my favorite [[place|fact|surprise|worry]] in Taiwan: Kenting. I found many interesting [[facts|places|markets|festivals]] about its beaches and animals online, and I practiced in front of the mirror every night. On the day of the speech, my hands were shaking. But when I started talking, I forgot about my fear. Everyone clapped at the end. The [[next|few|every|enough]] day, my teacher asked me to join the speech contest.
+> 1 be worried「擔心」：要在全校面前演講，我很擔心。cooked、shared、fought 用在人身上都不通。
+> 2 share one's ideas「分享想法」。fight、cook、place your ideas 都不通。
+> 3 my favorite place in Taiwan「我在台灣最喜歡的地方」，後面說墾丁。fact、surprise、worry 都不是地方。
+> 4 interesting facts about …「關於…的有趣資料」。places、markets、festivals about its beaches 都不通。
+> 5 the next day「隔天」。the few day、the every day、the enough day 都不是正確說法。
++ speech = 演講
++ advice = 建議
++ topic = 主題
++ Kenting = 墾丁
++ mirror = 鏡子
+= 下星期，我要在全校面前用英文演講，我非常擔心。老師給了我一些建議：「選一個你喜歡的主題，這樣分享想法就會很容易。」所以我決定介紹我在台灣最喜歡的地方：墾丁。我在網路上找到很多關於當地海灘和動物的有趣資料，每天晚上都對著鏡子練習。演講那天，我的手一直發抖，但一開始講，我就忘了害怕。結束時，大家都為我鼓掌。隔天，老師就邀請我參加演講比賽。
+
+## 國際文化節
+Our school held an International Culture [[Festival|Fact|Worry|Surprise]] last Friday. Students from different countries [[cooked|fought|worried|placed]] food from home. My friend Ana from Brazil made cheese bread, and Kenji from Japan brought sushi. Each student had a table, and we walked from one table to the [[next|few|every|enough]]. I learned a lot of interesting [[facts|places|markets|worries]] about other countries. For example, in Brazil, people often [[share|fight|worry|place]] a big lunch with their family on Sundays. At the end of the day, I was very full and very happy.
+> 1 Culture Festival「文化節」：學校舉辦國際文化節。Culture Fact、Culture Worry、Culture Surprise 都不通。
+> 2 cook food「做菜」：學生做了家鄉的食物。fought、worried、placed food from home 都不通。
+> 3 from one … to the next「從一個到下一個」。to the few、to the every、to the enough 都不通。
+> 4 learn facts about …「學到關於…的知識」。places、markets、worries about other countries 都不通。
+> 5 share a lunch with family「和家人共享午餐」。fight、worry、place a big lunch 都不通。
++ international = 國際的
++ culture = 文化
++ Brazil = 巴西
++ sushi = 壽司
+= 上星期五，我們學校舉辦了國際文化節。來自不同國家的學生做了家鄉的食物。我的朋友 Ana 來自巴西，她做了起司麵包；來自日本的 Kenji 帶了壽司。每個學生都有一張桌子，我們從一桌逛到下一桌。我學到了很多關於其他國家的有趣知識。例如在巴西，人們星期天常常和家人一起享用豐盛的午餐。一天下來，我吃得好飽，也好開心。
+
+## 吵架之後
+Last Friday, my best friend Jay and I had a big [[fight|fact|place|market]] about a basketball game. He said I cheated, and I said he was a bad loser. We did not talk all weekend. On Monday, I [[worried|cooked|shared|placed]] that we would never be friends again. At lunch, I saw him sitting alone. I walked over and sat [[next|last|same|every]] to him. "I am sorry," I said. Jay looked [[surprised|cooked|shared|fought]]. Then he smiled. "Me too." He [[shared|fought|worried|placed]] his cookies with me, and we were friends again. Now we know that one game is not more important than a friend.
+> 1 have a fight「吵架」，fight 在這裡是名詞。a big fact、place、market about a game 都不通。
+> 2 worry that + 句子「擔心…」。cooked、shared、placed that 都不通。
+> 3 sit next to + 人「坐在某人旁邊」。last to、same to、every to 都不是正確用法。
+> 4 look surprised「看起來很驚訝」，沒想到我會道歉。cooked、shared、fought 都不能形容表情。
+> 5 share + 物 + with + 人「和…分享」。fought、worried、placed his cookies with me 都不通。
++ cheat = 作弊
++ loser = 輸家
++ alone = 獨自
+= 上星期五，我和最好的朋友 Jay 為了一場籃球賽大吵一架。他說我作弊，我說他輸不起。整個週末我們都沒說話。星期一，我擔心我們再也當不成朋友了。午餐時，我看到他一個人坐著。我走過去坐在他旁邊，說：「對不起。」Jay 看起來很驚訝，接著笑了：「我也是。」他把餅乾分給我吃，我們又和好了。現在我們知道，一場比賽沒有比朋友更重要。
+
+## 福隆沙雕比賽
+Every summer, there is a sandcastle [[festival|fact|worry|surprise]] at Fulong Beach. This year, my cousins and I joined the contest. We had two hours to build. First, we chose a good [[place|fact|worry|surprise]] with wet sand. My cousin Max wanted to build a tower, but I wanted to build a dragon. We started to [[fight|cook|share|place]] about it. Then my aunt said, "Why not build both? A dragon [[next|last|same|every]] to a tower!" We worked together, and it looked great. But just before the end, a big wave came and broke the tower. We were sad, but the judges gave us a special prize for teamwork. It was a big [[surprise|fact|worry|place]].
+> 1 sandcastle festival「沙雕節」。sandcastle fact、worry、surprise 都不通。
+> 2 choose a good place「選一個好地點」。a good fact、worry、surprise with wet sand 都不通。
+> 3 fight about …「為了…爭吵」。cook、share、place about it 都不通。
+> 4 next to「在…旁邊」：一條龍在一座塔旁邊。last to、same to、every to 都不是正確用法。
+> 5 a big surprise「一個大驚喜」：沒想到會得到特別獎。a big fact、worry、place 都不能形容得獎這件事。
++ sandcastle = 沙堡、沙雕
++ Fulong Beach = 福隆海灘
++ tower = 塔
++ wave = 浪
++ judge = 評審
+= 每年夏天，福隆海灘都會舉辦沙雕節。今年，我和表哥表妹們參加了比賽，我們有兩個小時可以堆。首先，我們選了一個沙子濕濕的好地點。表哥 Max 想堆一座塔，我卻想堆一條龍，我們為此吵了起來。這時阿姨說：「為什麼不兩個都堆？一條龍在一座塔旁邊！」我們一起合作，作品看起來很棒。但就在快結束時，一個大浪打來，把塔沖壞了。我們很難過，但評審頒給我們一個團隊合作特別獎。真是個大驚喜。
+
+## 會做菜的機器人
+My family bought a robot that can [[cook|worry|fight|surprise]] any dish. Its name is Chef Bot. On the first night, it made beef noodles, and they were perfect! But on the second night, there was a problem. Chef Bot did not know the [[fact|place|market|festival]] that my sister cannot eat peanuts. It put peanuts in the salad. Luckily, Mom saw it before dinner. She was very [[worried|cooked|shared|fought]]. So Dad added a new rule to Chef Bot's program: "No peanuts." The [[next|few|every|enough]] day, Chef Bot made peanut-free cookies for everyone. My sister was so happy that she [[shared|fought|worried|placed]] them with her classmates.
+> 1 cook any dish「做任何一道菜」。worry、fight、surprise any dish 都不通。
+> 2 the fact that + 句子「…這個事實」：它不知道妹妹不能吃花生。the place、market、festival that 都不通。
+> 3 be worried「擔心」。was cooked、was shared、was fought 用在人身上都不通。
+> 4 the next day「隔天」。the few day、the every day、the enough day 都不是正確說法。
+> 5 share + 物 + with + 人「和…分享」。fought、worried、placed them with her classmates 都不通。
++ robot = 機器人
++ chef = 廚師
++ peanut = 花生
++ program = 程式
++ peanut-free = 不含花生的
+= 我們家買了一台什麼菜都會做的機器人，名字叫「主廚機器人」。第一天晚上，它做了牛肉麵，味道完美！但第二天晚上出了問題：它不知道妹妹不能吃花生，竟然在沙拉裡放了花生。幸好媽媽在晚餐前發現了，她非常擔心。於是爸爸在它的程式裡加了一條新規則：「不准用花生。」隔天，主廚機器人做了不含花生的餅乾給大家。妹妹開心得把餅乾分給了班上同學。
+
+## 吃不完的年夜飯
+On Lunar New Year's Eve, my grandma always [[cooks|fights|worries|surprises]] too much food. This year, there were twenty dishes on the table, but only eight people. "Grandma, we cannot eat all this!" I said. "Don't [[worry|place|sell|park]]," she said with a smile. "I have a plan." The next morning, she put the leftovers in boxes. Then she took us to the old people's home [[next|last|same|every]] to our building. We [[shared|fought|worried|placed]] the food with the old people there. They were so happy, and one old man even sang a song for us. For me, that was the best part of the [[festival|fact|market|worry]].
+> 1 cook too much food「煮太多菜」。fights、worries、surprises too much food 都不通。
+> 2 Don't worry.「別擔心」，後面說「我有個計畫」。place、sell、park 需要受詞，這裡不通。
+> 3 next to「在…旁邊」：我們大樓旁邊的養老院。last to、same to、every to 都不是正確用法。
+> 4 share + 物 + with + 人「和…分享」。fought、worried、placed the food with the old people 都不通。
+> 5 the best part of the festival「這個節日最棒的部分」，指過年。fact、market、worry 都不通。
++ Lunar New Year's Eve = 除夕
++ dish = 菜餚
++ leftovers = 剩菜
++ old people's home = 養老院
+= 每年除夕，奶奶總是煮太多菜。今年桌上有二十道菜，卻只有八個人。「奶奶，我們吃不完啦！」我說。「別擔心，」她笑著說，「我有個計畫。」隔天早上，她把剩菜裝進盒子裡，帶我們去大樓旁邊的養老院，把菜分給那裡的老人家。他們好開心，有一位老爺爺甚至唱了一首歌給我們聽。對我來說，那是過年最棒的部分。
+
+## 爺爺的藏寶圖
+When we were cleaning Grandpa's house, my cousin found an old map in a box. There was a big red X on it. "It's a treasure map!" she shouted. Grandpa smiled but did not say anything. We followed the map to a [[place|fact|surprise|worry]] behind the old school. There was a big tree there. We dug under it and found a metal box. Inside, there were old photos, letters, and toys. It was a big [[surprise|fact|worry|market]]. Grandpa came over. "In [[fact|market|festival|example]], I put this box here sixty years ago," he said. "I always [[worried|cooked|shared|fought]] that someone would find it before me." He picked up a photo of three boys. "These were my best friends. We [[shared|worried|surprised|parked]] everything when we were young."
+> 1 follow the map to a place「跟著地圖到一個地方」。a fact、surprise、worry behind the school 都不通。
+> 2 a big surprise「一個大驚喜」：挖到一箱老東西。a big fact、worry、market 都不通。
+> 3 in fact「事實上」：其實這箱子是爺爺放的。in market、in festival、in example 都不是片語。
+> 4 worry that + 句子「擔心…」。cooked、shared、fought that 都不通。
+> 5 share everything「什麼都一起分享」，說明好朋友的感情。worried、surprised、parked everything 都不通。
++ treasure map = 藏寶圖
++ dig = 挖（過去式 dug）
++ metal = 金屬的
++ letter = 信
+= 我們在打掃爺爺家時，表姊在一個箱子裡發現了一張舊地圖，上面有一個大大的紅色 X。「是藏寶圖！」她大喊。爺爺笑了笑，什麼也沒說。我們跟著地圖走到舊學校後面的一個地方，那裡有一棵大樹。我們在樹下挖，挖出一個金屬盒子，裡面有舊照片、信和玩具。真是個大驚喜！爺爺走了過來。「事實上，這個盒子是我六十年前放在這裡的，」他說，「我一直擔心會有人比我先找到它。」他拿起一張三個男孩的合照：「他們是我最好的朋友。我們小時候什麼都一起分享。」
