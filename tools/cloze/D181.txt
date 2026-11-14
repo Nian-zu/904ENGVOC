@@ -250,3 +250,130 @@ Our class had to choose a class leader. There were two candidates: Ben, who was 
 + speech = 演講
 + vote = 投票；選票
 = 我們班要選班長，有兩位候選人：幽默又受歡迎的 Ben，和安靜但認真的 Grace。大部分的人都覺得 Ben 很可能會贏。然而，Grace 發表了一場很棒的演說，講她要如何保持教室整潔、幫助學習比較吃力的同學。投票前，老師說：「好好想一想，每一票都很重要。」結果 Grace 以一票之差勝出！Ben 笑著說：「全班做了正確的選擇。」
+
+## 遲到大王
+Max is late for school almost [[every|both|many|few]] day. His teacher [[often|ever|yet|ago]] asks, "What happened this time?" One day, Max had a new excuse: "A cat was sleeping on my shoes, and I didn't want to wake it up." The class laughed. [[However|Because|Often|Every]], the teacher was not amused. She called his parents, and they [[decided|became|kept|showed]] to buy him a very loud alarm clock. Now Max is [[likely|popular|right|often]] to be the first one at school, because the alarm wakes up the whole family!
+> 1 every day「每天」：every + 單數名詞。both、many、few 後面要接複數名詞。
+> 2 often「常常」：老師常常問他這次又怎麼了。ever、yet、ago 都不能放在這裡。
+> 3 However「然而」表示轉折：全班都笑了，然而老師一點也不覺得好笑。
+> 4 decide to + 原形動詞「決定…」。became to、kept to、showed to 都不對。
+> 5 be likely to + 原形動詞「可能會…」：現在 Max 很可能是第一個到校的人。popular、right、often 都不能這樣用。
++ excuse = 藉口
++ amused = 覺得好笑的
++ alarm clock = 鬧鐘
+= Max 幾乎每天上學都遲到，老師常常問他：「這次又怎麼了？」有一天，Max 有了新藉口：「有一隻貓睡在我的鞋子上，我不想吵醒牠。」全班都笑了。然而，老師一點也不覺得好笑。她打電話給 Max 的爸媽，他們決定買一個超大聲的鬧鐘給他。現在 Max 很可能是第一個到學校的人，因為鬧鐘一響，全家人都被吵醒了！
+
+## 果農的網路商店
+Mr. Lai grows oranges in the mountains. His [[business|news|money|homework]] was not doing well because supermarkets paid him very little. His daughter had an idea. "Let's [[try|become|show|mean]] selling online!" She took nice photos and wrote stories about the farm. The oranges became [[popular|likely|right|often]] very quickly. Now they [[often|ever|yet|ago]] sell out in one day. "I was wrong about the Internet," Mr. Lai said. "My daughter was [[right|every|often|ago]]."
+> 1 business「生意」：他的生意不太好。news、money、homework 都不合理。
+> 2 try + V-ing「試試看做…」：我們試試看在網路上賣吧！become、show、mean selling 都不對。
+> 3 become popular「變得受歡迎」：柳橙很快就大受歡迎。likely、right、often 都不能這樣用。
+> 4 often「常常」：現在常常一天就賣光。ever、yet、ago 都不能放在這裡。
+> 5 be right「是對的」：我女兒是對的。every、often、ago 都不能接在 was 後面這樣用。
++ supermarket = 超市
++ farm = 農場
++ sell out = 賣光
+= 賴先生在山上種柳橙。他的生意不太好，因為超市給的價錢很低。他的女兒想到一個辦法：「我們試試看在網路上賣吧！」她拍了漂亮的照片，還寫了果園的故事。柳橙很快就大受歡迎，現在常常一天就賣光。「我以前看錯網路了，」賴先生說，「我女兒是對的。」
+
+## 好消息與壞消息
+"I have good [[news|business|homework|money]] and bad news," said our teacher. "The good news is that we are going to the zoo. The bad news is that it is [[likely|popular|right|often]] to rain that day." Everyone groaned. "Can we change the date?" asked Lily. "Let me [[try|become|keep|mean]]," said the teacher. The next day, she came back smiling. "The zoo said we can come next Friday instead. [[However|Because|Often|Every]], you must finish your science reports first." We [[decided|became|kept|showed]] to finish them that weekend!
+> 1 good news and bad news「好消息和壞消息」，後面的 bad news 就是提示。business、homework、money 都不合理。
+> 2 be likely to + 原形動詞「可能會…」：那天很可能會下雨。popular、right、often 都不能這樣用。
+> 3 Let me try.「讓我試試看。」become、keep、mean 都不合理。
+> 4 However「不過」表示轉折：可以改期，不過你們得先完成自然報告。
+> 5 decide to + 原形動詞「決定…」。became to、kept to、showed to 都不對。
++ groan = 唉聲嘆氣
++ report = 報告
+= 「我有一個好消息和一個壞消息。」老師說，「好消息是我們要去動物園，壞消息是那天很可能會下雨。」大家都唉聲嘆氣。「可以改日期嗎？」Lily 問。「讓我試試看。」老師說。隔天，她笑著回來：「動物園說我們可以改成下星期五去。不過，你們得先完成自然報告。」我們決定那個週末就把報告寫完！
+
+## 搭錯公車
+On my way to my grandma's house, I took the wrong bus. I was reading a comic and did not check the number. When I looked up, I realized I was not on the [[right|every|often|ago]] bus! I got off and [[tried|became|kept|showed]] to find my way back. A woman at the bus stop told me the bus I needed came [[every|both|many|few]] twenty minutes. While I waited, I called Grandma. She laughed. "You [[often|ever|yet|ago]] do this! Next time, put your comic away." I [[decided|became|kept|showed]] to take her advice.
+> 1 the right bus「對的公車」。every、often、ago 都不能放在 the 和 bus 中間。
+> 2 try to + 原形動詞「試著…」：我下車試著找路回去。became to、kept to、showed to 都不對。
+> 3 every twenty minutes「每二十分鐘」：every + 數字 + 時間表示「每隔…」。both、many、few 都不能這樣用。
+> 4 often「常常」：你常常這樣！ever、yet、ago 都不能放在這裡。
+> 5 decide to + 原形動詞「決定…」。became to、kept to、showed to 都不對。
++ comic = 漫畫
++ realize = 發覺
++ advice = 建議
+= 去奶奶家的路上，我搭錯了公車。我在看漫畫，沒注意車號。等我抬起頭，才發現自己坐錯車了！我下了車，試著找路回去。公車站的一位女士告訴我，我要搭的車每二十分鐘一班。等車時，我打給奶奶，她笑著說：「你常常這樣！下次把漫畫收起來。」我決定聽她的建議。
+
+## 熱門景點的垃圾
+Hehuan Mountain is a [[popular|likely|right|often]] place to see snow in Taiwan. Every winter, many people go there. [[However|Because|Often|Every]], some visitors leave trash on the mountain. Last year, the [[news|business|money|homework]] showed photos of plastic bags in the snow. Our class felt sad, so we [[decided|became|kept|showed]] to do something. We made posters that said, "Take your trash home," and put them up near the bus station. It is a small step, but we [[try|become|keep|show]] to help in our own way.
+> 1 a popular place「熱門的地方」。likely、right、often 都不能這樣形容地點。
+> 2 However「然而」表示轉折：很多人去，然而有些遊客亂丟垃圾。
+> 3 the news「新聞」：去年新聞播出了雪地裡塑膠袋的照片。business、money、homework 都不合理。
+> 4 decide to + 原形動詞「決定…」。became to、kept to、showed to 都不對。
+> 5 try to + 原形動詞「試著…」：我們試著用自己的方式幫忙。become to、keep to、show to 都不對。
++ Hehuan Mountain = 合歡山
++ visitor = 遊客
++ trash = 垃圾
++ plastic bag = 塑膠袋
++ poster = 海報
+= 合歡山是台灣熱門的賞雪景點，每年冬天都有很多人去。然而，有些遊客把垃圾留在山上。去年，新聞播出了雪地裡滿是塑膠袋的照片。我們班看了很難過，決定做點什麼。我們做了寫著「把垃圾帶回家」的海報，貼在公車站附近。雖然只是一小步，但我們試著用自己的方式幫忙。
+
+## 奶奶的新聞時間
+My grandma watches the [[news|business|money|homework]] every night at seven. She [[often|ever|yet|ago]] tells me what she learned at dinner. Last week, she said, "Did you know that bubble tea is [[popular|likely|right|often]] in London now?" I laughed. "Grandma, everyone knows that!" [[However|Because|Often|Every]], she knows things I don't know, too, like how to save money and grow vegetables. Now we have a deal: she shares the news, and I teach her how to use apps. [[Every|Both|Many|Few]] night, we learn something new from each other.
+> 1 watch the news「看新聞」。business、money、homework 都不合理。
+> 2 often「常常」：她常常在晚餐時告訴我她學到什麼。ever、yet、ago 都不能放在這裡。
+> 3 popular「受歡迎的、流行的」：珍珠奶茶在倫敦很流行。likely、right、often 都不通。
+> 4 However「不過」表示轉折：大家都知道這件事，不過奶奶也懂很多我不懂的事。
+> 5 Every night「每天晚上」：every + 單數名詞。Both、Many、Few 後面要接複數名詞。
++ London = 倫敦
++ deal = 約定
++ app = 應用程式
+= 我奶奶每天晚上七點都看新聞，常常在晚餐時告訴我她學到了什麼。上星期她說：「你知道珍珠奶茶現在在倫敦很流行嗎？」我笑了：「奶奶，大家都知道啦！」不過，她也懂很多我不懂的事，像是怎麼存錢、怎麼種菜。現在我們有個約定：她分享新聞，我教她用手機程式。每天晚上，我們都從對方身上學到新東西。
+
+## 找到對的跑鞋
+Amy loves running, but her old shoes hurt her feet. She went to a sports shop to buy new ones. The shop worker said, "Let me help you find the [[right|every|often|ago]] shoes." He watched her run on a machine and [[decided|became|kept|tried]] that she needed shoes with more support. Amy [[tried|became|kept|meant]] on five pairs. The last pair felt great. "These are the most [[popular|likely|right|often]] shoes for runners," the worker said. Now Amy runs [[every|both|many|few]] morning without pain.
+> 1 the right shoes「合適的鞋子」。every、often、ago 都不能放在 the 和 shoes 中間。
+> 2 decide that + 句子「判斷、認定…」：他判斷她需要支撐力較好的鞋。became that、kept that、tried that 都不對。
+> 3 try on「試穿」是固定片語：她試穿了五雙。became on、kept on five pairs、meant on 都不是這個意思。
+> 4 the most popular「最受歡迎的」。likely、right、often 都不能這樣用。
+> 5 every morning「每天早上」：every + 單數名詞。both、many、few 後面要接複數名詞。
++ support = 支撐
++ pair = （一）雙
++ pain = 疼痛
+= Amy 很喜歡跑步，但舊鞋子讓她的腳很痛。她去運動用品店買新鞋。店員說：「讓我幫你找一雙合適的鞋。」他看她在機器上跑步，判斷她需要支撐力比較好的鞋子。Amy 試穿了五雙，最後一雙穿起來非常舒服。「這是跑者最喜歡的款式。」店員說。現在 Amy 每天早上跑步，腳都不痛了。
+
+## 客廳野餐
+Our family planned a beach trip for Saturday. [[However|Because|Often|Every]], on Friday night, the weather report said it was [[likely|popular|right|often]] to storm. My little brother was sad. Dad said, "Let's [[decide|become|keep|mean]] together what to do instead." We had three ideas: a movie, a museum, or a picnic in the living room. We chose the picnic! We put a blanket on the floor and ate sandwiches. My brother [[often|ever|yet|ago]] asks for living room picnics now. It was not the trip we planned, but it was the [[right|every|often|ago]] choice.
+> 1 However「然而」表示轉折：我們計畫去海邊，然而氣象預報說會有暴風雨。
+> 2 be likely to + 原形動詞「可能會…」。popular、right、often 都不能這樣用。
+> 3 decide what to do「決定該做什麼」。become、keep、mean what to do 都不對。
+> 4 often「常常」：弟弟現在常常吵著要客廳野餐。ever、yet、ago 都不能放在這裡。
+> 5 the right choice「正確的選擇」。every、often、ago 都不能放在 the 和 choice 中間。
++ storm = 有暴風雨
++ museum = 博物館
++ picnic = 野餐
++ blanket = 毯子
++ sandwich = 三明治
+= 我們全家計畫星期六去海邊。然而，星期五晚上氣象預報說，那天很可能會有暴風雨。弟弟很失望。爸爸說：「我們一起決定改做什麼吧。」我們有三個點子：看電影、去博物館，或在客廳野餐。我們選了野餐！我們在地上鋪了毯子，吃三明治。弟弟現在常常吵著要再來一次客廳野餐。雖然不是原本計畫的旅行，卻是正確的選擇。
+
+## 校園新聞小主播
+Our school started a student [[news|business|money|homework]] program on YouTube. Students report on school events [[every|both|many|few]] week. I wanted to be a reporter, so I [[decided|became|kept|showed]] to try out. At the try-out, I had to read the news in front of a camera. I was nervous, but I [[tried|became|kept|showed]] to speak slowly and clearly. I got the job! Our first video became [[popular|likely|right|often]]. It had over 2,000 views.
+> 1 a news program「新聞節目」。business、money、homework 都不合理。
+> 2 every week「每週」：every + 單數名詞。both、many、few 後面要接複數名詞。
+> 3 decide to + 原形動詞「決定…」：我決定去試鏡。became to、kept to、showed to 都不對。
+> 4 try to + 原形動詞「努力…」：我試著說得又慢又清楚。became to、kept to、showed to 都不對。
+> 5 become popular「變得受歡迎」：第一支影片很受歡迎。likely、right、often 都不通。
++ program = 節目
++ report = 報導
++ try out = 參加選拔；試鏡
++ camera = 攝影機
++ view = 觀看次數
+= 我們學校在 YouTube 上開了一個學生新聞節目，學生每週報導校園活動。我想當記者，所以決定去試鏡。試鏡時，我得在攝影機前播報新聞。我很緊張，但努力讓自己說得又慢又清楚。我錄取了！我們的第一支影片很受歡迎，有超過兩千次觀看。
+
+## 爸爸學做菜
+Last year, my dad [[decided|became|kept|showed]] to learn to cook. Before that, he could only make instant noodles. He watched cooking videos and [[tried|became|meant|decided]] a new dish every weekend. Some dishes were great; [[however|because|often|every]], some were terrible. His tomato soup was so salty that we had to drink a lot of water! But Dad did not give up. Now his beef noodles are [[popular|likely|right|often]] with all our relatives. At family parties, everyone asks, "Is Dad cooking?" He [[often|ever|yet|ago]] says yes with a big smile.
+> 1 decide to + 原形動詞「決定…」：去年爸爸決定學做菜。became to、kept to、showed to 都不對。
+> 2 try a new dish「嘗試做一道新菜」。became、meant、decided a new dish 都不合理。
+> 3 however「然而」表示轉折：有些菜很好吃，然而有些很難吃。
+> 4 be popular with + 人「受…歡迎」：他的牛肉麵很受親戚喜愛。likely、right、often 都不通。
+> 5 often「常常」：他常常笑著說好。ever、yet、ago 都不能放在這裡。
++ instant noodles = 泡麵
++ dish = 菜餚
++ salty = 鹹的
++ beef noodles = 牛肉麵
++ relative = 親戚
+= 去年，爸爸決定學做菜。在那之前，他只會煮泡麵。他看做菜影片，每個週末嘗試一道新菜。有些菜很好吃，然而有些很難吃：他煮的番茄湯鹹到我們得狂喝水！但爸爸沒有放棄。現在他的牛肉麵很受所有親戚喜愛。家族聚會時，大家都會問：「今天是爸爸下廚嗎？」他常常笑著說是。
