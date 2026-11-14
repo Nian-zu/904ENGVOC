@@ -1,0 +1,30 @@
+e034ec5116|spicy
+fb68da60e1|deep,healthy
+1a2429687b|yummy,wonderful,terrible,bitter
+ea8bd5b5ff|simple
+c4be4d788f|delicious
+8c1c1c392d|belt
+fdc9d2cf7c|glove
+459e73689e|jeans
+15468329ec|fireworkses
+8ab9513e50|sceneries,damages
+a74030fc78|stomaches,wallets,dresses
+655b655c29|norths
+1d26832e38|jacket,sweater
+52998974e3|furnitures,newses,caps
+7ad635028e|mask
+d3e81aa81e|coat
+40383c1fc2|mask,dress
+d373947acd|cap,spoon,chopsticks
+b48033e27f|sweater
+09d94993ea|soccers,progresses
+97ca430244|weathers
+fb6336f0a7|coupon
+d1d668d05e||This shirt is too expensive. Can I get a(n) ____?
+1f200787ef|stomaches
+faeaa0e3ba|scissorses
+186e79b8a2|shortses,fishings,sneakerses,volunteers
+62e91332ff|waiter,coach
+51023baa96||You paid 200 dollars. Here's your ____.
+882bc7e32b|juice|I just paid. Can I have a(n) ____, please?
+ecf585e236|hotel

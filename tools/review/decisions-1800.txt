@@ -1,0 +1,34 @@
+81b8f64935|glasseses,shelfs,courages
+c1a3a2d850|shelfs
+79b2df3157|noons
+f308c7f7f7|furnitures,polices
+6c846cdae3|beef,seafood
+5c20a4eb2c|rice
+4e8134fc98|noodle,bean
+fbda195c6e|sandwich
+8aa63b41fb|dinings
+8da4a3cad0|halfs,autumns
+b53fc5852e|mangos,educations
+54e8975447|mango
+7a4156ceac|importances
+2ee5c0cf2a|banana,lemon
+25b4bbec97|lemon,chocolate
+e557e56372|seafoods
+5bb314db1c|Tomatos,Mangos
+a14541de74|tomatos
+b36f23784d|shortses
+357db48f1d|businessmans
+060ec73e4b|sugars,dumplings,steaks
+165a0d6b92|breakfast
+7f736d64ff|chocolate
+9c5ec3ead0|tea
+a7f12fb4ec|lemon
+87ba20ab36|coffee
+1d123da912|chocolate,juice
+e93b71bf86|candy
+61cd305a9b|jeanses,natures
+ff47624183|shelfs,fireworkses,seas,joys
+4f4fc3e563|chopsticks
+f6509f071e||I want to eat my soup. Can I have a(n) ____?
+031809a03e||This soup is ____. Can I have more?
+b2e4c96aeb|spicy|This cake looks ____. I want to eat it.
