@@ -254,10 +254,12 @@ let mode = 'range', kind = 'all', num = 20;
 let picked = new Set();
 let session = null;
 
+// 會考高頻字那段不顯示說明，其餘顯示主題
+const theme = i => DATA.themes[i] === '會考高頻字' ? '' : DATA.themes[i];
 function initSelects(){
   const f = $('from'), t = $('to');
   for (let i = 0; i < N; i++){
-    const txt = `${lab(i)}｜${DATA.themes[i]}`;
+    const txt = lab(i) + (theme(i) ? '｜' + theme(i) : '');
     f.add(new Option(txt, i)); t.add(new Option(txt, i));
   }
   f.value = 0; t.value = todayIdx();
@@ -267,7 +269,7 @@ function initGrid(){
   for (let i = 0; i < N; i++){
     const b = document.createElement('button');
     b.textContent = lab(i); b.dataset.i = i; b.setAttribute('aria-pressed','false');
-    b.title = DATA.themes[i] + '：' + DATA.words[i].join(', ');
+    b.title = (theme(i) ? theme(i) + '：' : '') + DATA.words[i].join(', ');
     b.onclick = () => { picked.has(i) ? picked.delete(i) : picked.add(i); syncGrid(); update(); };
     g.appendChild(b);
   }
@@ -510,7 +512,7 @@ fetch('bank.json').then(r => r.json()).then(d => {
   window.byDay = DATA.days;
   N = DATA.labels.length;
   const t = todayIdx();
-  $('todayLbl').innerHTML = `今天是 <b>${lab(t)}</b>｜${DATA.themes[t]}`;
+  $('todayLbl').innerHTML = `今天是 <b>${lab(t)}</b>` + (theme(t) ? '｜' + esc(theme(t)) : '');
   initSelects(); initGrid(); setMode('range');
 }).catch(() => { $('countLbl').textContent = '題庫載入失敗，請重新整理頁面。'; });
 </script>
