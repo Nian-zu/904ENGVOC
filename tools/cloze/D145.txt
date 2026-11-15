@@ -260,3 +260,135 @@ At Willow Magic School, students learn a new spell every week. This week, Profes
 + thunder = 雷
 + backward = 倒著；向後
 = 在柳樹魔法學校，學生每個星期都要學一個新咒語。這個星期，月亮教授教我們「大聲咒」。「用了這個咒語，小小的聲音就會變得非常大，」她說，「使用時要小心。」我朋友 Max 沒在聽，他正在筆記本上畫一隻龍。輪到他的時候，他用魔杖指著一隻老鼠，念出咒語。老鼠張開嘴發出一點點聲音，卻比打雷還大聲！窗戶都在震動，書也從架子上掉了下來。月亮教授趕快把咒語倒著念一次，老鼠又安靜了下來。「Max，」她說，「不聽課的人不配拿魔杖。」Max 道了歉，然後深呼吸，再試一次。這一次，他做得完美無缺。
+
+## 健忘的多莉
+Dory is a blue fish in the movie Finding Dory. She is friendly and funny, but she forgets things very quickly. Her friends often have to [[repeat|belong|boil|arrive]] things for her many times. One day, Dory suddenly remembers her parents. She wants to find them, so she swims across the [[deep|wise|polite|careful]] ocean with her friends Marlin and Nemo. Marlin is worried. "Be [[careful|deep|delicious|national]], Dory!" he says again and again. On the way, Dory meets many new friends, like an octopus and a whale shark. Finally, she sees a long line of shells on the sand. Her parents put them there for years, hoping she would follow them home. When Dory finds her family, she learns that she [[belongs|repeats|types|boils]] with them, but also with her friends. Dory forgets many things, but she is [[wise|loud|cheap|thick]] in her own way. When one road is closed, she always finds another one.
+> 1 repeat things「把事情再說一遍」，因為多莉很健忘。belong 要接 to 或 with；boil（沸騰）、arrive（到達）接 things 都說不通。
+> 2 the deep ocean「深海；廣大的海洋」。wise（有智慧的）、polite（有禮貌的）、careful（小心的）都不能形容海洋。
+> 3 Be careful!「要小心！」馬林很擔心。deep（深的）、delicious（美味的）、national（國家的）都不能用來提醒人注意安全。
+> 4 belong with…「和…在一起才對；歸屬於…」，她的家人和朋友都是她的歸屬。repeats、types、boils 都不能和 with them 搭配表示歸屬。
+> 5 wise in her own way「有她自己的智慧」，後面說她總能找到另一條路。loud（大聲的）、cheap（便宜的）、thick（厚的）都和後一句接不上。
++ octopus = 章魚
++ whale shark = 鯨鯊
++ shell = 貝殼
++ ocean = 海洋
+= 多莉是電影《海底總動員2：多莉去哪兒》裡的一隻藍色的魚。她友善又好笑，但忘東西忘得非常快，朋友們常常得把事情跟她說好多遍。有一天，多莉突然想起了她的爸媽。她想找到他們，於是和朋友馬林、尼莫一起游過深深的大海。馬林很擔心，一直說：「多莉，要小心！」一路上，多莉認識了很多新朋友，像是一隻章魚和一條鯨鯊。最後，她在沙地上看到一長排貝殼。她的爸媽好多年來一直把貝殼排在那裡，希望她能跟著回家。多莉找到家人後明白了：她屬於家人，也屬於她的朋友。多莉雖然會忘記很多事，但她有她自己的智慧：一條路走不通時，她總是能找到另一條。
+
+## 龍舟賽的鼓手
+Every year, there is a big dragon boat race on the river near my home. It is the most exciting [[event|pair|difference|bill]] of the summer. This year, my cousin Jack was the drummer on his team's boat. His job was to beat the drum in a [[loud|wise|polite|cheap]], strong rhythm so that everyone could row together. "It's not easy," Jack told me. "If I make a mistake, the whole boat slows down." Before the race, he practiced every day. He [[repeated|belonged|boiled|arrived]] the same beat thousands of times. On the day of the race, the river was full of boats. The water there is [[deep|wise|polite|cheap]], so everyone on the boats wore life jackets. When the race started, Jack beat the drum hard. His team won by only half a boat! After the race, Jack said that the [[difference|pair|event|type]] between winning and losing is teamwork.
+> 1 the most exciting event「最刺激的活動」，指龍舟賽。pair（一對）、difference（不同）、bill（帳單）都不能指比賽。
+> 2 a loud rhythm「響亮的節奏」，讓大家聽得到一起划。wise（有智慧的）、polite（有禮貌的）、cheap（便宜的）都不能形容鼓聲。
+> 3 repeat the same beat「重複同樣的節拍」，練了幾千次。belonged 要接 to；boiled、arrived 接 the same beat 都說不通。
+> 4 The water is deep.「水很深」，所以大家都穿救生衣。wise、polite、cheap 都不能形容河水。
+> 5 the difference between A and B「A 和 B 的差別」，輸贏的差別在團隊合作。pair、event、type 都不能和 between winning and losing 搭配。
++ dragon boat = 龍舟
++ drummer = 鼓手
++ rhythm = 節奏
++ row = 划（船）
++ life jacket = 救生衣
+= 每年，我家附近的河上都會舉辦盛大的龍舟比賽，這是夏天最刺激的活動。今年，我表哥 Jack 是他們隊上的鼓手。他的工作是打出響亮有力的節奏，讓大家能一起划。「這不簡單，」Jack 跟我說，「只要我打錯，整艘船就會慢下來。」比賽前，他每天都練習，同樣的節拍重複打了好幾千次。比賽當天，河上擠滿了船。那裡的河水很深，所以船上每個人都穿著救生衣。比賽一開始，Jack 就用力打鼓。他們隊只贏了半個船身！比賽結束後，Jack 說輸贏的差別就在於團隊合作。
+
+## 血型和個性
+In Taiwan and Japan, many people believe that your blood [[type|pair|event|bill]] tells you about your personality. My friend Mia believes it very much. "You're Type A, so you're very [[careful|thick|delicious|national]] and you like rules," she told me. "I'm Type O, so I'm friendly and full of energy." But my science teacher says there is no real [[difference|pair|event|bill]] in personality between people with different blood types. Scientists have done many studies, but they can't find any link. Mia didn't believe it. "Then why are all my Type B friends so [[loud|cheap|national|empty]]?" she asked. "They talk and laugh all the time!" Our teacher smiled and said, "Maybe you just remember the times they were noisy." I think our personalities come from our families and experiences, not our blood. Mia and I are very different, but we still make a great [[pair|bill|secret|program]] of friends.
+> 1 blood type「血型」。pair、event、bill 都不能和 blood 組成這個詞。
+> 2 very careful「很細心、很謹慎」，後面說喜歡規則。thick（厚的）、delicious（美味的）、national（國家的）都不能形容人的個性。
+> 3 no real difference「沒有真正的差別」，科學家找不到關聯。pair、event、bill 都不能和 in personality between… 搭配。
+> 4 so loud「好吵、好大聲」，後面說他們一直說說笑笑。cheap（便宜的）、national（國家的）、empty（空的）都不能形容愛說話的人。
+> 5 a great pair of friends「很棒的一對朋友」。bill、secret、program 都不能用來說「一對」朋友。
++ personality = 個性
++ scientist = 科學家
++ study = 研究
++ link = 關聯
+= 在台灣和日本，很多人相信血型可以看出一個人的個性。我朋友 Mia 就非常相信。「你是 A 型，所以你很謹慎，喜歡守規則，」她跟我說，「我是 O 型，所以我很友善、很有活力。」可是我們的自然老師說，不同血型的人在個性上並沒有真正的差別。科學家做過很多研究，都找不到兩者之間的關聯。Mia 不相信。「那為什麼我的 B 型朋友都那麼吵？」她問，「他們一天到晚都在說說笑笑！」老師笑著說：「也許你只記得他們吵鬧的時候。」我覺得我們的個性來自家庭和經歷，而不是血液。Mia 和我很不一樣，但我們還是很棒的一對好朋友。
+
+## 一雙紅色毛手套
+Last winter, my grandma knitted me a [[pair|bill|secret|program]] of red gloves. She is seventy-eight, and her eyes are not very good, so it took her two months. I wore them every day. One cold morning, I lost one of the gloves on the bus. I felt terrible. "Grandma worked so hard on them," I thought. After school, I went to the bus station and asked if anyone had found a red glove. The man in the office checked a big box. "Does this [[belong|repeat|type|boil]] to you?" he asked. It was my glove! I was so happy that I thanked him in a [[loud|wise|cheap|careful]] voice. Everyone in the office turned to look at me. When I got home, I told Grandma the story. She laughed and said, "Next time, be more [[careful|loud|cheap|deep]], or I'll have to knit you ten more pairs!" Since then, I always put my gloves in a [[deep|wise|cheap|polite]] pocket of my coat.
+> 1 a pair of gloves「一雙手套」。bill、secret、program 都不能用來數手套。
+> 2 belong to you「是你的」，問手套是不是我的。repeat、type、boil 都不能和 to you 搭配表示屬於誰。
+> 3 in a loud voice「大聲地」，所以大家都轉頭看我。wise（有智慧的）、cheap（便宜的）、careful（小心的）都不能說明大家為什麼轉頭。
+> 4 be more careful「更小心一點」，才不會再弄丟。loud、cheap 意思不通；deep 的比較級是 deeper，不能說 more deep。
+> 5 a deep pocket「很深的口袋」，手套才不會掉出來。wise（有智慧的）、cheap（便宜的）、polite（有禮貌的）都不能形容口袋。
++ knit = 編織（過去式 knitted）
++ glove = 手套
++ bus station = 公車站
+= 去年冬天，我奶奶幫我織了一雙紅色手套。她七十八歲了，眼睛不太好，所以花了兩個月才織好。我每天都戴著。有一天早上很冷，我在公車上掉了一隻手套，心裡很難過。「奶奶為了這雙手套那麼辛苦。」我想。放學後，我到公車站去問有沒有人撿到一隻紅色手套。辦公室裡的先生翻了翻一個大箱子。「這是你的嗎？」他問。那正是我的手套！我開心到大聲向他道謝，辦公室裡的每個人都轉頭看我。回到家後，我把這件事告訴奶奶。她笑著說：「下次要更小心，不然我得再幫你織十雙！」從那以後，我都把手套放在外套很深的口袋裡。
+
+## 東京和台北的不同
+Last spring, my family went to Tokyo for a week. Tokyo and Taipei look similar in many ways, but I noticed some interesting [[differences|pairs|events|bills]]. First, Tokyo is very quiet. People on the subway don't talk on their phones, and nobody speaks in a [[loud|wise|careful|cheap]] voice. Second, people in Tokyo are very [[careful|loud|deep|delicious]] about garbage. There are almost no trash cans on the streets, so people carry their garbage home. Third, the convenience stores are different. In Taipei, you can pay your bills and buy train tickets at a convenience store. In Tokyo, there are so many [[types|events|bills|secrets]] of rice balls and desserts. But one thing is the same: people in both cities are kind and helpful. When we got lost, a young woman walked with us for ten minutes to help us find our hotel. When I said "Thank you," she smiled and [[repeated|belonged|arrived|boiled]] it in Chinese: "Xie xie!"
+> 1 some interesting differences「一些有趣的不同」，後面一一列出。pairs、events、bills 都不能說明兩個城市不一樣的地方。
+> 2 in a loud voice「大聲地」，東京很安靜，沒人大聲說話。wise（有智慧的）、careful（小心的）、cheap（便宜的）都不能形容說話的音量。
+> 3 be careful about garbage「對垃圾很謹慎」，會把垃圾帶回家。loud（大聲的）、deep（深的）、delicious（美味的）都不能和 about garbage 搭配。
+> 4 many types of rice balls「很多種飯糰」。events、bills、secrets 都不能和 of rice balls 搭配表示種類。
+> 5 repeat it in Chinese「用中文再說一次」，她回我「謝謝」。belonged 要接 to；arrived、boiled 接 it 都說不通。
++ subway = 地鐵
++ trash can = 垃圾桶
++ convenience store = 便利商店
++ rice ball = 飯糰
++ dessert = 甜點
+= 去年春天，我們全家去東京玩了一個星期。東京和台北在很多地方看起來很像，但我發現了一些有趣的不同。第一，東京很安靜。地鐵上的人不講電話，也沒有人大聲說話。第二，東京人對垃圾很謹慎。街上幾乎沒有垃圾桶，所以大家都把垃圾帶回家。第三，便利商店不一樣。在台北，你可以在便利商店繳帳單、買火車票；在東京，便利商店有好多種飯糰和甜點。不過有一件事是一樣的：兩個城市的人都很親切、很樂於助人。我們迷路的時候，一位年輕女生陪我們走了十分鐘，幫我們找到飯店。我跟她說「Thank you」時，她笑著用中文再說了一次：「謝謝！」
+
+## 屬於大家的公園
+There is a small park near my apartment. In the past, it was dirty. People threw garbage on the grass, and dogs left their poop everywhere. One day, Mrs. Chang, an old lady in our building, decided to change it. She put up a sign: "This park [[belongs|repeats|types|boils]] to all of us. Please keep it clean." Then she started an [[event|pair|difference|bill]] called "Clean Park Sunday." Every Sunday morning, she invited neighbors to pick up garbage together. At first, only three people came, but Mrs. Chang didn't give up. She kept [[repeating|belonging|arriving|boiling]] her invitation at every building meeting. After six months, more than thirty people joined. Now the park is clean and beautiful. Kids play on the grass, and dog owners are more [[careful|loud|cheap|deep]]. They always clean up after their dogs. Mrs. Chang showed us that one person can make a big [[difference|pair|event|type]].
+> 1 belong to all of us「屬於我們大家」。repeats、types、boils 都不能和 to all of us 搭配表示屬於誰。
+> 2 start an event「發起一個活動」，叫做「乾淨公園星期天」。pair、bill 意思不通；difference 也不能取名字、邀人參加。
+> 3 keep repeating her invitation「一再提出她的邀請」。belonging 要接 to；arriving、boiling 接 her invitation 都說不通。
+> 4 more careful「更小心、更注意」，會清理狗的大便。loud、cheap 的比較級不是 more ___；deep 也不能形容狗主人。
+> 5 make a big difference「帶來很大的改變」。pair、event、type 都不能和 make a big 組成這個片語。
++ apartment = 公寓
++ poop = 大便
++ invitation = 邀請
++ owner = 主人
+= 我家公寓附近有一座小公園，以前那裡很髒，有人把垃圾丟在草地上，狗的大便也到處都是。有一天，我們大樓裡的張奶奶決定改變這一切。她立了一個牌子：「這座公園屬於我們大家，請保持乾淨。」接著，她發起了一個叫做「乾淨公園星期天」的活動，每個星期天早上邀請鄰居一起撿垃圾。一開始只有三個人來，但張奶奶沒有放棄，每次大樓開會她都一再邀請大家。六個月後，參加的人超過三十個。現在公園又乾淨又漂亮，小朋友在草地上玩，狗主人也更注意了，總是會清理狗的大便。張奶奶讓我們知道，一個人也能帶來很大的改變。
+
+## 英文歌唱比賽的低音
+Our class joined the school's English song contest this year. We chose an old Beatles song. Our music teacher said we needed a boy with a [[deep|cheap|polite|careful]] voice for the low part. Everyone looked at Leo. He is quiet and shy, but his voice is low like a bear's. At first, Leo said no. "I can't sing in front of people," he said. But we told him that the low part [[belonged|repeated|typed|boiled]] to him, because nobody else could sing it. Finally, he agreed. We practiced every day after lunch. Our teacher made us [[repeat|belong|boil|arrive]] the hard part twenty times. "Be [[careful|thick|cheap|deep]] with the high notes," she told the girls. On the day of the contest, Leo stood in the middle. When he sang his part, the hall was quiet. Then everyone gave a [[loud|wise|careful|national]] cheer. We won second prize, and Leo became the star of our class.
+> 1 a deep voice「低沉的聲音」，後面說他聲音低得像熊。cheap（便宜的）、polite（有禮貌的）、careful（小心的）都不能形容聲音的高低。
+> 2 belong to him「是屬於他的」，只有他唱得來。repeated、typed、boiled 都不能和 to him 搭配表示屬於誰。
+> 3 make us repeat the hard part「要我們把難的部分重複練」。belong 要接 to；boil、arrive 接 the hard part 都說不通。
+> 4 be careful with the high notes「唱高音要小心」。thick（厚的）、cheap（便宜的）、deep（深的）都不能和 with the high notes 搭配表示提醒。
+> 5 a loud cheer「大聲歡呼」。wise（有智慧的）、careful（小心的）、national（國家的）都不能形容歡呼聲。
++ Beatles = 披頭四（英國樂團）
++ note = 音
++ hall = 禮堂
+= 今年我們班參加了學校的英文歌唱比賽，我們選了一首披頭四的老歌。音樂老師說，低音的部分需要一個聲音低沉的男生。大家都看向 Leo。他安靜又害羞，但他的聲音低得像熊一樣。一開始 Leo 拒絕了。「我沒辦法在大家面前唱歌。」他說。但我們跟他說，低音部分非他莫屬，因為沒有其他人唱得來。最後他答應了。我們每天午餐後都練習，老師要我們把難的部分重複練了二十次。「唱高音的時候要小心。」她提醒女生們。比賽當天，Leo 站在正中間。他唱他那一段時，整個禮堂都安靜下來，接著大家大聲歡呼。我們得了第二名，Leo 也成了我們班的明星。
+
+## 海邊撿到的瓶中信
+While walking on the beach in Taitung, my brother and I found a glass bottle with a letter inside. We were [[careful|loud|deep|cheap]] when we opened it because the paper was old. The letter was [[typed|belonged|repeated|boiled]] in English, not written by hand. It said, "Hello! My name is Emma. I'm twelve, and I live in the Philippines. If you find this, please write to me." There was an email address at the bottom. We were so excited. How did a small bottle travel across the [[deep|wise|polite|careful]] sea to Taiwan? That night, we wrote an email to Emma. Two days later, she wrote back! She said she put the bottle in the sea two years ago at a school [[event|pair|difference|bill]] about the ocean. Now we write to each other every week. There are many [[differences|pairs|events|bills]] between our lives, but we both love the sea and cats.
+> 1 We were careful「我們很小心」，因為紙很舊。loud（大聲的）、deep（深的）、cheap（便宜的）都不能說明打開瓶子時的態度。
+> 2 be typed「用打字的」，和後面「不是手寫」相對。belonged 不能用被動；repeated（被重複）、boiled（被煮）都不能說明信是怎麼寫的。
+> 3 the deep sea「深深的大海」。wise（有智慧的）、polite（有禮貌的）、careful（小心的）都不能形容海。
+> 4 a school event「學校活動」，主題是海洋。pair（一對）、difference（不同）、bill（帳單）都不能指學校舉辦的活動。
+> 5 many differences between…「…之間有很多不同」，後面用 but 說兩人的共同點。pairs、events、bills 都不能和 between our lives 搭配。
++ Taitung = 台東
++ Philippines = 菲律賓
++ email address = 電子郵件地址
++ ocean = 海洋
+= 我和弟弟在台東的海邊散步時，撿到一個裝著信的玻璃瓶。紙很舊，所以我們打開時很小心。信是用英文打字的，不是手寫的，上面寫著：「你好！我叫 Emma，今年十二歲，住在菲律賓。如果你撿到這封信，請寫信給我。」信的最下面有一個電子郵件地址。我們好興奮。一個小瓶子是怎麼漂過深深的大海來到台灣的呢？那天晚上，我們寫了一封電子郵件給 Emma。兩天後，她回信了！她說那是兩年前，她在學校一場關於海洋的活動中把瓶子丟進海裡的。現在我們每個星期都寫信給對方。我們的生活有很多不同，但我們都喜歡大海和貓。
+
+## 座頭鯨的歌聲
+Humpback whales are famous for their songs. Their songs can be very [[loud|wise|careful|cheap]], sometimes louder than a jet plane! The sound can travel far in the [[deep|polite|careful|wise]] ocean, so whales can hear each other from many kilometers away. Scientists have found something interesting: male whales in the same area sing the same song. They [[repeat|belong|boil|arrive]] it again and again, sometimes for hours. Every year, the song changes a little, so there are small [[differences|pairs|events|bills]] between this year's song and last year's song. No one knows exactly why. Maybe the whales just like new music, like we do. Scientists have to be very [[careful|loud|cheap|deep]] when they study whales, because boats and noise can scare them away. Maybe one day we will understand what the whales are singing about.
+> 1 very loud「非常大聲」，後面說比噴射機還大聲。wise（有智慧的）、careful（小心的）、cheap（便宜的）都不能形容聲音。
+> 2 the deep ocean「深海」。polite（有禮貌的）、careful（小心的）、wise（有智慧的）都不能形容海洋。
+> 3 repeat it again and again「一再重複唱」。belong 要接 to；boil、arrive 接 it 都說不通。
+> 4 small differences between…「…之間的小差異」，歌每年都會改變一點。pairs、events、bills 都不能和 between this year's song and last year's song 搭配。
+> 5 be careful「要小心」，因為船和噪音會嚇跑鯨魚。loud（大聲的）正好會嚇跑鯨魚；cheap（便宜的）、deep（深的）都不能形容科學家的態度。
++ humpback whale = 座頭鯨
++ jet plane = 噴射機
++ kilometer = 公里
++ scientist = 科學家
++ male = 雄性的
+= 座頭鯨以牠們的歌聲聞名。牠們的歌聲可以非常大聲，有時候比噴射機還響！聲音在深海裡可以傳得很遠，所以鯨魚在好幾公里外也聽得到彼此。科學家發現了一件有趣的事：同一個海域的雄鯨會唱同一首歌，牠們一再重複地唱，有時候一唱就是好幾個小時。每年，這首歌都會改變一點，所以今年的歌和去年的歌之間有一些小差異，沒有人知道確切的原因，也許鯨魚就跟我們一樣，喜歡聽新歌。科學家研究鯨魚時必須非常小心，因為船隻和噪音會把牠們嚇跑。也許有一天，我們會知道鯨魚到底在唱些什麼。
+
+## 聰明的縣太爺
+Long ago, an oil seller and a farmer came to the town judge. They were fighting over a bag of coins. "These coins [[belong|repeat|type|boil]] to me!" they both shouted. Their voices were so [[loud|wise|careful|cheap]] that people on the street came to watch. The judge was a [[wise|loud|cheap|thick]] old man. He listened to both men and then asked each of them to [[repeat|belong|arrive|boil]] his story one more time. Then he asked for a bowl of hot water and put the coins in it. After a few minutes, a little oil appeared on top of the water. "You see," the judge said, "these coins came from someone who touches oil every day. They belong to the oil seller." The farmer's face turned red. He had stolen the bag. Everyone in the crowd cheered. They said their judge could always see the [[difference|pair|event|bill]] between the truth and a lie.
+> 1 belong to me「是我的」，兩個人都說錢是自己的。repeat、type、boil 都不能和 to me 搭配表示屬於誰。
+> 2 so loud that…「大聲到…」，街上的人都跑來看。wise（有智慧的）、careful（小心的）、cheap（便宜的）都不能形容吵架的聲音。
+> 3 a wise old man「一位有智慧的老人」，後面他想出好辦法。loud（大聲的）、cheap（便宜的）、thick（厚的）都不能這樣形容縣官。
+> 4 repeat his story「把他的說法再說一次」。belong 要接 to；arrive、boil 接 his story 都說不通。
+> 5 see the difference between A and B「分辨 A 和 B 的不同」，看得出真話和謊話。pair、event、bill 都不能和 between the truth and a lie 搭配。
++ oil seller = 賣油的人
++ judge = 法官；縣官
++ coin = 硬幣
++ steal = 偷（過去分詞 stolen）
++ crowd = 人群
+= 很久以前，一個賣油的人和一個農夫來找縣太爺。他們為了一袋錢在吵架。「這些錢是我的！」兩個人都大喊。他們的聲音大到街上的人都跑來看熱鬧。縣太爺是一位很有智慧的老人。他聽完兩個人的話，又請他們各自把自己的說法再說一次。接著，他叫人拿來一碗熱水，把錢幣放進去。過了幾分鐘，水面上浮出了一點油。「你們看，」縣太爺說，「這些錢是一個每天都碰油的人的，所以它們是賣油的人的。」農夫的臉一下子紅了，原來是他偷了那袋錢。圍觀的人群都歡呼起來，說他們的縣太爺總是分得出真話和謊話。
