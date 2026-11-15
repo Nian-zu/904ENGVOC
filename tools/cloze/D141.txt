@@ -76,7 +76,7 @@ Choosing a high school was hard for me. My parents wanted me to go to a school n
 = 選高中對我來說很難。爸媽希望我讀家裡附近的學校，但老師說我應該試試台北一所有名的學校。我一直下不了決心，每天都在改變計畫。晚上我躺在床上想，但怎麼想都沒用。後來爺爺說：「不要想別人要什麼。你喜歡什麼？」我想起去年夏天上的烹飪課，那是我這輩子最快樂的一個星期！我上網搜尋，找到桃園一所有很棒的餐飲科的學校。我終於知道自己想要什麼了。我告訴爸媽的時候，他們沉默了一分鐘。接著爸爸笑著說：「如果那是你的夢想，就放手去做吧。」
 
 ## 排了兩小時的雲霄飛車
-Last Sunday, my cousins and I went to an amusement park. It was a holiday, so the park was very [[crowded|honest|polite|thirsty]]. We wanted to ride the new roller coaster, but the line was two hours long. The line moved [[slowly|honestly|politely|cheaply]], and everyone was hot and tired. My little cousin kept asking, "Are we there yet?" We had [[nothing|anything|nobody|nowhere]] to do, so we played word games. After two hours, it was [[finally|honestly|cheaply|heavily]] our turn. We sat down, and the ride started. We screamed all the way down. Then it stopped. It lasted only ninety seconds! "Two hours for ninety seconds?" my cousin said. "Next time, let's come on a weekday [[instead|ago|either|seldom]]."
+Last Sunday, my cousins and I went to an amusement park. It was a holiday, so the park was very [[crowded|honest|polite|thirsty]]. We wanted to ride the new roller coaster, but the line was two hours long. The line moved [[slowly|honestly|politely|cheaply]], and everyone was hot and tired. My little cousin kept asking, "Are we there yet?" We had [[nothing|anything|nobody|nowhere]] to do, so we played word games. After two hours, it was [[finally|honestly|cheaply|heavily]] our turn. We sat down, and the ride started. We screamed all the way down, and my cousin's cap flew off his head. Then, suddenly, the ride stopped. It lasted only ninety seconds! "Two hours for ninety seconds?" my cousin said. "Next time, let's come on a weekday [[instead|ago|either|seldom]]."
 > 1 very crowded「很擁擠」，因為是假日；後面說排隊要兩小時。honest（誠實的）、polite（有禮貌的）、thirsty（口渴的）都不能形容遊樂園人多。
 > 2 moved slowly「移動得很慢」。honestly（誠實地）、politely（有禮貌地）、cheaply（便宜地）都不能形容隊伍前進的速度。
 > 3 had nothing to do「沒事可做」，所以玩文字遊戲。anything 不能用在肯定句 We had 後面；nobody（沒有人）、nowhere（無處）都不能接 to do 表示「沒事可做」。
@@ -86,7 +86,7 @@ Last Sunday, my cousins and I went to an amusement park. It was a holiday, so th
 + roller coaster = 雲霄飛車
 + scream = 尖叫
 + weekday = 平日
-= 上星期天，我和表兄弟姊妹去遊樂園。因為是假日，園區非常擁擠。我們想坐新的雲霄飛車，但排隊要兩個小時。隊伍移動得很慢，大家又熱又累。小表弟一直問：「到了沒？」我們沒事可做，就玩起文字遊戲。兩個小時後，終於輪到我們了。我們坐好，雲霄飛車開動了，我們一路尖叫衝下去。然後它就停了，只有九十秒！「排兩個小時坐九十秒？」表弟說，「下次我們改成平日來吧。」
+= 上星期天，我和表兄弟姊妹去遊樂園。因為是假日，園區非常擁擠。我們想坐新的雲霄飛車，但排隊要兩個小時。隊伍移動得很慢，大家又熱又累。小表弟一直問：「到了沒？」我們沒事可做，就玩起文字遊戲。兩個小時後，終於輪到我們了。我們坐好，雲霄飛車開動了，我們一路尖叫衝下去，表弟的帽子還被吹飛了。接著，它突然就停了，只有九十秒！「排兩個小時坐九十秒？」表弟說，「下次我們改成平日來吧。」
 
 ## 半夜廚房的怪聲
 Late one night, I woke up because I heard a strange sound in the kitchen. Everyone else was asleep, and the house was very [[quiet|thirsty|honest|polite]]. I got out of bed and walked [[carefully|cheaply|honestly|hungrily]] to the kitchen. I turned on the light, but I saw [[nothing|anything|nowhere|ever]]. Then the sound came again. It was coming from the cabinet under the sink! I opened the door [[slowly|cheaply|honestly|politely]]. Two shining eyes looked at me. It was our cat, Oreo! She had found a bag of fish snacks and was eating them happily. I laughed so hard that Mom woke up and came downstairs. "What's going on?" she asked. When she saw Oreo, she shook her head and said, "Never [[mind|pocket|garbage|headache]]. Let's all go back to bed."
@@ -260,3 +260,131 @@ One rainy afternoon, Mr. Wang's gold watch went missing from his house. The poli
 + crow = 烏鴉
 + shiny = 閃亮的
 = 一個下雨的午後，王先生的金錶從家裡不見了。警察四處查看，卻沒找到任何有用的線索。這時，少年偵探柯南來了。他在客廳裡仔細地走了一圈，每個角落都不放過。在開著的窗戶旁邊，他發現地上有一些小小的泥巴腳印。「今天有人進來過嗎？」柯南問。「沒有，」王先生說，「整個下午都很安靜，我一直在房間看書。」柯南走到院子，抬頭看著一棵大樹。樹上有一個烏鴉巢，裡面有東西在發亮——就是那支金錶！一切終於說得通了。「烏鴉很喜歡閃亮的東西，」柯南說，「是這隻鳥從窗戶飛進來把錶叼走的，那些腳印是烏鴉的！」王先生笑了。他沒有因此去鎖門，而是現在看書前都會先把窗戶關好。
+
+## 冰雪城堡裡的姊姊
+After Elsa ran away to the mountains, she built a castle of ice. It was beautiful, but it was also very [[quiet|noisy|crowded|honest]]. No one came, and no one made a sound. For days, Elsa had [[nothing|anything|nowhere|ever]] to do. She just walked around the empty rooms. Then one morning, her sister Anna climbed all the way up the mountain. "Please come home," Anna said. Elsa stepped back. "I can't control my power," she said. "I might hurt you." [[Instead|Ago|Either|Seldom]] of leaving, Anna walked closer and held her sister's cold hands. "I don't [[mind|hope|decide|agree]] the cold," she said. "I just want my sister back." Elsa looked at Anna and began to cry. Her heart [[slowly|cheaply|honestly|politely]] became warm, and the snow around them started to melt. Then, hand in hand, the two sisters walked down the mountain together.
+> 1 very quiet「很安靜」，後面說沒人來、沒有任何聲音。noisy（吵鬧的）、crowded（擁擠的）都和後句矛盾；honest（誠實的）不能形容城堡。
+> 2 had nothing to do「沒事可做」，只能在空房間裡走來走去。anything 不能用在肯定句 had 後面；nowhere（無處）、ever（曾經）都不能接 to do 表示「沒事做」。
+> 3 Instead of + V-ing「不但沒有…反而…」，安娜沒有離開，反而走近握住姊姊的手。Ago、Either、Seldom 都沒有 ___ of 的用法。
+> 4 I don't mind the cold「我不在乎冷」，mind 可直接接名詞。hope、decide、agree 都不能直接接 the cold 表示「不在乎」。
+> 5 slowly became warm「慢慢地變溫暖」，雪也開始融化。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容心變暖的過程。
++ Elsa = 艾莎
++ castle = 城堡
++ control = 控制
++ melt = 融化
+= 艾莎逃到山上後，用冰蓋了一座城堡。城堡很美，卻也非常安靜，沒有人來，也沒有一點聲音。好幾天，艾莎都沒事可做，只是在空蕩蕩的房間裡走來走去。後來有一天早上，她的妹妹安娜一路爬上了山。「請跟我回家，」安娜說。艾莎往後退：「我控制不了我的力量，我可能會傷害妳。」安娜不但沒有離開，反而走上前，握住姊姊冰冷的手。「我不在乎冷，」她說，「我只想要我的姊姊回來。」艾莎看著安娜，哭了起來。她的心慢慢地變得溫暖，周圍的雪也開始融化。接著，姊妹倆手牽著手，一起走下山。
+
+## 運動會的大隊接力
+Our school sports day is always [[noisy|quiet|honest|polite]]. Students shout, drums beat, and music plays all day. The most exciting event is the relay race. This year, our class made it to the final. Students stood all around the track, and the seats were [[crowded|honest|polite|thirsty]] with parents. I was the last runner. When the baton came to me, we were in third place. I took it [[carefully|cheaply|honestly|hungrily]] because I didn't want to drop it. Then I ran as fast as I could. I passed one runner, then another. My legs hurt, but I didn't stop. I [[finally|honestly|cheaply|politely]] crossed the finish line first! My classmates ran to me and lifted me up. Our teacher, who is usually very serious, couldn't say [[anything|nothing|nowhere|ever]]. She just cried and hugged us all.
+> 1 always noisy「總是很吵」，後面說大家喊叫、打鼓、放音樂。quiet（安靜的）和後句矛盾；honest（誠實的）、polite（有禮貌的）都不能形容運動會。
+> 2 crowded with parents「擠滿了家長」。honest（誠實的）、polite（有禮貌的）、thirsty（口渴的）都不能接 with parents 形容座位區。
+> 3 took it carefully「小心地接過來」，怕掉棒。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容接棒的方式。
+> 4 finally crossed the finish line first「終於第一個衝過終點」。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
+> 5 couldn't say anything「什麼都說不出來」，否定句用 anything。nothing 已經是否定，不能和 couldn't 一起用；nowhere（無處）、ever（曾經）都不能當 say 的受詞。
++ sports day = 運動會
++ relay race = 接力賽
++ track = 跑道
++ baton = 接力棒
+= 我們學校的運動會總是很吵，學生大聲喊叫、鼓聲咚咚、音樂從早放到晚。最刺激的項目是大隊接力。今年，我們班打進了決賽。跑道四周站滿了學生，看台上擠滿了家長。我是最後一棒。接力棒傳到我手上時，我們是第三名。我小心地接過棒子，因為我不想掉棒。接著我用最快的速度往前衝，超過了一個人，又超過一個。我的腿好痛，但我沒有停。我終於第一個衝過終點線！同學們衝過來把我抬起來。我們平常很嚴肅的老師一句話也說不出來，只是哭著抱住我們每一個人。
+
+## 和外婆包粽子
+Every year before the Dragon Boat Festival, my grandma makes zongzi. This year, she let me help her. First, she showed me how to fold the bamboo leaves into a cone. "Do it [[slowly|cheaply|honestly|politely]]," she said. "If you go too fast, the leaves will break." Then we put rice, pork, mushrooms, and an egg yolk inside. I added the rice [[carefully|cheaply|heavily|hungrily]] so [[nothing|anything|nowhere|ever]] would fall out. Tying the string was the hardest part. My first zongzi looked like a ball, and my second one fell apart. Grandma didn't [[mind|borrow|marry|spell]]. "My first one looked even worse," she laughed. After two hours, we [[finally|honestly|cheaply|politely]] had fifty zongzi. We boiled them in a big pot, and the whole house smelled wonderful. My ugly zongzi tasted just as good as Grandma's.
+> 1 Do it slowly「慢慢做」，後面說太快葉子會破。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容摺葉子的方式。
+> 2 added the rice carefully「小心地放米」。cheaply（便宜地）、heavily（沉重地）、hungrily（飢餓地）都不能形容放米的方式。
+> 3 so nothing would fall out「這樣就不會有東西掉出來」。anything 不能當肯定句的主詞；nowhere（無處）、ever（曾經）都不能當 would fall out 的主詞。
+> 4 didn't mind「不介意」，外婆笑著說她第一顆更醜。borrow（借）、marry（嫁娶）、spell（拼字）單獨放在 didn't 後面都說不通。
+> 5 finally had fifty zongzi「終於包好五十顆粽子」。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
++ Dragon Boat Festival = 端午節
++ zongzi = 粽子
++ bamboo leaf = 竹葉
++ cone = 圓錐形
++ egg yolk = 蛋黃
+= 每年端午節前，外婆都會包粽子。今年她讓我幫忙。首先，她教我怎麼把竹葉摺成圓錐形。「慢慢來，」她說，「太快的話，葉子會破掉。」接著我們放進米、豬肉、香菇和一顆蛋黃。我小心地放米，這樣才不會有東西掉出來。綁繩子是最難的部分。我包的第一顆粽子像一顆球，第二顆直接散開了。外婆一點也不介意，她笑著說：「我第一顆包得更醜呢。」兩個小時後，我們終於包好了五十顆粽子。我們把粽子放進大鍋裡煮，整間房子都好香。我包的醜粽子吃起來和外婆包的一樣好吃。
+
+## 夜晚的動物園
+Last Friday, our class went to the zoo at night. Most visitors come in the daytime, so at night, the zoo was dark and [[quiet|crowded|honest|polite]]. Our guide told us to walk [[slowly|cheaply|honestly|politely]] and turn off our flashlights. "Many animals sleep in the day and wake up at night," she said. First, we saw a pangolin looking for ants. Then we heard a strange sound from the trees. It was so [[noisy|quiet|honest|polite]] that my friend covered her ears. It was a group of monkeys calling to each other! Next, we went to see the owls. In the dark, I couldn't see [[anything|nothing|nowhere|ever]] at first. But after a few minutes, my eyes got used to the dark, and I [[finally|honestly|cheaply|politely]] saw a big owl on a branch. It turned its head and looked right at me. It was the coolest field trip ever.
+> 1 dark and quiet「又暗又安靜」，因為大部分遊客白天來。crowded（擁擠的）和前句矛盾；honest（誠實的）、polite（有禮貌的）都不能形容動物園。
+> 2 walk slowly「慢慢地走」，以免吵到動物。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容走路的方式。
+> 3 so noisy that my friend covered her ears「吵到朋友摀住耳朵」。quiet（安靜的）和後句矛盾；honest（誠實的）、polite（有禮貌的）都不能形容聲音。
+> 4 couldn't see anything「什麼都看不見」，否定句用 anything。nothing 已經是否定，不能和 couldn't 一起用；nowhere（無處）、ever（曾經）都不能當 see 的受詞。
+> 5 finally saw「終於看到」，眼睛習慣黑暗之後。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
++ flashlight = 手電筒
++ pangolin = 穿山甲
++ owl = 貓頭鷹
++ branch = 樹枝
++ field trip = 校外教學
+= 上星期五，我們班晚上去動物園。大部分遊客都是白天來，所以晚上的動物園又暗又安靜。導覽員要我們慢慢走，並把手電筒關掉。「很多動物白天睡覺，晚上才醒來，」她說。我們先看到一隻穿山甲在找螞蟻。接著，樹上傳來一陣奇怪的聲音，吵到我的朋友摀住了耳朵。原來是一群猴子在互相呼叫！然後我們去看貓頭鷹。在黑暗中，我一開始什麼都看不見。但過了幾分鐘，眼睛習慣了黑暗，我終於看到一隻大貓頭鷹站在樹枝上。牠轉過頭，直直地看著我。這是我參加過最酷的校外教學。
+
+## 爸爸的驚喜派對
+We planned a surprise party for Dad's fiftieth birthday. For two weeks, my sister and I kept [[quiet|crowded|honest|thirsty]] about it. Whenever Dad asked what we were doing, we just said, "[[Nothing|Anything|Nowhere|Ever]]!" On Saturday, Mom took Dad out for lunch. While they were gone, we decorated the living room and invited his friends. Soon, the living room was [[crowded|honest|polite|thirsty]] with people, balloons, and food. Twenty people hid behind the sofa and the curtains in the dark and waited without making a sound. When Dad [[finally|honestly|cheaply|politely]] opened the door, we turned on the lights and shouted, "Surprise!" Dad was so shocked that he couldn't say [[anything|nothing|nowhere|ever]]. Then he started to laugh. Later, he told us, "I knew something was going on. You two were much too quiet this month!"
+> 1 kept quiet about it「對這件事保密、不說出去」，keep quiet 是固定用法。crowded（擁擠的）、honest（誠實的）、thirsty（口渴的）都不能表示保守祕密。
+> 2 "Nothing!"「沒事！」，回答「你們在做什麼」。Anything 不能這樣單獨回答表示「沒做什麼」；Nowhere（無處）回答「去哪裡」；Ever（曾經）不能單獨回答。
+> 3 crowded with people「擠滿了人」。honest（誠實的）、polite（有禮貌的）、thirsty（口渴的）都不能接 with people, balloons, and food 形容客廳。
+> 4 finally opened the door「終於開門進來」，大家已經躲著等了。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
+> 5 couldn't say anything「什麼都說不出來」，否定句用 anything。nothing 已經是否定，不能和 couldn't 一起用；nowhere（無處）、ever（曾經）都不能當 say 的受詞。
++ surprise party = 驚喜派對
++ decorate = 布置
++ shocked = 震驚的
+= 我們為爸爸的五十歲生日計畫了一個驚喜派對。兩個星期以來，我和姊姊都守口如瓶。每次爸爸問我們在做什麼，我們只說：「沒事！」星期六，媽媽帶爸爸出去吃午餐。他們出門的時候，我們布置了客廳，也邀請了爸爸的朋友。很快地，客廳就擠滿了人、氣球和食物。二十個人躲在黑暗中的沙發和窗簾後面，一點聲音都不敢出地等著。爸爸終於打開門的時候，我們打開燈大喊：「驚喜！」爸爸震驚得說不出話來，接著就笑了出來。後來他告訴我們：「我就知道有事。你們兩個這個月實在太安靜了！」
+
+## 和舅舅單車環島
+Last summer, my uncle and I rode our bikes around Taiwan. It took us ten days. On the first day, I rode too fast and got tired by noon. My uncle said, "Ride [[slowly|cheaply|honestly|politely]] at first. We have a long way to go." On the third day, it rained hard on a mountain road in Pingtung. We had to ride very [[carefully|cheaply|honestly|hungrily]] because the road was wet. On the fifth day, my bike got a flat tire far from any town. [[Luckily|Loudly|Brightly|Heavily]], a kind farmer drove us to a bike shop in his truck. In Hualien, my uncle wanted to stay in a hotel, but I wanted to try camping on the beach [[instead|ago|either|seldom]]. We slept under the stars and listened to the waves all night. On the tenth day, we [[finally|honestly|cheaply|politely]] rode back into Taipei. My legs were sore, but my heart was full.
+> 1 Ride slowly「騎慢一點」，因為路還很長。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容騎車的速度。
+> 2 ride very carefully「騎得非常小心」，因為路面濕滑。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容雨天騎車的方式。
+> 3 Luckily「幸好」，有好心的農夫載我們去修車。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都說不通。
+> 4 try camping on the beach instead「改試試在海灘露營」，instead 放句尾表示「改為」。ago 要接在時間後面；either 用在否定句；seldom（很少）不能放句尾。
+> 5 finally rode back into Taipei「終於騎回台北」，騎了十天。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
++ Pingtung = 屏東
++ flat tire = 爆胎、沒氣的輪胎
++ truck = 卡車
++ sore = 痠痛的
+= 去年夏天，舅舅和我騎腳踏車環島，花了十天。第一天，我騎太快，中午就累了。舅舅說：「一開始騎慢一點，我們還有很長的路要走。」第三天，屏東的山路上下起大雨，路面很濕，我們得非常小心地騎。第五天，我的腳踏車在離城鎮很遠的地方爆胎了。幸好一位好心的農夫用卡車載我們到腳踏車店。到了花蓮，舅舅想住飯店，但我想改試試在海灘露營。我們睡在星空下，聽了一整晚的海浪聲。第十天，我們終於騎回了台北。我的腿很痠，但心裡滿滿的。
+
+## 一個人在家的週末
+My parents went to Tainan for a wedding, and I stayed home alone for the weekend. At first, I was very excited. I could eat [[anything|nothing|nowhere|ever]] I wanted and play games all night! But on Saturday night, the house felt too [[quiet|crowded|honest|polite]]. Every little sound scared me. I usually get angry at my little brother because he is so [[noisy|quiet|honest|polite]], but now I missed his loud voice. I tried to cook dinner, but I burned the noodles. In the end, I ate cookies [[instead|ago|either|seldom]]. On Sunday, I cleaned the whole house and waited by the window. When my family [[finally|honestly|cheaply|politely]] came home that evening, I ran to the door and hugged my brother. He looked surprised. "Are you okay?" he asked. I just laughed. I didn't tell him how much I had missed him.
+> 1 eat anything I wanted「想吃什麼就吃什麼」，肯定句中的 anything 表示「任何東西」。nothing 和「很興奮」的語意相反；nowhere（無處）、ever（曾經）都不能當 eat 的受詞。
+> 2 felt too quiet「感覺太安靜了」，只有我一個人在家。crowded（擁擠的）和「一個人在家」矛盾；honest（誠實的）、polite（有禮貌的）都不能形容房子。
+> 3 he is so noisy「他很吵」，後面說想念他的大嗓門。quiet（安靜的）和「大嗓門」矛盾；honest（誠實的）、polite（有禮貌的）都不會讓人生氣。
+> 4 ate cookies instead「改吃餅乾」，因為麵煮焦了。ago 要接在時間後面；either 用在否定句；seldom（很少）不能放句尾。
+> 5 finally came home「終於回到家」，我等了一整天。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
++ wedding = 婚禮
++ noodles = 麵
+= 爸媽去台南參加婚禮，我一個人在家過週末。一開始我很興奮，我想吃什麼就吃什麼，還可以整晚打電動！但到了星期六晚上，家裡感覺太安靜了，一點小聲音都會嚇到我。我平常總是對弟弟生氣，因為他很吵，可是現在我卻想念他的大嗓門。我想煮晚餐，結果把麵煮焦了，最後只好改吃餅乾。星期天，我把整間房子打掃乾淨，在窗邊等著。傍晚家人終於回到家時，我跑到門口抱住弟弟。他一臉驚訝：「你還好吧？」他問。我只是笑一笑，沒有告訴他我有多想他。
+
+## 第一次鋼琴比賽
+Last month, I played the piano in a competition. The hall was big and [[quiet|noisy|honest|thirsty]]. Nobody made a sound. When it was my turn, my hands were shaking. I walked [[slowly|cheaply|honestly|politely]] to the piano and sat down. I remembered what my teacher had told me: "Don't think about winning. Just clear your [[mind|pocket|garbage|uniform]] and enjoy the music." I took a deep breath and started to play. I played the first part [[carefully|cheaply|heavily|hungrily]], and then I forgot about all the people. I only heard the music. When I finished, nobody did [[anything|nothing|nowhere|ever]] for a second. Then everyone started clapping. I didn't win first place, but I got third. My teacher hugged me and said, "I heard your heart in the music today. That's more important than any prize."
+> 1 big and quiet「又大又安靜」，後面說沒有人出聲。noisy（吵鬧的）和後句矛盾；honest（誠實的）、thirsty（口渴的）都不能形容演奏廳。
+> 2 walked slowly「慢慢地走」，因為很緊張。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容走路的方式。
+> 3 clear your mind「放空腦袋」，不要想輸贏。pocket（口袋）、garbage（垃圾）、uniform（制服）都和「不要想太多」無關。
+> 4 played carefully「小心地彈」，一開始彈得很謹慎。cheaply（便宜地）、heavily（沉重地）、hungrily（飢餓地）都不能形容彈琴的方式。
+> 5 nobody did anything「沒有人有任何動作」，nobody 已是否定，後面用 anything。nothing 會變成雙重否定；nowhere（無處）、ever（曾經）都不能當 did 的受詞。
++ competition = 比賽
++ hall = 大廳、演奏廳
++ shake = 發抖
++ clap = 鼓掌
+= 上個月，我參加了一場鋼琴比賽。演奏廳又大又安靜，沒有人發出一點聲音。輪到我的時候，我的手在發抖。我慢慢地走到鋼琴前坐下。我想起老師對我說過的話：「不要想輸贏，放空腦袋，好好享受音樂。」我深吸一口氣，開始彈奏。一開始我彈得很小心，後來我就忘了台下所有的人，只聽得見音樂。彈完時，有一秒鐘大家都沒有任何動作，接著全場響起掌聲。我沒有得第一名，但得了第三名。老師抱著我說：「今天我在音樂裡聽到了你的心，這比任何獎都重要。」
+
+## 雲林外婆家的夏天
+Every summer, I stay at my grandma's house in the countryside of Yunlin. My home in Taipei is always [[noisy|quiet|honest|polite]] with cars and motorcycles. But Grandma's village is very [[quiet|crowded|honest|polite]]. There are only a few houses, and at night, the only sound is the frogs. Life there moves [[slowly|cheaply|honestly|politely]]. People walk to the market and stop to talk with every neighbor on the way. Every morning, Grandma wakes me up at five to feed the chickens. In Taipei, I would never get up so early, but here I don't [[mind|hope|decide|agree]]. [[Instead|Ago|Either|Seldom]] of playing on my phone, I ride my bike along the rice fields and catch fish in the river with my cousins. Every time I go back to the city, I miss the frogs and Grandma's cooking.
+> 1 noisy with cars and motorcycles「汽機車的聲音很吵」。quiet（安靜的）和「汽機車」矛盾；honest（誠實的）、polite（有禮貌的）都不能形容家裡的環境。
+> 2 very quiet「很安靜」，晚上只有青蛙叫。crowded（擁擠的）和「只有幾間房子」矛盾；honest（誠實的）、polite（有禮貌的）都不能形容村子。
+> 3 moves slowly「步調很慢」，大家走路去市場，還停下來和鄰居聊天。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容生活步調。
+> 4 I don't mind「我不介意」，在這裡早起也沒關係。hope、decide、agree 單獨放在 don't 後面，都不能表示「不介意早起」。
+> 5 Instead of + V-ing「不…而改…」，不玩手機，改去騎腳踏車。Ago、Either、Seldom 都沒有 ___ of 的用法。
++ countryside = 鄉下
++ Yunlin = 雲林
++ frog = 青蛙
++ rice field = 稻田
+= 每年暑假，我都會住在雲林鄉下的外婆家。我在台北的家總是充滿汽機車的吵鬧聲，但外婆住的村子非常安靜，只有幾戶人家，晚上唯一的聲音就是青蛙叫。那裡的生活步調很慢，大家走路去市場，一路上還會停下來和每個鄰居聊天。每天早上五點，外婆都會叫我起床餵雞。在台北，我絕對不會這麼早起，但在這裡我一點也不介意。我不玩手機，而是和表兄弟姊妹沿著稻田騎腳踏車，到河裡抓魚。每次回到城市，我都會想念青蛙和外婆煮的菜。
+
+## 家裡的新成員
+My baby brother, Ethan, was born last month. Since then, our home has changed a lot. When he sleeps, everyone must be [[quiet|crowded|honest|thirsty]]. I can't play music or watch TV loudly. When I walk past his room, I walk [[carefully|cheaply|honestly|hungrily]] so the floor doesn't make a sound. But when Ethan wakes up, he is very [[noisy|quiet|honest|polite]]. He cries so loudly that our neighbors can hear him! At first, I felt a little left out. Mom and Dad were so busy that they didn't have time for [[anything|nothing|nowhere|ever]] else. Then one day, Mom put Ethan in my arms. He looked up at me and held my finger with his tiny hand. At that moment, I didn't [[mind|borrow|marry|spell]] the crying or the noise anymore. Now I sing to him every night, and he always falls asleep before the song ends.
+> 1 everyone must be quiet「大家都要安靜」，寶寶在睡覺。crowded（擁擠的）、honest（誠實的）、thirsty（口渴的）都不是寶寶睡覺時的要求。
+> 2 walk carefully「小心地走」，讓地板不發出聲音。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容走路的方式。
+> 3 very noisy「很吵」，後面說他哭到鄰居都聽得到。quiet（安靜的）和後句矛盾；honest（誠實的）、polite（有禮貌的）都不能形容嬰兒哭鬧。
+> 4 didn't have time for anything else「沒有時間做其他任何事」，否定句用 anything。nothing 已經是否定，不能和 didn't 一起用；nowhere（無處）、ever（曾經）都不能接在 for 後面。
+> 5 didn't mind the crying「不在意他的哭聲」。borrow（借）、marry（嫁娶）、spell（拼字）都不能接 the crying or the noise。
++ left out = 被冷落的
++ tiny = 很小的
++ fall asleep = 睡著
+= 我的弟弟 Ethan 上個月出生了。從那時起，我們家改變了很多。他睡覺的時候，每個人都得安靜。我不能大聲放音樂或看電視。走過他房間時，我都小心地走，讓地板不發出聲音。可是 Ethan 一醒來就很吵，哭聲大到鄰居都聽得到！一開始，我覺得有點被冷落。爸媽忙到沒有時間做其他任何事。後來有一天，媽媽把 Ethan 放進我懷裡。他抬頭看著我，用小小的手握住我的手指。那一刻，我再也不在意他的哭聲和吵鬧了。現在我每天晚上都唱歌給他聽，他總是在歌還沒唱完前就睡著了。
