@@ -126,3 +126,141 @@ Last summer, I [[took|grew|fell|ate]] the train to Taichung by myself for the fi
 + point at = 指著
 + no wonder = 難怪
 = 「我的眼鏡在哪裡？」一天早上阿嬤大喊。沒有眼鏡她就不能看報紙，所以大家都開始找。爸爸找廚房，我找沙發底下。妹妹甚至跑到花園，去花叢下面找。找了三十分鐘，我們什麼也沒找到。阿嬤坐回她的椅子上，看起來很累。「沒關係，」她說，「明天再看新聞就好。」這時妹妹笑了出來，指著阿嬤的頭。眼鏡就在那裡，在她的白頭髮上！阿嬤摸摸頭，笑個不停。「難怪我今天早上覺得頭好重！」她說。從那天起，我們家只要有人掉了東西，大家都會先看看他的頭頂。
+
+## 導盲犬 Lucky 上班去
+Lucky is a guide dog. Every morning, he [[takes|spends|costs|pays]] Mr. Wang, who can't see, to his office. They walk together on the busy streets. When they come to a corner, Lucky always [[stops|spells|borrows|marries]] and waits. He [[looks|tastes|wears|tells]] left and right before they cross. On the bus, he lies quietly under Mr. Wang's seat. One day, a little boy ran to Lucky and wanted to pet him. Mr. Wang said [[politely|cheaply|heavily|hungrily]], "Sorry, he's working now. Please don't touch him." The boy's mom explained to him that Lucky's job is to [[protect|decide|agree|hope]] Mr. Wang from danger, so he must not play during work. But at home, Lucky takes off his harness and becomes a normal dog. He runs around, plays with his ball, and sleeps on the sofa. "He's my eyes," Mr. Wang says, "and my best friend."
+> 1 take A to B「帶 A 去 B」，Lucky 帶王先生去辦公室。spends（花費）、costs（值…錢）、pays（付錢）都不能表示「帶人去某地」。
+> 2 stops and waits「停下來等」，到了路口要停。spells（拼字）、borrows（借）、marries（嫁娶）放在這裡都說不通。
+> 3 look left and right「左右看」，過馬路前先看兩邊。tastes（嚐）、wears（穿戴）、tells（告訴）都不能接 left and right 表示「往左右看」。
+> 4 said politely「有禮貌地說」，王先生客氣地請小孩別摸。cheaply（便宜地）、heavily（沉重地）、hungrily（飢餓地）都不能形容說話的態度。
+> 5 protect A from B「保護 A 不受 B 傷害」。decide、agree、hope 都沒有 ___ A from B 的用法。
++ guide dog = 導盲犬
++ cross = 穿越（馬路）
++ pet = 撫摸（動物）
++ danger = 危險
++ harness = 導盲鞍
+= Lucky 是一隻導盲犬。每天早上，牠帶看不見的王先生去辦公室。他們一起走在熱鬧的街上。到了路口，Lucky 一定會停下來等，過馬路前先左右看。在公車上，牠安靜地趴在王先生的座位下。有一天，一個小男孩跑向 Lucky，想摸摸牠。王先生有禮貌地說：「不好意思，牠正在工作，請不要摸牠。」男孩的媽媽跟他解釋，Lucky 的工作是保護王先生不遇到危險，所以工作時不能玩。不過一回到家，Lucky 脫下導盲鞍，就變成一隻普通的狗。牠到處跑、玩球，還睡在沙發上。「牠是我的眼睛，」王先生說，「也是我最好的朋友。」
+
+## 功夫熊貓守護餃子
+Po the panda is a kung fu master, but he is also a big eater. One night, he made two hundred dumplings for a party in the village. Before the guests came, a group of wolves [[ran|said|knew|thought]] into the kitchen. They wanted to [[take|spend|cost|pay]] all the dumplings away. "Stop!" Po shouted. He jumped in front of the table to [[protect|decide|agree|hope]] the food. The wolves [[looked|heard|spoke|told]] at him and laughed. "You're too fat to fight!" But Po moved fast. He kicked, he jumped, and he even used a pot as a shield. In five minutes, the wolves were all on the floor. "Sorry," they said. "We were just hungry." Po thought for a moment. Then he smiled and gave each of them a dumpling. "Next time, just ask," he said. Later that night, the wolves [[returned|spent|cost|lent]] to the party as guests, and they helped Po wash all the dishes.
+> 1 ran into the kitchen「跑進廚房」。said、knew、thought 都不是移動的動作，不能接 into the kitchen。
+> 2 take A away「把 A 拿走」，狼想把餃子全拿走。spend（花費）、cost（值…錢）、pay（付錢）都沒有 ___ A away 表示「拿走」的用法。
+> 3 protect the food「保護食物」，阿波跳到桌子前面擋住。decide（決定）、agree（同意）、hope（希望）都不能接 the food 表示「守護」。
+> 4 look at「看著」，狼看著他大笑。heard、spoke、told 都不能和 at him 連用表示「看著他」。
+> 5 return to + 地方「回到…」，狼後來以客人的身分回到派對。spent、cost、lent 都不能接 to the party 表示「回來」。
++ kung fu = 功夫
++ dumpling = 餃子
++ wolf = 狼（複數 wolves）
++ pot = 鍋子
++ shield = 盾牌
+= 熊貓阿波是功夫大師，也是個大胃王。一天晚上，他為村裡的派對包了兩百顆餃子。客人還沒來，一群狼就衝進了廚房，想把餃子全部拿走。「住手！」阿波大喊。他跳到桌子前面保護食物。狼看著他大笑：「你太胖了，根本打不了！」可是阿波動作很快。他又踢又跳，甚至拿鍋子當盾牌。五分鐘後，狼全倒在地上。「對不起，」牠們說，「我們只是肚子餓。」阿波想了一下，然後笑著給每隻狼一顆餃子。「下次直接說就好，」他說。那天晚上，狼群以客人的身分回到派對，還幫阿波把碗盤全洗乾淨。
+
+## 當班長的難題
+This semester, I became the class leader. At first, I thought it would be easy, but it wasn't. Every morning before class, I tried to make everyone [[stop|hope|plan|agree]] talking, but nobody listened to me. Some boys even kept [[running|spelling|borrowing|marrying]] around the classroom. I felt like giving up. Then our teacher told me, "You don't have to do everything alone. Give people jobs." So I asked Kevin, the noisiest boy in our class, to [[look|hear|listen|speak]] after the plants by the window. He was surprised, but he took the job seriously. He watered them every day and even stopped making so much noise. Soon, other students wanted jobs too. A month later, the classroom was [[quiet|thirsty|honest|polite]] every morning before class. I learned that being a leader isn't about giving orders. It's about [[bringing|spending|costing|paying]] people together.
+> 1 make + 人 + 原形動詞，stop + V-ing「停止…」，讓大家不要再講話。hope、plan、agree 後面要接 to V，不能接 talking。
+> 2 keep + V-ing「一直…」，一直在教室裡跑來跑去。spelling（拼字）、borrowing（借）、marrying（嫁娶）都不能接 around the classroom。
+> 3 look after「照顧」，請 Kevin 照顧窗邊的植物。hear、listen、speak 都沒有 ___ after 表示「照顧」的用法。
+> 4 quiet「安靜的」，上課前教室變安靜了。thirsty（口渴的）、honest（誠實的）、polite（有禮貌的）都不能形容教室。
+> 5 bring people together「讓大家團結在一起」，about 後面接 V-ing。spending、costing、paying 都不能接 people together。
++ class leader = 班長
++ give up = 放棄
++ seriously = 認真地
++ water = 澆水
++ order = 命令
+= 這學期我當上了班長。一開始我以為很簡單，但其實不然。每天早上上課前，我都想讓大家安靜下來，可是沒有人聽我的，有些男生甚至一直在教室裡跑來跑去。我真想放棄。後來老師對我說：「你不用什麼事都自己做，分配工作給大家吧。」所以我請班上最吵的男生 Kevin 照顧窗邊的植物。他很驚訝，但很認真地做這份工作。他每天澆水，甚至不再那麼吵了。不久，其他同學也想要工作。一個月後，每天早上上課前教室都很安靜。我學到了，當班長不是在發號施令，而是讓大家團結在一起。
+
+## 逾期兩週的圖書
+Last month, I borrowed three books from the city library. They were about space, and I loved them so much that I forgot to [[return|appear|smile|happen]] them on time. When I [[finally|cheaply|honestly|loudly]] took them back, they were two weeks late. The librarian [[looked|smelled|wore|heard]] at her computer and said, "That's sixty dollars, please." Sixty dollars! I only had forty dollars in my pocket. My face turned red. "I'm sorry. Can I pay the rest tomorrow?" I asked. The librarian smiled. "Sure. And next time, [[put|eat|drink|spell]] a sticker on your desk to remind yourself." The next day, I paid the rest of the money with my own pocket money. It was a good lesson. Now I always [[bring|spend|cost|lend]] my books back a day early, and I never have to pay again.
+> 1 return them「歸還它們」，忘了準時還書。appear（出現）、smile（微笑）、happen（發生）都是不及物動詞，後面不能接受詞 them。
+> 2 finally「終於」，拖了兩週終於拿去還。cheaply（便宜地）、honestly（誠實地）、loudly（大聲地）都不能表示拖了很久之後才做。
+> 3 look at「看著」，館員看著電腦。smelled（聞）、wore（穿戴）、heard（聽到）都不能和 at her computer 連用表示「看著」。
+> 4 put A on B「把 A 貼在 B 上」，在書桌上貼一張貼紙。eat（吃）、drink（喝）、spell（拼字）都不能接 a sticker on your desk。
+> 5 bring A back「把 A 帶回來（歸還）」。spend（花費）、cost（值…錢）、lend（借出）都沒有 ___ A back 表示「還回去」的用法。
++ librarian = 圖書館員
++ on time = 準時
++ rest = 剩下的部分
++ sticker = 貼紙
++ remind = 提醒
+= 上個月，我從市立圖書館借了三本書。那些書在講太空，我太喜歡了，結果忘了準時還。我終於拿去還的時候，已經晚了兩個星期。館員看著電腦說：「一共六十元。」六十元！我口袋裡只有四十元，臉都紅了。「對不起，剩下的可以明天再付嗎？」我問。館員笑著說：「當然可以。下次在書桌上貼一張貼紙提醒自己吧。」隔天，我用自己的零用錢付清了剩下的錢。這是很好的一課。現在我都會提早一天把書還回去，再也不用付錢了。
+
+## 颱風來之前
+The news said a strong typhoon was coming, so Dad asked me to help him get our balcony ready. First, we [[brought|spent|cost|paid]] all the flower pots inside. Then we [[put|ate|drank|wore]] tape on the big windows. Mom went to the supermarket to buy food and water. It was so crowded that she waited in line for forty minutes. That night, the wind was very strong. Trees were shaking outside, and the rain [[ran|grew|wrote|swam]] down the windows like a river. We heard a loud sound and [[looked|smelled|wore|heard]] outside. A trash can was flying down the street! In the morning, the rain stopped. We saw that a big tree in the park had fallen. But all our plants were safe in the living room. "Good thing we [[protected|decided|agreed|hoped]] our plants," Dad said. My little sister hugged her small cactus and said, "Thank you for saving him."
+> 1 bring A inside「把 A 搬進屋裡」。spent（花費）、cost（值…錢）、paid（付錢）都不能接 the flower pots inside。
+> 2 put A on B「把 A 貼在 B 上」，在窗戶貼膠帶。ate（吃）、drank（喝）、wore（穿戴）都不能接 tape on the windows。
+> 3 the rain ran down「雨水往下流」，run 可表示液體流動。grew（長大）、wrote（寫）、swam（游泳）都不能用雨水當主詞說「流下」。
+> 4 look outside「往外看」，聽到聲音往外看。smelled（聞）、wore（穿戴）、heard（聽到）放在 We heard a loud sound and ___ outside 裡都說不通。
+> 5 protected our plants「保護了我們的植物」，颱風前搬進屋內。decided（決定）、agreed（同意）、hoped（希望）都不能接 our plants 當受詞。
++ typhoon = 颱風
++ balcony = 陽台
++ flower pot = 花盆
++ tape = 膠帶
++ cactus = 仙人掌
+= 新聞說有強烈颱風要來，所以爸爸叫我幫他整理陽台。首先，我們把所有花盆搬進屋裡，接著在大窗戶上貼了膠帶。媽媽去超市買食物和水，人多到她排了四十分鐘的隊。那天晚上風好大，外面的樹搖來搖去，雨水像河一樣沿著窗戶流下來。我們聽到一聲巨響，往外一看，一個垃圾桶在街上飛！早上雨停了。我們看到公園裡有一棵大樹倒了，但我們的植物都安全地待在客廳裡。「還好我們有保護植物，」爸爸說。妹妹抱著她的小仙人掌說：「謝謝你們救了它。」
+
+## 公園長椅上的手機
+On my way home from school, I saw a phone on a bench in the park. Nobody was around. I [[looked|smelled|wrote|told]] around, but I couldn't find its owner. Just then, the phone rang. I answered it. A woman said, "Hello? That's my phone! I left it in the park an hour ago." She sounded very worried. "Please [[stop|hope|plan|agree]] worrying," I said. "I'll wait here for you." Twenty minutes later, a woman with a baby [[ran|told|learned|guessed]] into the park. "Thank you so much!" she said. "All my baby's photos are in this phone." She tried to give me five hundred dollars, but I said, "It doesn't [[matter|mind|hope|agree]]. I'm just happy to [[return|appear|smile|happen]] it to you." She thanked me again and again. When I got home, I told Mom the story. She gave me a big hug and said, "I'm proud of you."
+> 1 look around「四處看」。smelled（聞）、wrote（寫）、told（告訴）都不能接 around 表示「四處張望」。
+> 2 stop + V-ing「不要再…」，請她別擔心。hope、plan、agree 後面要接 to V，不能接 worrying。
+> 3 ran into the park「跑進公園」，她急著來拿手機。told、learned、guessed 都不是移動的動作，不能接 into the park。
+> 4 It doesn't matter.「沒關係、不用了」，婉拒她的錢。mind、hope、agree 都不能用 It 當主詞說「沒關係」。
+> 5 return A to B「把 A 還給 B」。appear（出現）、smile（微笑）、happen（發生）都是不及物動詞，不能接受詞 it。
++ bench = 長椅
++ owner = 主人
++ ring = （電話）響（過去式 rang）
+= 放學回家的路上，我看到公園長椅上有一支手機，四周都沒有人。我四處看了看，找不到它的主人。就在這時，手機響了，我接起來。一位女士說：「喂？那是我的手機！我一個小時前把它忘在公園了。」她聽起來很著急。「請別擔心，」我說，「我在這裡等您。」二十分鐘後，一位抱著寶寶的女士跑進公園。「真的太謝謝你了！」她說，「我寶寶所有的照片都在這支手機裡。」她想給我五百元，但我說：「不用了，能把手機還給您我就很開心了。」她一直向我道謝。回家後，我把這件事告訴媽媽，她給了我一個大大的擁抱，說：「我以你為榮。」
+
+## 開學第一天走錯教室
+It was my first day of junior high school. The school was big, and I got lost. When the bell rang, I [[ran|told|knew|guessed]] into the nearest classroom and sat down. The students all [[looked|smelled|wrote|heard]] at me strangely. Then a tall teacher walked in and said, "Good morning, ninth graders!" Ninth graders? I was in seventh grade! My face turned red. I wanted to say something, but I was too nervous, so I said [[nothing|anything|ever|either]]. When the teacher started the roll call, she didn't find my name on her list. She [[stopped|spelled|borrowed|married]] and asked, "Who are you?" Everyone laughed, and I wanted to hide under the desk. But the teacher was kind. She [[took|spent|paid|lent]] me to my real classroom herself. Now I'm in ninth grade, and every year, I tell this story to the new students on their first day.
+> 1 ran into the classroom「跑進教室」，鐘響了趕快進去。told、knew、guessed 都不是移動的動作，不能接 into the nearest classroom。
+> 2 look at「看著」，大家用奇怪的眼神看我。smelled（聞）、wrote（寫）、heard（聽到）都不能和 at me strangely 連用。
+> 3 said nothing「什麼也沒說」。anything 不能用在肯定句 I said 後面；ever（曾經）、either（也不）都不能當 said 的受詞。
+> 4 stopped and asked「停下來問」，老師點名找不到我的名字。spelled（拼字）、borrowed（借）、married（嫁娶）放在這裡都說不通。
+> 5 take 人 to + 地方「帶某人去…」。spent（花費）、paid（付錢）、lent（借出）都不能表示「帶我去教室」。
++ junior high school = 國中
++ ninth grader = 九年級生
++ nervous = 緊張的
++ roll call = 點名
++ hide = 躲藏
+= 那是我國中開學的第一天。學校好大，我迷路了。鐘一響，我就跑進最近的一間教室坐下。全班同學都用奇怪的眼神看著我。接著一位高高的老師走進來說：「九年級的同學早安！」九年級？我是七年級耶！我的臉都紅了。我想說點什麼，可是太緊張了，所以什麼也沒說。老師開始點名，在名單上找不到我的名字。她停下來問：「你是誰？」大家都笑了，我好想躲到桌子底下。不過老師很親切，她親自帶我去我真正的教室。現在我已經九年級了，每年開學第一天，我都會把這個故事講給新生聽。
+
+## 爸爸的早餐店
+My dad [[runs|tells|knows|guesses]] a small breakfast shop near our school. He gets up at four every morning to make sandwiches and egg pancakes. On weekends, I help him. My job is to [[take|spend|cost|lend]] orders from the customers. At seven, the shop is so [[crowded|honest|polite|thirsty]] that I have no time to sit down. One Saturday, a little boy came in alone. He [[looked|smelled|wrote|told]] sad and stood at the door for a long time. "What's the [[matter|brand|talent|semester]]?" I asked. He said he had lost his money on the way. Dad heard this and gave him a free egg pancake. "You can pay me next time," he said. The next day, the boy came back with forty dollars and a drawing of Dad in his apron. Dad put the drawing on the wall, and it's still there today. Dad says it's the best thing in his shop.
+> 1 run a shop「經營一家店」，run 在這裡是「經營」。tells（告訴）、knows（知道）、guesses（猜）都不能表示「開店、經營」。
+> 2 take orders「點餐、接受點單」。spend（花費）、cost（值…錢）、lend（借出）都不能接 orders from the customers。
+> 3 so crowded that…「擠到沒時間坐」。honest（誠實的）、polite（有禮貌的）、thirsty（口渴的）都不能形容店裡人很多。
+> 4 look + 形容詞「看起來…」，他看起來很難過。smelled（聞起來）不能形容心情；wrote、told 後面都不能直接接形容詞 sad。
+> 5 What's the matter?「怎麼了？」。brand（品牌）、talent（才能）、semester（學期）都問不出「發生什麼事」。
++ egg pancake = 蛋餅
++ order = 點餐
++ customer = 顧客
++ drawing = 圖畫
++ apron = 圍裙
+= 我爸爸在我們學校附近開了一家小早餐店。他每天早上四點起床做三明治和蛋餅。週末我會去幫忙，我的工作是幫客人點餐。七點的時候，店裡擠到我連坐下的時間都沒有。有一個星期六，一個小男孩自己走進來。他看起來很難過，在門口站了很久。「怎麼了？」我問。他說他的錢在路上弄丟了。爸爸聽到了，就送他一份蛋餅。「下次再付就好，」他說。隔天，男孩帶著四十元回來，還有一張畫，畫的是穿著圍裙的爸爸。爸爸把那張畫貼在牆上，到今天都還在。爸爸說那是他店裡最棒的東西。
+
+## 把垃圾帶下山
+Last weekend, our class went hiking on Yangmingshan. Before we started, our teacher said, "Remember, whatever you [[bring|spend|cost|lend]] up the mountain, you must carry down." The road was steep, and it [[took|spent|paid|lent]] us three hours to reach the top. The view was beautiful, but we were surprised to see plastic bottles and snack bags on the ground. "Let's [[put|eat|drink|spell]] them in our bags," said Amy. Everyone agreed. We spent thirty minutes picking up trash. On the way down, a man [[stopped|spelled|wrote|guessed]] us and asked, "Why are you carrying so much trash?" "We want to [[protect|decide|agree|hope]] the mountain," we answered. He smiled and gave us a thumbs-up. Then he took a bag out of his backpack and started picking up trash too. Our teacher said that was the best lesson of the whole trip.
+> 1 bring A up the mountain「把 A 帶上山」。spend（花費）、cost（值…錢）、lend（借出）都不能接 up the mountain 表示「帶上山」。
+> 2 It takes + 人 + 時間 + to V「某人做…花了多少時間」。spent 要用人當主詞（We spent three hours…）；paid、lent 都不能表示花時間。
+> 3 put A in B「把 A 放進 B」，把垃圾放進背包。eat（吃）、drink（喝）、spell（拼字）都不能接 them in our bags。
+> 4 stop + 人「叫住某人、攔住某人」。spelled（拼字）、wrote（寫）、guessed（猜）都不能接 us 表示「叫住我們」。
+> 5 protect the mountain「保護山林」。decide（決定）、agree（同意）、hope（希望）都不能接 the mountain 當受詞。
++ Yangmingshan = 陽明山
++ steep = 陡峭的
++ view = 景色
++ plastic = 塑膠的
++ thumbs-up = 比讚
+= 上週末，我們班去爬陽明山。出發前，老師說：「記住，帶什麼上山，就要帶什麼下山。」山路很陡，我們花了三個小時才爬到山頂。風景很美，但我們很驚訝地看到地上有寶特瓶和零食袋。「我們把它們放進背包吧，」Amy 說。大家都同意了，我們花了三十分鐘撿垃圾。下山時，一位先生叫住我們問：「你們為什麼背這麼多垃圾？」「我們想保護這座山，」我們回答。他笑著對我們比讚，接著從背包裡拿出一個袋子，也開始撿垃圾。老師說那是這趟旅行最棒的一課。
+
+## 球場上扭傷之後
+Jason loves basketball more than anything. In a game last month, he jumped for the ball and landed on someone's foot. He fell down and couldn't stand up. His teammates [[ran|told|knew|guessed]] over to help him. The doctor said his ankle was badly hurt, and he had to [[stop|hope|plan|agree]] playing for six weeks. Jason was very sad, but he didn't just stay at home. He went to every practice and sat on the bench. He [[looked|smelled|wore|heard]] carefully at how the other players moved and took notes in a small book. He learned a lot about the game this way. Six weeks later, he [[returned|spelled|borrowed|guessed]] to the team. To everyone's surprise, he played better than before. Now he always wears a brace to [[protect|decide|agree|hope]] his ankle. "Getting hurt taught me to use my eyes and my head, not just my legs," he says.
+> 1 ran over「跑過來」，隊友跑過去幫他。told、knew、guessed 都不是移動的動作，不能接 over to help him。
+> 2 stop + V-ing「停止…」，六週不能打球。hope、plan、agree 後面要接 to V，不能接 playing。
+> 3 look at「看著、觀察」，仔細看其他球員怎麼移動。smelled（聞）、wore（穿戴）、heard（聽到）都不能和 at how… 連用表示「觀察」。
+> 4 return to + 地方／團體「回到…」，他歸隊了。spelled（拼字）、borrowed（借）、guessed（猜）都不能接 to the team 表示「回到」。
+> 5 protect his ankle「保護他的腳踝」。decide（決定）、agree（同意）、hope（希望）都不能接 his ankle 當受詞。
++ land = 落地
++ teammate = 隊友
++ ankle = 腳踝
++ bench = 板凳（球員席）
++ brace = 護具
+= Jason 最愛打籃球了。上個月的一場比賽中，他跳起來搶球，落地時踩到別人的腳。他跌倒了，站不起來，隊友們都跑過去幫他。醫生說他的腳踝傷得很重，六個星期不能打球。Jason 很難過，但他沒有只待在家裡。他每次練球都到場，坐在板凳上。他仔細觀察其他球員怎麼移動，把筆記寫在一本小本子裡。他就這樣學到了很多關於籃球的事。六個星期後，他歸隊了。讓大家驚訝的是，他打得比以前更好。現在他總是戴著護具保護腳踝。「受傷讓我學會用眼睛和頭腦打球，而不只是用腿，」他說。
