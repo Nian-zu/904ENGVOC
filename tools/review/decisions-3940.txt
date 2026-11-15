@@ -37,3 +37,6 @@ d968d69517|sell
 dcc9ff0c6a|player,plate,fight,lion,noon,moon,spoon
 253ae1cac8|land
 dd19a0919b|main,light,mad
+55b610d6c6|place
+9efa251dfe|boring,terrible,helpful,direct
+14a09a9c9e|situation

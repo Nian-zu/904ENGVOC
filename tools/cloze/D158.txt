@@ -239,3 +239,122 @@ My best friend Amy moved to Australia last month. Living in a [[foreign|afraid|r
 + kangaroo = 袋鼠
 + snack = 點心
 = 我最好的朋友 Amy 上個月搬去澳洲了。住在國外是她爸爸多年來的夢想。她離開前，我幫她把書裝進箱子裡。我們看著舊照片大笑，也哭了一下。現在，教室裡我旁邊的座位空了。少了她，感覺好奇怪，沒有人會被我的笑話逗笑，午餐時也沒有人跟我分零食。不過昨天，我收到她寄來的信。裡面有一張 Amy 和袋鼠的合照，還有一張短短的紙條：「我好想你！明年夏天來找我玩！」我把照片放在書桌上。現在我正在存錢買機票，等不及要再見到她了。
+
+## 高鐵上坐錯車廂的奶奶
+Last Saturday, Dad and I took the High Speed Rail to Kaohsiung. When we found our car, an old woman was sitting in my [[seat|note|rest|pack]]. She was reading a map written in a [[foreign|afraid|ready|hungry]] language. I showed her my ticket, and she showed me hers. Dad looked at both tickets and laughed. "The problem is [[simple|afraid|hungry|dirty]]. She is in the wrong car. Her seat is in Car 5, and this is Car 7." But the woman looked tired, and her bag was very heavy. Dad said, "Let her [[rest|pack|note|seat]] here. We can sit in her places." So we walked to Car 5. When we arrived in Kaohsiung, the woman found us on the platform. She gave us two pineapple cakes and said in Chinese, "Thank you. Taiwan is my [[favorite|afraid|ready|dirty]] place."
+> 1 my seat「我的座位」：一位奶奶坐在我的位子上。note、rest、pack 都不能讓人「坐在裡面」。
+> 2 a foreign language「外語」：她在看外文地圖。afraid 不能放在名詞前；ready、hungry 不能形容語言。
+> 3 The problem is simple.「問題很簡單」：她只是坐錯車廂。afraid、hungry、dirty 都不能形容問題。
+> 4 let + 人 + 原形動詞：let her rest「讓她休息」。pack、note、seat 放在這裡意思不通。
+> 5 my favorite place「我最喜歡的地方」。afraid 不能放在名詞前；ready、dirty 不能用來稱讚台灣。
++ High Speed Rail = 高鐵
++ platform = 月台
++ pineapple cake = 鳳梨酥
+= 上星期六，爸爸和我搭高鐵去高雄。我們找到車廂時，一位老奶奶正坐在我的位子上。她在看一張用外文寫的地圖。我把車票給她看，她也拿出她的票。爸爸看了兩張票後笑了。「問題很簡單，她坐錯車廂了。她的位子在 5 車，這裡是 7 車。」但奶奶看起來很累，袋子又很重。爸爸說：「讓她在這裡休息吧，我們去坐她的位子。」於是我們走到 5 車。到了高雄，奶奶在月台上找到我們，送給我們兩塊鳳梨酥，用中文說：「謝謝你們。台灣是我最喜歡的地方。」
+
+## 過年前的大掃除
+Before Chinese New Year, my family always has a big cleaning day. This year, my job was to clean my own room. It was very [[dirty|favorite|foreign|ready]]. Under the bed, I found old socks, candy papers, and a [[strange|afraid|ready|national]] green thing. I think it was once a piece of bread! Mom came in and said, "Let's keep it [[simple|afraid|hungry|foreign]]. If you haven't used something for a year, give it away." So I [[packed|rested|seated|noted]] my old toys and clothes into three boxes for the children's home. But I kept one teddy bear. It was my [[favorite|afraid|ready|hungry]] toy when I was little, and I still hug it when I'm sad. After six hours, my room was clean and bright. I lay on my bed and smiled. It felt like a new room.
+> 1 very dirty「很髒」：所以需要大掃除。favorite、foreign、ready 都不能說明房間的狀況。
+> 2 a strange green thing「一個奇怪的綠色東西」（發霉的麵包）。afraid 不能放在名詞前；ready、national 都不能形容這個東西。
+> 3 keep it simple「保持簡單」：一年沒用的東西就送人。afraid、hungry、foreign 都不能說明整理的原則。
+> 4 pack + 物 + into…「把…裝進…」：把舊玩具和衣服裝進三個箱子。rested、seated、noted 都不能這樣用。
+> 5 my favorite toy「我最喜歡的玩具」，所以留下來。afraid 不能放在名詞前；ready、hungry 不能形容玩具。
++ children's home = 育幼院
++ teddy bear = 泰迪熊
+= 過年前，我們家每年都會大掃除。今年我的工作是打掃自己的房間。房間非常髒。我在床底下找到舊襪子、糖果紙，還有一個奇怪的綠色東西——我想它以前應該是一塊麵包！媽媽走進來說：「我們簡單一點，如果一樣東西你一年都沒用過，就送人吧。」於是我把舊玩具和衣服裝成三箱，要送給育幼院。但我留下了一隻泰迪熊，那是我小時候最喜歡的玩具，我難過的時候還是會抱著它。六個小時後，我的房間又乾淨又明亮。我躺在床上笑了，感覺像是一間全新的房間。
+
+## 怪怪的科學老師
+Our science teacher, Mr. Ho, is a little [[strange|favorite|ready|national]]. He wears a white lab coat every day, even on Sports Day. He also talks to the plants in our classroom and gives each of them a name. But he is everyone's [[favorite|afraid|ready|dirty]] teacher. Why? He can make hard ideas [[simple|afraid|dirty|hungry]]. For example, he used a balloon and a bottle to show us how air works. He never asks us to copy [[notes|seats|rests|packs]] from the board. Instead, we do experiments in every class. Before each experiment, he puts on his big glasses and asks, "Are you [[ready|favorite|dirty|simple]]?" And we all shout, "Yes, Mr. Ho!" Last week, he even made ice cream with us in science class. It was the best lesson of the year.
+> 1 a little strange「有點奇怪」：後面舉了他的怪習慣。favorite、ready、national 都不能說明穿實驗衣、跟植物說話這些事。
+> 2 everyone's favorite teacher「大家最喜歡的老師」。afraid 不能放在名詞前；ready、dirty 不能形容老師。
+> 3 make + 物 + 形容詞：make hard ideas simple「把難的概念變簡單」。afraid、dirty、hungry 都不能形容概念。
+> 4 copy notes「抄筆記」：他不叫我們抄黑板上的筆記。seats、rests、packs 都不能「抄」。
+> 5 Are you ready?「準備好了嗎？」。favorite、dirty、simple 都不能用來問學生要不要開始實驗。
++ lab coat = 實驗衣
++ balloon = 氣球
++ experiment = 實驗
+= 我們的自然老師何老師有點奇怪。他每天都穿白色的實驗衣，連運動會那天也一樣。他還會跟教室裡的植物說話，幫每一盆取名字。但他是大家最喜歡的老師。為什麼呢？他能把很難的概念變簡單。例如，他用一顆氣球和一個瓶子讓我們了解空氣怎麼運作。他從來不叫我們抄黑板上的筆記，而是每堂課都做實驗。每次實驗前，他都會戴上大眼鏡問：「準備好了嗎？」我們全班就大喊：「準備好了，何老師！」上週，他甚至在自然課上和我們一起做冰淇淋。那是今年最棒的一堂課。
+
+## 跳蚤市場賣舊玩具
+Last Sunday, there was a flea market at our school. I [[packed|rested|noted|seated]] my old toys and comic books into a big box and took it there. Some of the toys were old and [[dirty|favorite|ready|afraid]], so I cleaned them the night before. My price plan was [[simple|afraid|hungry|foreign]]: everything was ten dollars. A tall boy from a [[foreign|afraid|ready|hungry]] country bought my robot and said "Xie xie" with a big smile. Then a little girl looked at my box for a long time. She only had five dollars. I gave her my old rabbit for free, and she hugged it tightly. Her smile was the best thing I got that day. At the end of the day, I sat down to [[rest|pack|note|seat]] and counted my money: 260 dollars!
+> 1 pack + 物 + into…「把…裝進…」：把舊玩具和漫畫裝進大箱子。rested、noted、seated 都不能這樣用。
+> 2 old and dirty「又舊又髒」，所以前一晚先清乾淨。favorite、ready、afraid 都不能說明為什麼要清洗。
+> 3 My plan was simple.「我的計畫很簡單」：全部十元。afraid、hungry、foreign 都不能形容價格計畫。
+> 4 a foreign country「外國」：一個外國男孩用中文說謝謝。afraid 不能放在名詞前；ready、hungry 不能形容國家。
+> 5 sit down to rest「坐下來休息」。to pack、to note、to seat 後面都少了受詞，語意也不通。
++ flea market = 跳蚤市場
++ comic book = 漫畫書
++ robot = 機器人
+= 上星期天，我們學校舉辦跳蚤市場。我把舊玩具和漫畫書裝進一個大箱子帶去。有些玩具又舊又髒，所以我前一天晚上先把它們清乾淨。我的價錢計畫很簡單：全部十元。一個從外國來的高個子男孩買了我的機器人，還笑著用中文說「謝謝」。接著，一個小女孩盯著我的箱子看了很久，她身上只有五塊錢。我把舊兔子玩偶免費送給她，她緊緊地抱著它。她的笑容是我那天得到最好的東西。一天結束時，我坐下來休息，數了數錢：兩百六十元！
+
+## 蜘蛛人的懶惰星期天
+Spider-Man works hard every day. He catches thieves and saves people all over New York. But even a hero needs to [[rest|pack|note|seat]] sometimes. So one Sunday, Peter Parker decided to stay home. He made his [[favorite|afraid|ready|dirty]] breakfast: pancakes with lots of honey. Then he sat on the sofa and turned on the TV. His plan for the day was [[simple|afraid|hungry|dirty]]: do nothing at all! But at noon, he heard a [[strange|national|ready|afraid]] sound outside his window. It was a little cat crying on the top of a tall building. Peter sighed and put down his pancakes. He put on his red and blue suit. "A hero is always [[ready|favorite|dirty|simple]]," he said, and he jumped out the window. Ten minutes later, he came back with the cat. Now he has a new friend.
+> 1 need to rest「需要休息」：英雄有時也需要休息。pack、note、seat 都不能單獨表示休息。
+> 2 his favorite breakfast「他最喜歡的早餐」。afraid 不能放在名詞前；ready、dirty 不能形容早餐。
+> 3 His plan was simple.「他的計畫很簡單」：什麼都不做！afraid、hungry、dirty 都不能形容計畫。
+> 4 a strange sound「奇怪的聲音」：窗外傳來怪聲。national 不能形容聲音；ready 也不通；afraid 不能放在名詞前。
+> 5 always ready「隨時準備好」：英雄隨時待命。favorite、dirty、simple 都不能說明英雄的精神。
++ Spider-Man = 蜘蛛人
++ thief = 小偷（複數 thieves）
++ pancake = 鬆餅
++ sigh = 嘆氣
+= 蜘蛛人每天都很努力工作，他在紐約到處抓小偷、救人。但就算是英雄，有時候也需要休息。所以某個星期天，彼得·帕克決定待在家。他做了他最喜歡的早餐：淋滿蜂蜜的鬆餅。接著他坐在沙發上打開電視。他今天的計畫很簡單：什麼事都不做！但到了中午，他聽到窗外有奇怪的聲音。原來是一隻小貓在一棟高樓頂上哭叫。彼得嘆了口氣，放下鬆餅，穿上紅藍色的戰衣。「英雄隨時都要準備好。」他說完就從窗戶跳了出去。十分鐘後，他帶著那隻貓回來了。現在他有了一個新朋友。
+
+## 看不懂的西班牙菜單
+For Mom's birthday, we went to a Spanish restaurant. The menu was in a [[foreign|afraid|ready|hungry]] language, and there were no pictures. Dad pointed at a dish with a [[strange|national|ready|afraid]] name and ordered it. When it came, it was a big pan of black rice! We were all surprised. The waiter said the rice was cooked with squid ink. It looked [[dirty|favorite|ready|afraid]], but it tasted great. Mom ordered a [[simple|afraid|hungry|dirty]] salad with tomatoes and olive oil, and she said it was the best salad she had ever had. At the end of dinner, the waiter brought out a small cake and a [[note|seat|rest|pack]] that said "Happy Birthday" in Spanish. Mom smiled and said, "This is my best birthday. Next year, let's try another strange dish."
+> 1 a foreign language「外語」：菜單是外文，看不懂。afraid 不能放在名詞前；ready、hungry 不能形容語言。
+> 2 a strange name「奇怪的名字」。national 不能形容菜名；ready 也不通；afraid 不能放在名詞前。
+> 3 look dirty「看起來髒髒的」：黑色的飯看起來髒，但很好吃（but 前後相反）。favorite、ready、afraid 都不能和 tasted great 形成對比。
+> 4 a simple salad「簡單的沙拉」：只有番茄和橄欖油。afraid 不能放在名詞前；hungry、dirty 不能形容點的沙拉。
+> 5 a note「一張卡片、紙條」：上面寫著生日快樂。seat、rest、pack 都不能「寫字」。
++ Spanish = 西班牙的；西班牙文
++ squid ink = 墨魚汁
++ olive oil = 橄欖油
+= 媽媽生日那天，我們去一家西班牙餐廳。菜單是外文寫的，而且沒有圖片。爸爸指著一道名字很奇怪的菜點了它。菜送上來時，竟然是一大鍋黑色的飯！我們都嚇了一跳。服務生說這是用墨魚汁煮的飯。它看起來髒髒的，但吃起來好好吃。媽媽點了一份簡單的沙拉，只有番茄和橄欖油，她說那是她吃過最好吃的沙拉。晚餐最後，服務生端出一個小蛋糕，還有一張用西班牙文寫著「生日快樂」的卡片。媽媽笑著說：「這是我最棒的一個生日。明年我們再來試試另一道奇怪的菜吧。」
+
+## 板凳球員的機會
+I'm on my school's soccer team, but I usually sit on the bench. I always tell Coach that I'm [[ready|favorite|dirty|simple]] to play, but he never calls my name. Last Friday, our best player hurt his foot in the second half. Coach looked at me. "Your turn," he said. I ran onto the field. The grass was wet, and soon my shirt was [[dirty|favorite|foreign|ready]]. Near the end of the game, I got the ball in front of the goal. I didn't try anything special. I did a [[simple|afraid|hungry|foreign]] thing: I passed it to my friend, and he scored! We won 2 to 1. After the game, Coach patted my back. "Good job. Now go home and [[rest|pack|note|seat]]." On the bus, my teammates gave me the best [[seat|note|rest|pack]], next to the window.
+> 1 be ready to + V「準備好做…」：我總說我準備好上場了。favorite、dirty、simple 都不能接 to play。
+> 2 dirty「髒的」：草地濕濕的，衣服很快就髒了。favorite、foreign、ready 都不能說明草地造成的結果。
+> 3 a simple thing「一件簡單的事」：沒有特別花招，只是傳球。afraid 不能放在名詞前；hungry、foreign 不能形容動作。
+> 4 go home and rest「回家休息」。pack、note、seat 都不能單獨表示休息。
+> 5 the best seat「最好的座位」：靠窗的位子。note、rest、pack 都不能在公車上讓人坐。
++ bench = 板凳
++ field = 球場
++ pat = 輕拍
+= 我是學校足球隊的一員，但我通常都坐在板凳上。我總是跟教練說我準備好上場了，但他從來沒叫過我的名字。上星期五，我們最強的球員在下半場傷到了腳。教練看著我說：「換你了。」我跑上球場。草地濕濕的，我的球衣很快就髒了。比賽快結束時，我在球門前拿到球。我沒有耍什麼花招，只做了一件簡單的事：把球傳給我朋友，他就進球了！我們二比一贏了。比賽結束後，教練拍拍我的背：「做得好，現在回家休息吧。」在回程的車上，隊友們把最好的座位讓給我，就在窗戶旁邊。
+
+## 便當裡的紙條
+Every morning, my mom [[packs|rests|notes|seats]] my lunch box before she goes to work. Last Monday, I got up late and forgot to take it. At lunchtime, I was so hungry that I couldn't think. Then I saw Mom at the classroom door with my lunch box in her hand. "I knew you would forget," she said with a smile. Inside, there was rice, chicken, and my [[favorite|afraid|ready|dirty]] vegetable, corn. There was also a small [[note|seat|rest|pack]]: "Eat slowly. Love, Mom." My friends looked at my lunch and said, "It looks [[simple|afraid|national|hungry]], but it smells great!" That evening, I wrote a note to Mom, too. It said, "Thank you. Tomorrow I will be [[ready|favorite|dirty|simple]] on time." I put it on her pillow.
+> 1 pack a lunch box「準備便當」：媽媽每天早上幫我裝便當。rests、notes、seats 接 my lunch box 都不通。
+> 2 my favorite vegetable「我最喜歡的蔬菜」。afraid 不能放在名詞前；ready、dirty 不能形容蔬菜。
+> 3 a small note「一張小紙條」，冒號後面是內容。seat、rest、pack 都不能「寫字」。
+> 4 look simple「看起來很簡單」：看起來簡單但聞起來很香。afraid、national、hungry 都不能形容便當的樣子。
+> 5 be ready on time「準時準備好」：明天我會準時出門。favorite、dirty、simple 都不通。
++ lunch box = 便當盒
++ pillow = 枕頭
+= 每天早上，媽媽上班前都會幫我裝好便當。上星期一，我睡過頭，忘了帶便當。到了午餐時間，我餓到沒辦法思考。這時我看到媽媽站在教室門口，手上拿著我的便當。「我就知道你會忘記。」她笑著說。便當裡有白飯、雞肉，還有我最喜歡的蔬菜——玉米。裡面還有一張小紙條：「慢慢吃。愛你的媽媽。」同學們看著我的便當說：「看起來很簡單，但聞起來好香！」那天晚上，我也寫了一張紙條給媽媽，上面寫著：「謝謝你。明天我會準時準備好。」我把它放在她的枕頭上。
+
+## 搶爸爸椅子的貓
+Our cat, Mochi, has a [[favorite|afraid|ready|dirty]] place in our house: Dad's big brown chair. Every evening, when Dad wants to sit down and [[rest|pack|note|seat]], Mochi is already there. Dad tried everything. First, he put a soft pillow on the [[seat|note|rest|pack]] next to his chair. Mochi just slept on Dad's chair. Then he bought Mochi a new cat bed. Mochi didn't even look at it. Finally, Dad had a [[simple|afraid|hungry|foreign]] idea. He put his old [[dirty|ready|afraid|hungry]] T-shirt in the cat bed. It smelled like Dad after a long day. That night, Mochi walked straight to the bed and fell asleep! Dad sat in his chair with a happy smile. "Sometimes the answer is easy," he said. Mochi didn't open her eyes.
+> 1 a favorite place「最喜歡的地方」：貓最愛爸爸的椅子。afraid 不能放在名詞前；ready、dirty 不能形容地方。
+> 2 sit down and rest「坐下來休息」。pack、note、seat 都不能單獨表示休息。
+> 3 the seat next to his chair「他椅子旁邊的座位」：在旁邊的座位放軟墊引貓過去。note、rest、pack 都不能放墊子讓貓睡。
+> 4 a simple idea「一個簡單的點子」，後面也說 the answer is easy。afraid 不能放在名詞前；hungry、foreign 不能形容點子。
+> 5 old dirty T-shirt「穿過的舊髒 T 恤」：上面有爸爸的味道。ready、hungry 不能形容衣服；afraid 不能放在名詞前。
++ Mochi = 麻糬（貓的名字）
++ pillow = 枕頭、墊子
+= 我們家的貓麻糬在家裡有一個最喜歡的地方：爸爸那張棕色的大椅子。每天傍晚，爸爸想坐下來休息時，麻糬早就在那裡了。爸爸什麼方法都試過。首先，他在自己椅子旁邊的座位放了一個軟墊，結果麻糬還是睡在爸爸的椅子上。接著他幫麻糬買了一張新的貓床，麻糬連看都不看一眼。最後，爸爸想到一個簡單的點子：他把自己穿過的舊 T 恤放進貓床裡，上面有爸爸忙了一整天的味道。那天晚上，麻糬直接走到貓床上睡著了！爸爸坐在他的椅子上，開心地笑了。「有時候答案很簡單。」他說。麻糬連眼睛都沒睜開。
+
+## 畢業旅行的遊覽車
+Our class took a bus to Taichung for our graduation trip. Everyone ran to the bus because they wanted the back [[seats|notes|rests|packs]]. I had [[packed|rested|noted|seated]] snacks, cards, and a small speaker in my bag the night before. When the bus started, our teacher stood up and asked, "Are you [[ready|favorite|dirty|simple]]? Let's sing!" Our class leader played songs by a [[foreign|afraid|ready|hungry]] band, and everyone sang loudly, even the driver. But halfway there, the bus made a [[strange|national|afraid|ready]] noise and stopped on the side of the road. Everyone was quiet. The driver got out and checked the engine. After twenty minutes, it worked again, and we all cheered. That day, we learned that the trip is as much fun as the place.
+> 1 the back seats「後排座位」：大家都搶後面的位子。notes、rests、packs 都不能讓人搶著坐。
+> 2 pack + 物 + in…「把…裝進…」：前一晚把零食、撲克牌和喇叭裝進包包。rested、noted、seated 都不能這樣用。
+> 3 Are you ready?「準備好了嗎？」。favorite、dirty、simple 都不能用來問大家要不要開始唱歌。
+> 4 a foreign band「外國樂團」。afraid 不能放在名詞前；ready、hungry 不能形容樂團。
+> 5 a strange noise「奇怪的聲音」：車子發出怪聲停下來。national 不能形容聲音；ready 也不通；afraid 不能放在名詞前。
++ graduation trip = 畢業旅行
++ speaker = 喇叭、音響
++ band = 樂團
++ engine = 引擎
+= 我們班搭遊覽車去台中畢業旅行。大家都衝向遊覽車，因為都想坐後排座位。我前一天晚上就把零食、撲克牌和一個小喇叭裝進了包包。車子出發時，老師站起來問：「準備好了嗎？我們來唱歌吧！」班長放了一個外國樂團的歌，大家都大聲跟著唱，連司機也一起唱。但開到一半，遊覽車發出奇怪的聲音，停在路邊。大家都安靜下來。司機下車檢查引擎，二十分鐘後，車子又能動了，我們全都歡呼起來。那天我們學到：旅途本身和目的地一樣好玩。
