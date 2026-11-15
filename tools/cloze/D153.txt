@@ -246,3 +246,132 @@ My little brother is six, and he just learned to write. For Mom's birthday, he w
 + crayon = 蠟筆
 + spell = 拼字
 = 我弟弟六歲，剛學會寫字。媽媽生日的時候，他想自己一個人做卡片，不要任何人幫忙。他拿著蠟筆在桌前坐了一個小時。做完的時候，卡片上只有一句話：「媽媽，妳是我最好的朋友。」有些字拼錯了，有些字母大、有些字母小。但媽媽讀完就哭了。她說那是她收過最好的卡片。後來我問弟弟為什麼只寫一句話。「因為我想說真心話，」他說，「那是我唯一真的想說的話。」媽媽把卡片放在她公司的辦公桌上，到今天都還放在那裡。
+
+## 天空為什麼是藍色的
+My little sister, Mia, always asks questions. Yesterday, she looked out of the window and asked, "Why is the sky blue?" I did not know the answer, so I could not [[explain|allow|fail|mix]] it to her. We went to ask Dad. He told us that sunlight is [[actually|ago|else|abroad]] made of many colors, like a rainbow. When sunlight [[enters|allows|fails|mixes]] the air, the blue light moves around the most, so we see blue everywhere in the sky. Mia listened carefully. Then she asked, "So why is the sky orange at sunset?" Dad laughed. "That's a [[different|honest|helpful|alone]] question for another day." That night, Mia asked Mom to buy her a science book. Now her new [[hobby|sentence|factory|distance]] is reading science books for kids, and she asks even more questions than before.
+> 1 explain + 物 + to + 人「向某人解釋…」：我不知道答案，沒辦法解釋給她聽。allow、fail、mix 都不能用「物 to 人」表示說明。
+> 2 actually「事實上」：陽光其實是由很多顏色組成的。ago、else、abroad 都不能放在 is 和 made 中間。
+> 3 enter「進入」：陽光進入空氣中。allows、fails、mixes 接 the air 都說不通。
+> 4 a different question「另一個不同的問題」：改天再說。honest、helpful 不能形容問題；alone 不能放在名詞前。
+> 5 hobby「嗜好、興趣」：她的新興趣是看科學書。sentence（句子）、factory（工廠）、distance（距離）都說不通。
++ sunlight = 陽光
++ rainbow = 彩虹
++ sunset = 日落
++ science = 科學
+= 我妹妹 Mia 總是有問不完的問題。昨天，她看著窗外問：「為什麼天空是藍色的？」我不知道答案，所以沒辦法解釋給她聽。我們去問爸爸。他告訴我們，陽光其實是由很多顏色組成的，就像彩虹一樣。當陽光進入空氣時，藍色的光散得最開，所以我們看到整片天空都是藍的。Mia 聽得很認真。然後她又問：「那為什麼日落時天空是橘色的？」爸爸笑了：「那是另一個問題，改天再說。」那天晚上，Mia 請媽媽買一本科學書給她。現在她的新嗜好是看兒童科學書，問的問題比以前還多。
+
+## 不准進泳池的鴨子
+One hot morning, a mother duck and her five babies walked into our community swimming pool. The guard blew his whistle. "Ducks are not [[allowed|explained|failed|mixed]] in the pool!" he shouted. But the ducks did not care. They swam in circles and [[actually|ago|else|abroad]] looked like they were having a great time. The guard tried to catch them with a big net, but he [[failed|mixed|allowed|explained]]. The ducks were too fast. All the kids laughed. Then a little girl had an idea. She put some bread on the ground [[outside|ago|else|seldom]] the pool. The ducks climbed out one by one to eat it. Then the girl slowly walked them to the pond in the park next door. Everyone clapped for her. The guard thanked her and said she was very [[helpful|alone|delicious|foreign]].
+> 1 be allowed「被允許」：鴨子不准進泳池。explained、failed、mixed 都不能用來說「准不准」。
+> 2 actually「真的、實際上」：鴨子看起來真的玩得很開心。ago、else、abroad 都不能放在 and 和 looked 中間。
+> 3 fail「失敗」：想用網子抓卻沒抓到，因為鴨子太快。mixed、allowed、explained 都需要受詞，不能單獨放在句尾。
+> 4 outside 當介系詞「在…外面」：把麵包放在泳池外。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）不能接名詞。
+> 5 helpful「幫了大忙的」：女孩把鴨子帶走了。alone 不能用 very 修飾；delicious（好吃的）、foreign（外國的）不能形容她的表現。
++ community = 社區
++ guard = 救生員、警衛
++ whistle = 哨子
++ net = 網子
+= 一個炎熱的早上，一隻鴨媽媽帶著她的五隻寶寶走進我們社區的游泳池。救生員吹了哨子。「鴨子不准進泳池！」他大喊。但鴨子們根本不在乎。牠們繞著圈圈游，看起來真的玩得很開心。救生員想用一張大網子抓牠們，但失敗了，鴨子游得太快了。所有小孩都笑了出來。這時，一個小女孩想到一個辦法。她把一些麵包放在泳池外面的地上。鴨子一隻接一隻爬出來吃麵包。然後女孩慢慢地把牠們帶到隔壁公園的池塘。大家都為她鼓掌。救生員謝謝她，說她幫了大忙。
+
+## 一直失敗的火山實驗
+For the science fair, Ben and I wanted to build a model volcano. The idea was simple: we [[mix|allow|fail|explain]] baking soda with vinegar, and red "lava" comes out of the top. The first time, we used too little baking soda, and nothing happened. We [[failed|mixed|allowed|explained]]. The second time, we used too much, and the lava went all over the table and the floor. Our teacher was not happy. The third time, we read the [[sentences|hobbies|factories|habits]] in the science book again, one by one. We measured everything carefully. This time, it worked perfectly! At the science fair, we [[explained|allowed|failed|mixed]] to the judges how the volcano worked. We didn't win first prize, but the judges said our project was very [[interesting|honest|alone|hungry]]. "Fail three times, learn three things," Ben said.
+> 1 mix A with B「把 A 和 B 混合」：小蘇打加醋。allow、fail、explain 都不能用 with 表示混合。
+> 2 fail「失敗」：小蘇打太少，什麼都沒發生。mixed、allowed、explained 都需要受詞，不能單獨放在句尾。
+> 3 read the sentences「讀句子」：把書上的句子一句一句再讀一次。hobbies（嗜好）、factories（工廠）、habits（習慣）都不能在書上一句一句讀。
+> 4 explain to + 人 + how…「向某人解釋…如何」：向評審解釋火山的原理。allowed、failed、mixed 都不能接 to the judges how…。
+> 5 interesting「有趣的」：評審說作品很有趣。project 不會 honest（誠實）或 hungry（餓）；alone 不能用 very 修飾。
++ science fair = 科展
++ volcano = 火山
++ baking soda = 小蘇打
++ vinegar = 醋
++ judge = 評審
+= 為了科展，我和 Ben 想做一座火山模型。原理很簡單：我們把小蘇打和醋混在一起，紅色的「岩漿」就會從頂端冒出來。第一次，我們小蘇打放太少，什麼事都沒發生，我們失敗了。第二次，我們放太多，岩漿流得整張桌子和地板都是，老師很不高興。第三次，我們把科學書上的句子一句一句重新讀了一遍，每樣東西都仔細測量。這次，實驗完美成功了！在科展上，我們向評審解釋火山是怎麼運作的。我們雖然沒得到第一名，但評審說我們的作品非常有趣。「失敗三次，就學到三件事。」Ben 說。
+
+## 爸爸的珍奶義大利麵
+My dad loves to cook, but his ideas are sometimes very strange. Last Sunday, he [[mixed|allowed|failed|explained]] bubble tea with spaghetti and called it "Bubble Pasta." My sister and I looked at each other. Nobody wanted to [[taste|allow|fail|explain]] it first. Finally, I took a small bite. To my surprise, it was [[actually|ago|else|abroad]] not bad! The sweet milk tea and the soft noodles went well together, and the tapioca balls were fun to chew. Dad was so happy that he wanted to sell it at the night market. But Mom did not [[allow|explain|fail|mix]] him to do it. She was [[honest|full|wet|dry]] with him: "It's not bad, but nobody will pay one hundred dollars for it." Dad was a little sad, but he still makes Bubble Pasta for us once a month.
+> 1 mix A with B「把 A 和 B 混在一起」：把珍奶和義大利麵混在一起。allowed、failed、explained 都不能用 with 表示混合。
+> 2 taste「品嚐」：沒人想先吃一口。allow、fail、explain 接 it（這道菜）都說不通。
+> 3 actually「其實、出乎意料地」：吃了才發現其實不難吃。ago、else、abroad 都不能放在 was 和 not bad 中間。
+> 4 allow + 人 + to + 原形動詞「允許某人做…」：媽媽不准爸爸去夜市賣。explain、fail、mix 都不能用「人 + to」的句型。
+> 5 be honest with + 人「對某人說實話」：媽媽老實跟爸爸說沒人會買。full、wet、dry 都不能接 with him 表示態度。
++ spaghetti = 義大利麵
++ pasta = 義大利麵（總稱）
++ tapioca ball = 珍珠（粉圓）
++ chew = 嚼
+= 我爸爸很愛煮菜，但他的點子有時候很奇怪。上星期天，他把珍珠奶茶和義大利麵混在一起，取名叫「珍奶義大利麵」。我和妹妹互看一眼，誰都不想先吃。最後，我吃了一小口。沒想到，其實還不錯吃！甜甜的奶茶和軟軟的麵條很搭，珍珠嚼起來也很有趣。爸爸開心到想去夜市賣這道菜。但媽媽不准他這麼做。她老實跟爸爸說：「是不難吃，但沒有人會花一百元買它。」爸爸有點難過，但他還是每個月會煮一次珍奶義大利麵給我們吃。
+
+## 多找的一百元
+Last week, I bought a notebook at a small shop near my school. It cost fifty dollars, and I gave the owner a one-hundred-dollar bill. But she gave me one hundred and fifty dollars back! She [[actually|ago|else|abroad]] thought I gave her two hundred. I did not notice until I got home. For a moment, I thought about keeping the money. Nobody would know. But my mom always says, "Be [[honest|full|wet|dry]], even when nobody is watching." So the next day, I went back to the shop and [[gave|allowed|failed|mixed]] her the money. The owner was very surprised. "Most kids would not come back," she said. To thank me, she [[allowed|explained|failed|mixed]] me to choose a free pen. I chose a blue one. Now every time I use it, I feel [[proud|delicious|expensive|foreign]] of myself.
+> 1 actually「其實、事實上」：老闆其實以為我給了兩百元。ago、else、abroad 都不能放在 She 和 thought 中間。
+> 2 Be honest「要誠實」：媽媽說沒人看到也要誠實。full、wet、dry 都不是做人的道理。
+> 3 give + 人 + 物「把某物給某人」：把錢還給老闆。allowed、failed、mixed 都不能用「人＋物」的句型。
+> 4 allow + 人 + to + 原形動詞「讓某人做…」：老闆讓我選一支免費的筆。explain、fail、mix 都不能用「人 + to」的句型。
+> 5 feel proud of oneself「以自己為榮」。delicious、expensive、foreign 都不能形容人的感覺，也不能接 of myself。
++ notebook = 筆記本
++ bill = 鈔票
++ notice = 注意到
+= 上星期，我在學校附近的一家小店買了一本筆記本。它賣五十元，我給了老闆一張一百元鈔票。但她找了我一百五十元！她其實以為我給她的是兩百元。我一直到回家才發現。有那麼一下子，我想把錢留下來，反正沒人會知道。但我媽媽總是說：「就算沒有人在看，也要誠實。」所以隔天，我回到那家店，把錢還給老闆。老闆非常驚訝。「大部分的小孩都不會回來。」她說。為了謝謝我，她讓我選一支免費的筆。我選了一支藍色的。現在每次用它，我都覺得以自己為榮。
+
+## 隔壁的張爺爺
+Mr. Chang next door is eighty-two years old. His children all live [[abroad|ago|else|either]], so he lives [[alone|honest|helpful|full]] in a small apartment. Every morning, he takes a walk in the park. In the afternoon, he grows vegetables on his balcony. That is his favorite [[hobby|sentence|factory|distance]]. Last winter, he got sick, and nobody knew for two days. Since then, my mom has asked me to visit him after school. At first, I did not want to go. But Mr. Chang is [[actually|ago|else|abroad]] very funny. He tells me stories about Taiwan sixty years ago, when there were no phones or computers. He also [[explains|allows|fails|mixes]] old Taiwanese words to me. Sometimes he gives me tomatoes from his balcony to take home. Now I visit him every day, and I think we are both happier.
+> 1 live abroad「住在國外」：孩子都在國外。ago 要接在時間後面；else 要接在 something 等字後面；either 用在否定句句尾表示「也」。
+> 2 live alone「獨自生活」。honest、helpful、full 都不能說明居住的狀態。
+> 3 favorite hobby「最喜歡的嗜好」：在陽台種菜。sentence（句子）、factory（工廠）、distance（距離）都說不通。
+> 4 actually「其實」：一開始不想去，但張爺爺其實很有趣，前後有轉折。ago、else、abroad 都不能放在 is 和 very funny 中間。
+> 5 explain + 物 + to + 人「向某人解釋…」：教我老台語的意思。allows、fails、mixes 都不能這樣用。
++ apartment = 公寓
++ balcony = 陽台
++ Taiwanese = 台語
++ tomato = 番茄
+= 隔壁的張爺爺八十二歲了。他的孩子都住在國外，所以他一個人住在一間小公寓裡。每天早上，他都會去公園散步。下午，他就在陽台上種菜，那是他最喜歡的嗜好。去年冬天，他生病了，兩天都沒有人知道。從那以後，媽媽就要我放學後去看看他。一開始我不太想去，但張爺爺其實很有趣。他會跟我講六十年前台灣的故事，那時候還沒有手機和電腦。他也會向我解釋一些老台語的意思。有時候他會從陽台摘番茄讓我帶回家。現在我每天都去看他，我想我們兩個都比以前快樂了。
+
+## 首爾的好心陌生人
+Last month, my family went to Seoul. None of us could read Korean, so we used a map app on Dad's phone. It was very [[helpful|honest|alone|full]]. It told us which bus to take and how long we had to walk. But on the third day, the app [[failed|allowed|mixed|explained]] to open, and we were lost in a big market. My little brother started to cry. Then a young woman came over and asked in English, "Can I help you?" She [[explained|allowed|failed|mixed]] the way to our hotel and even drew a simple map for us on a piece of paper. She did not ask for anything. "Welcome to Korea," she said with a smile. In the end, the most helpful thing on our trip was not the app. It was a kind [[stranger|hobby|sentence|factory]]. Dad said, "Next time, let's learn some Korean [[sentences|hobbies|factories|habits]] before the trip."
+> 1 helpful「有幫助的、好用的」：告訴我們搭哪班公車。honest（誠實的）不能形容 app；alone 不能用 very 修飾；full 也說不通。
+> 2 fail to + 原形動詞「無法…、沒能…」：app 打不開，所以迷路了。allow 要接「人 + to」；mixed、explained 都不能接 to open。
+> 3 explain the way「說明怎麼走」：她告訴我們去飯店的路，還畫地圖。allowed、failed、mixed 接 the way 都說不通。
+> 4 a kind stranger「好心的陌生人」：最有幫助的是那位陌生女子。hobby（嗜好）、sentence（句子）、factory（工廠）都不能說是「人」。
+> 5 learn some sentences「學一些句子」：下次先學幾句韓文。hobbies、factories、habits 都不能「學成韓文」。
++ Seoul = 首爾
++ Korean = 韓文；韓國的
++ app = 應用程式
+= 上個月，我們全家去首爾。我們沒有人看得懂韓文，所以都用爸爸手機上的地圖 app，它非常好用，會告訴我們要搭哪一班公車、還要走多久。但第三天，app 打不開了，我們在一個很大的市場裡迷了路。我弟弟哭了起來。這時，一位年輕女子走過來，用英文問：「需要幫忙嗎？」她跟我們說明怎麼走回飯店，甚至還在一張紙上畫了一張簡單的地圖給我們。她什麼都沒要求。「歡迎來到韓國。」她笑著說。最後，這趟旅行中最有幫助的不是那個 app，而是一位好心的陌生人。爸爸說：「下次出發前，我們先學幾句韓文吧。」
+
+## 看起來很辣的麻婆豆腐
+My friend Yuki is from Japan, and she can't eat spicy food. Last week, I took her to a Sichuan restaurant near my house. When the mapo tofu came, it was bright red. Yuki looked [[scared|honest|helpful|modern]]. "Don't worry," I said. I [[explained|allowed|failed|mixed]] that this restaurant makes a special version for kids. Yuki took a small bite. "It's [[actually|ago|else|abroad]] not spicy at all!" she said with a big smile. The red color came from sweet peppers, not hot ones. Yuki loved it so much that she ate three bowls of rice. Before we left, she asked the cook how to make it. The cook was very kind, and he [[allowed|explained|failed|mixed]] her to come into the kitchen and watch him cook. Now cooking Chinese food is Yuki's new [[hobby|sentence|factory|distance]].
+> 1 look scared「看起來很害怕」：她不能吃辣，看到紅通通的菜很怕。honest、helpful、modern 都不是看到辣菜的反應。
+> 2 explain that…「解釋說…」：我說明這家店有做給小孩吃的版本。allowed、failed、mixed 都不能接 that 子句。
+> 3 actually「其實」：吃了才發現其實一點都不辣。ago、else、abroad 都不能放在 It's 和 not spicy 中間。
+> 4 allow + 人 + to + 原形動詞「讓某人做…」：廚師讓她進廚房看。explain、fail、mix 都不能用「人 + to」的句型。
+> 5 hobby「嗜好」：煮中國菜成了她的新興趣。sentence（句子）、factory（工廠）、distance（距離）都說不通。
++ spicy = 辣的
++ Sichuan = 四川
++ mapo tofu = 麻婆豆腐
++ version = 版本
++ pepper = 椒類（甜椒、辣椒）
+= 我的朋友 Yuki 來自日本，她不能吃辣。上星期，我帶她去我家附近的一家川菜餐廳。麻婆豆腐上桌的時候，整盤紅通通的。Yuki 看起來很害怕。「別擔心。」我說。我解釋說這家餐廳有做給小孩吃的特別版本。Yuki 吃了一小口。「其實一點都不辣耶！」她笑得很開心。原來紅色是甜椒的顏色，不是辣椒。Yuki 太喜歡了，吃了三碗飯。離開前，她問廚師怎麼做這道菜。廚師人很好，讓她進廚房看他煮。現在，煮中國菜成了 Yuki 的新嗜好。
+
+## 排錯順序的句子
+On my English test, there was a question: "Put the words in the right order to make a [[sentence|hobby|factory|habit]]." The words were "I," "love," "my," and "dog." It looked easy, so I wrote my answer very fast: "I love dog my." Oops! I [[mixed|allowed|failed|explained]] up the order of the last two words. When I got the test back, there were many red X's on it. I almost [[failed|mixed|allowed|explained]] the test because of small mistakes like this. My teacher, Mr. Lin, [[explained|allowed|failed|mixed]] to me that I should always read my answers again before I hand in the test. Now I check every sentence two times. On the last test, I got ninety-five! Mr. Lin said that checking your answers is [[actually|ago|else|abroad]] the easiest way to get a better score.
+> 1 make a sentence「組成一個句子」：把單字排成正確的句子。hobby（嗜好）、factory（工廠）、habit（習慣）都不能用單字排出來。
+> 2 mix up「搞混、弄亂」：把最後兩個字的順序弄反了。allowed up、failed up、explained up 都不是片語。
+> 3 fail the test「考試不及格」：差點因為小錯誤不及格。mixed、allowed、explained 接 the test 都不合語意。
+> 4 explain to + 人 + that…「向某人說明…」：老師告訴我交卷前要再檢查。allowed、failed、mixed 都不能接 to me that…。
+> 5 actually「其實」：檢查其實是提高分數最簡單的方法。ago、else、abroad 都不能放在 is 和 the easiest way 中間。
++ order = 順序
++ oops = 哎呀
++ hand in = 繳交
+= 我的英文考卷上有一題：「把單字排成正確的順序，組成一個句子。」單字是「I」、「love」、「my」和「dog」。看起來很簡單，所以我很快就寫下答案：「I love dog my.」哎呀！我把最後兩個字的順序弄反了。考卷發回來時，上面有好多紅色的叉叉。我差點因為這種小錯誤而不及格。林老師向我說明，交卷前一定要再看一次自己的答案。現在我每個句子都檢查兩次。上次考試，我考了九十五分！林老師說，檢查答案其實是提高分數最簡單的方法。
+
+## 把興趣變成工作的阿姨
+My aunt used to work in a bank. She was good at her job, but she was not happy. Her real [[hobby|sentence|factory|distance]] was baking. Every weekend, she baked cookies and cakes for our family, and she always looked happiest in the kitchen. Three years ago, she made a big [[decision|sentence|factory|distance]]. She left the bank and opened a small bakery. Grandma was worried. "What if you [[fail|allow|explain|mix]]?" she asked. At first, business was slow. But my aunt was always [[honest|full|wet|dry]] with her customers. She used only fresh eggs and real butter, and she never [[mixed|allowed|failed|explained]] cheap things into her cakes. Slowly, more and more people came. Now her bakery is famous in our town. "When your job is your hobby, every day is fun," she says.
+> 1 hobby「嗜好」：她真正的興趣是烘焙。sentence（句子）、factory（工廠）、distance（距離）都說不通。
+> 2 make a decision「做決定」：辭掉銀行工作開麵包店。make a sentence 是「造句」，make a factory、make a distance 都不合語意。
+> 3 What if you fail?「萬一你失敗了怎麼辦？」allow、explain、mix 都需要受詞，不能單獨接在 you 後面。
+> 4 be honest with + 人「對某人誠實」：只用新鮮的材料。full、wet、dry 都不能接 with her customers 表示態度。
+> 5 mix … into …「把…混進…」：從不把便宜的東西加進蛋糕。allowed、failed、explained 都不能接 into her cakes。
++ bank = 銀行
++ bakery = 麵包店
++ customer = 顧客
++ butter = 奶油
+= 我阿姨以前在銀行工作。她工作能力很好，但並不快樂。她真正的興趣是烘焙。每個週末，她都會烤餅乾和蛋糕給我們家吃，而她在廚房裡的時候總是看起來最開心。三年前，她做了一個重大的決定：她離開了銀行，開了一家小麵包店。奶奶很擔心。「萬一你失敗了怎麼辦？」她問。一開始生意很差。但我阿姨對顧客一向很誠實。她只用新鮮的雞蛋和真正的奶油，也從來不把便宜的東西加進蛋糕裡。慢慢地，越來越多人上門。現在她的麵包店在我們鎮上很有名。「當你的工作就是你的興趣時，每天都很有趣。」她說。
