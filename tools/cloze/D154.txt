@@ -250,3 +250,127 @@ Last Sunday, Mom [[treated|fed|hunted|landed]] my little brother Leo and me to i
 + strawberry = 草莓
 + counter = 櫃檯
 = 上星期天，媽媽請我和弟弟 Leo 吃冰淇淋。但 Leo 永遠沒辦法很快做出選擇。店裡有二十種口味，他在玻璃櫃前站了十五分鐘。巧克力還是草莓？芒果還是奶茶？我們後面排隊的人越來越多。櫃檯的阿姨讓他免費試吃三種口味，但他還是決定不了要買哪一種。我們後面的人開始露出不耐煩的表情。最後，我說：「我們買巧克力和芒果，一起分著吃吧。」Leo 笑了，馬上就答應。冰淇淋很好吃。現在，每次我們去那家店，都會買兩種口味。一起分享成了我們快樂的小習慣。
+
+## 陽明山的大霧
+Last Saturday, my family drove up to Yangmingshan. We wanted to see the view from the top. But when we got there, the sky was not [[clear|hungry|proud|afraid]] at all. The fog was so thick that we could not even see the car in [[front|area|case|course]] of us. My sister was very disappointed. "We drove two hours to see nothing!" she said. Dad smiled. "Let's [[wait|feed|hunt|land]] for thirty minutes. The fog moves fast up here." So we sat in the car and ate the rice balls Mom made. Suddenly, the wind began to blow, and the fog [[cleared|fed|hunted|landed]]. In front of us, there was a beautiful valley [[full|sharp|proud|lucky]] of silver grass. We could even see Taipei 101 far away. "Good things come to people who wait," Dad said.
+> 1 clear「（天空）晴朗的」：not clear at all 一點都不晴朗，所以才會有霧。天空不會 hungry（餓）、proud（驕傲）或 afraid（害怕）。
+> 2 in front of「在…前面」：連前面的車都看不到。in case of 是「萬一」，in course of 不是正確片語，area 也不能這樣用。
+> 3 wait for「等待」：等三十分鐘看霧會不會散。feed、hunt、land 都不能接 for thirty minutes 表示等待。
+> 4 clear「（霧）散去」當動詞：風一吹，霧就散了。fed、hunted、landed 都不能說霧。
+> 5 be full of「長滿…」：山谷裡長滿了芒草。sharp、proud、lucky 都不能接 of silver grass 形容山谷。
++ Yangmingshan = 陽明山
++ fog = 霧
++ disappointed = 失望的
++ valley = 山谷
++ silver grass = 芒草
+= 上星期六，我們全家開車上陽明山，想從山頂看風景。但到了那裡，天空一點都不晴朗。霧濃到我們連前面的車都看不見。我姊姊很失望。「我們開了兩個小時的車，結果什麼都看不到！」她說。爸爸笑著說：「我們等三十分鐘吧，山上的霧散得很快。」於是我們坐在車裡，吃媽媽做的飯糰。突然，風開始吹，霧散開了。我們面前出現了一片美麗的山谷，長滿了銀白色的芒草。我們甚至可以看到遠方的台北 101。「願意等待的人就會遇到好事。」爸爸說。
+
+## 每年春天的過敏
+Every spring, my nose runs and my eyes turn red. I sneeze about fifty times a day, and I cannot sleep well. Last week, Mom took me to see Dr. Wu. "You have an allergy," he said. "I can [[treat|hunt|land|feed]] it with medicine, but you also need to change some [[habits|factories|lands|distances]]." He gave me three rules. First, my room should never be [[dirty|delicious|expensive|foreign]], so I need to clean it every week. Second, when the air is bad, I should not stay [[outside|ago|else|seldom]] for too long. Third, I should wash my face and hands as soon as I get home. I followed all his rules. After two weeks, I felt much better. Now my nose is [[clear|proud|lucky|busy]], and I can finally breathe easily at night.
+> 1 treat「治療」：用藥治療過敏。hunt（獵捕）、land（降落）、feed（餵）都不是醫生對病的處理。
+> 2 change habits「改變習慣」：除了吃藥，也要改變生活習慣，後面就是三條規則。factories、lands、distances 都說不通。
+> 3 dirty「髒的」：房間不能髒，所以每週要打掃。delicious（好吃的）、expensive（貴的）、foreign（外國的）都和打掃無關。
+> 4 stay outside「待在戶外」：空氣不好時不要在外面太久。ago 要接在時間後面；else 要接在 something 等字後面；seldom 不能放在 stay 後面當地點。
+> 5 clear「通暢的」：鼻子通了，晚上能好好呼吸。proud（驕傲的）、lucky（幸運的）、busy（忙碌的）都不能形容鼻子通不通。
++ sneeze = 打噴嚏
++ allergy = 過敏
++ medicine = 藥
++ breathe = 呼吸
+= 每年春天，我都會流鼻水、眼睛發紅。我一天大概打五十個噴嚏，晚上也睡不好。上星期，媽媽帶我去看吳醫生。「你這是過敏，」他說，「我可以用藥治療，但你也需要改變一些習慣。」他給了我三條規則。第一，我的房間絕對不能髒，所以每個星期都要打掃。第二，空氣不好的時候，不要在外面待太久。第三，一回到家就要洗臉洗手。我遵守了他所有的規則。兩個星期後，我覺得好多了。現在我的鼻子很通，晚上終於可以輕鬆地呼吸了。
+
+## 圖書館前的魚池
+There is a small pond with colorful fish in front of our school library. For years, students loved to [[feed|hunt|land|clear]] them after lunch. But last month, the fish started to get sick. The water was not [[clear|proud|lucky|busy]] anymore; it turned green, and nobody could see the fish. Our science teacher, Mr. Huang, checked the pond and found the [[problem|habit|factory|land]]: students were giving the fish too much bread. The fish could not eat it all. The extra bread stayed in the water and made it [[dirty|delicious|modern|foreign]]. So the school made a new rule. Only the science club can feed the fish, and only once a day. Other students can still watch from [[outside|ago|else|seldom]] the little fence. A month later, the water is clean again, and the fish are swimming happily.
+> 1 feed + 動物「餵…」：學生喜歡午餐後餵魚。hunt（獵捕）、land（降落）、clear（清除）都不是學生對魚做的事。
+> 2 clear「清澈的」：水不再清澈，變成綠色。水不會 proud（驕傲）、lucky（幸運）或 busy（忙碌）。
+> 3 find the problem「找出問題」：老師找到原因是麵包餵太多。habit（習慣）、factory（工廠）、land（土地）後面接冒號說明原因都不合理。
+> 4 make + 物 + dirty「把…弄髒」：多出來的麵包讓水變髒。delicious、modern、foreign 都不能形容水被麵包弄成什麼樣。
+> 5 outside 當介系詞「在…外面」：其他學生可以在圍欄外看。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）不能接名詞。
++ pond = 池塘
++ extra = 多餘的
++ fence = 圍欄
+= 我們學校圖書館前面有一個小池塘，裡面養著彩色的魚。很多年來，學生都喜歡在午餐後餵魚。但上個月，魚開始生病了。水不再清澈，變成了綠色，大家都看不到魚了。我們的自然老師黃老師檢查了池塘，找到了問題：學生給魚太多麵包了。魚吃不完，多出來的麵包留在水裡，把水弄髒了。所以學校訂了一條新規定：只有科學社可以餵魚，而且一天只能餵一次。其他學生還是可以在小圍欄外面看。一個月後，池水又變乾淨了，魚兒也快樂地游來游去。
+
+## 巴斯光年想飛
+Buzz Lightyear believed he was a real space hero. One day, he stood at the top of the stairs and said to the other toys, "Watch me. I can fly!" Woody shook his head. He tried to make it [[clear|full|hungry|outside]] that Buzz was only a toy. "Your wings are made of plastic," he said. But Buzz did not listen. He jumped off the stairs. He [[hit|fed|hunted|treated]] a ball, flew around the room, and [[landed|fed|hunted|cleared]] on the bed. All the toys clapped, but Woody said, "That was just luck." Later that night, Buzz looked out of the window and watched some birds flying [[outside|ago|else|seldom]]. He finally understood. "Maybe I can't fly like them," he said. "But my friends make me feel [[special|delicious|expensive|modern]]." Woody smiled and sat down next to him.
+> 1 make it clear that…「講清楚…、讓人明白…」：Woody 想讓 Buzz 明白他只是玩具。make it full、make it hungry、make it outside 都不是這個意思。
+> 2 hit「撞到」：跳下來時撞到一顆球。fed（餵）、hunted（獵捕）、treated（對待）接 a ball 都說不通。
+> 3 land on「降落在…」：最後落在床上。fed on 是「以…為食」，hunted on、cleared on 都不合語意。
+> 4 outside「在外面」：窗外的鳥在飛。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）放在句尾不通。
+> 5 make + 人 + feel special「讓某人覺得自己很特別」。delicious（好吃的）、expensive（貴的）、modern（現代的）都不能形容人的感覺。
++ Buzz Lightyear = 巴斯光年（《玩具總動員》角色）
++ Woody = 胡迪
++ stairs = 樓梯
++ plastic = 塑膠
+= 巴斯光年相信自己是真正的太空英雄。有一天，他站在樓梯最上面，對其他玩具說：「看好了，我會飛！」胡迪搖搖頭，他想讓巴斯明白自己只是個玩具。「你的翅膀是塑膠做的。」他說。但巴斯不聽，他從樓梯上跳了下去。他撞到一顆球，在房間裡繞了一圈，然後落在床上。所有玩具都拍手叫好，但胡迪說：「那只是運氣好。」那天晚上，巴斯看著窗外飛翔的鳥兒。他終於明白了。「也許我沒辦法像牠們一樣飛，」他說，「但我的朋友讓我覺得自己很特別。」胡迪笑了，在他身邊坐了下來。
+
+## 變清澈的小河
+When my father was young, he often swam in the river behind his village. The water was so [[clear|full|proud|lucky]] that he could see the fish swimming at the bottom. Then a paper [[factory|habit|choice|treat]] was built next to the river. Every day, it put dirty water into the river. Soon, many fish were [[dead|full|clear|outside]], and nobody wanted to go near the river because of the terrible [[smell|habit|factory|choice]]. Dad said it was the saddest thing he saw as a child. Twenty years later, the villagers worked together with the government. The factory had to clean its water before putting it into the river. Slowly, the river became clean again. Last summer, Dad took me there. The fish are back, and white birds come to [[hunt|land|clear|treat]] for them in the morning.
+> 1 so clear that…「清澈到…」：水清澈到看得見河底的魚。full（滿的）、proud（驕傲的）、lucky（幸運的）都不能說明為什麼看得見魚。
+> 2 paper factory「造紙廠」：在河邊蓋了一間工廠，每天排放髒水。habit、choice、treat 都不能「被蓋起來」。
+> 3 dead「死掉的」：髒水讓很多魚死了。fish were full（魚吃飽了）、clear、outside 都和汙染的結果不合。
+> 4 terrible smell「可怕的臭味」：因為臭味沒人想靠近河邊。terrible habit、terrible factory、terrible choice 都不能解釋為什麼不想靠近。
+> 5 hunt for「捕食」：白鳥來抓魚吃。land for、clear for、treat for 都不是正確搭配。
++ bottom = 底部
++ village = 村莊
++ villager = 村民
+= 我爸爸小時候常常在村子後面的河裡游泳。河水清澈到他可以看見在河底游的魚。後來，河邊蓋了一間造紙廠，每天都把髒水排進河裡。很快地，很多魚都死了，而且因為那可怕的臭味，沒有人想靠近那條河。爸爸說，那是他小時候看過最難過的事。二十年後，村民們和政府一起努力，工廠必須先把水處理乾淨，才能排進河裡。慢慢地，河水又變乾淨了。去年夏天，爸爸帶我去那裡。魚回來了，早上還有白色的鳥飛來抓魚吃。
+
+## 滿月下的狼人
+In a small village, people said a wolf man lived in the dark forest. Every time the moon was [[full|hungry|proud|afraid]], he came out to [[hunt|land|clear|treat]]. So on those nights, nobody went [[outside|ago|else|seldom]], and every door was locked. One full-moon night, a girl named Rosa got lost on her way home from her grandma's house. As she walked through the forest, she heard a strange [[sound|level|host|guess]] behind her. She turned around. It was the wolf man! Rosa was too scared to move. But the wolf man did not attack her. "This way," he said in a soft voice, and he walked her to the edge of the village. The next day, Rosa went back to the forest with a basket of bread as a [[treat|habit|factory|land]] for him. From then on, the villagers were not afraid of him anymore.
+> 1 the moon was full「月圓的時候」：狼人每逢滿月就出現。月亮不會 hungry（餓）、proud（驕傲）或 afraid（害怕）。
+> 2 come out to hunt「出來獵食」。land（降落）、clear（清除）、treat（對待）都不是狼人出來做的事。
+> 3 go outside「出門、到外面」：那些晚上沒人敢出門。ago 要接在時間後面；else 要接在 something 等字後面；seldom 放在 went 後面不通。
+> 4 hear a strange sound「聽到奇怪的聲音」。level（等級）、host（主人）、guess（猜測）都不能「聽到」。
+> 5 as a treat「當作招待、好吃的禮物」：帶一籃麵包送給他。as a habit、as a factory、as a land 都說不通。
++ wolf = 狼
++ lock = 鎖上
++ attack = 攻擊
++ edge = 邊緣
+= 在一個小村子裡，人們說黑暗的森林裡住著一個狼人。每到月圓的時候，他就會出來獵食。所以在那些夜晚，沒有人敢出門，家家戶戶都把門鎖上。有一個滿月的晚上，一個叫 Rosa 的女孩從奶奶家回來的路上迷路了。她走在森林裡時，聽到身後傳來奇怪的聲音。她轉過身，竟然是狼人！Rosa 嚇得動也不敢動。但狼人沒有攻擊她。「走這邊。」他用溫柔的聲音說，並陪她走到村子的邊緣。第二天，Rosa 帶著一籃麵包回到森林，當作送給他的禮物。從那時起，村民們再也不怕他了。
+
+## 草地上的便當
+It was a sunny day, and our teacher had a great idea. "Let's eat lunch [[outside|ago|else|seldom]] today!" she said. We carried our lunch boxes to the grass behind the school. The sky was blue and [[clear|full|proud|hungry]], and a cool wind was blowing. Everyone sat in small groups. When Kevin opened his lunch box, he found it [[full|lucky|proud|modern]] of vegetables. He hates vegetables, so he made a funny face, and we all laughed. Then a group of small birds [[landed|cleared|treated|married]] on the grass near us. Kevin put a little rice on the ground for them. "Please don't [[feed|hunt|land|clear]] the birds," said our teacher. "Human food is not good for them." Kevin looked at his vegetables and said, "Then I guess I have to eat these myself."
+> 1 eat lunch outside「在戶外吃午餐」。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）和 today 一起用不合理。
+> 2 clear「晴朗的」：藍藍的晴朗天空。天空不會 full（滿的）、proud（驕傲的）或 hungry（餓的）。
+> 3 find + 物 + full of…「發現…裝滿了…」：便當盒裡裝滿了青菜。lucky、proud、modern 都不能接 of vegetables 形容便當盒。
+> 4 land on「降落在…」：一群小鳥飛下來停在草地上。cleared、treated、married 都不能接 on the grass 描述鳥的動作。
+> 5 feed the birds「餵鳥」：老師說不要餵鳥，人的食物對牠們不好。hunt（獵捕）、land、clear 都和前面放飯粒的動作不合。
++ group = 群、組
++ guess = 猜想
+= 那天天氣晴朗，老師想到一個好主意。「我們今天到外面吃午餐吧！」她說。我們拿著便當走到學校後面的草地上。天空又藍又晴朗，還吹著涼涼的風。大家分成幾個小組坐下來。Kevin 打開便當盒，發現裡面裝滿了青菜。他最討厭吃青菜了，所以做了一個好笑的鬼臉，大家都笑了。這時一群小鳥飛下來，停在我們旁邊的草地上。Kevin 放了一點飯在地上給牠們吃。「請不要餵小鳥，」老師說，「人類的食物對牠們不好。」Kevin 看著他的青菜說：「那我想我只好自己把這些吃掉了。」
+
+## 窗邊的家貓豆腐
+Our cat Tofu has never been [[outside|ago|else|seldom]]. She was born in our apartment, and she has lived here for three years. Every day, she sits by the window and watches the birds in the tree. Sometimes she makes a funny [[sound|level|host|guess]] at them, as if she wants to [[hunt|land|clear|treat]] them. Dad worried that she was bored, so he bought her a toy bird on a long stick. Now he plays with her every evening. Tofu jumps, runs, and hides under the sofa. She looks like a little tiger, and she never gets tired of the game. After playing, Dad [[feeds|hunts|lands|clears]] her, and she falls asleep on his legs. "A happy cat doesn't need to go out," Dad says. Tofu just closes her eyes. She seems to [[agree|own|collect|celebrate]].
+> 1 have never been outside「從來沒有出去過」。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）和 never 意思重複，也不能放在 been 後面。
+> 2 make a funny sound「發出好笑的聲音」。level（等級）、host（主人）、guess（猜測）都不能「發出」。
+> 3 hunt「獵捕」：貓對著鳥叫，好像想抓牠們。land（降落）、clear（清除）、treat（對待）都不是貓看到鳥想做的事。
+> 4 feed + 動物「餵…」：玩完後爸爸餵牠吃飯。hunts、lands、clears 都不能接 her（貓）表示照顧。
+> 5 seem to agree「似乎同意」：豆腐閉上眼睛，好像同意爸爸的話。own（擁有）、collect（收集）、celebrate（慶祝）後面都要接受詞，而且意思不通。
++ apartment = 公寓
++ stick = 棍子
+= 我們家的貓豆腐從來沒有出過門。牠是在我們公寓裡出生的，已經在這裡住了三年。每天，牠都坐在窗邊看樹上的鳥。有時候牠會對著鳥發出好笑的聲音，好像想去抓牠們。爸爸擔心牠很無聊，所以買了一根長棍子綁著玩具鳥給牠。現在爸爸每天晚上都陪牠玩。豆腐又跳又跑，還會躲到沙發底下，看起來就像一隻小老虎，而且這個遊戲牠永遠玩不膩。玩完以後，爸爸餵牠吃飯，然後牠就趴在爸爸腿上睡著了。「快樂的貓不需要出門。」爸爸說。豆腐只是閉上眼睛，牠似乎也同意。
+
+## 我是左撇子
+I am left-handed. When I was little, my grandma wanted me to use my right hand. She said it was a better [[habit|factory|land|treat]]. But my mom said, "Using your left hand is not wrong. It's just [[different|delicious|wet|dry]]." At school, writing was sometimes hard for me. When I wrote, my hand moved across the words, so the side of my hand always got [[dirty|modern|foreign|expensive]] from the pencil. Last year, I joined the table tennis team, and everything changed. My coach was very happy. "Left-handed players are hard to play against," he said. It was true. My serves [[land|feed|hunt|treat]] in strange places, so other players often miss them. My coach made it [[clear|full|hungry|outside]] that being left-handed is a gift, not a problem. Now even Grandma comes to watch my games.
+> 1 a better habit「比較好的習慣」：奶奶覺得用右手比較好。factory（工廠）、land（土地）、treat（點心）都不能形容用哪隻手。
+> 2 just different「只是不一樣」：用左手沒有錯，只是不同。delicious（好吃的）、wet（濕的）、dry（乾的）都不能形容用左手這件事。
+> 3 get dirty「變髒」：手側被鉛筆弄髒。get modern、get foreign、get expensive 都說不通。
+> 4 land「（球）落下」：發球落在奇怪的位置。feed（餵）、hunt（打獵）、treat（對待）都不能形容球的落點。
+> 5 make it clear that…「清楚表明…」：教練明白告訴大家左撇子是天賦。make it full、make it hungry、make it outside 都不是這個意思。
++ left-handed = 左撇子的
++ table tennis = 桌球
++ coach = 教練
++ serve = 發球
+= 我是左撇子。我小時候，奶奶希望我用右手，她說那是比較好的習慣。但媽媽說：「用左手沒有錯，只是不一樣而已。」在學校，寫字對我來說有時候很困難。寫字的時候，我的手會劃過剛寫的字，所以手側總是被鉛筆弄得髒髒的。去年，我加入了桌球隊，一切都改變了。我的教練非常高興。「左撇子選手很難對付。」他說。這是真的。我的發球會落在奇怪的地方，所以對手常常接不到。教練清楚地告訴大家，當左撇子是一種天賦，不是問題。現在連奶奶都會來看我的比賽。
+
+## 紙箱裡的小狗
+Last winter, someone left a small puppy in a box [[outside|ago|else|seldom]] our apartment. It was cold and wet, and it could not stop shaking. My sister and I took it home and gave it some warm milk. Mom was not happy at first. "A dog is not a toy," she said. "If we keep it, we have to [[feed|hunt|land|clear]] it, walk it, and take it to the vet. That is a lot of work." We promised to [[treat|hunt|land|clear]] it well and take care of it every day. We named the puppy Lucky. Now, a year later, Lucky is big and [[strong|delicious|foreign|expensive]]. Every evening, he waits by the door for us to come home. He even sleeps next to Mom's bed. Mom says keeping him was the best [[choice|habit|factory|land]] our family ever made.
+> 1 outside 當介系詞「在…外面」：有人把小狗放在公寓外。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）不能接名詞。
+> 2 feed「餵」：養狗就要餵牠、遛牠、帶牠看獸醫。hunt（獵捕）、land（降落）、clear（清除）都不是照顧狗的工作。
+> 3 treat … well「好好對待…」：我們保證會好好對待牠。hunt、land、clear 接 it well 都說不通。
+> 4 big and strong「又大又壯」：小狗長大了。delicious（好吃的）、foreign（外國的）、expensive（貴的）都不能形容狗長大的樣子。
+> 5 the best choice「最好的選擇」：收養牠是全家做過最好的決定。make a habit 不是「做決定」的意思；factory、land 也不能用 made 搭配。
++ puppy = 小狗
++ shake = 發抖
++ vet = 獸醫
+= 去年冬天，有人把一隻小狗放在箱子裡，丟在我們公寓外面。牠又冷又濕，一直不停地發抖。我和妹妹把牠帶回家，餵牠喝溫牛奶。媽媽一開始不太高興。「狗不是玩具，」她說，「如果我們養牠，就得餵牠、遛牠，還要帶牠去看獸醫。那是很多工作。」我們保證會好好對待牠，每天都照顧牠。我們幫小狗取名叫 Lucky。現在，一年過去了，Lucky 長得又大又壯。每天傍晚，牠都在門邊等我們回家，甚至還睡在媽媽的床邊。媽媽說，收養牠是我們家做過最好的決定。
