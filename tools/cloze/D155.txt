@@ -123,3 +123,131 @@ Tom made a birthday card for his best friend, Annie. He drew a big cake on it an
 + disappear = 消失
 + lunch box = 便當盒
 = Tom 為他最好的朋友 Annie 做了一張生日卡。他在上面畫了一個大蛋糕，寫著：「Amy，生日快樂！」那天早上他很趕，所以沒有檢查。在派對上，Annie 打開卡片讀了一下，笑容就不見了。「Amy 是誰？」她問。大家都看向 Tom，他覺得自己好蠢。「這是個大錯誤，」他說，「Amy 是我妹妹的名字，我每天都要寫在她的便當盒上！」Annie 想了一下，然後笑了出來。「沒關係，」她說，「至少你畫的蛋糕看起來很好吃。」派對上的大家也都笑了。從那天起，Tom 送卡片給朋友前，總會檢查兩遍。
+
+## 皮卡丘愛上珍珠
+Ash and Pikachu traveled [[abroad|ago|either|else]] to Taiwan for a big Pokémon contest. On the first night, a kind woman at the hotel gave them two cups of bubble tea. Pikachu had never [[tasted|heard|thrown|driven]] bubble tea before. It looked at the black balls in the cup for a long time. Then it took a sip, and its ears stood straight up. "Pika!" It finished the whole cup in ten seconds and asked for more. Ash laughed. "You're [[lucky|boring|modern|fresh]]. The tea is free tonight!" Pikachu [[seldom|abroad|ago|else]] likes new food, but bubble tea became its favorite drink. Every day after the contest, they went to the same shop. A few weeks later, it was time to [[leave|marry|borrow|hurt]]. Pikachu was sad, so the woman gave it a big bag of pearls to take home.
+> 1 travel abroad「出國旅行」。ago 要放在一段時間後面；either 用在否定句尾；else 要接在 something 等字後面，都不能這樣用。
+> 2 have never tasted「從來沒嚐過」，has/had 後面接過去分詞。heard、thrown、driven 接 bubble tea 意思都不通。
+> 3 You're lucky.「你運氣真好」：今晚的茶免費。boring、modern、fresh 都不能這樣形容皮卡丘。
+> 4 seldom「很少」：皮卡丘很少喜歡新食物，但珍奶變成了牠的最愛，前後有轉折。abroad、ago、else 都不能放在主詞和動詞之間。
+> 5 it was time to leave「該離開了」：比賽結束要回家了。marry（結婚）、borrow（借）、hurt（傷害）都不合語意。
++ Ash = 小智（《寶可夢》的主角）
++ contest = 比賽
++ bubble tea = 珍珠奶茶
++ sip = 一小口
++ pearl = 珍珠（粉圓）
+= 小智和皮卡丘出國到台灣參加一場大型寶可夢比賽。第一天晚上，飯店一位親切的阿姨給了他們兩杯珍珠奶茶。皮卡丘從來沒喝過珍奶，牠盯著杯子裡的黑色小球看了好久，接著喝了一小口，耳朵立刻豎得直直的。「皮卡！」牠十秒鐘就喝完一整杯，還想再要。小智笑著說：「你運氣真好，今晚的茶免費！」皮卡丘很少喜歡新食物，但珍奶成了牠最愛的飲料。每天比賽結束後，他們都去同一家店。幾個禮拜後，該離開了。皮卡丘很難過，於是阿姨送牠一大包珍珠帶回家。
+
+## 很少生氣的校長
+Our principal, Mr. Wang, [[seldom|abroad|ago|else]] gets angry. He always smiles and says hello to everyone at the school gate. But last Monday, some boys played soccer in the hallway and broke a window. When Mr. Wang saw the broken glass, his face turned red. "That was a [[stupid|modern|fresh|delicious]] thing to do," he said. "Someone could get hurt!" The boys said sorry and cleaned up the glass in a [[hurry|piece|size|lesson]]. The next day, Mr. Wang called them to his office. They thought they were in big [[trouble|ticket|weather|village]]. But Mr. Wang just gave them a job: they had to help the school worker fix the window and paint the wall. After a week of hard work, the boys said, "We were [[lucky|modern|boring|national]] to have such a kind principal."
+> 1 seldom「很少」：校長很少生氣，總是笑著打招呼。abroad、ago、else 都不能放在主詞和動詞之間。
+> 2 a stupid thing to do「很愚蠢的行為」：在走廊踢球打破窗戶。modern、fresh、delicious 都不能形容這種行為。
+> 3 in a hurry「急急忙忙地」。in a piece、in a size、in a lesson 都不是片語。
+> 4 be in big trouble「麻煩大了」是固定說法。ticket（票）、weather（天氣）、village（村莊）都不能這樣用。
+> 5 lucky to have …「很幸運有…」：有這麼好的校長。modern、boring、national 都不能接 to have 表示「很幸運」。
++ principal = 校長
++ hallway = 走廊
++ school worker = 工友
+= 我們的王校長很少生氣，他總是在校門口笑著跟每個人打招呼。但上週一，幾個男生在走廊踢足球，打破了一扇窗戶。王校長看到碎玻璃時，臉都紅了。「這樣做太蠢了，」他說，「會有人受傷的！」男生們道了歉，急急忙忙把玻璃清乾淨。隔天，王校長把他們叫到辦公室。他們以為自己麻煩大了，但王校長只給他們一份工作：幫工友修窗戶、油漆牆壁。辛苦做了一個禮拜後，男生們說：「我們很幸運，有這麼好的校長。」
+
+## 想快點長大的小烏龜
+Timmy was a little turtle, and he was always in a [[hurry|piece|size|lesson]]. He wanted to grow up fast, so he ate too much and never took a rest. "Slow down," said his grandpa. "Turtles live for a long time. There's no need to [[hurry|taste|invite|collect]]." But Timmy didn't listen. One day, a rabbit laughed at him. "You are [[such|very|too|so]] a slow animal! Let's have a race." Timmy said yes. The rabbit ran far ahead, and then it lay down under a tree for a nap. Timmy didn't stop. He walked and walked, passed the sleeping rabbit, and won the race. "Taking a nap was a [[stupid|modern|fresh|national]] mistake," the rabbit said sadly. That night, Timmy stood in [[front|area|size|piece]] of his grandpa and smiled. "Now I understand," he said. "Slow is OK, if you never give up."
+> 1 be in a hurry「總是匆匆忙忙、急著做事」。in a piece、in a size、in a lesson 都不是片語。
+> 2 There's no need to hurry.「不需要急」。taste（品嚐）、invite（邀請）、collect（收集）放在這裡都不合語意。
+> 3 such a slow animal「這麼慢的動物」。very、too、so 都不能放在 a 前面。
+> 4 a stupid mistake「愚蠢的錯誤」：比賽中途睡午覺。modern、fresh、national 都不能形容錯誤。
+> 5 stand in front of「站在…面前」。area、size、piece 都不能組成這個片語。
++ turtle = 烏龜
++ rabbit = 兔子
++ nap = 小睡、午覺
++ give up = 放棄
+= Timmy 是一隻小烏龜，他總是急急忙忙的。他想快點長大，所以吃太多，也從不休息。「慢一點，」他的爺爺說，「烏龜可以活很久，不用急。」但 Timmy 不聽。有一天，一隻兔子嘲笑他：「你真是慢吞吞的動物！我們來賽跑吧。」Timmy 答應了。兔子跑得遠遠的，然後躺在樹下睡午覺。Timmy 沒有停下來，他一直走一直走，經過睡著的兔子，贏了比賽。「睡午覺真是個蠢錯誤。」兔子難過地說。那天晚上，Timmy 站在爺爺面前笑著說：「我懂了，慢也沒關係，只要永遠不放棄。」
+
+## 外婆家的老房子
+My grandma lives in an old house in the countryside. It has a red roof and a big yard with chickens in it. My family lives in a [[modern|hungry|afraid|angry]] apartment in Taipei, with an elevator and a smart TV. When I was little, I thought Grandma's house was [[boring|lucky|hungry|delicious]]. There was no Internet, and there were no stores nearby. But this summer, I stayed there for a week. Every morning, I helped Grandma [[pick|marry|kick|borrow]] vegetables in the garden. The tomatoes [[tasted|heard|threw|drove]] much sweeter than the ones from the supermarket. In the evening, we sat in [[front|area|size|piece]] of the house and watched the stars. Grandma told me stories about her childhood. On the last day, I didn't want to go home. Now I know an old house can be full of fun.
+> 1 a modern apartment「現代化的公寓」，有電梯和智慧電視，和外婆的老房子相對。hungry、afraid、angry 都是形容人的感覺，不能形容公寓。
+> 2 boring「無聊的」：沒有網路、附近沒有商店。lucky、hungry、delicious 形容房子都不通。
+> 3 pick vegetables「摘菜」。marry（娶）、kick（踢）、borrow（借）接 vegetables 都不合理。
+> 4 taste + 形容詞比較級「吃起來比較…」：番茄吃起來比超市的甜。heard、threw、drove 都不能說味道。
+> 5 sit in front of the house「坐在房子前面」。area、size、piece 都不能組成這個片語。
++ countryside = 鄉下
++ roof = 屋頂
++ elevator = 電梯
++ childhood = 童年
+= 我外婆住在鄉下的一棟老房子，屋頂是紅色的，還有一個養著雞的大院子。我們家住在台北一間現代化的公寓，有電梯和智慧電視。小時候，我覺得外婆家很無聊，沒有網路，附近也沒有商店。但今年夏天，我在那裡住了一個禮拜。每天早上，我幫外婆在菜園裡摘菜，番茄吃起來比超市買的甜多了。晚上，我們坐在房子前面看星星，外婆跟我說她小時候的故事。最後一天，我都不想回家了。現在我知道，老房子也可以充滿樂趣。
+
+## 爸爸在巴黎迷路了
+Last year, my dad went [[abroad|ago|either|else]] for work. It was his first time in Paris, and he could not speak French. One evening, he got lost on his way back to the hotel. His phone had no signal, and it was getting dark, so he walked in a [[hurry|piece|size|lesson]]. Then he saw an old man in [[front|area|size|piece]] of a bakery. "Excuse me," my dad said in English. The man didn't speak English, but Dad showed him the hotel's card. The man smiled and walked with him all the way to the hotel. He even gave Dad some fresh bread. "I was very [[lucky|modern|boring|delicious]] that night," Dad told us later. "I didn't even know his name, but I will never [[forget|borrow|marry|bake]] that kind man."
+> 1 go abroad「出國」：爸爸出國工作。ago、either、else 都不能接在 went 後面表示「到國外」。
+> 2 in a hurry「匆忙」：天快黑了，所以走得很急。in a piece、in a size、in a lesson 都不是片語。
+> 3 in front of a bakery「在麵包店前面」。area、size、piece 都不能組成這個片語。
+> 4 lucky「幸運的」：迷路時遇到好心人。modern、boring、delicious 都不能形容爸爸那晚的遭遇。
+> 5 never forget「永遠不會忘記」。borrow（借）、marry（娶）、bake（烤）接 that kind man 都不合理。
++ Paris = 巴黎
++ French = 法語
++ signal = 訊號
++ bakery = 麵包店
+= 去年，我爸爸出國工作。那是他第一次去巴黎，而他不會說法語。一天晚上，他在回飯店的路上迷路了。手機沒有訊號，天又快黑了，所以他走得很急。後來他看到一位老先生站在一家麵包店前面。「不好意思。」我爸爸用英文說。老先生不會說英文，但爸爸給他看了飯店的名片。老先生笑了笑，一路陪他走回飯店，甚至還送他一些剛出爐的麵包。「那天晚上我運氣真好，」爸爸後來告訴我們，「我連他的名字都不知道，但我永遠不會忘記那位好心人。」
+
+## 一台舊相機的暑假
+At the start of summer vacation, I had nothing to do. My best friends all went [[abroad|ago|either|else]] with their families, and my parents were busy working. "This summer will be so [[boring|lucky|hungry|afraid]]," I said. My mom gave me her old camera. "Take pictures of things you [[seldom|abroad|ago|else]] notice," she said. So I walked around our neighborhood every day. I took photos of ants carrying food, clouds that looked like animals, and the old man selling sweet potatoes in [[front|area|size|piece]] of our building. At the end of the summer, I [[showed|tasted|married|hurried]] my photos to my class. My teacher loved them, and she put them on the wall of our classroom. That summer was not boring at all. It was the best one ever.
+> 1 go abroad「出國」：朋友們都跟家人出國了。ago、either、else 都不能這樣用。
+> 2 boring「無聊的」：沒事做、朋友都不在。lucky（幸運的）、hungry（餓的）、afraid（害怕的）都不能形容「這個暑假」。
+> 3 seldom notice「很少注意到」：拍下平常很少注意的東西。abroad、ago、else 都不能放在 you 和 notice 中間。
+> 4 in front of our building「在我們大樓前面」。area、size、piece 都不能組成這個片語。
+> 5 show + 物 + to + 人「把…給某人看」。tasted、married、hurried 都不能用這個句型。
++ neighborhood = 社區、附近一帶
++ ant = 螞蟻
++ sweet potato = 地瓜
+= 暑假剛開始時，我什麼事都沒得做。我最好的朋友們都跟家人出國了，爸媽又忙著工作。「這個暑假一定好無聊。」我說。媽媽給了我她的舊相機。「去拍那些你平常很少注意到的東西。」她說。於是我每天在社區裡走來走去，拍下搬食物的螞蟻、像動物的雲，還有在我們大樓前面賣地瓜的老伯伯。暑假結束時，我把照片給班上同學看。老師很喜歡，把它們貼在教室的牆上。那個暑假一點也不無聊，是我過過最棒的一個。
+
+## 搶坐前座的弟弟
+Every time our family goes out, my little brother and I fight over the [[front|area|size|piece]] seat of the car. Last Sunday, I got up early and sat there first. "I'm so [[lucky|modern|delicious|national]] today," I thought. But on the way to the mountains, Dad asked me to read the map and tell him where to turn. I [[seldom|abroad|ago|else]] read maps, so I made a lot of mistakes. We drove around the same mountain three times! My brother laughed in the back seat. "Who's [[stupid|modern|delicious|national]] now?" he asked. In the end, we got to the mountain two hours [[late|either|else|below]], and the restaurant was already closed. On the way home, I let my brother sit in the front. He read the map perfectly. Now I know the front seat is not just a seat. It's a job!
+> 1 the front seat「前座」，front 當形容詞是「前面的」。area、size、piece 都不能這樣形容座位。
+> 2 lucky「幸運的」：搶到前座覺得很幸運。modern、delicious、national 都不能形容自己今天的運氣。
+> 3 seldom「很少」：我很少看地圖，所以出了很多錯。abroad、ago、else 都不能放在主詞和動詞之間。
+> 4 Who's stupid now?「現在誰比較笨？」弟弟取笑我。modern、delicious、national 都不能用來取笑人。
+> 5 two hours late「晚了兩個小時」，時間長度 + late。either、else、below 都不能接在時間後面表示「遲到」。
++ perfectly = 完美地
+= 每次我們家出門，我和弟弟都會搶車子的前座。上週日，我很早起床，先坐了上去。「我今天真幸運。」我心想。但在去山上的路上，爸爸要我看地圖、告訴他在哪裡轉彎。我很少看地圖，所以出了一堆錯，我們繞著同一座山開了三圈！弟弟在後座大笑：「現在是誰比較笨啊？」最後我們晚了兩個小時才到山上，餐廳早就關門了。回家的路上，我讓弟弟坐前座，他地圖看得完美無缺。現在我知道，前座不只是一個座位，它是一份工作！
+
+## 母親節的鹹餅乾
+For Mother's Day, my sister Jenny and I decided to bake cookies for Mom. We were in a [[hurry|piece|size|lesson]] because Mom would be home in an hour. Jenny put in the flour and the butter, and I added two big spoons of sugar. At least, I thought it was sugar. When Mom came home, we gave her the cookies with a card. She took a bite, and her face changed. "They [[taste|hear|throw|wear]] a little salty," she said. Jenny looked at the jar in my hand. It was salt, not sugar! I felt so [[stupid|modern|fresh|national]]. But Mom laughed and hugged us both. "This is [[such|very|too|so]] a special gift," she said. "I'll [[remember|borrow|marry|invite]] these cookies forever." Then she ate one more, just to make us happy.
+> 1 in a hurry「趕時間」：媽媽一小時後就回來了。in a piece、in a size、in a lesson 都不是片語。
+> 2 taste + 形容詞「吃起來…」：吃起來有點鹹。hear、throw、wear 都不能用來說味道。
+> 3 feel stupid「覺得自己很蠢」：把鹽當成糖。modern、fresh、national 都不能形容人的感受。
+> 4 such a special gift「這麼特別的禮物」。very、too、so 都不能放在 a 前面。
+> 5 remember … forever「永遠記得」。borrow（借）、marry（娶）、invite（邀請）接 cookies 都不合語意。
++ flour = 麵粉
++ butter = 奶油
++ salty = 鹹的
++ jar = 罐子
+= 母親節時，我和姊姊 Jenny 決定烤餅乾給媽媽。我們很趕，因為媽媽一個小時後就要回家了。Jenny 放了麵粉和奶油，我加了兩大匙糖——至少我以為那是糖。媽媽回家時，我們把餅乾和卡片送給她。她咬了一口，臉色變了。「吃起來有點鹹呢。」她說。Jenny 看著我手上的罐子，那是鹽，不是糖！我覺得自己好蠢。但媽媽笑著抱住我們兩個。「這是很特別的禮物，」她說，「我會永遠記得這些餅乾。」然後她又吃了一塊，只為了讓我們開心。
+
+## 捷運站前的小提琴爺爺
+Every evening, an old man plays the violin in [[front|area|size|piece]] of the MRT station near my school. Most people are in a [[hurry|piece|size|lesson]] and walk past him without looking. To be honest, I [[seldom|abroad|ago|else]] paid attention to him either. Then, one rainy evening, he played a [[modern|hungry|afraid|angry]] pop song instead of his usual old music. It was my favorite song! I stopped and listened. Then a few more students stopped. Soon, a small group of us were singing along with him in the rain. When the song ended, everyone clapped. The old man bowed and smiled. "Music is [[such|very|too|so]] a wonderful gift," he said. "It turns strangers into friends." Now I stop to listen to him every day, and sometimes I ask him to play my favorite song again.
+> 1 in front of「在…前面」：在捷運站前拉小提琴。area、size、piece 都不能組成這個片語。
+> 2 be in a hurry「趕時間」：大部分的人都很趕，看也不看就走過去。in a piece、in a size、in a lesson 都不是片語。
+> 3 seldom pay attention to「很少注意」。abroad、ago、else 都不能放在主詞和動詞之間。
+> 4 a modern pop song「現代的流行歌」，和他平常拉的老音樂相對。hungry、afraid、angry 都是形容人的感覺，不能形容歌。
+> 5 such a wonderful gift「這麼美好的禮物」。very、too、so 都不能放在 a 前面。
++ violin = 小提琴
++ MRT = 捷運
++ pay attention to = 注意
++ clap = 拍手
++ bow = 鞠躬
+= 每天傍晚，都有一位老爺爺在我學校附近的捷運站前拉小提琴。大部分的人都在趕時間，看也不看就走過去。老實說，我以前也很少注意他。後來，在一個下雨的傍晚，他沒有拉平常的老曲子，而是拉了一首現代流行歌。那是我最喜歡的歌！我停下來聽，接著又有幾個學生停下腳步。很快地，我們一小群人在雨中跟著他一起唱。歌曲結束時，大家都拍手。老爺爺鞠了個躬，笑著說：「音樂真是美好的禮物，它能讓陌生人變成朋友。」現在我每天都會停下來聽他拉琴，有時候還會請他再拉一次我最愛的那首歌。
+
+## 很少出門的鄰居奶奶
+Mrs. Chen lives next door. She is eighty years old, and she [[seldom|abroad|ago|else]] leaves her apartment. Her children all live [[abroad|ago|either|else]], so she is often alone. One day, my mom made dumplings and asked me to bring some to her. I stood in [[front|area|size|piece]] of her door and knocked. She opened it slowly and looked surprised. When she [[tasted|heard|threw|drove]] the dumplings, she smiled. "These are just like the ones my mother made," she said. After that, I visited her every weekend. She taught me to play Chinese chess, and I helped her make video calls to her children. Last week, she held my hand and said, "I'm [[lucky|modern|boring|national]] to have such a good neighbor." I feel lucky too. Now I have a new grandma next door.
+> 1 seldom「很少」：奶奶很少離開她的公寓。abroad、ago、else 都不能放在主詞和動詞之間。
+> 2 live abroad「住在國外」：孩子都在國外，所以她常常一個人。ago、either、else 都不能接在 live 後面表示地點。
+> 3 stand in front of her door「站在她家門前」。area、size、piece 都不能組成這個片語。
+> 4 taste「嚐」：她嚐了水餃之後笑了。heard、threw、drove 接 dumplings 都不合理。
+> 5 lucky to have …「很幸運有…」。modern、boring、national 都不能接 to have 表示幸運。
++ dumpling = 水餃
++ knock = 敲門
++ Chinese chess = 象棋
++ video call = 視訊通話
++ neighbor = 鄰居
+= 陳奶奶住在我家隔壁。她八十歲了，很少走出她的公寓。她的孩子都住在國外，所以她常常一個人。有一天，媽媽包了水餃，要我拿一些給她。我站在她家門前敲門，她慢慢打開門，看起來很驚訝。嚐了水餃之後，她笑了。「這跟我媽媽以前包的一模一樣。」她說。從那之後，我每個週末都去看她。她教我下象棋，我幫她跟孩子視訊通話。上個禮拜，她握著我的手說：「有你這麼好的鄰居，我真幸運。」我也覺得很幸運，因為現在我隔壁多了一位新奶奶。
