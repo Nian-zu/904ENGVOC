@@ -227,7 +227,7 @@ In the movies, Spider-Man is a hero who saves the city. But in his own neighborh
 + part-time = 兼職、打工
 = 在電影裡，蜘蛛人是拯救城市的英雄。但在他自己住的社區裡，彼得．帕克只是一個會幫老太太提袋子的友善男孩。他並不有錢，和嬸嬸住在一間小公寓裡，還得打工賺錢。我想這就是我比較喜歡他、勝過其他英雄的原因。他讓我們知道，做好事不需要錢。他看到有人遇到麻煩，就會馬上去幫忙。他的叔叔教他：有力量的人一定要用力量去幫助別人。這些話對彼得影響很大。看完電影後，我也列了一張自己能幫助別人的小事清單：幫鄰居提袋子、撿垃圾、對陌生人微笑。也許我也能用自己的方式當個英雄。
 
-## 吃到飽的教訓
+## 自助餐吃太撐
 My family went to an all-you-can-eat buffet for Dad's birthday. I was so excited that I didn't eat lunch. When we got there, I [[filled|lent|borrowed|seemed]] my plate with fried chicken, pizza, and sushi. The food was very [[rich|wet|sharp|empty]] and oily, but I kept eating. Then my sister saw a [[sign|sight|joy|habit]] on the wall: "Please don't waste food. Extra charge for leftovers." So I had to finish everything on my plate. After the fourth plate, I felt sick. I couldn't even sit up [[straight|ago|seldom|such]]. On the way home, Mom said, "It's not about how much you eat. It's about enjoying the food." Next time, I will [[copy|cry|lie|die]] my mom: take small amounts and eat slowly.
 > 1 filled my plate with「把盤子裝滿…」。lent、borrowed 不能和 with 搭配；seemed 後面不能接受詞。
 > 2 rich food「油膩、濃郁的食物」，rich 形容食物時是「油膩、口味重」，和 oily 一起用。wet（濕的）、sharp（尖銳的）、empty（空的）都不能這樣形容炸雞和披薩。
@@ -241,7 +241,7 @@ My family went to an all-you-can-eat buffet for Dad's birthday. I was so excited
 + amount = 份量
 = 為了慶祝爸爸生日，我們全家去吃到飽自助餐。我太興奮了，連午餐都沒吃。到了之後，我把盤子裝滿了炸雞、披薩和壽司。食物又油又膩，但我一直吃。後來妹妹看到牆上有一張告示：「請勿浪費食物，剩菜將額外收費。」所以我只好把盤子裡的東西全部吃完。吃到第四盤時，我覺得很不舒服，連坐直都沒辦法。回家路上，媽媽說：「重點不是吃多少，而是好好享受食物。」下次，我要學媽媽：每樣拿一點，慢慢吃。
 
-## 夜市套圈圈
+## 盧伯伯的套圈圈攤
 Every Friday night, the night market near my house is [[filled|lent|borrowed|seemed]] with people. My favorite game there is ring toss. You throw rings at bottles, and if a ring falls over a bottle, you win a prize. The owner of the stand is a [[friendly|wooden|empty|national]] man named Uncle Lu. On his stand, there is a [[list|sight|smoke|noise]] of prizes: a teddy bear, a toy car, and a giant Pikachu. I always want the Pikachu, but it's the hardest one to win. Last week, Uncle Lu gave me a tip. "Don't throw too hard. Stand [[straight|ago|seldom|such]] and throw gently." I tried it, and the ring fell right over the bottle! The people around me clapped. It wasn't [[convenient|honest|hungry|afraid]] to carry a giant Pikachu home on my bike, but I was the happiest kid in the world.
 > 1 be filled with people「擠滿了人」。lent、borrowed 不能和 with 搭配；seemed 不能放在 is 後面。
 > 2 a friendly man「一位友善的人」，還教我訣竅。wooden（木製的）、empty（空的）、national（國家的）都不能形容人。
@@ -254,3 +254,140 @@ Every Friday night, the night market near my house is [[filled|lent|borrowed|see
 + gently = 輕輕地
 + Pikachu = 皮卡丘
 = 每個星期五晚上，我家附近的夜市都擠滿了人。我最喜歡的遊戲是套圈圈：把圈圈丟向瓶子，只要圈圈套住瓶子就能贏得獎品。攤位老闆是一位很友善的人，叫做盧伯伯。他的攤位上有一張獎品清單：泰迪熊、玩具車，還有一隻巨大的皮卡丘。我一直想要那隻皮卡丘，但它是最難贏的。上星期，盧伯伯給了我一個訣竅：「不要丟太用力，站直，輕輕地丟。」我試了一下，圈圈剛好套住了瓶子！旁邊的人都拍手。騎腳踏車載一隻巨大的皮卡丘回家並不方便，但我是世界上最快樂的孩子。
+
+## 搬家前的大整理
+We are moving to a new apartment next month. Mom said it is more [[convenient|honest|hungry|afraid]] than our old home because it is near an MRT station. This weekend, my family started to [[pack|cry|lie|smile]] our things. Mom made a [[list|sight|smell|noise]] of what to keep and what to give away. My job was my own room. I [[filled|lent|borrowed|seemed]] three boxes with old toys and books. Under my bed, I found a box of letters from my best friend in elementary school. He moved to Canada years ago. I sat on the floor and read every one, and I forgot about packing for an hour. "What are you doing?" Mom asked. I showed her the letters. She smiled and said, "Some things are worth keeping." That night, I wrote a letter to my friend for the first time in five years. I hope he still lives at the [[same|whole|alone|afraid]] address.
+> 1 more convenient「比較方便」，因為靠近捷運站。honest、hungry、afraid 都不能形容住的地方。
+> 2 pack our things「打包我們的東西」，準備搬家。cry、lie、smile 都不能接受詞 our things。
+> 3 made a list of「列了一張…的清單」。sight、smell、noise 都不能列出要留下或送走的東西。
+> 4 filled three boxes with「把三個箱子裝滿…」。lent、borrowed 不能和 with 搭配；seemed 後面不能接受詞。
+> 5 the same address「同樣的地址」，希望朋友沒搬家。whole 不能形容地址；alone、afraid 不能放在名詞前面。
++ apartment = 公寓
++ MRT station = 捷運站
++ elementary school = 小學
++ Canada = 加拿大
++ address = 地址
+= 下個月我們要搬到一間新公寓。媽媽說新家比舊家方便，因為靠近捷運站。這個週末，我們全家開始打包東西。媽媽列了一張清單，寫下哪些要留、哪些要送人。我負責整理自己的房間，裝滿了三箱舊玩具和舊書。在床底下，我找到一盒小學時最好的朋友寫給我的信。他好幾年前搬到加拿大了。我坐在地上一封一封地讀，整整一個小時都忘了打包。「你在做什麼？」媽媽問。我把信拿給她看。她笑著說：「有些東西值得留下來。」那天晚上，我寫了一封信給那位朋友，這是五年來的第一次。希望他還住在同一個地址。
+
+## 小狗學握手
+Last month, we adopted a dog from an animal shelter. His name is Lucky. At first, he was afraid of everything. He hid under the table and wouldn't come out. But after a week, he became very [[friendly|wooden|empty|national]] and followed me everywhere. I wanted to teach him a trick. I watched a video online and [[copied|cried|slept|died]] what the trainer did. Every day, I held out my hand and said, "Shake!" When he gave me his paw, I gave him a snack. After two weeks, Lucky learned to shake hands. Now, whenever he sees me, he sits up [[straight|ago|seldom|such]] and lifts his paw. That's his [[sign|sight|list|smoke]] for "I want a snack!" My parents laughed. "He's smart, just like you," Dad said. Having Lucky has [[changed|arrived|happened|seemed]] my life. I'm never lonely anymore.
+> 1 became very friendly「變得很友善」，後面說他到處跟著我。wooden（木製的）、empty（空的）、national（國家的）都不能形容小狗的個性。
+> 2 copied what the trainer did「模仿訓練師的做法」。cried、slept、died 都不能接受詞 what the trainer did。
+> 3 sits up straight「坐得直挺挺的」。ago 要放在時間後面；seldom 要放在動詞前面；such 後面要接名詞。
+> 4 his sign for…「他表示…的信號」，sign 在這裡是「暗號、信號」。sight（景象）、list（清單）、smoke（煙）都不能表示小狗的動作代表什麼。
+> 5 has changed my life「改變了我的生活」。arrived、happened、seemed 都不能直接接受詞 my life。
++ adopt = 領養
++ animal shelter = 動物收容所
++ trick = 把戲
++ trainer = 訓練師
++ paw = 腳掌
+= 上個月，我們從動物收容所領養了一隻狗，牠叫幸運。一開始，牠什麼都怕，躲在桌子底下不肯出來。但一個星期後，牠變得很友善，我走到哪裡牠就跟到哪裡。我想教牠一個把戲，就上網看影片，模仿訓練師的做法。每天我伸出手說：「握手！」牠把腳掌放到我手上，我就給牠一塊點心。兩週後，幸運學會握手了。現在牠只要看到我，就會坐得直挺挺的，舉起腳掌。那是牠「我想吃點心！」的暗號。爸媽都笑了。「牠跟你一樣聰明。」爸爸說。有了幸運之後，我的生活改變了，我再也不孤單了。
+
+## 圖書館的機器人助手
+This year, our school got a robot helper named Bobo. It stands in the library and answers students' questions. It is very [[convenient|hungry|afraid|wet]]. You can ask it anything, and it answers in a second. When it is busy, its screen shows a [[sign|smell|noise|joy]]: "Please wait. I'm thinking." At first, some students asked Bobo to do their homework. They just [[copied|cried|slept|died]] its answers into their notebooks. Our teacher was not happy, so the school changed Bobo's program. Now when you ask it a math question, it doesn't give you the answer. Instead, it gives you a [[list|sight|smell|noise]] of steps to think about. "Technology can [[influence|arrive|happen|seem]] the way we learn," our teacher said. "It should help your brain work, not do the work for it." I agree with her.
+> 1 very convenient「非常方便」，什麼都能問、一秒就回答。hungry（餓的）、afraid（害怕的）、wet（濕的）都不能形容機器人的用處。
+> 2 shows a sign「顯示一個提示」，冒號後面是畫面上的字。smell、noise、joy 都不能「顯示」在螢幕上。
+> 3 copied its answers into their notebooks「把它的答案抄到筆記本上」。cried、slept、died 都不能接受詞 answers。
+> 4 a list of steps「一連串的步驟」。sight、smell、noise 都不能表示解題步驟。
+> 5 influence the way we learn「影響我們學習的方式」。arrive、happen、seem 都不能直接接受詞。
++ robot = 機器人
++ screen = 螢幕
++ program = 程式
++ technology = 科技
+= 今年，我們學校來了一個叫波波的機器人助手。它站在圖書館裡回答學生的問題，非常方便，什麼都能問，一秒就回答。它忙的時候，螢幕會顯示一個提示：「請稍候，我在思考。」一開始，有些學生叫波波幫他們寫作業，直接把它的答案抄到筆記本上。老師很不高興，所以學校改了波波的程式。現在你問它數學題，它不會直接給你答案，而是給你一連串思考的步驟。「科技會影響我們學習的方式，」老師說，「它應該幫助你的大腦運作，而不是替大腦工作。」我同意她的話。
+
+## 過年的大富翁之夜
+Every Chinese New Year, my cousins and I play Monopoly at Grandma's house. Before we start, Grandma always makes a [[list|sight|smoke|noise]] of rules: no cheating, no crying, and no shouting. In this game, the goal is to become the [[richest|wettest|emptiest|thinnest]] player. You buy land and houses, and other players pay you when they stop there. This year, my cousin Leo was very lucky. His side of the board was soon [[filled|lent|borrowed|seemed]] with red hotels. Every time I threw the dice, I landed on his hotels and had to pay him. But Leo was not very [[friendly|wooden|empty|national]] when he was winning. He laughed at everyone. Grandma watched and said, "Money can change people. Don't let it [[influence|arrive|happen|seem]] who you are." Leo stopped laughing and said sorry. Then we played again, and this time Grandma won. She is the real master of Monopoly.
+> 1 makes a list of rules「列出一張規則清單」，冒號後面列出規則。sight、smoke、noise 都不能列出規則。
+> 2 become the richest player「成為最有錢的玩家」，這就是大富翁的目標。wettest（最濕的）、emptiest（最空的）、thinnest（最瘦的）都和遊戲目標無關。
+> 3 be filled with red hotels「蓋滿紅色的旅館」。lent、borrowed 不能和 with 搭配；seemed 不能放在 was 後面。
+> 4 not very friendly「不太友善」，因為他嘲笑大家。wooden、empty、national 都不能形容人的態度。
+> 5 Don't let it influence who you are.「別讓它影響你是什麼樣的人」。arrive、happen、seem 都不能直接接受詞。
++ Monopoly = 大富翁（遊戲）
++ cheat = 作弊
++ dice = 骰子
++ hotel = 旅館
++ master = 高手
+= 每年過年，我和表兄弟姊妹都在奶奶家玩大富翁。開始之前，奶奶總會列出一張規則清單：不准作弊、不准哭、不准大吼大叫。這個遊戲的目標是成為最有錢的玩家：你買土地和房子，其他玩家停在那裡時就要付錢給你。今年，表哥里歐運氣很好，他那一邊的棋盤很快就蓋滿了紅色的旅館。我每次擲骰子，都會停在他的旅館上，只好付錢給他。但里歐贏的時候不太友善，他嘲笑每一個人。奶奶看著說：「錢會改變人，別讓它影響你是什麼樣的人。」里歐不笑了，還道了歉。接著我們又玩了一局，這次奶奶贏了。她才是真正的大富翁高手。
+
+## 凌晨三點的日出
+To see the famous sunrise at Alishan, we had to wake up at three in the morning. It was very cold and dark. We took a small train up the mountain. Then we followed a [[sign|joy|habit|grade]] that said "Sunrise Viewing Area, 500 m." The path was not [[straight|honest|hungry|afraid]]; it went up and down through the forest. When we got there, the place was already [[filled|lent|borrowed|seemed]] with people. Everyone was waiting quietly. At 5:40, the sky changed from dark blue to orange. Then the sun rose slowly over the mountains, and the sea of clouds below turned gold. It was the most beautiful [[sight|habit|topic|grade]] I had ever seen. I took a photo and sent a [[copy|noise|smell|joy]] to my grandparents. They said it reminded them of their honeymoon there fifty years ago.
+> 1 followed a sign「跟著指標走」，指標上寫著觀景台的距離。joy、habit、grade 都不能「寫著」路線。
+> 2 The path was not straight「小路不是直的」，分號後面說它上上下下穿過森林。honest、hungry、afraid 都不能形容路。
+> 3 be filled with people「擠滿了人」。lent、borrowed 不能和 with 搭配；seemed 不能放在 was 後面。
+> 4 the most beautiful sight「最美的景象」，指日出和雲海。habit、topic、grade 都不能形容眼前看到的風景。
+> 5 sent a copy to「傳一份給…」，copy 是名詞「複本」。noise、smell、joy 都不能「傳送」給爺爺奶奶。
++ Alishan = 阿里山
++ sunrise = 日出
++ path = 小路
++ sea of clouds = 雲海
++ honeymoon = 蜜月旅行
+= 為了看阿里山有名的日出，我們必須凌晨三點起床。天氣很冷，天也很黑。我們搭小火車上山，然後跟著一個寫著「日出觀景台，500 公尺」的指標走。小路不是直的，在森林裡上上下下。我們到的時候，那裡已經擠滿了人，大家都安靜地等待。五點四十分，天空從深藍變成了橘色。接著太陽慢慢從山後升起，下面的雲海變成了金色。那是我看過最美的景象。我拍了一張照片，傳了一份給爺爺奶奶。他們說這讓他們想起五十年前在那裡度蜜月的時光。
+
+## 錯過末班公車
+Last Friday, I stayed at school late to practice basketball. When I got to the bus stop, I looked at the [[sign|sight|joy|smoke]], and my heart dropped: the last bus had left at 7:00. It was 7:05. My phone had no power, so I couldn't call my parents. A woman at the stop saw my worried face. She was very [[friendly|wooden|empty|national]]. "Do you need help?" she asked. She let me use her phone to call home, and Dad said he would come to get me. While I waited, she told me she was a nurse and took the night bus to the hospital every day. I wanted to thank her more, but her bus came and she had to [[leave|copy|fill|lend]]. When Dad arrived, we drove [[straight|ago|seldom|such]] home. Now I always charge my phone before I leave home, and I [[check|cry|lie|die]] the bus time twice.
+> 1 looked at the sign「看了站牌」，上面寫著末班車時間。sight、joy、smoke 都不能寫著公車時刻。
+> 2 very friendly「很友善」，主動問我需不需要幫忙。wooden、empty、national 都不能形容人的態度。
+> 3 had to leave「必須離開」，因為她的公車來了。copy、fill、lend 後面都要接受詞，意思也不通。
+> 4 drove straight home「直接開車回家」。ago 要放在時間後面；seldom 要放在動詞前面；such 後面要接名詞。
+> 5 check the bus time「確認公車時間」。cry、lie、die 都不能接受詞 the bus time。
++ bus stop = 公車站
++ nurse = 護理師
++ charge = 充電
+= 上星期五，我留在學校練籃球練到很晚。走到公車站時，我看了一下站牌，心一沉：末班車七點就開走了，而現在已經七點五分。我的手機沒電，沒辦法打電話給爸媽。站牌旁的一位女士看到我一臉擔心。她非常友善，問我：「需要幫忙嗎？」她讓我用她的手機打電話回家，爸爸說他會來接我。等待的時候，她告訴我她是護理師，每天都搭夜班公車去醫院上班。我還想多謝謝她，但她的公車來了，她得離開。爸爸到了以後，我們就直接開車回家。現在我出門前一定會把手機充飽電，而且會確認兩次公車時間。
+
+## 從日本來的轉學生
+In September, a new student joined our class. Her name was Hana, and she came from Japan. On the first day, she sat alone and didn't talk to anyone. I wanted to be [[friendly|wooden|empty|national]], so I said hello in English. She smiled for the first time. Hana didn't speak much Chinese, so I helped her. I wrote a [[list|sight|smoke|noise]] of useful Chinese words for her, like "toilet," "lunch," and "thank you." She studied very hard. She even [[copied|cried|slept|died]] each word ten times in her notebook. In return, she taught me how to fold paper cranes. Three months later, Hana could chat with everyone in Chinese. She told me, "You were the first person who was kind to me. You had a big [[influence|noise|smoke|joy]] on my life here." That made me so happy. Now we are best friends, and her desk is [[filled|lent|borrowed|seemed]] with paper cranes from all of us.
+> 1 be friendly「表現友善」，所以主動打招呼。wooden、empty、national 都不能形容人的態度。
+> 2 a list of useful Chinese words「一張實用中文字詞清單」。sight、smoke、noise 都不能列出單字。
+> 3 copied each word ten times「每個字抄十遍」。cried、slept、died 都不能接受詞 each word。
+> 4 had a big influence on「對…有很大的影響」。noise、smoke、joy 都不能這樣搭配。
+> 5 be filled with paper cranes「擺滿了紙鶴」。lent、borrowed 不能和 with 搭配；seemed 不能放在 is 後面。
++ toilet = 廁所
++ in return = 作為回報
++ fold = 摺
++ paper crane = 紙鶴
++ chat = 聊天
+= 九月時，我們班來了一位新同學，她叫花，從日本來。第一天，她一個人坐著，不跟任何人說話。我想表現友善，就用英文跟她打招呼，她第一次笑了。花的中文不太好，所以我幫她，替她寫了一張實用中文字詞清單，像是「廁所」、「午餐」和「謝謝」。她非常用功，甚至把每個字在筆記本上抄了十遍。作為回報，她教我摺紙鶴。三個月後，花已經能用中文和大家聊天了。她跟我說：「你是第一個對我好的人，你對我在這裡的生活影響很大。」我聽了好開心。現在我們是最好的朋友，她的桌上擺滿了我們大家送的紙鶴。
+
+## 魔法學校的入學信
+On her twelfth birthday, Lily got a strange letter. It came on the back of an owl. The letter said: "Welcome to Moonstone School of Magic. Please [[sign|cry|lie|die]] your name below and send this letter back." There was also a [[list|sight|smoke|noise]] of things to bring: a wand, a black cape, and a pet frog. Lily couldn't believe it. "Is this real?" she asked her mom. Her mom smiled. "I went to that school, too. Magic runs in our family." On the first day of school, Lily saw a [[sight|habit|grade|topic]] she would never forget: a castle floating above the clouds. In her first class, the teacher said, "Watch my hand, and [[copy|cry|lie|die]] the movement." Lily waved her wand, and her book flew into the air. Everyone clapped. "You have a gift," the teacher said. Lily felt her heart [[fill|lend|borrow|seem]] with joy.
+> 1 sign your name「簽上你的名字」。cry、lie、die 都不能接受詞 your name。
+> 2 a list of things to bring「要帶的東西清單」，冒號後面列出物品。sight、smoke、noise 都不能列出物品。
+> 3 a sight she would never forget「一個她永遠忘不了的景象」，冒號後面是看到的畫面。habit、grade、topic 都說不通。
+> 4 copy the movement「模仿這個動作」。cry、lie、die 都不能接受詞 the movement。
+> 5 felt her heart fill with joy「感覺心裡充滿喜悅」，feel + 受詞 + 原形動詞。lend、borrow 不能和 with joy 搭配；seem 後面要接形容詞。
++ owl = 貓頭鷹
++ wand = 魔杖
++ cape = 斗篷
++ castle = 城堡
++ float = 漂浮
+= 莉莉十二歲生日那天，收到了一封奇怪的信，是一隻貓頭鷹背來的。信上寫著：「歡迎就讀月石魔法學校。請在下方簽上你的名字，並把這封信寄回。」信裡還附了一張要帶的東西清單：一根魔杖、一件黑色斗篷和一隻寵物青蛙。莉莉不敢相信。「這是真的嗎？」她問媽媽。媽媽笑了：「我也讀過那所學校，我們家族天生就有魔法。」開學第一天，莉莉看到了一個她永遠忘不了的景象：一座漂浮在雲上的城堡。第一堂課，老師說：「看著我的手，模仿這個動作。」莉莉揮了揮魔杖，她的書就飛到了空中。大家都拍手。「你很有天分。」老師說。莉莉感覺心裡充滿了喜悅。
+
+## 給媽媽的生日卡片
+Mom's birthday was coming, but I didn't have much money. My older sister said, "Make a card. Mom will love it more than anything you can buy." I found a poem online and wanted to [[copy|cry|lie|die]] it onto the card. Then I stopped. Mom wouldn't want someone else's words. She would want mine. So I wrote my own message. I [[filled|lent|borrowed|seemed]] the whole card with things I love about her: her pancakes, her funny jokes, and her warm hugs. At the end, I [[signed|cried|slept|died]] it "Your biggest fan." When Mom read it, she didn't say anything for a while. Then I saw tears in her eyes. "This is the best gift I've ever gotten," she said. Now the card is on the fridge, right in the [[middle|topic|reason|grade]] of the door. Every time I see it, I remember that the best gifts don't have to be [[expensive|hungry|afraid|lonely]].
+> 1 copy it onto the card「把它抄到卡片上」。cry、lie、die 都不能接受詞 it。
+> 2 filled the whole card with「把整張卡片寫滿…」。lent、borrowed 不能和 with 搭配；seemed 後面不能接受詞。
+> 3 signed it "Your biggest fan"「署名『你最大的粉絲』」。cried、slept、died 都不能接受詞 it。
+> 4 in the middle of the door「在冰箱門的正中間」。topic、reason、grade 都不能表示位置。
+> 5 don't have to be expensive「不一定要很貴」，呼應前面「沒什麼錢、自己做卡片」。hungry、afraid、lonely 都不能形容禮物。
++ poem = 詩
++ message = 留言
++ hug = 擁抱
++ fan = 粉絲
++ fridge = 冰箱
+= 媽媽的生日快到了，但我沒什麼錢。姊姊說：「做一張卡片吧，媽媽會比收到任何買來的東西都喜歡。」我在網路上找到一首詩，想把它抄到卡片上。但我停下來了：媽媽不會想要別人的話，她想要的是我的話。所以我寫了自己的留言，把整張卡片寫滿我喜歡她的地方：她做的鬆餅、她好笑的笑話，還有她溫暖的擁抱。最後，我署名「你最大的粉絲」。媽媽讀完後，好一會兒都沒說話，接著我看到她眼裡含著淚水。「這是我收過最棒的禮物。」她說。現在這張卡片貼在冰箱門的正中間。每次看到它，我就會想起：最好的禮物不一定要很貴。
+
+## 山裡的螢火蟲
+Last summer, my uncle took me to a small mountain village to see fireflies. "You'll see a wonderful [[sight|habit|grade|topic]] tonight," he said. We waited until it got dark. Then, one by one, small lights began to appear among the trees. Soon the whole forest was [[filled|lent|borrowed|seemed]] with thousands of tiny green lights. It looked like the stars had come down to the earth. A local guide was there. He was very [[friendly|wooden|empty|national]] and told us interesting facts. "Fireflies use their lights to talk to each other," he said. "Clean water and dark nights are a [[sign|joy|habit|grade]] of a healthy forest. If there is too much light from cities, they will disappear." On the way down, we turned off our flashlights and walked slowly. We didn't want to [[hurt|arrive|happen|seem]] any of them.
+> 1 a wonderful sight「很棒的景象」，指晚上滿山的螢火蟲。habit、grade、topic 都不能用「看」的。
+> 2 be filled with「充滿…」，森林裡滿是綠色的小光點。lent、borrowed 不能和 with 搭配；seemed 不能放在 was 後面。
+> 3 very friendly「很友善」，還告訴我們有趣的知識。wooden、empty、national 都不能形容人。
+> 4 a sign of a healthy forest「森林健康的跡象」，sign 在這裡是「徵兆、跡象」。joy、habit、grade 都說不通。
+> 5 didn't want to hurt any of them「不想傷害任何一隻」。arrive、happen、seem 都不能直接接受詞。
++ firefly = 螢火蟲
++ tiny = 微小的
++ local guide = 當地導覽員
++ disappear = 消失
++ flashlight = 手電筒
+= 去年夏天，叔叔帶我到一個山村看螢火蟲。「今晚你會看到很棒的景象。」他說。我們等到天黑。接著，小小的光點一個接一個地在樹林間出現。很快地，整片森林都充滿了成千上萬個綠色的小光點，好像星星降落到地上一樣。那裡有一位當地的導覽員，他很友善，告訴我們很多有趣的知識。「螢火蟲用光和彼此說話，」他說，「乾淨的水和黑暗的夜晚是森林健康的跡象。如果城市的燈光太多，牠們就會消失。」下山時，我們關掉手電筒，慢慢地走，因為我們不想傷害任何一隻螢火蟲。
