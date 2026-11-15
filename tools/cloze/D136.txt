@@ -127,3 +127,117 @@ Once upon a time, three little pigs left home to build their own houses. The fir
 + chimney = 煙囪
 + medicine = 藥
 = 從前從前，三隻小豬離開家，要蓋自己的房子。第一隻豬很懶，想快點完工，就用草蓋房子。第二隻豬用樹枝，稍微好一點。第三隻豬很勤奮，花了三個星期用磚頭蓋了一棟堅固的房子。有一天，一隻餓狼來了。他吹倒了草屋和木屋，兩隻小豬就跑到姊姊的磚屋去。大野狼吹了又吹，房子卻一動也不動。接著他想從煙囪爬下來，但第三隻豬也很聰明，在煙囪下面放了一大鍋熱水。在這個新故事裡，大野狼沒有死。他燙到尾巴，哭著說對不起。小豬們覺得他很可憐，溫柔的第三隻豬還幫他的尾巴擦藥。現在大野狼幫牠們蓋房子。
+
+## 牧場上的牧羊犬
+Last summer, I visited my cousin's farm in New Zealand. He has five hundred sheep and only one dog, a border collie named Flash. I couldn't believe one dog could [[manage|marry|spell|borrow]] so many sheep. But Flash was amazing. She was very [[smart|crowded|national|delicious]] and understood more than twenty words. When my cousin whistled once, she ran to the left. When he whistled twice, she ran to the right. In ten minutes, all the sheep were in the right field. Flash was also [[hard-working|wooden|illegal|sour]]. She worked from early morning until the sun went down, and she never looked tired. But at night, she was a different dog. She lay by the fire and let me touch her soft ears. She was so [[gentle|crowded|cheap|plastic]] that I almost forgot she was a working dog. On my last day, my cousin let me try to give her orders. I whistled, but she just looked at me and sat down. "She's too [[clever|thick|national|rainy]]," my cousin laughed. "She knows you're not the boss."
+> 1 manage so many sheep「管理這麼多羊」。marry（結婚）、spell（拼字）、borrow（借）都不能表示一隻狗照顧、控制羊群。
+> 2 聽得懂二十多個字，Flash 很「聰明」smart。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容狗。
+> 3 從早工作到太陽下山都不累，很「勤奮」hard-working。wooden（木製的）、illegal（違法的）、sour（酸的）都不能形容狗的工作態度。
+> 4 讓我摸耳朵，「溫柔」到我差點忘了牠是工作犬 so gentle that...。crowded、cheap（便宜的）、plastic（塑膠的）都不能形容狗的個性。
+> 5 牠「太聰明了」too clever，知道我不是主人。thick（厚的）、national、rainy（下雨的）都不能形容狗。
++ New Zealand = 紐西蘭
++ border collie = 邊境牧羊犬
++ whistle = 吹口哨
++ order = 命令
+= 去年夏天，我去紐西蘭表哥的牧場玩。他有五百隻羊，卻只有一隻狗，是一隻叫 Flash 的邊境牧羊犬。我不敢相信一隻狗可以管這麼多羊，但 Flash 真的很厲害。牠非常聰明，聽得懂二十多個字。表哥吹一聲口哨，牠就往左跑；吹兩聲，牠就往右跑。十分鐘內，所有的羊都進了對的草地。Flash 也很勤奮，從一大早工作到太陽下山，看起來從來不累。但到了晚上，牠就像換了一隻狗。牠躺在火爐邊，讓我摸牠柔軟的耳朵。牠溫柔到我幾乎忘了牠是一隻工作犬。我待的最後一天，表哥讓我試著對牠下命令。我吹了口哨，牠卻只是看看我，然後坐下來。「牠太聰明了，」表哥笑著說，「牠知道你不是老大。」
+
+## 會算數的馬
+More than a hundred years ago, there was a famous horse in Germany called Clever Hans. His owner, a math teacher, said Hans could do math. When someone asked, "What is three plus two?" Hans [[hit|spelled|married|invited]] the ground with his foot five times. People came from all over the country to see this [[smart|crowded|national|sour]] horse. But a young scientist didn't believe it. He did a test. When the person asking the question didn't know the answer, Hans got it [[wrong|crowded|delicious|wooden]]. The scientist found out that Hans was watching people's faces. When he reached the right number, people moved a little or looked happy, so he stopped. Hans couldn't really do math. Still, the scientist said he was [[clever|illegal|cheap|plastic]] in a different way. He could read small changes in people's faces that most humans couldn't see. Hans was also a [[gentle|national|illegal|thick]] horse that never kicked anyone, so children loved him. Today, scientists still remember the lesson of Clever Hans.
+> 1 Hans 用腳「敲」地五下 hit the ground。spell（拼字）、marry（結婚）、invite（邀請）都不能接 the ground with his foot。
+> 2 大家來看這匹「聰明的」馬 this smart horse。crowded（擁擠的）、national（國家的）、sour（酸的）都不能形容馬。
+> 3 問問題的人不知道答案時，Hans 就「答錯」got it wrong。crowded、delicious（好吃的）、wooden（木製的）都不能和 got it 搭配表示答錯。
+> 4 他是另一種「聰明」clever：會讀人臉上的細微變化。illegal（違法的）、cheap（便宜的）、plastic（塑膠的）都不能形容馬的能力。
+> 5 從不踢人，是一匹「溫和的」馬 a gentle horse，所以小孩喜歡他。national、illegal、thick（厚的）都不能形容馬的個性。
++ Germany = 德國
++ plus = 加
++ scientist = 科學家
++ human = 人類
+= 一百多年前，德國有一匹有名的馬，叫做「聰明的漢斯」。他的主人是一位數學老師，說漢斯會算數學。有人問：「三加二是多少？」漢斯就用腳敲地五下。全國各地的人都跑來看這匹聰明的馬。但一位年輕的科學家不相信，就做了一個測試。當問問題的人自己不知道答案時，漢斯就會答錯。科學家發現，漢斯其實是在看人的臉。當他敲到正確的數字時，人們會稍微動一下或露出開心的樣子，他就停下來。漢斯其實不會算數學。不過，科學家說他是另一種聰明：他能看出人臉上大多數人看不到的細微變化。漢斯也是一匹從不踢人的溫和的馬，所以小孩都很喜歡他。直到今天，科學家們仍記得「聰明的漢斯」帶來的教訓。
+
+## 雨中的公車站
+In the movie My Neighbor Totoro, two sisters, Satsuki and Mei, wait for their father at a bus stop on a rainy night. Mei is only four, and she soon falls asleep on her sister's back. Then a huge gray animal [[appears|borrows|marries|spells]] next to them. It's Totoro! He is as big as a bear, but he is very [[gentle|crowded|national|delicious]]. He doesn't scare the girls at all. Satsuki is a [[smart|wooden|illegal|cheap]] and kind girl, so she gives him an umbrella. Totoro has never used one before. When water drops fall on the umbrella, he loves the sound and jumps up and down. Then a cat bus comes to pick him up. To say thank you, Totoro gives Satsuki a small [[gift|weather|noise|garbage]] of seeds. Every time I watch this part, I feel warm inside. Totoro sleeps a lot in the movie, and my brother says he is [[lazy|crowded|sour|plastic]]. I don't care. He is still my favorite movie character.
+> 1 一隻大灰獸「出現」在她們旁邊 appears next to them。borrow（借）、marry（結婚）、spell（拼字）都不能表示出現。
+> 2 和熊一樣大，但很「溫和」gentle，一點也不嚇人。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容龍貓。
+> 3 小月是個「聰明」又善良的女孩，把傘借給龍貓。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容女孩。
+> 4 a small gift of seeds「一小份種子當禮物」，用來道謝。weather（天氣）、noise（噪音）、garbage（垃圾）都不能當謝禮。
+> 5 龍貓在電影裡常睡覺，弟弟說他「懶」lazy。crowded、sour（酸的）、plastic（塑膠的）都不能形容角色的個性。
++ My Neighbor Totoro = 《龍貓》（電影）
++ Satsuki = 小月
++ Mei = 小梅
++ umbrella = 雨傘
++ seed = 種子
+= 在電影《龍貓》裡，小月和小梅兩姊妹在一個下雨的晚上，在公車站等爸爸。小梅才四歲，很快就在姊姊背上睡著了。這時，一隻巨大的灰色動物出現在她們旁邊——是龍貓！他跟熊一樣大，卻非常溫和，一點也沒有嚇到兩個女孩。小月是個聰明又善良的女孩，就把一把傘給他用。龍貓從來沒用過傘，雨滴落在傘上時，他好喜歡那個聲音，開心得上下跳。接著，一輛貓公車來接他。為了道謝，龍貓送給小月一小包種子當禮物。每次看到這一段，我心裡都覺得暖暖的。龍貓在電影裡睡了很多覺，我弟弟說他很懶。我不在乎，他還是我最喜歡的電影角色。
+
+## 妙麗的讀書秘訣
+In the Harry Potter books, Hermione is the [[smartest|most crowded|most national|most wooden]] student in her year. She always knows the answer in class, and she reads every book in the library. Some people think she is just born clever, but that's not true. She is also very [[hard-working|delicious|illegal|cheap]]. She makes study plans and starts preparing for tests weeks before everyone else. Her best friend Ron is the opposite. He is [[lazy|crowded|sour|plastic]] and often copies Hermione's homework. My best friend Lisa is a lot like Hermione. She gets the highest grades in our class. Last week, I asked her for her secret. She showed me her notebook. It was full of colorful notes and small drawings. "I write things down in my own words," she said. "That helps me [[remember|marry|invite|boil]] them." Lisa is also [[gentle|national|crowded|thick]] and patient. She never laughs at me when I ask a simple question. With her help, I got 90 on my English test for the first time!
+> 1 the smartest student「最聰明的學生」，後面說她總是知道答案。most crowded、most national、most wooden 都不能形容學生。
+> 2 她不是天生聰明而已，也非常「勤奮」hard-working，會做讀書計畫。delicious（好吃的）、illegal（違法的）、cheap（便宜的）都不能形容人。
+> 3 Ron 和她相反，很「懶」lazy，常抄她作業。crowded（擁擠的）、sour（酸的）、plastic（塑膠的）都不能形容人的個性。
+> 4 help me remember them「幫我記住」。marry（結婚）、invite（邀請）、boil（煮沸）都不能說明寫筆記的好處。
+> 5 Lisa「溫和」又有耐心 gentle and patient，從不笑我。national（國家的）、crowded、thick（厚的）都不能形容人的個性。
++ Hermione = 妙麗（《哈利波特》角色）
++ opposite = 相反的人
++ patient = 有耐心的
+= 在《哈利波特》書中，妙麗是她那個年級最聰明的學生。上課時她總是知道答案，還把圖書館的書都讀遍了。有些人以為她只是天生聰明，其實不是。她也非常勤奮，會做讀書計畫，比別人早好幾週就開始準備考試。她的好朋友榮恩剛好相反，他很懶，常常抄妙麗的作業。我的好朋友 Lisa 很像妙麗，她是我們班成績最好的。上星期，我問她有什麼秘訣，她給我看她的筆記本，裡面寫滿彩色的筆記和小插圖。「我用自己的話把東西寫下來，」她說，「這樣能幫我記住。」Lisa 也很溫和、很有耐心，我問簡單的問題時，她從不笑我。在她的幫忙下，我第一次英文考了 90 分！
+
+## 雞排攤的老闆
+Every night, there is a long line in front of Mr. Huang's fried chicken stand at the night market. He has [[sold|married|spelled|invited]] fried chicken there for twenty years. Mr. Huang is the most [[hard-working|crowded|national|delicious]] person I know. He gets up at six to buy fresh chicken, and he doesn't go home until midnight. He is also [[clever|wooden|illegal|sour]]. A few years ago, he noticed that many customers were students. So he started a "study card." If you show him a good test paper, you get a free drink. My classmates and I all try harder on tests now! Mr. Huang looks scary because he is big and has a loud voice. But he is actually very [[gentle|cheap|plastic|thick]]. Once a little boy dropped his chicken on the ground and started to cry. Mr. Huang gave him a new one and [[touched|boiled|borrowed|spelled]] his head softly. "Don't cry," he said with a smile. "Chicken likes happy kids."
+> 1 has sold fried chicken「已經賣雞排二十年」，現在完成式用過去分詞 sold。married、spelled、invited 都不能接 fried chicken 表示做生意。
+> 2 六點起床、半夜才回家，是最「勤奮」的人 the most hard-working person。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人。
+> 3 想出「讀書卡」吸引學生，很「聰明」clever。wooden（木製的）、illegal（違法的）、sour（酸的）都不能形容老闆。
+> 4 看起來兇，其實很「溫柔」gentle，後面說他安慰小男孩。cheap（便宜的）、plastic（塑膠的）、thick（厚的）都不能形容人的個性。
+> 5 touched his head softly「輕輕摸他的頭」。boil（煮沸）、borrow（借）、spell（拼字）都不能接 his head softly。
++ fried chicken = 炸雞（雞排）
++ stand = 攤子
++ customer = 顧客
+= 每天晚上，夜市裡黃老闆的雞排攤前都排著長長的隊伍。他已經在那裡賣雞排二十年了。黃老闆是我認識最勤奮的人，他早上六點起床去買新鮮的雞肉，到半夜才回家。他也很聰明。幾年前，他發現很多客人是學生，就推出了「讀書卡」：只要給他看一張考得好的考卷，就送一杯免費飲料。我和同學現在考試都更努力了！黃老闆個子大、嗓門也大，看起來有點可怕，但他其實很溫柔。有一次，一個小男孩把雞排掉到地上，哭了起來。黃老闆給他一塊新的，還輕輕摸摸他的頭，笑著說：「別哭，雞排喜歡開心的小孩。」
+
+## 不可怕的牙醫
+I used to be afraid of dentists. When I was little, a dentist [[hurt|invited|spelled|married]] me, and I cried so much that my mom had to hold my hands. So when I had a toothache last month, I didn't want to go. But my mom took me to a new dentist, Dr. Lin. She was young and very [[gentle|crowded|national|delicious]]. Before she started, she showed me all her tools and explained what each one did. She was also [[smart|wooden|illegal|cheap]]. She gave me a small mirror so I could watch everything. When I saw what she was doing, I wasn't scared anymore. She found a small hole in my tooth and fixed it in fifteen minutes. "You're a brave boy," she said. Then she gave me some advice. "Don't be [[lazy|crowded|sour|plastic]] about brushing your teeth. Brush for two minutes after every meal." Now I go to see Dr. Lin every six months, and I [[brush|marry|borrow|invite]] my teeth more carefully every night.
+> 1 小時候牙醫「弄痛」我 hurt me，所以我哭了。invite（邀請）、spell（拼字）、marry（結婚）都不能說明我哭的原因。（hurt 過去式不變。）
+> 2 年輕又很「溫柔」gentle，先解釋每個工具。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容醫生。
+> 3 給我鏡子看過程，讓我不怕，很「聰明」smart。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容醫生。
+> 4 be lazy about brushing「對刷牙偷懶」。crowded、sour（酸的）、plastic（塑膠的）都不能接 about brushing your teeth。
+> 5 brush my teeth「刷牙」。marry、borrow（借）、invite 都不能和 teeth 搭配表示刷牙。
++ dentist = 牙醫
++ toothache = 牙痛
++ tool = 工具
++ advice = 建議
+= 我以前很怕牙醫。小時候，有個牙醫弄痛了我，我哭得很厲害，媽媽只好抓住我的手。所以上個月我牙痛時，根本不想去。但媽媽帶我去看一位新的牙醫，林醫師。她很年輕，也非常溫柔。開始之前，她先給我看所有工具，並解釋每一樣是做什麼的。她也很聰明，給我一面小鏡子，讓我可以看著整個過程。看到她在做什麼之後，我就不怕了。她在我的牙齒上找到一個小洞，十五分鐘就補好了。「你是個勇敢的男孩。」她說。接著她給我一些建議：「刷牙不要偷懶，每餐飯後刷兩分鐘。」現在我每半年去看一次林醫師，每天晚上也更仔細地刷牙了。
+
+## 寒假作業的最後一天
+Winter vacation was three weeks long, and I had a lot of homework. On the first day, I made a plan: two pages every day. But I was [[lazy|crowded|national|delicious]]. I played video games, watched cartoons, and slept until noon. Every day, I said, "I'll start tomorrow." Then it was the last day of vacation, and I still had forty pages to do! I wanted to cry. My older sister saw me and shook her head. She wasn't angry. She was [[gentle|wooden|illegal|cheap]] and said, "Let's make a new plan." She was really [[clever|crowded|sour|plastic]]. She told me to do the easy pages first, so I could finish many pages quickly and feel better. Then she helped me with the hard math problems. I was [[hard-working|thick|national|rainy]] that day for the first time in three weeks. I didn't stop until two in the morning. In the end, I finished everything. Next vacation, I'm going to [[follow|marry|borrow|spell]] my plan from the first day.
+> 1 打電動、看卡通、睡到中午，我很「懶」lazy。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人。
+> 2 姊姊沒生氣，很「溫柔」地說 gentle。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容姊姊的態度。
+> 3 先做簡單的頁數讓我有成就感，姊姊很「聰明」clever。crowded、sour（酸的）、plastic（塑膠的）都不能形容人。
+> 4 那天我三週來第一次很「勤奮」hard-working，做到凌晨兩點。thick（厚的）、national、rainy（下雨的）都不能形容人。
+> 5 follow my plan「照計畫做」。marry（結婚）、borrow（借）、spell（拼字）都不能和 plan 搭配表示照著做。
++ cartoon = 卡通
++ shake one's head = 搖頭
+= 寒假有三個星期，我有很多作業。第一天，我做了一個計畫：每天寫兩頁。可是我很懶，打電動、看卡通、睡到中午，每天都說：「明天再開始。」結果到了寒假最後一天，我還有四十頁沒寫！我好想哭。姊姊看到我，搖了搖頭。她沒有生氣，很溫柔地說：「我們來做個新計畫吧。」她真的很聰明，叫我先寫簡單的頁數，這樣可以很快寫完很多頁，心情也會好一點。然後她幫我解很難的數學題。那天是我三個星期以來第一次這麼勤奮，一直寫到凌晨兩點才停。最後，我全部寫完了。下次放假，我要從第一天就照著計畫做。
+
+## 聽錯話的智慧音箱
+Last Christmas, my dad bought a [[smart|crowded|national|delicious]] speaker for our living room. You can talk to it, and it plays music, tells you the weather, and answers questions. My dad loves it. But it doesn't always understand us. One morning, Dad said, "Play some relaxing music." The speaker said, "OK. Playing 'Let's Go Fishing.'" Another time, my little brother asked, "How tall is the tallest dog?" It answered, "The tallest dog is a mall in Taipei." We laughed so hard that my brother [[cried|borrowed|spelled|invited]]. My grandma doesn't trust it. "A machine can't be [[clever|delicious|crowded|rainy]]," she says. "It's just a box with a voice." But even she uses it now. She asks it to read the news to her in a [[gentle|crowded|sour|plastic]] voice every morning. And my dad, who is a little [[lazy|thick|national|rainy]], uses it to turn off the lights so he doesn't have to get out of bed.
+> 1 smart speaker「智慧音箱」，後文說能對話、放音樂。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容音箱。
+> 2 laughed so hard that he cried「笑到哭出來」。borrowed（借）、spelled（拼字）、invited（邀請）後面都要接受詞，而且和大笑無關。
+> 3 阿嬤說機器不可能「聰明」clever，只是會說話的盒子。阿嬤的意思是機器沒有頭腦；delicious（好吃的）、crowded（擁擠的）、rainy（下雨的）都和這個意思無關。
+> 4 in a gentle voice「用溫柔的聲音」唸新聞。crowded、sour（酸的）、plastic（塑膠的）都不能形容聲音。
+> 5 爸爸有點「懶」lazy，連關燈都不想下床。thick（厚的）、national、rainy（下雨的）都不能形容人。
++ speaker = 喇叭；音箱
++ relaxing = 放鬆的
++ mall = 購物中心
++ trust = 信任
+= 去年聖誕節，爸爸幫客廳買了一台智慧音箱。你可以跟它說話，它會放音樂、報天氣，還會回答問題。爸爸很愛它，但它不一定聽得懂我們說的話。有一天早上，爸爸說：「放一些放鬆的音樂。」音箱說：「好的，正在播放〈我們去釣魚〉。」又有一次，我弟弟問：「最高的狗有多高？」它回答：「最高的狗是台北的一間購物中心。」我們笑到弟弟都哭了。阿嬤不相信它。「機器不可能聰明的，」她說，「它只是一個會說話的盒子。」但連她現在也在用了，她每天早上請它用溫柔的聲音唸新聞給她聽。而有點懶的爸爸，則用它來關燈，這樣就不用下床了。
+
+## 阿嬤的屋頂菜園
+My grandma lives in an old apartment in Kaohsiung. She doesn't have a yard, so she [[grows|marries|spells|borrows]] vegetables on the roof. She has tomatoes, green onions, and even a small papaya tree. Grandma is seventy-eight, but she is still very [[hard-working|crowded|national|delicious]]. Every morning, she carries water up five floors to her plants. She is also [[clever|wooden|illegal|cheap]]. She uses old plastic bottles to make small water pipes, so the plants get water slowly all day. When I visit her, she lets me pick the tomatoes. "Be [[gentle|sour|plastic|thick]]," she says. "If you pull too hard, you'll hurt the plant." Last summer, I was [[lazy|crowded|rainy|national]] and didn't want to help her. I just sat inside and played on my phone. But when I tasted her tomato soup that night, I felt bad. Now I help her every weekend, and she says I'm her best little farmer.
+> 1 沒有院子，就在屋頂「種」菜 grows vegetables。marry（結婚）、spell（拼字）、borrow（借）都不能接 vegetables on the roof。
+> 2 七十八歲還每天提水爬五層樓，很「勤奮」hard-working。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容阿嬤。
+> 3 用舊寶特瓶做澆水管，很「聰明」clever。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容人。
+> 4 Be gentle.「輕一點、溫柔一點」，太用力會傷到植物。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能用來提醒摘番茄的方式。
+> 5 待在屋裡玩手機不想幫忙，我很「懶」lazy。crowded、rainy（下雨的）、national 都不能形容人。
++ Kaohsiung = 高雄
++ green onion = 蔥
++ papaya = 木瓜
++ roof = 屋頂
+= 我阿嬤住在高雄一棟老公寓裡。她沒有院子，所以在屋頂種菜。她種了番茄、蔥，甚至還有一棵小木瓜樹。阿嬤七十八歲了，還是非常勤奮，每天早上把水提上五層樓給她的植物。她也很聰明，用舊的塑膠瓶做成小水管，讓植物一整天慢慢喝到水。我去看她時，她會讓我摘番茄。「輕一點，」她說，「拉太用力會傷到植物。」去年夏天，我很懶，不想幫她，只坐在屋裡滑手機。但那天晚上喝到她煮的番茄湯時，我覺得很不好意思。現在我每個週末都去幫她，她說我是她最棒的小農夫。
