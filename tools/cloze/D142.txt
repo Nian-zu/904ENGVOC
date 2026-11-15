@@ -254,3 +254,135 @@ My cousin Leo loves Japanese comics. Last month, he found a website where he cou
 + artist = 漫畫家、藝術家
 + pocket money = 零用錢
 = 我的表哥 Leo 很愛看日本漫畫。上個月，他找到一個網站，可以免費看所有新出的漫畫。他興奮得告訴全班同學。但他讀大學的姊姊說：「那個網站是違法的，漫畫家一毛錢都拿不到。」Leo 一開始不在乎。後來他看了一支關於他最喜歡的漫畫家的影片。她說她一天工作十四個小時，如果大家不買她的書，她就沒辦法繼續畫下去。Leo 覺得很過意不去，那天晚上就不再用那個網站了。現在他存零用錢，買他最喜歡的漫畫。幸好學校圖書館也有很多，其他的他就用借的。「雖然慢了一點，」Leo 說，「但現在我看故事看得很安心。」
+
+## 在 Minecraft 裡蓋學校
+Last winter vacation was long, and I was [[bored|exciting|illegal|tidy]] after the first week. Then my classmate Ryan had an idea. "Let's build our school in Minecraft!" he said. Six of us joined the game online. At first, it was a mess. Everyone wanted to build different things, and nobody listened. Then Ryan said, "We need better [[communication|semester|garbage|uniform]]." He made a plan and gave each person one job. I built the library, and my friend Joy built the playground. Building the library was hard. I had to [[concentrate|decorate|celebrate|marry]] for hours to put every book on the right shelf. After two weeks, our school was finished. It even had our teacher's car in the parking lot! When the new [[semester|headache|communication|garbage]] began, we showed it to our class. Everyone was surprised, and our teacher said it was the most [[wonderful|thirsty|wet|cheap]] project she had ever seen.
+> 1 I was bored「我覺得無聊」，寒假太長了。exciting 是形容事物令人興奮，不能形容人的感覺；illegal（違法的）、tidy（整齊的）也不合。
+> 2 We need better communication「我們需要更好的溝通」，因為大家各做各的、沒人聽別人說話。semester（學期）、garbage（垃圾）、uniform（制服）都不能解決這個問題。
+> 3 concentrate for hours「專心好幾個小時」，才能把每本書放到對的書架上。decorate（裝飾）、celebrate（慶祝）、marry（嫁娶）都不符合「很難、要花很久」的意思。
+> 4 When the new semester began「新學期開始時」。headache（頭痛）、communication（溝通）、garbage（垃圾）都不能和 new… began 搭配表示時間。
+> 5 the most wonderful project「最棒的作品」。thirsty（口渴的）、wet（濕的）、cheap（便宜的）都不能形容讓老師讚美的作品。
++ Minecraft = 當個創世神（遊戲名）
++ online = 在線上
++ shelf = 書架
++ project = 作品、專題
+= 去年寒假好長，第一個星期過完我就覺得好無聊。後來同學 Ryan 想到一個點子：「我們在 Minecraft 裡蓋我們的學校吧！」我們六個人一起上線玩。一開始亂七八糟，每個人都想蓋不一樣的東西，沒有人聽別人說話。Ryan 說：「我們需要更好的溝通。」他做了一份計畫，給每個人一項工作。我負責蓋圖書館，我的朋友 Joy 蓋操場。蓋圖書館很難，我得專心好幾個小時，才能把每本書放到對的書架上。兩個星期後，我們的學校完成了，停車場裡甚至還有老師的車！新學期開始時，我們把它給全班看。大家都很驚訝，老師說這是她看過最棒的作品。
+
+## 不會噴火的小龍
+In a land far away, there lived a little dragon named Pip. All the other dragons could breathe fire, but Pip could only make a little smoke. The other dragons laughed at him, and Pip felt [[lonely|illegal|tidy|exciting]]. One winter, a terrible snowstorm came. The village at the bottom of the mountain was cold and dark. The big dragons wanted to help, but their fire was too strong. It [[burned|borrowed|married|spelled]] everything it touched. Then the village chief asked Pip, "Can you help us?" It was Pip's [[opportunity|semester|headache|garbage]] to show what he could do. He flew down and blew warm air into every house. The fire in the stoves came back, and nothing burned. The children were so [[excited|illegal|tidy|thick]] that they danced in the snow. [[Luckily|Loudly|Brightly|Heavily]], nobody got sick that winter. From then on, nobody laughed at Pip again.
+> 1 felt lonely「覺得孤單」，因為大家都笑他。illegal（違法的）、tidy（整齊的）不能形容感覺；exciting 是形容事物令人興奮，也不能形容被嘲笑的心情。
+> 2 It burned everything it touched「它會燒掉碰到的所有東西」，所以大龍的火太強不能幫忙。borrowed（借）、married（嫁娶）、spelled（拼字）都不能說明火的危險。
+> 3 It was Pip's opportunity to show…「這是 Pip 展現自己的機會」。semester（學期）、headache（頭痛）、garbage（垃圾）都不能接 to show what he could do。
+> 4 so excited that they danced「興奮到在雪中跳舞」。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容孩子們的心情。
+> 5 Luckily「幸好」，那個冬天沒有人生病。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都說不通。
++ dragon = 龍
++ breathe = 呼吸、吐出
++ snowstorm = 暴風雪
++ chief = 首領
++ stove = 爐子
+= 在很遠很遠的地方，住著一隻叫 Pip 的小龍。其他的龍都會噴火，Pip 卻只能噴出一點點煙。其他的龍都笑他，Pip 覺得好孤單。有一年冬天，一場可怕的暴風雪來了，山腳下的村子又冷又暗。大龍們想幫忙，可是牠們的火太強了，碰到什麼就燒掉什麼。這時村長問 Pip：「你可以幫我們嗎？」這是 Pip 展現自己的機會。他飛下山，往每一戶人家吹進溫暖的空氣。爐子裡的火又燒起來了，而且什麼東西都沒燒壞。孩子們興奮得在雪地裡跳舞。幸好那個冬天沒有人生病。從那之後，再也沒有人笑 Pip 了。
+
+## 兔子警官的第一天
+In the city of Zootopia, Judy Hopps was the first rabbit police officer. On her first day, her boss gave her a boring job: writing parking tickets. Judy was a little [[angry|illegal|tidy|thick]], but she decided to do her best. By noon, she had written two hundred tickets. Then she saw a fox selling ice cream on the street without a license. "That's [[illegal|bored|excited|tidy]]!" she said. The fox smiled and said, "I'm just trying to make some money, officer." Judy wanted to [[catch|borrow|marry|spell]] him, but she had no proof. That night, she sat alone in her small room. She felt tired and [[bored|exciting|tidy|illegal]] with her job. Was this really what she wanted? Then her phone rang. It was her parents. "We're so proud of you!" they said. Judy smiled. She knew that one day she would get a real [[opportunity|headache|garbage|uniform]] to show everyone what a rabbit could do.
+> 1 was a little angry「有點生氣」，因為被派去開罰單；後面用 but 說她還是決定盡力。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容人的心情。
+> 2 That's illegal「那是違法的」，沒有執照在街上賣東西。bored、excited 是人的感覺，不能形容這件事；tidy（整齊的）也不合。
+> 3 catch him「抓他」，但沒有證據。borrow（借）、marry（嫁娶）、spell（拼字）都不是警察會想對違法者做的事。
+> 4 tired and bored with her job「對工作覺得又累又無聊」。exciting 是形容事物令人興奮，不能形容人的感覺；tidy（整齊的）、illegal（違法的）也不合。
+> 5 get a real opportunity to show…「得到真正的機會證明…」。headache（頭痛）、garbage（垃圾）、uniform（制服）都不能接 to show everyone 表示機會。
++ Zootopia = 動物方城市
++ police officer = 警察
++ fox = 狐狸
++ license = 執照
++ proof = 證據
+= 在動物方城市裡，茱蒂‧哈普是第一位兔子警察。上班第一天，長官給了她一份無聊的工作：開停車罰單。茱蒂有點生氣，但她決定盡力去做。到了中午，她已經開了兩百張罰單。接著她看到一隻狐狸沒有執照在街上賣冰淇淋。「那是違法的！」她說。狐狸笑著說：「警官，我只是想賺點錢而已。」茱蒂想抓他，可是她沒有證據。那天晚上，她一個人坐在小房間裡，覺得工作又累又無聊。這真的是她想要的嗎？這時她的手機響了，是她爸媽打來的。「我們真以妳為傲！」他們說。茱蒂笑了。她知道總有一天，她會得到真正的機會，讓大家看看一隻兔子能做到什麼。
+
+## 夜市撈到的金魚
+Last Friday, I won a goldfish at the night market. I named him Bubbles and put him in a small glass bowl on my desk. But after a few days, Bubbles stopped swimming around. He just stayed at the bottom of the bowl. "I think he's [[bored|exciting|illegal|tidy]]," my sister said. "That bowl is too small." So we went to a pet shop. The owner told us that goldfish need a lot of space and clean water. She also said goldfish are smarter than most people think. They can even [[learn|borrow|marry|spell]] to know the person who feeds them. We bought a bigger fish tank with plants and small rocks, and I kept it clean and [[tidy|bored|excited|illegal]] every week. [[Luckily|Loudly|Brightly|Heavily]], Bubbles became active again. Now, every time I walk into my room, he swims to the front of the tank. Maybe he's [[excited|illegal|tidy|thick]] to see me, or maybe he just wants food!
+> 1 he's bored「牠很無聊」，整天待在碗底不動，因為碗太小了。exciting 是形容事物令人興奮，不能形容金魚的感覺；illegal（違法的）、tidy（整齊的）也不合。
+> 2 learn to know…「學會認得…」，金魚會認得餵牠的人。borrow（借）、marry（嫁娶）、spell（拼字）都不能接 to know。
+> 3 clean and tidy「乾淨又整齊」，形容魚缸。bored、excited 是人或動物的感覺，不能形容魚缸；illegal（違法的）也不合。
+> 4 Luckily「幸好」，換了大魚缸後牠又活潑起來。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都說不通。
+> 5 excited to see me「看到我很興奮」。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容金魚的心情。
++ goldfish = 金魚
++ bowl = 碗、魚缸
++ fish tank = 魚缸
+= 上星期五，我在夜市撈到一隻金魚。我叫牠 Bubbles，把牠放在書桌上的小玻璃碗裡。可是過了幾天，Bubbles 不再到處游了，只是待在碗底。「我覺得牠很無聊，」姊姊說，「那個碗太小了。」於是我們去了寵物店。老闆告訴我們，金魚需要很大的空間和乾淨的水。她還說金魚比大多數人想的還要聰明，甚至能學會認得餵牠的人。我們買了一個有水草和小石頭的大魚缸，我每個星期都把它整理得乾淨又整齊。幸好 Bubbles 又變得活潑了。現在每次我走進房間，牠都會游到魚缸前面。也許牠是看到我很興奮，也或許牠只是想吃東西吧！
+
+## 自然課的火山實驗
+In our science class last week, we made volcanoes with baking soda and vinegar. Our teacher, Ms. Huang, told us to be [[careful|thirsty|lonely|cheap]]. "Put in only one spoon of baking soda," she said. "And [[concentrate|decorate|celebrate|marry]] on what you're doing." My partner, Danny, didn't listen. He was too [[excited|illegal|tidy|thick]] and put in five spoons. Then he poured in all the vinegar at once. Our volcano exploded like a real one! Pink bubbles flew everywhere, onto our desks, our books, and even Ms. Huang's glasses. The whole class went quiet. [[Luckily|Loudly|Brightly|Heavily]], Ms. Huang laughed. "Well, Danny," she said, "now you know why we use only one spoon." After class, Danny and I stayed to clean the room. We made everything [[tidy|bored|excited|illegal]] again before the next class came in. It was the messiest but most fun science class ever.
+> 1 be careful「要小心」，後面老師提醒只能放一匙。thirsty（口渴的）、lonely（孤單的）、cheap（便宜的）都不是做實驗前老師會提醒的事。
+> 2 concentrate on what you're doing「專心做你在做的事」。decorate（裝飾）、celebrate（慶祝）、marry（嫁娶）都不能接 on what you're doing。
+> 3 too excited「太興奮了」，所以沒聽老師的話放了五匙。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容人的心情。
+> 4 Luckily「幸好」，老師笑了而沒有生氣。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都說不通。
+> 5 made everything tidy again「把一切再弄整齊」，make + 受詞 + 形容詞。bored、excited 是人的感覺，不能形容教室；illegal（違法的）也不合。
++ volcano = 火山
++ baking soda = 小蘇打
++ vinegar = 醋
++ explode = 爆炸、噴發
+= 上星期的自然課，我們用小蘇打和醋做火山。黃老師要我們小心：「小蘇打只能放一匙，」她說，「還有，要專心做你們手上的事。」我的搭檔 Danny 沒在聽，他太興奮了，一口氣放了五匙，接著又把醋一次全倒進去。我們的火山像真的一樣噴發了！粉紅色的泡泡四處亂飛，噴到我們的桌子、課本上，甚至噴到黃老師的眼鏡上。全班一下子安靜下來。幸好黃老師笑了。「嗯，Danny，」她說，「現在你知道為什麼我們只放一匙了吧。」下課後，Danny 和我留下來打掃，在下一班進來之前把教室整理乾淨。那是最亂、但也最好玩的一堂自然課。
+
+## 畢業旅行的飯店房間
+Our class trip to Tainan was the most [[exciting|excited|bored|tidy]] event of ninth grade. Four of us shared a hotel room. The first night, we were so [[excited|illegal|tidy|thick]] that we talked and played cards until two in the morning. The next morning, we woke up late and had only ten minutes to get ready. Our room was a mess. There were clothes, snacks, and cards everywhere. Our teacher knocked on the door and said, "Leave your room [[tidy|bored|excited|illegal]] before you go. The hotel workers are not your mothers!" We cleaned up as fast as we could. [[Luckily|Loudly|Brightly|Heavily]], we didn't miss the bus. That day, we visited old temples and ate shrimp rolls and beef soup. The food was so [[delicious|honest|polite|brave]] that I ate three bowls of soup. That night, we went to bed early. We didn't want to run again in the morning!
+> 1 the most exciting event「最令人興奮的活動」，形容事物用 -ing。excited、bored 是形容人的感覺，不能形容活動；tidy（整齊的）也不合。
+> 2 so excited that we talked until two「興奮到聊到半夜兩點」。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容人的心情。
+> 3 Leave your room tidy「讓房間保持整齊再離開」，leave + 受詞 + 形容詞。bored、excited 是人的感覺，不能形容房間；illegal（違法的）也不合。
+> 4 Luckily「幸好」，我們沒有錯過遊覽車。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都說不通。
+> 5 so delicious that I ate three bowls「好吃到喝了三碗」。honest（誠實的）、polite（有禮貌的）、brave（勇敢的）都是形容人，不能形容食物。
++ Tainan = 台南
++ hotel = 飯店
++ shrimp roll = 蝦捲
+= 我們班的台南畢業旅行是九年級最令人興奮的活動。我們四個人住一間飯店房間。第一天晚上，我們興奮得聊天、玩撲克牌玩到凌晨兩點。隔天早上我們睡過頭，只剩十分鐘可以準備。房間亂成一團，衣服、零食和撲克牌到處都是。老師敲門說：「離開前把房間整理整齊。飯店的工作人員不是你們的媽媽！」我們用最快的速度打掃。幸好我們沒有錯過遊覽車。那天，我們參觀了古老的廟宇，吃了蝦捲和牛肉湯。牛肉湯好喝到我喝了三碗。那天晚上我們很早就上床睡覺了，因為我們不想早上又用跑的！
+
+## 狗狗的尾巴會說話
+Dogs can't talk, but they are very good at [[communication|semester|garbage|uniform]]. They use their tails, ears, and eyes to tell us how they feel. My dog, Lucky, is a good example. When I come home from school, she wags her tail so hard that her whole body moves. That means she is [[excited|illegal|tidy|thick]] to see me. When she is [[bored|exciting|illegal|tidy]], she brings me her ball and drops it on my feet again and again. And when she does something wrong, like eating my shoes, she puts her ears down and won't look at me. Last month, Lucky kept barking at the kitchen door in the middle of the night. My dad went to [[check|borrow|marry|spell]] and found that the gas was on. [[Luckily|Loudly|Brightly|Heavily]], nobody was hurt. Now we always listen when Lucky tries to tell us something.
+> 1 good at communication「很會溝通」，後面說明狗用尾巴、耳朵和眼睛表達感覺。semester（學期）、garbage（垃圾）、uniform（制服）都不能接在 good at 後面說明這種能力。
+> 2 excited to see me「看到我很興奮」，所以尾巴搖得很用力。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容狗的心情。
+> 3 When she is bored「牠無聊的時候」，會一直把球丟到我腳邊要我陪牠玩。exciting 是形容事物令人興奮，不能形容狗的感覺；illegal（違法的）、tidy（整齊的）也不合。
+> 4 went to check「去查看」，結果發現瓦斯沒關。borrow（借）、marry（嫁娶）、spell（拼字）都不能說明爸爸半夜去廚房做什麼。
+> 5 Luckily「幸好」，沒有人受傷。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都說不通。
++ tail = 尾巴
++ wag = 搖（尾巴）
++ bark = 吠叫
++ gas = 瓦斯
+= 狗不會說話，但牠們很會溝通。牠們用尾巴、耳朵和眼睛告訴我們牠們的感覺。我的狗 Lucky 就是一個好例子。我放學回家時，牠尾巴搖得超用力，整個身體都跟著動，意思是牠看到我很興奮。牠無聊的時候，會把球叼來，一次又一次丟在我腳上。牠做錯事的時候，像是咬壞我的鞋子，就會把耳朵垂下來，不敢看我。上個月，Lucky 半夜一直對著廚房的門叫。爸爸去查看，發現瓦斯沒關。幸好沒有人受傷。現在只要 Lucky 想告訴我們什麼，我們都會好好聽。
+
+## 山上的煙火
+Last New Year's Eve, my uncle's family and mine went camping in the mountains. At night, my cousin Tony took out some fireworks. He was [[excited|illegal|tidy|thick]] to play with them. But my uncle stopped him. "It's [[illegal|bored|excited|tidy]] to set off fireworks here," he said. "The trees are very dry this time of year. One spark could start a big fire." Tony was [[angry|tidy|thick|cheap]] at first. He said it was just one small firework. Then my uncle showed him a news report on his phone. Two years ago, a fire on this mountain [[burned|borrowed|married|spelled]] for three days because someone played with fireworks. Tony put the fireworks back in his bag. Instead, we lay on the grass and looked at the stars. [[Luckily|Loudly|Brightly|Heavily]], the sky was clear, and we saw five shooting stars. "That was better than fireworks," Tony said.
+> 1 excited to play with them「很興奮要玩」。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容人的心情。
+> 2 It's illegal to set off fireworks here「在這裡放煙火是違法的」。bored、excited 是人的感覺，不能用在 it's ___ to 的句型；tidy（整齊的）也不合。
+> 3 angry at first「一開始很生氣」，後面還辯說只是一支小煙火。tidy（整齊的）、thick（厚的）、cheap（便宜的）都不能形容人的情緒。
+> 4 burned for three days「燒了三天」。borrowed（借）、married（嫁娶）、spelled（拼字）都不能形容山火。
+> 5 Luckily「幸好」，天空很晴朗，看到了流星。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都不能修飾「天空很晴朗」這件幸運的事。
++ New Year's Eve = 跨年夜
++ firework = 煙火
++ set off = 施放
++ spark = 火花
++ shooting star = 流星
+= 去年跨年夜，舅舅一家和我們家去山上露營。晚上，表哥 Tony 拿出一些煙火，興奮地要玩。但是舅舅阻止了他：「在這裡放煙火是違法的，」他說，「每年這個時候樹木都很乾，一點火花就可能引起大火。」Tony 一開始很生氣，說只是一支小煙火而已。後來舅舅用手機給他看一則新聞：兩年前，有人在這座山上玩煙火，結果大火燒了三天。Tony 把煙火收回包包裡。我們改躺在草地上看星星。幸好天空很晴朗，我們看到了五顆流星。「這比煙火還棒，」Tony 說。
+
+## 新學期的新座位
+On the first day of the new [[semester|headache|communication|garbage]], our teacher changed everyone's seats. I had to sit next to Ben, the quietest boy in our class. I was not happy about it. "This will be so [[boring|thirsty|wet|cheap]]," I thought. For the first week, we didn't say a word to each other. Then one day, I saw Ben drawing in his notebook. He drew a cat riding a skateboard, and it looked real! "You draw so well," I said. Ben smiled for the first time. After that, we started to talk. He told me he wants to be an artist, and I told him I want to be a writer. We came up with an [[exciting|excited|bored|tidy]] plan: making our own comic book together. I write the stories, and he draws the pictures. Now I think the new seat was a great [[opportunity|headache|garbage|uniform]]. [[Luckily|Loudly|Brightly|Heavily]], our teacher won't change our seats again until next year.
+> 1 the first day of the new semester「新學期的第一天」。headache（頭痛）、communication（溝通）、garbage（垃圾）都不能表示時間。
+> 2 so boring「很無聊」，因為要坐在班上最安靜的男生旁邊。thirsty（口渴的）、wet（濕的）、cheap（便宜的）都不能形容這件事。
+> 3 an exciting plan「令人興奮的計畫」，形容事物用 -ing。excited、bored 是人的感覺，不能形容計畫；tidy（整齊的）也不合。
+> 4 a great opportunity「很好的機會」，換座位讓我交到好朋友。headache（頭痛）、garbage（垃圾）、uniform（制服）都不能表示這件好事。
+> 5 Luckily「幸好」，老師明年才會再換座位，我們可以繼續坐在一起。Loudly（大聲地）、Brightly（明亮地）、Heavily（沉重地）都說不通。
++ seat = 座位
++ skateboard = 滑板
++ artist = 畫家
++ comic book = 漫畫書
+= 新學期的第一天，老師幫每個人換了座位。我得坐在 Ben 旁邊，他是我們班最安靜的男生。我不太高興，心想：「這一定會很無聊。」第一個星期，我們一句話都沒說。後來有一天，我看到 Ben 在筆記本上畫畫。他畫了一隻踩滑板的貓，看起來跟真的一樣！「你畫得好好喔，」我說。Ben 第一次笑了。從那之後，我們開始聊天。他告訴我他想當畫家，我告訴他我想當作家。我們想出一個令人興奮的計畫：一起做我們自己的漫畫書。我寫故事，他畫圖。現在我覺得換座位是一個很好的機會。幸好老師要到明年才會再換座位。
+
+## 和暴龍一起睡的夜晚
+Our school had a special event last Friday: a night at the science museum! We could sleep next to the dinosaur bones. When our teacher told us, the whole class was so [[excited|illegal|tidy|thick]] that we cheered loudly. That night, we walked through the dark halls with flashlights. A guide told us that the big T. rex in the main hall lived about 66 million years ago. "Can I touch it?" my friend Mark asked. "No, it's very old and easy to [[break|borrow|marry|spell]]," the guide said. Then we watched a movie about how dinosaurs died out. I had to [[concentrate|decorate|celebrate|marry]] hard because the movie was all in English. At midnight, we lay in our sleeping bags under the T. rex. Mark whispered, "What if it wakes up?" Everyone laughed. It was a once-in-a-lifetime [[opportunity|headache|garbage|uniform]], and I wasn't [[bored|illegal|tidy|thick]] for even one second.
+> 1 so excited that we cheered「興奮到大聲歡呼」。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容人的心情。
+> 2 easy to break「很容易壞」，所以不能摸。borrow（借）、marry（嫁娶）、spell（拼字）都不能說明為什麼不能摸化石。
+> 3 concentrate hard「非常專心」，因為影片全是英文。decorate（裝飾）、celebrate（慶祝）、marry（嫁娶）都不能說明看英文影片要怎麼做。
+> 4 a once-in-a-lifetime opportunity「一生一次的機會」。headache（頭痛）、garbage（垃圾）、uniform（制服）都不能形容這次難得的經驗。
+> 5 wasn't bored for even one second「一秒都不覺得無聊」。illegal（違法的）、tidy（整齊的）、thick（厚的）都不能形容人的感覺。
++ dinosaur = 恐龍
++ flashlight = 手電筒
++ T. rex = 暴龍
++ whisper = 小聲說
++ once-in-a-lifetime = 一生一次的
+= 上星期五，我們學校有一個特別的活動：在科學博物館過夜！我們可以睡在恐龍骨頭旁邊。老師一宣布，全班都興奮得大聲歡呼。那天晚上，我們拿著手電筒走過黑漆漆的展廳。導覽員告訴我們，大廳裡那隻大暴龍生活在大約六千六百萬年前。「我可以摸它嗎？」我的朋友 Mark 問。「不行，它很古老，很容易壞，」導覽員說。接著我們看了一部關於恐龍怎麼滅絕的影片。因為影片全是英文，我必須非常專心。午夜時，我們躺在暴龍下面的睡袋裡。Mark 小聲說：「如果它醒過來怎麼辦？」大家都笑了。這是一生一次的機會，我一秒鐘都不覺得無聊。
