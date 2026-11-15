@@ -269,3 +269,138 @@ My neighbor Lily is only ten, but she is already a famous actor. She started act
 + role = 角色
 + filming = 拍攝
 = 我的鄰居 Lily 才十歲，就已經是一位有名的演員了。她三歲時就開始拍電視廣告，那時還很小。大家都很喜歡她可愛的笑容和圓圓的臉。現在她長得很快，去年身高 130 公分，今年已經 142 公分了！她的導演很擔心，因為她看起來太大，不適合演小女孩的角色。可是 Lily 一點都不擔心。「我長大想當醫生，」她跟我解釋，「演戲很好玩，但對我來說上學更重要。」每天拍完戲，她還是會在車上寫功課。
+
+## 盲人足球
+Last weekend, my dad took me to watch a blind football game. All the players were [[blind|polite|rich|friendly]] or could only see a little. To make the game fair, they all wore eye masks. The ball had small bells inside, so when it moved, it made a sound. During the game, the fans had to be [[quiet|delicious|national|illegal]] so the players could hear the ball. Only the goalkeepers could see. One goalkeeper was very tall, and his [[height|habit|garbage|sentence]] helped him stop many high balls. The best player was very [[young|crowded|national|convenient]], only sixteen. In the last minute, he [[kicked|spelled|borrowed|explained]] the ball past three players and scored! Finally, everyone could make noise, and we cheered as loudly as we could.
+> 1 球員看不見或只看得到一點點 blind。polite（有禮貌的）、rich（有錢的）、friendly（友善的）都和後面 could only see a little 接不起來。
+> 2 球迷要保持「安靜」，球員才聽得到球 quiet。delicious（好吃的）、national（國家的）、illegal（違法的）都不能形容人的狀態。
+> 3 守門員很高，他的「身高」幫他擋下高球 height。habit（習慣）、garbage（垃圾）、sentence（句子）都和擋高球無關。
+> 4 才十六歲，很「年輕」young。crowded（擁擠的）、national、convenient（方便的）都不能形容人。
+> 5 kick the ball「踢球」，過去式 kicked。spelled（拼字）、borrowed（借入）、explained（解釋）都不能讓球越過球員。
++ bell = 鈴鐺
++ fair = 公平的
++ eye mask = 眼罩
++ goalkeeper = 守門員
++ score = 得分
+= 上週末，爸爸帶我去看一場盲人足球比賽。所有球員都是看不見或只看得到一點點的人。為了公平，他們都戴上眼罩。球裡面有小鈴鐺，球一動就會發出聲音。比賽時，球迷必須保持安靜，球員才聽得到球的位置。只有守門員看得見。其中一位守門員很高，他的身高讓他擋下了很多高球。表現最好的球員很年輕，才十六歲。最後一分鐘，他帶球越過三名球員，射門得分！大家終於可以出聲了，我們用最大的聲音歡呼。
+
+## 南瓜大賽
+When I visited my aunt in the U.S. last fall, we went to a giant pumpkin contest. The pumpkins were bigger than anything I had ever seen. The winner's [[weight|topic|habit|sentence]] was 800 kilograms, as heavy as a small car! It was so big that its [[height|habit|garbage|sentence]] was almost the same as mine. A [[young|crowded|national|convenient]] farmer, only twenty-five, grew it. He [[explained|boiled|spelled|baked]] that he gave it about 400 liters of water every day in summer. Around the pumpkins, many kids wore orange costumes. My little cousin wore a pumpkin hat with a green leaf on top, and she looked so [[cute|crowded|national|illegal]] that people kept taking photos of her. In the end, she wanted to take the giant pumpkin home, but of course, it couldn't fit in the car.
+> 1 the winner's weight was 800 kilograms「冠軍南瓜的重量是 800 公斤」。topic（主題）、habit（習慣）、sentence（句子）都不能用公斤表示。
+> 2 南瓜大到「高度」跟我差不多 height。habit、garbage（垃圾）、sentence 都不能拿來和人比高。
+> 3 a young farmer「一位年輕的農夫」，才二十五歲。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 4 explain that…「解釋說…」。boiled（煮沸）、spelled（拼字）、baked（烘烤）後面都不能接 that 子句。
+> 5 戴南瓜帽的表妹「可愛」到大家一直拍照 cute。crowded、national、illegal（違法的）都不能形容小女孩。
++ giant = 巨大的
++ pumpkin = 南瓜
++ contest = 比賽
++ liter = 公升
++ costume = 服裝、扮裝
+= 去年秋天我去美國找阿姨，我們一起去看巨無霸南瓜比賽。那些南瓜比我見過的任何東西都大。冠軍南瓜重達 800 公斤，跟一台小汽車一樣重！它大到高度幾乎和我一樣。種出它的是一位年輕的農夫，才二十五歲。他解釋說，夏天他每天要給它澆大約 400 公升的水。南瓜旁邊有很多小孩穿著橘色的服裝。我的小表妹戴了一頂頂端有綠葉的南瓜帽，可愛到大家一直幫她拍照。最後她想把巨無霸南瓜帶回家，但當然，車子根本放不下。
+
+## 牧場的小馬
+During our trip to Taitung, we visited a horse farm. We arrived just in time. A mother horse had given birth only an hour before. The baby horse was very [[young|crowded|national|convenient]], but it was already trying to stand. Its long legs shook, and it fell down again and again. The farmer said its [[weight|topic|habit|sentence]] was about forty kilograms. "Baby horses must stand soon after they are born," he said. "In the wild, they need to [[run|arrive|happen|exist]] away from danger." Finally, the little horse stood up and walked to its mother. It had a white spot on its face and looked so [[cute|crowded|national|illegal]]. The farmer even let me [[choose|arrive|happen|exist]] a name for it. I called it Star.
+> 1 小馬才出生一小時，非常「年幼」young。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容動物。
+> 2 its weight was about forty kilograms「牠的體重大約四十公斤」。topic（主題）、habit（習慣）、sentence（句子）都不能用公斤表示。
+> 3 run away from danger「逃離危險」。arrive（抵達）、happen（發生）、exist（存在）都不能和 away from 搭配表示逃跑。
+> 4 臉上有白斑的小馬看起來很「可愛」cute。crowded、national、illegal（違法的）都不能形容小馬。
+> 5 let me choose a name「讓我選一個名字」。arrive、happen、exist 都是不及物動詞，不能接 a name。
++ Taitung = 台東
++ give birth = 生產
++ wild = 野外
++ spot = 斑點
+= 我們去台東旅行時，參觀了一座馬場。我們來得正是時候——一匹母馬一小時前剛生下小馬。小馬非常小，卻已經想要站起來了。牠的長腿一直發抖，一次又一次跌倒。農場主人說牠的體重大約四十公斤。「小馬出生後要很快站起來，」他說，「在野外，牠們得逃離危險。」最後，小馬終於站起來，走到媽媽身邊。牠臉上有一塊白斑，看起來好可愛。農場主人甚至讓我幫牠取名字，我叫牠「星星」。
+
+## 矮個子控球後衛
+I love basketball, but I'm the shortest player on our school team. My [[height|habit|garbage|sentence]] is only 155 centimeters. My [[weight|topic|habit|uniform]] is 40 kilograms, so bigger players can push me away easily. I'm also [[young|crowded|national|convenient]], just a seventh grader. At first, I thought the coach would never [[allow|spell|boil|bake]] me to play in a real game. But one day, he said, "Use your speed. Small players are hard to [[catch|arrive|happen|exist]]." He taught me to dribble low and pass quickly. In our last game, I passed the ball between a tall player's legs to my teammate, and he scored. Now I'm the team's point guard, and nobody laughs at my size anymore.
+> 1 my height is only 155 centimeters「我的身高只有 155 公分」。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用公分表示。
+> 2 my weight is 40 kilograms「我的體重 40 公斤」，所以容易被推開。topic（主題）、habit、uniform（制服）都不能用公斤表示。
+> 3 才七年級，很「年輕」young。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 4 allow + 人 + to V「允許某人做…」。spell（拼字）、boil（煮沸）、bake（烘烤）都沒有「___ me to play」的用法。
+> 5 hard to catch「很難抓到」，小個子球員速度快。arrive（抵達）、happen（發生）、exist（存在）都不能這樣用。
++ seventh grader = 七年級生
++ coach = 教練
++ dribble = 運球
++ point guard = 控球後衛
+= 我很愛打籃球，但我是校隊裡最矮的球員。我的身高只有 155 公分，體重 40 公斤，所以高大的球員很容易就把我推開。我也很年輕，才七年級。一開始，我以為教練永遠不會讓我上場比賽。可是有一天，他說：「善用你的速度。小個子的球員很難抓。」他教我壓低運球、快速傳球。上一場比賽，我從一位高個子球員的兩腿之間把球傳給隊友，他投進了。現在我是球隊的控球後衛，再也沒有人笑我個子小了。
+
+## 寶可夢圖鑑
+My little brother loves Pokémon. Even when he was very [[young|crowded|national|convenient]], he could remember the names of a hundred Pokémon. Every night before bed, he reads his Pokédex book. "Did you know Pikachu's [[height|habit|garbage|sentence]] is only 40 centimeters?" he asked me last night. "That's shorter than our cat!" He thinks Pikachu is very [[cute|crowded|national|illegal]], but his favorite is Snorlax. "Snorlax's [[weight|topic|habit|uniform]] is 460 kilograms! It eats all day and sleeps the rest of the time." "That sounds just like you," I said. He laughed and [[threw|spelled|explained|borrowed]] a pillow at me. Then he fell asleep with the book on his face, just like Snorlax.
+> 1 even when he was very young「即使在他很小的時候」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 2 Pikachu's height is only 40 centimeters「皮卡丘的身高只有 40 公分」。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用公分表示。
+> 3 覺得皮卡丘很「可愛」cute。crowded、national、illegal（違法的）都不能形容皮卡丘。
+> 4 Snorlax's weight is 460 kilograms「卡比獸的體重 460 公斤」。topic（主題）、habit、uniform（制服）都不能用公斤表示。
+> 5 throw a pillow at me「拿枕頭丟我」，過去式 threw。spelled（拼字）、explained（解釋）、borrowed（借入）都不能接 at me 表示丟東西。
++ Pokédex = 寶可夢圖鑑
++ Pikachu = 皮卡丘
++ Snorlax = 卡比獸
++ pillow = 枕頭
+= 我弟弟超愛寶可夢。他很小的時候，就能記住一百隻寶可夢的名字。每天睡前，他都會看他的寶可夢圖鑑。「你知道皮卡丘的身高只有 40 公分嗎？」他昨晚問我，「比我們家的貓還矮耶！」他覺得皮卡丘很可愛，但他最喜歡的是卡比獸。「卡比獸的體重有 460 公斤！牠整天都在吃，剩下的時間都在睡。」「聽起來跟你一模一樣。」我說。他笑著拿枕頭丟我。接著，他就把書蓋在臉上睡著了，跟卡比獸一模一樣。
+
+## 在月球上量體重
+At the science museum, there was a row of special scales. Each one showed your [[weight|topic|habit|sentence]] on a different planet. On Earth, I'm 50 kilograms. On the Moon scale, I was only about 8 kilograms! "That's because the Moon's pull is much weaker," a [[young|crowded|national|convenient]] guide [[explained|boiled|spelled|baked]]. "Your body doesn't change, but you would feel much lighter there." Then my little cousin stood on the Jupiter scale. On Earth, he is only 20 kilograms, but the scale showed 50! He walked slowly with his arms down, like he was too heavy to move. He looked so [[cute|crowded|national|illegal]] that everyone around us laughed. We had so much fun that we [[forgot|arrived|happened|existed]] about lunch and stayed there for an hour.
+> 1 每台體重計顯示你在不同行星上的「體重」weight。topic（主題）、habit（習慣）、sentence（句子）都不能用體重計量。
+> 2 a young guide「一位年輕的導覽員」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 3 導覽員「解釋」為什麼月球上比較輕 explained。boiled（煮沸）、spelled（拼字）、baked（烘烤）都不能接說明的內容。
+> 4 表弟假裝重得走不動，樣子很「可愛」cute。crowded、national、illegal（違法的）都不能形容小孩。
+> 5 forget about lunch「忘了吃午餐」，過去式 forgot。arrived、happened、existed 都不能接 about lunch。
++ row = 一排
++ scale = 體重計
++ planet = 行星
++ pull = 引力
++ Jupiter = 木星
+= 科學博物館裡有一排特別的體重計，每一台都會顯示你在不同行星上的體重。我在地球上是 50 公斤，站上月球的體重計卻只有大約 8 公斤！「那是因為月球的引力弱很多，」一位年輕的導覽員解釋，「你的身體沒有改變，但在那裡你會覺得輕很多。」接著我的小表弟站上木星的體重計。他在地球上只有 20 公斤，體重計卻顯示 50！他垂著手臂慢慢走，好像重到走不動一樣。他的樣子可愛得讓周圍的人都笑了。我們玩得太開心，忘了吃午餐，在那裡待了一個小時。
+
+## 水族館的鯨鯊
+In Osaka, we visited a famous aquarium. In the center, there was a huge tank. Its [[height|habit|garbage|sentence]] was about nine meters, as tall as a three-story building. Inside swam a whale shark. It was still [[young|crowded|national|convenient]], but it was already five meters long. A sign said its [[weight|topic|habit|sentence]] was over two thousand kilograms. Even so, whale sharks are gentle. They only eat tiny animals in the water and never [[attack|explain|spell|borrow]] people. My sister pressed her face against the glass and waved at it. Then a [[cute|crowded|national|illegal]] little fish with blue stripes swam up to her, as if it wanted to say hi. She talked about that fish for the rest of the trip.
+> 1 its height was about nine meters「它的高度大約九公尺」。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用公尺表示。
+> 2 鯨鯊還「年輕」，卻已經五公尺長 young。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容動物。
+> 3 its weight was over two thousand kilograms「牠的體重超過兩千公斤」。topic（主題）、habit、sentence 都不能用公斤表示。
+> 4 never attack people「從不攻擊人」，呼應 gentle。explain（解釋）、spell（拼字）、borrow（借入）都和溫和不溫和無關。
+> 5 a cute little fish「一隻可愛的小魚」。crowded、national、illegal（違法的）都不能形容魚。
++ aquarium = 水族館
++ tank = 水槽
++ three-story = 三層樓的
++ whale shark = 鯨鯊
++ gentle = 溫和的
+= 在大阪，我們參觀了一間有名的水族館。館的中央有一個巨大的水槽，高度大約九公尺，跟三層樓的建築一樣高。裡面游著一隻鯨鯊。牠還很年輕，卻已經有五公尺長。牌子上寫著牠的體重超過兩千公斤。即使這麼大，鯨鯊還是很溫和，牠們只吃水裡的小生物，從不攻擊人。我妹妹把臉貼在玻璃上跟牠揮手。接著一隻有藍色條紋的可愛小魚游到她面前，好像想跟她打招呼。接下來的旅程，她一直在講那隻小魚。
+
+## 七十歲的新同學
+My grandma didn't go to school when she was [[young|crowded|national|convenient]] because her family was poor. She had to work on the farm all day. Last year, at seventy, she [[decided|enjoyed|minded|finished]] to go to a night school for adults. Now, every evening, she carries a pink school bag and walks to class with her friends. Learning is not easy for her. Her left eye is almost [[blind|polite|rich|honest]], so she uses a big magnifying glass to read. But she never gives up. Last night, she sent me her first message on LINE, written all by herself: "Good night, my dear." She added a [[cute|crowded|national|illegal]] cat sticker at the end. I read it three times. I was so [[proud|crowded|national|delicious]] of her.
+> 1 when she was young「她小時候」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 2 decide to V「決定做…」。enjoy、mind、finish 後面要接 V-ing，不能接 to go。
+> 3 左眼幾乎「看不見」，所以要用放大鏡 almost blind。polite（有禮貌的）、rich（有錢的）、honest（誠實的）都不能說明她為什麼需要放大鏡。
+> 4 a cute cat sticker「一張可愛的貓咪貼圖」。crowded、national、illegal（違法的）都不能形容貼圖。
+> 5 be proud of…「以…為榮」。crowded、national、delicious（好吃的）都不能接 of her 表示感受。
++ night school = 夜間補校
++ adult = 成人
++ magnifying glass = 放大鏡
++ sticker = 貼圖
++ dear = 親愛的
+= 我阿嬤小時候家裡很窮，沒有去上學，每天都得在田裡工作。去年，她七十歲時，決定去讀成人夜間補校。現在每天傍晚，她都揹著粉紅色書包，和朋友一起走路去上課。學習對她來說並不容易。她的左眼幾乎看不見，所以要用大放大鏡讀書。但她從不放棄。昨天晚上，她在 LINE 上傳給我她的第一則訊息，全部是她自己打的：「晚安，我親愛的。」最後還加了一張可愛的貓咪貼圖。我讀了三遍，真的好以她為榮。
+
+## 扭蛋機的小恐龍
+Near the MRT station, there is a shop full of capsule toy machines. My favorite one has tiny dinosaur figures. They are so [[cute|crowded|national|illegal]] that I visit the shop almost every week. Each figure's [[height|habit|garbage|sentence]] is only three centimeters, but every detail is perfect. There are six kinds, and the rarest one is a pink T. rex. For two months, I [[saved|spelled|explained|boiled]] my pocket money to buy more capsules. The [[young|crowded|national|convenient]] shop owner always smiled when he saw me. "Still looking for the pink one?" he asked. After six tries, I finally [[got|arrived|happened|existed]] it! I was so happy that I danced in the shop. Now the pink T. rex stands on my desk and watches me do my homework.
+> 1 小恐龍「可愛」到我幾乎每週都去 cute。crowded（擁擠的）、national（國家的）、illegal（違法的）都不能形容公仔。
+> 2 each figure's height is only three centimeters「每個公仔的高度只有三公分」。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用公分表示。
+> 3 save pocket money「存零用錢」，過去式 saved。spelled（拼字）、explained（解釋）、boiled（煮沸）都不能和零用錢搭配。
+> 4 the young shop owner「年輕的老闆」。crowded、national、convenient（方便的）都不能形容人。
+> 5 finally got it「終於拿到了」，get 的過去式 got。arrived（抵達）、happened（發生）、existed（存在）都是不及物動詞，不能接 it。
++ MRT = 捷運
++ capsule toy = 扭蛋
++ figure = 公仔
++ detail = 細節
++ T. rex = 暴龍
+= 捷運站附近有一家店，裡面全是扭蛋機。我最喜歡的那台裡面有小小的恐龍公仔。它們可愛到我幾乎每個星期都去那家店。每個公仔只有三公分高，但每個細節都很完美。一共有六種，最稀有的是粉紅色暴龍。兩個月來，我一直存零用錢買更多扭蛋。年輕的老闆每次看到我都會笑：「還在找粉紅色的嗎？」轉了六次之後，我終於拿到了！我開心得在店裡跳起舞來。現在粉紅暴龍就站在我的書桌上，看著我寫功課。
+
+## 我會長多高？
+I'm fourteen, and my [[height|habit|garbage|sentence]] is 158 centimeters. Most of my friends are taller than me, so I'm a little worried. Last month, Mom took me to see a doctor. He looked at an X-ray of my hand. "You're still [[young|crowded|national|convenient]], and your bones are still growing," he said. He [[explained|boiled|spelled|baked]] that sleep is very important because the body grows the most at night. "Also, don't worry too much about your [[weight|topic|habit|uniform]]. Eat enough healthy food," he said. "Many kids try to be thin, but that can stop them from growing." Now I go to bed before eleven and play basketball every afternoon. Every Sunday, I measure myself against the door. My little sister thinks it's [[cute|crowded|national|illegal]] when I cheer for one more centimeter.
+> 1 my height is 158 centimeters「我的身高 158 公分」。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用公分表示。
+> 2 你還「年輕」，骨頭還在長 young。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 3 explain that…「解釋說…」。boiled（煮沸）、spelled（拼字）、baked（烘烤）後面都不能接 that 子句。
+> 4 別太在意「體重」，吃足夠的健康食物 weight。topic（主題）、habit（習慣）、uniform（制服）都和吃東西、想變瘦無關。
+> 5 妹妹覺得我為多一公分歡呼很「可愛」cute。crowded、national、illegal（違法的）都不能形容這件事。
++ X-ray = X 光片
++ bone = 骨頭
++ measure = 量
+= 我十四歲，身高 158 公分。我大部分的朋友都比我高，所以我有點擔心。上個月，媽媽帶我去看醫生。他看了我手部的 X 光片，說：「你還年輕，骨頭還在長。」他解釋說，睡眠很重要，因為身體在晚上長得最多。「還有，別太擔心體重，要吃足夠的健康食物，」他說，「很多孩子想變瘦，但那可能會讓他們長不高。」現在我十一點前就上床睡覺，每天下午打籃球。每個星期天，我都靠著門量身高。我妹妹覺得我為了多長一公分而歡呼的樣子很可愛。
