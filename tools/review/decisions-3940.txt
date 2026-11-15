@@ -48,3 +48,5 @@ e699030f5f||What ____ do you want in the future? I want to be a doctor.
 59aa7b815d|heavy,average,different,sore
 709f5eb2db|snowy,sunny,amazing,familiar,weak
 c1a47d9c76|diet
+7878e913e6|disaster
+758e800a3a|media,customer
