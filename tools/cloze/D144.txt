@@ -121,3 +121,140 @@ This winter, our class took a trip to Kinmen. Our guide told us about the Wind L
 + Wind Lion God = 風獅爺
 + cape = 披風
 = 今年冬天，我們班到金門旅行。導遊跟我們介紹了風獅爺。它們是站在許多村子裡的石獅子。很久以前，強風常常把沙子吹進人們的房子和田裡。人們做了這些獅子來保護村子平安、避開厄運。每一隻獅子都長得不一樣，所以導遊請我們描述自己最喜歡的那一隻。我的那隻披著紅色披風，笑得很開心。在大太陽下走了兩個小時後，我們都非常口渴，就在一家小店買了冷飲。年老的老闆說，這些獅子就像這裡每個家庭的成員。現在我無法想像沒有它們的金門。我還買了一隻小石獅送給爺爺奶奶當禮物。
+
+## 夾娃娃機的大挑戰
+There is a new claw machine store near my home. Last Sunday, my best friend Tom and I went there with 100 dollars. Tom wanted a big yellow duck for his little sister. "I'll get it in one try," he said. But the claw was weak, and the duck kept falling. After ten tries, Tom became angry, and I was hot and [[thirsty|polite|honest|national]]. Then an old man came over. He [[described|avoided|boiled|lent]] a trick to us: "Don't grab the body. Catch the tag." Tom tried it, and the duck fell into the hole! Before that, we couldn't even [[imagine|spell|boil|marry]] winning anything. The old man said he was a [[member|accident|headache|uniform]] of a claw machine club and played every day. Tom gave the duck to his sister, and she hugged it all night. Now Tom says he wants to [[avoid|describe|boil|spell]] wasting money on claw machines, but I still see him there every weekend.
+> 1 hot and thirsty「又熱又渴」，玩了很久。polite（有禮貌的）、honest（誠實的）、national（國家的）都不能和 hot 並列描述身體狀態。
+> 2 described a trick to us「向我們說明一個訣竅」，後面引號就是訣竅內容。avoided（避免）、boiled（煮沸）、lent（借出）都不能接引號裡的說明。
+> 3 imagine + V-ing「想像做…」，之前連想像贏都不敢。spell（拼字）、boil（煮沸）、marry（嫁娶）都不能接 winning anything。
+> 4 a member of a club「社團的成員」。accident（意外）、headache（頭痛）、uniform（制服）都不能指人。
+> 5 avoid + V-ing「避免做…」，避免浪費錢。describe（描述）、boil（煮沸）、spell（拼字）都和「不想再浪費錢」的意思不合。
++ claw machine = 夾娃娃機
++ claw = 爪子
++ grab = 抓住
++ tag = 吊牌
+= 我家附近新開了一家夾娃娃機店。上星期天，我和好朋友 Tom 帶著一百元去那裡。Tom 想夾一隻大黃鴨給他妹妹。「我一次就能夾到。」他說。但是爪子很沒力，鴨子一直掉下來。夾了十次之後，Tom 生氣了，我也又熱又渴。這時一位老先生走過來，告訴我們一個訣竅：「不要抓身體，要勾吊牌。」Tom 照著做，鴨子就掉進洞裡了！在那之前，我們連想像夾到東西都不敢。老先生說他是夾娃娃社團的成員，每天都來玩。Tom 把鴨子送給妹妹，她抱著它抱了一整晚。現在 Tom 說他想避免把錢浪費在夾娃娃機上，可是我每個週末還是在那裡看到他。
+
+## VR 雲霄飛車初體驗
+My uncle works for a tech company, and last weekend he brought home a pair of VR glasses. "Try this roller coaster game," he said. I put them on and sat on the sofa. Suddenly, I was on top of a tall roller coaster! I knew I was sitting on a [[comfortable|thirsty|successful|honest]] sofa at home, but everything looked so real. When the car went down, I screamed and held my uncle's arm. It is hard to [[describe|marry|boil|lend]] that feeling. After three minutes, I took off the glasses. I felt sick, and my legs were [[weak|thirsty|polite|cheap]]. My uncle laughed and said, "Many people feel like that the first time." Then my grandma wanted to try it. We all thought she would be scared, but she loved it! She said, "I never [[imagined|boiled|spelled|married]] I could ride a roller coaster at eighty." Now she plays it every day. She is the biggest VR fan among all the [[members|accidents|corners|bills]] of our family.
+> 1 a comfortable sofa「舒服的沙發」。thirsty（口渴的）、successful（成功的）、honest（誠實的）都不能形容沙發。
+> 2 hard to describe that feeling「很難形容那種感覺」。marry（嫁娶）、boil（煮沸）、lend（借出）都不能用在 feeling 上。
+> 3 legs were weak「腿軟」，玩完覺得不舒服。thirsty（口渴的）、polite（有禮貌的）、cheap（便宜的）都不能形容腿。
+> 4 never imagined (that)…「從沒想過…」，八十歲還能坐雲霄飛車。boiled（煮沸）、spelled（拼字）、married（嫁娶）都不能接子句。
+> 5 members of our family「家裡的成員」。accidents（意外）、corners（角落）、bills（帳單）都不能拿來和奶奶比較。
++ tech = 科技
++ VR glasses = 虛擬實境眼鏡
++ roller coaster = 雲霄飛車
++ scream = 尖叫
+= 我舅舅在一家科技公司上班，上週末他帶了一副 VR 眼鏡回家。「試試這個雲霄飛車遊戲。」他說。我戴上眼鏡，坐在沙發上。突然間，我就在一座很高的雲霄飛車頂端！我知道自己坐在家裡舒服的沙發上，但一切看起來都好真實。車子往下衝時，我尖叫著抓住舅舅的手臂。那種感覺很難形容。三分鐘後，我拿下眼鏡，覺得想吐，腿也軟了。舅舅笑著說：「很多人第一次都會這樣。」接著奶奶也想試試看。我們都以為她會嚇到，沒想到她超愛！她說：「我從沒想過八十歲還能坐雲霄飛車。」現在她每天都玩，是我們家所有成員中最愛 VR 的人。
+
+## 無人機拍的畢業照
+Our class wanted a special graduation photo, so Ms. Chen asked her brother to help. He has a drone with a camera. On the last day of school, all thirty [[members|accidents|feelings|headaches]] of our class stood on the playground and made the shape of a big heart. The sun was strong, and we had to stand still for twenty minutes. It wasn't very [[comfortable|successful|national|cheap]]. The drone flew high into the sky. Its noise was loud, like a big bee. We all looked up and waved. Suddenly, the wind blew hard, and the drone almost hit a tree. Luckily, Ms. Chen's brother was careful, so there was no [[accident|member|uniform|knowledge]]. A week later, we saw the photo. It was so beautiful that I can't [[describe|avoid|boil|lend]] it in words. Ms. Chen said our project was very [[successful|thirsty|shy|brave]], and she put the photo in the school hallway.
+> 1 thirty members of our class「全班三十個成員」。accidents（意外）、feelings（感覺）、headaches（頭痛）都不能站在操場上排愛心。
+> 2 not very comfortable「不太舒服」，大太陽下站著不動二十分鐘。successful（成功的）、national（國家的）、cheap（便宜的）都不能描述這種感受。
+> 3 no accident「沒有發生意外」，無人機差點撞樹但沒事。member（成員）、uniform（制服）、knowledge（知識）都不合句意。
+> 4 can't describe it in words「無法用言語形容」。avoid（避免）、boil（煮沸）、lend（借出）都不能和 in words 搭配。
+> 5 very successful「非常成功」，照片還被貼在走廊上。thirsty（口渴的）、shy（害羞的）、brave（勇敢的）都不能形容一個計畫的成果。
++ graduation = 畢業
++ drone = 無人機
++ shape = 形狀
++ wave = 揮手
++ hallway = 走廊
+= 我們班想要一張特別的畢業照，所以陳老師請她哥哥來幫忙。他有一台裝了相機的無人機。學期最後一天，全班三十個人站在操場上，排成一顆大愛心。太陽很大，我們必須站著不動二十分鐘，不太舒服。無人機飛上高高的天空，它的聲音很大，像一隻大蜜蜂。我們都抬頭揮手。突然一陣強風吹來，無人機差點撞到樹。幸好陳老師的哥哥很小心，所以沒有發生意外。一星期後，我們看到了照片，美得無法用言語形容。陳老師說我們的計畫非常成功，還把照片貼在學校走廊上。
+
+## 鹿港老街的陀螺
+During the summer vacation, my family visited Lukang, an old town in Changhua. On a quiet street, we saw an old man playing with wooden tops. He threw a top on the ground, and it spun for five minutes! I couldn't [[imagine|boil|spell|marry]] how he did it. He let me try, but my first try was not [[successful|thirsty|national|cheap]]. The top fell down right away. "Don't throw it too hard," he said. "Use your wrist." He also [[described|avoided|boiled|lent]] how he learned to play when he was a boy. Back then, kids didn't have phones, so tops were their best toys. He said playing with tops can help kids [[avoid|describe|boil|spell]] spending too much time on screens. Then he gave me a small top as a gift. I practiced for an hour, and my top finally spun for ten seconds. I felt so [[proud|thirsty|cheap|thick]]!
+> 1 couldn't imagine how he did it「無法想像他是怎麼做到的」。boil（煮沸）、spell（拼字）、marry（嫁娶）都不能接 how he did it。
+> 2 not successful「沒有成功」，陀螺馬上就倒了。thirsty（口渴的）、national（國家的）、cheap（便宜的）都不能形容一次嘗試。
+> 3 described how he learned to play「描述他怎麼學會玩」。avoided（避免）、boiled（煮沸）、lent（借出）都不能接 how 引導的內容。
+> 4 avoid + V-ing「避免做…」，避免花太多時間看螢幕。describe（描述）、boil（煮沸）、spell（拼字）都不是玩陀螺帶來的好處。
+> 5 felt so proud「覺得很驕傲」，練了一小時終於成功。thirsty（口渴的）、cheap（便宜的）、thick（厚的）都不能表達成功後的心情。
++ Lukang = 鹿港
++ Changhua = 彰化
++ top = 陀螺
++ spin (spun) = 旋轉
++ wrist = 手腕
+= 暑假時，我們全家去了彰化的古鎮鹿港。在一條安靜的街上，我們看到一位老先生在玩木頭陀螺。他把陀螺往地上一丟，它竟然轉了五分鐘！我無法想像他是怎麼做到的。他讓我試試看，但我第一次沒有成功，陀螺馬上就倒了。「不要丟太用力，」他說，「要用手腕。」他也描述了自己小時候是怎麼學會玩陀螺的。那時候小孩沒有手機，陀螺就是他們最好的玩具。他說玩陀螺可以幫助孩子避免花太多時間在螢幕上。接著他送我一個小陀螺當禮物。我練習了一個小時，我的陀螺終於轉了十秒鐘。我覺得好驕傲！
+
+## 蘭嶼的飛魚季
+Last spring, my family went to Orchid Island, a small island off the southeast coast of Taiwan. The Tao people live there. Every spring, flying fish come to the sea near the island. The Tao people catch them and dry them in the sun. A Tao guide named Siapen took us around. He [[described|avoided|boiled|married]] how his father taught him to make a boat from wood. He said the flying fish season is the most important [[event|accident|member|headache]] of the year for his people. We stayed in a small house by the sea. The beds were hard, but the cool sea wind made the room very [[comfortable|successful|thirsty|honest]] at night. One afternoon, Siapen took us swimming. The water was so clear that I could see fish under my feet. He told us to [[avoid|describe|boil|lend]] touching the coral. Before we left, his whole family came to say goodbye. They treated us like [[relatives|accidents|headaches|uniforms]].
+> 1 described how his father taught him「描述他爸爸怎麼教他」。avoided（避免）、boiled（煮沸）、married（嫁娶）都不能接 how 引導的內容。
+> 2 the most important event「最重要的活動」。accident（意外）、member（成員）、headache（頭痛）都不能用來說飛魚季。
+> 3 made the room very comfortable「讓房間很舒服」，涼涼的海風。successful（成功的）、thirsty（口渴的）、honest（誠實的）都不能形容房間。
+> 4 avoid + V-ing「避免做…」，避免碰珊瑚。describe（描述）、boil（煮沸）、lend（借出）都不能接 touching the coral。
+> 5 treated us like relatives「待我們像親戚一樣」。accidents（意外）、headaches（頭痛）、uniforms（制服）都不能表示親切的對待。
++ Orchid Island = 蘭嶼
++ Tao = 達悟族
++ flying fish = 飛魚
++ coast = 海岸
++ coral = 珊瑚
+= 去年春天，我們全家去了蘭嶼，那是台灣東南方海上的一座小島，達悟族人住在那裡。每年春天，飛魚會游到島附近的海域。達悟族人會捕捉牠們，並放在太陽下曬乾。一位名叫 Siapen 的達悟族導遊帶我們四處參觀。他描述了他爸爸怎麼教他用木頭造船。他說飛魚季是他們族人一年中最重要的活動。我們住在海邊的一間小屋。床很硬，但晚上涼涼的海風讓房間非常舒服。有一天下午，Siapen 帶我們去游泳。海水清澈到我能看見腳下的魚。他告訴我們要避免碰到珊瑚。離開前，他全家都來跟我們道別。他們待我們就像親戚一樣。
+
+## 書法課的墨汁意外
+Every Thursday, we have a calligraphy class. Our teacher, Mr. Huang, is very strict. He says calligraphy can help us stay calm and [[avoid|describe|boil|lend]] making careless mistakes. Last week, my classmate Ben was in a hurry. He knocked over his ink, and black ink went all over his white shirt and my paper! It was a terrible [[accident|member|relative|program]]. Ben was so worried that he could hardly speak. When Mr. Huang came over, Ben tried to [[describe|boil|marry|lend]] what happened, but he only said "Sorry" again and again. To our surprise, Mr. Huang didn't get angry. He took my dirty paper and painted a black cat on the ink spot. It looked amazing! "See? Mistakes can become art," he said. We couldn't [[imagine|spell|boil|marry]] that our strict teacher could be so funny. Now Ben is the most careful [[member|accident|headache|garbage]] of our class.
+> 1 avoid + V-ing「避免做…」，避免犯粗心的錯。describe（描述）、boil（煮沸）、lend（借出）都不是練書法的好處。
+> 2 a terrible accident「可怕的意外」，打翻墨汁。member（成員）、relative（親戚）、program（節目）都不能指打翻東西這件事。
+> 3 describe what happened「描述發生了什麼事」。boil（煮沸）、marry（嫁娶）、lend（借出）都不能接 what happened。
+> 4 couldn't imagine that…「無法想像…」，嚴格的老師竟然這麼有趣。spell（拼字）、boil（煮沸）、marry（嫁娶）都不能接 that 子句。
+> 5 the most careful member of our class「班上最細心的成員」。accident（意外）、headache（頭痛）、garbage（垃圾）都不能指人。
++ calligraphy = 書法
++ strict = 嚴格的
++ calm = 冷靜的
++ ink = 墨汁
++ spot = 斑點；污漬
+= 每個星期四，我們都有書法課。我們的黃老師非常嚴格。他說書法能幫助我們保持冷靜，避免犯粗心的錯誤。上星期，我的同學 Ben 做事太匆忙，打翻了墨汁，黑色的墨汁灑滿了他的白襯衫和我的紙！那真是一場可怕的意外。Ben 擔心到幾乎說不出話。黃老師走過來時，Ben 想描述發生了什麼事，卻只是一直說「對不起」。出乎我們意料的是，黃老師沒有生氣。他拿起我那張髒掉的紙，在墨漬上畫了一隻黑貓，看起來好棒！「你看，錯誤也能變成藝術。」他說。我們無法想像嚴格的老師竟然這麼有趣。現在 Ben 是我們班上最細心的人。
+
+## 弟弟的寵物蛇
+My little brother, Leo, has a pet snake named Noodle. Most of my friends are afraid of snakes, but Noodle is gentle and never bites. Leo keeps Noodle in a glass box with rocks and a small pool. He says the box must be warm, or Noodle won't feel [[comfortable|successful|national|honest]]. One morning, Leo found the box open. Noodle was gone! We looked everywhere: under the bed, behind the sofa, and even in the washing machine. Finally, I found Noodle inside my shoe! I screamed so loudly that our neighbors came over. I can't [[describe|avoid|boil|lend]] how scared I was. Leo laughed and said, "He just wanted to [[avoid|describe|spell|boil]] the cold air." Now Leo always checks the box twice, and I always check my shoes before I put them on. Mom says Noodle is a strange but lovely [[member|accident|headache|bill]] of our family. I am still not sure I [[agree|spell|boil|marry]].
+> 1 feel comfortable「覺得舒服」，箱子要溫暖蛇才會舒服。successful（成功的）、national（國家的）、honest（誠實的）都不能描述蛇的感受。
+> 2 can't describe how scared I was「無法形容我有多害怕」。avoid（避免）、boil（煮沸）、lend（借出）都不能接 how scared I was。
+> 3 avoid the cold air「避開冷空氣」，所以躲進鞋子裡。describe（描述）、spell（拼字）、boil（煮沸）都不是蛇躲進鞋子的原因。
+> 4 a lovely member of our family「家裡可愛的成員」。accident（意外）、headache（頭痛）、bill（帳單）都不能用 lovely 來形容寵物。
+> 5 not sure I agree「不確定我同意」媽媽的話。spell（拼字）、boil（煮沸）、marry（嫁娶）都不能表示對別人說法的看法。
++ snake = 蛇
++ gentle = 溫和的
++ washing machine = 洗衣機
++ scream = 尖叫
++ neighbor = 鄰居
+= 我弟弟 Leo 養了一條叫 Noodle 的寵物蛇。我大部分的朋友都怕蛇，但 Noodle 很溫和，從來不咬人。Leo 把 Noodle 養在一個放了石頭和小水池的玻璃箱裡。他說箱子一定要溫暖，否則 Noodle 會不舒服。有一天早上，Leo 發現箱子開著，Noodle 不見了！我們到處找：床底下、沙發後面，甚至洗衣機裡。最後，我在我的鞋子裡找到了 Noodle！我尖叫得太大聲，連鄰居都跑過來了。我無法形容自己有多害怕。Leo 笑著說：「牠只是想避開冷空氣而已。」現在 Leo 總是把箱子檢查兩次，而我穿鞋前也一定先檢查鞋子。媽媽說 Noodle 是我們家奇怪又可愛的成員，我還不確定我同不同意。
+
+## 我的玩具總動員
+When I was little, I watched Toy Story and believed my toys could come alive at night. I often [[imagined|avoided|boiled|spelled]] that my teddy bear and my robot talked to each other when I was asleep. Like Woody and Buzz, they would have adventures under my bed. Last month, my mom asked me to give my old toys to the kids at a children's hospital. At first, I didn't want to. My toys were like [[members|accidents|headaches|bills]] of my family. But then I thought about Woody. In the movie, toys feel sad when nobody plays with them. I didn't want my toys to have that [[feeling|accident|member|bill]]. So I packed them in a box. When I gave the box to a little girl, she smiled and held the bear tightly. I can't [[describe|avoid|boil|lend]] how warm I felt. Now I believe my toys are happy in their new home, and that makes me [[glad|thirsty|cheap|thick]] too.
+> 1 imagined that…「想像…」，想像玩具在我睡著時聊天。avoided（避免）、boiled（煮沸）、spelled（拼字）都不能接 that 子句表示想像。
+> 2 like members of my family「像家人一樣」。accidents（意外）、headaches（頭痛）、bills（帳單）都不能表達對玩具的感情。
+> 3 that feeling「那種感覺」，指前一句的難過。accident（意外）、member（成員）、bill（帳單）都不能指「難過」。
+> 4 can't describe how warm I felt「無法形容心裡有多溫暖」。avoid（避免）、boil（煮沸）、lend（借出）都不能接 how warm I felt。
+> 5 makes me glad「讓我開心」。thirsty（口渴的）、cheap（便宜的）、thick（厚的）都不能表達送出玩具後的心情。
++ Toy Story = 玩具總動員
++ come alive = 活過來
++ teddy bear = 泰迪熊
++ adventure = 冒險
+= 我小時候看了《玩具總動員》，就相信我的玩具晚上會活過來。我常常想像我的泰迪熊和機器人在我睡著時互相聊天。牠們會像胡迪和巴斯一樣，在我的床底下冒險。上個月，媽媽要我把舊玩具送給兒童醫院的小朋友。一開始我不想送，因為我的玩具就像我的家人一樣。但後來我想到了胡迪。在電影裡，沒有人陪玩具玩的時候，它們會覺得難過。我不希望我的玩具有那種感覺。所以我把它們裝進一個箱子。當我把箱子交給一個小女孩時，她笑著緊緊抱住那隻熊。我無法形容心裡有多溫暖。現在我相信我的玩具在新家很快樂，這也讓我很開心。
+
+## 泰國的潑水節
+This April, I went to Thailand with my aunt for the Songkran Festival. It is the Thai New Year, and people throw water at each other on the streets. Before the trip, I couldn't [[imagine|spell|boil|marry]] a whole city playing with water. On the first day, the weather was very hot, so getting wet was actually very [[comfortable|successful|thirsty|polite]]. My aunt bought me a big water gun. Everyone, young and old, was laughing and shouting. Nobody could [[avoid|describe|boil|marry]] getting wet, not even the police! In the evening, we visited a temple. My aunt [[described|avoided|boiled|lent]] the meaning of the festival to me: the water washes away bad luck and brings good wishes for the new year. Before we flew home, I bought some dried mango for my family [[members|accidents|headaches|uniforms]] in Taiwan. I hope I can go back next year.
+> 1 couldn't imagine a whole city playing with water「無法想像整座城市都在玩水」。spell（拼字）、boil（煮沸）、marry（嫁娶）都說不通。
+> 2 very comfortable「很舒服」，天氣很熱，被潑濕反而涼快。successful（成功的）、thirsty（口渴的）、polite（有禮貌的）都不能形容被淋濕的感覺。
+> 3 avoid + V-ing「避免…」，沒有人躲得過被潑濕。describe（描述）、boil（煮沸）、marry（嫁娶）都不能接 getting wet。
+> 4 described the meaning to me「向我說明意義」，冒號後是說明的內容。avoided（避免）、boiled（煮沸）、lent（借出）都不合句意。
+> 5 family members「家人」，買芒果乾送家人。accidents（意外）、headaches（頭痛）、uniforms（制服）都不能收禮物。
++ Thailand = 泰國
++ Songkran Festival = 潑水節
++ water gun = 水槍
++ temple = 寺廟
++ dried mango = 芒果乾
+= 今年四月，我和阿姨去泰國參加潑水節。潑水節是泰國的新年，人們會在街上互相潑水。出發前，我無法想像整座城市都在玩水的樣子。第一天天氣非常熱，所以被潑濕其實很舒服。阿姨買了一把大水槍給我。每個人，不論老少，都在大笑和大叫。沒有人躲得過被潑濕，連警察也不例外！晚上，我們去參觀了一座寺廟。阿姨向我說明這個節日的意義：水能洗去厄運，並帶來新年的祝福。搭飛機回家前，我買了一些芒果乾給在台灣的家人。我希望明年還能再去。
+
+## 第一次開直播
+My cousin Mia loves baking, so she decided to start a live stream to teach people how to make cakes. For her first show, she asked me to help with the camera. She drank three glasses of water before we started. "Why are you so [[thirsty|cheap|national|thick]]?" I asked. "I'm not. I'm just nervous," she said. At first, only five people watched. Mia tried to [[describe|avoid|boil|lend]] each step clearly, but she forgot to turn on the oven! Then her cat jumped on the table and knocked over the flour. What a funny [[accident|member|relative|uniform]]! Soon, hundreds of people started to watch and leave messages. They loved the cat more than the cake. Mia couldn't [[imagine|spell|boil|marry]] that her messy show would become so popular. Now her live stream is very [[successful|thirsty|wet|thick]], and the cat is the star of every show.
+> 1 so thirsty「這麼口渴」，因為她連喝三杯水。cheap（便宜的）、national（國家的）、thick（厚的）都不能用來問人為什麼喝那麼多水。
+> 2 describe each step「描述每個步驟」，教大家做蛋糕。avoid（避免）、boil（煮沸）、lend（借出）都不合教學的情境。
+> 3 a funny accident「好笑的意外」，貓打翻麵粉。member（成員）、relative（親戚）、uniform（制服）都不能指打翻東西這件事。
+> 4 couldn't imagine that…「沒想到…」，亂七八糟的節目竟然會紅。spell（拼字）、boil（煮沸）、marry（嫁娶）都不能接 that 子句。
+> 5 very successful「非常成功」，現在每集都有貓當明星。thirsty（口渴的）、wet（濕的）、thick（厚的）都不能形容直播節目。
++ live stream = 直播
++ nervous = 緊張的
++ oven = 烤箱
++ flour = 麵粉
++ messy = 亂七八糟的
+= 我的表姊 Mia 很愛烘焙，所以她決定開直播教大家做蛋糕。第一次直播時，她請我幫忙拿攝影機。開始前她喝了三杯水。「妳怎麼這麼渴？」我問。「我不渴，我只是很緊張。」她說。一開始只有五個人在看。Mia 努力把每個步驟講清楚，卻忘了打開烤箱！接著她的貓跳上桌子，打翻了麵粉。真是個好笑的意外！很快地，好幾百人開始觀看並留言。他們愛貓比愛蛋糕還多。Mia 沒想到她亂七八糟的節目會變得這麼受歡迎。現在她的直播非常成功，那隻貓也成了每一集的明星。
