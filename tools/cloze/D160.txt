@@ -129,7 +129,7 @@ Last month, Dad got a new job offer in Taichung. Our family had to make a big [[
 = 上個月，爸爸在台中得到一個新的工作機會，我們家必須做一個重大的決定：要不要搬家？晚餐後，爸爸召開了家庭會議。他在一張大紙上寫下搬家的好處和壞處，這非常有用，因為我們可以把一切看得很清楚。我妹妹開始哭了。「我猜得到你要說什麼，」她說，「我們要搬家了，我會失去所有的朋友。」爸爸抱住她說：「還沒有決定啊，每個人的意見都很重要。」就在這時，媽媽從廚房端出一盤地瓜蛋糕，整個房間都香香甜甜的。我們又聊了兩個小時，最後決定留在台北。爸爸一週有三天會搭高鐵去上班。
 
 ## 中華隊的冠軍之夜
-In November 2024, Taiwan's [[national|useful|afraid|delicious]] baseball team played in the final of the Premier12 in Tokyo. Their opponent was Japan, a team that plays at a very high [[level|visitor|decision|language]] and had not lost a game in the whole tournament. Before the game, few people could [[guess|smell|hold|host]] that Taiwan would win. But the players were not afraid. They played hard, hit two home runs, and won 4–0. Back in Taiwan, millions of people watched the game on TV. During the last out, everyone [[held|guessed|smelled|hosted]] their breath. Then they jumped up and cheered. My dad hugged me so hard that I couldn't breathe. After the game, the coach said the hardest [[decision|level|visitor|language]] was choosing the starting pitcher. "But I believed in my players," he said. It was the first time Taiwan won a big world baseball title.
+In November 2024, Taiwan's [[national|useful|afraid|delicious]] baseball team played in the final of the Premier12 in Tokyo. Their opponent was Japan, a team that plays at a very high [[level|visitor|decision|language]] and had not lost a game in the whole tournament. Before the game, few people could [[guess|smell|hold|host]] that Taiwan would win. But the players were not afraid. They played hard, hit two home runs, and won 4–0. Back in Taiwan, millions of people watched the game on TV. During the last out, everyone [[held|guessed|smelled|hosted]] their breath. Then they jumped up and cheered. My dad hugged me so hard that I couldn't breathe. After the game, the coach said the hardest [[decision|level|visitor|language]] was choosing the starting pitcher. "But I believed in my players," he said. It was the first time Taiwan won the Premier12.
 > 1 national team「國家代表隊」。useful（有用的）、afraid（害怕的）、delicious（美味的）都不能和 baseball team 組成中華隊。
 > 2 at a high level「水準很高」。visitor、decision、language 都不能和 a very high 搭配表示打球的水準。
 > 3 guess that…「猜到…」：賽前很少人猜到台灣會贏。smell、hold、host 都不能接 that 子句表示猜測。
@@ -140,7 +140,7 @@ In November 2024, Taiwan's [[national|useful|afraid|delicious]] baseball team pl
 + tournament = 錦標賽
 + pitcher = 投手
 + title = 冠軍頭銜
-= 2024 年 11 月，台灣的棒球國家隊在東京打世界 12 強棒球賽的冠軍戰。對手是日本，一支水準非常高、整個賽事都沒輸過的球隊。賽前，很少有人猜得到台灣會贏。但球員們一點都不害怕，他們拚盡全力，打出兩支全壘打，以四比零獲勝。在台灣，好幾百萬人看著電視轉播。最後一個出局數時，每個人都屏住了呼吸，然後跳起來歡呼。爸爸抱我抱得好緊，我都快不能呼吸了。賽後教練說，最難的決定是選先發投手。「但我相信我的球員。」他說。這是台灣第一次拿下大型的世界棒球冠軍。
+= 2024 年 11 月，台灣的棒球國家隊在東京打世界 12 強棒球賽的冠軍戰。對手是日本，一支水準非常高、整個賽事都沒輸過的球隊。賽前，很少有人猜得到台灣會贏。但球員們一點都不害怕，他們拚盡全力，打出兩支全壘打，以四比零獲勝。在台灣，好幾百萬人看著電視轉播。最後一個出局數時，每個人都屏住了呼吸，然後跳起來歡呼。爸爸抱我抱得好緊，我都快不能呼吸了。賽後教練說，最難的決定是選先發投手。「但我相信我的球員。」他說。這是台灣第一次拿下 12 強賽的冠軍。
 
 ## 吳伯伯的導盲犬
 My neighbor Mr. Wu can't see, so he has a guide dog named Lucky. A guide dog is more than a pet. It is a very [[useful|national|afraid|delicious]] helper. When they walk together, Mr. Wu [[holds|guesses|smells|hosts]] a special handle on Lucky's back. Lucky stops at every corner and waits. Mr. Wu can't see the traffic light, so he listens to the cars carefully. Then he makes a [[decision|level|visitor|language]] to cross the street. Lucky is not allowed to play while she is working. If you see a guide dog, you shouldn't touch it or give it food. Some [[visitors|decisions|levels|languages]] at our park don't know this, so Mr. Wu always explains it kindly. Can you [[guess|smell|hold|host]] how long it takes to train a guide dog? About two years! When Lucky gets old, she will live with a family and finally play all day.
@@ -259,3 +259,136 @@ At the Lantern Festival, my family went to the temple near our house to [[guess|
 + temple = 廟
 + comb = 梳子
 = 元宵節那天，我們全家到家附近的廟去猜燈謎。這間廟每年都會舉辦這個活動，總是人山人海。燈謎分成三個等級：簡單、中等和困難。每個謎題都寫在燈籠下的一張紅紙上。我爺爺很會猜謎，他牽著我的手直接走到最難的那一區。有一題寫著：「它有牙齒，卻不能吃東西。它是什麼？」我想了好久。爺爺笑著摸了摸自己的頭髮。「梳子！」我大喊。我們答對了，還贏得一個很實用的獎品：一大袋米。奶奶很開心，因為那個月都不用買米了。明年，我想要自己猜中一題難的燈謎。
+
+## 海底隧道裡的鯊魚
+Last Sunday, we visited the big aquarium in Pingtung. It is one of the most popular places for [[visitors|decisions|levels|languages]] in southern Taiwan. The best part was a long glass tunnel under the water. Sharks and huge fish swam right over our heads. My little brother was a bit scared, so he [[held|guessed|smelled|hosted]] my hand tightly the whole time. A worker told us that the water [[level|visitor|decision|language]] in the big tank is checked every day, and the sharks eat three times a week. "Can you [[guess|hold|host|smell]] how many fish live here?" she asked. My brother said one hundred. The answer was more than ten thousand! At the end of the visit, there was a touch pool, and we gently touched a sea star and a sea cucumber. My hands [[smelled|guessed|held|hosted]] like the sea for the rest of the afternoon, but I didn't mind.
+> 1 visitors「遊客」：屏東的水族館是南台灣最受遊客歡迎的地方之一。decisions、levels、languages 都不能接 popular places for 表示去玩的人。
+> 2 hold one's hand「牽緊某人的手」：弟弟有點怕，一直緊握我的手。guessed、smelled、hosted 都不能接 my hand tightly。
+> 3 water level「水位」：大水槽的水位每天檢查。visitor、decision、language 都不能和 water 組成可以檢查的東西。
+> 4 guess how many…「猜有多少」。hold、host、smell 都不能接 how many fish live here。
+> 5 smell like + 名詞「聞起來有…的味道」：摸過海星，手都是海的味道。guessed、held、hosted 都不能接 like the sea。
++ aquarium = 水族館
++ Pingtung = 屏東
++ tunnel = 隧道
++ sea star = 海星
++ sea cucumber = 海參
+= 上週日，我們去了屏東的大水族館，那是南台灣最受遊客歡迎的地方之一。最棒的是一條在水底下的長玻璃隧道，鯊魚和超大的魚就從我們頭頂游過。我弟弟有點害怕，所以一直緊緊牽著我的手。一位工作人員告訴我們，大水槽的水位每天都要檢查，鯊魚一週吃三次。「猜猜看這裡住了多少條魚？」她問。弟弟說一百條，答案是一萬多條！參觀快結束時有一個觸摸池，我們輕輕摸了海星和海參。那天下午剩下的時間，我的手都有海水的味道，但我一點也不介意。
+
+## 選高中的煩惱
+I'm in ninth grade, and soon I have to make a big [[decision|level|visitor|language]]: which high school should I choose? My English [[level|visitor|decision|host]] is quite good, so my teacher thinks I should go to a school with a strong English program. But I also love cooking. A school with cooking classes might be more [[useful|national|afraid|delicious]] for my future, because I want to open a restaurant someday. My best friend has already chosen a school, and she wants me to go with her. I feel like everyone is pushing me in a different direction. Last night, I talked with my parents for a long time. "Just [[hold|guess|smell|host]] on," Dad said. "You don't have to decide this week." Mom added, "Visit the schools first. Then listen to your heart." I still can't [[guess|smell|hold|host]] what I'll want in ten years, but I feel a little calmer now.
+> 1 make a big decision「做重大決定」：要選哪間高中。level、visitor、language 都不能和 make a big 組成「做決定」。
+> 2 English level「英文程度」：英文程度不錯，老師建議讀英文強的學校。visitor、decision、host 都不能用 quite good 來說明英文能力。
+> 3 useful for one's future「對未來有用」：想開餐廳，所以烹飪課更有用。national、afraid、delicious 都不能接 for my future。
+> 4 hold on「等一下、別急」：爸爸說不用這週就決定。guess、smell、host 都不能和 on 組成「別急」的意思。
+> 5 guess what…「猜想、預料」：還猜不到十年後想要什麼。smell、hold、host 都不能接 what I'll want 表示預料。
++ ninth grade = 九年級
++ program = 課程
++ direction = 方向
++ calm = 平靜的
+= 我九年級了，很快就得做一個重大決定：我要選哪一所高中？我的英文程度還不錯，所以老師覺得我應該去英文課程很強的學校。但我也很愛做菜，因為我以後想開餐廳，有烹飪課的學校也許對我的未來更有用。我最好的朋友已經選好學校了，她希望我跟她一起去。我覺得每個人都在把我往不同的方向推。昨晚，我和爸媽聊了很久。「別急，」爸爸說，「你不用這個禮拜就決定。」媽媽又說：「先去看看那些學校，然後聽聽你自己的心。」我還是猜不到十年後的自己想要什麼，但現在我覺得平靜了一點。
+
+## 沙發底下的臭襪子
+My brother plays soccer every day after school, and his socks [[smell|guess|hold|host]] terrible. Last week, there was a strange smell in the living room. At first, Mom tried to [[guess|hold|host|waste]] where it came from. Was it the trash can? The dog? The fridge? Then she looked under the sofa, and there they were: three pairs of dirty soccer socks! She [[held|guessed|hosted|wasted]] them up with two fingers and called my brother's name. He came out of his room and laughed nervously. "Oh, I was looking for those," he said. Mom didn't think it was funny. That night, she made a [[decision|level|visitor|language]]: from now on, my brother has to wash his own socks. On his birthday, she gave him a very [[useful|national|afraid|delicious]] gift: a laundry basket with his name on it. He wasn't happy, but our living room smells much better now.
+> 1 smell + 形容詞「聞起來…」：他的襪子臭得要命。guess、hold、host 都不能接 terrible 表示氣味。
+> 2 guess where…「猜…從哪裡來」：媽媽猜臭味的來源。hold、host、waste 都不能接 where it came from。
+> 3 hold up + 物「舉起…」：媽媽用兩根手指捏起襪子。guessed、hosted、wasted 都不能和 them up with two fingers 組成動作。
+> 4 make a decision「做決定」：媽媽決定讓哥哥自己洗襪子。level、visitor、language 都不能和 made a 組成「做決定」。
+> 5 a useful gift「實用的禮物」：一個洗衣籃。national、afraid、delicious 都不能形容洗衣籃。
++ trash can = 垃圾桶
++ nervously = 緊張地
++ laundry basket = 洗衣籃
+= 我哥哥每天放學都去踢足球，他的襪子臭得要命。上週，客廳裡出現了一股怪味。一開始，媽媽試著猜味道是從哪裡來的：垃圾桶？狗？還是冰箱？後來她往沙發底下一看——就在那裡：三雙髒兮兮的足球襪！她用兩根手指把襪子捏起來，大喊哥哥的名字。哥哥從房間走出來，緊張地笑著說：「喔，我正在找它們耶。」媽媽一點也不覺得好笑。那天晚上，她做了一個決定：從現在起，哥哥要自己洗襪子。哥哥生日時，媽媽送了他一個很實用的禮物：一個寫著他名字的洗衣籃。他不太開心，但我們家客廳現在好聞多了。
+
+## 台北世大運
+In 2017, Taipei was the [[host|visitor|level|decision]] city of the Summer Universiade, a big sports event for university students. Thousands of athletes and [[visitors|decisions|levels|languages]] came from all over the world. More than ten thousand volunteers helped them in many different [[languages|levels|decisions|visitors]], like English, Japanese, and Spanish. Taiwan's athletes did very well. One of the most exciting moments was when weightlifter Kuo Hsing-chun [[held|guessed|smelled|hosted]] a 142-kilogram bar over her head. She broke a world record and won a gold medal. The crowd went crazy, and many people cried. Hosting the games was a big [[decision|level|visitor|language]] for the city because it cost a lot of money. But many people say it was worth it. The world saw Taiwan's friendly people, and young athletes in Taiwan got a chance to dream bigger.
+> 1 the host city「主辦城市」：台北主辦世大運。visitor、level、decision 都不能和 city 組成主辦的城市。
+> 2 visitors「訪客、觀光客」：選手和觀光客從世界各地來。decisions、levels、languages 都不能「從世界各地來」。
+> 3 in many languages「用多種語言」：志工用英文、日文、西班牙文幫忙。levels、decisions、visitors 都不能和這些語言並列。
+> 4 hold + 物 + over one's head「把…舉過頭」：郭婞淳把 142 公斤的槓鈴舉過頭。guessed、smelled、hosted 都不能接 a bar over her head。
+> 5 a big decision「重大的決定」：主辦要花很多錢。level、visitor、language 都不能說明「主辦比賽」這件事。
++ Universiade = 世界大學運動會（世大運）
++ athlete = 運動員
++ weightlifter = 舉重選手
++ kilogram = 公斤
++ medal = 獎牌
+= 2017 年，台北是夏季世界大學運動會的主辦城市，那是一場給大學生參加的大型運動賽會。數千名運動員和觀光客從世界各地來到台北，一萬多名志工用英文、日文、西班牙文等許多不同的語言幫助他們。台灣選手表現得非常好，其中最精彩的一刻，是舉重選手郭婞淳把 142 公斤的槓鈴舉過頭頂。她打破世界紀錄，拿下金牌，全場觀眾都瘋了，很多人感動得哭了。主辦這場比賽對台北來說是個重大的決定，因為要花很多錢。但很多人說這很值得：全世界看見了台灣人的友善，台灣的年輕選手也有機會懷抱更大的夢想。
+
+## 七十歲學英文的外公
+My grandpa is seventy, but last year he made a [[decision|level|visitor|language]] to learn English. My uncle lives in America, and Grandpa wants to talk with his grandchildren there. He also says learning a new [[language|level|decision|visitor]] keeps his brain young. He joined a class at the community center. At first, he was in the lowest [[level|visitor|decision|language]], with words like "apple" and "cat." He studies every morning after his walk. When he can't remember a word, he draws a picture, and I have to [[guess|smell|hold|host]] what it is. Yesterday, he drew a long animal, and I said, "Snake?" He shook his head. It was a train! He says the dictionary app on his phone is very [[useful|national|afraid|delicious]]. Last week, he had his first video call in English with my cousins. He only said "Hello" and "I love you," but everyone was so happy.
+> 1 make a decision to + V「決定做…」：外公決定學英文。level、visitor、language 都不能和 made a 組成「做決定」。
+> 2 a new language「一種新語言」：學新語言讓頭腦保持年輕。level、decision、visitor 都不能和「學」英文這件事配合。
+> 3 the lowest level「最低的程度、等級」：一開始在初級班。visitor、decision、language 都不能和 the lowest 搭配表示班級程度。
+> 4 guess what…「猜…是什麼」：外公畫圖讓我猜。smell、hold、host 都不能接 what it is 表示猜。
+> 5 useful「有用的」：手機字典 app 很有用。national、afraid、delicious 都不能形容 app。
++ community center = 社區活動中心
++ dictionary = 字典
++ video call = 視訊通話
+= 我外公七十歲了，但去年他決定要學英文。我舅舅住在美國，外公想跟住在那裡的孫子孫女聊天。他也說，學一種新語言能讓頭腦保持年輕。他在社區活動中心報名了課程，一開始在最初級的班，學的是 apple、cat 這類單字。他每天早上散步完就讀英文。想不起單字的時候，他會畫一張圖讓我猜是什麼。昨天他畫了一個長長的動物，我說：「蛇？」他搖搖頭——那是火車！他說手機上的字典 app 非常有用。上週，他第一次用英文跟表弟妹視訊。雖然他只說了「Hello」和「I love you」，但大家都好開心。
+
+## 大雄的翻譯蒟蒻
+In Doraemon, there is a gadget called Translation Jelly. If you eat it, you can understand any [[language|level|decision|visitor]] in the world. Nobita thinks it is the most [[useful|national|afraid|wet]] gadget that Doraemon has. One day, a [[visitor|level|decision|language]] from France came to Nobita's school. Nobody could talk with him, so Nobita secretly ate the jelly. Suddenly, he could talk with the boy easily. The teacher couldn't [[guess|smell|hold|host]] how Nobita learned French so fast. Nobita felt like a hero. But he liked the jelly so much that he ate the whole box. The next morning, he could understand what the dogs and cats on his street were saying, but he couldn't understand his own mom! He [[held|guessed|smelled|hosted]] his head and cried, "Doraemon, help me!" Doraemon just sighed. "That's why you should only eat one piece," he said.
+> 1 any language「任何語言」：吃了就能聽懂世界上的任何語言。level、decision、visitor 都不能說明翻譯蒟蒻讓人聽懂的東西。
+> 2 the most useful gadget「最有用的道具」。national、wet 都不能形容道具；afraid 不能放在名詞前面。
+> 3 a visitor from France「來自法國的訪客」。level、decision、language 都不能「來到學校」。
+> 4 guess how…「猜想怎麼…」：老師猜不透大雄怎麼學得這麼快。smell、hold、host 都不能接 how Nobita learned French。
+> 5 hold one's head「抱著頭」：大雄抱頭大哭求救。guessed、smelled、hosted 都不能接 his head 表示苦惱的動作。
++ Doraemon = 哆啦A夢
++ gadget = 小道具
++ Translation Jelly = 翻譯蒟蒻
++ sigh = 嘆氣
+= 在《哆啦A夢》裡，有一個道具叫做翻譯蒟蒻，只要吃下去，就能聽懂世界上任何一種語言。大雄覺得這是哆啦A夢最有用的道具。有一天，一位從法國來的訪客到大雄的學校，大家都沒辦法跟他說話，所以大雄偷偷吃了翻譯蒟蒻。突然間，他就能輕鬆地跟那個男孩聊天了。老師怎麼也猜不透大雄怎麼這麼快就學會法文，大雄覺得自己像個英雄。但他太喜歡翻譯蒟蒻了，竟然把一整盒都吃光。隔天早上，他聽得懂街上的貓狗在說什麼，卻聽不懂自己媽媽說的話！他抱著頭大哭：「哆啦A夢，救救我！」哆啦A夢只是嘆了一口氣說：「所以才叫你只能吃一片啊。」
+
+## 姊妹校的日本同學
+Last week, a group of students from our sister school in Japan came to visit. Our class was the [[host|visitor|level|decision]] class, so we prepared for a whole month. We made a big sign that said "Welcome, [[visitors|decisions|levels|languages]]!" in both Chinese and Japanese. At first, talking was hard because we didn't share a [[language|level|decision|visitor]]. So we used simple English, drawings, and a lot of gestures. In the afternoon, we [[held|guessed|smelled|wasted]] a small sports day with them. We played tug of war and dodgeball, and everyone laughed and cheered. After the games, a Japanese boy named Ken asked me to [[guess|smell|hold|host]] his age. I said twelve because he was short, but he was fifteen, the same age as me! We both laughed. Before they left, we gave them pineapple cakes, and they gave us paper fans. Ken and I still send messages to each other every week.
+> 1 the host class「接待班級」：我們班負責接待日本學生。visitor、level、decision 都不能和 class 組成接待的班級。
+> 2 Welcome, visitors!「歡迎各位來賓！」。decisions、levels、languages 都不能被歡迎來訪。
+> 3 share a language「說同一種語言」：語言不通，所以溝通很難。level、decision、visitor 都不能說明溝通困難的原因。
+> 4 hold a sports day「舉辦運動會」。guessed、smelled、wasted 都不能接 a small sports day 表示舉辦。
+> 5 guess one's age「猜某人的年紀」。smell、hold、host 都不能接 his age 表示猜。
++ sister school = 姊妹校
++ gesture = 手勢
++ tug of war = 拔河
++ dodgeball = 躲避球
+= 上週，一群來自日本姊妹校的學生來我們學校參訪。我們班是接待班級，所以準備了整整一個月。我們做了一個大看板，用中文和日文寫著「歡迎各位來賓！」。一開始溝通很困難，因為我們不說同一種語言，所以我們用簡單的英文、畫圖，還有一大堆手勢。下午，我們和他們舉辦了一場小型運動會，玩拔河和躲避球，大家又笑又叫。比賽結束後，一個叫 Ken 的日本男生要我猜他幾歲。我看他個子小，就說十二歲，結果他十五歲，跟我一樣大！我們都笑了。他們離開前，我們送他們鳳梨酥，他們送我們紙扇。我和 Ken 到現在每週都還會互傳訊息。
+
+## 奶奶教我認蘑菇
+In the forest behind Grandma's house, many mushrooms grow after a rain. Some are safe to eat, but some can make you very sick. Grandma says you should never [[guess|host|waste|marry]] which ones are safe. Last Sunday, she took me into the forest with a basket. She knows a lot about mushrooms because her mother taught her. She [[held|guessed|hosted|wasted]] up a small brown one and showed me the bottom. "See these lines? And this one [[smells|guesses|holds|hosts]] a little like garlic. It's safe," she said. Her knowledge is very [[useful|national|afraid|delicious]], and I wrote everything down in a notebook. Then I found a bright red mushroom with white spots. "It looks like the ones in video games!" I said. Grandma shook her head. "That one is dangerous." After that, I made a [[decision|level|visitor|language]] to pick mushrooms only when Grandma is with me.
+> 1 guess which…「猜哪一個…」：奶奶說不能用猜的判斷哪些安全。host、waste、marry 都不能接 which ones are safe。
+> 2 hold up + 物「舉起…」：奶奶拿起一朵棕色蘑菇給我看。guessed、hosted、wasted 都不能和 up a small brown one 組成動作。
+> 3 smell like + 名詞「聞起來像…」：這朵有一點大蒜味。guesses、holds、hosts 都不能接 a little like garlic 表示氣味。
+> 4 useful「有用的」：奶奶的知識很有用，我都記下來。national、afraid、delicious 都不能形容知識。
+> 5 make a decision to + V「決定做…」：我決定只和奶奶一起採蘑菇。level、visitor、language 都不能和 made a 組成「做決定」。
++ mushroom = 蘑菇
++ basket = 籃子
++ garlic = 大蒜
++ knowledge = 知識
++ spot = 斑點
+= 奶奶家後面的森林裡，下過雨後會長出很多蘑菇。有些可以安全食用，有些卻會讓人病得很重。奶奶說，絕對不能用猜的來判斷哪些是安全的。上週日，她帶著一個籃子領我走進森林。她很懂蘑菇，因為是她媽媽教她的。她拿起一朵棕色的小蘑菇，翻過來給我看底部。「看到這些紋路了嗎？而且這朵聞起來有一點像大蒜，它是安全的。」她說。奶奶的知識非常有用，我把每件事都記在筆記本裡。後來我發現一朵鮮紅色、有白色斑點的蘑菇。「它長得好像電玩遊戲裡的蘑菇！」我說。奶奶搖搖頭說：「那朵有毒。」從那以後，我決定只有奶奶在身邊的時候才採蘑菇。
+
+## 圍棋升段賽
+I have played Go since I was seven. Last month, I took a test to reach a higher [[level|visitor|decision|language]]. My opponent was a calm old man with white hair. Before each move, I [[held|guessed|smelled|hosted]] the black stone between my fingers for a long time. Every move was a difficult [[decision|level|visitor|language]], because one mistake could lose the whole game. I tried to [[guess|smell|hold|host]] his next move, but he surprised me again and again. After two hours, the game was over. I won by just half a point! The old man smiled and shook my hand. "You will be a strong player," he said. My coach was very happy too. Now I am allowed to join the [[national|useful|afraid|delicious]] youth competition next year. Players from all over Taiwan will be there. I'm nervous, but I'm practicing every day.
+> 1 a higher level「更高的級別」：參加升段考試。visitor、decision、language 都不能和 reach a higher 搭配表示晉級。
+> 2 hold + 物「拿著…」：下每一步前都拿著棋子想很久。guessed、smelled、hosted 都不能接 the black stone between my fingers。
+> 3 a difficult decision「困難的決定」：每一步都很難決定。level、visitor、language 都不能說明下棋的每一步。
+> 4 guess one's next move「猜對方的下一步」。smell、hold、host 都不能接 his next move 表示猜。
+> 5 the national competition「全國比賽」：來自全台灣的選手都會參加。useful、delicious 都不能形容比賽；afraid 不能放在名詞前面。
++ Go = 圍棋
++ opponent = 對手
++ stone = 棋子
++ youth = 青少年
++ competition = 比賽
+= 我從七歲開始下圍棋。上個月，我參加了升段考試。我的對手是一位白頭髮、神情冷靜的老爺爺。每一步棋前，我都把黑子夾在手指間拿很久，因為每一步都是困難的決定，一個錯誤就可能輸掉整盤棋。我試著猜他的下一步，但他一次又一次讓我出乎意料。兩個小時後，棋局結束了，我只贏了半目！老爺爺笑著跟我握手說：「你會成為很強的棋手。」我的教練也很開心。現在我可以參加明年的全國青少年比賽了，全台灣的選手都會去。我很緊張，但我每天都在練習。
+
+## 山上的求生營
+This summer, I joined a three-day survival camp in the mountains. The teacher taught us many [[useful|national|afraid|delicious]] skills. First, we learned how to make a fire without matches. We had to [[hold|guess|smell|host]] a stick between our hands and turn it very fast. My hands hurt, but after twenty minutes, I saw smoke! Then we learned which plants are safe to eat. "Never eat something just because it [[smells|guesses|holds|hosts]] good," the teacher said. On the last night, our group got lost on the way back to camp. It was dark, and all the trees looked the same. We had to [[guess|hold|host|waste]] which way to go. Our group leader, Amy, stayed calm and made a smart [[decision|level|visitor|language]]: we followed the river downhill. Thirty minutes later, we saw the lights of the camp. Everyone cheered, and the teacher gave Amy a high five.
+> 1 useful skills「實用的技能」：例如生火、辨認植物。national、afraid、delicious 都不能形容技能。
+> 2 hold a stick「拿著木棍」：雙手夾著木棍快速轉動。guess、smell、host 都不能接 a stick between our hands。
+> 3 smell + 形容詞「聞起來…」：不要只因為聞起來香就吃。guesses、holds、hosts 都不能接 good 表示氣味。
+> 4 guess which way…「猜該往哪走」：天黑迷路只能用猜的。hold、host、waste 都不能接 which way to go。
+> 5 make a smart decision「做出聰明的決定」：沿著河往下走。level、visitor、language 都不能和 made a smart 組成「做決定」。
++ survival camp = 求生營
++ match = 火柴
++ smoke = 煙
++ downhill = 往山下
++ high five = 擊掌
+= 今年暑假，我參加了一個在山上的三天求生營。老師教了我們很多實用的技能。首先，我們學怎麼不用火柴生火：要用雙手夾住一根木棍，非常快速地轉動。我的手好痛，但二十分鐘後，我看到冒煙了！接著我們學哪些植物可以吃。「千萬不要只因為某樣東西聞起來很香就吃下去。」老師說。最後一晚，我們這組在回營地的路上迷路了。天很黑，每棵樹看起來都一樣，我們只能猜該往哪裡走。組長 Amy 保持冷靜，做了一個聰明的決定：我們沿著河往山下走。三十分鐘後，我們看到了營地的燈光。大家都歡呼起來，老師也跟 Amy 擊了個掌。
