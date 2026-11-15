@@ -126,3 +126,137 @@ Kiki is a young witch who delivers things on her broom. One morning, a baker ask
 + baker = 麵包師傅
 + tightly = 緊緊地
 = 琪琪是一個騎著掃帚送貨的小魔女。有一天早上，一位麵包師傅請她把一個生日蛋糕送到城市另一頭的一個男孩家。「要小心飛喔，」麵包師傅說，「派對中午開始。」城裡的街道擠滿了車，所以用飛的比開車快。但那天風很大，琪琪緊緊抱著盒子，在高樓之間慢慢地飛。突然，一隻大鳥朝她直衝過來！她趕快轉彎，盒子差點掉下去。幸好她及時接住了。十一點五十五分，她終於抵達男孩家。蛋糕完好無缺。男孩笑著說：「謝謝妳，魔女姊姊！」琪琪開開心心地飛回家。雖然這一天很辛苦，但她很愛她的工作。
+
+## 搭船去小琉球
+Last summer, my family took a ferry to Xiaoliuqiu. The ferry was [[crowded|honest|polite|thirsty]] with tourists, and we had to stand for the whole trip. The sea was rough, and the boat went up and down. My little brother felt sick. He sat on the floor and said [[nothing|anything|nobody|nowhere]] for twenty minutes. Mom gave him some water and told him to look at the sky. After half an hour, we [[finally|honestly|cheaply|politely]] got to the island. My brother felt better as soon as his feet touched the ground. In the afternoon, we went snorkeling. The water was clear and [[quiet|crowded|honest|thirsty]], and we saw three big sea turtles eating sea plants. One of them swam [[slowly|cheaply|honestly|politely]] right next to me. It didn't seem to be afraid at all. My brother said, "The boat ride was terrible, but this was worth it!"
+> 1 crowded with tourists「擠滿了遊客」，所以只能站著。honest（誠實的）、polite（有禮貌的）、thirsty（口渴的）都不能接 with tourists 形容船上的情況。
+> 2 said nothing「一句話也沒說」，因為暈船。anything 不能用在肯定句 he said 後面；nobody（沒有人）、nowhere（無處）都不能當 said 的受詞。
+> 3 finally got to the island「終於抵達小島」。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都不能修飾抵達。
+> 4 clear and quiet「清澈又平靜」，形容海水。crowded（擁擠的）、honest（誠實的）、thirsty（口渴的）都不能形容海水。
+> 5 swam slowly「慢慢地游」，好像一點也不怕人。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容海龜游泳的樣子。
++ ferry = 渡輪
++ Xiaoliuqiu = 小琉球
++ tourist = 觀光客
++ rough = （海）波濤洶湧的
++ snorkel = 浮潛
+= 去年夏天，我們全家搭渡輪去小琉球。渡輪上擠滿了遊客，我們整趟都只能站著。海浪很大，船一直上上下下。弟弟暈船了，他坐在地上，二十分鐘一句話都沒說。媽媽給他喝點水，叫他看著天空。半小時後，我們終於到了小島。弟弟的腳一踩到地面就好多了。下午我們去浮潛，海水清澈又平靜，我們看到三隻大海龜在吃海草。其中一隻就在我旁邊慢慢地游，好像一點也不怕人。弟弟說：「坐船很可怕，但這一切都值得！」
+
+## 雨後的蝸牛賽跑
+After a rainy morning, my little sister and I found many snails in our garden. "Let's have a snail race!" she said. We drew a start line and a finish line on the ground with chalk. Then we picked up two snails [[carefully|cheaply|honestly|hungrily]] and put them at the start. My sister named hers Rocket, and I named mine Lightning. Of course, they moved very [[slowly|cheaply|honestly|politely]]. After five minutes, Rocket had gone only ten centimeters. Lightning didn't move at all. "Is he sleeping?" my sister asked. I didn't [[mind|hope|decide|agree]] losing, but I wanted to see Lightning move. So we waited and waited. Our garden was so [[quiet|crowded|honest|polite]] that we could hear the raindrops falling from the leaves. After half an hour, Rocket [[finally|honestly|cheaply|politely]] crossed the finish line. My sister jumped up and shouted, "We won!" Then we put both snails back under the plants.
+> 1 picked up two snails carefully「小心地把兩隻蝸牛拿起來」，以免傷到牠們。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容拿起蝸牛的方式。
+> 2 moved very slowly「動得很慢」，蝸牛本來就很慢。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容移動速度。
+> 3 didn't mind losing「不介意輸」，mind 後面接 V-ing。hope、decide、agree 後面都不能直接接 losing。
+> 4 so quiet that we could hear the raindrops「安靜到聽得見雨滴聲」。crowded（擁擠的）、honest（誠實的）、polite（有禮貌的）都不能形容花園安靜。
+> 5 finally crossed the finish line「終於越過終點線」，等了半小時。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
++ snail = 蝸牛
++ chalk = 粉筆
++ centimeter = 公分
++ raindrop = 雨滴
+= 一個下雨的早上過後，我和妹妹在院子裡發現了很多蝸牛。「我們來辦蝸牛賽跑！」她說。我們用粉筆在地上畫了起點線和終點線，然後小心地拿起兩隻蝸牛，放在起點。妹妹把她的取名為「火箭」，我的叫「閃電」。當然，牠們爬得非常慢。五分鐘後，火箭只前進了十公分，閃電則完全不動。「牠在睡覺嗎？」妹妹問。我不介意輸，但我很想看閃電動一下。於是我們等了又等。院子裡安靜到我們聽得見雨滴從葉子上落下的聲音。半小時後，火箭終於越過了終點線。妹妹跳起來大叫：「我們贏了！」然後我們把兩隻蝸牛都放回植物底下。
+
+## 第一次捏陶
+Last Saturday, Mom took me to a pottery class in Yingge. Our teacher, Mr. Chen, showed us how to make a cup on a spinning wheel. He made it look easy. But when I tried, the clay flew everywhere. "Don't press so hard," Mr. Chen said. "Move your hands [[slowly|cheaply|honestly|politely]]." I tried again. This time, I held the clay [[carefully|cheaply|honestly|hungrily]] with both hands. Little by little, it became a cup! It wasn't perfect, but I was proud of it. Then Mom's clay fell off the wheel and broke into pieces. She had [[nothing|anything|nobody|nowhere]] left to work with. Mr. Chen gave her some more clay, and she laughed and said, "I'll make a plate [[instead|ago|either|seldom]]." Two weeks later, our cup and plate were [[finally|honestly|cheaply|politely]] ready. My cup is a little crooked, but I drink milk from it every morning.
+> 1 Move your hands slowly「手慢慢地移動」，前一句叫我不要太用力。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容手的動作。
+> 2 held the clay carefully「小心地捧著陶土」。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容捧陶土的方式。
+> 3 had nothing left「什麼都沒剩下」，陶土都碎了。anything 不能用在肯定句 She had 後面；nobody（沒有人）、nowhere（無處）都不能表示沒有陶土可用。
+> 4 make a plate instead「改做一個盤子」，instead 放句尾表示「改為」。ago 要接在時間後面；either 用在否定句；seldom（很少）不能放句尾。
+> 5 were finally ready「終於做好了」，等了兩個星期。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
++ pottery = 陶藝
++ Yingge = 鶯歌
++ spinning wheel = 拉坯機
++ clay = 陶土
++ crooked = 歪的
+= 上星期六，媽媽帶我去鶯歌上陶藝課。陳老師示範怎麼用拉坯機做杯子，他做起來看似很簡單。但輪到我的時候，陶土飛得到處都是。「不要壓那麼用力，」陳老師說，「手要慢慢地動。」我再試了一次，這次我用兩手小心地捧著陶土。慢慢地，它變成了一個杯子！雖然不完美，但我很自豪。這時，媽媽的陶土從拉坯機上掉下來，摔成碎片，她什麼都沒得用了。陳老師又給她一些陶土，她笑著說：「那我改做一個盤子好了。」兩個星期後，我們的杯子和盤子終於燒好了。我的杯子有點歪，但我每天早上都用它喝牛奶。
+
+## 隱形斗篷
+One day, a young wizard named Leo found an old cloak in his grandpa's attic. When he put it on, he couldn't see his own body. It was a cloak that made people invisible! The next morning, he walked into the classroom [[quietly|cheaply|honestly|hungrily]] in the cloak. Nobody saw him. He sat in the back and listened to his classmates talk. Then he heard his friend Sam say, "I hope Leo is okay. He's not here today." Leo felt [[terrible|polite|honest|crowded]]. His friends were worried about him, but he couldn't say [[anything|nothing|nowhere|ever]] because he was afraid of scaring them. So he walked out of the room [[carefully|cheaply|honestly|hungrily]], took off the cloak, and came back in. "Leo! You're here!" Sam said with a big smile. That night, Leo put the cloak back in the attic. He decided to spend his time with his friends [[instead|ago|either|seldom]]. Being seen, he thought, was much better than being invisible.
+> 1 walked in quietly「安靜地走進去」，穿著隱形斗篷不想被發現。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容偷偷走進教室的樣子。
+> 2 felt terrible「覺得很難過、過意不去」，朋友在擔心他。polite（有禮貌的）、honest（誠實的）、crowded（擁擠的）都不能表示他聽到這句話的感受。
+> 3 couldn't say anything「什麼都不能說」，否定句用 anything。nothing 已經是否定，不能和 couldn't 一起用；nowhere（無處）、ever（曾經）都不能當 say 的受詞。
+> 4 walked out carefully「小心地走出去」，以免被發現。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容走路的方式。
+> 5 spend his time with his friends instead「改把時間花在朋友身上」，不再用斗篷。ago 要接在時間後面；either 用在否定句；seldom（很少）不能放句尾。
++ wizard = 巫師
++ cloak = 斗篷
++ attic = 閣樓
++ invisible = 隱形的
++ scare = 嚇
+= 有一天，一個叫 Leo 的小巫師在爺爺家的閣樓裡找到一件舊斗篷。他一穿上，就看不到自己的身體了。原來這是一件能讓人隱形的斗篷！隔天早上，他穿著斗篷，安靜地走進教室，沒有人看見他。他坐在最後面，聽同學們聊天。接著他聽到朋友 Sam 說：「希望 Leo 沒事，他今天沒來。」Leo 覺得很過意不去。朋友們在擔心他，但他怕嚇到大家，什麼都不能說。於是他小心地走出教室，脫下斗篷，再走回來。「Leo！你來了！」Sam 笑得好開心。那天晚上，Leo 把斗篷放回閣樓。他決定改把時間花在朋友身上。他想，被大家看見，比隱形好太多了。
+
+## 空盒子裡的禮物
+On my birthday, my best friend Nina gave me a big box with a red ribbon. I opened it [[slowly|cheaply|honestly|politely]] because I wanted to enjoy the moment. But when I looked inside, there was [[nothing|anything|nobody|nowhere]] in it! I didn't know what to say. "Is this a joke?" I asked. Nina laughed. "Look again," she said. "Look [[carefully|cheaply|heavily|hungrily]] at the bottom." There was a small card at the bottom of the box. It said, "This box is full of time. Every Sunday this month, I'll spend the whole afternoon with you. We can do [[anything|nothing|nowhere|ever]] you want." I was so happy. Nina is always busy with her piano lessons, so this was the best present she could give me. That month, we went biking, baked cookies, and watched movies. I [[finally|honestly|cheaply|politely]] understood that time with friends is the greatest gift.
+> 1 opened it slowly「慢慢地打開」，想好好享受那一刻。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容拆禮物的方式。
+> 2 there was nothing in it「裡面什麼都沒有」，所以我不知道該說什麼。anything 不能用在肯定句 there was 後面；nobody（沒有人）、nowhere（無處）都不能形容盒子裡空空的。
+> 3 Look carefully「仔細看」，底部有一張小卡片。cheaply（便宜地）、heavily（沉重地）、hungrily（飢餓地）都不能形容看的方式。
+> 4 do anything you want「做任何你想做的事」，肯定句中的 anything 表示「任何事」。nothing 意思相反；nowhere（無處）、ever（曾經）都不能當 do 的受詞。
+> 5 finally understood「終於明白」。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都不能修飾 understood 表示經過這個月才明白。
++ ribbon = 緞帶
++ joke = 玩笑
++ bottom = 底部
+= 我生日那天，最好的朋友 Nina 送我一個綁著紅緞帶的大盒子。我慢慢地打開，因為我想好好享受這一刻。但往裡面一看，什麼都沒有！我不知道該說什麼。「這是在開玩笑嗎？」我問。Nina 笑了：「再看一次，仔細看看底部。」盒子底部有一張小卡片，上面寫著：「這個盒子裡裝滿了時間。這個月的每個星期天，我都會陪你一整個下午，你想做什麼都可以。」我好開心。Nina 總是忙著上鋼琴課，所以這是她能給我的最好的禮物。那個月，我們一起騎腳踏車、烤餅乾、看電影。我終於明白，和朋友在一起的時間才是最棒的禮物。
+
+## 阿公的助聽器
+My grandpa can't hear well. When we talk to him, we have to shout, and he still often says, "What?" Last year, my dad bought him a hearing aid, but Grandpa didn't want to wear it. "It makes everything too [[noisy|quiet|honest|polite]]," he said. "I can hear the cars, the dogs, and even the fridge!" So the hearing aid stayed in a drawer. Then one day, my little cousin was born. When Grandpa held the baby, she made small sounds, but he couldn't hear [[anything|nothing|nowhere|ever]]. He looked sad. That night, he [[finally|honestly|cheaply|politely]] took the hearing aid out of the drawer. The next day, he held the baby again. This time, he heard her soft laugh. His eyes filled with tears. "I didn't [[mind|hope|decide|agree]] missing the noise of the cars," he said, "but I don't want to miss this." Now he wears it every day, and our dinners aren't [[quiet|crowded|honest|polite]] anymore. Grandpa joins every talk!
+> 1 too noisy「太吵了」，他聽得到車聲、狗叫，連冰箱聲都聽得到。quiet（安靜的）和後句矛盾；honest（誠實的）、polite（有禮貌的）都不能形容聲音。
+> 2 couldn't hear anything「什麼都聽不到」，否定句用 anything。nothing 已經是否定，不能和 couldn't 一起用；nowhere（無處）、ever（曾經）都不能當 hear 的受詞。
+> 3 finally took it out「終於把它拿出來」，為了聽孫女的聲音。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都不能表示他終於改變主意。
+> 4 didn't mind missing…「不介意聽不到…」，mind 後面接 V-ing。hope、decide、agree 後面都不能直接接 missing。
+> 5 aren't quiet anymore「不再安靜了」，因為阿公加入每個話題。crowded（擁擠的）、honest（誠實的）、polite（有禮貌的）都不能和「阿公加入聊天」形成因果。
++ hearing aid = 助聽器
++ fridge = 冰箱
++ drawer = 抽屜
++ tear = 眼淚
+= 我阿公聽力不好。我們跟他說話都得用喊的，他還是常常說：「什麼？」去年，爸爸買了一副助聽器給他，可是阿公不想戴。「它讓什麼都變得好吵，」他說，「我聽得到車子、狗，連冰箱的聲音都聽得到！」所以助聽器一直放在抽屜裡。後來有一天，我的小表妹出生了。阿公抱著寶寶的時候，她發出小小的聲音，但他什麼都聽不到，看起來很難過。那天晚上，他終於把助聽器從抽屜裡拿了出來。隔天，他再抱寶寶時，聽到了她輕輕的笑聲，眼眶都濕了。「聽不到車子的吵鬧聲我不介意，」他說，「但我不想錯過這個。」現在他每天都戴著助聽器，我們的晚餐也不再安靜了，阿公每個話題都要參一腳！
+
+## 掃地機器人和貓
+Last month, we bought a robot vacuum. It moves [[slowly|cheaply|honestly|politely]] around the house and cleans the floor by itself. Mom loves it, but our cat, Tofu, hates it. The first time the robot started, it was so [[noisy|quiet|honest|polite]] that Tofu jumped onto the bookshelf and stayed there for an hour. The next day, Tofu tried to fight it. He hit it with his paw, but the robot did [[nothing|anything|nobody|nowhere]]. It just kept cleaning. After a week, Tofu changed his plan. [[Instead|Ago|Either|Seldom]] of fighting the robot, he started riding on it! Now every afternoon, he sits on top of the robot and goes around the living room like a king. When the robot stops, Tofu gets off and walks away, as if [[nothing|anything|nowhere|ever]] happened. My dad made a video of it, and it got ten thousand views online.
+> 1 moves slowly「慢慢地移動」。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容機器人移動的樣子。
+> 2 so noisy that Tofu jumped onto the bookshelf「吵到 Tofu 跳上書架」。quiet（安靜的）和「嚇得跳上書架」矛盾；honest（誠實的）、polite（有禮貌的）都不能形容機器。
+> 3 did nothing「什麼反應都沒有」，只是繼續打掃。anything 不能用在肯定句 did 後面；nobody（沒有人）、nowhere（無處）都不能當 did 的受詞。
+> 4 Instead of + V-ing「不再…而改…」，不打機器人，改坐在上面。Ago、Either、Seldom 都沒有 ___ of 的用法。
+> 5 as if nothing happened「好像什麼事都沒發生」。anything 不能當肯定句的主詞；nowhere（無處）、ever（曾經）都不能當 happened 的主詞。
++ robot vacuum = 掃地機器人
++ bookshelf = 書架
++ paw = 腳掌
++ view = 觀看次數
+= 上個月，我們買了一台掃地機器人。它會在家裡慢慢地移動，自己把地板掃乾淨。媽媽很喜歡它，但我們的貓「豆腐」很討厭它。機器人第一次啟動的時候，吵到豆腐跳上書架，待了一個小時才下來。隔天，豆腐想跟它打架。牠用腳掌打它，但機器人一點反應也沒有，只是繼續打掃。一個星期後，豆腐改變了計畫：牠不再跟機器人打架，而是開始坐在上面！現在每天下午，牠都坐在機器人上，像國王一樣在客廳裡繞來繞去。機器人一停，豆腐就跳下來走開，好像什麼事都沒發生過。爸爸把這拍成影片，網路上有一萬人次觀看。
+
+## 考試時腦袋一片空白
+Last week, we had a big math test. I studied hard for three days, so I felt ready. But when I looked at the first question, my [[mind|pocket|garbage|uniform]] went blank. I couldn't remember [[anything|nothing|nowhere|ever]]! The classroom was so [[quiet|crowded|honest|polite]] that I could hear my heart beating. I looked at the clock. Twenty minutes had passed, and I had written [[nothing|anything|nobody|nowhere]]. Then I remembered what my teacher always says: "If you get stuck, close your eyes and breathe." So I closed my eyes and took three deep breaths. When I opened them, I read the question again. This time, I saw a word I knew. One step at a time, the answers came back to me. I [[finally|honestly|cheaply|politely]] finished the test just before the bell rang. I got 82. It wasn't my best grade, but I learned how to stay calm.
+> 1 my mind went blank「腦袋一片空白」，固定說法。pocket（口袋）、garbage（垃圾）、uniform（制服）都不能表示想不起來。
+> 2 couldn't remember anything「什麼都想不起來」，否定句用 anything。nothing 已經是否定，不能和 couldn't 一起用；nowhere（無處）、ever（曾經）都不能當 remember 的受詞。
+> 3 so quiet that I could hear my heart「安靜到聽得見心跳」。crowded（擁擠的）、honest（誠實的）、polite（有禮貌的）都不能形容教室安靜。
+> 4 had written nothing「一個字都還沒寫」。anything 不能用在肯定句 I had written 後面；nobody（沒有人）、nowhere（無處）都不能當 written 的受詞。
+> 5 finally finished「終於寫完」，在鐘響前完成。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
++ blank = 空白的
++ beat = 跳動
++ stuck = 卡住的
++ calm = 冷靜的
+= 上星期我們有一場很重要的數學考試。我認真讀了三天，覺得自己準備好了。可是一看到第一題，我的腦袋就一片空白，什麼都想不起來！教室安靜到我聽得見自己的心跳。我看了看時鐘，二十分鐘過去了，我一個字都還沒寫。這時我想起老師常說的話：「如果卡住了，就閉上眼睛深呼吸。」於是我閉上眼睛，深呼吸三次。再睜開眼睛時，我重新讀了一遍題目，這次我看到一個我會的詞。一步一步地，答案慢慢回來了。我終於在鐘響前寫完考卷。我考了 82 分，雖然不是我最好的成績，但我學會了怎麼保持冷靜。
+
+## 搭貓空纜車
+On Sunday, my family took the Maokong Gondola to the tea farms in the mountains. The station was very [[crowded|honest|polite|thirsty]], and we waited in line for forty minutes. We [[finally|honestly|cheaply|politely]] got into a car with a glass floor. When it started to move, I could see the trees right under my feet! My little brother held onto Dad's arm and didn't look down. The car moved [[slowly|cheaply|honestly|politely]] up the mountain, so we had plenty of time to enjoy the view. We could see Taipei 101 far away. At the top, it was cool and [[quiet|noisy|thirsty|honest]]. There was no traffic, only birds singing in the trees. We drank tea and ate tea-flavored ice cream. "It's so much better than the noisy city," Mom said. On the way down, my brother was [[brave|polite|honest|thirsty]] enough to look through the glass floor. "This isn't scary at all," he said, but he was still holding Dad's hand.
+> 1 very crowded「很擁擠」，排隊排了四十分鐘。honest（誠實的）、polite（有禮貌的）、thirsty（口渴的）都不能形容車站人多。
+> 2 finally got into a car「終於坐上車廂」，排了很久。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都說不通。
+> 3 moved slowly up the mountain「慢慢地往山上移動」，所以有很多時間看風景。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容纜車移動。
+> 4 cool and quiet「涼爽又安靜」，後面說沒有車聲，只有鳥叫。noisy（吵鬧的）和後句矛盾；thirsty（口渴的）、honest（誠實的）都不能形容山上的環境。
+> 5 brave enough to look「勇敢到敢往下看」，去程他都不敢往下看。polite（有禮貌的）、honest（誠實的）、thirsty（口渴的）都不能接 enough to look 表示「敢」。
++ gondola = 纜車
++ Maokong = 貓空
++ tea farm = 茶園
++ glass floor = 玻璃地板
++ tea-flavored = 茶口味的
+= 星期天，我們全家搭貓空纜車去山上的茶園。車站非常擁擠，我們排了四十分鐘的隊，終於坐上一台有玻璃地板的車廂。纜車一開始移動，我就看到樹木就在我的腳下！弟弟緊抓著爸爸的手臂，不敢往下看。纜車慢慢地往山上移動，所以我們有很多時間欣賞風景，還能看到遠方的台北 101。山上涼爽又安靜，沒有車聲，只有鳥兒在樹上唱歌。我們喝了茶，還吃了茶口味的冰淇淋。「這裡比吵鬧的城市好太多了，」媽媽說。回程時，弟弟鼓起勇氣往玻璃地板下看。「一點都不可怕嘛，」他說，但他還是牽著爸爸的手。
+
+## 柯南與消失的金錶
+One rainy afternoon, Mr. Wang's gold watch went missing from his house. The police looked around, but they found [[nothing|anything|nowhere|ever]] useful. Then Conan, the boy detective, arrived. He walked around the living room [[carefully|cheaply|honestly|hungrily]] and looked at every corner. Near the open window, he found some small, muddy footprints on the floor. "Did anyone come in today?" Conan asked. "No," said Mr. Wang. "It was [[quiet|thirsty|honest|polite]] all afternoon. I was reading in my room." Conan went out to the garden and looked up at a big tree. There was a crow's nest in it, and something inside was shining. It was the gold watch! Everything [[finally|honestly|cheaply|politely]] made sense. "Crows love shiny things," Conan said. "The bird flew in through the window and took it. The footprints are the crow's!" Mr. Wang laughed. [[Instead|Ago|Either|Seldom]] of locking his doors, he now closes his windows before he reads.
+> 1 found nothing useful「沒找到任何有用的東西」。anything 不能用在肯定句 they found 後面；nowhere（無處）、ever（曾經）都不能當 found 的受詞。
+> 2 walked around carefully「仔細地四處走」，每個角落都看。cheaply（便宜地）、honestly（誠實地）、hungrily（飢餓地）都不能形容偵探查看的方式。
+> 3 It was quiet all afternoon「整個下午都很安靜」，沒有人進來。thirsty（口渴的）、honest（誠實的）、polite（有禮貌的）都不能形容下午的情況。
+> 4 Everything finally made sense「一切終於說得通了」。honestly（誠實地）、cheaply（便宜地）、politely（有禮貌地）都不能修飾 made sense。
+> 5 Instead of + V-ing「不是…而是…」，他不是去鎖門，而是看書前先關窗。Ago、Either、Seldom 都沒有 ___ of 的用法。
++ detective = 偵探
++ muddy = 沾滿泥巴的
++ footprint = 腳印
++ crow = 烏鴉
++ shiny = 閃亮的
+= 一個下雨的午後，王先生的金錶從家裡不見了。警察四處查看，卻沒找到任何有用的線索。這時，少年偵探柯南來了。他在客廳裡仔細地走了一圈，每個角落都不放過。在開著的窗戶旁邊，他發現地上有一些小小的泥巴腳印。「今天有人進來過嗎？」柯南問。「沒有，」王先生說，「整個下午都很安靜，我一直在房間看書。」柯南走到院子，抬頭看著一棵大樹。樹上有一個烏鴉巢，裡面有東西在發亮——就是那支金錶！一切終於說得通了。「烏鴉很喜歡閃亮的東西，」柯南說，「是這隻鳥從窗戶飛進來把錶叼走的，那些腳印是烏鴉的！」王先生笑了。他沒有因此去鎖門，而是現在看書前都會先把窗戶關好。
