@@ -33,3 +33,6 @@ b9faa7d595|familiar,helpful,fair,sad
 84c4b3bc96|valuable
 d968d69517|sell
 4f11a24c0c|exercise
+21a04a37de|wake,lose,pick,observe,fear
+dcc9ff0c6a|player,plate,fight,lion,noon,moon,spoon
+253ae1cac8|land
