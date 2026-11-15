@@ -126,3 +126,137 @@ My dad has a very [[loud|wise|careful|cheap]] voice. When he talks on the phone,
 + embarrassed = 尷尬的
 + rude = 沒禮貌的
 = 我爸爸的嗓門很大。他講電話時，整棟樓都聽得到；他叫我吃晚餐時，我在對街的公園都聽得到。不過有時候他的大嗓門也很有用。上個月學校運動會，爸爸來看我賽跑。跑到最後一段時，我很累，差點就慢下來了。這時我聽到一個聲音：「衝啊，Amy，衝啊！」整個體育場的人都轉頭看他。爸爸一直喊我的名字，直到我衝過終點線。我跑了第一名！比賽結束後，朋友們說：「你爸好好笑喔。」我覺得有點尷尬，但也很驕傲。媽媽說，大聲和沒禮貌之間差很多。爸爸雖然大聲，但從來不會沒禮貌。他也很有智慧，每次我難過時，他總是知道該說什麼。
+
+## 外婆的生活智慧
+My grandma never went to college, but she is the [[wisest|loudest|cheapest|emptiest]] person I know. She has an answer for every small problem at home. When my white shirt got a coffee stain, she put some lemon juice on it, and the stain disappeared. When our rice was too hard, she added a little water and cooked it again. "There are two [[types|events|bills|secrets]] of people," she once told me. "Some people complain about problems. Others look for answers." Grandma is also very [[careful|loud|delicious|national]] with money. She writes down everything she buys in a small notebook. Last year, she used the money she saved to take the whole family to Japan! I asked her, "Grandma, how did you learn all these things?" She smiled. "Life is the best teacher. If you make a mistake, don't [[repeat|belong|boil|arrive]] it." That night, I [[typed|belonged|boiled|arrived]] her words on my computer, so I would never forget them.
+> 1 the wisest person「最有智慧的人」，後面說她什麼小問題都能解決。loudest（最大聲）、cheapest（最便宜）、emptiest（最空）都不能說明這一點。
+> 2 two types of people「兩種人」，後面說明是哪兩種。events（活動）、bills（帳單）、secrets（祕密）都不能和 of people 搭配表示種類。
+> 3 be careful with money「用錢很謹慎」，每樣東西都記帳。loud（大聲的）、delicious（美味的）、national（國家的）都不能和 with money 搭配。
+> 4 don't repeat a mistake「不要重複犯錯」。belong 要接 to；boil（煮沸）、arrive（到達）接 it 都說不通。
+> 5 type her words on my computer「把她的話打在電腦上」。belonged 要接 to；boiled、arrived 接 her words 都說不通。
++ stain = 污漬
++ lemon juice = 檸檬汁
++ disappear = 消失
++ complain = 抱怨
+= 我外婆沒有上過大學，但她是我認識最有智慧的人。家裡的每個小問題她都有辦法解決。我的白襯衫沾到咖啡漬，她擠一點檸檬汁上去，污漬就不見了；飯煮得太硬，她加一點水再煮一次。「世界上有兩種人，」她有一次跟我說，「有些人抱怨問題，有些人找答案。」外婆用錢也很謹慎，她把買的每樣東西都記在一本小筆記本裡。去年，她用存下來的錢帶全家去日本玩！我問她：「外婆，這些事你是怎麼學會的？」她笑著說：「生活是最好的老師。犯了錯，就不要再犯第二次。」那天晚上，我把她的話打在電腦上，這樣我就永遠不會忘記。
+
+## 深山裡的瀑布
+Last weekend, my family went hiking in the mountains of Yilan. We wanted to see a famous waterfall [[deep|loud|wise|careful]] in the forest. The path was narrow and wet, so Dad kept saying, "Be [[careful|deep|delicious|national]]. Don't run." After walking for two hours, we heard a [[loud|wise|careful|cheap]] sound. "That's the waterfall!" my sister shouted. When we got there, the waterfall was even more beautiful than its photos. The water fell into a [[deep|wise|polite|careful]] pool. A sign said, "No swimming. This pool is dangerous." We sat on the rocks and ate our lunch while we listened to the water. Before we left, Mom said, "Nature doesn't [[belong|repeat|type|boil]] to us. We are only visitors here." So we picked up all our garbage and took it down the mountain with us.
+> 1 deep in the forest「在森林深處」。loud、wise、careful 都不能和 in the forest 搭配表示位置。
+> 2 Be careful.「要小心」，因為小路又窄又濕。deep（深的）、delicious（美味的）、national（國家的）都不能用來提醒人注意安全。
+> 3 a loud sound「很大的聲音」，就是瀑布的水聲。wise（有智慧的）、careful（小心的）、cheap（便宜的）都不能形容聲音。
+> 4 a deep pool「很深的水潭」，所以禁止游泳。wise、polite（有禮貌的）、careful 都不能形容水潭。
+> 5 belong to us「屬於我們」，大自然不是我們的，我們只是訪客。repeat、type、boil 都不能和 to us 搭配表示屬於誰。
++ Yilan = 宜蘭
++ waterfall = 瀑布
++ path = 小路
++ narrow = 窄的
++ pool = 水潭
+= 上週末，我們全家去宜蘭的山上健行，想去看一座藏在森林深處的有名瀑布。小路又窄又濕，所以爸爸一直說：「要小心，不要跑。」走了兩個小時後，我們聽到很大的聲音。「是瀑布！」妹妹大叫。到了那裡，瀑布比照片上還要美。水落進一個很深的水潭，旁邊的告示寫著：「禁止游泳，水潭危險。」我們坐在石頭上，一邊聽水聲一邊吃午餐。離開前，媽媽說：「大自然不屬於我們，我們只是來這裡的訪客。」所以我們把垃圾全部撿起來，一起帶下山。
+
+## 這隻狗是誰的？
+On my way home from school, I saw a small brown dog sitting alone outside the convenience store. It had a red collar, so I knew it [[belonged|repeated|typed|boiled]] to someone. It looked scared and hungry. I gave it some water and waited. Then I noticed a small tag on its collar with a phone number on it. I was [[careful|loud|deep|delicious]] when I called the number, because I didn't want to say anything wrong. A woman answered, and when I told her about the dog, she started to cry. "That's Coffee! He ran away this morning!" she said. Twenty minutes later, she arrived with her son. The boy ran to the dog and gave him a big hug. Coffee barked in a [[loud|wise|careful|national]] voice and wagged his tail. The woman thanked me again and again. "Many people walked past him, but you stopped. That makes a big [[difference|pair|type|event]]," she said. Before they left, she gave me a [[pair|secret|bill|program]] of movie tickets as a thank-you gift.
+> 1 belong to someone「是某人的（屬於某人）」，有項圈表示有主人。repeated、typed、boiled 都不能和 to someone 搭配表示屬於誰。
+> 2 I was careful「我很小心」，怕說錯話。loud（大聲的）和後面的原因相反；deep（深的）、delicious（美味的）不能形容人打電話的態度。
+> 3 in a loud voice「大聲地」叫。wise（有智慧的）、careful（小心的）、national（國家的）都不能形容狗叫聲。
+> 4 make a big difference「有很大的影響（差別）」，你停下來幫忙很重要。pair、type、event 都不能和 make a big 組成這個片語。
+> 5 a pair of movie tickets「兩張電影票」。secret、bill、program 都不能用來數電影票。
++ convenience store = 便利商店
++ collar = 項圈
++ tag = 名牌
++ bark = 吠叫
++ wag = 搖（尾巴）
+= 放學回家的路上，我看到一隻棕色的小狗獨自坐在便利商店外面。牠戴著紅色項圈，所以我知道牠是有主人的。牠看起來又害怕又餓，我給牠一些水，陪牠等著。接著我發現項圈上有一個小名牌，上面有電話號碼。我打電話時很小心，因為我不想說錯話。一位女士接起電話，聽到我說小狗的事，她哭了出來。「那是咖啡！牠今天早上跑走了！」她說。二十分鐘後，她和兒子趕到了。小男孩衝過去緊緊抱住小狗，咖啡大聲叫著，還一直搖尾巴。那位女士一再向我道謝。「很多人從牠旁邊走過，但你停了下來，這差別很大。」她說。離開前，她送我兩張電影票當作謝禮。
+
+## 尤達大師的訓練
+In the Star Wars movies, Yoda is a small green Jedi Master. He is about nine hundred years old and very [[wise|loud|cheap|thick]]. In one movie, a young man named Luke goes to a swamp to learn from him. At first, Luke doesn't [[respect|repeat|belong|type]] Yoda because he looks so small and funny. But Yoda's training is hard. Luke has to run, jump, and lift rocks with his mind. When Luke's spaceship sinks into the [[deep|careful|cheap|polite]] water, he says, "I can't lift it. It's too big." Yoda answers that size doesn't matter. Then the tiny master lifts the ship out of the water by himself. Luke can't believe his eyes. He learns that there is a big [[difference|pair|type|event]] between trying and really believing. Yoda also tells Luke to be [[careful|loud|cheap|deep]], because anger and fear can lead him to the dark side.
+> 1 very wise「很有智慧」，他是活了九百年的絕地大師。loud（大聲的）、cheap（便宜的）、thick（厚的）都不能這樣形容他。
+> 2 doesn't respect someone「不尊重（看不起）某人」，因為尤達看起來又小又好笑。repeat（重複）、type（打字）接 Yoda 都說不通；belong 要接 to。
+> 3 the deep water「深水」，太空船沉進水裡。careful（小心的）、cheap（便宜的）、polite（有禮貌的）都不能形容水。
+> 4 a difference between A and B「A 和 B 的差別」。pair、type、event 都不能和 between trying and really believing 搭配。
+> 5 be careful「要小心」，因為憤怒和恐懼會把他帶向黑暗面。loud（大聲的）、cheap（便宜的）、deep（深的）都不能表示提醒。
++ Jedi Master = 絕地大師
++ swamp = 沼澤
++ spaceship = 太空船
++ sink = 下沉
++ the dark side = 黑暗面
+= 在《星際大戰》電影裡，尤達是一位綠色的小個子絕地大師。他大約九百歲，非常有智慧。在其中一部電影裡，一位叫路克的年輕人到沼澤去向他學習。一開始，路克並不尊重尤達，因為他看起來又小又好笑。但尤達的訓練很辛苦，路克要跑、要跳，還要用意念舉起石頭。路克的太空船沉進深水裡時，他說：「我舉不起來，它太大了。」尤達回答，大小並不重要。接著，這位小小的大師自己就把太空船從水裡舉了起來。路克簡直不敢相信自己的眼睛。他學到「嘗試」和「真正相信」之間有很大的差別。尤達也告訴路克要小心，因為憤怒和恐懼會把他帶向黑暗面。
+
+## 科學週的水火箭比賽
+Every spring, our school has a Science Week. The most popular [[event|pair|difference|bill]] is the water rocket contest. This year, my partner Joe and I worked as a [[pair|bill|secret|program]]. We made our rocket from two plastic bottles. We had to be very [[careful|loud|deep|delicious]] when we cut the bottles, because the edges were sharp. On the day of the contest, many students came to watch. When our rocket flew into the sky, everyone gave a [[loud|wise|careful|deep]] cheer. It flew eighty meters, but another team's rocket flew ninety. We lost by only ten meters. Our science teacher told us, "Small changes can make a big [[difference|pair|event|type]]. Next year, try adding a little more water." Joe and I are already planning our new rocket.
+> 1 the most popular event「最受歡迎的活動」，就是水火箭比賽。pair（一對）、difference（不同）、bill（帳單）都不能指科學週的比賽。
+> 2 work as a pair「兩人一組合作」。bill、secret、program 都不能和 work as a 搭配表示分組。
+> 3 be careful when…「做…的時候要小心」，因為切口很利。loud（大聲的）、deep（深的）、delicious（美味的）都不能表示小心。
+> 4 a loud cheer「大聲歡呼」。wise（有智慧的）、careful（小心的）、deep（深的）都不能形容觀眾的歡呼。
+> 5 make a big difference「造成很大的差別」，一點小改變就有很大影響。pair、event、type 都不能和 make a big 組成這個片語。
++ water rocket = 水火箭
++ partner = 夥伴
++ plastic bottle = 寶特瓶
++ edge = 邊緣
+= 我們學校每年春天都有科學週，最受歡迎的活動是水火箭比賽。今年，我和夥伴 Joe 兩人一組。我們用兩個寶特瓶做火箭。剪瓶子的時候要非常小心，因為切口很利。比賽當天，很多同學來看。我們的火箭飛上天空時，大家都大聲歡呼。它飛了八十公尺，但另一隊的火箭飛了九十公尺，我們只輸了十公尺。自然老師跟我們說：「小小的改變就能造成很大的差別。明年試試看多加一點水。」Joe 和我已經在計畫我們的新火箭了。
+
+## 一模一樣的雙胞胎
+My new classmates, Tina and Nina, are twins. They have the same long hair, the same glasses, and even the same [[type|pair|event|secret]] of school bag. On the first day of school, I couldn't tell the [[difference|pair|event|bill]] between them. I called Tina "Nina" three times, and they both laughed. "Don't worry. Everyone does that," Tina said. Then I started to look more carefully. I noticed that Tina has a small mark under her left eye. Nina's voice is also a little [[louder|wiser|cheaper|emptier]]. When they talk, I can hear it. Last week, they played a trick on our teacher. They changed seats, and Tina answered questions as Nina. But our teacher was too [[wise|loud|cheap|empty]] to be fooled. "Nice try, Tina," she said with a smile. The twins are different in other ways, too. Tina loves sports, but Nina likes to stay home and read. Still, they're the best [[pair|bill|secret|program]] of friends I know.
+> 1 the same type of school bag「同一款書包」。pair 後面要接複數名詞，而且書包不是成雙的；event、secret 都不能和 of school bag 搭配。
+> 2 tell the difference between…「分辨…之間的不同」。pair、event、bill 都不能和 tell the ___ between them 搭配。
+> 3 a little louder「大聲一點」，所以聽聲音就分得出來。wiser（更有智慧）、cheaper（更便宜）、emptier（更空）都不能形容說話的聲音。
+> 4 too wise to be fooled「太聰明了，騙不了」。loud（大聲的）、cheap（便宜的）、empty（空的）都不能說明老師為什麼沒被騙。
+> 5 the best pair of friends「最好的一對朋友」，兩人感情很好。bill、secret、program 都不能用來說「一對」朋友。
++ twins = 雙胞胎
++ mark = 痣；記號
++ play a trick on = 捉弄
++ be fooled = 被騙
+= 我的新同學 Tina 和 Nina 是雙胞胎。她們有一樣的長髮、一樣的眼鏡，連書包都是同一款。開學第一天，我完全分不出她們誰是誰。我把 Tina 叫成「Nina」三次，她們兩個都笑了。「別擔心，大家都會這樣。」Tina 說。後來我開始看得更仔細，發現 Tina 的左眼下面有一顆小痣，Nina 的聲音也大一點，她們說話時我就聽得出來。上星期，她們捉弄了老師：兩人交換座位，Tina 假裝成 Nina 回答問題。但老師太聰明了，騙不了她。「想得美喔，Tina。」她笑著說。這對雙胞胎在其他地方也不一樣：Tina 愛運動，Nina 喜歡待在家看書。不過，她們是我認識最要好的一對朋友。
+
+## 背九九乘法的妹妹
+My little sister Ruby is in second grade, and she has to learn the multiplication table. Every night, she sits at the table and [[repeats|belongs|types|boils]] it again and again: "Two times two is four, two times three is six…" Her voice is so [[loud|wise|cheap|careful]] that I can't do my homework in the next room. "Ruby, can you be a little quieter?" I asked. "No! My teacher says I have to say it out loud," she answered. One evening, she cried because she couldn't remember the sevens. I sat next to her and said, "Don't worry. Let's do it together." We made a song for the sevens and sang it every night. A week later, there was a big [[difference|pair|event|type]] in her test score: she got 100! Ruby was so happy that she made me a card. It said, "You are the [[wisest|thickest|cheapest|emptiest]] big sister in the world." Now the song [[belongs|repeats|types|boils]] to both of us, and sometimes we still sing it together.
+> 1 repeat it again and again「一遍又一遍地念」。belongs 要接 to；types（打字）不能用嘴巴念；boils（沸騰）意思不通。
+> 2 so loud that…「大聲到…」，我在隔壁房間都沒辦法寫作業。wise（有智慧的）、cheap（便宜的）、careful（小心的）都不能說明為什麼吵到我。
+> 3 a big difference in her test score「她的分數有很大的不同（進步）」，考了一百分。pair、event、type 都不能和 in her test score 搭配。
+> 4 the wisest big sister「最有智慧的姊姊」，謝謝我想出唱歌的方法。thickest（最厚）、cheapest（最便宜）、emptiest（最空）都不能用來稱讚人。
+> 5 belong to both of us「屬於我們兩個」，這首歌是我們一起編的。repeats、types、boils 都不能和 to both of us 搭配表示屬於誰。
++ multiplication table = 九九乘法表
++ times = 乘以
++ out loud = 出聲地
++ score = 分數
+= 我妹妹 Ruby 讀小學二年級，她要背九九乘法表。每天晚上，她都坐在桌子前一遍又一遍地念：「二二得四，二三得六……」她的聲音大到我在隔壁房間都沒辦法寫作業。「Ruby，你可以小聲一點嗎？」我問。「不行！老師說要念出聲音來。」她回答。有一天晚上，她因為記不住七的乘法哭了。我坐在她旁邊說：「別擔心，我們一起來。」我們把七的乘法編成一首歌，每天晚上一起唱。一週後，她的考試分數有了很大的不同：她考了一百分！Ruby 開心到做了一張卡片給我，上面寫著：「你是全世界最有智慧的姊姊。」現在這首歌是屬於我們兩個的，有時候我們還會一起唱。
+
+## 電影院裡講電話的人
+Last Sunday, my friend and I went to see a new superhero movie. The theater was full. Just before the most exciting part, a man behind us started talking on his phone. His voice was very [[loud|wise|careful|cheap]]. "Yes, I'm at the movies. What? Say that again!" he said. He kept asking the other person to [[repeat|belong|boil|arrive]] everything. Many people turned around and looked at him, but he didn't stop. Finally, an old woman next to him said, "Excuse me, sir. This is a public place. It doesn't [[belong|repeat|type|boil]] only to you." The man's face turned red, and he put his phone away. After the movie, my friend said, "That woman was so brave." "She was also [[wise|loud|cheap|thick]]," I said. "She didn't shout. She just said the right words." I learned that a few polite words can make a big [[difference|pair|type|event]].
+> 1 very loud「很大聲」，大家都轉頭看他。wise（有智慧的）、careful（小心的）、cheap（便宜的）都不能形容講電話的音量。
+> 2 ask someone to repeat everything「要對方每句話都再說一次」，前面他說「再說一次」。belong 要接 to；boil、arrive 接 everything 都說不通。
+> 3 belong only to you「只屬於你」，公共場所是大家的。repeat、type、boil 都不能和 to you 搭配表示屬於誰。
+> 4 wise「有智慧的」，她沒有大吼，只說了對的話。loud（大聲的）和「她沒有大吼」相反；cheap（便宜的）、thick（厚的）不能稱讚人。
+> 5 make a big difference「造成很大的不同」。pair、type、event 都不能和 make a big 組成這個片語。
++ superhero = 超級英雄
++ theater = 電影院
++ public = 公共的
++ sir = 先生
+= 上星期天，我和朋友去看一部新的超級英雄電影。電影院坐滿了人。就在最精彩的部分之前，我們後面有一個男人開始講電話。他的聲音非常大：「對，我在看電影。什麼？再說一次！」他一直要對方每句話都再說一次。很多人轉頭看他，但他還是沒停。最後，他旁邊的一位老奶奶說：「先生，不好意思，這裡是公共場所，不是只屬於你一個人的。」那個男人臉都紅了，把手機收了起來。電影結束後，我朋友說：「那位奶奶好勇敢。」「她也很有智慧，」我說，「她沒有大吼，只是說了對的話。」我學到，幾句有禮貌的話就能帶來很大的不同。
+
+## 阿公學注音打字
+My grandpa got a smartphone for his eightieth birthday. He wanted to send messages to his grandchildren, but he didn't know how to [[type|belong|arrive|boil]]. So I taught him to use Zhuyin. At first, he was very slow. He looked at every key for a long time and was [[careful|loud|deep|cheap]] not to make mistakes. After a week, he sent me his first message: "Good night, my dear." I was so happy that I showed it to my whole class. Now Grandpa sends messages to our family group every morning. He likes to send the same [[type|pair|event|bill]] of picture: flowers with the words "Good morning." Sometimes he sends the same picture three times because he forgets. When I tell him, he just laughs and says, "Then I'm sending you three times more love." Grandma says the phone has made a big [[difference|pair|event|bill]] in his life. He doesn't feel lonely anymore. I think Grandpa is [[wise|loud|cheap|thick]]. He knows it's never too late to learn something new.
+> 1 know how to type「知道怎麼打字」，才能傳訊息。belong 要接 to；arrive（到達）、boil（沸騰）都和傳訊息無關。
+> 2 be careful not to…「小心不要…」，每個按鍵都看很久。loud（大聲的）、deep（深的）、cheap（便宜的）都不能和 not to make mistakes 搭配。
+> 3 the same type of picture「同一種圖片」，冒號後面說是什麼圖。pair 後面要接複數名詞；event、bill 都不能和 of picture 搭配。
+> 4 make a big difference in his life「讓他的生活大不相同」，他不再孤單了。pair、event、bill 都不能和 make a big ___ 搭配。
+> 5 wise「有智慧的」，他知道學習永遠不嫌晚。loud（大聲的）、cheap（便宜的）、thick（厚的）都和後一句的意思接不上。
++ smartphone = 智慧型手機
++ Zhuyin = 注音
++ key = 按鍵
++ dear = 親愛的人
+= 阿公八十歲生日時收到一支智慧型手機。他想傳訊息給孫子們，但他不會打字，所以我教他用注音。一開始他打得很慢，每個按鍵都看很久，很小心不要打錯。一個星期後，他傳了第一則訊息給我：「晚安，親愛的。」我開心到拿給全班看。現在阿公每天早上都在家族群組傳訊息。他喜歡傳同一種圖片：花上面寫著「早安」。有時候他會忘記，同一張圖傳三次。我跟他說的時候，他只是笑著說：「那我就是傳了三倍的愛給你們。」阿嬤說這支手機讓阿公的生活大不相同，他不再覺得孤單了。我覺得阿公很有智慧，他知道學新東西永遠不嫌晚。
+
+## 魔法學校的大聲咒
+At Willow Magic School, students learn a new spell every week. This week, Professor Moon taught us the Loud Spell. "With this spell, a soft sound becomes very [[loud|wise|careful|cheap]]," she said. "Be [[careful|thick|deep|delicious]] with it." My friend Max wasn't listening. He was drawing a dragon in his notebook. When it was his turn, he pointed his wand at a mouse and said the magic words. The mouse opened its mouth and made a tiny sound, but it was louder than thunder! Windows shook, and books fell off the shelves. Professor Moon quickly [[repeated|belonged|arrived|boiled]] the magic words backward, and the mouse was quiet again. "Max," she said, "a wand doesn't [[belong|repeat|type|boil]] in the hands of someone who doesn't listen." Max said sorry. Then he took a [[deep|national|wise|cheap]] breath and tried again. This time, he did it perfectly.
+> 1 become very loud「變得很大聲」，這是「大聲咒」。wise（有智慧的）、careful（小心的）、cheap（便宜的）都不能形容聲音變大。
+> 2 Be careful with it.「使用時要小心」。thick（厚的）、deep（深的）、delicious（美味的）都不能和 with it 搭配表示提醒。
+> 3 repeat the words backward「把咒語倒著再念一次」，讓老鼠恢復安靜。belonged 要接 to；arrived、boiled 接 the magic words 都說不通。
+> 4 belong in someone's hands「適合（屬於）某人手中」，不聽課的人不配拿魔杖。repeat、type、boil 都不能和 in the hands of 搭配。
+> 5 take a deep breath「深呼吸」。national（國家的）、wise（有智慧的）、cheap（便宜的）都不能和 breath 搭配。
++ spell = 咒語
++ professor = 教授
++ wand = 魔杖
++ thunder = 雷
++ backward = 倒著；向後
+= 在柳樹魔法學校，學生每個星期都要學一個新咒語。這個星期，月亮教授教我們「大聲咒」。「用了這個咒語，小小的聲音就會變得非常大，」她說，「使用時要小心。」我朋友 Max 沒在聽，他正在筆記本上畫一隻龍。輪到他的時候，他用魔杖指著一隻老鼠，念出咒語。老鼠張開嘴發出一點點聲音，卻比打雷還大聲！窗戶都在震動，書也從架子上掉了下來。月亮教授趕快把咒語倒著念一次，老鼠又安靜了下來。「Max，」她說，「不聽課的人不配拿魔杖。」Max 道了歉，然後深呼吸，再試一次。這一次，他做得完美無缺。
