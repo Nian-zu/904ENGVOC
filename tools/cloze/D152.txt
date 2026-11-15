@@ -114,3 +114,121 @@ On a small island [[far|ago|once|seldom]] away from Taiwan, there lived an old m
 + stormy = 暴風雨的
 + fisherman = 漁夫
 = 在離台灣很遠的一座小島上，住著一位名叫林先生的老人。他負責照顧島上的燈塔。每天晚上，他都爬一百級階梯去開燈，這樣船就不會撞上礁石。一個暴風雨的夜晚，燈突然熄了。林先生知道還有一艘漁船在海上。他扛著一盞大燈爬上樓梯，腳很痛，但他沒有停下來。到了頂端，他舉起燈，揮了一整夜。早上，漁船平安回來了。漁夫跑向林先生，跟他握手：「我看到你的燈了，你救了我一命！我永遠不會忘記。」林先生笑著說：「這是我的工作。」
+
+## 弟弟的寄居蟹
+My little brother has a hermit crab named Shelly. He keeps her in a small glass box and feeds her every day. One morning, Shelly did not move at all. My brother started to cry. "Is she dead?" Dad looked closely. "Don't worry. She did not [[die|lead|count|carry]]. She is just getting ready to change her shell." That night, my brother [[prayed|carried|led|died]] before bed: "Please be OK, Shelly." The next day, Shelly came out of her old shell and walked into a new one. My brother jumped up and down. Then he [[carried|prayed|died|counted]] the box to school to show his classmates. His teacher told the class, "Hermit crabs need more space than you think. Keeping them in a small box is a [[mistake|ticket|prize|museum]]." After school, my brother asked Dad to buy a bigger home for Shelly. Now she has a [[wonderful|terrible|boring|dirty]] new home with sand, water, and lots of shells, and she looks very happy there.
+> 1 die「死」：爸爸說牠沒有死，只是準備換殼。lead、count、carry 都是及物動詞，後面需要受詞，這裡沒有。
+> 2 prayed「祈禱」，後面接著弟弟說「Shelly，請你沒事」。carried、led 後面需要受詞；died 和情境完全不符。
+> 3 carry … to school「把…帶去學校」。prayed、died 不能接盒子當受詞；counted the box to school 說不通。
+> 4 … is a mistake「…是錯誤的做法」：把寄居蟹養在小盒子裡是不對的。ticket（票）、prize（獎品）、museum（博物館）都不合理。
+> 5 有沙、有水、有很多殼，而且牠看起來很開心，所以是 wonderful「很棒的」新家。terrible（糟糕）、boring（無聊）、dirty（髒）都和「很開心」矛盾。
++ hermit crab = 寄居蟹
++ shell = 殼
++ sand = 沙
+= 我弟弟養了一隻寄居蟹，名叫 Shelly。他把牠養在一個小玻璃盒裡，每天餵牠。有一天早上，Shelly 一動也不動。弟弟哭了：「牠死了嗎？」爸爸仔細看了看：「別擔心，牠沒有死，只是準備要換殼了。」那天晚上，弟弟睡前祈禱：「Shelly，請你沒事。」隔天，Shelly 從舊殼裡爬出來，鑽進了一個新殼。弟弟高興得跳上跳下，還把盒子帶到學校給同學看。老師告訴全班：「寄居蟹需要的空間比你們想的大，把牠們養在小盒子裡是不對的。」放學後，弟弟請爸爸幫 Shelly 買一個更大的家。現在牠有一個很棒的新家，有沙、有水，還有很多殼，看起來很開心。
+
+## 排成 V 字的大雁
+Have you ever seen geese flying in the sky? They often fly in a V shape. One bird flies at the front and [[leads|dies|prays|counts]] the others. The birds behind it can fly more easily, so they do not get tired so fast. This way, the group can fly very [[far|ago|once|seldom]]—sometimes thousands of kilometers. When the front bird gets tired, it moves to the back, and another bird flies [[ahead|ago|almost|seldom]]. The geese also make loud sounds while flying. Scientists believe they are telling the leader, "Keep going! We are right behind you!" If one bird gets sick and has to land, two others go down with it. They stay with it until it gets better or [[dies|leads|prays|counts]]. We can learn a [[lot|piece|half|size]] from geese: work together, take turns, and never leave a friend behind.
+> 1 lead the others「帶領其他的鳥」：飛在最前面的那一隻。dies、prays 不能接受詞；counts the others「數其他的鳥」不合理。
+> 2 fly very far「飛得很遠」，後面說可以飛幾千公里。ago、once、seldom 都不能用 very 修飾表示距離。
+> 3 fly ahead「飛到前面」：換另一隻鳥到前面領頭。ago、almost、seldom 都不能表示「往前面」。
+> 4 until it gets better or dies「直到牠好起來或死去」，better 和 dies 是兩種可能的結果。leads、prays、counts 都不是生病的結果。
+> 5 learn a lot from…「從…學到很多」，a lot 是固定說法。a piece、a half、a size 後面都要接 of 和名詞，不能單獨當「很多」用。
++ geese = 雁（goose 的複數）
++ V shape = V 字形
++ scientist = 科學家
+= 你看過大雁在天上飛嗎？牠們常排成 V 字形飛行。一隻鳥飛在最前面帶領其他的鳥。後面的鳥飛起來比較輕鬆，所以不會那麼快就累。這樣，整群鳥可以飛得很遠，有時候飛好幾千公里。當前面的鳥累了，牠會移到後面，換另一隻鳥飛到前面。大雁飛行時還會大聲叫。科學家認為牠們是在告訴領頭的鳥：「繼續飛！我們就在你後面！」如果有一隻鳥生病必須降落，會有兩隻鳥陪牠一起下去，一直陪著牠，直到牠好起來或死去。我們可以從大雁身上學到很多：合作、輪流，而且永遠不丟下朋友。
+
+## 開往霍格華茲的列車
+Harry stood in the busy train station with a heavy trunk. He had to [[carry|pray|die|count]] it all the way to the platform by himself. Then he saw the train to Hogwarts. It was [[wonderful|boring|dirty|stupid]]: bright red and shiny, with white smoke coming out of the top. Harry's eyes opened wide. Hogwarts is [[far|ago|once|seldom]] away in the north, so the trip took the [[whole|afraid|alone|asleep]] day. On the train, a red-haired boy named Ron sat with him. They bought lots of candy and shared it. Ron wanted to show Harry some magic. He pointed his wand at a chocolate frog and said some strange words. The frog jumped out of the window! A girl sitting across from them shook her head. "I think you said the words wrong," she said. "That was a big [[mistake|ticket|museum|language]]." Harry laughed. He knew this was going to be a fun year.
+> 1 carry it「提著它」：哈利得自己把沉重的行李箱一路提到月台。pray、die 不能接行李箱；count it「數它」不合理。
+> 2 火車又紅又亮，哈利看得眼睛都睜大了，表示很棒，wonderful。boring（無聊的）、dirty（髒的）、stupid（愚蠢的）都和讚嘆的反應不合。
+> 3 far away「很遠」：霍格華茲遠在北方。ago、once、seldom 都不能接 away in the north 表示距離。
+> 4 the whole day「一整天」。afraid、alone、asleep 不能放在名詞前面。
+> 5 make a mistake「犯錯」：咒語唸錯了。ticket（票）、museum（博物館）、language（語言）都不能形容唸錯咒語這件事。
++ trunk = 大行李箱
++ platform = 月台
++ Hogwarts = 霍格華茲（《哈利波特》裡的魔法學校）
++ wand = 魔杖
+= 哈利拖著一個沉重的行李箱，站在擁擠的火車站裡。他得自己把它一路提到月台。然後他看到了開往霍格華茲的火車。那列火車好棒：鮮紅又閃亮，車頂冒著白煙。哈利看得眼睛都睜大了。霍格華茲遠在北方，所以要坐一整天的車。在車上，一個紅頭髮、名叫榮恩的男孩坐到他旁邊。他們買了很多糖果一起分著吃。榮恩想表演魔法給哈利看。他用魔杖指著一隻巧克力蛙，唸了一些奇怪的字。結果那隻青蛙跳出窗外了！坐在他們對面的女孩搖搖頭說：「我想你唸錯了，那是個大錯誤。」哈利笑了，他知道這會是有趣的一年。
+
+## 數羊數到天亮
+The night before the school trip, Tina could not fall asleep. She was too excited. Her mom said, "Try to [[count|pray|carry|lead]] sheep." So Tina closed her eyes. "One sheep, two sheep, three sheep..." She [[counted|died|led|carried]] for a whole hour, but she was still wide awake. Even worse, the sheep in her head started to [[fight|invite|borrow|collect]] with each other! "Mom, it is not working," she said. Mom laughed. "Then think about something [[wonderful|afraid|angry|sick]], like the beach tomorrow." Tina thought about the blue sea and the warm sand. Soon she felt sleepy. The next morning, she woke up late! She ran to school and got there just in time. "That was close," she said. "Tonight I will go to bed [[early|ago|almost|ever]]."
+> 1 count sheep「數羊」，睡不著時的方法。pray（祈禱）、carry（搬運）、lead（帶領）接 sheep 都不是助眠的說法。
+> 2 counted for a whole hour「數了整整一個小時」。died、led、carried 都不能這樣單獨用來表示「數了一小時」；led、carried 還需要受詞。
+> 3 fight with each other「互相打架」，所以情況更糟了。invite、borrow、collect 都要直接接受詞，不能接 with each other。
+> 4 something wonderful「美好的事情」，例如明天要去的海灘。afraid、angry、sick 是形容人的感覺，不能用來形容「海灘這件事」。
+> 5 go to bed early「早點睡」，因為今天早上睡過頭了。ago、almost、ever 都不能放在 go to bed 後面。
++ excited = 興奮的
++ awake = 醒著的
+= 校外教學的前一晚，Tina 睡不著，她太興奮了。媽媽說：「試試數羊吧。」於是 Tina 閉上眼睛：「一隻羊、兩隻羊、三隻羊……」她數了整整一個小時，還是很清醒。更糟的是，她腦海裡的羊竟然開始互相打架！「媽，沒有用啦。」她說。媽媽笑了：「那就想想美好的事情，像是明天的海灘。」Tina 想著藍色的大海和溫暖的沙灘，很快就想睡了。第二天早上，她睡過頭了！她跑到學校，剛好趕上。「好險，」她說，「今天晚上我要早點睡。」
+
+## 存錢筒開箱日
+Andy has saved coins in his piggy bank since last summer. He wants to buy a new video game, and today is the big day. He opened the bank, poured all the coins onto the table, and started to [[count|pray|die|lead]] them. It took him a long time. "One thousand two hundred and fifty!" But the game cost one thousand five hundred dollars. He was still [[far|ago|once|ever]] from his goal. His grandma heard him. "If you help me [[carry|pray|die|count]] my bags home from the market every Sunday, I will give you fifty dollars," she said. Andy agreed. For the next five weeks, he walked with Grandma to the market. Her bags were heavy, but he never complained. At last, he had enough money. He was proud because he [[paid|died|led|counted]] for the game himself. "Thank you for helping me," Grandma said. "You are a [[wonderful|dangerous|dirty|terrible]] grandson."
+> 1 count them「數它們（硬幣）」，後面接著說出總數。pray、die 不能接硬幣；lead them「帶領硬幣」不合理。
+> 2 far from his goal「離目標還很遠」：還差兩百五十元。ago、once、ever 都不能接 from 表示距離。
+> 3 carry my bags「提我的袋子」。pray、die 不能接袋子；count my bags home from the market 說不通。
+> 4 pay for…「付…的錢」：他自己付錢買遊戲，所以很驕傲。died、led、counted 都不能接 for the game 表示買東西。
+> 5 阿嬤在謝謝他，所以說他是 wonderful「很棒的」孫子。dangerous（危險的）、dirty（髒的）、terrible（糟糕的）都和道謝的語氣不合。
++ piggy bank = 小豬撲滿
++ goal = 目標
++ complain = 抱怨
+= Andy 從去年夏天就開始把硬幣存進小豬撲滿。他想買一款新的電玩遊戲，今天就是開箱的大日子。他打開撲滿，把硬幣全倒在桌上，開始數。他數了好久：「一千兩百五十元！」可是那款遊戲要一千五百元，他離目標還很遠。阿嬤聽到了，說：「如果你每個星期天幫我把市場買的東西提回家，我就給你五十元。」Andy 答應了。接下來五個星期，他都陪阿嬤去市場。袋子很重，但他從來沒抱怨過。最後，他終於存夠了錢。他很驕傲，因為遊戲是他自己付錢買的。「謝謝你幫我，」阿嬤說，「你真是個很棒的孫子。」
+
+## 傳錯群組的訊息
+Last night, I was chatting with my best friend Amy on my phone. I wanted to tell her a secret: I like a boy in our class named Eric. I typed the message and pressed "Send." Then I looked again, and my heart almost stopped. I sent it to our class group by [[mistake|ticket|museum|lesson]]! There were thirty people in the group, and Eric was one of them. I wanted to [[hide|count|lead|carry]] under my bed forever. I deleted the message quickly, but it was too late. I [[counted|carried|led|died]] the "read" marks: five! The next morning, I did not want to go to school. But when I walked into the classroom, Eric came up to me. My face turned red. "I saw your message," he said quietly. "I think you are [[wonderful|terrible|dirty|stupid]] too." Now the [[whole|afraid|alone|asleep]] class knows about us, but I do not mind anymore.
+> 1 by mistake「不小心、弄錯」，固定片語：不小心傳到班級群組。by ticket、by museum、by lesson 都不是片語。
+> 2 hide under my bed「躲到床底下」，表示很想躲起來。count、lead、carry 都需要受詞，不能直接接 under my bed。
+> 3 count the "read" marks「數『已讀』的數字」，後面說「五個！」。carried、led、died 都不能接 marks 這樣用。
+> 4 too 表示 Eric 也有同樣的好感，所以是 wonderful「很棒的」。terrible、dirty、stupid 都是負面字，和「也（喜歡你）」矛盾。
+> 5 the whole class「全班」。afraid、alone、asleep 不能放在名詞前面。
++ secret = 祕密
++ delete = 刪除
+= 昨天晚上，我在手機上和最好的朋友 Amy 聊天。我想告訴她一個祕密：我喜歡班上一個叫 Eric 的男生。我打好訊息、按下「傳送」，再看一眼，心臟差點停了——我不小心傳到班級群組了！群組裡有三十個人，Eric 也是其中一個。我好想永遠躲在床底下。我趕快刪掉訊息，但已經太遲了。我數了一下「已讀」：五個！隔天早上，我不想去上學。可是我一走進教室，Eric 就走過來。我的臉都紅了。「我看到你的訊息了，」他小聲說，「我也覺得你很棒。」現在全班都知道我們的事了，不過我已經不在意了。
+
+## 一路搬餅乾的螞蟻
+During lunch break, Kai dropped a piece of cookie on the ground. A few minutes later, an ant found it. The ant did not eat the cookie. Instead, it ran back home. Soon, a long line of ants came, and the first ant [[led|died|prayed|counted]] the way. Kai was surprised. "How did the other ants know where to go?" His science teacher told him that ants leave a special smell on the ground. The ants behind can follow the smell, even when the food is [[far|ago|once|ever]] away. Kai wanted to see where the ants lived. He followed the line around the school building. It took him almost the [[whole|afraid|alone|asleep]] lunch break. At last, he found a tiny hole under a tree. The ants [[carried|prayed|died|led]] small pieces of cookie into it, one by one. "They are so small, but they work so [[hard|dead|wet|fresh]]," Kai said.
+> 1 lead the way「帶路」，固定說法：第一隻螞蟻帶路。died、prayed 不能接受詞；counted the way 不是片語。
+> 2 far away「很遠」：就算食物在很遠的地方，螞蟻也能循著氣味找到。ago、once、ever 都不能接 away 表示距離。
+> 3 the whole lunch break「整個午休」。afraid、alone、asleep 不能放在名詞前面。
+> 4 carry … into it「把…搬進去」：螞蟻把餅乾屑搬進洞裡。prayed、died 不能接受詞；led small pieces of cookie「帶領餅乾屑」不合理。
+> 5 work hard「努力工作」，hard 在這裡是副詞。dead、wet、fresh 都是形容詞，不能修飾 work。
++ ant = 螞蟻
++ tiny = 極小的
+= 午休時，Kai 掉了一塊餅乾在地上。幾分鐘後，一隻螞蟻發現了它。那隻螞蟻沒有吃餅乾，反而跑回家去。很快地，一長排螞蟻來了，第一隻螞蟻在前面帶路。Kai 很驚訝：「其他螞蟻怎麼知道要去哪裡？」自然老師告訴他，螞蟻會在地上留下一種特別的氣味，後面的螞蟻就算食物在很遠的地方，也能循著氣味找到。Kai 想看看螞蟻住在哪裡，就沿著那排螞蟻繞著校舍走，幾乎花了整個午休。最後，他在一棵樹下發現一個小洞。螞蟻把一小塊一小塊的餅乾，一個接一個地搬了進去。「牠們那麼小，卻那麼努力工作。」Kai 說。
+
+## 颱風夜的漁夫爸爸
+My dad is a fisherman in Keelung. One night, the news said a typhoon was coming, but Dad's boat was still out at sea. Mom called him again and again, but he did not answer. My sister and I could not sleep. Mom took us to the small temple near our house, and we [[prayed|carried|led|sold]] for him. The wind was very strong, and the rain did not stop for the [[whole|afraid|alone|asleep]] night. At six in the morning, the phone finally rang. It was Dad! "I am OK," he said. "I saw the storm [[ahead|ago|seldom|almost]] of me, so I went to a small island and waited there." When he came home that afternoon, he [[carried|prayed|died|counted]] a big box of fish. "For my family," he said with a smile. Mom hugged him and said, "Next time, please check the weather before you go. Going out yesterday was a [[mistake|ticket|museum|festival]]."
+> 1 pray for + 人「為某人祈禱」：我們到廟裡為爸爸祈禱。carried、led、sold 後面都需要受詞，而且 for him 說不通。
+> 2 the whole night「一整夜」。afraid、alone、asleep 不能放在名詞前面。
+> 3 ahead of me「在我前方」：爸爸看到前方有暴風雨。ago、seldom、almost 都不能接 of me 表示位置。
+> 4 carry a big box of fish「扛著一大箱魚」。prayed、died 不能接受詞；counted a big box 只是「數一個箱子」，不合理。
+> 5 … was a mistake「…是錯的決定」：颱風天還出海是錯誤的。ticket（票）、museum（博物館）、festival（節日）都說不通。
++ fisherman = 漁夫
++ Keelung = 基隆
++ typhoon = 颱風
++ temple = 廟
+= 我爸爸是基隆的漁夫。有一天晚上，新聞說颱風要來了，可是爸爸的船還在海上。媽媽一直打電話給他，但他都沒接。我和妹妹都睡不著。媽媽帶我們到家附近的小廟，為他祈禱。風好大，雨下了一整夜都沒停。早上六點，電話終於響了，是爸爸！「我沒事，」他說，「我看到前面有暴風雨，就先開到一座小島等著。」那天下午他回到家，扛著一大箱魚。「給我的家人。」他笑著說。媽媽抱著他說：「下次出海前請先看天氣。昨天出去是錯的。」
+
+## 揹妹妹回家
+On Saturday, I took my five-year-old sister to a park. It was not [[far|ago|once|ever]] from our home, so we walked there. She played on the slide and ran around for two hours. On the way home, she suddenly sat down on the street. "My legs hurt. I can't walk anymore," she said. So I had to [[carry|count|pray|die]] her on my back. She was heavier than I thought. After ten minutes, my back hurt too. To make the walk feel shorter, I [[counted|carried|prayed|led]] my steps out loud: "One, two, three..." My sister began to count with me, and soon we were both laughing. When we got home, Mom said, "You are a [[wonderful|terrible|dirty|dangerous]] big brother." That night, my sister gave me a drawing. It showed a boy carrying a girl, with a big red heart above them. I put it on my wall, and I look at it [[every|half|few|such]] day.
+> 1 not far from…「離…不遠」，所以可以走路去。ago、once、ever 都不能接 from 表示距離。
+> 2 carry … on my back「把…揹在背上」。count（數）、pray（祈禱）、die（死）都不能接 her on my back。
+> 3 count my steps「數自己的步數」，後面接著數「一、二、三」。carried my steps、prayed my steps、led my steps 都不通。
+> 4 媽媽在稱讚他，所以是 wonderful「很棒的」哥哥。terrible（糟糕的）、dirty（髒的）、dangerous（危險的）都不是稱讚。
+> 5 every day「每天」。half day 前面要有 a 或 the；few 要接複數名詞（few days）；such day 前面也要有 a，所以都不對。
++ slide = 溜滑梯
++ drawing = 圖畫
+= 星期六，我帶五歲的妹妹去公園。公園離我們家不遠，所以我們走路去。她溜滑梯、跑來跑去玩了兩個小時。回家的路上，她突然坐在路邊：「我的腳好痛，走不動了。」所以我只好把她揹在背上。她比我想的還重，十分鐘後我的背也痛了。為了讓路感覺短一點，我大聲數著步數：「一、二、三……」妹妹也跟著我一起數，很快我們兩個都笑了出來。回到家，媽媽說：「你真是個很棒的哥哥。」那天晚上，妹妹送我一張圖，畫著一個男孩揹著一個女孩，上面有一顆大大的紅色愛心。我把它貼在牆上，每天都會看一看。
+
+## 艾莎學騎腳踏車
+It was a hot summer day in Arendelle. Anna wanted to take her sister Elsa to the beach, but it was [[far|ago|once|ever]] from the castle. "Let's ride bikes!" Anna said. Elsa had never ridden a bike before. She fell down again and again. "This was a [[mistake|ticket|museum|language]]," she said, and she wanted to go home. Anna held the back of her bike. "Don't give up. I will [[lead|die|pray|marry]] the way. Just follow me." Elsa tried again. This time, she used her magic and turned the road in front of her into ice. Her bike slid all the way down the hill! Anna had to run after her the [[whole|afraid|alone|asleep]] way. When they finally arrived at the beach, Elsa was laughing. "That was a [[wonderful|terrible|dirty|stupid]] ride! Let's do it again tomorrow!"
+> 1 far from…「離…很遠」：海灘離城堡很遠，所以要騎腳踏車。ago、once、ever 都不能接 from 表示距離。
+> 2 This was a mistake.「這是個錯誤。」艾莎一直跌倒，想要回家。ticket（票）、museum（博物館）、language（語言）都說不通。
+> 3 lead the way「帶路」：我在前面帶路，你跟著我。die、pray 不能接受詞；marry the way 不合理。
+> 4 the whole way「一路上、全程」。afraid、alone、asleep 不能放在名詞前面。
+> 5 她笑著說「明天再騎一次」，所以是 wonderful「很棒的」。terrible、dirty、stupid 都和她開心想再來的心情矛盾。
++ Arendelle = 艾倫戴爾（《冰雪奇緣》裡的王國）
++ castle = 城堡
++ slid = 滑行（slide 的過去式）
+= 艾倫戴爾的一個炎熱夏日，安娜想帶姊姊艾莎去海灘，可是海灘離城堡很遠。「我們騎腳踏車去吧！」安娜說。艾莎從來沒騎過腳踏車，她跌倒了一次又一次。「這是個錯誤。」她說，想要回家了。安娜扶著她的腳踏車後面：「別放棄，我來帶路，你跟著我就好。」艾莎又試了一次。這次她用了魔法，把前面的路變成冰，她的腳踏車一路滑下山坡！安娜只好一路追著她跑。等她們終於到了海灘，艾莎笑個不停：「騎得太棒了！我們明天再騎一次吧！」
