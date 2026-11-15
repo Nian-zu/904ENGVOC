@@ -121,3 +121,135 @@ We bought a robot vacuum last month. We named it Bobo. Every morning, Bobo clean
 + perfect = 完美的
 + pocket money = 零用錢
 = 我們上個月買了一台掃地機器人，取名叫 Bobo。每天早上我們去上學時，Bobo 就在家掃地。它好像知道我們家的每一個角落。不過 Bobo 並不完美。上星期天，它發出很可怕的聲音——它把我的一隻襪子吃進去了！媽媽只好把它打開，把襪子拿出來。星期二，它又把垃圾桶推倒，紙屑散得到處都是。我的貓咪 Mimi 不喜歡 Bobo，每次 Bobo 靠近，牠就跳到桌上，從安全的地方盯著它。不過，爸爸說 Bobo 還是相當有用。「它工作認真、從來不累，而且從來不要零用錢！」
+
+## 社區的工具借用站
+Our neighborhood has a special room called the "Tool Library." People don't borrow books there. They borrow tools! Mr. Chen, a retired teacher, started it last year. "Many people buy a tool, use it once, and never use it again," he said. "That [[seems|lends|cheers|borrows]] like a waste of money." So he asked neighbors to give their old tools to the room. Now there are hammers, ladders, and even a [[large|honest|hungry|afraid]] tent for camping. Anyone can come and borrow them for free. Last week, my dad wanted to fix our door. Mr. Chen [[lent|cost|hurt|explained]] him a drill and showed him how to use it. Dad was [[quite|ago|abroad|ahead]] happy. "It's like having a hardware store next door!" The room is small, but it is very [[popular|hungry|honest|afraid]]. On weekends, people wait in line outside the door.
+> 1 That seems like a waste「那好像是一種浪費」，seem like + 名詞，主詞 that 用 seems。lends、cheers、borrows 都不能接 like 表示「好像」。
+> 2 a large tent「一頂大帳篷」，large 放在名詞前。honest（誠實的）、hungry（餓的）不能形容帳篷；afraid 不能放在名詞前面。
+> 3 lent him a drill「借給他一把電鑽」，lend + 人 + 物，過去式 lent。cost（花費）、hurt（傷害）、explained（解釋）都不能接「人＋物」表示借東西。
+> 4 quite happy「相當開心」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 happy。
+> 5 very popular「很受歡迎」，所以週末大家在門外排隊。hungry、honest、afraid 都不能用來形容一個房間。
++ retired = 退休的
++ ladder = 梯子
++ drill = 電鑽
++ hardware store = 五金行
+= 我們社區有一個特別的房間，叫做「工具圖書館」。大家在那裡借的不是書，而是工具！退休老師陳先生去年開始經營它。「很多人買了一個工具，用一次就再也不用了，」他說，「這好像是在浪費錢。」所以他請鄰居們把舊工具送到這個房間。現在裡面有鐵鎚、梯子，甚至還有一頂露營用的大帳篷，任何人都可以免費來借。上星期，我爸爸想修家裡的門，陳先生借給他一把電鑽，還教他怎麼用。爸爸相當開心：「就像隔壁開了一家五金行！」這個房間雖然小，但很受歡迎，週末時大家還會在門外排隊。
+
+## 颱風夜停電
+During the typhoon last night, the lights suddenly went out. The wind made a scary [[noise|nature|garbage|habit]] outside the window. My little brother held my arm. "I'm scared," he said. Then he added, "And I'm [[hungry|full|honest|national]] too!" We hadn't eaten dinner yet. Mom found some candles. My phone battery was [[low|large|hungry|honest]], so I turned it off. Dad boiled water on our gas stove and made instant noodles for everyone. We ate by candlelight. The room was dark, but it [[seemed|lent|cheered|borrowed]] warm and cozy. We told ghost stories and played cards. My brother forgot he was scared and laughed a lot. At ten o'clock, the lights came back on. "Oh no," my brother said. "That was [[quite|ago|abroad|ahead]] fun. Can we turn them off again?"
+> 1 made a scary noise「發出可怕的聲音」，風在窗外呼呼作響。nature（自然）、garbage（垃圾）、habit（習慣）都不是風能發出的東西。
+> 2 還沒吃晚餐，所以「我也好餓」，用 hungry。full（飽的）意思相反；honest（誠實的）、national（國家的）和沒吃飯無關。
+> 3 battery was low「電量很低」，所以把手機關掉省電。large（大的）、hungry、honest 都不能形容電量。
+> 4 seemed warm and cozy「感覺溫暖舒適」，seem + 形容詞。lent、cheered、borrowed 都不能直接接形容詞。
+> 5 quite fun「相當好玩」，quite 修飾 fun。ago、abroad、ahead 都不能修飾 fun。
++ typhoon = 颱風
++ candle = 蠟燭
++ battery = 電池
++ stove = 爐子
++ cozy = 溫暖舒適的
+= 昨晚颱風來的時候，燈突然熄了。風在窗外發出很可怕的聲音。弟弟抓著我的手臂說：「我好怕。」接著又說：「而且我也好餓！」我們還沒吃晚餐。媽媽找到了幾根蠟燭。我的手機快沒電了，所以我把它關機。爸爸用瓦斯爐燒開水，幫大家泡了泡麵。我們在燭光下吃飯。房間雖然很暗，卻感覺溫暖又舒適。我們講鬼故事、玩撲克牌，弟弟忘了害怕，笑得好開心。十點鐘，電來了。「喔不，」弟弟說，「剛剛好好玩喔，我們可以再把燈關掉嗎？」
+
+## 外星人的垃圾報告
+Zork is an alien from Planet Blue. His teacher sent him to Earth to write a report. On his first day, he landed in a park. He saw beautiful trees, flowers, and birds. "Earth's [[nature|noise|garbage|traffic]] is amazing," he wrote. But then he walked to the river. There were plastic bottles and bags everywhere. "Why do humans throw [[garbage|nature|noise|history]] into the water?" he asked a fish. The fish could not answer. Zork felt [[quite|ago|abroad|ahead]] sad. He decided to do something. He used his space machine to pick up all the bottles in one minute. A group of children saw him and [[cheered|lent|borrowed|cost]]: "Thank you, Mr. Alien!" Zork smiled with his three mouths. In his report, he wrote: "Humans are strange. They make a mess, but they also [[seem|lend|cheer|borrow]] to care. There is still hope for Earth."
+> 1 Earth's nature「地球的大自然」，他看到樹、花和鳥。noise（噪音）、garbage（垃圾）、traffic（交通）都不是公園裡美麗的樹、花、鳥。
+> 2 throw garbage into the water「把垃圾丟進水裡」，河裡到處是塑膠瓶和袋子。nature、noise、history 都不能「丟」進水裡。
+> 3 felt quite sad「覺得相當難過」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 sad。
+> 4 cheered「歡呼」，後面接著孩子們喊「謝謝你，外星人先生！」。lent、borrowed 後面要接借的東西；cost（花費）也說不通。
+> 5 seem to care「似乎也在乎」，seem to + 原形動詞。lend、cheer、borrow 都不能接 to care 表示「似乎」。
++ alien = 外星人
++ planet = 星球
++ plastic = 塑膠的
++ human = 人類
++ mess = 髒亂
+= Zork 是來自藍色星球的外星人。他的老師派他來地球寫一份報告。第一天，他降落在一座公園，看到美麗的樹、花和鳥。「地球的大自然太棒了。」他寫道。可是後來他走到河邊，看到到處都是塑膠瓶和塑膠袋。「人類為什麼要把垃圾丟進水裡？」他問一條魚，魚答不出來。Zork 覺得相當難過，決定做點什麼。他用太空機器在一分鐘內撿起了所有瓶子。一群孩子看到了，歡呼著說：「謝謝你，外星人先生！」Zork 用他的三張嘴笑了。他在報告裡寫：「人類很奇怪。他們會把環境弄髒，但他們似乎也很在乎。地球還有希望。」
+
+## 啦啦隊的第一場表演
+This year, I joined the school cheerleading team. I am short, so the coach put me in the front. My friend Amy is tall and strong, so she stands at the back. Before every game, we practice for two hours. We have to jump, turn, and [[cheer|lend|borrow|cost]] at the same time. It is [[quite|ago|abroad|ahead]] hard! At our first game, the stadium was very [[large|honest|hungry|afraid]], and there were thousands of people. The [[noise|nature|garbage|history]] from the crowd was so loud that I couldn't hear the music. I was nervous and almost forgot the moves. Then I looked back and saw Amy smiling at me. Suddenly, everything [[seemed|lent|borrowed|carried]] easier. We finished the show, and the crowd cheered for us.
+> 1 jump, turn, and cheer「跳、轉身、喊加油」，啦啦隊要同時做這些動作。lend、borrow（借）後面要接東西；cost（花費）也不是動作。
+> 2 quite hard「相當困難」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 hard。
+> 3 very large「非常大」，所以能坐幾千人。honest、hungry、afraid 都不能形容體育場。
+> 4 the noise from the crowd「觀眾的聲音」，大到聽不見音樂。nature、garbage、history 都不能用 loud 形容。
+> 5 seemed easier「好像變簡單了」，seem + 形容詞比較級。lent、borrowed、carried 都不能直接接形容詞。
++ cheerleading team = 啦啦隊
++ coach = 教練
++ stadium = 體育場
++ crowd = 人群、觀眾
++ nervous = 緊張的
+= 今年，我加入了學校的啦啦隊。我個子矮，所以教練讓我站在前排。我的朋友 Amy 又高又壯，站在後排。每場比賽前，我們都要練兩個小時，要同時跳、轉身、喊加油，相當困難！第一場比賽時，體育場非常大，有好幾千名觀眾。觀眾的聲音大到我聽不見音樂。我很緊張，差點忘了動作。這時我回頭，看到 Amy 對我微笑，一切突然好像變簡單了。我們完成了表演，觀眾也為我們歡呼。
+
+## 擋在路上的卡比獸
+In the Pokémon games, Snorlax is famous for two things: it is always sleeping, and it is always [[hungry|honest|modern|national]]. When it wakes up, it can eat 400 kilograms of food a day! Snorlax is a very [[large|light|wet|dry]] Pokémon. It is 2.1 meters tall and weighs 460 kilograms. In the games, a Snorlax often sleeps in the middle of a road, and players cannot pass. You have to play a special flute to wake it up. When it wakes, it [[seems|lends|cheers|borrows]] angry and starts a battle. Its snoring makes a lot of [[noise|nature|garbage|history]], too. Still, many players think Snorlax is [[quite|ago|abroad|ahead]] cute. My brother even has a Snorlax pillow. He says it is the best thing for a lazy Sunday.
+> 1 always hungry「總是很餓」，後面說牠一天可以吃 400 公斤的食物。honest（誠實的）、modern（現代的）、national（國家的）都和食量無關。
+> 2 a very large Pokémon「體型很大的寶可夢」，身高 2.1 公尺、體重 460 公斤。light（輕的）意思相反；wet（濕的）、dry（乾的）和體型無關。
+> 3 seems angry「看起來很生氣」，seem + 形容詞，主詞 it 用 seems。lends、cheers、borrows 都不能直接接形容詞。
+> 4 makes a lot of noise「發出很多噪音」，打呼聲很大。nature、garbage、history 都不能用打呼「製造」出來。
+> 5 quite cute「相當可愛」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 cute。
++ Snorlax = 卡比獸
++ kilogram = 公斤
++ flute = 笛子
++ battle = 戰鬥
++ snoring = 打呼聲
+= 在寶可夢遊戲裡，卡比獸有兩件事很有名：牠總是在睡覺，而且總是很餓。牠醒來的時候，一天可以吃掉 400 公斤的食物！卡比獸是體型很大的寶可夢，身高 2.1 公尺、體重 460 公斤。在遊戲中，卡比獸常常睡在路中間，讓玩家過不去，你得吹一支特別的笛子才能叫醒牠。牠醒來時會看起來很生氣，然後開始戰鬥。牠的打呼聲也非常吵。不過，很多玩家覺得卡比獸相當可愛。我哥哥甚至有一個卡比獸抱枕，他說那是懶洋洋的星期天最棒的東西。
+
+## 農場的一日體驗
+Last Saturday, our class visited a small farm in Yilan. The farmer, Uncle Wang, grows vegetables without using chemicals. "I want to work with [[nature|noise|garbage|traffic]], not against it," he said. He showed us a big box full of old leaves and food [[garbage|noise|nature|history]]. "This will become food for my plants," he said. We helped him pick sweet potatoes. The work was [[quite|ago|abroad|ahead]] hard, and soon we were all [[hungry|full|honest|national]]. At noon, Uncle Wang cooked the sweet potatoes for us. They were hot and sweet. "They taste better because you picked them yourselves," he said. Before we left, he gave each of us a [[large|honest|afraid|alone]] bag of vegetables to take home.
+> 1 work with nature「順著大自然」，所以不用化學藥劑。noise（噪音）、garbage（垃圾）、traffic（交通）都不能和種菜「合作」。
+> 2 food garbage「廚餘」，和落葉一起做成植物的肥料。noise、nature、history 都不能放進箱子裡當肥料。
+> 3 quite hard「相當辛苦」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 hard。
+> 4 工作辛苦，到中午大家都餓了，用 hungry；後面王伯伯就煮地瓜給大家吃。full（飽的）意思相反；honest、national 和工作後的感覺無關。
+> 5 a large bag of vegetables「一大袋蔬菜」。honest 不能形容袋子；afraid、alone 不能放在名詞前面。
++ farm = 農場
++ Yilan = 宜蘭
++ chemical = 化學藥劑
++ against = 對抗、違反
++ sweet potato = 地瓜
+= 上星期六，我們班去參觀宜蘭的一座小農場。農夫王伯伯種菜不用化學藥劑。「我想要順著大自然，而不是對抗它。」他說。他給我們看一個大箱子，裡面裝滿了落葉和廚餘。「這些會變成我植物的食物。」他說。我們幫他挖地瓜，工作相當辛苦，很快大家都餓了。中午，王伯伯把地瓜煮給我們吃，又熱又甜。「因為是你們自己挖的，所以吃起來更好吃。」他說。離開前，他送我們每個人一大袋蔬菜帶回家。
+
+## 學校旁的二手書店
+There is a small used bookstore near my school. The owner, Mrs. Hsu, sells books at very [[low|hungry|honest|afraid]] prices. Most books are only 30 dollars. Every Friday, I go there after school. The shop is [[quite|ago|abroad|ahead]] small, but it has thousands of books. Mrs. Hsu always [[seems|lends|cheers|borrows]] to know what I like. "Here's a new mystery story for you," she says. Last month, I didn't have enough money for a book I wanted. Mrs. Hsu smiled. "I can [[lend|hurt|cost|borrow]] it to you. Bring it back when you finish." I read it in two days. When I brought it back, we talked about the story for an hour. Now that shop is my [[favorite|garbage|noise|nature]] place in the whole city.
+> 1 at low prices「以低價」，大部分的書只要 30 元。hungry（餓的）、honest（誠實的）、afraid（害怕的）都不能形容價格。
+> 2 quite small「相當小」，quite 修飾形容詞；後面 but 說它卻有好幾千本書。ago、abroad、ahead 都不能修飾 small。
+> 3 seems to know「好像知道」，seem to + 原形動詞，主詞 she 用 seems。lends、cheers、borrows 都不能接 to know 表示「好像」。
+> 4 lend it to you「把它借給你」，看完再還回來。hurt（傷害）、cost（花費）都說不通；borrow 是「向人借」，不能說 borrow it to you。
+> 5 my favorite place「我最喜歡的地方」。garbage、noise、nature 都是名詞，放在 my 和 place 中間不合理。
++ used = 二手的
++ owner = 老闆
++ mystery story = 推理故事
+= 我學校附近有一家小小的二手書店。老闆許太太把書賣得非常便宜，大部分的書只要 30 元。每個星期五放學後，我都會去那裡。店相當小，卻有好幾千本書。許太太好像總是知道我喜歡什麼。「這裡有一本新的推理小說給你。」她會這麼說。上個月，我的錢不夠買一本我想要的書。許太太笑著說：「我可以借你，看完再拿回來就好。」我兩天就看完了。我把書拿回去時，我們聊那個故事聊了一個小時。現在那家店是我在整座城市裡最喜歡的地方。
+
+## 半夜門外的貓叫聲
+At two in the morning, a [[noise|nature|garbage|history]] woke me up. "Meow... meow..." It came from outside our door. I opened it and saw a small white cat. It was very thin and [[seemed|lent|borrowed|cheered]] scared. "You must be [[hungry|full|honest|modern]]," I said in a [[low|large|honest|national]] voice. I didn't want to wake my parents. I gave it some milk and fish. It ate everything [[quite|ago|abroad|ahead]] quickly and then fell asleep in my arms. In the morning, Mom found the cat sleeping on my bed. I thought she would be angry. Instead, she said, "Well, I guess we have a new family member." We named her Snow.
+> 1 a noise woke me up「一個聲音把我吵醒」，接著就是「喵……喵……」。nature、garbage、history 都不會把人吵醒。
+> 2 seemed scared「看起來很害怕」，seem + 形容詞。lent、borrowed、cheered 都不能直接接形容詞。
+> 3 貓很瘦，「你一定很餓」，用 hungry；後面我餵牠吃東西。full（飽的）意思相反；honest、modern 都說不通。
+> 4 in a low voice「小聲地」，因為不想吵醒爸媽。large、honest、national 都不能形容說話的聲音。
+> 5 quite quickly「相當快地」，quite 修飾副詞 quickly。ago、abroad、ahead 都不能修飾副詞。
++ meow = 喵（貓叫聲）
++ thin = 瘦的
+= 凌晨兩點，一個聲音把我吵醒了。「喵……喵……」聲音是從門外傳來的。我打開門，看到一隻白色的小貓。牠非常瘦，看起來很害怕。「你一定很餓吧。」我小聲地說，因為我不想吵醒爸媽。我給牠一些牛奶和魚，牠很快就吃光了，然後在我懷裡睡著。早上，媽媽發現貓睡在我的床上。我以為她會生氣，沒想到她說：「好吧，看來我們家多了一個新成員。」我們幫牠取名叫「小雪」。
+
+## 借出去的漫畫
+Last month, I [[lent|cost|hurt|died]] my favorite comic book to my best friend Tim. "I'll give it back next week," he said. But one week passed, then two. He never [[seemed|lent|cheered|borrowed]] to remember. I didn't want to [[fight|lend|borrow|cost]] with him, but I was [[quite|ago|abroad|ahead]] worried. That book was a gift from my grandpa. Finally, I asked him about it. Tim's face turned red. "I'm so sorry," he said in a [[low|large|hungry|modern]] voice. "My little brother drew on it." The next day, he gave me a new copy—and the old one too. "I bought a new one with my pocket money," he said. "But I think you want your grandpa's book back." I wasn't angry anymore. Now the old book with the drawings is even more special to me.
+> 1 lent … to Tim「把…借給 Tim」，lend 的過去式 lent，lend + 物 + to + 人。cost（花費）、hurt（傷害）、died（死）都不能這樣用。
+> 2 never seemed to remember「似乎從來沒記起來」，seem to + 原形動詞。lent、cheered、borrowed 都不能接 to remember 表示「似乎」。
+> 3 fight with him「和他吵架」。lend、borrow、cost 都不能接 with him 表示吵架。
+> 4 quite worried「相當擔心」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 worried。
+> 5 in a low voice「小聲地」，他覺得不好意思。large、hungry、modern 都不能形容聲音。
++ comic book = 漫畫書
++ copy = （書的）一本
++ pocket money = 零用錢
+= 上個月，我把我最喜歡的漫畫借給好朋友 Tim。「我下星期就還你。」他說。可是一個星期過去了，又過了一個星期，他好像都沒想起來。我不想跟他吵架，但我相當擔心，因為那本書是爺爺送我的禮物。最後，我問了他。Tim 的臉紅了。「真的很對不起，」他小聲地說，「我弟弟在上面亂畫了。」隔天，他給了我一本新的——還有那本舊的。「我用零用錢買了一本新的，」他說，「但我想你應該還是想要爺爺送的那本。」我一點都不生氣了。現在，那本被畫過的舊書對我來說更特別了。
+
+## 划獨木舟撿垃圾
+Last Sunday, my uncle took me kayaking on the Keelung River. It was my first time, and I was [[quite|ago|abroad|ahead]] nervous. But soon I learned how to paddle. The river was beautiful, with birds flying [[low|honest|national|expensive]] over the water. Then I noticed something sad. There were plastic bags and bottles floating near the shore. My uncle gave me a net. "Today, we are not only enjoying [[nature|noise|garbage|homework]]. We are helping it too." We picked up [[garbage|nature|noise|history]] for two hours. By the end, our kayaks were full of bottles. The other people at the river [[cheered|lent|borrowed|cost]] when they saw us. "Good job, kids!" one man shouted. I was tired, but I felt proud.
+> 1 quite nervous「相當緊張」，第一次划船。ago、abroad、ahead 都不能修飾形容詞 nervous。
+> 2 flying low over the water「貼著水面低飛」，low 在這裡當副詞。honest、national、expensive 都是形容詞，不能形容「怎麼飛」。
+> 3 enjoying nature「享受大自然」，後面說「也在幫助它」。noise（噪音）、garbage（垃圾）、homework（作業）都不是在河上享受的東西。
+> 4 picked up garbage「撿垃圾」，最後船裡裝滿了瓶子。nature、noise、history 都不能「撿起來」。
+> 5 cheered「歡呼」，後面有人喊「做得好，孩子們！」。lent、borrowed 後面要接借的東西；cost（花費）說不通。
++ kayak = 獨木舟；划獨木舟
++ Keelung River = 基隆河
++ paddle = 划槳
++ float = 漂浮
++ shore = 岸邊
+= 上星期天，叔叔帶我去基隆河划獨木舟。那是我第一次划，我相當緊張，但很快就學會了怎麼划槳。河上很美，鳥兒貼著水面低飛。接著我發現了讓人難過的事：岸邊漂著許多塑膠袋和瓶子。叔叔給我一支網子。「今天我們不只是享受大自然，也要幫助它。」我們撿了兩個小時的垃圾，最後獨木舟裡裝滿了瓶子。河邊的其他人看到我們都歡呼起來。「做得好，孩子們！」一位先生喊道。我雖然很累，卻覺得很驕傲。
