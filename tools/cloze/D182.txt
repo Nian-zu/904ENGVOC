@@ -151,7 +151,7 @@ On the bus home, Andy found a wallet on the seat. Inside, there were 2,000 dolla
 + wallet = 錢包
 + student card = 學生證
 + medicine = 藥
-= 在回家的公車上，Andy 在座位上撿到一個錢包，裡面有兩千元和一張學生證。他的朋友說：「沒人看到，把學生證丟掉，錢留著吧。」但 Andy 搖搖頭：「掉錢包是件很麻煩的事，這筆錢對某個人來說可能很重要。」那張學生證是他們學校一個女生的。隔天，他找到她並把錢包還給她。她差點哭出來：「這是要給我奶奶買藥的錢，真的很謝謝你！」她想送 Andy 一份禮物，但他說：「我什麼都不需要，很高興你拿回來了。」
+= 在回家的公車上，Andy 在座位上撿到一個錢包，裡面有兩千元和一張學生證。他的朋友說：「沒人看到，把學生證丟掉，錢留著吧。」但 Andy 搖搖頭：「掉錢包是件很麻煩的事，這筆錢對某個人來說可能很重要。」那張學生證是他們學校一個女生的。隔天，他找到她並把錢包還給她。她差點哭出來：「這是要給我奶奶買藥的錢。」她想送 Andy 一份禮物，但他說：「我什麼都不需要，很高興你拿回來了。」
 
 ## 月球上的第一夜
 Since she was little, Mei dreamed of space. Today, at age thirty, she [[became|kept|showed|needed]] Taiwan's first astronaut on the moon base. Life there is very [[different|hungry|careful|kind]] from life on Earth. Water is precious, so she must [[keep|show|mean|become]] every drop. She sleeps in a bag on the wall because there is little gravity. On her first night, she looked out the window and saw Earth far [[away|happy|careful|kind]], like a blue marble. She took a photo and sent it to her family. It was the [[last|careful|hungry|kind]] thing she did before she fell asleep.
