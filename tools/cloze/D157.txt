@@ -244,3 +244,129 @@ My uncle is forty years old, but he plays Pokémon GO every day. Last Sunday, he
 + bench = 長椅
 + out of breath = 上氣不接下氣
 = 我舅舅四十歲了，但他每天都玩寶可夢 GO。上星期天，他帶我去公園抓寶。「波波很常見，」他說，「到處都抓得到。今天我要找的是一隻稀有的。」突然，他的手機開始震動。「在那裡！」他大叫，衝過草地。我一路跟著他跑到公園另一頭，可是到了那裡，那隻稀有寶可夢已經不見了。「牠對我來說太快了。」他難過地說。接著他坐在長椅上，喘得上氣不接下氣。「也許抓寶是很好的運動喔。」我說。他笑了：「這就是我玩的原因！這是我保持健康的祕訣。」
+
+## 弟弟想要的黃金龍
+My little brother Max loves a phone game called Dragon City. Last month, he wanted a golden dragon, but it cost 3,000 gems. "Gems are so [[expensive|quick|common|wet]]," he said. "One hundred gems cost one hundred dollars!" Then he saw an ad: "Free gems! Just type in your mom's credit card number." He almost did it, but then he stopped. "[[Perhaps|Ago|Below|Else]] this is a [[trick|traffic|homework|seat]]," he thought. He showed the ad to Mom. "Good job," she said. "Bad people often steal money like this." Then Mom made a deal with him. "If you finish your [[homework|traffic|village|death]] every day this month, I'll buy you five hundred gems." Max agreed. He worked hard, and at the end of the month, he got his gems. He still couldn't buy the golden dragon, so he bought a small blue one. "It's not golden," he said, "but I'm [[proud|wet|fresh|sharp]] of it because I worked for it."
+> 1 so expensive「好貴」：一百顆寶石要一百元。quick、common、wet 都和價錢無關。
+> 2 Perhaps「也許」：他想到這也許是騙局。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 3 a trick「騙局、詭計」：要信用卡號碼的廣告是在騙人。traffic、homework、seat 都不能說明這則廣告的問題。
+> 4 finish your homework「寫完作業」：媽媽用寫作業來交換寶石。traffic、village、death 都不能「寫完」。
+> 5 be proud of「以…為傲」：靠自己努力換來的，所以很驕傲。wet、fresh、sharp 都不能接 of it 表示這種心情。
++ gem = 寶石
++ ad = 廣告
++ credit card = 信用卡
++ deal = 約定、交易
+= 我弟弟 Max 很愛一款叫「龍之城」的手機遊戲。上個月，他想要一隻黃金龍，但要三千顆寶石。「寶石好貴喔，」他說，「一百顆就要一百元！」接著他看到一則廣告：「免費寶石！只要輸入你媽媽的信用卡號碼。」他差點就照做了，但最後停了下來。「這也許是個騙局。」他心想。他把廣告拿給媽媽看。「做得好，」媽媽說，「壞人常常用這種方法偷錢。」然後媽媽和他做了個約定：「如果你這個月每天都寫完作業，我就幫你買五百顆寶石。」Max 答應了。他很努力，到了月底就拿到寶石。他還是買不起黃金龍，所以買了一隻藍色的小龍。「牠不是金色的，」他說，「但我很以牠為傲，因為這是我自己努力換來的。」
+
+## 過年回屏東的高速公路
+Every Lunar New Year, my family drives from Taipei to my grandparents' house in Pingtung. It's about four hundred kilometers, and the [[traffic|homework|information|trick]] on the highway is always terrible. Last year, the trip took us eleven hours! This year, Dad had a plan. "We'll leave at three in the morning," he said. "[[Perhaps|Ago|Below|Else]] there won't be so many cars then." At two thirty, Mom woke us up. My sister and I slept in the back seat, and when I opened my eyes, we were already in Tainan. It was only seven o'clock! "See? Leaving early was a smart [[decision|death|village|traffic]]," Dad said proudly. We got to Grandma's house at nine. She was very surprised. "You're so early! Breakfast isn't [[ready|dirty|proud|foreign]] yet!" Dad says he only does this [[once|ago|else|ever]] a year, because getting up at two thirty is too hard for him.
+> 1 the traffic is terrible「交通很糟、大塞車」：所以去年開了十一個小時。homework、information、trick 都不會出現在高速公路上。
+> 2 Perhaps「也許」：爸爸猜半夜出發也許車比較少。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 3 a smart decision「聰明的決定」：早出發讓我們七點就到台南。death、village、traffic 都不能用 smart 形容「提早出發」這件事。
+> 4 Breakfast isn't ready.「早餐還沒準備好。」：我們太早到了。dirty、proud、foreign 都不能說明「太早到」造成的情形。
+> 5 once a year「一年一次」：只有過年才這樣做。ago、else、ever 都不能和 a year 搭配表示頻率。
++ Lunar New Year = 農曆新年
++ Pingtung = 屏東
++ kilometer = 公里
++ highway = 高速公路
+= 每年農曆新年，我們全家都會從台北開車到屏東的爺爺奶奶家。路程大約四百公里，高速公路上總是大塞車。去年我們開了十一個小時！今年爸爸有個計畫：「我們凌晨三點出發，」他說，「那時候車子也許沒那麼多。」兩點半，媽媽把我們叫醒。我和妹妹在後座睡覺，等我睜開眼睛，已經到台南了，才早上七點！「看吧，早點出發是聰明的決定。」爸爸得意地說。我們九點就到了奶奶家，她好驚訝：「你們怎麼這麼早！早餐還沒準備好耶！」爸爸說這種事他一年只做一次，因為兩點半起床對他來說太難了。
+
+## 媽媽的生日晚餐
+For Mom's birthday, Dad and I wanted to take her to a fancy French restaurant. But when we looked at the menu online, we were shocked. One steak was three thousand dollars! "That's too [[expensive|quick|common|wet]]," Dad said. "[[Perhaps|Ago|Below|Else]] we can cook at home instead." So we decided to make dinner ourselves. Dad's job was the steak, and mine was the cake. I found a [[quick|expensive|dead|proud]] recipe on YouTube: a chocolate cake in a cup that takes only three minutes. I put the cup in the microwave and [[pushed|hated|wished|married]] the start button. Dad burned the first steak, but the second one was perfect. When Mom came home, the table was ready, with candles and flowers. She was so happy that she almost cried. "This is better than any restaurant," she said. "The food is great, and the [[service|village|death|level]] is even better!"
+> 1 too expensive「太貴了」：一份牛排要三千元。quick、common、wet 都和價錢無關。
+> 2 Perhaps「也許」：爸爸提議也許可以改在家煮。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 3 a quick recipe「快速的食譜」：三分鐘就能做好的蛋糕。expensive 前面要用 an；dead、proud 都不能形容食譜。
+> 4 push the start button「按下開始鍵」。hated、wished、married 都不能接 the start button 表示操作微波爐。
+> 5 service「服務」：媽媽稱讚我們像餐廳一樣，服務更好。village、death、level 都不能和餐廳的「食物」相提並論。
++ fancy = 高級的
++ steak = 牛排
++ recipe = 食譜
++ microwave = 微波爐
++ candle = 蠟燭
+= 媽媽生日那天，爸爸和我想帶她去一家高級法國餐廳。可是我們上網看了菜單，嚇了一大跳——一份牛排要三千元！「太貴了，」爸爸說，「也許我們可以改在家裡煮。」所以我們決定自己做晚餐。爸爸負責牛排，我負責蛋糕。我在 YouTube 找到一個快速食譜：只要三分鐘的杯子巧克力蛋糕。我把杯子放進微波爐，按下開始鍵。爸爸第一塊牛排煎焦了，但第二塊非常完美。媽媽回家時，餐桌已經擺好，還有蠟燭和花。她開心到差點哭出來。「這比任何餐廳都好，」她說，「菜很好吃，服務更棒！」
+
+## 推阿公去公園
+My grandpa broke his leg last month, so now he has to use a wheelchair. Every evening, I [[push|hate|marry|interview]] him around the park near our home. At first, he didn't like it. "I feel like a baby," he said. But [[soon|ago|else|below]] he began to enjoy it. The park is always [[busy|wet|dead|proud]] in the evening, and Grandpa talks to everyone: the old ladies who dance, the boys who play basketball, and even the dogs. "Hello, Lucky! Hello, Coffee!" He knows every dog's name. One day, a little girl asked him, "Grandpa, how do you know so many dogs?" He laughed. "When you come to this park [[once|ago|else|ever]] a day for fifty years, you know everyone." Yesterday, his doctor said his leg was getting better. "[[Perhaps|Ago|Below|Else]] you can walk again next month," she said. Grandpa smiled at me. "Then it will be my turn to push you!"
+> 1 push him「推他（的輪椅）」。hate、marry、interview 都不能接 him around the park 表示推著走。
+> 2 soon「很快地、不久」：不久他就開始喜歡了。ago 要放在一段時間後面；else、below 都不能表示時間上的轉變。
+> 3 busy「熱鬧的、忙碌的」：傍晚公園有很多人，阿公才能跟大家聊天。wet、dead、proud 都不能說明公園很多人。
+> 4 once a day「一天一次」。ago、else、ever 都不能和 a day 搭配表示頻率。
+> 5 Perhaps「也許」：醫生說也許下個月就能走路了。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
++ wheelchair = 輪椅
+= 我阿公上個月摔斷了腿，現在必須坐輪椅。每天傍晚，我都推著他在家附近的公園繞一繞。一開始他不喜歡，說：「我覺得自己像個小嬰兒。」但沒多久，他就開始喜歡上了。傍晚的公園總是很熱鬧，阿公跟每個人聊天：跳舞的阿姨、打籃球的男生，連狗狗都不放過。「哈囉，Lucky！哈囉，咖啡！」他知道每隻狗的名字。有一天，一個小女孩問他：「阿公，你怎麼認識這麼多狗？」他笑著說：「當你五十年來每天來這個公園一次，你就誰都認識了。」昨天醫生說他的腿越來越好了：「也許下個月你就能再走路了。」阿公對我笑一笑：「到時候換我推你！」
+
+## 送錯門牌的炸雞
+Last Saturday, I ordered fried chicken on a food delivery app. The app said, "Your food will arrive in twenty minutes." That was [[quick|expensive|common|wet]]! But after forty minutes, my food still wasn't there. Then my phone rang. "Hi, I'm the delivery man. I'm at No. 15, but nobody is home." "No, I live at No. 51!" I said. Then I checked the app. [[Perhaps|Ago|Below|Else]] I had typed the wrong [[information|traffic|homework|trick]] into it, and I had! I ran downstairs and waited. Ten minutes later, he arrived, all wet from the rain. "Sorry, the [[traffic|homework|information|trick]] on the main road was terrible," he said. I felt bad because it was my mistake, not his. So I said thank you three times and [[gave|hated|married|bit]] him a bottle of cold tea.
+> 1 quick「很快的」：二十分鐘就送到，很快。expensive、common、wet 都不能形容送達時間。
+> 2 Perhaps「也許」：我猜也許是自己打錯了。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 3 type the wrong information「輸入錯誤的資料」：我把門牌 51 打成 15。traffic、homework、trick 都不是要輸入 app 的地址資料。
+> 4 the traffic on the main road「大馬路上的交通」：路上塞車，所以送得慢。homework、information、trick 都不會出現在大馬路上。
+> 5 give + 人 + 物「給某人某物」：我送他一瓶冰茶。hated、married、bit 都不能接兩個受詞。
++ delivery = 外送
++ fried chicken = 炸雞
+= 上星期六，我在外送 app 上點了炸雞。app 上寫著：「您的餐點將在二十分鐘內送達。」好快！可是過了四十分鐘，炸雞還沒來。接著我的電話響了：「你好，我是外送員。我在 15 號，可是沒有人在家。」「不對，我住 51 號！」我說。我檢查了一下 app，心想也許是自己輸入了錯誤的資料——結果真的是！我衝下樓等。十分鐘後他到了，全身被雨淋濕。「抱歉，大馬路上塞車塞得很嚴重。」他說。我覺得很不好意思，因為那是我的錯，不是他的。所以我跟他說了三次謝謝，還送他一瓶冰茶。
+
+## 巫師的小幫手
+In a small town lived an old wizard and his young helper, Tim. Every day, Tim cleaned the house and fed the dragon, but the wizard never taught him any magic. One morning, the wizard left for a trip. "Don't touch my magic book," he said. But [[once|ago|else|almost]] the wizard was gone, Tim opened it. He found a [[quick|expensive|wet|proud]] spell: "How to Clean a Room in One Second." He said the magic words, and the brooms began to dance. They swept the floor and washed the dishes, but then they wouldn't stop! They [[pushed|hated|interviewed|married]] all the chairs out of the window. Tim tried to stop them, but he didn't know how. He was so [[scared|fresh|wet|delicious]] that he hid under the table. Just then, the wizard came home. He waved his hand, and everything stopped. Tim thought the wizard would be angry, but he only smiled. "Magic is not a [[trick|traffic|homework|information]] for lazy people," he said. "Your first lesson begins tomorrow."
+> 1 once + 句子「一…就…」：巫師一離開，Tim 就打開魔法書。ago、else、almost 都不能當連接詞引導子句。
+> 2 a quick spell「快速的咒語」：一秒鐘就能打掃好房間。expensive 前面要用 an；wet、proud 都不能形容咒語。
+> 3 push … out of the window「把…推出窗外」：掃把把椅子全推出去。hated、interviewed、married 都不能接 out of the window。
+> 4 so scared that…「害怕到…」：嚇到躲在桌子底下。fresh、wet、delicious 都不能說明為什麼要躲起來。
+> 5 a trick for lazy people「給懶人用的把戲」：魔法不是偷懶的小把戲。traffic 不通；homework、information 是不可數名詞，不能加 a。
++ wizard = 巫師
++ dragon = 龍
++ spell = 咒語
++ broom = 掃把
++ sweep = 掃（地）
+= 在一個小鎮上，住著一位老巫師和他的年輕小幫手 Tim。Tim 每天打掃房子、餵龍吃飯，可是巫師從來沒教過他任何魔法。有一天早上，巫師要出遠門。「不准碰我的魔法書。」他說。但巫師一離開，Tim 就把書打開了。他找到一個快速咒語：「一秒鐘打掃好房間的方法」。他唸出咒語，掃把就開始跳起舞來。它們掃地、洗碗，可是接著就停不下來了！它們把所有椅子都推出窗外。Tim 想阻止它們，卻不知道該怎麼做。他嚇得躲到桌子底下。就在這時，巫師回來了。他揮一揮手，一切都停了下來。Tim 以為巫師會生氣，他卻只是笑了笑：「魔法不是給懶人用的小把戲，」他說，「你的第一堂課明天開始。」
+
+## 最矮的控球後衛
+My cousin Jay is the shortest player on his basketball team, but he's also the best. His secret? He's very [[quick|expensive|common|wet]]. Last Saturday, I went to watch his game. In the last minute, his team was behind by one point. Jay got the ball. A tall player stood in front of him. Jay looked to the left, so the tall player moved left. But it was a [[trick|traffic|homework|information]]! Jay ran to the right. The tall player tried to stop him and [[pushed|hated|married|interviewed]] him to the floor. The referee blew his whistle. Two free throws! Jay missed the first one, and the whole gym went quiet. "[[Perhaps|Ago|Below|Else]] he's too nervous," someone behind me said. But Jay took a deep breath and made the second one. Then, in overtime, he scored six more points, and his team won. Everyone shouted his name. I was so [[proud|wet|fresh|dead]] of him.
+> 1 very quick「動作很快」：個子矮卻是最強的，靠的是速度。expensive、common、wet 都不能說明他打得好的祕訣。
+> 2 a trick「假動作、騙人的招數」：他假裝往左，其實往右。traffic、homework、information 都不能說明這個動作。
+> 3 push him to the floor「把他推倒在地」：所以裁判吹哨，Jay 得到罰球。hated、married、interviewed 都不能接 to the floor。
+> 4 Perhaps「也許」：有人猜他也許太緊張了。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 5 be proud of「以…為傲」。wet、fresh、dead 都不能接 of him 表示看完比賽的心情。
++ referee = 裁判
++ free throw = 罰球
++ nervous = 緊張的
++ overtime = 延長賽
+= 我表哥 Jay 是他們籃球隊裡最矮的球員，卻也是最強的。他的祕訣是什麼？他的速度非常快。上星期六我去看他比賽。最後一分鐘，他們隊落後一分。Jay 拿到球，一個高個子球員擋在他面前。Jay 往左邊看，高個子就跟著往左移。但那是個假動作！Jay 往右切，高個子想攔住他，結果把他推倒在地上。裁判吹哨——兩次罰球！Jay 第一球沒進，整個體育館安靜下來。「也許他太緊張了。」我後面有人說。可是 Jay 深呼吸一口氣，投進了第二球。接著在延長賽，他又拿下六分，他們隊贏了。大家都在喊他的名字，我真以他為傲。
+
+## 阿公家的母雞大紅
+My grandpa lives in a small village in Yunlin. He keeps about twenty chickens in his yard. In his village, chickens are as [[common|expensive|quick|wet]] as cats in the city. He feeds them twice a day and collects the eggs [[once|ago|else|ever]] a day. Last summer, he let me collect the eggs. It was harder than I thought. One hen, Big Red, didn't want to give me her egg. When I put my hand under her, she [[bit|hated|married|interviewed]] my finger! Grandpa laughed. "Here's a little [[trick|traffic|homework|information]]," he said. He threw some corn on the ground. While Big Red was busy eating, he took the egg from under her. "See? Easy!" That night, Grandma cooked the eggs for dinner. "These eggs are so [[fresh|sharp|proud|heavy]]," I said. "They taste much better than the ones from the supermarket."
+> 1 as common as…「和…一樣常見」：雞在村子裡就像城市裡的貓一樣多。expensive、quick、wet 都和「城市裡的貓」的比較不合。
+> 2 once a day「一天一次」：撿蛋一天一次。ago、else、ever 都不能和 a day 搭配表示頻率。
+> 3 bit my finger「咬（啄）我的手指」：母雞不想讓我拿蛋。hated、married、interviewed 接 my finger 都不通。
+> 4 a little trick「一個小技巧」：先撒玉米引開母雞，再拿蛋。traffic 不通；homework、information 是不可數名詞，不能加 a。
+> 5 so fresh「好新鮮」：剛撿的蛋所以比超市的好吃。sharp、proud、heavy 都不能說明蛋好吃的原因。
++ Yunlin = 雲林
++ hen = 母雞
++ corn = 玉米
+= 我阿公住在雲林的一個小村子，他在院子裡養了大約二十隻雞。在他的村子裡，雞就像城市裡的貓一樣常見。他一天餵牠們兩次，一天撿一次蛋。去年暑假，他讓我去撿蛋，結果比我想的還難。有一隻叫「大紅」的母雞不肯把蛋給我，我一把手伸到牠身體下面，牠就啄了我的手指！阿公笑了：「教你一個小技巧。」他把一些玉米撒在地上，趁大紅忙著吃的時候，從牠身體下面拿走了蛋。「看吧！很簡單！」那天晚上，奶奶用這些蛋煮了晚餐。「這些蛋好新鮮，」我說，「比超市買的好吃多了。」
+
+## 奶奶接到的怪電話
+Last week, my grandma got a strange phone call. A man said, "Grandma, it's me! I had a car accident, and I need fifty thousand dollars right now!" Grandma was worried, but then she remembered a news report. Many old people lose money to this kind of [[trick|traffic|homework|seat]]. So she asked, "Who are you?" "It's me, your grandson!" "Then tell me my dog's name." The man didn't answer and hung up. "[[Perhaps|Ago|Below|Else]] he didn't know that I don't have a dog," Grandma said later with a laugh. She called me right away, and I told her, "Never give your bank [[information|traffic|homework|seat]] to anyone on the phone." We also told the police. "Calls like this are very [[common|expensive|quick|wet]] these days," the police officer said. "Your grandma was very smart." Now Grandma [[shares|hates|marries|bites]] her story with all her friends at the park.
+> 1 this kind of trick「這種騙局」：假裝孫子出車禍要錢。traffic、homework、seat 都不是讓人「損失金錢」的東西。
+> 2 Perhaps「也許」：奶奶說他也許不知道她根本沒養狗。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 3 bank information「銀行資料」：不要在電話裡給別人。traffic、homework、seat 都不能和 bank 組成要保護的資料。
+> 4 very common「很常見」：這種電話最近很多。expensive、quick、wet 都不能說明這類詐騙電話的情形。
+> 5 share her story with…「和…分享她的故事」。hates、marries、bites 都不能接 … with all her friends 表示分享。
++ accident = 意外、車禍
++ grandson = 孫子
++ hang up = 掛電話
++ police = 警察
+= 上星期，我奶奶接到一通奇怪的電話。一個男人說：「奶奶，是我！我出車禍了，現在馬上需要五萬元！」奶奶很擔心，但接著想起一則新聞：很多老人因為這種騙局損失了錢。所以她問：「你是誰？」「是我啊，你的孫子！」「那你說說看我的狗叫什麼名字。」那個人沒回答就掛斷了。「也許他不知道我根本沒養狗。」奶奶後來笑著說。她馬上打電話給我，我告訴她：「千萬不要在電話裡把銀行資料給任何人。」我們也報了警。「這種電話最近很常見，」警察說，「你奶奶很聰明。」現在奶奶到處跟公園裡的朋友分享她的故事。
+
+## 電影院裡的小偵探
+Last weekend, my little brother and I watched the new Detective Conan movie. Conan is his hero. Before the movie started, he said, "I'll find the bad guy before Conan does!" During the movie, he whispered to me again and again. "It's the teacher!" "No, it's the waiter!" "[[Perhaps|Ago|Below|Else]] it's the cat!" The woman behind us said "Shh!" [[once|ago|else|ever]], then twice. My brother wrote every piece of [[information|traffic|homework|trick]] in a small notebook: who was where, and at what time. But in the end, the bad guy was the quiet old man with the very [[expensive|quick|wet|proud]] gold watch. My brother's mouth fell open. "That's not fair! I didn't even notice him!" On the way home, he said, "Next time, I'll [[watch|hate|marry|bite]] more carefully." I said, "Next time, please watch more quietly."
+> 1 Perhaps「也許」：弟弟亂猜也許是那隻貓。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 2 once, then twice「一次，接著兩次」。ago 要放在一段時間後面；else、ever 都不能和 then twice 對應。
+> 3 every piece of information「每一條線索」：information 不可數，要用 a piece of 來數。traffic、homework 寫在筆記本上不通；trick 是可數名詞，不用 piece of。
+> 4 a very expensive gold watch「很貴的金錶」。quick、wet、proud 都不能形容手錶。
+> 5 watch more carefully「看得更仔細」：下次要更專心看。hate、marry、bite 接 more carefully 都不通。
++ detective = 偵探
++ hero = 英雄
++ whisper = 小聲說
++ notice = 注意到
+= 上週末，我和弟弟去看了新的名偵探柯南電影。柯南是他的偶像。電影開始前，他說：「我要比柯南先找到壞人！」看電影時，他一直小聲跟我說：「是那個老師！」「不對，是服務生！」「也許是那隻貓！」坐在我們後面的阿姨「噓」了一次，接著又「噓」了第二次。弟弟把每一條線索都寫在小筆記本上：誰在哪裡、幾點的時候。但到最後，壞人竟然是那個戴著很貴的金錶、安安靜靜的老先生。弟弟嘴巴張得好大：「這不公平！我根本沒注意到他！」回家的路上，他說：「下次我要看得更仔細。」我說：「下次請你看得安靜一點。」

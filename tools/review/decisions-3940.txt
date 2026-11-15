@@ -40,3 +40,6 @@ dd19a0919b|main,light,mad
 55b610d6c6|place
 9efa251dfe|boring,terrible,helpful,direct
 14a09a9c9e|situation
+7ca94725b0|noisy,local
+8e96de3814|mention
+6867d59279|fight
