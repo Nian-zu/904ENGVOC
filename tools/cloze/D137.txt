@@ -53,17 +53,17 @@ Last Friday, my music teacher took our class to a piano concert. The pianist was
 = 上星期五，音樂老師帶我們全班去聽一場鋼琴音樂會。鋼琴家是一位來自日本的年輕人，才二十二歲。他走上舞台時，一位女士扶著他的手臂，帶他走到鋼琴前。我很驚訝：他看不見，這輩子從來沒看過鋼琴。「他看不到琴鍵，要怎麼彈？」我小聲問。老師說，他每一首曲子都是靠聽、每天練習好幾個小時學會的。接著他開始彈奏。音樂美得讓台下有些觀眾都哭了。音樂會結束後，他見到一個想摸摸他雙手的可愛小女孩。他笑著讓她摸。那天晚上，我自己也不停地練了兩個小時的鋼琴。
 
 ## 不夠高的弟弟
-Last Sunday, my family went to an amusement park. My little brother Ben is six, and he was very excited about the big roller coaster. But in front of the ride, there was a sign with a red line on it. Every child had to stand next to it to check their [[height|habit|garbage|sentence]]. Ben stood up as straight as he could, but he was still three centimeters too short. "Sorry, you're too [[young|crowded|national|convenient]] for this one," the staff member said kindly. Ben's eyes filled with tears. Then the staff member pointed to a small train shaped like a dog. "How about that one? It's very [[cute|crowded|national|illegal]]." Ben wasn't happy at first, but he rode the dog train five times and [[laughed|boiled|spelled|borrowed]] every time. On the way home, he said, "Next year, I'll be tall enough. I'm going to drink a lot of [[milk|smoke|noise|garbage]]!"
+Last Sunday, my family went to an amusement park. My little brother Ben is six, and he was very excited about the big roller coaster. But in front of the ride, there was a sign with a red line on it. Every child had to stand next to it to check their [[height|habit|garbage|sentence]]. Ben stood up as straight as he could, but he was still three centimeters too short. "Sorry, you're too [[young|crowded|national|convenient]] for this one," the staff member said kindly. Ben's eyes filled with tears. Then the staff member pointed to a small train shaped like a dog. "How about that one? It's very [[cute|crowded|national|illegal]]." Ben wasn't happy at first, but he rode the dog train five times and [[laughed|boiled|spelled|borrowed]] every time. On the way home, he said, "Next year, I'll be tall enough. I'm going to drink a lot of milk and [[practice|arrive|happen|exist]] jumping every day!"
 > 1 站在紅線旁邊檢查「身高」height。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用標示線量。
 > 2 too young for this one「年紀太小不能玩這個」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容小孩。
 > 3 狗狗造型的小火車很「可愛」cute。crowded、national、illegal（違法的）都不能形容小火車的樣子。
 > 4 玩得很開心，每次都「笑」laughed。boiled（煮沸）、spelled（拼字）、borrowed（借入）都不能表示開心的反應。
-> 5 drink milk「喝牛奶」，想長高。smoke（煙）、noise（噪音）、garbage（垃圾）都不能喝。
+> 5 practice + V-ing「練習做…」，practice jumping「練習跳」。arrive（抵達）、happen（發生）、exist（存在）後面都不能接 jumping。
 + amusement park = 遊樂園
 + roller coaster = 雲霄飛車
 + ride = 遊樂設施
 + staff member = 工作人員
-= 上週日，我們全家去遊樂園。我弟弟 Ben 六歲，對那座大雲霄飛車超期待。可是在設施前面有一個畫著紅線的牌子，每個小孩都要站在旁邊量身高。Ben 盡量站得直直的，卻還是差了三公分。「抱歉，你年紀太小，不能玩這個。」工作人員溫和地說。Ben 的眼眶充滿淚水。接著工作人員指著一台狗狗造型的小火車說：「那個怎麼樣？它很可愛喔。」Ben 一開始不太開心，但他搭了五次狗狗火車，每次都笑得很開心。回家的路上，他說：「明年我就夠高了。我要喝很多很多牛奶！」
+= 上週日，我們全家去遊樂園。我弟弟 Ben 六歲，對那座大雲霄飛車超期待。可是在設施前面有一個畫著紅線的牌子，每個小孩都要站在旁邊量身高。Ben 盡量站得直直的，卻還是差了三公分。「抱歉，你年紀太小，不能玩這個。」工作人員溫和地說。Ben 的眼眶充滿淚水。接著工作人員指著一台狗狗造型的小火車說：「那個怎麼樣？它很可愛喔。」Ben 一開始不太開心，但他搭了五次狗狗火車，每次都笑得很開心。回家的路上，他說：「明年我就夠高了。我要喝很多牛奶，每天練習跳高！」
 
 ## 相撲力士
 During our trip to Tokyo, we watched a sumo match. Two huge men stood in a ring and pushed each other. One of them was very [[young|crowded|national|delicious]], only nineteen. Our guide said his [[weight|topic|sentence|habit]] was 160 kilograms, but the other man was even heavier! I couldn't believe they could move so fast. The young man [[pushed|spelled|explained|borrowed]] the bigger man out of the ring in five seconds. Everyone stood up and cheered. After the match, we saw some sumo wrestlers walking outside. One of them smiled and took a photo with my little sister. She was so small next to him that the photo looked really [[cute|crowded|national|illegal]]. Our guide said sumo wrestlers eat a lot to make their bodies heavy, but they also train very hard every morning. [[Height|Garbage|Smoke|Noise]] is important too, so most of them are very tall.
@@ -133,3 +133,139 @@ My cousin Jay is a [[young|crowded|national|convenient]] boxer. He is only seven
 + opponent = 對手
 + round = （比賽的）回合
 = 我表哥 Jay 是一位年輕的拳擊手。他才十七歲，就已經贏了三場比賽。上個月，我去看他的第四場比賽。比賽前一天，每位選手都要站上體重計，Jay 的體重必須低於 60 公斤，不然就不能比賽。整整一個星期，他只吃蔬菜和雞肉。量體重時，他是 59.5 公斤，高興得跳起來大叫。隔天晚上，他的對手比他高很多。「他的身高嚇不了我。」Jay 說。第三回合，Jay 用力一擊，贏得了比賽。賽後，Jay 看起來很累，卻非常驕傲。
+
+## 機場行李超重
+Last summer, my family flew to Osaka. At the airport, the staff put our big suitcase on a scale. Its [[weight|topic|habit|sentence]] was 27 kilograms, but the limit was 23. "Sorry, you have to take some things out," said the [[young|crowded|national|convenient]] woman at the counter. Mom opened the suitcase in front of everyone. Inside, under the clothes, there were five [[cute|crowded|national|illegal]] stuffed bears. "Whose are these?" Mom asked. My little sister looked at the floor. She had [[hidden|arrived|happened|existed]] them there the night before. She couldn't sleep without her bears, she said. In the end, she [[chose|arrived|happened|existed]] one bear to hold on the plane, and Dad carried the other four in his backpack. The people behind us in line all smiled.
+> 1 its weight was 27 kilograms「行李的重量是 27 公斤」。topic（主題）、habit（習慣）、sentence（句子）都不能用公斤表示。
+> 2 the young woman at the counter「櫃台那位年輕的小姐」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 3 five cute stuffed bears「五隻可愛的熊娃娃」。crowded、national、illegal（違法的）都不能形容娃娃。
+> 4 had hidden them「已經把它們藏起來」，hide 的過去分詞 hidden。arrived、happened、existed 都是不及物動詞，不能接 them。
+> 5 choose one bear「選一隻熊」，過去式 chose。arrived、happened、existed 都不能接受詞。
++ suitcase = 行李箱
++ scale = 秤
++ limit = 限制
++ counter = 櫃台
++ stuffed bear = 熊娃娃
+= 去年夏天，我們全家搭飛機去大阪。在機場，工作人員把我們的大行李箱放上秤，重量是 27 公斤，但限制是 23 公斤。「抱歉，您得拿一些東西出來。」櫃台那位年輕的小姐說。媽媽當著大家的面打開行李箱，在衣服底下發現了五隻可愛的熊娃娃。「這些是誰的？」媽媽問。我妹妹低頭看著地板——她前一晚把它們藏在那裡，她說沒有熊熊她睡不著。最後，她挑了一隻熊在飛機上抱著，另外四隻由爸爸放在他的背包裡。排在我們後面的人全都笑了。
+
+## 年輕的店長
+My cousin Ivy opened a bubble tea shop when she was only twenty-three. Many people said she was too [[young|crowded|national|convenient]] to run a business. But Ivy [[believed|arrived|happened|existed]] in herself. Her shop's sign had a [[cute|crowded|national|illegal]] cartoon cat holding a cup, and she made every drink with fresh fruit. For the first year, she worked fourteen hours a day and often forgot to eat lunch. She worked so hard that her [[weight|topic|habit|sentence]] dropped by five kilograms. Her mom was worried and brought her lunch boxes every day. Slowly, more and more customers came. Now her shop is one of the most [[popular|thirsty|hungry|honest]] shops in town, and she has six workers. "Age doesn't matter," Ivy says. "Hard work does."
+> 1 too young to V「太年輕而不能…」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 2 believe in oneself「相信自己」，過去式 believed。arrived、happened、existed 都不能和 in herself 搭配表示相信。
+> 3 a cute cartoon cat「一隻可愛的卡通貓」。crowded、national、illegal（違法的）都不能形容卡通貓。
+> 4 her weight dropped by five kilograms「她的體重掉了五公斤」。topic（主題）、habit（習慣）、sentence（句子）都不能用公斤表示。
+> 5 the most popular shops「最受歡迎的店」。thirsty（口渴的）、hungry（餓的）、honest（誠實的）都不能形容商店。
++ bubble tea = 珍珠奶茶
++ run a business = 經營生意
++ cartoon = 卡通
++ customer = 顧客
++ age = 年齡
+= 我表姊 Ivy 二十三歲時就開了一間珍奶店。很多人說她太年輕，沒辦法做生意，但 Ivy 相信自己。她店裡的招牌是一隻捧著杯子的可愛卡通貓，每杯飲料都用新鮮水果做。第一年，她一天工作十四個小時，常常忘了吃午餐。她工作得太拼，體重掉了五公斤。她媽媽很擔心，每天幫她送便當。慢慢地，客人越來越多。現在她的店是鎮上最受歡迎的店之一，還請了六個員工。「年紀不重要，」Ivy 說，「努力才重要。」
+
+## 蝙蝠不是瞎子
+Many people believe bats can't see. In English, people even say "as blind as a bat." But in science class, Mr. Chen told us that bats are not really [[blind|polite|rich|honest]]. Most of them can see quite well, and they also use sound to find food in the dark. Then he showed us a video of a [[cute|crowded|national|illegal]] baby bat at an animal center. It was wrapped in a tiny blanket like a burrito. The bat was very [[young|crowded|national|convenient]], only two weeks old, and its [[weight|topic|habit|sentence]] was only five grams, about the same as a coin. When it opened its mouth and yawned, everyone in the class [[laughed|boiled|spelled|borrowed]]. After class, my friend said, "I used to think bats were scary. Now I want one as a pet!"
+> 1 蝙蝠其實看得見，所以不是真的「瞎」blind。polite（有禮貌的）、rich（有錢的）、honest（誠實的）都和後面 can see quite well 接不起來。
+> 2 a cute baby bat「一隻可愛的小蝙蝠」。crowded（擁擠的）、national（國家的）、illegal（違法的）都不能形容蝙蝠。
+> 3 小蝙蝠才兩週大，非常「年幼」young。crowded、national、convenient（方便的）都不能形容動物的年紀。
+> 4 its weight was only five grams「牠的體重只有五公克」。topic（主題）、habit（習慣）、sentence（句子）都不能用公克表示。
+> 5 看到小蝙蝠打呵欠，全班都「笑了」laughed。boiled（煮沸）、spelled（拼字）、borrowed（借入）都不能表示大家的反應。
++ bat = 蝙蝠
++ blanket = 毯子
++ burrito = 墨西哥捲餅
++ gram = 公克
++ yawn = 打呵欠
+= 很多人以為蝙蝠看不見，英文甚至有一句話叫「像蝙蝠一樣瞎」。可是在自然課上，陳老師告訴我們，蝙蝠其實不是真的瞎子。牠們大多數看得很清楚，而且還會用聲音在黑暗中找食物。接著他給我們看一段影片，是動物中心裡一隻可愛的小蝙蝠，被小毯子包得像墨西哥捲餅一樣。這隻蝙蝠非常小，才兩週大，體重只有五公克，差不多跟一枚硬幣一樣。牠張開嘴打呵欠時，全班都笑了。下課後，我朋友說：「我以前覺得蝙蝠很可怕，現在我想養一隻當寵物！」
+
+## 媽媽年輕時的夢想
+When my mom was [[young|crowded|national|convenient]], she wanted to be a singer. At eighteen, she entered a TV singing contest and got into the final round. But a man from the TV company told her, "Your voice is great, but you need to lose some [[weight|topic|sentence|uniform]] before you can be on TV." Mom was very angry. She [[decided|enjoyed|minded|finished]] to leave the contest and went to college instead. Now she is a music teacher at a junior high school. She still has a [[beautiful|hungry|thirsty|brave]] voice, and every night she sings to my [[cute|crowded|national|illegal]] baby brother. He always falls asleep before the second song. "This is the best audience in the world," Mom says with a smile.
+> 1 when my mom was young「媽媽年輕的時候」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 2 lose weight「減重」。topic（主題）、sentence（句子）、uniform（制服）都不能和 lose some 搭配表示變瘦。
+> 3 decide to V「決定做…」。enjoy、mind、finish 後面要接 V-ing，不能接 to leave。
+> 4 a beautiful voice「好聽的聲音」。hungry（餓的）、thirsty（口渴的）、brave（勇敢的）都不能形容聲音。
+> 5 my cute baby brother「我可愛的小弟弟」。crowded、national、illegal（違法的）都不能形容嬰兒。
++ contest = 比賽
++ final round = 決賽
++ college = 大學
++ audience = 觀眾
+= 我媽媽年輕的時候想當歌手。十八歲那年，她參加了一個電視歌唱比賽，還進了決賽。可是電視公司的一個人跟她說：「妳的聲音很棒，但上電視之前得先減肥。」媽媽非常生氣，決定退出比賽，改去讀大學。現在她是一所國中的音樂老師。她的歌聲還是很好聽，每天晚上都唱歌給我可愛的小弟弟聽。他總是在第二首歌還沒唱完就睡著了。「這是全世界最棒的觀眾。」媽媽笑著說。
+
+## 可愛的電子寵物
+Last month, I downloaded a pet game on my phone. My pet was a [[cute|crowded|national|illegal]] little dog named Biscuit. Every day, I had to feed it, clean it, and play with it. When it was [[young|crowded|national|convenient]], it slept most of the day. The game showed its [[height|habit|garbage|sentence]] and weight every morning, so I could see it grow. One week, I gave Biscuit too many snacks, and its [[weight|topic|habit|uniform]] went up very fast. Then a message popped up: "Your dog is too fat. It needs more exercise." I felt terrible. So I [[decided|enjoyed|minded|finished]] to stop giving it snacks and played ball games with it instead. Now Biscuit is healthy again, and I've learned something about my own eating habits too.
+> 1 a cute little dog「一隻可愛的小狗」。crowded（擁擠的）、national（國家的）、illegal（違法的）都不能形容小狗。
+> 2 when it was young「牠還小的時候」。crowded、national、convenient（方便的）都不能形容狗的年紀。
+> 3 顯示牠的「身高」和體重，讓我看牠長大 height。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用來看牠長大。
+> 4 吃太多零食，「體重」上升很快 weight。topic（主題）、habit、uniform（制服）都不會因為吃零食而上升。
+> 5 decide to V「決定做…」。enjoy、mind、finish 後面要接 V-ing，不能接 to stop。
++ download = 下載
++ snack = 零食
++ pop up = 跳出來
++ exercise = 運動
+= 上個月，我在手機上下載了一款養寵物的遊戲。我的寵物是一隻可愛的小狗，名叫「餅乾」。我每天都得餵牠、幫牠清潔，還要陪牠玩。牠還小的時候，一天大部分時間都在睡覺。遊戲每天早上會顯示牠的身高和體重，讓我看到牠長大。有一週，我給餅乾太多零食，牠的體重上升得很快。接著跳出一則訊息：「你的狗太胖了，牠需要多運動。」我覺得好難過。所以我決定不再給牠零食，改陪牠玩球。現在餅乾又健康了，我也對自己的飲食習慣有了一些體會。
+
+## 霍爾的移動城堡裡的蘇菲
+Sophie was a [[young|crowded|national|convenient]] girl who made hats in her family's shop. She was quiet and didn't think she was pretty. One night, an angry witch put a curse on her, and she became a ninety-year-old woman. Her back hurt, and her eyes were so weak that she was almost [[blind|polite|rich|honest]] without her glasses. But Sophie didn't cry. She [[left|baked|spelled|tasted]] home and walked up into the hills, where she found a strange moving castle. Inside lived a wizard named Howl and a [[cute|crowded|national|illegal]] little fire demon named Calcifer. Sophie started to clean the castle and cook for everyone. Strangely, whenever she was [[brave|crowded|national|delicious]] and happy, she looked younger. Maybe the real magic was in her heart.
+> 1 a young girl「一個年輕的女孩」，和後面變成九十歲老婆婆對比。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 2 眼睛差到沒戴眼鏡幾乎「看不見」almost blind。polite（有禮貌的）、rich（有錢的）、honest（誠實的）都和眼睛無關。
+> 3 leave home「離開家」，過去式 left。baked（烘烤）、spelled（拼字）、tasted（品嚐）都不能接 home。
+> 4 a cute little fire demon「一個可愛的小火惡魔」。crowded、national、illegal（違法的）都不能形容角色的樣子。
+> 5 勇敢又開心的時候，她就看起來比較年輕 brave。crowded、national、delicious（好吃的）都不能形容人的狀態。
++ witch = 女巫
++ curse = 詛咒
++ castle = 城堡
++ wizard = 巫師
++ fire demon = 火惡魔
+= 蘇菲是一個年輕的女孩，在家裡的店裡做帽子。她個性安靜，也不覺得自己漂亮。某天晚上，一個生氣的女巫對她下了詛咒，她變成了一個九十歲的老婆婆。她的背會痛，眼睛也差到沒戴眼鏡幾乎看不見。可是蘇菲沒有哭。她離開家，走上山丘，在那裡找到一座會移動的奇怪城堡。城堡裡住著一位名叫霍爾的巫師，還有一個名叫卡西法的可愛小火惡魔。蘇菲開始打掃城堡、為大家煮飯。奇怪的是，每當她勇敢又快樂的時候，她就看起來年輕一些。也許真正的魔法就在她心裡。
+
+## 一天長一公尺的竹子
+My grandpa has a bamboo forest in Nantou. Last spring, I visited him and saw a [[young|crowded|national|convenient]] bamboo shoot coming out of the ground. It was only as tall as my knee. Grandpa said, "Come back tomorrow and check its [[height|habit|garbage|sentence]]." The next morning, I couldn't believe my eyes. It was taller than me! Grandpa [[explained|boiled|spelled|baked]] that some kinds of bamboo can grow almost one meter in a day. Later, I helped him dig up some bamboo shoots for dinner. I carried the basket home, and its [[weight|topic|habit|sentence]] was almost ten kilograms. My arms hurt, but it was worth it. That night, Grandma cooked bamboo shoot soup, and it was so [[delicious|crowded|national|illegal]] that I had three bowls.
+> 1 a young bamboo shoot「一根剛冒出來的嫩竹筍」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容竹筍。
+> 2 check its height「看看它的高度」，隔天它就比我還高。habit（習慣）、garbage（垃圾）、sentence（句子）都不能拿來比高。
+> 3 explain that…「解釋說…」。boiled（煮沸）、spelled（拼字）、baked（烘烤）後面都不能接 that 子句。
+> 4 its weight was almost ten kilograms「它的重量快十公斤」。topic（主題）、habit、sentence 都不能用公斤表示。
+> 5 竹筍湯好喝到我喝了三碗 so delicious that…。crowded、national、illegal（違法的）都不能形容湯。
++ bamboo = 竹子
++ Nantou = 南投
++ bamboo shoot = 竹筍
++ knee = 膝蓋
++ dig up = 挖出來
+= 我阿公在南投有一片竹林。去年春天，我去看他，看到一根嫩竹筍剛從土裡冒出來，只有到我膝蓋那麼高。阿公說：「明天再來看看它有多高。」隔天早上，我簡直不敢相信自己的眼睛——它竟然比我還高！阿公解釋說，有些竹子一天可以長將近一公尺。後來，我幫他挖了一些竹筍當晚餐。我把籃子提回家，重量快十公斤。我的手臂好痠，但很值得。那天晚上，阿嬤煮了竹筍湯，好喝到我喝了三碗。
+
+## 小海豹回家
+Last winter, I visited my uncle in New Zealand. One morning, we found a baby seal alone on the beach. It was very [[young|crowded|national|convenient]] and couldn't swim well yet. It had big black eyes and looked so [[cute|crowded|national|illegal]] that I wanted to touch it. But my uncle stopped me. "Don't touch it. Its mother might be [[looking|arriving|happening|existing]] for food nearby," he said. We waited for two hours, but the mother never came back. So we called an animal center, and two workers came. They checked the seal's [[weight|topic|habit|sentence]]. It was only eight kilograms, too thin for its age. They took it to the center, fed it fish for a month, and then [[returned|arrived|happened|existed]] it to the sea. The workers sent us a video of it swimming away.
+> 1 小海豹很「小」young，還不太會游泳。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容動物的年紀。
+> 2 大眼睛的小海豹「可愛」到我想摸牠 cute。crowded、national、illegal（違法的）都不能形容海豹。
+> 3 look for food「找食物」，be looking 進行式。arriving、happening、existing 都不能接 for food 表示尋找。
+> 4 check the seal's weight「量海豹的體重」，後面說只有八公斤。topic（主題）、habit（習慣）、sentence（句子）都不能用公斤表示。
+> 5 return + 東西 + to…「把…送回…」，過去式 returned。arrived、happened、existed 都是不及物動詞，不能接 it。
++ New Zealand = 紐西蘭
++ seal = 海豹
++ nearby = 在附近
++ animal center = 動物救援中心
+= 去年冬天，我去紐西蘭找舅舅。有一天早上，我們在海灘上發現一隻落單的小海豹。牠還很小，還不太會游泳。牠有一雙黑色的大眼睛，看起來可愛得讓我好想摸牠。可是舅舅阻止了我。「別碰牠。牠媽媽可能就在附近找食物。」他說。我們等了兩個小時，海豹媽媽一直沒有回來。於是我們打電話給動物救援中心，來了兩位工作人員。他們量了海豹的體重，只有八公斤，以牠的年紀來說太瘦了。他們把牠帶回中心，餵了一個月的魚，然後把牠送回大海。工作人員還傳給我們一段牠游走的影片。
+
+## 黑暗中的晚餐
+For my birthday, my parents took me to a special restaurant. Inside, it was completely dark. We couldn't see anything, not even our own hands. Our waiter, Tom, was [[blind|polite|rich|friendly]], so the dark was normal for him. He [[led|spelled|borrowed|explained]] us to our table and told us where our plates and cups were. Tom said he had been blind since he was [[young|crowded|national|convenient]]. I tried to eat with a fork, but I kept missing the food, and Dad spilled his water twice. We laughed a lot. Dad guessed from Tom's deep voice that he was very tall. But when we came out into the light, we saw his real [[height|habit|garbage|sentence]]. He was shorter than me! That night, I [[realized|boiled|spelled|baked]] how much we depend on our eyes every day.
+> 1 服務生看不見，所以黑暗對他來說很平常 blind。polite（有禮貌的）、rich（有錢的）、friendly（友善的）都不能解釋 so the dark was normal for him。
+> 2 lead + 人 + to…「帶某人到…」，過去式 led。spelled（拼字）、borrowed（借入）、explained（解釋）都不能接 us to our table。
+> 3 since he was young「從他小時候起」。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 4 his real height「他真正的身高」，後面說他比我矮。habit（習慣）、garbage（垃圾）、sentence（句子）都不能和高矮有關。
+> 5 realize how…「了解到多麼…」。boiled（煮沸）、spelled、baked（烘烤）後面都不能接 how 子句。
++ completely = 完全地
++ waiter = 服務生
++ spill = 打翻
++ depend on = 依靠
+= 我生日那天，爸媽帶我去一間特別的餐廳。裡面一片漆黑，我們什麼都看不到，連自己的手都看不見。我們的服務生 Tom 是盲人，所以黑暗對他來說很平常。他帶我們到座位，告訴我們盤子和杯子放在哪裡。Tom 說他從小就看不見。我試著用叉子吃東西，卻一直叉不到食物，爸爸還打翻了兩次水。我們笑得好開心。爸爸從 Tom 低沉的聲音猜他一定很高。可是當我們走到亮處，才看到他真正的身高——他比我還矮！那天晚上，我體會到我們每天有多依賴自己的眼睛。
+
+## 十歲的童星
+My neighbor Lily is only ten, but she is already a famous actor. She started acting in TV ads when she was very [[young|crowded|national|convenient]], just three years old. Everyone loved her [[cute|crowded|national|illegal]] smile and round face. Now she is growing fast. Last year, her [[height|habit|garbage|sentence]] was 130 centimeters, and this year it's 142! Her director is worried because she looks too old for the role of a little girl. But Lily isn't worried at all. "I want to be a doctor when I grow up," she [[explained|boiled|spelled|baked]] to me. "Acting is fun, but school is more [[important|hungry|thirsty|brave]] to me." Every day after filming, she still does her homework in the car.
+> 1 三歲就開始拍廣告，那時「很小」young。crowded（擁擠的）、national（國家的）、convenient（方便的）都不能形容人。
+> 2 her cute smile「她可愛的笑容」。crowded、national、illegal（違法的）都不能形容笑容。
+> 3 her height was 130 centimeters「她的身高 130 公分」。habit（習慣）、garbage（垃圾）、sentence（句子）都不能用公分表示。
+> 4 explain to + 人「向某人解釋」，過去式 explained。boiled（煮沸）、spelled（拼字）、baked（烘烤）都不能接 to me 表示說明想法。
+> 5 school is more important「上學更重要」。hungry（餓的）、thirsty（口渴的）、brave（勇敢的）都不能形容上學這件事。
++ actor = 演員
++ ad = 廣告
++ director = 導演
++ role = 角色
++ filming = 拍攝
+= 我的鄰居 Lily 才十歲，就已經是一位有名的演員了。她三歲時就開始拍電視廣告，那時還很小。大家都很喜歡她可愛的笑容和圓圓的臉。現在她長得很快，去年身高 130 公分，今年已經 142 公分了！她的導演很擔心，因為她看起來太大，不適合演小女孩的角色。可是 Lily 一點都不擔心。「我長大想當醫生，」她跟我解釋，「演戲很好玩，但對我來說上學更重要。」每天拍完戲，她還是會在車上寫功課。
