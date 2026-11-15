@@ -128,3 +128,135 @@ My little brother is six, and he loves drawing. Last week, his teacher asked the
 + superhero = 超級英雄
 + fridge = 冰箱
 = 我弟弟六歲，很喜歡畫畫。上星期，老師要全班畫自己的家人。他把畫帶回家時，我們全都笑了。畫裡的爸爸瘦得像根棍子，頭小小的；媽媽眼睛超大，頭髮是紫色的；我則像一隻長著綠牙齒的怪物！「你為什麼把我畫得這麼醜？」我問。「因為你昨天拿走我的玩具車。」他說。大家又笑了。接著我發現，他把自己畫成一個又高又帥的超級英雄。媽媽說：「這還是一張很美的畫，我們把它貼在冰箱上吧。」現在每個來我們家的人都看得到我的綠牙齒。
+
+## 稻草人比賽
+Every fall, the farmers in my grandpa's village hold a scarecrow contest. This year, Grandpa and I [[joined|boiled|spelled|tasted]] it. We used old clothes, a straw hat, and a bag full of dry grass. Grandpa wanted our scarecrow to be [[ugly|crowded|delicious|national]] and scary, so the birds would stay away from his rice. But I wanted it to look [[handsome|crowded|convenient|national]], like a movie star. In the end, we made a scarecrow with a [[thin|rainy|windy|national]] body, long legs, a big smile, and a pair of sunglasses. On the day of the contest, the judges laughed and gave us a [[special|hungry|thirsty|brave]] prize: "Best-Dressed Scarecrow." The birds, however, were not scared at all. They sat on its arms and ate Grandpa's rice.
+> 1 join the contest「參加比賽」，過去式 joined。boiled（煮沸）、spelled（拼字）、tasted（品嚐）都不能接比賽。
+> 2 阿公希望稻草人又「醜」又可怕，才能嚇走鳥 ugly。crowded（擁擠的）、delicious（好吃的）、national（國家的）都不能形容稻草人的樣子。
+> 3 我想讓它看起來很「帥」，像電影明星 handsome。crowded、convenient（方便的）、national 都不能形容外表。
+> 4 a thin body「瘦瘦的身體」。rainy（下雨的）、windy（颳風的）是天氣形容詞，national 也不能形容身體。
+> 5 a special prize「特別獎」。hungry（餓的）、thirsty（口渴的）、brave（勇敢的）都不能形容獎項。
++ scarecrow = 稻草人
++ contest = 比賽
++ straw = 稻草
++ judge = 評審
++ sunglasses = 太陽眼鏡
+= 每年秋天，阿公村子裡的農夫都會舉辦稻草人比賽。今年，阿公和我也參加了。我們用了舊衣服、一頂草帽和一袋乾草。阿公希望我們的稻草人又醜又可怕，讓鳥遠離他的稻子；我卻想讓它看起來很帥，像電影明星一樣。最後，我們做出一個身體瘦瘦、腿長長、笑容大大，還戴著太陽眼鏡的稻草人。比賽當天，評審們都笑了，頒給我們一個特別獎：「最佳穿搭稻草人」。不過，鳥兒一點都不怕它。牠們坐在它的手臂上，吃著阿公的稻子。
+
+## 史瑞克的西裝
+Shrek is a big green ogre. Many people think he is [[ugly|crowded|convenient|national]] and scary, so they run away when they see him. But Princess Fiona loves him, and today is their wedding day. Donkey wanted to help. "You need to look [[handsome|rainy|windy|crowded]] today!" he said. He [[brought|boiled|spelled|tasted]] Shrek a fancy suit, but it was much too small. When Shrek sat down, his big belly pushed the buttons off, and they flew across the room. Shrek's face turned red. But Fiona only laughed. "I don't need a [[slim|rainy|windy|crowded]] husband in a fancy suit," she said. "I love you just the way you are." Shrek smiled. To him, Fiona was the most [[beautiful|crowded|national|convenient]] bride in the world, and that was all that mattered.
+> 1 很多人覺得史瑞克又「醜」又可怕 ugly。crowded（擁擠的）、convenient（方便的）、national（國家的）都不能形容人的長相。
+> 2 婚禮當天要看起來很「帥」handsome。rainy、windy 是天氣形容詞，crowded 形容地方，都不能形容人。
+> 3 bring + 人 + 東西「帶東西給某人」，過去式 brought。boiled（煮沸）、spelled（拼字）、tasted（品嚐）都不能這樣用。
+> 4 a slim husband「身材苗條的丈夫」，和史瑞克的大肚子對比。rainy、windy、crowded 都不能形容人。
+> 5 the most beautiful bride「最美的新娘」。crowded、national、convenient 都不能形容新娘。
++ ogre = 食人魔
++ princess = 公主
++ fancy = 華麗的
++ belly = 肚子
++ bride = 新娘
+= 史瑞克是一個綠色的大食人魔。很多人覺得他又醜又可怕，一看到他就逃跑。可是費歐娜公主愛他，而今天就是他們結婚的日子。驢子想幫忙。「你今天得看起來帥一點！」他說。他帶來一套華麗的西裝給史瑞克，可是那套西裝實在太小了。史瑞克一坐下，大肚子就把扣子撐掉，扣子飛過整個房間。史瑞克的臉都紅了。費歐娜卻只是笑著說：「我不需要一個穿著華麗西裝的苗條老公，我就愛你原本的樣子。」史瑞克笑了。對他來說，費歐娜是世界上最美的新娘，這樣就夠了。
+
+## 修圖 App 的真相
+My cousin Amy is in high school. Every photo she posts online looks perfect. Her face is small, her eyes are big, and her legs look long and [[slim|crowded|national|rainy]]. Last weekend, she came to visit us. She looked different from her photos, but she was still [[beautiful|crowded|rainy|national]]. "Why do you change your photos?" I asked. She [[explained|boiled|baked|spelled]] that she used an app to edit them. "Everyone does it," she said. "If I don't, people will think I'm [[ugly|rainy|national|convenient]]." I didn't [[agree|spell|lend|cost]] with her. To me, her real smile was much better than the one on her phone. That night, she posted a photo of us without any changes, and many friends said it was her best one.
+> 1 修過的照片讓腿看起來又長又「細」slim。crowded（擁擠的）、national（國家的）、rainy（下雨的）都不能形容腿。
+> 2 她和照片不太一樣，但還是很「漂亮」beautiful，用 but 表示轉折。crowded、rainy、national 都不能形容人。
+> 3 explain that…「解釋說…」。boiled（煮沸）、baked（烘烤）、spelled（拼字）後面都不能接 that 子句。
+> 4 她怕不修圖，別人會覺得她「醜」ugly。rainy、national、convenient（方便的）都不能形容人的外表。
+> 5 agree with + 人「同意某人」。spell、lend（借出）、cost（花費）都不能接 with her 表示意見相同。
++ post = 貼（文、照片）
++ perfect = 完美的
++ app = 應用程式
++ edit = 修改、編輯
+= 我表姊 Amy 讀高中。她放上網路的每張照片都很完美：臉小小的、眼睛大大的，腿看起來又長又細。上週末她來我們家玩。她本人和照片不太一樣，但還是很漂亮。「妳為什麼要修照片？」我問。她解釋說，她用一個 App 修圖。「大家都這樣啊，」她說，「如果我不修，別人會覺得我很醜。」我不同意她的話。對我來說，她真實的笑容比手機裡的好看多了。那天晚上，她貼了一張我們的合照，完全沒有修圖，很多朋友都說那是她最好看的一張。
+
+## 紙飛機大賽
+Our science teacher held a paper airplane contest. The plane that stayed in the air the longest would win. Jason spent an hour on his plane. He painted it red and gold, and it looked really [[beautiful|hungry|honest|lonely]]. But it was too heavy, and it fell to the floor after two seconds. Lily used [[thin|polite|honest|hungry]] paper and folded it carefully. Her plane looked a little [[ugly|polite|hungry|honest]] because its two wings were not the same size. Some boys laughed at it. But when she [[threw|spelled|boiled|baked]] it, it flew across the classroom and right out of the window! Everyone cheered. Our teacher smiled and said, "A plane doesn't need to look good. It needs to be [[light|honest|shy|proud]]."
+> 1 塗上紅色和金色，看起來很「漂亮」beautiful。hungry（餓的）、honest（誠實的）、lonely（寂寞的）都不能形容紙飛機。
+> 2 thin paper「薄的紙」，和前面太重的飛機對比。polite（有禮貌的）、honest、hungry 都不能形容紙。
+> 3 兩邊翅膀不一樣大，看起來有點「醜」ugly。polite、hungry、honest 都不能形容飛機的樣子。
+> 4 throw the plane「丟出飛機」，過去式 threw。spelled（拼字）、boiled（煮沸）、baked（烘烤）都不能讓飛機飛出去。
+> 5 飛機要「輕」light 才飛得久，呼應前面太重的飛機。honest、shy（害羞的）、proud（驕傲的）都不能形容飛機。
++ paper airplane = 紙飛機
++ contest = 比賽
++ fold = 摺
++ wing = 機翼
+= 我們的自然老師舉辦了一場紙飛機比賽，在空中停留最久的飛機就贏了。Jason 花了一個小時做飛機，把它塗成紅色和金色，看起來真的很漂亮。可是它太重了，兩秒鐘後就掉到地上。Lily 用薄薄的紙，仔細地摺。她的飛機兩邊翅膀不一樣大，看起來有點醜，有些男生還笑它。可是她一丟出去，飛機就飛越整間教室，直接飛出窗外！大家都歡呼起來。老師笑著說：「飛機不需要好看，它需要的是輕。」
+
+## 林阿姨的蛋餅
+Every morning, I buy breakfast at Auntie Lin's shop near my school. Her egg pancakes are the most popular in town. One day, I asked her about her secret. "The skin must be very [[thin|polite|honest|brave]]," she said. "If it's too thick, it won't taste good." She also uses [[fresh|polite|honest|lonely]] eggs from a farm every day. Auntie Lin is about sixty, but she is [[slim|crowded|rainy|national]] and full of energy. She says it's because she works hard and laughs a lot. Her shop isn't [[beautiful|hungry|brave|polite]]. The tables are old, and the walls are a little dirty. But it is always full of people. Last week, she taught me how to make an egg pancake. Mine was [[ugly|polite|brave|honest]] and broken, but it still tasted great!
+> 1 蛋餅皮一定要很「薄」thin，和後面 too thick 對比。polite（有禮貌的）、honest（誠實的）、brave（勇敢的）都不能形容餅皮。
+> 2 fresh eggs「新鮮的蛋」。polite、honest、lonely（寂寞的）都不能形容蛋。
+> 3 林阿姨六十歲左右，卻身材「苗條」又有活力 slim。crowded（擁擠的）、rainy（下雨的）、national（國家的）都不能形容人。
+> 4 店面不「漂亮」beautiful：桌子舊、牆有點髒。hungry（餓的）、brave、polite 都不能形容店。
+> 5 我做的蛋餅又「醜」又破 ugly，但還是很好吃。polite、brave、honest 都不能形容食物的樣子。
++ egg pancake = 蛋餅
++ skin = （餅）皮
++ secret = 祕訣
+= 每天早上，我都在學校附近的林阿姨早餐店買早餐。她的蛋餅是鎮上最受歡迎的。有一天，我問她有什麼祕訣。「餅皮一定要很薄，」她說，「太厚就不好吃了。」她每天也都用農場送來的新鮮雞蛋。林阿姨大約六十歲，身材卻很苗條，而且精神很好。她說那是因為她努力工作、常常大笑。她的店不漂亮，桌子很舊，牆壁也有點髒，但總是坐滿了人。上週，她教我怎麼做蛋餅。我做的又醜又破，但還是很好吃！
+
+## 紅鶴與疣豬
+At the zoo, my little sister fell in love with the flamingos. They were pink and [[beautiful|crowded|convenient|national]], and they stood on one leg in the water. Their legs were so long and [[thin|honest|polite|lonely]] that my sister asked if they would break. Our guide [[explained|boiled|spelled|baked]] that their legs are much stronger than they look. Next, we visited the warthogs. A big one had a flat face and two long teeth sticking out of its mouth. "Eww, it's so [[ugly|crowded|convenient|national]]," my sister said. But then a baby warthog ran to its mother with its tail straight up like a little flag. My sister [[laughed|boiled|spelled|baked]] and said, "Okay, that one is cute." Now she wants a warthog doll for her birthday.
+> 1 紅鶴粉紅色又「漂亮」beautiful。crowded（擁擠的）、convenient（方便的）、national（國家的）都不能形容鳥。
+> 2 腿又長又「細」thin，妹妹擔心會斷掉。honest（誠實的）、polite（有禮貌的）、lonely（寂寞的）都不能形容腿。
+> 3 explain that…「解釋說…」。boiled（煮沸）、spelled（拼字）、baked（烘烤）後面都不能接 that 子句。
+> 4 扁臉加上突出的長牙，妹妹覺得牠很「醜」ugly。crowded、convenient、national 都不能形容動物的長相。
+> 5 看到小疣豬可愛的樣子，妹妹「笑了」laughed。boiled、spelled、baked 都不能表示看到可愛動物的反應。
++ flamingo = 紅鶴
++ guide = 導覽員
++ warthog = 疣豬
++ stick out = 突出
++ flag = 旗子
+= 在動物園裡，我妹妹愛上了紅鶴。牠們粉紅色、很漂亮，用一隻腳站在水裡。牠們的腿又長又細，妹妹還問會不會斷掉。導覽員解釋說，牠們的腿比看起來強壯多了。接著我們去看疣豬。一隻大疣豬臉扁扁的，嘴巴旁邊突出兩根長牙。「噁，牠好醜喔。」妹妹說。可是這時一隻小疣豬跑向媽媽，尾巴直直豎起來，像一面小旗子。妹妹笑了，說：「好啦，那隻很可愛。」現在她生日想要一隻疣豬娃娃。
+
+## 回收材料服裝秀
+Our school held a fashion show for Earth Day. Every class had to make clothes from [[garbage|noise|smoke|joy]]. Our class used old newspapers, plastic bags, and bottle caps. Ken, the tallest and most [[handsome|crowded|rainy|national]] boy in our class, was our model. We made him a suit from newspapers. My best friend Mia is [[slim|rainy|crowded|national]], so she wore a dress made of plastic bags. On the stage, the wind from a big fan was too strong, and Mia's dress started to fly away! Everyone laughed, but she [[kept|boiled|spelled|baked]] walking and smiling. In the end, our teacher said all the clothes were [[beautiful|hungry|thirsty|brave]] in their own way. We didn't win, but we had a lot of fun.
+> 1 make clothes from garbage「用垃圾做衣服」，呼應後面的舊報紙、塑膠袋。noise（噪音）、smoke（煙）、joy（喜悅）都不能拿來做衣服。
+> 2 the most handsome boy「最帥的男生」，所以當模特兒。crowded（擁擠的）、rainy（下雨的）、national（國家的）都不能形容人。
+> 3 Mia 身材「苗條」slim，所以穿塑膠袋做的洋裝。rainy、crowded、national 都不能形容人。
+> 4 keep + V-ing「繼續做…」，過去式 kept。boiled（煮沸）、spelled（拼字）、baked（烘烤）都不能接 walking 表示「繼續」。
+> 5 每件衣服都有自己的「美」beautiful。hungry（餓的）、thirsty（口渴的）、brave（勇敢的）都不能形容衣服。
++ fashion show = 服裝秀
++ Earth Day = 世界地球日
++ bottle cap = 瓶蓋
++ model = 模特兒
++ stage = 舞台
+= 我們學校為世界地球日舉辦了一場服裝秀，每一班都要用垃圾做衣服。我們班用了舊報紙、塑膠袋和瓶蓋。班上最高、最帥的 Ken 當我們的模特兒，我們用報紙幫他做了一套西裝。我最好的朋友 Mia 身材苗條，所以她穿了一件塑膠袋做的洋裝。在台上，大電風扇的風太強，Mia 的洋裝差點被吹走！大家都笑了，但她還是繼續邊走邊微笑。最後，老師說每件衣服都有自己的美。我們雖然沒有得獎，但玩得很開心。
+
+## 外公的八十大壽
+For Grandpa's eightieth birthday, our whole family had dinner at a restaurant. Grandpa wore a new suit and a red tie. "You look so [[handsome|rainy|windy|crowded]]!" Grandma said. Grandpa smiled like a young boy. Grandma wore a purple dress. She is almost eighty too, but she is still [[slim|rainy|windy|crowded]] and stands very straight. My aunts and uncles came from different cities, and my cousin even flew back from [[abroad|seldom|instead|ahead]]. After dinner, we gave Grandpa a [[beautiful|hungry|thirsty|brave]] photo book with pictures from his whole life. He looked at every page slowly and [[cried|baked|spelled|boiled]] a little. "This is the best gift I've ever had," he said.
+> 1 外公穿新西裝、打紅領帶，看起來好「帥」handsome。rainy、windy 是天氣形容詞，crowded 形容地方，都不能形容人。
+> 2 外婆快八十歲，身材還是很「苗條」slim，站得很挺。rainy、windy、crowded 都不能形容人。
+> 3 from abroad「從國外」。seldom（很少）、instead（取而代之）、ahead（在前面）都不能放在 from 後面表示地點。
+> 4 a beautiful photo book「一本漂亮的相簿」。hungry（餓的）、thirsty（口渴的）、brave（勇敢的）都不能形容相簿。
+> 5 看到一生的照片，外公感動得「哭了」一點 cried。baked（烘烤）、spelled（拼字）、boiled（煮沸）都不能表示感動的反應。
++ tie = 領帶
++ suit = 西裝
++ photo book = 相簿
+= 外公八十歲生日那天，我們全家到餐廳吃晚餐。外公穿了一套新西裝，打著紅色領帶。「你看起來好帥！」外婆說。外公笑得像個小男孩。外婆穿了一件紫色洋裝。她也快八十歲了，身材卻還是很苗條，站得很挺。阿姨和舅舅們從不同城市趕來，我表哥甚至從國外飛回來。吃完飯後，我們送給外公一本漂亮的相簿，裡面是他一生的照片。他慢慢翻著每一頁，眼眶有點濕。「這是我收過最棒的禮物。」他說。
+
+## 鐘樓上的敲鐘人
+In an old story from Paris, a young man named Quasimodo lived at the top of a big church. Every day, he rang the church bells. His face and back were not like other people's, so everyone said he was [[ugly|cloudy|rainy|windy]]. He was too [[afraid|crowded|delicious|national]] to go outside. From the tower, he could see the whole city. One day, he saw a [[beautiful|cloudy|rainy|windy]] dancer named Esmeralda in the square below. When people threw things at Quasimodo, she was the only one who gave him water. Later, she was in danger, and Quasimodo [[decided|enjoyed|minded|finished]] to protect her. A [[handsome|cloudy|rainy|windy]] soldier also liked Esmeralda, but in the end, it was Quasimodo who saved her life. The story shows that a good heart is more important than a nice face.
+> 1 他的臉和背跟別人不一樣，大家都說他「醜」ugly。cloudy（多雲的）、rainy（下雨的）、windy（颳風的）都是天氣形容詞，不能形容人。
+> 2 too afraid to V「太害怕而不敢…」。crowded（擁擠的）、delicious（好吃的）、national（國家的）都不能表示人的心情。
+> 3 a beautiful dancer「一位美麗的舞者」。cloudy、rainy、windy 都不能形容人。
+> 4 decide to V「決定做…」。enjoy、mind、finish 後面要接 V-ing，不能接 to protect。
+> 5 a handsome soldier「一位英俊的士兵」。cloudy、rainy、windy 都不能形容人。
++ Paris = 巴黎
++ bell = 鐘
++ tower = 塔、鐘樓
++ square = 廣場
++ soldier = 士兵
+= 在一個來自巴黎的古老故事裡，一位名叫加西莫多的年輕人住在一座大教堂的頂端。他每天負責敲教堂的鐘。他的臉和背都跟別人不一樣，所以大家都說他很醜。他害怕得不敢出門。從鐘樓上，他可以看到整座城市。有一天，他看到下面廣場上有一位美麗的舞者，名叫艾絲梅拉達。當大家朝加西莫多丟東西時，只有她給他水喝。後來她遇到危險，加西莫多決定保護她。一位英俊的士兵也喜歡艾絲梅拉達，但最後救了她一命的，是加西莫多。這個故事告訴我們，善良的心比好看的臉更重要。
+
+## 太薄的外套
+On the first cold day of winter, I [[wore|boiled|baked|spelled]] my favorite jacket to school. It was [[beautiful|hungry|brave|thirsty]], with little white stars on it, but it was too [[thin|honest|polite|shy]] for such a cold day. By lunchtime, I was shaking. My classmate Hao saw me and [[lent|boiled|baked|spelled]] me his heavy coat. It was old and [[ugly|honest|polite|shy]], with a big brown spot on the back, but it was very warm. I wore it for the rest of the day. The next morning, I brought it back to him with a bag of hot sweet potatoes from my grandma. Since then, I always check the weather before I choose my clothes. Warm is more important than pretty!
+> 1 wear a jacket to school「穿外套去學校」，過去式 wore。boiled（煮沸）、baked（烘烤）、spelled（拼字）都不能和外套搭配。
+> 2 外套上有白色小星星，很「漂亮」beautiful。hungry（餓的）、brave（勇敢的）、thirsty（口渴的）都不能形容外套。
+> 3 外套太「薄」thin，不適合冷天。honest（誠實的）、polite（有禮貌的）、shy（害羞的）都不能形容衣服。
+> 4 lend + 人 + 東西「借東西給某人」，過去式 lent。boiled、baked、spelled 都不能這樣用。
+> 5 大衣又舊又「醜」ugly，背後還有污漬，但很暖。honest、polite、shy 都不能形容衣服。
++ jacket = 夾克
++ spot = 污漬
++ sweet potato = 地瓜
+= 冬天第一個冷天，我穿了最喜歡的外套去上學。它很漂亮，上面有白色小星星，但對這麼冷的天來說太薄了。到了午餐時間，我已經冷到發抖。我同學阿浩看到了，把他厚重的大衣借給我。那件大衣又舊又醜，背後還有一大塊褐色污漬，但非常溫暖。那天剩下的時間我都穿著它。隔天早上，我把大衣還給他，還附上一袋阿嬤烤的熱地瓜。從那天起，我挑衣服前一定先看天氣。溫暖比好看更重要！
