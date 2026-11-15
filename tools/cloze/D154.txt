@@ -122,3 +122,131 @@ We were excited about our PE class, but it suddenly started to rain heavily. "So
 + dodgeball = 躲避球
 + laughter = 笑聲
 = 我們本來很期待體育課，但突然下起了大雨。「抱歉，各位，今天不能在外面上課了。」王老師說。大家都很失望，因為我們想在操場上跑步。結果，她帶我們去體育館，讓我們自己選：打籃球或打躲避球。大部分男生選籃球，大部分女生選躲避球。很快地，體育館裡就充滿了吵鬧聲和笑聲，連平常安靜的同學都在跑來跑去、大聲喊叫。王老師還加入女生的比賽，把球丟得超用力。下課後，我們都又累又渴，所以王老師請大家去體育館旁的商店喝冷飲。大家都為她歡呼。雖然是個下雨天，但每個人都玩得很開心。
+
+## 獅子媽媽的狩獵課
+Last night, I watched a TV show about Africa. In the show, a lion mother was teaching her cubs how to [[hunt|land|clear|treat]]. She has to [[feed|land|clear|fix]] four hungry babies every day, so she is always busy. First, she hid in the tall grass and waited for a zebra. Her cubs stayed behind her and watched quietly. When a zebra came near, she jumped out and ran very fast. But the zebra was faster, and she [[missed|fed|landed|treated]] it. She came back with nothing. "Hunting is not [[easy|full|clear|outside]]," said the man in the show. "Lions fail most of the time." Two hours later, she tried again. This time she caught an animal, and the whole family ate until they were [[full|clear|outside|scared]]. The cubs looked very happy.
+> 1 teach … how to hunt「教…如何打獵」。land（降落）、clear（清除）、treat（對待）都不是獅子要教小獅子的本領。
+> 2 feed + 人／動物「餵養」：每天要餵四隻小獅子。land、clear、fix（修理）接 babies 都說不通。
+> 3 miss「沒抓到、錯過」：斑馬跑太快，沒抓到。fed（餵）、landed（降落）、treated（對待）都和「空手回來」不合。
+> 4 be not easy「不容易」：打獵不簡單，獅子常常失敗。full（飽的）、clear（清楚的）、outside（外面）都不能形容打獵這件事。
+> 5 eat until they were full「吃到飽」。clear、outside、scared 都和「吃」不搭，也不符合開心的結果。
++ Africa = 非洲
++ cub = 幼獸（小獅子）
++ zebra = 斑馬
++ fail = 失敗
+= 昨天晚上，我看了一個關於非洲的電視節目。節目裡，一隻母獅正在教她的小獅子如何打獵。她每天都要餵飽四隻飢餓的寶寶，所以總是很忙。首先，她躲在高高的草叢裡等待斑馬。小獅子們待在她身後，安靜地看著。當一匹斑馬靠近時，她跳出來飛快地追。但斑馬跑得更快，她沒抓到。她空手而回。「打獵並不容易，」節目裡的男人說，「獅子大部分時候都會失敗。」兩個小時後，她又試了一次。這次她抓到了一隻動物，全家一起吃到飽。小獅子們看起來非常開心。
+
+## 鋼鐵人的緊急降落
+Iron Man was flying over New York when his suit suddenly made a strange [[sound|level|host|guess]]. A red light was blinking. "Power is low," said Jarvis, his computer. "You need to [[land|feed|hunt|treat]] in one minute." Tony looked down. The streets were [[full|sharp|proud|lucky]] of cars and people, so he could not land there. Then he saw a big empty parking lot next to an old [[factory|habit|choice|treat]]. He flew down and landed with a loud noise. A worker in a blue uniform ran [[outside|ago|else|seldom]] to see what happened. His eyes opened wide when he saw Iron Man. "Sorry for the noise," Tony said with a smile. "Do you have a place where I can charge my suit?" The worker laughed and took him inside.
+> 1 make a strange sound「發出奇怪的聲音」。level（等級）、host（主人）、guess（猜測）都不能「發出」。
+> 2 land「降落」：電力不足，一分鐘內要降落。feed（餵）、hunt（打獵）、treat（對待）都不是飛行時要做的緊急動作。
+> 3 be full of「擠滿了…」：街上滿是車和人，沒地方降落。sharp、proud、lucky 都不能接 of cars and people 形容街道。
+> 4 factory「工廠」：舊工廠旁邊的空停車場。old habit（老習慣）、old choice、old treat 都不是地點，旁邊不會有停車場。
+> 5 run outside「跑到外面」：工人跑出來看發生什麼事。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）不能放在這裡。
++ Iron Man = 鋼鐵人
++ blink = 閃爍
++ parking lot = 停車場
++ uniform = 制服
++ charge = 充電
+= 鋼鐵人正飛過紐約上空，他的戰衣突然發出奇怪的聲音。一個紅燈在閃爍。「電力不足，」他的電腦賈維斯說，「你必須在一分鐘內降落。」東尼往下看，街上擠滿了車子和人，他沒辦法在那裡降落。這時他看到一間老工廠旁邊有一個很大的空停車場。他飛下去，轟的一聲降落了。一位穿著藍色制服的工人跑出來看發生了什麼事。他一看到鋼鐵人，眼睛都睜大了。「抱歉吵到你了，」東尼笑著說，「你這裡有地方可以讓我幫戰衣充電嗎？」工人笑了出來，帶他走進工廠。
+
+## 晚餐後的分工
+In my family, everyone has a job after dinner. Dad washes the dishes, Mom [[feeds|lands|clears|hunts]] our dog, Lucky, and I [[clear|feed|hunt|land]] the table. My little sister is only five, so her job is easy. She puts all the chopsticks back in the box. But last week, she said, "This job is boring. I want a [[different|delicious|dry|wet]] job." So we let her [[choose|own|collect|celebrate]] a new one. She chose to feed Lucky. Lucky was very happy, because my sister gave him too much food. She also shared her cookies with him. After two weeks, the vet said Lucky was getting fat! Now Mom feeds Lucky again, and my sister is back to the chopsticks. "Giving a dog too many snacks is a bad [[habit|factory|land|voice]]," Mom told her.
+> 1 feed + 動物「餵…」：媽媽負責餵狗。lands、clears、hunts 接 our dog 都說不通。
+> 2 clear the table「收拾餐桌」是固定說法。feed the table、hunt the table、land the table 都不合理。
+> 3 a different job「不一樣的工作」：妹妹覺得無聊想換工作。delicious（好吃的）、dry（乾的）、wet（濕的）都不能形容工作。
+> 4 let + 人 + choose「讓某人選擇」：讓她選一個新工作。own（擁有）、collect（收集）、celebrate（慶祝）接 a new one（新工作）都說不通。
+> 5 a bad habit「壞習慣」：給狗太多零食是壞習慣。factory（工廠）、land（土地）、voice（聲音）都不能用來形容「一直給零食」這種行為。
++ chopsticks = 筷子
++ vet = 獸醫
++ snack = 零食
+= 在我家，每個人晚餐後都有工作。爸爸洗碗，媽媽餵我們的狗 Lucky，我負責收拾餐桌。我妹妹才五歲，所以她的工作很簡單：把所有筷子放回盒子裡。但上個星期她說：「這個工作好無聊，我想要做不一樣的工作。」所以我們讓她選一個新工作。她選了餵 Lucky。Lucky 非常開心，因為妹妹餵牠太多食物了，她還把自己的餅乾分給牠吃。兩個星期後，獸醫說 Lucky 變胖了！現在又換回媽媽餵 Lucky，妹妹則回去負責筷子。「給狗太多零食是個壞習慣。」媽媽告訴她。
+
+## 說好要請客的爺爺
+For Grandpa's eightieth birthday, our family went to a hot pot restaurant. It was Saturday night, and the restaurant was [[full|clear|sharp|dry]], so we waited outside for half an hour. When we finally sat down, Grandpa said, "Today, I will [[treat|clear|hunt|land]] everyone!" He did not let us look at the menu. "I know what is good here," he said, and he made all the [[choices|habits|factories|lands]]: beef, shrimp, tofu, and many vegetables. He kept putting meat in my bowl. "Eat more. You are still [[growing|landing|hunting|clearing]]!" he said. When the bill came, Grandpa put his hand in his pocket. His face turned red. He left his wallet at home! Everyone laughed. In the end, Dad paid. Grandpa said, "Next year, I will [[remember|marry|arrive|appear]] to bring my wallet."
+> 1 full「（餐廳）客滿的」：所以要在外面等半小時。clear（清楚的）、sharp（尖的）、dry（乾的）都不能說明為什麼要等位子。
+> 2 treat + 人「請某人吃飯」：今天我請客。clear、hunt、land 接 everyone 都說不通。
+> 3 make a choice「做選擇」：爺爺幫大家點了所有的菜。make habits、make factories、make lands 都不合語意。
+> 4 be growing「正在長大」：多吃一點，你還在長大。landing（降落）、hunting（打獵）、clearing（清除）都不合語意。
+> 5 remember to + 原形動詞「記得去做…」：明年會記得帶錢包。marry（結婚）不合語意；arrive、appear 不能接 to bring 表示「記得帶」。
++ hot pot = 火鍋
++ shrimp = 蝦子
++ bill = 帳單
++ wallet = 錢包
+= 爺爺八十歲生日那天，我們全家去一家火鍋店吃飯。那是星期六晚上，餐廳客滿，所以我們在外面等了半小時。終於坐下來的時候，爺爺說：「今天我請大家！」他不讓我們看菜單。「我知道這裡什麼好吃。」他說，然後所有的菜都由他來點：牛肉、蝦子、豆腐和很多青菜。他一直把肉夾到我碗裡。「多吃一點，你還在長大！」他說。帳單來的時候，爺爺把手伸進口袋，臉一下子紅了。他把錢包忘在家裡了！大家都笑了出來。最後是爸爸付的錢。爺爺說：「明年我會記得帶錢包的。」
+
+## 企鵝館的餵食時間
+At the Taipei Zoo, there is a special time every afternoon when the workers [[feed|hunt|land|clear]] the penguins. At three o'clock, the penguin house is always [[full|dry|sharp|proud]] of visitors. Yesterday, my class went there on a school trip. A worker walked in with a big bucket of fish, and the penguins [[followed|landed|cleared|treated]] her like little children. She told us that penguins cannot fly, but they are very good at swimming. In the sea, they [[hunt|land|clear|treat]] for fish and can swim faster than a person can run. One small penguin was too shy to eat with the others. It stood alone in the corner. The worker walked over and [[gave|hunted|landed|cleared]] it a fish by hand. Everyone said, "Aww!" and took pictures of it.
+> 1 feed + 動物「餵…」：每天下午有企鵝餵食時間。hunt（獵捕）、land（降落）、clear（清除）都不是動物園員工對企鵝做的事。
+> 2 be full of visitors「擠滿遊客」。dry、sharp、proud 都不能接 of visitors 形容企鵝館。
+> 3 follow「跟著」：企鵝像小孩一樣跟著她。landed、cleared、treated 後面接 her like little children 都說不通。
+> 4 hunt for「捕獵、尋找」：企鵝在海裡捕魚。land for、clear for、treat for 都不是正確搭配。
+> 5 give + 動物 + 物「給…某物」：用手給牠一條魚。hunted、landed、cleared 都不能用「人＋物」的句型。
++ Taipei Zoo = 臺北市立動物園
++ penguin = 企鵝
++ bucket = 水桶
++ shy = 害羞的
+= 在臺北市立動物園，每天下午都有一個特別的時間，工作人員會餵企鵝。到了三點，企鵝館總是擠滿了遊客。昨天，我們班校外教學去了那裡。一位工作人員提著一大桶魚走進來，企鵝們就像小孩子一樣跟著她。她告訴我們，企鵝不會飛，但很會游泳。在海裡，牠們會捕魚，游得比人跑得還快。有一隻小企鵝太害羞了，不敢和其他企鵝一起吃。牠獨自站在角落。工作人員走過去，用手餵了牠一條魚。大家都發出「哇～」的聲音，拍下牠的照片。
+
+## 舊糖廠變書店
+In my town, there was an old sugar [[factory|habit|choice|treat]]. It closed forty years ago, and nobody used it after that. The windows were broken, and the yard was [[full|clear|proud|lucky]] of tall grass. Kids said it was a ghost house. Last year, a young couple bought it. They wanted to [[change|feed|hunt|land]] it into a bookstore and café. First, they [[cleared|fed|hunted|landed]] away all the trash. Then they painted the walls white and kept some old machines as part of the design. Now the bookstore is very [[popular|hungry|afraid|sick]]. On weekends, people from Taipei come to read, drink coffee, and take photos. My grandpa used to work in the factory. When he visited it again, he cried. "I never thought this place could be so beautiful," he said.
+> 1 sugar factory「糖廠」：關閉了四十年的老工廠。habit（習慣）、choice（選擇）、treat（點心）都不會「關閉」，也沒有窗戶和院子。
+> 2 be full of「長滿…」：院子長滿了高高的草。clear of 是「沒有…」，和「像鬼屋」的描述相反；proud、lucky 不能形容院子。
+> 3 change A into B「把 A 改成 B」：把工廠改成書店兼咖啡店。feed、hunt、land 都不能接 into 表示改變。
+> 4 clear away「清除掉」：先把垃圾全部清掉。fed away、hunted away、landed away 都不是片語。
+> 5 popular「受歡迎的」：週末很多人從臺北來。hungry（餓的）、afraid（害怕的）、sick（生病的）都不能形容書店。
++ couple = 夫妻
++ café = 咖啡店
++ design = 設計
+= 我住的小鎮上有一間老糖廠。它四十年前就關了，之後再也沒有人使用。窗戶都破了，院子裡長滿了高高的草，小孩子都說那是鬼屋。去年，一對年輕夫妻把它買了下來。他們想把它改成一間書店兼咖啡店。首先，他們把所有垃圾都清掉，接著把牆壁漆成白色，並把一些老機器留下來當作設計的一部分。現在這間書店非常受歡迎。週末時，很多人從臺北來這裡看書、喝咖啡、拍照。我爺爺以前就在這間糖廠工作。當他再次來到這裡時，他哭了。「我從沒想過這裡可以變得這麼漂亮。」他說。
+
+## 咬指甲的 Amy
+My best friend Amy has a bad [[habit|factory|land|treat]]: she bites her nails. She does it when she is [[worried|delicious|expensive|modern]], especially before tests. Her nails are always very short, and sometimes her fingers hurt. Her mom tried everything. She even put bitter oil on Amy's fingers, but Amy still bit them. Then I had an idea. I gave her a soft rubber ball. "When you feel worried, [[hold|feed|land|hunt]] this ball and squeeze it," I said. It worked! Now Amy keeps the ball in her pocket all the time. Her nails are growing back, and she says her mind feels more [[clear|full|outside|hungry]] during tests. Last Friday, she got ninety on her math test. To thank me, she [[treated|fed|hunted|landed]] me to a cup of bubble tea.
+> 1 a bad habit「壞習慣」：咬指甲。factory（工廠）、land（土地）、treat（點心）都不能說是「咬指甲」。
+> 2 be worried「擔心的、緊張的」：考試前會擔心。delicious（好吃的）、expensive（貴的）、modern（現代的）都不能形容人的心情。
+> 3 hold「握住」：緊張時握住這顆球捏一捏。feed（餵）、land（降落）、hunt（獵捕）接 this ball 都說不通。
+> 4 clear「清楚的、清醒的」：考試時頭腦比較清楚。full（滿的）、outside（外面）、hungry（餓的）都不能形容腦袋的狀態。
+> 5 treat + 人 + to + 物「請某人吃／喝…」：請我喝珍奶。fed me to、hunted me to、landed me to 都不是正確用法。
++ nail = 指甲
++ bitter = 苦的
++ rubber = 橡膠
++ squeeze = 捏、擠
++ bubble tea = 珍珠奶茶
+= 我最好的朋友 Amy 有一個壞習慣：她會咬指甲。她緊張的時候就會咬，尤其是考試前。她的指甲總是很短，有時候手指還會痛。她媽媽什麼方法都試過了，甚至在 Amy 的手指上塗苦油，但 Amy 還是照咬。後來我想到一個辦法。我送她一顆軟軟的橡膠球。「你緊張的時候，就握住這顆球捏一捏。」我說。結果真的有用！現在 Amy 隨時都把球放在口袋裡。她的指甲慢慢長回來了，她說考試時頭腦也比較清楚。上週五，她數學考了九十分。為了謝謝我，她請我喝了一杯珍珠奶茶。
+
+## 降落在操場的飛碟
+One night, Ben looked out of his window and saw a bright light in the sky. It moved quickly and [[landed|fed|hunted|treated]] on the school playground across the street. Ben put on his shoes and ran [[outside|ago|else|seldom]] in his pajamas. A small green alien came out of the UFO. "Hello," it said. "My spaceship is out of power. Can you help me?" Ben was [[scared|boring|modern|simple]] at first, but the alien had big friendly eyes. It said it was hungry, so Ben went home and brought some bread to [[feed|hunt|land|clear]] it. The alien loved the bread. "On my planet, we only eat rocks," it said. Before sunrise, its spaceship had enough power again. As a [[gift|habit|factory|land]], the alien gave Ben a small stone that glowed in the dark. Then it flew away.
+> 1 land「降落」：飛碟降落在操場上。fed（餵）、hunted（打獵）、treated（對待）都不能接 on the playground 描述飛行物。
+> 2 run outside「跑到外面」：Ben 穿著睡衣跑出去。ago 要接在時間後面；else 要接在 something 等字後面；seldom（很少）不能放在這裡。
+> 3 be scared「害怕的」：一開始很害怕，但外星人看起來很友善，but 前後有轉折。boring 是「令人無聊的」，modern（現代的）、simple（簡單的）都不能形容此時的心情。
+> 4 feed「餵」：拿麵包來餵外星人。hunt（獵捕）、land（降落）、clear（清除）都和「拿麵包來」不合。
+> 5 as a gift「當作禮物」：送 Ben 一顆會發光的石頭。as a habit、as a factory、as a land 都說不通。
++ pajamas = 睡衣
++ alien = 外星人
++ UFO = 飛碟
++ glow = 發光
+= 有一天晚上，Ben 從窗戶往外看，看到天空中有一道亮光。它移動得很快，降落在對街學校的操場上。Ben 穿上鞋子，穿著睡衣就跑了出去。一個綠色的小外星人從飛碟裡走出來。「你好，」它說，「我的太空船沒電了，你可以幫我嗎？」Ben 一開始很害怕，但外星人有一雙友善的大眼睛。它說它肚子餓了，所以 Ben 回家拿了一些麵包來餵它。外星人很喜歡麵包。「在我的星球上，我們只吃石頭。」它說。天亮之前，它的太空船又有了足夠的電力。外星人送 Ben 一顆會在黑暗中發光的小石頭當作禮物，然後就飛走了。
+
+## 公園裡的尋寶遊戲
+For my brother's tenth birthday, Dad planned a treasure [[hunt|habit|factory|land]] in the park. He hid ten small notes around the park, and each note told us where to find the next one. The first note said, "Go to the place where people [[feed|hunt|clear|land]] the ducks." We ran to the pond and found the second note [[beside|ago|either|else]] a big rock. The next notes took us to the slide, the old bridge, and a flower garden. My brother read every note out loud and ran ahead of me. The last note said, "The treasure is in the tallest tree." In the tree, we found a box [[full|clear|proud|lucky]] of toy cars and chocolate. My brother shouted with joy. We were tired but happy. Dad smiled and said, "Next year, it's your [[turn|habit|factory|land]] to plan the game for me."
+> 1 treasure hunt「尋寶遊戲」，hunt 當名詞是「搜尋」。treasure habit、treasure factory、treasure land 都不是遊戲名稱。
+> 2 feed the ducks「餵鴨子」：公園池塘邊大家餵鴨子的地方。在公園裡不會 hunt（獵殺）鴨子；clear、land 接 the ducks 也說不通。
+> 3 beside「在…旁邊」：在大石頭旁找到第二張紙條。ago 要接在時間後面；either 用在否定句句尾；else 要接在 something 等字後面，都不能當介系詞。
+> 4 a box full of …「裝滿…的盒子」。clear of 是「沒有…」，和找到寶物不合；proud、lucky 不能形容盒子裝了東西。
+> 5 It's one's turn to …「輪到某人做…」：明年輪到你們規劃。habit、factory、land 都不能用在這個句型。
++ treasure = 寶藏
++ pond = 池塘
++ slide = 溜滑梯
+= 我弟弟十歲生日時，爸爸在公園裡安排了一場尋寶遊戲。他在公園各處藏了十張小紙條，每張紙條都會告訴我們下一張在哪裡。第一張紙條寫著：「去大家餵鴨子的地方。」我們跑到池塘邊，在一塊大石頭旁邊找到了第二張紙條。接下來的紙條帶我們到溜滑梯、舊木橋和一座花園。弟弟把每張紙條都大聲念出來，跑在我前面。最後一張紙條寫著：「寶藏在最高的那棵樹上。」我們在樹上找到一個裝滿玩具車和巧克力的盒子。弟弟開心地大叫。我們雖然很累，但很開心。爸爸笑著說：「明年換你們來幫我規劃遊戲囉。」
+
+## 選擇困難的弟弟
+Last Sunday, Mom [[treated|fed|hunted|landed]] my little brother Leo and me to ice cream. But Leo can never make a [[choice|habit|land|factory]] quickly. At the shop, there were twenty flavors, and he stood in front of the window for fifteen minutes. Chocolate or strawberry? Mango or milk tea? The line behind us became longer and longer. The woman at the counter let him taste three flavors for free, but he still could not [[decide|own|collect|celebrate]] which one to buy. People behind us started to look angry. Finally, I said, "Let's buy chocolate and mango and [[share|feed|hunt|land]] them." Leo smiled and agreed at once. The ice cream was delicious. Now, every time we go to that shop, we buy two flavors. Sharing has become our happy little [[habit|factory|land|health]].
+> 1 treat + 人 + to + 物「請某人吃…」：媽媽請我們吃冰淇淋。fed us to、hunted us to、landed us to 都不是正確用法。
+> 2 make a choice「做選擇」：Leo 永遠沒辦法很快做決定。make a habit 要加 of 才是「養成…習慣」；make a land、make a factory 都說不通。
+> 3 decide which…「決定要哪一個」。own（擁有）、collect（收集）、celebrate（慶祝）都不能接 which one to buy。
+> 4 share「分享」：買兩種口味一起吃。feed（餵）、hunt（打獵）、land（降落）接 them（冰淇淋）都說不通。
+> 5 habit「習慣」：一起分享成了我們的小習慣。factory（工廠）、land（土地）、health（健康）都不能形容「每次都買兩種」這件事。
++ flavor = 口味
++ strawberry = 草莓
++ counter = 櫃檯
+= 上星期天，媽媽請我和弟弟 Leo 吃冰淇淋。但 Leo 永遠沒辦法很快做出選擇。店裡有二十種口味，他在玻璃櫃前站了十五分鐘。巧克力還是草莓？芒果還是奶茶？我們後面排隊的人越來越多。櫃檯的阿姨讓他免費試吃三種口味，但他還是決定不了要買哪一種。我們後面的人開始露出不耐煩的表情。最後，我說：「我們買巧克力和芒果，一起分著吃吧。」Leo 笑了，馬上就答應。冰淇淋很好吃。現在，每次我們去那家店，都會買兩種口味。一起分享成了我們快樂的小習慣。
