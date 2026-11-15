@@ -122,3 +122,132 @@ Do you know the puffer fish? When it is in danger, it fills its body with water 
 + poison = 毒
 + license = 執照
 = 你知道河豚嗎？遇到危險時，牠會讓身體裝滿水，變成一顆圓圓的大球，這樣別的魚就很難攻擊牠。很多河豚的皮膚上還有尖尖的刺，所以大魚都不想吃牠們。河豚住在溫暖的海裡，在台灣附近的很多地區也找得到。在日本，人們會吃河豚，但這很危險，因為河豚有些部位有毒，只有拿到特別執照的廚師才能料理。如果你在家自己煮，可能會惹上大麻煩。所以，河豚可以吃嗎？當然可以——但只能在特別的餐廳吃喔！
+
+## 想當漫畫家的表哥
+My cousin Ken wants to be a comic artist. He [[draws|blows|crosses|attacks]] every day — on paper, on his tablet, and sometimes even on his hands. Last year, he took an online drawing [[course|case|trick|traffic]] from a Japanese artist. It wasn't easy. "You need to [[practice|marry|bite|borrow]] drawing hands a thousand times," the teacher told him. "Hands are the most [[difficult|wet|proud|fresh]] part to draw." So for three months, Ken drew only hands: hands holding cups, hands playing games, and hands eating noodles. His mom was worried. "Will you ever draw anything else?" she asked. But his hard work paid off. This summer, his comic won second prize in a national contest. "Can I read it?" I asked. "Of [[course|case|area|trick]]," he said. The story was about a boy who could talk to cats, and every hand in it looked perfect.
+> 1 draw「畫畫」：他每天都在畫。blows、crosses、attacks 接「在紙上、在平板上」都不通。
+> 2 a drawing course「繪畫課程」：跟日本畫家上的線上課。case、trick、traffic 都不能「上」。
+> 3 practice + V-ing「練習做…」：練習畫手一千次。marry、bite、borrow 都不能接 drawing hands。
+> 4 the most difficult「最難的」：手是最難畫的部分。wet、fresh 不用 most 變最高級；proud 也不能形容身體部位難不難畫。
+> 5 Of course.「當然。」是固定用法。case、area、trick 都不能接在 Of 後面表示「當然」。
++ comic artist = 漫畫家
++ tablet = 平板電腦
++ pay off = 有了回報
++ contest = 比賽
+= 我表哥 Ken 想當漫畫家。他每天都在畫——畫在紙上、畫在平板上，有時候甚至畫在手上。去年，他上了一位日本畫家的線上繪畫課，一點也不輕鬆。「你需要練習畫手一千次，」老師告訴他，「手是最難畫的部分。」所以有三個月，Ken 只畫手：拿杯子的手、打電動的手、吃麵的手。他媽媽很擔心：「你還會畫別的東西嗎？」但他的努力有了回報。今年夏天，他的漫畫在全國比賽得了第二名。「我可以看嗎？」我問。「當然。」他說。故事在講一個會跟貓說話的男孩，裡面每一隻手都畫得完美極了。
+
+## 外星人入侵
+My brother and I love a computer game called Space Guard. In the game, aliens [[attack|cross|draw|blow]] the Earth, and we have to protect our city. Each player takes care of one [[area|course|case|homework]] of the city. My brother guards the north, and I guard the south. Last night, we played until eleven. The aliens came from both sides at the same time. "Help! I can't stop them!" my brother shouted. "I can't stop them [[either|ago|else|below]]!" I shouted back. Just then, Mom walked in and turned off the computer. "Can we just finish this game, please?" I asked. "Of [[course|case|area|trick]] not," she said. "It's time for bed." We were so [[angry|wet|sharp|fresh]] that we couldn't sleep. The next morning, we found a note on the table: "The Earth is safe. Now do your homework. Love, Mom."
+> 1 attack the Earth「攻擊地球」：外星人入侵，我們要保衛城市。cross、draw、blow 都不能說明外星人對地球做的事。
+> 2 one area of the city「城市的一個區域」：哥哥守北邊，我守南邊。course、case、homework 都不能表示「地區」。
+> 3 否定句的「也」用 either：我也擋不住牠們。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 4 Of course not.「當然不行。」：媽媽拒絕讓我們玩完。case、area、trick 都不能接在 Of 後面表示「當然」。
+> 5 so angry that…「氣到…」：氣到睡不著。wet、sharp、fresh 都不能說明睡不著的原因。
++ alien = 外星人
++ protect = 保護
++ guard = 守衛
+= 我和哥哥很愛一款叫「太空守衛」的電腦遊戲。遊戲裡，外星人攻擊地球，我們要保護自己的城市。每個玩家負責城市的一個區域：哥哥守北邊，我守南邊。昨晚我們玩到十一點，外星人同時從兩邊攻過來。「救命！我擋不住牠們了！」哥哥大叫。「我也擋不住啦！」我喊回去。就在這時，媽媽走進來把電腦關掉了。「可以讓我們玩完這一場嗎？拜託？」我問。「當然不行，」她說，「該睡覺了。」我們氣到睡不著。隔天早上，我們在桌上發現一張紙條：「地球很安全。現在去寫功課。愛你們的媽媽。」
+
+## 牧羊犬的口哨
+Last summer, my family traveled to New Zealand and visited a sheep farm. The farmer, Mr. Brown, has a smart sheepdog named Max. "Watch this," Mr. Brown said. He [[blew|crossed|drew|practiced]] his whistle once, and Max ran to the left. He blew it twice, and Max ran to the right. In five minutes, Max moved three hundred sheep across the field. The sheep had to [[cross|blow|draw|attack]] a small bridge, and then they went into a small [[area|case|course|trick]] with a fence. "How did you teach him?" I asked. "We [[practiced|married|bit|borrowed]] every day for two years," Mr. Brown said. Then he gave me the whistle. I blew it as hard as I could. Max looked at me, lay down, and went to sleep. Mr. Brown laughed. "He only listens to me. But that's [[fine|wet|sharp|proud]]. I can see he likes you."
+> 1 blow a whistle「吹哨子」。crossed、drew、practiced 都不能接 his whistle once 表示吹一下。
+> 2 cross a bridge「過橋」：羊要走過一座小橋。blow、draw、attack 都不能表示羊走到對面。
+> 3 a small area with a fence「有圍欄的小區域」：羊被趕進圍欄裡。case、course、trick 都不能讓羊「走進去」。
+> 4 practice「練習」：我們每天練，練了兩年。married、bit、borrowed 後面少了受詞，意思也不通。
+> 5 That's fine.「沒關係。」：牠只聽我的，但沒關係，牠喜歡你。wet、sharp、proud 都不能用來安慰人。
++ New Zealand = 紐西蘭
++ sheepdog = 牧羊犬
++ whistle = 哨子
++ fence = 圍欄
+= 去年暑假，我們全家去紐西蘭玩，參觀了一座牧羊場。農場主人布朗先生有一隻叫 Max 的聰明牧羊犬。「看好喔。」布朗先生說。他吹一聲哨子，Max 就往左跑；吹兩聲，Max 就往右跑。五分鐘內，Max 把三百隻羊趕過草地。羊群先走過一座小橋，再走進一塊有圍欄的小區域。「你是怎麼教牠的？」我問。「我們每天練習，練了兩年。」布朗先生說。接著他把哨子給我。我用盡力氣一吹，Max 看看我，趴下來就睡著了。布朗先生笑了：「牠只聽我的話。不過沒關係，我看得出牠喜歡你。」
+
+## 吹泡泡大賽
+Every year, our town has a bubble contest in the park. This year, my little sister and I joined it. The rule was simple: whoever [[blows|crosses|draws|attacks]] the biggest bubble wins. For a week, we [[practiced|married|bit|borrowed]] in the bathroom every night. We tried soap, shampoo, and even honey. Mom wasn't happy. "The bathroom smells like a candy shop!" she said. On contest day, the weather was [[fine|afraid|sharp|proud]], and the park was full of people. My sister went first. Her bubble was as big as a basketball, but then the wind came, and it broke. Mine didn't last long [[either|ago|else|below]]. Then an old man stepped up. With two sticks and a long string, he made a bubble as long as a bus! Everyone cheered. "It's an old [[trick|traffic|homework|seat]]," he said with a smile. We didn't win, but he taught us how to do it. "Next year, the prize is ours!" my sister said.
+> 1 blow a bubble「吹泡泡」。crosses、draws、attacks 都不能接 the biggest bubble 表示吹出泡泡。
+> 2 practice「練習」：比賽前每晚在浴室練習。married、bit、borrowed 後面少了受詞，意思也不通。
+> 3 fine weather「天氣很好」。afraid、sharp、proud 都不能形容天氣。
+> 4 否定句的「也」用 either：我的泡泡也撐不久。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 an old trick「老把戲、老方法」：用兩根棍子和繩子吹出大泡泡。traffic 不通；homework 是不可數名詞，不能加 an；seat 也不能說明吹泡泡的方法。
++ bubble = 泡泡
++ contest = 比賽
++ soap = 肥皂
++ string = 繩子
+= 我們鎮上每年都會在公園舉辦吹泡泡比賽，今年我和妹妹也報名了。規則很簡單：誰吹出最大的泡泡誰就贏。比賽前一週，我們每天晚上都在浴室練習，試過肥皂、洗髮精，甚至蜂蜜。媽媽很不高興：「浴室聞起來像糖果店！」比賽那天天氣很好，公園擠滿了人。妹妹先上場，她的泡泡像籃球一樣大，可是一陣風吹來就破了。我的泡泡也沒撐多久。接著一位老爺爺走上前，用兩根棍子和一條長繩子，吹出一個跟公車一樣長的泡泡！大家都歡呼起來。「這是個老方法啦。」他笑著說。我們沒有得獎，但他教會了我們怎麼吹。「明年的大獎是我們的！」妹妹說。
+
+## 壞掉的吹風機
+Every morning, my sister spends thirty minutes on her hair. She uses a hair dryer to [[blow|cross|draw|attack]] it dry, and then she makes it straight. Last Monday, the hair dryer suddenly stopped working. "Oh no! We're taking class photos today!" she shouted. Dad looked at it. "Sorry, it's too old. I can't [[fix|cross|attack|blow]] it." Then I had an idea. I opened the window and told her to put her head out. It was a windy day, and in ten minutes, her hair was dry. But it looked like a bird's nest! "How do I look?" she asked. "It's... [[fine|sharp|expensive|proud]]," I said. "You look like a rock star." In the class photo, she was the only one with wild hair. Her teacher couldn't stop laughing, and the photographer couldn't [[either|ago|else|below]]. Now she keeps an extra hair dryer in her room, just in [[case|course|area|trick]].
+> 1 blow it dry「把頭髮吹乾」。cross、draw、attack 都不能接 it dry 表示用吹風機吹乾。
+> 2 fix it「修理它」：吹風機太舊了，修不好。cross、attack、blow 都不能表示修理。
+> 3 It's fine.「還可以、沒問題。」：我勉強說還不錯。sharp、expensive、proud 都不能用來回答「我看起來怎樣」。
+> 4 否定句的「也」用 either：老師忍不住笑，攝影師也忍不住。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 just in case「以防萬一」：多放一台吹風機在房間。course、area、trick 都不能和 just in 組成這個片語。
++ hair dryer = 吹風機
++ nest = 鳥巢
++ photographer = 攝影師
++ extra = 額外的
+= 我姊姊每天早上要花三十分鐘整理頭髮。她用吹風機把頭髮吹乾，再把它弄直。上星期一，吹風機突然壞了。「慘了！我們今天要拍班級照！」她大叫。爸爸看了看說：「抱歉，它太舊了，我修不好。」接著我想到一個辦法：我打開窗戶，叫她把頭伸出去。那天風很大，十分鐘她的頭髮就乾了——可是看起來像個鳥巢！「我看起來怎麼樣？」她問。「還……不錯啦，」我說，「你看起來像搖滾明星。」班級照裡，只有她一個人頂著一頭亂髮。老師笑個不停，攝影師也笑個不停。現在她在房間裡多放了一台吹風機，以防萬一。
+
+## 大隊接力的最後一棒
+Our class was in the relay race on Sports Day, and I was the last runner. For a month, we [[practiced|married|bit|borrowed]] after school every day. We learned how to pass the baton quickly without dropping it. On the day of the race, our class was in third place when the baton came to me. I ran as fast as I could. I passed one runner, and then another. Ten meters before the finish line, I fell down. But I got up quickly and [[crossed|blew|drew|attacked]] the finish line first! Everyone cheered. My knee was bleeding, but I said, "I'm [[fine|wet|sharp|expensive]]." Our teacher doesn't cry often, and our coach doesn't [[either|ago|else|below]], but they both cried that day. "Of [[course|case|area|trick]] you won," our teacher said. "You worked harder than anyone."
+> 1 practice「練習」：比賽前一個月每天放學練習。married、bit、borrowed 後面少了受詞，意思也不通。
+> 2 cross the finish line「衝過終點線」。blew、drew、attacked 都不能接 the finish line 表示跑到終點。
+> 3 I'm fine.「我沒事。」：膝蓋流血了還說沒事。wet、sharp、expensive 都不能用來說自己的狀況。
+> 4 否定句的「也」用 either：老師不常哭，教練也不常哭。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 Of course + 句子「當然…」：你們當然會贏。case、area、trick 都不能接在 Of 後面表示「當然」。
++ relay race = 接力賽
++ baton = 接力棒
++ finish line = 終點線
++ bleed = 流血
+= 運動會那天，我們班參加大隊接力，我跑最後一棒。比賽前一個月，我們每天放學都練習，學會怎麼快速交棒又不會掉棒。比賽當天，接力棒交到我手上時，我們班是第三名。我用盡全力往前衝，超過了一個人，又超過一個。離終點還有十公尺時，我跌倒了。但我馬上爬起來，第一個衝過終點線！大家都在歡呼。我的膝蓋在流血，但我說：「我沒事。」我們老師不常哭，教練也不常哭，但那天他們兩個都哭了。「你們當然會贏，」老師說，「你們比誰都努力。」
+
+## 關渡的水鳥
+Guandu Nature Park in Taipei is a protected [[area|case|course|trick]] for birds. Last Saturday, our science club went there. Our guide gave each of us a pair of binoculars. "Please be quiet," she said. "If the birds hear you, they'll fly away." We walked along a small path and [[crossed|blew|attacked|practiced]] a wooden bridge. Then we saw a big gray bird standing in the water. "That's a heron," the guide whispered. "Watch carefully." Suddenly, the heron [[attacked|crossed|drew|practiced]] a fish with its long beak and swallowed it. "Wow!" we all shouted, and every bird on the river flew away. The guide sighed. "Well, that's [[fine|wet|sharp|proud]]," she said. "But next time, please shout after the birds leave." Before we went home, we sat on the grass and tried to [[draw|cross|blow|attack]] the heron in our notebooks.
+> 1 a protected area「保護區」。case、course、trick 都不能表示保護鳥類的「地方」。
+> 2 cross a bridge「過橋」。blew、attacked、practiced 都不能接 a wooden bridge 表示走過去。
+> 3 attack a fish「攻擊（啄）一條魚」：蒼鷺用長嘴抓魚吞下去。crossed、drew、practiced 都不是鳥抓魚的動作。
+> 4 that's fine「沒關係」：鳥被嚇跑了，導覽員說算了沒關係。wet、sharp、proud 都不能用來回應這件事。
+> 5 draw … in our notebooks「在筆記本上畫…」。cross、blow、attack 都不能接 in our notebooks 表示畫圖。
++ nature park = 自然公園
++ binoculars = 望遠鏡
++ heron = 蒼鷺
++ beak = 鳥嘴
++ swallow = 吞下
+= 台北的關渡自然公園是鳥類保護區。上星期六，我們自然社去那裡。導覽員發給每個人一副望遠鏡。「請保持安靜，」她說，「鳥如果聽到聲音就會飛走。」我們沿著小路走，過了一座木橋，接著看到一隻灰色的大鳥站在水裡。「那是蒼鷺，」導覽員小聲說，「仔細看。」突然，蒼鷺用長長的嘴攻擊一條魚，一口吞了下去。「哇！」我們全都大叫，結果河上的鳥全都飛走了。導覽員嘆了口氣：「好吧，沒關係。不過下次請等鳥飛走了再叫。」回家前，我們坐在草地上，試著把那隻蒼鷺畫在筆記本裡。
+
+## 綠島浮潛
+Last summer, my family went snorkeling on Green Island. Before we got into the sea, our coach told us the rules. "Stay in this [[area|case|course|trick]]. Don't swim too far," he said. "And keep your life jacket on in [[case|course|area|trick]] you get tired." "Will we see sharks?" my brother asked. "Maybe, but don't worry. The sharks here are small, and they don't [[attack|cross|draw|blow]] people." Under the water, everything was beautiful. There were blue fish, yellow fish, and even a sea turtle! My brother tried to say hello to it, but seawater went into his mouth. He came up coughing. "Are you OK?" Mom asked. "I'm [[fine|expensive|sharp|proud]]," he said. The turtle didn't answer him, and it didn't look at him [[either|ago|else|below]]. It just swam away slowly.
+> 1 stay in this area「待在這一區」：不要游太遠。case、course、trick 都不能表示可以游泳的「範圍」。
+> 2 in case + 句子「以防…」：穿著救生衣以防游累了。course、area、trick 都不能和 in 組成「以防」的意思。
+> 3 attack people「攻擊人」：這裡的鯊魚很小，不會攻擊人。cross、draw、blow 都不能說明鯊魚危不危險。
+> 4 I'm fine.「我沒事。」：回答媽媽「你還好嗎？」。expensive、sharp、proud 都不能用來說自己的狀況。
+> 5 否定句的「也」用 either：烏龜沒回答他，也沒看他。ago 要放在一段時間後面；else、below 放在句尾都不通。
++ snorkeling = 浮潛
++ Green Island = 綠島
++ life jacket = 救生衣
++ sea turtle = 海龜
++ cough = 咳嗽
+= 去年暑假，我們全家去綠島浮潛。下水前，教練跟我們說明規則：「待在這一區，不要游太遠，」他說，「還有，救生衣要一直穿著，以防你們游累了。」「會看到鯊魚嗎？」弟弟問。「也許會，但別擔心，這裡的鯊魚很小，不會攻擊人。」水裡的一切都好美，有藍色的魚、黃色的魚，還有一隻海龜！弟弟想跟牠打招呼，結果海水灌進嘴巴，他咳著浮上水面。「你還好嗎？」媽媽問。「我沒事。」他說。海龜沒有回答他，也沒有看他一眼，只是慢慢游走了。
+
+## 公車站的龍貓
+My little sister loves the movie My Neighbor Totoro. One rainy evening, we waited for Dad at the bus stop near our home. His bus was late. Suddenly, a strong wind [[blew|crossed|drew|practiced]] through the trees. "Is Totoro coming?" my sister asked. I smiled. "[[Perhaps|Ago|Below|Else]]. Let's wait and see." We waited and waited, but Totoro didn't come. The Cat Bus didn't come [[either|ago|else|below]]. My sister started to feel cold, so I gave her my jacket. "Are you OK?" I asked. "I'm [[fine|sharp|expensive|proud]]," she said, but her teeth were shaking. Finally, a big shadow appeared under the streetlight. It was Dad with a huge black umbrella! "Totoro is here!" my sister shouted. When we got home, she [[drew|blew|crossed|attacked]] a picture of Dad as Totoro and put it on the fridge.
+> 1 the wind blew「風吹過」：一陣強風吹過樹林。crossed 意思不通（風不會「越過」樹）；drew、practiced 都不能用來說風。
+> 2 Perhaps.「也許吧。」：龍貓會不會來，我也不知道。ago、below、else 都不能單獨回答問題。
+> 3 否定句的「也」用 either：龍貓沒來，貓公車也沒來。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 4 I'm fine.「我沒事。」：雖然冷到牙齒在打顫。sharp、expensive、proud 都不能用來說自己的狀況。
+> 5 draw a picture「畫一張圖」。blew、crossed、attacked 都不能接 a picture 表示畫畫。
++ Totoro = 龍貓
++ shadow = 影子
++ streetlight = 路燈
+= 我妹妹超愛《龍貓》這部電影。一個下雨的傍晚，我們在家附近的公車站等爸爸，他搭的公車遲到了。突然，一陣強風吹過樹林。「龍貓要來了嗎？」妹妹問。我笑著說：「也許吧，我們等等看。」我們等了又等，龍貓沒有來，貓公車也沒有來。妹妹開始覺得冷，我就把外套給她。「你還好嗎？」我問。「我沒事。」她說，但牙齒一直在打顫。終於，路燈下出現一個大大的影子——是撐著一把超大黑傘的爸爸！「龍貓來了！」妹妹大叫。回到家後，她畫了一張「爸爸變成龍貓」的圖，貼在冰箱上。
+
+## 五十歲的線上英文課
+My aunt is fifty, and she wants to travel to London next year. So she signed up for an online English [[course|case|trick|traffic]]. Every night at eight, she sits in front of her computer and talks to a teacher in England. At first, she was very nervous. "I can't speak English, and I can't understand it [[either|ago|else|below]]," she told me. "Don't worry," I said. "Just [[practice|marry|bite|borrow]] a little every day." Now she listens to English songs in the car and reads English menus at restaurants. Last week, she even [[drew|crossed|blew|attacked]] a map of London on a big piece of paper and wrote the English name of every place on it. Yesterday, she asked me, "How's my English now?" "It's [[fine|sharp|expensive|proud]]," I said. "You're ready for London!"
+> 1 an online English course「線上英文課程」。case、trick、traffic 都不能「報名」。
+> 2 否定句的「也」用 either：不會說，也聽不懂。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 3 practice「練習」：每天練一點點。marry、bite、borrow 接 a little every day 意思都不通。
+> 4 draw a map「畫地圖」。crossed、blew、attacked 都不能接 a map … on a big piece of paper。
+> 5 It's fine.「很不錯、沒問題。」：回答「我的英文怎麼樣」。sharp、expensive、proud 都不能用來評價英文程度。
++ London = 倫敦
++ nervous = 緊張的
++ menu = 菜單
+= 我阿姨五十歲了，她想明年去倫敦旅行。所以她報名了線上英文課，每天晚上八點坐在電腦前，跟英國的老師對話。一開始她很緊張：「我不會說英文，也聽不懂。」她跟我說。「別擔心，」我說，「每天練習一點點就好。」現在她開車時聽英文歌，在餐廳看英文菜單。上星期，她甚至在一大張紙上畫了倫敦地圖，把每個地方的英文名字都寫上去。昨天她問我：「我現在的英文怎麼樣？」「很不錯，」我說，「你已經準備好去倫敦了！」
