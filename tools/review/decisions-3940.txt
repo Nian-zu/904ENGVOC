@@ -45,3 +45,6 @@ dd19a0919b|main,light,mad
 6867d59279|fight
 e699030f5f||What ____ do you want in the future? I want to be a doctor.
 2946653ae7|cheat,own
+59aa7b815d|heavy,average,different,sore
+709f5eb2db|snowy,sunny,amazing,familiar,weak
+c1a47d9c76|diet
