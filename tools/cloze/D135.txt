@@ -130,3 +130,135 @@ My mom is a nurse in the emergency room of a big hospital in Taichung. Her job i
 + fever = 發燒
 + pain = 疼痛
 = 我媽媽是台中一家大醫院急診室的護理師。她的工作不輕鬆，每天要照顧很多病人：有的人腿斷了，有的人發高燒，有的人是出車禍才進來的。媽媽必須非常小心，如果給錯藥，可能會很危險。她也必須很有耐心，因為生病的人常常很害怕，會一再問同樣的問題。有時候，人們因為等了好幾個小時，甚至會對她很沒禮貌。她告訴我，有一次一個男人對她大吼，還罵她笨。「你那時覺得怎樣？」我問。「我很難過，」她說，「但我能理解，他那時非常痛。」媽媽工作時間很長，常常回到家就累壞了。但她總是說她喜歡她的工作。「當病人平安回家時，我就覺得一切都值得了。」
+
+## 音樂劇試鏡
+Our school is doing a musical this year, and I really wanted to get the main part. On the day of the audition, I waited outside the music room with twenty other students. Some of them looked very [[confident|crowded|national|delicious]]. They were singing loudly and joking with each other. I felt small. When my name was called, my hands were cold. Inside, the music teacher smiled at me. "Take your time," she said. She was very [[patient|wooden|illegal|cheap]] and let me start again when I forgot the first line. The second time, I closed my eyes and [[imagined|married|borrowed|spelled]] I was singing in my bedroom. My voice became stronger. After the audition, a tall girl in my class laughed and said, "You'll never get the part." She was so [[rude|sour|plastic|thick]] that I almost cried. But a week later, the list was on the wall. I got the main part! I learned that you don't have to be loud to be good. You just need to [[practice|marry|invite|boil]] and believe in yourself.
+> 1 大聲唱歌、互開玩笑，看起來很「有自信」confident。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人。
+> 2 我忘詞時讓我重來，老師很「有耐心」patient。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容老師。
+> 3 imagined (that) I was singing...「想像自己在房間唱歌」，後面接子句。married、borrowed、spelled 都不能接子句。
+> 4 說我永遠拿不到角色，「沒禮貌」到我差點哭 so rude that...。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容人的態度。
+> 5 You need to practice「你需要練習」。marry（結婚）、invite（邀請）、boil（煮沸）都不能說明怎麼變得更好。
++ musical = 音樂劇
++ main part = 主角
++ audition = 試鏡
+= 我們學校今年要演一齣音樂劇，我非常想演主角。試鏡那天，我和其他二十個學生在音樂教室外面等。有些人看起來非常有自信，大聲唱歌、互相開玩笑。我覺得自己好渺小。叫到我的名字時，我的手冰冰的。進去以後，音樂老師對我微笑。「慢慢來。」她說。她非常有耐心，我忘了第一句歌詞時，她讓我重新開始。第二次，我閉上眼睛，想像自己在房間裡唱歌，聲音就變得比較有力了。試鏡結束後，班上一個高個子女生笑著說：「你永遠拿不到那個角色的。」她沒禮貌到我差點哭出來。但一個星期後，名單貼在牆上：我拿到主角了！我學到，不一定要很大聲才會表現得好，你只需要練習，並且相信自己。
+
+## 好奇的外星人
+One night, a small spaceship landed in a rice field in Yilan. A little green alien named Zip climbed out. Zip was very [[curious|crowded|national|delicious]] about Earth. He wanted to see everything. First, he walked into a convenience store. He touched the bottles, smelled the tea eggs, and [[tried|married|spelled|invited]] to talk to the coffee machine. The clerk was surprised, but she wasn't [[rude|wooden|illegal|cheap]] to him. She smiled and gave him a free rice ball. Next, Zip went to a night market. There were so many people! A man stepped on his foot and didn't say sorry. Zip didn't understand. On his planet, everyone was polite. Then a little boy showed Zip how to play a game. He was [[patient|sour|plastic|thick]] and explained the rules three times. Zip won a toy fish! Before sunrise, Zip went back to his spaceship. He was [[confident|rainy|crowded|national]] that Earth was a strange but wonderful place, and he promised to come back next year.
+> 1 be curious about Earth「對地球很好奇」，什麼都想看。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能接 about Earth。
+> 2 tried to talk to...「試著和咖啡機說話」。married、spelled、invited 都不能接 to talk。
+> 3 店員雖然驚訝但沒有對他「沒禮貌」wasn't rude to him，還送他飯糰。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能接 to him 形容態度。
+> 4 解釋規則三次，小男孩很「有耐心」patient。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容小孩。
+> 5 be confident that...「確信……」。rainy（下雨的）、crowded、national 都不能接 that 子句。
++ spaceship = 太空船
++ Yilan = 宜蘭
++ alien = 外星人
++ clerk = 店員
++ planet = 星球
+= 一天晚上，一艘小太空船降落在宜蘭的一片稻田裡。一個叫 Zip 的綠色小外星人爬了出來。Zip 對地球非常好奇，什麼都想看。他先走進一家便利商店，摸摸瓶子、聞聞茶葉蛋，還試著和咖啡機說話。店員嚇了一跳，但她沒有對他沒禮貌，反而笑著送他一個免費的飯糰。接著，Zip 去了夜市，那裡好多人！有個男人踩到他的腳，卻沒有說對不起。Zip 不明白，因為在他的星球上，大家都很有禮貌。後來，一個小男孩教 Zip 玩一個遊戲。他很有耐心，把規則解釋了三次，結果 Zip 贏到一隻玩具魚！天亮之前，Zip 回到太空船。他確信地球是個奇怪但美好的地方，並答應明年還會再來。
+
+## 送錯的包裹
+Last Monday, a delivery man brought a big box to our door. My mom was surprised because she didn't order anything. When we opened it, we found a pink dress for a little girl, three bottles of shampoo, and a book about cats. "Someone was [[careless|crowded|national|delicious]]," my mom said. "This isn't ours." She [[checked|married|spelled|invited]] the label on the box. The address was right, but the name was wrong. It was for a family on the third floor, not the fifth. My little brother was very [[curious|wooden|illegal|cheap]] about the cat book and wanted to keep it. "No," Mom said. "We have to return everything." So we took the box downstairs. A young mother opened the door. She was so happy because the dress was a birthday gift for her daughter. She thanked us again and again. She wasn't [[rude|sour|plastic|thick]] at all—she even gave us a box of cookies. My brother was happy too. On the way upstairs, he said, "Being [[honest|rainy|crowded|wooden]] is better than a cat book. Cookies are better."
+> 1 不是我們的東西卻送來，有人很「粗心」careless。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容送錯東西的人。
+> 2 checked the label「檢查箱子上的標籤」。married、spelled、invited 都不能和 label 搭配表示查看。
+> 3 be curious about the cat book「對貓的書很好奇」，想留下來。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容弟弟。
+> 4 她一點也不「沒禮貌」，還送我們餅乾 wasn't rude at all。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容人的態度。
+> 5 Being honest「誠實」，把東西還回去。rainy（下雨的）、crowded、wooden 都不能形容歸還包裹的行為。
++ delivery man = 送貨員
++ shampoo = 洗髮精
++ label = 標籤
++ address = 地址
+= 上星期一，送貨員送來一個大箱子到我們家門口。媽媽很驚訝，因為她什麼都沒買。我們打開一看，裡面有一件小女孩穿的粉紅色洋裝、三瓶洗髮精，還有一本關於貓的書。「有人太粗心了，」媽媽說，「這不是我們的。」她檢查箱子上的標籤，地址沒錯，但名字錯了——那是要給三樓的人家，不是五樓。我弟弟對那本貓的書很好奇，想留下來。「不行，」媽媽說，「我們必須把東西全部還回去。」於是我們把箱子搬下樓。一位年輕媽媽開了門，她好開心，因為那件洋裝是要給女兒的生日禮物。她一再向我們道謝，一點也沒有不禮貌，還送我們一盒餅乾。弟弟也很開心。上樓時他說：「誠實比一本貓的書好。餅乾更好。」
+
+## 網路上的留言
+My cousin Amy loves to sing. Last month, she [[shared|married|spelled|borrowed]] a video of herself singing on the Internet. Many people left nice comments, but some people were very [[rude|crowded|national|delicious]]. One person wrote, "Stop singing. You sound like a sick cat." Amy cried for a whole night. She didn't want to sing anymore. Her older brother sat with her and talked to her. He was [[patient|wooden|illegal|cheap]] and listened to her for two hours. "People who write mean things online are usually not happy themselves," he said. "Don't let them [[decide|marry|invite|boil]] who you are." He also told her not to be [[careless|sour|plastic|thick]] with her personal information online. "Never tell strangers your school or your address," he said. A week later, Amy started singing again. She doesn't read the bad comments anymore. She's much more confident now, and her new video has 5,000 views. I'm really proud of her.
+> 1 shared a video「分享一支影片」。married、spelled、borrowed 都不能接 a video on the Internet。
+> 2 留言說她像生病的貓，有些人很「沒禮貌」rude。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容留言的人。
+> 3 陪她聽了兩小時，哥哥很「有耐心」patient。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容哥哥。
+> 4 Don't let them decide who you are.「別讓他們決定你是怎樣的人」。marry（結婚）、invite（邀請）、boil（煮沸）都不能接 who you are。
+> 5 be careless with personal information「對個人資料不小心」。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能接 with... information。
++ comment = 留言
++ mean = 刻薄的
++ online = 在網路上
++ personal information = 個人資料
++ view = 觀看次數
+= 我表姊 Amy 很喜歡唱歌。上個月，她在網路上傳了一支自己唱歌的影片。很多人留了好話，但有些人非常沒禮貌。有個人寫：「別唱了，你聽起來像一隻生病的貓。」Amy 哭了一整晚，不想再唱歌了。她哥哥坐在她旁邊陪她聊，很有耐心地聽她說了兩個小時。「在網路上寫刻薄話的人，通常自己也不快樂，」他說，「別讓他們決定你是怎樣的人。」他也告訴她，在網路上不要對個人資料太粗心。「絕對不要告訴陌生人你的學校或地址。」一個星期後，Amy 又開始唱歌了。她不再看那些壞留言，現在有自信多了，她的新影片有五千次觀看。我真的以她為榮。
+
+## 教阿嬤用平板
+For her eightieth birthday, we gave my grandma a tablet. She was happy, but she didn't know how to use it. "It's too [[difficult|crowded|national|delicious]] for an old woman," she said. So every Sunday, I teach her. At first, I wasn't very [[patient|wooden|illegal|cheap]]. When she pressed the wrong button again, I said, "No, Grandma! Not that one!" She looked sad and put the tablet down. I felt terrible. I remembered how she taught me to tie my shoes when I was little. She never shouted at me. So I [[changed|married|spelled|borrowed]] the way I taught her. I wrote the steps on a card in big letters. I let her try by herself and only helped when she asked. Grandma is very [[curious|sour|plastic|thick]], so she learned quickly. Now she can make video calls to my uncle in Canada and watch Taiwanese operas online. She is so [[confident|rainy|crowded|wooden]] that last week, she taught her friend how to take selfies!
+> 1 too difficult for an old woman「對老人家來說太難」。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容平板的使用方式。
+> 2 她按錯就大聲說「不是那個」，我一開始不太「有耐心」patient。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容教人的態度。
+> 3 changed the way I taught her「改變教她的方式」。married、spelled、borrowed 都不能接 the way 表示改變方法。
+> 4 阿嬤很「好奇」curious，所以學得很快。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容人的個性。
+> 5 「有自信」到能教朋友自拍 so confident that...。rainy（下雨的）、crowded、wooden 都不能形容阿嬤。
++ tablet = 平板電腦
++ tie = 綁
++ video call = 視訊通話
++ Taiwanese opera = 歌仔戲
++ selfie = 自拍照
+= 阿嬤八十歲生日時，我們送她一台平板電腦。她很開心，可是不會用。「這對老人家來說太難了。」她說。所以每個星期天，我都教她。一開始我不太有耐心，她又按錯按鈕時，我說：「不對啦，阿嬤！不是那個！」她看起來很難過，把平板放了下來。我覺得很糟糕。我想起小時候她教我綁鞋帶，她從來沒有對我大吼。所以我改變了教她的方式：我把步驟用大字寫在卡片上，讓她自己試，只有她問我時才幫忙。阿嬤很好奇，所以學得很快。現在她能和在加拿大的舅舅視訊，還會上網看歌仔戲。她有自信到上星期還教她的朋友怎麼自拍呢！
+
+## 十萬個為什麼的妹妹
+My little sister, Ruby, is five years old, and she is the most [[curious|crowded|national|delicious]] person in our family. She asks "Why?" about a hundred times a day. "Why is the sky blue?" "Why do cats have tails?" "Why can't I eat ice cream for breakfast?" Sometimes I don't know the answer, so I just say, "Because." But my dad is different. He is very [[patient|wooden|illegal|cheap]]. He always tries to answer her questions, and when he doesn't know, he says, "Let's find out together." Then they look it up in a book or online. Last week, Ruby asked, "Why do we have to say 'please'?" Dad said, "Because if we don't, people might think we are [[rude|sour|plastic|thick]]." Ruby thought about it and then said, "Then why don't dogs say 'please'?" Dad laughed so hard that he couldn't [[answer|marry|spell|borrow]]. I used to think Ruby's questions were annoying, but now I think they're cute. Maybe one day she'll become a scientist. She's already [[confident|rainy|crowded|wooden]] enough to ask anything!
+> 1 一天問一百次「為什麼」，妹妹是最「好奇」的人 the most curious。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人。
+> 2 總是試著回答她的問題，爸爸很「有耐心」patient。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容爸爸。
+> 3 不說「請」，別人可能覺得我們「沒禮貌」rude。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容不說「請」的人。
+> 4 笑到沒辦法「回答」couldn't answer。marry（結婚）、spell（拼字）、borrow（借）都不能說明爸爸笑到做不到的事。
+> 5 confident enough to ask anything「有足夠自信什麼都敢問」。rainy（下雨的）、crowded、wooden 都不能形容妹妹。
++ tail = 尾巴
++ look it up = 查一查
++ annoying = 煩人的
++ scientist = 科學家
+= 我妹妹 Ruby 五歲，是我們家最好奇的人。她一天大概問一百次「為什麼」：「為什麼天空是藍色的？」「為什麼貓有尾巴？」「為什麼我不能早餐吃冰淇淋？」有時候我不知道答案，就只說：「因為就是這樣。」但爸爸不一樣，他非常有耐心，總是試著回答她的問題；不知道的時候，他會說：「我們一起找答案吧。」然後他們就去翻書或上網查。上星期，Ruby 問：「為什麼我們要說『請』？」爸爸說：「因為如果不說，別人可能會覺得我們很沒禮貌。」Ruby 想了想，又問：「那為什麼狗不說『請』？」爸爸笑到沒辦法回答。我以前覺得 Ruby 的問題很煩，現在覺得很可愛。也許有一天她會成為科學家，她已經有足夠的自信什麼都敢問了！
+
+## 被鎖在門外的下午
+I'm a [[careless|crowded|national|delicious]] person. I lose my pencils, forget my homework, and once I even wore two different shoes to school. But last Friday was the worst. When I got home from school, I [[found|married|spelled|invited]] that I didn't have my key. I had left it on my desk that morning. My parents wouldn't be home until seven, and it was only four. It started to rain. I sat outside the door and felt very sorry for myself. Then our neighbor, Mrs. Chang, opened her door. She was [[curious|wooden|illegal|cheap]] about why I was sitting there. When I told her, she invited me in. She made me a cup of hot chocolate and let me do my homework at her table. She was so [[patient|sour|plastic|thick]] and kind—she even helped me with my English. When my mom came home, she thanked Mrs. Chang again and again. That night, Mom gave me a key ring with a big bell on it. "Now you'll [[hear|marry|spell|borrow]] it if you forget it," she said.
+> 1 弄丟鉛筆、忘記作業、穿兩隻不同的鞋，我是個「粗心的」人 a careless person。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人。
+> 2 found that I didn't have my key「發現自己沒帶鑰匙」。married、spelled、invited 都不能接 that 子句。
+> 3 be curious about why...「好奇我為什麼坐在那裡」。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能接 about why...。
+> 4 還幫我看英文，張太太很「有耐心」又親切 patient and kind。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能和 kind 並列形容人。
+> 5 鑰匙圈有大鈴鐺，忘記時就「聽得到」you'll hear it。marry（結婚）、spell（拼字）、borrow（借）都和鈴鐺的作用無關。
++ feel sorry for oneself = 覺得自己很可憐
++ hot chocolate = 熱可可
++ key ring = 鑰匙圈
++ bell = 鈴鐺
+= 我是個粗心的人。我會弄丟鉛筆、忘記作業，有一次還穿了兩隻不一樣的鞋去上學。但上星期五最慘。我放學回到家，發現自己沒帶鑰匙——早上把它忘在書桌上了。爸媽要到七點才回家，那時才四點，而且開始下雨了。我坐在門外，覺得自己好可憐。這時，鄰居張太太打開門，她很好奇我為什麼坐在那裡。我告訴她以後，她就請我進去，泡了一杯熱可可給我，還讓我在她的桌上寫作業。她既有耐心又親切，甚至還幫我看英文。媽媽回家後，一再向張太太道謝。那天晚上，媽媽給我一個掛著大鈴鐺的鑰匙圈。「這樣你忘記帶的時候就聽得到了。」她說。
+
+## 球場上的壞脾氣
+Kevin is the best basketball player on our school team. He is tall and fast, and he is very [[confident|crowded|national|delicious]]. He always wants the ball because he believes he can score every time. But Kevin has one big problem: he is [[rude|wooden|illegal|cheap]] when things go wrong. In a game last month, he missed three shots in a row. He shouted at his teammates and said they were bad passers. Then he argued with the referee. In the end, the coach took him out of the game. Kevin sat on the bench, very angry. After the game, the coach talked to him. He was [[patient|sour|plastic|thick]] and didn't shout. "You're a great player," the coach said, "but a team needs more than one person. If you [[treat|marry|spell|borrow]] your teammates badly, they won't want to play with you." Kevin was quiet for a long time. The next day, he said sorry to everyone. Now he passes the ball more, and our team hasn't [[lost|married|spelled|invited]] a game since then.
+> 1 相信自己每次都能得分，Kevin 很「有自信」confident。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容球員。
+> 2 事情不順就對隊友大吼、跟裁判吵，很「沒禮貌」rude。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容人的行為。
+> 3 教練沒大吼，很「有耐心」patient 地跟他談。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容教練。
+> 4 treat your teammates badly「不好好對待隊友」。marry（結婚）、spell（拼字）、borrow（借）都不能和 badly 搭配表示對待。
+> 5 hasn't lost a game「一場都沒輸過」，現在完成式用過去分詞 lost。married、spelled、invited 都不能接 a game 表示比賽結果。
++ score = 得分
++ in a row = 連續
++ referee = 裁判
++ bench = 板凳
+= Kevin 是我們校隊最厲害的籃球員。他又高又快，而且非常有自信，總是想拿球，因為他相信自己每次都能得分。但 Kevin 有一個大問題：事情不順時他就很沒禮貌。上個月的一場比賽，他連續三球沒投進，就對隊友大吼，說他們傳球很爛，接著又跟裁判吵架。最後，教練把他換下場。Kevin 坐在板凳上，氣得要命。比賽結束後，教練找他談。教練很有耐心，沒有大吼。「你是很棒的球員，」教練說，「但一支球隊不只需要一個人。如果你不好好對待隊友，他們就不會想跟你一起打球。」Kevin 安靜了很久。隔天，他向每個人道歉。現在他比較常傳球了，從那時起我們的球隊一場都沒輸過。
+
+## 學騎腳踏車的弟弟
+My little brother, Toby, is seven, and he wanted to learn to ride a bike without training wheels. Last Saturday, Dad and I took him to the park. At first, Toby wasn't [[confident|crowded|national|delicious]] at all. "I'm going to fall!" he kept saying. Dad held the back of the seat and ran next to him. He was very [[patient|wooden|illegal|cheap]]. Even after Toby fell down ten times, Dad never said, "Hurry up." Toby was a little [[careless|sour|plastic|thick]] too. He kept looking at his feet instead of looking ahead, so he almost rode into a tree. "Look where you want to go," Dad told him. After an hour, something amazing happened. Dad let go of the seat, but Toby didn't know. He rode all the way to the end of the path by himself! When he turned around and saw Dad far away, he [[shouted|married|spelled|borrowed]], "I did it!" He was so proud. Now he wants to [[take|marry|spell|invite]] his bike to school every day.
+> 1 一直說「我會跌倒」，弟弟一點也不「有自信」wasn't confident。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人。
+> 2 跌了十次也不催，爸爸很「有耐心」patient。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容爸爸。
+> 3 一直看腳不看前面，差點撞樹，弟弟有點「粗心」careless。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容騎車的態度。
+> 4 回頭看到爸爸在遠處，大「喊」「我做到了！」shouted。married、spelled、borrowed 都不能接直接引句表示大叫。
+> 5 take his bike to school「帶腳踏車（騎去）上學」。marry（結婚）、spell（拼字）、invite（邀請）都不能和 bike to school 搭配。
++ training wheels = 輔助輪
++ let go of = 放開
++ path = 小路
+= 我弟弟 Toby 七歲，他想學騎沒有輔助輪的腳踏車。上星期六，爸爸和我帶他去公園。一開始，Toby 一點自信也沒有，一直說：「我會跌倒！」爸爸扶著座椅後面，在旁邊跟著跑。爸爸非常有耐心，就算 Toby 跌倒了十次，他也從來沒說「快一點」。Toby 也有點粗心，一直看自己的腳而不看前面，差點騎去撞樹。「看你想去的地方。」爸爸告訴他。一個小時後，神奇的事情發生了：爸爸放開了座椅，Toby 卻不知道，他一個人一路騎到小路的盡頭！他轉過頭看到爸爸在很遠的地方，大喊：「我做到了！」他好驕傲。現在他每天都想騎腳踏車上學。
+
+## 博物館裡的十個問題
+Last month, our class visited the National Museum of Natural Science in Taichung. Our guide was a young woman named Grace. She told us to be [[curious|crowded|delicious|wooden]] and ask as many questions as we wanted. My classmate Eric asked the most questions. "How old is this dinosaur?" "What did it eat?" "Could it [[fight|marry|spell|borrow]] a T. rex and win?" Grace answered every question with a smile. She was so [[patient|illegal|cheap|sour]]. But some students weren't listening. Two boys were running around and touching things they shouldn't touch. One of them was [[careless|plastic|thick|rainy]] and almost knocked over a glass box. A museum worker came and told them to stop. The boys were [[rude|crowded|national|delicious]] to him and said, "We didn't break anything." Our teacher was very angry and made them sit on a bench for the rest of the trip. At the end, Grace gave Eric a small dinosaur toy. "For the best question-asker," she said. Eric was very proud.
+> 1 叫我們要「好奇」、盡量發問 be curious。crowded（擁擠的）、delicious（好吃的）、wooden（木製的）都不能和「發問」連在一起。
+> 2 fight a T. rex and win「和暴龍打架並打贏」。marry（結婚）、spell（拼字）、borrow（借）都不能接 a T. rex and win。
+> 3 每個問題都笑著回答，導覽員很「有耐心」patient。illegal（違法的）、cheap（便宜的）、sour（酸的）都不能形容人。
+> 4 差點撞倒玻璃櫃，其中一個人很「粗心」careless。plastic（塑膠的）、thick（厚的）、rainy（下雨的）都不能形容人的行為。
+> 5 對工作人員頂嘴，很「沒禮貌」be rude to him。crowded（擁擠的）、national（國家的）、delicious 都不能接 to him 形容態度。
++ National Museum of Natural Science = 國立自然科學博物館
++ guide = 導覽員
++ dinosaur = 恐龍
++ T. rex = 暴龍
++ knock over = 撞倒
+= 上個月，我們班去台中的國立自然科學博物館參觀。我們的導覽員是一位叫 Grace 的年輕女生，她要我們保持好奇心，想問多少問題都可以。我同學 Eric 問了最多問題：「這隻恐龍幾歲了？」「牠吃什麼？」「牠打架打得贏暴龍嗎？」Grace 每一題都笑著回答，她真的好有耐心。但有些學生沒在聽。兩個男生跑來跑去，還亂摸不該摸的東西。其中一個很粗心，差點撞倒一個玻璃櫃。一位博物館員工過來叫他們住手，那兩個男生卻很沒禮貌地對他說：「我們又沒弄壞任何東西。」老師非常生氣，叫他們在長椅上坐到參觀結束。最後，Grace 送給 Eric 一個小恐龍玩具。「送給最會問問題的人。」她說。Eric 非常驕傲。
