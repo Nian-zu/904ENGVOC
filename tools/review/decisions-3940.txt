@@ -43,3 +43,5 @@ dd19a0919b|main,light,mad
 7ca94725b0|noisy,local
 8e96de3814|mention
 6867d59279|fight
+e699030f5f||What ____ do you want in the future? I want to be a doctor.
+2946653ae7|cheat,own
