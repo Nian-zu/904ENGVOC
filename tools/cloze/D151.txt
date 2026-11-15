@@ -253,3 +253,126 @@ Last Sunday, my uncle took me kayaking on the Keelung River. It was my first tim
 + float = 漂浮
 + shore = 岸邊
 = 上星期天，叔叔帶我去基隆河划獨木舟。那是我第一次划，我相當緊張，但很快就學會了怎麼划槳。河上很美，鳥兒貼著水面低飛。接著我發現了讓人難過的事：岸邊漂著許多塑膠袋和瓶子。叔叔給我一支網子。「今天我們不只是享受大自然，也要幫助它。」我們撿了兩個小時的垃圾，最後獨木舟裡裝滿了瓶子。河邊的其他人看到我們都歡呼起來。「做得好，孩子們！」一位先生喊道。我雖然很累，卻覺得很驕傲。
+
+## 期末考前的自習室
+Before the final exams, I went to study in the library's study room. "Please keep your voice [[low|large|hungry|honest]]," said the sign on the door. The room was full of students, but there was almost no [[noise|nature|distance|history]]. Everyone [[seemed|lent|borrowed|cheered]] very serious. I opened my book and started to read. Suddenly, my stomach made a loud sound. Grrr! I hadn't eaten lunch, and I was very [[hungry|full|honest|national]]. Everyone looked at me, and my face turned red. The girl next to me smiled and quietly gave me a cookie. I wrote "Thank you!" on a piece of paper and showed it to her. She wrote back, "Good luck on your exams!" It was [[quite|ago|abroad|ahead]] a nice moment in a long, hard week.
+> 1 keep your voice low「說話小聲」，自習室要保持安靜。large、hungry、honest 都不能形容說話的音量。
+> 2 almost no noise「幾乎沒有聲音」，雖然人很多卻很安靜。nature（自然）、distance（距離）、history（歷史）都不能放在這裡表示安靜。
+> 3 seemed very serious「看起來很認真」，seem + 形容詞。lent、borrowed、cheered 都不能直接接形容詞。
+> 4 沒吃午餐，肚子咕嚕叫，所以很 hungry「餓」。full（飽的）意思相反；honest、national 和肚子叫無關。
+> 5 quite a nice moment「相當美好的一刻」，quite 可以放在 a 前面。ago、abroad、ahead 都不能這樣用。
++ final exam = 期末考
++ sign = 告示牌
++ stomach = 肚子、胃
+= 期末考前，我去圖書館的自習室讀書。門上的告示寫著：「請小聲說話。」房間裡坐滿了學生，卻幾乎沒有聲音，每個人看起來都很認真。我打開書開始讀。突然，我的肚子發出很大的聲音：咕嚕嚕！我沒吃午餐，餓得要命。大家都看著我，我的臉都紅了。坐在我旁邊的女生笑了笑，悄悄地給了我一塊餅乾。我在紙上寫「謝謝！」拿給她看。她回寫：「考試加油！」在漫長又辛苦的一週裡，這是相當美好的一刻。
+
+## 神隱少女的無臉男
+In the movie Spirited Away, there is a strange character called No-Face. At first, he is quiet and [[seems|lends|cheers|borrows]] lonely. He wears a white mask and doesn't talk. Then he goes into a bathhouse and starts to eat. He is always [[hungry|full|honest|modern]], so he eats and eats. Soon he becomes very [[large|light|thin|empty]] and scary. He gives gold to everyone, and people [[cheer|lend|borrow|cost]] for him. But the gold is not real. In the end, the girl Chihiro helps him, and he becomes small and calm again. I think No-Face is [[quite|ago|abroad|ahead]] like some people today. They feel empty inside, so they try to fill the hole with money and things.
+> 1 seems lonely「看起來很孤單」，seem + 形容詞，主詞 he 用 seems。lends、cheers、borrows 都不能直接接形容詞。
+> 2 always hungry「總是很餓」，所以一直吃。full（飽的）意思相反；honest（誠實的）、modern（現代的）和吃東西無關。
+> 3 一直吃，所以變得 very large「非常巨大」。light（輕的）、thin（瘦的）、empty（空的）都和一直吃的結果相反。
+> 4 cheer for him「為他歡呼」，因為他發金子給大家。lend、borrow 後面要接借的東西；cost（花費）也說不通。
+> 5 quite like…「相當像…」，quite 修飾 like some people。ago、abroad、ahead 都不能這樣用。
++ Spirited Away = 《神隱少女》（宮崎駿的動畫電影）
++ No-Face = 無臉男
++ mask = 面具
++ bathhouse = 澡堂
++ calm = 平靜的
+= 在電影《神隱少女》裡，有一個奇怪的角色叫做無臉男。一開始，他很安靜，看起來很孤單。他戴著白色的面具，不說話。後來他走進一間澡堂，開始吃東西。他總是很餓，所以一直吃、一直吃，很快就變得非常巨大又可怕。他把金子送給每個人，大家都為他歡呼，可是那些金子不是真的。最後，女孩千尋幫助了他，他又變回小小的、平靜的樣子。我覺得無臉男跟現在的一些人相當像：他們內心覺得空虛，所以想用錢和東西把那個洞填滿。
+
+## 運動會的頭號粉絲
+On Sports Day, our class teacher, Ms. Lee, surprised everyone. She came to school wearing a [[large|honest|afraid|alone]] yellow hat and holding two flags. "Today, I'm your number one fan!" she said. When our team ran in the relay race, she jumped up and [[cheered|lent|borrowed|cost]] louder than anyone. Her voice was so loud that the principal laughed. Our runners [[seemed|lent|carried|sold]] to run faster when they heard her. We didn't win first place, but we got second. After the race, Ms. Lee could only speak in a [[low|large|hungry|modern]] voice for the rest of the day. "It was worth it," she whispered. Our class was [[quite|ago|abroad|ahead]] proud of her. That day, we gave her a paper prize: "The Best Cheerleader."
+> 1 a large yellow hat「一頂大大的黃色帽子」。honest 不能形容帽子；afraid、alone 不能放在名詞前面。
+> 2 cheered louder than anyone「比誰都大聲地加油」。lent、borrowed 後面要接借的東西；cost（花費）不能這樣用。
+> 3 seemed to run faster「好像跑得更快了」，seem to + 原形動詞。lent、carried、sold 都不能接 to run 表示「好像」。
+> 4 in a low voice「小聲地」：喊太大聲，接下來一整天只能小聲說話。large、hungry、modern 都不能形容說話的聲音。
+> 5 quite proud of her「相當以她為榮」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 proud。
++ Sports Day = 運動會
++ relay race = 接力賽
++ principal = 校長
++ whisper = 低聲說
++ cheerleader = 啦啦隊員
+= 運動會那天，我們的班導李老師讓大家嚇了一跳。她戴著一頂大大的黃色帽子、拿著兩支旗子來學校。「今天，我是你們的頭號粉絲！」她說。我們班跑大隊接力時，她跳起來，加油聲比誰都大，大到連校長都笑了。我們的跑者聽到她的聲音，好像跑得更快了。我們沒有拿到第一，但得了第二名。比賽結束後，李老師那天剩下的時間只能小聲說話。「很值得。」她低聲說。我們全班都相當以她為榮。那天，我們送給她一張紙做的獎狀：「最佳啦啦隊員」。
+
+## 欠了三個月的一百元
+Three months ago, my classmate Kevin asked me to [[lend|explain|invite|hurt]] him 100 dollars. "I forgot my lunch money," he said. "I'll pay you back tomorrow." I said okay. But tomorrow came, and he didn't say anything. A week later, he still didn't. He [[seemed|lent|borrowed|cheered]] to forget all about it. I didn't know what to do. 100 dollars is not a [[large|honest|hungry|afraid]] amount of money, but it was my pocket money for the week. I told my mom. She said, "Just ask him nicely. Maybe he really forgot." So I did. Kevin's eyes opened wide. "Oh no! I'm so sorry!" He paid me back right away and even bought me a drink. I felt [[quite|ago|abroad|ahead]] relieved. I learned an important [[lesson|garbage|noise|nature]]: it is better to talk than to worry.
+> 1 lend + 人 + 錢「借錢給某人」。explain（解釋）、invite（邀請）、hurt（傷害）都不能接「人＋100 元」。
+> 2 seemed to forget「似乎忘了」，seem to + 原形動詞。lent、borrowed、cheered 都不能接 to forget 表示「似乎」。
+> 3 a large amount of money「一大筆錢」，not a large amount 表示「不是很多錢」。honest、hungry 不能形容錢的數量；afraid 不能放在名詞前面。
+> 4 felt quite relieved「覺得相當放心」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 relieved。
+> 5 learned an important lesson「學到重要的一課」。garbage、noise、nature 都不能和 learned … 表示學到的道理。
++ amount = 數量、金額
++ pocket money = 零用錢
++ relieved = 放心的、鬆了一口氣的
+= 三個月前，我的同學 Kevin 跟我借 100 元。「我忘了帶午餐錢，」他說，「明天就還你。」我說好。可是到了隔天，他什麼都沒說；過了一個星期，還是沒說。他好像完全忘了這件事。我不知道該怎麼辦。100 元不算是很多錢，但那是我一星期的零用錢。我告訴媽媽，她說：「就好好地問他吧，說不定他真的忘了。」所以我去問了。Kevin 眼睛睜得大大的：「喔不！真的很對不起！」他馬上把錢還我，還請我喝了一杯飲料。我覺得鬆了一口氣，也學到重要的一課：與其擔心，不如把話說出來。
+
+## 半夜哭的小寶寶
+My baby brother, Max, was born last month. He is cute, but he makes a lot of [[noise|nature|homework|history]] at night. Every few hours, he cries. When he is [[hungry|honest|modern|national]], Mom gives him milk. When he is tired, Dad sings to him in a [[low|large|hungry|honest]] voice. Last night, Mom and Dad [[seemed|lent|borrowed|cheered]] very tired, so I said, "Let me try." I held Max and walked around the room. I told him a story about a brave little dog. He looked at me with his big eyes and stopped crying. Then he fell asleep! Mom said, "You are [[quite|ago|abroad|ahead]] good at this." I think I'm going to be a great big brother.
+> 1 makes a lot of noise「很吵」，後面說他每隔幾小時就哭。nature（自然）、homework（作業）、history（歷史）都不能用 make 表示吵鬧。
+> 2 餓的時候，媽媽就餵他喝奶，用 hungry。honest（誠實的）、modern（現代的）、national（國家的）都不能形容寶寶需要喝奶的狀態。
+> 3 in a low voice「輕聲地」，哄寶寶睡覺。large、hungry、honest 都不能形容唱歌的聲音。
+> 4 seemed very tired「看起來很累」，seem + 形容詞。lent、borrowed、cheered 都不能直接接形容詞。
+> 5 quite good at…「相當擅長…」，quite 修飾形容詞 good。ago、abroad、ahead 都不能修飾 good。
++ brave = 勇敢的
+= 我的弟弟 Max 上個月出生了。他很可愛，但晚上很吵，每隔幾個小時就會哭。他餓的時候，媽媽就餵他喝奶；他累的時候，爸爸就輕聲唱歌給他聽。昨天晚上，爸媽看起來都很累，所以我說：「讓我試試看。」我抱著 Max 在房間裡走來走去，跟他講一隻勇敢小狗的故事。他睜著大眼睛看我，不哭了，然後就睡著了！媽媽說：「你相當會哄嘛。」我想我會是一個很棒的哥哥。
+
+## 關燈一小時
+Every year, people around the world turn off their lights for one hour. It's called Earth Hour. This year, my family joined too. At 8:30 p.m., we turned off all the lights, the TV, and the computer. At first, the house was [[quite|ago|abroad|ahead]] dark and quiet. There was no [[noise|nature|garbage|history]] from the TV. My sister [[seemed|lent|borrowed|cheered]] bored. Then Dad took us up to the roof. We looked up and saw many stars. "When we use less power, we help [[nature|noise|garbage|homework]]," Dad said. My sister forgot she was bored. She started to count the stars. When the hour ended, nobody wanted to turn the lights back on. It was a [[wonderful|hungry|dirty|wet]] hour.
+> 1 quite dark and quiet「相當暗又安靜」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 dark。
+> 2 no noise from the TV「電視沒有聲音」，因為電視關掉了。nature、garbage、history 都不是電視會發出的東西。
+> 3 seemed bored「看起來很無聊」，seem + 形容詞；後面說她忘了無聊。lent、borrowed、cheered 都不能直接接形容詞。
+> 4 help nature「幫助大自然」，少用電對環境好。noise（噪音）、garbage（垃圾）、homework（作業）都不是要幫助的對象。
+> 5 a wonderful hour「美好的一小時」，沒有人想開燈。hungry（餓的）、dirty（髒的）、wet（濕的）都不能形容這段時間。
++ Earth Hour = 地球一小時（全球關燈活動）
++ roof = 屋頂
+= 每年，世界各地的人會把燈關掉一小時，這個活動叫做「地球一小時」。今年，我們家也參加了。晚上八點半，我們關掉所有的燈、電視和電腦。一開始，家裡相當暗也很安靜，電視也沒有聲音。我妹妹看起來很無聊。後來爸爸帶我們到屋頂，我們抬頭看到好多星星。「我們少用一點電，就是在幫助大自然。」爸爸說。妹妹忘了無聊，開始數星星。一小時結束時，沒有人想把燈打開。那真是美好的一小時。
+
+## 比姊姊還高的低音提琴
+My sister plays the double bass in the school orchestra. It is a very [[large|honest|hungry|short]] instrument—taller than she is! It makes very [[low|honest|hungry|wet]] sounds, like the voice of a giant. When she first started, our neighbors thought it was just [[noise|nature|homework|history]]. "What is that strange sound?" they asked. But she practiced every day. Now she plays [[quite|ago|abroad|ahead]] well. Last week, her orchestra had a concert. When she played a short solo, the whole room went quiet. At the end, everyone stood up and [[cheered|lent|borrowed|cost]]. Even the neighbors came. "We didn't know your sister was so good!" they said.
+> 1 a very large instrument「非常大的樂器」，比姊姊還高。short（矮的）意思相反；honest、hungry 都不能形容樂器。
+> 2 low sounds「低沉的聲音」，像巨人的聲音。honest、hungry、wet 都不能形容聲音。
+> 3 thought it was just noise「以為那只是噪音」，後面問「那奇怪的聲音是什麼？」。nature、homework、history 都和聲音無關。
+> 4 plays quite well「拉得相當好」，quite 修飾副詞 well。ago、abroad、ahead 都不能修飾 well。
+> 5 stood up and cheered「站起來歡呼」。lent、borrowed 後面要接借的東西；cost（花費）說不通。
++ double bass = 低音提琴
++ orchestra = 管弦樂團
++ instrument = 樂器
++ giant = 巨人
++ solo = 獨奏
+= 我姊姊在學校管弦樂團拉低音提琴。那是一種非常大的樂器——比她還高！它發出很低沉的聲音，就像巨人在說話。她剛開始學的時候，鄰居們以為那只是噪音，還問：「那奇怪的聲音是什麼？」但她每天練習，現在已經拉得相當好了。上星期，她的樂團辦了一場音樂會。她拉一段短短的獨奏時，整個會場都安靜下來。表演結束時，大家都站起來歡呼，連鄰居們都來了。「我們都不知道你姊姊這麼厲害！」他們說。
+
+## 搶便當的猴子
+Last weekend, my family went camping in the mountains. We wanted to be close to [[nature|noise|garbage|traffic]]. On the first day, we sat at a table and opened our lunch boxes. Suddenly, a [[large|honest|afraid|alone]] monkey jumped down from a tree. It grabbed my brother's lunch box and ran away! My brother cried, "Hey! That's mine!" A park worker came over. "The monkeys here are always [[hungry|honest|modern|national]]," he said. "Many visitors give them food, so they are not afraid of people anymore." He also told us to put all our [[garbage|nature|noise|history]] in the closed bins. "If you leave food out, the monkeys will come back." My brother [[seemed|lent|borrowed|cheered]] very upset, so I shared my lunch with him. Now he always holds his lunch box with both hands!
+> 1 be close to nature「親近大自然」，所以去山上露營。noise（噪音）、garbage（垃圾）、traffic（交通）都不是去山上想親近的東西。
+> 2 a large monkey「一隻大猴子」。honest 不能形容猴子搶便當的樣子；afraid、alone 不能放在名詞前面。
+> 3 always hungry「總是很餓」，所以搶遊客的食物。honest（誠實的）、modern（現代的）、national（國家的）都說不通。
+> 4 put all our garbage in the bins「把垃圾都丟進垃圾桶」。nature、noise、history 都不能放進垃圾桶。
+> 5 seemed very upset「看起來很難過」，seem + 形容詞。lent、borrowed、cheered 都不能直接接形容詞。
++ grab = 抓走、搶
++ bin = 垃圾桶
++ upset = 難過的、不高興的
+= 上週末，我們全家去山上露營，想要親近大自然。第一天，我們坐在桌子旁打開便當。突然，一隻大猴子從樹上跳下來，搶走了弟弟的便當就跑！弟弟大叫：「喂！那是我的！」一位園區工作人員走過來說：「這裡的猴子總是很餓。很多遊客會餵牠們，所以牠們已經不怕人了。」他也叫我們把所有垃圾都丟進有蓋的垃圾桶。「如果你們把食物放在外面，猴子還會再來。」弟弟看起來很難過，所以我把便當分給他吃。現在，他吃便當時總是用兩隻手緊緊抓著！
+
+## 給住院好友的箱子
+My best friend Mia broke her leg and had to stay in the hospital for two weeks. She [[seemed|lent|borrowed|cheered]] very sad when I visited her. "I'm going to miss the school trip," she said. I wanted to [[cheer|lend|borrow|cost]] her up. So I asked everyone in our class to write a short letter to her. Some students drew funny pictures. Others wrote jokes. Our teacher even [[lent|cost|hurt|died]] her a few of his comic books. I put everything in a [[large|honest|afraid|alone]] box and brought it to the hospital. When Mia opened it, she laughed and cried at the same time. "Thank you so much," she said. "I'm [[quite|ago|abroad|ahead]] sure I'll get better faster now."
+> 1 seemed very sad「看起來很難過」，seem + 形容詞。lent、borrowed、cheered 都不能直接接形容詞。
+> 2 cheer her up「讓她打起精神」，cheer up 是固定片語。lend、borrow、cost 都不能和 up 搭配表示安慰。
+> 3 lent her a few comic books「借她幾本漫畫」，lend + 人 + 物。cost（花費）、hurt（傷害）、died（死）都不能接「人＋物」。
+> 4 a large box「一個大箱子」，裝全班的信和畫。honest 不能形容箱子；afraid、alone 不能放在名詞前面。
+> 5 quite sure「相當確定」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 sure。
++ joke = 笑話
++ comic book = 漫畫書
+= 我最好的朋友 Mia 摔斷了腿，得住院兩個星期。我去看她時，她看起來很難過。「我會錯過校外教學。」她說。我想讓她打起精神，所以請班上每個人都寫一封短信給她。有些同學畫了好笑的圖，有些寫了笑話，老師甚至借了她幾本他的漫畫。我把所有東西放進一個大箱子，帶去醫院。Mia 打開時，又笑又哭。「真的很謝謝你，」她說，「我相當確定我現在會好得更快了。」
+
+## 會說話的垃圾桶
+Our school has a new trash can that can talk. Its name is Gobble. When you put [[garbage|nature|noise|history]] into it, it says, "Yummy! Thank you!" Gobble [[seems|lends|cheers|borrows]] to love plastic bottles the most. When you put the wrong thing in, it makes a funny [[noise|nature|garbage|homework]]: "Yuck! That's not for me!" The little kids love it. Every day after lunch, they line up to feed it. "Gobble is always [[hungry|full|honest|national]]!" they laugh. Since Gobble came, our school has become [[quite|ago|abroad|ahead]] clean. No one throws things on the ground anymore. The principal says, "Gobble is the best teacher in our school!"
+> 1 put garbage into it「把垃圾丟進去」，它就說「好吃！」。nature、noise、history 都不能「放進」垃圾桶。
+> 2 seems to love「好像最愛」，seem to + 原形動詞，主詞 Gobble 用 seems。lends、cheers、borrows 都不能接 to love 表示「好像」。
+> 3 makes a funny noise「發出好笑的聲音」，後面就是它說的話。nature、garbage、homework 都不能用 make 表示發出聲音。
+> 4 always hungry「總是很餓」，小朋友每天排隊「餵」它。full（飽的）意思相反；honest、national 都說不通。
+> 5 become quite clean「變得相當乾淨」，quite 修飾形容詞。ago、abroad、ahead 都不能修飾 clean。
++ trash can = 垃圾桶
++ yummy = 好吃
++ yuck = 噁
++ principal = 校長
+= 我們學校有一個會說話的新垃圾桶，它叫做 Gobble。你把垃圾丟進去，它就會說：「好吃！謝謝你！」Gobble 好像最愛塑膠瓶了。如果你丟錯東西，它會發出好笑的聲音：「噁！那不是給我吃的！」小朋友都很喜歡它，每天吃完午餐就排隊去「餵」它。「Gobble 總是那麼餓！」他們笑著說。自從 Gobble 來了以後，我們學校變得相當乾淨，再也沒有人把東西丟在地上。校長說：「Gobble 是我們學校最棒的老師！」
