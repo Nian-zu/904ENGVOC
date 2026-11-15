@@ -118,3 +118,124 @@ My cousin Leo is a backpacker. Last year, he visited ten [[foreign|afraid|ready|
 + towel = 毛巾
 + fill = 裝滿、寫滿
 = 我的表哥 Leo 是個背包客。去年，他只帶一個小包包就去了十個國家。「你怎麼有辦法把所有東西都裝進一個包包？」我問他。他笑著說：「保持簡單，只帶真正需要的東西。」接著他讓我看他的包包：三件 T 恤、兩條褲子、一條小毛巾，還有一本舊筆記本。「筆記本是做什麼用的？」我問。「我會把去過的每個地方都寫成筆記，」他說，「那裡的食物、遇到的人，還有他們告訴我的故事。累的時候，我就在公園休息，拿出來讀一讀。」現在我也有了自己的筆記本，也許有一天，我會把它寫滿世界各地的故事。Leo 說，我的第一趟旅行可以去他在東京的公寓。
+
+## 電影院裡的同號座位
+Last Sunday, my brother and I went to see a cartoon movie. Our tickets said Row F, [[Seats|Notes|Rests|Packs]] 7 and 8. But when we got there, a man and his son were already sitting in them. "Excuse me, I think you're in our places," I said. The man looked at his tickets. "That's [[strange|favorite|ready|afraid]]. My tickets say F7 and F8, too." We called a worker. She looked at both tickets and smiled. "The answer is [[simple|afraid|dirty|hungry]]. Your tickets are for today, and his tickets are for next Sunday!" The man's face turned red. "Oh no! I'm so sorry," he said. His son looked very sad, because it was his [[favorite|afraid|dirty|ready]] cartoon. Before they left, my brother wrote a short [[note|seat|rest|pack]] for the boy: "The ending is great. Enjoy it next week!"
+> 1 Seats 7 and 8「7 號和 8 號座位」：電影票上寫的是座位號碼。Notes、Rests、Packs 都不是電影票上的位置。
+> 2 That's strange.「真奇怪」：兩張票號碼一樣，覺得很奇怪。favorite、ready、afraid 都不能形容這種情況。
+> 3 The answer is simple.「答案很簡單」：原來是日期不同。afraid、dirty、hungry 都不能形容答案。
+> 4 his favorite cartoon「他最喜歡的卡通」，所以不能看很難過。afraid 不能放在名詞前；dirty、ready 不能形容卡通。
+> 5 write a note「寫一張小紙條」：哥哥寫紙條給男孩，後面是紙條的內容。seat、rest、pack 都不能「寫」。
++ cartoon = 卡通
++ row = 排
+= 上星期天，我和哥哥去看一部卡通電影。我們的票上寫著 F 排 7 號和 8 號座位。但我們到的時候，有一位先生和他的兒子已經坐在那裡了。「不好意思，我想你們坐到我們的位子了。」我說。那位先生看看他的票。「真奇怪，我的票也是 F7 和 F8。」我們找來一位工作人員，她看了兩組票後笑了。「答案很簡單：你們的票是今天的，他的票是下星期天的！」那位先生的臉都紅了。「糟糕！真不好意思。」他說。他的兒子看起來很難過，因為那是他最喜歡的卡通。他們離開前，哥哥寫了一張小紙條給那個男孩：「結局很棒，下星期好好看喔！」
+
+## 落後十分的中場休息
+Our school basketball team was playing in the final game. At half time, we were losing by ten points. We sat down on the bench to [[rest|pack|note|seat]]. My shirt was wet and [[dirty|favorite|foreign|ready]] because I had fallen twice. Everyone was quiet. We thought Coach would shout at us, but he said something [[strange|afraid|favorite|ready]]: "Forget the score. Just have fun out there." Then he drew a [[simple|afraid|hungry|dirty]] plan on the board: pass the ball more and run faster. When the second half started, we were [[ready|favorite|foreign|delicious]]. We smiled, passed, and ran. Our fans started to cheer louder and louder. In the last minute, our captain made a three-point shot, and we won by two points! Coach laughed. "See? Fun is the best plan."
+> 1 sit down to rest「坐下來休息」：中場時坐在板凳上休息。pack、note、seat 都不能這樣單獨表示休息。
+> 2 wet and dirty「又濕又髒」：因為跌倒兩次，衣服髒了。favorite、foreign、ready 都不能說明跌倒造成的結果。
+> 3 something strange「奇怪的話」：大家以為會被罵，教練卻說了意想不到的話。something afraid／favorite／ready 都不通。
+> 4 a simple plan「一個簡單的計畫」：多傳球、跑快一點。afraid 不能放在名詞前；hungry、dirty 不能形容計畫。
+> 5 be ready「準備好了」：下半場開始時大家都準備好了。favorite、foreign、delicious 都不能形容球員的狀態。
++ half time = 中場
++ bench = 長板凳
++ captain = 隊長
+= 我們學校的籃球隊正在打決賽。中場時，我們落後十分。我們坐在板凳上休息。我的球衣又濕又髒，因為我跌倒了兩次。大家都不說話，以為教練會罵我們，但他說了一句奇怪的話：「忘掉比數，上場去好好玩就對了。」接著他在白板上畫了一個簡單的計畫：多傳球、跑快一點。下半場開始時，我們都準備好了。我們笑著傳球、奔跑，觀眾的加油聲也越來越大。最後一分鐘，隊長投進一記三分球，我們以兩分贏了！教練笑著說：「看吧？開心就是最好的戰術。」
+
+## 姊姊要去英國讀書
+My sister is going to study in England next month. It will be her first time living in a [[foreign|afraid|ready|hungry]] country. For days, she has been very busy. Last night, she [[packed|rested|seated|noted]] two big suitcases. She put in warm clothes, books, and a bottle of Mom's beef sauce. "It's my [[favorite|afraid|dirty|ready]] taste of home," she said. I was sad, but I didn't want her to see me cry. So I wrote her a [[note|seat|rest|pack]] and hid it in her coat pocket. It said, "Don't forget to call me every week. I will keep your room clean." This morning, she found it and hugged me. "I'm [[ready|favorite|dirty|simple]] for my new life," she said, "but I will miss you every day." Then she put the note in her wallet.
+> 1 a foreign country「外國」：第一次住在國外。afraid 不能放在名詞前；ready、hungry 不能形容國家。
+> 2 pack a suitcase「整理行李箱」：她收好了兩個大行李箱。rested、seated、noted 接 suitcases 意思不通。
+> 3 my favorite taste「我最喜歡的味道」。afraid 不能放在名詞前；dirty、ready 不能形容家的味道。
+> 4 write + 人 + a note「寫紙條給某人」，後面說明紙條內容。seat、rest、pack 都不能「寫」。
+> 5 be ready for…「為…做好準備」：我準備好迎接新生活了。favorite、dirty、simple 都不能接 for my new life 表示準備好。
++ England = 英國（英格蘭）
++ suitcase = 行李箱
++ sauce = 醬
+= 我姊姊下個月要去英國讀書，這是她第一次住在國外。這幾天她一直很忙。昨晚，她整理好了兩個大行李箱，放了保暖的衣服、書，還有一罐媽媽做的牛肉醬。「這是我最喜歡的家的味道。」她說。我很難過，但不想讓她看到我哭，所以我寫了一張紙條，偷偷藏在她的外套口袋裡。上面寫著：「別忘了每個星期打電話給我，我會幫你把房間保持乾淨。」今天早上，她發現了紙條，抱住了我。「我已經準備好迎接新生活了，」她說，「但我每天都會想你。」然後她把紙條放進了皮夾裡。
+
+## 第一次去山上露營
+Last weekend, my family went camping in the mountains. On Friday night, we [[packed|rested|noted|seated]] the car with tents, food, and sleeping bags. It rained a little when we arrived, so after we set up the tent, my clothes were [[dirty|favorite|ready|foreign]] with mud. At night, I heard a [[strange|national|afraid|ready]] sound outside the tent. Something was moving in the dark! I woke Dad up. He shone his flashlight outside and laughed. It was a deer eating our bread! In the morning, we were all tired because we didn't get much [[rest|seat|note|pack]]. But Dad cooked hot noodles for breakfast, and soon we were [[ready|favorite|dirty|foreign]] to climb the mountain. At the top, we saw a sea of clouds. It was worth it. Dad said, "Let's come back next year."
+> 1 pack + 地方 + with + 物「把…裝滿…」：把車子裝滿帳篷、食物和睡袋。rested、noted、seated 都不能這樣用。
+> 2 dirty with mud「沾滿泥巴而變髒」。favorite、ready、foreign 都不能接 with mud。
+> 3 a strange sound「奇怪的聲音」：帳篷外有怪聲。national（國家的）不能形容聲音；afraid 不能放在名詞前；ready 也不通。
+> 4 get much rest「得到足夠的休息」：大家都沒怎麼休息，所以很累。seat、note、pack 都不能和 get much 組成「睡飽」的意思。
+> 5 be ready to + V「準備好做…」：吃完早餐就準備好去爬山。favorite、dirty、foreign 都不能接 to climb。
++ tent = 帳篷
++ sleeping bag = 睡袋
++ flashlight = 手電筒
++ deer = 鹿
++ a sea of clouds = 雲海
+= 上週末，我們全家去山上露營。星期五晚上，我們把車子塞滿了帳篷、食物和睡袋。我們到的時候下了點雨，所以搭好帳篷後，我的衣服沾滿泥巴，髒兮兮的。晚上，我聽到帳篷外有奇怪的聲音，黑暗中有東西在動！我叫醒爸爸，他拿手電筒往外照，然後笑了——原來是一隻鹿在吃我們的麵包！早上，大家都很累，因為都沒怎麼休息。不過爸爸煮了熱騰騰的麵當早餐，很快我們就準備好去爬山了。到了山頂，我們看到一片雲海，一切都值得了。爸爸說：「我們明年再來吧。」
+
+## 巷口的怪轉蛋機
+There is a [[strange|national|ready|afraid]] toy machine near my house. It's old and [[dirty|favorite|afraid|delicious]], and nobody uses it. One day, I put in ten dollars just for fun. Out came a small plastic ball with a [[note|seat|rest|pack]] inside. It said, "What is your [[favorite|afraid|dirty|ready]] animal?" I wrote "cat" on the back and put it into the machine. The next day, I put in ten dollars again. This time, a cute cat toy came out! I didn't understand how the machine knew. Then I saw old Mr. Wu, the shop owner, smiling at me from his window. The answer was [[simple|afraid|hungry|foreign]]: he was the magic behind the machine! Now I visit him every week, and we always have a nice talk about cats.
+> 1 a strange machine「一台奇怪的機器」。national（國家的）不能形容轉蛋機；afraid 不能放在名詞前；ready 也不通。
+> 2 old and dirty「又舊又髒」：所以沒人用。favorite、afraid、delicious 都不能說明為什麼沒人用。
+> 3 a note inside「裡面有一張紙條」，後面說紙條寫什麼。seat、rest、pack 都不能放在小球裡「寫著」字。
+> 4 your favorite animal「你最喜歡的動物」。afraid 不能放在名詞前；dirty、ready 不能形容動物來問人。
+> 5 The answer was simple.「答案很簡單」：原來是店老闆在幫忙。afraid、hungry、foreign 都不能形容答案。
++ plastic = 塑膠的
++ magic = 魔法
+= 我家附近有一台奇怪的玩具轉蛋機。它又舊又髒，沒有人在用。有一天，我投了十塊錢好玩。滾出來一顆塑膠小球，裡面有一張紙條，寫著：「你最喜歡什麼動物？」我在背面寫了「貓」，再把它放回機器裡。隔天，我又投了十塊錢，這次滾出來一個可愛的貓咪玩具！我不懂機器怎麼會知道。接著我看到店老闆吳伯伯從窗戶裡對我微笑。答案很簡單：他就是機器背後的魔法！現在我每個星期都會去找他，我們總是聊貓咪聊得很開心。
+
+## 第三排的演唱會門票
+My sister's [[favorite|afraid|ready|dirty]] singer is a Korean pop star. Last month, she finally got a ticket for his concert in Taipei. Her [[seat|note|rest|pack]] was in the third row! On the day of the concert, she was [[ready|favorite|dirty|simple]] two hours early, with a light stick in her hand. The concert was amazing. The singer sang in a [[foreign|afraid|ready|hungry]] language, but everyone sang along with him. Near the end, he said, "I need a short [[rest|seat|level|pack]]." He drank some water and sat down for a minute. Then he came back and sang my sister's favorite song. She cried all the way home. "That was the best night of my life," she said. Now the ticket is on her wall, next to his poster.
+> 1 favorite singer「最喜歡的歌手」。afraid 不能放在名詞前；ready、dirty 不能形容歌手。
+> 2 her seat「她的座位」在第三排。note、rest、pack 都不能「在第三排」讓人坐。
+> 3 be ready「準備好」：她提早兩小時就準備好了。favorite、dirty、simple 都不能說明提早出門的狀態。
+> 4 a foreign language「外語」：歌手唱韓文歌，大家還是跟著唱。afraid 不能放在名詞前；ready、hungry 不能形容語言。
+> 5 a short rest「短暫的休息」：歌手喝水、坐一下。seat、level、pack 都不能和 a short 組成「休息一下」的意思。
++ Korean = 韓國的
++ concert = 演唱會
++ light stick = 螢光棒
+= 我姊姊最喜歡的歌手是一位韓國流行歌星。上個月，她終於買到他在台北演唱會的票，座位就在第三排！演唱會當天，她提早兩小時就準備好了，手上拿著螢光棒。演唱會非常精彩。歌手用外語唱歌，但大家都跟著一起唱。快結束時，他說：「我需要休息一下。」他喝了點水，坐了一分鐘。接著他回到舞台，唱了我姊姊最喜歡的那首歌。她一路哭著回家。「那是我人生中最棒的一個晚上。」她說。現在那張票貼在她的牆上，就在那位歌手的海報旁邊。
+
+## 機器人管家 Bobo
+In 2060, every home has a robot helper. Ours is called Bobo. Bobo's job is [[simple|afraid|hungry|foreign]]: keep the house clean. When it sees a [[dirty|favorite|ready|afraid]] plate, it washes it right away. When it finds socks on the floor, it puts them in the washing machine. Bobo never needs to [[rest|pack|note|seat]]. It works day and night without a break. One night, my parents came home very late. They found a [[note|seat|rest|pack]] on the door: "Dinner is [[ready|favorite|dirty|foreign]] in the kitchen. Your son finished his homework. Please don't wake him up." Mom laughed. "Bobo, you are a better parent than me!" Bobo's eyes turned blue. "I just follow my program," it said. Then it went back to the kitchen to wash the pots.
+> 1 Bobo's job is simple.「Bobo 的工作很簡單」：就是保持家裡乾淨。afraid、hungry、foreign 都不能形容工作內容。
+> 2 a dirty plate「髒盤子」：看到髒盤子就馬上洗。favorite、ready 不能說明為什麼要洗；afraid 不能放在名詞前。
+> 3 need to rest「需要休息」：機器人不用休息，日夜工作。pack、note、seat 都不能單獨表示休息。
+> 4 a note on the door「門上的紙條」，後面引號是紙條內容。seat、rest、pack 都不能貼在門上寫字。
+> 5 Dinner is ready.「晚餐準備好了」。favorite、dirty、foreign 都不能說明晚餐的狀態。
++ robot = 機器人
++ washing machine = 洗衣機
++ program = 程式
+= 西元 2060 年，每個家庭都有一台機器人幫手，我們家的叫 Bobo。Bobo 的工作很簡單：保持家裡乾淨。看到髒盤子，它馬上就洗；發現地上的襪子，它就放進洗衣機。Bobo 從不需要休息，日夜工作從不停歇。有一天晚上，爸媽很晚才回家，他們在門上看到一張紙條：「晚餐在廚房準備好了。你們的兒子寫完功課了，請不要吵醒他。」媽媽笑著說：「Bobo，你比我還會當爸媽！」Bobo 的眼睛變成藍色。「我只是照著程式做。」它說完，又回到廚房去洗鍋子了。
+
+## 魯夫偷吃了晚餐
+Luffy and his friends were sailing to a new island. As always, Luffy was hungry. Meat is his [[favorite|afraid|ready|dirty]] food. Sanji, the ship's cook, said, "Dinner will be [[ready|favorite|dirty|afraid]] in an hour." But Luffy couldn't wait. He went into the kitchen and ate all the meat! Sanji was very angry. "Now what will everyone eat?" Soon they arrived at the island. It looked [[strange|favorite|ready|afraid]]: the trees were blue, and the rocks were soft like bread. There was giant fruit everywhere. Sanji [[packed|rested|seated|noted]] a big box with fruit and made a wonderful fruit dinner on the ship. After dinner, everyone lay on the deck to [[rest|pack|note|seat]]. Luffy smiled. "Sorry, Sanji. Your fruit dinner was even better than meat!" Sanji just shook his head.
+> 1 his favorite food「他最喜歡的食物」。afraid 不能放在名詞前；ready、dirty 不能用來說明魯夫愛吃肉。
+> 2 Dinner will be ready.「晚餐會準備好」。favorite、dirty、afraid 都不能說明一小時後晚餐的狀態。
+> 3 look strange「看起來很奇怪」：樹是藍的、石頭像麵包一樣軟。look favorite／ready／afraid 都不通。
+> 4 pack + 物 + with…「把…裝滿…」：在箱子裡裝滿水果。rested、seated、noted 都不能這樣用。
+> 5 lie on the deck to rest「躺在甲板上休息」。to pack、to note、to seat 後面都少了受詞，語意也不通。
++ Luffy = 魯夫（《航海王》的主角）
++ Sanji = 香吉士（《航海王》的廚師）
++ sail = 航行
++ deck = 甲板
+= 魯夫和他的夥伴們正航向一座新的島嶼。和平常一樣，魯夫又餓了，肉是他最喜歡的食物。船上的廚師香吉士說：「晚餐再一個小時就好了。」但魯夫等不及，他跑進廚房把肉全吃光了！香吉士非常生氣：「現在大家要吃什麼？」不久，他們抵達了那座島。島上看起來很奇怪：樹是藍色的，石頭軟得像麵包，到處都是巨大的水果。香吉士裝了一大箱水果，在船上做了一頓很棒的水果晚餐。吃完後，大家躺在甲板上休息。魯夫笑著說：「對不起，香吉士。你的水果晚餐比肉還好吃！」香吉士只能無奈地搖搖頭。
+
+## 鋼琴老師的便利貼
+My piano teacher, Ms. Chou, puts colorful [[notes|seats|levels|packs]] on my music book. One says, "Play slowly here." Another says, "Smile!" Last week, I started a new song. It looked [[simple|afraid|hungry|foreign]], but it was really hard. I played it wrong again and again, and I almost cried. "Your hands need to [[rest|pack|seat|note]]," said Ms. Chou. "Let's stop for five minutes." Then she played my [[favorite|afraid|dirty|ready]] cartoon song on the piano and sang along in a funny voice. We both laughed. After that, I tried the new song again. This time, my fingers felt free, and I made only one mistake. Ms. Chou put a new note on the page: "Great job!" Then she said, "I'm proud of you. Now you're [[ready|favorite|dirty|simple]] for the concert."
+> 1 notes「便條、便利貼」：老師在樂譜上貼彩色便利貼，後面舉了上面寫的字。seats、levels、packs 都不能貼在書上寫字。
+> 2 look simple「看起來很簡單」：看起來簡單其實很難（but 前後語意相反）。afraid、hungry、foreign 都不能和 hard 形成對比。
+> 3 need to rest「需要休息」：手需要休息五分鐘。pack、seat、note 都不能單獨表示休息。
+> 4 my favorite cartoon song「我最喜歡的卡通歌」。afraid 不能放在名詞前；dirty、ready 不能形容歌曲。
+> 5 be ready for…「為…做好準備」：現在你準備好上台表演了。favorite、dirty、simple 都不能接 for the concert 表示準備好。
++ piano = 鋼琴
++ finger = 手指
++ concert = 音樂會
+= 我的鋼琴老師周老師會在我的樂譜上貼彩色便利貼。一張寫著「這裡彈慢一點」，另一張寫著「要微笑！」上週，我開始練一首新曲子。它看起來很簡單，其實非常難。我一直彈錯，差點哭出來。「你的手需要休息一下，」周老師說，「我們停五分鐘吧。」接著她用鋼琴彈了我最喜歡的卡通歌，還用好笑的聲音跟著唱，我們都笑了。之後我再試一次新曲子，這次手指感覺很輕鬆，只彈錯一個地方。周老師在那一頁貼上一張新的便利貼：「太棒了！」然後她說：「我以你為榮。現在你準備好參加音樂會了。」
+
+## 搬去澳洲的好朋友
+My best friend Amy moved to Australia last month. Living in a [[foreign|afraid|ready|hungry]] country was her dad's dream for many years. Before she left, I helped her [[pack|rest|note|seat]] her books into boxes. We laughed about old photos and cried a little, too. Now, in class, the [[seat|note|rest|pack]] next to me is empty. It feels [[strange|favorite|ready|afraid]] without her. Nobody laughs at my jokes or shares snacks with me at lunch. But yesterday, I got a letter from her. Inside, there was a photo of Amy with a kangaroo and a short [[note|seat|rest|pack]]: "I miss you! Come visit me next summer!" I put the photo on my desk. Now I'm saving money for a plane ticket. I can't wait to see her again.
+> 1 a foreign country「外國」：住在國外是她爸爸多年的夢想。afraid 不能放在名詞前；ready、hungry 不能形容國家。
+> 2 help + 人 + pack…into…「幫某人把…裝進…」：幫她把書裝箱。rest、note、seat 接 her books into boxes 都不通。
+> 3 the seat next to me「我旁邊的座位」空了。note、rest、pack 都不能用「空著」來表示朋友不在。
+> 4 feel strange「感覺怪怪的」：她不在，感覺很奇怪。feel favorite／ready／afraid 都不能說明少了朋友的感覺。
+> 5 a short note「一張短短的紙條」，冒號後面是紙條內容。seat、rest、pack 都不能「寫字」。
++ Australia = 澳洲
++ kangaroo = 袋鼠
++ snack = 點心
+= 我最好的朋友 Amy 上個月搬去澳洲了。住在國外是她爸爸多年來的夢想。她離開前，我幫她把書裝進箱子裡。我們看著舊照片大笑，也哭了一下。現在，教室裡我旁邊的座位空了。少了她，感覺好奇怪，沒有人會被我的笑話逗笑，午餐時也沒有人跟我分零食。不過昨天，我收到她寄來的信。裡面有一張 Amy 和袋鼠的合照，還有一張短短的紙條：「我好想你！明年夏天來找我玩！」我把照片放在書桌上。現在我正在存錢買機票，等不及要再見到她了。
