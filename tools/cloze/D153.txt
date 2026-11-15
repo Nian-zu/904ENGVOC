@@ -120,3 +120,129 @@ Coach Wang of our basketball team looks scary. He is very tall, he never smiles,
 + ankle = 腳踝
 + nurse's office = 保健室
 = 我們籃球隊的王教練看起來很兇。他非常高，從來不笑，講話也很大聲。我第一天去練球時，怕到想退出。他每天要我們跑十圈，遲到的話就要做五十下伏地挺身。練球時，他從來不讓我們休息。但有一天，我跌倒扭傷了腳踝。王教練把我抱到保健室，一直陪著我，直到媽媽來。「我對你們嚴格，是因為我希望你們變得更好。」他用溫柔的聲音解釋。在那一刻，我明白了他其實是一個非常溫柔的人。從那以後，我一次練習都沒有缺席過，而且每個月都打得更好。
+
+## 不會笑的機器人 Max
+My uncle built a robot named Max. Max can cook, clean the house, and even help me with my homework. He is very [[helpful|delicious|wet|foreign]]. But there is one thing Max cannot do: understand jokes. One day, I told him a joke. "Why did the student eat his homework? Because the teacher said it was a piece of cake!" Max did not laugh. "Please [[explain|allow|fail|mix]] it to me," he said. So I told him that "a piece of cake" means "very easy." Max thought for ten seconds. "I [[understand|allow|mix|own]]," he said. Then he started to laugh. But he laughed for an hour and could not stop! My uncle had to turn him off. Later, my uncle found that the laughing program had [[failed|mixed|allowed|explained]]. Now I [[seldom|ago|else|abroad]] tell Max jokes.
+> 1 helpful「有幫助的、很能幫忙的」：會煮飯、打掃、教功課。delicious（好吃的）、wet（濕的）、foreign（外國的）都不符合前面的描述。
+> 2 explain + 物 + to + 人「向某人解釋…」：請解釋給我聽。allow、fail、mix 都不能用「物 to 人」表示說明。
+> 3 I understand「我懂了」：想了十秒後明白了。allow、mix、own 都需要受詞，不能單獨說。
+> 4 fail「失靈、出問題」：笑的程式出了問題，所以停不下來。mixed、allowed、explained 都不能說程式壞掉。
+> 5 seldom「很少」：現在我很少跟 Max 講笑話。ago 要接在時間後面；else 要接在 something 等字後面；abroad（在國外）不能放在主詞和動詞之間。
++ robot = 機器人
++ joke = 笑話
++ a piece of cake = 小事一樁、很簡單
++ program = 程式
+= 我叔叔做了一個叫 Max 的機器人。Max 會煮飯、打掃房子，甚至還能幫我寫功課，非常能幹。但有一件事 Max 做不到：聽懂笑話。有一天，我跟他講了一個笑話：「為什麼那個學生把作業吃掉了？因為老師說那是一塊蛋糕（很簡單）！」Max 沒有笑。「請解釋給我聽。」他說。於是我告訴他，「a piece of cake」的意思是「很簡單」。Max 想了十秒鐘。「我懂了。」他說。然後他開始笑，但他笑了一個小時都停不下來！我叔叔只好把他關掉。後來叔叔發現，原來是笑的程式出了問題。現在我很少跟 Max 講笑話了。
+
+## 不准帶手機的露營
+Our school camp had one big rule: students were not [[allowed|explained|failed|mixed]] to bring phones. Everyone complained. "What will we do for three days?" Kevin asked. On the first night, we sat around a campfire. Without our phones, we [[actually|ago|else|abroad]] talked to each other for hours. We sang songs, told ghost stories, and played games. I learned that Kevin's [[hobby|sentence|factory|distance]] is magic, and he showed us some cool tricks with cards. On the second day, we had to cook lunch by ourselves. Our group [[mixed|allowed|failed|explained]] rice, eggs, and vegetables in a big pan. The fried rice was a little burnt, but it tasted great. On the last day, nobody wanted to go home. "I didn't [[miss|allow|fail|mix]] my phone at all," Kevin said with a smile.
+> 1 be allowed to + 原形動詞「被允許做…」：學生不准帶手機。explained、failed、mixed 都不能用「be + 過去分詞 + to」表示准不准。
+> 2 actually「真的、實際上」：沒有手機，我們真的聊了好幾個小時。ago、else、abroad 都不能放在主詞和動詞中間。
+> 3 hobby「嗜好」：Kevin 的興趣是變魔術。sentence（句子）、factory（工廠）、distance（距離）都說不通。
+> 4 mix「混合、拌在一起」：把飯、蛋、青菜放進鍋裡一起炒。allowed、failed、explained 都不是煮飯的動作。
+> 5 miss「想念」：我一點都不想念手機。allow、fail、mix 接 my phone 都說不通。
++ camp = 營隊
++ complain = 抱怨
++ campfire = 營火
++ burnt = 燒焦的
+= 我們學校的營隊有一條重要規定：學生不准帶手機。大家都在抱怨。「這三天我們要做什麼？」Kevin 問。第一天晚上，我們圍著營火坐。沒有手機，我們真的彼此聊了好幾個小時。我們唱歌、講鬼故事、玩遊戲。我才知道 Kevin 的興趣是變魔術，他還表演了一些很酷的撲克牌魔術給我們看。第二天，我們得自己煮午餐。我們這組把飯、蛋和青菜放在大鍋裡一起炒。炒飯有點焦，但是很好吃。到了最後一天，沒有人想回家。「我一點都不想念我的手機。」Kevin 笑著說。
+
+## 叔叔的路考
+My uncle Tom is thirty-five, but he does not have a driver's license. Last year, he took the driving test and [[failed|mixed|allowed|explained]]. He forgot to look in the mirror before he turned, and he felt [[stupid|honest|helpful|modern]]. The second time, he was so nervous that he [[hit|allowed|explained|mixed]] an orange cone. After that, he did not want to try again. But his daughter, Amy, said, "Dad, you always tell me not to give up." Uncle Tom was [[honest|full|wet|dry]] with her. "I'm afraid of failing again," he said. Amy hugged him. So every weekend, he practiced [[alone|honest|helpful|full]] in an empty parking lot. Last month, he took the test for the third time, and he passed! Amy made him a card that said, "My dad never gives up."
+> 1 fail「（考試）沒通過」：去年考駕照沒過。mix、allow、explain 都需要受詞，不能單獨放在句尾。
+> 2 feel stupid「覺得自己很笨」：忘記看後照鏡。honest（誠實的）、helpful（有幫助的）、modern（現代的）都不符合犯錯後的心情。
+> 3 hit「撞到」：緊張到撞倒三角錐。allowed、explained、mixed 接 an orange cone 都說不通。
+> 4 be honest with + 人「對某人說實話」：叔叔老實告訴女兒他怕再失敗。full、wet、dry 都不能接 with her 表示態度。
+> 5 practice alone「一個人練習」：每週末自己去空停車場練車。honest、helpful、full 都不能說明練習的方式。
++ driver's license = 駕照
++ mirror = 鏡子（後照鏡）
++ nervous = 緊張的
++ cone = 三角錐
++ parking lot = 停車場
+= 我的叔叔 Tom 三十五歲了，卻還沒有駕照。去年他去考駕照，結果沒有通過。他轉彎前忘了看後照鏡，覺得自己好笨。第二次考的時候，他緊張到撞倒了一個橘色的三角錐。之後，他就不想再考了。但他的女兒 Amy 說：「爸爸，你總是叫我不要放棄。」Tom 叔叔老實地告訴她：「我怕又失敗。」Amy 抱了抱他。於是每個週末，他都一個人到空蕩蕩的停車場練車。上個月，他第三次去考，終於通過了！Amy 做了一張卡片給他，上面寫著：「我的爸爸永不放棄。」
+
+## 一個人去日本的表姊
+My cousin Emma is a college student. Last summer, she traveled [[alone|honest|helpful|full]] to Japan for two weeks. Her parents were worried at first, but they finally [[allowed|explained|failed|mixed]] her to go. Emma could not speak Japanese, so before the trip, she learned a few simple [[sentences|hobbies|factories|habits]] in Japanese, like "Thank you" and "Where is the station?" In Japan, people were very [[helpful|alone|delicious|expensive]]. Once, she got lost in Osaka, and an old man walked with her all the way to the train station. Another time, a shop owner gave her a free rice ball. When she came back, she showed us hundreds of photos. She said traveling alone was [[actually|ago|else|abroad]] not scary at all. Now I want to travel by myself when I grow up, too.
+> 1 travel alone「獨自旅行」。honest、helpful、full 都不能說明旅行的方式。
+> 2 allow + 人 + to + 原形動詞「允許某人做…」：爸媽最後同意她去。explain、fail、mix 都不能用「人 + to」的句型。
+> 3 simple sentences「簡單的句子」：像「謝謝」、「車站在哪裡」。hobbies（嗜好）、factories（工廠）、habits（習慣）都不能「學說」成日文。
+> 4 helpful「樂於助人的」：後面舉了老先生帶路、老闆送飯糰的例子。alone 不能用 very 修飾；delicious、expensive 不能形容人。
+> 5 actually「其實」：她說一個人旅行其實一點都不可怕。ago、else、abroad 都不能放在 was 和 not scary 中間。
++ college = 大學
++ Osaka = 大阪
++ rice ball = 飯糰
+= 我的表姊 Emma 是大學生。去年暑假，她一個人去日本旅行了兩個星期。她爸媽一開始很擔心，但最後還是答應讓她去。Emma 不會說日文，所以出發前，她學了幾句簡單的日文句子，像是「謝謝」和「車站在哪裡？」。在日本，大家都很樂於助人。有一次，她在大阪迷路了，一位老先生一路陪她走到火車站。還有一次，一位店老闆送她一個免費的飯糰。她回來後，給我們看了好幾百張照片。她說一個人旅行其實一點都不可怕。現在我也想長大以後自己去旅行。
+
+## 外公的郵票簿
+My grandpa's [[hobby|sentence|factory|distance]] is collecting stamps. He has more than three thousand stamps from sixty countries. He keeps them in thick books on a high shelf, and he does not [[allow|explain|fail|mix]] anyone to touch them without asking. One rainy afternoon, he took down a book and showed me an old stamp from 1960. "This is my [[favorite|honest|helpful|alone]] one," he said. It had a small blue bird on it. He [[explained|allowed|failed|mixed]] that his father gave it to him when he was ten years old. Then Grandpa told me stories about other stamps: a stamp from a king's birthday, a stamp from the first trip to the moon, and many more. I never thought old stamps could be so [[interesting|delicious|honest|hungry]]. Now I collect stamps too, and we look at them together every Sunday.
+> 1 hobby「嗜好」：外公的興趣是集郵。sentence（句子）、factory（工廠）、distance（距離）都說不通。
+> 2 allow + 人 + to + 原形動詞「允許某人做…」：沒問過不准碰。explain、fail、mix 都不能用「人 + to」的句型。
+> 3 favorite「最喜歡的」：這是我最喜歡的一張。honest、helpful、alone 都不能形容郵票，alone 也不能放在名詞前。
+> 4 explain that…「解釋說…」：外公說明這張郵票的來歷。allowed、failed、mixed 都不能接 that 子句。
+> 5 interesting「有趣的」：沒想到舊郵票這麼有趣。delicious（好吃的）、honest（誠實的）、hungry（餓的）都不能形容郵票。
++ collect = 收集
++ stamp = 郵票
++ shelf = 架子
+= 我外公的嗜好是集郵。他有三千多張來自六十個國家的郵票。他把郵票收在厚厚的本子裡，放在高高的架子上，沒問過他，誰都不准碰。一個下雨的午後，他拿下一本，給我看一張 1960 年的老郵票。「這是我最喜歡的一張。」他說。上面有一隻藍色的小鳥。他解釋說，那是他十歲時，他爸爸送給他的。接著外公跟我講了其他郵票的故事：一張是國王生日的郵票，一張是第一次登月的郵票，還有好多好多。我從來沒想過舊郵票會這麼有趣。現在我也開始集郵，每個星期天都和外公一起看郵票。
+
+## 榮恩調錯的魔藥
+In Potions class, Professor Snape told the students to make a sleeping potion. "Follow every step carefully," he said in a cold voice. "If you [[fail|allow|explain|mix]], you will clean this classroom for a week." Ron was not listening. He was thinking about dinner. Without reading the book, he [[mixed|allowed|failed|explained]] the wrong things together: dragon's blood and a frog's leg. Suddenly, his pot made a loud sound, and green smoke filled the room. Everyone ran out, coughing. Hermione quickly put some white powder into the pot, and the smoke stopped. Snape looked at Ron. "Can you [[explain|allow|fail|mix]] what you just did?" he asked. Ron's face turned red. "I [[actually|ago|else|abroad]] don't know," he said. That night, Ron cleaned the classroom [[alone|honest|helpful|full]] while his friends were having dinner.
+> 1 If you fail「如果你失敗」：做不好就要打掃教室一週。allow、explain、mix 都需要受詞，不能單獨接在 you 後面。
+> 2 mix … together「把…混在一起」：把錯的材料混在一起。allowed、failed、explained 都不能接 together 表示混合。
+> 3 explain what…「解釋…」：你能解釋你剛做了什麼嗎？allow、fail、mix 都不能接 what you did 表示說明。
+> 4 actually「其實、說實話」：我其實也不知道。ago、else、abroad 都不能放在 I 和 don't 中間。
+> 5 alone「獨自」：朋友去吃晚餐，他一個人打掃。honest、helpful、full 都不能說明打掃的狀態。
++ Potions = 魔藥學
++ Professor Snape = 石內卜教授
++ potion = 藥水
++ Hermione = 妙麗
++ powder = 粉末
+= 在魔藥學課上，石內卜教授要學生們調製安眠藥水。「每一個步驟都要仔細照做，」他冷冷地說，「如果失敗了，你就要打掃這間教室一個星期。」榮恩根本沒在聽，他在想晚餐要吃什麼。他沒看課本，就把錯的東西混在一起：龍血和一隻青蛙腿。突然，他的鍋子發出一聲巨響，綠色的煙充滿了整間教室。大家都邊咳邊往外跑。妙麗趕緊把一些白色粉末倒進鍋子，煙才停了下來。石內卜看著榮恩。「你能解釋一下你剛剛做了什麼嗎？」他問。榮恩臉紅了。「我其實也不知道。」他說。那天晚上，朋友們在吃晚餐的時候，榮恩一個人在打掃教室。
+
+## 說實話的魔鏡
+The queen had a magic mirror. Every morning, she asked it, "Who is the most beautiful woman in the world?" The mirror was always [[honest|full|hungry|dry]]. For years, it said, "You are." But one day, it said, "Snow White is." The queen was very [[angry|honest|helpful|alone]], and she picked up a chair to break the mirror. "Please let me [[explain|allow|fail|mix]]," the mirror said. "Beauty is not just a face. Snow White is kind to everyone, even to animals. If you are kind too, people will love you." The queen put down the chair and thought about it for a long time. Then she decided to [[change|allow|fail|mix]]. She started to help the poor people in her country. A year later, she asked the mirror again. This time, it said, "You are [[actually|ago|else|abroad]] the most beautiful now, inside and outside."
+> 1 honest「誠實的」：魔鏡總是說實話。full（滿的）、hungry（餓的）、dry（乾的）都不能說明魔鏡回答問題的態度。
+> 2 angry「生氣的」：聽到不是自己，氣得拿椅子要砸鏡子。honest、helpful、alone 都不會讓人想砸東西。
+> 3 let me explain「讓我解釋」：魔鏡要說明原因。let me allow、let me fail、let me mix 都說不通。
+> 4 decide to change「決定改變」：皇后開始幫助窮人。allow、mix 需要受詞；decide to fail（決定失敗）不合語意。
+> 5 actually「其實、真的」：現在你真的是最美的。ago、else、abroad 都不能放在 are 和 the most beautiful 中間。
++ queen = 皇后
++ mirror = 鏡子
++ Snow White = 白雪公主
++ beauty = 美麗
+= 皇后有一面魔鏡。每天早上，她都問魔鏡：「誰是世界上最美麗的女人？」魔鏡總是說實話。很多年來，它都回答：「是您。」但有一天，它說：「是白雪公主。」皇后非常生氣，拿起一張椅子要砸碎鏡子。「請讓我解釋，」魔鏡說，「美麗不只是一張臉。白雪公主對每個人都很好，連對動物也是。如果您也很善良，大家就會愛您。」皇后放下椅子，想了很久。然後她決定改變。她開始幫助國內的窮人。一年後，她又問了魔鏡一次。這次，魔鏡說：「現在您真的是最美麗的，不論是內在還是外表。」
+
+## 圖書館的志工林奶奶
+Every Wednesday, Mrs. Lin comes to our school library as a volunteer. She is very [[helpful|alone|wet|dry]]. If you can't find a book, she will find it for you in one minute. She also [[explains|allows|fails|mixes]] difficult words to the younger students. Our library [[allows|explains|fails|mixes]] each student to borrow five books at a time, but Mrs. Lin always says, "Read one book well first." She is seventy years old. Her [[hobby|sentence|factory|distance]] is reading, and she has read more than two thousand books. She told us that after her husband died, she lived [[alone|honest|helpful|full]] and felt very sad. Then a friend asked her to help at the library. "Working here made me happy again," she said. "Books are my friends, and so are all of you."
+> 1 helpful「樂於助人的」：一分鐘就幫你找到書。alone 不能用 very 修飾；wet（濕的）、dry（乾的）不能形容人。
+> 2 explain + 物 + to + 人「向某人解釋…」：向學弟妹解釋難字。allows、fails、mixes 都不能這樣用。
+> 3 allow + 人 + to + 原形動詞「允許某人做…」：每人一次可以借五本。explains、fails、mixes 都不能用「人 + to」的句型。
+> 4 hobby「嗜好」：她的興趣是閱讀。sentence（句子）、factory（工廠）、distance（距離）都說不通。
+> 5 live alone「獨自生活」：先生過世後一個人住。honest、helpful、full 都不能說明生活的狀態。
++ volunteer = 志工
++ husband = 丈夫
+= 每個星期三，林奶奶都會來我們學校圖書館當志工。她非常樂於助人。如果你找不到書，她一分鐘就能幫你找到。她也會向學弟妹解釋困難的單字。我們圖書館每位學生一次可以借五本書，但林奶奶總是說：「先把一本書好好讀完。」她今年七十歲了。她的嗜好是閱讀，已經讀了兩千多本書。她告訴我們，她先生過世後，她一個人住，覺得非常難過。後來一位朋友請她來圖書館幫忙。「在這裡工作讓我又快樂起來了，」她說，「書是我的朋友，你們也是。」
+
+## 閣樓上的腳步聲
+Lily's family moved into an old house last month. Every night, she heard footsteps above her room. She was too [[scared|honest|helpful|full]] to sleep. She told her parents, but they did not believe her. "Old houses make strange noises," Dad [[explained|allowed|failed|mixed]]. "It's just the wind." One night, Lily took a flashlight and climbed the stairs to the top floor [[alone|honest|helpful|full]]. Her hands were shaking. She opened the door slowly. Two shining eyes looked at her from the dark corner. It was [[actually|ago|else|abroad]] a cat with three tiny kittens! The mother cat came in through a broken window to keep her babies warm. Lily brought them some milk and an old blanket. The next day, her parents [[allowed|explained|failed|mixed]] her to keep the kittens until they were old enough to find new homes.
+> 1 too scared to…「太害怕而不能…」：怕得睡不著。honest、helpful、full 都不是睡不著的原因。
+> 2 explain「解釋」：爸爸說明老房子會有怪聲。allowed、failed、mixed 都不能這樣接在引號後面表示「說」。
+> 3 alone「獨自」：她一個人爬上頂樓。honest、helpful、full 都不能說明爬樓梯的狀態。
+> 4 actually「其實、原來」：原來是一隻貓和三隻小貓。ago、else、abroad 都不能放在 was 和 a cat 中間。
+> 5 allow + 人 + to + 原形動詞「允許某人做…」：爸媽答應讓她暫時養小貓。explain、fail、mix 都不能用「人 + to」的句型。
++ footstep = 腳步聲
++ flashlight = 手電筒
++ kitten = 小貓
++ blanket = 毯子
+= Lily 家上個月搬進一間老房子。每天晚上，她都聽到房間上方傳來腳步聲。她怕得睡不著。她告訴爸媽，但他們不相信。「老房子本來就會發出奇怪的聲音，」爸爸解釋，「那只是風而已。」有一天晚上，Lily 拿著手電筒，一個人爬樓梯到頂樓。她的手在發抖。她慢慢打開門，黑暗的角落裡有兩隻發亮的眼睛看著她。原來是一隻貓和三隻小小的貓寶寶！貓媽媽從一扇破掉的窗戶鑽進來，讓寶寶們保持溫暖。Lily 拿了一些牛奶和一條舊毯子給牠們。第二天，爸媽答應讓她照顧這些小貓，直到牠們大到可以去找新家為止。
+
+## 一句話的生日卡
+My little brother is six, and he just learned to write. For Mom's birthday, he wanted to make a card [[alone|wet|dry|delicious]], without any help. He sat at the table for an hour with his crayons. When he finished, the card had only one [[sentence|hobby|factory|habit]]: "Mom, you are my best friend." Some words were spelled wrong, and some letters were big while others were small. But when Mom read it, she cried. She [[explained|allowed|failed|mixed]] that it was the best card she ever got. Later, I asked my brother why he wrote only one sentence. "Because I wanted to be [[honest|wet|dry|delicious]]," he said. "That's the only thing I really wanted to say." Mom put the card on her desk at work, and she [[still|ago|else|abroad]] keeps it there today.
+> 1 alone「獨自、自己一個人」：不要別人幫忙，自己做卡片。wet、dry、delicious 都不能說明做卡片的方式。
+> 2 one sentence「一個句子」：卡片上只有一句話。hobby（嗜好）、factory（工廠）、habit（習慣）都不能寫在卡片上。
+> 3 explain that…「解釋說、說明」：媽媽說這是她收過最好的卡片。allowed、failed、mixed 都不能接 that 子句。
+> 4 be honest「誠實、說真心話」：我只想寫真心話。wet、dry、delicious 都不合語意。
+> 5 still「仍然」：到今天還放在那裡。ago 要接在時間後面；else 要接在 something 等字後面；abroad（在國外）不能放在 keeps 前面。
++ crayon = 蠟筆
++ spell = 拼字
+= 我弟弟六歲，剛學會寫字。媽媽生日的時候，他想自己一個人做卡片，不要任何人幫忙。他拿著蠟筆在桌前坐了一個小時。做完的時候，卡片上只有一句話：「媽媽，妳是我最好的朋友。」有些字拼錯了，有些字母大、有些字母小。但媽媽讀完就哭了。她說那是她收過最好的卡片。後來我問弟弟為什麼只寫一句話。「因為我想說真心話，」他說，「那是我唯一真的想說的話。」媽媽把卡片放在她公司的辦公桌上，到今天都還放在那裡。
