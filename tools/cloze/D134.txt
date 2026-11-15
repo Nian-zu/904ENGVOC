@@ -128,3 +128,128 @@ Our class made a short film for the school movie contest. It was about a cat tha
 + deadline = 截止期限
 + director = 導演
 = 我們班為學校的電影比賽拍了一部短片，內容是一隻想當老師的貓。我們連續兩個星期每天放學後都在拍。截止日前一晚，電腦突然當機，影片不見了一半！大家都很難過。導演 Kevin 擔心到說不出話來。這時 Amy 想起一件事。「我在手機裡存了一份！」她說。我們熬夜，終於及時完成了影片。比賽當天，大家都非常緊張。其他班的影片又好笑又漂亮。最後我們沒有得到第一名，而是第三名。一開始有些人很失望，但老師說：「事情出錯的時候，你們沒有放棄，這才是真正的獎品。」
+
+## 營養午餐的新菜色
+This semester, our school lunch had a new dish: fried rice with pineapple. The cook, Ms. Wu, was very [[nervous|wooden|rainy|square]] about it. She had never made it for two thousand students before. On Monday, she watched the students eat. Many of them looked at the yellow pineapple and pushed it to the side of the plate. Ms. Wu felt [[disappointed|plastic|national|delicious]]. "Maybe they don't like sweet food with rice," she thought. Our class leader, Ken, saw her sad face. He [[suggested|arrived|happened|died]] a food survey. Students wrote down what they liked and what they didn't. The answers surprised everyone. Most students liked the taste, but the pineapple pieces were too [[large|honest|polite|lonely]]. The next week, Ms. Wu cut them smaller. This time, almost every plate was empty. She was very [[satisfied|metal|cloudy|illegal]]. "Listen to the people who eat your food," she laughed. "That's the secret of a good cook."
+> 1 第一次為兩千個學生做這道菜，吳阿姨很「緊張」nervous。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 看到大家把鳳梨推到一邊，她覺得很「失望」disappointed。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能接在 felt 後面形容心情。
+> 3 suggest + 事物「提議…」：提議做一份食物問卷。arrive（抵達）、happen（發生）、die（死）都是不接受詞的動詞，不能接 a food survey。
+> 4 鳳梨塊太「大」large，所以下週切小一點。honest（誠實的）、polite（有禮貌的）、lonely（寂寞的）都是形容人，不能形容鳳梨塊。
+> 5 盤子幾乎都吃光了，她很「滿意」satisfied。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能形容人的心情。
++ semester = 學期
++ pineapple = 鳳梨
++ survey = 問卷調查
+= 這學期，我們學校的營養午餐有一道新菜：鳳梨炒飯。廚師吳阿姨對這道菜很緊張，她從來沒有為兩千個學生做過。星期一，她看著學生吃飯，很多人看到黃黃的鳳梨，就把它推到盤子旁邊。吳阿姨覺得很失望。「也許他們不喜歡甜的東西配飯。」她想。我們的班長 Ken 看到她難過的臉，就提議做一份食物問卷。學生寫下自己喜歡和不喜歡的地方。結果讓大家都很驚訝：大部分學生喜歡這個味道，只是鳳梨切得太大塊了。隔週，吳阿姨把鳳梨切小一點，這次幾乎每個盤子都吃光了。她非常滿意。「要聽吃你做的菜的人說話，」她笑著說，「這就是當好廚師的祕訣。」
+
+## 和人工智慧下圍棋
+Tom is the best Go player in our school. Last month, he played against an AI program at a science fair. Before the game, he was [[confident|wooden|rainy|square]]. "Computers can't think like humans," he said. But after only thirty moves, Tom was in trouble. The AI was much stronger than he [[expected|arrived|happened|died]]. He started to feel [[nervous|plastic|national|delicious]]. His hands were wet, and he couldn't think clearly. In the end, he lost the game. Tom was very [[upset|metal|cloudy|illegal]], and he didn't talk to anyone on the bus home. That night, his grandpa, who taught him Go, said, "Don't be [[disappointed|expensive|square|wooden]]. Losing to a strong player is the best way to learn." The next day, Tom asked the science fair for a record of the game. Now he studies the AI's moves every evening. "One day I'll beat it," he says.
+> 1 比賽前覺得電腦不會像人一樣思考，所以很「有自信」confident。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的態度。
+> 2 stronger than he expected「比他預期的還強」，expect 是「預期」。arrive（抵達）、happen（發生）、die（死）都不能這樣用在 than 後面表示預期。
+> 3 feel nervous「覺得緊張」：手心冒汗、無法好好思考。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能形容心情。
+> 4 輸了棋，一路上都不說話，Tom 很「難過」upset。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能形容心情。
+> 5 Don't be disappointed.「別失望。」爺爺在安慰他。expensive（昂貴的）、square、wooden 都不能用來安慰人。
++ Go = 圍棋
++ AI = 人工智慧
++ science fair = 科學展覽
++ move = （下棋的）一步
++ beat = 打敗
+= Tom 是我們學校最會下圍棋的人。上個月，他在一場科學展覽上和一個人工智慧程式對弈。比賽前，他很有自信。「電腦沒辦法像人一樣思考。」他說。但才下了三十手，Tom 就陷入困境，人工智慧比他預期的強太多了。他開始覺得緊張，手心冒汗，沒辦法好好思考。最後他輸了這盤棋。Tom 非常難過，搭公車回家的路上都不和任何人說話。那天晚上，教他下圍棋的爺爺說：「別失望。輸給強的對手，是最好的學習方法。」隔天，Tom 向科展要了這盤棋的棋譜。現在他每天晚上都在研究人工智慧的下法。「總有一天我會打敗它。」他說。
+
+## 校外教學暈車
+Our class went on a school trip to Alishan. The bus ride was three hours long, and the mountain road had many turns. After an hour, Lisa's face became white. "I think I'm going to throw up," she said. Our teacher was [[worried|wooden|rainy|square]] about her. She asked the driver to [[stop|arrive|happen|die]] the bus for a few minutes. Lisa got off and took some deep breaths. Then a classmate gave her a piece of ginger candy. "My grandma says this helps," he said. Lisa was [[nervous|plastic|national|delicious]] about getting back on the bus, but she ate the candy and sat in the front seat. Slowly, she felt better. When we arrived, the trees were tall and the air was [[fresh|honest|polite|lonely]]. Lisa was a little [[upset|metal|cloudy|illegal]] that she had missed the singing on the bus, but she was happy to be there. Now she always brings ginger candy on trips.
+> 1 be worried about…「擔心…」：老師很擔心暈車的 Lisa。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 stop the bus「讓公車停下來」。arrive（抵達）、happen（發生）、die（死）都是不接受詞的動詞，不能接 the bus。
+> 3 be nervous about + V-ing「對做某事感到緊張」：怕再上車又不舒服。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能形容心情。
+> 4 the air was fresh「空氣很新鮮」。honest（誠實的）、polite（有禮貌的）、lonely（寂寞的）都是形容人，不能形容空氣。
+> 5 be upset that…「因為…而不開心」：錯過了車上的唱歌時間。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能形容心情。
++ Alishan = 阿里山
++ throw up = 嘔吐
++ ginger = 薑
+= 我們班去阿里山校外教學。車程有三個小時，山路有很多彎。一個小時後，Lisa 的臉變得很白。「我好像要吐了。」她說。老師很擔心她，請司機把車停下來幾分鐘。Lisa 下車深呼吸了幾次。接著一位同學給她一顆薑糖。「我阿嬤說這個有用。」他說。Lisa 對再上車感到很緊張，但她吃了糖，改坐到前面的位子。慢慢地，她覺得好多了。我們到達時，樹木高大，空氣很新鮮。Lisa 有點不開心錯過了車上的唱歌時間，但她很高興能來到這裡。現在她每次出去玩都會帶薑糖。
+
+## 阿嬤接到詐騙電話
+One afternoon, Grandma got a phone call. A man said, "This is the police. Your bank account has a problem. You need to send us your money right now." Grandma was very [[worried|wooden|rainy|square]], and her hands started to shake. The man said, "Don't tell anyone, or you'll be in trouble." Luckily, I came home from school at that [[moment|habit|weight|height]]. I saw Grandma's face and knew something was wrong. She looked so [[nervous|plastic|national|delicious]]. I took the phone and asked the man for his name and office number. He didn't answer and quickly ended the call. "That was a trick," I told Grandma. "Real police never ask for money on the phone." Grandma was [[upset|metal|cloudy|illegal]] that she almost believed him. "I'm too old and foolish," she said. I held her hand. "No, Grandma. These people are very clever. Anyone can be fooled." Later, we called the real police and [[reported|arrived|happened|died]] the call.
+> 1 聽到帳戶有問題，阿嬤非常「擔心」worried。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 at that moment「就在那時候」。habit（習慣）、weight（重量）、height（高度）都不能接在 at that 後面表示時間。
+> 3 look nervous「看起來很緊張」。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能形容人的表情。
+> 4 be upset that…「因為…而難過」：難過自己差點相信了他。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能形容心情。
+> 5 report the call「通報這通電話」，report 是「報告、通報」。arrive（抵達）、happen（發生）、die（死）都是不接受詞的動詞，不能接 the call。
++ bank account = 銀行帳戶
++ foolish = 愚蠢的
++ fool = 欺騙、愚弄
+= 一天下午，阿嬤接到一通電話。一個男人說：「這裡是警察局。你的銀行帳戶有問題，你必須馬上把錢寄給我們。」阿嬤非常擔心，手開始發抖。那個男人說：「不要告訴任何人，不然你會有麻煩。」幸好，我就在那時候放學回家。我看到阿嬤的臉，就知道出事了，她看起來好緊張。我接過電話，問那個男人叫什麼名字、辦公室電話幾號。他沒有回答，很快就掛斷了。「那是詐騙，」我告訴阿嬤，「真正的警察絕對不會在電話裡要錢。」阿嬤很難過自己差點相信了他。「我太老、太笨了。」她說。我握著她的手：「不是的，阿嬤。這些人很狡猾，任何人都可能被騙。」後來，我們打電話給真正的警察，通報了這通電話。
+
+## 帶阿公看職棒
+Grandpa loves baseball, but he had never watched a game in a stadium. For his eightieth birthday, I bought two tickets to a game in Taichung. On the way there, he was as excited as a child. But when we arrived, it started to rain. Grandpa looked [[disappointed|wooden|metal|square]]. "Maybe they will cancel the game," he said. We waited under the roof for an hour. I was [[worried|plastic|national|delicious]] that the trip was a waste. Then the rain stopped, and the players [[ran|spelled|boiled|bit]] onto the field. Everyone cheered. Grandpa's team was behind for most of the game, so he was very [[nervous|metal|cloudy|illegal]]. In the ninth inning, a young player hit a home run, and the team won! Grandpa jumped up and hugged me. On the way home, he held his ticket tightly. "I waited eighty years for this," he said. "Now I'm [[satisfied|expensive|square|wooden]]."
+> 1 一到就下雨，阿公看起來很「失望」disappointed。wooden（木製的）、metal（金屬的）、square（正方形的）都不能形容人的表情。
+> 2 be worried that…「擔心…」：擔心這趟白跑了。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能接 that 子句形容心情。
+> 3 the players ran onto the field「球員跑進球場」，run 的過去式是 ran。spelled（拼字）、boiled（煮沸）、bit（咬）都不能接 onto the field 表示移動。
+> 4 球隊一直落後，所以阿公很「緊張」nervous。metal、cloudy（多雲的）、illegal（違法的）都不能形容心情。
+> 5 等了八十年終於看到，現在心滿意足 satisfied。expensive（昂貴的）、square、wooden 都不能形容心情。
++ stadium = 體育場、球場
++ cancel = 取消
++ inning = （棒球的）局
++ home run = 全壘打
+= 阿公很愛棒球，但他從來沒有去球場看過比賽。他八十歲生日時，我買了兩張台中比賽的票。去的路上，他像小孩子一樣興奮。可是我們一到，就開始下雨了。阿公看起來很失望。「也許他們會取消比賽。」他說。我們在屋簷下等了一個小時，我很擔心這趟白跑了。後來雨停了，球員們跑進球場，大家都歡呼起來。阿公支持的球隊大半場都落後，所以他非常緊張。第九局時，一位年輕球員打出全壘打，球隊贏了！阿公跳起來抱住我。回家的路上，他緊緊握著票根。「這個我等了八十年，」他說，「現在我心滿意足了。」
+
+## 陽台上的蘭花開了
+Mom bought an orchid three years ago. It had beautiful purple flowers. But after the flowers fell, it never bloomed again. Every spring, Mom waited, and every spring, she was [[disappointed|wooden|rainy|square]]. "Maybe I should throw it away," she said. I didn't want her to give up. I read about orchids on the Internet and learned that they need a lot of [[light|voice|habit|distance]] but not too much water. So I moved the plant to our balcony and watered it only once a week. I was a little [[worried|plastic|national|delicious]] that it would die in the hot sun, but its leaves stayed green. One morning in March, I saw a small bud. I [[shouted|happened|died|arrived]] Mom's name so loudly that the neighbors heard it. Two weeks later, the flowers opened. They were even more beautiful than before. Mom took many photos and sent them to all her friends. She looked so [[satisfied|metal|cloudy|illegal]]. "You saved my orchid," she said.
+> 1 每年春天等不到花開，媽媽都很「失望」disappointed。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 need a lot of light「需要很多光線」，light 是「光」。voice（聲音）、habit（習慣）、distance（距離）都不是植物需要的東西。
+> 3 be worried that…「擔心…」：擔心它會在大太陽下死掉。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能形容心情。
+> 4 shout + 名字「大喊某人的名字」。happen（發生）、die（死）、arrive（抵達）都是不接受詞的動詞，不能接 Mom's name。
+> 5 蘭花重新開花，媽媽看起來非常「滿意」satisfied。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能形容人的表情。
++ orchid = 蘭花
++ bloom = 開花
++ balcony = 陽台
++ bud = 花苞
+= 媽媽三年前買了一盆蘭花，開著漂亮的紫色花朵。但花謝了之後，就再也沒開過。每年春天媽媽都在等，每年春天她都很失望。「也許我該把它丟掉。」她說。我不希望她放棄，就上網查了蘭花的資料，知道它們需要很多光線，但不要太多水。於是我把它搬到陽台，一星期只澆一次水。我有點擔心它會在大太陽下死掉，但它的葉子一直是綠的。三月的一個早上，我看到一個小花苞，大聲喊媽媽的名字，大聲到連鄰居都聽到了。兩個星期後，花開了，甚至比以前還漂亮。媽媽拍了好多照片，傳給她所有的朋友。她看起來好滿意。「你救了我的蘭花。」她說。
+
+## 廣播社的第一次播音
+I joined the school radio club this semester. Every morning, one student reads the news to the whole school. Last Friday was my first time. I was so [[nervous|wooden|rainy|square]] that I couldn't eat breakfast. In the radio room, I sat in front of the microphone. My [[voice|habit|weight|distance]] was shaking when I started. Then I made a big mistake. I said, "Today is Thursday." Oh no! I was very [[upset|plastic|national|delicious]], but I didn't stop. I said, "Sorry, today is Friday!" and kept reading. After the program, I was [[worried|metal|cloudy|illegal]] that everyone would laugh at me. But when I walked into my classroom, my classmates clapped. "You sounded like a real reporter," said my friend Ann. "And your mistake was funny!" Our club teacher was also [[satisfied|expensive|square|wooden]]. "You fixed it quickly. That's what good speakers do," she said.
+> 1 so nervous that…「緊張到…」：緊張到吃不下早餐。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 My voice was shaking.「我的聲音在發抖。」habit（習慣）、weight（重量）、distance（距離）都不會發抖。
+> 3 說錯星期幾，我很「懊惱」upset，但沒有停下來。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能形容心情。
+> 4 be worried that…「擔心…」：擔心大家會笑我。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能接 that 子句形容心情。
+> 5 老師對我的表現也很「滿意」satisfied，因為我很快就更正了。expensive（昂貴的）、square、wooden 都不能形容人的心情。
++ radio club = 廣播社
++ microphone = 麥克風
++ reporter = 記者、播報員
+= 這學期我參加了學校的廣播社。每天早上，都會有一位學生向全校播報新聞。上星期五是我第一次播音，我緊張到吃不下早餐。在廣播室裡，我坐在麥克風前面，一開口聲音就在發抖。接著我犯了一個大錯，我說：「今天是星期四。」糟了！我很懊惱，但沒有停下來。我說：「抱歉，今天是星期五！」然後繼續唸下去。節目結束後，我很擔心大家會笑我。但當我走進教室時，同學們都在拍手。「你聽起來像真正的播報員，」我的朋友 Ann 說，「而且你的口誤很好笑！」社團老師也很滿意。「你很快就更正了，好的講者就是這樣。」她說。
+
+## 電競比賽的斷線
+Andy and his three friends formed a team for an online game contest. They practiced every weekend for two months. On the day of the final, they were all very [[nervous|wooden|rainy|square]]. Thousands of people were watching online. The game started well, and Andy's team was winning. Then, suddenly, Andy's screen turned black. His Internet was down! His friends had to play with only three people. Andy was so [[upset|plastic|national|delicious]] that he hit the table. He tried to [[fix|arrive|happen|die]] the problem, but nothing worked. Five minutes later, his Internet came back, but the game was over. They lost. "I'm sorry," Andy said. "I let you down." His friends were [[disappointed|metal|cloudy|illegal]] too, but they didn't blame him. "It wasn't your fault," said Jerry. "Next year, we'll play at a game center with better Internet." Andy was [[glad|expensive|square|wooden]] to have such good friends.
+> 1 決賽當天、上千人在線上看，大家都很「緊張」nervous。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 so upset that…「氣到／難過到…」：氣到捶桌子。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能形容心情。
+> 3 fix the problem「解決問題」。arrive（抵達）、happen（發生）、die（死）都是不接受詞的動詞，不能接 the problem。
+> 4 輸了比賽，朋友們也很「失望」disappointed，但沒有怪他。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能形容心情。
+> 5 be glad to + 原形動詞「很高興…」：很高興有這麼好的朋友。expensive（昂貴的）、square、wooden 都不能接 to have 形容心情。
++ form = 組成
++ screen = 螢幕
++ let someone down = 讓某人失望
++ blame = 責怪
+= Andy 和三個朋友組隊參加一場線上遊戲比賽。他們連續兩個月每個週末都在練習。決賽當天，大家都非常緊張，有好幾千人在線上觀看。比賽一開始很順利，Andy 的隊伍領先。然後，Andy 的螢幕突然變黑——他斷線了！他的朋友們只好三個人打。Andy 氣到捶桌子。他想解決問題，但怎麼試都沒用。五分鐘後網路恢復了，可是比賽已經結束，他們輸了。「對不起，」Andy 說，「我讓你們失望了。」朋友們也很失望，但沒有怪他。「那不是你的錯，」Jerry 說，「明年我們去網路比較好的遊戲中心打。」Andy 很高興能有這麼好的朋友。
+
+## 等待小貓出生
+Our cat, Pudding, was going to have babies. The vet said they would be born in early May. Every day, my sister and I checked her bed. On May 3rd, Pudding stopped eating and kept walking around the house. We were very [[worried|wooden|rainy|square]]. Mom called the vet. "It's normal," the vet said. "The kittens are coming soon. Give her a quiet place and be [[patient|plastic|national|delicious]]." That night, we sat outside the room. My sister was so [[nervous|metal|cloudy|illegal]] that she held my hand the whole time. At midnight, we [[heard|arrived|happened|died]] tiny sounds. Pudding had four kittens! Two were black, one was white, and one was orange. Pudding was licking them one by one. She looked tired but [[satisfied|expensive|square|wooden]].
+> 1 布丁不吃東西、一直走來走去，我們很「擔心」worried。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 be patient「要有耐心」：小貓快出生了，等一等就好。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能用來勸人等待。
+> 3 so nervous that…「緊張到…」：緊張到一直握著我的手。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能形容心情。
+> 4 heard tiny sounds「聽到細小的聲音」，hear 的過去式是 heard。arrive（抵達）、happen（發生）、die（死）都不接受詞，不能接 tiny sounds。
+> 5 tired but satisfied「累了但很滿足」。expensive（昂貴的）、square、wooden 都不能形容貓的神情。
++ vet = 獸醫
++ kitten = 小貓
++ lick = 舔
+= 我們的貓布丁要生寶寶了。獸醫說小貓會在五月初出生。我和妹妹每天都去看她的窩。五月三日，布丁不吃東西，一直在屋子裡走來走去，我們很擔心。媽媽打電話給獸醫。「這很正常，」獸醫說，「小貓快出生了。給她一個安靜的地方，要有耐心。」那天晚上，我們坐在房間外面。妹妹緊張到一直握著我的手。半夜時，我們聽到細細的聲音。布丁生了四隻小貓！兩隻黑的、一隻白的、一隻橘的。布丁一隻一隻地舔著牠們，看起來很累，但很滿足。
+
+## 爸爸的減肥計畫
+Last month, Dad went to see the doctor. "You need to lose five kilograms," the doctor said. Dad was [[upset|wooden|rainy|square]]. He loves fried chicken and bubble tea. "How can I live without them?" he said. But Mom was [[worried|plastic|national|delicious]] about his health, so the whole family made a plan. We stopped buying sweet drinks, and we walked together in the park every evening. The first week was hard, and Dad was hungry all the time. He checked his [[weight|voice|habit|distance]] every morning, but it didn't change much. He felt [[disappointed|metal|cloudy|illegal]]. "Don't give up," my sister said. "Your body needs time." After four weeks, Dad lost three kilograms. He also slept better and had more energy. Now he is quite [[satisfied|expensive|square|wooden]] with the plan. "But I still miss fried chicken," he says.
+> 1 要戒掉炸雞和珍奶，爸爸很「不開心」upset。wooden（木製的）、rainy（下雨的）、square（正方形的）都不能形容人的心情。
+> 2 be worried about…「擔心…」：媽媽擔心他的健康。plastic（塑膠的）、national（國家的）、delicious（好吃的）都不能接 about 形容心情。
+> 3 check his weight「量體重」，weight 是「重量、體重」。voice（聲音）、habit（習慣）、distance（距離）都不是每天早上「量」了會變的東西。
+> 4 體重沒什麼變，他覺得很「失望」disappointed。metal（金屬的）、cloudy（多雲的）、illegal（違法的）都不能接在 felt 後面形容心情。
+> 5 be satisfied with the plan「對這個計畫很滿意」。expensive（昂貴的）、square、wooden 都不能形容人的心情。
++ kilogram = 公斤
++ fried chicken = 炸雞
++ bubble tea = 珍珠奶茶
+= 上個月，爸爸去看醫生。「你需要減掉五公斤。」醫生說。爸爸很不開心，他最愛炸雞和珍奶了。「沒有它們我怎麼活？」他說。但媽媽很擔心他的健康，所以全家一起訂了一個計畫：我們不再買含糖飲料，每天晚上一起去公園散步。第一個星期很辛苦，爸爸一直覺得餓。他每天早上都量體重，但數字沒什麼變化，他覺得很失望。「不要放棄，」妹妹說，「你的身體需要時間。」四個星期後，爸爸瘦了三公斤，而且睡得更好、更有精神。現在他對這個計畫相當滿意。「但我還是很想念炸雞。」他說。
