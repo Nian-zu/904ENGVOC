@@ -263,3 +263,139 @@ My mom is from Vietnam. She speaks Vietnamese and Chinese, but not much English.
 + Vietnamese = 越南語
 + certificate = 證書
 = 我媽媽來自越南。她會說越南話和中文，但英文不太會。去年，她開始去上晚上的英文課。她想把英文學好，這樣就能幫我寫作業。每天晚餐後，她都在廚房桌上背新單字。有時候她會問我某個字怎麼說，我就教她。當她的老師很好玩。她累的時候，我會鼓勵她繼續加油，就像她一直以來為我做的一樣。幾個月後，媽媽拿到了英文課的結業證書。她高興得把證書掛在客廳的牆上。上星期，她念了一本英文故事書給妹妹聽。我在旁邊聽著，才體會到她有多努力。我真的很以我媽媽為榮。
+
+## 帶轉學生回家吃飯
+A new student, Leo, joined our class this semester. He moved here from Kaohsiung and didn't know anyone. I sat next to him and showed him around the school. One Friday, I invited him to have dinner at my home. When we arrived, I [[introduced|solved|improved|explored]] him to my parents. Mom made her famous beef noodles. "Do you like spicy food?" she asked. "I [[prefer|solve|explore|improve]] food that isn't too spicy," Leo said politely. So Mom gave him a bowl of soup without chili. After dinner, Dad showed Leo his old comic books. Leo [[looked|heard|spoke|told]] at them with big eyes. "I love comics!" he said. We talked and laughed all night. Before he went home, Leo said, "Thank you. Today I [[realized|solved|improved|received]] that I'm not alone here." Mom smiled and [[encouraged|enjoyed|minded|finished]] him to come again anytime.
+> 1 introduce A to B「把 A 介紹給 B」。solved、improved、explored 都不能表示「介紹」。
+> 2 prefer + 名詞「比較喜歡…」，他比較喜歡不太辣的食物。solve（解決）、explore（探索）、improve（改善）都不能用來說口味喜好。
+> 3 look at「看著」，睜大眼睛看漫畫。heard、spoke、told 都不能和 at them 連用表示「看」。
+> 4 realize that…「明白…」。solved、improved、received 後面都不能接 that 子句表示「明白」。
+> 5 encourage + 人 + to V「鼓勵某人做…」，媽媽歡迎他隨時再來。enjoyed、minded、finished 都沒有 ___ + 人 + to V 的用法。
++ Kaohsiung = 高雄
++ beef noodles = 牛肉麵
++ spicy = 辣的
++ chili = 辣椒
+= 這學期，我們班來了一位新同學 Leo。他從高雄搬來，一個人都不認識。我坐在他旁邊，帶他認識學校。有一個星期五，我邀他來我家吃晚餐。到家後，我把他介紹給爸媽。媽媽煮了她拿手的牛肉麵。「你喜歡吃辣嗎？」她問。「我比較喜歡不太辣的，」Leo 有禮貌地說。所以媽媽給他一碗沒加辣椒的湯。晚餐後，爸爸拿出他的舊漫畫給 Leo 看。Leo 睜大眼睛看著。「我超愛漫畫！」他說。我們整晚又聊又笑。回家前，Leo 說：「謝謝你們。今天我才明白，我在這裡並不孤單。」媽媽笑著要他隨時再來玩。
+
+## 尼莫的第一次遠行
+Nemo is a little clownfish who lives in a coral reef with his dad, Marlin. Marlin always tells him, "The ocean is dangerous. Stay close to home." But Nemo is curious. He wants to [[explore|solve|receive|realize]] the big ocean. One day, he swam far away from the reef. He saw colorful fish, a huge turtle, and an old ship. Then he [[realized|solved|improved|received]] that he couldn't find his way back. He was scared and started to cry. A kind old turtle saw him and said, "Don't cry, little one. I'll [[take|spend|cost|lend]] you home." When Nemo got home, his dad was waiting with worried eyes. Nemo said sorry again and again. Marlin hugged him and said, "I [[accept|arrive|happen|exist]] your apology. Next time, let's explore the ocean together." Nemo smiled. An adventure with Dad would be [[worth|polite|honest|thirsty]] the wait.
+> 1 explore the ocean「探索大海」。solve（解決）、receive（收到）、realize（意識到）都不能接 the big ocean 表示「探險」。
+> 2 realize that…「發現…」，發現找不到回家的路。solved、improved、received 後面都不能接 that 子句表示「發現」。
+> 3 take 人 home「帶某人回家」。spend（花費）、cost（值…錢）、lend（借出）都不能接 you home。
+> 4 accept one's apology「接受某人的道歉」。arrive、happen、exist 都是不及物動詞，後面不能接受詞。
+> 5 be worth the wait「值得等待」。polite（有禮貌的）、honest（誠實的）、thirsty（口渴的）後面都不能接 the wait。
++ clownfish = 小丑魚
++ coral reef = 珊瑚礁
++ curious = 好奇的
++ apology = 道歉
++ adventure = 冒險
+= 尼莫是一條小丑魚，和爸爸馬林住在珊瑚礁裡。馬林總是對他說：「大海很危險，待在家附近。」可是尼莫很好奇，他想探索這片大海。有一天，他游得離珊瑚礁好遠。他看到五顏六色的魚、一隻巨大的海龜和一艘舊船。接著他發現自己找不到回家的路了。他很害怕，哭了起來。一隻好心的老海龜看到他，說：「別哭，小傢伙，我帶你回家。」尼莫回到家時，爸爸正擔心地等著他。尼莫一直道歉。馬林抱著他說：「我接受你的道歉。下次，我們一起去探索大海吧。」尼莫笑了。和爸爸一起冒險，值得等待。
+
+## 河濱掉鏈的腳踏車
+On Saturday, my friend Ray and I rode our bikes along the river. Halfway there, the chain on Ray's bike fell off. We didn't have any tools, and the nearest bike shop was far away. "How can we [[solve|happen|arrive|exist]] this problem?" Ray asked. I [[looked|heard|spoke|told]] for a video on my phone. It showed how to put the chain back by hand. We [[put|wore|spelled|guessed]] the chain on the small wheel first and then turned the pedal slowly. The first two times, it fell off again. But on the third try, it stayed on! It took us twenty minutes, and our hands were black. But we were so happy. "We're bike doctors now!" Ray laughed. That day, I [[realized|solved|improved|received]] that many problems have answers if you don't give up. After that, we [[encouraged|enjoyed|minded|finished]] each other to learn more about fixing bikes.
+> 1 solve a problem「解決問題」。happen、arrive、exist 都是不及物動詞，後面不能接受詞 this problem。
+> 2 look for「尋找」，用手機找影片。heard、spoke、told 都沒有 ___ for 表示「尋找」的用法。
+> 3 put A on B「把 A 裝到 B 上」，把鏈條套回齒輪。wore（穿戴）、spelled（拼字）、guessed（猜）都不能接 the chain on the small wheel。
+> 4 realize that…「明白…」。solved、improved、received 後面都不能接 that 子句表示「明白」。
+> 5 encourage + 人 + to V「鼓勵某人做…」。enjoyed、minded、finished 都沒有 ___ + 人 + to V 的用法。
++ halfway = 在半路上
++ chain = 鏈條
++ tool = 工具
++ wheel = 輪子、齒輪
++ pedal = 踏板
+= 星期六，我和朋友 Ray 沿著河邊騎腳踏車。騎到一半，Ray 的腳踏車掉鏈了。我們沒帶任何工具，最近的腳踏車店又很遠。「這個問題要怎麼解決？」Ray 問。我用手機找影片，影片教我們怎麼用手把鏈條裝回去。我們先把鏈條套在小齒輪上，再慢慢轉動踏板。前兩次鏈條又掉了，但第三次終於套住了！我們花了二十分鐘，手都黑了，但我們好開心。「我們現在是腳踏車醫生了！」Ray 笑著說。那天我明白了，只要不放棄，很多問題都有辦法解決。從那之後，我們互相鼓勵，學更多修腳踏車的方法。
+
+## 偶像的回信
+My favorite singer is a young woman named Mia. Her songs always make me feel brave. Last year, I wrote her a long letter. I told her that her songs [[encouraged|enjoyed|minded|finished]] me to be myself at school, even when some classmates laughed at me. I didn't think she would ever read it. But three months later, I [[received|solved|explored|happened]] a letter with her name on it! My hands were shaking when I opened it. "Thank you for your kind words," she wrote. "Keep [[improving|arriving|happening|existing]] yourself every day, and never stop singing." I [[put|wore|spelled|guessed]] her letter in a photo frame on my desk. Every time I feel sad or tired, I read it again. It reminds me that someone believes in me. It also reminds me that dreams are [[worth|polite|honest|thirsty]] fighting for. Maybe one day, I will meet her and say thank you in person.
+> 1 encourage + 人 + to V「鼓勵某人做…」。enjoyed、minded、finished 都沒有 ___ + 人 + to V 的用法。
+> 2 receive a letter「收到一封信」。solved（解決）、explored（探索）不能接 a letter；happened 是不及物動詞，不能接受詞。
+> 3 keep + V-ing「持續…」，improve yourself「讓自己進步」。arriving、happening、existing 都是不及物動詞，後面不能接受詞 yourself。
+> 4 put A in B「把 A 放進 B」，把信放進相框。wore（穿戴）、spelled（拼字）、guessed（猜）都不能接 her letter in a photo frame。
+> 5 be worth + V-ing「值得…」，夢想值得努力爭取。polite、honest、thirsty 後面都不能接 fighting for 表示「值得」。
++ brave = 勇敢的
++ shake = 發抖
++ frame = 框
++ remind = 提醒
++ in person = 親自
+= 我最喜歡的歌手是一位叫 Mia 的年輕女生。她的歌總是讓我覺得自己很勇敢。去年，我寫了一封長信給她，告訴她她的歌鼓勵我在學校做自己，就算有些同學嘲笑我也一樣。我沒想過她會讀到。可是三個月後，我收到一封寫著她名字的信！打開信的時候，我的手一直發抖。「謝謝你溫暖的話，」她寫道，「每天都讓自己進步一點，永遠不要停止唱歌。」我把她的信放進書桌上的相框裡。每次我難過或累的時候，就再讀一次。它提醒我，有人相信我；也提醒我，夢想值得努力去追。也許有一天，我會見到她，親口跟她說謝謝。
+
+## 我的第一場十公里路跑
+Last month, my uncle asked me to run a 10K race with him. I had never run more than three kilometers before. "I can't do it," I said. But he [[encouraged|enjoyed|minded|finished]] me to try. We practiced together every evening for four weeks. At first, I had to [[stop|hope|plan|agree]] and rest every ten minutes. But slowly, my running [[improved|solved|received|explored]]. By the end of the month, I could run eight kilometers without stopping. On the day of the race, thousands of runners were there. After seven kilometers, my legs hurt, and I wanted to give up. Then I heard people on the street cheering, "Keep going!" I [[ran|told|knew|guessed]] the last kilometer with all my energy. When I crossed the finish line, my uncle gave me a high five. I got a medal, and it was [[worth|polite|honest|thirsty]] every step.
+> 1 encourage + 人 + to V「鼓勵某人做…」。enjoyed、minded、finished 都沒有 ___ + 人 + to V 的用法。
+> 2 stop and rest「停下來休息」。hope（希望）、plan（計畫）、agree（同意）放在 had to ___ and rest 裡都說不通。
+> 3 my running improved「我的跑步進步了」，improve 可以不接受詞。solved、received、explored 後面都需要受詞，也不能用 running 當主詞。
+> 4 ran the last kilometer「跑完最後一公里」。told、knew、guessed 都不能接 the last kilometer 表示「跑」。
+> 5 be worth every step「每一步都值得」。polite（有禮貌的）、honest（誠實的）、thirsty（口渴的）後面都不能接 every step。
++ race = 賽跑
++ kilometer = 公里
++ cheer = 歡呼、加油
++ finish line = 終點線
++ medal = 獎牌
+= 上個月，舅舅找我和他一起參加十公里路跑。我以前從來沒跑超過三公里。「我做不到，」我說。但他鼓勵我試試看。我們每天傍晚一起練習，練了四個星期。一開始，我每跑十分鐘就得停下來休息。可是慢慢地，我跑步進步了。到了月底，我已經能不停地跑八公里。比賽那天，現場有好幾千名跑者。跑了七公里後，我的腿好痛，想要放棄。這時我聽到路邊的人大喊：「加油！」我用盡全力跑完最後一公里。衝過終點線時，舅舅和我擊掌。我得到一面獎牌，每一步都值得。
+
+## 輸給十歲女孩的棋賽
+I have been learning Go for three years. Last month, I joined a big Go contest. I won my first four games easily, so I thought I would win the whole contest. In the final, I played against a ten-year-old girl. She was very calm and played fast. After an hour, I [[realized|solved|improved|received]] that I was going to lose. When it was over, I wanted to cry. But my teacher told me, "Losing is part of learning. You must [[accept|arrive|happen|exist]] it." So I shook the girl's hand and said, "Good game." After the contest, she [[introduced|solved|improved|explored]] me to her coach. He gave me some advice about my weak points. Since then, I have practiced harder than ever. Now I [[prefer|enjoy|mind|finish]] to play against stronger players, because I learn more from them. My teacher says my game has [[improved|solved|received|explored]] a lot.
+> 1 realize that…「意識到…」，發現自己要輸了。solved、improved、received 後面都不能接 that 子句表示「意識到」。
+> 2 accept it「接受它（輸棋）」。arrive、happen、exist 都是不及物動詞，後面不能接受詞 it。
+> 3 introduce A to B「把 A 介紹給 B」，女孩把我介紹給她的教練。solved、improved、explored 都不能表示「介紹」。
+> 4 prefer to V「比較喜歡做…」。enjoy、mind、finish 後面要接 V-ing，不能接 to play。
+> 5 has improved「已經進步」，improve 可以不接受詞。solved、received、explored 後面都需要受詞，也不能用 my game 當主詞。
++ Go = 圍棋
++ contest = 比賽
++ final = 決賽
++ calm = 冷靜的
++ weak point = 弱點
+= 我學圍棋已經三年了。上個月，我參加了一場大型圍棋比賽。前四盤我都輕鬆贏了，所以我以為我會拿冠軍。決賽時，我的對手是一個十歲的女孩。她非常冷靜，下得又快。下了一個小時後，我意識到自己要輸了。比賽結束時，我好想哭。可是老師對我說：「輸也是學習的一部分，你必須接受它。」所以我和女孩握手，說：「下得好。」比賽後，她把我介紹給她的教練，教練給了我一些關於弱點的建議。從那之後，我比以前更努力練習。現在我比較喜歡和更強的人下棋，因為能從他們身上學到更多。老師說我的棋藝進步了很多。
+
+## 在台南找歷史
+Last spring, our class went to Tainan, the oldest city in Taiwan. Our teacher said, "Today, we will [[explore|solve|receive|realize]] the history of this city." We visited old temples and a fort built about four hundred years ago. A guide [[introduced|solved|improved|explored]] each place to us and told us many interesting stories. Some stories were about pirates, and some were about ghosts! From the guide, I [[realized|solved|improved|received]] that many different people, like the Dutch and the Chinese, once lived here. At lunch, we ate beef soup and shrimp rolls at a small old shop. My friend Sam said the beef soup alone was [[worth|polite|honest|thirsty]] the long trip. Before we left, I bought some postcards to [[bring|spend|cost|lend]] home for my family. Now, when I read about Tainan in my history book, I can see those places in my mind.
+> 1 explore the history「探索歷史」。solve（解決）、receive（收到）、realize（意識到）都不能接 the history of this city 表示「認識、探訪」。
+> 2 introduce A to B「向 B 介紹 A」，導覽員為我們介紹每個地方。solved、improved、explored 都不能表示「介紹」。
+> 3 realize that…「了解到…」。solved、improved、received 後面都不能接 that 子句表示「了解」。
+> 4 be worth + 名詞「值得…」，光是牛肉湯就值得跑這一趟。polite、honest、thirsty 後面都不能接 the long trip。
+> 5 bring A home「把 A 帶回家」。spend（花費）、cost（值…錢）、lend（借出）都不能接 home 表示「帶回家」。
++ Tainan = 台南
++ fort = 城堡、堡壘
++ pirate = 海盜
++ Dutch = 荷蘭人
++ shrimp roll = 蝦捲
+= 去年春天，我們班去了台灣最古老的城市台南。老師說：「今天我們要來探索這座城市的歷史。」我們參觀了老廟和一座大約四百年前蓋的城堡。導覽員為我們介紹每個地方，還講了很多有趣的故事，有些是關於海盜的，有些是關於鬼的！從導覽員那裡，我了解到以前有很多不同的人住在這裡，像是荷蘭人和漢人。午餐時，我們在一家老店吃牛肉湯和蝦捲。我的朋友 Sam 說光是牛肉湯就值得跑這一趟。離開前，我買了一些明信片帶回家給家人。現在，每當我在歷史課本上讀到台南，腦中就能浮現那些地方。
+
+## 弟弟的魔術表演
+My little brother, Andy, is very shy. His school was going to have a talent show, and he wanted to do a magic trick. But he was afraid. "What if I make a mistake in front of everyone?" he asked. I [[encouraged|enjoyed|minded|finished]] him to practice in front of our family first. Every night, he did his trick for us in the living room, and we clapped every time. Slowly, his skills [[improved|solved|received|explored]], and he became more confident. On the day of the show, he [[looked|heard|spoke|told]] very nervous. His face was white. But when he went on stage, he did the trick perfectly. He made a coin disappear and then found it behind the teacher's ear! Everyone cheered loudly. After the show, he [[received|solved|explored|happened]] a prize for the best act. He ran to me and said, "Thank you for believing in me!" I [[realized|solved|improved|received]] that sometimes, a little support is all someone needs.
+> 1 encourage + 人 + to V「鼓勵某人做…」。enjoyed、minded、finished 都沒有 ___ + 人 + to V 的用法。
+> 2 his skills improved「他的技巧進步了」。solved、received、explored 後面都需要受詞，也不能用 skills 當主詞。
+> 3 look + 形容詞「看起來…」，他看起來很緊張。heard、spoke、told 後面都不能直接接形容詞 nervous 來形容人。
+> 4 receive a prize「得到獎項」。solved（解決）、explored（探索）不能接 a prize；happened 是不及物動詞，不能接受詞。
+> 5 realize that…「體會到…」。solved、improved、received 後面都不能接 that 子句表示「體會」。
++ magic trick = 魔術
++ confident = 有自信的
++ stage = 舞台
++ disappear = 消失
++ support = 支持
+= 我弟弟 Andy 很害羞。他的學校要辦才藝表演，他想表演魔術，但他很害怕。「如果我在大家面前出錯怎麼辦？」他問。我鼓勵他先在家人面前練習。每天晚上，他都在客廳表演給我們看，我們每次都為他拍手。慢慢地，他的技巧進步了，也變得更有自信。表演那天，他看起來很緊張，臉色都發白了。可是一上台，他就把魔術表演得很完美。他把一枚硬幣變不見，然後從老師的耳朵後面找出來！大家大聲歡呼。表演結束後，他得到了最佳表演獎。他跑過來對我說：「謝謝你相信我！」我體會到，有時候一點點支持就是一個人最需要的。
+
+## 錯怪了同學
+Last week, my new pencil case disappeared. I [[looked|heard|spoke|told]] everywhere, but I couldn't find it. Then I saw that my classmate Tim had the same pencil case. I thought he took mine. I told my friends, and they stopped talking to him. Tim looked sad all week. The next weekend, my mom found my pencil case under the seat in our car. I suddenly [[realized|solved|improved|received]] that I was wrong. I felt terrible. Tim did nothing wrong, and I hurt him. I wanted to [[solve|happen|arrive|exist]] the problem I made, so on Monday, I said sorry to him in front of everyone. "It's OK," Tim said. "I [[accept|solve|explore|improve]] your apology." Then I [[encouraged|enjoyed|minded|finished]] my friends to talk to him again. Now Tim is part of our group. I learned a big lesson: don't judge people too quickly.
+> 1 look everywhere「到處找」。heard、spoke、told 都不能接 everywhere 表示「到處找」。
+> 2 realize that…「發現…」，發現自己錯了。solved、improved、received 後面都不能接 that 子句表示「發現」。
+> 3 solve the problem「解決問題」。happen、arrive、exist 都是不及物動詞，後面不能接受詞。
+> 4 accept one's apology「接受某人的道歉」。solve（解決）、explore（探索）、improve（改善）都不能接 your apology。
+> 5 encourage + 人 + to V「鼓勵某人做…」。enjoyed、minded、finished 都沒有 ___ + 人 + to V 的用法。
++ pencil case = 鉛筆盒
++ apology = 道歉
++ judge = 評斷
+= 上星期，我的新鉛筆盒不見了。我到處找，就是找不到。後來我看到同學 Tim 也有一個一樣的鉛筆盒，我以為是他拿了我的。我告訴我的朋友們，他們就都不跟他說話了。Tim 整個星期看起來都很難過。到了週末，媽媽在我們車子的座位底下找到我的鉛筆盒。我突然發現是我錯了，覺得好過意不去。Tim 什麼都沒做錯，我卻傷害了他。我想解決自己造成的問題，所以星期一我在大家面前向他道歉。「沒關係，」Tim 說，「我接受你的道歉。」接著我鼓勵朋友們再跟他說話。現在 Tim 也是我們這群人的一份子了。我學到了一個大教訓：不要太快評斷別人。
+
+## 三隻腳的貓
+Our family decided to get a pet. My little sister wanted a cute kitten from a pet shop, but Dad [[preferred|enjoyed|minded|finished]] to adopt one from an animal shelter. So we went to the shelter on Saturday. There were many cats, big and small, young and old. Then a white cat with only three legs walked slowly to us. She [[looked|heard|spoke|told]] at us with big green eyes. The worker said, "Her name is Snow. Nobody wants her because she has only three legs." My sister touched her head, and Snow licked her hand. At that moment, we all [[realized|solved|improved|received]] that she was the one. We [[took|spent|paid|lent]] Snow home that day. She can run and jump almost as well as other cats, and she sleeps next to my sister's bed every night. Cats like Snow need love too, and they are [[worth|polite|honest|thirsty]] every bit of it.
+> 1 prefer to V「比較想要…」，爸爸比較想去收容所領養。enjoyed、minded、finished 後面要接 V-ing，不能接 to adopt。
+> 2 look at「看著」，用綠色的大眼睛看著我們。heard、spoke、told 都不能和 at us 連用表示「看」。
+> 3 realize that…「意識到、確定…」。solved、improved、received 後面都不能接 that 子句表示「意識到」。
+> 4 take A home「把 A 帶回家」。spent（花費）、paid（付錢）、lent（借出）都不能接 Snow home。
+> 5 be worth every bit of it「值得全部的愛」。polite（有禮貌的）、honest（誠實的）、thirsty（口渴的）後面都不能接 every bit of it。
++ kitten = 小貓
++ adopt = 領養
++ shelter = 收容所
++ lick = 舔
+= 我們家決定養寵物。妹妹想從寵物店買一隻可愛的小貓，但爸爸比較想去動物收容所領養。所以星期六我們去了收容所。那裡有好多貓，有大有小，有老有少。這時，一隻只有三隻腳的白貓慢慢走向我們，用綠色的大眼睛看著我們。工作人員說：「牠叫小雪。因為牠只有三隻腳，所以都沒人要。」妹妹摸摸牠的頭，小雪舔了舔她的手。就在那一刻，我們都確定就是牠了。那天我們就把小雪帶回家。牠跑跳幾乎跟其他貓一樣好，每天晚上都睡在妹妹床邊。像小雪這樣的貓也需要愛，而牠們值得我們全部的愛。
