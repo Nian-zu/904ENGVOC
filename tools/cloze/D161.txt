@@ -120,3 +120,130 @@ My aunt owns a lunch box shop near a train station. From eleven to one, the shop
 + rude = 沒禮貌的
 + embarrassed = 不好意思的、尷尬的
 = 我阿姨在火車站附近開了一家便當店。從十一點到一點，店裡非常忙，上班族一群一群地進來，隊伍排到門外。上週六，我去店裡幫忙。一位穿西裝的男子很趕時間，看我動作慢，就大吼：「快一點！我沒那麼多時間！」我緊張到拿錯了便當。阿姨走過來很快地處理好。後來她跟我說：「好的服務就是即使客人沒禮貌，也要保持冷靜、面帶微笑。」十分鐘後，那位男子回來了，看起來有點不好意思。「不好意思，」他說，「剛才對你那麼兇，很抱歉。我開會快遲到了。」接著他買了兩塊餅乾，還送了一塊給我。
+
+## 海盜船長的寶藏
+Long ago, a pirate named Captain Red hid a box of gold [[somewhere|ago|yet|ever]] on a small island. Many people looked for it, but no one ever found it. One day, a girl named Lily found an old map in her grandpa's house. The map showed a path [[across|during|since|until]] the island to a big rock. Lily wasn't [[afraid|busy|delicious|sharp]] of the dark forest on the island, so she sailed there with her dog, Max. When they [[arrived|borrowed|wasted|invited]], they walked for hours. At last, they found the big rock. Under it was an old box. Lily opened it, but there was no gold inside—only a letter from Captain Red. It said, "The real treasure is the [[interesting|afraid|delicious|sharp]] trip you had to get here." Lily laughed. She wasn't sad at all. She had a lot of exciting stories to tell her grandpa.
+> 1 somewhere on an island「在島上的某個地方」：沒人知道確切位置。ago、yet、ever 都不能放在 hid a box of gold 後面表示地點。
+> 2 a path across the island「穿過島的小路」。during、since、until 都不能表示路從島的一邊通到另一邊。
+> 3 be afraid of + 物「害怕…」：她不怕黑森林。busy、delicious、sharp 都不能接 of the dark forest 表示害怕。
+> 4 arrive「到達」：他們到了島上之後走了好幾個小時。borrowed、wasted、invited 後面都要接受詞，這裡沒有受詞，句子不完整。
+> 5 an interesting trip「一段有趣的旅程」。afraid 不能放在名詞前面；delicious、sharp 都不能形容旅程。
++ pirate = 海盜
++ captain = 船長
++ treasure = 寶藏
++ sail = 航行
+= 很久以前，一個叫紅船長的海盜把一箱黃金藏在一座小島的某個地方。很多人都去找過，但從來沒有人找到。有一天，一個叫 Lily 的女孩在爺爺家發現了一張舊地圖，地圖上畫著一條穿過小島、通往一塊大石頭的小路。Lily 不怕島上的黑森林，於是帶著她的狗 Max 開船過去。到了島上，他們走了好幾個小時，終於找到那塊大石頭。石頭底下有一個舊箱子。Lily 打開箱子，裡面卻沒有黃金，只有一封紅船長寫的信，上面寫著：「真正的寶藏，是你來到這裡的這段有趣旅程。」Lily 笑了，她一點也不難過，因為她有好多精彩的故事可以說給爺爺聽。
+
+## 夜市裡走散的妹妹
+On Saturday night, my family went to Shilin Night Market. It was very [[busy|afraid|proud|sharp]], and there were people everywhere. While Dad was buying fried chicken, my little sister Amy disappeared. Mom's face turned white. She was [[afraid|delicious|sharp|wet]] that Amy was lost. We [[shouted|arrived|borrowed|wasted]] Amy's name again and again, but there was too much noise. Then I saw a small pink hat [[across|during|since|until]] the street, in front of a toy shop. I ran over, and there was Amy. She was looking at a toy rabbit in the window. "Amy! We were so worried!" Mom said and gave her a big hug. Amy looked at us and said, "I'm not lost. You are!" We all laughed, but nobody let go of her hand for the rest of the night. Since then, whenever we go [[somewhere|ago|yet|ever]] crowded, Amy holds my hand.
+> 1 busy「人很多的、熱鬧的」：到處都是人。afraid（害怕的）、proud（驕傲的）、sharp（尖的）都不能形容夜市人潮。
+> 2 be afraid that…「擔心、害怕…」：媽媽擔心 Amy 走丟了。delicious、sharp、wet 都不能接 that 子句表示擔心。
+> 3 shout + 名字「大喊某人的名字」。arrived、borrowed、wasted 都不能接 Amy's name 表示叫喊。
+> 4 across the street「在街的對面」：看到對街有一頂粉紅帽子。during、since、until 都不能表示位置在對面。
+> 5 go somewhere crowded「去人多的地方」：somewhere 後面可以接形容詞。ago、yet、ever 都不能放在 go 後面表示地方。
++ Shilin Night Market = 士林夜市
++ crowded = 擁擠的
+= 星期六晚上，我們全家去士林夜市。夜市非常熱鬧，到處都是人。爸爸在買雞排的時候，我妹妹 Amy 不見了。媽媽的臉都白了，她很怕 Amy 走丟了。我們一次又一次大喊 Amy 的名字，但四周實在太吵了。後來我看到對街一家玩具店前面有一頂粉紅色的小帽子。我跑過去，Amy 果然在那裡，正盯著櫥窗裡的玩具兔子看。「Amy！我們好擔心你！」媽媽說著緊緊抱住她。Amy 看著我們說：「我沒有走丟，是你們走丟了！」我們都笑了，但那天晚上接下來的時間，沒有人敢放開她的手。從那次以後，只要去人多的地方，Amy 都會牽著我的手。
+
+## 學校對面的鬆餅店
+A new waffle shop opened [[across|during|since|until]] from our school last month. The shop has a very [[interesting|afraid|wet|sharp]] name: Waffle Up! After school, it is always [[busy|afraid|delicious|sharp]] with students. The owner, Mr. Ho, is young and friendly. His [[service|excuse|village|pocket]] is fast, and he remembers what every student likes. He knows that I always order a chocolate waffle with ice cream. Last Friday, I had to clean the classroom, so I [[arrived|borrowed|wasted|bit]] at the shop late. All the chocolate waffles were sold out. I was very disappointed. Mr. Ho saw my face and said, "Wait a minute." He made a special one for me with banana and honey. "This one isn't on the menu yet," he said. It was even better than the chocolate one. Now it's my new favorite, and Mr. Ho named it "The Late Kid."
+> 1 across from + 地點「在…的對面」：鬆餅店開在學校對面。during、since、until 都不能和 from our school 組成表示位置的片語。
+> 2 an interesting name「有趣的名字」。afraid 不能放在名詞前面；wet（濕的）、sharp（尖的）都不能形容店名。
+> 3 be busy with + 人「擠滿了…」：放學後店裡總是擠滿學生。afraid、delicious、sharp 都不能接 with students 表示人多。
+> 4 service「服務」：他的服務很快。excuse（藉口）、village（村莊）、pocket（口袋）都不能接 is fast 說明老闆做事快。
+> 5 arrive at + 地點「到達」：要打掃教室，所以比較晚到店裡。borrowed、wasted、bit 都需要受詞，也不能接 at the shop 表示到達。
++ waffle = 鬆餅
++ disappointed = 失望的
++ menu = 菜單
+= 上個月，我們學校對面開了一家新的鬆餅店，店名很有趣，叫做「Waffle Up!」。放學後，店裡總是擠滿了學生。老闆何先生年輕又親切，他的服務很快，而且記得每個學生喜歡吃什麼。他知道我每次都點巧克力鬆餅加冰淇淋。上週五，我要打掃教室，所以比較晚才到店裡，結果巧克力鬆餅全賣完了。我非常失望。何老闆看到我的表情，說：「等我一下。」他特別為我做了一份香蕉蜂蜜鬆餅。「這個還沒放上菜單喔。」他說。它甚至比巧克力的還好吃。現在這是我的新最愛，何老闆還把它取名叫「遲到小孩」。
+
+## 聽不懂人話的客服機器人
+Our Internet stopped working last night, so Dad called the customer [[service|village|pocket|meal]] number. A robot voice answered. "Please tell me what you need," it said. "The Internet is down," Dad said. "Sorry, I didn't understand," said the robot. Dad tried five times. Finally, he [[shouted|arrived|borrowed|wasted]], "I want to talk to a person!" The robot said, "All our workers are [[busy|afraid|delicious|sharp]] right now. Please wait." We waited for forty minutes and listened to [[terrible|afraid|delicious|proud]] music on the phone. It was the same short song again and again. At last, a woman answered. "I'm very sorry for the wait," she said. Dad's face turned red. "[[Excuse|Burn|Waste|Bite]] me for shouting before," he said. The woman laughed. "Don't worry, sir. Everyone shouts at that robot." Ten minutes later, our Internet was working again.
+> 1 customer service「客服」：打客服電話。village（村莊）、pocket（口袋）、meal（一餐）都不能和 customer 組成可以打的電話號碼。
+> 2 shout「大吼」：試了五次都不行，爸爸大吼要找真人。arrived、borrowed、wasted 都不能接說出來的話。
+> 3 busy「忙碌的、沒空的」：所有客服人員都在忙，請稍候。afraid、delicious、sharp 都不能說明為什麼要等。
+> 4 terrible music「很難聽的音樂」：同一首短曲一直重播。afraid 不能放在名詞前面；delicious（美味的）、proud（驕傲的）都不能形容音樂。
+> 5 Excuse me for + V-ing「請原諒我…」：爸爸為剛才大吼道歉。burn、waste、bite 都不能和 me for shouting 組成道歉的話。
++ Internet = 網路
++ robot = 機器人
++ sir = 先生
+= 昨天晚上我們家的網路斷了，所以爸爸打了客服電話。接電話的是一個機器人的聲音。「請說出您需要的服務。」它說。「網路斷了。」爸爸說。「抱歉，我聽不懂。」機器人說。爸爸試了五次，最後他大吼：「我要跟真人說話！」機器人說：「目前所有客服人員都在忙線中，請稍候。」我們等了四十分鐘，一直聽電話裡超難聽的音樂，同一首短短的曲子播了一遍又一遍。終於，一位小姐接起電話。「很抱歉讓您久等了。」她說。爸爸的臉都紅了。「不好意思，我剛才用吼的。」他說。那位小姐笑了：「先生別擔心，每個人都會對那個機器人大吼。」十分鐘後，我們的網路就恢復了。
+
+## 紫斑蝶的旅行
+Every winter, millions of purple crow butterflies stay in warm valleys in southern Taiwan. In spring, they fly north [[across|during|since|until]] the island. Their trip is long and dangerous. If the weather is [[terrible|afraid|delicious|proud]], many of them die. On the way, they must also cross a [[busy|afraid|delicious|sharp]] highway in Yunlin. Fast cars can hit them. To protect them, the government closes one lane of the highway when the butterflies [[arrive|borrow|waste|invite]]. Workers also put up big nets beside the road, so the butterflies fly higher and stay safe. Some people think this is a lot of trouble. But I think it's [[interesting|afraid|wet|delicious]] that people stop their cars for such small animals. It shows that we can share the land with other living things. Next spring, my class is going to see the butterflies in Maolin.
+> 1 fly across the island「飛越整座島」：從南部往北飛過台灣。during、since、until 都不能表示從島的一端飛到另一端。
+> 2 terrible weather「很糟的天氣」：天氣不好，很多蝴蝶會死。afraid、delicious、proud 都不能形容天氣。
+> 3 a busy highway「車多的高速公路」：下一句說快車會撞到牠們。afraid 不能放在名詞前面；delicious、sharp 都不能形容公路。
+> 4 arrive「到來」：蝴蝶來的時候，政府會封閉一個車道。borrow、waste、invite 後面都要接受詞，這裡沒有受詞，句子不完整。
+> 5 It's interesting that…「…這件事很有意思」。afraid、wet、delicious 都不能放在 it's ___ that 句型裡表達作者的看法。
++ purple crow butterfly = 紫斑蝶
++ valley = 山谷
++ highway = 高速公路
++ lane = 車道
++ Maolin = 茂林
+= 每年冬天，數以百萬計的紫斑蝶會待在台灣南部溫暖的山谷裡。到了春天，牠們會往北飛越整座島。這段旅程又長又危險，如果天氣很糟，就會有很多蝴蝶死掉。途中，牠們還必須飛過雲林一段車很多的高速公路，快速行駛的車子可能會撞到牠們。為了保護牠們，蝴蝶來的時候，政府會封閉高速公路的一個車道，工作人員也會在路旁架起大網子，讓蝴蝶飛高一點、保持安全。有些人覺得這樣很麻煩，但我覺得人們願意為這麼小的動物把車停下來，是件很有意思的事。這表示我們可以和其他生物一起分享這片土地。明年春天，我們班要去茂林看紫斑蝶。
+
+## 怕蟑螂的爸爸
+My dad is big and strong, but he is [[afraid|busy|delicious|wet]] of one small thing: cockroaches. Last night, a cockroach ran [[across|during|since|until]] the kitchen floor while Dad was getting a glass of water. He jumped onto a chair and [[shouted|arrived|borrowed|wasted]], "Help! Somebody help me!" Mom was [[busy|afraid|delicious|sharp]] with the dishes, so I picked up an old newspaper and ran into the kitchen. But when I got there, the cockroach was gone. It was hiding [[somewhere|ago|yet|ever]] in the kitchen, maybe under the fridge. Dad didn't come down from the chair for ten minutes. "Is it gone? Are you sure?" he kept asking. Finally, Mom turned off the water and laughed. "You're a grown man," she said. "It's just a bug." Dad said, "A bug with six legs and wings!" Today, he bought five cockroach traps and put them all over the house.
+> 1 be afraid of + 物「害怕…」：爸爸怕蟑螂。busy、delicious、wet 都不能接 of 表示害怕。
+> 2 run across the floor「從地板上跑過去」。during、since、until 都不能接 the kitchen floor 表示經過的地方。
+> 3 shout「大叫」：爸爸跳上椅子大叫救命。arrived、borrowed、wasted 都不能接說出來的話。
+> 4 be busy with + 事「忙著…」：媽媽忙著洗碗，所以由我去打蟑螂。afraid、delicious、sharp 都不能接 with the dishes。
+> 5 somewhere in the kitchen「在廚房的某個地方」：不知道躲在哪裡，也許在冰箱下。ago、yet、ever 都不能放在 hiding 後面表示地點。
++ cockroach = 蟑螂
++ fridge = 冰箱
++ grown man = 大男人
++ trap = 陷阱、捕捉器
+= 我爸爸又高又壯，但他怕一樣小東西：蟑螂。昨天晚上，爸爸在倒水喝的時候，一隻蟑螂從廚房地板上跑過去。他跳上椅子大叫：「救命！誰來救救我！」媽媽正忙著洗碗，所以我拿起一份舊報紙衝進廚房。可是等我到的時候，蟑螂已經不見了，它躲在廚房的某個地方，可能在冰箱底下。爸爸在椅子上待了十分鐘都不敢下來，一直問：「牠走了嗎？你確定嗎？」最後媽媽關掉水龍頭笑著說：「你一個大男人，那只是一隻蟲。」爸爸說：「那是有六隻腳還有翅膀的蟲！」今天他買了五個蟑螂屋，放在家裡的各個角落。
+
+## 飛向夢幻島
+In the story Peter Pan, a boy who never grows up flies to Wendy's window one night. He wants to take Wendy and her brothers to Neverland, a magic place [[somewhere|ago|yet|ever]] far away. At first, Wendy is [[afraid|busy|delicious|sharp]] to fly. "What if I fall?" she asks. Peter laughs and says, "Just think happy thoughts!" Soon the children are flying [[across|during|since|until]] the night sky over London. They pass the tall clock tower and fly toward the stars. When they [[arrive|borrow|waste|invite]] in Neverland, they meet fairies, mermaids, and pirates. Life there is [[interesting|afraid|delicious|sharp]], and they have a lot of adventures. But after a while, Wendy starts to miss her parents. She decides to go home. Peter is sad, but Wendy has learned something important: growing up is not so bad, because there are new adventures at every age.
+> 1 somewhere far away「遙遠的某個地方」：夢幻島在很遠的地方。ago、yet、ever 都不能放在 place 和 far away 之間表示位置。
+> 2 be afraid to + V「不敢做…」：她怕會掉下去，所以不敢飛。busy、delicious、sharp 都不能接 to fly 表示不敢。
+> 3 fly across the sky「飛過天空」。during、since、until 都不能接 the night sky 表示飛行的路線。
+> 4 arrive in + 地點「到達」：到了夢幻島。borrow、waste、invite 後面都要接受詞，也不能接 in Neverland 表示到達。
+> 5 interesting「有趣的」：在那裡的生活很有趣，有很多冒險。afraid、delicious、sharp 都不能形容生活。
++ Peter Pan = 彼得潘
++ Neverland = 夢幻島
++ fairy = 小精靈、仙子
++ mermaid = 美人魚
++ adventure = 冒險
+= 在《彼得潘》的故事裡，一個永遠不會長大的男孩，某天晚上飛到溫蒂的窗邊。他想帶溫蒂和她的弟弟們去夢幻島——一個在遙遠某處的魔法國度。一開始，溫蒂不敢飛。「萬一我掉下去怎麼辦？」她問。彼得笑著說：「只要想快樂的事就好！」很快地，孩子們就飛越了倫敦的夜空。他們經過高高的鐘塔，朝著星星飛去。到了夢幻島，他們遇見了小精靈、美人魚和海盜。那裡的生活很有趣，他們經歷了好多冒險。但過了一陣子，溫蒂開始想念爸媽，她決定回家。彼得很難過，但溫蒂學到了一件重要的事：長大並沒有那麼糟，因為每個年紀都有新的冒險。
+
+## 宜蘭童玩節
+Every summer, many families go to the Children's Festival in Yilan. It is a big water park with games and shows from around the world. This year, we [[arrived|borrowed|wasted|bit]] at nine in the morning, but the park was already [[busy|afraid|delicious|sharp]]. Long lines were everywhere. My brother wanted to try the big water slide, but I was [[afraid|busy|delicious|sharp]] because it was so tall. He pulled my hand, and we went down together. I [[shouted|arrived|borrowed|wasted]] all the way down! When we hit the water at the bottom, I couldn't stop laughing. It was so much fun that we did it five more times. In the afternoon, we watched a dance show from Africa. The dancers wore colorful clothes and played big drums. It was very [[interesting|afraid|delicious|sharp]]. We went home wet, tired, and happy.
+> 1 arrive at + 時間「在…點到達」：早上九點就到了。borrowed、wasted、bit 都需要受詞，也不能表示到達。
+> 2 busy「人很多的」：已經人很多，到處都在排隊。afraid、delicious、sharp 都不能形容園區人多。
+> 3 afraid「害怕的」：滑水道太高，所以我會怕。busy、delicious、sharp 都不能和「因為滑水道很高」連在一起。
+> 4 shout「大叫」：一路尖叫滑下去。arrived、borrowed、wasted 都不能說明滑下去時的反應。
+> 5 interesting「有趣的、精彩的」：非洲舞蹈表演很精彩。afraid、delicious、sharp 都不能形容表演。
++ Yilan = 宜蘭
++ water slide = 滑水道
++ drum = 鼓
+= 每年夏天，很多家庭都會去宜蘭的童玩節。那是一座很大的水上樂園，有來自世界各地的遊戲和表演。今年我們早上九點就到了，但園區裡已經人山人海，到處都在排隊。弟弟想玩那個大滑水道，但它太高了，我很害怕。他拉著我的手，我們一起滑了下去，我一路尖叫到底！撞進底下的水池時，我笑到停不下來。實在太好玩了，我們又玩了五次。下午，我們看了一場非洲的舞蹈表演，舞者穿著色彩鮮豔的衣服，敲著大鼓，非常精彩。我們回家時全身濕答答、累壞了，但非常開心。
+
+## 星期六的送餐服務
+Every Saturday, my mom and I do volunteer [[service|excuse|village|pocket]] in our neighborhood. We bring hot meals to old people who live alone. Mom is always [[busy|afraid|delicious|sharp]] on weekdays, but she never misses a Saturday. Our first stop is Grandma Lee's house. When we [[arrive|borrow|waste|bite]], she is always waiting at the door with a big smile. She is ninety years old and can't walk well. Last winter, she had a [[terrible|afraid|delicious|sharp]] cold, and we took her to the doctor. Now she is much better. While she eats, she tells us [[interesting|afraid|wet|delicious]] stories about Taiwan seventy years ago. There were no cars on her street then, and children played in the rice fields. I used to think I was helping her. Now I know she gives me just as much as I give her.
+> 1 volunteer service「志工服務」。excuse（藉口）、village（村莊）、pocket（口袋）都不能和 do volunteer 組成做志工的意思。
+> 2 busy「忙碌的」：媽媽平日都很忙，但星期六從不缺席。afraid、delicious、sharp 都不能和後面 but 的轉折配合。
+> 3 arrive「到達」：我們一到，她總是已經在門口等。borrow、waste、bite 都需要受詞，也不能表示到達。
+> 4 a terrible cold「嚴重的感冒」：病到要帶去看醫生。afraid 不能放在名詞前面；delicious、sharp 都不能形容感冒。
+> 5 interesting stories「有趣的故事」。afraid 不能放在名詞前面；wet、delicious 都不能形容故事。
++ volunteer = 志工
++ neighborhood = 社區、鄰近地區
++ rice field = 稻田
+= 每個星期六，我和媽媽都會在社區裡做志工服務，把熱騰騰的飯菜送給獨居的老人家。媽媽平日總是很忙，但她從來沒有缺席過任何一個星期六。我們的第一站是李奶奶家。每次我們一到，她總是笑容滿面地在門口等著。她九十歲了，走路不太方便。去年冬天她得了重感冒，我們帶她去看醫生，現在她好多了。她吃飯的時候，會跟我們說七十年前台灣的有趣故事：那時候她住的街上沒有汽車，小孩子都在稻田裡玩。我以前以為是我在幫助她，現在我才知道，她給我的和我給她的一樣多。
+
+## 籃球隊長怕打針
+My brother is sixteen and the captain of his basketball team, but he is [[afraid|busy|delicious|wet]] of needles. Last week, he had to get a flu shot at the clinic. When we [[arrived|borrowed|wasted|bit]], he wanted to go home. "I have a stomachache," he said. Mom knew it was just an [[excuse|owner|office|hour]]. "Sit down," she said. The nurse was very kind. "It won't hurt much," she told him. But when the needle went in, my brother [[shouted|arrived|borrowed|wasted]], "Ouch!" Everyone in the waiting room looked at him. His face turned red. "That was [[terrible|delicious|fresh|proud]]," he said quietly. Then a little girl, about five years old, got her shot. She didn't cry at all. On her way out, she stopped in front of my brother and gave him a sticker. "You were brave too," she said. My brother still keeps that sticker on his phone.
+> 1 be afraid of + 物「害怕…」：他怕打針。busy、delicious、wet 都不能接 of needles 表示害怕。
+> 2 arrive「到達」：一到診所他就想回家。borrowed、wasted、bit 都需要受詞，句子不完整。
+> 3 just an excuse「只是藉口」：說肚子痛只是不想打針。owner（主人）、office（辦公室）、hour（小時）都不能說明「肚子痛」是什麼。
+> 4 shout「大叫」：針一打進去他就大叫「好痛！」。arrived、borrowed、wasted 都不能接說出來的話。
+> 5 terrible「很可怕的、很糟的」：他小聲說剛才太可怕了。delicious（美味的）、fresh（新鮮的）、proud（驕傲的）都不能形容打針的經驗。
++ captain = 隊長
++ needle = 針
++ flu shot = 流感疫苗
++ clinic = 診所
++ sticker = 貼紙
+= 我哥哥十六歲，是籃球隊的隊長，可是他怕打針。上週他得去診所打流感疫苗，一到診所他就想回家。「我肚子痛。」他說。媽媽知道那只是藉口。「坐下。」她說。護理師很親切，跟他說：「不會很痛的。」可是針一打進去，哥哥就大叫：「好痛！」候診室裡的每個人都看著他，他的臉都紅了。「剛剛超可怕的。」他小聲地說。接著，一個大約五歲的小女孩打了針，她一點都沒哭。她離開時在我哥哥面前停下來，送給他一張貼紙。「你也很勇敢喔。」她說。哥哥到現在還把那張貼紙貼在手機上。
