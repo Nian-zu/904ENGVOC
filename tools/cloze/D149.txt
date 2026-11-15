@@ -124,3 +124,133 @@ If I could have one of Doraemon's tools, I would choose the Anywhere Door. It is
 + ramen = 拉麵
 + Eiffel Tower = 艾菲爾鐵塔
 = 如果我能擁有一個哆啦A夢的道具，我會選任意門。它是所有道具裡最方便的。我不用早起，也不用搭公車上學，只要打開門，就能直接走進教室。我已經列好一張想去的地點清單。首先，我要去日本吃道地的拉麵；接著，我要去巴黎看艾菲爾鐵塔，它在晚上一定是很美的景象。但我媽媽說那樣很危險。「哆啦A夢的道具總是給大雄惹麻煩，」她說，「萬一有人複製了你的門，半夜走進我們家怎麼辦？」也許她說得對，但我還是想試試看，就一次也好。
+
+## 園遊會的珍奶攤
+Every December, our school has a big fair. This year, our class decided to sell bubble tea. First, we made a shopping [[list|sight|sign|joy]]: tea, milk, sugar, tapioca pearls, and cups. Amy is good at art, so she made a big [[sign|smell|taste|noise]] that said "Best Bubble Tea in School — Only 30 Dollars!" On the day of the fair, we [[filled|lent|borrowed|seemed]] two hundred cups in the morning. Our stand was right next to the school gate, so it was [[convenient|honest|lonely|afraid]] for visitors to stop by. By noon, everything was sold out. We counted the money and found we had made 5,000 dollars. "We're [[rich|wet|wooden|national]]!" Tom shouted. But our teacher reminded us that the money would go to a children's hospital. Everyone agreed it was the best way to use it.
+> 1 a shopping list「購物清單」，冒號後面列出要買的東西。sight（景象）、sign（標誌）、joy（喜悅）都不能和 shopping 搭配列出物品。
+> 2 made a big sign「做了一個大招牌」，上面寫著價錢。smell、taste、noise 都不能「寫著」字。
+> 3 filled two hundred cups「裝滿了兩百杯」。lent、borrowed 是借出、借入，意思不通；seemed 後面不能接受詞。
+> 4 it was convenient for visitors to stop by「讓客人很方便順路過來」，因為攤位就在校門旁。honest、lonely、afraid 都不能用在 it was ___ for sb. to… 這個句型表示方便。
+> 5 We're rich!「我們發財了！」，因為賺了五千元。wet（濕的）、wooden（木製的）、national（國家的）都說不通。
++ fair = 園遊會
++ tapioca pearl = 珍珠（粉圓）
++ stand = 攤位
++ sold out = 賣完
+= 每年十二月，我們學校都會舉辦一場大型園遊會。今年我們班決定賣珍珠奶茶。首先，我們列了一張購物清單：茶、牛奶、糖、珍珠和杯子。艾咪很會畫畫，所以她做了一個大招牌，上面寫著「全校最好喝的珍奶——只要三十元！」園遊會當天，我們早上就裝好了兩百杯。我們的攤位就在校門旁邊，客人很方便順路過來。到了中午，全部都賣完了。我們算了算錢，發現賺了五千元。「我們發財了！」湯姆大喊。不過老師提醒我們，這些錢要捐給兒童醫院。大家都同意這是最好的用法。
+
+## 外星人的地球日記
+Zork is an alien from the planet Blip. He came to Earth to study humans. Here is his diary. "Day 1: Humans are strange. They stand in long, [[straight|lonely|hungry|honest]] lines to buy a hot drink called 'coffee.' Day 2: Every human carries a small box with a light. They look at it all day. This little box has a strong [[influence|noise|smoke|joy]] on them. Day 3: Today I saw a red [[sign|sight|list|joy]] with the word 'STOP' on it. All the cars stopped. Humans follow the words on signs! Day 4: I tried to [[copy|arrive|seem|happen]] the way humans eat. I used two sticks, but the noodles kept falling. A little girl laughed and showed me how to do it. Humans are very [[friendly|wooden|empty|national]]. Day 5: I will stay longer. There is still so much to learn."
+> 1 long, straight lines「又長又直的隊伍」。lonely（孤單的）、hungry（餓的）、honest（誠實的）都不能形容隊伍的形狀。
+> 2 have a strong influence on「對…有很大的影響」，人類整天盯著手機。noise、smoke、joy 都不能和 have a strong ___ on them 搭配。
+> 3 a red sign「一個紅色的標誌」，上面寫著 STOP，車子都停下來。sight（景象）、list（清單）、joy（喜悅）都不是路邊的交通標誌。
+> 4 copy the way humans eat「模仿人類吃東西的方式」。arrive、seem、happen 都不能直接接受詞。
+> 5 very friendly「很友善」，小女孩笑著教他。wooden、empty、national 都不能形容人的態度。
++ alien = 外星人
++ planet = 行星
++ diary = 日記
+= 佐克是來自布利普星的外星人，他來地球研究人類。以下是他的日記。「第一天：人類很奇怪，他們會排又長又直的隊，只為了買一種叫『咖啡』的熱飲。第二天：每個人類都帶著一個會發光的小盒子，整天盯著它看。這個小盒子對他們影響很大。第三天：今天我看到一個紅色的標誌，上面寫著『STOP』，所有的車都停了下來。人類會照著標誌上的字做！第四天：我試著模仿人類吃東西的方式。我用兩根棍子，但麵條一直掉下去。一個小女孩笑了，教我怎麼用。人類非常友善。第五天：我要再待久一點，還有好多東西要學。」
+
+## 賽車遊戲的祕密
+My brother and I love playing a racing game called Speed Kings. The tracks are full of turns, but the last part of the final track is a long, [[straight|honest|hungry|afraid]] road. Last night, we had a race. My brother was in first place, and I was right behind him. Before the final road, I saw a [[sign|smell|taste|joy]] on the side: "Turbo Ahead." I pressed the button, and my car flew past his. I won! My brother couldn't believe it. "How did you know about the turbo?" he asked. I told him I had watched a video of the world champion. "I just [[copied|arrived|seemed|died]] what he did." After that, my brother made a [[list|sight|smoke|noise]] of videos to watch. Now our room is [[filled|lent|borrowed|seemed]] with the sounds of racing cars every night, and Mom isn't happy about it.
+> 1 a long, straight road「一條又長又直的路」，和前面的彎道（turns）相反。honest、hungry 不能形容道路；afraid 不能放在名詞前面。
+> 2 saw a sign on the side「看到路邊的標誌」，冒號後面是標誌上的字。smell（氣味）、taste（味道）、joy（喜悅）都不能用眼睛看到、寫著字。
+> 3 copied what he did「模仿他的做法」。arrived、seemed、died 都不能接受詞 what he did。
+> 4 made a list of videos「列了一張影片清單」。sight、smoke、noise 都不能用來列出影片。
+> 5 be filled with the sounds「充滿…的聲音」。lent、borrowed 不能和 with 搭配；seemed 不能放在 is 後面。
++ racing = 賽車
++ track = 賽道
++ turbo = 渦輪加速
++ champion = 冠軍
+= 我和哥哥很愛玩一款叫《極速之王》的賽車遊戲。賽道上有很多彎，但最後一條賽道的終點前是一條又長又直的路。昨天晚上我們比了一場。哥哥跑第一，我緊跟在後。到最後那條直路之前，我看到路邊有一個標誌：「前方有加速器」。我按下按鈕，我的車就飛快地超過了他。我贏了！哥哥不敢相信。「你怎麼知道有加速器？」他問。我告訴他，我看過世界冠軍的影片。「我只是模仿他的做法而已。」在那之後，哥哥列了一張要看的影片清單。現在我們房間每天晚上都充滿了賽車的聲音，媽媽很不高興。
+
+## 爺爺的老相機
+Grandpa has an old camera. It is older than my dad. His photo albums are [[filled|lent|borrowed|seemed]] with pictures he took with it. Last weekend, he showed me how to use it. "This camera doesn't have a screen," he said. "You can't see the photo right away." I was surprised. "Then how do you know if the picture is good?" He laughed. "You just wait and hope." We walked to the river near his house. The sunset was a beautiful [[sight|habit|grade|topic]]. I took ten photos. A week later, we picked up the photos from the shop. Only three of them were good, but I loved them. I made a [[copy|noise|smell|joy]] of the best one for my mom. Grandpa's old camera has [[influenced|arrived|happened|seemed]] me. Now I don't take hundreds of photos with my phone. I take a few and think about each one. Then Grandpa gave me a [[list|sight|smoke|noise]] of places he took photos of when he was young. We plan to visit them together.
+> 1 be filled with pictures「裝滿照片」。lent、borrowed 不能和 with 搭配；seemed 不能放在 are 後面。
+> 2 a beautiful sight「美麗的景象」，指河邊的夕陽。habit（習慣）、grade（成績）、topic（主題）都不能形容夕陽。
+> 3 made a copy of the best one「把最好的那張加洗一份」，copy 是名詞「複本」。noise、smell、joy 都不能「加洗」給媽媽。
+> 4 has influenced me「影響了我」，後面說我現在拍照的習慣改變了。arrived、happened、seemed 都不能直接接受詞 me。
+> 5 a list of places「一張地點清單」。sight、smoke、noise 都不能列出地點。
++ photo album = 相簿
++ screen = 螢幕
++ sunset = 夕陽
+= 爺爺有一台老相機，比我爸爸的年紀還大。他的相簿裡裝滿了用它拍的照片。上週末，他教我怎麼用。「這台相機沒有螢幕，」他說，「你沒辦法馬上看到照片。」我很驚訝。「那你怎麼知道照片拍得好不好？」他笑了：「就等著、希望它拍得好。」我們走到他家附近的河邊，夕陽美極了。我拍了十張。一週後，我們去店裡拿洗好的照片，只有三張拍得好，但我很喜歡。我把最好的那張多洗一份給媽媽。爺爺的老相機影響了我。現在我不再用手機拍幾百張照片，而是只拍幾張，好好思考每一張。後來爺爺給了我一張清單，上面是他年輕時拍過照的地方。我們打算一起去看看。
+
+## 手語社的新朋友
+This semester, I joined the sign language club. At first, I joined only because my best friend did, but soon I really liked it. Our teacher, Ms. Hsu, can't hear. She is very [[friendly|wooden|empty|national]] and patient. "In sign language, your hands, your face, and your eyes all talk," she told us through a helper. First, we learned how to [[sign|arrive|seem|happen]] "hello" and "thank you." We had to [[copy|cry|lie|die]] her hand movements again and again. Last month, we visited a school for deaf children. I was nervous, but the kids were happy to see us. A little boy signed to me, "Your signing is funny." We both laughed. Learning sign language has [[influenced|arrived|happened|seemed]] me a lot. Now I have a [[list|sight|smoke|noise]] of new words to learn every week. I want to be a sign language teacher one day.
+> 1 very friendly and patient「很友善又有耐心」。wooden（木製的）、empty（空的）、national（國家的）都不能形容老師的個性。
+> 2 sign "hello"「用手語比『你好』」，sign 當動詞是「打手語」。arrive、seem、happen 都不能接受詞。
+> 3 copy her hand movements「模仿她的手部動作」。cry、lie、die 都不能接受詞 movements。
+> 4 has influenced me「影響了我」，後面說我想當手語老師。arrived、happened、seemed 都不能直接接受詞 me。
+> 5 a list of new words「一張生字清單」。sight、smoke、noise 都不能列出單字。
++ sign language = 手語
++ semester = 學期
++ patient = 有耐心的
++ deaf = 聽障的
++ movement = 動作
+= 這學期我參加了手語社。一開始，我只是因為好朋友參加才跟著加入，但很快我就真的喜歡上了。我們的老師徐老師聽不見，她非常友善又有耐心。「在手語裡，你的手、你的臉和你的眼睛都會說話。」她透過一位助手告訴我們。首先，我們學怎麼用手語比「你好」和「謝謝」，我們必須一次又一次地模仿她的手部動作。上個月，我們去拜訪一所聽障兒童的學校。我很緊張，但孩子們很高興見到我們。一個小男孩用手語跟我說：「你比的手語好好笑。」我們兩個都笑了。學手語對我影響很大。現在我每週都有一張要學的新單字清單，我希望將來能當手語老師。
+
+## 颱風來襲前的超市
+The news said a strong typhoon was coming. Mom made a shopping [[list|sight|sign|joy]], and we went to the supermarket. The store was crowded. People's carts were [[filled|lent|borrowed|seemed]] with instant noodles, bread, and bottled water. On the door, there was a [[sign|sight|smoke|joy]]: "Each family can buy only two boxes of water." We got what we needed and went [[straight|ago|seldom|ever]] home because the wind was getting stronger. That night, the power went out. We sat around a candle and played cards. My little sister said, "This is fun! It's like camping." Life in a city is usually very [[convenient|hungry|honest|afraid]], but a typhoon reminds us that we can live with less, too.
+> 1 a shopping list「購物清單」。sight（景象）、sign（標誌）、joy（喜悅）都不能和 shopping 搭配表示要買的東西。
+> 2 be filled with「裝滿…」，推車裡裝滿泡麵、麵包和瓶裝水。lent、borrowed 不能和 with 搭配；seemed 不能放在 were 後面。
+> 3 a sign on the door「門上的告示」，冒號後面是告示內容。sight、smoke、joy 都不能寫著規定貼在門上。
+> 4 went straight home「直接回家」。ago 要放在時間後面；seldom 要放在動詞前面；ever 不能這樣修飾 went home。
+> 5 very convenient「很方便」，和後面「颱風提醒我們少一點東西也能過」形成對比。hungry、honest、afraid 都不能形容城市生活。
++ typhoon = 颱風
++ crowded = 擁擠的
++ instant noodles = 泡麵
++ candle = 蠟燭
++ camping = 露營
+= 新聞說有一個強烈颱風要來了。媽媽列了一張購物清單，我們就去了超市。店裡擠滿了人，大家的推車裡都裝滿了泡麵、麵包和瓶裝水。門上有一張告示：「每戶限購兩箱水。」我們買好需要的東西，就直接回家了，因為風越來越大。那天晚上停電了，我們圍著一根蠟燭玩撲克牌。妹妹說：「好好玩！好像在露營喔。」城市生活通常很方便，但颱風提醒我們，少一點東西也能過得很好。
+
+## 近視的煩惱
+Last year, I couldn't see the words on the blackboard clearly, so I had to [[copy|cry|lie|die]] my classmate's notes after every class. My mom took me to an eye doctor. After the test, the doctor said, "Your [[sight|sign|list|noise]] is getting worse. You need glasses." He asked me how much time I spent on my phone each day. I told him the truth: six hours. He shook his head. "Phones have a big [[influence|noise|smoke|joy]] on your eyes. Rest your eyes every thirty minutes, and look at something green far away." He also said I should sit up [[straight|ago|seldom|such]] when I read. Now I wear glasses, and I can read every [[sign|sight|joy|habit]] on the street again! I also put my phone away after dinner. My eyes feel much better.
+> 1 copy my classmate's notes「抄同學的筆記」，因為看不清楚黑板。cry、lie、die 都不能接受詞 notes。
+> 2 Your sight is getting worse.「你的視力越來越差」，sight 在這裡是「視力」。sign（標誌）、list（清單）、noise（噪音）都說不通。
+> 3 have a big influence on「對…有很大的影響」。noise、smoke、joy 都不能這樣搭配。
+> 4 sit up straight「坐直」。ago 要放在時間後面；seldom 要放在動詞前面；such 後面要接名詞。
+> 5 read every sign on the street「看得清街上每個招牌」。sight、joy、habit 都不能「讀」。
++ blackboard = 黑板
++ glasses = 眼鏡
+= 去年，我看不清楚黑板上的字，所以每節下課都得抄同學的筆記。媽媽帶我去看眼科醫生。檢查後，醫生說：「你的視力越來越差，需要戴眼鏡了。」他問我每天花多少時間用手機，我說了實話：六個小時。他搖搖頭：「手機對你的眼睛影響很大。每三十分鐘要讓眼睛休息，看看遠方綠色的東西。」他還說我看書時要坐直。現在我戴上了眼鏡，又能看清街上每一個招牌了！我也在晚餐後把手機收起來，眼睛感覺好多了。
+
+## 蜘蛛人的好鄰居
+In the movies, Spider-Man is a hero who saves the city. But in his own neighborhood, Peter Parker is just a [[friendly|wooden|empty|national]] boy who helps old ladies carry their bags. He isn't [[rich|wet|sharp|empty]]. He lives in a small apartment with his aunt, and he has to work part-time to pay for things. I think that's why I like him more than other heroes. He shows us that you don't need money to do good things. When he sees someone in trouble, he goes [[straight|ago|seldom|such]] to help. His uncle taught him that strong people must use their power to help others. These words had a big [[influence|noise|smoke|joy]] on Peter. After watching the movie, I made a [[list|sight|smoke|noise]] of small things I can do to help people, too: carry my neighbor's bags, pick up trash, and smile at strangers. Maybe I can be a hero in my own way.
+> 1 a friendly boy「一個友善的男孩」，會幫老太太提東西。wooden（木製的）、empty（空的）、national（國家的）都不能形容人。
+> 2 He isn't rich.「他不有錢」，後面說他住小公寓、要打工。wet、sharp、empty 都和後面的內容接不上。
+> 3 goes straight to help「立刻去幫忙」。ago 要放在時間後面；seldom 要放在動詞前面；such 後面要接名詞。
+> 4 had a big influence on Peter「對彼得影響很大」。noise、smoke、joy 都不能這樣搭配。
+> 5 made a list of small things「列了一張小事清單」，冒號後面列出可以做的事。sight、smoke、noise 都不能列出事情。
++ Spider-Man = 蜘蛛人
++ neighborhood = 社區
++ apartment = 公寓
++ part-time = 兼職、打工
+= 在電影裡，蜘蛛人是拯救城市的英雄。但在他自己住的社區裡，彼得．帕克只是一個會幫老太太提袋子的友善男孩。他並不有錢，和嬸嬸住在一間小公寓裡，還得打工賺錢。我想這就是我比較喜歡他、勝過其他英雄的原因。他讓我們知道，做好事不需要錢。他看到有人遇到麻煩，就會馬上去幫忙。他的叔叔教他：有力量的人一定要用力量去幫助別人。這些話對彼得影響很大。看完電影後，我也列了一張自己能幫助別人的小事清單：幫鄰居提袋子、撿垃圾、對陌生人微笑。也許我也能用自己的方式當個英雄。
+
+## 吃到飽的教訓
+My family went to an all-you-can-eat buffet for Dad's birthday. I was so excited that I didn't eat lunch. When we got there, I [[filled|lent|borrowed|seemed]] my plate with fried chicken, pizza, and sushi. The food was very [[rich|wet|sharp|empty]] and oily, but I kept eating. Then my sister saw a [[sign|sight|joy|habit]] on the wall: "Please don't waste food. Extra charge for leftovers." So I had to finish everything on my plate. After the fourth plate, I felt sick. I couldn't even sit up [[straight|ago|seldom|such]]. On the way home, Mom said, "It's not about how much you eat. It's about enjoying the food." Next time, I will [[copy|cry|lie|die]] my mom: take small amounts and eat slowly.
+> 1 filled my plate with「把盤子裝滿…」。lent、borrowed 不能和 with 搭配；seemed 後面不能接受詞。
+> 2 rich food「油膩、濃郁的食物」，rich 形容食物時是「油膩、口味重」，和 oily 一起用。wet（濕的）、sharp（尖銳的）、empty（空的）都不能這樣形容炸雞和披薩。
+> 3 saw a sign on the wall「看到牆上的告示」，冒號後面是內容。sight、joy、habit 都不能貼在牆上、寫著規定。
+> 4 sit up straight「坐直」，吃太撐連坐直都沒辦法。ago 要放在時間後面；seldom 要放在動詞前面；such 後面要接名詞。
+> 5 copy my mom「學媽媽的做法」，冒號後面說明怎麼學。cry、lie、die 都不能接受詞 my mom。
++ all-you-can-eat buffet = 吃到飽自助餐
++ oily = 油膩的
++ extra charge = 額外收費
++ leftovers = 剩菜
++ amount = 份量
+= 為了慶祝爸爸生日，我們全家去吃到飽自助餐。我太興奮了，連午餐都沒吃。到了之後，我把盤子裝滿了炸雞、披薩和壽司。食物又油又膩，但我一直吃。後來妹妹看到牆上有一張告示：「請勿浪費食物，剩菜將額外收費。」所以我只好把盤子裡的東西全部吃完。吃到第四盤時，我覺得很不舒服，連坐直都沒辦法。回家路上，媽媽說：「重點不是吃多少，而是好好享受食物。」下次，我要學媽媽：每樣拿一點，慢慢吃。
+
+## 夜市套圈圈
+Every Friday night, the night market near my house is [[filled|lent|borrowed|seemed]] with people. My favorite game there is ring toss. You throw rings at bottles, and if a ring falls over a bottle, you win a prize. The owner of the stand is a [[friendly|wooden|empty|national]] man named Uncle Lu. On his stand, there is a [[list|sight|smoke|noise]] of prizes: a teddy bear, a toy car, and a giant Pikachu. I always want the Pikachu, but it's the hardest one to win. Last week, Uncle Lu gave me a tip. "Don't throw too hard. Stand [[straight|ago|seldom|such]] and throw gently." I tried it, and the ring fell right over the bottle! The people around me clapped. It wasn't [[convenient|honest|hungry|afraid]] to carry a giant Pikachu home on my bike, but I was the happiest kid in the world.
+> 1 be filled with people「擠滿了人」。lent、borrowed 不能和 with 搭配；seemed 不能放在 is 後面。
+> 2 a friendly man「一位友善的人」，還教我訣竅。wooden（木製的）、empty（空的）、national（國家的）都不能形容人。
+> 3 a list of prizes「一張獎品清單」，冒號後面列出獎品。sight（景象）、smoke（煙）、noise（噪音）都不能列出獎品。
+> 4 stand straight「站直」。ago 要放在時間後面；seldom 要放在動詞前面；such 後面要接名詞。
+> 5 It wasn't convenient to…「…並不方便」，騎腳踏車載巨大的皮卡丘當然不方便。honest、hungry、afraid 都不能用在 It wasn't ___ to carry… 這個句型。
++ ring toss = 套圈圈
++ giant = 巨大的
++ tip = 訣竅
++ gently = 輕輕地
++ Pikachu = 皮卡丘
+= 每個星期五晚上，我家附近的夜市都擠滿了人。我最喜歡的遊戲是套圈圈：把圈圈丟向瓶子，只要圈圈套住瓶子就能贏得獎品。攤位老闆是一位很友善的人，叫做盧伯伯。他的攤位上有一張獎品清單：泰迪熊、玩具車，還有一隻巨大的皮卡丘。我一直想要那隻皮卡丘，但它是最難贏的。上星期，盧伯伯給了我一個訣竅：「不要丟太用力，站直，輕輕地丟。」我試了一下，圈圈剛好套住了瓶子！旁邊的人都拍手。騎腳踏車載一隻巨大的皮卡丘回家並不方便，但我是世界上最快樂的孩子。
