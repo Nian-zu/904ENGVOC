@@ -247,3 +247,131 @@ My brother is sixteen and the captain of his basketball team, but he is [[afraid
 + clinic = 診所
 + sticker = 貼紙
 = 我哥哥十六歲，是籃球隊的隊長，可是他怕打針。上週他得去診所打流感疫苗，一到診所他就想回家。「我肚子痛。」他說。媽媽知道那只是藉口。「坐下。」她說。護理師很親切，跟他說：「不會很痛的。」可是針一打進去，哥哥就大叫：「好痛！」候診室裡的每個人都看著他，他的臉都紅了。「剛剛超可怕的。」他小聲地說。接著，一個大約五歲的小女孩打了針，她一點都沒哭。她離開時在我哥哥面前停下來，送給他一張貼紙。「你也很勇敢喔。」她說。哥哥到現在還把那張貼紙貼在手機上。
+
+## 雪地裡的狗狗大賽
+In Alaska, there is a famous dog sled race every March. Teams of dogs pull sleds [[across|during|since|until]] more than 1,600 kilometers of snow and ice. The weather is often [[terrible|afraid|delicious|proud]]. Strong winds and heavy snow can make it hard to see anything. The drivers can't use a steering wheel, so they [[shout|arrive|borrow|waste]] simple words to the dogs, like "Gee!" for right and "Haw!" for left. The dogs are not [[afraid|busy|delicious|sharp]] of the cold. They have thick fur, and they love to run. The drivers take good care of them. They check the dogs' feet every day and give them warm food. The first team usually [[arrives|borrows|wastes|invites]] in the town of Nome after about nine days. When they do, the whole town comes out to cheer, and the dogs get the biggest dinner of their lives.
+> 1 pull sleds across the snow「拉著雪橇越過雪地」。during、since、until 都不能接一段距離表示經過的範圍。
+> 2 terrible「很糟的」：常常風大雪大，天氣很差。afraid、delicious、proud 都不能形容天氣。
+> 3 shout words to the dogs「對狗喊口令」：不能用方向盤，只能用喊的。arrive、borrow、waste 都不能接 words to the dogs 表示下指令。
+> 4 be afraid of + 物「害怕…」：狗不怕冷，因為毛很厚。busy、delicious、sharp 都不能接 of the cold 表示害怕。
+> 5 arrive in + 地點「到達」：第一隊大約九天後抵達。borrows、wastes、invites 後面都要接受詞，也不能接 in the town 表示到達。
++ Alaska = 阿拉斯加
++ sled = 雪橇
++ steering wheel = 方向盤
++ fur = 毛皮
++ Nome = 諾姆（地名）
+= 在阿拉斯加，每年三月都有一場有名的雪橇犬大賽。一隊隊的狗拉著雪橇，越過一千六百多公里的冰天雪地。那裡的天氣常常很糟，強風和大雪會讓人什麼都看不清楚。駕駛沒有方向盤可以用，所以他們會對狗大喊簡單的口令，例如「Gee！」是右轉，「Haw！」是左轉。這些狗不怕冷，牠們的毛很厚，而且很愛奔跑。駕駛也把牠們照顧得很好，每天檢查狗的腳掌，給牠們吃熱騰騰的食物。第一名的隊伍通常大約九天後抵達諾姆鎮。這時候全鎮的人都會出來歡呼，狗狗們也會吃到這輩子最豐盛的一頓晚餐。
+
+## 辛巴的回家路
+In The Lion King, young Simba lives with his father, Mufasa, the king of the lions. Mufasa tells Simba never to go to the dark place [[across|during|since|until]] the river. But Simba is curious, and he is not [[afraid|busy|delicious|sharp]] of anything. He goes there with his friend Nala and almost gets hurt. Later, after a [[terrible|afraid|delicious|proud]] accident, Simba loses his father. His uncle Scar tells him it is his fault. Simba is so sad that he runs away. He wants to hide [[somewhere|ago|yet|ever]] far from home. He makes new friends, a meerkat and a warthog, and he forgets about his family for many years. Then one day, Nala finds him. She [[shouts|arrives|borrows|wastes]], "Simba, you have to come home! We need you!" At last, Simba understands that he can't run from the past. He goes home and becomes a brave king like his father.
+> 1 the place across the river「河對岸的地方」。during、since、until 都不能表示位置在河的另一邊。
+> 2 be afraid of + 物「害怕…」：辛巴好奇又什麼都不怕。busy、delicious、sharp 都不能接 of anything 表示害怕。
+> 3 a terrible accident「一場可怕的意外」：意外中失去父親。afraid 不能放在名詞前面；delicious、proud 都不能形容意外。
+> 4 somewhere far from home「離家很遠的某個地方」。ago、yet、ever 都不能放在 hide 後面表示地點。
+> 5 shout「大喊」：娜娜大喊要辛巴回家。arrives、borrows、wastes 都不能接說出來的話。
++ The Lion King = 《獅子王》
++ curious = 好奇的
++ fault = 錯
++ meerkat = 狐獴
++ warthog = 疣豬
+= 在《獅子王》裡，小辛巴和爸爸木法沙住在一起，木法沙是獅子們的國王。木法沙告訴辛巴，千萬不要去河對岸那個黑暗的地方。但辛巴很好奇，而且天不怕地不怕。他和朋友娜娜跑去那裡，差點受傷。後來，在一場可怕的意外中，辛巴失去了爸爸。他的叔叔刀疤告訴他，那都是他的錯。辛巴難過得逃走了，他想躲到離家很遠的地方。他交了新朋友——一隻狐獴和一隻疣豬，很多年都把家人忘了。直到有一天，娜娜找到了他。她大喊：「辛巴，你必須回家！我們需要你！」辛巴終於明白，他不能一直逃避過去。他回到家，成為一位像爸爸一樣勇敢的國王。
+
+## 第一次住飯店
+For my birthday, my parents took me to a nice hotel in Taichung. When we [[arrived|borrowed|wasted|bit]], a man opened the car door and carried our bags for us. The [[service|excuse|village|pocket]] was so good that I felt like a movie star. Our room was on the twentieth floor, and we could see the whole city at night. The next morning, we went down for breakfast. The breakfast room was very [[busy|afraid|delicious|sharp]], and we waited ten minutes for a table. There were [[interesting|afraid|proud|angry]] foods from many countries, like Japanese miso soup, Indian curry, and French cheese. I wanted to try everything. I took a big plate and walked [[across|during|since|until]] the room to get some sushi. On the way back, my plate was so full that a waiter had to help me. Mom laughed and said, "Remember, you can go back again. The food won't run away."
+> 1 arrive「到達」：一到飯店就有人幫忙開車門、拿行李。borrowed、wasted、bit 都需要受詞，句子不完整。
+> 2 service「服務」：服務好到讓我覺得自己像電影明星。excuse（藉口）、village（村莊）、pocket（口袋）都不能說明飯店對客人的照顧。
+> 3 busy「人很多的」：要等十分鐘才有位子。afraid、delicious、sharp 都不能說明為什麼要等位子。
+> 4 interesting foods「有趣的食物」：各國不同的料理。afraid 不能放在名詞前面；proud、angry 都不能形容食物。
+> 5 walk across the room「走過整個餐廳」。during、since、until 都不能接 the room 表示走過的地方。
++ Taichung = 台中
++ miso soup = 味噌湯
++ curry = 咖哩
++ sushi = 壽司
++ waiter = 服務生
+= 我生日的時候，爸媽帶我去住台中一家很棒的飯店。我們一到，就有一位先生幫我們開車門、提行李。服務好到讓我覺得自己像個電影明星。我們的房間在二十樓，晚上可以看到整座城市的夜景。隔天早上，我們下樓吃早餐。早餐廳裡人很多，我們等了十分鐘才有位子。那裡有來自各國的有趣食物，像是日本的味噌湯、印度咖哩和法國起司。我每一樣都想吃。我拿了一個大盤子，走過整個餐廳去拿壽司。回來的路上，我的盤子裝得太滿，還得請一位服務生幫我。媽媽笑著說：「別忘了你可以再去拿，食物不會跑掉的。」
+
+## 運動會的加油團
+On sports day, our class's job was to cheer for our relay runners. We made big signs and practiced cheering songs for a whole week. Everyone was [[busy|afraid|delicious|sharp]] after school, cutting paper and painting signs. On the day of the race, we [[arrived|borrowed|wasted|bit]] at the field at seven in the morning. When the relay started, we [[shouted|arrived|borrowed|wasted]] as loudly as we could. Our last runner, Jay, got the baton in third place. He looked very tired. Then he heard us singing his name. He ran faster and faster and passed two runners. He ran [[across|during|since|until]] the finish line first! We all jumped and hugged each other. Jay said, "I heard you. You gave me wings." Our voices were [[terrible|delicious|wet|proud]] the next day, and we could only whisper in class. But we didn't care. It was the best sports day ever.
+> 1 busy「忙碌的」：放學後大家忙著剪紙、畫看板。afraid、delicious、sharp 都不能接 cutting paper 說明在忙什麼。
+> 2 arrive at + 地點「到達」：早上七點就到操場。borrowed、wasted、bit 都需要受詞，也不能接 at the field 表示到達。
+> 3 shout「大喊」：比賽開始，我們用最大的聲音加油。arrived、borrowed、wasted 都不能和 as loudly as we could 搭配表示喊叫。
+> 4 run across the finish line「衝過終點線」。during、since、until 都不能接 the finish line 表示越過。
+> 5 terrible「很糟的」：喊到隔天聲音沙啞，只能小聲說話。delicious、wet、proud 都不能形容聲音沙啞。
++ relay = 接力賽
++ baton = 接力棒
++ finish line = 終點線
++ whisper = 小聲說話
+= 運動會那天，我們班的任務是幫大隊接力的選手加油。我們做了大看板，還練了整整一個禮拜的加油歌。那陣子放學後大家都很忙，剪紙、畫看板。比賽當天，我們早上七點就到了操場。接力一開始，我們就用最大的聲音大喊加油。我們的最後一棒 Jay 接到棒子時是第三名，他看起來很累。接著他聽到我們在唱他的名字，就越跑越快，超過了兩個人，第一個衝過終點線！我們全都跳起來互相擁抱。Jay 說：「我聽到你們了，你們讓我長出了翅膀。」隔天我們的聲音都啞得很慘，上課只能用氣音說話。但我們一點也不在乎，那是史上最棒的運動會。
+
+## 外婆的眼鏡不見了
+My grandma is always looking for her glasses. Yesterday, she said, "I put them [[somewhere|ago|yet|ever]] this morning, but I can't remember where." Everyone else was [[busy|afraid|delicious|sharp]]. Mom was cooking dinner, and Dad was working on his computer. So I helped her. We looked under the sofa, in the kitchen, and even in the fridge. No glasses. "This is [[terrible|delicious|wet|proud]]," Grandma said. "I can't read my newspaper or watch my TV show." Then my little brother came home from soccer practice. He looked at Grandma and [[shouted|arrived|borrowed|wasted]], "Grandma! They're on your head!" We all started laughing. Her glasses were on top of her head the whole time. "[[Excuse|Burn|Waste|Bite]] me, everyone," Grandma said with a smile. "I don't need new glasses. I need new eyes!" Then she sat down, put on her glasses, and opened her newspaper.
+> 1 put them somewhere「把它們放在某個地方」：記不得放哪裡。ago、yet、ever 都不能接在 put them 後面表示地方。
+> 2 busy「忙碌的」：媽媽在煮飯、爸爸在工作，大家都在忙。afraid、delicious、sharp 都不能和後面說明的事配合。
+> 3 terrible「糟糕的」：找不到眼鏡，不能看報紙和電視。delicious（美味的）、wet（濕的）、proud（驕傲的）都不能表達這種困擾。
+> 4 shout「大叫」：弟弟大叫「在你頭上！」。arrived、borrowed、wasted 都不能接說出來的話。
+> 5 Excuse me.「不好意思」：麻煩大家找半天，外婆笑著說不好意思。burn、waste、bite 都不能和 me 組成禮貌用語。
++ glasses = 眼鏡
++ newspaper = 報紙
+= 我外婆老是在找她的眼鏡。昨天她說：「我今天早上把眼鏡放在某個地方，可是想不起來放哪裡了。」其他人都很忙，媽媽在煮晚餐，爸爸在用電腦工作，所以我來幫她找。我們找了沙發底下、廚房，連冰箱裡都找了，就是沒有眼鏡。「這下糟了，」外婆說，「我不能看報紙，也不能看我的電視節目了。」後來我弟弟練完足球回家，他看著外婆大叫：「外婆！眼鏡在你頭上啦！」我們全都笑了出來，原來她的眼鏡一直都在頭頂上。「不好意思啊，各位，」外婆笑著說，「我不需要新眼鏡，我需要新眼睛！」然後她坐下來，戴上眼鏡，打開了報紙。
+
+## 空服員阿姨
+My aunt is a flight attendant. She flies [[across|during|since|until]] the Pacific Ocean almost every week. Many people think her job is fun, but it is hard work. On long flights, she is [[busy|afraid|delicious|sharp]] for twelve hours. She serves meals, helps sick passengers, and answers hundreds of questions. She says good [[service|excuse|village|pocket]] starts with a smile. Once, the weather was [[terrible|afraid|delicious|proud]] over the ocean, and the plane shook a lot. A little boy was [[afraid|delicious|sharp|wet]] and started to cry. My aunt sat next to him and told him stories about the places she has visited. She also showed him how to draw a plane. Soon he stopped crying. When the plane landed safely, the boy gave her his drawing. It said, "Thank you, Sky Teacher." She keeps it in her bag on every flight.
+> 1 fly across the ocean「飛越大洋」。during、since、until 都不能接 the Pacific Ocean 表示飛過的地方。
+> 2 busy「忙碌的」：長途航班要忙十二個小時，下一句列出她做的事。afraid、delicious、sharp 都不能說明工作很辛苦。
+> 3 good service「好的服務」：好的服務從微笑開始。excuse（藉口）、village（村莊）、pocket（口袋）都不能接 starts with a smile。
+> 4 terrible「很糟的」：天氣不好，飛機晃得很厲害。afraid、delicious、proud 都不能形容天氣。
+> 5 afraid「害怕的」：小男孩害怕得哭了。delicious、sharp、wet 都不能說明他為什麼哭。
++ flight attendant = 空服員
++ Pacific Ocean = 太平洋
++ passenger = 乘客
++ land = 降落
+= 我阿姨是一位空服員，她幾乎每個禮拜都要飛越太平洋。很多人以為她的工作很好玩，但其實很辛苦。長途航班上，她要忙十二個小時：送餐、照顧身體不舒服的乘客，還要回答好幾百個問題。她說，好的服務從微笑開始。有一次，海上的天氣很糟，飛機晃得很厲害。一個小男孩嚇得哭了起來。阿姨坐到他旁邊，跟他說她去過的地方的故事，還教他怎麼畫飛機。不久他就不哭了。飛機平安降落時，男孩把他的畫送給阿姨，上面寫著：「謝謝你，天空老師。」現在她每次飛行都把這張畫放在包包裡。
+
+## 小熊維尼找蜂蜜
+Winnie the Pooh is a bear who loves honey more than anything. One morning, his honey pot was empty. "There must be honey [[somewhere|ago|yet|ever]] in the forest," he said. He asked his friend Rabbit for help, but Rabbit was too [[busy|afraid|delicious|sharp]] with his garden. So Pooh went with Piglet. Piglet is very small, and he is [[afraid|busy|delicious|sharp]] of almost everything. "What if we meet a big, scary animal?" he asked. "Then I'll hold your hand," said Pooh. They walked [[across|during|since|until]] a little wooden bridge and found a tall tree full of bees. Pooh climbed up, but the bees were not happy. They chased him, and he fell into a bush. Piglet helped him up, and they walked away slowly. Later, they [[arrived|borrowed|wasted|bit]] at Owl's house. Owl smiled and gave them a big pot of honey. "Next time, just ask me first," Owl said.
+> 1 somewhere in the forest「在森林裡的某個地方」。ago、yet、ever 都不能放在 honey 和 in the forest 之間表示地點。
+> 2 too busy with + 事「忙著…而沒空」：兔子忙著照顧菜園，沒空幫忙。afraid、delicious、sharp 都不能接 with his garden。
+> 3 be afraid of + 物「害怕…」：小豬幾乎什麼都怕。busy、delicious、sharp 都不能接 of almost everything 表示害怕。
+> 4 walk across a bridge「走過橋」。during、since、until 都不能接 a bridge 表示走過的地方。
+> 5 arrive at + 地點「到達」：後來到了貓頭鷹家。borrowed、wasted、bit 都需要受詞，也不能接 at Owl's house 表示到達。
++ Winnie the Pooh = 小熊維尼
++ Piglet = 小豬
++ Owl = 貓頭鷹（角色名）
++ bush = 灌木叢
+= 小熊維尼是一隻最愛蜂蜜的熊。有一天早上，他的蜂蜜罐空了。「森林裡一定有某個地方有蜂蜜。」他說。他找朋友兔子幫忙，但兔子忙著照顧菜園，沒空陪他。所以維尼找了小豬一起去。小豬個子很小，幾乎什麼都怕。「要是我們遇到又大又可怕的動物怎麼辦？」他問。「那我就牽著你的手。」維尼說。他們走過一座小木橋，找到一棵滿是蜜蜂的大樹。維尼爬了上去，但蜜蜂很不高興，追著他跑，他就掉進了灌木叢裡。小豬把他扶起來，他們慢慢地走開。後來，他們到了貓頭鷹家。貓頭鷹笑著給了他們一大罐蜂蜜。「下次先問我就好啦。」貓頭鷹說。
+
+## 爸爸的手機關機日
+My dad works at a tech company, and he is always [[busy|afraid|delicious|sharp]]. He often comes home after ten, and he answers emails even on weekends. Last month, he missed my piano show. "I'm so sorry. I had a [[terrible|afraid|delicious|sharp]] day at work," he said. I said it was OK, but I was sad. I didn't want to hear another [[excuse|village|pocket|size]]. Then, one Saturday morning, Dad turned off his phone and put it in a drawer. "Let's go [[somewhere|ago|yet|ever]] fun today," he said. "Just you and me." We rode bikes along the river and ate ice cream under a big tree. He told me [[interesting|afraid|wet|delicious]] stories about his school days. He was once so bad at math that he cried in class! I laughed so hard. Now we have a "phone-off day" once a month. It's my favorite day of the month.
+> 1 busy「忙碌的」：常十點後才回家，週末也要回信。afraid、delicious、sharp 都不能說明爸爸的工作狀況。
+> 2 a terrible day「很糟的一天」：工作上很不順。afraid 不能放在名詞前面；delicious、sharp 都不能形容一天。
+> 3 another excuse「又一個藉口」：不想再聽爸爸的理由。village（村莊）、pocket（口袋）、size（尺寸）都不能說明聽到的理由。
+> 4 go somewhere fun「去好玩的地方」：somewhere 後面可以接形容詞。ago、yet、ever 都不能放在 go 後面表示地方。
+> 5 interesting stories「有趣的故事」。afraid 不能放在名詞前面；wet、delicious 都不能形容故事。
++ tech company = 科技公司
++ drawer = 抽屜
+= 我爸爸在一家科技公司上班，他總是很忙，常常十點後才回家，連週末也要回電子郵件。上個月，他錯過了我的鋼琴表演。「真的很抱歉，我今天工作很不順。」他說。我說沒關係，但我很難過，我不想再聽到另一個藉口。後來，某個星期六早上，爸爸把手機關機，放進抽屜裡。「我們今天去個好玩的地方吧，」他說，「就你跟我。」我們沿著河邊騎腳踏車，在一棵大樹下吃冰淇淋。他跟我說了很多他學生時代的有趣故事——他以前數學爛到曾經在課堂上哭出來！我笑到不行。現在我們每個月都有一天「手機關機日」，那是我每個月最喜歡的一天。
+
+## 誤點的火車
+Last Sunday, we took a train to Hualien to visit Grandpa. The train was supposed to [[arrive|borrow|waste|bite]] at noon. But there was a [[terrible|afraid|delicious|proud]] storm, and the train stopped between two small stations. We waited and waited. It was a holiday, so the train was very [[busy|afraid|delicious|sharp]], and many people had to stand. A baby started crying, and a tired man [[shouted|arrived|borrowed|wasted]] at the train worker, "When are we going to move?" But the worker stayed calm. She gave everyone a bottle of water and said sorry many times. Her [[service|excuse|village|pocket]] was so kind that the man said sorry to her later. Finally, the train started again. We got to Hualien three hours late. Grandpa was waiting at the station with a big bag of mochi. "I thought you'd be hungry," he said.
+> 1 be supposed to arrive「應該到達」：火車原定中午到。borrow、waste、bite 都不能說明火車什麼時候到站。
+> 2 a terrible storm「可怕的暴風雨」：所以火車停下來了。afraid 不能放在名詞前面；delicious、proud 都不能形容暴風雨。
+> 3 busy「擁擠的」：連假人多，很多人只能站著。afraid、delicious、sharp 都不能形容車廂人多。
+> 4 shout at + 人「對某人大吼」：男子不耐煩地對站務員大吼。arrived、borrowed、wasted 都不能接 at the train worker 表示大吼。
+> 5 service「服務」：她的服務很親切，讓那位男子後來也道歉了。excuse（藉口）、village（村莊）、pocket（口袋）都不能形容她對乘客的態度。
++ Hualien = 花蓮
++ station = 車站
++ mochi = 麻糬
+= 上週日，我們搭火車去花蓮看爺爺。火車原本應該中午到，但遇上了一場很大的暴風雨，火車停在兩個小站之間。我們等了又等。那天是連假，車上非常擠，很多人只能站著。一個小嬰兒開始哭，一位很累的男士對列車人員大吼：「到底什麼時候才要開？」但那位列車人員很冷靜，她給每個人一瓶水，一次又一次地道歉。她的服務態度非常親切，那位男士後來也跟她說了對不起。終於，火車又開動了。我們晚了三個小時才到花蓮。爺爺拿著一大袋麻糬在車站等我們。「我想你們一定餓了。」他說。
+
+## 隔壁班的大聲公
+There is a boy in the class next to ours, and everyone calls him Big Voice. He doesn't really talk. He [[shouts|arrives|borrows|wastes]]. Even when he says "Good morning," you can hear him [[across|during|since|until]] the whole school. At first, many younger students were [[afraid|busy|delicious|sharp]] of him. They thought he was angry all the time. But one day, during a fire drill, the school speaker broke. The teachers didn't know what to do, and students were walking in every direction. It was a [[terrible|afraid|delicious|sharp]] moment. Then Big Voice stood on a chair and told everyone where to go. Every student heard him clearly. When the principal [[arrived|borrowed|wasted|bit]], all the students were already standing safely on the field. The principal shook his hand and said, "Thank you. We don't need a new speaker. We have you!"
+> 1 shout「大喊」：他不是在說話，而是用喊的。arrives、borrows、wastes 都不能和前一句「他其實不太說話」形成對比。
+> 2 across the whole school「整個學校都…」：連說早安全校都聽得到。during、since、until 都不能接 the whole school 表示聲音傳到的範圍。
+> 3 be afraid of + 人「害怕…」：學弟妹以為他總是在生氣，所以怕他。busy、delicious、sharp 都不能接 of him 表示害怕。
+> 4 a terrible moment「很糟糕的時刻」：廣播壞了，大家亂走。afraid 不能放在名詞前面；delicious、sharp 都不能形容時刻。
+> 5 arrive「到達」：校長到的時候學生都已經在操場上了。borrowed、wasted、bit 都需要受詞，句子不完整。
++ fire drill = 消防演習
++ speaker = 擴音器、喇叭
++ direction = 方向
++ principal = 校長
+= 隔壁班有一個男生，大家都叫他「大聲公」。他其實不太說話——他用喊的。就連他說「早安」，全校都聽得到。一開始，很多學弟妹都很怕他，以為他一直在生氣。但有一天消防演習的時候，學校的廣播壞了。老師們不知道該怎麼辦，學生們往四面八方亂走，情況非常糟。這時大聲公站上一張椅子，告訴大家該往哪裡走，每個學生都聽得清清楚楚。校長趕到的時候，所有學生都已經安全地站在操場上了。校長跟他握手說：「謝謝你。我們不用買新的廣播器了，我們有你就好！」
