@@ -232,3 +232,124 @@ It was a hot summer day in Arendelle. Anna wanted to take her sister Elsa to the
 + castle = 城堡
 + slid = 滑行（slide 的過去式）
 = 艾倫戴爾的一個炎熱夏日，安娜想帶姊姊艾莎去海灘，可是海灘離城堡很遠。「我們騎腳踏車去吧！」安娜說。艾莎從來沒騎過腳踏車，她跌倒了一次又一次。「這是個錯誤。」她說，想要回家了。安娜扶著她的腳踏車後面：「別放棄，我來帶路，你跟著我就好。」艾莎又試了一次。這次她用了魔法，把前面的路變成冰，她的腳踏車一路滑下山坡！安娜只好一路追著她跑。等她們終於到了海灘，艾莎笑個不停：「騎得太棒了！我們明天再騎一次吧！」
+
+## 莫阿娜教表弟航海
+Moana loves the ocean more than anything. One morning, her little cousin Keo asked, "Can you teach me to sail?" Moana smiled. "Sure! But the sea is not a game. If you make a [[mistake|ticket|museum|language]] out there, it can be dangerous." They got into a small boat. Moana showed Keo how to hold the sail and how to feel the wind. "At night, look at the stars. They will [[lead|die|pray|count]] you home," she said. Keo learned fast. After an hour, he was sailing all by himself. He was so happy that he went a little too [[far|ago|once|ever]]. Suddenly, a big wave hit the boat, and Keo fell into the water. He was very [[scared|delicious|national|modern]]. Moana swam to him quickly and [[pulled|prayed|died|counted]] him back into the boat. "Thank you," Keo said, still shaking. "Next time, I will stay close to you."
+> 1 make a mistake「犯錯」：在海上犯錯可能很危險。ticket（票）、museum（博物館）、language（語言）都不能和 make 搭配表示這個意思。
+> 2 lead you home「帶你回家」：星星會為你指引回家的路。die、pray 不能接受詞；count you home 說不通。
+> 3 go too far「走（划）得太遠」。ago、once、ever 都不能放在 too 後面表示距離。
+> 4 掉進海裡當然很害怕，scared「害怕的」。delicious（美味的）、national（國家的）、modern（現代的）都不能形容人的心情。
+> 5 pull … back into the boat「把…拉回船上」。prayed、died 不能接受詞；counted him back 說不通。
++ Moana = 莫阿娜（迪士尼電影角色）
++ cousin = 表（堂）兄弟姊妹
++ sail = 航行；帆
++ wave = 海浪
+= 莫阿娜最愛大海了。一天早上，她的小表弟 Keo 問：「你可以教我航海嗎？」莫阿娜笑著說：「當然！但大海不是遊戲。在海上犯錯可能會很危險。」他們坐上一艘小船。莫阿娜教 Keo 怎麼握帆、怎麼感覺風向。「晚上就看星星，它們會帶你回家。」她說。Keo 學得很快，一個小時後就能自己駕船了。他開心得划得有點太遠。突然，一個大浪打上船，Keo 掉進了水裡。他非常害怕。莫阿娜很快游過去，把他拉回船上。「謝謝你。」Keo 一邊發抖一邊說，「下次我會待在你旁邊。」
+
+## 最後一分鐘的籃球賽
+Our class was playing basketball against Class 905. With one minute left, we were [[ahead|ago|once|ever]] by three points. Everyone was shouting. Then 905's best player got the ball and shot from very [[far|ago|seldom|almost]] away. It went in! Now the score was the same. We had only ten seconds. Our coach called a time-out. "Don't worry," he said. "Jack, you [[lead|die|pray|marry]] the team. Pass the ball to the open player." Jack ran down the court, and everyone followed him. With two seconds left, he passed to me. I shot... and missed! But Ben caught the ball and put it in. We won! The [[whole|afraid|alone|asleep]] class ran onto the court. I felt bad about my miss, but Jack patted my back. "Everyone makes [[mistakes|tickets|museums|languages]]," he said. "That is why we play as a team."
+> 1 be ahead by three points「領先三分」。ago、once、ever 都不能放在 were 後面表示領先。
+> 2 from very far away「從很遠的地方」：遠距離投籃。ago、seldom、almost 都不能接 away 表示距離。
+> 3 lead the team「帶領球隊」。die、pray 不能接受詞；marry the team 不合理。
+> 4 the whole class「全班」。afraid、alone、asleep 不能放在名詞前面。
+> 5 Everyone makes mistakes.「每個人都會犯錯。」tickets（票）、museums（博物館）、languages（語言）都不能和 make 搭配表示投籃失誤。
++ coach = 教練
++ time-out = 暫停
++ court = 球場
+= 我們班在和 905 班比籃球。剩下一分鐘時，我們領先三分，大家都在大喊。接著 905 班最厲害的球員拿到球，從很遠的地方出手。進了！比數變成平手。我們只剩十秒。教練叫了暫停：「別擔心，Jack，你帶領球隊，把球傳給沒人防守的人。」Jack 帶球往前衝，大家都跟著他。剩兩秒時，他把球傳給我。我出手……沒進！可是 Ben 接到球，放了進去。我們贏了！全班都衝進球場。我對自己沒投進覺得很難過，但 Jack 拍拍我的背：「每個人都會犯錯，所以我們才要一起打球啊。」
+
+## 少一片的拼圖
+For his birthday, Max got a puzzle with one thousand pieces. It was a picture of a castle under the stars. He spent the [[whole|afraid|alone|asleep]] weekend on it. On Sunday night, he was almost done. But there was a hole in the sky—one piece was missing! Max [[counted|prayed|died|led]] the pieces in the box again. Nothing. He looked under the table and the sofa. Nothing. "Maybe the factory made a [[mistake|ticket|museum|language]]," he thought. Then his little sister came in. She was holding something blue in her hand. "Is this yours? I found it in my shoe!" Max laughed and put the last piece in. The picture was [[wonderful|afraid|angry|hungry]]. He was so happy that he took a photo of it. Then he [[carried|prayed|died|led]] it carefully to his room and put it on the wall.
+> 1 the whole weekend「整個週末」。afraid、alone、asleep 不能放在名詞前面。
+> 2 count the pieces「數拼圖片」，看是不是少了一片。prayed、died 不能接受詞；led the pieces「帶領拼圖片」不合理。
+> 3 make a mistake「出錯」：也許是工廠出錯，少放了一片。ticket（票）、museum（博物館）、language（語言）都說不通。
+> 4 The picture was wonderful.「這幅圖好美。」afraid（害怕的）、angry（生氣的）、hungry（餓的）只能形容人或動物，不能形容圖畫。
+> 5 carry … to his room「把…拿到他房間」。prayed、died 不能接受詞；led it to his room「帶領拼圖」不合理。
++ puzzle = 拼圖
++ castle = 城堡
++ factory = 工廠
+= Max 生日時收到一盒一千片的拼圖，圖案是星空下的一座城堡。他花了整個週末拼它。星期天晚上，他快拼完了，可是天空的地方有個洞——少了一片！Max 又把盒子裡的拼圖片數了一遍，沒有。他看了桌子底下、沙發底下，都沒有。「也許是工廠出錯了。」他想。這時妹妹走進來，手裡拿著一個藍色的東西：「這是你的嗎？我在我的鞋子裡找到的！」Max 笑了，把最後一片放進去。這幅圖好美，他開心得拍了一張照片，然後小心地把它拿到房間掛在牆上。
+
+## 外公的象棋課
+Every Sunday, I play Chinese chess with my grandpa. He has played for sixty years, and he always says, "In chess, you must think [[ahead|ago|almost|ever]]. Good players do not only look at this move. They think about the next three or four." Last week, I made a big [[mistake|ticket|museum|language]] and lost my horse in the first ten minutes. I wanted to give up, but Grandpa said, "The game is not over. Do not [[worry|marry|borrow|collect]] about one piece." So I played carefully for the [[whole|afraid|alone|asleep]] hour. In the end, I did not win, but Grandpa won by only a little. He smiled and said, "You have come so [[far|ago|once|ever]] this year. One day, you will beat me." I can't wait for that day.
+> 1 think ahead「事先想好、往前多想幾步」。ago、almost、ever 都不能放在 think 後面表示「往前想」。
+> 2 make a mistake「犯錯」：一開始就丟了馬。ticket（票）、museum（博物館）、language（語言）都不能這樣用。
+> 3 worry about…「擔心…」：不要為一顆棋子擔心。marry、borrow、collect 都不能接 about。
+> 4 the whole hour「一整個小時」。afraid、alone、asleep 不能放在名詞前面。
+> 5 You have come so far.「你進步了好多。」come far 表示「有很大的進步」。ago、once、ever 都不能這樣用。
++ Chinese chess = 象棋
++ move = （下棋的）一步
++ beat = 打敗
+= 每個星期天，我都和外公下象棋。他已經下了六十年，總是說：「下棋一定要先想好後面幾步。厲害的人不是只看這一步，而是想到接下來的三、四步。」上星期，我犯了一個大錯，前十分鐘就被吃掉一隻馬。我想放棄，但外公說：「棋還沒下完，別為了一顆棋子擔心。」於是我小心地下了一整個小時。最後我沒有贏，但外公只贏了一點點。他笑著說：「你今年進步好多，總有一天你會打敗我。」我好期待那一天。
+
+## 拍了十次的畢業照
+Today our [[whole|afraid|alone|asleep]] class took a graduation photo in front of the school. The photographer stood [[far|ago|almost|ever]] away so he could get all thirty of us in the picture. "Ready? I will [[count|pray|die|lead]] to three," he said. "One, two, three!" Just then, Peter sneezed. "Again!" said the photographer. The second time, Amy closed her eyes. The third time, a bird flew in front of the camera. Our teacher laughed. "This is going to take all morning!" The sun was hot, and everyone was getting tired of smiling. Finally, the tenth photo was perfect. Everyone was smiling, even our teacher. "That is a [[wonderful|terrible|dirty|stupid]] picture," the photographer said. Years from now, when we look at this photo, we will [[remember|borrow|marry|arrive]] this funny morning.
+> 1 our whole class「我們全班」。afraid、alone、asleep 不能放在名詞前面。
+> 2 far away「遠遠地」：攝影師站得很遠才拍得到三十個人。ago、almost、ever 都不能接 away 表示距離。
+> 3 count to three「數到三」，後面接著「一、二、三！」。pray、die、lead 都不能接 to three 這樣用。
+> 4 照片很完美、大家都在笑，所以是 wonderful「很棒的」。terrible、dirty、stupid 都和 perfect 矛盾。
+> 5 remember this funny morning「記得這個好笑的早上」。borrow（借）、marry（結婚）、arrive（到達）都不能這樣接。
++ graduation = 畢業
++ photographer = 攝影師
++ sneeze = 打噴嚏
+= 今天我們全班在學校前面拍畢業照。攝影師站得遠遠的，才能把我們三十個人都拍進去。「準備好了嗎？我數到三。」他說，「一、二、三！」就在那時，Peter 打了個噴嚏。「再一次！」攝影師說。第二次，Amy 閉上了眼睛。第三次，一隻鳥從相機前飛過。老師笑著說：「這樣要拍一整個早上了！」太陽好大，大家都笑得累了。終於，第十張照片很完美，每個人都在笑，連老師也是。「這張照片拍得真好。」攝影師說。很多年以後，我們看到這張照片，一定會想起這個好笑的早上。
+
+## 坐反方向的公車
+On Saturday, Ivy and her friend Nina wanted to go to Taipei Zoo. They got on a bus and chatted the [[whole|afraid|alone|asleep]] time. After forty minutes, Nina looked out of the window. "Wait, where are we? I do not see any animals." Ivy checked the map on her phone. "Oh no! This bus is going the other way!" Now they were very [[far|ago|almost|ever]] from the zoo. "It was my [[mistake|ticket|museum|language]]," Ivy said. "I did not read the bus number carefully." They got off and asked an old man for help. He was very kind and [[led|died|prayed|counted]] them to the right bus stop. Two hours later, they finally arrived at the zoo. They had only one hour left, but they still had a [[wonderful|afraid|angry|hungry]] time with the pandas.
+> 1 the whole time「整段時間、一路上」。afraid、alone、asleep 不能放在名詞前面。
+> 2 very far from…「離…很遠」。ago、almost、ever 都不能接 from 表示距離。
+> 3 It was my mistake.「是我的錯。」她沒看清楚公車號碼。ticket（票）、museum（博物館）、language（語言）放在這裡都不合理。
+> 4 lead + 人 + to + 地點「帶某人到某處」。died、prayed 不能接受詞；counted them to the bus stop 說不通。
+> 5 have a wonderful time「玩得很愉快」。afraid、angry、hungry 不能放在 time 前面形容「時光」。
++ panda = 貓熊
+= 星期六，Ivy 和朋友 Nina 想去台北市立動物園。她們上了公車，一路聊個不停。四十分鐘後，Nina 看向窗外：「等等，我們在哪裡？我沒看到任何動物。」Ivy 看了手機上的地圖：「糟了！這班公車開往反方向！」現在她們離動物園很遠了。「是我的錯，」Ivy 說，「我沒有看清楚公車號碼。」她們下車向一位老先生求助。他很親切，帶她們走到正確的公車站。兩個小時後，她們終於到了動物園。雖然只剩一個小時，她們還是和貓熊度過了愉快的時光。
+
+## 被澆死的仙人掌
+I thought cactuses were the easiest plants in the world. So I bought a small one for my desk. I loved it so much that I watered it every day. But after two weeks, it turned soft and yellow. "Is it going to [[die|lead|count|carry]]?" I asked my mom. "You gave it too much water," she said. "That is a common [[mistake|ticket|museum|language]]. Cactuses come from dry places. They can live without water for a long time." I felt [[terrible|delicious|national|modern]]. I loved my cactus, but I almost killed it! I moved it near the window and did not water it for a [[whole|afraid|alone|asleep]] month. Slowly, it got better and turned green again. Now I [[count|pray|die|lead]] the days on my calendar and give it water only once every three weeks.
+> 1 die「死掉」：仙人掌變軟變黃，擔心它會死。lead、count、carry 都是及物動詞，後面要有受詞。
+> 2 a common mistake「常見的錯誤」：澆太多水是很多人會犯的錯。ticket（票）、museum（博物館）、language（語言）都說不通。
+> 3 felt terrible「覺得很難過、很糟」：差點害死自己喜歡的植物。delicious（美味的）、national（國家的）、modern（現代的）都不能形容心情。
+> 4 a whole month「整整一個月」。afraid、alone、asleep 不能放在名詞前面。
+> 5 count the days「數日子」：在月曆上數天數。pray、die 不能接受詞；lead the days 不合理。
++ cactus = 仙人掌（複數 cactuses）
++ calendar = 月曆
+= 我以為仙人掌是世界上最好養的植物，所以買了一小盆放在書桌上。我太喜歡它了，每天都幫它澆水。可是兩個星期後，它變得又軟又黃。「它會死掉嗎？」我問媽媽。「你給它太多水了，」她說，「這是很常見的錯誤。仙人掌來自乾燥的地方，很久不喝水也能活。」我覺得好難過——我那麼喜歡它，卻差點害死它！我把它搬到窗邊，整整一個月都沒有澆水。它慢慢好起來，又變回綠色了。現在我會在月曆上數日子，每三個星期才澆一次水。
+
+## 跟著媽祖走
+Every spring, thousands of people in Taiwan walk with Mazu, the goddess of the sea. Last year, my uncle took me to join them. Some people [[carried|prayed|died|counted]] a big chair with Mazu inside, and others walked behind them. A team with drums and lions [[led|died|prayed|counted]] the way. We walked for the [[whole|afraid|alone|asleep]] day, and my legs hurt so much. Along the road, people gave us free water, bread, and fruit. Some old people knelt on the ground and [[prayed|carried|led|counted]] when Mazu passed by. In the evening, I was very tired, but I felt happy. "Why do people walk so [[far|ago|once|ever]]?" I asked my uncle. "To say thank you," he said. "Mazu takes care of us all year, so we walk with her for a few days."
+> 1 carry a big chair「扛著大轎子」。prayed、died 不能接受詞；counted a big chair 說不通。
+> 2 lead the way「在前面帶路」：鑼鼓和舞獅隊走在最前面。died、prayed 不能接受詞；counted the way 不是片語。
+> 3 the whole day「一整天」。afraid、alone、asleep 不能放在名詞前面。
+> 4 knelt and prayed「跪下祈禱」：媽祖經過時信徒跪拜。carried、led 後面需要受詞；counted 在這裡也說不通。
+> 5 walk so far「走這麼遠」。ago、once、ever 都不能用 so 修飾表示距離。
++ Mazu = 媽祖
++ goddess = 女神
++ drum = 鼓
++ knelt = 跪下（kneel 的過去式）
+= 每年春天，台灣都有成千上萬的人跟著海上女神媽祖一起走。去年，舅舅帶我去參加。有些人扛著坐著媽祖的大轎子，其他人走在後面。一支有鑼鼓和舞獅的隊伍在前面帶路。我們走了一整天，我的腳好痛。路邊的人送我們免費的水、麵包和水果。媽祖經過的時候，有些老人家跪在地上祈禱。到了傍晚，我很累，但心裡很快樂。「大家為什麼要走這麼遠？」我問舅舅。「為了說謝謝，」他說，「媽祖一整年都照顧我們，所以我們陪她走幾天。」
+
+## 太空站寄來的信
+Dear Lily,
+I miss you so much. I am writing to you from the space station. Earth is very [[far|ago|once|ever]] from here—about four hundred kilometers. From my window, I can see the [[whole|afraid|alone|asleep]] island of Taiwan. It looks like a small green leaf in the blue sea. Space is [[wonderful|afraid|angry|hungry]]. I can see sixteen sunrises every day! But life here is not easy. Everything floats, so I must be careful. Yesterday I made a [[mistake|ticket|museum|language]]: I opened a bag of rice too fast, and it flew all over the room! Every night before I sleep, I [[count|pray|die|lead]] the days until I come home. Only thirty-two more days. Please be good and help Dad at home.
+Love, Mom
+> 1 very far from…「離…很遠」。ago、once、ever 都不能接 from here 表示距離。
+> 2 the whole island「整座島」。afraid、alone、asleep 不能放在名詞前面。
+> 3 Space is wonderful.「太空好美妙。」後面舉例一天能看十六次日出。afraid、angry、hungry 只能形容人或動物，不能形容太空。
+> 4 make a mistake「犯錯」：打開米袋太快，米飛得到處都是。ticket（票）、museum（博物館）、language（語言）都說不通。
+> 5 count the days until…「數著日子等到…」。pray、die 不能接受詞；lead the days 不合理。
++ space station = 太空站
++ sunrise = 日出
++ float = 漂浮
+= 親愛的 Lily：我好想你。我在太空站寫信給你。地球離這裡很遠，大約四百公里。從窗戶，我可以看到整座台灣島，它看起來像藍色大海裡的一片小綠葉。太空好美妙，我每天可以看到十六次日出！但這裡的生活不容易。所有東西都會漂浮，所以我必須很小心。昨天我犯了一個錯：我打開米袋太快，米飛得整個房間都是！每天晚上睡前，我都數著還有幾天能回家。只剩三十二天了。要乖乖的，在家幫爸爸的忙喔。愛你的媽媽
+
+## 被導航帶進稻田
+Dad trusts his GPS more than anything. Last Sunday, we drove to Tainan to visit my aunt. "Turn right at the next corner," the GPS said. Dad turned right. "Go straight for three kilometers." Dad went straight. The road got smaller and smaller. Soon, there were no houses—only rice fields! "Dad, I think the GPS made a [[mistake|ticket|museum|language]]," I said. "No, no. Trust it," Dad said. Five minutes later, the road ended in front of a pond. A farmer looked at us and laughed. "The GPS [[led|died|prayed|counted]] you here, right? You are the third car this week!" He showed us the right way. My aunt's house was not [[far|ago|once|ever]], only fifteen minutes away. At dinner, the [[whole|afraid|alone|asleep]] family laughed about it. Now when the GPS says, "Turn left [[ahead|ago|almost|seldom]]," Dad always looks at the road first.
+> 1 make a mistake「出錯」：導航出錯了，把車帶到田裡。ticket（票）、museum（博物館）、language（語言）都不合理。
+> 2 lead + 人 + 地點「把某人帶到某處」：導航把你們帶來這裡。died、prayed 不能接受詞；counted you here 說不通。
+> 3 not far「不遠」：只要十五分鐘。ago、once、ever 都不能放在 was not 後面表示距離。
+> 4 the whole family「全家人」。afraid、alone、asleep 不能放在名詞前面。
+> 5 Turn left ahead.「前方左轉。」ahead 表示「在前方」。ago、almost、seldom 都不能這樣用。
++ GPS = 衛星導航
++ Tainan = 台南
++ pond = 池塘
+= 爸爸最相信他的導航了。上星期天，我們開車去台南看阿姨。「下一個路口右轉。」導航說，爸爸就右轉。「直走三公里。」爸爸就直走。路越來越小，很快就看不到房子，只剩下稻田！「爸，我覺得導航出錯了。」我說。「不會啦，相信它。」爸爸說。五分鐘後，路在一個池塘前沒了。一位農夫看著我們笑：「是導航把你們帶來這裡的吧？你們是這星期第三台了！」他告訴我們正確的路。阿姨家其實不遠，只要十五分鐘。晚餐時，全家人都笑著聊這件事。現在導航一說「前方左轉」，爸爸都會先看看路。
