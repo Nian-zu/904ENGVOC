@@ -228,17 +228,19 @@ Last summer, my family went snorkeling on Green Island. Before we got into the s
 + cough = 咳嗽
 = 去年暑假，我們全家去綠島浮潛。下水前，教練跟我們說明規則：「待在這一區，不要游太遠，」他說，「還有，救生衣要一直穿著，以防你們游累了。」「會看到鯊魚嗎？」弟弟問。「也許會，但別擔心，這裡的鯊魚很小，不會攻擊人。」水裡的一切都好美，有藍色的魚、黃色的魚，還有一隻海龜！弟弟想跟牠打招呼，結果海水灌進嘴巴，他咳著浮上水面。「你還好嗎？」媽媽問。「我沒事。」他說。海龜沒有回答他，也沒有看他一眼，只是慢慢游走了。
 
-## 公車站的龍貓
-My little sister loves the movie My Neighbor Totoro. One rainy evening, we waited for Dad at the bus stop near our home. His bus was late. Suddenly, a strong wind [[blew|crossed|drew|practiced]] through the trees. "Is Totoro coming?" my sister asked. I smiled. "[[Perhaps|Ago|Below|Else]]. Let's wait and see." We waited and waited, but Totoro didn't come. The Cat Bus didn't come [[either|ago|else|below]]. My sister started to feel cold, so I gave her my jacket. "Are you OK?" I asked. "I'm [[fine|sharp|expensive|proud]]," she said, but her teeth were shaking. Finally, a big shadow appeared under the streetlight. It was Dad with a huge black umbrella! "Totoro is here!" my sister shouted. When we got home, she [[drew|blew|crossed|attacked]] a picture of Dad as Totoro and put it on the fridge.
-> 1 the wind blew「風吹過」：一陣強風吹過樹林。crossed 意思不通（風不會「越過」樹）；drew、practiced 都不能用來說風。
+## 稻田邊的龍貓
+My little sister loves the movie My Neighbor Totoro. Last summer, we stayed at Grandma's house in the countryside. One evening, we went out to look for fireflies near the rice fields. Suddenly, a strong wind [[blew|crossed|drew|practiced]] through the trees. "Is Totoro coming?" my sister asked. I smiled. "[[Perhaps|Ago|Below|Else]]. Let's wait and see." We waited and waited, but Totoro didn't come. The Cat Bus didn't come [[either|ago|else|below]]. It got dark, and my sister started to feel cold, so I gave her my jacket. "Are you OK?" I asked. "I'm [[fine|sharp|expensive|proud]]," she said, but her teeth were shaking. Then a big round shadow appeared on the path. It was Grandpa with a huge straw hat and a flashlight! "Totoro is here!" my sister shouted. When we got back, she [[drew|blew|crossed|attacked]] a picture of Grandpa as Totoro and put it on the fridge.
+> 1 the wind blew「風吹過」：一陣強風吹過樹林。crossed 不能這樣用來說風吹動樹林；drew、practiced 都不能用來說風。
 > 2 Perhaps.「也許吧。」：龍貓會不會來，我也不知道。ago、below、else 都不能單獨回答問題。
 > 3 否定句的「也」用 either：龍貓沒來，貓公車也沒來。ago 要放在一段時間後面；else、below 放在句尾都不通。
 > 4 I'm fine.「我沒事。」：雖然冷到牙齒在打顫。sharp、expensive、proud 都不能用來說自己的狀況。
 > 5 draw a picture「畫一張圖」。blew、crossed、attacked 都不能接 a picture 表示畫畫。
 + Totoro = 龍貓
++ firefly = 螢火蟲
 + shadow = 影子
-+ streetlight = 路燈
-= 我妹妹超愛《龍貓》這部電影。一個下雨的傍晚，我們在家附近的公車站等爸爸，他搭的公車遲到了。突然，一陣強風吹過樹林。「龍貓要來了嗎？」妹妹問。我笑著說：「也許吧，我們等等看。」我們等了又等，龍貓沒有來，貓公車也沒有來。妹妹開始覺得冷，我就把外套給她。「你還好嗎？」我問。「我沒事。」她說，但牙齒一直在打顫。終於，路燈下出現一個大大的影子——是撐著一把超大黑傘的爸爸！「龍貓來了！」妹妹大叫。回到家後，她畫了一張「爸爸變成龍貓」的圖，貼在冰箱上。
++ straw hat = 草帽
++ flashlight = 手電筒
+= 我妹妹超愛《龍貓》這部電影。去年暑假，我們住在鄉下的外婆家。一天傍晚，我們到稻田邊找螢火蟲。突然，一陣強風吹過樹林。「龍貓要來了嗎？」妹妹問。我笑著說：「也許吧，我們等等看。」我們等了又等，龍貓沒有來，貓公車也沒有來。天黑了，妹妹開始覺得冷，我就把外套給她。「你還好嗎？」我問。「我沒事。」她說，但牙齒一直在打顫。接著，小路上出現一個圓圓的大影子——是戴著超大草帽、拿著手電筒的外公！「龍貓來了！」妹妹大叫。回到家後，她畫了一張「外公變成龍貓」的圖，貼在冰箱上。
 
 ## 五十歲的線上英文課
 My aunt is fifty, and she wants to travel to London next year. So she signed up for an online English [[course|case|trick|traffic]]. Every night at eight, she sits in front of her computer and talks to a teacher in England. At first, she was very nervous. "I can't speak English, and I can't understand it [[either|ago|else|below]]," she told me. "Don't worry," I said. "Just [[practice|marry|bite|borrow]] a little every day." Now she listens to English songs in the car and reads English menus at restaurants. Last week, she even [[drew|crossed|blew|attacked]] a map of London on a big piece of paper and wrote the English name of every place on it. Yesterday, she asked me, "How's my English now?" "It's [[fine|sharp|expensive|proud]]," I said. "You're ready for London!"
@@ -251,3 +253,128 @@ My aunt is fifty, and she wants to travel to London next year. So she signed up 
 + nervous = 緊張的
 + menu = 菜單
 = 我阿姨五十歲了，她想明年去倫敦旅行。所以她報名了線上英文課，每天晚上八點坐在電腦前，跟英國的老師對話。一開始她很緊張：「我不會說英文，也聽不懂。」她跟我說。「別擔心，」我說，「每天練習一點點就好。」現在她開車時聽英文歌，在餐廳看英文菜單。上星期，她甚至在一大張紙上畫了倫敦地圖，把每個地方的英文名字都寫上去。昨天她問我：「我現在的英文怎麼樣？」「很不錯，」我說，「你已經準備好去倫敦了！」
+
+## 墾丁的小螃蟹
+Last summer, my family went to Kenting. The beach was beautiful, and the sand was white. My little brother and I were building a sand castle when we saw a small red crab. "Don't touch it," Dad said. "It might [[attack|cross|draw|blow]] you." But my brother didn't listen. He put his finger near it, and the crab caught his finger with its claw! "Ow! Ow!" he shouted. Dad helped him, and the crab ran into a hole. "Are you OK?" Mom asked. "I'm [[fine|sharp|expensive|proud]]," my brother said, but he was almost crying. Later, a beach worker came over. "There are many crabs in this [[area|case|course|trick]]," he said. "Please don't touch them, and don't take them home [[either|ago|else|below]]." After that, Dad bought a small first-aid kit at the store, just in [[case|course|area|trick]].
+> 1 attack you「攻擊你」：螃蟹可能會夾人。cross、draw、blow 都不能說明為什麼不要碰牠。
+> 2 I'm fine.「我沒事。」：弟弟逞強說沒事。sharp、expensive、proud 都不能用來回答「你還好嗎」。
+> 3 in this area「在這一區」：這一帶有很多螃蟹。case、course、trick 都不能表示「地方」。
+> 4 否定句的「也」用 either：不要碰，也不要帶回家。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 just in case「以防萬一」：買急救箱以防萬一。course、area、trick 都不能和 just in 組成這個片語。
++ Kenting = 墾丁
++ crab = 螃蟹
++ claw = 螯、爪
++ first-aid kit = 急救箱
+= 去年暑假，我們全家去墾丁。海灘好美，沙子是白色的。我和弟弟正在堆沙堡時，看到一隻紅色的小螃蟹。「不要碰牠，」爸爸說，「牠可能會攻擊你。」可是弟弟不聽，把手指伸過去，結果螃蟹用螯夾住了他的手指！「好痛！好痛！」他大叫。爸爸幫他把螃蟹弄開，螃蟹就跑進洞裡了。「你還好嗎？」媽媽問。「我沒事。」弟弟說，但他都快哭了。後來，一位海灘工作人員走過來說：「這一區有很多螃蟹，請不要碰牠們，也不要帶回家。」之後，爸爸到商店買了一個小急救箱，以防萬一。
+
+## 孫悟空的猴毛
+In the old Chinese story Journey to the West, the Monkey King, Sun Wukong, has many magic powers. One of his best tricks is this: he pulls out some of his hair and [[blows|crosses|draws|practices]] on it. Then the hair turns into hundreds of little monkeys! One day, a big monster [[attacked|crossed|drew|practiced]] Wukong and his master on a mountain road. The monster was very [[strong|wet|fresh|delicious]], and Wukong couldn't beat it alone. So he used his hair trick. Hundreds of little monkeys jumped on the monster at the same time. The monster couldn't see anything, and it couldn't move [[either|ago|else|below]]. In the end, it ran away. "How did you learn that?" his master asked. "I [[practiced|married|bit|borrowed]] for five hundred years under a mountain," Wukong said with a laugh.
+> 1 blow on it「對它吹氣」：悟空拔下猴毛吹一口氣。crosses、draws、practices 都不能接 on it 表示吹氣。
+> 2 attack「攻擊」：妖怪在山路上攻擊悟空和師父。crossed、drew、practiced 接 Wukong and his master 意思都不通。
+> 3 very strong「很強」：所以悟空一個人打不贏。wet、fresh、delicious 都不能說明打不贏的原因。
+> 4 否定句的「也」用 either：看不見，也動不了。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 practice「練習」：悟空開玩笑說自己練了五百年。married、bit、borrowed 後面少了受詞，意思也不通。
++ Journey to the West = 西遊記
++ Monkey King = 美猴王
++ monster = 妖怪
++ master = 師父
+= 在中國古典小說《西遊記》裡，美猴王孫悟空有很多法術。他最厲害的招數之一是：拔下一些猴毛，對著它吹一口氣，猴毛就會變成好幾百隻小猴子！有一天，一隻大妖怪在山路上攻擊悟空和他的師父。妖怪非常強，悟空一個人打不贏，於是他用了猴毛這一招。好幾百隻小猴子同時撲到妖怪身上，妖怪什麼都看不見，也動不了，最後只好逃走。「你是怎麼學會的？」師父問。「我在山底下練了五百年啊。」悟空笑著說。
+
+## 鉛筆盒裡的紙條
+Every morning, when I open my pencil [[case|area|course|trick]], I find a little note inside. Sometimes it's a joke, and sometimes it says, "Have a nice day!" One day, someone had [[drawn|blown|crossed|attacked]] a cute cat on the note. Who was it? I asked my deskmate, Lily. "Was it you?" "No," she said. I asked my best friend, Ben. It wasn't him [[either|ago|else|below]]. "[[Perhaps|Ago|Below|Else]] it's a ghost!" Ben joked. For a week, I watched my bag carefully at school, but I never saw anyone touch it. Then, one night, I heard a sound in my room. My little brother was opening my schoolbag! He put a note in my pencil case and ran back to his bed. I smiled and didn't say anything. The next morning, I put a note in his bag, too: "Thank you. Your cat is great." Of [[course|case|area|trick]], I didn't tell him that I knew his secret.
+> 1 pencil case「鉛筆盒」。area、course、trick 都不能和 pencil 組成「打開來裡面有紙條」的東西。
+> 2 had drawn a cat「畫了一隻貓」：draw 的過去分詞是 drawn。blown、crossed、attacked 接 a cute cat on the note 都不通。
+> 3 否定句的「也」用 either：也不是 Ben。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 4 Perhaps「也許」：Ben 開玩笑說也許是鬼。ago 要放在一段時間後面；below、else 不能放在句首修飾整句。
+> 5 Of course「當然」：我當然沒告訴他我知道了。case、area、trick 都不能接在 Of 後面表示「當然」。
++ deskmate = 同桌同學
++ ghost = 鬼
++ secret = 祕密
+= 每天早上，我打開鉛筆盒都會發現一張小紙條。有時候是一則笑話，有時候寫著：「祝你有美好的一天！」有一天，紙條上還畫了一隻可愛的貓。到底是誰？我問同桌的 Lily：「是你嗎？」「不是。」她說。我問我最好的朋友 Ben，也不是他。「也許是鬼喔！」Ben 開玩笑說。那一週，我在學校都很注意我的書包，卻從沒看到有人碰它。接著有一天晚上，我聽到房間裡有聲音——原來是弟弟在打開我的書包！他把一張紙條放進我的鉛筆盒，然後跑回床上。我笑了，什麼也沒說。隔天早上，我也在他的書包裡放了一張紙條：「謝謝你，你畫的貓很棒。」當然，我沒告訴他我已經知道他的祕密了。
+
+## 直笛考試
+Next week, we have a recorder test in music class. We have to play "Twinkle, Twinkle, Little Star" in front of the whole class. I'm terrible at it. When I [[blow|cross|draw|attack]] too hard, the recorder makes a high, awful sound. So every night, I [[practice|marry|bite|borrow]] in my room. My dog hates it. As soon as I start, he hides under the bed. My mom doesn't like it [[either|ago|else|below]]. She always closes the kitchen door. But after a week, I got better. On the day of the test, my hands were shaking. I took a deep breath and played softly. I didn't make a single mistake! "That was [[fine|sharp|expensive|wet]]," the music teacher said. "You passed." When I got home, my dog came out from under the bed for the first time in a week. "Of [[course|case|area|trick]] I passed," I told him. "Now you're safe."
+> 1 blow too hard「吹太用力」：直笛就會發出刺耳的聲音。cross、draw、attack 都不是吹直笛的動作。
+> 2 practice「練習」：每天晚上在房間練習。marry、bite、borrow 後面少了受詞，意思也不通。
+> 3 否定句的「也」用 either：狗討厭，媽媽也不喜歡。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 4 That was fine.「吹得不錯、沒問題。」：所以考試通過。sharp、expensive、wet 都不能用來評價演奏。
+> 5 Of course + 句子「我當然…」。case、area、trick 都不能接在 Of 後面表示「當然」。
++ recorder = 直笛
++ awful = 可怕的
++ mistake = 錯誤
+= 下星期音樂課要考直笛，我們必須在全班面前吹〈小星星〉。我吹得超爛，只要吹太用力，直笛就會發出又高又可怕的聲音。所以我每天晚上都在房間裡練習。我的狗很討厭，我一開始吹，牠就躲到床底下。我媽媽也不喜歡，她總是把廚房門關起來。不過一週後，我進步了。考試那天，我的手一直在抖。我深吸一口氣，輕輕地吹，一個錯都沒有！「吹得不錯，」音樂老師說，「你通過了。」回到家，我的狗一個星期來第一次從床底下出來。「我當然通過啦，」我告訴牠，「現在你安全了。」
+
+## 狗狗公園
+There is a new dog park near my home. It has a big grass [[area|case|course|trick]] where dogs can run freely. Every Sunday, I take my dog, Cookie, there. To get to the park, we have to [[cross|blow|draw|attack]] a busy road, so I always hold Cookie's leash tightly. The park has some rules: dogs must not [[attack|cross|draw|blow]] other dogs, and owners must clean up after their dogs. Last Sunday, a big black dog ran toward Cookie. I was scared, but the big dog only wanted to play. They ran around together for an hour. The big dog's owner, an old man, said, "Don't worry. Bear is big, but he isn't dangerous." "Cookie isn't dangerous [[either|ago|else|below]]," I said. "She's just loud." Now Cookie and Bear meet at the park [[once|ago|else|ever]] a week, and the old man and I have become friends, too.
+> 1 a grass area「一片草地區」：狗可以在那裡自由奔跑。case、course、trick 都不能表示「地方」。
+> 2 cross a busy road「穿越一條車很多的馬路」。blow、draw、attack 接 a busy road 意思都不通。
+> 3 attack other dogs「攻擊別的狗」：公園規定。cross、draw、blow 都不是狗與狗之間被禁止的行為。
+> 4 否定句的「也」用 either：Cookie 也不危險。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 once a week「一週一次」。ago、else、ever 都不能和 a week 搭配表示頻率。
++ leash = 狗鍊
++ owner = 主人
++ loud = 大聲的
+= 我家附近新開了一座狗狗公園，裡面有一大片草地，狗狗可以在上面自由奔跑。每個星期天，我都帶我的狗 Cookie 去。去公園要穿越一條車很多的馬路，所以我總是緊緊拉著 Cookie 的狗鍊。公園有一些規定：狗不可以攻擊其他的狗，主人也要幫自己的狗清理大便。上星期天，一隻黑色大狗朝 Cookie 跑過來。我很害怕，但那隻大狗只是想玩。牠們一起跑了一個小時。大狗的主人是一位老爺爺，他說：「別擔心，熊熊雖然很大，但牠不危險。」「Cookie 也不危險，」我說，「牠只是很吵。」現在 Cookie 和熊熊每週在公園見一次面，我和老爺爺也成了朋友。
+
+## 冠軍賽的 PK 大戰
+Our school soccer team was in the final. After ninety minutes, the score was 1 to 1, so the game went to penalty kicks. I'm the goalkeeper. For weeks, our coach made me [[practice|marry|bite|borrow]] stopping penalty kicks every day. The referee [[blew|crossed|drew|attacked]] his whistle. The first player from the other team kicked the ball to the left, but I jumped to the right. Goal! I felt [[terrible|sharp|expensive|fresh]]. Then our second player missed, and their second player didn't score [[either|ago|else|below]]. At last, it was 4 to 4, and their final player ran up. He kicked the ball hard, right at the middle of the goal, and I caught it! We won! Everyone ran to me and jumped on me. "Did you know where he would kick?" my coach asked. "Of [[course|case|area|trick]] not," I said. "I just didn't move."
+> 1 make + 人 + 原形動詞：教練要我練習擋 PK。marry、bite、borrow 都不能接 stopping penalty kicks。
+> 2 blow a whistle「吹哨」：裁判吹哨開始。crossed、drew、attacked 都不能接 his whistle。
+> 3 feel terrible「覺得很糟」：撲錯邊讓對方進球。sharp、expensive、fresh 都不能形容心情。
+> 4 否定句的「也」用 either：我們第二位沒踢進，他們第二位也沒進。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 Of course not.「當然不知道。」：我只是剛好沒動。case、area、trick 都不能接在 Of 後面表示「當然」。
++ final = 決賽
++ penalty kick = PK、罰球
++ goalkeeper = 守門員
++ referee = 裁判
+= 我們學校足球隊打進了冠軍賽。九十分鐘後比數是一比一，所以進入 PK 大戰。我是守門員。之前好幾個星期，教練每天都要我練習擋 PK。裁判吹了哨。對方第一位球員把球踢向左邊，我卻往右撲——球進了！我覺得糟透了。接著我們第二位沒踢進，他們的第二位也沒踢進。最後比數來到四比四，對方最後一位球員跑上前，用力一踢，球直直飛向球門正中央——我接住了！我們贏了！大家衝過來壓在我身上。「你知道他會往哪裡踢嗎？」教練問。「當然不知道，」我說，「我只是沒動而已。」
+
+## 偵探社的第一件案子
+My friends and I started a detective club at school. Our first [[case|area|course|traffic]] came on Monday. Mr. Lin, the school janitor, told us that someone was stealing sunflower seeds from the school garden every morning. "We'll find the thief!" we promised. The next morning, we came to school at six and hid behind the bushes near the garden. We waited for an hour, but nobody came. Nothing happened the next day [[either|ago|else|below]]. On the third day, we saw something small [[cross|blow|draw|attack]] the garden path. It was a squirrel! It took a sunflower seed and ran up a tree. I quickly [[drew|crossed|blew|attacked]] a picture of the little thief in my notebook. Then we told Mr. Lin. He laughed. "Well, that's [[fine|sharp|expensive|wet]]. The squirrel can have a few seeds."
+> 1 our first case「我們的第一件案子」：偵探社接到的委託。area、course、traffic 都不能「找上門來」讓偵探處理。
+> 2 否定句的「也」用 either：隔天也什麼事都沒發生。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 3 see + 受詞 + 原形動詞：看到某個小東西穿過花園小路。blow、draw、attack 接 the garden path 意思都不通。
+> 4 draw a picture「畫一張圖」：在筆記本上畫下小偷。crossed、blew、attacked 都不能接 a picture。
+> 5 That's fine.「沒關係。」：工友伯伯說松鼠吃幾顆也沒關係。sharp、expensive、wet 都不能用來回應這件事。
++ detective = 偵探
++ janitor = 工友
++ sunflower seed = 葵花子
++ thief = 小偷
++ squirrel = 松鼠
+= 我和朋友們在學校成立了偵探社。星期一，我們接到第一件案子：工友林伯伯說，每天早上都有人偷學校花園裡的葵花子。「我們一定會抓到小偷！」我們保證。隔天早上，我們六點就到學校，躲在花園旁的樹叢後面。等了一個小時，都沒有人來。第二天也什麼事都沒發生。第三天，我們看到一個小小的東西穿過花園小路——是一隻松鼠！牠拿走一顆葵花子，就跑上樹了。我趕快在筆記本上畫下這個小偷。接著我們去告訴林伯伯，他笑了：「好吧，沒關係，讓松鼠吃幾顆吧。」
+
+## 高鐵上畫畫的小女孩
+Last month, I took the high-speed rail from Taipei to Kaohsiung. A little girl and her mom sat next to me. The girl was about six. As soon as the train started, she took out a notebook and began to [[draw|blow|cross|attack]]. She drew the trees, the mountains, and the clouds outside the window. "That's the Zhuoshui River," her mom said as we [[crossed|blew|practiced|attacked]] a long bridge. Then the girl turned to me. "Can I draw you?" "Of [[course|case|area|trick]]," I said. I sat very still for ten minutes. When she finished, she showed me the picture. My face was green, and I had three eyes! Her mom said sorry, but I laughed. "It's [[fine|sharp|expensive|wet]]. I love it." Her mom told me that the girl [[practices|marries|bites|borrows]] drawing every day because she wants to be an artist. Then the girl tore the page out of her notebook and gave it to me as a gift.
+> 1 began to draw「開始畫畫」：她畫窗外的樹、山和雲。blow、cross、attack 都不能說明她拿出筆記本後做的事。
+> 2 cross a bridge「過橋」：高鐵經過一座長橋。blew、practiced、attacked 都不能表示火車開過橋。
+> 3 Of course.「當然。」：答應讓她畫我。case、area、trick 都不能接在 Of 後面表示「當然」。
+> 4 It's fine.「沒關係。」：被畫成三隻眼睛也沒關係。sharp、expensive、wet 都不能用來安慰人。
+> 5 practice + V-ing「練習做…」：她每天練習畫畫。marries、bites、borrows 都不能接 drawing every day。
++ high-speed rail = 高鐵
++ Zhuoshui River = 濁水溪
++ tear out = 撕下
+= 上個月，我搭高鐵從台北到高雄。一個小女孩和她媽媽坐在我旁邊，女孩大約六歲。火車一開動，她就拿出筆記本開始畫畫，畫窗外的樹、山和雲。「那是濁水溪。」火車開過一座長長的橋時，她媽媽說。接著，小女孩轉向我：「我可以畫你嗎？」「當然。」我說。我坐著一動也不動十分鐘。畫好後，她給我看——我的臉是綠色的，還有三隻眼睛！她媽媽一直道歉，我卻笑了：「沒關係，我很喜歡。」她媽媽告訴我，女孩每天都練習畫畫，因為她想當畫家。接著，小女孩把那一頁從筆記本上撕下來，送給我當禮物。
+
+## 班會的大風吹
+On the last day before winter vacation, our class played a game called "Big Wind Blows." Everyone sat in a big circle, and our teacher stood in the middle. "The big wind [[blows|crosses|draws|attacks]] on people who had noodles for breakfast!" she shouted. Five of us jumped up and ran [[across|except|since|until]] the circle to find new seats. I was too slow, so I became the next leader. I thought hard. "The big wind blows on people who didn't do their homework!" Nobody stood up. "Really? Nobody?" I asked. "Of [[course|case|area|trick]] not," Ben said. "We're not stupid!" Everyone laughed, and our teacher said, "I wouldn't stand up [[either|ago|else|below]]." Then she smiled. "It's [[fine|sharp|expensive|wet]]. You can try again." So I said, "The big wind blows on people who love our teacher!" This time, all thirty students stood up at once.
+> 1 The big wind blows on…「大風吹，吹…」：遊戲的固定說法。crosses、draws、attacks 都不能接 on people 表示被吹到的人。
+> 2 ran across the circle「跑過圓圈」：介系詞 across 表示「穿越」。except（除了）、since（自從）、until（直到）都不能表示跑過去。
+> 3 Of course not.「當然沒有。」：沒寫功課的人才不會站起來。case、area、trick 都不能接在 Of 後面表示「當然」。
+> 4 否定句的「也」用 either：換作是我，我也不會站起來。ago 要放在一段時間後面；else、below 放在句尾都不通。
+> 5 It's fine.「沒關係。」：老師讓我再試一次。sharp、expensive、wet 都不能用來安慰人。
++ circle = 圓圈
++ leader = 帶頭的人、領袖
+= 寒假前的最後一天，我們班玩了「大風吹」。大家圍成一個大圓圈坐好，老師站在中間。「大風吹，吹早餐吃麵的人！」她大喊。我們五個人跳起來，跑過圓圈去找新座位。我太慢了，所以變成下一個鬼。我想了很久：「大風吹，吹沒寫功課的人！」結果沒有人站起來。「真的嗎？一個都沒有？」我問。「當然沒有，」Ben 說，「我們又不笨！」大家都笑了，老師說：「換作是我，我也不會站起來。」接著她笑著說：「沒關係，你再試一次。」於是我說：「大風吹，吹喜歡我們老師的人！」這一次，全班三十個人一起站了起來。
+
+## 騎單車環島
+Last summer, my older brother rode his bike around Taiwan. Before the trip, he [[practiced|married|bit|borrowed]] every weekend for three months. On the trip, he rode about one hundred kilometers a day. He [[crossed|blew|drew|attacked]] many rivers and mountains, and he watched the sun rise over the Pacific Ocean. Everything was beautiful, but some days were really hard. In Taitung, a strong wind [[blew|crossed|drew|practiced]] against him all day, and he could only ride very slowly. On the mountain roads in Pingtung, there were no stores for hours, so he always carried extra water in [[case|course|area|trick]] he got thirsty. He was tired, but he didn't stop, and he didn't complain [[either|ago|else|below]]. After nine days, he came home with dark skin and a big smile. "Next year," he said, "you're coming with me."
+> 1 practice「練習」：出發前每個週末練習。married、bit、borrowed 後面少了受詞，意思也不通。
+> 2 cross rivers and mountains「越過河流和高山」。blew、drew、attacked 都不能表示騎車經過。
+> 3 the wind blew against him「風迎面吹來」：所以只能騎得很慢。crossed、drew、practiced 都不能用來說風。
+> 4 in case + 句子「以防…」：多帶水以防口渴。course、area、trick 都不能和 in 組成「以防」的意思。
+> 5 否定句的「也」用 either：沒停下來，也沒抱怨。ago 要放在一段時間後面；else、below 放在句尾都不通。
++ kilometer = 公里
++ Pacific Ocean = 太平洋
++ Taitung = 台東
++ complain = 抱怨
+= 去年暑假，我哥哥騎腳踏車環島。出發前，他每個週末都練習，練了三個月。旅途中，他一天大約騎一百公里，越過許多河流和高山，還看到太陽從太平洋升起。一切都很美，但有些日子真的很辛苦。在台東，強風整天迎面吹來，他只能騎得很慢。在屏東的山路上，好幾個小時都沒有商店，所以他總是多帶一些水，以防口渴。他很累，但他沒有停下來，也沒有抱怨。九天後，他帶著黝黑的皮膚和大大的笑容回到家。「明年，」他說，「你跟我一起去。」
