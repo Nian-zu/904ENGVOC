@@ -241,3 +241,145 @@ My grandma lives in an old apartment in Kaohsiung. She doesn't have a yard, so s
 + papaya = 木瓜
 + roof = 屋頂
 = 我阿嬤住在高雄一棟老公寓裡。她沒有院子，所以在屋頂種菜。她種了番茄、蔥，甚至還有一棵小木瓜樹。阿嬤七十八歲了，還是非常勤奮，每天早上把水提上五層樓給她的植物。她也很聰明，用舊的塑膠瓶做成小水管，讓植物一整天慢慢喝到水。我去看她時，她會讓我摘番茄。「輕一點，」她說，「拉太用力會傷到植物。」去年夏天，我很懶，不想幫她，只坐在屋裡滑手機。但那天晚上喝到她煮的番茄湯時，我覺得很不好意思。現在我每個週末都去幫她，她說我是她最棒的小農夫。
+
+## 熊貓寶寶的保母
+My aunt works at a panda center in Sichuan, China. Her job is to take care of baby pandas. When they are born, baby pandas are pink, very small, and almost [[blind|crowded|national|delicious]]. They weigh only about 100 grams! My aunt has to be very [[gentle|wooden|illegal|cheap]] when she holds them, because their bodies are so soft. She is also [[hard-working|crowded|sour|plastic]]. She feeds the babies every two hours, even in the middle of the night. When the pandas grow older, they become playful. They roll down hills, climb trees, and fight with each other for fun. "Some people say pandas are [[lazy|thick|national|rainy]] because they sleep and eat all day," my aunt says. "But they need to eat 12 to 38 kilograms of bamboo a day, so they have no time for anything else!" She also told me pandas are more [[clever|crowded|delicious|illegal]] than people think. One baby panda learned to open the door of its room and visit the kitchen at night.
+> 1 剛出生的熊貓寶寶幾乎「看不見」almost blind。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容剛出生的動物。
+> 2 抱寶寶時要非常「輕柔」gentle，因為身體很軟。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容抱的方式。
+> 3 半夜也每兩小時餵一次，阿姨很「勤奮」hard-working。crowded、sour（酸的）、plastic（塑膠的）都不能形容人。
+> 4 有人說熊貓整天睡和吃，很「懶」lazy。thick（厚的）、national、rainy（下雨的）都不能形容熊貓的習性。
+> 5 熊貓比人想的更「聰明」more clever，會自己開門。crowded、delicious、illegal 都不能形容動物的頭腦。
++ Sichuan = 四川
++ playful = 愛玩的
++ roll = 滾動
++ bamboo = 竹子
+= 我阿姨在中國四川的一個熊貓中心工作，她的工作是照顧熊貓寶寶。熊貓寶寶剛出生時是粉紅色的，非常小，而且幾乎看不見，只有大約 100 公克重！阿姨抱牠們時必須非常輕柔，因為牠們的身體好軟。她也很勤奮，每兩個小時餵一次寶寶，就算是半夜也一樣。熊貓長大一點後就變得很愛玩，會從山坡上滾下來、爬樹，還會互相打著玩。「有人說熊貓很懶，因為牠們整天只會睡覺和吃東西，」阿姨說，「但牠們一天要吃 12 到 38 公斤的竹子，根本沒時間做別的事！」她還告訴我，熊貓比人們想的還聰明。有一隻熊貓寶寶學會打開房門，晚上溜去廚房。
+
+## 泰國的大象營
+During our trip to Thailand, my family spent a day at an elephant camp. The elephants there used to work in the forest, carrying heavy wood. Now they are old, and the camp [[protects|spells|marries|borrows]] them. We didn't ride them. Instead, we helped the workers wash them in the river. I was a little scared at first because the elephants were so big. But they were very [[gentle|crowded|national|delicious]]. One elephant, Mali, used her trunk to softly touch my hair. The workers said elephants are also very [[smart|wooden|illegal|cheap]]. They can remember people for many years. Mali even knows the sound of her favorite worker's motorcycle! The workers were [[hard-working|crowded|sour|plastic]]. They cut grass, cleaned the camp, and cooked rice balls for the elephants all day. At the end of the day, Mali [[threw|married|spelled|invited]] water on my dad with her trunk. Everyone laughed, even Dad. It was the best day of our trip.
+> 1 大象老了，營區「保護」牠們 protects them。spell（拼字）、marry（結婚）、borrow（借）都不能表示照顧、保護大象。
+> 2 大象雖然很大，但很「溫和」gentle，還輕輕摸我的頭髮。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容大象。
+> 3 大象記得人很多年，很「聰明」smart。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容大象的頭腦。
+> 4 工作人員割草、打掃、煮飯糰一整天，很「勤奮」hard-working。crowded、sour（酸的）、plastic（塑膠的）都不能形容人。
+> 5 threw water on my dad「把水潑到爸爸身上」。marry、spell、invite（邀請）都不能接 water on my dad。
++ Thailand = 泰國
++ camp = 營地
++ trunk = 象鼻
++ motorcycle = 機車
+= 我們家去泰國旅行時，在一個大象營待了一天。那裡的大象以前在森林裡工作，搬運沉重的木頭。現在牠們老了，營區就保護牠們。我們沒有騎大象，而是幫工作人員在河裡幫大象洗澡。一開始我有點害怕，因為大象好大。但牠們非常溫和。一隻叫 Mali 的大象用鼻子輕輕碰我的頭髮。工作人員說大象也很聰明，可以記得一個人很多年。Mali 甚至認得她最喜歡的工作人員的機車聲！工作人員都很勤奮，整天割草、打掃營區，還幫大象煮飯糰。那天結束時，Mali 用鼻子把水潑到我爸爸身上。大家都笑了，連爸爸也笑了。那是我們這趟旅行最棒的一天。
+
+## 懶洋洋的星期天
+Sunday is my family's [[lazy|crowded|national|delicious]] day. Nobody sets an alarm, and nobody has to cook. Dad sleeps until ten, and Mom reads her books in bed. My little brother watches cartoons in his pajamas all morning. For lunch, we usually order dumplings. But last Sunday was [[different|wooden|illegal|cheap]]. My grandparents called and said they were coming to visit in one hour. Suddenly, everyone became very [[hard-working|crowded|sour|plastic]]. Dad washed the dishes, Mom cleaned the bathroom, and I picked up all the toys on the floor. My brother was the most [[clever|thick|national|rainy]] one. He put all his toys in a big box and hid it under his bed in one minute. When my grandparents arrived, the house looked perfect. Grandma smiled and said, "Your house is always so clean!" We just looked at each other and laughed. After they left, we all [[lay|married|spelled|borrowed]] on the sofa. We were too tired to move.
+> 1 沒人設鬧鐘、不用煮飯，星期天是我們家「懶洋洋的」一天 lazy day。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容這種日子。
+> 2 上週日「不一樣」different，爺爺奶奶突然要來。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能說明那天和平常不同。
+> 3 大家突然變得很「勤勞」hard-working，開始打掃。crowded、sour（酸的）、plastic（塑膠的）都不能形容人。
+> 4 弟弟一分鐘就把玩具藏好，是最「聰明」的 the most clever one。thick（厚的）、national、rainy（下雨的）都不能形容人。
+> 5 lay on the sofa「躺在沙發上」，lie 的過去式是 lay。married、spelled、borrowed 都不能接 on the sofa 表示累到不想動。
++ alarm = 鬧鐘
++ pajamas = 睡衣
++ dumpling = 水餃
++ perfect = 完美的
+= 星期天是我們家懶洋洋的日子。沒有人設鬧鐘，也沒有人要煮飯。爸爸睡到十點，媽媽在床上看書，弟弟穿著睡衣看一整個早上的卡通。午餐我們通常叫水餃外送。但上星期天不一樣。爺爺奶奶打電話來說，一個小時後要來看我們。突然間，大家都變得超勤勞：爸爸洗碗、媽媽刷浴室，我把地上的玩具全部撿起來。弟弟是最聰明的一個，他把所有玩具丟進一個大箱子，一分鐘就藏到床底下。爺爺奶奶到的時候，家裡看起來完美極了。奶奶笑著說：「你們家總是這麼乾淨！」我們只是互相看了一眼，笑了出來。他們走了以後，我們全都躺在沙發上，累到動不了。
+
+## 雨天的外送員
+It was raining hard on Friday night, and my family didn't want to go out. So we ordered beef noodles online. Forty minutes later, the doorbell rang. A young delivery man stood at the door. He was [[wet|thick|national|crowded]] from head to toe, but the food was still hot and dry. He was [[clever|delicious|illegal|cheap]]—he had put the bag inside a big plastic box on his scooter. "Sorry I'm a little late," he said. "The traffic was terrible." My mom gave him a towel and a bottle of tea. He thanked her in a [[gentle|sour|plastic|wooden]] voice and left quickly for his next order. That night, I felt a little bad. We were too [[lazy|crowded|rainy|national]] to go out in the rain, but he had to work in it. My dad said many delivery workers are students who work at night to [[pay|marry|spell|invite]] for school. They are very hard-working. Now, whenever we order food, I always say "thank you" and give the delivery worker a big smile.
+> 1 全身「濕透」wet from head to toe，下大雨的關係。thick（厚的）、national（國家的）、crowded（擁擠的）都不能接 from head to toe 形容淋雨。
+> 2 把袋子放進大塑膠箱，所以食物沒濕，他很「聰明」clever。delicious（好吃的）、illegal（違法的）、cheap（便宜的）都不能形容外送員。
+> 3 in a gentle voice「用溫和的聲音」道謝。sour（酸的）、plastic（塑膠的）、wooden（木製的）都不能形容人的聲音。
+> 4 too lazy to go out「懶得出門」。crowded、rainy（下雨的）、national 都不能用 too...to... 形容我們。
+> 5 pay for school「付學費」。marry（結婚）、spell（拼字）、invite（邀請）都不能接 for school 表示付錢。
++ delivery = 外送
++ scooter = 機車
++ towel = 毛巾
+= 星期五晚上下著大雨，我們家都不想出門，所以就在網路上訂了牛肉麵。四十分鐘後，門鈴響了。門口站著一位年輕的外送員，他從頭到腳都濕透了，但食物還是熱的、乾的。他很聰明，把袋子放在機車上的一個大塑膠箱裡。「抱歉我有點晚到，」他說，「路上塞車很嚴重。」媽媽給他一條毛巾和一瓶茶。他用溫和的聲音道謝，然後很快就去送下一單了。那天晚上，我覺得有點過意不去。我們懶得在雨中出門，他卻得在雨中工作。爸爸說很多外送員是學生，晚上工作來付學費，他們都很勤奮。現在只要我們叫外送，我都會說聲「謝謝」，並給外送員一個大大的微笑。
+
+## 模範生選舉
+Every year, each class in our school chooses one model student. This year, there were two people in our class who wanted to [[win|marry|spell|borrow]]: Jason and Mia. Jason is very [[smart|crowded|national|delicious]]. He always gets the highest grades, and he won a math contest last year. But some classmates think he is a little [[lazy|wooden|illegal|cheap]] because he never helps clean the classroom. Mia's grades aren't as good, but she is [[hard-working|sour|plastic|thick]]. She comes to school early every day to water the plants and help the teacher. She is also very [[gentle|crowded|rainy|national]] with everyone. When someone is sad, she is always the first one to say something kind. Before the vote, our teacher said, "A model student is not just someone with good grades. Think about who makes our class better." In the end, Mia got 24 votes and Jason got 6. Jason wasn't angry. The next week, he started cleaning the classroom with Mia.
+> 1 想「贏得」選舉 want to win。marry（結婚）、spell（拼字）、borrow（借）都不能表示想當選。
+> 2 成績最高還贏過數學比賽，Jason 很「聰明」smart。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人。
+> 3 從不幫忙打掃教室，同學覺得他有點「懶」lazy。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容人。
+> 4 每天早到幫忙澆花、幫老師，Mia 很「勤奮」hard-working。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容人。
+> 5 be gentle with everyone「對大家都很溫柔」。crowded、rainy（下雨的）、national 都不能接 with everyone 形容待人。
++ model student = 模範生
++ contest = 比賽
++ vote = 投票；選票
+= 我們學校每年每班都會選出一位模範生。今年我們班有兩個人想當選：Jason 和 Mia。Jason 非常聰明，總是考最高分，去年還贏了一場數學比賽。但有些同學覺得他有點懶，因為他從來不幫忙打掃教室。Mia 的成績沒那麼好，但她很勤奮，每天早早到校澆花、幫老師的忙。她對每個人也都很溫柔，有人難過時，她總是第一個說暖心話的人。投票前，老師說：「模範生不只是成績好的人，想一想是誰讓我們班變得更好。」最後，Mia 得到 24 票，Jason 得到 6 票。Jason 沒有生氣。隔週，他開始和 Mia 一起打掃教室。
+
+## 獅子與老鼠
+One hot afternoon, a lion was sleeping under a tree. A little mouse ran across his face and woke him up. The lion was angry and caught the mouse with his big paw. "Please don't eat me!" the mouse cried. "I'm too small to make a good [[meal|weather|noise|uniform]] for you. Let me go, and one day I'll help you." The lion laughed. "How can a tiny mouse help me?" But he was in a good mood, so he was [[gentle|crowded|national|delicious]] and let the mouse go. A few days later, the lion was caught in a hunter's net. He tried and tried, but he couldn't get out. Then the mouse heard him. She was small but [[clever|wooden|illegal|cheap]]. She knew her sharp teeth could help. She [[bit|married|spelled|invited]] the net for hours. She was very [[hard-working|sour|plastic|thick]] and didn't stop until the hole was big enough. Finally, the lion was free. "Thank you, my little friend," he said. Since that day, the lion and the mouse have been best friends.
+> 1 make a good meal「當一頓好餐點」，老鼠說自己太小不夠吃。weather（天氣）、noise（噪音）、uniform（制服）都不能被吃。
+> 2 心情好，所以很「溫和」gentle 放了老鼠。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容獅子的態度。
+> 3 老鼠小但「聰明」clever，知道牙齒可以幫忙。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容老鼠。
+> 4 bit the net「咬網子」，bite 的過去式是 bit。married、spelled、invited 都不能表示用牙齒弄破網子。
+> 5 咬了好幾個小時不停，很「勤奮」hard-working。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容老鼠的態度。
++ paw = 腳掌
++ tiny = 極小的
++ mood = 心情
++ hunter = 獵人
++ net = 網子
+= 一個炎熱的下午，一隻獅子在樹下睡覺。一隻小老鼠從他臉上跑過去，把他吵醒了。獅子很生氣，用大腳掌抓住了老鼠。「拜託不要吃我！」老鼠哭著說，「我太小了，不夠你吃一餐。放我走吧，總有一天我會幫你的。」獅子笑了：「這麼小的老鼠怎麼幫得了我？」不過他心情不錯，就很溫和地放了老鼠。幾天後，獅子被獵人的網子困住了。他試了又試，就是出不來。這時老鼠聽到了他的聲音。她雖然小，卻很聰明，知道自己尖尖的牙齒能幫上忙。她咬那張網子咬了好幾個小時，非常勤奮，直到洞夠大才停下來。獅子終於自由了。「謝謝你，我的小朋友。」他說。從那天起，獅子和老鼠就成了最好的朋友。
+
+## 清境的綿羊與羊駝
+Last weekend, my class went to a farm in Cingjing. The air was cool and fresh, and the hills were very green. First, we watched a sheep show. A farmer gave orders to his dog, and the dog moved the sheep around the field. The dog was so [[smart|crowded|national|delicious]] that everyone clapped. Then we went to see the alpacas. They have long necks and soft, thick hair. They looked a little [[lazy|wooden|illegal|cheap]] because they just sat on the grass and ate all day. A worker told us that alpacas are [[gentle|sour|plastic|rainy]] animals, but they sometimes spit when they are angry. So we had to be [[careful|crowded|national|delicious]]. My friend Ivy fed one some grass, and it put its head on her shoulder. She was so happy that she took fifty photos. On the bus, Ivy said she wanted to work on a farm in the future. "It's hard work," our teacher said. "You'd have to get up at five." Ivy [[stopped|married|spelled|borrowed]] for a second. "Maybe I'll just visit," she said.
+> 1 狗把羊群趕來趕去，「聰明」到大家都鼓掌 so smart that...。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容狗。
+> 2 整天坐在草地上吃東西，看起來有點「懶」lazy。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容羊駝的樣子。
+> 3 羊駝是「溫和的」動物 gentle animals，但生氣時會吐口水。sour（酸的）、plastic（塑膠的）、rainy（下雨的）都不能形容動物的個性。
+> 4 羊駝會吐口水，所以要「小心」be careful。crowded、national、delicious 都不能說明我們該怎麼做。
+> 5 Ivy「停頓」了一下 stopped for a second，想想要不要早起。married、spelled、borrowed 都不能接 for a second 表示停下來。
++ Cingjing = 清境
++ alpaca = 羊駝
++ clap = 拍手
++ spit = 吐口水
++ shoulder = 肩膀
+= 上週末，我們班去清境的一座農場。那裡空氣涼爽清新，山坡非常翠綠。我們先看了綿羊秀，牧羊人對他的狗下命令，狗就把羊在草地上趕來趕去。那隻狗聰明到大家都鼓掌叫好。接著我們去看羊駝，牠們有長長的脖子和又軟又厚的毛。牠們看起來有點懶，因為整天只是坐在草地上吃東西。一位工作人員告訴我們，羊駝是溫和的動物，但生氣時有時會吐口水，所以我們要小心。我朋友 Ivy 餵一隻羊駝吃草，牠把頭靠在她的肩膀上。她開心到拍了五十張照片。在遊覽車上，Ivy 說她以後想在農場工作。「那很辛苦喔，」老師說，「你得五點就起床。」Ivy 停頓了一下，說：「那我還是來玩就好。」
+
+## 狐狸借老虎的威風
+One day, a hungry tiger caught a fox in the forest. The fox was scared, but he was very [[clever|crowded|national|delicious]]. "You can't eat me," he said. "The king of the sky sent me to rule all the animals. If you eat me, he will be angry." The tiger didn't [[believe|marry|spell|borrow]] him. "Then follow me," said the fox. "You'll see how all the animals are afraid of me." So the fox walked in front, and the tiger followed behind him. When the deer, rabbits, and monkeys saw them, they all ran away. The tiger was surprised. He didn't understand that the animals were really afraid of him, not the fox. "You're right," the tiger said. "I'm sorry." And he let the fox go. This old Chinese story teaches us that some people use other people's power to look strong. The fox wasn't brave or [[hard-working|wooden|illegal|cheap]], but he was [[smart|sour|plastic|thick]]. The tiger was strong, but he wasn't very [[clever|crowded|rainy|national]].
+> 1 狐狸害怕，但非常「聰明」clever，馬上想出騙老虎的話。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容狐狸。
+> 2 老虎不「相信」他 didn't believe him，所以狐狸說「跟我來」。marry（結婚）、spell（拼字）、borrow（借）都不能表示不相信。
+> 3 狐狸不勇敢也不「勤奮」hard-working，只是靠嘴巴。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能和 brave 並列形容狐狸。
+> 4 but he was smart「但他很聰明」，和前面的 wasn't brave 對比。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容狐狸。
+> 5 老虎強壯卻不太「聰明」clever，才會被騙。crowded、rainy（下雨的）、national 都不能形容老虎的頭腦。
++ fox = 狐狸
++ rule = 統治
++ deer = 鹿
+= 有一天，一隻飢餓的老虎在森林裡抓到一隻狐狸。狐狸很害怕，但他非常聰明。「你不能吃我，」他說，「天帝派我來統治所有的動物。如果你吃了我，他會生氣的。」老虎不相信他。「那你跟我來，」狐狸說，「你會看到所有動物都怕我。」於是狐狸走在前面，老虎跟在後面。鹿、兔子和猴子看到他們，全都逃走了。老虎很驚訝，他不明白其實動物們怕的是他，而不是狐狸。「你說得對，」老虎說，「對不起。」就放了狐狸。這個中國古老的故事告訴我們，有些人會利用別人的力量讓自己看起來很強。狐狸既不勇敢也不勤奮，但他很聰明；老虎很強壯，卻不太聰明。
+
+## 實習老師的第一堂課
+Last month, a student teacher named Miss Chen came to our class. She was only twenty-two, and on her first day, she looked very [[worried|crowded|national|delicious]]. Her hands shook when she wrote on the board. Some boys in the back started to talk loudly and make jokes. I thought she would get angry, but she didn't. She was [[gentle|wooden|illegal|cheap]] and calm. She just smiled and asked them a question about the lesson. They couldn't answer, and the class became quiet. Miss Chen was also very [[clever|sour|plastic|thick]]. She turned our boring grammar lesson into a game. We worked in teams and got points for every right answer. Even the [[lazy|crowded|rainy|national]] students in our class wanted to play. After class, I saw her sitting alone in the teachers' office, writing notes about every student. She was really [[hard-working|national|delicious|crowded]]. On her last day, we gave her a card with all our names on it. She cried and said she would never forget us.
+> 1 第一天手在發抖，看起來很「擔心、不安」worried。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容人的心情。
+> 2 沒有生氣，很「溫和」又冷靜 gentle and calm。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能和 calm 並列形容老師。
+> 3 把無聊的文法課變成遊戲，陳老師很「聰明」clever。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容老師。
+> 4 連班上「懶惰的」學生都想玩 the lazy students。crowded、rainy（下雨的）、national 都不能形容學生。
+> 5 一個人在辦公室替每個學生寫筆記，很「勤奮」hard-working。national、delicious、crowded 都不能形容老師。
++ student teacher = 實習老師
++ calm = 冷靜的
++ grammar = 文法
+= 上個月，一位叫陳老師的實習老師來到我們班。她才二十二歲，第一天看起來非常不安，在黑板上寫字時手都在發抖。後面幾個男生開始大聲聊天、開玩笑。我以為她會生氣，但她沒有。她既溫和又冷靜，只是笑著問他們一個跟課程有關的問題。他們答不出來，全班就安靜下來了。陳老師也很聰明，她把我們無聊的文法課變成一場遊戲，大家分組比賽，每答對一題就得分。連班上那些懶惰的同學都想玩。下課後，我看到她一個人坐在辦公室裡，替每個學生寫筆記。她真的很勤奮。她最後一天來的時候，我們送她一張寫滿全班名字的卡片。她哭了，說她永遠不會忘記我們。
+
+## 蜜蜂的一生
+Bees are some of the most [[hard-working|crowded|national|delicious]] animals in the world. A worker bee lives for only about six weeks in summer, but she never takes a day off. In her short life, she cleans the hive, takes care of baby bees, and flies from flower to flower to [[collect|marry|spell|invite]] nectar. To make one spoon of honey, twelve bees have to work their whole lives! Bees are also very [[smart|wooden|illegal|cheap]]. When a bee finds good flowers, she goes back to the hive and does a special dance. The dance tells the other bees where the flowers are. Bees are not [[lazy|sour|plastic|thick]] at all, but there is one kind of bee that doesn't work. Male bees, called drones, don't collect food or clean the hive. Most bees are not dangerous. If you stay calm and are [[gentle|crowded|rainy|national]], they usually won't sting you. So next time you see a bee, don't kill it. Just let it do its important job.
+> 1 一天都不休息，蜜蜂是最「勤勞」的動物之一 the most hard-working。crowded（擁擠的）、national（國家的）、delicious（好吃的）都不能形容蜜蜂。
+> 2 collect nectar「採集花蜜」。marry（結婚）、spell（拼字）、invite（邀請）都不能接 nectar。
+> 3 會用舞蹈告訴同伴花在哪裡，蜜蜂很「聰明」smart。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容蜜蜂。
+> 4 not lazy at all「一點也不懶」，後面說只有雄蜂不工作。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能和「不工作」形成對比。
+> 5 保持冷靜、動作「輕柔」be gentle，蜜蜂就不會螫你。crowded、rainy（下雨的）、national 都不能說明人該怎麼做。
++ hive = 蜂巢
++ nectar = 花蜜
++ drone = 雄蜂
++ sting = 螫
+= 蜜蜂是世界上最勤勞的動物之一。夏天時一隻工蜂只能活大約六個星期，但她從來不休假。在短短的一生中，她要打掃蜂巢、照顧蜂寶寶，還要在花朵之間飛來飛去採集花蜜。要做出一湯匙的蜂蜜，需要十二隻蜜蜂工作一輩子！蜜蜂也非常聰明。一隻蜜蜂找到好的花時，會飛回蜂巢跳一種特別的舞，告訴其他蜜蜂花在哪裡。蜜蜂一點也不懶，但有一種蜜蜂不工作：雄蜂。牠們不採食物，也不打掃蜂巢。大部分的蜜蜂並不危險，只要你保持冷靜、動作輕柔，牠們通常不會螫你。所以下次看到蜜蜂，不要打死牠，讓牠去做牠重要的工作吧。
+
+## 鋼鐵人的發明
+In the Marvel movies, Tony Stark is one of the [[smartest|most crowded|most national|most delicious]] people in the world. He builds his first Iron Man suit in a cave with only a box of old parts. Most people would give up, but Tony is [[clever|wooden|illegal|cheap]]. He uses what he has and makes something amazing. Tony is also very [[hard-working|sour|plastic|thick]]. In the movies, he often stays in his lab all night and forgets to eat or sleep. He makes many mistakes, but he keeps trying until his suit can fly. However, Tony isn't always nice. He can be rude and likes to show off. But his robot helpers, like the small robot arm called Dum-E, still love him. When Tony is sad or hurt, Dum-E brings him a drink in a very [[gentle|crowded|rainy|national]] way. My dream is to be an engineer like Tony one day. I don't need a flying suit. I just want to [[build|marry|spell|borrow]] a robot that does my homework.
+> 1 one of the smartest people「最聰明的人之一」。most crowded、most national、most delicious 都不能形容人。
+> 2 只用一箱舊零件做出戰衣，東尼很「聰明」clever。wooden（木製的）、illegal（違法的）、cheap（便宜的）都不能形容人。
+> 3 常在實驗室熬夜、忘記吃飯睡覺，很「勤奮」hard-working。sour（酸的）、plastic（塑膠的）、thick（厚的）都不能形容人。
+> 4 in a gentle way「很溫柔地」拿飲料給他。crowded、rainy（下雨的）、national 都不能形容動作的方式。
+> 5 build a robot「做一個機器人」。marry（結婚）、spell（拼字）、borrow（借）都不能表示發明、製作。
++ Marvel = 漫威
++ suit = 戰衣；套裝
++ cave = 山洞
++ lab = 實驗室
++ engineer = 工程師
+= 在漫威電影裡，東尼・史塔克是世界上最聰明的人之一。他在山洞裡只用一箱舊零件，就做出了第一套鋼鐵人戰衣。大部分人可能會放棄，但東尼很聰明，他利用手邊的東西做出了驚人的作品。東尼也非常勤奮。在電影裡，他常常在實驗室待一整晚，忘了吃飯睡覺。他犯了很多錯，但一直嘗試，直到戰衣能飛起來為止。不過，東尼不一定都很友善，他有時很沒禮貌，又愛炫耀。但他的機器人助手，像那隻叫 Dum-E 的小機器手臂，還是很愛他。東尼難過或受傷時，Dum-E 會很溫柔地拿飲料給他。我的夢想是有一天成為像東尼一樣的工程師。我不需要會飛的戰衣，我只想做一個會幫我寫作業的機器人。
