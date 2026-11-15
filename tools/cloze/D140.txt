@@ -264,3 +264,140 @@ Jason loves basketball more than anything. In a game last month, he jumped for t
 + bench = 板凳（球員席）
 + brace = 護具
 = Jason 最愛打籃球了。上個月的一場比賽中，他跳起來搶球，落地時踩到別人的腳。他跌倒了，站不起來，隊友們都跑過去幫他。醫生說他的腳踝傷得很重，六個星期不能打球。Jason 很難過，但他沒有只待在家裡。他每次練球都到場，坐在板凳上。他仔細觀察其他球員怎麼移動，把筆記寫在一本小本子裡。他就這樣學到了很多關於籃球的事。六個星期後，他歸隊了。讓大家驚訝的是，他打得比以前更好。現在他總是戴著護具保護腳踝。「受傷讓我學會用眼睛和頭腦打球，而不只是用腿，」他說。
+
+## 曬成龍蝦的墾丁之旅
+Last summer, my family went to Kenting. Before we went to the beach, Mom said, "Don't forget to [[put|eat|drink|spell]] on sunscreen. It will [[protect|decide|agree|hope]] your skin from the sun." But I was too excited to listen. I [[ran|told|knew|guessed]] straight into the sea. I swam, built sandcastles, and played volleyball for three hours. That night, my back was red and hot. In the mirror, I [[looked|heard|wrote|told]] like a lobster! Every time I moved, it hurt. Mom put some cool aloe on my back. "Next time, will you listen to me?" she asked. I said yes again and again. For the rest of the trip, I [[took|spent|paid|lent]] the sunscreen with me everywhere and used it every two hours. My sister laughed and called me "Lobster Boy" all week. Now, every time I go to the beach, I remember that painful night.
+> 1 put on「塗上、穿上」，put on sunscreen「擦防曬乳」。eat（吃）、drink（喝）、spell（拼字）都不能接 on sunscreen。
+> 2 protect A from B「保護 A 不受 B 傷害」。decide、agree、hope 都沒有 ___ A from B 的用法。
+> 3 ran straight into the sea「直接衝進海裡」。told、knew、guessed 都不是移動的動作，不能接 into the sea。
+> 4 look like + 名詞「看起來像…」，曬紅的背看起來像龍蝦。heard、wrote、told 都沒有 ___ like 表示「看起來像」的用法。
+> 5 take A with me「隨身帶著 A」。spent（花費）、paid（付錢）、lent（借出）都不能接 the sunscreen with me。
++ Kenting = 墾丁
++ sunscreen = 防曬乳
++ skin = 皮膚
++ lobster = 龍蝦
++ aloe = 蘆薈
+= 去年夏天，我們全家去墾丁。去海灘之前，媽媽說：「別忘了擦防曬乳，它可以保護你的皮膚不被太陽曬傷。」可是我太興奮了，根本沒聽進去，直接衝進海裡。我游泳、堆沙堡、打排球，玩了三個小時。那天晚上，我的背又紅又燙。從鏡子裡看，我就像一隻龍蝦！每動一下都好痛。媽媽在我背上擦了冰涼的蘆薈。「下次會聽我的話了嗎？」她問。我一直說會。接下來的旅程，我走到哪都帶著防曬乳，每兩小時擦一次。姊姊笑了我一整個星期，叫我「龍蝦男孩」。現在每次去海邊，我都會想起那個很痛的晚上。
+
+## 海綿寶寶守護祕方
+SpongeBob works at the Krusty Krab. The shop's famous burger has a secret recipe, and Mr. Krabs keeps it in a safe. One night, Plankton, the tiny owner of the shop across the street, [[ran|told|knew|guessed]] into the kitchen. He wanted to [[take|spend|cost|pay]] the recipe for his own shop. But SpongeBob was still there, cleaning the floor. "Stop right there!" he shouted. He wanted to [[protect|decide|agree|hope]] the recipe, so he stood in front of the safe with his mop. Plankton [[looked|heard|spoke|told]] up at him. "Move, or you'll be sorry!" But SpongeBob didn't move at all. He just smiled and kept cleaning. After an hour, Plankton was too tired to fight. He had to go home with [[nothing|anything|ever|either]]. The next morning, Mr. Krabs heard the story and gave SpongeBob a big hug. "You're the best worker in the sea!" he said.
+> 1 ran into the kitchen「跑進廚房」。told、knew、guessed 都不是移動的動作，不能接 into the kitchen。
+> 2 take the recipe「拿走祕方」。spend（花費）、cost（值…錢）、pay（付錢）都不能接 the recipe 表示「偷走」。
+> 3 protect the recipe「保護祕方」，所以站在保險箱前面。decide（決定）、agree（同意）、hope（希望）都不能接 the recipe 當受詞。
+> 4 look up at「抬頭看」，皮老闆很小，要抬頭看海綿寶寶。heard、spoke、told 都不能和 up at him 連用。
+> 5 go home with nothing「空手而回」。anything 不能用在肯定句裡當「什麼都沒有」；ever（曾經）、either（也不）都不能放在 with 後面。
++ SpongeBob = 海綿寶寶
++ recipe = 食譜、配方
++ safe = 保險箱
++ Plankton = 皮老闆（卡通角色）
++ mop = 拖把
+= 海綿寶寶在蟹堡王工作。店裡有名的漢堡有一份祕密配方，蟹老闆把它鎖在保險箱裡。一天晚上，對街小店的小個子老闆皮老闆衝進了廚房，想把配方拿去自己的店用。可是海綿寶寶還在那裡拖地。「站住！」他大喊。他想保護配方，就拿著拖把站在保險箱前面。皮老闆抬頭看著他：「讓開，不然你會後悔！」可是海綿寶寶一動也不動，只是笑一笑，繼續打掃。一個小時後，皮老闆累到沒力氣再鬧，只好空手回家。隔天早上，蟹老闆聽了這件事，給海綿寶寶一個大大的擁抱。「你是全海底最棒的員工！」他說。
+
+## 校外教學前一晚
+The night before our school trip, I couldn't sleep. I was so excited that I couldn't [[stop|hope|plan|agree]] thinking about the trip. We were going to a big zoo, and I wanted to see the pandas. I turned left and right in bed. Then I [[looked|tasted|wore|told]] at the clock. It was already midnight! I went downstairs to the kitchen. Mom was still awake, reading a book. "What's the [[matter|brand|talent|semester]]?" she asked. "I can't sleep," I said. She warmed some milk for me and [[put|wore|spelled|guessed]] it on the table. "Warm milk helps you relax," she said. Then she told me to close my eyes and [[take|spend|cost|lend]] a few deep breaths. I did what she said. Soon I felt sleepy. I went back to bed and fell asleep in five minutes. The next morning, I woke up early and full of energy.
+> 1 couldn't stop + V-ing「忍不住一直…」。hope、plan、agree 後面要接 to V，不能接 thinking。
+> 2 look at the clock「看時鐘」。tasted（嚐）、wore（穿戴）、told（告訴）都不能和 at the clock 連用表示「看」。
+> 3 What's the matter?「怎麼了？」。brand（品牌）、talent（才能）、semester（學期）都問不出「發生什麼事」。
+> 4 put A on B「把 A 放在 B 上」，把熱牛奶放在桌上。wore（穿戴）、spelled（拼字）、guessed（猜）都不能接 it on the table。
+> 5 take a deep breath「深呼吸」。spend（花費）、cost（值…錢）、lend（借出）都不能接 deep breaths。
++ school trip = 校外教學
++ midnight = 午夜
++ awake = 醒著的
++ relax = 放鬆
++ energy = 精力
+= 校外教學的前一晚，我睡不著。我太興奮了，一直想著明天的事。我們要去一座大動物園，我好想看熊貓。我在床上翻來翻去，然後看了一下時鐘，已經半夜了！我下樓到廚房，媽媽還醒著在看書。「怎麼了？」她問。「我睡不著，」我說。她幫我熱了一杯牛奶，放在桌上。「熱牛奶可以幫助放鬆，」她說。接著她叫我閉上眼睛，做幾次深呼吸。我照她說的做，很快就覺得睏了。我回到床上，五分鐘就睡著了。隔天早上，我很早就起床，精神飽滿。
+
+## 第一次自己煮晚餐
+Mom and Dad went to a wedding, so I had to cook dinner for my little sister. I had never cooked before. I [[looked|heard|spoke|told]] for an easy recipe online and chose fried rice. First, I [[put|ate|wore|spelled]] some oil in the pan. Then I added rice, eggs, and vegetables. But I forgot to turn down the fire. Suddenly, black smoke came out, and the fire alarm went off! My sister [[ran|told|knew|guessed]] into the kitchen with her hands over her ears. I quickly turned off the fire and opened all the windows. The rice at the bottom was black, but I [[managed|kept|enjoyed|finished]] to save most of it. I served it on two plates and waited nervously. My sister tasted it and said, "It doesn't [[matter|mind|hope|agree]] that some of it is black. It's delicious!" When Mom and Dad came home, they found two clean plates and a very proud cook.
+> 1 look for「尋找」，上網找簡單的食譜。heard、spoke、told 都沒有 ___ for 表示「尋找」的用法。
+> 2 put A in B「把 A 放進 B」，把油倒進鍋子。ate（吃）、wore（穿戴）、spelled（拼字）都不能接 some oil in the pan。
+> 3 ran into the kitchen「跑進廚房」。told、knew、guessed 都不是移動的動作，不能接 into the kitchen。
+> 4 manage to V「設法做到…」，搶救下大部分的飯。kept、enjoyed、finished 後面要接 V-ing，不能接 to save。
+> 5 It doesn't matter that…「…沒關係」。mind、hope、agree 都不能用 It 當主詞這樣用。
++ wedding = 婚禮
++ recipe = 食譜
++ fried rice = 炒飯
++ pan = 平底鍋
++ fire alarm = 火災警報器
+= 爸媽去參加婚禮，所以我得煮晚餐給妹妹吃。我從來沒煮過飯。我上網找了一個簡單的食譜，選了炒飯。首先，我在鍋子裡倒了一些油，接著加入飯、蛋和青菜。可是我忘了把火關小。突然冒出了黑煙，火災警報器響了！妹妹摀著耳朵跑進廚房。我趕快關火，把所有窗戶打開。鍋底的飯黑了，不過我還是救回了大部分。我把炒飯盛在兩個盤子裡，緊張地等著。妹妹嚐了一口說：「有一點黑沒關係，很好吃！」爸媽回到家時，看到兩個乾乾淨淨的盤子，和一個非常驕傲的小廚師。
+
+## 兩百元的生日花束
+Mom's birthday was on Friday. I wanted to give her something special, so I went to a flower shop after school. The flowers were beautiful, but they were very expensive. A small bunch of roses [[cost|spent|lent|borrowed]] five hundred dollars, and I only had two hundred. I [[looked|tasted|wore|guessed]] at my money sadly. The shop owner saw my face. "Who are the flowers for?" she asked. "My mom," I said. "It's her birthday." She smiled and [[put|ate|wore|spelled]] some small yellow flowers and two red roses together for me. "Two hundred is fine," she said. When I [[brought|spent|cost|paid]] the flowers home, Mom was so happy that she cried. She kept them in a vase on the kitchen table for a whole week. Now, every year before her birthday, I [[return|spell|borrow|guess]] to that little shop and buy flowers from the same kind owner.
+> 1 cost + 金額「值…錢、要價…」，用東西當主詞。spent 要用人當主詞（I spent…）；lent（借出）、borrowed（借入）都不能表示價錢。
+> 2 look at「看著」，難過地看著自己的錢。tasted（嚐）、wore（穿戴）、guessed（猜）都不能和 at my money 連用。
+> 3 put A together「把 A 組合在一起」，老闆把花包成一束。ate（吃）、wore（穿戴）、spelled（拼字）都不能接 flowers together。
+> 4 bring A home「把 A 帶回家」。spent（花費）、cost（值…錢）、paid（付錢）都不能接 the flowers home。
+> 5 return to + 地方「回到…」，每年都回到那家店。spell（拼字）、borrow（借）、guess（猜）都不能接 to that little shop。
++ bunch = 一束
++ rose = 玫瑰
++ owner = 老闆
++ vase = 花瓶
+= 媽媽的生日在星期五。我想送她一份特別的禮物，所以放學後去了花店。花很漂亮，但非常貴。一小束玫瑰就要五百元，而我只有兩百元。我難過地看著手上的錢。老闆看到我的表情，問：「花要送給誰呀？」「我媽媽，」我說，「今天是她生日。」她笑了笑，幫我把一些黃色小花和兩朵紅玫瑰包在一起。「兩百元就好，」她說。我把花帶回家，媽媽開心得哭了。她把花插在廚房桌上的花瓶裡，放了整整一個星期。現在每年媽媽生日前，我都會回到那家小花店，向同一位好心的老闆買花。
+
+## 麻糬學撿球
+Our new puppy, Mochi, is very smart. Dad wanted to teach her to play fetch. He threw a ball across the yard and shouted, "Go!" Mochi [[ran|told|knew|guessed]] after the ball very fast. But she didn't [[bring|spend|cost|lend]] it back. She just lay down on the grass and chewed it. Dad tried again and again, but Mochi kept the ball every time. Then I had an idea. I [[put|wore|spelled|guessed]] a small piece of chicken in my hand and showed it to her. This time, when Mochi [[returned|spelled|borrowed|guessed]] with the ball, I gave her the chicken. She liked this game a lot. After a week, she learned. Now she brings the ball back every time and [[looks|tastes|wears|tells]] at us with happy eyes, waiting for the next throw. Dad says she's the smartest dog on our street, but I think she just loves chicken.
+> 1 run after「追著跑」，麻糬追著球跑。told、knew、guessed 都不是移動的動作，沒有 ___ after the ball 的用法。
+> 2 bring A back「把 A 帶回來」。spend（花費）、cost（值…錢）、lend（借出）都不能接 it back 表示「叼回來」。
+> 3 put A in B「把 A 放在 B 裡」，手裡放一塊雞肉。wore（穿戴）、spelled（拼字）、guessed（猜）都不能接 a piece of chicken in my hand。
+> 4 return with…「帶著…回來」。spelled（拼字）、borrowed（借）、guessed（猜）都不能接 with the ball 表示「回來」。
+> 5 look at「看著」，用開心的眼神看著我們。tastes（嚐）、wears（穿戴）、tells（告訴）都不能和 at us 連用表示「看著」。
++ puppy = 小狗
++ fetch = 撿回東西的遊戲
++ yard = 院子
++ chew = 啃、嚼
++ throw = 投擲
+= 我們家的新小狗麻糬很聰明。爸爸想教牠玩撿球。他把球丟到院子另一頭，大喊：「去！」麻糬飛快地追著球跑，可是牠沒有把球叼回來，只是躺在草地上啃球。爸爸試了一次又一次，麻糬每次都把球留著。後來我想到一個辦法。我在手裡放了一小塊雞肉給牠看。這一次，麻糬叼著球回來時，我就給牠雞肉。牠很喜歡這個遊戲。一個星期後，牠學會了。現在牠每次都會把球叼回來，用開心的眼神看著我們，等我們再丟一次。爸爸說牠是我們這條街上最聰明的狗，但我覺得牠只是愛吃雞肉而已。
+
+## 外婆回到老家
+Grandma grew up in a small village in Hualien. She moved to Taipei when she was twenty and never went back. Last month, she wanted to [[return|spell|borrow|guess]] to her old home, so we went with her. It [[took|spent|paid|lent]] us three hours to get there by train. The village had changed a lot. There were new houses and even a convenience store. Grandma [[looked|tasted|wore|told]] around quietly. Then she saw an old tree near the river. "I used to climb this tree with my brother!" she said. She touched it and smiled like a little girl. Just then, an old man walked by and [[stopped|spelled|wrote|guessed]]. He looked at Grandma for a long time. "Ah-Mei? Is that you?" It was her old classmate! They sat under the tree and talked for hours. They couldn't [[stop|hope|plan|agree]] laughing about their school days.
+> 1 return to + 地方「回到…」，外婆想回老家。spell（拼字）、borrow（借）、guess（猜）都不能接 to her old home。
+> 2 It takes + 人 + 時間 + to V「某人做…花了多少時間」。spent 要用人當主詞；paid（付錢）、lent（借出）都不能表示花時間。
+> 3 look around「四處看看」。tasted（嚐）、wore（穿戴）、told（告訴）都不能接 around 表示「環顧」。
+> 4 stopped「停下腳步」，老先生走過時停了下來。spelled（拼字）、wrote（寫）、guessed（猜）放在 walked by and ___ 裡說不通。
+> 5 couldn't stop + V-ing「忍不住一直…」。hope、plan、agree 後面要接 to V，不能接 laughing。
++ village = 村莊
++ Hualien = 花蓮
++ convenience store = 便利商店
+= 外婆在花蓮的一個小村莊長大。她二十歲時搬到台北，從此再也沒回去過。上個月，她想回老家看看，我們就陪她去。搭火車花了三個小時才到。村子變了很多，蓋了新房子，甚至還有一家便利商店。外婆靜靜地四處看。接著她看到河邊的一棵老樹。「我以前常和哥哥爬這棵樹！」她說。她摸著樹，笑得像個小女孩。就在這時，一位老先生走過來，停下腳步，看著外婆看了很久。「阿美？是妳嗎？」原來是她以前的同學！他們坐在樹下聊了好幾個小時，說起上學時的事，笑個不停。
+
+## 怕水的我學會游泳
+I was always afraid of water. In swimming class, everyone else jumped into the pool, but I just stood at the side. My teacher, Mr. Lee, came over. "What's the [[matter|brand|talent|semester]]?" he asked. I told him I was scared. "Don't worry," he said. "I'll [[protect|decide|agree|hope]] you. I'll be right next to you all the time." He gave me a float and [[took|spent|paid|lent]] me into the shallow water. The water only came up to my waist. Every week, I practiced a little more. First, I learned to put my face in the water. Then I learned to kick my legs. At the end of the semester, I [[managed|kept|enjoyed|finished]] to swim twenty-five meters all by myself! Everyone in the class clapped for me. I couldn't [[stop|hope|plan|agree]] smiling. Now swimming is my favorite sport, and I go to the pool every Saturday.
+> 1 What's the matter?「怎麼了？」。brand（品牌）、talent（才能）、semester（學期）都問不出「發生什麼事」。
+> 2 protect you「保護你」，老師保證會在旁邊。decide（決定）、agree（同意）、hope（希望）都不能接 you 當受詞表示「保護」。
+> 3 take 人 into + 地方「帶某人進入…」。spent（花費）、paid（付錢）、lent（借出）都不能表示「帶我下水」。
+> 4 manage to V「成功做到…」。kept、enjoyed、finished 後面要接 V-ing，不能接 to swim。
+> 5 couldn't stop + V-ing「忍不住一直…」。hope、plan、agree 後面要接 to V，不能接 smiling。
++ pool = 游泳池
++ float = 浮板
++ shallow = 淺的
++ waist = 腰
++ clap = 拍手
+= 我一直很怕水。游泳課時，大家都跳進泳池，只有我站在池邊。李老師走過來問：「怎麼了？」我說我很害怕。「別擔心，」他說，「我會保護你，我會一直在你旁邊。」他給我一塊浮板，帶我走進淺水區。水只到我的腰。每個星期我都多練習一點。先學會把臉放進水裡，再學會踢腿。到了學期末，我竟然能自己游二十五公尺！全班都為我拍手，我笑得合不攏嘴。現在游泳是我最喜歡的運動，我每個星期六都去游泳池。
+
+## 熬夜打電動的代價
+Last night, I stayed up until two in the morning to play video games. This morning, I [[looked|heard|spoke|told]] terrible. In the bathroom mirror, my eyes were red, and my hair was a mess. At school, I couldn't [[stop|hope|plan|agree]] yawning. In math class, I fell asleep on my book. The teacher [[put|wore|spelled|guessed]] her hand on my desk and woke me up. Everyone laughed, and my face turned red. At lunch, my friend Tina said, "You should [[take|spend|cost|lend]] a short nap." So I slept on my desk for twenty minutes and felt much better. But I couldn't remember anything from math class, so I had to ask Tina for her notes. That night, I [[returned|spelled|borrowed|guessed]] the game controller to my brother and went to bed at ten. Playing games is fun, but feeling tired all day isn't.
+> 1 look + 形容詞「看起來…」，我看起來糟透了。heard、spoke、told 後面都不能直接接形容詞 terrible 來形容人的樣子。
+> 2 couldn't stop + V-ing「一直…停不下來」。hope、plan、agree 後面要接 to V，不能接 yawning。
+> 3 put A on B「把 A 放在 B 上」，老師把手放在我桌上。wore（穿戴）、spelled（拼字）、guessed（猜）都不能接 her hand on my desk。
+> 4 take a nap「小睡一下」。spend（花費）、cost（值…錢）、lend（借出）都不能接 a nap。
+> 5 return A to B「把 A 還給 B」，把搖桿還給哥哥。spelled（拼字）、guessed（猜）不能接 A to B；borrow 是「借入」，要用 borrow A from B。
++ stay up = 熬夜
++ mirror = 鏡子
++ yawn = 打哈欠
++ nap = 小睡
++ controller = 遊戲搖桿
+= 昨晚我熬夜打電動打到凌晨兩點。今天早上，我看起來糟透了。浴室鏡子裡的我眼睛紅紅的，頭髮亂成一團。在學校，我一直打哈欠。數學課時，我趴在課本上睡著了。老師把手放在我的桌上叫醒我，大家都笑了，我的臉都紅了。午餐時，我的朋友 Tina 說：「你應該小睡一下。」所以我趴在桌上睡了二十分鐘，覺得好多了。可是數學課的內容我一點都不記得，只好跟 Tina 借筆記。那天晚上，我把遊戲搖桿還給哥哥，十點就上床睡覺了。打電動很好玩，但一整天都很累可一點也不好玩。
+
+## 把蝸牛送回草叢
+After a rainy night, I found a snail on the sidewalk in front of our building. People were walking by in a hurry, and someone could step on it. I wanted to [[protect|decide|agree|hope]] it, so I picked it up gently. I [[looked|tasted|wore|told]] at it closely. Its shell was brown with yellow lines, and its two long eyes moved slowly. My little brother [[ran|told|knew|guessed]] over to see it. "Can we keep it as a pet?" he asked. "No," I said. "It needs to live outside. Let's [[take|spend|cost|lend]] it to the garden." We walked to the small garden behind our building. We [[put|wore|spelled|guessed]] it under a big leaf where the ground was wet and dark. Slowly, it came out of its shell and moved away. My brother waved goodbye. "Be careful, little snail," he said. "Stay away from the sidewalk!"
+> 1 protect it「保護牠」，怕牠被踩到。decide（決定）、agree（同意）、hope（希望）都不能接 it 當受詞表示「保護」。
+> 2 look at「看著」，仔細觀察蝸牛。tasted（嚐）、wore（穿戴）、told（告訴）都不能和 at it closely 連用。
+> 3 ran over「跑過來」。told、knew、guessed 都不是移動的動作，不能接 over to see it。
+> 4 take A to B「把 A 帶到 B」，把蝸牛帶到花園。spend（花費）、cost（值…錢）、lend（借出）都不能表示「帶去某地」。
+> 5 put A under B「把 A 放在 B 下面」。wore（穿戴）、spelled（拼字）、guessed（猜）都不能接 it under a big leaf。
++ snail = 蝸牛
++ sidewalk = 人行道
++ step on = 踩到
++ gently = 輕輕地
++ shell = 殼
+= 下了一整夜的雨後，我在我們大樓前的人行道上發現一隻蝸牛。路人匆匆走過，可能會有人踩到牠。我想保護牠，就輕輕地把牠拿起來，仔細地看。牠的殼是咖啡色的，有黃色的條紋，兩隻長長的眼睛慢慢地動著。弟弟跑過來看。「我們可以養牠嗎？」他問。「不行，」我說，「牠要住在外面。我們把牠帶去花園吧。」我們走到大樓後面的小花園，把牠放在一片大葉子下面，那裡的地又濕又暗。慢慢地，牠從殼裡出來，爬走了。弟弟揮手說再見：「小蝸牛，要小心喔，離人行道遠一點！」
