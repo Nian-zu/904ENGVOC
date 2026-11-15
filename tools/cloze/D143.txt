@@ -128,3 +128,133 @@ My cousin Jay could not walk after a car accident when he was ten. Many people t
 + towel = 毛巾
 + score = 得分
 = 我的表哥阿傑十歲時因為一場車禍而不能走路。很多人覺得他不可能再運動了。但阿傑從不放棄。兩年後，他加入了一支輪椅籃球隊。他每天練習，很快大家就看出了他的天分。他能把輪椅推得飛快，還能從很遠的地方投籃。上個月，他的球隊在高雄參加一場大比賽，我自願幫忙替球員搬水和毛巾。阿傑得了二十分，他的球隊贏了！比賽結束後，教練說他打得非常好。阿傑笑著對我說：「那場車禍不是任何人的錯，重要的是我現在怎麼做。」
+
+## 第一次參加偶像見面會
+My sister Lily is a big fan of a Korean singer named Jun. Last month, Jun came to Taipei, and Lily got two tickets to meet him. She took me with her. Before we went, she spent three hours making a card for him. She [[decorated|volunteered|boiled|spelled]] it with stickers and little hearts. She also bought him a [[present|fault|passenger|talent]]: a scarf from a famous Taiwanese [[brand|talent|passenger|fault]]. When we got there, there were thousands of fans. Lily said it was [[impossible|excellent|thirsty|wet]] to get close to him. But we waited for four hours, and finally it was our turn. Jun smiled and thanked her for the gift. Then he sang a short song for everyone, and his voice was [[excellent|impossible|thirsty|cheap]]. Lily hasn't stopped talking about that day since then.
+> 1 decorated it with stickers「用貼紙裝飾卡片」。volunteered（自願）、boiled（煮沸）、spelled（拼字）都不能和 with stickers 搭配。
+> 2 bought him a present「買禮物給他」，冒號後是圍巾。fault（錯誤）、passenger（乘客）、talent（天分）都不能用錢買來送人。
+> 3 a famous brand「有名的品牌」，圍巾是名牌的。talent（天分）、passenger（乘客）、fault（錯誤）都不能用來說圍巾出自哪裡。
+> 4 impossible to get close to him「不可能靠近他」，因為粉絲有好幾千人。excellent（極好的）、thirsty（口渴的）、wet（濕的）都和人多無法靠近沒有關係。
+> 5 his voice was excellent「他的歌聲很棒」。impossible（不可能的）、thirsty（口渴的）、cheap（便宜的）都不能讚美歌聲。
++ Korean = 韓國的
++ fan = 粉絲
++ sticker = 貼紙
++ scarf = 圍巾
+= 我姊姊 Lily 是一位韓國歌手 Jun 的超級粉絲。上個月 Jun 來台北，Lily 拿到兩張見面會的票，就帶著我一起去。去之前，她花了三個小時為他做卡片，用貼紙和小愛心裝飾。她還買了一份禮物給他：一條台灣知名品牌的圍巾。我們到了現場，那裡有好幾千個粉絲。Lily 說根本不可能靠近他。但我們等了四個小時，終於輪到我們了。Jun 笑著謝謝她的禮物，接著為大家唱了一小段歌，他的歌聲棒極了。從那之後，Lily 就一直在講那天的事。
+
+## 計程車司機陳伯伯
+Mr. Chen is a taxi driver in Taichung. He has driven a taxi for thirty years. He [[used|decorated|spelled|boiled]] to be a math teacher, but he says driving is more fun. Every day, he meets different kinds of [[passengers|brands|talents|faults]]. Some are businesspeople in a hurry, and some are tourists who want to see the city. Mr. Chen keeps his taxi very clean. He even [[decorated|volunteered|boiled|spelled]] it with small plants and a picture of his family. Once, a passenger [[left|boiled|spelled|married]] a bag with 50,000 dollars in his car. Mr. Chen drove to the police station right away. The man wanted to give him some money, but Mr. Chen said no. "It's my job," he said. Everyone who rides in his taxi says his service is [[excellent|thirsty|shy|wet]].
+> 1 used to be「以前是」數學老師。decorated（裝飾）、spelled（拼字）、boiled（煮沸）都不能接 to be a math teacher。
+> 2 different kinds of passengers「各式各樣的乘客」，後面說有商人、有觀光客。brands（品牌）、talents（天分）、faults（錯誤）都不是搭車的人。
+> 3 decorated it with plants「用植物裝飾車子」。volunteered（自願）、boiled（煮沸）、spelled（拼字）都不能和 with small plants 搭配。
+> 4 left a bag in his car「把袋子忘在車上」。boiled（煮沸）、spelled（拼字）、married（嫁娶）都不能接 a bag in his car。
+> 5 his service is excellent「他的服務非常好」。thirsty（口渴的）、shy（害羞的）、wet（濕的）都不能形容服務。
++ Taichung = 台中
++ businesspeople = 商人
++ tourist = 觀光客
++ police station = 警察局
+= 陳先生是台中的計程車司機，已經開了三十年計程車。他以前是數學老師，但他說開車比較有趣。他每天都會遇到各式各樣的乘客：有趕時間的商人，也有想看看這座城市的觀光客。陳先生把計程車保持得非常乾淨，甚至用小盆栽和一張全家福照片來裝飾車子。有一次，一位乘客把裝著五萬元的袋子忘在他的車上。陳先生馬上開車到警察局。那位先生想給他一些錢，但陳先生拒絕了。「這是我的工作。」他說。每個搭過他計程車的人都說他的服務非常好。
+
+## 客運上哭鬧的嬰兒
+Last weekend, I took a long-distance bus from Taipei to Kaohsiung. A young mother with a baby sat in front of me. Soon after the bus started, the baby began to cry. It cried and cried. Some [[passengers|brands|talents|faults]] looked angry. One man said loudly, "Can't you stop that noise?" The mother said sorry again and again. She looked so tired. I thought, "It's not her [[fault|talent|brand|present]]. Babies cry." Then an old woman stood up. She said she [[used|decorated|spelled|boiled]] to be a kindergarten teacher. She clearly had a special [[talent|fault|brand|passenger]] with children. She took a small toy out of her bag and started to sing softly. In two minutes, the baby stopped crying and fell asleep. It seemed [[impossible|excellent|thirsty|cheap]], but she did it! The mother thanked her again and again, and the man who shouted said nothing.
+> 1 Some passengers looked angry「有些乘客看起來很生氣」。brands（品牌）、talents（天分）、faults（錯誤）都不會生氣。
+> 2 It's not her fault.「不是她的錯。」，嬰兒本來就會哭。talent（天分）、brand（品牌）、present（禮物）都不能說明責任。
+> 3 used to be「以前是」幼兒園老師。decorated（裝飾）、spelled（拼字）、boiled（煮沸）都不能接 to be。
+> 4 a talent with children「很會應付小孩的天分」。fault（錯誤）、brand（品牌）、passenger（乘客）都不能和 special… with children 搭配。
+> 5 It seemed impossible, but…「看起來不可能，但她做到了」。excellent、thirsty、cheap 都不能和 but she did it 形成對比。
++ long-distance bus = 長途客運
++ kindergarten = 幼兒園
+= 上週末，我搭長途客運從台北到高雄。一位年輕媽媽抱著寶寶坐在我前面。車子開動沒多久，寶寶就開始哭，一直哭個不停。有些乘客看起來很生氣。一位男士大聲說：「妳不能讓那個聲音停下來嗎？」那位媽媽一再道歉，看起來好累。我心想：「這不是她的錯，寶寶本來就會哭。」這時一位老太太站了起來，說她以前是幼兒園老師。她顯然很有帶小孩的天分。她從包包裡拿出一個小玩具，開始輕聲唱歌。不到兩分鐘，寶寶就不哭了，還睡著了。這看起來不可能，但她做到了！那位媽媽一再向她道謝，而剛才大吼的男士則一句話也沒說。
+
+## 長照中心的週末志工
+Every Saturday morning, I [[volunteer|decorate|boil|spell]] at a care center for old people near my home. Most of the old people there can't walk well, so I help them go to the garden. I also read newspapers to them. One of them, Grandpa Wang, [[used|decorated|spelled|boiled]] to be a famous painter. His hands shake now, but he still loves to talk about art. Last month, we [[decorated|volunteered|boiled|spelled]] the walls with his old paintings, and he was so happy that he cried. Another old woman, Grandma Lin, has an amazing [[talent|fault|brand|passenger]]: she remembers every song from the 1960s! When she sings, everyone sings with her. At Christmas, I gave her a small [[present|fault|brand|passenger]], a radio that plays old songs. She held my hand and said it was the best gift she had ever got.
+> 1 volunteer at a care center「在照護中心當志工」。decorate（裝飾）、boil（煮沸）、spell（拼字）都不能接 at a care center 表示做志工。
+> 2 used to be「以前是」有名的畫家。decorated（裝飾）、spelled（拼字）、boiled（煮沸）都不能接 to be。
+> 3 decorated the walls with his paintings「用他的畫布置牆面」。volunteered（自願）、boiled（煮沸）、spelled（拼字）都不能和 with paintings 搭配。
+> 4 an amazing talent「驚人的才能」，冒號後說她記得每一首老歌。fault（錯誤）、brand（品牌）、passenger（乘客）都不能說明這種能力。
+> 5 a small present「一份小禮物」，後面說是收音機。fault（錯誤）、brand（品牌）、passenger（乘客）都不能送人。
++ care center = 照護中心
++ painter = 畫家
++ shake = 發抖
++ radio = 收音機
+= 每個星期六早上，我都在家附近的老人照護中心當志工。那裡大部分的老人行動不便，所以我會帶他們去花園，也會讀報紙給他們聽。其中一位王爺爺以前是有名的畫家。他現在手會抖，但還是很愛聊藝術。上個月，我們用他以前的畫布置牆面，他開心到哭了。另一位林奶奶有個驚人的才能：她記得一九六〇年代的每一首歌！她一唱歌，大家就跟著唱。聖誕節時，我送她一份小禮物：一台會播老歌的收音機。她握著我的手說，這是她收過最棒的禮物。
+
+## 消防隊參觀日
+Last Friday, our class visited a fire station. A firefighter named Mr. Ho showed us around. He told us that some firefighters are [[volunteers|passengers|brands|talents]]. They have other jobs, but they come to help when there is a big fire. Then he showed us how fast they can put on their uniforms. It took him only thirty seconds! Before that, I thought it was [[impossible|excellent|thirsty|polite]] for anyone to dress that fast. Then we tried it too. It took me three minutes, and I put my boots on the wrong feet. Mr. Ho also talked about fires at home. "If a fire starts because you left the stove on, it's your [[fault|talent|brand|present]]," he said. "Never leave the kitchen when you are cooking." At the end of the visit, we sat in a real fire truck. Mr. Ho said we were [[excellent|impossible|thirsty|cheap]] listeners and gave each of us a small badge as a [[present|fault|brand|passenger]].
+> 1 some firefighters are volunteers「有些消防員是志工」，平常有別的工作。passengers（乘客）、brands（品牌）、talents（天分）都不能說明他們的身分。
+> 2 Before that, I thought it was impossible「在那之前，我以為不可能」穿得那麼快，但他做到了。excellent（極好的）、thirsty（口渴的）、polite（有禮貌的）都不能和 Before that, I thought 表達的「原本以為」相符。
+> 3 it's your fault「就是你的錯」，忘了關爐子。talent（天分）、brand（品牌）、present（禮物）都不能說明責任。
+> 4 excellent listeners「很棒的聽眾」。impossible（不可能的）、thirsty（口渴的）、cheap（便宜的）都不能稱讚聽眾。
+> 5 as a present「當作禮物」。fault（錯誤）、brand（品牌）、passenger（乘客）都不能用 as a ___ 表示送徽章的用意。
++ fire station = 消防隊
++ firefighter = 消防員
++ boots = 靴子
++ stove = 爐子
++ badge = 徽章
+= 上星期五，我們班去參觀消防隊。一位叫何先生的消防員帶我們四處看看。他告訴我們，有些消防員是志工，他們平常有別的工作，發生大火時才來幫忙。接著他示範他們穿制服有多快，他只花了三十秒！在那之前，我以為沒有人能穿得那麼快。接著我們也試了試。我花了三分鐘，還把靴子穿反了。何先生也談到家裡的火災：「如果火是因為你忘了關爐子才燒起來的，那就是你的錯。」他說，「煮東西的時候千萬別離開廚房。」參觀結束時，我們坐進了真正的消防車。何先生說我們是很棒的聽眾，並送每個人一個小徽章當禮物。
+
+## 資源回收大作戰
+Our school started a recycling contest this semester. Every class collected plastic bottles, cans, and paper, and the winner would get a pizza party. Our class leader, Ben, [[volunteered|decorated|boiled|spelled]] to be in charge. He [[decorated|volunteered|boiled|spelled]] a big box with green paper and wrote "Save the Earth" on it. Every day, we brought bottles from home. Ben noticed something interesting: most of the bottles came from the same drink [[brand|talent|passenger|fault]]. "Maybe we drink too many sweet drinks," he said. The contest changed our families, too. My mom [[used|decorated|spelled|boiled]] to throw everything into one bag, but now she separates the garbage carefully. At the end of the month, we had collected 1,200 bottles. Our teacher said our work was [[excellent|impossible|thirsty|shy]], and we won the pizza party!
+> 1 volunteered to be in charge「自願負責」。decorated（裝飾）、boiled（煮沸）、spelled（拼字）都不能接 to be in charge。
+> 2 decorated a big box with green paper「用綠色的紙裝飾大箱子」。volunteered（自願）、boiled（煮沸）、spelled（拼字）都不能和 with green paper 搭配。
+> 3 the same drink brand「同一個飲料品牌」。talent（天分）、passenger（乘客）、fault（錯誤）都不能說明瓶子來自哪裡。
+> 4 used to + V「以前…」，以前全部丟一袋，現在會分類。decorated（裝飾）、spelled（拼字）、boiled（煮沸）都不能接 to throw。
+> 5 our work was excellent「我們做得非常好」，所以贏了。impossible（不可能的）、thirsty（口渴的）、shy（害羞的）都不能稱讚成果。
++ recycling = 資源回收
++ contest = 比賽
++ semester = 學期
++ in charge = 負責
++ separate = 分開；分類
+= 我們學校這學期舉辦了資源回收比賽。每班都要收集塑膠瓶、鋁罐和紙類，贏的班級可以辦披薩派對。我們的班長 Ben 自願負責這件事。他用綠色的紙裝飾一個大箱子，並在上面寫著「拯救地球」。我們每天都從家裡帶瓶子來。Ben 發現了一件有趣的事：大部分的瓶子都來自同一個飲料品牌。「也許我們喝太多含糖飲料了。」他說。這個比賽也改變了我們的家庭。我媽媽以前把所有東西都丟進同一個袋子，現在她會仔細地做垃圾分類。到了月底，我們一共收集了一千兩百個瓶子。老師說我們做得非常好，我們也贏得了披薩派對！
+
+## 爺爺的老唱片機
+In my grandpa's living room, there is an old record player. It is older than my dad! Grandpa [[used|decorated|spelled|boiled]] to listen to it every night when he was young. Last weekend, he showed me how to use it. He took out a black record and put it on carefully. When the music started, I was surprised. The sound was warm and [[excellent|impossible|thirsty|shy]], not like the music on my phone. Grandma came over and smiled. "This record was my [[present|fault|passenger|brand]] to your grandpa on his twentieth birthday," she said. Grandpa told me that today it is almost [[impossible|excellent|thirsty|shy]] to find a shop that fixes record players, so he takes good care of his. I wanted to help, so I [[volunteered|decorated|boiled|spelled]] to clean all his records. It took me three hours, but listening to the old songs with him made me very happy.
+> 1 used to + V「以前常常…」，年輕時每晚都聽。decorated（裝飾）、spelled（拼字）、boiled（煮沸）都不能接 to listen。
+> 2 warm and excellent「溫暖又出色」，和手機的音樂不同。impossible（不可能的）、thirsty（口渴的）、shy（害羞的）都不能形容聲音。
+> 3 my present to your grandpa「我送給你爺爺的禮物」。fault（錯誤）、passenger（乘客）、brand（品牌）都不能是生日送的東西。
+> 4 almost impossible to find「幾乎不可能找到」，所以他很愛惜唱片機。excellent、thirsty、shy 都不能說明找店很困難。
+> 5 volunteered to clean「自願清理」唱片。decorated（裝飾）、boiled（煮沸）、spelled（拼字）都不能接 to clean。
++ record player = 唱片機
++ record = 唱片
+= 爺爺的客廳裡有一台老唱片機，它比我爸爸的年紀還大！爺爺年輕時每天晚上都會聽。上週末，他教我怎麼使用。他拿出一張黑色唱片，小心地放上去。音樂一響起，我很驚訝：聲音溫暖又出色，跟我手機裡的音樂不一樣。奶奶走過來笑著說：「這張唱片是我送給你爺爺的二十歲生日禮物。」爺爺告訴我，現在幾乎不可能找到修唱片機的店了，所以他很愛惜這台。我想幫忙，就自願清理他所有的唱片。雖然花了三個小時，但和他一起聽那些老歌讓我好開心。
+
+## 印尼姊姊 Siti
+Siti comes from Indonesia. She takes care of my grandma, who is ninety years old. Grandma can't walk anymore, so Siti helps her eat, take a shower, and go to the hospital. Siti is only twenty-five, but she is patient and kind. She also has a [[talent|fault|passenger|brand]] for languages. She speaks Indonesian, English, Chinese, and even Taiwanese! When she first came to Taiwan, she [[used|decorated|spelled|boiled]] to call her family every night because she missed them. Last month was her birthday. We [[decorated|volunteered|boiled|spelled]] the living room with balloons and made her favorite fried rice. Grandma gave her a [[present|fault|passenger|brand]]: a gold bracelet. Siti cried and said, "You are my family in Taiwan." Grandma always says Siti's cooking is [[excellent|impossible|thirsty|shy]], and I agree.
+> 1 a talent for languages「語言天分」，會說四種語言。fault（錯誤）、passenger（乘客）、brand（品牌）都不能和 for languages 搭配。
+> 2 used to + V「以前常常…」，剛來時每晚打電話回家。decorated（裝飾）、spelled（拼字）、boiled（煮沸）都不能接 to call。
+> 3 decorated the living room with balloons「用氣球布置客廳」。volunteered（自願）、boiled（煮沸）、spelled（拼字）都不能和 with balloons 搭配。
+> 4 gave her a present「送她禮物」，冒號後是金手鐲。fault（錯誤）、passenger（乘客）、brand（品牌）都不能當生日禮物。
+> 5 her cooking is excellent「她煮的菜非常好吃」。impossible（不可能的）、thirsty（口渴的）、shy（害羞的）都不能形容廚藝。
++ Indonesia = 印尼
++ patient = 有耐心的
++ Taiwanese = 台語
++ bracelet = 手鐲
+= Siti 來自印尼，她負責照顧我九十歲的奶奶。奶奶已經不能走路了，所以 Siti 幫她吃飯、洗澡和去醫院。Siti 才二十五歲，但她既有耐心又善良。她也很有語言天分，會說印尼話、英文、中文，甚至還會說台語！她剛來台灣時，因為想家，每天晚上都會打電話給家人。上個月是她的生日，我們用氣球布置客廳，還煮了她最愛的炒飯。奶奶送她一份禮物：一只金手鐲。Siti 哭著說：「你們是我在台灣的家人。」奶奶總是說 Siti 煮的菜非常好吃，我也這麼覺得。
+
+## 失物招領處的兔子
+My aunt works at the lost and found office of a train station. Every day, [[passengers|brands|talents|faults]] leave hundreds of things on the trains: umbrellas, phones, bags, and even false teeth! My aunt's job is to help people find their things. Last week, a little girl came in crying. She had lost a stuffed rabbit. It was a birthday [[present|fault|talent|passenger]] from her grandma. "It's my [[fault|talent|brand|present]]. I forgot it on the seat," she said. My aunt asked her to [[describe|decorate|boil|spell]] the rabbit. The girl said it was pink and wore a blue dress. There were so many stuffed animals in the office that it seemed [[impossible|excellent|thirsty|shy]] to find it quickly. But my aunt is very patient. After an hour, she found the rabbit under a pile of umbrellas! The girl hugged it and smiled for the first time.
+> 1 passengers leave things on the trains「乘客把東西忘在火車上」。brands（品牌）、talents（天分）、faults（錯誤）都不會把東西忘在車上。
+> 2 a birthday present「生日禮物」，奶奶送的。fault（錯誤）、talent（天分）、passenger（乘客）都不能和 birthday 組成「生日禮物」。
+> 3 It's my fault.「是我的錯。」，她把兔子忘在座位上。talent（天分）、brand（品牌）、present（禮物）都不能用來認錯。
+> 4 describe the rabbit「描述那隻兔子」，後面就說它是粉紅色、穿藍洋裝。decorate（裝飾）、boil（煮沸）、spell（拼字）都不合找東西的情境。
+> 5 seemed impossible to find it quickly「似乎不可能很快找到」，因為布偶太多，後面用 But 轉折。excellent、thirsty、shy 都說不通。
++ lost and found = 失物招領
++ false teeth = 假牙
++ stuffed rabbit = 兔子布偶
++ patient = 有耐心的
++ pile = 一堆
+= 我阿姨在一個火車站的失物招領處上班。每天，乘客都會在火車上留下好幾百樣東西：雨傘、手機、包包，甚至還有假牙！阿姨的工作就是幫大家找回東西。上星期，一個小女孩哭著走進來。她弄丟了一隻兔子布偶，那是奶奶送她的生日禮物。「是我的錯，我把它忘在座位上了。」她說。阿姨請她描述那隻兔子。女孩說它是粉紅色的，穿著藍色洋裝。辦公室裡的布偶多到似乎不可能很快找到。但阿姨非常有耐心，一個小時後，她在一堆雨傘下面找到了那隻兔子！女孩緊緊抱住它，第一次露出了笑容。
+
+## 拍廣告的明星貓
+My cat, Pudding, is a star. Last year, a cat food [[brand|talent|passenger|fault]] chose her to be in its TV ad. The director said Pudding had a [[talent|fault|passenger|brand]] for acting because she looked at the camera like a real actor. But filming was not easy. Pudding had to eat from a bowl, jump on a sofa, and then sleep. The first two parts were fine, but making her sleep on time was almost [[impossible|excellent|thirsty|polite]]. We waited for two hours! Finally, she fell asleep, and everyone cheered quietly. The ad was on TV last month. My friends all said Pudding looked [[excellent|thirsty|cheap|national]] in it. Now Pudding gets free cat food every month. She [[used|decorated|spelled|boiled]] to be a street cat, but now she is famous in our neighborhood.
+> 1 a cat food brand「貓食品牌」選她拍廣告。talent（天分）、passenger（乘客）、fault（錯誤）都不能拍廣告、選角色。
+> 2 a talent for acting「演戲的天分」。fault（錯誤）、passenger（乘客）、brand（品牌）都不能和 for acting 搭配。
+> 3 almost impossible「幾乎不可能」讓貓準時睡著，結果等了兩小時。excellent（極好的）、thirsty（口渴的）、polite（有禮貌的）都不合句意。
+> 4 looked excellent「看起來很棒」。thirsty（口渴的）、cheap（便宜的）、national（國家的）都不是朋友對廣告的稱讚。
+> 5 used to be「以前是」流浪貓。decorated（裝飾）、spelled（拼字）、boiled（煮沸）都不能接 to be。
++ ad = 廣告
++ director = 導演
++ acting = 演戲
++ filming = 拍攝
++ neighborhood = 社區；附近
+= 我的貓布丁是個明星。去年，一個貓食品牌選她拍電視廣告。導演說布丁很有演戲天分，因為她看鏡頭的樣子就像個真正的演員。但是拍攝並不容易。布丁要從碗裡吃東西、跳上沙發，然後睡覺。前兩個部分都沒問題，但要讓她準時睡著幾乎不可能，我們等了兩個小時！最後她終於睡著了，大家都小聲地歡呼。廣告上個月在電視上播出，朋友們都說布丁在裡面看起來好棒。現在布丁每個月都能拿到免費的貓食。她以前是一隻流浪貓，現在卻是我們這一帶的名貓。
