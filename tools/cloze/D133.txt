@@ -128,3 +128,136 @@ Captain Redbeard was the most famous pirate on the sea. One day, he found an old
 + island = 島
 + palm tree = 棕櫚樹
 = 紅鬍子船長是海上最有名的海盜。有一天，他在一個瓶子裡發現一張古老的藏寶圖。他和手下在海上航行了十天，來到一座小島。大家又累又餓，但還是在一棵大棕櫚樹下不停地挖。最後，他們找到一個很重的箱子，大家都好興奮。但紅鬍子打開箱子時非常驚訝：裡面沒有黃金，只有一封信。信上寫著：「真正的寶藏，是你在路上交到的朋友。」海盜們很生氣。「花了十天就為了這個？」有人大喊。紅鬍子難過了一下子，接著開始大笑。「嗯，」他說，「我們一起度過了一段很棒的時光，不是嗎？」
+
+## 跟著媽祖走一天
+Every spring, thousands of people walk with the Mazu statue for nine days. This year, my dad and I [[joined|boiled|spelled|married]] them for one day. We started at five in the morning. At first, it was fun. People gave us free water, bread, and even ice cream along the way. But after twenty kilometers, my legs hurt, and I was very [[tired|wooden|national|rainy]]. "I can't walk anymore," I said. I was [[unhappy|plastic|square|electric]] and wanted to go home. Then I saw an old woman next to us. She was eighty years old, and she was still walking with a smile. I was so [[surprised|metal|cloudy|expensive]]. "If she can do it, I can too," I thought. We walked until night. When we said goodbye to the group, I was a little [[sad|digital|illegal|square]]. I want to walk again next year.
+> 1 join + 人「加入某些人（一起做事）」：我和爸爸加入他們走了一天。boiled（煮沸）、spelled（拼字）、married（結婚）都不合語意。
+> 2 走了二十公里，腳很痛，所以很「累」tired。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容人的狀態。
+> 3 走不動了想回家，所以「不開心」unhappy。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
+> 4 八十歲的老奶奶還笑著走，我很「驚訝」surprised。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 5 和隊伍道別時有點「難過」sad。digital（數位的）、illegal（違法的）、square 都不能形容心情。
++ Mazu = 媽祖
++ statue = 神像
++ kilometer = 公里
++ along the way = 沿路
+= 每年春天，都有好幾千人跟著媽祖神像走九天。今年，爸爸和我跟著他們走了一天。我們早上五點出發，一開始很好玩，沿路有人送我們免費的水、麵包，甚至還有冰淇淋。但走了二十公里後，我的腳好痛，人也非常累。「我走不動了。」我說。我很不開心，只想回家。接著我看到旁邊有一位老奶奶，她已經八十歲了，還是笑著繼續走。我非常驚訝。「她做得到，我也可以。」我想。我們一直走到晚上。和隊伍道別時，我有點難過。明年我還想再走一次。
+
+## 在高鐵上睡過頭
+Last Saturday, Ken took the High Speed Rail alone for the first time. He was going to Taichung to visit his aunt. The ride was only one hour, but he was very [[tired|wooden|national|rainy]] because he got up early. So he fell asleep. When he opened his eyes, the train was in Kaohsiung! Ken was so [[surprised|plastic|square|electric]] that he jumped up. He [[called|baked|boiled|spelled]] his aunt right away. "I'm sorry. I missed my stop," he said. His aunt laughed. "Don't be [[sad|metal|cloudy|expensive]]. It happens!" But his mom was a little [[mad|digital|illegal|delicious]] because she had to pay for another ticket. On the way back, Ken did not close his eyes even once. "I'll never sleep on a train again," he said.
+> 1 很早起床，所以很「累」tired，才會睡著。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容人的狀態。
+> 2 so surprised that…「驚訝到…」：醒來發現到了高雄，嚇得跳起來。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
+> 3 call + 人「打電話給某人」。baked（烘烤）、boiled（煮沸）、spelled（拼字）接 his aunt 意思都不通。
+> 4 Don't be sad.「別難過」。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）放在 Don't be 後面都不通。
+> 5 要多付一張車票的錢，媽媽有點「生氣」mad。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ High Speed Rail = 高鐵
++ Taichung = 台中
++ Kaohsiung = 高雄
++ miss one's stop = 坐過站
+= 上星期六，Ken 第一次自己搭高鐵，要去台中看阿姨。車程只有一小時，但他很早起床，非常累，所以就睡著了。他睜開眼睛時，火車已經到了高雄！Ken 驚訝得跳了起來，馬上打電話給阿姨。「對不起，我坐過站了。」他說。阿姨笑了：「別難過，這種事常有！」但媽媽有點生氣，因為她得多付一張車票的錢。回程時，Ken 連一次眼睛都沒閉上。「我再也不在火車上睡覺了。」他說。
+
+## 罷工的掃地機器人
+Our family has a robot vacuum named Dusty. Every morning, Dusty cleans the whole house. One day, my brother dropped a whole bag of popcorn on the floor. Dusty worked for three hours to clean it up. After that, it [[stopped|baked|married|spelled]] in the middle of the living room and said, "Battery low." My little sister Ruby laughed. "Dusty is [[tired|delicious|illegal|national]]!" She put a small blanket on it. The next week, my brother made a mess again. This time, Dusty did not move at all. Mom was [[mad|plastic|rainy|electric]] at my brother. "Dusty is not your servant. Clean it up yourself!" My brother looked [[unhappy|metal|cloudy|expensive]], but he picked up every piece. When he finished, Dusty turned on and moved again. We were all [[surprised|digital|illegal|delicious]]. "Maybe Dusty is smarter than we think," Ruby said.
+> 1 stop「停下來」：清完爆米花後，它停在客廳中間。baked（烘烤）、married（結婚）、spelled（拼字）都不能接 in the middle of the living room 表示停住。
+> 2 電池沒電了，妹妹開玩笑說機器人「累了」tired。delicious（好吃的）、illegal（違法的）、national（國家的）都不合語意。
+> 3 be mad at + 人「生某人的氣」。plastic（塑膠的）、rainy（下雨的）、electric（電的）都不能接 at my brother 形容心情。
+> 4 被媽媽罵，哥哥看起來「不開心」unhappy。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容人的表情。
+> 5 掃地機器人等哥哥收完才又動起來，大家都很「驚訝」surprised。digital（數位的）、illegal、delicious 都不能形容心情。
++ robot vacuum = 掃地機器人
++ popcorn = 爆米花
++ battery = 電池
++ blanket = 毯子
++ servant = 僕人
+= 我們家有一台叫 Dusty 的掃地機器人，它每天早上都會把整個家打掃乾淨。有一天，哥哥把一整包爆米花打翻在地上，Dusty 花了三個小時才清乾淨。之後它停在客廳中間，說：「電量不足。」妹妹 Ruby 笑著說：「Dusty 累了！」還幫它蓋了一條小毯子。下個星期，哥哥又把地上弄得亂七八糟。這次 Dusty 完全不動。媽媽很生哥哥的氣：「Dusty 不是你的僕人，自己清乾淨！」哥哥看起來很不開心，但還是把每一片都撿了起來。他一收完，Dusty 就開機又動了起來。我們都很驚訝。「說不定 Dusty 比我們想的還聰明。」Ruby 說。
+
+## 奶奶的手寫信
+My grandma lives in Hualien, and I live in Taipei. We usually talk on the phone, but last month she sent me a real letter. I was [[surprised|wooden|national|rainy]] because few people write letters anymore. In the letter, Grandma wrote about her garden, her cat, and her new friends. At the end, she wrote, "I miss you. Sometimes I feel [[sad|plastic|square|electric]] when the house is too quiet." I read the letter three times. That night, I [[decided|baked|boiled|married]] to write back. It took me two hours, and my hand was [[tired|metal|cloudy|expensive]], but I finished it. A week later, Grandma called me. "I got your letter!" she said. "I'm so happy." Now we write to each other every month. My brother is a little [[mad|digital|illegal|delicious]] because Grandma never writes to him!
+> 1 現在很少人寫信，所以收到信很「驚訝」surprised。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容心情。
+> 2 feel sad「覺得難過」：家裡太安靜時會難過。plastic（塑膠的）、square（正方形的）、electric（電的）都不能接在 feel 後面形容心情。
+> 3 decide to + 原形動詞「決定做…」。baked、boiled、married 後面都不能接 to write back。
+> 4 寫了兩小時，手很「痠、累」tired。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不合語意。
+> 5 奶奶從不寫信給他，所以弟弟有點「不高興」mad。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ Hualien = 花蓮
++ garden = 花園
++ write back = 回信
+= 我奶奶住在花蓮，我住在台北。我們平常都講電話，但上個月她寄了一封真正的信給我。我很驚訝，因為現在很少人寫信了。奶奶在信裡寫了她的花園、她的貓和她的新朋友。最後她寫道：「我想你。家裡太安靜的時候，我有時候會覺得難過。」我把信讀了三遍。那天晚上，我決定回信，花了兩個小時，手好痠，但我寫完了。一個星期後，奶奶打電話給我：「我收到你的信了！好開心。」現在我們每個月都互相寫信。我弟弟有點不高興，因為奶奶從來沒有寫信給他！
+
+## 墾丁海灘的小企鵝
+One hot summer morning, a fisherman in Kenting found a strange visitor on the beach: a little penguin! Nobody knew how it got there. The penguin looked very [[tired|wooden|national|square]] after its long trip. The fisherman gave it some fish and put it in a cool box. Soon, people from all over Taiwan [[traveled|baked|spelled|married]] to see it. Many children were [[surprised|plastic|rainy|electric]] to see a penguin in Taiwan. But the penguin was not happy. It was too hot, and it missed its family. Its eyes looked [[sad|metal|cloudy|expensive]]. Scientists decided to send it home. On the day it left, the children waved goodbye. Some of them were [[unhappy|digital|illegal|delicious]] and cried. A month later, the scientists sent a photo. The penguin was swimming with its friends in the cold sea.
+> 1 游了很遠的路，企鵝看起來很「累」tired。wooden（木製的）、national（國家的）、square（正方形的）都不能形容動物的狀態。
+> 2 traveled to see it「遠道而來看牠」，travel「旅行、前往」。baked（烘烤）、spelled（拼字）、married（結婚）後面都不能接 to see it。
+> 3 be surprised to + 原形動詞「驚訝地…」：在台灣看到企鵝很驚訝。plastic（塑膠的）、rainy（下雨的）、electric（電的）都不能這樣用。
+> 4 想念家人，眼神看起來很「難過」sad。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容眼神。
+> 5 企鵝要走了，有些孩子「不開心」unhappy 而哭了。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ fisherman = 漁夫
++ Kenting = 墾丁
++ penguin = 企鵝
++ scientist = 科學家
++ wave = 揮手
+= 一個炎熱的夏日早晨，墾丁的一位漁夫在海灘上發現一位奇怪的訪客：一隻小企鵝！沒有人知道牠是怎麼來的。走了這麼遠的路，企鵝看起來非常累。漁夫餵牠吃魚，把牠放進保冷箱裡。很快地，全台灣的人都遠道而來看牠。很多孩子很驚訝能在台灣看到企鵝。但企鵝並不開心，這裡太熱了，而且牠想念家人，牠的眼神看起來很悲傷。科學家決定送牠回家。牠離開那天，孩子們揮手道別，有些人很難過，哭了出來。一個月後，科學家寄來一張照片：企鵝正和牠的朋友在冰冷的海裡游泳。
+
+## 兔子跑出了帽子
+For the school talent show, Eric [[prepared|baked|boiled|married]] a magic trick. He wanted to pull a rabbit out of a hat. He practiced every night for two weeks. On the day of the show, the hall was full of students. Eric was nervous, but he smiled and put his hand into the hat. There was no rabbit! The audience was [[surprised|wooden|national|rainy]]. Eric's face turned red. Then they heard a sound from under the stage. The rabbit was eating a carrot there! Everyone laughed. Eric felt [[sad|plastic|square|electric]] at first. After the show, he was even a little [[mad|metal|cloudy|expensive]] at the rabbit. But his teacher said, "That was the funniest show of the day!" That night, Eric was [[tired|digital|illegal|delicious]] but happy. He gave the rabbit two carrots.
+> 1 prepare a magic trick「準備一個魔術」。baked（烘烤）、boiled（煮沸）、married（結婚）接 a magic trick 意思都不通。
+> 2 帽子裡沒有兔子，觀眾很「驚訝」surprised。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容心情。
+> 3 feel sad「覺得難過」：表演出包，一開始很難過。plastic（塑膠的）、square（正方形的）、electric（電的）都不能接在 felt 後面形容心情。
+> 4 be mad at…「生…的氣」：甚至有點生兔子的氣。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能接 at the rabbit。
+> 5 tired but happy「累但開心」。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容人的狀態。
++ talent show = 才藝表演
++ magic trick = 魔術
++ audience = 觀眾
++ stage = 舞台
++ carrot = 紅蘿蔔
+= 為了學校的才藝表演，Eric 準備了一個魔術：他要從帽子裡拉出一隻兔子。他每天晚上練習，練了兩個星期。表演當天，禮堂裡坐滿了學生。Eric 很緊張，但他笑著把手伸進帽子裡——裡面沒有兔子！觀眾都很驚訝，Eric 的臉一下子紅了。接著大家聽到舞台下傳來聲音，原來兔子正在那裡吃紅蘿蔔！大家都笑了。Eric 一開始很難過，表演結束後甚至有點生兔子的氣。但老師說：「那是今天最好笑的表演！」那天晚上，Eric 雖然很累卻很開心。他給了兔子兩根紅蘿蔔。
+
+## 鄰居的大公雞
+Our new neighbor keeps a big rooster. Every morning at four o'clock, it starts to sing: "Cock-a-doodle-doo!" The whole street wakes up. After a week, everyone was [[tired|wooden|national|square]]. Mr. Lin from next door was so [[mad|plastic|rainy|electric]] that he knocked on the neighbor's door. "Your rooster is too loud!" he shouted. The neighbor, an old man, looked [[sad|metal|cloudy|expensive]]. "I'm sorry," he said. "He was my wife's pet. She died last year." Mr. Lin was [[surprised|digital|illegal|delicious]]. He did not know what to say. The next day, he [[brought|spelled|boiled|married]] the old man a box of cakes and helped him build a dark, quiet house for the rooster. Now the rooster sings at six, and Mr. Lin and the old man drink tea together every afternoon.
+> 1 每天四點被吵醒，一星期後大家都很「累」tired。wooden（木製的）、national（國家的）、square（正方形的）都不能形容人的狀態。
+> 2 so mad that…「氣到…」：氣得去敲鄰居的門。plastic（塑膠的）、rainy（下雨的）、electric（電的）都不能形容心情。
+> 3 提到過世的太太，老先生看起來很「難過」sad。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容表情。
+> 4 沒想到公雞背後有這樣的故事，林先生很「驚訝」surprised，不知道該說什麼。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
+> 5 bring + 人 + 物「帶某物給某人」，bring 的過去式 brought。spelled（拼字）、boiled（煮沸）、married（結婚）不能接「人＋物」。
++ rooster = 公雞
++ cock-a-doodle-doo = 喔喔喔（公雞叫聲）
++ knock = 敲（門）
+= 我們的新鄰居養了一隻大公雞。每天早上四點，牠就開始叫：「喔喔喔！」整條街的人都被吵醒。一個星期後，大家都累壞了。隔壁的林先生氣得去敲鄰居的門。「你的公雞太吵了！」他大喊。鄰居是一位老先生，他看起來很難過。「對不起，」他說，「牠是我太太的寵物，她去年過世了。」林先生很驚訝，不知道該說什麼。隔天，他帶了一盒蛋糕給老先生，還幫他替公雞蓋了一間又暗又安靜的小屋。現在公雞六點才叫，而林先生和老先生每天下午都一起喝茶。
+
+## 飛不起來的小魔女
+Kiki is a young witch. She lives in a seaside town and delivers packages on her broom. One morning, she [[tried|boiled|spelled|married]] to fly, but she could not get off the ground. She tried again and again. Nothing happened. Kiki was so [[surprised|wooden|national|rainy]]. She had never had this problem before. All day, she walked from house to house with the packages. By evening, she was very [[tired|plastic|square|electric]]. She sat by the sea and felt [[sad|metal|cloudy|expensive]]. "Am I not a witch anymore?" she thought. Her friend Tom sat next to her. "Maybe you are just working too hard," he said. "Take a break." So Kiki rested for three days. She painted, slept, and played with her cat. On the fourth morning, she jumped on her broom, and it rose into the sky. She was not [[unhappy|digital|illegal|delicious]] anymore.
+> 1 try to + 原形動詞「試著做…」。boiled（煮沸）、spelled（拼字）、married（結婚）後面都不能接 to fly。
+> 2 從來沒發生過這種事，琪琪非常「驚訝」surprised。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容心情。
+> 3 走路送了一整天包裹，傍晚時很「累」tired。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容人的狀態。
+> 4 feel sad「覺得難過」：擔心自己不再是魔女了。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能接在 felt 後面。
+> 5 not unhappy anymore「不再不開心」：又能飛了。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ witch = 女巫、魔女
++ seaside = 海邊的
++ deliver = 遞送
++ package = 包裹
++ broom = 掃帚
+= 琪琪是一位小魔女，她住在一個海邊小鎮，騎著掃帚幫人送包裹。一天早上，她想飛起來，卻沒辦法離開地面。她試了一次又一次，什麼事也沒發生。琪琪非常驚訝，她從來沒遇過這種問題。那一整天，她只好提著包裹一家一家走路去送。到了傍晚，她累壞了。她坐在海邊，覺得好難過。「我是不是不再是魔女了？」她想。她的朋友 Tom 坐到她旁邊說：「也許你只是太累了，休息一下吧。」於是琪琪休息了三天，畫畫、睡覺、陪她的貓玩。第四天早上，她跳上掃帚，掃帚升上了天空。她再也不難過了。
+
+## 爺爺的老機車
+Grandpa has an old scooter. He has ridden it for thirty years, and every morning he takes me to school on it. One day, the scooter stopped in the middle of the road and would not start again. Grandpa was [[unhappy|wooden|national|square]]. He pushed it to a repair shop. The mechanic looked at it and said, "It's too old. You should buy a new one." Grandpa was [[mad|plastic|rainy|electric]]. "Too old? I'm older than it, and I still work fine!" Everyone in the shop laughed. In the end, the mechanic [[fixed|baked|boiled|married]] it. It took him five hours, and he was very [[tired|metal|cloudy|expensive]] when he finished. Grandpa gave him a big red envelope. The next morning, I heard the old scooter outside my window. I was [[surprised|digital|illegal|delicious]] and ran out. "Ready for school?" Grandpa asked with a big smile.
+> 1 機車在路中間壞掉，爺爺很「不開心」unhappy。wooden（木製的）、national（國家的）、square（正方形的）都不能形容心情。
+> 2 被說「太老了」，爺爺很「生氣」mad。plastic（塑膠的）、rainy（下雨的）、electric（電的）都不能形容心情。
+> 3 fix「修理」：技師最後把它修好了。baked（烘烤）、boiled（煮沸）、married（結婚）接 it（機車）意思都不通。
+> 4 修了五個小時，技師很「累」tired。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容人的狀態。
+> 5 聽到老機車的聲音，我很「驚訝」surprised 就跑出去。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ scooter = 機車
++ repair shop = 修理店
++ mechanic = 技師
++ red envelope = 紅包
+= 爺爺有一台老機車，他已經騎了三十年，每天早上都騎它載我上學。有一天，機車在路中間停下來，怎麼樣都發不動。爺爺很不開心，把它推到修車行。技師看了看說：「它太老了，你應該買一台新的。」爺爺很生氣：「太老？我比它還老，還不是好好的！」店裡的人都笑了。最後，技師還是把它修好了，他花了五個小時，修完時累壞了。爺爺包了一個大紅包給他。隔天早上，我聽到窗外傳來老機車的聲音，驚訝地跑出去。「準備好上學了嗎？」爺爺笑得好開心。
+
+## 太空站上的生日
+Astronaut Lisa had her birthday on the space station, far away from Earth. She thought nobody would remember. That morning, she worked for ten hours and was very [[tired|wooden|national|rainy]]. She felt a little [[sad|plastic|square|electric]], too. Her family was 400 kilometers below her. Then, at dinner time, the lights went off. When they came back on, her teammates were holding a "cake" made of tortillas and chocolate. Lisa was so [[surprised|metal|cloudy|expensive]]! Then a video [[started|baked|boiled|married]] on the screen. It was her daughter, singing "Happy Birthday." Lisa cried and laughed at the same time. "Are you [[unhappy|digital|illegal|delicious]]?" asked a teammate. "No," she said. "These are happy tears. This is my best birthday ever."
+> 1 工作了十個小時，所以很「累」tired。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容人的狀態。
+> 2 feel sad「覺得難過」：家人離她好遠。plastic（塑膠的）、square（正方形的）、electric（電的）都不能接在 felt 後面形容心情。
+> 3 隊友準備了蛋糕，Lisa 非常「驚訝」surprised。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 4 start「開始」：螢幕上開始播放一段影片。baked（烘烤）、boiled（煮沸）、married（結婚）都不能用在影片上。
+> 5 看到她哭，隊友問「你不開心嗎？」unhappy。digital（數位的）、illegal（違法的）、delicious（好吃的）放在 Are you 後面都不通。
++ astronaut = 太空人
++ space station = 太空站
++ teammate = 隊友
++ tortilla = 墨西哥薄餅
++ tear = 眼淚
+= 太空人 Lisa 在離地球很遠的太空站上過生日，她以為沒有人會記得。那天早上她工作了十個小時，非常累，也覺得有點難過——她的家人在她下方四百公里遠的地方。到了晚餐時間，燈突然熄了。燈再亮起時，隊友們捧著一個用墨西哥薄餅和巧克力做成的「蛋糕」。Lisa 好驚訝！接著螢幕上開始播放一段影片，是她的女兒在唱〈生日快樂歌〉。Lisa 又哭又笑。「你不開心嗎？」一位隊友問。「不，」她說，「這是開心的眼淚。這是我最棒的一次生日。」
