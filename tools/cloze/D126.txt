@@ -135,3 +135,142 @@ Long ago, a tired traveler came to a poor village. He was hungry, but nobody wan
 + carrot = 紅蘿蔔
 + butcher = 肉販
 = 很久以前，一個疲憊的旅人來到一個貧窮的村莊。他很餓，卻沒有人願意給他食物。於是他在村子中央放了一個大鍋子，裝滿水，再丟進一顆石頭。「我在煮石頭湯。」他說。村民很好奇，紛紛跑來看。「很好喝喔，」他說，「不過加點鹽會更好。」一位婦人拿來了鹽。「要是有點蔬菜也不錯。」他又說。一位農夫拿來了紅蘿蔔。接著，一位漁夫帶來一些海鮮，肉販也帶來一塊豬肉。很快地，鍋子滿了，聞起來香極了。大家一起分享這鍋湯，那是村子多年來最棒的一餐。當然，祕訣從來不是石頭，而是每個人都付出了一點點。
+
+## 第一次吃牛排
+For my twelfth birthday, my uncle took me to a fancy steak house. I was a little nervous because I had never used a knife and fork before. "Hold the fork in your left hand and the knife in your right," my uncle said. The waiter asked how I wanted my [[steak|ticket|village|office]]. I didn't know what to say, so my uncle [[ordered|spelled|married|prayed]] it medium for me. Before the main dish, we had mushroom [[soup|homework|traffic|weather]]. I almost drank it from the bowl, but my uncle showed me how to use a spoon. Then the beef arrived. I cut a small piece and put it in my mouth. It was soft and juicy! My uncle had [[seafood|knowledge|information|history]] pasta with shrimp and clams. "Do you want to [[try|spell|marry|pray]] some?" he asked. I shook my head. "No, thanks. Steak is my new favorite food!"
+> 1 服務生問我的牛排 steak 要幾分熟。ticket（票）、village（村莊）、office（辦公室）都沒有熟度可言。
+> 2 order + 食物「點餐」，叔叔幫我點了五分熟，order 的過去式 ordered。spelled（拼字）、married（結婚）、prayed（禱告）都不能接 it medium 表示點餐。
+> 3 mushroom soup「蘑菇濃湯」，後面說差點直接拿碗喝、要用湯匙。homework（功課）、traffic（交通）、weather（天氣）都不能喝。
+> 4 seafood pasta「海鮮義大利麵」，裡面有蝦子和蛤蜊。knowledge（知識）、information（資訊）、history（歷史）都不能做成麵。
+> 5 try some「吃吃看一些」，叔叔問我要不要嚐他的麵。spell（拼字）、marry（結婚）、pray（禱告）接 some 都不通。
++ fancy = 高級的
++ medium = 五分熟的
++ mushroom = 蘑菇
++ juicy = 多汁的
++ clam = 蛤蜊
+= 我十二歲生日時，叔叔帶我去一家高級牛排館。我有點緊張，因為我從來沒用過刀叉。「左手拿叉子，右手拿刀子。」叔叔說。服務生問我牛排要幾分熟，我不知道怎麼回答，叔叔就幫我點了五分熟。主餐之前，我們先喝蘑菇濃湯。我差點直接拿碗喝，叔叔教我怎麼用湯匙。接著牛排上桌了，我切下一小塊放進嘴裡，又嫩又多汁！叔叔吃的是加了蝦子和蛤蜊的海鮮義大利麵。「要不要吃吃看？」他問。我搖搖頭說：「不用了，謝謝。牛排是我最喜歡的新食物！」
+
+## 外星人的地球美食報告
+Zork is an alien from a faraway planet. His job is to write a report about Earth food. On his first night in Taiwan, he visited a night market. He tried a [[pork|homework|traffic|weather]] sausage, and his three eyes opened wide. "Sweet and salty at the same time!" he wrote. Next, he ate beef noodles. He thought the [[beef|knowledge|information|history]] was soft, but the soup was too hot for his tongue. The next day, he went to a [[seafood|garbage|news|energy]] restaurant by the sea. When the waiter brought a big red crab to the table, Zork screamed and ran out. "It looks just like my boss!" he said. On his last day, he finished his [[report|habit|hobby|grade]]: "Earth food is wonderful, and Taiwanese people are friendly. But I am [[afraid|polite|lazy|thin]] of crabs. Please don't send me to the sea again."
+> 1 pork sausage「豬肉香腸」，夜市小吃，又甜又鹹。homework（功課）、traffic（交通）、weather（天氣）都不能做成香腸。
+> 2 牛肉麵裡的牛肉 beef 很軟，但湯太燙。knowledge（知識）、information（資訊）、history（歷史）都不能用「軟」來形容口感。
+> 3 a seafood restaurant「海鮮餐廳」，在海邊、還端出螃蟹。garbage（垃圾）、news（新聞）、energy（能量）都不能當餐廳的種類。
+> 4 前面說他的工作是寫一份地球食物的報告 report，最後一天完成了。habit（習慣）、hobby（嗜好）、grade（成績）後面都不能接報告的內容。
+> 5 be afraid of…「害怕…」，他看到螃蟹就尖叫逃走。polite（有禮貌的）、lazy（懶惰的）、thin（瘦的）都不能和 of crabs 搭配。
++ alien = 外星人
++ planet = 星球
++ sausage = 香腸
++ tongue = 舌頭
++ crab = 螃蟹
+= Zork 是來自遙遠星球的外星人，他的工作是寫一份關於地球食物的報告。在台灣的第一個晚上，他去逛夜市。他吃了一根豬肉香腸，三隻眼睛都睜得大大的。「又甜又鹹！」他寫道。接著他吃了牛肉麵，覺得牛肉很軟，但湯對他的舌頭來說太燙了。第二天，他去海邊的一家海鮮餐廳。服務生把一隻紅通通的大螃蟹端上桌時，Zork 尖叫著跑了出去。「牠長得跟我老闆一模一樣！」他說。最後一天，他完成了報告：「地球的食物很棒，台灣人也很友善。但是我怕螃蟹，請不要再派我去海邊了。」
+
+## 畢業旅行的晚餐菜單
+Our class is planning a graduation trip to Kenting. As class leader, I had to choose the menu for dinner. I thought it would be easy, but it wasn't. Raj, our classmate from India, doesn't eat [[beef|homework|traffic|weather]] because of his religion. Fatima, who is Muslim, doesn't eat [[pork|knowledge|information|history]]. And Ken can't eat shrimp because he is allergic to it. "What can we all eat?" I asked our teacher. She said, "Let's [[respect|spell|marry|borrow]] everyone's needs and talk with the restaurant." In the end, the restaurant gave us chicken, fish, many vegetable dishes, and a big pot of corn [[soup|garbage|news|energy]]. Ken's table had no shrimp at all. After dinner, everyone was [[satisfied|wooden|national|illegal]] with the meal. Our teacher said to me, "Good job. A good leader thinks about everyone."
+> 1 Raj 因為宗教的關係不吃牛肉 beef。homework（功課）、traffic（交通）、weather（天氣）都不是食物，和宗教飲食無關。
+> 2 Fatima 是穆斯林，不吃豬肉 pork。knowledge（知識）、information（資訊）、history（歷史）都不是食物。
+> 3 respect everyone's needs「尊重每個人的需求」。spell（拼字）、marry（結婚）、borrow（借）接 needs 意思都不通。
+> 4 a big pot of corn soup「一大鍋玉米濃湯」。garbage（垃圾）、news（新聞）、energy（能量）都不會被餐廳端上桌。
+> 5 be satisfied with…「對…感到滿意」。wooden（木製的）、national（國家的）、illegal（違法的）都不能形容人吃完飯的感受。
++ graduation trip = 畢業旅行
++ Kenting = 墾丁
++ religion = 宗教
++ Muslim = 穆斯林
++ allergic = 過敏的
+= 我們班正在計畫去墾丁畢業旅行。身為班長，我得決定晚餐的菜單。我以為很簡單，結果並不是。來自印度的同學 Raj 因為宗教的關係不吃牛肉；Fatima 是穆斯林，不吃豬肉；Ken 對蝦子過敏，不能吃蝦。「有什麼是我們大家都能吃的？」我問老師。她說：「我們要尊重每個人的需求，和餐廳好好討論。」最後，餐廳準備了雞肉、魚、很多蔬菜料理，還有一大鍋玉米濃湯，Ken 那桌完全沒有蝦子。晚餐後，大家都對這餐很滿意。老師對我說：「做得好，好的領導者會為每個人著想。」
+
+## 基隆廟口的宵夜
+Keelung is a rainy city by the sea, and its night market is famous all over Taiwan. Last Saturday, my cousin took me there. It was so crowded that we could hardly walk. Because Keelung has a big fishing harbor, you can find a lot of fresh [[seafood|homework|traffic|weather]] there. We had crab soup first. The [[soup|knowledge|information|history]] was thick and full of crab meat. Next, we tried a sandwich with [[pork|garbage|news|energy]], egg, and cucumber. It looked simple, but it was so good! Finally, we went to a night-market [[steak|ticket|village|pocket]] stand. The steak came on a hot iron plate with noodles and an egg. It only [[cost|spelled|married|borrowed]] 150 dollars! On the train home, my cousin said, "Next time, let's come on an empty stomach." I laughed. My stomach was still full.
+> 1 基隆有大漁港，所以能找到很多新鮮的海鮮 seafood。homework（功課）、traffic（交通）、weather（天氣）都不能用「新鮮」形容、也不是漁港的特產。
+> 2 螃蟹羹的湯 soup 很濃稠，裡面滿是蟹肉。knowledge（知識）、information（資訊）、history（歷史）都不能用「濃稠」形容。
+> 3 夾著豬肉 pork、蛋和小黃瓜的三明治。garbage（垃圾）、news（新聞）、energy（能量）都不能夾在三明治裡吃。
+> 4 night-market steak「夜市牛排」，後面說牛排放在鐵板上。ticket（票）、village（村莊）、pocket（口袋）都不能當攤販賣的食物。
+> 5 It only cost 150 dollars.「只要一百五十元」，cost 的過去式仍是 cost。spelled（拼字）、married（結婚）、borrowed（借）都不能接金額表示價格。
++ Keelung = 基隆
++ harbor = 港口
++ crab = 螃蟹
++ cucumber = 小黃瓜
++ iron plate = 鐵板
+= 基隆是個海邊的雨都，那裡的夜市全台灣都有名。上週六，表哥帶我去逛，人多到我們幾乎走不動。因為基隆有很大的漁港，在那裡可以吃到很多新鮮的海鮮。我們先喝螃蟹羹，湯很濃稠，裡面滿滿都是蟹肉。接著我們吃了夾著豬肉、蛋和小黃瓜的三明治，看起來很簡單，卻好吃得不得了！最後我們去吃夜市牛排，牛排放在熱鐵板上，還附麵和一顆蛋，只要一百五十元！坐火車回家時，表哥說：「下次我們空著肚子來吧。」我笑了出來，因為我的肚子還是飽飽的。
+
+## 魔法廚師的湯
+In a small kingdom, there was a cook who could make magic [[soup|homework|traffic|weather]]. Her tomato soup made people laugh all day. Her corn soup made old people feel young again. One day, the king got very sick. He couldn't get out of bed, and he felt [[terrible|wooden|national|crowded]]. The cook went into the dark forest to find a golden mushroom. She came back and cooked it with [[beef|knowledge|information|history]] and vegetables for a whole day. When the king [[tasted|spelled|married|borrowed]] the soup, his face turned pink, and he jumped out of bed. "I feel like a young man!" he shouted. "From now on, you are the royal cook. Ask for anything you want." The cook smiled. "Then please give a bowl of free soup and some [[pork|garbage|news|energy]] buns to every poor family once a week."
+> 1 magic soup「魔法湯」，後面說她的番茄湯、玉米湯都有魔力。homework（功課）、traffic（交通）、weather（天氣）都不能煮。
+> 2 feel terrible「覺得很不舒服」，國王病到下不了床。wooden（木製的）、national（國家的）、crowded（擁擠的）都不能形容身體的感覺。
+> 3 把金色蘑菇和牛肉 beef、蔬菜一起燉。knowledge（知識）、information（資訊）、history（歷史）都不能放進鍋裡煮。
+> 4 taste the soup「嚐這碗湯」，taste 的過去式 tasted。spelled（拼字）、married（結婚）、borrowed（借）接 the soup 都不通。
+> 5 pork buns「豬肉包子」，要送給窮苦人家。garbage（垃圾）、news（新聞）、energy（能量）都不能做成包子。
++ kingdom = 王國
++ golden = 金色的
++ mushroom = 蘑菇
++ royal = 皇家的
++ bun = 包子
+= 在一個小王國裡，有一位會煮魔法湯的廚師。她的番茄湯能讓人笑一整天，玉米湯能讓老人覺得重返年輕。有一天，國王病得很重，下不了床，全身非常不舒服。廚師走進黑暗的森林，找到一朵金色蘑菇。她回來後把蘑菇和牛肉、蔬菜一起燉了一整天。國王喝下這碗湯，臉色變得紅潤，還從床上跳了起來。「我覺得自己像個年輕人！」他大喊，「從今以後，你就是皇家廚師，想要什麼都可以說。」廚師笑著說：「那麼請每週送一碗免費的湯和幾個豬肉包子給每一戶窮人家。」
+
+## 清晨的漁港
+At five in the morning, my grandpa woke me up. "Let's go to the harbor," he said. The fishing boats had just come back from the sea. Workers were carrying boxes of fish, shrimp, and squid. "All the [[seafood|homework|traffic|weather]] here is very [[fresh|honest|polite|lazy]]," Grandpa said. "It was in the sea a few hours ago." An old fisherman Grandpa knew gave us a big fish. Grandpa wanted to [[pay|spell|marry|pray]] him, but the fisherman said no. "You helped me fix my boat last year," he said. When we got home, Grandma cooked the fish into a [[soup|knowledge|information|history]] with ginger. She also made fried rice with [[pork|garbage|news|energy]] and eggs. It was the best breakfast I had ever had. Next weekend, I want to wake up at five again.
+> 1 漁港裡的魚、蝦、魷魚都是海鮮 seafood。homework（功課）、traffic（交通）、weather（天氣）都不會在漁港被搬運。
+> 2 海鮮幾個小時前還在海裡，所以很新鮮 fresh。honest（誠實的）、polite（有禮貌的）、lazy（懶惰的）都是形容人的，不能形容海鮮。
+> 3 pay + 人「付錢給某人」，但漁夫說不用。spell（拼字）、marry（結婚）、pray（禱告）都和收下魚要付錢無關。
+> 4 cook the fish into a soup「把魚煮成湯」，加了薑。knowledge（知識）、information（資訊）、history（歷史）都不能煮。
+> 5 fried rice with pork and eggs「豬肉蛋炒飯」。garbage（垃圾）、news（新聞）、energy（能量）都不能拿來炒飯。
++ harbor = 港口
++ shrimp = 蝦子
++ squid = 魷魚
++ fisherman = 漁夫
++ ginger = 薑
+= 早上五點，爺爺把我叫醒。「我們去漁港吧。」他說。漁船剛從海上回來，工人們正在搬一箱箱的魚、蝦和魷魚。「這裡的海鮮都很新鮮，」爺爺說，「幾個小時前還在海裡呢。」一位爺爺認識的老漁夫送我們一條大魚，爺爺想付錢給他，漁夫卻說不用。「你去年幫我修過船啊。」他說。回到家，奶奶把魚加薑煮成魚湯，還做了豬肉蛋炒飯。那是我吃過最棒的早餐。下週末，我還想再五點起床。
+
+## 薩爾達的料理鍋
+In the game The Legend of Zelda, Link gets hurt a lot when he fights monsters. To get his [[energy|homework|traffic|knowledge]] back, he has to cook. You can throw things into a big pot and see what happens. If you put in a piece of raw meat, you might get a [[steak|ticket|village|pocket]] that gives you more hearts. If you put in fish and crabs, you can make a [[seafood|traffic|weather|history]] dish. But if you [[mix|spell|marry|pray]] the wrong things, like a rock and a bug, you get "Dubious Food," which looks terrible. My brother and I love to try new recipes. His favorite is a warm [[soup|news|information|nature]] that helps Link climb snowy mountains without feeling cold. My favorite is anything with a lot of meat. Sometimes we spend more time cooking than fighting!
+> 1 get one's energy back「恢復體力」，林克受傷後要靠料理補充。homework（功課）、traffic（交通）、knowledge（知識）都不是受傷後要恢復的東西。
+> 2 生肉煮過後變成一塊牛排 steak，能補血（愛心）。ticket（票）、village（村莊）、pocket（口袋）都不是生肉煮出來的東西。
+> 3 用魚和螃蟹做出海鮮 seafood 料理。traffic（交通）、weather（天氣）、history（歷史）都不能當料理的種類。
+> 4 mix the wrong things「把不對的東西混在一起」，例如石頭加蟲。spell（拼字）、marry（結婚）、pray（禱告）都不能表示把材料放在一起煮。
+> 5 a warm soup「一碗熱湯」，讓林克爬雪山時不會冷。news（新聞）、information（資訊）、nature（自然）都不能喝來保暖。
++ The Legend of Zelda = 《薩爾達傳說》
++ monster = 怪物
++ raw = 生的
++ dubious = 可疑的
++ recipe = 食譜
+= 在遊戲《薩爾達傳說》裡，林克打怪物時常常受傷。想要恢復體力，他就得做料理。你可以把東西丟進一個大鍋子裡，看看會發生什麼事。如果放進一塊生肉，可能會得到一塊能增加愛心的牛排；放進魚和螃蟹，就能做出海鮮料理。但如果混了不對的東西，像是石頭加蟲子，就會得到看起來很可怕的「可疑料理」。我和哥哥很愛嘗試新食譜。他最喜歡一道熱湯，可以讓林克爬雪山時不覺得冷；我最喜歡的則是任何有很多肉的料理。有時候我們花在煮飯的時間比打怪還多！
+
+## 停電夜的一鍋湯
+During the typhoon last month, the power went out in our building. It was dark, and we couldn't use the microwave or the rice cooker. Luckily, we had a gas stove. Mom said, "Let's make [[soup|homework|traffic|knowledge]] with everything in the fridge before it goes bad." We found some [[pork|weather|information|history]], two tomatoes, an onion, and some frozen fish balls. "Fish balls are [[seafood|traffic|news|nature]], too," my brother said proudly. We put it all in a pot and cooked it by candlelight. The wind was loud outside, but our kitchen was warm. When the soup was ready, we sat on the floor and ate together. Dad told ghost stories, and my sister was so [[scared|wooden|national|cheap]] that she held Mom's arm all night. It was the best [[meal|ticket|village|pocket]] of the year.
+> 1 make soup「煮湯」，把冰箱裡的東西都放進去，後面也說 the soup。homework（功課）、traffic（交通）、knowledge（知識）都不能用冰箱裡的食材做。
+> 2 冰箱裡找到一些豬肉 pork、番茄和洋蔥。weather（天氣）、information（資訊）、history（歷史）都不會放在冰箱裡。
+> 3 魚丸也算是海鮮 seafood，弟弟很得意地說。traffic（交通）、news（新聞）、nature（自然）都不能用來說明魚丸是什麼。
+> 4 so scared that…「害怕到…」，聽鬼故事嚇得抓著媽媽的手。wooden（木製的）、national（國家的）、cheap（便宜的）都不能形容聽鬼故事的心情。
+> 5 the best meal「最棒的一餐」。ticket（票）、village（村莊）、pocket（口袋）都和一家人一起吃飯無關。
++ typhoon = 颱風
++ microwave = 微波爐
++ gas stove = 瓦斯爐
++ frozen = 冷凍的
++ candlelight = 燭光
+= 上個月颱風來時，我們大樓停電了。四周一片漆黑，微波爐和電鍋都不能用。幸好我們有瓦斯爐。媽媽說：「我們趁冰箱裡的東西壞掉之前，把它們全部拿來煮湯吧。」我們找到一些豬肉、兩顆番茄、一顆洋蔥，還有一些冷凍魚丸。「魚丸也算是海鮮喔。」弟弟得意地說。我們把東西全丟進鍋子，在燭光下煮。外面風聲很大，廚房裡卻很溫暖。湯煮好後，我們坐在地上一起吃。爸爸講鬼故事，妹妹嚇得整晚抓著媽媽的手臂。那是今年最棒的一餐。
+
+## 逃出餐廳的龍蝦
+At a [[seafood|homework|traffic|weather]] restaurant in Tainan, there is a big water tank by the door. Customers can choose a fish, crab, or lobster from the tank, and the chef cooks it right away. One night, a lobster named Big Red climbed out of the tank. While the chef was busy cooking [[beef|knowledge|information|history]] for a big table, Big Red walked slowly across the kitchen floor. He passed the pot of fish [[soup|garbage|news|energy]] and the boxes of vegetables. Then he went out the back door! A little girl saw him in the street and [[shouted|spelled|married|borrowed]], "A lobster is walking!" The chef ran out, but the girl begged, "Please don't cook him." The owner laughed. That night, he drove Big Red to the beach and let him go. Big Red is a [[lucky|wooden|national|illegal]] lobster. Now he lives in the sea again.
+> 1 a seafood restaurant「海鮮餐廳」，門口有養魚、蟹、龍蝦的水槽。homework（功課）、traffic（交通）、weather（天氣）都不能當餐廳的種類。
+> 2 廚師正忙著為一大桌客人煮牛肉 beef。knowledge（知識）、information（資訊）、history（歷史）都不能煮。
+> 3 the pot of fish soup「那鍋魚湯」。garbage（垃圾）、news（新聞）、energy（能量）都不能和 fish 組成廚房裡的一鍋菜。
+> 4 小女孩看到龍蝦在街上走，驚訝地大喊 shouted。spelled（拼字）、married（結婚）、borrowed（借）都不能接引號裡的話。
+> 5 a lucky lobster「幸運的龍蝦」，牠沒被煮，還被放回大海。wooden（木製的）、national（國家的）、illegal（違法的）都不符合故事結局。
++ Tainan = 台南
++ tank = 水槽
++ lobster = 龍蝦
++ chef = 主廚
++ beg = 懇求
+= 台南有一家海鮮餐廳，門口有一個大水槽。客人可以從水槽裡挑魚、螃蟹或龍蝦，主廚會馬上料理。有一天晚上，一隻叫「大紅」的龍蝦爬出了水槽。趁主廚忙著為一大桌客人煮牛肉，大紅慢慢地爬過廚房地板，經過那鍋魚湯和一箱箱的蔬菜，然後從後門溜了出去！一個小女孩在街上看到牠，大喊：「龍蝦在走路！」主廚追了出來，但小女孩懇求他：「拜託不要煮牠。」老闆笑了。那天晚上，他開車把大紅載到海邊放生。大紅是一隻幸運的龍蝦，現在牠又住在大海裡了。
+
+## 挑食的國王
+There was once a king who never liked his food. The [[beef|homework|traffic|weather]] was too hard. The [[soup|knowledge|information|history]] was too salty. The fish was too small. Every month, he sent away another cook. One day, a young cook came to the palace. Instead of cooking, she asked the king to work in the fields with the farmers for a day. The king was [[surprised|wooden|empty|crowded]], but he agreed. He worked under the hot sun until evening. By then, he was so [[hungry|cheap|modern|national]] that he could hardly stand. The cook gave him a simple bowl of rice with [[pork|garbage|news|energy]] and some vegetables. The king ate it all and asked for more. "This is the best dinner I've ever had!" he said. The cook smiled. "The food is the same, Your Majesty. You are the one who changed."
+> 1 國王嫌牛肉 beef 太硬。homework（功課）、traffic（交通）、weather（天氣）都不能用「硬」來嫌棄口感。
+> 2 國王嫌湯 soup 太鹹。knowledge（知識）、information（資訊）、history（歷史）都沒有鹹淡。
+> 3 廚師不煮菜，反而要國王去田裡工作，國王感到驚訝 surprised。wooden（木製的）、empty（空的）、crowded（擁擠的）都不能形容人聽到奇怪要求的反應。
+> 4 so hungry that he could hardly stand「餓到幾乎站不住」。cheap（便宜的）、modern（現代的）、national（國家的）都不是工作一整天後的身體狀態。
+> 5 a bowl of rice with pork「一碗豬肉飯」。garbage（垃圾）、news（新聞）、energy（能量）都不能配飯吃。
++ salty = 鹹的
++ palace = 皇宮
++ field = 田地
++ Your Majesty = 陛下
+= 從前有一位國王，從來不喜歡他的食物。牛肉太硬，湯太鹹，魚太小。每個月他都會趕走一位廚師。有一天，一位年輕的廚師來到皇宮。她沒有煮菜，反而請國王和農夫一起在田裡工作一天。國王很驚訝，但還是答應了。他在大太陽底下一直做到傍晚，那時他已經餓到幾乎站不住。廚師給他一碗簡單的豬肉飯和一些青菜。國王全部吃光，還要再來一碗。「這是我吃過最棒的晚餐！」他說。廚師笑著說：「陛下，食物還是一樣的，改變的是您。」
