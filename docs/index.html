@@ -189,6 +189,13 @@ input[type=text]{flex:1;min-width:200px}
 .bk small{color:var(--muted);font-size:.76rem;line-height:1.35;display:block}
 .bk .got{margin-left:auto;color:var(--ok);font-weight:900}
 @media (prefers-reduced-motion: no-preference){.badge.new{animation:okpop .5s cubic-bezier(.34,1.56,.64,1)}}
+.taskban{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;justify-content:space-between;border:2px solid var(--chalk);background:#fff8e1;border-radius:14px;padding:12px 14px;margin:0 0 18px}
+.taskban .tb-text{display:flex;flex-direction:column;gap:2px;line-height:1.5}
+.taskban .tb-text b{font-size:1.05rem}
+#tbStat{font-weight:900}
+#tbStat.ok{color:var(--ok)}
+#tbStat.try{color:#9a6700}
+.taskban.done{border-color:var(--ok);background:#e9f7ee}
 </style>
 </head>
 <body>
@@ -206,6 +213,10 @@ input[type=text]{flex:1;min-width:200px}
       <label for="sname">姓名</label><input type="text" id="sname" maxlength="20" placeholder="請輸入姓名" style="min-width:140px;flex:0 1 180px">
     </div>
     <div class="hint">交卷後成績會自動上傳給老師。這台裝置會記住你的座號和姓名。</div>
+  </div>
+  <div class="taskban hidden" id="taskBan">
+    <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
+    <button class="primary" id="tbGo" type="button">開始今日任務</button>
   </div>
   <div class="field">
     <div class="label">選擇範圍</div>
@@ -588,7 +599,7 @@ function finish(){
   session.last = s.items;
   if (s.log.length) upload(); else { $('rUpload').className = 'upload'; $('rUpload').textContent = '沒有作答，不上傳成績。'; }
   $('rBadgesBox').classList.add('hidden'); $('rNew').textContent = '';
-  if (s.log.length) setTimeout(renderBadges, 2200);   // 等成績寫進試算表後再抓徽章
+  if (s.log.length) { setTimeout(renderBadges, 2200); setTimeout(loadTodayTask, 2600); }   // 等成績寫進試算表後再抓徽章、任務狀態
 }
 function rangeText(){
   const ds = selectedDays().map(dnum);
@@ -715,6 +726,39 @@ async function renderBadges(){
   if (typeof drawBoard === 'function' && boardData) drawBoard();   // 排行榜旁的徽章一起更新
 }
 
+// 今日任務：老師在試算表「每日任務」設定；範圍、題數要完全照任務才算數
+let TODAY_TASK = null;
+async function loadTodayTask(){
+  const seat = $('seat').value;
+  if (!SHEET_URL || !seat) { $('taskBan').classList.add('hidden'); return; }
+  try {
+    const j = await fetch(SHEET_URL + '?action=tasks&seat=' + seat).then(r => r.json());
+    if (!j.ok || !j.task) { $('taskBan').classList.add('hidden'); TODAY_TASK = null; return; }
+    TODAY_TASK = j.task;
+    const t = j.task, me = j.me;
+    $('tbRule').textContent = `範圍 ${t.from}${t.from !== t.to ? '–' + t.to : ''}・${t.n} 題・答對率 ${t.pass}% 過關（可以重複考）`;
+    const st = $('tbStat');
+    if (me && me.passAt) { st.className = 'ok'; st.textContent = `✅ 已過關（${me.passAt.slice(11, 16)}，最高 ${me.best}%）`; }
+    else if (me) { st.className = 'try'; st.textContent = `目前最高 ${me.best}%，再試一次！（已考 ${me.attempts} 次）`; }
+    else { st.className = ''; st.textContent = '還沒開始，按右邊按鈕就會自動設定好範圍和題數。'; }
+    $('taskBan').classList.toggle('done', !!(me && me.passAt));
+    $('tbGo').textContent = me && me.passAt ? '再練習一次' : '開始今日任務';
+    $('taskBan').classList.remove('hidden');
+  } catch (e) { $('taskBan').classList.add('hidden'); }
+}
+$('tbGo').onclick = () => {
+  const t = TODAY_TASK; if (!t || !DATA) return;
+  const a = DATA.labels.indexOf(t.from), b = DATA.labels.indexOf(t.to);
+  if (a < 0 || b < 0) return;
+  setMode('range');
+  $('from').value = Math.min(a, b); $('to').value = Math.max(a, b);
+  const nb = document.querySelector('[data-n="' + t.n + '"]');
+  if (nb) nb.click(); else num = t.n;
+  update();
+  if ($('startBtn').disabled) { $('seat').focus(); $('countLbl').textContent = '請先填好座號和姓名，再按一次「開始今日任務」。'; return; }
+  $('startBtn').click();
+};
+
 // wiring
 $('mRange').onclick = () => setMode('range');
 $('mPick').onclick = () => setMode('pick');
@@ -790,7 +834,7 @@ SEATS.forEach(i => $('seat').add(new Option(TEACHERS[i] || (i === 30 ? '30 號�
 const seatLabel = n => TEACHERS[n] ? '老師' : n;
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; } catch (e) {}
 function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim()})); } catch (e) {} }
-$('seat').onchange = () => { const t = TEACHERS[$('seat').value]; if (t) $('sname').value = t; else if (Object.values(TEACHERS).includes($('sname').value.trim())) $('sname').value = ''; saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
+$('seat').onchange = () => { setTimeout(loadTodayTask, 0); const t = TEACHERS[$('seat').value]; if (t) $('sname').value = t; else if (Object.values(TEACHERS).includes($('sname').value.trim())) $('sname').value = ''; saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('sname').oninput = () => { saveStudent(); update(); };
 
 // Google Apps Script 網頁應用程式網址（部署後貼在這裡）
@@ -901,6 +945,7 @@ loadBoard();
 
 fetch('bank.json').then(r => r.json()).then(d => {
   DATA = d; GL = d.gl || {};
+  setTimeout(loadTodayTask, 0);
   window.byDay = DATA.days;
   N = DATA.labels.length;
   const t = todayIdx();

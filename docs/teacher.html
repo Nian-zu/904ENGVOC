@@ -73,6 +73,40 @@ main{max-width:1200px;margin:0 auto;padding:20px 18px 60px}
 details.t-def summary{cursor:pointer;color:var(--color-fg-muted);font-size:var(--t-small)}
 details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-height:1.7}
 
+
+.tk{background:#fff;border:1px solid var(--color-border-line);border-radius:14px;padding:18px 18px 20px;margin-bottom:28px}
+.tk h2{margin:0;font-size:1.4rem}
+.tk .tk-head{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;margin-bottom:6px}
+.tk select{font:inherit;font-size:16px;padding:7px 10px;border-radius:8px;border:1px solid var(--color-border-line);background:#fff}
+.tk .tk-rule{color:var(--color-fg-muted);font-size:16px;margin:4px 0 14px}
+.tk .tk-rule b{color:var(--color-fg)}
+.tk .tk-rule a{color:#2a7d63;margin-left:8px;font-size:15px}
+.tk .tk-sum{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+.tk .tk-card{flex:1 1 150px;border:1px solid var(--color-border-line);border-radius:12px;padding:10px 14px;background:var(--paper)}
+.tk .tk-card small{display:block;color:var(--color-fg-muted);font-size:14px}
+.tk .tk-card b{font-size:1.8rem;font-variant-numeric:tabular-nums}
+.tk .tk-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-bottom:18px}
+.tk .tk-list{border:1px solid var(--color-border-line);border-radius:12px;padding:10px 12px}
+.tk .tk-list h3{margin:0 0 8px;font-size:1.05rem}
+.tk .chips{display:flex;flex-wrap:wrap;gap:6px}
+.tk .nm{border-radius:999px;padding:3px 10px;font-size:15px;border:1px solid var(--color-border-line);background:#fff;white-space:nowrap}
+.tk .nm.ok{background:#e7f6ec;border-color:#9fd3b3}
+.tk .nm.try{background:#fff4dc;border-color:#f2c94c}
+.tk .nm small{color:var(--color-fg-muted);margin-left:4px;font-size:12px}
+.tk h3.sub{font-size:1.1rem;margin:20px 0 8px}
+.tk .scroll{overflow-x:auto;border:1px solid var(--color-border-line);border-radius:12px}
+.tk table{border-collapse:collapse;width:100%;font-size:15px;font-variant-numeric:tabular-nums}
+.tk th,.tk td{padding:9px 11px;border-bottom:1px solid var(--color-border-line);text-align:center;white-space:nowrap}
+.tk th{background:var(--paper);color:var(--color-fg-muted);font-weight:700;position:sticky;top:0}
+.tk td.l,.tk th.l{text-align:left}
+.tk .ok{color:var(--color-ok);font-weight:700}
+.tk .late{color:var(--color-warn);font-weight:700}
+.tk .no{color:var(--color-bad)}
+.tk .mut{color:var(--color-fg-muted)}
+.tk td.c-ok{background:#e7f6ec}
+.tk td.c-late{background:#fff4dc}
+.tk td.c-no{background:#fdecea}
+.tk .empty{color:var(--color-fg-muted);padding:10px 0}
 </style>
 </head>
 <body>
@@ -85,6 +119,17 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
     <a href="./">學生頁面</a>
   </form>
 </div>
+<section class="tk" id="taskSec">
+  <div class="tk-head">
+    <h2>📋 每日任務</h2>
+    <select id="tkPick" aria-label="選擇任務日期"></select>
+  </div>
+  <p class="tk-rule" id="tkRule">載入中…</p>
+  <div id="tkBody"></div>
+  <h3 class="sub">各次任務達成日期</h3>
+  <p class="tk-rule" style="margin-top:0">綠色＝當天過關（顯示過關日期）、黃色＝之後補做過關、紅色＝有做但還沒過關（顯示最高答對率）、空白＝還沒做。</p>
+  <div class="scroll" id="tkHist"></div>
+</section>
 <div id="dash-root">
 <div class="t-wrap">
   <header id="top">
@@ -587,11 +632,97 @@ dash.draw('wordRows', (tb) => {
 });
 </script>
 <script>
+// 每日任務：資料來自成績程式 ?action=tasks（「每日任務」分頁＋「成績」）
+(() => {
+  const SHEET_LINK = 'https://docs.google.com/spreadsheets/d/1v_YtQtmFH29t1Zugvi4A8pej9MHkGRB7_Oe9VtpiK3o/edit';
+  let TK = null;
+  const $ = id => document.getElementById(id);
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const md = d => d ? (+d.slice(5, 7)) + '/' + (+d.slice(8, 10)) : '';
+  const hm = t => (t || '').slice(11, 16);
+  const nameOf = s => (TK && TK.names[s]) || '';
+  const seats = () => window.T904 ? T904.SEATS : [];
+  function pickDefault(){
+    const ts = TK.tasks; if (!ts.length) return '';
+    const today = TK.today;
+    if (ts.some(t => t.date === today)) return today;
+    const past = ts.filter(t => t.date < today);
+    return past.length ? past[past.length - 1].date : ts[0].date;
+  }
+  function drawTask(date){
+    const t = TK.tasks.find(x => x.date === date);
+    const body = $('tkBody');
+    if (!t) { $('tkRule').innerHTML = `還沒有設定任何任務。請到 Google 試算表的「每日任務」分頁新增一列。<a href="${SHEET_LINK}" target="_blank" rel="noopener">開啟試算表</a>`; body.innerHTML = ''; return; }
+    const res = TK.results[date] || {};
+    $('tkRule').innerHTML = `${md(t.date)}${t.date === TK.today ? '（今天）' : ''}：範圍 <b>${esc(t.from)}${t.from !== t.to ? '–' + esc(t.to) : ''}</b>・至少 <b>${t.n}</b> 題・答對率 <b>${t.pass}%</b> 過關，可以重複考，任一次達標就算${t.note ? '・' + esc(t.note) : ''}<a href="${SHEET_LINK}" target="_blank" rel="noopener">編輯任務</a>`;
+    const all = seats().map(s => ({seat: s, name: nameOf(s), r: res[s] || null}));
+    const passed = all.filter(x => x.r && x.r.passAt).sort((a, b) => a.r.passAt < b.r.passAt ? -1 : 1);
+    const trying = all.filter(x => x.r && !x.r.passAt).sort((a, b) => b.r.best - a.r.best);
+    const none = all.filter(x => !x.r);
+    const nm = x => esc(x.name || (x.seat + ' 號'));
+    const chip = (x, cls, extra) => `<span class="nm ${cls}">${x.name ? x.seat + ' ' + esc(x.name) : x.seat + ' 號'}${extra ? '<small>' + extra + '</small>' : ''}</span>`;
+    const ranked = all.slice().sort((a, b) => (b.r ? b.r.best : -1) - (a.r ? a.r.best : -1) || a.seat - b.seat);
+    let rank = 0, prev = null;
+    const rows = ranked.map((x, i) => {
+      const v = x.r ? x.r.best : null;
+      if (v !== prev) { rank = i + 1; prev = v; }
+      const st = !x.r ? '<span class="mut">還沒做</span>'
+        : x.r.passAt ? `<span class="${x.r.passDate > t.date ? 'late' : 'ok'}">✅ ${md(x.r.passDate)} ${hm(x.r.passAt)}${x.r.passDate > t.date ? ' 補做' : ''}</span>`
+        : '<span class="no">⏳ 未達標</span>';
+      return `<tr><td>${x.r ? rank : '—'}</td><td>${x.seat}</td><td class="l">${nm(x)}</td><td class="${x.r ? (x.r.best >= t.pass ? 'ok' : 'no') : 'mut'}">${x.r ? x.r.best + '%' : '—'}</td><td>${x.r ? x.r.attempts : 0}</td><td class="l">${st}</td></tr>`;
+    }).join('');
+    body.innerHTML = `
+      <div class="tk-sum">
+        <div class="tk-card"><small>已過關</small><b class="ok">${passed.length}</b> / ${all.length}</div>
+        <div class="tk-card"><small>有做、還沒過關</small><b class="late">${trying.length}</b></div>
+        <div class="tk-card"><small>還沒做</small><b class="no">${none.length}</b></div>
+      </div>
+      <div class="tk-cols">
+        <div class="tk-list"><h3>✅ 已完成（依過關時間）</h3><div class="chips">${passed.map(x => chip(x, 'ok', md(x.r.passDate) + ' ' + hm(x.r.passAt))).join('') || '<span class="empty">還沒有人過關</span>'}</div></div>
+        <div class="tk-list"><h3>⏳ 還沒完成</h3><div class="chips">${trying.map(x => chip(x, 'try', '最高 ' + x.r.best + '%')).join('')}${none.map(x => chip(x, '', '未作答')).join('') || ''}${!trying.length && !none.length ? '<span class="empty">全班都過關了 🎉</span>' : ''}</div></div>
+      </div>
+      <h3 class="sub">答對率排行（由高至低，取每人最高的一次）</h3>
+      <div class="scroll"><table><thead><tr><th>名次</th><th>座號</th><th class="l">姓名</th><th>最高答對率</th><th>次數</th><th class="l">狀態</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+  function drawHist(){
+    const ts = TK.tasks.filter(t => t.date <= TK.today).slice().reverse();
+    if (!ts.length) { $('tkHist').innerHTML = '<div class="empty" style="padding:12px">還沒有開始的任務。</div>'; return; }
+    const head = ts.map(t => `<th>${md(t.date)}<br><span class="mut" style="font-weight:400;font-size:12px">${esc(t.from)}${t.from !== t.to ? '–' + esc(t.to) : ''}</span></th>`).join('');
+    const body = seats().map(s => {
+      let ok = 0;
+      const cells = ts.map(t => {
+        const r = (TK.results[t.date] || {})[s];
+        if (!r) return '<td></td>';
+        if (r.passAt) { ok++; return r.passDate > t.date ? `<td class="c-late">${md(r.passDate)} 補</td>` : `<td class="c-ok">✓ ${md(r.passDate)}</td>`; }
+        return `<td class="c-no">${r.best}%</td>`;
+      }).join('');
+      return `<tr><td>${s}</td><td class="l">${esc(nameOf(s))}</td><td><b>${ok}</b>/${ts.length}</td>${cells}</tr>`;
+    }).join('');
+    $('tkHist').innerHTML = `<table><thead><tr><th>座號</th><th class="l">姓名</th><th>達成</th>${head}</tr></thead><tbody>${body}</tbody></table>`;
+  }
+  async function loadTasks(key){
+    try {
+      const r = await fetch(SHEET_URL + '?action=tasks&key=' + encodeURIComponent(key || ''));
+      const j = await r.json();
+      if (!j.ok) { $('tkRule').textContent = j.error ? '⚠ ' + j.error : '每日任務需要更新成績程式後才能使用。'; return; }
+      TK = j;
+      const sel = $('tkPick');
+      sel.innerHTML = TK.tasks.slice().reverse().map(t => `<option value="${t.date}">${md(t.date)}${t.date === TK.today ? '（今天）' : t.date > TK.today ? '（預定）' : ''}　${esc(t.from)}${t.from !== t.to ? '–' + esc(t.to) : ''}</option>`).join('');
+      sel.value = pickDefault();
+      sel.onchange = () => drawTask(sel.value);
+      drawTask(sel.value); drawHist();
+    } catch (e) { $('tkRule').textContent = '⚠ 每日任務暫時無法載入，請稍後按「載入／重新整理」。'; }
+  }
+  window.loadTasks = loadTasks;
+})();
+</script>
+<script>
 (() => {
   const k = document.getElementById('key');
   try { k.value = localStorage.getItem('904teacherKey') || ''; } catch (e) {}
-  document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); dash._load(k.value); };
+  document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); dash._load(k.value); loadTasks(k.value); };
   dash._load(k.value);
+  loadTasks(k.value);
 })();
 </script>
 </body>

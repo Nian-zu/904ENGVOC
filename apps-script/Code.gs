@@ -93,6 +93,7 @@ function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'dash') return out_(dash_(p.key));
   if (p.action === 'badges') return out_(badges_());
+  if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
   if (p.action !== 'board') return out_({ ok: true, message: '成績接收程式運作中' });
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const tz = 'Asia/Taipei';
@@ -458,4 +459,101 @@ function badges_() {
     if (ids.length) out[seat] = ids;
   });
   return { ok: true, defs: BADGE_DEFS, badges: out, today: today };
+}
+
+// ===== 每日任務：老師在「每日任務」分頁設定每天要考的範圍、題數、過關答對率 =====
+// 欄位：日期 | 起 | 迄 | 題數 | 過關答對率(%) | 備註
+// 過關：任務當天或之後，範圍和任務完全相同、作答題數 ≥ 題數、答對率 ≥ 過關標準的任一次測驗（錯題重做不算）
+const TASK_NAME = '每日任務';
+const TASK_HEAD = ['日期', '起', '迄', '題數', '過關答對率(%)', '備註'];
+
+function taskSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName(TASK_NAME);
+  if (!sh) {
+    sh = ss.insertSheet(TASK_NAME);
+    sh.getRange(1, 1, 1, TASK_HEAD.length).setValues([TASK_HEAD]).setFontWeight('bold');
+    sh.setFrozenRows(1);
+  }
+  return sh;
+}
+
+function ymd_(v) {
+  if (v instanceof Date) return Utilities.formatDate(v, 'Asia/Taipei', 'yyyy-MM-dd');
+  const m = String(v).trim().match(/(\d{4})\D(\d{1,2})\D(\d{1,2})/);
+  return m ? m[1] + '-' + ('0' + m[2]).slice(-2) + '-' + ('0' + m[3]).slice(-2) : '';
+}
+
+// 「D183–D180」「D183」「D183, D181」→ 回數清單（由大到小）
+function dayNums_(text) {
+  text = String(text || '');
+  if (text.indexOf('錯題重做') >= 0) return null;
+  const set = {};
+  const m = text.match(/^\s*D?(\d+)\s*[–\-~～]\s*D?(\d+)\s*$/);
+  if (m) {
+    const a = +m[1], b = +m[2];
+    for (let d = Math.min(a, b); d <= Math.max(a, b); d++) set[d] = 1;
+  } else {
+    (text.match(/D\s*\d+/g) || []).forEach(function (t) { set[parseInt(t.replace(/\D/g, ''), 10)] = 1; });
+  }
+  const out = Object.keys(set).map(Number).sort(function (a, b) { return b - a; });
+  return out.length ? out : null;
+}
+
+function readTasks_() {
+  const sh = taskSheet_(), n = sh.getLastRow() - 1, out = [];
+  if (n <= 0) return out;
+  sh.getRange(2, 1, n, 6).getValues().forEach(function (r) {
+    const date = ymd_(r[0]);
+    const a = parseInt(String(r[1]).replace(/\D/g, ''), 10), b = parseInt(String(r[2] || r[1]).replace(/\D/g, ''), 10);
+    if (!date || !a || !b) return;
+    const days = [];
+    for (let d = Math.max(a, b); d >= Math.min(a, b); d--) days.push(d);
+    out.push({ date: date, from: 'D' + Math.max(a, b), to: 'D' + Math.min(a, b), days: days,
+      n: parseInt(r[3], 10) || 20, pass: Number(r[4]) || 95, note: String(r[5] || '') });
+  });
+  return out.sort(function (x, y) { return x.date < y.date ? -1 : x.date > y.date ? 1 : 0; });
+}
+
+function tasks_(key, seatOnly) {
+  const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  const tasks = readTasks_();
+  const onlySeat = parseInt(seatOnly, 10);
+  if (!onlySeat) {
+    const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
+    if (want && String(key || '') !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入老師密碼' };
+  }
+  const results = {}, names = {};
+  tasks.forEach(function (t) { results[t.date] = {}; });
+  const sh = sheet_(), n = sh.getLastRow() - 1;
+  if (n > 0 && tasks.length) {
+    sh.getRange(2, 1, n, 12).getValues().forEach(function (r) { // A:L
+      const seat = parseInt(r[2], 10);
+      if (!seat || seat === 30) return;
+      if (onlySeat && seat !== onlySeat) return;
+      names[seat] = String(r[3]);
+      const days = dayNums_(r[4]);
+      if (!days) return;
+      const d = ymd_(r[1]), answered = Number(r[7]) || 0, right = Number(r[8]) || 0;
+      if (!answered) return;
+      const when = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd HH:mm') : String(r[0]).replace(/\//g, '-');
+      const key2 = days.join(',');
+      tasks.forEach(function (t) {
+        if (d < t.date || key2 !== t.days.join(',') || answered < t.n) return;
+        const rate = Math.round(right / answered * 1000) / 10;
+        const o = results[t.date][seat] = results[t.date][seat] || { attempts: 0, best: 0, passAt: '', passDate: '' };
+        o.attempts++;
+        if (rate > o.best) o.best = rate;
+        if (!o.passAt && right * 100 >= t.pass * answered) { o.passAt = when; o.passDate = d; }
+      });
+    });
+  }
+  const pub = tasks.map(function (t) { return { date: t.date, from: t.from, to: t.to, n: t.n, pass: t.pass, note: t.note }; });
+  if (onlySeat) {
+    // 學生端：只回今天（或最近一個未來）的任務和自己的狀態
+    let t = null;
+    pub.forEach(function (x) { if (x.date === today) t = x; });
+    return { ok: true, today: today, task: t, me: t ? (results[t.date][onlySeat] || null) : null };
+  }
+  return { ok: true, today: today, tasks: pub, results: results, names: names };
 }
