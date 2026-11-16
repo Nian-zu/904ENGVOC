@@ -21,6 +21,8 @@ function doPost(e) {
     const body = JSON.parse(e.postData.contents);
     const seat = parseInt(body.seat, 10);
     if (!(seat >= 1 && seat <= 60)) return out_({ ok: false, error: '座號不正確' });
+    const pc = checkPin_(seat, body.pin);
+    if (!pc.ok) return out_({ ok: false, error: pc.error, pin: true });
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -101,6 +103,10 @@ function doGet(e) {
   if (p.action === 'dash') return out_(dash_(p.key));
   if (p.action === 'badges') return out_(badges_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
+  if (p.action === 'login') {
+    const ls = parseInt(p.seat, 10), lc = checkPin_(ls, p.pin);
+    return out_(lc.ok ? { ok: true, given: roster_()[ls] ? givenName(roster_()[ls]) : '' } : { ok: false, error: lc.error });
+  }
   if (p.action === 'quizpw') { const qt = quizTask_(p.pw); return out_(qt ? { ok: true, date: qt.date, n: qt.n, days: qt.days } : { ok: false, error: '密碼不對，或今天沒有小考' }); }
   if (p.action !== 'board') return out_({ ok: true, message: '成績接收程式運作中' });
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
@@ -634,15 +640,29 @@ function quizTask_(pw) {
 }
 
 // 「名單」分頁：座號 → 姓名（只存在試算表，不放在公開網頁）
-let ROSTER_ = null;
+let ROSTER_ = null, PINS_ = {};
+// 「名單」分頁：座號 | 姓名 | 個人密碼（有填個人密碼的座號，交卷時要輸入對才收）
 function roster_() {
   if (ROSTER_) return ROSTER_;
   ROSTER_ = {};
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('名單');
   if (!sh || sh.getLastRow() < 2) return ROSTER_;
-  sh.getRange(2, 1, sh.getLastRow() - 1, 2).getValues().forEach(function (r) {
-    const seat = parseInt(r[0], 10), nm = String(r[1] || '').trim();
+  sh.getRange(2, 1, sh.getLastRow() - 1, Math.min(3, Math.max(2, sh.getLastColumn()))).getValues().forEach(function (r) {
+    const seat = parseInt(r[0], 10), nm = String(r[1] || '').trim(), pin = String(r[2] == null ? '' : r[2]).trim();
     if (seat && nm) ROSTER_[seat] = nm;
+    if (seat && pin) PINS_[seat] = pin;
   });
   return ROSTER_;
+}
+
+// 個人密碼檢查；同一個座號 10 分鐘內錯 8 次就暫時鎖住（防止亂猜）
+function checkPin_(seat, pin) {
+  roster_();
+  const want = PINS_[seat];
+  if (!want) return { ok: true };
+  const cache = CacheService.getScriptCache(), k = 'pinfail-' + seat, fails = parseInt(cache.get(k) || '0', 10);
+  if (fails >= 8) return { ok: false, error: '密碼錯太多次，請 10 分鐘後再試，或找老師幫忙。' };
+  if (String(pin == null ? '' : pin).trim() === want) return { ok: true };
+  cache.put(k, String(fails + 1), 600);
+  return { ok: false, error: pin ? '個人密碼不正確，請再確認一次。' : '請輸入個人密碼。' };
 }

@@ -57,7 +57,7 @@ main{padding:18px 16px 40px}
 .feedback .why{font-size:.95rem}
 .feedback .trans{margin-top:6px;padding-top:8px;border-top:1px dashed var(--line);font-size:.95rem;line-height:1.7}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-select,input[type=text]{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);min-width:0}
+select,input[type=text],input[type=password]{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);min-width:0}
 input[type=text]{flex:1;min-width:200px}
 .quick{display:flex;gap:8px;flex-wrap:wrap}
 .quick button{border:1px dashed var(--board-2);background:transparent;color:var(--ink);padding:6px 12px;border-radius:8px;font-size:.9rem}
@@ -196,6 +196,10 @@ input[type=text]{flex:1;min-width:200px}
 #tbStat.ok{color:var(--ok)}
 #tbStat.try{color:#9a6700}
 .taskban.done{border-color:var(--ok);background:#e9f7ee}
+.pinmsg{font-weight:900;font-size:.92rem}
+.pinmsg.ok{color:var(--ok)}
+.pinmsg.bad{color:var(--bad,#c0392b)}
+.linkbtn{background:none;border:0;padding:0 4px;color:inherit;text-decoration:underline;cursor:pointer;font:inherit}
 .taskban .tb-act{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 #tbPw{min-width:150px;flex:0 1 170px}
 .chip.quizchip{background:#fff1c2;border-color:var(--chalk);color:#7a5200;font-weight:900}
@@ -214,8 +218,9 @@ input[type=text]{flex:1;min-width:200px}
     <div class="row">
       <label for="seat">座號</label><select id="seat"><option value="">請選擇</option></select>
       <label for="sname">姓名</label><input type="text" id="sname" maxlength="20" placeholder="請輸入姓名" style="min-width:140px;flex:0 1 180px">
+      <label for="spin">個人密碼</label><input type="password" id="spin" inputmode="numeric" maxlength="8" autocomplete="off" placeholder="4 位數字" style="min-width:110px;flex:0 1 130px;letter-spacing:.15em"><span id="pinMsg" class="pinmsg"></span>
     </div>
-    <div class="hint">交卷後成績會自動上傳給老師。這台裝置會記住你的座號和姓名。</div>
+    <div class="hint">個人密碼在老師發的小紙條上，不要給別人。交卷後成績會自動上傳給老師。這台裝置會記住你的座號和密碼，和別人共用的電腦考完請按「換人」。<button type="button" class="linkbtn" id="logoutBtn">換人</button></div>
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
@@ -450,9 +455,9 @@ function update(){
   else if (!types.size) msg = '請至少勾選一種題型';
   else if (types.has('cloze') && !passages.length) msg = types.size === 1 ? '這個範圍還沒有克漏字文章，請換範圍或勾選其他題型。' : '這個範圍還沒有克漏字文章，這次只會出其他勾選的題型。';
   $('countLbl').textContent = msg;
-  const who = $('seat').value && $('sname').value.trim();
+  const who = $('seat').value && $('sname').value.trim() && PIN_OK;
   $('startBtn').disabled = n === 0 || !who;
-  $('startBtn').textContent = who ? '開始測驗' : '請先填座號和姓名';
+  $('startBtn').textContent = who ? '開始測驗' : '請先填座號和個人密碼';
 }
 function setMode(m){
   mode = m;
@@ -867,9 +872,30 @@ const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,2
 const TEACHERS = {31: '玠汝老師'};
 SEATS.forEach(i => $('seat').add(new Option(TEACHERS[i] || (i === 30 ? '30 號（測試用）' : i + ' 號'), i)));
 const seatLabel = n => TEACHERS[n] ? '老師' : n;
-try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; } catch (e) {}
-function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim()})); } catch (e) {} }
-$('seat').onchange = () => { setTimeout(loadTodayTask, 0); const t = TEACHERS[$('seat').value]; if (t) $('sname').value = t; else if (Object.values(TEACHERS).includes($('sname').value.trim())) $('sname').value = ''; saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
+try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; if (st.pin) $('spin').value = st.pin; } catch (e) {}
+function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim(), pin: PIN_OK ? $('spin').value.trim() : ''})); } catch (e) {} }
+// 個人密碼：老師在試算表「名單」設定；輸入對了才能開始、上傳
+var PIN_OK = false;
+let pinSeq = 0;
+function pinMsg(t, c){ $('pinMsg').textContent = t; $('pinMsg').className = 'pinmsg ' + (c || ''); }
+async function checkPin(){
+  const seat = $('seat').value, pin = $('spin').value.trim(), my = ++pinSeq;
+  PIN_OK = false; update();
+  if (!seat || !pin) { pinMsg(''); return; }
+  if (!SHEET_URL) { PIN_OK = true; update(); return; }
+  pinMsg('確認中…');
+  try {
+    const j = await fetch(SHEET_URL + '?action=login&seat=' + seat + '&pin=' + encodeURIComponent(pin)).then(r => r.json());
+    if (my !== pinSeq) return;
+    if (j.ok) { PIN_OK = true; pinMsg('✓', 'ok'); if (j.given && !TEACHERS[seat]) $('sname').value = j.given; }
+    else pinMsg(j.error || '密碼不對', 'bad');
+  } catch (e) { if (my === pinSeq) { PIN_OK = true; pinMsg(''); } }   // 網路不穩時先讓他考，交卷時伺服器會再檢查
+  saveStudent(); update();
+}
+$('spin').oninput = () => { PIN_OK = false; update(); const v = $('spin').value.trim(); if (v.length >= 4) checkPin(); else pinMsg(''); };
+$('spin').onkeydown = e => { if (e.key === 'Enter') checkPin(); };
+$('logoutBtn').onclick = () => { $('seat').value = ''; $('sname').value = ''; $('spin').value = ''; PIN_OK = false; pinMsg(''); try { localStorage.removeItem('student'); } catch (e) {} $('taskBan').classList.add('hidden'); update(); if (typeof drawBoard === 'function') drawBoard(); };
+$('seat').onchange = () => { $('spin').value = ''; PIN_OK = false; pinMsg(''); setTimeout(loadTodayTask, 0); const t = TEACHERS[$('seat').value]; if (t) $('sname').value = t; else if (Object.values(TEACHERS).includes($('sname').value.trim())) $('sname').value = ''; saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('sname').oninput = () => { saveStudent(); update(); };
 
 // Google Apps Script 網頁應用程式網址（部署後貼在這裡）
@@ -880,7 +906,7 @@ async function upload(){
   if (!SHEET_URL) { box.className = 'upload bad'; box.textContent = '老師尚未設定成績上傳網址，這次成績沒有上傳。'; return; }
   box.className = 'upload'; box.textContent = '成績上傳中…';
   const body = JSON.stringify({
-    seat: $('seat').value, name: $('sname').value.trim(), range: s.rangeText, kind: kindCode(),
+    seat: $('seat').value, name: $('sname').value.trim(), pin: $('spin').value.trim(), range: s.rangeText, kind: kindCode(),
     total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log, quiz: s.quiz || ''
   });
   const okMsg = sc => `✓ 成績已上傳（${TEACHERS[$('seat').value] ? '' : $('seat').value + ' 號 '}${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
@@ -982,6 +1008,7 @@ loadBoard();
 fetch('bank.json').then(r => r.json()).then(d => {
   DATA = d; GL = d.gl || {};
   setTimeout(loadTodayTask, 0);
+  if ($('spin').value) checkPin();
   window.byDay = DATA.days;
   N = DATA.labels.length;
   const t = todayIdx();
