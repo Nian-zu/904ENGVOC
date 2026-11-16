@@ -6,3 +6,4 @@ f63186c1bb|cute,sad,tidy|He got three cookies, and I got none. That's not ____!
 385097bdab|light,formal,loud,similar,familiar
 95f22e3302|interesting,crazy
 f33b63963a|choose,lend,measure,judge,give|Can your mom ____ a car? Yes, she drives me to school every day.
+5f1a051072|cash,strong,creative
