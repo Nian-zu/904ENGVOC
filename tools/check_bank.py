@@ -51,6 +51,7 @@ for base, forms in {
     'learn': 'learnt', 'feed': 'fed', 'bite': 'bit bitten', 'blow': 'blew blown', 'dig': 'dug', 'hang': 'hung',
     'sweep': 'swept', 'freeze': 'froze frozen', 'beat': 'beaten', 'bear': 'bore born', 'seek': 'sought',
     'stick': 'stuck', 'strike': 'struck', 'swing': 'swung', 'tear': 'tore torn', 'shut': 'shut', 'quit': 'quit',
+    'tooth': 'teeth', 'foot': 'feet', 'child': 'children', 'man': 'men', 'woman': 'women', 'mouse': 'mice',
 }.items():
     for f in forms.split(): IRR[f] = base
 def known(w):
