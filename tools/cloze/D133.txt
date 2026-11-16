@@ -12,7 +12,7 @@ Mochi is a baby panda at a zoo in northern Japan. One cold morning, she woke up 
 = Mochi 是日本北部一間動物園裡的貓熊寶寶。一個寒冷的早晨，她醒來往外看，一切都是白色的！Mochi 驚訝得坐著不動好久。接著她跑進雪地裡，從小山坡上一次又一次地滾下來。她的飼育員佐藤先生笑著拍了很多照片。玩了兩個小時後，Mochi 非常累，她在樹下躺下來睡著了。但當佐藤先生想帶她進屋時，她醒過來哭了。她很不開心，因為她還想玩。「別難過，」佐藤先生說，「雪明天還會在這裡。」隔天，有一千多名遊客來看這隻愛雪的小貓熊。
 
 ## 誰吃了我的布丁
-Every Friday, Grace buys a mango pudding and keeps it in the fridge for the weekend. Last Saturday, she opened the fridge, but the pudding was gone! She was so [[mad|wooden|cloudy|national]] that her face turned red. "Who ate my pudding?" she shouted. Her little brother said, "Not me!" Her dad said, "Not me!" Grace was [[surprised|plastic|illegal|rainy]] when her grandma raised her hand. "I'm sorry, dear," Grandma said. "I thought it was mine." Grace could not stay [[mad|metal|square|delicious]] at her grandma. Grandma looked so [[sad|expensive|digital|cloudy]] about her mistake. So Grace took Grandma's hand and said, "Let's go to the store [[together|either|ago|below]]. This time I'll buy two puddings, one for you and one for me."
+Every Friday, Grace buys a mango pudding and keeps it in the fridge for the weekend. Last Saturday, she opened the fridge, but the pudding was gone! She was so [[mad|wooden|cloudy|national]] that her face turned red. "Who ate my pudding?" she shouted. Her little brother said, "Not me!" Her dad said, "Not me!" Grace was [[surprised|plastic|illegal|rainy]] when her grandma raised her hand. "I'm sorry, dear," Grandma said. "I thought it was mine." Grace could not stay [[mad|metal|square|delicious]] at her grandma. Grandma looked so [[sad|expensive|digital|cloudy]] about her mistake. So Grace took Grandma's hand and said, "Let's go to the store [[together|either|ago|below]]. This time I'll buy two puddings, one for you and one for me." Grandma laughed. "Then I will never take yours again," she said.
 > 1 so mad that…「氣到…」：氣得臉都紅了。wooden（木製的）、cloudy（多雲的）、national（國家的）都不能形容心情。
 > 2 沒想到是奶奶舉手，Grace 很「驚訝」surprised。plastic（塑膠的）、illegal（違法的）、rainy（下雨的）都不能形容人。
 > 3 stay mad at + 人「一直生某人的氣」：她沒辦法一直生奶奶的氣。metal（金屬的）、square（正方形的）、delicious（好吃的）都不能接 at her grandma。
@@ -20,7 +20,7 @@ Every Friday, Grace buys a mango pudding and keeps it in the fridge for the week
 > 5 go … together「一起去」。either（也不）要用在否定句，ago（…以前）要接在時間後面，below（在…下方）後面要接名詞，都不通。
 + mango pudding = 芒果布丁
 + fridge = 冰箱
-= 每個星期五，Grace 都會買一個芒果布丁，放在冰箱裡留到週末吃。上星期六，她打開冰箱，布丁卻不見了！她氣得臉都紅了。「誰吃了我的布丁？」她大喊。弟弟說：「不是我！」爸爸說：「不是我！」接著奶奶舉起了手，Grace 很驚訝。「對不起，親愛的，」奶奶說，「我以為那是我的。」Grace 沒辦法一直生奶奶的氣，奶奶為自己的錯看起來好難過。於是 Grace 牽起奶奶的手說：「我們一起去商店吧。這次我買兩個布丁，一個給你，一個給我。」
+= 每個星期五，Grace 都會買一個芒果布丁，放在冰箱裡留到週末吃。上星期六，她打開冰箱，布丁卻不見了！她氣得臉都紅了。「誰吃了我的布丁？」她大喊。弟弟說：「不是我！」爸爸說：「不是我！」接著奶奶舉起了手，Grace 很驚訝。「對不起，親愛的，」奶奶說，「我以為那是我的。」Grace 沒辦法一直生奶奶的氣，奶奶為自己的錯看起來好難過。於是 Grace 牽起奶奶的手說：「我們一起去商店吧。這次我買兩個布丁，一個給你，一個給我。」奶奶笑著說：「那我以後再也不會拿你的了。」
 
 ## 最後五秒的投籃
 Our school basketball team was losing by one point, and there were only five seconds left. Coach Wang [[called|baked|spelled|boiled]] a time-out. "Kevin, take the last shot," he said. Kevin was [[surprised|delicious|square|national]]. He was the shortest player on the team! He got the ball, jumped, and threw it. The ball hit the rim and fell out. The game was over. Kevin was so [[sad|plastic|rainy|illegal]] that he could not say a word. On the bus home, he sat alone. He was also very [[tired|cloudy|wooden|expensive]] after the long game. Then Coach Wang sat next to him. "I chose you because you are brave," he said. "Everyone misses sometimes. Don't be [[unhappy|metal|digital|square]] about one shot. Be proud that you tried." Kevin smiled for the first time that evening.
@@ -143,7 +143,7 @@ Every spring, thousands of people walk with the Mazu statue for nine days. This 
 = 每年春天，都有好幾千人跟著媽祖神像走九天。今年，爸爸和我跟著他們走了一天。我們早上五點出發，一開始很好玩，沿路有人送我們免費的水、麵包，甚至還有冰淇淋。但走了二十公里後，我的腳好痛，人也非常累。「我走不動了。」我說。我很不開心，只想回家。接著我看到旁邊有一位老奶奶，她已經八十歲了，還是笑著繼續走。我非常驚訝。「她做得到，我也可以。」我想。我們一直走到晚上。和隊伍道別時，我有點難過。明年我還想再走一次。
 
 ## 在高鐵上睡過頭
-Last Saturday, Ken took the High Speed Rail alone for the first time. He was going to Taichung to visit his aunt. The ride was only one hour, but he was very [[tired|wooden|national|rainy]] because he got up early. So he fell asleep. When he opened his eyes, the train was in Kaohsiung! Ken was so [[surprised|plastic|square|electric]] that he jumped up. He [[called|baked|boiled|spelled]] his aunt right away. "I'm sorry. I missed my stop," he said. His aunt laughed. "Don't be [[sad|metal|cloudy|expensive]]. It happens!" But his mom was a little [[mad|digital|illegal|delicious]] because she had to pay for another ticket. On the way back, Ken did not close his eyes even once. "I'll never sleep on a train again," he said.
+Last Saturday, Ken took the High Speed Rail alone for the first time. He was going to Taichung to visit his aunt. The ride was only one hour, but he was very [[tired|wooden|national|rainy]] because he got up early. So he fell asleep. When he opened his eyes, the train was in Kaohsiung! Ken was so [[surprised|plastic|square|electric]] that he jumped up. He [[called|baked|boiled|spelled]] his aunt right away. "I'm sorry. I missed my stop," he said. His aunt laughed. "Don't be [[sad|metal|cloudy|expensive]]. It happens!" But his mom was a little [[mad|digital|illegal|delicious]] because she had to pay for another ticket. On the way back, Ken did not close his eyes even once. "I'll never sleep on a train again," he said. His aunt still laughs about it today.
 > 1 很早起床，所以很「累」tired，才會睡著。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容人的狀態。
 > 2 so surprised that…「驚訝到…」：醒來發現到了高雄，嚇得跳起來。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
 > 3 call + 人「打電話給某人」。baked（烘烤）、boiled（煮沸）、spelled（拼字）接 his aunt 意思都不通。
@@ -153,7 +153,7 @@ Last Saturday, Ken took the High Speed Rail alone for the first time. He was goi
 + Taichung = 台中
 + Kaohsiung = 高雄
 + miss one's stop = 坐過站
-= 上星期六，Ken 第一次自己搭高鐵，要去台中看阿姨。車程只有一小時，但他很早起床，非常累，所以就睡著了。他睜開眼睛時，火車已經到了高雄！Ken 驚訝得跳了起來，馬上打電話給阿姨。「對不起，我坐過站了。」他說。阿姨笑了：「別難過，這種事常有！」但媽媽有點生氣，因為她得多付一張車票的錢。回程時，Ken 連一次眼睛都沒閉上。「我再也不在火車上睡覺了。」他說。
+= 上星期六，Ken 第一次自己搭高鐵，要去台中看阿姨。車程只有一小時，但他很早起床，非常累，所以就睡著了。他睜開眼睛時，火車已經到了高雄！Ken 驚訝得跳了起來，馬上打電話給阿姨。「對不起，我坐過站了。」他說。阿姨笑了：「別難過，這種事常有！」但媽媽有點生氣，因為她得多付一張車票的錢。回程時，Ken 連一次眼睛都沒閉上。「我再也不在火車上睡覺了。」他說。到現在阿姨講起這件事還會笑。
 
 ## 罷工的掃地機器人
 Our family has a robot vacuum named Dusty. Every morning, Dusty cleans the whole house. One day, my brother dropped a whole bag of popcorn on the floor. Dusty worked for three hours to clean it up. After that, it [[stopped|baked|married|spelled]] in the middle of the living room and said, "Battery low." My little sister Ruby laughed. "Dusty is [[tired|delicious|illegal|national]]!" She put a small blanket on it. The next week, my brother made a mess again. This time, Dusty did not move at all. Mom was [[mad|plastic|rainy|electric]] at my brother. "Dusty is not your servant. Clean it up yourself!" My brother looked [[unhappy|metal|cloudy|expensive]], but he picked up every piece. When he finished, Dusty turned on and moved again. We were all [[surprised|digital|illegal|delicious]]. "Maybe Dusty is smarter than we think," Ruby said.
@@ -249,7 +249,7 @@ Grandpa has an old scooter. He has ridden it for thirty years, and every morning
 = 爺爺有一台老機車，他已經騎了三十年，每天早上都騎它載我上學。有一天，機車在路中間停下來，怎麼樣都發不動。爺爺很不開心，把它推到修車行。技師看了看說：「它太老了，你應該買一台新的。」爺爺很生氣：「太老？我比它還老，還不是好好的！」店裡的人都笑了。最後，技師還是把它修好了，他花了五個小時，修完時累壞了。爺爺包了一個大紅包給他。隔天早上，我聽到窗外傳來老機車的聲音，驚訝地跑出去。「準備好上學了嗎？」爺爺笑得好開心。
 
 ## 太空站上的生日
-Astronaut Lisa had her birthday on the space station, far away from Earth. She thought nobody would remember. That morning, she worked for ten hours and was very [[tired|wooden|national|rainy]]. She felt a little [[sad|plastic|square|electric]], too. Her family was 400 kilometers below her. Then, at dinner time, the lights went off. When they came back on, her teammates were holding a "cake" made of tortillas and chocolate. Lisa was so [[surprised|metal|cloudy|expensive]]! Then a video [[started|baked|boiled|married]] on the screen. It was her daughter, singing "Happy Birthday." Lisa cried and laughed at the same time. "Are you [[unhappy|digital|illegal|delicious]]?" asked a teammate. "No," she said. "These are happy tears. This is my best birthday ever."
+Astronaut Lisa had her birthday on the space station, far away from Earth. She thought nobody would remember. That morning, she worked for ten hours and was very [[tired|wooden|national|rainy]]. She felt a little [[sad|plastic|square|electric]], too. Her family was 400 kilometers below her. Then, at dinner time, the lights went off. When they came back on, her teammates were holding a "cake" made of tortillas and chocolate. Lisa was so [[surprised|metal|cloudy|expensive]]! Then a video [[started|baked|boiled|married]] on the screen. It was her daughter, singing "Happy Birthday." Lisa cried and laughed at the same time. "Are you [[unhappy|digital|illegal|delicious]]?" asked a teammate. "No," she said. "These are happy tears. This is my best birthday ever." Her teammates clapped, and they all ate the strange cake together.
 > 1 工作了十個小時，所以很「累」tired。wooden（木製的）、national（國家的）、rainy（下雨的）都不能形容人的狀態。
 > 2 feel sad「覺得難過」：家人離她好遠。plastic（塑膠的）、square（正方形的）、electric（電的）都不能接在 felt 後面形容心情。
 > 3 隊友準備了蛋糕，Lisa 非常「驚訝」surprised。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
@@ -260,4 +260,130 @@ Astronaut Lisa had her birthday on the space station, far away from Earth. She t
 + teammate = 隊友
 + tortilla = 墨西哥薄餅
 + tear = 眼淚
-= 太空人 Lisa 在離地球很遠的太空站上過生日，她以為沒有人會記得。那天早上她工作了十個小時，非常累，也覺得有點難過——她的家人在她下方四百公里遠的地方。到了晚餐時間，燈突然熄了。燈再亮起時，隊友們捧著一個用墨西哥薄餅和巧克力做成的「蛋糕」。Lisa 好驚訝！接著螢幕上開始播放一段影片，是她的女兒在唱〈生日快樂歌〉。Lisa 又哭又笑。「你不開心嗎？」一位隊友問。「不，」她說，「這是開心的眼淚。這是我最棒的一次生日。」
+= 太空人 Lisa 在離地球很遠的太空站上過生日，她以為沒有人會記得。那天早上她工作了十個小時，非常累，也覺得有點難過——她的家人在她下方四百公里遠的地方。到了晚餐時間，燈突然熄了。燈再亮起時，隊友們捧著一個用墨西哥薄餅和巧克力做成的「蛋糕」。Lisa 好驚訝！接著螢幕上開始播放一段影片，是她的女兒在唱〈生日快樂歌〉。Lisa 又哭又笑。「你不開心嗎？」一位隊友問。「不，」她說，「這是開心的眼淚。這是我最棒的一次生日。」隊友們拍起手來，大家一起吃了那個奇怪的蛋糕。
+
+## 打翻的珍珠奶茶
+Amber spent the whole weekend on her art homework: a big painting of Sun Moon Lake. On Monday morning, she put it on her desk and went to [[get|spell|boil|marry]] a cup of bubble tea. When she came back, her painting was brown and wet. Her classmate Jerry had knocked over her drink! Amber was so [[mad|wooden|national|convenient]] that she could not speak. Jerry looked very [[sad|plastic|square|electric]]. "I'm really sorry," he said. "I'll help you fix it." Amber did not answer. She was too [[unhappy|metal|cloudy|expensive]] to talk to him. But at lunch, Jerry came back with paint and brushes. They worked on the painting together, and he turned the brown tea into a big brown boat on the lake. Amber was [[surprised|digital|illegal|delicious]]. The painting looked even better than before!
+> 1 go to get…「去拿、去買…」。spell（拼字）、boil（煮沸）、marry（結婚）接 a cup of bubble tea 意思都不通。
+> 2 so mad that…「氣到…」：氣得說不出話。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容心情。
+> 3 打翻了別人的飲料，Jerry 看起來很「難過」sad。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容表情。
+> 4 too unhappy to…「太不開心而不想…」：不開心到不想跟他說話。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 5 畫變得比原來還好看，Amber 很「驚訝」surprised。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ Sun Moon Lake = 日月潭
++ bubble tea = 珍珠奶茶
++ knock over = 打翻
++ brush = 畫筆
+= Amber 花了整個週末畫美術作業：一大幅日月潭的畫。星期一早上，她把畫放在桌上，出去買了一杯珍珠奶茶。回來時，她的畫變得又濕又咖啡色，原來同學 Jerry 打翻了她的飲料！Amber 氣得說不出話。Jerry 看起來很難過：「真的很對不起，我會幫你修好。」Amber 沒有回答，她不開心到不想跟他說話。但午餐時間，Jerry 帶著顏料和畫筆回來了。他們一起修這幅畫，Jerry 把咖啡色的奶茶痕跡變成湖上一艘咖啡色的大船。Amber 很驚訝，這幅畫看起來比原來還好看！
+
+## 寄居蟹找新家
+Hermy was a small hermit crab on a beach in Penghu. His shell was getting too small, so he needed a new home. One day, he found a beautiful pink shell. He was so happy! But when he [[tried|boiled|spelled|married]] to move in, a big crab was already inside. "Go away!" it shouted. Hermy was [[sad|wooden|national|convenient]] and walked away slowly. He looked all day, but every shell was too big or too small. By night, he was very [[tired|plastic|square|electric]]. Then he saw something strange: a plastic bottle cap. People had left it on the beach. Hermy was [[unhappy|metal|cloudy|expensive]] about the trash, but he had no choice. He moved in. The next morning, a girl picked up the bottle cap. She was [[surprised|digital|illegal|delicious]] to see a crab inside. She put a real shell next to him, and Hermy finally had a good home.
+> 1 try to + 原形動詞「試著做…」：他想搬進去。boiled（煮沸）、spelled（拼字）、married（結婚）後面不能接 to move in。
+> 2 被大螃蟹趕走，Hermy 很「難過」sad。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容心情。
+> 3 找了一整天，到晚上很「累」tired。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容狀態。
+> 4 be unhappy about…「對…不滿」：對海灘上的垃圾不滿。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能接 about the trash 形容心情。
+> 5 be surprised to + 原形動詞「驚訝地…」：驚訝地看到裡面有一隻螃蟹。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能這樣用。
++ hermit crab = 寄居蟹
++ Penghu = 澎湖
++ shell = 殼
++ bottle cap = 瓶蓋
+= Hermy 是澎湖海灘上的一隻小寄居蟹。他的殼越來越小，所以他需要一個新家。有一天，他發現了一個漂亮的粉紅色貝殼，好開心！但他想搬進去時，裡面已經有一隻大螃蟹了。「走開！」大螃蟹大喊。Hermy 很難過，慢慢地走開了。他找了一整天，每個殼不是太大就是太小。到了晚上，他累壞了。接著他看到一個奇怪的東西：一個塑膠瓶蓋，是人們留在海灘上的。Hermy 對這些垃圾很不滿，但他別無選擇，只好搬了進去。隔天早上，一個女孩撿起那個瓶蓋，驚訝地發現裡面有一隻螃蟹。她在他旁邊放了一個真正的貝殼，Hermy 終於有了一個好家。
+
+## 第一次露營
+Last weekend, my family went camping in the mountains for the first time. Dad wanted to [[show|bake|spell|boil]] us how to build a tent. It took him two hours, and the tent still looked strange. We were all [[tired|wooden|national|convenient]] before dinner. Then it started to rain, and water came into the tent. My sister was so [[mad|plastic|square|electric]] that she wanted to go home right away. At night, mosquitoes bit us again and again. Nobody could sleep. In the morning, everyone was [[unhappy|metal|cloudy|expensive]]. But when we opened the tent, we saw a sea of clouds below the mountain. The sun was rising, and the sky was pink and gold. We were so [[surprised|digital|illegal|delicious]] that no one said a word. "Okay," my sister said at last. "Maybe camping isn't so bad."
+> 1 show + 人 + how to…「示範給某人看怎麼…」。bake（烘烤）、spell（拼字）、boil（煮沸）都不能接「人＋how to」。
+> 2 搭帳篷搭了兩小時，晚餐前就很「累」tired。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容人的狀態。
+> 3 so mad that…「氣到…」：氣得想馬上回家。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
+> 4 一整晚沒睡，早上大家都很「不開心」unhappy。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 5 so surprised that…「驚訝到…」：看到雲海，驚訝得說不出話。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ camping = 露營
++ tent = 帳篷
++ mosquito = 蚊子
++ a sea of clouds = 雲海
+= 上週末，我們家第一次去山上露營。爸爸想示範給我們看怎麼搭帳篷，結果他花了兩個小時，帳篷看起來還是怪怪的。晚餐前我們就都累壞了。接著開始下雨，水跑進了帳篷裡。我妹妹氣得想馬上回家。到了晚上，蚊子一直咬我們，沒有人睡得著。早上大家都很不開心。但當我們打開帳篷，卻看到山下一片雲海。太陽正在升起，天空是粉紅色和金色的。我們驚訝得說不出話來。「好吧，」妹妹終於開口，「也許露營沒那麼糟。」
+
+## 被盜走的遊戲帳號
+Owen played an online game every day for two years. His character was a strong knight with golden armor. One evening, he [[tried|boiled|married|spelled]] to log in, but his password did not work. Someone had stolen his account! Owen was so [[mad|wooden|national|convenient]] that he hit his desk. Then he felt very [[sad|plastic|square|electric]]. Two years of work were gone. He wrote to the game company and waited. Three days later, an email came. "We found your account," it said. "The thief used your birthday to guess your password." Owen was [[surprised|metal|cloudy|expensive]]. He never thought it was so easy. That night, he made a new, long password. He was [[tired|digital|illegal|delicious]] after a week of worry, but he slept well. "Lesson learned," he said. "No more birthday passwords!"
+> 1 try to + 原形動詞「試著做…」：他想登入。boiled（煮沸）、married（結婚）、spelled（拼字）後面不能接 to log in。
+> 2 so mad that…「氣到…」：氣得捶桌子。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容心情。
+> 3 兩年的心血不見了，他覺得很「難過」sad。plastic（塑膠的）、square（正方形的）、electric（電的）都不能接在 felt 後面形容心情。
+> 4 沒想到密碼這麼容易被猜到，Owen 很「驚訝」surprised。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 5 擔心了一個星期，很「累」tired，後面接 but he slept well。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容人的狀態。
++ knight = 騎士
++ armor = 盔甲
++ log in = 登入
++ password = 密碼
++ account = 帳號
+= Owen 每天玩一款線上遊戲，玩了兩年。他的角色是一位穿著金色盔甲的強大騎士。一天晚上，他想登入，但密碼不能用了——有人盜走了他的帳號！Owen 氣得捶桌子，接著又覺得好難過，兩年的心血全沒了。他寫信給遊戲公司，然後開始等待。三天後，一封電子郵件寄來了：「我們找回你的帳號了。小偷是用你的生日猜出你的密碼。」Owen 很驚訝，他從沒想過這麼容易就被猜到。那天晚上，他設了一個又長又新的密碼。擔心了一個星期，他累壞了，但那晚睡得很好。「學到教訓了，」他說，「再也不用生日當密碼！」
+
+## 誠實的魔鏡
+In a faraway castle, there was a magic mirror that always told the truth. Every morning, the queen asked it, "Who is the most beautiful woman in the land?" And every morning the mirror [[answered|baked|boiled|married]], "You are, my queen." But one day, the mirror said, "A girl in the village is more beautiful than you." The queen was so [[mad|wooden|national|convenient]] that she threw her cup at the wall. Then she sat down and cried. She was [[sad|plastic|square|electric]] all day. That night, the mirror spoke again. "My queen, you asked the wrong question. Ask me who is the kindest." The queen was [[surprised|metal|cloudy|expensive]]. She thought for a long time. The next day, she opened the castle and gave food to poor families. She was [[tired|digital|illegal|delicious]] in the evening, but for the first time in years, she felt truly happy.
+> 1 answer「回答」：魔鏡每天早上都這樣回答。baked（烘烤）、boiled（煮沸）、married（結婚）後面都不能接說話的內容。
+> 2 so mad that…「氣到…」：氣得把杯子丟向牆壁。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容心情。
+> 3 sad all day「難過了一整天」。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
+> 4 魔鏡說她問錯問題，皇后很「驚訝」surprised，想了很久。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 5 忙了一整天，晚上很「累」tired，但很快樂。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容人的狀態。
++ castle = 城堡
++ mirror = 鏡子
++ truth = 實話
++ queen = 皇后、女王
+= 在遙遠的城堡裡，有一面總是說實話的魔鏡。每天早上，皇后都問它：「誰是這片土地上最美麗的女人？」每天早上魔鏡都回答：「是您，我的皇后。」但有一天，魔鏡說：「村子裡有一個女孩比您更美。」皇后氣得把杯子丟向牆壁，然後坐下來哭了，難過了一整天。那天晚上，魔鏡又開口了：「我的皇后，您問錯問題了。請問我，誰是最善良的人。」皇后很驚訝，想了很久。隔天，她打開城堡大門，送食物給貧窮的家庭。傍晚時她很累，但這是多年來她第一次感到真正的快樂。
+
+## 走失的一年級小學弟
+During lunch break, Nina saw a little boy crying near the school gate. He was wearing a first-grade name card. "Are you lost?" she asked. The boy nodded. He was looking for his classroom, but the school was too big. He looked so [[sad|wooden|national|convenient]] that Nina held his hand. "Don't worry. We will [[find|bake|boil|spell]] your classroom together," she said. They walked from building to building. The boy was [[tired|plastic|square|electric]], so Nina carried his bag for him. At last, they found his class. His teacher was very [[surprised|metal|cloudy|expensive]] to see them. "We were looking for you everywhere!" she said. She was not [[mad|digital|illegal|delicious]] at the boy at all. She just hugged him. The next day, the little boy came to Nina's classroom with a drawing. It was a picture of a girl with wings. Under it, he wrote, "My hero."
+> 1 小學弟哭得很「難過」sad，Nina 才牽起他的手。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容表情。
+> 2 find your classroom「找到你的教室」。bake（烘烤）、boil（煮沸）、spell（拼字）接 your classroom 意思都不通。
+> 3 走了好多棟大樓，小學弟很「累」tired，所以 Nina 幫他背書包。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容人的狀態。
+> 4 be surprised to + 原形動詞「驚訝地…」：老師看到他們很驚訝。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能這樣用。
+> 5 be mad at + 人「生某人的氣」：老師一點也沒有生他的氣。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能接 at the boy。
++ school gate = 校門
++ nod = 點頭
++ wing = 翅膀
++ hero = 英雄
+= 午休時間，Nina 看到一個小男孩在校門附近哭。他戴著一年級的名牌。「你迷路了嗎？」她問。男孩點點頭，他在找他的教室，但學校太大了。他看起來好難過，於是 Nina 牽起他的手：「別擔心，我們一起找到你的教室。」他們一棟一棟地找。男孩累了，Nina 就幫他背書包。最後，他們終於找到了他的班級。他的老師看到他們非常驚訝：「我們到處在找你！」她一點也沒有生男孩的氣，只是抱住了他。隔天，小男孩帶著一張畫來到 Nina 的教室，畫上是一個長著翅膀的女孩，下面寫著：「我的英雄。」
+
+## 想退休的獅子國王
+Leo had been the king of the jungle for twenty years. Every day, animals came to him with problems. The monkeys and the birds were always fighting, and the elephants never [[stopped|baked|married|spelled]] asking for more water. Leo was [[tired|wooden|national|convenient]] of it all. One morning, he said, "I don't want to be king anymore." All the animals were [[surprised|plastic|square|electric]]. "But who will lead us?" asked the zebra. "Choose someone yourselves," Leo said. So the animals chose the turtle. But the turtle was so slow that nothing got done. Soon, everyone was [[unhappy|metal|cloudy|expensive]]. The monkeys were [[mad|digital|illegal|delicious]] at the turtle, and the birds were mad at the monkeys. After one week, they all came back to Leo. "Please be our king again," they said. Leo sighed and smiled. "Okay. But I want one day off every week."
+> 1 never stopped + V-ing「從不停止做…」：大象一直要更多的水。baked、married、spelled 都不能接 asking。
+> 2 be tired of…「對…感到厭煩」：獅子對這一切感到厭倦。wooden（木製的）、national（國家的）、convenient（方便的）都不能接 of it all。
+> 3 獅子說不想當國王，動物們都很「驚訝」surprised。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
+> 4 烏龜太慢，什麼事都沒做好，大家都很「不開心」unhappy。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 5 be mad at + 對象「生…的氣」：猴子在生烏龜的氣，後面也用 mad at。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能接 at the turtle。
++ jungle = 叢林
++ zebra = 斑馬
++ turtle = 烏龜
++ sigh = 嘆氣
+= 獅子 Leo 當叢林之王已經二十年了。每天都有動物帶著問題來找他：猴子和鳥總是在吵架，大象也一直要求更多的水。Leo 對這一切都厭倦了。一天早上，他說：「我不想再當國王了。」所有動物都很驚訝。「那誰來帶領我們？」斑馬問。「你們自己選一個吧。」Leo 說。於是動物們選了烏龜。但烏龜太慢了，什麼事都做不完。很快地，大家都很不開心。猴子在生烏龜的氣，鳥又在生猴子的氣。一個星期後，大家都回來找 Leo：「請你再當我們的國王吧。」Leo 嘆了口氣，笑著說：「好吧，但我每個星期要放一天假。」
+
+## 換座位那一天
+Every month, our teacher [[changes|bakes|boils|marries]] our seats. This month, I had to sit next to Howard, the quietest boy in our class. I was [[unhappy|wooden|national|convenient]] because my best friend was now far away from me. For the first week, Howard did not say a word to me. I was a little [[sad|plastic|square|electric]] and bored. Then one day, I saw him drawing in his notebook. It was a comic about our teachers, and it was so funny! I was [[surprised|metal|cloudy|expensive]]. "You're really good at this," I said. He smiled for the first time. After that, he showed me a new page every day. When the month ended and our teacher changed our seats again, I was not happy at all. I was even a little [[mad|digital|illegal|delicious]] at our teacher. Now Howard and I eat lunch together every day.
+> 1 change our seats「換我們的座位」，主詞 our teacher 是第三人稱單數，用 changes。bakes、boils、marries 接 seats 意思都不通。
+> 2 好朋友被換到很遠的地方，所以「不開心」unhappy。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容心情。
+> 3 sad and bored「難過又無聊」。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
+> 4 沒想到安靜的 Howard 畫漫畫這麼好笑，我很「驚訝」surprised。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容心情。
+> 5 be mad at + 人「生某人的氣」：又換座位，我甚至有點生老師的氣。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能接 at our teacher。
++ comic = 漫畫
+= 我們老師每個月都會幫我們換座位。這個月，我得坐在 Howard 旁邊，他是我們班最安靜的男生。我很不開心，因為我最好的朋友被換到離我很遠的地方。第一個星期，Howard 一句話也沒跟我說，我覺得有點難過又無聊。後來有一天，我看到他在筆記本上畫畫，那是一篇關於我們老師的漫畫，好好笑！我很驚訝：「你畫得真好。」他第一次笑了。從那之後，他每天都給我看一頁新的。這個月結束、老師又幫我們換座位時，我一點也不開心，甚至有點生老師的氣。現在 Howard 和我每天都一起吃午餐。
+
+## 雨天的公車司機
+It was raining hard, and Mrs. Wu was waiting for the bus with two heavy bags. She was old and very [[tired|wooden|national|convenient]]. When the bus came, she could not get on quickly. The people behind her were [[mad|plastic|square|electric]]. "Hurry up!" someone shouted. Mrs. Wu felt [[sad|metal|cloudy|expensive]] and wanted to get off. Then the bus driver stood up. He walked over and [[carried|baked|spelled|married]] her bags to a seat. "Take your time," he said with a smile. Everyone on the bus was quiet. When the bus got to her stop, the driver helped her again. Mrs. Wu was so [[surprised|digital|illegal|delicious]] that she almost cried. "Thank you," she said. "You made my whole week." The next day, she brought the driver a bag of oranges from her garden.
+> 1 年紀大又提著兩袋重物，所以很「累」tired。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容人的狀態。
+> 2 後面的人等得不耐煩，很「生氣」mad，才會大喊快一點。plastic（塑膠的）、square（正方形的）、electric（電的）都不能形容心情。
+> 3 被人催，吳太太覺得很「難過」sad。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能接在 felt 後面形容心情。
+> 4 carry + 物 + to…「把某物搬到…」：司機把她的袋子提到座位上。baked（烘烤）、spelled（拼字）、married（結婚）都不能這樣用。
+> 5 so surprised that…「驚訝到…」：驚訝得差點哭出來。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ bus driver = 公車司機
++ get on = 上（車）
++ take your time = 慢慢來
+= 雨下得很大，吳太太提著兩個很重的袋子在等公車。她年紀大了，非常累。公車來了，她沒辦法很快地上車，後面的人都很不耐煩。「快一點！」有人大喊。吳太太覺得很難過，想下車。這時公車司機站了起來，走過去把她的袋子提到座位上。「慢慢來。」他笑著說。整台公車都安靜了下來。到了她要下車的站，司機又幫了她一次。吳太太驚訝得差點哭出來。「謝謝你，」她說，「你讓我這整個星期都好開心。」隔天，她帶了一袋自己院子種的柳丁送給司機。
+
+## 守在門口的小狗
+Every evening at six, our dog, Peanut, sits by the front door. He is waiting for my dad to [[return|bake|spell|boil]] from work. When Dad opens the door, Peanut jumps and runs in circles. Last month, Dad went to Japan for a business trip for two weeks. Peanut did not understand. Every evening, he waited at the door, but Dad did not come. He looked so [[sad|wooden|national|convenient]]. He did not want to eat or play. I was [[unhappy|plastic|square|electric]] to see him like that. So I called Dad on video every night, and Peanut listened to his voice. On the last day, Dad came home late at night. Peanut was very [[tired|metal|cloudy|expensive]], but when he heard the key, he woke up at once. He was so [[surprised|digital|illegal|delicious]] that he barked and barked. Then he lay on Dad's feet and would not let him go.
+> 1 return from work「下班回來」。bake（烘烤）、spell（拼字）、boil（煮沸）都不能接 from work。
+> 2 等不到爸爸，小狗看起來好「難過」sad。wooden（木製的）、national（國家的）、convenient（方便的）都不能形容表情。
+> 3 be unhappy to + 原形動詞「看到…很不開心」：看到牠那樣我很難受。plastic（塑膠的）、square（正方形的）、electric（電的）都不能這樣用。
+> 4 那麼晚了，小狗很「累」tired，但一聽到鑰匙聲就醒了。metal（金屬的）、cloudy（多雲的）、expensive（昂貴的）都不能形容狀態。
+> 5 so surprised that…「驚訝到…」：驚訝得一直叫。digital（數位的）、illegal（違法的）、delicious（好吃的）都不能形容心情。
++ Peanut = 花生（狗的名字）
++ business trip = 出差
++ bark = 吠叫
+= 每天傍晚六點，我們家的狗花生都會坐在大門旁邊，等爸爸下班回家。爸爸一開門，花生就跳起來繞著圈圈跑。上個月，爸爸去日本出差兩個星期。花生不明白，每天傍晚牠都在門口等，爸爸卻一直沒回來。牠看起來好難過，不想吃東西也不想玩。看到牠那樣，我很不好受，所以每天晚上都和爸爸視訊，讓花生聽聽他的聲音。最後一天，爸爸深夜才到家。花生已經很累了，但一聽到鑰匙的聲音，牠馬上醒過來，驚訝得叫個不停。接著牠趴在爸爸的腳上，怎麼樣都不讓他走。
