@@ -879,22 +879,22 @@ function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({se
 var PIN_OK = false;
 let pinSeq = 0;
 function pinMsg(t, c){ $('pinMsg').textContent = t; $('pinMsg').className = 'pinmsg ' + (c || ''); }
-async function checkPin(){
+async function checkPin(quiet){
   const seat = $('seat').value, pin = $('spin').value.trim(), my = ++pinSeq;
-  PIN_OK = false; update();
+  if (!quiet) { PIN_OK = false; update(); }
   if (!seat || !pin) { pinMsg(''); return; }
   if (!SHEET_URL) { PIN_OK = true; update(); return; }
-  pinMsg('確認中…');
+  if (!quiet) pinMsg('確認中…');
   try {
     const j = await fetch(SHEET_URL + '?action=login&seat=' + seat + '&pin=' + encodeURIComponent(pin)).then(r => r.json());
     if (my !== pinSeq) return;
     if (j.ok) { PIN_OK = true; pinMsg('✓', 'ok'); if (j.given && !TEACHERS[seat]) $('sname').value = j.given; }
-    else pinMsg(j.error || '密碼不對', 'bad');
+    else { PIN_OK = false; pinMsg(j.error || '密碼不對', 'bad'); }
   } catch (e) { if (my === pinSeq) { PIN_OK = true; pinMsg(''); } }   // 網路不穩時先讓他考，交卷時伺服器會再檢查
   saveStudent(); update();
 }
 let pinTimer = null;
-$('spin').oninput = () => { PIN_OK = false; update(); pinMsg(''); clearTimeout(pinTimer); if ($('spin').value.trim().length >= 5) pinTimer = setTimeout(checkPin, 1200); };
+$('spin').oninput = () => { PIN_OK = false; update(); pinMsg(''); clearTimeout(pinTimer); if ($('spin').value.trim().length >= 5) pinTimer = setTimeout(checkPin, 450); };
 $('spin').onchange = () => { clearTimeout(pinTimer); if (!PIN_OK) checkPin(); };
 $('spin').onkeydown = e => { if (e.key === 'Enter') { clearTimeout(pinTimer); checkPin(); } };
 $('logoutBtn').onclick = () => { $('seat').value = ''; $('sname').value = ''; $('spin').value = ''; PIN_OK = false; pinMsg(''); try { localStorage.removeItem('student'); } catch (e) {} $('taskBan').classList.add('hidden'); update(); if (typeof drawBoard === 'function') drawBoard(); };
@@ -1025,7 +1025,8 @@ loadBoard();
 fetch('bank.json').then(r => r.json()).then(d => {
   DATA = d; GL = d.gl || {};
   setTimeout(loadTodayTask, 0);
-  if ($('spin').value) checkPin();
+  // 這台裝置之前驗證過的密碼：直接可以開始，背景再確認一次
+  if ($('spin').value) { PIN_OK = true; pinMsg('✓', 'ok'); update(); checkPin(true); }
   if ($('seat').value) fillName();
   window.byDay = DATA.days;
   N = DATA.labels.length;

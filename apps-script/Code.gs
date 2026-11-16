@@ -645,6 +645,9 @@ let ROSTER_ = null, PINS_ = {};
 // 「名單」分頁：座號 | 姓名 | 個人密碼（有填個人密碼的座號，交卷時要輸入對才收）
 function roster_() {
   if (ROSTER_) return ROSTER_;
+  // 先看快取（3 分鐘），省掉開試算表的時間；改了名單最多 3 分鐘後生效
+  const cache = CacheService.getScriptCache(), hit = cache.get('roster-v1');
+  if (hit) { const o = JSON.parse(hit); ROSTER_ = o.r; PINS_ = o.p; return ROSTER_; }
   ROSTER_ = {};
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('名單');
   if (!sh || sh.getLastRow() < 2) return ROSTER_;
@@ -653,6 +656,7 @@ function roster_() {
     if (seat && nm) ROSTER_[seat] = nm;
     if (seat && pin) PINS_[seat] = pin;
   });
+  cache.put('roster-v1', JSON.stringify({ r: ROSTER_, p: PINS_ }), 180);
   return ROSTER_;
 }
 
