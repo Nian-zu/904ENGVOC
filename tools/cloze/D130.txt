@@ -292,11 +292,11 @@ Every winter, our classroom gets very quiet in one way and very noisy in another
 = 每年冬天，我們教室在某方面會變得很安靜，在另一方面又變得很吵。安靜是因為很多學生請假，吵是因為來上學的同學一直咳嗽。今年，我們導師訂了一條新規定。「如果你咳嗽或發燒，請戴口罩。」她說。有些男生覺得戴口罩不酷。「我又沒生病，我只是有一點咳嗽。」艾瑞克說。但一週後，艾瑞克的妹妹被他傳染了流感，錯過了她的校外教學。艾瑞克覺得很難過。隔天，他戴著藍色口罩來上學。「口罩不是為了我，」他說，「是為了我身邊的人。」他也開始常常洗手、多吃蔬菜來保持健康。
 
 ## 巫婆的感冒藥水
-Deep in a dark forest lived a witch named Hazel. She was famous for her strange potions. One day, a little rabbit knocked on her door. "Please help me," he said. "My whole family has the [[flu|ticket|village|bill]], and my baby brother has a high [[fever|garbage|museum|corner]]." Hazel took out her big pot and started to work. She added a spoon of honey, three mint leaves, and one tear from a happy frog. The pot bubbled and smelled like lemon. "This [[medicine|weather|traffic|history]] will help them," she said, "but each one can only drink a little." The rabbit carried the bottle home [[carefully|rudely|lazily|shyly]]. The next morning, nobody in his family was [[coughing|borrowing|inviting|collecting]] anymore. The rabbits came to Hazel's house with a big basket of carrots. Hazel smiled. Most people were afraid of her, but the rabbits became her first real friends.
+Deep in a dark forest lived a witch named Hazel. She was famous for her strange potions. One day, a little rabbit knocked on her door. "Please help me," he said. "My whole family has the [[flu|ticket|village|bill]], and my baby brother has a high [[fever|garbage|museum|corner]]." Hazel took out her big pot and started to work. She added a spoon of honey, three mint leaves, and one tear from a happy frog. The pot bubbled and smelled like lemon. "This [[medicine|weather|traffic|history]] will help them," she said, "but each one can only drink a little." The rabbit carried the bottle home [[carefully|rudely|lazily|angrily]]. The next morning, nobody in his family was [[coughing|borrowing|inviting|collecting]] anymore. The rabbits came to Hazel's house with a big basket of carrots. Hazel smiled. Most people were afraid of her, but the rabbits became her first real friends.
 > 1 have the flu 得了流感。ticket、village、bill 都不是病。
 > 2 a high fever 高燒。garbage、museum、corner 都不能表示身體發燙。
 > 3 this medicine 這個藥（藥水）能幫助他們。weather、traffic、history 都不能裝在鍋子裡煮出來喝。
-> 4 carefully 小心地（D141）：小心把瓶子帶回家。rudely（無禮地）、lazily（懶散地）、shyly（害羞地）都不能形容捧著珍貴藥水趕回家的動作。
+> 4 carefully 小心地（D141）：小心把瓶子帶回家。rudely（無禮地）、lazily（懶散地）、angrily（生氣地）都不能形容捧著珍貴藥水趕回家的動作。
 > 5 nobody was coughing anymore 沒有人再咳嗽了。borrowing、inviting、collecting 都要接受詞，也不能表示病好了。
 + witch = 巫婆
 + potion = 藥水
