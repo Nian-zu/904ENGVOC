@@ -605,11 +605,14 @@ document.addEventListener('keydown', e => {
 });
 // ---- student info
 // 班級座號（沒有 8、22 號；30 號是老師測試用）
-const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30];
-SEATS.forEach(i => $('seat').add(new Option(i === 30 ? '30 號（測試用）' : i + ' 號', i)));
+const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30,31];
+// 31 號是玠汝老師：上排行榜，但不算進老師儀表板的班級統計
+const TEACHERS = {31: '玠汝老師'};
+SEATS.forEach(i => $('seat').add(new Option(TEACHERS[i] || (i === 30 ? '30 號（測試用）' : i + ' 號'), i)));
+const seatLabel = n => TEACHERS[n] ? '老師' : n;
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; } catch (e) {}
 function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim()})); } catch (e) {} }
-$('seat').onchange = () => { saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
+$('seat').onchange = () => { const t = TEACHERS[$('seat').value]; if (t) $('sname').value = t; else if (Object.values(TEACHERS).includes($('sname').value.trim())) $('sname').value = ''; saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('sname').oninput = () => { saveStudent(); update(); };
 
 // Google Apps Script 網頁應用程式網址（部署後貼在這裡）
@@ -623,7 +626,7 @@ async function upload(){
     seat: $('seat').value, name: $('sname').value.trim(), range: s.rangeText, kind: kindCode(),
     total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log
   });
-  const okMsg = sc => `✓ 成績已上傳（${$('seat').value} 號 ${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
+  const okMsg = sc => `✓ 成績已上傳（${TEACHERS[$('seat').value] ? '' : $('seat').value + ' 號 '}${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
   try {
     const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'}, body});
     const j = await r.json();
@@ -679,9 +682,9 @@ function drawBoard(){
     x.hidden = (x.dataset.s === 'up' && boardPeriod === 'all') || (x.dataset.s !== 'right' && !j.boards);
   });
   const icon = {strong: '👑', sharp: '🎯', up: '📈', busy: '📅', streak: '🔥'};
-  const titles = (j.titles || []).map(t => `<div class="ttl${t.who.some(w => w.seat === me) ? ' mine' : ''}"><b>${icon[t.key] || '🏅'} ${esc(t.label)}</b><div class="who">${t.who.map(w => esc(w.given)).join('、')}</div><div class="val">${esc(t.value)}</div><small>${esc(t.desc)}</small></div>`).join('');
+  const titles = (j.titles || []).map(t => `<div class="ttl${t.who.some(w => w.seat === me) ? ' mine' : ''}"><b>${icon[t.key] || '🏅'} ${esc(t.label)}</b><div class="who">${t.who.map(w => esc(TEACHERS[w.seat] || w.given)).join('、')}</div><div class="val">${esc(t.value)}</div><small>${esc(t.desc)}</small></div>`).join('');
   const list = boards[boardSort] || [];
-  const nm = x => esc(x.given ?? givenName(x.name));
+  const nm = x => esc(TEACHERS[x.seat] || (x.given ?? givenName(x.name)));
   const pct = v => v == null ? '—' : v + '%';
   const cols = {
     right: ['<th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th>', x => `<td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${pct(x.rate)}</td>`],
@@ -692,7 +695,7 @@ function drawBoard(){
   body.className = '';
   body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + (list.length
     ? `<table><thead><tr><th>名次</th><th>座號</th><th>名字</th>${cols[0]}</tr></thead><tbody>` +
-      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${x.seat}</td><td>${nm(x)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
+      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td>${nm(x)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
     : `<div class="empty">${empty}</div>`);
   $('boardHint').textContent = {
     right: `依${PERIOD_ZH[boardPeriod]}${tz}答對題數加總排名，做越多、答對越多就越前面。`,
@@ -700,7 +703,7 @@ function drawBoard(){
     up: `${PERIOD_ZH[boardPeriod]}${tz}的答對率比${PREV_ZH[boardPeriod] || '上期'}進步多少分；兩段都要作答滿 ${j.min && j.min.up || ''} 題，不含錯題重做。`
   }[boardSort] + '每次交卷後會更新。' + (tz ? '各題型排行從 11/15 開始累積。' : '');
   const f = j.fame;
-  const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
+  const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(TEACHERS[w.seat] || w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
   $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王（不含克漏字）')}${famed(f.months, '🏆 歷屆月冠王（不含克漏字）')}</div>` : '';
 }
 document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
