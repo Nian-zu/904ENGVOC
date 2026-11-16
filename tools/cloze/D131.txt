@@ -269,3 +269,137 @@ Our school held a typing contest last week. Each student had to type an English 
 + row = 排、列
 + key = 按鍵
 = 上週我們學校舉辦了一場打字比賽，每個學生要在五分鐘內盡快打出一篇英文故事。我的朋友 Kai 是我們班打字最快的人，他可以不看鍵盤就打字。「你是怎麼辦到的？」我問。「把手指放在中間那排按鍵上，」他說，「每根手指負責自己的按鍵，然後每天練習。」那兩個星期，我每天放學都在練習。一開始我打錯很多字，但我沒有放棄。比賽當天，我緊張到一直咬嘴唇。老師一說「開始！」，我深吸一口氣就開始打。我的眼睛盯著螢幕，手指在按鍵上飛舞。桌子底下，我的腳趾也跟著動，因為我太興奮了。五分鐘後，我打了 180 個字！Kai 打了 230 個字得到第一名，而我得了第三名。
+
+## 河馬的大嘴巴
+At the zoo, a hippo opened its mouth very wide. It was so big that a child could sit inside! "Look at its [[teeth|tickets|villages|letters]]!" my brother shouted. Two of them were long and sharp, like knives. The zookeeper told us that hippos look slow and [[lazy|delicious|cheap|national]], but they are very dangerous. They can run faster than people, and they can bite a small boat in half. Then he told us something surprising. "A hippo's [[skin|meal|museum|bill]] is thick, but it can get dry and burned in the sun, so hippos stay in the water most of the day." They also make a red liquid on their bodies. It protects them from the sun. My brother wanted to touch the hippo, but the zookeeper said no. "It could bite off your [[fingers|corners|garbage|traffic]]!" My brother quickly put his hands in his pockets. Before we left, the hippo yawned again, and we saw its big pink [[lips|tickets|bills|meals]] and tongue.
+> 1 張大嘴巴，看看牠的「牙齒」Look at its teeth，後面說有兩顆像刀子一樣長。tickets（票）、villages（村莊）、letters（信）不會長在嘴裡。
+> 2 河馬看起來又慢又「懶」slow and lazy，但其實很危險。delicious（好吃的）、cheap（便宜的）、national（國家的）不能形容動物的樣子。
+> 3 河馬的「皮膚」很厚，但會被太陽曬乾曬傷 A hippo's skin。meal（一餐）、museum（博物館）、bill（帳單）不會被曬傷。
+> 4 河馬可能會咬掉你的「手指」bite off your fingers，所以弟弟趕快把手放進口袋。corners（角落）、garbage（垃圾）、traffic（交通）都不合理。
+> 5 打哈欠時看到粉紅色的大「嘴唇」和舌頭 its big pink lips and tongue。tickets、bills、meals 都不是身體部位。
++ hippo = 河馬
++ zookeeper = 動物園管理員
++ liquid = 液體
++ yawn = 打哈欠
++ tongue = 舌頭
+= 在動物園裡，一隻河馬把嘴巴張得好大，大到一個小孩都可以坐進去！「你看牠的牙齒！」弟弟大喊。其中兩顆又長又尖，像刀子一樣。管理員告訴我們，河馬看起來又慢又懶，但其實非常危險，牠們跑得比人還快，還能把一艘小船咬成兩半。接著他又說了一件令人驚訝的事：「河馬的皮膚很厚，但在太陽下會變乾、被曬傷，所以牠們一天大部分的時間都待在水裡。」牠們身上還會分泌一種紅色的液體，可以保護牠們不被太陽曬傷。弟弟想摸河馬，但管理員說不行。「牠可能會把你的手指咬掉！」弟弟趕快把手放進口袋裡。我們離開前，河馬又打了一個哈欠，我們看到了牠粉紅色的大嘴唇和舌頭。
+
+## 森林裡的老鼠牙醫
+In a deep forest, there was a small dentist's office run by a mouse named Dr. Pip. One day, a big bear came in, holding his face. "My [[tooth|ticket|village|letter]] hurts!" he cried. Dr. Pip was a little [[afraid|delicious|cheap|national]] because the bear was a thousand times bigger than him. But he was a good dentist. "Open your mouth wide, please," he said. The bear opened his mouth, and Dr. Pip climbed over his [[lips|bills|meals|museums]] and walked inside. He found the problem right away. A honey candy was stuck between two of the bear's [[teeth|corners|garbage|tickets]]. Dr. Pip pulled and pulled, and finally, the candy came out. "Thank you!" said the bear. He wanted to shake hands, but his paw was too big. So he held out one claw, and Dr. Pip shook it with his tiny [[fingers|tickets|villages|bills]]. From that day on, all the animals in the forest came to see Dr. Pip.
+> 1 熊摀著臉說「牙齒」好痛 My tooth hurts，所以來看牙醫。ticket（票）、village（村莊）、letter（信）不會痛。
+> 2 熊比他大一千倍，所以老鼠有點「害怕」afraid。delicious（好吃的）、cheap（便宜的）、national（國家的）不能形容人的心情。
+> 3 爬過熊的「嘴唇」走進嘴裡 climbed over his lips。bills（帳單）、meals（餐點）、museums（博物館）都不在嘴邊。
+> 4 蜂蜜糖卡在兩顆「牙齒」中間 stuck between two of the bear's teeth。corners（角落）、garbage（垃圾）、tickets 不在嘴裡。
+> 5 用小小的「手指」握住熊的爪子 shook it with his tiny fingers。tickets、villages、bills 不能握手。
++ dentist = 牙醫
++ honey = 蜂蜜
++ stuck = 卡住的
++ paw = （動物的）掌
++ claw = 爪子
+= 在一座很深的森林裡，有一間小小的牙醫診所，醫生是一隻叫皮普的老鼠。有一天，一隻大熊摀著臉走進來。「我的牙齒好痛！」他哭著說。皮普醫生有點害怕，因為熊比他大了一千倍，但他是一位好牙醫。「請把嘴巴張大。」他說。熊張開嘴巴，皮普醫生爬過熊的嘴唇，走了進去。他馬上就找到問題：一顆蜂蜜糖卡在熊的兩顆牙齒中間。皮普醫生拉呀拉，糖終於出來了。「謝謝你！」熊說。他想和醫生握手，但他的熊掌太大了，於是他伸出一根爪子，皮普醫生用小小的手指握了握它。從那天起，森林裡所有的動物都來找皮普醫生看牙。
+
+## 小狗的早安吻
+Every morning at six, my puppy, Mochi, wakes me up in the same way. First, she jumps onto my bed. Then she licks my face and my [[lips|tickets|villages|bills]]. "Mochi, stop!" I always laugh. Mom says it is not a good habit, but Mochi doesn't care. If I don't get up, she bites my [[toes|meals|letters|museums]] under the blanket. She doesn't bite hard, but her small [[teeth|corners|tickets|villages]] are sharp. Finally, I give up and get out of bed. "Good morning, Mochi," I say, and I rub her soft ears with my [[fingers|garbage|traffic|bills]]. She wags her tail so fast that her whole body shakes. Then we go for a walk together. I used to hate getting up early, but now I [[enjoy|bake|marry|borrow]] the quiet mornings with Mochi.
+> 1 小狗舔我的臉和「嘴唇」licks my face and my lips。tickets（票）、villages（村莊）、bills（帳單）不是身體部位。
+> 2 我不起床，她就咬毯子下的「腳趾」bites my toes under the blanket。meals（餐點）、letters（信）、museums（博物館）不會在毯子底下。
+> 3 咬得不重，但她的小「牙齒」很尖 her small teeth are sharp。corners（角落）、tickets、villages 不會長在小狗身上。
+> 4 用「手指」揉她軟軟的耳朵 rub her ears with my fingers。garbage（垃圾）、traffic（交通）、bills 都不能用來摸小狗。
+> 5 以前討厭早起，現在「喜歡、享受」安靜的早晨 enjoy the quiet mornings。bake（烤）、marry（結婚）、borrow（借）接 the quiet mornings 都不合理。
++ puppy = 小狗
++ lick = 舔
++ blanket = 毯子
++ rub = 揉、撫摸
++ wag = 搖（尾巴）
+= 每天早上六點，我的小狗麻糬都用同樣的方式叫我起床。她先跳上我的床，接著舔我的臉和嘴唇。「麻糬，不要舔了！」我總是笑著說。媽媽說這不是好習慣，但麻糬才不管。如果我還不起床，她就會咬毯子底下的腳趾。她咬得不重，但她的小牙齒很尖。最後我只好投降，爬下床。「早安，麻糬。」我說，然後用手指揉揉她軟軟的耳朵。她的尾巴搖得好快，整個身體都跟著晃。接著我們一起出門散步。我以前很討厭早起，但現在我很享受和麻糬一起度過的安靜早晨。
+
+## 阿嬤的手
+My grandma's hands are small, and the [[skin|ticket|village|letter]] on them is thin and soft, with many lines. When I was little, I asked her, "Grandma, why are your hands so [[different|delicious|thirsty|crowded]] from mine?" She smiled and said, "These hands have worked for seventy years." When she was young, Grandma worked in a tea field in Nantou. She picked tea leaves with her [[fingers|meals|museums|bills]] from early morning to late at night. Later, she sewed clothes for her five children. Once, the needle went into her finger, but she just put a bandage on it and kept working. Now she is old, but her hands are still busy. She makes dumplings for us every New Year. Last week, she taught me how to fold them. My dumplings looked [[ugly|lazy|honest|polite]], but she said they were perfect. She laughed so hard that she showed all her [[teeth|corners|garbage|tickets]].
+> 1 阿嬤手上的「皮膚」又薄又軟，有很多紋路 the skin on them is thin and soft。ticket（票）、village（村莊）、letter（信）不在手上。
+> 2 be different from…「和…不一樣」。delicious（好吃的）、thirsty（口渴的）、crowded（擁擠的）不能接 from mine 比較兩雙手。
+> 3 用「手指」採茶葉 picked tea leaves with her fingers。meals（餐點）、museums（博物館）、bills（帳單）不能採茶。
+> 4 我包的水餃看起來很「醜」looked ugly，但阿嬤說很完美。lazy（懶惰的）、honest（誠實的）、polite（有禮貌的）不能形容水餃的樣子。
+> 5 笑得露出所有的「牙齒」showed all her teeth。corners（角落）、garbage（垃圾）、tickets 不會在笑的時候露出來。
++ Nantou = 南投
++ sew = 縫
++ needle = 針
++ bandage = 繃帶、OK 繃
++ fold = 摺、包（水餃）
+= 我阿嬤的手小小的，手上的皮膚又薄又軟，有很多紋路。我小時候問她：「阿嬤，你的手為什麼跟我的不一樣？」她笑著說：「這雙手已經工作七十年了。」阿嬤年輕時在南投的茶園工作，從一大早到深夜都用手指採茶葉。後來，她幫五個孩子縫衣服。有一次針刺進了她的手指，她只貼了一個 OK 繃就繼續工作。現在她老了，但她的手還是閒不下來，每年過年都包水餃給我們吃。上星期，她教我怎麼包水餃。我包的水餃很醜，她卻說很完美。她笑得好開心，露出了所有的牙齒。
+
+## 運動會的拔河比賽
+On Sports Day, our class took part in the tug-of-war. Our teacher put the strongest students at the back of the rope. "Hold the rope tightly with all your [[fingers|tickets|villages|letters]]," she said. "And lean back." When the whistle blew, we pulled as hard as we could. I bit my [[lip|bill|meal|museum]] and pulled with all my power. The rope was rough, and it hurt the [[skin|corner|garbage|ticket]] on my hands. My shoes were slipping, so I pushed my [[toes|bills|meals|corners]] hard into the ground. The other class was strong, but slowly, the red flag in the middle came to our side. "We won!" everyone shouted. We fell to the ground and laughed. My hands were red, but I did not care. That night, I was so [[tired|national|wooden|cheap]] that I fell asleep before dinner.
+> 1 用所有的「手指」緊緊握住繩子 Hold the rope tightly with all your fingers。tickets（票）、villages（村莊）、letters（信）不能握繩子。
+> 2 咬緊「嘴唇」用盡全力拉 I bit my lip。bill（帳單）、meal（一餐）、museum（博物館）不能咬。
+> 3 繩子很粗糙，弄痛了手上的「皮膚」hurt the skin on my hands。corner（角落）、garbage（垃圾）、ticket 不在手上。
+> 4 鞋子打滑，用「腳趾」用力抵住地面 pushed my toes hard into the ground。bills、meals（餐點）、corners 都不是身體部位。
+> 5 累到晚餐前就睡著了 so tired that I fell asleep。national（國家的）、wooden（木製的）、cheap（便宜的）不能形容人的狀態。
++ Sports Day = 運動會
++ tug-of-war = 拔河
++ rope = 繩子
++ lean = 傾斜、往後倒
++ whistle = 哨子
+= 運動會那天，我們班參加了拔河比賽。老師把力氣最大的同學排在繩子的最後面。「用所有的手指緊緊握住繩子，」她說，「身體往後倒。」哨聲一響，我們就使出全力拉。我咬緊嘴唇，用盡所有的力氣。繩子很粗糙，把我手上的皮膚弄得好痛。我的鞋子一直打滑，所以我用腳趾用力抵住地面。對手班很強，但中間的紅旗慢慢地往我們這邊移動。「我們贏了！」大家都大叫，然後倒在地上笑成一團。我的手紅紅的，但我一點都不在乎。那天晚上，我累到還沒吃晚餐就睡著了。
+
+## 赤腳上的自然課
+Our science teacher had a strange idea. "Today, we will walk without shoes," she said. We all took off our shoes and socks and walked onto the school field. The grass was wet and cold under my [[toes|tickets|villages|letters]]. Then we walked on sand, on small stones, and on a wooden bridge. The stones hurt a little, and I made a funny face. "Feel the ground with your feet," the teacher said. "Your [[skin|meal|museum|bill]] can tell you a lot." She explained that our feet can feel things very well, just like our [[fingers|corners|garbage|traffic]]. "When we walk barefoot, our feet also get stronger." At first, I walked very [[slowly|cheaply|honestly|politely]]. But after ten minutes, I started to enjoy it. When we went back to class, my feet were dirty, and there was grass between my toes. It was the most [[interesting|delicious|thirsty|crowded]] science class ever.
+> 1 濕濕冷冷的草在「腳趾」下面 The grass was wet and cold under my toes。tickets（票）、villages（村莊）、letters（信）不能踩在草上。
+> 2 「皮膚」可以告訴你很多事 Your skin can tell you a lot，指腳底的感覺。meal（一餐）、museum（博物館）、bill（帳單）沒有感覺。
+> 3 腳的感覺和「手指」一樣靈敏 just like our fingers。corners（角落）、garbage（垃圾）、traffic（交通）不能感覺東西。
+> 4 剛開始光腳走得很「慢」walked very slowly，因為石頭會痛。cheaply（便宜地）、honestly（誠實地）、politely（有禮貌地）都不能形容走路的樣子。
+> 5 the most interesting class「最有趣的一堂課」。delicious（好吃的）、thirsty（口渴的）、crowded（擁擠的）不能形容一堂課。
++ barefoot = 赤腳地
+= 我們的自然老師有一個奇怪的點子：「今天我們不穿鞋子走路。」我們全都脫掉鞋襪，走到學校操場上。濕濕冷冷的草就在我的腳趾下面。接著我們走過沙子、小石頭，還有一座木橋。石頭有點痛，我做了一個好笑的鬼臉。「用你們的腳去感受地面，」老師說，「你們的皮膚可以告訴你們很多事。」她解釋，我們的腳能感覺得很清楚，就跟手指一樣。「赤腳走路，腳也會變得更強壯。」一開始我走得很慢，但十分鐘後，我開始喜歡上這種感覺。回到教室時，我的腳髒兮兮的，腳趾中間還夾著草。那是我上過最有趣的一堂自然課。
+
+## 會爬牆的壁虎
+Last night, I saw a gecko on our kitchen wall. It was not moving at all. Then it ran [[straight|honest|lazy|polite]] up to the ceiling! "How can it do that without falling?" I asked Dad. He found a video online. "Look at its [[toes|tickets|villages|letters]]," he said. "There are millions of tiny hairs on them. They hold on to the wall like magic." I touched the wall with my [[finger|meal|museum|bill]]. It was smooth. "If I had toes like that, I could climb buildings like Spider-Man!" I said. Dad laughed. Then the gecko caught a mosquito and ate it in one second. Up close, its [[skin|corner|garbage|ticket]] was gray and looked soft. "Geckos eat bugs, so they are good friends to have at home," Dad said. "Grandma says they bring good luck." Since then, we never [[hurt|bake|marry|borrow]] the geckos in our house.
+> 1 run straight up「直直地往上跑」。honest（誠實的）、lazy（懶惰的）、polite（有禮貌的）不能放在 ran 後面形容跑的方向。
+> 2 壁虎「腳趾」上有好幾百萬根細毛 Look at its toes。tickets（票）、villages（村莊）、letters（信）不是壁虎的身體部位。
+> 3 用「手指」摸摸牆壁 touched the wall with my finger。meal（一餐）、museum（博物館）、bill（帳單）不能用來摸。
+> 4 近看牠的「皮膚」灰灰的，看起來軟軟的 its skin was gray。corner（角落）、garbage（垃圾）、ticket 都不是壁虎身上的東西。
+> 5 壁虎吃蟲又帶來好運，所以我們從不「傷害」牠們 never hurt the geckos。bake（烤）、marry（結婚）、borrow（借）都不合理。
++ gecko = 壁虎
++ ceiling = 天花板
++ Spider-Man = 蜘蛛人
++ mosquito = 蚊子
+= 昨天晚上，我看到廚房牆上有一隻壁虎。牠一動也不動，接著突然直直地往上跑到天花板！「牠怎麼能這樣跑都不會掉下來？」我問爸爸。他在網路上找到一段影片。「你看牠的腳趾，」他說，「上面有好幾百萬根小細毛，可以像魔法一樣抓住牆壁。」我用手指摸摸牆壁，很光滑。「如果我有那樣的腳趾，就可以像蜘蛛人一樣爬大樓了！」我說。爸爸笑了。接著，壁虎抓到一隻蚊子，一秒就吃掉了。近看牠的皮膚灰灰的，看起來軟軟的。「壁虎會吃蟲，家裡有牠們很好，」爸爸說，「阿嬤也說牠們會帶來好運。」從那之後，我們從不傷害家裡的壁虎。
+
+## 沙漠之舟
+In the desert, there is not much food. But camels can eat almost anything, even plants covered in sharp points! How can they do that? First, a camel's [[lips|tickets|villages|letters]] are thick and strong. Its top lip is split into two parts, and each part can move on its own, like two [[fingers|meals|museums|bills]]. This helps the camel pick up food carefully. Also, the inside of its mouth has many small, hard bumps. They help push the sharp food down safely. A camel has strong [[teeth|corners|garbage|tickets]] too, so it can eat dry, hard plants. Camels are also good at walking on sand. Each foot has two big [[toes|bills|meals|corners]] and a wide, soft bottom, so camels don't sink into the sand. No wonder people call the camel "the ship of the desert." It is [[able|lazy|cheap|honest]] to live where few other animals can.
+> 1 駱駝的「嘴唇」又厚又強壯，才不怕尖刺 a camel's lips are thick and strong。tickets（票）、villages（村莊）、letters（信）都不是身體部位。
+> 2 上唇分成兩半，各自能動，像兩根「手指」like two fingers。meals（餐點）、museums（博物館）、bills（帳單）不能動來拿食物。
+> 3 有強壯的「牙齒」才能吃又乾又硬的植物 strong teeth。corners（角落）、garbage（垃圾）、tickets 不能吃東西。
+> 4 每隻腳有兩根大「腳趾」two big toes。bills、meals、corners 不會長在腳上。
+> 5 be able to + 原形動詞「能夠…」：能在其他動物活不下去的地方生存。lazy（懶惰的）、cheap（便宜的）、honest（誠實的）都不能接 to live 表示能力。
++ desert = 沙漠
++ camel = 駱駝
++ split = 分開的
++ bump = 突起
++ sink = 下沉
+= 沙漠裡的食物不多，但駱駝幾乎什麼都能吃，連長滿尖刺的植物也吃得下！牠們是怎麼辦到的呢？首先，駱駝的嘴唇又厚又強壯。牠的上唇分成兩半，每一半都能自己動，就像兩根手指，可以幫駱駝小心地把食物撿起來。另外，牠的嘴巴裡面有很多小小的硬突起，能幫忙把尖尖的食物安全地推下去。駱駝也有強壯的牙齒，可以吃又乾又硬的植物。駱駝還很會在沙地上走路：每隻腳有兩根大腳趾和一個又寬又軟的腳底，所以不會陷進沙子裡。難怪人們把駱駝叫做「沙漠之舟」。牠能在其他動物很難生存的地方活下去。
+
+## 博物館的暴龍牙
+On our field trip to a natural science museum, we saw a huge T. rex. It was as long as a bus! But the most [[exciting|thirsty|cheap|wooden]] part was its mouth. Its [[teeth|tickets|villages|letters]] were as long as bananas. A guide let us touch a real T. rex tooth. It was heavy and cold. I ran my [[finger|meal|museum|bill]] along its edge. It was not smooth; it had small bumps like a saw. "This helped the T. rex cut meat," the guide explained. Then she showed us a picture of what scientists think a T. rex looked like. "Some scientists believe young T. rexes had a few feathers on their [[skin|corner|garbage|ticket]]," she said. "Some also think a T. rex had [[lips|bills|meals|corners]] that covered its teeth." My friend laughed. "A T. rex with lips? That's not scary at all!" We all laughed, but I still wouldn't want to meet one.
+> 1 最「刺激」的部分是牠的嘴巴 the most exciting part。thirsty（口渴的）、cheap（便宜的）、wooden（木製的）不能形容參觀時看到的部分。
+> 2 牠的「牙齒」跟香蕉一樣長 Its teeth were as long as bananas。tickets（票）、villages（村莊）、letters（信）不會長在嘴裡。
+> 3 用「手指」沿著牙齒邊緣摸 ran my finger along its edge。meal（一餐）、museum（博物館）、bill（帳單）不能用來摸。
+> 4 有些科學家認為小暴龍的「皮膚」上有一些羽毛 feathers on their skin。corner（角落）、garbage（垃圾）、ticket 不會長羽毛。
+> 5 有些人認為暴龍有蓋住牙齒的「嘴唇」lips that covered its teeth，後面同學也笑說「有嘴唇的暴龍」。bills、meals、corners 都不合理。
++ T. rex = 暴龍
++ edge = 邊緣
++ saw = 鋸子
++ feather = 羽毛
+= 我們校外教學去了一間自然科學博物館，看到一隻巨大的暴龍，牠跟一輛公車一樣長！但最刺激的部分是牠的嘴巴，牠的牙齒跟香蕉一樣長。導覽員讓我們摸一顆真的暴龍牙齒，它又重又冰。我用手指沿著牙齒的邊緣摸，一點都不光滑，上面有像鋸子一樣的小突起。「這可以幫暴龍把肉切開。」導覽員解釋。接著她給我們看一張科學家想像中暴龍的樣子。「有些科學家認為，小暴龍的皮膚上有一些羽毛，」她說，「也有人認為暴龍有嘴唇，可以蓋住牙齒。」我朋友笑了：「有嘴唇的暴龍？那一點都不可怕嘛！」大家都笑了，但我還是不想遇到真的暴龍。
+
+## 太冰的芒果剉冰
+On the hottest day of summer, my friends and I bought big bowls of shaved ice with mango. I was so [[excited|national|wooden|cheap]] that I took a huge bite. Suddenly, a sharp pain hit my [[teeth|tickets|villages|letters]]. "Ow!" I put my hand on my cheek. The ice was too cold! Then I got a headache too. "Brain freeze!" laughed my friend Ian. "Eat slowly, and put your tongue on the top of your mouth." I tried it, and it helped. But my [[lips|meals|museums|bills]] were so cold that they did not feel like mine. Then Ian put a piece of ice on my arm, and my [[skin|corner|garbage|ticket]] turned red and cold. "Stop it!" I shouted, but I was laughing. After that, I ate the shaved ice slowly. Sweet mango juice ran down my [[fingers|tickets|villages|corners]], but I did not care. It was the best afternoon of the summer.
+> 1 太「興奮」了，一口咬下一大口 so excited that I took a huge bite。national（國家的）、wooden（木製的）、cheap（便宜的）不能形容人的心情。
+> 2 冰太冷，「牙齒」一陣刺痛 a sharp pain hit my teeth。tickets（票）、villages（村莊）、letters（信）不會痛。
+> 3 「嘴唇」冰到好像不是自己的 my lips were so cold。meals（餐點）、museums（博物館）、bills（帳單）不在臉上。
+> 4 冰塊放在手臂上，「皮膚」變得又紅又冰 my skin turned red and cold。corner（角落）、garbage（垃圾）、ticket 都不在手臂上。
+> 5 芒果汁順著「手指」流下來 ran down my fingers。tickets、villages、corners 都不是身體部位。
++ shaved ice = 剉冰
++ mango = 芒果
++ cheek = 臉頰
++ brain freeze = 吃冰引起的頭痛
++ tongue = 舌頭
+= 在夏天最熱的那一天，我和朋友們買了一大碗芒果剉冰。我太興奮了，一口就咬下一大口。突然，牙齒一陣刺痛。「哎喲！」我摀著臉頰，冰太冰了！接著我還頭痛起來。「吃冰頭痛啦！」朋友 Ian 笑著說，「慢慢吃，把舌頭頂在嘴巴上面。」我試了一下，真的有用。但我的嘴唇冰到好像不是自己的。後來 Ian 把一塊冰放在我手臂上，我的皮膚變得又紅又冰。「不要鬧了！」我大叫，卻一邊笑著。之後我慢慢地吃剉冰，甜甜的芒果汁順著手指流下來，但我一點都不在意。那是整個夏天最棒的一個下午。
