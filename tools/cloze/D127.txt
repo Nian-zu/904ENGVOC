@@ -131,3 +131,136 @@ Marco is an exchange student from Italy. He lives with my family this year. The 
 + spaghetti = 義大利麵
 + fork = 叉子
 = Marco 是來自義大利的交換學生，今年住在我家。第一個星期，他完全不會用筷子。晚餐吃水餃時，水餃一直掉回他的盤子上，他尷尬得臉都紅了。所以我決定幫他。他每天晚上練習用筷子夾豆子。一個月後，他已經能像台灣人一樣端著碗吃飯了。後來有一天晚上，Marco 煮晚餐給我們吃：番茄醬義大利麵。媽媽發給每個人一支叉子，但 Marco 說：「不不不！今晚我們用筷子！」大家都笑了，結果比我們想的難多了。我弟弟最後放棄了，用兩片麵包夾著義大利麵做成三明治。「那一點都不義大利！」Marco 大喊，但他自己也吃了一個。
+
+## 搶三明治的海鷗
+On a sunny Saturday, Jack and his sister went to the beach in Keelung. They sat on the sand and opened their lunch: two chicken [[sandwiches|tickets|villages|offices]] and a bottle of juice. Just as Jack lifted his sandwich to his mouth, a big seagull flew down and took it right out of his hand! "Hey! That's mine!" Jack shouted. He ran after the bird, but it flew away over the sea. Jack was so [[mad|wooden|national|illegal]] that he kicked the sand. His sister laughed and gave him half of hers. Then they saw a sign on the wall: "Do not feed the birds. Do not eat [[bread|garbage|weather|traffic]] or snacks on the open beach." "Oh," said Jack. "Now I know why." The next time they went to the beach, they ate fried [[rice|homework|history|information]] inside a small shop. Through the window, Jack saw the same seagull. It was looking at him. Jack held his bowl [[carefully|loudly|brightly|heavily]] and smiled. "Not today, my friend."
+> 1 chicken sandwiches「雞肉三明治」，是他們的午餐。tickets（票）、villages（村莊）、offices（辦公室）都不能吃。
+> 2 so mad that…「氣到…」：氣得踢沙子。wooden（木製的）、national（國家的）、illegal（違法的）都不能形容心情。
+> 3 告示寫「不要在開放的海灘上吃麵包或零食」。garbage（垃圾）、weather（天氣）、traffic（交通）都不能吃。
+> 4 fried rice「炒飯」，裝在碗裡吃。homework（功課）、history（歷史）、information（資訊）都不能炒來吃。
+> 5 hold … carefully「小心地拿著」，怕碗又被海鷗搶走。loudly（大聲地）、brightly（明亮地）、heavily（沉重地）都不能形容護著碗的動作。
++ Keelung = 基隆
++ seagull = 海鷗
++ lift = 舉起
++ sign = 告示牌
+= 一個晴朗的星期六，Jack 和姊姊去基隆的海邊。他們坐在沙灘上，打開午餐：兩個雞肉三明治和一瓶果汁。就在 Jack 把三明治舉到嘴邊時，一隻大海鷗飛下來，直接從他手上把三明治搶走了！「喂！那是我的！」Jack 大喊。他追著那隻鳥跑，但牠飛到海上去了。Jack 氣得踢沙子。姊姊笑著把自己的分一半給他。接著他們看到牆上的告示：「請勿餵食鳥類。請勿在開放的海灘上吃麵包或零食。」「喔，」Jack 說，「現在我知道為什麼了。」下次他們去海邊，就在一間小店裡吃炒飯。Jack 透過窗戶看到同一隻海鷗正盯著他。Jack 小心地護著他的碗，笑著說：「今天不行喔，朋友。」
+
+## 蒸籠裡的小籠包
+My cousin Amy came back from Canada for the summer. She wanted to eat soup [[dumplings|tickets|pockets|villages]], so we took her to a famous restaurant in Taipei. We waited in line for forty minutes. Through a big window, we could see the cooks. They made every dumpling by hand, and each one had exactly eighteen folds. Amy was so [[surprised|plastic|metal|square]]. "They're like little works of art!" she said. When the food came, I [[showed|baked|married|borrowed]] her how to eat one. "Put it on your spoon first. Make a small hole and let the hot soup out. Then eat it." But Amy was too hungry. She put a whole dumpling into her mouth, and the soup burned her tongue! After that, she ate slowly. We also ordered fried [[rice|homework|information|garbage]] with shrimp and a bowl of beef [[noodles|tickets|offices|seasons]]. Amy ate so much that she could not walk. "I'll come back next summer," she said, "just for this."
+> 1 soup dumplings「小籠包（湯包）」，後面說每一顆都是手工包的。tickets（票）、pockets（口袋）、villages（村莊）都不能吃。
+> 2 看到每顆都有十八摺，Amy 很「驚訝」surprised。plastic（塑膠的）、metal（金屬的）、square（正方形的）都不能形容心情。
+> 3 show + 人 + how to…「示範給某人看怎麼…」。baked、married、borrowed 都不能接「人＋how to」。
+> 4 fried rice with shrimp「蝦仁炒飯」。homework（功課）、information（資訊）、garbage（垃圾）都不能點來吃。
+> 5 a bowl of beef noodles「一碗牛肉麵」。tickets（票）、offices（辦公室）、seasons（季節）都不能用碗裝來吃。
++ Canada = 加拿大
++ fold = 摺
++ work of art = 藝術品
++ tongue = 舌頭
++ shrimp = 蝦子
+= 我表姊 Amy 暑假從加拿大回來，她想吃小籠包，所以我們帶她去台北一家有名的餐廳。我們排隊排了四十分鐘。透過一大片窗戶，我們可以看到廚師在包，每一顆都是手工包的，而且剛好十八摺。Amy 非常驚訝：「它們就像小小的藝術品！」餐點來了，我示範給她看怎麼吃：「先放在湯匙上，咬一個小洞讓熱湯流出來，再吃下去。」但 Amy 太餓了，她把一整顆放進嘴裡，熱湯燙到了她的舌頭！之後她就吃得很慢。我們還點了蝦仁炒飯和一碗牛肉麵。Amy 吃到撐得走不動。「明年夏天我還要回來，」她說，「就為了這個。」
+
+## 颱風前的空麵包架
+A strong typhoon was coming to Taiwan. The news said it would hit Taipei the next day. After school, Mom and I went to the supermarket. It was full of people. Everyone was buying instant [[noodles|tickets|villages|seasons]], water, and batteries. When we got to the bakery area, the shelves were empty. There was no [[bread|garbage|weather|traffic]] at all! "What will we eat for breakfast?" I asked. Mom thought for a moment. "Don't worry. We have a big bag of [[rice|homework|history|information]] at home, and there are frozen [[dumplings|tickets|pockets|offices]] in the freezer." That night, the wind was very loud, and the power went out. We used a small gas stove to cook rice. We ate it with eggs by candlelight. It was a little scary, but also fun. The next morning, the typhoon was gone, and the sun came out. Mom [[laughed|baked|married|spelled]]. "See? We didn't need bread after all."
+> 1 instant noodles「泡麵」，是颱風前大家搶購的食物。tickets（票）、villages（村莊）、seasons（季節）都不能在超市買來吃。
+> 2 麵包區的架子是空的，一個「麵包」都沒有。garbage（垃圾）、weather（天氣）、traffic（交通）都不會擺在麵包區。
+> 3 a big bag of rice「一大包米」。homework（功課）、history（歷史）、information（資訊）都不能用袋子裝、也不能煮。
+> 4 frozen dumplings in the freezer「冷凍庫裡的冷凍水餃」。tickets（票）、pockets（口袋）、offices（辦公室）都不會放在冷凍庫。
+> 5 Mom laughed「媽媽笑了」，接著說話。baked（烘烤）、married（結婚）、spelled（拼字）都不能單獨這樣用在說話之前。
++ typhoon = 颱風
++ battery = 電池
++ shelf = 架子
++ gas stove = 瓦斯爐
++ candlelight = 燭光
+= 一個強烈颱風就要來台灣，新聞說明天會侵襲台北。放學後，我和媽媽去超市，裡面擠滿了人，大家都在買泡麵、水和電池。我們走到麵包區時，架子全是空的，一個麵包都沒有！「那我們早餐要吃什麼？」我問。媽媽想了一下：「別擔心，家裡有一大包米，冷凍庫裡也有冷凍水餃。」那天晚上，風聲很大，還停電了。我們用小瓦斯爐煮飯，在燭光下配著蛋吃。有點可怕，但也很好玩。隔天早上，颱風走了，太陽出來了。媽媽笑著說：「看吧？我們根本不需要麵包。」
+
+## 偷吃吐司的柯基
+Our corgi, Butter, has short legs, but he is very smart. Every morning, Mom makes toast for breakfast. She puts the [[bread|garbage|weather|traffic]] on a plate on the kitchen table. One morning, the toast was gone. Mom looked at me. "Did you eat it?" "No!" I said. The next day, the same thing [[happened|baked|married|spelled]]. Then Dad set up a camera in the kitchen. The video was so funny. Butter pushed a chair to the table, climbed up, and took the toast. Then he hid under the sofa and ate it. Mom was [[surprised|wooden|national|illegal]] and a little angry. "Bread is not good for dogs," she said. So now she makes ham [[sandwiches|tickets|villages|museums]] in a closed box. Butter still waits by the table every morning. Sometimes Dad gives him a little dog cookie or some plain [[rice|homework|history|information]] in his bowl. Butter is happy, and the toast is safe.
+> 1 把吐司（麵包）放在盤子上。garbage（垃圾）、weather（天氣）、traffic（交通）都不會放在盤子上當早餐。
+> 2 the same thing happened「同樣的事又發生了」。baked（烘烤）、married（結婚）、spelled（拼字）都不能用 the same thing 當主詞來表示「發生」。
+> 3 看到狗會推椅子偷吐司，媽媽很「驚訝」surprised。wooden（木製的）、national（國家的）、illegal（違法的）都不能形容心情。
+> 4 ham sandwiches「火腿三明治」，改放進有蓋的盒子裡。tickets（票）、villages（村莊）、museums（博物館）都不能做來當早餐。
+> 5 plain rice「白飯」，放在狗碗裡。homework（功課）、history（歷史）、information（資訊）都不能放在碗裡給狗吃。
++ corgi = 柯基犬
++ toast = 吐司
++ camera = 攝影機
++ plain = 原味的、什麼都沒加的
+= 我們家的柯基犬奶油腿很短，但非常聰明。每天早上，媽媽都會烤吐司當早餐，把麵包放在廚房桌上的盤子裡。有一天早上，吐司不見了。媽媽看著我：「是你吃的嗎？」「不是我！」我說。隔天，同樣的事又發生了。於是爸爸在廚房裝了一台攝影機。影片好好笑：奶油把一張椅子推到桌邊，爬上去叼走吐司，然後躲到沙發底下吃掉了。媽媽很驚訝，也有點生氣。「麵包對狗不好。」她說。所以現在她都把火腿三明治做好放進有蓋的盒子裡。奶油還是每天早上守在桌邊。有時候爸爸會給牠一塊狗餅乾，或在牠的碗裡放一點白飯。奶油很開心，吐司也安全了。
+
+## 國王的最後一塊麵包
+Long ago, a rich king got lost in a forest. For three days, he had no food. On the fourth day, he met an old woman outside a small house. She had only one piece of [[bread|garbage|weather|traffic]] left, but she gave it to him. The king ate it and felt much better. "Why did you give me your last food?" he asked. "Because you were [[hungry|wooden|national|illegal]]," she answered. The king went back to his castle. He sent soldiers to find the old woman, and they [[brought|spelled|married|baked]] her to the palace. At dinner, there was a great table of food: roast chicken, fish, [[rice|homework|history|information]] cakes, and hot [[dumplings|tickets|pockets|villages]]. "All this is for you," the king said. The old woman smiled. "Thank you. But please give some to the poor people in your country, too." From that day on, the king gave free bread to every hungry family in his land.
+> 1 a piece of bread「一塊麵包」，是她剩下的最後一點食物。garbage（垃圾）、weather（天氣）、traffic（交通）都不能送人吃。
+> 2 因為你很「餓」hungry，前面說國王三天沒吃東西。wooden（木製的）、national（國家的）、illegal（違法的）都不能形容人的狀態。
+> 3 bring + 人 + to…「把某人帶到…」，bring 的過去式 brought。spelled、married、baked 都不能這樣用。
+> 4 rice cakes「年糕、米糕」，是桌上的食物之一。homework（功課）、history（歷史）、information（資訊）都不能做成糕來吃。
+> 5 hot dumplings「熱騰騰的餃子」。tickets（票）、pockets（口袋）、villages（村莊）都不能放在餐桌上吃。
++ forest = 森林
++ soldier = 士兵
++ palace = 宮殿
++ roast = 烤的
+= 很久以前，一位富有的國王在森林裡迷了路，三天都沒有東西吃。第四天，他在一間小屋外遇到一位老婆婆。她只剩下最後一塊麵包，卻把它給了國王。國王吃完後覺得好多了。「你為什麼把最後的食物給我？」他問。「因為你餓了。」她回答。國王回到城堡後，派士兵去找那位老婆婆，把她帶到了宮殿。晚餐時，桌上擺滿了豐盛的食物：烤雞、魚、年糕，還有熱騰騰的餃子。「這些全都是給你的。」國王說。老婆婆笑著說：「謝謝您。但也請分一些給您國家裡的窮人。」從那天起，國王送免費的麵包給國內每一個挨餓的家庭。
+
+## 日本朋友第一次吃飯糰
+Yuki is my pen pal from Japan. Last month, she came to Taiwan to visit me. On her first morning, I took her to a breakfast shop near my house. She saw something on the menu and laughed. "Rice balls? We have those in Japan too!" But when the Taiwanese rice ball came, she was [[surprised|wooden|national|illegal]]. It was much bigger than a Japanese one. It was made of sticky [[rice|homework|history|garbage]], and inside there were fried dough, pork floss, and egg. "This is like a whole meal!" she said. She also tried a fried egg [[sandwich|ticket|village|museum]] and drank soy milk. Before she left Taiwan, she wanted to learn how to make a Taiwanese rice ball. So my mom [[taught|baked|married|spelled]] her. Now Yuki makes them for her family in Tokyo. Her little brother says they are better than [[noodles|tickets|offices|seasons]] or anything else for breakfast.
+> 1 沒想到台灣飯糰比日本的大很多，Yuki 很「驚訝」surprised。wooden（木製的）、national（國家的）、illegal（違法的）都不能形容心情。
+> 2 sticky rice「糯米」，用來做飯糰。homework（功課）、history（歷史）、garbage（垃圾）都不能做飯糰。
+> 3 a fried egg sandwich「荷包蛋三明治」，早餐店的餐點。ticket（票）、village（村莊）、museum（博物館）都不能吃。
+> 4 teach + 人「教某人」，teach 的過去式 taught：媽媽教她做飯糰。baked、married、spelled 接 her 都不合語意。
+> 5 better than noodles「比麵還好吃」，拿來和其他早餐比較。tickets（票）、offices（辦公室）、seasons（季節）都不能當早餐。
++ pen pal = 筆友
++ sticky rice = 糯米
++ fried dough = 油條
++ pork floss = 肉鬆
++ soy milk = 豆漿
+= Yuki 是我的日本筆友，上個月她來台灣找我。她到的第一個早上，我帶她去我家附近的早餐店。她看到菜單上的東西就笑了：「飯糰？日本也有耶！」但台灣的飯糰送來時，她非常驚訝，因為它比日本的大很多。它是用糯米做的，裡面包了油條、肉鬆和蛋。「這就像一整餐！」她說。她也試了荷包蛋三明治，還喝了豆漿。離開台灣前，她想學怎麼做台灣飯糰，於是我媽媽教了她。現在 Yuki 在東京做給家人吃，她弟弟說這比麵或任何其他早餐都好吃。
+
+## 忘了加水的電鍋
+Every Taiwanese family has a rice cooker. My grandma says it is the most useful thing in the kitchen. Last Sunday, my parents went out, and I [[decided|baked|married|borrowed]] to cook lunch by myself. I put two cups of [[rice|homework|history|information]] into the pot and pushed the button. Then I went to play video games. Forty minutes later, I smelled something strange. I ran into the kitchen. The rice was black and hard! I forgot to put water in it. I was so [[upset|wooden|national|illegal]] that I almost cried. Then my grandma came in. She did not get angry. She just opened the fridge and took out some frozen [[dumplings|tickets|villages|pockets]]. "We'll eat these today," she said. "And tomorrow, I'll teach you the right way." We also had toast and made peanut butter [[sandwiches|tickets|offices|museums]]. That was a very strange lunch, but I learned an important lesson: always check the water!
+> 1 decide to + 原形動詞「決定做…」。baked、married、borrowed 後面都不能接 to cook。
+> 2 two cups of rice「兩杯米」，放進電鍋裡煮。homework（功課）、history（歷史）、information（資訊）都不能放進鍋子裡煮。
+> 3 so upset that…「難過到…」：飯燒焦了，難過得快哭了。wooden（木製的）、national（國家的）、illegal（違法的）都不能形容心情。
+> 4 frozen dumplings「冷凍水餃」，從冰箱拿出來。tickets（票）、villages（村莊）、pockets（口袋）都不會放在冰箱裡當午餐。
+> 5 peanut butter sandwiches「花生醬三明治」，用吐司做。tickets（票）、offices（辦公室）、museums（博物館）都不能用吐司做。
++ rice cooker = 電鍋
++ button = 按鈕
++ peanut butter = 花生醬
++ lesson = 教訓
+= 每個台灣家庭都有一台電鍋，我奶奶說那是廚房裡最好用的東西。上星期天，爸媽出門了，我決定自己煮午餐。我把兩杯米放進內鍋，按下按鈕，然後就去打電動了。四十分鐘後，我聞到一股怪味，跑進廚房一看，飯又黑又硬！我忘了加水。我難過得差點哭出來。這時奶奶走進來，她沒有生氣，只是打開冰箱，拿出一些冷凍水餃。「我們今天吃這個，」她說，「明天我再教你正確的煮法。」我們還用吐司做了花生醬三明治。那是一頓很奇怪的午餐，但我學到了一個重要的教訓：一定要檢查有沒有加水！
+
+## 麵包超人的臉
+In a small town, there lived a hero named Anpanman. His head was made of sweet [[bread|garbage|weather|traffic]] with red bean inside. Every time he saw a hungry child, he gave away a piece of his face. One day, he met a little girl who was crying in the rain. She had not eaten all day. Anpanman gave her half of his head. She ate it and smiled. But now Anpanman was [[weak|wooden|national|illegal]]. Without his whole face, he could not fly well. Just then, the bad guy, Baikinman, attacked the town. Anpanman tried to fight, but he fell down. Luckily, Uncle Jam heard the noise. He [[baked|married|spelled|borrowed]] a new head for Anpanman as fast as he could. "Here you go!" he shouted. With his new face, Anpanman was strong again. He sent Baikinman flying away. That night, everyone in town ate [[rice|homework|history|information]] and hot [[noodles|tickets|villages|seasons]] together to thank him.
+> 1 sweet bread with red bean inside「紅豆甜麵包」，麵包超人的頭是麵包做的。garbage（垃圾）、weather（天氣）、traffic（交通）都不能包紅豆。
+> 2 把半個頭送人後，他變得很「虛弱」weak，飛不好。wooden（木製的）、national（國家的）、illegal（違法的）都不能形容身體狀態。
+> 3 bake a new head「烤一個新的頭」，果醬爺爺是麵包師傅。married（結婚）、spelled（拼字）、borrowed（借）接 a new head 意思都不通。
+> 4 eat rice「吃飯」，全鎮一起吃飯感謝他。homework（功課）、history（歷史）、information（資訊）都不能吃。
+> 5 hot noodles「熱湯麵」。tickets（票）、villages（村莊）、seasons（季節）都不能吃。
++ Anpanman = 麵包超人
++ red bean = 紅豆
++ Baikinman = 細菌人
++ Uncle Jam = 果醬爺爺
+= 在一個小鎮裡，住著一位叫麵包超人的英雄。他的頭是用包著紅豆的甜麵包做的。每次看到肚子餓的孩子，他就會送出一塊自己的臉。有一天，他遇到一個在雨中哭泣的小女孩，她一整天都沒吃東西。麵包超人把半個頭給了她。她吃完就笑了。但現在麵包超人變得很虛弱，少了完整的臉，他飛不好。就在這時，壞蛋細菌人攻擊小鎮。麵包超人想要對抗，卻跌倒了。幸好果醬爺爺聽到了聲音，用最快的速度幫麵包超人烤了一個新的頭。「拿去吧！」他大喊。有了新的臉，麵包超人又變強了，一拳把細菌人打飛。那天晚上，鎮上的人一起吃飯、吃熱湯麵來感謝他。
+
+## 捷運上的長棍麵包
+Last Saturday, Mom asked me to buy a long French [[bread|garbage|weather|traffic]] for my grandpa's birthday party. The bakery was far away, so I took the MRT. The bread was almost one meter long! It did not fit in my bag, so I held it in my arms. The train was [[crowded|wooden|national|delicious]], and people kept looking at me. A little boy pointed at it and said, "Is that a sword?" Everyone laughed. Then the train stopped suddenly, and the end of my bread hit a man's head. "I'm so sorry!" I said. Luckily, the man was not angry. "It smells great," he said. "Are you making [[sandwiches|tickets|villages|museums]]?" "Yes, for a party," I answered. When I got off the train, I [[noticed|baked|married|spelled]] that the end of the bread was gone. The little boy had eaten it! His mother said sorry again and again, and she gave me a box of [[dumplings|tickets|pockets|offices]] she had just bought. At the party, everyone loved the food, and they loved my story even more.
+> 1 a French bread「一條法國麵包（長棍麵包）」，後面說它快一公尺長。garbage（垃圾）、weather（天氣）、traffic（交通）都不能去麵包店買。
+> 2 車廂很「擠」crowded，大家都盯著我看。wooden（木製的）、national（國家的）、delicious（好吃的）都不能形容擠滿人的捷運。
+> 3 make sandwiches「做三明治」，用長棍麵包來做。tickets（票）、villages（村莊）、museums（博物館）都不能用麵包做。
+> 4 notice that…「注意到…」：下車時發現麵包的尾端不見了。baked（烘烤）、married（結婚）、spelled（拼字）都不能接 that 子句。
+> 5 a box of dumplings「一盒水餃」，拿來賠給我。tickets（票）、pockets（口袋）、offices（辦公室）都不能在派對上吃。
++ bakery = 麵包店
++ MRT = 捷運
++ meter = 公尺
++ sword = 劍
+= 上星期六，媽媽要我去買一條長長的法國麵包，給爺爺的生日派對用。麵包店很遠，所以我搭捷運去。那條麵包快一公尺長！我的包包裝不下，只好抱在懷裡。車廂很擠，大家一直盯著我看。一個小男孩指著它說：「那是一把劍嗎？」大家都笑了。接著列車突然停下，麵包的尾端打到了一位先生的頭。「真的很對不起！」我說。幸好那位先生沒有生氣：「好香喔，你要做三明治嗎？」「對，派對要用的。」我回答。下車時，我發現麵包的尾端不見了——是那個小男孩吃掉的！他媽媽一直跟我道歉，還把剛買的一盒水餃送給我。派對上，大家都很喜歡這些食物，更喜歡我的故事。
+
+## 交換午餐
+Sam is a new student from the United States. Every day, he brings the same lunch to school: a peanut butter [[sandwich|ticket|village|museum]] and an apple. My lunch box always has [[rice|homework|history|information]], some vegetables, and meat. One day, Sam looked at my lunch and asked, "What is that? It smells so good." "It's my mom's braised pork," I said. "Do you want to try it?" Sam took a bite and [[shouted|baked|married|spelled]], "This is amazing!" So we made a deal. Every Friday, we would change lunches. The next Friday, I ate his sandwich, and he ate my mom's fried [[noodles|tickets|villages|offices]]. He loved them. The Friday after that, my mom made pork [[dumplings|pockets|uniforms|seasons]] for both of us. Now Sam's mom is learning to cook Taiwanese food, and my mom is learning to make sandwiches. Our lunch deal is making two families friends.
+> 1 a peanut butter sandwich「花生醬三明治」，是他的午餐。ticket（票）、village（村莊）、museum（博物館）都不能帶來當午餐。
+> 2 便當盒裡有「飯」rice、蔬菜和肉。homework（功課）、history（歷史）、information（資訊）都不會裝在便當裡。
+> 3 shout「大叫」，後面接說話的內容。baked（烘烤）、married（結婚）、spelled（拼字）都不能用來引出說的話。
+> 4 fried noodles「炒麵」，前面說 he ate，後面說 He loved them。tickets（票）、villages（村莊）、offices（辦公室）都不能吃。
+> 5 pork dumplings「豬肉水餃」，媽媽做給兩個人吃。pockets（口袋）、uniforms（制服）、seasons（季節）都不能做來吃。
++ peanut butter = 花生醬
++ braised pork = 滷肉
++ deal = 約定、交易
++ amazing = 太棒了
+= Sam 是從美國來的新同學，他每天帶來學校的午餐都一樣：一個花生醬三明治和一顆蘋果。我的便當裡總是有飯、一些蔬菜和肉。有一天，Sam 看著我的午餐問：「那是什麼？聞起來好香。」「是我媽媽做的滷肉，」我說，「你要吃吃看嗎？」Sam 咬了一口，大叫：「這太好吃了！」於是我們做了一個約定：每個星期五交換午餐。下個星期五，我吃他的三明治，他吃我媽媽做的炒麵，他超愛的。再下一個星期五，我媽媽做了豬肉水餃給我們兩個人吃。現在 Sam 的媽媽在學做台灣菜，我媽媽在學做三明治。我們的午餐約定讓兩個家庭變成了朋友。
