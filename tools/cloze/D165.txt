@@ -335,11 +335,11 @@ A small bookstore opened [[near|fast|sharp|heavy]] my house last month. It has a
 = 上個月，我家附近開了一間小書店。店裡有一隻叫豆腐的胖橘貓，牠整天都睡在書上。有一天下午，我走進書店想買一本漫畫，結果豆腐就睡在我要的那本書上！我不想吵醒牠，只好等。等了又等，三十分鐘後牠還是一動也不動。老闆笑著說：「跟你說個條件：你唸個故事給牠聽，牠就會起來。」於是我坐下來，大聲唸了一頁。豆腐睜開眼睛，伸了個懶腰，然後走開了。我買下那本書，只要 120 元。現在我每週都去那間書店。我一進門，豆腐就會跟著我走到閱讀區，等著聽牠的故事。
 
 ## 打不開的寶箱
-In my favorite phone game, there is a treasure chest in a secret cave. To open it, you must [[enter|appear|cost|deal]] a four-number code. I tried for a whole week, but I couldn't find the right code. Then one day, a strange old man [[appeared|broke|cost|dealt]] in the game. "The answer is in the stars," he said, and then he was gone. I looked up at the night sky in the game. The stars were in the shape of numbers: 7, 2, 4, 9! I typed them in as [[fast|near|sharp|heavy]] as I could. The chest opened, and inside was a [[sharp|fast|near|late]] golden sword. With this sword, I beat the final boss easily. But now the game feels too easy, and I'm a little bored. Maybe a little [[trouble|vacation|deal|cost]] makes a game more fun.
+In my favorite phone game, there is a treasure chest in a secret cave. To open it, you must [[enter|appear|cost|deal]] a four-number code. I tried for a whole week, but I couldn't find the right code. Then one day, a strange old man [[appeared|broke|cost|dealt]] in the game. "The answer is in the stars," he said, and then he was gone. I looked up at the night sky in the game. The stars were in the shape of numbers: 7, 2, 4, 9! I typed them in as [[fast|near|sharp|heavy]] as I could. The chest opened, and inside was a [[sharp|busy|near|late]] golden sword. With this sword, I beat the final boss easily. But now the game feels too easy, and I'm a little bored. Maybe a little [[trouble|vacation|deal|cost]] makes a game more fun.
 > 1 enter a code「輸入密碼」。appear 後面不能直接接受詞，cost、deal 意思不通。
 > 2 appear「出現」：遊戲裡出現一位奇怪的老人。broke、cost、dealt 都不能表示人物出現。
 > 3 as fast as I could「用最快的速度」。near、sharp、heavy 都不能形容打字的速度。
-> 4 a sharp sword「一把鋒利的劍」。fast、near、late 都不能形容劍。
+> 4 a sharp sword「一把鋒利的劍」。busy（忙碌的）、near（近的）、late（遲的）都不能用來形容一把劍。
 > 5 a little trouble「一點麻煩、一點困難」：有點困難遊戲才好玩。vacation、deal、cost 放在這裡意思不通。
 + treasure chest = 寶箱
 + cave = 山洞
