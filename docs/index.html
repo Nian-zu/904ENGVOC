@@ -197,6 +197,7 @@ input[type=text]{flex:1;min-width:200px}
 #tbStat.try{color:#9a6700}
 .taskban.done{border-color:var(--ok);background:#e9f7ee}
 .pinmsg{font-weight:900;font-size:.92rem}
+#sname[readonly]{background:transparent;border-color:transparent;font-weight:900;padding-left:2px}
 .pinmsg.ok{color:var(--ok)}
 .pinmsg.bad{color:var(--bad,#c0392b)}
 .linkbtn{background:none;border:0;padding:0 4px;color:inherit;text-decoration:underline;cursor:pointer;font:inherit}
@@ -217,7 +218,7 @@ input[type=text]{flex:1;min-width:200px}
     <div class="label">學生資料</div>
     <div class="row">
       <label for="seat">座號</label><select id="seat"><option value="">請選擇</option></select>
-      <label for="sname">姓名</label><input type="text" id="sname" maxlength="20" placeholder="請輸入姓名" style="min-width:140px;flex:0 1 180px">
+      <label for="sname">姓名</label><input type="text" id="sname" maxlength="20" readonly placeholder="選座號後自動帶入" style="min-width:140px;flex:0 1 180px">
       <label for="spin">密碼</label><input type="password" id="spin" maxlength="30" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="校務帳號" style="min-width:130px;flex:0 1 170px"><span id="pinMsg" class="pinmsg"></span>
     </div>
     <div class="hint">密碼就是你的校務帳號（例如 ntpc12345），輸入完按 Enter。交卷後成績會自動上傳給老師。這台裝置會記住你的座號和密碼，和別人共用的電腦考完請按「換人」。<button type="button" class="linkbtn" id="logoutBtn">換人</button></div>
@@ -897,7 +898,21 @@ $('spin').oninput = () => { PIN_OK = false; update(); pinMsg(''); clearTimeout(p
 $('spin').onchange = () => { clearTimeout(pinTimer); if (!PIN_OK) checkPin(); };
 $('spin').onkeydown = e => { if (e.key === 'Enter') { clearTimeout(pinTimer); checkPin(); } };
 $('logoutBtn').onclick = () => { $('seat').value = ''; $('sname').value = ''; $('spin').value = ''; PIN_OK = false; pinMsg(''); try { localStorage.removeItem('student'); } catch (e) {} $('taskBan').classList.add('hidden'); update(); if (typeof drawBoard === 'function') drawBoard(); };
-$('seat').onchange = () => { $('spin').value = ''; PIN_OK = false; pinMsg(''); setTimeout(loadTodayTask, 0); const t = TEACHERS[$('seat').value]; if (t) $('sname').value = t; else if (Object.values(TEACHERS).includes($('sname').value.trim())) $('sname').value = ''; saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
+// 選座號就從「名單」帶入名字；名單上沒有的座號（30 號測試）才自己輸入
+async function fillName(){
+  const seat = $('seat').value;
+  if (!seat) { $('sname').value = ''; $('sname').readOnly = true; return; }
+  if (TEACHERS[seat]) { $('sname').value = TEACHERS[seat]; $('sname').readOnly = true; return; }
+  $('sname').value = ''; $('sname').placeholder = '讀取中…'; update();
+  try {
+    const j = await fetch(SHEET_URL + '?action=who&seat=' + seat).then(r => r.json());
+    if (seat !== $('seat').value) return;
+    $('sname').value = j.given || ''; $('sname').readOnly = !!j.given;
+  } catch (e) { $('sname').readOnly = false; }
+  $('sname').placeholder = $('sname').readOnly ? '選座號後自動帶入' : '請輸入姓名';
+  saveStudent(); update();
+}
+$('seat').onchange = () => { $('spin').value = ''; PIN_OK = false; pinMsg(''); fillName(); setTimeout(loadTodayTask, 0); saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('sname').oninput = () => { saveStudent(); update(); };
 
 // Google Apps Script 網頁應用程式網址（部署後貼在這裡）
@@ -1011,6 +1026,7 @@ fetch('bank.json').then(r => r.json()).then(d => {
   DATA = d; GL = d.gl || {};
   setTimeout(loadTodayTask, 0);
   if ($('spin').value) checkPin();
+  if ($('seat').value) fillName();
   window.byDay = DATA.days;
   N = DATA.labels.length;
   const t = todayIdx();
