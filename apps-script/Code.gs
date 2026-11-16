@@ -655,14 +655,14 @@ function roster_() {
   return ROSTER_;
 }
 
-// 個人密碼檢查；同一個座號 10 分鐘內錯 8 次就暫時鎖住（防止亂猜）
+// 個人密碼檢查（不分大小寫）；同一個座號 10 分鐘內錯 15 次就暫時鎖住（防止亂猜）
 function checkPin_(seat, pin) {
   roster_();
   const want = PINS_[seat];
   if (!want) return { ok: true };
   const cache = CacheService.getScriptCache(), k = 'pinfail-' + seat, fails = parseInt(cache.get(k) || '0', 10);
-  if (fails >= 8) return { ok: false, error: '密碼錯太多次，請 10 分鐘後再試，或找老師幫忙。' };
-  if (String(pin == null ? '' : pin).trim() === want) return { ok: true };
+  if (fails >= 15) return { ok: false, error: '密碼錯太多次，請 10 分鐘後再試，或找老師幫忙。' };
+  if (String(pin == null ? '' : pin).trim().toLowerCase() === want.toLowerCase()) return { ok: true };
   cache.put(k, String(fails + 1), 600);
   return { ok: false, error: pin ? '個人密碼不正確，請再確認一次。' : '請輸入個人密碼。' };
 }

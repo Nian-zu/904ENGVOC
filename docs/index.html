@@ -218,9 +218,9 @@ input[type=text]{flex:1;min-width:200px}
     <div class="row">
       <label for="seat">座號</label><select id="seat"><option value="">請選擇</option></select>
       <label for="sname">姓名</label><input type="text" id="sname" maxlength="20" placeholder="請輸入姓名" style="min-width:140px;flex:0 1 180px">
-      <label for="spin">個人密碼</label><input type="password" id="spin" inputmode="numeric" maxlength="8" autocomplete="off" placeholder="4 位數字" style="min-width:110px;flex:0 1 130px;letter-spacing:.15em"><span id="pinMsg" class="pinmsg"></span>
+      <label for="spin">密碼</label><input type="password" id="spin" maxlength="30" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="校務帳號" style="min-width:130px;flex:0 1 170px"><span id="pinMsg" class="pinmsg"></span>
     </div>
-    <div class="hint">個人密碼在老師發的小紙條上，不要給別人。交卷後成績會自動上傳給老師。這台裝置會記住你的座號和密碼，和別人共用的電腦考完請按「換人」。<button type="button" class="linkbtn" id="logoutBtn">換人</button></div>
+    <div class="hint">密碼就是你的校務帳號（例如 ntpc12345），輸入完按 Enter。交卷後成績會自動上傳給老師。這台裝置會記住你的座號和密碼，和別人共用的電腦考完請按「換人」。<button type="button" class="linkbtn" id="logoutBtn">換人</button></div>
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
@@ -457,7 +457,7 @@ function update(){
   $('countLbl').textContent = msg;
   const who = $('seat').value && $('sname').value.trim() && PIN_OK;
   $('startBtn').disabled = n === 0 || !who;
-  $('startBtn').textContent = who ? '開始測驗' : '請先填座號和個人密碼';
+  $('startBtn').textContent = who ? '開始測驗' : '請先填座號和密碼';
 }
 function setMode(m){
   mode = m;
@@ -892,8 +892,10 @@ async function checkPin(){
   } catch (e) { if (my === pinSeq) { PIN_OK = true; pinMsg(''); } }   // 網路不穩時先讓他考，交卷時伺服器會再檢查
   saveStudent(); update();
 }
-$('spin').oninput = () => { PIN_OK = false; update(); const v = $('spin').value.trim(); if (v.length >= 4) checkPin(); else pinMsg(''); };
-$('spin').onkeydown = e => { if (e.key === 'Enter') checkPin(); };
+let pinTimer = null;
+$('spin').oninput = () => { PIN_OK = false; update(); pinMsg(''); clearTimeout(pinTimer); if ($('spin').value.trim().length >= 5) pinTimer = setTimeout(checkPin, 1200); };
+$('spin').onchange = () => { clearTimeout(pinTimer); if (!PIN_OK) checkPin(); };
+$('spin').onkeydown = e => { if (e.key === 'Enter') { clearTimeout(pinTimer); checkPin(); } };
 $('logoutBtn').onclick = () => { $('seat').value = ''; $('sname').value = ''; $('spin').value = ''; PIN_OK = false; pinMsg(''); try { localStorage.removeItem('student'); } catch (e) {} $('taskBan').classList.add('hidden'); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('seat').onchange = () => { $('spin').value = ''; PIN_OK = false; pinMsg(''); setTimeout(loadTodayTask, 0); const t = TEACHERS[$('seat').value]; if (t) $('sname').value = t; else if (Object.values(TEACHERS).includes($('sname').value.trim())) $('sname').value = ''; saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('sname').oninput = () => { saveStudent(); update(); };
