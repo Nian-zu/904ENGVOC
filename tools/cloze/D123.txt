@@ -66,11 +66,11 @@ Last summer, my dad bought a box of [[chocolate|garbage|weather|homework]] for G
 = 去年夏天，爸爸買了一盒巧克力要送奶奶當生日禮物。我們去逛街時，他把巧克力留在車上。一個小時後回來，車裡熱得像烤箱。爸爸打開盒子，所有巧克力都融成了咖啡色的湯，他看起來非常難過。我妹妹很喜歡自然科學，她說：「巧克力大約 34 度就會開始融化，所以它在嘴裡也會融化。」為了救回禮物，我們把盒子放進冰箱。巧克力又變硬了，但看起來很醜。奶奶只是笑著說：「味道還是很好啊。」她用這些巧克力做了一道巧克力甜點給大家吃。奶奶下一次生日，爸爸改買餅乾，因為餅乾不會融化。
 
 ## 偷吃巧克力的狗
-Last Christmas, someone gave our family a big box of [[chocolate|homework|traffic|weather]]. Mom put it on the table and went out. When she came home, the box was on the floor, and it was empty. Our dog, Coffee, was lying next to it. Mom was very [[worried|wooden|cheap|thick]] because chocolate is dangerous for dogs. She [[called|spelled|married|boiled]] the vet right away, and we took Coffee to the animal hospital. The vet gave him some medicine, and luckily he was fine the next day. The vet told us, "Never give dogs chocolate or [[candy|weather|garbage|traffic]]. If you want to give him a [[snack|museum|village|factory]], buy dog cookies." Now we keep all our sweets in a high cupboard, and Coffee only eats his own cookies.
+Last Christmas, someone gave our family a big box of [[chocolate|homework|traffic|weather]]. Mom put it on the table and went out. When she came home, the box was on the floor, and it was empty. Our dog, Coffee, was lying next to it. Mom was very [[worried|wooden|cheap|thick]] because chocolate is dangerous for dogs. She [[called|spelled|married|boiled]] the vet right away, and we took Coffee to the animal hospital. The vet gave him some medicine, and luckily he was fine the next day. The vet told us, "Never give dogs chocolate or [[candy|weather|homework|traffic]]. If you want to give him a [[snack|museum|village|factory]], buy dog cookies." Now we keep all our sweets in a high cupboard, and Coffee only eats his own cookies.
 > 1 a big box of chocolate「一大盒巧克力」，後面說巧克力對狗很危險。homework（功課）、traffic（交通）、weather（天氣）都不能裝盒送人。
 > 2 巧克力對狗很危險，所以媽媽很擔心 worried。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能形容心情。
 > 3 called the vet「打電話給獸醫」。spelled（拼字）、married（結婚）、boiled（煮沸）都不能接 the vet 表示求助。
-> 4 不能給狗吃巧克力或糖果 candy。weather（天氣）、garbage（垃圾）、traffic（交通）都不是人會拿來餵狗的東西。
+> 4 不能給狗吃巧克力或糖果 candy。weather（天氣）、homework（功課）、traffic（交通）都不能吃，也不能拿去餵狗。
 > 5 想給牠點心 snack，就買狗餅乾。museum（博物館）、village（村莊）、factory（工廠）都不能給狗吃。
 + vet = 獸醫
 + animal hospital = 動物醫院
@@ -268,4 +268,141 @@ On our class trip to Kenting, everyone brought [[snacks|offices|villages|museums
 + tofu = 豆腐
 + seaweed = 海苔
 = 我們班去墾丁校外教學時，每個人都帶了零食在長途遊覽車上吃。老師說：「我們來交換零食吧！」我帶了奶奶店裡的花生糖，朋友 Sam 帶了辣豆干，Lisa 帶了韓國海苔脆片。我們把帶的東西分給大家，我吃到了五樣新零食。接著，老師拿出一大包巧克力說：「第一個答對我問題的人可以拿一塊！」她問了一些英文單字和歷史題，大家同時大喊答案，整台車變得超級吵。司機笑著說，這是他載過最吵的一班。
+
+## 科展的巧克力印表機
+At the science fair this year, the most popular booth had a 3D printer that could print [[chocolate|homework|traffic|weather]]. First, you drew a picture on a tablet. Then the machine used warm chocolate to print your picture, one thin layer at a time. Each one took about ten minutes, so visitors had to [[wait|spell|marry|boil]] in a long line. My friend drew a cat, and I drew Taipei 101. Mine broke in the middle, but it still tasted great. The student who built the machine said the most [[difficult|honest|polite|lazy]] part was keeping the chocolate at the right temperature. "Next year, I want to print [[cookies|garbage|traffic|weather]] and other [[desserts|offices|villages|uniforms]], too," she said. Everyone hopes she will bring the machine again.
+> 1 能印出巧克力 chocolate 的 3D 印表機，後面說用溫熱的巧克力印圖。homework（功課）、traffic（交通）、weather（天氣）都不能印出來吃。
+> 2 每個要印十分鐘，所以要排隊等 wait。spell（拼字）、marry（結婚）、boil（煮沸）都不是排隊時做的事。
+> 3 最困難 difficult 的部分是控制巧克力的溫度。honest（誠實的）、polite（有禮貌的）、lazy（懶惰的）都是形容人的，不能形容一件工作。
+> 4 明年想印餅乾 cookies，後面說 other desserts「其他甜點」，表示前面也是甜點。garbage（垃圾）、traffic（交通）、weather（天氣）都不是甜點，也不能印出來。
+> 5 other desserts「其他甜點」。offices（辦公室）、villages（村莊）、uniforms（制服）都不能用這台機器印出來。
++ science fair = 科展
++ booth = 攤位
++ tablet = 平板電腦
++ layer = 一層
++ temperature = 溫度
+= 今年的科展上，最受歡迎的攤位有一台能印巧克力的 3D 印表機。你先在平板上畫一張圖，機器就會用溫熱的巧克力，一層一層薄薄地把你的圖印出來。每一個大約要印十分鐘，所以參觀的人得排長長的隊等待。我朋友畫了一隻貓，我畫了台北 101。我的從中間斷掉了，但還是很好吃。做這台機器的學生說，最困難的部分是讓巧克力保持在剛好的溫度。「明年我還想印餅乾和其他甜點。」她說。大家都希望她明年再把機器帶來。
+
+## 糖果紙做的書籤
+After Chinese New Year, our family had a big pile of colorful [[candy|homework|weather|traffic]] wrappers. Usually, we just throw them away. But this year, my art teacher taught us not to [[waste|spell|marry|boil]] them. At home, I washed the wrappers, cut them into small pieces, and glued them onto hard paper to make bookmarks. I also used the gold paper from [[chocolate|homework|traffic|weather]] coins to make little stars. When I finished, my bookmarks looked so [[beautiful|lazy|rude|honest]] that my mom wanted one for herself. I made ten in all and put them in an old [[cookie|ticket|letter|bill]] tin. On the first day of school, I gave them to my classmates. Now everyone in my class is saving wrappers, too.
+> 1 candy wrappers「糖果包裝紙」，過年吃完糖剩下一大堆。homework（功課）、weather（天氣）、traffic（交通）都不能和 wrappers 組成包裝紙。
+> 2 not to waste them「不要浪費它們」，所以拿來做書籤。spell（拼字）、marry（結婚）、boil（煮沸）都和回收再利用無關。
+> 3 巧克力金幣 chocolate coins 的金色包裝紙。homework（功課）、traffic（交通）、weather（天氣）都不能做成金幣。
+> 4 書籤看起來很漂亮 beautiful，連媽媽都想要一張。lazy（懶惰的）、rude（無禮的）、honest（誠實的）都是形容人的，不能形容書籤。
+> 5 a cookie tin「餅乾鐵盒」，用來裝書籤。ticket（票）、letter（信）、bill（帳單）都不能和 tin 組成盒子。
++ wrapper = 包裝紙
++ glue = 用膠水黏
++ bookmark = 書籤
++ in all = 總共
++ tin = 鐵盒
+= 過完年，我們家有一大堆五顏六色的糖果紙。平常我們都直接丟掉，但今年美術老師教我們不要浪費它們。回到家，我把糖果紙洗乾淨，剪成小片，黏在硬紙板上做成書籤。我還用巧克力金幣的金色包裝紙做了小星星。做好之後，書籤漂亮到連媽媽都想要一張。我總共做了十張，裝在一個舊餅乾鐵盒裡。開學第一天，我把書籤送給同學。現在我們全班都在收集糖果紙了。
+
+## 生病時的零食禁令
+Last week, I got the flu. I had a high fever, and my throat was very [[sore|honest|polite|lazy]]. The doctor told me to rest, drink lots of water, and stay away from sweets. "No [[candy|homework|weather|traffic]], no soda, and no fried food," he said. That was terrible news, because I had just bought a big bag of [[snacks|offices|villages|museums]] for the weekend. For three days, I ate only rice porridge. My mom put my snack bag on the top shelf so I couldn't reach it. On the fourth day, I felt much better, and Mom said I could have one [[cookie|ticket|letter|bill]]. It was the most delicious cookie I've ever eaten! Now that I'm [[healthy|wooden|cheap|thick]] again, I've decided to eat fewer sweets, so I won't get sick so easily.
+> 1 throat was sore「喉嚨痛」。honest（誠實的）、polite（有禮貌的）、lazy（懶惰的）都不能形容喉嚨。
+> 2 醫生說不能吃糖果 candy、汽水和炸的東西。homework（功課）、weather（天氣）、traffic（交通）都不是醫生會禁止吃的東西。
+> 3 剛買了一大袋零食 snacks，後面說媽媽把零食袋放到最高的架子。offices（辦公室）、villages（村莊）、museums（博物館）都裝不進袋子。
+> 4 可以吃一片餅乾 cookie，下一句說那是最好吃的餅乾。ticket（票）、letter（信）、bill（帳單）都不能吃。
+> 5 病好了，又健康 healthy 了。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能形容身體狀況。
++ flu = 流感
++ fever = 發燒
++ porridge = 粥
++ shelf = 架子
+= 上星期我得了流感，發高燒，喉嚨也很痛。醫生叫我多休息、多喝水，還要遠離甜食。「不能吃糖果、不能喝汽水，也不能吃炸的東西。」他說。這真是個壞消息，因為我才剛買了一大袋零食要週末吃。整整三天，我只吃白粥。媽媽把我的零食袋放到最高的架子上，讓我拿不到。第四天，我好多了，媽媽說我可以吃一片餅乾。那是我吃過最好吃的餅乾！現在我又恢復健康了，我決定少吃一點甜食，這樣才不容易生病。
+
+## 奶奶的過年糖果盒
+Every Chinese New Year, my grandma puts a big red box on the living room table. It has eight small parts, and each part is full of [[candy|homework|traffic|weather]], nuts, or dried fruit. My favorite part has gold [[chocolate|garbage|weather|traffic]] coins in it. Grandma says the box brings good luck for the new year. When our relatives [[arrive|spell|marry|boil]], they each take a sweet and say lucky words like "Gong Xi Fa Cai!" This year, my little cousin ate all the chocolate coins on the first day. Grandma wasn't angry. She just laughed and filled the box again with [[cookies|tickets|letters|bills]] and other [[snacks|offices|museums|uniforms]]. "The box must never be empty during New Year," she said. "An empty box means an empty year."
+> 1 盒子的每一格都裝滿糖果 candy、堅果或果乾。homework（功課）、traffic（交通）、weather（天氣）都不能裝進糖果盒。
+> 2 gold chocolate coins「金色巧克力金幣」，後面說表弟把巧克力金幣都吃光了。garbage（垃圾）、weather（天氣）、traffic（交通）都不能做成金幣吃。
+> 3 親戚到了 arrive，每人拿一顆糖說吉祥話。spell（拼字）、marry（結婚）、boil（煮沸）都和「來拜年」無關。
+> 4 用餅乾 cookies 把盒子重新裝滿。tickets（票）、letters（信）、bills（帳單）都不會放在過年糖果盒裡給客人吃。
+> 5 other snacks「其他零食」。offices（辦公室）、museums（博物館）、uniforms（制服）都裝不進糖果盒。
++ relative = 親戚
++ nut = 堅果
++ coin = 硬幣
++ Gong Xi Fa Cai = 恭喜發財
++ empty = 空的
+= 每年過年，奶奶都會在客廳桌上放一個大紅盒子。盒子分成八小格，每一格都裝滿糖果、堅果或果乾。我最喜歡的那一格裝著金色的巧克力金幣。奶奶說這個盒子能為新的一年帶來好運。親戚們到了以後，每個人都會拿一顆糖，說些「恭喜發財」之類的吉祥話。今年，我的小表弟第一天就把巧克力金幣全吃光了。奶奶沒有生氣，只是笑一笑，再用餅乾和其他零食把盒子裝滿。「過年期間盒子絕對不能空，」她說，「空盒子代表空空的一年。」
+
+## 聰明的薑餅人
+Once upon a time, an old woman baked a [[cookie|ticket|letter|bill]] shaped like a little man. She called him the Gingerbread Man. When she opened the oven, he jumped out and ran away! "Run, run, as fast as you can. You can't [[catch|spell|marry|boil]] me, I'm the Gingerbread Man!" he shouted. The old woman, a cow, and a horse all ran after him, but he was too fast. Then he came to a river. He couldn't swim, so he was very [[worried|wooden|cheap|thick]]. A fox said, "Jump on my back. I'll take you across." In the old story, the fox eats him in the middle of the river. But in my story, the Gingerbread Man is smarter. He says, "Mr. Fox, I'm too small to be a good [[snack|uniform|factory|village]]. Take me across, and I'll bake you a big chocolate [[dessert|office|museum|corner]]!" So the fox helped him, and they became good friends.
+> 1 老婆婆烤了一塊人形的餅乾 cookie，就是薑餅人。ticket（票）、letter（信）、bill（帳單）都不能放進烤箱烤。
+> 2 You can't catch me.「你抓不到我。」spell（拼字）、marry（結婚）、boil（煮沸）都和「追著跑」無關。
+> 3 他不會游泳卻遇到河，所以很擔心 worried。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能形容心情。
+> 4 我太小了，當不了一份好點心 snack，意思是叫狐狸別吃他。uniform（制服）、factory（工廠）、village（村莊）都不是狐狸會吃的東西。
+> 5 a big chocolate dessert「一份大巧克力甜點」，用來報答狐狸。office（辦公室）、museum（博物館）、corner（角落）都不能「烤」出來。
++ Once upon a time = 從前從前
++ gingerbread = 薑餅
++ oven = 烤箱
++ fox = 狐狸
++ across = 橫越
+= 從前從前，有個老婆婆烤了一塊小人形狀的餅乾，她叫他薑餅人。她一打開烤箱，薑餅人就跳出來跑掉了！「跑啊跑，用你最快的速度跑。你抓不到我，我是薑餅人！」他大喊。老婆婆、一頭牛和一匹馬都在後面追，但他跑得太快了。後來他來到一條河邊。他不會游泳，所以非常擔心。一隻狐狸說：「跳到我背上，我載你過河。」在原本的故事裡，狐狸在河中間把他吃掉了。但在我的故事裡，薑餅人比較聰明。他說：「狐狸先生，我太小了，當不了一份好點心。載我過河，我就烤一個大大的巧克力甜點給你！」於是狐狸幫了他，他們成了好朋友。
+
+## 迷上消除遊戲的阿嬤
+My grandma never used a smartphone until last year. Then my cousin taught her a game where you match three [[candies|offices|villages|museums]] of the same color to make them disappear. The candies look so sweet that she always feels hungry when she plays! Now she plays it every day. She says it's good for her brain. At first, she wasn't [[confident|wooden|cheap|thick]] with the phone, but now she's on level 500, higher than all of us. Last weekend, she [[forgot|spelled|married|prayed]] to make lunch because she was playing, and Grandpa had to eat instant noodles. Grandpa said, "I'll hide your phone if you don't stop!" So Grandma made a deal with him: one hour of the game a day, and she would bake his favorite peanut [[cookies|offices|museums|villages]] every Sunday. Grandma says, "This game is like [[chocolate|garbage|weather|traffic]]. A little is good, but too much is bad for you."
+> 1 match three candies「把三顆同色的糖果連在一起」，下一句說糖果看起來很甜，讓她玩到肚子餓。offices（辦公室）、villages（村莊）、museums（博物館）都不會看起來很甜。
+> 2 一開始對手機沒有信心 not confident，現在卻玩到第 500 關。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能形容人使用手機的感覺。
+> 3 forgot to make lunch「忘了煮午餐」，所以爺爺只好吃泡麵。spelled（拼字）、married（結婚）、prayed（禱告）都不能接 to make lunch 造成這個結果。
+> 4 peanut cookies「花生餅乾」，每週日烤給爺爺。offices（辦公室）、museums（博物館）、villages（村莊）都不能烤。
+> 5 遊戲就像巧克力 chocolate，一點點很好，太多就不好。garbage（垃圾）、weather（天氣）、traffic（交通）都不是「吃一點好、吃太多不好」的東西。
++ smartphone = 智慧型手機
++ match = 配對
++ disappear = 消失
++ level = 關卡
++ deal = 約定、交易
+= 我阿嬤直到去年才開始用智慧型手機。後來表哥教她玩一款遊戲：把三顆同顏色的糖果連在一起，讓它們消失。那些糖果看起來好甜，她每次玩都會肚子餓！現在她每天都在玩。她說這對頭腦很好。一開始她對手機沒什麼信心，但現在她已經玩到第 500 關，比我們所有人都高。上週末，她玩到忘了煮午餐，阿公只好吃泡麵。阿公說：「妳再不停，我就把妳的手機藏起來！」於是阿嬤和阿公約定：一天只玩一小時，而且每個星期天都烤阿公最愛的花生餅乾給他。阿嬤說：「這個遊戲就像巧克力，吃一點很好，吃太多就對身體不好。」
+
+## 電影院裡的糖果紙聲
+Last Saturday, I went to see a new animated movie with my friends. Before it started, we bought popcorn and a bag of [[candy|homework|weather|traffic]]. The movie was very [[exciting|lazy|honest|polite]], and the theater was full. During a quiet, sad part, my friend Ben started to open his candy. The paper made a loud noise: crinkle, crinkle! Many people turned around and looked at us. Ben's face turned red. He tried to [[hide|spell|marry|boil]] the candy in his pocket, but it was too late. After the movie, a woman behind us said, "Next time, please open your [[snacks|offices|villages|museums]] before the movie starts." We said sorry. Now we always open everything before the lights go off, and Ben only brings [[chocolate|garbage|weather|traffic]] in a small box, because the box doesn't make any noise.
+> 1 a bag of candy「一包糖果」，後面 Ben 拆糖果發出聲音。homework（功課）、weather（天氣）、traffic（交通）都不能在電影院買來吃。
+> 2 電影很刺激 exciting，戲院坐滿了人。lazy（懶惰的）、honest（誠實的）、polite（有禮貌的）都是形容人的，不能形容電影。
+> 3 想把糖果藏 hide 進口袋，但來不及了。spell（拼字）、marry（結婚）、boil（煮沸）都不能接 the candy in his pocket。
+> 4 open your snacks「打開你的零食」。offices（辦公室）、villages（村莊）、museums（博物館）都不能帶進電影院打開。
+> 5 只帶一小盒巧克力 chocolate，因為盒子不會發出聲音。garbage（垃圾）、weather（天氣）、traffic（交通）都不能帶進電影院吃。
++ animated movie = 動畫電影
++ popcorn = 爆米花
++ theater = 戲院
++ crinkle = （紙的）沙沙聲
+= 上星期六，我和朋友去看一部新的動畫電影。開演前，我們買了爆米花和一包糖果。電影非常刺激，戲院也坐滿了人。在一段安靜又感人的劇情時，我朋友 Ben 開始拆糖果，包裝紙發出好大的沙沙聲！很多人都轉過頭來看我們，Ben 的臉都紅了。他想把糖果藏進口袋，但已經來不及了。電影結束後，坐在我們後面的一位小姐說：「下次請在電影開始前把零食打開。」我們跟她說對不起。現在我們都會在燈暗之前把東西打開，而且 Ben 只帶一小盒巧克力，因為盒子不會發出任何聲音。
+
+## 老師不再發糖果
+Our English teacher, Mr. Wang, used to give us a piece of [[candy|homework|traffic|weather]] every time we answered a question correctly. Everyone wanted to answer, so the class was always fun. But one day, the school nurse visited our class. She said that many students had bad teeth and were gaining too much [[weight|uniform|factory|village]]. After that, Mr. Wang stopped giving us sweets. We were very [[disappointed|wooden|cheap|thick]]. "Don't worry," he said. "I have a better idea." Now we get stickers. With ten stickers, we can choose a prize, like sitting anywhere for a day or choosing a song for class. Surprisingly, everyone likes stickers more than [[chocolate|garbage|weather|traffic]] or [[cookies|offices|villages|museums]]. Our class is even louder than before!
+> 1 答對就發一顆糖 a piece of candy，後面說老師不再發甜食。homework（功課）、traffic（交通）、weather（天氣）都不會當答對的獎勵。
+> 2 gain weight「體重增加、變胖」。uniform（制服）、factory（工廠）、village（村莊）都不能接在 gain too much 後面說身體變化。
+> 3 不再發糖果，大家很失望 disappointed。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能形容心情。
+> 4 大家喜歡貼紙勝過巧克力 chocolate，也就是以前那種甜食獎勵。garbage（垃圾）、weather（天氣）、traffic（交通）都不能拿來和獎品比較。
+> 5 也勝過餅乾 cookies，也就是以前的甜食獎勵。offices（辦公室）、villages（村莊）、museums（博物館）都不可能當成課堂上答對的獎品。
++ nurse = 護理師
++ gain = 增加
++ sticker = 貼紙
++ surprisingly = 令人驚訝地
+= 我們的英文老師王老師以前每次有人答對問題，就會發一顆糖。大家都搶著回答，所以上課總是很好玩。但有一天，學校護理師來我們班，說很多學生有蛀牙，而且體重增加太多。從那之後，王老師就不再發甜食了。我們都非常失望。「別擔心，」他說，「我有一個更好的辦法。」現在我們改拿貼紙。集滿十張貼紙，就可以挑一個獎勵，像是一天想坐哪裡就坐哪裡，或是選一首上課要聽的歌。令人驚訝的是，大家喜歡貼紙勝過巧克力或餅乾，我們班甚至比以前更熱鬧了！
+
+## 阿里山上的熱巧克力
+Last winter, my family went to Alishan to watch the sunrise. We had to get up at three in the morning to [[catch|spell|marry|boil]] the little train up the mountain. It was very cold, only two degrees, and my hands were freezing. While we waited for the sun, Dad took out a bottle and gave each of us a cup of hot [[chocolate|homework|garbage|traffic]]. It made me feel warm all over. Mom brought some [[cookies|tickets|letters|bills]] for breakfast, and my sister shared her [[candy|homework|weather|traffic]] with an old man next to us. At 6:30, the sun came up over the sea of clouds. Everyone shouted, "Wow!" The view was so [[wonderful|lazy|rude|honest]] that I forgot about the cold. It was worth getting up so early.
+> 1 catch the train「趕上火車」。spell（拼字）、marry（結婚）、boil（煮沸）都不能接 the train 表示搭車。
+> 2 a cup of hot chocolate「一杯熱巧克力」，喝了全身暖起來。homework（功課）、garbage（垃圾）、traffic（交通）都不能喝。
+> 3 帶一些餅乾 cookies 當早餐。tickets（票）、letters（信）、bills（帳單）都不能吃。
+> 4 和旁邊的老伯伯分享糖果 candy。homework（功課）、weather（天氣）、traffic（交通）都不能拿來分著吃。
+> 5 風景美到讓我忘了冷，wonderful「很棒的」。lazy（懶惰的）、rude（無禮的）、honest（誠實的）都是形容人的，不能形容風景。
++ Alishan = 阿里山
++ sunrise = 日出
++ freezing = 冰冷的
++ sea of clouds = 雲海
++ worth = 值得
+= 去年冬天，我們全家去阿里山看日出。我們凌晨三點就得起床，才趕得上上山的小火車。天氣很冷，只有兩度，我的手都凍僵了。等太陽的時候，爸爸拿出一個保溫瓶，給我們每人倒一杯熱巧克力，喝了全身都暖了起來。媽媽帶了一些餅乾當早餐，妹妹還把她的糖果分給旁邊的老伯伯。六點半，太陽從雲海上升起，大家都喊：「哇！」風景美到讓我忘了冷。這麼早起床真的很值得。
+
+## 動物園的消暑甜點
+Summer in Taipei is very hot, and the animals at the zoo feel it, too. So the zoo workers make special frozen [[desserts|offices|villages|uniforms]] for them. For the bears, they freeze fish and fruit in big blocks of ice. For the monkeys, they make ice pops with bananas and watermelon. The elephants get a giant ice [[snack|uniform|factory|village]] with apples and carrots inside. The animals lick and play with the ice for hours. It keeps them cool and stops them from feeling [[bored|honest|polite|national]]. But the zoo also has an important rule: visitors must never [[feed|spell|marry|boil]] the animals. Human food, like [[chocolate|garbage|weather|traffic]], can make them very sick. If you want to help, just watch them quietly and enjoy their icy treats from far away.
+> 1 frozen desserts「冰凍甜點」，後面介紹給熊、猴子吃的冰品。offices（辦公室）、villages（村莊）、uniforms（制服）都不能冷凍給動物吃。
+> 2 a giant ice snack「一個巨大的冰點心」，裡面有蘋果和紅蘿蔔。uniform（制服）、factory（工廠）、village（村莊）都不能讓大象吃。
+> 3 讓動物不覺得無聊 bored，因為可以玩冰塊好幾個小時。honest（誠實的）、polite（有禮貌的）、national（國家的）都不能接在 feeling 後面形容動物的感受。
+> 4 never feed the animals「絕對不要餵動物」。spell（拼字）、marry（結婚）、boil（煮沸）都不是動物園規定遊客不能做的事。
+> 5 人吃的食物像巧克力 chocolate 會讓動物生病。garbage（垃圾）、weather（天氣）、traffic（交通）都不是人的食物。
++ frozen = 冷凍的
++ freeze = 冷凍
++ ice pop = 冰棒
++ lick = 舔
++ treat = 點心、款待
+= 台北的夏天非常熱，動物園的動物也覺得熱。所以動物園的工作人員會幫牠們做特別的冰凍甜點。給熊的是把魚和水果凍在大冰塊裡；給猴子的是香蕉和西瓜做的冰棒；大象則會拿到一個巨大的冰點心，裡面包著蘋果和紅蘿蔔。動物們會舔冰塊、玩冰塊好幾個小時，這讓牠們保持涼快，也不會覺得無聊。不過動物園也有一條重要的規定：遊客絕對不能餵動物。人類的食物，像是巧克力，可能會讓牠們病得很重。如果你想幫忙，就安靜地看著牠們，從遠處欣賞牠們享用冰涼的點心吧。
 
