@@ -116,3 +116,133 @@ On Teacher's Day, our class wanted to [[surprise|arrive|cry|pray]] our teachers.
 + jasmine = 茉莉花
 = 教師節那天，我們班想給老師們一個驚喜。我們知道數學老師陳老師沒有咖啡就活不下去，所以在學校附近的店買了一大杯給他。英文老師李老師不喝咖啡，所以我們幫她泡了一杯茉莉花茶。前一天晚上，Amy 和我還烤了加很多奶油的小蛋糕，並在每個蛋糕上寫上「謝謝」。早上，我們躲在教室門後面。老師們一走進來，我們就跳出來大喊：「教師節快樂！」陳老師嚇得差點把書掉在地上。李老師笑著說：「這是我喝過最甜的茶。」我們都覺得非常驕傲。
 
+## 早餐店阿姨的好記性
+Every morning on my way to school, I stop at the breakfast shop near my house. The owner, Auntie Mei, has an amazing memory. She never needs to write anything down. When I walk in, she always says, "Toast with [[butter|traffic|weather|noise]] and a large milk [[tea|garbage|homework|ticket]], right?" She remembers what every customer likes. Mr. Lin, the bus driver, always gets black [[coffee|garbage|noise|uniform]] without sugar. Little Ken from the third grade always wants apple juice. One morning, I wanted to [[try|marry|arrive|cry]] something new, so I asked for a ham sandwich. Auntie Mei looked at me in surprise. "Are you sick today?" she asked. Everyone in the shop laughed. Now she [[remembers|arrives|happens|cries]] that I like both!
+> 1 toast with butter「奶油吐司」，早餐店常見的餐點。traffic（交通）、weather（天氣）、noise（噪音）都不能塗在吐司上。
+> 2 a large milk tea「一杯大杯奶茶」。garbage（垃圾）、homework（功課）、ticket（票）都不能和 milk 組成飲料。
+> 3 black coffee without sugar「不加糖的黑咖啡」。garbage、noise、uniform（制服）都不能喝，也不能說「不加糖」。
+> 4 try something new「嘗試新的東西」，所以改點火腿三明治。marry（結婚）、arrive（到達）、cry（哭）都不能接 something new 當受詞。
+> 5 remember that + 句子「記得…」：她現在記得我兩種都喜歡。arrives、happens、cries 後面都不能接 that 子句。
++ memory = 記憶力
++ customer = 顧客
++ ham = 火腿
+= 每天早上上學途中，我都會在家附近的早餐店停下來。老闆梅姨的記性非常驚人，她從來不需要把東西寫下來。我一走進去，她總是說：「奶油吐司配大杯奶茶，對吧？」她記得每位客人喜歡吃什麼。公車司機林先生總是點不加糖的黑咖啡，三年級的小 Ken 總是要蘋果汁。有一天早上，我想嘗試新東西，所以點了火腿三明治。梅姨驚訝地看著我：「你今天生病了嗎？」店裡的每個人都笑了。現在她記得我兩種都喜歡了！
+
+## 三杯飲料的推理題
+Ms. Chang put three cups on her desk: one of hot coffee, one of hot tea, and one of cold orange juice. "These cups [[belong|arrive|happen|cry]] to Mr. Wu, Ms. Lin, and Mr. Ho," she said. "Can you guess whose cup is whose? Here are the clues. Mr. Wu never drinks hot drinks in summer. Ms. Lin cannot drink [[coffee|garbage|traffic|weather]] because it gives her a headache." The class was quiet for a minute. Then Jenny raised her hand. "Mr. Wu has the [[juice|weather|homework|noise]] because it is the only cold drink. Ms. Lin cannot have coffee, so she has the [[tea|garbage|ticket|uniform]]. That means the coffee is Mr. Ho's." "Excellent!" said Ms. Chang. "You are a very [[clever|lazy|rude|careless]] detective." Just then, Mr. Ho walked in and picked up the coffee. Jenny was right!
+> 1 belong to「屬於」：這三杯分別屬於三位老師。arrive（到達）、happen（發生）、cry（哭）接 to 人都不能表示「屬於」。
+> 2 林老師不能喝咖啡 coffee，因為會頭痛；桌上三杯之一就是咖啡。garbage（垃圾）、traffic（交通）、weather（天氣）都不能喝。
+> 3 吳老師夏天不喝熱的，所以拿唯一冰的柳橙汁 juice。weather（天氣）、homework（功課）、noise（噪音）都不是桌上的飲料。
+> 4 林老師不能喝咖啡，剩下的熱飲就是茶 tea。garbage、ticket（票）、uniform（制服）都不是桌上的飲料。
+> 5 老師說 Excellent!，是在稱讚 Jenny 是很聰明的偵探 clever。lazy（懶惰的）、rude（無禮的）、careless（粗心的）都是批評的話，和稱讚不合。
++ clue = 線索
++ headache = 頭痛
++ detective = 偵探
+= 張老師在桌上放了三個杯子：一杯熱咖啡、一杯熱茶和一杯冰柳橙汁。「這三杯分別是吳老師、林老師和何老師的。」她說，「你們猜得出哪杯是誰的嗎？線索如下：吳老師夏天從不喝熱飲。林老師不能喝咖啡，因為咖啡會讓她頭痛。」全班安靜了一分鐘，接著 Jenny 舉手了：「吳老師拿的是柳橙汁，因為那是唯一的冰飲料。林老師不能喝咖啡，所以她的是茶。那咖啡就是何老師的。」「太棒了！」張老師說，「你是個非常聰明的偵探。」就在這時，何老師走進來，拿起了那杯咖啡。Jenny 猜對了！
+
+## 運動會的最後一棒
+On Sports Day, I was the last runner in our class relay race, so I was very [[nervous|wooden|expensive|delicious]]. My hands were cold, and my heart was beating fast. Before the race, my friend Nina gave me a bottle of grape [[juice|homework|ticket|noise]]. "Grape juice has natural [[sugar|paper|noise|history]], so it will give you energy," she said. I drank half of it and felt a little better. When I got the stick, we were in third place. I ran as fast as I could and passed two runners just before the finish line. We won first place! After the race, our whole class [[celebrated|borrowed|explained|counted]] with cups of cold black [[tea|garbage|weather|uniform]] from our teacher. It was the best day of the school year.
+> 1 跑最後一棒，手冰冷、心跳很快，表示很緊張 nervous。wooden（木製的）、expensive（昂貴的）、delicious（好吃的）都不能形容人的心情。
+> 2 a bottle of grape juice「一瓶葡萄汁」，下一句也說 Grape juice。homework（功課）、ticket（票）、noise（噪音）都不能裝在瓶子裡喝。
+> 3 葡萄汁含有天然的糖 sugar，可以提供能量。paper（紙）、noise（噪音）、history（歷史）都不是果汁裡的成分。
+> 4 celebrate「慶祝」：贏了第一名，全班一起慶祝。borrowed（借）、explained（解釋）、counted（數）後面接 with 冰紅茶，意思都不通。
+> 5 cold black tea「冰紅茶」，用杯子裝著喝。garbage（垃圾）、weather（天氣）、uniform（制服）都不能喝。
++ Sports Day = 運動會
++ relay race = 接力賽
++ natural = 天然的
++ finish line = 終點線
+= 運動會那天，我是班上接力賽的最後一棒，所以非常緊張。我的手冰冰的，心跳得好快。比賽前，我的朋友 Nina 給我一瓶葡萄汁。「葡萄汁有天然的糖分，可以給你能量。」她說。我喝了一半，覺得好一點了。我接到棒子的時候，我們是第三名。我拚命地跑，就在終點線前超過了兩個人。我們拿到第一名！比賽結束後，全班用老師請的冰紅茶一起慶祝。那是這學年最棒的一天。
+
+## 京都的抹茶體驗
+During our trip to Kyoto, my family joined a Japanese tea ceremony. We took off our shoes and sat on the floor of a quiet room. The tea master moved very [[slowly|cheaply|hungrily|expensively]] and carefully. She mixed green tea powder with hot water until it was full of tiny bubbles. Before drinking the [[tea|garbage|uniform|ticket]], we each ate a small sweet made of beans and [[sugar|noise|traffic|weather]]. "The sweet makes the tea taste better," she said. My little brother is not a very [[patient|delicious|wooden|crowded]] person. He wanted to drink it right away, but Mom stopped him. When I finally tasted the tea, it was a little bitter but very smooth. My dad said, "Wow, it is stronger than my morning [[coffee|garbage|noise|homework]]!"
+> 1 move slowly and carefully「動作緩慢又小心」，茶道的動作很講究。cheaply（便宜地）、hungrily（飢餓地）、expensively（昂貴地）都不能形容茶道老師的動作。
+> 2 喝茶 tea 之前先吃一個甜點，前面說用抹茶粉加熱水。garbage（垃圾）、uniform（制服）、ticket（票）都不能喝。
+> 3 用豆子和糖 sugar 做的小甜點。noise（噪音）、traffic（交通）、weather（天氣）都不能拿來做點心。
+> 4 not a very patient person「不是很有耐心的人」，所以想馬上就喝。delicious（好吃的）、wooden（木製的）、crowded（擁擠的）都不能形容人的個性。
+> 5 stronger than my morning coffee「比我早上喝的咖啡還濃」，和茶一樣是飲料才能比較。garbage、noise、homework 都不能喝。
++ Kyoto = 京都（日本城市）
++ tea ceremony = 茶道
++ powder = 粉末
++ bubble = 泡泡
++ bitter = 苦的
+= 我們到京都旅行時，全家參加了一場日本茶道體驗。我們脫掉鞋子，坐在一間安靜房間的地板上。茶道老師的動作非常緩慢又小心。她把抹茶粉和熱水混合，攪到充滿細小的泡泡。喝茶之前，我們每人先吃了一個用豆子和糖做的小甜點。「甜點會讓茶更好喝。」她說。我弟弟不是很有耐心的人，他想馬上就喝，但被媽媽阻止了。當我終於嚐到那杯茶時，它有一點苦，但非常順口。爸爸說：「哇，這比我早上喝的咖啡還濃！」
+
+## 熊先生的森林麵包店
+Mr. Bear had a small bakery in the middle of the forest. His bread was soft and smelled wonderful because he used lots of fresh [[butter|noise|traffic|weather]]. Every morning, his shop was [[crowded|honest|polite|careless]] with animals. Rabbit always bought carrot bread, and Fox always ordered honey toast and a cup of hot [[tea|garbage|uniform|ticket]]. One day, Mr. Bear ran out of [[sugar|noise|history|weather]]. Without it, he could not make his sweet bread. So he went to visit the bees and [[borrowed|explained|cheered|arrived]] a big jar of honey from them. He used the honey to make a new kind of bread. It was even sweeter than before, and all the animals loved it. Now Mr. Bear gives the bees free bread every Friday to say thank you.
+> 1 麵包又軟又香，是因為用了很多新鮮奶油 butter。noise（噪音）、traffic（交通）、weather（天氣）都不能做麵包。
+> 2 be crowded with「擠滿了…」：每天早上店裡都擠滿了動物。honest（誠實的）、polite（有禮貌的）、careless（粗心的）都不能接 with animals 形容店。
+> 3 a cup of hot tea「一杯熱茶」，配蜂蜜吐司。garbage、uniform（制服）、ticket（票）都不能喝。
+> 4 run out of sugar「糖用完了」，所以做不出甜麵包。noise、history（歷史）、weather 都不是做麵包用的東西。
+> 5 borrow … from …「向…借…」：向蜜蜂借了一大罐蜂蜜。explained（解釋）、cheered（歡呼）、arrived（到達）都不能用「物 from 人」的句型。
++ bakery = 麵包店
++ carrot = 紅蘿蔔
++ honey = 蜂蜜
++ jar = 罐子
+= 熊先生在森林中間開了一家小麵包店。他的麵包又軟又香，因為他用了很多新鮮奶油。每天早上，他的店裡都擠滿了動物。兔子總是買紅蘿蔔麵包，狐狸總是點蜂蜜吐司和一杯熱茶。有一天，熊先生的糖用完了，沒有糖，他就做不出甜麵包。於是他去拜訪蜜蜂，向牠們借了一大罐蜂蜜。他用蜂蜜做出一種新麵包，比以前還要甜，所有動物都很喜歡。現在熊先生每個星期五都會送蜜蜂免費的麵包來表達謝意。
+
+## 罐子裡變出奶油
+In science class, Mr. Huang gave each group a small jar of cream. "Today, we will make [[butter|traffic|history|weather]] with our own hands," he said. We could not [[believe|arrive|happen|cry]] it. "All you need to do is shake the jar," he told us. We took turns shaking it for ten minutes. My arms were so [[tired|honest|national|expensive]] that I wanted to stop. Then, suddenly, we heard a different sound. There was a soft yellow ball inside the jar! It was real butter. We spread it on crackers. Lisa added a little honey and [[sugar|paper|weather|noise]] to make sweet butter. To go with our snack, Mr. Huang made a big pot of black [[tea|garbage|ticket|noise]]. It was the most delicious science class ever.
+> 1 make butter「做奶油」，後文說罐子裡出現黃色的球，就是真的奶油。traffic（交通）、history（歷史）、weather（天氣）都不能用手做出來。
+> 2 could not believe it「不敢相信」，搖一搖就能做奶油讓人很意外。arrive（到達）、happen（發生）、cry（哭）都不能接 it 當受詞。
+> 3 搖了十分鐘，手很痠很累 tired，想停下來。honest（誠實的）、national（國家的）、expensive（昂貴的）都不能形容手臂的感覺。
+> 4 加蜂蜜和糖 sugar 做成甜奶油。paper（紙）、weather（天氣）、noise（噪音）都不能加進奶油裡。
+> 5 a pot of black tea「一壺紅茶」，配點心喝。garbage（垃圾）、ticket（票）、noise（噪音）都不能用壺泡來喝。
++ cream = 鮮奶油
++ shake = 搖晃
++ spread = 塗抹
++ cracker = 蘇打餅乾
+= 自然課時，黃老師給每一組一小罐鮮奶油。「今天我們要親手做奶油。」他說。我們都不敢相信。「你們只要搖這個罐子就好。」他告訴我們。我們輪流搖了十分鐘，我的手臂累到想停下來。接著，我們突然聽到不一樣的聲音，罐子裡出現一顆軟軟的黃色小球！那是真的奶油。我們把它塗在蘇打餅乾上。Lisa 加了一點蜂蜜和糖，做成甜奶油。為了搭配我們的點心，黃老師泡了一大壺紅茶。那是有史以來最好吃的一堂自然課。
+
+## 被螞蟻占領的方糖城堡
+For the school art contest, Ivy decided to build a castle out of sugar cubes. She used five boxes of [[sugar|traffic|weather|noise]]. It took her a whole week to [[finish|marry|arrive|cry]] it. The castle had four towers and a little bridge, and it looked like something from a Disney movie. But the night before the contest, her little brother spilled some apple [[juice|homework|ticket|garbage]] on the floor next to her desk. He did not clean it up. The next morning, Ivy opened her door and [[shouted|lent|sold|spent]], "No!" Hundreds of ants were all over her castle! Her mom made her a cup of warm [[tea|garbage|uniform|ticket]] to calm her down. Then they carefully moved the ants outside. Ivy still took the castle to school, and she won second prize. The judges loved the story of the ants.
+> 1 five boxes of sugar「五盒糖」，前一句說用方糖蓋城堡。traffic（交通）、weather（天氣）、noise（噪音）都不能用「盒」來計算，也不能蓋城堡。
+> 2 finish it「完成它」：花了一整個星期才完成城堡。marry（結婚）、arrive（到達）、cry（哭）都不能接 it 當受詞表示完成。
+> 3 apple juice「蘋果汁」，打翻在地上又甜又黏，才會引來螞蟻。homework（功課）、ticket（票）、garbage（垃圾）都不能和 apple 組成飲料。
+> 4 shout「大喊」：看到螞蟻爬滿城堡，她大喊「不要！」。lent（借出）、sold（賣）、spent（花費）都不能接說的話。
+> 5 a cup of warm tea「一杯溫茶」，讓她冷靜下來。garbage、uniform（制服）、ticket（票）都不能喝。
++ contest = 比賽
++ castle = 城堡
++ sugar cube = 方糖
++ Disney = 迪士尼
++ judge = 評審
+= 為了參加學校的美術比賽，Ivy 決定用方糖蓋一座城堡。她用了五盒糖，花了整整一個星期才完成。城堡有四座塔和一座小橋，看起來就像迪士尼電影裡的東西。但比賽前一晚，她弟弟把一些蘋果汁打翻在她書桌旁的地上，而且沒有擦乾淨。隔天早上，Ivy 一打開房門就大喊：「不要！」好幾百隻螞蟻爬滿了她的城堡！媽媽泡了一杯溫茶讓她冷靜下來，接著她們小心地把螞蟻移到外面。Ivy 還是把城堡帶到學校，並且得到了第二名。評審們很喜歡螞蟻的故事。
+
+## 外公的老茶壺
+My grandpa has an old teapot. It is even older than my dad. Every afternoon, he makes [[tea|garbage|ticket|uniform]] in it and drinks it slowly in the yard. He never puts any [[sugar|noise|weather|history]] in his tea, because he says it hides the real taste. One day, I was playing ball in the living room, and I [[hit|lent|spent|invited]] the teapot by accident. It fell and broke into three pieces. I hid the pieces under my bed and told no one. That afternoon, Grandpa had to drink [[coffee|garbage|noise|weather]] from a paper cup, and he looked very unhappy. I felt terrible, and finally I could not keep the [[secret|weather|traffic|history]] anymore. I told him everything. To my surprise, he was not angry. We glued the teapot together. It does not look pretty now, but Grandpa says his tea tastes even better because the teapot has a story.
+> 1 make tea「泡茶」，用茶壺泡。garbage（垃圾）、ticket（票）、uniform（制服）都不能用茶壺泡來喝。
+> 2 外公喝茶從不加糖 sugar，他說糖會蓋住茶真正的味道。noise、weather、history 都不能加進茶裡。
+> 3 hit the teapot「打到茶壺」，所以茶壺掉下來摔破。lent（借出）、spent（花費）、invited（邀請）都不能表示不小心撞到東西。
+> 4 茶壺破了，外公只好用紙杯喝咖啡 coffee。garbage（垃圾）、noise（噪音）、weather（天氣）都不能喝。
+> 5 keep the secret「保守祕密」：我再也藏不住祕密，把一切告訴外公。weather、traffic（交通）、history（歷史）都不能和 keep 搭配表示「藏住不說」。
++ teapot = 茶壺
++ yard = 院子
++ by accident = 不小心
++ glue = 用膠水黏
+= 我外公有一個老茶壺，它甚至比我爸爸還老。每天下午，他都用它泡茶，然後在院子裡慢慢地喝。他喝茶從來不加糖，因為他說糖會蓋住茶真正的味道。有一天，我在客廳玩球，不小心打到了茶壺。它掉下來摔成三片。我把碎片藏在床底下，沒有告訴任何人。那天下午，外公只好用紙杯喝咖啡，他看起來很不開心。我覺得很難過，最後再也藏不住這個祕密，把一切都告訴了他。出乎意料，他沒有生氣。我們一起把茶壺黏好。它現在不太好看，但外公說他的茶喝起來更好喝了，因為這個茶壺有了故事。
+
+## 遊戲裡的補血果汁
+In Tom's favorite video game, the hero drinks magic [[juice|homework|traffic|weather]] to get his power back. One sip, and he can fight again. One Saturday, Tom played the game for five hours without stopping. His eyes were dry, and his back hurt. "I need magic juice!" he said. He went to the kitchen and drank three big glasses of orange juice. But nothing happened. Instead, his stomach began to [[hurt|lend|borrow|sell]]. His mom came in and shook her head. "Those drinks have too much [[sugar|paper|noise|history]]," she said. "And real life is not a game. You don't need juice. You need a [[break|history|weather|garbage]]." She made him a cup of warm honey [[tea|garbage|ticket|uniform]] and told him to go outside and play basketball. An hour later, Tom felt much better. "Maybe sunshine is the real magic," he said.
+> 1 magic juice「魔法果汁」，下文 Tom 也說 I need magic juice! 並去喝柳橙汁。homework（功課）、traffic（交通）、weather（天氣）都不能喝。
+> 2 his stomach began to hurt「他的肚子開始痛」。lend（借出）、borrow（借入）、sell（賣）都不能用來說肚子的感覺。
+> 3 果汁裡有太多糖 sugar。paper（紙）、noise（噪音）、history（歷史）都不是飲料裡的成分。
+> 4 need a break「需要休息一下」，break 當名詞是「休息」；玩了五小時，該休息了。history、weather、garbage 都不能和 need a 搭配表示休息。
+> 5 honey tea「蜂蜜茶」，用杯子裝著喝。garbage（垃圾）、ticket（票）、uniform（制服）都不能喝。
++ hero = 英雄、主角
++ sip = 一小口
++ sunshine = 陽光
+= 在 Tom 最喜歡的電玩裡，主角喝了魔法果汁就能恢復力量，只要一口，他就能再次戰鬥。某個星期六，Tom 連續玩了五個小時沒有停。他的眼睛很乾，背也很痛。「我需要魔法果汁！」他說。他走到廚房，喝了三大杯柳橙汁。但什麼事都沒發生，反而肚子開始痛了。媽媽走進來搖搖頭說：「那些飲料的糖太多了。而且現實生活不是遊戲，你不需要果汁，你需要的是休息。」她泡了一杯溫蜂蜜茶給他，叫他出去打籃球。一個小時後，Tom 覺得好多了。「也許陽光才是真正的魔法。」他說。
+
+## 夜市的甘蔗汁
+At Raohe Night Market, there is a small stand that sells fresh sugarcane [[juice|homework|ticket|garbage]]. The owner puts long sticks of sugarcane into a machine, and sweet juice comes out the other side. My cousin Ryan from Canada had never [[tried|arrived|happened|cried]] it before. "Is there any [[sugar|noise|paper|weather]] in it?" he asked. The owner laughed. "No! Sugar comes from sugarcane!" Ryan took a sip, and his eyes grew big. He ordered two more cups. Next to the stand, an old man was selling winter melon [[tea|garbage|uniform|traffic]], so Ryan bought a cup of that, too. Then he tried stinky tofu, grilled corn, and an oyster omelet. At the end of the night, his stomach was so [[full|honest|polite|careless]] that he could not walk fast. "Taiwan is a dangerous place for my stomach," he joked.
+> 1 sugarcane juice「甘蔗汁」，下一句說甘蔗放進機器，甜甜的汁就流出來。homework、ticket、garbage 都不能喝。
+> 2 have never tried it「從來沒嚐過」，try 有「嘗試、吃吃看」的意思。arrived（到達）、happened（發生）、cried（哭）都不能接 it 當受詞。
+> 3 Is there any sugar in it?「裡面有加糖嗎？」老闆回答糖本來就是從甘蔗來的。noise（噪音）、paper（紙）、weather（天氣）都不會被問有沒有加進飲料。
+> 4 winter melon tea「冬瓜茶」，台灣常見的飲料，可以買一杯。garbage、uniform（制服）、traffic（交通）都不能喝。
+> 5 his stomach was full「他的肚子很飽」，吃了一整晚，飽到走不快。honest（誠實的）、polite（有禮貌的）、careless（粗心的）都不能形容肚子。
++ Raohe Night Market = 饒河夜市
++ sugarcane = 甘蔗
++ winter melon = 冬瓜
++ stinky tofu = 臭豆腐
++ oyster omelet = 蚵仔煎
+= 在饒河夜市，有一個賣新鮮甘蔗汁的小攤子。老闆把長長的甘蔗放進機器裡，甜甜的汁就從另一邊流出來。我從加拿大來的表哥 Ryan 以前從來沒喝過。「裡面有加糖嗎？」他問。老闆笑著說：「沒有！糖就是從甘蔗來的啊！」Ryan 喝了一口，眼睛都睜大了，他又點了兩杯。攤子旁邊有位老先生在賣冬瓜茶，所以 Ryan 也買了一杯。接著他吃了臭豆腐、烤玉米和蚵仔煎。到了晚上結束時，他的肚子飽到走不快。「台灣對我的胃來說是個危險的地方。」他開玩笑地說。
+
