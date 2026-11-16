@@ -274,3 +274,143 @@ My little sister asked me a question at breakfast. She was eating cereal with ra
 + experiment = 實驗
 + chip = 薄片
 = 妹妹在吃早餐時問了我一個問題。她正在吃加了葡萄乾的穀片。「葡萄乾是從哪裡來的？長在樹上嗎？」我笑了：「不是啦，葡萄乾就是曬乾的葡萄。」她不相信，所以我們做了一個實驗。我們洗了一些綠葡萄，放在盤子上，擺在有陽光的窗邊，每天都去檢查。一星期後，葡萄變得又小、又褐、又軟。妹妹拿起一顆嚐嚐。「是葡萄乾耶！」她大叫，「比原本還甜！」我解釋說，水果裡的水分會不見，但糖分會留下來。接著她什麼都想曬乾，試了香蕉、蘋果，甚至還有檸檬。香蕉乾和蘋果乾都很好吃，但檸檬乾太酸了。「有些水果還是保持原樣就好。」她說。
+
+## 動物森友會的水果島
+In the game Animal Crossing, you live on an island with cute animal neighbors. When you start the game, your island has only one kind of [[fruit|homework|traffic|weather]]. Mine had cherries. To get other kinds, you have to visit your friends' islands or ask your neighbors. My friend Amy's island had oranges, so she [[sent|spelled|married|prayed]] me some in the mail. I planted them, and soon I had orange trees, too. Later, I found coconuts on a beach. They are not [[bananas|tickets|villages|pockets]], but they grow on palm trees by the sea, too. In the newer version of the game, you can also grow [[vegetables|letters|offices|museums]] like pumpkins and tomatoes. My favorite thing is selling fruit. Fruit from other islands sells for a higher price, so I made a lot of money. Now I [[own|spell|marry|pray]] the biggest house on my island.
+> 1 島上一開始只有一種水果 fruit，我的是櫻桃。homework（功課）、traffic（交通）、weather（天氣）都不會長在樹上，也沒有種類之分。
+> 2 send + 人 + 東西「寄給某人」，send 的過去式 sent。spelled（拼字）、married（結婚）、prayed（禱告）都不能接 me some in the mail。
+> 3 椰子不是香蕉 bananas，但也長在海邊的棕櫚樹上。tickets（票）、villages（村莊）、pockets（口袋）都不會長在樹上。
+> 4 grow vegetables like pumpkins and tomatoes「種南瓜、番茄這些蔬菜」。letters（信）、offices（辦公室）、museums（博物館）都不能種。
+> 5 own「擁有」，賺了很多錢後擁有島上最大的房子。spell（拼字）、marry（結婚）、pray（禱告）接 the biggest house 都不通。
++ Animal Crossing = 《動物森友會》
++ island = 島
++ cherry = 櫻桃
++ coconut = 椰子
++ palm tree = 棕櫚樹
+= 在遊戲《動物森友會》裡，你住在一座小島上，鄰居都是可愛的動物。遊戲一開始，你的島上只有一種水果，我的是櫻桃。想要其他種類，就得去朋友的島上，或是問問鄰居。我朋友 Amy 的島上有柳丁，所以她用郵件寄了一些給我。我把它們種下去，很快就有了柳丁樹。後來我在海灘上撿到椰子，它們不是香蕉，但也長在海邊的棕櫚樹上。在比較新的版本裡，還可以種南瓜、番茄這些蔬菜。我最喜歡賣水果，因為別的島的水果可以賣比較高的價錢，所以我賺了很多錢。現在我擁有島上最大的房子。
+
+## 太空站裡的蔬菜
+Astronauts on the International Space Station usually eat food from bags and cans. Fresh [[vegetables|tickets|villages|letters]] are hard to find in space. But in 2015, astronauts did something special. They grew lettuce in a small box with red and blue lights. Then they [[tasted|spelled|married|prayed]] it for the first time. "It's fresh and crunchy!" one of them said. Since then, they have grown other plants, like tomatoes and chili peppers. Scientists hope that one day people on Mars can grow their own [[fruit|homework|traffic|weather]], too. Maybe they will grow [[bananas|pockets|offices|museums]] or [[grapes|tickets|corners|uniforms]] under the red Mars sky. It sounds like a dream, but many people are working hard to make it real. Maybe someday you will eat a salad that was grown on another planet!
+> 1 新鮮的蔬菜 vegetables 在太空很難找到，後面說他們種了萵苣。tickets（票）、villages（村莊）、letters（信）都不能用「新鮮」來形容、也不能種。
+> 2 taste「嚐」，第一次嚐自己種的萵苣，taste 的過去式 tasted。spelled（拼字）、married（結婚）、prayed（禱告）接 it（萵苣）都不通。
+> 3 grow their own fruit「種自己的水果」。homework（功課）、traffic（交通）、weather（天氣）都不能種植。
+> 4 在火星的天空下種香蕉 bananas。pockets（口袋）、offices（辦公室）、museums（博物館）都不能種植。
+> 5 或是種葡萄 grapes。tickets（票）、corners（角落）、uniforms（制服）都不能種植。
++ astronaut = 太空人
++ International Space Station = 國際太空站
++ lettuce = 萵苣
++ crunchy = 脆的
++ Mars = 火星
+= 國際太空站上的太空人通常吃袋裝和罐裝的食物，在太空中很難吃到新鮮的蔬菜。但在 2015 年，太空人做了一件特別的事：他們在一個有紅光和藍光的小箱子裡種出萵苣，然後第一次嚐了自己種的菜。「又新鮮又脆！」其中一位說。從那之後，他們又種了其他植物，像是番茄和辣椒。科學家希望有一天，在火星上的人也能種自己的水果，也許他們會在火星紅色的天空下種香蕉或葡萄。這聽起來像一場夢，但很多人正努力讓它成真。說不定有一天，你會吃到在另一個星球上種出來的沙拉！
+
+## 彩虹餐盤
+In health class, our teacher showed us a picture of a "rainbow plate." "Try to eat [[vegetables|tickets|villages|letters]] and fruit of many different colors every day," she said. "Each color [[protects|spells|marries|prays]] your body in a different way." Red tomatoes are good for your heart. Orange carrots help your eyes. Yellow [[bananas|pockets|offices|museums]] give you energy. Green broccoli makes your bones strong, and purple [[grapes|tickets|corners|uniforms]] are good for your brain. Then she gave us homework: take a photo of one meal with five colors. At home, I found red, orange, yellow, and green food, but nothing purple. Then I saw an eggplant in the fridge. Mom helped me cook it with garlic. My plate looked like a rainbow, and I felt very [[healthy|wooden|crowded|national]] after eating it. I got an A on my homework, too!
+> 1 eat vegetables and fruit「吃蔬菜和水果」。tickets（票）、villages（村莊）、letters（信）都不能吃、也沒有顏色之分的營養。
+> 2 protect your body「保護你的身體」。spells（拼字）、marries（結婚）、prays（禱告）接 your body 都不通。
+> 3 黃色的香蕉 bananas 給你能量。pockets（口袋）、offices（辦公室）、museums（博物館）都不能吃、也不是黃色的食物。
+> 4 紫色的葡萄 grapes 對大腦好。tickets（票）、corners（角落）、uniforms（制服）都不能吃。
+> 5 feel healthy「覺得很健康」，吃完彩虹餐盤之後。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能形容身體的感覺。
++ rainbow = 彩虹
++ broccoli = 花椰菜
++ purple = 紫色的
++ brain = 大腦
++ eggplant = 茄子
+= 健康課時，老師給我們看一張「彩虹餐盤」的圖片。「每天試著吃很多種不同顏色的蔬菜和水果，」她說，「每種顏色用不同的方式保護你的身體。」紅色番茄對心臟好，橘色紅蘿蔔對眼睛好，黃色香蕉給你能量，綠色花椰菜讓骨頭強壯，紫色葡萄對大腦好。接著她出了一項作業：拍一張有五種顏色的餐點照片。回到家，我找到紅色、橘色、黃色和綠色的食物，就是沒有紫色。後來我在冰箱裡看到一條茄子，媽媽幫我用蒜頭炒了它。我的盤子看起來就像一道彩虹，吃完覺得很健康。我的作業也拿了 A！
+
+## 教室裡消失的香蕉
+Every morning, our teacher Mr. Chen puts a [[banana|ticket|village|letter]] on his desk for breakfast. But last Monday, it was gone! "Who took my banana?" he asked. Nobody answered. On Tuesday, his [[grapes|tickets|corners|uniforms]] disappeared, too. Our class decided to [[solve|spell|marry|pray]] the mystery. Jenny, who loves detective stories, put a small camera behind the bookshelf. On Wednesday, Mr. Chen left a [[lemon|ticket|village|pocket]] and an apple on his desk as a test. At lunchtime, we watched the video together. A small brown bird flew in through the window, looked at the lemon, and flew away. Then it came back and took a piece of apple! Everyone laughed. "So the thief is a bird," Mr. Chen said. "Maybe it doesn't like sour [[fruit|homework|traffic|weather]]." From then on, he kept his breakfast in a box.
+> 1 老師每天放一根香蕉 banana 在桌上當早餐，後面他問「誰拿了我的香蕉」。ticket（票）、village（村莊）、letter（信）都不能當早餐。
+> 2 星期二換葡萄 grapes 不見了。tickets（票）、corners（角落）、uniforms（制服）都不是早餐、也不會被鳥叼走。
+> 3 solve the mystery「解開謎團」。spell（拼字）、marry（結婚）、pray（禱告）接 the mystery 都不通。
+> 4 放一顆檸檬 lemon 和一顆蘋果當測試，後面說鳥看了檸檬就飛走。ticket（票）、village（村莊）、pocket（口袋）都不是水果，和後面「酸的水果」不合。
+> 5 sour fruit「酸的水果」，指檸檬。homework（功課）、traffic（交通）、weather（天氣）都沒有酸味。
++ mystery = 謎團
++ detective = 偵探
++ bookshelf = 書架
++ thief = 小偷
++ sour = 酸的
+= 每天早上，陳老師都會在桌上放一根香蕉當早餐。但上週一，香蕉不見了！「誰拿了我的香蕉？」他問。沒有人回答。星期二，他的葡萄也不見了。我們班決定要解開這個謎團。熱愛偵探故事的 Jenny 在書架後面放了一台小攝影機。星期三，陳老師在桌上放了一顆檸檬和一顆蘋果當作測試。午餐時間，我們一起看影片：一隻褐色的小鳥從窗戶飛進來，看了看檸檬就飛走了，接著又飛回來叼走一塊蘋果！大家都笑了。「原來小偷是一隻鳥，」陳老師說，「也許牠不喜歡酸的水果。」從那以後，他都把早餐放在盒子裡。
+
+## 日本交換生的水果驚奇
+Yuki, an exchange student from Japan, stayed with my family for a month. In Japan, [[fruit|homework|traffic|weather]] is often very expensive. One nice melon can cost more than a thousand Taiwan dollars! So when we took her to the market, she was very [[surprised|wooden|crowded|national]]. A big bunch of [[bananas|pockets|offices|museums]] was only sixty dollars. She also bought a box of [[grapes|tickets|letters|corners]] from Changhua for two hundred dollars. She tried many fruits for the first time, like dragon fruit, wax apples, and lychees. "In Japan, I only see these in pictures!" she said. Every night after dinner, Mom cut a plate of fruit for us, and Yuki ate more than anyone. On her last day, she hugged us and said, "I'll miss your family. And I'll [[miss|spell|marry|pray]] Taiwanese fruit, too!"
+> 1 在日本，水果 fruit 常常很貴，後面舉哈密瓜為例。homework（功課）、traffic（交通）、weather（天氣）都沒有價格。
+> 2 台灣水果便宜，所以她很驚訝 surprised。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能形容人的反應。
+> 3 a big bunch of bananas「一大串香蕉」只要六十元。pockets（口袋）、offices（辦公室）、museums（博物館）都不能說「一串」、也不在市場賣。
+> 4 a box of grapes from Changhua「一箱彰化葡萄」。tickets（票）、letters（信）、corners（角落）都不是彰化有名的農產品。
+> 5 miss「想念」，前面也說會想念我們家。spell（拼字）、marry（結婚）、pray（禱告）接 Taiwanese fruit 都不通。
++ exchange student = 交換學生
++ melon = 哈密瓜
++ dragon fruit = 火龍果
++ wax apple = 蓮霧
++ lychee = 荔枝
+= 來自日本的交換學生 Yuki 在我們家住了一個月。在日本，水果常常很貴，一顆好的哈密瓜可能超過一千台幣！所以我們帶她去市場時，她非常驚訝：一大串香蕉只要六十元。她還花兩百元買了一箱彰化葡萄。她第一次吃到很多水果，像是火龍果、蓮霧和荔枝。「在日本，這些我只在圖片上看過！」她說。每天晚餐後，媽媽都會切一盤水果給我們，Yuki 吃得比誰都多。最後一天，她抱著我們說：「我會想念你們一家人，也會想念台灣的水果！」
+
+## 狗狗不能吃葡萄
+Last weekend, my dog Lucky got very sick. On Saturday morning, he ate some [[grapes|tickets|letters|offices]] that fell on the kitchen floor. I didn't think it was a big deal. But in the afternoon, Lucky started to throw up, and he didn't want to move. We took him to the animal hospital right away. The doctor said, "Grapes are very [[dangerous|wooden|crowded|national]] for dogs. Even a few can hurt their kidneys." She gave Lucky some medicine and kept him at the hospital for two days. Luckily, he got better. The doctor also told us that dogs shouldn't eat chocolate, onions, or raisins. "But some [[fruit|homework|traffic|weather]] is fine," she said. "A little piece of apple or [[banana|ticket|village|pocket]] is a good snack." Now we keep all food off the floor. When Lucky learns a new trick, he gets a small slice of banana as a [[prize|ticket|corner|uniform]].
+> 1 狗吃了掉在廚房地上的葡萄 grapes，後面醫生說葡萄對狗很危險。tickets（票）、letters（信）、offices（辦公室）都不能吃。
+> 2 dangerous for dogs「對狗很危險」，連幾顆都會傷害腎臟。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能說明對狗的影響。
+> 3 有些水果 fruit 狗可以吃，後面舉蘋果和香蕉為例。homework（功課）、traffic（交通）、weather（天氣）都不能給狗吃。
+> 4 一小塊蘋果或香蕉 banana 是不錯的點心。ticket（票）、village（村莊）、pocket（口袋）都不能吃。
+> 5 as a prize「當作獎勵」，學會新把戲就給一片香蕉。ticket（票）、corner（角落）、uniform（制服）都不能表示獎勵。
++ throw up = 嘔吐
++ kidney = 腎臟
++ onion = 洋蔥
++ raisin = 葡萄乾
++ slice = 片
+= 上週末，我的狗 Lucky 病得很重。星期六早上，牠吃了掉在廚房地上的葡萄。我以為沒什麼大不了，但到了下午，Lucky 開始嘔吐，也不想動。我們馬上帶牠去動物醫院。醫生說：「葡萄對狗非常危險，就算只吃幾顆也可能傷到腎臟。」她給 Lucky 吃藥，讓牠在醫院住了兩天。幸好牠好起來了。醫生還告訴我們，狗不能吃巧克力、洋蔥或葡萄乾。「不過有些水果沒問題，」她說，「一小塊蘋果或香蕉就是很好的點心。」現在我們不會讓任何食物留在地上。每次 Lucky 學會一個新把戲，就能得到一小片香蕉當獎勵。
+
+## 檸檬臉挑戰
+Last week, a funny video became popular at our school. It was called the "Lemon Face Challenge." In the video, people put a slice of [[lemon|ticket|village|pocket]] in their mouth and try not to make a face. My friends and I wanted to [[try|spell|marry|pray]] it, too. We bought some lemons and cut them into slices. Kevin went first. "This is easy," he said. But one second later, his eyes closed, and his whole face looked like a crushed paper ball. We laughed so hard. Next was Lily. She kept her face still for ten seconds and won the game. "How did you do that?" we asked. She smiled. "My grandma makes me eat sour [[fruit|homework|traffic|weather]] all the time." After the challenge, our mouths needed something sweet, so we went to the store to buy some [[bananas|pockets|offices|museums]] and [[grapes|letters|corners|uniforms]].
+> 1 a slice of lemon「一片檸檬」，放進嘴裡試著不做鬼臉。ticket（票）、village（村莊）、pocket（口袋）都不能切片放進嘴裡。
+> 2 try it「試試看」這個挑戰。spell（拼字）、marry（結婚）、pray（禱告）接 it（挑戰）都不通。
+> 3 sour fruit「酸的水果」，奶奶常叫她吃，所以她不怕酸。homework（功課）、traffic（交通）、weather（天氣）都不能吃、也不會酸。
+> 4 嘴巴想吃甜的，所以去買香蕉 bananas。pockets（口袋）、offices（辦公室）、museums（博物館）都不能吃。
+> 5 和香蕉一起買的葡萄 grapes。letters（信）、corners（角落）、uniforms（制服）都不是甜的食物。
++ challenge = 挑戰
++ slice = 片
++ make a face = 做鬼臉
++ crushed = 壓扁的
++ sour = 酸的
+= 上週，一支好笑的影片在我們學校爆紅，叫做「檸檬臉挑戰」。影片裡，大家把一片檸檬放進嘴裡，試著不做鬼臉。我和朋友們也想試試看。我們買了一些檸檬，切成片。Kevin 先來。「這很簡單。」他說。但一秒後，他的眼睛就閉起來，整張臉皺得像一顆被捏扁的紙球。我們笑翻了。接著輪到 Lily，她的臉十秒鐘都沒動，贏得了比賽。「你怎麼做到的？」我們問。她笑著說：「我阿嬤常常叫我吃酸的水果。」挑戰結束後，我們的嘴巴需要一點甜的東西，所以就去商店買了一些香蕉和葡萄。
+
+## 水果國王選舉
+In the Kingdom of the Kitchen, the fruits decided to choose a new king. Many fruits wanted the job. The apple said, "I am red and [[popular|wooden|crowded|national]]. Everyone eats me." The [[banana|ticket|village|pocket]] said, "I give people energy, and I'm easy to carry." The [[lemon|ticket|corner|uniform]] said, "I am sour, but I make every drink and dish better." Then a bunch of [[grapes|tickets|letters|offices]] said, "We are a team. Vote for all of us!" The [[vegetables|letters|museums|offices]] were watching from the fridge. "Why only fruit?" asked the carrot. "We are good for people, too!" The fruits talked for a long time. In the end, they decided to share the crown with the carrot, the cabbage, and the tomato. "Together, we make people healthy," they said. And everyone in the kitchen lived happily ever after.
+> 1 蘋果說自己又紅又受歡迎 popular，所以大家都吃它。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能說明大家為什麼都吃它。
+> 2 香蕉 banana 說自己給人能量、又方便攜帶。ticket（票）、village（村莊）、pocket（口袋）都不是水果，不能參加水果選舉。
+> 3 檸檬 lemon 說自己雖酸，卻能讓每道飲料和菜更好吃。ticket（票）、corner（角落）、uniform（制服）都不是酸的水果。
+> 4 a bunch of grapes「一串葡萄」，所以說「我們是一個團隊」。tickets（票）、letters（信）、offices（辦公室）都不能說「一串」、也不是水果。
+> 5 從冰箱裡看的是蔬菜 vegetables，後面紅蘿蔔說話。letters（信）、museums（博物館）、offices（辦公室）都不會放在冰箱裡。
++ kingdom = 王國
++ sour = 酸的
++ bunch = 串
++ vote = 投票
++ crown = 王冠
+= 在廚房王國裡，水果們決定選出一位新國王，很多水果都想當。蘋果說：「我又紅又受歡迎，大家都吃我。」香蕉說：「我能給人能量，而且很方便攜帶。」檸檬說：「我雖然酸，但能讓每一杯飲料、每一道菜變得更好吃。」接著一串葡萄說：「我們是一個團隊，請投給我們全部！」蔬菜們在冰箱裡看著。「為什麼只有水果？」紅蘿蔔問，「我們對人也很好啊！」水果們討論了很久，最後決定和紅蘿蔔、高麗菜、番茄一起分享王冠。「我們一起讓人們健康。」他們說。從此以後，廚房裡的大家都過著幸福快樂的日子。
+
+## 便利商店的一根香蕉
+In Taiwan, you can buy a single banana at many convenience stores. My grandma loves this. She lives alone, and a whole bunch of [[bananas|tickets|villages|pockets]] is too much for her. "Before, I always had to throw half of them away," she said. "It was such a [[waste|ticket|corner|uniform]]." Now she buys one banana every morning when she gets her newspaper. It is cheap, [[convenient|wooden|national|honest]], and healthy. The stores also sell cut [[fruit|homework|traffic|weather]] in small boxes, like pineapple and guava. Some even sell salads with fresh [[vegetables|letters|offices|museums]] for office workers who are too busy to cook. Grandma says, "When I was young, small shops only sold candy and cigarettes. Now they sell healthy food. Taiwan has changed a lot!" Then she peeled her banana and ate it happily on the way home.
+> 1 a whole bunch of bananas「一整串香蕉」，對獨居的阿嬤來說太多了。tickets（票）、villages（村莊）、pockets（口袋）都不能說「一串」、也不會吃不完。
+> 2 such a waste「真是浪費」，以前常吃不完要丟掉一半。ticket（票）、corner（角落）、uniform（制服）都不能形容把食物丟掉這件事。
+> 3 便宜、方便 convenient 又健康。wooden（木製的）、national（國家的）、honest（誠實的）都不能形容在超商買香蕉這件事。
+> 4 cut fruit in small boxes「小盒裝的切好水果」，例如鳳梨和芭樂。homework（功課）、traffic（交通）、weather（天氣）都不能切、也不能裝盒賣。
+> 5 salads with fresh vegetables「有新鮮蔬菜的沙拉」。letters（信）、offices（辦公室）、museums（博物館）都不能做成沙拉。
++ single = 單一的
++ convenience store = 便利商店
++ bunch = 串
++ guava = 芭樂
++ cigarette = 香菸
+= 在台灣，很多便利商店都可以只買一根香蕉。我阿嬤很喜歡這樣。她一個人住，一整串香蕉對她來說太多了。「以前我總是要丟掉一半，」她說，「真是浪費。」現在她每天早上去買報紙時，就順便買一根香蕉，便宜、方便又健康。超商也賣小盒裝的切好水果，像鳳梨和芭樂，有些甚至賣有新鮮蔬菜的沙拉，給忙到沒時間煮飯的上班族。阿嬤說：「我年輕的時候，小店只賣糖果和香菸，現在都賣健康的食物了，台灣變了好多！」說完，她剝開香蕉，在回家的路上開心地吃了起來。
+
+## 媽媽的綠色蔬果汁
+Every morning, my mom makes a big green drink in the blender. She puts in spinach, celery, and other green [[vegetables|tickets|villages|letters]]. Then she adds a [[banana|ticket|village|pocket]] to make it sweet and some [[lemon|corner|uniform|museum]] juice to make it fresh. "Drink this. It's good for your skin," she says. The first time I tried it, I almost spit it out. It tasted like grass! But Mom didn't [[give|spell|marry|pray]] up. She added more [[fruit|homework|traffic|weather]], like apples and pineapples, and used less celery. Now the drink tastes much better. I drink a cup every morning before school. My skin looks better, and I don't get sick as often. Last week, my dad finally tried it. He made a face and said, "It tastes like a salad in a cup." Mom laughed. "That's the point!"
+> 1 spinach, celery, and other green vegetables「菠菜、芹菜和其他綠色蔬菜」。tickets（票）、villages（村莊）、letters（信）都不能放進果汁機。
+> 2 加一根香蕉 banana 讓它變甜。ticket（票）、village（村莊）、pocket（口袋）都不能讓飲料變甜。
+> 3 加一些檸檬 lemon 汁讓它清爽。corner（角落）、uniform（制服）、museum（博物館）都不能做成汁。
+> 4 give up「放棄」，媽媽沒有放棄，繼續改良。spell（拼字）、marry（結婚）、pray（禱告）都不能和 up 搭配表示放棄。
+> 5 加更多水果 fruit，例如蘋果和鳳梨。homework（功課）、traffic（交通）、weather（天氣）都不能加進飲料。
++ blender = 果汁機
++ spinach = 菠菜
++ celery = 芹菜
++ spit out = 吐出來
++ pineapple = 鳳梨
+= 每天早上，我媽媽都會用果汁機打一大杯綠色飲料。她放進菠菜、芹菜和其他綠色蔬菜，再加一根香蕉讓它變甜，加一些檸檬汁讓它更清爽。「喝下去，對皮膚很好。」她說。我第一次喝的時候差點吐出來，喝起來像草一樣！但媽媽沒有放棄，她加了更多水果，像是蘋果和鳳梨，芹菜也放少一點。現在這杯飲料好喝多了。我每天上學前都喝一杯，皮膚變好了，也比較不常生病。上週，爸爸終於也喝了一口。他皺著臉說：「喝起來像一杯沙拉。」媽媽笑著說：「重點就是這個啊！」
