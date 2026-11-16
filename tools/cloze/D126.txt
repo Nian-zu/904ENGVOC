@@ -274,3 +274,143 @@ There was once a king who never liked his food. The [[beef|homework|traffic|weat
 + field = 田地
 + Your Majesty = 陛下
 = 從前有一位國王，從來不喜歡他的食物。牛肉太硬，湯太鹹，魚太小。每個月他都會趕走一位廚師。有一天，一位年輕的廚師來到皇宮。她沒有煮菜，反而請國王和農夫一起在田裡工作一天。國王很驚訝，但還是答應了。他在大太陽底下一直做到傍晚，那時他已經餓到幾乎站不住。廚師給他一碗簡單的豬肉飯和一些青菜。國王全部吃光，還要再來一碗。「這是我吃過最棒的晚餐！」他說。廚師笑著說：「陛下，食物還是一樣的，改變的是您。」
+
+## 狗狗的生日蛋糕
+Our dog, Momo, turned ten last week. That is about sixty in human years! To [[celebrate|spell|marry|pray]], my sister and I made her a special birthday cake. Of course, dogs can't eat chocolate or sugar, so we made the cake with [[beef|homework|traffic|weather]], carrots, and a little rice. We didn't use any salt or onion because they are bad for dogs. We also boiled some [[pork|knowledge|information|history]] bones to make a light [[soup|garbage|news|energy]] for her to drink. When we put the cake in front of Momo, she wagged her tail so fast. She finished the whole cake in one minute! Then she lay down next to us and fell asleep. Mom took a photo and said, "Look at her. She looks so [[satisfied|wooden|modern|illegal]]." It was the best birthday party our family has ever had, even though the guest of honor slept through most of it.
+> 1 To celebrate「為了慶祝」，Momo 滿十歲。spell（拼字）、marry（結婚）、pray（禱告）都不能說明做生日蛋糕的目的。
+> 2 狗不能吃巧克力和糖，所以用牛肉 beef、紅蘿蔔和米做蛋糕。homework（功課）、traffic（交通）、weather（天氣）都不能做成蛋糕。
+> 3 boil pork bones「煮豬骨」來熬湯。knowledge（知識）、information（資訊）、history（歷史）都沒有骨頭、也不能煮。
+> 4 a light soup「清淡的湯」，給狗狗喝。garbage（垃圾）、news（新聞）、energy（能量）都不能熬出來給狗喝。
+> 5 look satisfied「看起來很滿足」，吃完蛋糕就睡著了。wooden（木製的）、modern（現代的）、illegal（違法的）都不能形容狗狗吃飽的樣子。
++ human = 人類
++ carrot = 紅蘿蔔
++ onion = 洋蔥
++ wag = 搖（尾巴）
++ guest of honor = 主角、貴賓
+= 我們家的狗 Momo 上週滿十歲了，大約等於人類的六十歲！為了慶祝，我和妹妹幫牠做了一個特別的生日蛋糕。當然，狗不能吃巧克力和糖，所以我們用牛肉、紅蘿蔔和一點點米做蛋糕。我們沒有放鹽或洋蔥，因為那些對狗不好。我們還煮了一些豬骨，熬成清淡的湯給牠喝。把蛋糕放到 Momo 面前時，牠的尾巴搖得好快，一分鐘就把整個蛋糕吃光了！接著牠在我們旁邊躺下來睡著了。媽媽拍了一張照片說：「你們看，牠看起來好滿足。」這是我們家辦過最棒的生日派對，雖然主角大部分時間都在睡覺。
+
+## 火車上的鐵路便當
+Taiwan's railway lunch box is famous. Every time we take the train to Hualien, Dad buys one for each of us. Inside, there is a big piece of fried [[pork|homework|traffic|weather]], half an egg, some vegetables, and rice. Some people say it tastes better on the train, while you look at the mountains and the sea. This year, the railway company started to sell new kinds of lunch boxes. There was one with [[beef|knowledge|information|history]] from Taitung, and one with [[seafood|garbage|news|energy]] from Yilan, with shrimp and fish. The new boxes are so [[popular|empty|wooden|careless]] that they often sell out before noon. But Dad always [[chooses|spells|marries|prays]] the old pork one. "I've eaten it for forty years," he says. "Some tastes never change, and that's why I love it."
+> 1 a big piece of fried pork「一大塊炸豬排」，是鐵路便當的招牌。homework（功課）、traffic（交通）、weather（天氣）都不能炸來吃。
+> 2 台東的牛肉 beef 便當。knowledge（知識）、information（資訊）、history（歷史）都不能放進便當。
+> 3 宜蘭的海鮮 seafood 便當，有蝦子和魚。garbage（垃圾）、news（新聞）、energy（能量）都不能放進便當。
+> 4 so popular that they sell out「受歡迎到中午前就賣完」。empty（空的）、wooden（木製的）、careless（粗心的）都不能說明便當為什麼賣完。
+> 5 choose + 東西「選擇」，爸爸總是選傳統排骨便當。spells（拼字）、marries（結婚）、prays（禱告）接 the old pork one 都不通。
++ railway = 鐵路
++ Hualien = 花蓮
++ fried = 炸的
++ Taitung = 台東
++ Yilan = 宜蘭
+= 台灣的鐵路便當很有名。每次我們搭火車去花蓮，爸爸都會幫每個人買一個。便當裡有一大塊炸排骨、半顆蛋、一些青菜和白飯。有人說，一邊看著山和海一邊吃，便當會更好吃。今年，鐵路公司開始賣新口味的便當，有一款是台東的牛肉便當，還有一款是宜蘭的海鮮便當，裡面有蝦子和魚。新便當受歡迎到常常中午前就賣完了。但爸爸總是選傳統的排骨便當。「我吃了四十年了，」他說，「有些味道永遠不會變，所以我才愛它。」
+
+## 阿嬤的肉粽
+Every Dragon Boat Festival, Grandma makes rice dumplings. She puts sticky rice, mushrooms, peanuts, an egg yolk, and a big piece of [[pork|homework|traffic|weather]] in each one. My aunt in Tainan likes to add dried shrimp and other [[seafood|knowledge|information|history]]. Grandma says every family has its own secret. This year, I helped her. Folding the leaves was more [[difficult|wooden|crowded|national]] than I thought. My first rice dumpling looked strange, and the rice came out of it when we boiled it. Grandma laughed and said, "It's okay. Everyone starts like that." In the end, we made sixty dumplings. We [[gave|spelled|married|prayed]] some to our neighbors. The next day, our neighbor brought us a pot of chicken [[soup|garbage|news|energy]] to say thank you. Grandma said, "This is what festivals are for."
+> 1 肉粽裡包一大塊豬肉 pork。homework（功課）、traffic（交通）、weather（天氣）都不能包進粽子。
+> 2 dried shrimp and other seafood「蝦米和其他海鮮」。knowledge（知識）、information（資訊）、history（歷史）都不能加進粽子裡。
+> 3 more difficult than I thought「比我想的還難」，後面說第一顆粽子包得很怪。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能形容包粽子這件事。
+> 4 give some to our neighbors「送一些給鄰居」，give 的過去式 gave。spelled（拼字）、married（結婚）、prayed（禱告）都不能接 some to our neighbors。
+> 5 a pot of chicken soup「一鍋雞湯」，鄰居回送的謝禮。garbage（垃圾）、news（新聞）、energy（能量）都不能用鍋子裝來答謝。
++ Dragon Boat Festival = 端午節
++ sticky rice = 糯米
++ peanut = 花生
++ egg yolk = 蛋黃
++ fold = 摺、包
+= 每年端午節，阿嬤都會包粽子。她在每顆粽子裡放糯米、香菇、花生、蛋黃和一大塊豬肉。台南的阿姨則喜歡加蝦米和其他海鮮。阿嬤說，每個家庭都有自己的祕方。今年我也幫忙包，摺粽葉比我想像的還難。我包的第一顆粽子形狀很奇怪，煮的時候米還跑了出來。阿嬤笑著說：「沒關係，大家一開始都是這樣。」最後，我們包了六十顆粽子，還送了一些給鄰居。隔天，鄰居送來一鍋雞湯表示感謝。阿嬤說：「這就是過節的意義啊。」
+
+## 素食星期一
+Our school started a new plan this semester: Meatless Monday. Every Monday, there is no [[beef|homework|traffic|weather]], chicken, or pork in our school lunch. At first, many students were [[unhappy|wooden|modern|national]] about it. "How can I play basketball without meat?" Jack complained. But the cooks worked hard. They made tofu that tasted like [[pork|knowledge|information|history]], and a mushroom [[soup|garbage|news|energy]] that was thick and rich. Some fish lovers asked, "Can we at least have [[seafood|nature|history|traffic]] on Mondays?" The answer was still no, but the cooks added more beans and eggs to the menu. After two months, something strange happened. Jack said, "The tofu is so good. Monday is now my favorite lunch day!" Even our teacher started to bring vegetable lunches on other days, too.
+> 1 素食星期一，午餐沒有牛肉 beef、雞肉或豬肉。homework（功課）、traffic（交通）、weather（天氣）都不是午餐的肉類。
+> 2 be unhappy about…「對…不高興」，後面 Jack 抱怨沒有肉。wooden（木製的）、modern（現代的）、national（國家的）都不能形容學生的心情。
+> 3 tofu that tasted like pork「吃起來像豬肉的豆腐」。knowledge（知識）、information（資訊）、history（歷史）都沒有味道可比較。
+> 4 mushroom soup「蘑菇濃湯」，又濃又香。garbage（垃圾）、news（新聞）、energy（能量）都不能用「濃郁」形容、也不能煮。
+> 5 愛吃魚的同學問星期一能不能至少吃海鮮 seafood。nature（自然）、history（歷史）、traffic（交通）都不是魚類愛好者想吃的東西。
++ meatless = 無肉的
++ complain = 抱怨
++ tofu = 豆腐
++ mushroom = 蘑菇
++ bean = 豆子
+= 這學期我們學校開始一個新計畫：素食星期一。每週一的營養午餐都沒有牛肉、雞肉或豬肉。一開始，很多學生都不太高興。「沒有肉我要怎麼打籃球？」Jack 抱怨。但廚房阿姨們很努力，她們做出吃起來像豬肉的豆腐，還有濃郁的蘑菇濃湯。有些愛吃魚的同學問：「星期一至少可以吃海鮮吧？」答案還是不行，不過廚房在菜單裡加了更多豆類和蛋。兩個月後，奇怪的事發生了。Jack 說：「豆腐好好吃，星期一現在是我最喜歡的午餐日！」連我們老師也開始在其他天帶素食便當了。
+
+## 動物園的晚餐時間
+Have you ever wondered what zoo animals eat? Last week, our class visited Taipei Zoo and met a zookeeper named Mr. Wu. He showed us the kitchen where the animals' meals are made. The lions get big pieces of [[beef|homework|traffic|weather]] three times a week. "On other days, we give them chicken," Mr. Wu said. The penguins eat fish and other [[seafood|knowledge|information|history]], like squid. The pandas, of course, eat bamboo all day. Then Mr. Wu told us a funny story. One cold winter, he made warm [[soup|garbage|news|energy]] for an old orangutan. She loved it so much that she [[hid|spelled|married|borrowed]] the bowl so no one could take it away. Every morning, she brought the empty bowl back to him and waited. "Animals have [[feelings|tickets|uniforms|corners]] just like us," he said. "They know who is kind to them."
+> 1 獅子一週吃三次大塊牛肉 beef。homework（功課）、traffic（交通）、weather（天氣）都不能切成大塊餵獅子。
+> 2 企鵝吃魚和其他海鮮 seafood，例如魷魚。knowledge（知識）、information（資訊）、history（歷史）都不能餵動物。
+> 3 warm soup「熱湯」，冬天煮給老紅毛猩猩喝。garbage（垃圾）、news（新聞）、energy（能量）都不能煮給動物喝。
+> 4 hide the bowl「把碗藏起來」，不讓別人拿走，hide 的過去式 hid。spelled（拼字）、married（結婚）、borrowed（借）都不能表示「不讓人拿走」。
+> 5 Animals have feelings「動物也有感情」，牠們知道誰對牠們好。tickets（票）、uniforms（制服）、corners（角落）都和動物懂得感受無關。
++ zookeeper = 動物園管理員
++ penguin = 企鵝
++ squid = 魷魚
++ bamboo = 竹子
++ orangutan = 紅毛猩猩
+= 你有沒有想過動物園裡的動物吃什麼？上週我們班去台北市立動物園，認識了一位叫吳先生的管理員。他帶我們參觀準備動物餐點的廚房。獅子一週吃三次大塊牛肉。「其他天我們餵牠們吃雞肉。」吳先生說。企鵝吃魚和其他海鮮，像是魷魚。熊貓當然是一整天吃竹子。接著吳先生跟我們說了一個有趣的故事：有一年冬天很冷，他煮了熱湯給一隻年老的紅毛猩猩喝。牠喜歡到把碗藏起來，不讓任何人拿走。每天早上，牠都把空碗拿回來給他，然後在旁邊等。「動物跟我們一樣有感情，」他說，「牠們知道誰對牠們好。」
+
+## 表哥的營養師
+My cousin Ray wants to be a professional basketball player. He practices every day, but he often feels tired. So he went to see a sports nutritionist. She asked him what he usually ate. "Fried chicken and soda," Ray said. She shook her head. "You should eat more fish and other [[seafood|homework|traffic|weather]]," she said. "Lean [[beef|knowledge|information|history]] is also good for your muscles. And drink less soda. A bowl of vegetable [[soup|garbage|news|nature]] is much better for you." She also told him to sleep eight hours a night. Ray [[followed|spelled|married|borrowed]] her advice for three months. Now he has more [[energy|homework|traffic|garbage]] on the court, and he can run faster than before. Last week, he scored twenty points in a game. "It's not magic," Ray told me. "It's just good food and good sleep."
+> 1 營養師建議多吃魚和其他海鮮 seafood。homework（功課）、traffic（交通）、weather（天氣）都不能吃。
+> 2 lean beef「瘦牛肉」，對肌肉有益。knowledge（知識）、information（資訊）、history（歷史）都不能用「瘦」來形容、也不能吃。
+> 3 a bowl of vegetable soup「一碗蔬菜湯」，比汽水健康。garbage（垃圾）、news（新聞）、nature（自然）都不能用碗裝來喝。
+> 4 follow one's advice「聽從某人的建議」，follow 的過去式 followed。spelled（拼字）、married（結婚）、borrowed（借）都不能和 advice 搭配表示照著做。
+> 5 have more energy「更有活力、體力更好」，所以跑得比以前快。homework（功課）、traffic（交通）、garbage（垃圾）變多都不會讓人跑得更快。
++ professional = 職業的
++ nutritionist = 營養師
++ soda = 汽水
++ lean = 瘦的（肉）
++ muscle = 肌肉
+= 我表哥 Ray 想當職業籃球員。他每天練球，卻常常覺得很累。所以他去看了一位運動營養師。營養師問他平常吃什麼。「炸雞和汽水。」Ray 說。她搖搖頭說：「你應該多吃魚和其他海鮮，瘦牛肉對肌肉也很好。還有，少喝汽水，一碗蔬菜湯對你好多了。」她也叫他每天晚上睡八個小時。Ray 照著她的建議做了三個月，現在他在球場上更有體力，跑得也比以前快。上週他在一場比賽中拿了二十分。「這不是魔法，」Ray 跟我說，「只是好好吃飯、好好睡覺而已。」
+
+## 哥哥的料理影片
+My brother Sam wants to be a cooking YouTuber. Last Saturday, he decided to film his first video: "How to Cook the Perfect Steak." He bought a thick [[steak|ticket|village|pocket]] with his own money and set up his phone in the kitchen. Everything went well at first. He put salt and pepper on the [[beef|homework|traffic|weather]] and heated the pan. But then he talked to the camera for too long, and smoke filled the kitchen. The fire alarm went off! Dad ran in and opened all the windows. The steak was black on one side, and Sam was very [[disappointed|wooden|crowded|national]]. But the video got more than ten thousand views because people thought it was funny. For his next video, Sam plans to make [[soup|knowledge|information|history]]. "It's safer," he says. "Nothing can [[burn|spell|marry|borrow]] in water."
+> 1 a thick steak「一塊厚牛排」，影片主題就是煎牛排。ticket（票）、village（村莊）、pocket（口袋）都不能拿來煎。
+> 2 在牛肉 beef 上撒鹽和胡椒。homework（功課）、traffic（交通）、weather（天氣）都不能調味。
+> 3 牛排一面燒焦了，Sam 很失望 disappointed。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能形容人的心情。
+> 4 下一支影片打算煮湯 soup，因為「在水裡什麼都燒不焦」。knowledge（知識）、information（資訊）、history（歷史）都不能煮。
+> 5 Nothing can burn in water.「在水裡什麼都不會燒焦」，呼應上次牛排燒焦。spell（拼字）、marry（結婚）、borrow（借）都和煮東西安全無關。
++ YouTuber = 網路影片創作者
++ film = 拍攝
++ pepper = 胡椒
++ pan = 平底鍋
++ fire alarm = 火災警報器
+= 我哥哥 Sam 想當料理 YouTuber。上週六，他決定拍第一支影片：「如何煎出完美牛排」。他用自己的錢買了一塊厚牛排，在廚房架好手機。一開始一切順利，他在牛肉上撒鹽和胡椒，再把平底鍋加熱。但接著他對著鏡頭講太久，整個廚房都是煙，火災警報器響了！爸爸衝進來打開所有窗戶。牛排有一面燒得黑黑的，Sam 很失望。不過這支影片有超過一萬次觀看，因為大家覺得很好笑。下一支影片，Sam 打算煮湯。「比較安全，」他說，「在水裡什麼都燒不焦。」
+
+## 小美人魚的晚餐
+Coral is a young mermaid. One day, she used magic to get legs and walked into a town by the sea. She was hungry, so she went into a restaurant. She looked at the menu and almost [[cried|spelled|married|borrowed]]. Fish [[soup|homework|traffic|weather]], fried shrimp, crab with rice: it was all [[seafood|knowledge|information|history]]! "These are my friends!" she said. The waiter was confused. "Then how about some [[beef|garbage|news|energy]] noodles?" he asked. Coral had never seen a cow, but she tried them. They were hot and spicy, and she liked them a lot. She ate two bowls. After dinner, she went back to the sea and told her family about her [[experience|grade|corner|uniform]] on land. Her little brother asked, "What is a cow?" Coral thought for a moment. "I don't know," she said, "but it's delicious."
+> 1 看到菜單全是海裡的朋友，她差點哭 cried 了。spelled（拼字）、married（結婚）、borrowed（借）都不是看菜單時「差點」會做的反應。
+> 2 fish soup「魚湯」，是菜單上的一道菜。homework（功課）、traffic（交通）、weather（天氣）都不會出現在菜單上。
+> 3 魚湯、炸蝦、螃蟹飯全都是海鮮 seafood，所以她說「這些是我的朋友」。knowledge（知識）、information（資訊）、history（歷史）都不能概括這些菜。
+> 4 beef noodles「牛肉麵」，後面她問「牛是什麼」。garbage（垃圾）、news（新聞）、energy（能量）都不能做成麵。
+> 5 tell … about one's experience「說自己的經歷」，她把在陸地上的經驗告訴家人。grade（成績）、corner（角落）、uniform（制服）都和她上岸吃飯的事無關。
++ mermaid = 美人魚
++ shrimp = 蝦子
++ crab = 螃蟹
++ confused = 困惑的
++ cow = 牛
+= Coral 是一條年輕的美人魚。有一天，她用魔法變出雙腿，走進海邊的一個小鎮。她肚子餓了，就走進一家餐廳。她看著菜單，差點哭出來：魚湯、炸蝦、螃蟹飯，全都是海鮮！「這些是我的朋友啊！」她說。服務生一頭霧水：「那來碗牛肉麵怎麼樣？」Coral 從沒見過牛，但還是試了。麵又熱又辣，她非常喜歡，吃了兩碗。晚餐後，她回到海裡，把在陸地上的經歷告訴家人。弟弟問：「牛是什麼？」Coral 想了一下說：「我不知道，但牠很好吃。」
+
+## 國際美食日
+Last Friday was International Food Day at our school. Students from different countries brought food from home. Hiro from Japan made miso [[soup|homework|traffic|weather]] with tofu. Maria from Brazil brought grilled [[beef|knowledge|information|history]], and the line in front of her table was the longest. Our class made Taiwanese braised [[pork|garbage|news|energy]] rice. I was in charge of the rice, and I was very [[nervous|wooden|crowded|national]] because I didn't want to make it too wet. Luckily, people liked it, and some even came back for a second bowl. A teacher from Spain made a big pan of rice with shrimp and other seafood. By noon, all the food was gone. Our principal said, "Food is a great way to [[learn|spell|marry|borrow]] about other cultures. Next year, let's make it two days!"
+> 1 miso soup「味噌湯」，日本料理，加了豆腐。homework（功課）、traffic（交通）、weather（天氣）都不能煮。
+> 2 grilled beef「烤牛肉」，巴西的料理，攤位前大排長龍。knowledge（知識）、information（資訊）、history（歷史）都不能烤。
+> 3 braised pork rice「滷肉飯」，台灣代表性料理。garbage（垃圾）、news（新聞）、energy（能量）都不能滷來配飯。
+> 4 很緊張 nervous，怕飯煮得太濕。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能形容負責煮飯的心情。
+> 5 learn about…「了解、學習關於…」，透過食物認識其他文化。spell（拼字）、marry（結婚）、borrow（借）都不能接 about other cultures。
++ international = 國際的
++ miso = 味噌
++ Brazil = 巴西
++ grilled = 烤的
++ braised = 滷的
+= 上週五是我們學校的國際美食日，來自不同國家的學生都帶了家鄉菜。日本的 Hiro 煮了加豆腐的味噌湯；巴西的 Maria 帶了烤牛肉，她攤位前的隊伍最長。我們班做了台灣滷肉飯。我負責煮飯，非常緊張，因為我不想把飯煮得太濕。幸好大家都很喜歡，有些人還回來吃第二碗。一位西班牙老師做了一大鍋加蝦子和其他海鮮的燉飯。到了中午，所有食物都吃光了。校長說：「食物是認識其他文化的好方法。明年我們辦兩天吧！」
+
+## 寒流夜的火鍋
+It was only ten degrees last night, the coldest night of the year. Mom said, "Tonight, let's have hot pot!" We all cheered. Everyone had a job. Dad went to the market and bought thin slices of [[beef|homework|traffic|weather]]. My sister washed the cabbage and mushrooms. I [[prepared|spelled|married|borrowed]] the dipping sauce with soy sauce, garlic, and green onions. Mom made the [[soup|knowledge|information|history]] base with chicken bones and tomatoes. When the pot started to boil, we put in fish balls, shrimp, and other [[seafood|garbage|news|energy]]. Then Dad put in the beef and some [[pork|nature|history|traffic]] slices, too. The kitchen got warm, and the windows turned white. We ate and talked for two hours. When we finished, my sister said, "I hope it's cold again tomorrow!"
+> 1 thin slices of beef「薄牛肉片」，是爸爸去市場買的火鍋料。homework（功課）、traffic（交通）、weather（天氣）都不能切成薄片。
+> 2 prepare the dipping sauce「準備沾醬」，prepare 的過去式 prepared。spelled（拼字）、married（結婚）、borrowed（借）接 the dipping sauce 都不通。
+> 3 soup base「湯底」，用雞骨和番茄熬成。knowledge（知識）、information（資訊）、history（歷史）都不能熬。
+> 4 魚丸、蝦子和其他海鮮 seafood 一起下鍋。garbage（垃圾）、news（新聞）、energy（能量）都不能放進火鍋裡。
+> 5 pork slices「豬肉片」，和牛肉一起涮。nature（自然）、history（歷史）、traffic（交通）都不能切片放進鍋裡。
++ hot pot = 火鍋
++ slice = 薄片
++ cabbage = 高麗菜
++ dipping sauce = 沾醬
++ garlic = 蒜頭
+= 昨晚只有十度，是今年最冷的一晚。媽媽說：「今晚我們吃火鍋吧！」大家都歡呼起來。每個人都有工作：爸爸去市場買薄牛肉片，妹妹洗高麗菜和香菇，我用醬油、蒜頭和蔥準備沾醬，媽媽用雞骨和番茄熬湯底。鍋子一滾，我們就放進魚丸、蝦子和其他海鮮，接著爸爸也放進牛肉和一些豬肉片。廚房變得暖呼呼的，窗戶都起霧變白了。我們邊吃邊聊了兩個小時。吃完時，妹妹說：「希望明天還是這麼冷！」
