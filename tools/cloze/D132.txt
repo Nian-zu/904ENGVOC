@@ -262,3 +262,141 @@ Our town held a dumpling-eating contest last weekend. The winner would get a big
 + dumpling = 水餃
 + contest = 比賽
 = 上週末，我們鎮上舉辦了一場吃水餃比賽，冠軍可以得到一個大獎：一台新腳踏車。我哥哥 Ben 是我認識的人裡面最會吃的，他決定報名參加。那天早上他沒吃早餐，好讓胃有更多空間。比賽有十個人，每個人有三十分鐘，盡量吃越多水餃越好。比賽一開始，Ben 吃得很快。吃了五十顆後，他慢了下來；吃到八十顆時，他停下來抱著肚子。他旁邊一個高大的男人還在吃。「喝點水！」我大喊。Ben 試著喝，但水就是吞不下喉嚨。最後，那個大個子吃了一百二十顆奪冠，Ben 得了第二名。他也拿到一個獎品：一家水餃店的免費晚餐。Ben 看看那張卡，摸摸自己的肚子，說：「也許下個月再去吧。」
+
+## 萬聖節的吸血鬼裝
+For the school Halloween party, I wanted to be a vampire. I wore a black cape and put on plastic teeth. My sister painted my face white. "You look scary!" she said. At the party, I met my friend Ivy. She was dressed as a doctor. "Stay away from me!" she laughed. "Vampires bite people on the [[neck|ticket|village|meal]]." I tried to say something scary back, but the fake teeth were too big. My words came out strange, and everyone laughed. Then the teacher brought out a big cake. I was [[hungry|honest|polite|lonely]], so I took a piece. But I could not eat with the plastic teeth in my mouth. I took them out and ate the cake happily. A piece of cream fell on my cape and slid down near my [[stomach|bill|museum|letter]]. Ivy laughed so hard that she held her [[stomach|corner|ticket|village]]. "You're not scary at all," she said. "You're [[cute|crowded|national|wooden]]!"
+> 1 吸血鬼咬人的「脖子」bite people on the neck。ticket（票）、village（村莊）、meal（一餐）都不是身體部位。
+> 2 肚子「餓」了，所以拿了一塊蛋糕 I was hungry, so I took a piece。honest（誠實的）、polite（有禮貌的）、lonely（孤單的）和拿蛋糕沒有因果關係。
+> 3 奶油掉在斗篷上，滑到「肚子」附近 near my stomach。bill（帳單）、museum（博物館）、letter（信）不在身上。
+> 4 laugh so hard that … held one's stomach「笑到抱著肚子」。corner（角落）、ticket、village 不能抱著。
+> 5 一點都不可怕，反而很「可愛」You're cute。crowded（擁擠的）、national（國家的）、wooden（木製的）不能形容人。
++ Halloween = 萬聖節
++ vampire = 吸血鬼
++ cape = 斗篷
++ fake = 假的
++ cream = 奶油
+= 學校的萬聖節派對，我想扮成吸血鬼。我穿上黑色斗篷，戴上塑膠假牙，姊姊幫我把臉塗白。「你看起來好可怕！」她說。在派對上，我遇到朋友 Ivy，她扮成醫生。「離我遠一點！」她笑著說，「吸血鬼會咬人的脖子。」我想說些可怕的話回她，但假牙太大了，說出來的話怪怪的，大家都笑了。接著老師拿出一個大蛋糕。我餓了，就拿了一塊，可是戴著塑膠假牙沒辦法吃。我把假牙拿出來，開心地吃起蛋糕。一塊奶油掉在我的斗篷上，一路滑到肚子附近。Ivy 笑到抱著肚子。「你一點都不可怕，」她說，「你好可愛！」
+
+## 稻田裡的青蛙合唱團
+Every summer night, the frogs in the rice field behind my grandpa's house start their concert. "Ribbit! Ribbit!" They are so [[loud|polite|honest|patient]] that I can hear them from my bedroom. One night, Grandpa took me out with a flashlight to look at them. We found a small green frog on a rock. When it sang, the skin under its [[throat|ticket|village|bill]] got bigger and bigger, like a balloon. "That's how it makes such a big sound," Grandpa explained. "It works like a speaker." Then the frog jumped onto my [[shoulder|meal|museum|letter]]! I was so [[surprised|cheap|crowded|wooden]] that I almost dropped the flashlight. Grandpa laughed. "It likes you." I stood still, and after a minute, the frog jumped back into the water. On the way home, I tried to sing like a frog. I pushed air into my throat and made a funny sound. "Ribbit!" Grandpa laughed so hard that he held his [[stomach|corner|ticket|village]].
+> 1 在房間裡都聽得到，表示很「大聲」so loud that I can hear them。polite（有禮貌的）、honest（誠實的）、patient（有耐心的）和聽得到聲音無關。
+> 2 青蛙叫的時候，「喉嚨」下面的皮膚會像氣球一樣鼓起來 the skin under its throat。ticket（票）、village（村莊）、bill（帳單）不是青蛙的身體部位。
+> 3 青蛙跳到我的「肩膀」上 jumped onto my shoulder。meal（一餐）、museum（博物館）、letter（信）都不在我身上。
+> 4 嚇一跳，「驚訝」到手電筒差點掉了 so surprised that I almost dropped the flashlight。cheap（便宜的）、crowded（擁擠的）、wooden（木製的）不能形容人。
+> 5 笑到抱著「肚子」held his stomach。corner（角落）、ticket、village 不能抱著。
++ frog = 青蛙
++ rice field = 稻田
++ flashlight = 手電筒
++ balloon = 氣球
++ speaker = 喇叭
+= 每年夏天晚上，阿公家後面稻田裡的青蛙都會開演唱會。「呱！呱！」牠們叫得好大聲，我在房間都聽得到。有一天晚上，阿公帶我拿著手電筒出去看牠們。我們在一塊石頭上找到一隻綠色的小青蛙。牠叫的時候，喉嚨下面的皮膚越鼓越大，像一顆氣球。「牠就是這樣發出那麼大的聲音，」阿公解釋，「那就像一個喇叭。」接著，青蛙跳到了我的肩膀上！我嚇了一大跳，手電筒差點掉下去。阿公笑著說：「牠喜歡你。」我站著不動，一分鐘後，青蛙又跳回水裡。回家的路上，我試著學青蛙叫，把空氣擠進喉嚨，發出好笑的聲音：「呱！」阿公笑到抱著肚子。
+
+## 灰姑娘的清潔機器
+In this story, Cinderella did not wait for a prince. Every day, her stepmother made her clean the whole house. She washed the floors on her hands and [[knees|tickets|villages|bills]] for hours. Her [[neck|meal|letter|museum]] and [[shoulders|tickets|villages|bills]] always hurt. One day, she had an idea. "I'm tired of doing this the old way," she said. She found some old wood and wheels in the garden and started to [[build|bake|marry|cry]] a machine. It took her three weeks. Finally, the machine could clean the floor by itself. Now Cinderella did not need to get down on her knees anymore. News about the machine spread fast. Even the king wanted one for his palace. Soon, Cinderella opened her own [[business|garbage|traffic|weather]] and sold her machines all over the country. She became rich and famous. One day, a prince came to buy a machine. He asked her to go to a ball with him. Cinderella smiled. "Sorry, I have too much work to do."
+> 1 on one's hands and knees「跪趴著（用手和膝蓋撐地）」擦地板。tickets（票）、villages（村莊）、bills（帳單）不能撐在地上。
+> 2 長時間跪著擦地，「脖子」和肩膀總是很痛。meal（一餐）、letter（信）、museum（博物館）不是身體部位。
+> 3 「肩膀」痛 her shoulders always hurt，和前面的脖子並列。tickets、villages、bills 不會痛。
+> 4 用木頭和輪子開始「建造、做」一台機器 build a machine。bake（烤）、marry（結婚）、cry（哭）都不能接 a machine。
+> 5 open one's own business「自己開公司、創業」，接著賣機器到全國。garbage（垃圾）、traffic（交通）、weather（天氣）都不能「開」來賣東西。
++ Cinderella = 灰姑娘
++ stepmother = 繼母
++ wheel = 輪子
++ palace = 宮殿
++ ball = 舞會
+= 在這個故事裡，灰姑娘沒有等待王子。每天，繼母都要她打掃整間房子。她得跪趴在地上擦好幾個小時的地板，脖子和肩膀總是很痛。有一天，她想到一個主意：「我受夠用老方法做事了。」她在花園裡找到一些舊木頭和輪子，開始做一台機器。花了三個星期，這台機器終於可以自己清潔地板了。現在灰姑娘再也不用跪在地上了。這台機器的消息很快傳開，連國王都想要一台放在宮殿裡。不久，灰姑娘開了自己的公司，把機器賣到全國各地，變得又有錢又有名。有一天，一位王子來買機器，還邀請她一起去舞會。灰姑娘笑著說：「抱歉，我的工作太多了。」
+
+## 飛機上的頸枕
+This summer, my family flew to Canada to visit my aunt. The flight was thirteen hours long! Before we left, Mom bought everyone a neck pillow. "You'll thank me later," she said. I thought it looked [[stupid|crowded|thirsty|delicious]], so I did not use it. After dinner on the plane, the lights went down. I tried to sleep sitting up. My head kept falling to one side, and I woke up with a stiff [[neck|ticket|village|letter]]. My little brother was sleeping happily with his pillow on. My dad was sleeping too, with his head on Mom's [[shoulder|bill|meal|museum]]. I could not sit still because my [[knees|tickets|museums|villages]] were pressed against the seat in front of me. Finally, I took out the pillow and put it on. It was soft and warm. In five minutes, I was asleep. When I woke up, we were [[almost|either|quite|instead]] in Canada. Mom smiled at me. "See? I told you."
+> 1 覺得頸枕看起來很「蠢」，所以不用 looked stupid。crowded（擁擠的）、thirsty（口渴的）、delicious（好吃的）不能形容頸枕的樣子。
+> 2 頭一直歪向一邊，醒來「脖子」僵硬 a stiff neck。ticket（票）、village（村莊）、letter（信）不會僵硬。
+> 3 爸爸把頭靠在媽媽的「肩膀」上睡 his head on Mom's shoulder。bill（帳單）、meal（一餐）、museum（博物館）不能靠著睡。
+> 4 座位太擠，「膝蓋」頂到前面的椅背 my knees were pressed against the seat。tickets、museums、villages 都不是身體部位。
+> 5 醒來時「快要」到加拿大了 we were almost in Canada。either（兩者之一）、quite（相當）、instead（反而）放在 in Canada 前面都不通。
++ Canada = 加拿大
++ flight = 航班、飛行
++ neck pillow = 頸枕
++ stiff = 僵硬的
++ press = 壓、頂
+= 今年夏天，我們全家搭飛機去加拿大看阿姨，航程足足十三個小時！出發前，媽媽幫每個人買了一個頸枕。「你們之後會感謝我的。」她說。我覺得頸枕看起來很蠢，所以沒有用。在飛機上吃完晚餐後，燈光暗了下來。我試著坐著睡，頭卻一直歪向一邊，醒來時脖子僵硬得要命。弟弟戴著頸枕睡得很香，爸爸也睡著了，頭靠在媽媽的肩膀上。我沒辦法坐好，因為膝蓋一直頂著前面的椅背。最後，我拿出頸枕戴上，它又軟又暖，五分鐘內我就睡著了。醒來時，我們快到加拿大了。媽媽對我笑了笑：「看吧？我早就跟你說了。」
+
+## 街舞社的第一堂課
+I joined the street dance club this semester. On the first day, our teacher, a college student named Leo, showed us a cool move. He rolled his [[shoulders|tickets|villages|bills]] to the beat and then dropped down to the floor. "Your turn!" he said. I tried, but I looked like a robot with no oil. "Relax," Leo said. "Don't keep your legs straight. Bend your [[knees|meals|letters|museums]] a little and feel the music." I practiced again and again. After an hour, I was so [[tired|polite|honest|cheap]] that I lay down on the floor. "Drink some water," Leo said. "And don't forget to stretch your [[neck|corner|ticket|village]] before you go home, or you will feel it tomorrow." He was right. The next morning, everything hurt. But I did not give up. Every day after school, I practiced in front of the mirror. One month later, I danced on the stage at the school [[festival|garbage|traffic|weather]], and everyone cheered for me.
+> 1 跟著節拍轉動「肩膀」rolled his shoulders，是街舞常見動作。tickets（票）、villages（村莊）、bills（帳單）不能轉動。
+> 2 腿不要打直，「膝蓋」稍微彎一點 Bend your knees。meals（餐點）、letters（信）、museums（博物館）不能彎。
+> 3 練了一小時，「累」到躺在地上 so tired that I lay down。polite（有禮貌的）、honest（誠實的）、cheap（便宜的）和躺下來沒有因果關係。
+> 4 回家前要伸展「脖子」stretch your neck，不然明天會痠痛。corner（角落）、ticket、village 不能伸展。
+> 5 在學校的「園遊會、慶典」舞台上跳舞 at the school festival。garbage（垃圾）、traffic（交通）、weather（天氣）都不是可以上台表演的活動。
++ street dance = 街舞
++ roll = 轉動
++ beat = 節拍
++ stretch = 伸展
+= 這學期我加入了街舞社。第一天，我們的老師——一位叫 Leo 的大學生——示範了一個很酷的動作：他跟著節拍轉動肩膀，接著一下子蹲到地上。「換你們了！」他說。我試了一下，看起來卻像一台沒上油的機器人。「放輕鬆，」Leo 說，「腿不要打直，膝蓋稍微彎一點，感受音樂。」我一次又一次地練習。一個小時後，我累到直接躺在地上。「喝點水，」Leo 說，「回家前別忘了伸展一下脖子，不然明天你就知道了。」他說得沒錯，隔天早上我全身都在痛。但我沒有放棄，每天放學後都對著鏡子練習。一個月後，我在學校慶典的舞台上跳舞，大家都為我歡呼。
+
+## 看診時的「啊」
+Last week, my little brother Leo got a cold. He had a fever, and his [[throat|ticket|village|museum]] was red and sore. Mom took him to the clinic. Leo was [[afraid|honest|polite|cheap]] of doctors. When the doctor said, "Open your mouth and say 'Ahh,'" Leo shut his mouth tightly. The doctor did not get angry. Instead, he took out a toy lion. "This lion has a sore throat too. Can you help him?" Leo nodded. "Lion, open your mouth!" he said. Then he opened his own mouth to show the lion. "Ahh!" The doctor quickly looked inside. "Good job!" Then he listened to Leo's chest and pressed gently on his [[stomach|bill|letter|corner]]. "Does this hurt?" "No," said Leo. The doctor gave him some medicine and told him to drink a lot of water. Before we left, the doctor put a lion sticker on Leo's [[shoulder|meal|ticket|village]]. On the way home, Leo kept [[showing|baking|marrying|borrowing]] it to everyone on the bus.
+> 1 感冒發燒，「喉嚨」又紅又痛 his throat was red and sore。ticket（票）、village（村莊）、museum（博物館）不會紅腫疼痛。
+> 2 be afraid of…「害怕…」：他怕醫生，所以把嘴巴閉緊。honest（誠實的）、polite（有禮貌的）、cheap（便宜的）都不能接 of doctors。
+> 3 醫生輕壓「肚子」問會不會痛 pressed gently on his stomach。bill（帳單）、letter（信）、corner（角落）不是身體部位。
+> 4 把獅子貼紙貼在 Leo 的「肩膀」上 on Leo's shoulder。meal（一餐）、ticket、village 都不在他身上。
+> 5 keep + V-ing「一直做…」：一直把貼紙「秀給」大家看 kept showing it to everyone。baking（烤）、marrying（結婚）、borrowing（借入）都不能接 it to everyone。
++ fever = 發燒
++ clinic = 診所
++ nod = 點頭
++ chest = 胸口
++ sticker = 貼紙
+= 上週，我弟弟 Leo 感冒了。他發燒，喉嚨又紅又痛，媽媽帶他去診所。Leo 很怕醫生，當醫生說：「嘴巴張開，說『啊』」時，Leo 把嘴巴閉得緊緊的。醫生沒有生氣，反而拿出一隻玩具獅子。「這隻獅子也喉嚨痛，你可以幫幫牠嗎？」Leo 點點頭。「獅子，嘴巴張開！」他說，接著自己張開嘴巴示範給獅子看：「啊——！」醫生趕快看了一下。「做得好！」然後醫生聽了聽 Leo 的胸口，輕輕壓他的肚子。「這樣會痛嗎？」「不會。」Leo 說。醫生開了一些藥，要他多喝水。離開前，醫生在 Leo 的肩膀上貼了一張獅子貼紙。回家的路上，Leo 在公車上一直把貼紙秀給每個人看。
+
+## 偷吃雞蛋的蛇
+A farmer had a chicken house with many eggs. Every morning, some eggs were missing. One night, he hid and watched. A long snake came in through a small hole in the wall. It opened its mouth very wide and slowly swallowed a whole egg. The farmer could see the egg moving down its [[throat|ticket|village|bill]] like a ball. Then the snake swallowed another egg, and another. Its [[stomach|letter|museum|meal]] now had three big round bumps. The snake was very [[full|crowded|honest|polite]]. It wanted to leave, but now it was too fat to go out through the small hole! It got stuck in the middle. The farmer laughed and carefully picked it up behind its [[neck|corner|ticket|village]]. He carried the snake to a forest far away and let it go. Then he [[fixed|baked|married|borrowed]] the hole in the wall. The snake never came back, but the farmer still tells this story with a smile.
+> 1 蛋像一顆球一樣滑下「喉嚨」moving down its throat。ticket（票）、village（村莊）、bill（帳單）不是蛇的身體部位。
+> 2 吞了三顆蛋，「肚子」鼓起三個圓包 Its stomach had three big round bumps。letter（信）、museum（博物館）、meal（一餐）都不合理。
+> 3 吃了三顆蛋，蛇很「飽」very full。crowded（擁擠的）、honest（誠實的）、polite（有禮貌的）不能形容吃飽的狀態。
+> 4 從「脖子」後面抓起蛇，牠才咬不到人 picked it up behind its neck。corner（角落）、ticket、village 都不是身體部位。
+> 5 fix the hole「把洞修好」，蛇才不會再進來。baked（烤）、married（結婚）、borrowed（借）接 the hole 都不合理。
++ snake = 蛇
++ swallow = 吞下
++ bump = 隆起、腫包
++ stuck = 卡住的
+= 一位農夫有一間雞舍，裡面有很多雞蛋。但每天早上，總有幾顆蛋不見了。有一天晚上，他躲起來偷看。一條長長的蛇從牆上的小洞鑽了進來，牠把嘴巴張得好大，慢慢吞下一整顆蛋。農夫看到那顆蛋像一顆球一樣滑下牠的喉嚨。接著蛇又吞了一顆、再一顆，牠的肚子上鼓起了三個圓圓的大包。這條蛇吃得飽飽的，想要離開，可是牠現在太胖了，鑽不出那個小洞！牠卡在洞的中間。農夫笑了，小心地從脖子後面把牠抓起來，帶到很遠的森林裡放走，然後把牆上的洞修好。那條蛇再也沒回來過，但農夫現在說起這個故事時，還是會笑。
+
+## 奶奶織的圍巾
+Last winter, my grandma knitted a scarf for me. It was bright yellow with a big red heart on it. When I saw it, I thought it was [[ugly|thirsty|hungry|crowded]]. I did not want to wear it to school because my friends might laugh, so I put it in my closet. One morning, it was only eight degrees outside. My [[neck|ticket|village|letter]] was so cold on the way to school, but I still did not wear the scarf. The next day, my [[throat|bill|meal|museum]] was sore, and I could hardly talk. I had no [[choice|garbage|traffic|weather]], so I put on Grandma's scarf. To my surprise, nobody laughed. Instead, my friend Sara said, "Where did you buy that? I want one too!" That evening, I called Grandma and asked her to teach me how to knit. On Sunday, we sat together on the sofa for hours. "Keep your [[shoulders|tickets|villages|bills]] relaxed," she said, "and move your hands slowly." Now I am making a scarf for Sara.
+> 1 一開始覺得圍巾很「醜」，怕被朋友笑 I thought it was ugly。thirsty（口渴的）、hungry（餓的）、crowded（擁擠的）不能形容圍巾。
+> 2 只有八度，「脖子」好冷 My neck was so cold。ticket（票）、village（村莊）、letter（信）不會覺得冷。
+> 3 受寒之後「喉嚨」痛，幾乎說不出話 my throat was sore。bill（帳單）、meal（一餐）、museum（博物館）和說話無關。
+> 4 have no choice「沒有選擇」，只好圍上圍巾。garbage（垃圾）、traffic（交通）、weather（天氣）不能用在 have no … 表示「不得不」。
+> 5 織東西時「肩膀」要放鬆 Keep your shoulders relaxed。tickets、villages、bills 不能放鬆。
++ knit = 編織
++ scarf = 圍巾
++ closet = 衣櫃
++ degree = 度（溫度）
++ sore = 疼痛的
+= 去年冬天，奶奶幫我織了一條圍巾，亮黃色的，上面還有一顆大大的紅心。我一看到就覺得好醜，不想戴去學校，怕朋友笑我，就把它收進了衣櫃。有一天早上，外面只有八度，上學路上我的脖子好冷，但我還是沒有圍那條圍巾。隔天，我喉嚨痛到幾乎說不出話。我沒有選擇，只好圍上奶奶織的圍巾。沒想到，沒有人笑我，我的朋友 Sara 反而說：「你在哪裡買的？我也想要一條！」那天晚上，我打電話給奶奶，請她教我織圍巾。星期天，我們一起在沙發上坐了好幾個小時。「肩膀放鬆，」她說，「手慢慢動。」現在，我正在幫 Sara 織一條圍巾。
+
+## 游泳課學蝶式
+This year, our swimming coach decided to teach us the butterfly stroke. "It's the hardest stroke," he said, "but it's also the most beautiful." First, he showed us how to move our arms. Both arms came out of the water at the same time and went forward. "Use your [[shoulders|tickets|villages|bills]], not just your hands," he said. Then he taught us the dolphin kick. "Keep your legs together. Don't bend your [[knees|meals|letters|museums]] too much." I tried my best, but I swallowed a lot of water. Every time I came up to breathe, I lifted my head too high, and my [[neck|corner|ticket|village]] started to hurt. "Look down, not forward," the coach said. "Move like a wave." After many weeks of practice, I finally swam twenty-five meters without stopping. I was so [[proud|cheap|crowded|wooden]] of myself! That night, my arms were so tired that I could not even hold my spoon. Mom laughed and said, "Do you want me to [[feed|bake|marry|borrow]] you?"
+> 1 划手時要用「肩膀」的力量 Use your shoulders。tickets（票）、villages（村莊）、bills（帳單）不能用來游泳。
+> 2 海豚踢時「膝蓋」不要彎太多 Don't bend your knees。meals（餐點）、letters（信）、museums（博物館）不能彎。
+> 3 換氣時頭抬太高，「脖子」開始痛 my neck started to hurt。corner（角落）、ticket、village 不會痛。
+> 4 be proud of oneself「為自己感到驕傲」。cheap（便宜的）、crowded（擁擠的）、wooden（木製的）都不能接 of myself 形容心情。
+> 5 手累到拿不動湯匙，媽媽開玩笑要「餵」我 feed you。bake（烤）、marry（結婚）、borrow（借）接 you 在這裡都不合理。
++ butterfly stroke = 蝶式
++ stroke = 泳式
++ dolphin kick = 海豚踢
++ breathe = 呼吸、換氣
++ wave = 波浪
+= 今年，我們的游泳教練決定教我們蝶式。「這是最難的泳式，」他說，「但也是最美的。」首先，他示範手臂怎麼動：兩隻手同時離開水面，往前伸。「要用肩膀的力量，不要只用手。」他說。接著，他教我們海豚踢。「兩腿併攏，膝蓋不要彎太多。」我盡了全力，卻喝了好多水。每次抬頭換氣，我的頭都抬得太高，脖子開始痛。「往下看，不要往前看，」教練說，「像波浪一樣動。」練習了好幾個星期後，我終於一口氣游完二十五公尺。我好為自己驕傲！那天晚上，我的手累到連湯匙都拿不住。媽媽笑著說：「要不要我餵你？」
+
+## 感冒的聖誕老公公
+On the night before Christmas, Santa Claus woke up with a terrible cold. His nose was red, and his [[throat|ticket|village|museum]] hurt so much that he could not say "Ho, ho, ho!" Mrs. Claus touched his head. "You have a fever. You must stay in bed," she said. "But the children are waiting for their gifts!" Santa said in a weak voice. So Mrs. Claus decided to go [[instead|either|quite|almost]]. She put on Santa's red coat and hat. The big bag of gifts was very heavy, but she put it on her [[shoulder|bill|letter|meal]] and climbed into the sleigh. The reindeer were surprised, but they flew her all over the world. At every house, she left gifts and ate a cookie. By morning, she had eaten so many cookies that her [[stomach|corner|ticket|village]] hurt. When she got home, Santa was feeling better. He had a warm scarf around his [[neck|museum|meal|bill]] and a cup of hot tea in his hand. "Thank you, dear," he said. "Next year, let's go together."
+> 1 感冒「喉嚨」痛到不能說「呵呵呵」his throat hurt。ticket（票）、village（村莊）、museum（博物館）不會痛。
+> 2 go instead「代替（他）去」。either（也不）、quite（相當）、almost（幾乎）放在句尾都不能表示「代替」。
+> 3 把一大袋禮物扛在「肩膀」上 put it on her shoulder。bill（帳單）、letter（信）、meal（一餐）上面不能扛東西。
+> 4 吃了太多餅乾，「肚子」痛 her stomach hurt。corner（角落）、ticket、village 不會因為吃太多而痛。
+> 5 圍巾圍在「脖子」上 a warm scarf around his neck。museum、meal、bill 都不能圍圍巾。
++ Santa Claus = 聖誕老公公
++ fever = 發燒
++ sleigh = 雪橇
++ reindeer = 麋鹿
++ scarf = 圍巾
+= 聖誕夜前一晚，聖誕老公公醒來時得了重感冒。他的鼻子紅紅的，喉嚨痛到連「呵呵呵」都說不出來。聖誕婆婆摸摸他的額頭說：「你發燒了，一定要待在床上。」「可是孩子們都在等禮物啊！」聖誕老公公虛弱地說。於是聖誕婆婆決定代替他去。她穿上聖誕老公公的紅外套、戴上紅帽子。那一大袋禮物很重，但她把它扛上肩膀，爬上了雪橇。麋鹿們很驚訝，但還是載著她飛遍全世界。每到一戶人家，她就留下禮物，吃一塊餅乾。到了早上，她吃了太多餅乾，肚子都痛了。她回到家時，聖誕老公公已經好多了，他的脖子上圍著一條暖暖的圍巾，手裡拿著一杯熱茶。「謝謝你，親愛的，」他說，「明年我們一起去吧。」

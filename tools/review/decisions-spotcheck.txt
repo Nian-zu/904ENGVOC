@@ -3,3 +3,5 @@ a94e9c6dea|near
 409ba65c98|available,beautiful,humorous
 f63186c1bb|cute,sad,tidy|He got three cookies, and I got none. That's not ____!
 46e5d1dbee|concert,church
+385097bdab|light,formal,loud,similar,familiar
+95f22e3302|interesting,crazy
