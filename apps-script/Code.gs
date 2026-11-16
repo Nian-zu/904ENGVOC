@@ -20,8 +20,9 @@ function doPost(e) {
   try {
     const body = JSON.parse(e.postData.contents);
     const seat = parseInt(body.seat, 10);
-    const name = String(body.name || '').trim().slice(0, 20);
     if (!(seat >= 1 && seat <= 60)) return out_({ ok: false, error: '座號不正確' });
+    // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
+    const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
     const answers = Array.isArray(body.answers) ? body.answers.slice(0, 300) : [];
     if (!answers.length) return out_({ ok: false, error: '沒有作答資料' });
@@ -58,11 +59,17 @@ function doPost(e) {
       (String(body.kind || 'all').split('+').map(function (k) { return kinds[k]; }).filter(Boolean).join('、') || '全部'), total, answered, right, score, seconds,
       answered >= total ? '是' : '否', wrong.slice(0, 100).join(' ')
     ];
+    // 每日小考：密碼正確就在 N 欄記下小考日期（錯題重做不算小考）
+    let quiz = '';
+    if (body.quiz && !redo) { const qt = quizTask_(body.quiz); if (qt) quiz = qt.date; }
+    row.push(quiz ? "'" + quiz : '');
 
     const lock = LockService.getScriptLock();
     lock.waitLock(20000);
     try {
       const sh = sheet_();
+      if (sh.getMaxColumns() < row.length) sh.insertColumnsAfter(sh.getMaxColumns(), row.length - sh.getMaxColumns());
+      if (!sh.getRange(1, 14).getValue()) sh.getRange(1, 14).setValue('小考').setFontWeight('bold');
       append_(sh, [row]);
       const day = "'" + p[0] + '-' + ('0' + p[1]).slice(-2) + '-' + ('0' + p[2]).slice(-2);
       const stamp = "'" + day.slice(1) + ' ' + ('0' + p[3]).slice(-2) + ':' + ('0' + p[4]).slice(-2) + ':' + ('0' + p[5]).slice(-2);
@@ -76,7 +83,7 @@ function doPost(e) {
     } finally {
       lock.releaseLock();
     }
-    return out_({ ok: true, score: score, right: right, answered: answered });
+    return out_({ ok: true, score: score, right: right, answered: answered, quiz: quiz ? true : (body.quiz ? false : null) });
   } catch (err) {
     return out_({ ok: false, error: String(err) });
   }
@@ -94,6 +101,7 @@ function doGet(e) {
   if (p.action === 'dash') return out_(dash_(p.key));
   if (p.action === 'badges') return out_(badges_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
+  if (p.action === 'quizpw') { const qt = quizTask_(p.pw); return out_(qt ? { ok: true, date: qt.date, n: qt.n, days: qt.days } : { ok: false, error: '密碼不對，或今天沒有小考' }); }
   if (p.action !== 'board') return out_({ ok: true, message: '成績接收程式運作中' });
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const tz = 'Asia/Taipei';
@@ -168,7 +176,7 @@ function readRows_() {
   sh.getRange(2, 1, n, 10).getValues().forEach(function (r) { // A:J
     const seat = parseInt(r[2], 10);
     if (!seat || seat === 30) return;
-    out.push({ d: r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]), seat: seat, name: String(r[3]),
+    out.push({ d: r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]), seat: seat, name: roster_()[seat] || String(r[3]),
       redo: String(r[4]).indexOf('錯題重做') >= 0, answered: Number(r[7]) || 0, right: Number(r[8]) || 0 });
   });
   return out;
@@ -185,7 +193,7 @@ function readDetail_(kindZh) {
     const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).slice(0, 10);
     const k = seat + '|' + String(r[10]);
     let t = by[k];
-    if (!t) { t = by[k] = { d: d, seat: seat, name: String(r[2]), redo: Number(r[9]) === 1, answered: 0, right: 0 }; out.push(t); }
+    if (!t) { t = by[k] = { d: d, seat: seat, name: roster_()[seat] || String(r[2]), redo: Number(r[9]) === 1, answered: 0, right: 0 }; out.push(t); }
     t.answered++; t.right += Number(r[7]) === 1 ? 1 : 0;
   });
   return out;
@@ -462,10 +470,11 @@ function badges_() {
 }
 
 // ===== 每日任務：老師在「每日任務」分頁設定每天要考的範圍、題數、過關答對率 =====
-// 欄位：日期 | 起 | 迄 | 題數 | 過關答對率(%) | 備註
+// 欄位：日期 | 起 | 迄 | 題數 | 過關答對率(%) | 備註 | 小考密碼
+// 有填小考密碼：只有輸入密碼的「每日小考」才算；起迄可以留空，系統以當天多數同學考的範圍為準
 // 過關：任務當天或之後，範圍和任務完全相同、作答題數 ≥ 題數、答對率 ≥ 過關標準的任一次測驗（錯題重做不算）
 const TASK_NAME = '每日任務';
-const TASK_HEAD = ['日期', '起', '迄', '題數', '過關答對率(%)', '備註'];
+const TASK_HEAD = ['日期', '起', '迄', '題數', '過關答對率(%)', '備註', '小考密碼'];
 
 function taskSheet_() {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
@@ -503,14 +512,23 @@ function dayNums_(text) {
 function readTasks_() {
   const sh = taskSheet_(), n = sh.getLastRow() - 1, out = [];
   if (n <= 0) return out;
-  sh.getRange(2, 1, n, 6).getValues().forEach(function (r) {
-    const date = ymd_(r[0]);
-    const a = parseInt(String(r[1]).replace(/\D/g, ''), 10), b = parseInt(String(r[2] || r[1]).replace(/\D/g, ''), 10);
-    if (!date || !a || !b) return;
-    const days = [];
-    for (let d = Math.max(a, b); d >= Math.min(a, b); d--) days.push(d);
-    out.push({ date: date, from: 'D' + Math.max(a, b), to: 'D' + Math.min(a, b), days: days,
-      n: parseInt(r[3], 10) || 20, pass: Number(r[4]) || 95, note: String(r[5] || '') });
+  sh.getRange(2, 1, n, 7).getValues().forEach(function (r) {
+    const date = ymd_(r[0]), pw = String(r[6] == null ? '' : r[6]).trim();
+    const s1 = String(r[1]).trim(), s2 = String(r[2] || '').trim();
+    let days;
+    if (/[,，、;；\s]/.test(s1.replace(/^\s+|\s+$/g, '')) && (s1.match(/\d+/g) || []).length > 1) {
+      // 不連續：「起」欄填 D183, D175, D170（迄欄留空）
+      days = dayNums_(s1.replace(/[，、;；]/g, ','));
+    } else {
+      days = dayNums_(s2 ? s1 + '–' + s2 : s1);
+    }
+    if (!date || (!days && !pw)) return;
+    const base = { date: date, pw: pw, n: parseInt(r[3], 10) || 20, pass: Number(r[4]) || 95, note: String(r[5] || '') };
+    if (!days) { out.push(Object.assign(base, { days: null, list: false, from: '', to: '', label: '自選範圍（以多數同學為準）' })); return; }
+    const contiguous = days.length === days[0] - days[days.length - 1] + 1;
+    out.push(Object.assign(base, { days: days, list: !contiguous,
+      from: 'D' + days[0], to: 'D' + days[days.length - 1],
+      label: contiguous ? ('D' + days[0] + (days.length > 1 ? '–D' + days[days.length - 1] : '')) : days.map(function (d) { return 'D' + d; }).join(', ') }));
   });
   return out.sort(function (x, y) { return x.date < y.date ? -1 : x.date > y.date ? 1 : 0; });
 }
@@ -523,37 +541,108 @@ function tasks_(key, seatOnly) {
     const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
     if (want && String(key || '') !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入老師密碼' };
   }
-  const results = {}, names = {};
+  const results = {}, names = {}, dists = {};
+  const blank = function () { return { attempts: 0, best: 0, passAt: '', passDate: '' }; };
   tasks.forEach(function (t) { results[t.date] = {}; });
-  const sh = sheet_(), n = sh.getLastRow() - 1;
+  // 先把成績讀成清單
+  const rows = [], sh = sheet_(), n = sh.getLastRow() - 1;
   if (n > 0 && tasks.length) {
-    sh.getRange(2, 1, n, 12).getValues().forEach(function (r) { // A:L
+    const w = Math.min(14, sh.getLastColumn());
+    sh.getRange(2, 1, n, w).getValues().forEach(function (r) { // A:N
       const seat = parseInt(r[2], 10);
       if (!seat || seat === 30) return;
-      if (onlySeat && seat !== onlySeat) return;
-      names[seat] = String(r[3]);
+      names[seat] = roster_()[seat] || String(r[3]);
       const days = dayNums_(r[4]);
-      if (!days) return;
-      const d = ymd_(r[1]), answered = Number(r[7]) || 0, right = Number(r[8]) || 0;
-      if (!answered) return;
-      const when = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd HH:mm') : String(r[0]).replace(/\//g, '-');
-      const key2 = days.join(',');
-      tasks.forEach(function (t) {
-        if (d < t.date || key2 !== t.days.join(',') || answered < t.n) return;
-        const rate = Math.round(right / answered * 1000) / 10;
-        const o = results[t.date][seat] = results[t.date][seat] || { attempts: 0, best: 0, passAt: '', passDate: '' };
-        o.attempts++;
-        if (rate > o.best) o.best = rate;
-        if (!o.passAt && right * 100 >= t.pass * answered) { o.passAt = when; o.passDate = d; }
-      });
+      const answered = Number(r[7]) || 0;
+      if (!days || !answered) return;
+      rows.push({ seat: seat, days: days, key: days.join(','), range: String(r[4]), d: ymd_(r[1]),
+        answered: answered, right: Number(r[8]) || 0, quiz: w >= 14 ? ymd_(r[13]) : '',
+        when: r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd HH:mm') : String(r[0]).replace(/\//g, '-') });
     });
   }
-  const pub = tasks.map(function (t) { return { date: t.date, from: t.from, to: t.to, n: t.n, pass: t.pass, note: t.note }; });
+  const rateOf = function (x) { return Math.round(x.right / x.answered * 1000) / 10; };
+  tasks.forEach(function (t) {
+    const res = results[t.date];
+    let ref = t.days ? t.days.join(',') : '';
+    let pool;
+    if (t.pw) {
+      // 每日小考：只看輸入了當天密碼的紀錄
+      pool = rows.filter(function (x) { return x.quiz === t.date; });
+      // 範圍分布（每人算一次，以他第一次小考的範圍）
+      const first = {}, cnt = {}, lab = {};
+      pool.forEach(function (x) { if (!first[x.seat]) first[x.seat] = x; });
+      Object.keys(first).forEach(function (s) { const x = first[s]; cnt[x.key] = (cnt[x.key] || 0) + 1; lab[x.key] = x.range; });
+      const keys = Object.keys(cnt).sort(function (a, b) { return cnt[b] - cnt[a]; });
+      if (!ref && keys.length) ref = keys[0];
+      dists[t.date] = keys.map(function (k) { return { range: lab[k], count: cnt[k], ok: k === ref }; });
+      if (!t.days && ref) dists[t.date].ref = lab[keys[0]];
+    } else {
+      pool = rows.filter(function (x) { return x.d >= t.date; });
+    }
+    if (!ref) return;
+    const refDays = ref.split(',').map(Number);
+    pool.forEach(function (x) {
+      if (onlySeat && x.seat !== onlySeat) return;
+      if (x.key !== ref) {
+        // 小考：範圍和多數人（或任務）不同；一般任務：當天考了有重疊但範圍不同
+        if (t.pw || (x.d === t.date && x.days.some(function (y) { return refDays.indexOf(y) >= 0; }))) {
+          const o1 = res[x.seat] = res[x.seat] || blank();
+          o1.wrong = { range: x.range, rate: rateOf(x), at: x.when };
+        }
+        return;
+      }
+      if (x.answered < t.n) {
+        if (t.pw || x.d === t.date) { const o2 = res[x.seat] = res[x.seat] || blank(); o2.short = { n: x.answered, rate: rateOf(x), at: x.when }; }
+        return;
+      }
+      const o = res[x.seat] = res[x.seat] || blank(), rate = rateOf(x);
+      o.attempts++;
+      if (rate > o.best) o.best = rate;
+      if (!o.passAt && x.right * 100 >= t.pass * x.answered) { o.passAt = x.when; o.passDate = x.d; }
+    });
+    t.refKey = ref;
+  });
+  const pub = tasks.map(function (t) {
+    const ref = t.refKey ? t.refKey.split(',').map(Number) : null;
+    const o = { date: t.date, from: t.from, to: t.to, label: t.label, list: t.list, days: t.days, n: t.n, pass: t.pass, note: t.note,
+      quiz: !!t.pw, dist: dists[t.date] || null };
+    if (!t.days && ref) o.refLabel = (dists[t.date] && dists[t.date].ref) || '';
+    if (!onlySeat) o.pw = t.pw;
+    return o;
+  });
+  const ro = roster_();
+  Object.keys(ro).forEach(function (s) { if (!names[s]) names[s] = ro[s]; });
   if (onlySeat) {
-    // 學生端：只回今天（或最近一個未來）的任務和自己的狀態
+    // 學生端：只回今天的任務和自己的狀態（不給密碼、不給範圍分布）
     let t = null;
     pub.forEach(function (x) { if (x.date === today) t = x; });
-    return { ok: true, today: today, task: t, me: t ? (results[t.date][onlySeat] || null) : null };
+    if (t) delete t.dist;
+    return { ok: true, today: today, task: t, me: t ? (results[t.date][onlySeat] || null) : null,
+      given: ro[onlySeat] ? givenName(ro[onlySeat]) : '' };
   }
   return { ok: true, today: today, tasks: pub, results: results, names: names };
+}
+
+// 學生按「開始每日小考」前先確認密碼：GET ?action=quizpw&pw=xxxx
+function quizTask_(pw) {
+  pw = String(pw || '').trim().toLowerCase();
+  if (!pw) return null;
+  const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
+  let hit = null;
+  readTasks_().forEach(function (t) { if (t.date === today && t.pw && t.pw.toLowerCase() === pw) hit = t; });
+  return hit;
+}
+
+// 「名單」分頁：座號 → 姓名（只存在試算表，不放在公開網頁）
+let ROSTER_ = null;
+function roster_() {
+  if (ROSTER_) return ROSTER_;
+  ROSTER_ = {};
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('名單');
+  if (!sh || sh.getLastRow() < 2) return ROSTER_;
+  sh.getRange(2, 1, sh.getLastRow() - 1, 2).getValues().forEach(function (r) {
+    const seat = parseInt(r[0], 10), nm = String(r[1] || '').trim();
+    if (seat && nm) ROSTER_[seat] = nm;
+  });
+  return ROSTER_;
 }

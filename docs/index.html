@@ -196,6 +196,9 @@ input[type=text]{flex:1;min-width:200px}
 #tbStat.ok{color:var(--ok)}
 #tbStat.try{color:#9a6700}
 .taskban.done{border-color:var(--ok);background:#e9f7ee}
+.taskban .tb-act{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#tbPw{min-width:150px;flex:0 1 170px}
+.chip.quizchip{background:#fff1c2;border-color:var(--chalk);color:#7a5200;font-weight:900}
 </style>
 </head>
 <body>
@@ -216,7 +219,8 @@ input[type=text]{flex:1;min-width:200px}
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
-    <button class="primary" id="tbGo" type="button">開始今日任務</button>
+    <div class="tb-act"><input type="text" id="tbPw" class="hidden" maxlength="20" autocomplete="off" placeholder="輸入今日小考密碼" aria-label="今日小考密碼">
+    <button class="primary" id="tbGo" type="button">開始今日任務</button></div>
   </div>
   <div class="field">
     <div class="label">選擇範圍</div>
@@ -281,7 +285,7 @@ input[type=text]{flex:1;min-width:200px}
 <section id="quiz" class="panel hidden" aria-live="polite">
   <div>
     <div class="qhead">
-      <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span><span class="chip streak hidden" id="qStreak"></span></div>
+      <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span><span class="chip streak hidden" id="qStreak"></span><span class="chip quizchip hidden" id="qQuiz">📝 每日小考</span></div>
       <div class="row"><span class="hint" id="qProg"></span><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
     </div>
     <div class="bar"><span id="qBar"></span></div>
@@ -462,7 +466,8 @@ function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.ran
 function start(items){
   $('qStreak').classList.add('hidden');
   session = {items, i:0, right:0, wrong:[], answered:false, done:{}, streak:0, order: items.map(() => shuffle([0,1,2,3])),
-    log: [], t0: Date.now(), planned: items.length, rangeText: rangeText()};
+    log: [], t0: Date.now(), planned: items.length, rangeText: rangeText(), quiz: pendingQuiz};
+  pendingQuiz = null; $('qQuiz').classList.toggle('hidden', !session.quiz);
   $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); $('board').classList.add('hidden');
   show();
 }
@@ -727,7 +732,8 @@ async function renderBadges(){
 }
 
 // 今日任務：老師在試算表「每日任務」設定；範圍、題數要完全照任務才算數
-let TODAY_TASK = null;
+let TODAY_TASK = null, pendingQuiz = null;
+const pwKey = d => 'quizpw-' + d;
 async function loadTodayTask(){
   const seat = $('seat').value;
   if (!SHEET_URL || !seat) { $('taskBan').classList.add('hidden'); return; }
@@ -735,27 +741,56 @@ async function loadTodayTask(){
     const j = await fetch(SHEET_URL + '?action=tasks&seat=' + seat).then(r => r.json());
     if (!j.ok || !j.task) { $('taskBan').classList.add('hidden'); TODAY_TASK = null; return; }
     TODAY_TASK = j.task;
-    const t = j.task, me = j.me;
-    $('tbRule').textContent = `範圍 ${t.from}${t.from !== t.to ? '–' + t.to : ''}・${t.n} 題・答對率 ${t.pass}% 過關（可以重複考）`;
+    const t = j.task, me = j.me, lbl = t.label || (t.from + (t.from !== t.to ? '–' + t.to : ''));
+    if (j.given && !TEACHERS[seat]) { $('sname').value = j.given; saveStudent(); update(); }
+    const lbl2 = t.days ? lbl : '老師公布的範圍（請先在下面選好範圍）';
+    $('tbRule').textContent = (t.quiz ? '📝 每日小考・' : '') + `範圍 ${lbl2}・${t.n} 題・答對率 ${t.pass}% 過關（可以重複考）`;
+    $('tbPw').classList.toggle('hidden', !t.quiz);
+    if (t.quiz && !$('tbPw').value) { try { $('tbPw').value = localStorage.getItem(pwKey(t.date)) || ''; } catch (e) {} }
     const st = $('tbStat');
+    const warn = me && me.wrong ? `⚠️ 你剛剛考的是 ${me.wrong.range}，${t.days ? '不是今日任務範圍' : '和大部分同學不一樣，範圍可能選錯了'}，不算數喔！請確認範圍後重考。`
+      : me && me.short ? `⚠️ 你剛剛只考了 ${me.short.n} 題，任務要 ${t.n} 題才算數，請重考。` : '';
     if (me && me.passAt) { st.className = 'ok'; st.textContent = `✅ 已過關（${me.passAt.slice(11, 16)}，最高 ${me.best}%）`; }
-    else if (me) { st.className = 'try'; st.textContent = `目前最高 ${me.best}%，再試一次！（已考 ${me.attempts} 次）`; }
-    else { st.className = ''; st.textContent = '還沒開始，按右邊按鈕就會自動設定好範圍和題數。'; }
+    else if (me && me.attempts) { st.className = 'try'; st.textContent = `目前最高 ${me.best}%，再試一次！（已考 ${me.attempts} 次）` + (warn ? ' ' + warn : ''); }
+    else if (warn) { st.className = 'try'; st.textContent = warn; }
+    else { st.className = ''; st.textContent = t.quiz ? '還沒考。輸入老師給的密碼，按「開始每日小考」，題數會自動設好。' : '還沒開始，按右邊按鈕就會自動設定好範圍和題數。'; }
     $('taskBan').classList.toggle('done', !!(me && me.passAt));
-    $('tbGo').textContent = me && me.passAt ? '再練習一次' : '開始今日任務';
+    $('tbGo').textContent = t.quiz ? (me && me.passAt ? '再考一次小考' : '開始每日小考') : (me && me.passAt ? '再練習一次' : '開始今日任務');
     $('taskBan').classList.remove('hidden');
   } catch (e) { $('taskBan').classList.add('hidden'); }
 }
-$('tbGo').onclick = () => {
+$('tbGo').onclick = async () => {
   const t = TODAY_TASK; if (!t || !DATA) return;
-  const a = DATA.labels.indexOf(t.from), b = DATA.labels.indexOf(t.to);
-  if (a < 0 || b < 0) return;
-  setMode('range');
-  $('from').value = Math.min(a, b); $('to').value = Math.max(a, b);
+  let pw = '';
+  if (t.quiz) {
+    pw = $('tbPw').value.trim();
+    const st = $('tbStat');
+    if (!pw) { st.className = 'try'; st.textContent = '請先輸入老師給的小考密碼。'; $('tbPw').focus(); return; }
+    $('tbGo').disabled = true;
+    try {
+      const j = await fetch(SHEET_URL + '?action=quizpw&pw=' + encodeURIComponent(pw)).then(r => r.json());
+      if (!j.ok) { st.className = 'try'; st.textContent = '⚠️ ' + (j.error || '密碼不對'); $('tbPw').select(); return; }
+    } catch (e) { st.className = 'try'; st.textContent = '⚠️ 網路不穩，無法確認密碼，請再按一次。'; return; }
+    finally { $('tbGo').disabled = false; }
+    try { localStorage.setItem(pwKey(t.date), pw); } catch (e) {}
+  }
+  if (!t.days) {
+    // 小考沒有指定範圍：用同學自己選的範圍
+  } else if (t.list) {
+    // 不連續的任務範圍：用「指定天數」
+    picked = new Set(t.days.map(d => DATA.labels.indexOf('D' + d)).filter(i => i >= 0));
+    setMode('pick'); syncGrid();
+  } else {
+    const a = DATA.labels.indexOf(t.from), b = DATA.labels.indexOf(t.to);
+    if (a < 0 || b < 0) return;
+    setMode('range');
+    $('from').value = Math.min(a, b); $('to').value = Math.max(a, b);
+  }
   const nb = document.querySelector('[data-n="' + t.n + '"]');
   if (nb) nb.click(); else num = t.n;
   update();
-  if ($('startBtn').disabled) { $('seat').focus(); $('countLbl').textContent = '請先填好座號和姓名，再按一次「開始今日任務」。'; return; }
+  if ($('startBtn').disabled) { $('seat').focus(); $('countLbl').textContent = '請先填好座號和姓名，再按一次「' + $('tbGo').textContent + '」。'; return; }
+  pendingQuiz = pw || null;
   $('startBtn').click();
 };
 
@@ -805,7 +840,7 @@ $('startBtn').onclick = async () => {
   if (picks.length) {
     $('startBtn').disabled = true; $('startBtn').textContent = '載入克漏字…';
     try { await loadCloze([...new Set(picks.map(x => x.u))]); }
-    catch (e) { $('startBtn').disabled = false; $('countLbl').textContent = '克漏字載入失敗，請檢查網路後再試一次。'; update(); return; }
+    catch (e) { pendingQuiz = null; $('startBtn').disabled = false; $('countLbl').textContent = '克漏字載入失敗，請檢查網路後再試一次。'; update(); return; }
   }
   const sentN = Math.max(0, Math.min(sentences, num - nP * 5));
   const blocks = pickItems(all, sentN).map(qi => [qi]);
@@ -818,7 +853,7 @@ $('quitBtn').onclick = () => { if (session.i === 0 && !session.answered) { back(
 function back(){ $('quiz').classList.add('hidden'); $('result').classList.add('hidden'); $('setup').classList.remove('hidden'); $('board').classList.remove('hidden'); update(); }
 $('backBtn').onclick = back;
 $('redoWrong').onclick = () => { const rt = session.rangeText; start(shuffle(session.wrong.map(w => w.st))); session.rangeText = (rt + '（錯題重做）').slice(0, 120); };
-$('againBtn').onclick = () => $('startBtn').click();
+$('againBtn').onclick = () => { pendingQuiz = session.quiz || null; $('startBtn').click(); };
 document.addEventListener('keydown', e => {
   if ($('quiz').classList.contains('hidden')) return;
   const k = e.key.toUpperCase(); const map = {A:0,B:1,C:2,D:3,'1':0,'2':1,'3':2,'4':3};
@@ -846,14 +881,15 @@ async function upload(){
   box.className = 'upload'; box.textContent = '成績上傳中…';
   const body = JSON.stringify({
     seat: $('seat').value, name: $('sname').value.trim(), range: s.rangeText, kind: kindCode(),
-    total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log
+    total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log, quiz: s.quiz || ''
   });
   const okMsg = sc => `✓ 成績已上傳（${TEACHERS[$('seat').value] ? '' : $('seat').value + ' 號 '}${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
   try {
     const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'}, body});
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '上傳失敗');
-    box.className = 'upload ok'; box.textContent = okMsg(j.score);
+    if (j.quiz === false) { box.className = 'upload bad'; box.textContent = okMsg(j.score) + '，但小考密碼不對（或已過了當天），這次沒有算成每日小考。'; }
+    else { box.className = 'upload ok'; box.textContent = okMsg(j.score) + (j.quiz ? '・📝 已記錄為每日小考' : ''); }
     loadBoard();
   } catch (e) {
     if (e instanceof TypeError) {
