@@ -92,6 +92,7 @@ const MIN_UP = { day: 10, week: 20, month: 20 };                 // 進步榜：
 function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'dash') return out_(dash_(p.key));
+  if (p.action === 'badges') return out_(badges_());
   if (p.action !== 'board') return out_({ ok: true, message: '成績接收程式運作中' });
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const tz = 'Asia/Taipei';
@@ -326,4 +327,135 @@ function loadKey_(fresh) {
 
 function out_(o) {
   return ContentService.createTextOutput(JSON.stringify(o)).setMimeType(ContentService.MimeType.JSON);
+}
+
+// ===== 收集徽章：從「成績」和「作答明細」即時計算，不另外存檔 =====
+const BADGE_DEFS = [
+  { id: 'full', icon: '🎯', name: '滿分出擊', desc: '單次測驗 10 題以上全對' },
+  { id: 'streak3', icon: '🔥', name: '連續 3 天', desc: '連續 3 天交卷' },
+  { id: 'streak7', icon: '🔥', name: '連續 7 天', desc: '連續 7 天交卷' },
+  { id: 'streak14', icon: '🌋', name: '連續 14 天', desc: '連續 14 天交卷' },
+  { id: 'streak30', icon: '🏔️', name: '連續 30 天', desc: '連續 30 天交卷' },
+  { id: 'q100', icon: '💪', name: '百題新手', desc: '累積作答 100 題' },
+  { id: 'q500', icon: '🦾', name: '五百題好手', desc: '累積作答 500 題' },
+  { id: 'q1000', icon: '🧠', name: '千題大師', desc: '累積作答 1000 題' },
+  { id: 'early', icon: '🌅', name: '早鳥', desc: '早上 4 點到 7 點之間交卷' },
+  { id: 'redo10', icon: '♻️', name: '錯題獵人', desc: '完成錯題重做 10 次' },
+  { id: 'improve', icon: '📈', name: '進步之星', desc: '某一週的答對率比前一週高 10 分以上（兩週各作答 20 題）' },
+  { id: 'cloze85', icon: '📖', name: '克漏字高手', desc: '克漏字作答 50 題以上，答對率 85% 以上' },
+  { id: 'allkind', icon: '🎨', name: '全能選手', desc: '四種題型各作答 30 題以上' },
+  { id: 'week', icon: '🏆', name: '週冠王', desc: '拿下一次完整一週的答對數冠軍' },
+  { id: 'month', icon: '👑', name: '月冠王', desc: '拿下一次完整一個月的答對數冠軍' }
+];
+
+// 「作答明細」各題型統計（不含錯題重做）
+function detailStats_() {
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
+  const out = {};
+  if (!sh || sh.getLastRow() < 2) return out;
+  sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues().forEach(function (r) {
+    const seat = parseInt(r[1], 10);
+    if (!seat || seat === 30 || Number(r[9]) === 1) return;
+    const s = out[seat] = out[seat] || {};
+    const o = s[String(r[6])] = s[String(r[6])] || { ans: 0, right: 0 };
+    o.ans++; o.right += Number(r[7]) === 1 ? 1 : 0;
+  });
+  return out;
+}
+
+// 已結束的每週／每月答對數冠軍（不含克漏字、不含進行中的那一期）
+function champsAll_(rows, clozeRows, today, keyOf) {
+  const by = {};
+  rows.forEach(function (r) { const g = by[keyOf(r.d)] = by[keyOf(r.d)] || {}; const s = g[r.seat] = g[r.seat] || { right: 0 }; s.right += r.right; });
+  (clozeRows || []).forEach(function (r) { const g = by[keyOf(r.d)], s = g && g[r.seat]; if (s) s.right -= r.right; });
+  const curKey = keyOf(today), out = {};
+  Object.keys(by).forEach(function (k) {
+    if (k === curKey) return;
+    const g = by[k];
+    let top = 0;
+    Object.keys(g).forEach(function (seat) { if (g[seat].right > top) top = g[seat].right; });
+    if (top <= 0) return;
+    Object.keys(g).forEach(function (seat) { if (g[seat].right === top) out[seat] = 1; });
+  });
+  return out;
+}
+
+// 歷史上任何一個「完整週」答對率比前一週高 10 分以上（兩週各作答 20 題，不含錯題重做）
+function improveEver_(rows, today) {
+  const byWeek = {};
+  rows.forEach(function (r) {
+    if (r.redo) return;
+    const w = weekStart_(r.d);
+    const s = byWeek[r.seat] = byWeek[r.seat] || {};
+    const o = s[w] = s[w] || { fa: 0, fr: 0 };
+    o.fa += r.answered; o.fr += r.right;
+  });
+  const curW = weekStart_(today), out = {};
+  Object.keys(byWeek).forEach(function (seat) {
+    const s = byWeek[seat];
+    Object.keys(s).forEach(function (w) {
+      if (w === curW) return;
+      const a = s[w], b = s[shift_(w, -7)];
+      if (a && b && a.fa >= 20 && b.fa >= 20 &&
+        Math.round(a.fr / a.fa * 100) - Math.round(b.fr / b.fa * 100) >= 10) out[seat] = 1;
+    });
+  });
+  return out;
+}
+
+function maxStreak_(daysObj) {
+  const ds = Object.keys(daysObj).sort();
+  let best = 0, run = 0, prev = '';
+  ds.forEach(function (d) { run = prev && shift_(prev, 1) === d ? run + 1 : 1; if (run > best) best = run; prev = d; });
+  return best;
+}
+
+function badges_() {
+  const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  const sh = sheet_(), n = sh.getLastRow() - 1, per = {};
+  if (n > 0) {
+    sh.getRange(2, 1, n, 9).getValues().forEach(function (r) { // A:I
+      const seat = parseInt(r[2], 10);
+      if (!seat || seat === 30) return;
+      const p = per[seat] = per[seat] || { days: {}, early: false, full: false, ans: 0, redoN: 0 };
+      const d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]).replace(/\//g, '-');
+      p.days[d] = 1;
+      const answered = Number(r[7]) || 0, right = Number(r[8]) || 0;
+      if (String(r[4]).indexOf('錯題重做') >= 0) p.redoN++;
+      else { p.ans += answered; if (answered >= 10 && right === answered) p.full = true; }
+      let hh = -1;
+      if (r[0] instanceof Date) hh = Number(Utilities.formatDate(r[0], tz, 'HH'));
+      else { const m = String(r[0]).match(/(\d{1,2}):\d{2}/); if (m) hh = Number(m[1]); }
+      if (hh >= 4 && hh < 7) p.early = true;
+    });
+  }
+  const rows = readRows_(), cloze = readDetail_('克漏字');
+  const wk = champsAll_(rows, cloze, today, weekStart_);
+  const mo = champsAll_(rows, cloze, today, function (d) { return d.slice(0, 7); });
+  const imp = improveEver_(rows, today);
+  const det = detailStats_();
+  const KINDS4 = ['單字', '動詞變化', '介系詞', '克漏字'];
+  const out = {};
+  Object.keys(per).forEach(function (seat) {
+    const p = per[seat], ids = [];
+    if (p.full) ids.push('full');
+    const st = maxStreak_(p.days);
+    if (st >= 3) ids.push('streak3');
+    if (st >= 7) ids.push('streak7');
+    if (st >= 14) ids.push('streak14');
+    if (st >= 30) ids.push('streak30');
+    if (p.ans >= 100) ids.push('q100');
+    if (p.ans >= 500) ids.push('q500');
+    if (p.ans >= 1000) ids.push('q1000');
+    if (p.early) ids.push('early');
+    if (p.redoN >= 10) ids.push('redo10');
+    if (imp[seat]) ids.push('improve');
+    const dk = det[seat] || {}, cz = dk['克漏字'];
+    if (cz && cz.ans >= 50 && cz.right / cz.ans >= 0.85) ids.push('cloze85');
+    if (KINDS4.every(function (k) { return dk[k] && dk[k].ans >= 30; })) ids.push('allkind');
+    if (wk[seat]) ids.push('week');
+    if (mo[seat]) ids.push('month');
+    if (ids.length) out[seat] = ids;
+  });
+  return { ok: true, defs: BADGE_DEFS, badges: out, today: today };
 }

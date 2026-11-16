@@ -172,6 +172,23 @@ input[type=text]{flex:1;min-width:200px}
 @keyframes stamp{0%{transform:scale(1.9) rotate(-10deg);opacity:.1}100%{transform:scale(1) rotate(0);opacity:1}}
 @keyframes spark{to{transform:translate(var(--dx),var(--dy)) scale(.3);opacity:0}}
 @keyframes fall{to{transform:translateY(108vh) rotate(720deg)}}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badge{border:1px solid var(--chalk);background:#fff8e1;border-radius:999px;padding:4px 12px;font-size:.9rem}
+.badge.new{border-color:var(--ok);background:#e7f6ec;font-weight:900}
+.newbadge{color:var(--board);font-weight:900;margin-bottom:8px}
+.newbadge:empty{display:none}
+.bic{margin-left:5px;font-size:.82rem;letter-spacing:1px;white-space:nowrap}
+.bic small{color:var(--muted);font-size:.72rem}
+.bbook{margin-top:16px}
+.bbook summary{cursor:pointer;color:var(--muted)}
+.bkgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:8px;margin-top:10px}
+.bk{display:flex;gap:10px;align-items:center;border:1px solid var(--chalk);background:#fff8e1;border-radius:12px;padding:8px 10px}
+.bk.off{opacity:.55;border-color:var(--line);background:var(--paper);filter:grayscale(1)}
+.bk .bi{font-size:1.45rem}
+.bk b{display:block;font-size:.9rem}
+.bk small{color:var(--muted);font-size:.76rem;line-height:1.35;display:block}
+.bk .got{margin-left:auto;color:var(--ok);font-weight:900}
+@media (prefers-reduced-motion: no-preference){.badge.new{animation:okpop .5s cubic-bezier(.34,1.56,.64,1)}}
 </style>
 </head>
 <body>
@@ -272,6 +289,11 @@ input[type=text]{flex:1;min-width:200px}
 <section id="result" class="panel hidden">
   <div class="score"><span class="big" id="rScore"></span><span id="rDetail"></span></div>
   <div class="upload" id="rUpload" role="status"></div>
+  <div class="field hidden" id="rBadgesBox">
+    <div class="label">我的徽章</div>
+    <div class="newbadge" id="rNew"></div>
+    <div class="badges" id="rBadges"></div>
+  </div>
   <div id="rWrongBox" class="field">
     <div class="label">答錯的題目</div>
     <ul class="wrong" id="rWrong"></ul>
@@ -308,6 +330,10 @@ input[type=text]{flex:1;min-width:200px}
   <div id="boardBody" class="empty">載入中…</div>
   <div class="hint" id="boardHint"></div>
   <div id="fameBody"></div>
+  <details id="badgeBook" class="bbook hidden">
+    <summary>🎖️ 徽章圖鑑（看看還有哪些可以收集）</summary>
+    <div id="badgeBookBody" class="bkgrid"></div>
+  </details>
 </section>
 </div></main>
 <script>
@@ -561,6 +587,8 @@ function finish(){
   });
   session.last = s.items;
   if (s.log.length) upload(); else { $('rUpload').className = 'upload'; $('rUpload').textContent = '沒有作答，不上傳成績。'; }
+  $('rBadgesBox').classList.add('hidden'); $('rNew').textContent = '';
+  if (s.log.length) setTimeout(renderBadges, 2200);   // 等成績寫進試算表後再抓徽章
 }
 function rangeText(){
   const ds = selectedDays().map(dnum);
@@ -639,6 +667,52 @@ function countUp(el, to){
     if (k < 1) requestAnimationFrame(step);
   };
   requestAnimationFrame(step);
+}
+
+// 收集徽章：向成績程式要全班的徽章（從歷史成績即時算出）
+let badgeData = null, badgeAt = 0, badgePromise = null;
+function badgeDefs(){ const m = {}; (badgeData && badgeData.defs || []).forEach(d => { m[d.id] = d; }); return m; }
+function fetchBadges(force){
+  if (!SHEET_URL) return Promise.resolve(null);
+  if (!force && badgeData && Date.now() - badgeAt < 60000) return Promise.resolve(badgeData);
+  if (badgePromise) return badgePromise;
+  badgePromise = fetch(SHEET_URL + '?action=badges').then(r => r.json()).then(j => {
+    badgePromise = null;
+    if (!j.ok || !j.defs) return badgeData;   // 舊版成績程式還沒有徽章功能
+    badgeData = j; badgeAt = Date.now(); return j;
+  }).catch(() => { badgePromise = null; return badgeData; });
+  return badgePromise;
+}
+function bic(seat){
+  if (!badgeData || !badgeData.badges) return '';
+  const ids = badgeData.badges[seat] || [];
+  if (!ids.length) return '';
+  const defs = badgeDefs();
+  const ic = ids.slice(-3).map(id => defs[id] ? defs[id].icon : '').join('');
+  return `<span class="bic" title="${ids.length} 個徽章">${ic}${ids.length > 3 ? '<small>+' + (ids.length - 3) + '</small>' : ''}</span>`;
+}
+function drawBadgeBook(){
+  if (!badgeData) return;
+  const seat = $('seat').value, mine = (badgeData.badges && badgeData.badges[seat]) || [];
+  $('badgeBookBody').innerHTML = badgeData.defs.map(d =>
+    `<div class="bk${mine.includes(d.id) ? '' : ' off'}"><span class="bi">${d.icon}</span><div><b>${esc(d.name)}</b><small>${esc(d.desc)}</small></div>${mine.includes(d.id) ? '<span class="got">✓</span>' : ''}</div>`).join('');
+  $('badgeBook').classList.remove('hidden');
+}
+async function renderBadges(){
+  const j = await fetchBadges(true);
+  if (!j) return;
+  const seat = $('seat').value, mine = (j.badges && j.badges[seat]) || [];
+  if (!mine.length) return;
+  const defs = badgeDefs();
+  let old = [];
+  try { old = JSON.parse(localStorage.getItem('badges_' + seat) || '[]'); } catch (e) {}
+  const fresh = mine.filter(id => !old.includes(id));
+  try { localStorage.setItem('badges_' + seat, JSON.stringify(mine)); } catch (e) {}
+  $('rBadges').innerHTML = mine.map(id => defs[id] ? `<span class="badge${fresh.includes(id) ? ' new' : ''}" title="${esc(defs[id].desc)}">${defs[id].icon} ${esc(defs[id].name)}</span>` : '').join('');
+  $('rNew').textContent = fresh.length ? '🎉 獲得新徽章：' + fresh.map(id => defs[id] ? defs[id].icon + ' ' + defs[id].name : '').join('、') : '';
+  if (fresh.length && !$('result').classList.contains('hidden')) { burst($('rNew')); SND.win(false); }
+  $('rBadgesBox').classList.remove('hidden');
+  if (typeof drawBoard === 'function' && boardData) drawBoard();   // 排行榜旁的徽章一起更新
 }
 
 // wiring
@@ -773,6 +847,7 @@ async function loadBoard(){
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '');
     boardData = j; drawBoard();
+    fetchBadges().then(j2 => { if (j2) drawBoard(); });
   } catch (e) { boardData = null; body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; $('boardHint').textContent = ''; $('fameBody').innerHTML = ''; }
 }
 function drawBoard(){
@@ -799,7 +874,7 @@ function drawBoard(){
   body.className = '';
   body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + (list.length
     ? `<table><thead><tr><th>名次</th><th>座號</th><th>名字</th>${cols[0]}</tr></thead><tbody>` +
-      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td>${nm(x)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
+      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td>${nm(x)}${bic(x.seat)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
     : `<div class="empty">${empty}</div>`);
   $('boardHint').textContent = {
     right: `依${PERIOD_ZH[boardPeriod]}${tz}答對題數加總排名，做越多、答對越多就越前面。`,
@@ -809,6 +884,7 @@ function drawBoard(){
   const f = j.fame;
   const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(TEACHERS[w.seat] || w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
   $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王（不含克漏字）')}${famed(f.months, '🏆 歷屆月冠王（不含克漏字）')}</div>` : '';
+  drawBadgeBook();
 }
 document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
   boardPeriod = b.dataset.p;
