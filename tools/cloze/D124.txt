@@ -131,3 +131,141 @@ On Saturday night, my best friend Amy and I went to the Shilin Night Market. The
 + stick = 棍子、竹籤
 + sour = 酸的
 = 星期六晚上，我和好朋友 Amy 去士林夜市。人多到非常擁擠。Amy 想吃糖葫蘆，就是插在竹籤上、亮晶晶的糖衣水果。我們找到一家賣很多種口味的店，有草莓、葡萄，甚至還有小番茄！我很好奇番茄是什麼味道，所以選了番茄口味，吃起來甜甜的、帶點酸。Amy 選了草莓，但她咬得太用力，糖衣碎成好幾塊，有些還掉到她衣服上，我們笑到不行。回家路上，我們買了一杯新鮮芒果汁一起喝。
+## 教練的芒果冰承諾
+Our school basketball team had a big game against Ren-Ai Junior High last Friday. Before the game, our coach made a promise: "If we win, I'll buy everyone a bowl of [[mango|garbage|traffic|weather]] ice." We were all excited. But in the first half, we played badly and were behind by ten points. In the locker room, the coach said, "Don't [[give|spell|pray|marry]] up. Think about the mangoes!" Everyone laughed, and we felt more [[confident|wooden|cheap|thick]]. In the second half, our captain made three shots in a row, and we won by two points! The coach kept his promise. At the ice shop, the team ate twelve bowls of mango ice and three bowls of [[strawberry|ticket|uniform|office]] ice. Even the coach ate two. "Next time," he said, "I'll promise something cheaper, like [[tomatoes|factories|museums|villages]]."
+> 1 a bowl of mango ice「一碗芒果冰」，後面教練說「想想芒果」。garbage（垃圾）、traffic（交通）、weather（天氣）都不能做成冰給球員吃。
+> 2 give up「放棄」，教練在落後時鼓勵大家不要放棄。spell、pray、marry 都不能和 up 組成「放棄」的意思。
+> 3 大家笑了以後覺得更有信心 more confident，下半場就反敗為勝。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能形容球員的心情。
+> 4 strawberry ice「草莓冰」，和芒果冰一樣是冰店賣的。ticket（票）、uniform（制服）、office（辦公室）都不是冰的口味。
+> 5 教練開玩笑說下次只請便宜的東西，像是番茄 tomatoes。factories（工廠）、museums（博物館）、villages（村莊）都一點也不便宜，也不能請球員吃。
++ coach = 教練
++ promise = 承諾
++ locker room = 休息室
++ captain = 隊長
++ in a row = 連續
+= 上星期五，我們學校籃球隊和仁愛國中有一場大比賽。賽前教練許下承諾：「如果贏了，我請大家每人吃一碗芒果冰。」大家都好興奮。可是上半場我們打得很差，落後十分。在休息室裡，教練說：「不要放棄，想想芒果！」大家都笑了，也覺得比較有信心了。下半場，我們隊長連進三球，最後我們贏了兩分！教練遵守承諾。在冰店裡，全隊吃了十二碗芒果冰和三碗草莓冰，連教練都吃了兩碗。「下次，」他說，「我要承諾便宜一點的東西，像是番茄。」
+
+## 西班牙番茄大戰
+Last August, my family traveled to Spain. We went to a small town called Buñol for a very special festival, La Tomatina. Every year, thousands of people come there to throw [[tomatoes|tickets|letters|offices]] at each other! Before it started, my dad told us to [[wear|spell|marry|pray]] old clothes and goggles. At eleven o'clock, trucks drove into the streets and dropped tons of soft, red [[tomatoes|uniforms|bills|museums]]. Then the fight began. People threw them everywhere, and soon the whole street looked like a river of soup. I was hit in the face many times, but it was really [[exciting|honest|polite|lazy]]. After one hour, the fight ended, and firefighters washed the streets with water. That night, we were all very hungry. We had paella, a Spanish rice dish with chicken and [[beans|museums|villages|factories]]. Of course, we didn't want to eat any tomatoes!
+> 1 番茄大戰就是互丟番茄 tomatoes。tickets（票）、letters（信）、offices（辦公室）都不是這個節慶丟的東西，offices 更不可能丟。
+> 2 wear old clothes「穿舊衣服」，以免被番茄弄髒。spell（拼字）、marry（結婚）、pray（禱告）都不能接 clothes and goggles。
+> 3 卡車倒下好幾噸軟軟的紅番茄 tomatoes，接著大戰開始。uniforms（制服）、bills（帳單）、museums（博物館）都不會是「軟軟紅紅」、可以丟的東西。
+> 4 雖然臉被打中很多次，但真的很刺激 exciting。honest（誠實的）、polite（有禮貌的）、lazy（懶惰的）都不能形容活動本身。
+> 5 西班牙海鮮飯裡有雞肉和豆子 beans。museums（博物館）、villages（村莊）、factories（工廠）都不能當飯的材料。
++ Spain = 西班牙
++ festival = 節慶
++ goggles = 護目鏡
++ firefighter = 消防員
++ paella = 西班牙燉飯
+= 去年八月，我們全家去西班牙旅行。我們到一個叫布尼奧爾的小鎮，參加一個非常特別的節慶——番茄大戰。每年都有成千上萬的人來這裡互丟番茄！開始前，爸爸叫我們穿舊衣服、戴護目鏡。十一點一到，卡車開進街道，倒下好幾噸又軟又紅的番茄，大戰就開始了。大家到處亂丟，整條街很快就像一條湯河。我的臉被打中好多次，但真的很刺激。一個小時後大戰結束，消防員用水把街道沖乾淨。那天晚上大家都很餓，我們吃了西班牙燉飯，裡面有雞肉和豆子。當然，我們一顆番茄都不想吃了！
+
+## 當個創世神的南瓜農場
+My little brother and I love playing Minecraft together. Last weekend, we decided to build a big farm in the game. First, we found a flat place near a river and [[planted|spelled|married|prayed]] some seeds. We grew wheat, carrots, and orange [[pumpkins|tickets|letters|offices]]. My brother used two snow blocks and a pumpkin to make a snow golem. "It will [[protect|marry|spell|pray]] our farm from monsters at night," he said. We also found cocoa [[beans|uniforms|bills|museums]] in the jungle and used them to make cookies. At the end of the day, my brother made a [[pumpkin|homework|traffic|weather]] pie and gave it to me in the game. "It looks delicious, but I can't eat it," I said. So the next day, Mom baked us a real one.
+> 1 planted some seeds「種下一些種子」，後面說種了小麥、紅蘿蔔和南瓜。spelled（拼字）、married（結婚）、prayed（禱告）接 seeds 都不通。
+> 2 orange pumpkins「橘色的南瓜」，和小麥、紅蘿蔔一樣是種出來的作物。tickets（票）、letters（信）、offices（辦公室）都不能種。
+> 3 protect…from…「保護…免於…」，雪人晚上保護農場不被怪物攻擊。marry（結婚）、spell（拼字）、pray（禱告）都不能接 our farm from monsters。
+> 4 cocoa beans「可可豆」，可以做餅乾。uniforms（制服）、bills（帳單）、museums（博物館）都不會在叢林裡找到，也不能做餅乾。
+> 5 pumpkin pie「南瓜派」，後面媽媽烤了一個真的。homework（功課）、traffic（交通）、weather（天氣）都不能做成派。
++ Minecraft = 當個創世神（電玩遊戲）
++ wheat = 小麥
++ snow golem = 雪人（遊戲中的守衛）
++ cocoa = 可可
++ jungle = 叢林
+= 我和弟弟很喜歡一起玩《當個創世神》。上週末，我們決定在遊戲裡蓋一座大農場。首先，我們在河邊找到一塊平地，種下一些種子，種了小麥、紅蘿蔔和橘色的南瓜。弟弟用兩塊雪和一顆南瓜做了一個雪人。「晚上它會保護我們的農場，不讓怪物靠近。」他說。我們還在叢林裡找到可可豆，拿來做餅乾。那天快結束時，弟弟在遊戲裡做了一個南瓜派送給我。「看起來好好吃，可是我不能吃。」我說。所以第二天，媽媽烤了一個真的給我們。
+
+## 會摘草莓的機器人
+Have you ever seen a robot farmer? Last month, I visited a high-tech farm in Hsinchu with my science class. Inside a big greenhouse, there were long rows of [[strawberries|offices|museums|villages]] growing on tables, not on the ground. A small robot moved slowly between them. It used a camera to [[check|marry|spell|pray]] the color of each strawberry. If one was red enough, the robot picked it with its soft fingers. The farmer said, "The robot can work all night, and it never feels [[tired|wooden|cheap|national]]." He also showed us a machine that grows [[tomatoes|tickets|letters|pockets]] with only water and light, without any soil. At the end of the visit, we each got a box of strawberries and cherry [[tomatoes|uniforms|bills|factories]]. On the bus, my friend said, "When I grow up, I'll make a robot that does my homework."
+> 1 溫室裡一排排長在桌上的草莓 strawberries。offices（辦公室）、museums（博物館）、villages（村莊）都不會「長」在桌上。
+> 2 用相機檢查 check 每顆草莓的顏色。marry（結婚）、spell（拼字）、pray（禱告）都不能接 the color。
+> 3 機器人整晚工作也不會累 tired。wooden（木製的）、cheap（便宜的）、national（國家的）都不能接在 feels 後面表示感覺。
+> 4 只用水和光就能種番茄 tomatoes 的機器。tickets（票）、letters（信）、pockets（口袋）都不能種出來。
+> 5 cherry tomatoes「小番茄」，和草莓一起裝盒帶回家。uniforms（制服）、bills（帳單）、factories（工廠）都不是農場送的農產品。
++ robot = 機器人
++ high-tech = 高科技的
++ Hsinchu = 新竹
++ greenhouse = 溫室
++ soil = 土壤
+= 你看過機器人農夫嗎？上個月，我和自然課的同學去參觀新竹一座高科技農場。大溫室裡有一排排草莓，種在桌上而不是地上。一台小機器人在中間慢慢移動，用相機檢查每顆草莓的顏色，如果夠紅，就用軟軟的手指把它摘下來。農夫說：「機器人可以整晚工作，而且從來不會累。」他還帶我們看一台只用水和光、不用土就能種番茄的機器。參觀結束時，我們每人拿到一盒草莓和小番茄。在遊覽車上，我朋友說：「我長大要做一台會幫我寫功課的機器人。」
+
+## 數學展的猜豆子遊戲
+At our school's math fair, there was a big glass jar full of red [[beans|offices|villages|museums]] on a table. The game was simple: guess how many there were, and the closest [[guess|uniform|garbage|traffic]] wins a prize. My friend Ken just wrote "1,000" without thinking. But I wanted to [[solve|marry|pray|spell]] it like a math problem. First, I measured the jar. Then I counted how many beans could fit in a small cup and did some math. In the end, I guessed 2,350. The real number was 2,412, and nobody was closer than me! I won first prize: a big basket of [[mangoes|tickets|letters|bills]] and [[strawberries|pockets|corners|offices]]. I shared them with Ken, and he said, "Okay, math really is useful."
+> 1 玻璃罐裡裝滿紅豆 red beans，後面在數豆子。offices（辦公室）、villages（村莊）、museums（博物館）都裝不進玻璃罐。
+> 2 the closest guess wins「猜得最接近的人獲勝」，guess 在這裡是名詞「猜測」。uniform（制服）、garbage（垃圾）、traffic（交通）都和猜數字無關。
+> 3 solve it like a math problem「像解數學題一樣解決它」。marry（結婚）、pray（禱告）、spell（拼字）都不能接 like a math problem 表示解題。
+> 4 一大籃芒果 mangoes 當獎品，後面說和 Ken 分享。tickets（票）、letters（信）、bills（帳單）都不會裝一大籃當水果獎品，也不能吃。
+> 5 芒果和草莓 strawberries 一起裝在籃子裡。pockets（口袋）、corners（角落）、offices（辦公室）都不能放進籃子。
++ fair = 展覽會
++ jar = 罐子
++ measure = 測量
++ basket = 籃子
+= 在我們學校的數學展上，桌上放著一個裝滿紅豆的大玻璃罐。遊戲很簡單：猜罐子裡有幾顆，猜得最接近的人就能得獎。我朋友 Ken 想都沒想就寫了「1,000」。但我想把它當成數學題來解。首先，我量了罐子的大小，然後數一個小杯子能裝幾顆豆子，再算一算。最後我猜 2,350。正確答案是 2,412，沒有人比我更接近！我得到第一名，獎品是一大籃芒果和草莓。我分給 Ken 吃，他說：「好吧，數學真的很有用。」
+
+## 寄給大阪筆友的芒果乾
+I have a pen pal in Osaka named Yuki. We write letters to each other every month. Last month, she sent me some Japanese snacks, so this time I wanted to send her something from Taiwan. I chose dried [[mango|weather|traffic|homework]] from Tainan because it's sweet and very [[famous|wooden|thick|illegal]]. I also put in a small bag of dried [[strawberries|offices|villages|factories]]. In my letter, I wrote, "Mangoes are everywhere in southern Taiwan in summer. They're cheap and delicious." Two weeks later, Yuki [[sent|spelled|married|prayed]] me a photo of her family eating the snacks. "My family ate everything in one night!" she wrote. "In Japan, one [[mango|museum|village|factory]] can cost 3,000 yen!" Now I know what to send her next year.
+> 1 dried mango「芒果乾」，台南的名產。weather（天氣）、traffic（交通）、homework（功課）都不能寄給朋友當零食。
+> 2 芒果乾又甜又有名 famous。wooden（木製的）、thick（厚的）、illegal（違法的）都不是挑選它當禮物的好理由。
+> 3 a small bag of dried strawberries「一小袋草莓乾」。offices（辦公室）、villages（村莊）、factories（工廠）都裝不進小袋子。
+> 4 sent me a photo「寄了一張照片給我」。spelled（拼字）、married（結婚）、prayed（禱告）都不能接 me a photo。
+> 5 在日本一顆芒果 mango 可能要三千日圓。museum（博物館）、village（村莊）、factory（工廠）的價錢不會是三千日圓，也和寄零食無關。
++ pen pal = 筆友
++ Osaka = 大阪
++ Tainan = 台南
++ southern = 南部的
++ yen = 日圓
+= 我有一個住在大阪的筆友，叫 Yuki。我們每個月互相寫信。上個月她寄了一些日本零食給我，所以這次我想寄台灣的東西給她。我選了台南的芒果乾，因為又甜又很有名。我還放了一小袋草莓乾。我在信裡寫：「夏天的台灣南部到處都是芒果，又便宜又好吃。」兩個星期後，Yuki 寄來一張她全家吃零食的照片。「我們家一個晚上就全部吃光了！」她寫道，「在日本，一顆芒果可能要三千日圓！」現在我知道明年要寄什麼給她了。
+
+## 夢遊霍格華茲
+Last night, I had a strange dream. I got a letter from Hogwarts, the school of magic in Harry Potter! An owl took me to the castle, and I sat at a long table in the Great Hall next to Harry, Ron, and Hermione. Food appeared on the table by magic. There was roast chicken, potatoes, and green [[beans|tickets|letters|offices]]. Ron gave me a cup of cold [[pumpkin|garbage|traffic|weather]] juice. It tasted sweet and a little strange. After dinner, we had a class with Professor Sprout. She taught us how to grow a magic [[tomato|pocket|uniform|bill]] that could sing. Mine sang so loudly that everyone [[laughed|spelled|married|borrowed]]. Then my alarm clock rang, and I woke up. I was so [[disappointed|wooden|cheap|thick]]. I wanted to stay at Hogwarts forever!
+> 1 桌上的食物有烤雞、馬鈴薯和四季豆 green beans。tickets（票）、letters（信）、offices（辦公室）都不是晚餐的菜。
+> 2 pumpkin juice「南瓜汁」，喝起來甜甜怪怪的。garbage（垃圾）、traffic（交通）、weather（天氣）都不能做成果汁。
+> 3 種一顆會唱歌的魔法番茄 tomato。pocket（口袋）、uniform（制服）、bill（帳單）都不能「種」出來。
+> 4 番茄唱得太大聲，大家都笑了 laughed。spelled（拼字）、married（結婚）、borrowed（借）都不是聽到好笑的事的反應。
+> 5 從美夢醒來，很失望 disappointed，因為想一直待在霍格華茲。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能形容心情。
++ Hogwarts = 霍格華茲（魔法學校）
++ owl = 貓頭鷹
++ castle = 城堡
++ appear = 出現
++ alarm clock = 鬧鐘
+= 昨晚我做了一個奇怪的夢。我收到一封霍格華茲寄來的信，就是《哈利波特》裡的魔法學校！一隻貓頭鷹帶我到城堡，我在大廳的長桌旁坐下，旁邊是哈利、榮恩和妙麗。食物用魔法出現在桌上，有烤雞、馬鈴薯和四季豆。榮恩給我一杯冰涼的南瓜汁，喝起來甜甜的，又有點怪。晚餐後，我們上了芽菜教授的課，她教我們種一顆會唱歌的魔法番茄。我的番茄唱得超大聲，大家都笑了。然後鬧鐘響了，我醒了過來。我好失望，我想永遠待在霍格華茲！
+
+## 生日蛋糕惹的禍
+Last Saturday was my birthday, and Mom bought a big cake covered with [[strawberries|tickets|offices|letters]]. I happily ate two pieces. But an hour later, my face turned red, my lips got bigger, and I felt very [[dizzy|wooden|cheap|national]]. Mom quickly took me to the hospital. The doctor said I was allergic to strawberries. He gave me some [[medicine|homework|traffic|weather]], and after a few hours, I felt much better. I was sad because strawberries were my favorite fruit. But Mom hugged me and said, "Don't worry. Next year, I'll make you a [[mango|museum|village|factory]] cake instead." Grandma said she would bake a [[pumpkin|uniform|bill|pocket]] pie for me, too. Now I'm a little excited about my next birthday.
+> 1 蛋糕上鋪滿草莓 strawberries，後面醫生說我對草莓過敏。tickets（票）、offices（辦公室）、letters（信）都不能鋪在蛋糕上吃。
+> 2 過敏時臉紅、嘴唇腫、覺得頭暈 dizzy。wooden（木製的）、cheap（便宜的）、national（國家的）都不能形容身體不舒服。
+> 3 醫生給我一些藥 medicine，吃了就好多了。homework（功課）、traffic（交通）、weather（天氣）都不是醫生會給的東西。
+> 4 明年改做芒果 mango 蛋糕，代替不能吃的草莓。museum（博物館）、village（村莊）、factory（工廠）都不能做成蛋糕。
+> 5 pumpkin pie「南瓜派」。uniform（制服）、bill（帳單）、pocket（口袋）都不能烤成派。
++ cover = 覆蓋
++ lip = 嘴唇
++ allergic = 過敏的
++ hug = 擁抱
+= 上星期六是我的生日，媽媽買了一個鋪滿草莓的大蛋糕。我開開心心吃了兩塊。但一個小時後，我的臉變紅、嘴唇腫起來，還覺得很頭暈。媽媽趕快帶我去醫院，醫生說我對草莓過敏。他給我一些藥，幾個小時後我就好多了。我很難過，因為草莓是我最愛的水果。但媽媽抱著我說：「別擔心，明年我改做芒果蛋糕給你。」奶奶也說要烤一個南瓜派給我。現在我對下一次生日有點期待了。
+
+## 番茄醬的小故事
+Do you like ketchup on your French fries? Today, most ketchup is made from [[tomatoes|tickets|pockets|offices]], but long ago it wasn't. The first ketchup came from Asia, and it was made from fish! In the 1800s, Americans started to make it with tomatoes. But at first, many people thought tomatoes were [[dangerous|honest|polite|lazy]] to eat because the plant looked like some poisonous plants. Later, people learned that a [[tomato|ticket|letter|bill]] is safe and delicious. Then a company started to [[sell|spell|marry|pray]] ketchup in clear glass bottles, so people could see that it was clean. Soon, ketchup became popular all over the world. Today, people put it on eggs, hot dogs, and even [[beans|museums|villages|factories]]. Which food do you like to eat with ketchup?
+> 1 番茄醬是用番茄 tomatoes 做的，後面也說美國人開始用番茄來做。tickets（票）、pockets（口袋）、offices（辦公室）都不能做醬。
+> 2 以前人們認為番茄吃了很危險 dangerous，因為長得像有毒植物。honest（誠實的）、polite（有禮貌的）、lazy（懶惰的）都是形容人的，不能接 to eat。
+> 3 後來人們知道番茄 tomato 安全又好吃。ticket（票）、letter（信）、bill（帳單）都不能用 delicious 形容。
+> 4 start to sell ketchup「開始賣番茄醬」，用透明瓶子讓人看到很乾淨。spell（拼字）、marry（結婚）、pray（禱告）都不能接 ketchup in bottles。
+> 5 番茄醬可以加在蛋、熱狗，甚至豆子 beans 上。museums（博物館）、villages（村莊）、factories（工廠）都不是食物。
++ ketchup = 番茄醬
++ French fries = 薯條
++ poisonous = 有毒的
++ company = 公司
++ clear = 透明的
+= 你喜歡在薯條上加番茄醬嗎？現在大部分的番茄醬是用番茄做的，但很久以前並不是。最早的番茄醬來自亞洲，竟然是用魚做的！到了 1800 年代，美國人開始用番茄來做。不過一開始，很多人認為吃番茄很危險，因為番茄的植株長得像一些有毒植物。後來人們才知道番茄既安全又好吃。接著有一家公司開始用透明玻璃瓶賣番茄醬，讓大家看得到它很乾淨。很快地，番茄醬就紅遍全世界。現在，人們把它加在蛋、熱狗上，甚至加在豆子上。你喜歡用番茄醬配什麼食物呢？
+
+## 颱風過後的番茄園
+My grandpa has a small farm in Yunlin. He grows [[tomatoes|tickets|letters|offices]], green [[beans|pockets|uniforms|bills]], and a few pumpkins. Last September, a strong typhoon hit Taiwan. The wind blew down most of his plants. When we visited him after the storm, he looked very [[sad|wooden|cheap|thick]]. "Almost all my tomatoes are gone," he said quietly. My dad and I decided to help him. We picked up the plants that weren't broken and tied them to sticks. We also [[cleaned|spelled|married|prayed]] up the mud and leaves on the ground. It took us two whole days. A month later, Grandpa sent us a box of tomatoes and a big [[pumpkin|museum|village|factory]] with a note: "Thank you. These are from the plants you saved."
+> 1 爺爺的農場種番茄 tomatoes，後面說番茄幾乎都沒了。tickets（票）、letters（信）、offices（辦公室）都不能種在農場裡。
+> 2 green beans「四季豆」，也是農場種的作物。pockets（口袋）、uniforms（制服）、bills（帳單）都不能種。
+> 3 作物被颱風吹倒，爺爺看起來很難過 sad。wooden（木製的）、cheap（便宜的）、thick（厚的）都不能接在 looked very 後面形容心情。
+> 4 clean up the mud「把泥巴清乾淨」。spelled（拼字）、married（結婚）、prayed（禱告）都不能和 up 接 the mud。
+> 5 寄來一箱番茄和一顆大南瓜 pumpkin，前面提過農場種了南瓜。museum（博物館）、village（村莊）、factory（工廠）都不能裝箱寄送。
++ Yunlin = 雲林
++ typhoon = 颱風
++ tie = 綁
++ mud = 泥巴
++ note = 字條
+= 我爺爺在雲林有一塊小農地，種了番茄、四季豆和幾顆南瓜。去年九月，一個強烈颱風侵襲台灣，大風把他大部分的作物都吹倒了。颱風過後我們去看他，他看起來很難過。「我的番茄幾乎全沒了。」他小聲地說。爸爸和我決定幫忙。我們把沒斷掉的植株扶起來，綁在竹竿上，也把地上的泥巴和落葉清乾淨，整整花了兩天。一個月後，爺爺寄給我們一箱番茄和一顆大南瓜，還附了一張字條：「謝謝你們，這些是你們救回來的植物長出來的。」
+
