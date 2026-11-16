@@ -134,3 +134,143 @@ Most people think a [[lemon|ticket|village|pocket]] is only for drinks. But it c
 + brown = 褐色的
 + squeeze = 擠
 = 大多數人以為檸檬只能拿來做飲料，但它其實有很多用途！我阿嬤幾乎什麼事都用檸檬。冰箱有臭味時，她把一顆檸檬切半放進去；鍋子有污漬時，她用檸檬和鹽去搓。我喉嚨痛的時候，她會泡熱檸檬蜂蜜茶給我喝。她在切好的水果（像蘋果）上擠檸檬汁，水果就不會變黑。她也會在炸魚和其他海鮮上擠檸檬，讓它們吃起來更鮮。上週我問她：「阿嬤，有沒有什麼是檸檬做不到的？」她想了一下，笑著說：「它沒辦法讓你停止問問題！」
+
+## 水果雕刻比賽
+Our school held a fruit carving contest last Friday. Each team had one hour to turn [[fruit|homework|traffic|weather]] into art. My team chose a big watermelon, and we wanted to carve it into a dragon. I was in charge of the eyes, and I used two black [[grapes|tickets|letters|offices]]. My friend Ben made the dragon's teeth from small pieces of apple. Another team made a boat out of a pineapple, with [[bananas|pockets|villages|museums]] as the people sitting on it. One girl carved a [[lemon|ticket|village|corner]] into a tiny yellow rose. It was so small and [[beautiful|crowded|national|illegal]] that everyone took photos of it. She won first place. In the end, our dragon won second place, and we were very happy. After the contest, we did one more thing together: we ate all the art. It was the most delicious contest ever.
+> 1 turn fruit into art「把水果變成藝術品」，這是水果雕刻比賽。homework（功課）、traffic（交通）、weather（天氣）都不能拿來雕刻。
+> 2 用兩顆黑葡萄 grapes 當龍的眼睛。tickets（票）、letters（信）、offices（辦公室）都不能放在西瓜上當眼睛。
+> 3 用香蕉 bananas 當坐在鳳梨船上的人。pockets（口袋）、villages（村莊）、museums（博物館）都不是水果，不能雕成小人。
+> 4 把一顆檸檬 lemon 雕成黃色的小玫瑰。ticket（票）、village（村莊）、corner（角落）都不能雕、也不是黃色的水果。
+> 5 so small and beautiful that…「又小又漂亮，所以大家都拍照」。crowded（擁擠的）、national（國家的）、illegal（違法的）都不能說明大家為什麼拍照。
++ carve = 雕刻
++ contest = 比賽
++ watermelon = 西瓜
++ pineapple = 鳳梨
++ rose = 玫瑰
+= 上週五，我們學校舉辦了水果雕刻比賽。每一組有一個小時，把水果變成藝術品。我們這組選了一顆大西瓜，想把它雕成一條龍。我負責眼睛，用了兩顆黑葡萄。我朋友 Ben 用小塊蘋果做龍的牙齒。另一組用鳳梨做成一艘船，用香蕉當坐在船上的人。有個女生把一顆檸檬雕成一朵黃色的小玫瑰，又小又漂亮，每個人都拍照，她得了第一名。最後，我們的龍得了第二名，我們都很開心。比賽結束後，我們一起做了最後一件事：把所有藝術品都吃掉。那是史上最好吃的比賽。
+
+## 颱風過後的菜價
+After a strong typhoon hit Taiwan last summer, many farms were badly damaged. The heavy rain washed away a lot of [[vegetables|tickets|villages|letters]] in the fields. A few days later, Mom came back from the market with a surprised face. "One cabbage costs three hundred dollars now!" she said. Before the typhoon, it was only fifty. The price of [[fruit|homework|traffic|weather]] went up, too, because many [[bananas|pockets|offices|museums]] fell from the trees in the strong wind. Mom said we had to [[save|spell|marry|pray]] money for a few weeks. So we ate more eggs, tofu, and bean sprouts, which were still cheap. Dad even made a [[lemon|ticket|village|corner]] drink with fruit from our neighbor's tree instead of buying juice. Two weeks later, prices went back to normal. When Mom bought cabbage again, she said, "Now I know how much farmers do for us."
+> 1 大雨沖走田裡很多蔬菜 vegetables，後面說高麗菜變貴。tickets（票）、villages（村莊）、letters（信）都不會長在田裡。
+> 2 the price of fruit「水果的價格」也上漲。homework（功課）、traffic（交通）、weather（天氣）都不是在市場買賣、有價格的東西。
+> 3 很多香蕉 bananas 被強風從樹上吹落。pockets（口袋）、offices（辦公室）、museums（博物館）都不會長在樹上。
+> 4 save money「省錢」，菜價太貴，只好吃便宜的東西。spell（拼字）、marry（結婚）、pray（禱告）接 money 都不通。
+> 5 a lemon drink「檸檬飲料」，用鄰居家樹上的果實做。ticket（票）、village（村莊）、corner（角落）都不能做成飲料。
++ typhoon = 颱風
++ damage = 損壞
++ cabbage = 高麗菜
++ price = 價格
++ bean sprout = 豆芽菜
+= 去年夏天一個強颱侵襲台灣之後，很多農場都受到嚴重損壞，大雨沖走了田裡很多蔬菜。幾天後，媽媽從市場回來，一臉驚訝。「一顆高麗菜現在要三百元！」她說。颱風前，一顆只要五十元。水果的價格也漲了，因為很多香蕉被強風從樹上吹落。媽媽說，我們這幾週得省點錢。所以我們多吃蛋、豆腐和豆芽菜，因為這些還是很便宜。爸爸甚至用鄰居家樹上的果子做了檸檬飲料，而不去買果汁。兩週後，價格恢復正常。媽媽再次買高麗菜時說：「現在我知道農夫為我們付出了多少。」
+
+## 阿嬤拜拜的水果
+During Chinese New Year, my grandma goes to the temple to pray. She always brings a big plate of [[fruit|homework|traffic|weather]]. Her favorite is the pineapple, because in Taiwanese its name sounds like "good luck is coming." She also brings oranges, apples, and a bunch of [[grapes|tickets|letters|offices]], because a bunch has many small fruits, which means a big, happy family. But she never brings guavas. Some people believe guavas are not clean enough for the gods. "We must be [[polite|wooden|crowded|thirsty]] to the gods," Grandma says. After praying, we take the fruit home and eat it. Grandma says the gods have already enjoyed the smell, so now we can [[enjoy|spell|marry|lend]] the taste. Last year, I asked if I could bring a [[banana|ticket|village|pocket]] for the gods, too, because I love bananas. Grandma laughed. "You just want to eat it later!"
+> 1 a big plate of fruit「一大盤水果」，後面提到鳳梨、柳丁、蘋果。homework（功課）、traffic（交通）、weather（天氣）都不能裝盤拜拜。
+> 2 a bunch of grapes「一串葡萄」，一串有很多顆，代表大家庭。tickets（票）、letters（信）、offices（辦公室）都不能說「一串、很多小果實」。
+> 3 be polite to…「對…有禮貌」，所以不帶不夠乾淨的芭樂。wooden（木製的）、crowded（擁擠的）、thirsty（口渴的）都不能接 to the gods 表示態度。
+> 4 enjoy the taste「享用味道」，和前面神明 enjoyed the smell 對應。spell（拼字）、marry（結婚）、lend（借出）接 the taste 都不通。
+> 5 帶一根香蕉 banana 去拜，因為我愛吃香蕉。ticket（票）、village（村莊）、pocket（口袋）都不能吃。
++ Chinese New Year = 農曆新年
++ temple = 廟
++ pineapple = 鳳梨
++ guava = 芭樂
++ bunch = 串
+= 每到農曆新年，阿嬤都會去廟裡拜拜，她總是帶一大盤水果。她最喜歡鳳梨，因為台語唸起來像「旺來」。她也會帶柳丁、蘋果和一串葡萄，因為一串有很多小果實，代表一個快樂的大家庭。但她從來不帶芭樂，有些人認為芭樂不夠乾淨，不適合拜神。「對神明要有禮貌。」阿嬤說。拜完之後，我們把水果帶回家吃。阿嬤說神明已經享用過香味了，現在換我們享用味道。去年，我問阿嬤可不可以也帶一根香蕉拜神，因為我很愛吃香蕉。阿嬤笑著說：「你只是想等一下自己吃吧！」
+
+## 第一次吃榴槤
+My dad went on a business trip to Thailand and brought back a strange [[fruit|homework|traffic|weather]]. It was big, green, and covered with sharp spikes. "This is a durian," he said. "People call it the king of fruits." When he opened it, a strong [[smell|ticket|uniform|corner]] filled the whole kitchen. My sister ran away and held her nose. "It smells like old socks!" she shouted. But Dad said, "Just try it." I was [[nervous|wooden|crowded|national]], but I took a small bite. It was soft and sweet, like cream! It was nothing like [[bananas|tickets|villages|pockets]] or [[grapes|letters|offices|museums]]. I had never tasted anything like it before. I ate three pieces, and Dad ate the rest. Now durian is one of my favorite fruits. But Mom has a new rule: we can only eat it outside on the balcony.
+> 1 a strange fruit「一種奇怪的水果」，後面說它是水果之王榴槤。homework（功課）、traffic（交通）、weather（天氣）都不能從國外帶回來、也沒有刺。
+> 2 a strong smell filled the kitchen「一股濃烈的氣味充滿廚房」，妹妹還捏住鼻子。ticket（票）、uniform（制服）、corner（角落）都不能「充滿廚房」。
+> 3 第一次吃很緊張 nervous，但還是咬了一口。wooden（木製的）、crowded（擁擠的）、national（國家的）都不能形容人的心情。
+> 4 nothing like bananas「和香蕉完全不同」。tickets（票）、villages（村莊）、pockets（口袋）都不是能拿來比較味道的水果。
+> 5 nothing like … grapes「和葡萄完全不同」。letters（信）、offices（辦公室）、museums（博物館）都不是能拿來比較味道的水果。
++ business trip = 出差
++ Thailand = 泰國
++ spike = 尖刺
++ durian = 榴槤
++ balcony = 陽台
+= 爸爸去泰國出差，帶回來一種奇怪的水果。它又大又綠，全身都是尖刺。「這是榴槤，」他說，「大家叫它水果之王。」他一打開，一股濃烈的氣味就充滿整個廚房。妹妹捏著鼻子跑走，大喊：「聞起來像舊襪子！」但爸爸說：「吃吃看嘛。」我很緊張，但還是咬了一小口。它又軟又甜，像奶油一樣！和香蕉或葡萄完全不同，我從來沒吃過這種味道。我吃了三塊，剩下的爸爸吃掉了。現在榴槤是我最喜歡的水果之一。不過媽媽訂了新規定：我們只能到陽台上吃。
+
+## 大猩猩的生日蛋糕
+Last Saturday was the birthday of Bobo, the oldest gorilla at the zoo. He turned forty-five! The zookeepers made him a special cake. It wasn't made of flour or sugar. Instead, it was made of ice, [[vegetables|tickets|villages|letters]], and lots of fruit. On top, there were [[bananas|pockets|offices|museums]], his favorite, and a big "45" made of red [[grapes|tickets|corners|uniforms]]. Many visitors came to [[celebrate|spell|marry|pray]] with him. When the cake was put in his area, Bobo walked over slowly. He looked at it, picked up a banana, and ate it. Then he sat down and ate the grapes one by one. The children cheered. A zookeeper said, "Gorillas eat a lot of plants and [[fruit|homework|traffic|weather]] in the wild. This cake is healthy for him." Bobo finished everything, and then he lay down for a long nap.
+> 1 蛋糕是用冰塊、蔬菜 vegetables 和很多水果做的。tickets（票）、villages（村莊）、letters（信）都不能做成給動物吃的蛋糕。
+> 2 上面放著牠最愛的香蕉 bananas，後面也說牠拿起一根香蕉。pockets（口袋）、offices（辦公室）、museums（博物館）都不能吃。
+> 3 用紅葡萄 grapes 排成「45」，後面說牠一顆顆吃掉葡萄。tickets（票）、corners（角落）、uniforms（制服）都不能一顆顆吃。
+> 4 celebrate with him「和牠一起慶祝」生日。spell（拼字）、marry（結婚）、pray（禱告）都不是來參加生日的目的。
+> 5 大猩猩在野外吃很多植物和水果 fruit。homework（功課）、traffic（交通）、weather（天氣）都不能吃。
++ gorilla = 大猩猩
++ zookeeper = 動物園管理員
++ flour = 麵粉
++ in the wild = 在野外
++ nap = 小睡
+= 上週六是動物園裡最老的大猩猩 Bobo 的生日，牠滿四十五歲了！管理員為牠做了一個特別的蛋糕。蛋糕不是用麵粉和糖做的，而是用冰塊、蔬菜和很多水果做的。上面放著牠最愛的香蕉，還有用紅葡萄排成的大大的「45」。很多遊客都來和牠一起慶祝。蛋糕放進牠的活動區時，Bobo 慢慢走過去，看了看，拿起一根香蕉吃掉，接著坐下來一顆一顆地吃葡萄。小朋友們都歡呼起來。一位管理員說：「大猩猩在野外會吃很多植物和水果，這個蛋糕對牠很健康。」Bobo 把蛋糕全吃光，然後躺下來睡了一場長長的午覺。
+
+## 自己做水果冰棒
+It was the hottest day of summer, and the ice cream shop was too far away. So my cousin and I decided to make our own popsicles. First, we cut some [[fruit|homework|traffic|weather]] into small pieces: mangoes, kiwis, and [[grapes|tickets|letters|offices]]. Then we put the pieces into plastic cups. My cousin added some honey and [[lemon|ticket|village|corner]] juice to a bottle of apple juice and [[mixed|spelled|married|prayed]] it well. We poured the juice into the cups and put a stick in each one. Then we put them in the freezer and waited. Every thirty minutes, my cousin opened the freezer to check. "Stop it! They will never get hard that way," I said. Four hours later, the popsicles were finally ready. They were colorful and sweet, and we were so [[proud|wooden|crowded|thirsty]] of them. We gave one to everyone in the family.
+> 1 cut some fruit into small pieces「把一些水果切小塊」，冒號後面列出芒果、奇異果和葡萄。homework（功課）、traffic（交通）、weather（天氣）都不能切。
+> 2 mangoes, kiwis, and grapes「芒果、奇異果和葡萄」，都是水果。tickets（票）、letters（信）、offices（辦公室）都不能切塊做冰棒。
+> 3 lemon juice「檸檬汁」，和蜂蜜一起加進蘋果汁。ticket（票）、village（村莊）、corner（角落）都不能做成汁。
+> 4 mix it well「攪拌均勻」，mix 的過去式 mixed。spelled（拼字）、married（結婚）、prayed（禱告）都不能用在果汁上。
+> 5 be proud of…「以…為傲」，對自己做的冰棒很得意。wooden（木製的）、crowded（擁擠的）、thirsty（口渴的）都不能和 of them 搭配表示心情。
++ popsicle = 冰棒
++ kiwi = 奇異果
++ honey = 蜂蜜
++ pour = 倒
++ freezer = 冷凍庫
+= 那是夏天最熱的一天，冰淇淋店又太遠，所以我和表哥決定自己做冰棒。首先，我們把一些水果切成小塊：芒果、奇異果和葡萄，再把水果放進塑膠杯裡。表哥在一瓶蘋果汁裡加了蜂蜜和檸檬汁，攪拌均勻。我們把果汁倒進杯子，每杯插一根棒子，再放進冷凍庫等待。表哥每三十分鐘就打開冷凍庫看一次。「別再開了！這樣永遠都不會結冰啦。」我說。四個小時後，冰棒終於做好了，五顏六色又甜甜的，我們好得意。我們給家裡每個人都送了一支。
+
+## 果汁店的機器人
+A new juice shop near my school has a robot that makes drinks. You choose what you want on a screen, and the robot does the rest. Yesterday, I [[ordered|spelled|married|prayed]] a banana milk. The robot picked up a [[banana|ticket|village|pocket]], took off the peel, and put it into the blender with milk. It took only one minute! My friend Ivy wanted something sour, so she chose [[lemon|ticket|corner|uniform]] green tea. Then my friend Leo tried to be funny. He pressed every button and chose seven kinds of [[fruit|homework|traffic|weather]] for one drink. The robot stopped for a moment. Its screen said, "Are you sure?" Leo pressed "Yes." The drink came out brown and thick. Leo took a sip and made a face. "It tastes [[terrible|wooden|national|crowded]]," he said. The robot's screen showed a smiling face and the words "I told you so."
+> 1 order「點（飲料）」，order 的過去式 ordered。spelled（拼字）、married（結婚）、prayed（禱告）接 a banana milk 都不通。
+> 2 機器人拿起一根香蕉 banana，剝皮後放進果汁機。ticket（票）、village（村莊）、pocket（口袋）都不能剝皮打成果汁。
+> 3 想喝酸的，所以選檸檬 lemon 綠茶。ticket（票）、corner（角落）、uniform（制服）都不能加進綠茶，也不是酸的。
+> 4 seven kinds of fruit「七種水果」打成一杯。homework（功課）、traffic（交通）、weather（天氣）都不能放進飲料。
+> 5 taste terrible「味道很糟」，他喝了一口就皺眉。wooden（木製的）、national（國家的）、crowded（擁擠的）都不能形容味道。
++ screen = 螢幕
++ peel = 果皮
++ blender = 果汁機
++ button = 按鈕
++ sip = 一小口
+= 我學校附近新開了一家果汁店，店裡有一個會做飲料的機器人。你在螢幕上選好想喝的，剩下的就交給機器人。昨天，我點了香蕉牛奶。機器人拿起一根香蕉，剝掉皮，和牛奶一起放進果汁機，只花了一分鐘！我朋友 Ivy 想喝酸的，所以選了檸檬綠茶。接著我朋友 Leo 想搞笑，他把每個按鈕都按了，在一杯飲料裡選了七種水果。機器人停頓了一下，螢幕上出現「你確定嗎？」Leo 按了「是」。做出來的飲料又褐又稠。Leo 喝了一口，臉都皺起來了。「好難喝。」他說。機器人的螢幕上出現一張笑臉和一行字：「我早就跟你說了。」
+
+## 教練的檸檬
+Our school basketball team lost the final game by one point. In the locker room, everyone was quiet, and some players were crying. Then Coach Lin came in with a bag of [[lemons|tickets|villages|pockets]]. We didn't understand. He put one in each player's hand. "Taste it," he said. We each took a bite. It was so sour that we all made funny faces, and some of us started to [[laugh|spell|marry|pray]]. Coach Lin smiled. "Life will give you lemons sometimes," he said. "Losing a game is a lemon. But you can add water and sugar and make lemonade. That means you learn from your [[mistakes|tickets|corners|uniforms]] and become better." The next week, we practiced harder than ever. And after every game, win or lose, Coach Lin gave us a cup of [[lemon|ticket|village|pocket]] juice and a bag of [[fruit|homework|traffic|weather]] on the bus home.
+> 1 a bag of lemons「一袋檸檬」，後面叫大家咬一口、很酸。tickets（票）、villages（村莊）、pockets（口袋）都不能吃。
+> 2 酸到做鬼臉，有些人開始笑 laugh 了出來。spell（拼字）、marry（結婚）、pray（禱告）都不是看到彼此鬼臉的反應。
+> 3 learn from your mistakes「從錯誤中學習」。tickets（票）、corners（角落）、uniforms（制服）都不能從中學到教訓。
+> 4 a cup of lemon juice「一杯檸檬汁」，呼應前面的檸檬比喻。ticket（票）、village（村莊）、pocket（口袋）都不能做成汁。
+> 5 a bag of fruit「一袋水果」，比賽後的點心。homework（功課）、traffic（交通）、weather（天氣）都不能裝在袋子裡給球員吃。
++ final = 決賽
++ locker room = 更衣室
++ coach = 教練
++ sour = 酸的
++ lemonade = 檸檬水
+= 我們學校籃球隊在決賽以一分之差輸了。更衣室裡大家都很安靜，有些隊員在哭。這時林教練拿著一袋檸檬走進來，我們都不懂他要做什麼。他在每個隊員手上放一顆檸檬，說：「嚐嚐看。」我們每個人咬了一口，酸到大家都做出好笑的鬼臉，有些人開始笑了出來。林教練笑著說：「人生有時候會給你檸檬。輸掉比賽就是一顆檸檬，但你可以加水和糖，做成檸檬水。意思是，你要從錯誤中學習，讓自己變得更好。」接下來那週，我們練得比以前更努力。而且之後每場比賽，不論輸贏，林教練都會在回程的巴士上給我們一杯檸檬汁和一袋水果。
+
+## 香蕉王國的回憶
+Did you know that Taiwan was once called the "Kingdom of Bananas"? About sixty years ago, Taiwan sold a lot of [[bananas|tickets|villages|offices]] to Japan. My grandpa was a banana farmer in Kaohsiung back then. He told me the work was very [[hard|wooden|national|crowded]]. The bananas had to be picked before they were ripe. Then workers [[packed|spelled|married|prayed]] them into boxes and sent them to the harbor. The trip to Japan took many days on a ship. When the bananas arrived, they turned yellow and sweet. Japanese people loved Taiwanese bananas because of their rich taste, and farmers made good money. Today, Taiwan still grows many kinds of [[fruit|homework|traffic|weather]], like mangoes, pineapples, and [[grapes|tickets|letters|pockets]]. But for Grandpa, the banana is still the king. "Every banana has a story," he says.
+> 1 台灣當年賣很多香蕉 bananas 到日本，所以叫「香蕉王國」。tickets（票）、villages（村莊）、offices（辦公室）都不能外銷、也不會被種植。
+> 2 the work was very hard「工作很辛苦」。wooden（木製的）、national（國家的）、crowded（擁擠的）都不能形容工作的辛苦。
+> 3 pack them into boxes「把它們裝箱」，pack 的過去式 packed。spelled（拼字）、married（結婚）、prayed（禱告）接 into boxes 都不通。
+> 4 many kinds of fruit「很多種水果」，後面舉了芒果、鳳梨、葡萄。homework（功課）、traffic（交通）、weather（天氣）都不能種植。
+> 5 芒果、鳳梨和葡萄 grapes 都是台灣種的水果。tickets（票）、letters（信）、pockets（口袋）都不能種。
++ kingdom = 王國
++ Kaohsiung = 高雄
++ ripe = 成熟的
++ harbor = 港口
++ pineapple = 鳳梨
+= 你知道台灣曾經被稱為「香蕉王國」嗎？大約六十年前，台灣賣了大量香蕉到日本。我爺爺當時是高雄的蕉農，他告訴我那份工作非常辛苦。香蕉必須在成熟前就採下來，接著工人把它們裝箱，運到港口。到日本要坐好幾天的船。香蕉送到時，就變得又黃又甜。日本人很喜歡台灣香蕉濃郁的味道，農民也賺了不少錢。現在台灣仍然種很多種水果，像是芒果、鳳梨和葡萄。但對爺爺來說，香蕉永遠是王。「每一根香蕉都有一個故事。」他說。
+
+## 葡萄乾的祕密
+My little sister asked me a question at breakfast. She was eating cereal with raisins. "Where do raisins come from? Do they grow on trees?" I laughed. "No, raisins are dried [[grapes|tickets|letters|offices]]." She didn't believe me, so we did an experiment. We washed some green grapes and put them on a plate by the sunny window. Every day, we [[checked|spelled|married|prayed]] them. After a week, they became small, brown, and soft. My sister took one and tasted it. "It's a raisin!" she shouted. "It's even sweeter than before!" I explained that the water in the [[fruit|homework|traffic|weather]] goes away, but the sugar stays. Then she wanted to dry everything. She tried a [[banana|ticket|village|pocket]], an apple, and even a [[lemon|corner|uniform|museum]]. The banana and apple chips were great, but the dried lemon was too sour. "Some fruit should just stay the way it is," she said.
+> 1 raisins are dried grapes「葡萄乾就是曬乾的葡萄」，後面她們真的曬了葡萄。tickets（票）、letters（信）、offices（辦公室）曬乾都不會變成葡萄乾。
+> 2 每天檢查 checked 葡萄的變化。spelled（拼字）、married（結婚）、prayed（禱告）接 them 都不通。
+> 3 水果 fruit 裡的水分不見了，糖分留下來，所以更甜。homework（功課）、traffic（交通）、weather（天氣）裡面都沒有水分和糖。
+> 4 試著曬一根香蕉 banana，後面說香蕉乾很好吃。ticket（票）、village（村莊）、pocket（口袋）都不能曬乾來吃。
+> 5 甚至曬了一顆檸檬 lemon，結果太酸。corner（角落）、uniform（制服）、museum（博物館）都不會「太酸」。
++ cereal = 穀片
++ raisin = 葡萄乾
++ dried = 乾燥的
++ experiment = 實驗
++ chip = 薄片
+= 妹妹在吃早餐時問了我一個問題。她正在吃加了葡萄乾的穀片。「葡萄乾是從哪裡來的？長在樹上嗎？」我笑了：「不是啦，葡萄乾就是曬乾的葡萄。」她不相信，所以我們做了一個實驗。我們洗了一些綠葡萄，放在盤子上，擺在有陽光的窗邊，每天都去檢查。一星期後，葡萄變得又小、又褐、又軟。妹妹拿起一顆嚐嚐。「是葡萄乾耶！」她大叫，「比原本還甜！」我解釋說，水果裡的水分會不見，但糖分會留下來。接著她什麼都想曬乾，試了香蕉、蘋果，甚至還有檸檬。香蕉乾和蘋果乾都很好吃，但檸檬乾太酸了。「有些水果還是保持原樣就好。」她說。
