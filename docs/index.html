@@ -77,8 +77,9 @@ input[type=text]{flex:1;min-width:200px}
 .qhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
 .chip{display:inline-block;background:var(--board);color:#fff;border-radius:6px;padding:2px 8px;font-size:.8rem;font-weight:700;font-variant-numeric:tabular-nums}
 .chip.k{background:transparent;color:var(--muted);border:1px solid var(--line);font-weight:500}
-.bar{height:6px;background:var(--line);border-radius:999px;overflow:hidden;margin-bottom:16px}
-.bar span{display:block;height:100%;background:var(--chalk);transition:width .25s}
+.bar{height:6px;background:var(--line);border-radius:999px;margin-bottom:16px}
+.bar span{display:block;position:relative;height:100%;background:var(--chalk);border-radius:999px;transition:width .25s;min-width:2px}
+.bar span::after{content:'🚀';position:absolute;right:-8px;top:50%;transform:translateY(-54%);font-size:15px;line-height:1}
 .sentence{font-family:var(--font-en);font-size:1.45rem;line-height:1.55;margin:6px 0 18px;text-wrap:pretty}
 .blank{display:inline-block;min-width:5.5em;border-bottom:3px solid var(--ink);text-align:center;color:var(--board-2);font-weight:700}
 .ask{color:var(--muted);font-size:.9rem;margin:0}
@@ -145,6 +146,32 @@ input[type=text]{flex:1;min-width:200px}
 .loading{padding:40px 0;text-align:center;color:var(--muted)}
 @media (max-width:420px){.sentence{font-size:1.25rem}.opt{font-size:1.05rem}}
 @media (prefers-reduced-motion: reduce){.bar span{transition:none}}
+.chip.streak{background:#fff3d6;color:#8a5a00;border:1px solid var(--chalk)}
+#sndBtn{font:inherit;font-size:1rem;line-height:1;padding:4px 8px;border-radius:999px;border:1px solid var(--line);background:var(--paper);cursor:pointer}
+#sndBtn[aria-pressed="true"]{background:#fff3d6;border-color:var(--chalk)}
+.spark{position:fixed;z-index:98;pointer-events:none;font-size:15px}
+.confetti{position:fixed;inset:0;pointer-events:none;z-index:99;overflow:hidden}
+.confetti i{position:absolute;top:-4vh;width:9px;height:14px;border-radius:2px;opacity:.95}
+@media (prefers-reduced-motion: no-preference){
+.opts .opt{animation:rise .25s ease-out backwards}
+.opts .opt:nth-child(2){animation-delay:.05s}
+.opts .opt:nth-child(3){animation-delay:.1s}
+.opts .opt:nth-child(4){animation-delay:.15s}
+.opt.ok{animation:okpop .45s cubic-bezier(.34,1.56,.64,1)}
+.opt.bad{animation:shake .4s}
+.feedback.ok,.feedback.bad{animation:rise .3s ease-out}
+.chip.streak.pop{animation:okpop .4s cubic-bezier(.34,1.56,.64,1)}
+.cb.now{display:inline-block;animation:stamp .45s cubic-bezier(.34,1.56,.64,1)}
+.spark{animation:spark .8s ease-out forwards}
+.confetti i{animation:fall linear forwards}
+.score .big.bump{animation:okpop .5s cubic-bezier(.34,1.56,.64,1)}
+}
+@keyframes okpop{0%{transform:scale(1)}40%{transform:scale(1.08)}100%{transform:scale(1)}}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}45%{transform:translateX(6px)}70%{transform:translateX(-4px)}90%{transform:translateX(3px)}}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes stamp{0%{transform:scale(1.9) rotate(-10deg);opacity:.1}100%{transform:scale(1) rotate(0);opacity:1}}
+@keyframes spark{to{transform:translate(var(--dx),var(--dy)) scale(.3);opacity:0}}
+@keyframes fall{to{transform:translateY(108vh) rotate(720deg)}}
 </style>
 </head>
 <body>
@@ -226,8 +253,8 @@ input[type=text]{flex:1;min-width:200px}
 <section id="quiz" class="panel hidden" aria-live="polite">
   <div>
     <div class="qhead">
-      <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span></div>
-      <div class="hint" id="qProg"></div>
+      <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span><span class="chip streak hidden" id="qStreak"></span></div>
+      <div class="row"><span class="hint" id="qProg"></span><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
     </div>
     <div class="bar"><span id="qBar"></span></div>
     <p class="ask" id="qAsk">＿＿＿ 處適合填入何者？</p>
@@ -396,7 +423,8 @@ function gloss(q, i){ const o = q.o[i]; return (q.k === 'verb' ? GL['v|' + q.w +
 function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
 function start(items){
-  session = {items, i:0, right:0, wrong:[], answered:false, done:{}, order: items.map(() => shuffle([0,1,2,3])),
+  $('qStreak').classList.add('hidden');
+  session = {items, i:0, right:0, wrong:[], answered:false, done:{}, streak:0, order: items.map(() => shuffle([0,1,2,3])),
     log: [], t0: Date.now(), planned: items.length, rangeText: rangeText()};
   $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); $('board').classList.add('hidden');
   show();
@@ -431,7 +459,7 @@ function clozeHtml(st, reveal){
     const b = +k - 1, B = P.blanks[b];
     if (b === st.b && !reveal) return `<span class="cb cur">(${k}) ＿＿</span>`;
     const done = s.done && s.done[st.u + '-' + st.p + '-' + b];
-    if (b === st.b || done != null) { const pick = b === st.b ? reveal.pick : done; return `<span class="cb ${pick === B.c ? 'ok' : 'bad'}">(${k}) ${esc(B.o[B.c])}</span>`; }
+    if (b === st.b || done != null) { const pick = b === st.b ? reveal.pick : done; return `<span class="cb ${pick === B.c ? 'ok' : 'bad'}${b === st.b && reveal ? ' now' : ''}">(${k}) ${esc(B.o[B.c])}</span>`; }
     return `<span class="cb">(${k}) ＿＿</span>`;
   });
 }
@@ -477,6 +505,7 @@ function answerCloze(oi){
     (last && P.zh ? `<div class="trans"><b>全文翻譯</b><br>${esc(P.zh)}</div>` : '');
   $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
   const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : (last ? '下一題' : '下一格'); nb.classList.remove('hidden'); nb.focus();
+  fxAnswer(ok);
 }
 function answer(oi){
   const s = session; if (s.answered) return; s.answered = true;
@@ -498,6 +527,7 @@ function answer(oi){
     `<span class="hint">單字：${esc(q.w)}${q.k === 'verb' && GL['v|' + q.w] ? ' ' + esc(GL['v|' + q.w]) : ''}</span>`;
   $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
   const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
+  fxAnswer(ok);
 }
 function next(){
   const s = session; if (!s.answered) return;
@@ -506,8 +536,11 @@ function next(){
 function finish(){
   const s = session, total = s.items.length;
   $('quiz').classList.add('hidden'); $('result').classList.remove('hidden'); $('board').classList.remove('hidden');
-  $('rScore').textContent = Math.round(s.right / total * 100) + ' 分';
-  $('rDetail').textContent = `答對 ${s.right} 題，共 ${total} 題`;
+  const pct = Math.round(s.right / total * 100);
+  countUp($('rScore'), pct);
+  $('rDetail').textContent = (pct === 100 ? '🏆 ' : pct >= 90 ? '🎉 ' : pct >= 60 ? '💪 ' : '📚 ') + `答對 ${s.right} 題，共 ${total} 題`;
+  if (pct === 100 && total >= 5) confetti();
+  SND.win(pct === 100);
   const ul = $('rWrong'); ul.innerHTML = '';
   $('rWrongBox').classList.toggle('hidden', s.wrong.length === 0);
   $('redoWrong').classList.toggle('hidden', s.wrong.length === 0);
@@ -536,6 +569,77 @@ function rangeText(){
   return ds.map(d => 'D' + d).join(', ').slice(0, 110);
 }
 function esc(t){ return String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+// 互動效果：動畫、星星、連對徽章、彩紙與音效（音效預設關閉，🔊 按鈕開啟）
+const RM = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+const SND = {
+  on: false, ctx: null,
+  init(){ try { this.ctx = this.ctx || new (window.AudioContext || window.webkitAudioContext)(); if (this.ctx.state === 'suspended') this.ctx.resume(); } catch (e) {} },
+  tone(f, t0, dur, type, vol){ try {
+    const c = this.ctx; if (!c) return;
+    const o = c.createOscillator(), g = c.createGain(), t = c.currentTime + t0;
+    o.type = type || 'sine'; o.frequency.value = f; o.connect(g); g.connect(c.destination);
+    g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(vol || .13, t + .012); g.gain.exponentialRampToValueAtTime(.0008, t + dur);
+    o.start(t); o.stop(t + dur + .05);
+  } catch (e) {} },
+  ok(streak){ if (!this.on) return; this.init(); this.tone(880, 0, .12); this.tone(1318.5, .08, .2);
+    if (streak >= 5 && streak % 5 === 0) { this.tone(1568, .2, .12); this.tone(2093, .3, .3); } },
+  bad(){ if (!this.on) return; this.init(); this.tone(220, 0, .2, 'triangle', .1); this.tone(185, .12, .25, 'triangle', .1); },
+  win(perfect){ if (!this.on) return; this.init(); [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => this.tone(f, i * .12, .28));
+    if (perfect) [1318.5, 1568, 2093].forEach((f, i) => this.tone(f, .65 + i * .1, .32)); }
+};
+try { SND.on = localStorage.getItem('snd') === '1'; } catch (e) {}
+const sndBtn = $('sndBtn');
+function sndIcon(){ sndBtn.textContent = SND.on ? '🔊' : '🔇'; sndBtn.setAttribute('aria-pressed', SND.on); }
+sndIcon();
+sndBtn.onclick = () => { SND.on = !SND.on; sndIcon(); try { localStorage.setItem('snd', SND.on ? '1' : '0'); } catch (e) {} if (SND.on) { SND.init(); SND.tone(880, 0, .12); SND.tone(1318.5, .08, .18); } };
+function burst(el){
+  if (RM() || !el) return;
+  const r = el.getBoundingClientRect(), em = ['✨', '⭐', '🌟', '💫'];
+  for (let i = 0; i < 10; i++) {
+    const p = document.createElement('span'); p.className = 'spark'; p.textContent = em[i % 4];
+    p.style.left = (r.left + Math.random() * r.width) + 'px';
+    p.style.top = (r.top + r.height * .4) + 'px';
+    p.style.setProperty('--dx', (Math.random() * 140 - 70) + 'px');
+    p.style.setProperty('--dy', (-45 - Math.random() * 85) + 'px');
+    document.body.appendChild(p); setTimeout(() => p.remove(), 900);
+  }
+}
+function confetti(){
+  if (RM()) return;
+  const c = document.createElement('div'); c.className = 'confetti';
+  const colors = ['#f2c94c', '#e4572e', '#2a7d63', '#4f8ef7', '#d957a9'];
+  for (let i = 0; i < 60; i++) {
+    const b = document.createElement('i');
+    b.style.left = Math.random() * 100 + '%'; b.style.background = colors[i % 5];
+    b.style.animationDelay = (Math.random() * .9) + 's';
+    b.style.animationDuration = (1.8 + Math.random() * 1.5) + 's';
+    b.style.transform = 'rotate(' + Math.floor(Math.random() * 360) + 'deg)';
+    c.appendChild(b);
+  }
+  document.body.appendChild(c); setTimeout(() => c.remove(), 3800);
+}
+function fxAnswer(ok){
+  const s = session;
+  s.streak = ok ? (s.streak || 0) + 1 : 0;
+  const b = $('qStreak');
+  if (s.streak >= 2) {
+    b.textContent = (s.streak >= 10 ? '🔥🔥🔥' : s.streak >= 5 ? '🔥🔥' : '🔥') + ' 連對 ' + s.streak + ' 題';
+    b.classList.remove('hidden'); b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop');
+  } else b.classList.add('hidden');
+  if (ok) { burst(document.querySelector('#qOpts .opt.ok')); SND.ok(s.streak); } else SND.bad();
+}
+function countUp(el, to){
+  el.classList.remove('bump'); void el.offsetWidth; el.classList.add('bump');
+  if (RM() || to <= 0) { el.textContent = to + ' 分'; return; }
+  const t0 = performance.now(), dur = 700;
+  const step = now => {
+    const k = Math.min(1, (now - t0) / dur);
+    el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))) + ' 分';
+    if (k < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
 
 // wiring
 $('mRange').onclick = () => setMode('range');
