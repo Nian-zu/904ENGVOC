@@ -38,3 +38,13 @@ D102-15 聽莫札特會變聰明嗎：https://medienportal.univie.ac.at/media/ak
 D102-16 公牛討厭紅色嗎：https://www.howitworksdaily.com/are-bulls-enraged-by-the-colour-red/；https://www.scienceabc.com/nature/animals/do-bulls-really-hate-red-colour-blind.html
 D102-17 鴕鳥把頭埋進沙裡？：https://www.nationalgeographic.com/animals/birds/facts/ostrich；https://www.sciencefocus.com/nature/do-ostriches-really-bury-their-head-in-the-sand
 D102-18 夏天比較熱，是因為離太陽比較近嗎：https://spaceplace.nasa.gov/seasons/en；https://www.nationalgeographic.com/science/article/what-is-perihelion-earth-orbit
+D103-01 SEVENTEEN 的數學題：https://www.cheatsheet.com/news/seventeen-only-has-13-members-so-where-did-their-name-come-from.html；https://svtfaq.carrd.co
+D103-02 從台南出發的子瑜：https://en.wikipedia.org/wiki/Tzuyu
+D103-03 BLACKPINK 的世界地圖：https://studyinternational.com/news/where-blackpink-studied-kpop-education/；https://www.capitalfm.com/news/music/blackpink/where-from/
+D103-04 藏在團名裡的祕密：https://www.koreajoongangdaily.com/entertainment/who-is-le-sserafim/12767501；https://hypebae.com/2022/3/hybe-corporation-first-girl-group-le-sserafim-miyawaki-sakura-kim-chaewon-info
+D103-05 從雪梨到首爾的隊長：https://en.wikipedia.org/wiki/Bang_Chan；https://au.rollingstone.com/music/music-features/stray-kids-recipe-for-success-31726/
+D103-06 坐在場邊的 Suga：https://amp.cnn.com/cnn/2023/04/06/sport/bts-suga-nba-basketball-ambassador-spt-intl；https://www.billboard.com/music/pop/bts-suga-nba-ambassador-2-1235319713
+D103-07 十二強奪冠的那一夜：https://olympics.com/en/news/wbsc-premier12-2024-final；https://japantimes.co.jp/sports/2024/11/24/baseball/taiwan-beats-japan-premier12-final
+D103-08 舉起四倍體重的金牌：https://olympics.com/en/news/kuo-hsing-chun-powers-her-way-to-gold-in-the-womens-59kg-weightlifting；https://www.scmp.com/sport/article/3142718/tokyo-olympics-weightlifter-kuo-hsing-chun-wins-taiwans-first-gold-dominant
+D103-09 字母哥的地圖：https://olympics.com/en/news/giannis-antetokounmpo-origin-story-basketball-legend；https://olympics.com/en/news/giannis-antetokounmpo-nba-milwaukee-bucks-greece
+D103-10 寫在餐巾紙上的合約：https://www.nbcnews.com/news/amp/rcna152777；https://cbssports.com/soccer/news/lionel-messis-barcelona-contract-napkin-sells-for-965000-at-auction
