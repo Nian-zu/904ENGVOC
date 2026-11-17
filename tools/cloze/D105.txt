@@ -129,3 +129,135 @@ Nobita hates doing [[chores|weather|noise|villages]]. One Saturday, his mom told
 + comic = 漫畫
 + score = 分數
 = 大雄討厭做家事。一個星期六，媽媽要他倒垃圾、整理房間，還要把濕衣服晾到陽台上。「哆啦A夢，救我！」大雄大叫。哆啦A夢從口袋裡拿出一個小機器人。「這是家事機器人，」他說，「它什麼都會幫你做。」機器人動作超快，十分鐘後，衣服已經在太陽下晾著，大雄的房間也乾淨了。大雄躺在地上看漫畫。但接著機器人在床底下找到大雄的數學考卷，分數是零分。「垃圾！」機器人說完，就把考卷丟進垃圾袋。大雄笑了。可是媽媽來檢查房間時，第一眼就看到那張考卷，正好在垃圾袋的最上面。「大雄！」她大吼。哆啦A夢只是搖了搖頭。
+
+## 只做一半的家事
+My brother Max is a master of excuses. Every Saturday, Mom gives us a list of [[chores|weather|noise|villages]]. Last Saturday, my list said: take out the [[trash|history|fever|lesson]], [[iron|arrive|cry|rise]] my school shirts, and [[recycle|arrive|cry|happen]] the old newspapers. I finished everything in an hour. Max had the same list, but at lunchtime he was still lying on the sofa. "Max, did you do your chores?" Mom asked. "I did half of them," he said. "Which half?" "The thinking half. I thought about all of them very carefully." Mom didn't laugh. "Good. Now you can do the doing half," she said. "And because you're so good at thinking, you can also [[hang|arrive|cry|rise]] up everyone's clothes after dinner." Max looked at me for help. I just smiled and went to my room to play games.
+> 1 a list of chores「一張家事清單」。weather、noise、villages 都不是要做的事，不能列在清單上給人做。
+> 2 take out the trash「倒垃圾」。history、fever、lesson 都不能「拿出去倒」。
+> 3 iron my school shirts「燙我的制服襯衫」，清單上的動作用原形。arrive、cry、rise 都不能接受詞 my shirts。
+> 4 recycle the old newspapers「把舊報紙拿去回收」。arrive、cry、happen 都不能接受詞 newspapers。
+> 5 hang up everyone's clothes「把大家的衣服掛起來」。arrive、cry、rise 都不能和 up 組成「掛起來」，也不能接受詞 clothes。
++ master = 高手
++ excuse = 藉口
+= 我哥哥 Max 是找藉口的高手。每個星期六，媽媽都會給我們一張家事清單。上星期六，我的清單寫著：倒垃圾、燙制服襯衫、把舊報紙拿去回收。我一個小時就全做完了。Max 的清單一模一樣，但到了中午他還躺在沙發上。「Max，你家事做了嗎？」媽媽問。「我做了一半。」他說。「哪一半？」「思考的那一半。我把每一項都很仔細地想過了。」媽媽沒有笑。「很好，那你現在可以去做『動手』的那一半了，」她說，「而且你這麼會思考，晚餐後大家的衣服也交給你掛。」Max 看著我求救，我只是笑一笑，回房間打電動去了。
+
+## 掛歪的全家福
+Last Sunday, Dad bought a big frame for our family photo. "I'll [[hang|arrive|cry|rise]] it in the living room," he said proudly. He took out a hammer and some nails. Mom asked, "Do you need help?" "No, I can do it myself," Dad answered. After an hour, the photo was on the wall, but it was not [[straight|honest|hungry|polite]]. "It looks fine," Dad said. But every time we walked past it, we turned our heads to the side. There were also little pieces of the wall all over the floor, so I had to [[sweep|arrive|cry|rise]] them up. I put the pieces and the bent nails in the [[trash|weather|history|fever]]. That evening, while Dad was doing other [[chores|weather|noise|villages]] in the kitchen, Mom quietly fixed the photo. Dad didn't notice anything. Later, he looked at the wall and said, "See? I told you it was fine." Mom and I just smiled at each other.
+> 1 I'll hang it「我來把它掛起來」，will 後接原形動詞。arrive、cry、rise 都不能接受詞 it。
+> 2 it was not straight「照片掛得不正」，後面說大家都要歪著頭看。honest、hungry、polite 都是形容人的，不能形容照片。
+> 3 sweep them up「把它們掃起來」。arrive、cry、rise 都不能接受詞 them。
+> 4 put … in the trash「丟進垃圾桶」。weather、history、fever 都不能把東西放進去。
+> 5 doing other chores「做其他家事」。weather、noise、villages 都不能和 do 組成「做家事」。
++ frame = 相框
++ hammer = 槌子
++ nail = 釘子
++ bent = 彎掉的
+= 上星期天，爸爸買了一個大相框裝全家福。「我來把它掛在客廳。」他得意地說。他拿出槌子和幾根釘子。媽媽問：「需要幫忙嗎？」「不用，我自己來就好。」爸爸回答。一個小時後，照片掛上牆了，但掛得歪歪的。「看起來很好啊。」爸爸說。可是我們每次經過，都會不自覺地歪著頭看。地上也到處是牆壁的小碎片，所以我得把它們掃起來。我把碎片和彎掉的釘子丟進垃圾桶。那天晚上，趁爸爸在廚房做其他家事時，媽媽悄悄把照片調正了。爸爸完全沒發現。後來他看著牆壁說：「看吧？我就說沒問題。」媽媽和我只是互看一眼，笑了。
+
+## 愛翻垃圾桶的小豆
+Our puppy, Bean, has a bad [[habit|weather|fever|village]]. Every time we leave the house, he opens the [[trash|weather|history|fever]] can in the kitchen. Yesterday, we came home and saw paper, banana skins, and old noodles all over the floor. Bean was sitting in the middle, wagging his tail. "Who did this?" Mom asked. Bean looked away. Cleaning up was not fun. I picked up the garbage, and my sister [[mopped|laughed|appeared|smiled]] the floor. Then Dad had an idea. He put the trash can on top of the washing machine and decided to [[hang|arrive|cry|rise]] the recycling bags high on the back door. Now Bean can't reach them. We thought the problem was solved. But today, when we came home, Bean was asleep on Dad's white shirts, the ones Mom had just [[ironed|arrived|cried|slept]]. They were now covered in brown dog hair. "Bean!" Mom shouted. Bean just opened one eye and went back to sleep.
+> 1 a bad habit「壞習慣」，後面說每次都翻垃圾桶。weather、fever、village 都不能用來說狗的行為習慣。
+> 2 the trash can「垃圾桶」。weather、history、fever 都不能和 can 組成「桶子」。
+> 3 mopped the floor「拖地」。laughed、appeared、smiled 都不能直接接 the floor。
+> 4 decided to hang the recycling bags「決定把回收袋掛起來」。arrive、cry、rise 都不能接受詞 the bags。
+> 5 the ones Mom had just ironed「媽媽剛燙好的那些（襯衫）」。arrived、cried、slept 都不能有受詞，不能修飾 shirts。
++ puppy = 小狗
++ Bean = 小豆（狗的名字）
++ banana skin = 香蕉皮
++ wag = 搖（尾巴）
+= 我們家的小狗小豆有個壞習慣：只要我們出門，牠就會打開廚房的垃圾桶。昨天我們回家時，看到紙屑、香蕉皮和剩麵條散落一地，小豆坐在正中間搖著尾巴。「這是誰做的？」媽媽問。小豆把頭轉開。打掃一點都不好玩，我撿垃圾，妹妹拖地。後來爸爸想到一個辦法：他把垃圾桶放到洗衣機上面，再把回收袋高高掛在後門上。現在小豆搆不到了。我們以為問題解決了。但今天回家時，小豆正睡在爸爸的白襯衫上，那些是媽媽剛燙好的，現在沾滿了咖啡色的狗毛。「小豆！」媽媽大叫。小豆只睜開一隻眼睛，又繼續睡了。
+
+## 阿嬤的回收推車
+My grandma is seventy-five, but she works harder than anyone I know. Every morning, she pushes an old cart around the village and collects things to [[recycle|arrive|cry|rise]]: cans, bottles, and old paper. She sells them to the recycling center and gives all the money to a children's home. Some people think she is poor, but she isn't. "Why do you do it, Grandma?" I asked her once. "Because I don't like to see good things in the [[trash|weather|history|fever]]," she said. Last summer, I went with her. It was hot, and the bags were [[heavy|honest|polite|national]]. My back hurt after one hour, but Grandma didn't stop. After that, I wanted to do more for her, so I started helping with her [[chores|weather|noise|villages]] at home too. Every weekend, I [[ironed|arrived|cried|slept]] her blouses and swept the yard. "Now I have more time to collect bottles," she said happily.
+> 1 collects things to recycle「收集可以回收的東西」。arrive、cry、rise 都不能用來說明「要拿去做什麼的東西」。
+> 2 good things in the trash「被丟進垃圾裡的好東西」。weather、history、fever 都不能裝東西。
+> 3 the bags were heavy「袋子很重」，後面說背很痛。honest、polite、national 都不能形容袋子的重量。
+> 4 helping with her chores「幫忙做她的家事」。weather、noise、villages 都不是能幫忙做的事。
+> 5 ironed her blouses「燙她的襯衫」。arrived、cried、slept 都不能接受詞 her blouses。
++ cart = 推車
++ recycling center = 回收場
++ children's home = 育幼院
++ blouse = 女用襯衫
+= 我阿嬤七十五歲了，卻比我認識的任何人都還要勤勞。每天早上，她推著一台舊推車在村子裡繞，收集可以回收的東西：罐子、瓶子和舊紙。她把它們賣給回收場，再把錢全部捐給育幼院。有些人以為她很窮，其實不是。「阿嬤，你為什麼要這樣做？」有一次我問她。「因為我不喜歡看到好東西被丟進垃圾裡。」她說。去年夏天，我跟她一起去。天氣很熱，袋子很重，一個小時後我的背就痛了，但阿嬤一直沒停下來。之後我想多幫她一點，就開始幫她做家裡的家事。每個週末，我幫她燙襯衫、掃院子。「這樣我就有更多時間收瓶子了。」她開心地說。
+
+## 只差兩個瓶子
+This semester, our school had a recycling contest. The class that collected the most bottles would win a pizza party. Our class really wanted to win. We put a big box at the back of the classroom, and every day we brought bottles from home. Some students even asked their neighbors for empty bottles. Our class leader made a chart and used tape to [[hang|arrive|cry|rise]] it on the wall. Doing [[chores|weather|noise|villages]] for the contest became fun. We washed every bottle and took the labels off before we [[recycled|arrived|cried|slept]] them. On the last day, we had 1,230 bottles! But Class 9-3 had 1,232. We lost by two bottles. Then our teacher found two bottles in the [[trash|weather|history|fever]] can next to her desk. "Oh no, too late!" she laughed. The principal felt sorry for us, so he gave us a [[prize|fever|cough|noise]] too: a big box of cookies.
+> 1 used tape to hang it on the wall「用膠帶把它（圖表）貼掛在牆上」。arrive、cry、rise 都不能接受詞 it。
+> 2 Doing chores「做這些工作」，動名詞當主詞。weather、noise、villages 都不能和 do 組成「做事」。
+> 3 before we recycled them「在我們回收瓶子之前」。arrived、cried、slept 都不能接受詞 them。
+> 4 in the trash can「在垃圾桶裡」，老師把瓶子丟錯地方。weather、history、fever 都不能和 can 組成「桶子」。
+> 5 gave us a prize「也給我們一份獎品」，就是一盒餅乾。fever、cough、noise 都不是會送人的獎品。
++ contest = 比賽
++ chart = 圖表
++ tape = 膠帶
++ label = 標籤
+= 這學期，我們學校舉辦了資源回收比賽，收集最多瓶子的班級可以贏得披薩派對。我們班超想贏。我們在教室後面放了一個大箱子，每天都從家裡帶瓶子來，有些同學甚至去跟鄰居要空瓶。班長做了一張圖表，用膠帶貼在牆上。為比賽做這些事變得很好玩：每個瓶子回收前，我們都會洗乾淨、撕掉標籤。最後一天，我們有 1,230 個瓶子！可是九年三班有 1,232 個，我們只輸兩個瓶子。這時老師在她桌子旁的垃圾桶裡找到兩個瓶子。「哎呀，來不及了！」她笑著說。校長覺得我們很可惜，所以也送我們一份獎品：一大盒餅乾。
+
+## 畢業照前一晚
+Tomorrow is the day for our graduation photos. Mom told me to [[iron|arrive|cry|rise]] my school uniform tonight. "You're fifteen now," she said. "You can do it yourself." I put the shirt on the ironing board and turned on the [[iron|fever|cough|noise]]. First, I did the collar, and then the sleeves. It was harder than I thought. Every time I finished one side, the other side got wrinkly again. After thirty minutes, the shirt finally looked good. I put it on a hanger and went to [[hang|arrive|cry|rise]] it on my door. Then I remembered my skirt. I had to iron that too! By the time I finished, it was eleven o'clock. My little brother had already done all his [[chores|weather|noise|villages]] and was fast asleep. The next morning, I put on my uniform. In the photo, my clothes looked perfect, but I looked very [[tired|national|modern|wooden]].
+> 1 told me to iron my school uniform「叫我燙制服」，iron 當動詞。arrive、cry、rise 都不能接受詞 my uniform。
+> 2 turned on the iron「打開熨斗」，iron 當名詞。fever、cough、noise 都不能打開開關。
+> 3 went to hang it on my door「去把它掛在門上」。arrive、cry、rise 都不能接受詞 it。
+> 4 done all his chores「做完他所有的家事」。weather、noise、villages 都不能和 do 組成「做家事」。
+> 5 looked very tired「看起來很累」，因為前一晚弄到十一點。national、modern、wooden 都不能形容人的精神狀態。
++ graduation = 畢業
++ ironing board = 燙衣板
++ collar = 衣領
++ sleeve = 袖子
++ hanger = 衣架
+= 明天要拍畢業照。媽媽叫我今晚把制服燙好。「你十五歲了，」她說，「可以自己來。」我把襯衫放在燙衣板上，打開熨斗，先燙衣領，再燙袖子。比我想像的難多了，每次燙好一邊，另一邊又皺了。三十分鐘後，襯衫終於看起來不錯了。我把它套上衣架，掛到房門上。然後我想起還有裙子，那也要燙！等我燙完，已經十一點了。弟弟早就做完他所有的家事，睡得很熟了。隔天早上，我穿上制服。照片裡我的衣服完美無缺，但我看起來好累。
+
+## 從天花板掉下來的蜘蛛
+Our English teacher, Ms. Hill, is from the US, and she loves Halloween. Every October, she asks us to [[decorate|arrive|cry|rise]] the classroom. This year, we made spiders from old black socks and paper bags. We didn't buy anything. We just used things we were going to [[recycle|arrive|cry|rise]]. Then we stood on chairs and started to [[hang|arrive|cry|rise]] the spiders from the ceiling. Tom made a huge one with eight long legs. When Ms. Hill walked in, it fell right on her head! She screamed so loudly that the class next door came to see what happened. Then she started laughing. "Best Halloween ever!" she said. After the party, there was a lot of [[trash|weather|history|fever]] on the floor: candy wrappers, paper cups, and pieces of string. Cleaning up was our last [[chore|weather|noise|village]] of the day, and Ms. Hill helped us, still wearing a spider in her hair.
+> 1 asks us to decorate the classroom「要我們布置教室」，to 後接原形動詞。arrive、cry、rise 都不能接受詞 the classroom。
+> 2 things we were going to recycle「我們原本要拿去回收的東西」。arrive、cry、rise 都不能用來說明「要拿去回收的物品」。
+> 3 hang the spiders from the ceiling「把蜘蛛掛在天花板上」。arrive、cry、rise 都不能接受詞 the spiders。
+> 4 a lot of trash on the floor「地上有很多垃圾」，後面舉例糖果紙和紙杯。weather、history、fever 都不能散落在地上。
+> 5 our last chore「我們最後一項工作」，指打掃。weather、noise、village 都不能是「要做的工作」。
++ Halloween = 萬聖節
++ spider = 蜘蛛
++ ceiling = 天花板
++ scream = 尖叫
++ candy wrapper = 糖果紙
+= 我們的英文老師 Hill 老師來自美國，非常喜歡萬聖節。每年十月，她都會要我們布置教室。今年，我們用舊黑襪子和紙袋做蜘蛛，什麼都沒買，只用原本要拿去回收的東西。接著我們站到椅子上，開始把蜘蛛掛在天花板上。Tom 做了一隻有八條長腳的超大蜘蛛。Hill 老師一走進來，它就正好掉在她頭上！她尖叫得好大聲，隔壁班都跑來看發生什麼事。然後她開始大笑。「這是最棒的萬聖節！」她說。派對結束後，地上有好多垃圾：糖果紙、紙杯和一段段的繩子。打掃是我們那天最後一項工作，Hill 老師也來幫忙，頭髮上還掛著一隻蜘蛛。
+
+## 被風吹走的內褲
+Last Saturday was sunny and windy, so Mom asked me to [[hang|arrive|cry|rise]] the laundry on the balcony. I did it quickly because I wanted to play games. That afternoon, someone rang our [[doorbell|weather|fever|history]]. It was Mr. Chen, the man who lives downstairs. He was holding something pink. "Is this yours?" he asked. It was Dad's underwear, with cartoon hearts on it! The wind had carried it down to Mr. Chen's balcony. Dad's face turned red. "Uh... thank you," he said. After Mr. Chen left, everybody laughed except Dad. "Next time, use more clothespins," he told me. My punishment? I had to take out the [[trash|weather|history|fever]] every day for a week. That evening, Dad took all the clothes in himself. He [[ironed|arrived|cried|slept]] his shirts in his bedroom, far away from the window, and he never let me touch his [[laundry|village|noise|distance]] again.
+> 1 asked me to hang the laundry「叫我晾衣服」。arrive、cry、rise 都不能接受詞 the laundry。
+> 2 rang our doorbell「按我們家的門鈴」。weather、fever、history 都不能按。
+> 3 take out the trash「倒垃圾」，當作處罰。weather、history、fever 都不能「拿出去倒」。
+> 4 ironed his shirts「燙他的襯衫」。arrived、cried、slept 都不能接受詞 his shirts。
+> 5 never let me touch his laundry「再也不讓我碰他要洗的衣服」。village、noise、distance 都不能「碰」，也和曬衣服無關。
++ underwear = 內褲
++ cartoon = 卡通
++ clothespin = 曬衣夾
++ punishment = 處罰
+= 上星期六天氣晴朗、風很大，媽媽叫我把衣服晾到陽台上。我想趕快去打電動，所以晾得很快。那天下午，有人按我們家的門鈴，是住樓下的陳先生，手上拿著一個粉紅色的東西。「這是你們家的嗎？」他問。那是爸爸的內褲，上面還有卡通愛心！風把它吹到陳先生家的陽台上了。爸爸的臉都紅了。「呃……謝謝。」他說。陳先生走後，除了爸爸，大家都笑翻了。「下次多夾幾個曬衣夾。」他對我說。我的處罰？一整個星期都要倒垃圾。那天傍晚，爸爸自己把所有衣服收進來，在遠離窗戶的臥室裡燙他的襯衫，而且再也不讓我碰他的衣服了。
+
+## 偶像的家事大挑戰
+Last night, I watched a funny variety show. In it, three idols from the band Neon Kids had to live alone for a day and do all their own [[chores|weather|noise|villages]]. The first idol, Jin, tried to [[iron|arrive|cry|rise]] his shirt, but he forgot to turn the iron on. He moved it over the shirt for ten minutes and wondered why nothing happened. The second idol, Woo, didn't know how to [[recycle|arrive|cry|rise]] things. He put a banana skin in the bottle bin! The third idol, Kai, was the best. He [[washed|arrived|cried|slept]] the dishes, took out the [[trash|weather|history|fever]], and even cooked dinner for the others. At the end of the show, the host asked, "Who learned the most today?" Jin raised his hand. "Me! I learned that an iron needs power." Everyone in the studio laughed, and Jin's fans called him "Iron Prince" for a month.
+> 1 do all their own chores「自己做所有的家事」。weather、noise、villages 都不能和 do 組成「做家事」。
+> 2 tried to iron his shirt「試著燙襯衫」。arrive、cry、rise 都不能接受詞 his shirt。
+> 3 how to recycle things「怎麼做資源回收」。arrive、cry、rise 都不能接受詞 things。
+> 4 washed the dishes「洗碗」。arrived、cried、slept 都不能接受詞 the dishes。
+> 5 took out the trash「倒垃圾」。weather、history、fever 都不能「拿出去倒」。
++ variety show = 綜藝節目
++ idol = 偶像
++ banana skin = 香蕉皮
++ bin = 桶子
++ studio = 攝影棚
+= 昨晚我看了一個很好笑的綜藝節目。節目裡，男團 Neon Kids 的三位偶像要自己生活一天，所有家事都自己做。第一位偶像 Jin 想燙襯衫，卻忘了打開熨斗電源，他把熨斗在襯衫上推了十分鐘，一直搞不懂為什麼沒效果。第二位 Woo 不知道怎麼做資源回收，竟然把香蕉皮丟進瓶罐回收桶！第三位 Kai 表現最好，他洗了碗、倒了垃圾，甚至還幫其他人煮晚餐。節目最後，主持人問：「今天誰學到最多？」Jin 舉手說：「我！我學到熨斗要插電。」攝影棚裡的人都笑了，Jin 的粉絲還叫了他一個月的「熨斗王子」。
+
+## 會說話的垃圾桶
+My uncle is an engineer, and he loves to make new things. Last month, he made a smart [[trash|weather|history|fever]] can for our family. It can talk! When you throw something away, it looks at it with a small camera. If you put a bottle in it, it says, "Please [[recycle|arrive|cry|rise]] this!" It also reminds us of our [[chores|weather|noise|villages]]. Every morning, it says, "Good morning! Today, Dad needs to [[iron|arrive|cry|rise]] his shirts, and Amy needs to [[hang|arrive|cry|rise]] the wet towels on the balcony." At first, we loved it. But after a week, it became a little annoying. Once, my brother threw away a banana skin, and it said, "Banana again? You need to eat more vegetables!" Another time, it told everyone that Dad had eaten three bags of chips. Now Dad turns it off every night before he eats his snacks.
+> 1 a smart trash can「智慧垃圾桶」。weather、history、fever 都不能和 can 組成「桶子」。
+> 2 Please recycle this!「這個請回收！」please 後接原形動詞。arrive、cry、rise 都不能接受詞 this。
+> 3 reminds us of our chores「提醒我們要做的家事」。weather、noise、villages 都不是每天要做的工作。
+> 4 needs to iron his shirts「要燙襯衫」。arrive、cry、rise 都不能接受詞 his shirts。
+> 5 needs to hang the wet towels「要把濕毛巾晾起來」。arrive、cry、rise 都不能接受詞 the towels。
++ engineer = 工程師
++ smart = 智慧型的
++ annoying = 煩人的
++ banana skin = 香蕉皮
++ chips = 洋芋片
+= 我舅舅是工程師，很喜歡做新東西。上個月，他幫我們家做了一個智慧垃圾桶——它會說話！你丟東西時，它會用一個小鏡頭看一看。如果丟的是瓶子，它會說：「這個請回收！」它也會提醒我們要做的家事。每天早上它都會說：「早安！今天爸爸要燙襯衫，Amy 要把濕毛巾晾到陽台上。」一開始我們都很喜歡它，但一個星期後，它變得有點煩。有一次弟弟丟了一塊香蕉皮，它說：「又是香蕉？你要多吃點蔬菜！」還有一次，它跟大家說爸爸吃了三包洋芋片。現在爸爸每天晚上吃零食前，都會先把它關掉。
