@@ -273,3 +273,138 @@ My uncle Leo can fix anything. He's a builder, and he always wears a brown tool 
 + screwdriver = 螺絲起子
 + nail = 釘子
 = 我的叔叔 Leo 什麼都會修。他是建築工人，腰上總是繫著一條棕色的工具腰帶，上面有很多口袋可以放鐵鎚和螺絲起子。上週末，他來幫我們修廚房壞掉的門，我在旁邊幫忙。首先，他給我一雙工作手套保護雙手，雖然對我來說太大了，但我不介意。接著他教我怎麼用螺絲起子，比看起來難多了！工作的時候，我踩到一根釘子，幸好我的厚球鞋保護了我的腳。兩個小時後，門修得跟新的一樣。Leo 叔叔說我是很棒的小幫手，還送我一把我自己的小鐵鎚。
+
+## 母親節的洗碗手套
+Last Mother's Day, I wanted to give Mom a special gift. I didn't have much money, so I [[decided|baked|married|spelled]] to do all the housework for a day. In the morning, I swept the floor and cleaned the bathroom. At lunch, I cooked fried rice for the family. After lunch, it was time to wash the dishes. Mom gave me her yellow rubber [[gloves|noodles|lemons|dentists]]. "The soap is bad for your skin," she said. They were too big, and water got inside them. Then I dropped a plate, and it broke! Water also splashed all over my new [[skirt|spoon|tooth|bowl]] and my white [[socks|soups|grapes|menus]]. I almost cried. But Mom just hugged me and said, "Don't worry. This is the best gift I've ever had." I learned that housework is not [[easy|wooden|salty|crowded]]. Now I help Mom every weekend.
+> 1 decide to…「決定做…」，決定幫忙做一天家事。baked（烘烤）、married（結婚）、spelled（拼字）都不能接 to do all the housework。
+> 2 媽媽給我她的黃色橡膠手套 gloves，因為洗碗精傷手。noodles（麵）、lemons（檸檬）、dentists（牙醫）都不能戴在手上，後面也說水跑進 them 裡面。
+> 3 水濺到我的新裙子 skirt 上。spoon（湯匙）、tooth（牙齒）、bowl（碗）都不是穿在身上的衣服。
+> 4 白襪子 socks 也被濺濕了。soups（湯）、grapes（葡萄）、menus（菜單）都不能穿。
+> 5 我學到家事不容易 easy。wooden（木製的）、salty（鹹的）、crowded（擁擠的）都不能形容家事。
++ housework = 家事
++ sweep = 掃（過去式 swept）
++ rubber = 橡膠
++ soap = 肥皂；清潔劑
++ splash = 濺
+= 去年母親節，我想送媽媽一份特別的禮物。我沒什麼錢，所以決定幫她做一整天的家事。早上，我掃了地、打掃了浴室；午餐時，我為全家人煮了炒飯。吃完午餐，該洗碗了。媽媽把她的黃色橡膠手套給我。「洗碗精對皮膚不好。」她說。手套太大了，水還跑了進去。接著我摔了一個盤子，盤子破了！水也濺得我的新裙子和白襪子到處都是。我差點哭出來。但媽媽只是抱住我說：「別擔心，這是我收過最棒的禮物。」我學到家事一點也不簡單。現在每個週末我都會幫媽媽做家事。
+
+## 柯南的足球腰帶
+My favorite cartoon is Detective Conan. Conan looks like a little boy, but he is really a smart high school detective. He has many cool tools. His glasses can find people, and his shoes can make him kick very hard. My favorite tool is his [[belt|spoon|lemon|bowl]]. When he presses a button on it, a soccer ball comes out! Then he kicks the ball at the bad guys. Last week, I [[tried|baked|married|spelled]] to make my own Conan tool. I put a small ball in an old pencil box and tied it to my belt. I also wore blue shorts, white [[socks|soups|grapes|menus]], and my red [[sneakers|bananas|plates|candies]], just like Conan. Then I went to the park and pretended to catch a thief. When I pulled the ball out and kicked it, it hit a tree and flew back into my face! My little sister laughed so hard. I guess being a detective is not as [[easy|wooden|salty|crowded]] as it looks.
+> 1 柯南的腰帶 belt 按下按鈕會跑出足球，後面我也把東西綁在 my belt 上。spoon（湯匙）、lemon（檸檬）、bowl（碗）都不是柯南身上的道具。
+> 2 try to…「試著…」，試著做自己的柯南道具。baked（烘烤）、married（結婚）、spelled（拼字）都不能接 to make。
+> 3 穿藍色短褲和白襪子 socks，打扮得像柯南。soups（湯）、grapes（葡萄）、menus（菜單）都不能穿。
+> 4 穿上我的紅色球鞋 sneakers。bananas（香蕉）、plates（盤子）、candies（糖果）都不能穿在腳上。
+> 5 not as easy as it looks「不像看起來那麼容易」。wooden（木製的）、salty（鹹的）、crowded（擁擠的）都不能形容當偵探這件事。
++ cartoon = 卡通
++ detective = 偵探
++ pretend = 假裝
++ thief = 小偷
+= 我最喜歡的卡通是《名偵探柯南》。柯南看起來是個小男孩，其實是個聰明的高中生偵探。他有很多很酷的道具：他的眼鏡可以找人，鞋子能讓他踢得超用力。我最喜歡的道具是他的腰帶，只要按下上面的按鈕，就會跑出一顆足球！然後他就把球踢向壞人。上星期，我試著做一個自己的柯南道具。我把一顆小球放進舊鉛筆盒，綁在我的皮帶上。我還穿了藍色短褲、白襪子和紅色球鞋，打扮得跟柯南一模一樣。接著我去公園，假裝在抓小偷。我把球拉出來一踢，球撞到樹又彈回來打到我的臉！妹妹笑到不行。看來當偵探沒有看起來那麼簡單。
+
+## 爸爸穿裙子演白雪公主
+Every year, the teachers at my school put on a funny show for Children's Day. This year, they acted out "Snow White," and my dad, who teaches math, played Snow White! On the night of the show, he came on stage in a yellow [[skirt|spoon|lemon|bowl]] and a black wig. His legs were in long white [[socks|soups|grapes|menus]], and he wore red shoes. Everyone [[laughed|boiled|spelled|prayed]] so hard. The music teacher played the evil queen. She wore a long purple dress with a gold [[belt|tooth|ticket|plate]]. At the end, when the prince kissed Snow White's hand, Dad jumped up and said, "Who wants to learn math?" The whole school cheered. I was a little embarrassed, but I was also very [[proud|wooden|salty|empty]] of him. He really knows how to make people happy.
+> 1 爸爸演白雪公主，穿黃色裙子 skirt 上台。spoon（湯匙）、lemon（檸檬）、bowl（碗）都不是戲服。
+> 2 腿上穿著白色長襪 socks。soups（湯）、grapes（葡萄）、menus（菜單）都不能穿在腿上。
+> 3 大家都笑翻了 laughed。boiled（煮沸）、spelled（拼字）、prayed（祈禱）都不能表示看表演的反應。
+> 4 紫色長洋裝配金色腰帶 belt。tooth（牙齒）、ticket（票）、plate（盤子）都不是服裝配件。
+> 5 be proud of…「以…為榮」。wooden（木製的）、salty（鹹的）、empty（空的）都不能接 of him 表示感受。
++ Children's Day = 兒童節
++ Snow White = 白雪公主
++ wig = 假髮
++ evil queen = 壞皇后
++ embarrassed = 尷尬的
+= 每年兒童節，我們學校的老師都會表演一齣搞笑的戲。今年他們演《白雪公主》，而我爸爸——一位數學老師——竟然演白雪公主！表演那天晚上，他穿著黃色裙子、戴著黑色假髮上台，腿上穿著白色長襪，腳上是紅鞋。大家都笑翻了。音樂老師演壞皇后，她穿著紫色長洋裝，繫著金色腰帶。最後，王子親吻白雪公主的手時，爸爸跳起來說：「誰想學數學？」全校都歡呼起來。我有點不好意思，但我也非常以他為榮。他真的很懂得讓大家開心。
+
+## 手套會產生熱嗎？
+Do gloves make heat? My little brother thinks so. "My [[gloves|noodles|lemons|dentists]] are warm, so they must make heat," he said. But our science teacher once said that clothes don't make heat. They only keep our body heat in. So we did an experiment. We put a small piece of ice into a wool glove and another piece on a plate. Then we [[waited|invited|borrowed|married]] for thirty minutes. My brother thought the ice in the glove would melt first. But when we checked, the ice on the plate was almost gone, and the ice in the glove was still there! The glove kept the room's heat away from the ice. We tried it again with a thick wool [[sock|cookie|ticket|kitchen]], and the result was the same. My brother was very [[surprised|wooden|salty|empty]]. Now he knows that wearing gloves and [[socks|soups|grapes|menus]] in winter only keeps his own heat in.
+> 1 弟弟覺得他的手套 gloves 很暖，一定會產生熱。noodles（麵）、lemons（檸檬）、dentists（牙醫）都和後面的手套實驗無關。
+> 2 wait for thirty minutes「等三十分鐘」。invited（邀請）、borrowed（借來）後面都要接受詞；married（結婚）也不能說明做實驗時在做什麼。
+> 3 改用一隻厚羊毛襪 sock 再試一次。cookie（餅乾）、ticket（票）、kitchen（廚房）都不能用羊毛做、把冰塊包起來。
+> 4 結果和弟弟想的相反，他很驚訝 surprised。wooden（木製的）、salty（鹹的）、empty（空的）都不能形容人的反應。
+> 5 冬天戴手套、穿襪子 socks 只是把自己的熱留住。soups（湯）、grapes（葡萄）、menus（菜單）都不能穿。
++ heat = 熱
++ experiment = 實驗
++ wool = 羊毛
++ melt = 融化
++ result = 結果
+= 手套會產生熱嗎？我弟弟覺得會。「我的手套很暖，所以它一定會產生熱。」他說。可是我們的自然老師說過，衣服不會產生熱，它們只是把身體的熱留住。於是我們做了一個實驗：把一小塊冰放進羊毛手套裡，另一塊放在盤子上，然後等了三十分鐘。弟弟以為手套裡的冰會先融化。但我們一檢查，盤子上的冰幾乎不見了，手套裡的冰卻還在！原來手套把房間的熱擋在冰塊外面。我們又用一隻厚羊毛襪試了一次，結果也一樣。弟弟非常驚訝。現在他知道，冬天戴手套、穿襪子只是把自己的熱留住而已。
+
+## 夏令營的襪子名字
+Last summer, I went to a five-day science camp in the mountains. Before I left, Mom wrote my name on everything: my T-shirts, my shorts, and even every [[sock|cookie|ticket|kitchen]]! I thought it was silly. But on the third day, I understood why. All the campers put their dirty clothes in one big bag to wash. When the clothes came back, there were twenty pairs of white [[socks|soups|grapes|menus]] that looked the same. Nobody knew which ones were theirs. But I [[found|boiled|prayed|spelled]] mine quickly because of the names. My friend Andy wore someone else's socks for the rest of the camp. On the last night, it was cold, so I lent him my [[gloves|noodles|knives|soups]]. "Next time, I'll [[follow|bake|marry|spell]] your mom's idea," he said.
+> 1 媽媽連每一隻襪子 sock 都寫上名字。cookie（餅乾）、ticket（票）、kitchen（廚房）都不會帶去營隊、寫名字當衣物。
+> 2 twenty pairs of white socks「二十雙白襪子」，看起來都一樣。soups（湯）、grapes（葡萄）、menus（菜單）都不能用 pairs of 來說，也不是洗好的衣服。
+> 3 因為有名字，我很快就找到 found 自己的。boiled（煮沸）、prayed（祈禱）、spelled（拼字）都不能接 mine 表示找到。
+> 4 晚上很冷，借他我的手套 gloves。noodles（麵）、knives（刀子）、soups（湯）都不能用來保暖。
+> 5 follow one's idea「照著某人的辦法做」。bake（烘烤）、marry（結婚）、spell（拼字）都不能接 your mom's idea。
++ camp = 營隊
++ silly = 傻的；多此一舉的
++ camper = 營隊學員
+= 去年暑假，我去山上參加五天的科學營。出發前，媽媽在我所有東西上都寫了名字：T 恤、短褲，連每一隻襪子都寫了！我覺得很多此一舉。但到了第三天，我就明白原因了。所有學員把髒衣服放進一個大袋子裡送洗。衣服送回來時，有二十雙看起來一模一樣的白襪子，沒有人知道哪雙是自己的。但因為有名字，我很快就找到了我的。我朋友 Andy 後來幾天都穿著別人的襪子。最後一晚很冷，我把手套借給他。「下次我也要照你媽媽的辦法做。」他說。
+
+## 會發光的球鞋
+For his sixth birthday, my little brother Ben got a pair of [[sneakers|bananas|plates|candies]] that light up. Every time he takes a step, small lights on the bottom flash red, blue, and green. Ben loves them so much that he even wants to wear them to bed! At night, he runs up and down the hall just to see the lights. Last week, we went to the night market. It was very [[crowded|honest|polite|careless]], and Ben let go of Mom's hand. We couldn't see him anywhere, and Mom was very worried. Then I saw flashing lights under a table. It was Ben! He was sitting there and feeding a lost puppy. His shoes [[saved|baked|married|spelled]] the day. After that night, Mom bought him a pair of [[gloves|noodles|knives|soups]] that light up too, and a [[belt|spoon|tooth|bowl]] with lights. Now he looks like a walking Christmas tree!
+> 1 a pair of sneakers that light up「一雙會發光的球鞋」，走路時鞋底會閃。bananas（香蕉）、plates（盤子）、candies（糖果）都不能穿在腳上。
+> 2 夜市人很多、很擁擠 crowded，弟弟才會走失。honest（誠實的）、polite（有禮貌的）、careless（粗心的）都不能形容夜市。
+> 3 save the day「解救了局面；立了大功」，發光鞋讓我們找到他。baked（烘烤）、married（結婚）、spelled（拼字）都不能接 the day 這樣用。
+> 4 a pair of gloves that light up「一雙會發光的手套」。noodles（麵）、knives（刀子）、soups（湯）都不能戴在手上。
+> 5 一條會發光的腰帶 belt，讓他像會走路的聖誕樹。spoon（湯匙）、tooth（牙齒）、bowl（碗）都不是穿戴在身上的配件。
++ light up = 發光
++ flash = 閃爍
++ hall = 走廊
++ let go of = 放開
++ puppy = 小狗
+= 我弟弟 Ben 六歲生日時，收到一雙會發光的球鞋。他每走一步，鞋底的小燈就會閃出紅、藍、綠色的光。Ben 愛死它了，甚至想穿著睡覺！晚上，他會在走廊跑來跑去，只為了看燈光。上星期，我們去逛夜市，人非常多，Ben 放開了媽媽的手。我們到處都找不到他，媽媽急壞了。後來我看到一張桌子底下有閃爍的燈光——是 Ben！他坐在那裡餵一隻走失的小狗。他的鞋子立了大功。那天晚上之後，媽媽又幫他買了一雙會發光的手套，還有一條會發光的腰帶。現在他看起來就像一棵會走路的聖誕樹！
+
+## 拔河比賽的手套
+Every year, our school holds a tug-of-war contest on Sports Day. This year, our class really wanted to win. Our teacher told everyone to wear [[gloves|noodles|lemons|dentists]], because the rope can hurt your hands. She also told us to wear [[sneakers|bananas|plates|candies]] that don't slip. For two weeks, we practiced every day after school. We learned to pull together when our leader shouted, "One, two, pull!" On the day of the contest, the girls in our class wore sports pants instead of [[skirts|spoons|teeth|bowls]]. Our first game was against Class 903. They were big and strong, but we didn't [[give|bake|marry|spell]] up. After two minutes, we pulled them over the line. We won! In the final, we lost to Class 901, but we were still [[glad|wooden|salty|empty]] to get second place.
+> 1 戴手套 gloves，因為繩子會磨傷手。noodles（麵）、lemons（檸檬）、dentists（牙醫）都不能保護手。
+> 2 穿不會打滑的球鞋 sneakers。bananas（香蕉）、plates（盤子）、candies（糖果）都不能穿在腳上。
+> 3 女生穿運動褲而不是裙子 skirts，比較好使力。spoons（湯匙）、teeth（牙齒）、bowls（碗）都不能和運動褲互換著穿。
+> 4 give up「放棄」，我們沒有放棄。bake（烘烤）、marry（結婚）、spell（拼字）都不能和 up 組成「放棄」。
+> 5 be glad to…「很高興…」，拿到第二名還是很開心。wooden（木製的）、salty（鹹的）、empty（空的）都不能接 to get second place。
++ tug-of-war = 拔河
++ Sports Day = 運動會
++ rope = 繩子
++ slip = 打滑
++ final = 決賽
+= 每年運動會，我們學校都會舉辦拔河比賽。今年我們班非常想贏。老師叫大家戴手套，因為繩子會磨傷手，也叫我們穿不會打滑的球鞋。我們連續兩個星期每天放學後都在練習，學會在隊長喊「一、二，拉！」的時候一起用力。比賽那天，班上女生都穿運動褲而不是裙子。第一場我們對上 903 班，他們又高又壯，但我們沒有放棄。兩分鐘後，我們把他們拉過了線，我們贏了！決賽時我們輸給了 901 班，但能拿到第二名，大家還是很開心。
+
+## 給阿公的生日禮物
+My grandpa is turning eighty this year. My family wanted to give him something useful. Grandpa always says his feet get cold at night, so my sister and I decided to buy him some warm wool [[socks|soups|grapes|menus]]. We also bought him a new leather [[belt|spoon|lemon|bowl]], because his old one was broken. At the store, I saw a pair of gray [[gloves|noodles|knives|plates]] and bought them too. Grandpa rides his scooter to the market every morning, and his hands get cold in winter. At the birthday dinner, Grandpa opened our gift. He put on the socks right away and said they were the most [[comfortable|wooden|salty|crowded]] socks he had ever worn. He even [[wore|boiled|prayed|spelled]] the gloves while eating his birthday cake! Everyone laughed, and Grandpa looked very happy.
+> 1 阿公晚上腳冷，所以買保暖的羊毛襪 socks，後面也說他馬上穿上 the socks。soups（湯）、grapes（葡萄）、menus（菜單）都不能讓腳變暖。
+> 2 舊的壞了，買一條新皮帶 belt。spoon（湯匙）、lemon（檸檬）、bowl（碗）都不能用 leather 形容，也不是衣物配件。
+> 3 a pair of gray gloves「一雙灰色手套」，騎車時手不會冷。noodles（麵）、knives（刀子）、plates（盤子）都不能保暖雙手。
+> 4 最舒服 comfortable 的襪子。wooden（木製的）、salty（鹹的）、crowded（擁擠的）都不能形容襪子穿起來的感覺。
+> 5 吃蛋糕時還戴著 wore 手套。boiled（煮沸）、prayed（祈禱）、spelled（拼字）都不能接 the gloves。
++ turn eighty = 滿八十歲
++ wool = 羊毛
++ leather = 皮革
++ scooter = 機車
+= 我阿公今年滿八十歲，我們家想送他實用的禮物。阿公常說他晚上腳會冷，所以我和姊姊決定買一些保暖的羊毛襪給他。我們還買了一條新皮帶，因為他的舊皮帶壞了。在店裡，我看到一雙灰色手套，也一起買了。阿公每天早上騎機車去市場，冬天手會很冷。生日晚餐時，阿公打開我們的禮物，馬上就把襪子穿上，說這是他穿過最舒服的襪子。他甚至戴著手套吃生日蛋糕！大家都笑了，阿公看起來非常開心。
+
+## 下雨天的濕襪子
+This morning, it rained very hard. I walked to school without an umbrella because I was late. When I got to class, my hair was wet, my uniform was wet, and my [[sneakers|bananas|plates|candies]] were full of water. Worst of all, my [[socks|soups|grapes|menus]] were so wet that my feet felt like two fish. I felt [[terrible|wooden|salty|crowded]]. My teacher saw me and took a pair of dry socks out of her desk. "I always keep extra socks here," she said with a smile. My classmate Amy was wearing a [[skirt|spoon|tooth|bowl]], so her legs were wet too, and the teacher gave her a towel. Then she let us put our shoes near the window to [[dry|cook|marry|spell]]. By lunchtime, my shoes were dry, and so was my mood. Next time, I will get up earlier and bring an umbrella.
+> 1 球鞋 sneakers 裡裝滿了水。bananas（香蕉）、plates（盤子）、candies（糖果）都不是穿在腳上走路上學的。
+> 2 襪子 socks 濕到腳像兩條魚，後面老師也拿乾襪子給我。soups（湯）、grapes（葡萄）、menus（菜單）都不能穿。
+> 3 全身濕透，覺得很難受 terrible。wooden（木製的）、salty（鹹的）、crowded（擁擠的）都不能形容人的感受。
+> 4 Amy 穿裙子 skirt，所以腿也濕了。spoon（湯匙）、tooth（牙齒）、bowl（碗）都不能穿。
+> 5 把鞋子放在窗邊晾乾 dry。cook（煮）、marry（結婚）、spell（拼字）都不能說鞋子變乾。
++ umbrella = 雨傘
++ extra = 額外的；多的
++ towel = 毛巾
++ mood = 心情
+= 今天早上雨下得很大。因為我快遲到了，就沒帶傘直接走去學校。到教室時，我的頭髮濕了、制服濕了，球鞋裡也全是水。最慘的是，我的襪子濕到腳感覺像兩條魚，我覺得難受極了。老師看到我，從她的桌子裡拿出一雙乾襪子。「我都會在這裡多放幾雙襪子。」她笑著說。我同學 Amy 穿著裙子，所以腿也濕了，老師給了她一條毛巾。接著老師讓我們把鞋子放在窗邊晾乾。到了午餐時間，我的鞋子乾了，心情也跟著好了起來。下次我要早點起床，還要記得帶傘。
+
+## 皮帶裡的祕密口袋
+Before our family trip to Europe, my uncle gave Dad a special [[belt|spoon|lemon|bowl]]. It looked like a normal leather belt, but it had a secret pocket inside. "There are pickpockets in big cities. Keep some money in here," my uncle said. Dad laughed, but he [[took|boiled|prayed|spelled]] it anyway. In Paris, we visited the Eiffel Tower. It was crowded and windy, so I wore my [[gloves|noodles|knives|soups]] and a warm scarf. While we were taking photos, someone stole Dad's wallet from his jacket! He was so [[upset|wooden|salty|empty]]. Luckily, he still had 200 euros in his secret belt. Mom also had some money hidden in her [[socks|soups|grapes|menus]]. We used it to eat dinner and buy train tickets. After that day, Dad never laughed at the belt again.
+> 1 叔叔送爸爸一條特別的皮帶 belt，下一句說它看起來像普通皮帶。spoon（湯匙）、lemon（檸檬）、bowl（碗）都和後文不合。
+> 2 爸爸笑了，但還是收下 took 了。boiled（煮沸）、prayed（祈禱）、spelled（拼字）都不能接 it anyway 表示收下。
+> 3 又擠又冷，戴上手套 gloves 和圍巾。noodles（麵）、knives（刀子）、soups（湯）都不能穿戴保暖。
+> 4 錢包被偷，爸爸很難過 upset。wooden（木製的）、salty（鹹的）、empty（空的）都不能形容人的心情。
+> 5 媽媽也把一些錢藏在襪子 socks 裡。soups（湯）、grapes（葡萄）、menus（菜單）都不是身上穿的、能藏錢的地方。
++ Europe = 歐洲
++ pickpocket = 扒手
++ Eiffel Tower = 艾菲爾鐵塔
++ wallet = 錢包
++ euro = 歐元
+= 我們全家去歐洲旅行前，叔叔送爸爸一條特別的皮帶。它看起來就像一條普通的皮帶，裡面卻有一個祕密口袋。「大城市裡有扒手，放一些錢在這裡面。」叔叔說。爸爸笑了，但還是收下了。在巴黎，我們去參觀艾菲爾鐵塔。那裡人很多、風又大，所以我戴上手套、圍上溫暖的圍巾。我們在拍照的時候，有人從爸爸的外套裡偷走了他的錢包！他非常難過。幸好他的祕密皮帶裡還有兩百歐元，媽媽的襪子裡也藏了一些錢。我們用這些錢吃了晚餐、買了火車票。從那天起，爸爸再也不笑那條皮帶了。
