@@ -15,8 +15,22 @@ bank, gl, labels = B['bank'], B.get('gl', {}), B['labels']
 errs, warns = [], []
 E = errs.append
 
+# ---- 講義題（一字多義／片語／會考文法，tools/build_extra.py 產生；答案在 answer-key-extra.json）
+EXTRA = ('sense', 'phrase', 'cap')
+KX = json.load(open(os.path.join(ROOT, 'docs', 'answer-key-extra.json'), encoding='utf-8')) \
+    if os.path.exists(os.path.join(ROOT, 'docs', 'answer-key-extra.json')) else {}
+for i, q in enumerate(bank):
+    if q['k'] not in EXTRA: continue
+    tag = f'講義題 #{i}（{labels[q["d"]]} {q["w"]}）'
+    if len(q['o']) != 4 or len(set(q['o'])) != 4: E(f'{tag} 選項不是 4 個不重複')
+    if not 0 <= q['c'] < len(q['o']): E(f'{tag} 答案位置錯誤')
+    if KX.get(str(q.get('r'))) != [q['c'], q['w'], q['d']]: E(f'{tag} 答案檔不一致')
+    if q['k'] != 'cap' and not q.get('m'): E(f'{tag} 沒有畫線的字')
+    if i not in set(B['days'][q['d']]): E(f'{tag} 不在當天題目清單')
+
 # ---- 句子題
 for i, q in enumerate(bank):
+    if q['k'] in EXTRA: continue
     tag = f'句子題 #{i}（{labels[q["d"]]} {q["w"]}）'
     if len(q['o']) != 4 or len(set(q['o'])) != 4: E(f'{tag} 選項不是 4 個不重複')
     if not 0 <= q['c'] < len(q['o']): E(f'{tag} 答案位置錯誤')
