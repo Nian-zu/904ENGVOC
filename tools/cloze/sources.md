@@ -57,3 +57,20 @@ D103-16 最高的山是哪一座：https://www.livescience.com/32594-which-mount
 D103-17 香蕉是漿果，草莓卻不是：https://www.livescience.com/57477-why-are-bananas-considered-berries.html；https://sciencenotes.org/is-a-strawberry-a-berry-why-the-answer-is-surprisingly-no/
 D103-18 閃電會打同一個地方嗎：https://www.weather.gov/safety/lightning-myths；https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
 D103-29 科學館的一天（台灣三千公尺以上的山）：https://en.wikipedia.org/wiki/List_of_mountains_in_Taiwan；https://guides.taiwanhikes.com/how-to-hike-high-mountains-taiwan.html
+D101-01 防彈少年團的〈Dynamite〉：https://www.koreatimes.co.kr/www/art/2020/09/732_295257.html；https://www.thejakartapost.com/life/2020/09/01/k-pops-bts-first-all-south-korean-act-to-top-us-singles-charts
+D101-02 Stray Kids 的冠軍專輯：https://www.soompi.com/article/1519395wpp/stray-kids-debuts-on-billboard-200-at-no-1-making-them-3rd-korean-artist-ever-to-top-the-chart；https://www.udiscovermusic.com/news/stray-kids-oddinary/
+D101-03 Rosé 的〈APT.〉：https://en.wikipedia.org/wiki/APT._(song)；https://www.koreatimes.co.kr/amp/entertainment/k-pop/20241109/how-roses-chant-of-apateu-became-global-sensation
+D101-04 aespa 出道的那一天：https://en.wikipedia.org/wiki/Black_Mamba_(song)；https://www.bandwagon.asia/articles/sm-entertainment-new-girl-group-aespa-superm-debut-in-november-kpop-2020-release
+D101-05 IVE 的〈ELEVEN〉：https://en.wikipedia.org/wiki/Ive_(group)；https://www.soompi.com/article/1516174wpp/ive-hits-100-million-views-for-the-1st-time-with-debut-track-eleven
+D101-07 大谷翔平的 50-50：https://www.npr.org/2024/09/19/nx-s1-5119962/shohei-ohtani-50-50-season-dodgers；https://thescore.com/mlb/news/3078389
+D101-08 打破 54 年紀錄的 Caitlin Clark：https://abc7ny.com/caitlin-clark-breaks-ncaa-all-time-scoring-record-/14489940/；https://www.fox6now.com/sports/caitlin-clark-iowa-ncaa-scoring-record-march-2024
+D101-09 哈蘭德的 36 球：https://olympics.com/en/news/most-goals-scored-in-a-premier-league-season-football；https://theanalyst.com/articles/who-has-scored-the-most-goals-in-a-premier-league-season
+D101-10 科比的 81 分：https://www.nba.com/history/top-moments/2006-kobe-bryant-81-points；https://en.wikipedia.org/wiki/Kobe_Bryant%27s_81-point_game
+D101-11 十二強賽的那一晚：https://olympics.com/en/news/wbsc-premier12-2024-final；https://focustaiwan.tw/sports/202411250029
+D101-12 網球的「愛」是零分：https://www.merriam-webster.com/wordplay/word-origin-of-love-in-tennis；https://wonderopolis.org/wonder/Does-Love-Conquer-All-In-Tennis
+D101-13 帽子戲法的由來：https://en.wikipedia.org/wiki/Hat-trick；https://www.mentalfloss.com/sports/where-does-phrase-hat-trick-come
+D101-14 完美的 300 分：https://en.wikipedia.org/wiki/Perfect_game_(bowling)；https://www.bowlingheritage.com/collection/in-search-of-the-perfect-game/
+D101-15 血管裡的血是藍色的嗎：https://www.livescience.com/32212-if-blood-is-red-why-are-veins-blue.html；https://sciencenotes.org/is-blood-blue-in-veins-or-the-body/
+D101-16 扳手指六十年的醫生：https://thetech.com/2009/10/02/ignobels-v129-n41；https://improbable.com/2009/11/05/interview-with-dr-knuckle-cracker/
+D101-17 吃糖會讓小孩變得超興奮嗎：https://theconversation.com/no-sugar-doesnt-make-your-kids-hyperactive-229107；https://healthcare.utah.edu/the-scope/kids-zone/all/2025/08/debunking-old-wives-tales-why-your-child-isnt-actually-sugar-high
+D101-18 人只有五種感覺嗎：https://www.weforum.org/stories/all/humans-have-more-than-5-senses/；https://nautil.us/we-should-count-balance-as-one-of-the-senses-236480
