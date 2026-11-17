@@ -74,3 +74,20 @@ D101-15 血管裡的血是藍色的嗎：https://www.livescience.com/32212-if-bl
 D101-16 扳手指六十年的醫生：https://thetech.com/2009/10/02/ignobels-v129-n41；https://improbable.com/2009/11/05/interview-with-dr-knuckle-cracker/
 D101-17 吃糖會讓小孩變得超興奮嗎：https://theconversation.com/no-sugar-doesnt-make-your-kids-hyperactive-229107；https://healthcare.utah.edu/the-scope/kids-zone/all/2025/08/debunking-old-wives-tales-why-your-child-isnt-actually-sugar-high
 D101-18 人只有五種感覺嗎：https://www.weforum.org/stories/all/humans-have-more-than-5-senses/；https://nautil.us/we-should-count-balance-as-one-of-the-senses-236480
+D100-01 RM 和《六人行》：https://etonline.com/bts-perform-mic-drop-ellen-open-about-learning-english-watching-friends-91678；https://www.accessonline.com/articles/bts-reveals-ellen-degeneres-they-learned-speak-english-watching-friends
+D100-02 柾國的〈Seven〉：https://www.kedglobal.com/newsView/ked202307250001；https://www.koreatimes.co.kr/entertainment/k-pop/20230725/bts-member-jungkooks-solo-single-seven-tops-billboard-hot-100
+D100-03 BLACKPINK 的二十四小時紀錄：https://guinnessworldrecords.com/news/2020/6/blackpinks-return-sets-new-youtube-records-with-how-you-like-that-622453；https://www.nme.com/news/music/blackpink-break-multiple-world-records-with-how-you-like-that-video-2699364
+D100-04 ZEROBASEONE 的出道專輯：https://en.wikipedia.org/wiki/Zerobaseone；https://www.soompi.com/article/1599700wpp/zerobaseone-breaks-record-for-highest-1st-day-and-1st-week-sales-of-any-debut-album-in-hanteo-history
+D100-05 和酷玩樂團一起寫的〈The Astronaut〉：https://uproxx.com/pop/jin-bts-the-astronaut-coldplay-live-buenos-aires；https://www.soompi.com/article/1552049wpp/watch-btss-jin-performs-the-astronaut-with-coldplay-live-for-1st-time-at-their-buenos-aires-concert
+D100-07 C 羅的五屆世界盃：https://www.scmp.com/sport/football/article/3200914/fifa-world-cup-2022-cristiano-ronaldo-makes-history-portugal-beat-ghana-3-2；https://foxsports.com/articles/soccer/ronaldo-makes-world-cup-history-portugal-beats-ghana-32
+D100-08 跳到 6.25 公尺的阿蒙：https://worldathletics.org/news/report/paris-2024-olympics-report-men-pole-vault；https://www.ctvnews.ca/sports/armand-mondo-duplantis-breaks-pole-vault-world-record-for-the-ninth-time-in-his-career-1.6989982
+D100-09 喬科維奇的金牌：https://www.npr.org/2024/08/04/g-s1-15301/novak-djokovic-olympic-gold-medal-paris；https://www.atptour.com/en/news/djokovic-alcaraz-paris-olympics-2024-
+D100-10 王建民的十九勝：https://en.wikipedia.org/wiki/Chien-Ming_Wang；https://www.baseball-reference.com/bullpen/Chien-Ming_Wang
+D100-11 黃牌和紅牌的由來：https://en.wikipedia.org/wiki/Ken_Aston；https://www.history.com/articles/yellow-red-cards-1966-world-cup
+D100-12 高爾夫為什麼是十八洞：https://www.scotsman.com/sport/golf/st-andrews-honours-250th-birthday-18-hole-golf-1524473；https://eigca.org/why-18-holes/
+D100-13 穿不同顏色球衣的自由球員：https://www.britannica.com/topic/libero；https://nbcolympics.com/news/can-you-dig-it-role-volleyballs-libero
+D100-14 少棒的十七座冠軍：https://worldbaseball.com/top-five-most-successful-little-league-world-series-countries；https://thediplomat.com/2013/08/what-happened-to-taiwans-little-league-champs
+D100-15 愛因斯坦數學不及格？：https://content.time.com/time/specials/packages/article/0,28804,1936731_1936743_1936758,00.html；https://www.history.com/articles/9-things-you-may-not-know-about-albert-einstein
+D100-16 吞下口香糖會留在肚子裡七年？：https://www.dukehealth.org/blog/myth-or-fact-it-takes-seven-years-digest-chewing-gum；https://science.howstuffworks.com/science-vs-myth/everyday-myths/gum-seven-years.htm
+D100-17 吃紅蘿蔔就能在黑暗中看見嗎：https://www.livescience.com/38861-carrots-eyesight-myth-origins.html；https://www.sciencefocus.com/the-human-body/do-carrots-really-help-you-see-in-the-dark
+D100-18 月球的「黑暗面」其實不黑：https://www.skyatnightmagazine.com/space-science/dark-side-of-the-moon；https://www.farmersalmanac.com/far-side-of-the-moon
