@@ -56,3 +56,4 @@ D103-15 世界最大的沙漠在哪裡：https://www.livescience.com/largest-des
 D103-16 最高的山是哪一座：https://www.livescience.com/32594-which-mountain-is-the-tallest-in-the-world.html；https://geology.com/records/highest-mountain-in-the-world.shtml
 D103-17 香蕉是漿果，草莓卻不是：https://www.livescience.com/57477-why-are-bananas-considered-berries.html；https://sciencenotes.org/is-a-strawberry-a-berry-why-the-answer-is-surprisingly-no/
 D103-18 閃電會打同一個地方嗎：https://www.weather.gov/safety/lightning-myths；https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+D103-29 科學館的一天（台灣三千公尺以上的山）：https://en.wikipedia.org/wiki/List_of_mountains_in_Taiwan；https://guides.taiwanhikes.com/how-to-hike-high-mountains-taiwan.html
