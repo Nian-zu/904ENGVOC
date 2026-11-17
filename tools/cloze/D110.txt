@@ -135,3 +135,139 @@ Dear Mei, Guess what! Last night, I found a hedgehog in our back [[garden|cough|
 + hole = 洞
 + highway = 公路
 = 親愛的小美：猜猜看！昨晚我在我們家後院發現了一隻刺蝟。在英國，我們把房子後面的地方叫做 garden，即使那裡只有草地。我的美國朋友則叫它 yard。刺蝟是身上有很多尖刺的小動物，晚上才出來找食物。我放了一些貓食和水在小盤子上給牠，牠全部吃光了！爸爸說刺蝟需要在各家的院子之間移動找食物，所以他在我們家大門的下方挖了一個小洞，現在刺蝟可以自由進出了。我們鎮上很多人都這麼做，他們把它叫做「刺蝟公路」。我把這隻刺蝟取名叫 Spike。牠走路的樣子好可愛！台灣有刺蝟嗎？你的朋友 Amy
+
+## 太空站上的小菜園
+Astronauts on the space station can't go outside for a walk, but they do have a small [[garden|cough|sock|spoon]] on board. They grow lettuce and flowers in special boxes under pink and blue lights. There is no "up" or "down" in [[space|soup|fever|toe]], so the plants can't tell which way to grow. The astronauts have to help them by making the roots grow toward the bottom of the boxes. In 2015, astronauts ate lettuce that they grew in space for the first time. They said it tasted very [[fresh|lazy|rude|shy]]. One astronaut said that taking care of the plants made her feel less lonely. "When I miss home, I look at our little garden," she said. "It reminds me of the [[yard|throat|tooth|candy]] behind my house in Texas and the white [[gate|lemon|cough|knee]] where my daughter waits for me every evening."
+> 1 a small garden on board「（太空站）上的小菜園」，後面說種萵苣和花。cough、sock、spoon 都不能種東西。
+> 2 in space「在太空中」：太空中沒有上下之分。soup、fever、toe 都不能接在 in 後面表示「沒有上下的地方」。
+> 3 taste fresh「吃起來很新鮮」。lazy（懶惰的）、rude（無禮的）、shy（害羞的）都是形容人個性的字，不能形容味道。
+> 4 the yard behind my house「我家後面的院子」。throat、tooth、candy 都不是房子後面的地方。
+> 5 the white gate「白色的大門」，女兒每晚在那裡等她。lemon、cough、knee 都不能讓人在旁邊等候。
++ astronaut = 太空人
++ on board = 在（船、飛機、太空站）上
++ lettuce = 萵苣
++ root = 根
++ Texas = 德州（美國）
+= 太空站上的太空人不能出去散步，但他們確實有一座小菜園。他們在特別的箱子裡，用粉紅色和藍色的燈光種萵苣和花。太空中沒有「上」或「下」，所以植物分不出該往哪個方向長。太空人得幫忙，讓根往箱子底部長。2015 年，太空人第一次吃到他們在太空中種的萵苣，他們說吃起來非常新鮮。一位太空人說，照顧植物讓她不那麼寂寞。「我想家的時候，就看看我們的小菜園，」她說，「它讓我想起我在德州家後面的院子，還有我女兒每天傍晚等我的那扇白色大門。」
+
+## 學校裡的鬼屋
+For Halloween, our class turned the old classroom near the back [[gate|cough|soup|tooth]] of the school into a haunted house. Visitors had to walk through the dark school [[garden|fever|sock|spoon]] first. My friend Ben hid behind the bushes there in a scary zombie [[mask|lemon|candy|knee]]. When people walked by, he jumped out and shouted, "Give me your brain!" Then visitors went into the classroom. We covered the windows with black paper and put fake bones in every corner. The scariest part was a speaker on the [[roof|throat|bowl|sock]]. It played the sound of heavy footsteps walking right above people's heads. Many students screamed and ran out. Even our principal, Mr. Huang, was [[scared|salty|sour|sweet]]. He ran out so fast that he lost one of his shoes! The next day, he came to our classroom and said, "That was the best haunted house I've ever seen. Please do it again next year."
+> 1 the back gate of the school「學校的後門」，教室在後門附近。cough、soup、tooth 都不是學校的出入口。
+> 2 walk through the school garden「穿過校園花園」，Ben 躲在樹叢後面。fever、sock、spoon 都不能讓人走過去。
+> 3 a zombie mask「殭屍面具」：躲著嚇人時戴的。lemon、candy、knee 都不能戴在臉上。
+> 4 a speaker on the roof「屋頂上的喇叭」，播放頭頂上方的腳步聲。throat、bowl、sock 都不在教室上方。
+> 5 be scared「被嚇到」：校長也嚇得跑出去。salty、sour、sweet 都是味道，不能形容人。
++ Halloween = 萬聖節
++ haunted house = 鬼屋
++ zombie = 殭屍
++ speaker = 喇叭
++ footstep = 腳步聲
+= 萬聖節時，我們班把學校後門附近的舊教室變成了鬼屋。參觀的人得先穿過黑漆漆的校園花園。我的朋友 Ben 戴著恐怖的殭屍面具躲在那裡的樹叢後面。有人經過時，他就跳出來大喊：「把你的腦袋給我！」接著參觀的人走進教室。我們用黑紙把窗戶貼起來，每個角落都放了假骨頭。最恐怖的是屋頂上的喇叭，它播放著沉重的腳步聲，就像有人走在大家頭頂上。很多學生尖叫著跑出去。連我們的黃校長都被嚇到了，他跑得太快，還掉了一隻鞋！隔天，他來到我們教室說：「那是我看過最棒的鬼屋，明年請再辦一次。」
+
+## 進不了電梯的鋼琴
+Last month, we moved into a new apartment on the twelfth floor. Mom was happy because the building had two [[elevators|coughs|soups|socks]]. But there was one problem: our piano was too [[large|sour|salty|sweet]] to fit in them. The movers looked at the stairs and shook their heads. Finally, they brought a special machine. It lifted the piano from the [[yard|tooth|fever|spoon]] up to our balcony, slowly and carefully. Our new neighbors came out to the front [[gate|lemon|throat|candy]] to watch. Some people even watched from the [[roof|cookie|knee|bowl]] of the building next door. When the piano finally went in through the balcony window, everyone clapped. That evening, my sister sat down and played a happy song with all the windows open. The next day, three neighbors knocked on our door. "Can your daughter teach my son?" one of them asked Mom.
+> 1 the building had two elevators「大樓有兩部電梯」。coughs、soups、socks 都不是大樓的設備。
+> 2 too large to fit「太大放不進去」：too…to…「太…而不能…」。sour、salty、sweet 都是味道，和放不放得進電梯無關。
+> 3 lift the piano from the yard「從中庭把鋼琴吊上去」。tooth、fever、spoon 都不能放鋼琴。
+> 4 come out to the front gate「走到前面的大門口」看熱鬧。lemon、throat、candy 都不是可以站著看的地方。
+> 5 watch from the roof「從頂樓看」：隔壁大樓的頂樓。cookie、knee、bowl 都不是建築物的一部分。
++ mover = 搬家工人
++ lift = 吊起；舉起
++ balcony = 陽台
++ clap = 拍手
++ knock = 敲（門）
+= 上個月，我們搬進了一間位在十二樓的新公寓。媽媽很開心，因為大樓有兩部電梯。但有一個問題：我們的鋼琴太大了，放不進電梯。搬家工人看了看樓梯，搖搖頭。最後，他們帶來一台特別的機器，慢慢地、小心地把鋼琴從中庭吊上我們的陽台。新鄰居們都走到前面的大門口看，有些人甚至從隔壁大樓的頂樓看。當鋼琴終於從陽台的窗戶進到屋裡時，大家都拍起手來。那天晚上，姐姐坐下來，打開所有窗戶彈了一首快樂的歌。隔天，有三位鄰居來敲我們家的門。「你女兒可以教我兒子嗎？」其中一位問媽媽。
+
+## Minecraft 裡的夢想家
+My best friend Kevin and I play Minecraft every Saturday. Last week, we decided to build our dream house together. First, we built a tall stone wall and a wooden [[gate|cough|soup|tooth]] to keep the zombies out. Inside the wall, Kevin made a big [[garden|fever|spoon|sock]] with flowers, carrots, and an apple tree. I built the house. It had a glass [[roof|throat|candy|knee]], so we could lie in bed and see the stars at night. We also put a swimming pool in the [[yard|lemon|bowl|cookie]] and a secret tunnel under the kitchen. It took us six hours, and we were very [[proud|salty|sour|spicy]] of our work. On Sunday, Kevin's little sister played the game for the first time. She didn't know how to play, and she set our house on fire by accident! Kevin was angry at first, but then we both laughed. "Let's build an even better one," I said.
+> 1 a wooden gate「木頭大門」：用來把殭屍擋在外面。cough、soup、tooth 都不能裝在牆上擋殭屍。
+> 2 a big garden with flowers「種了花的大花園」。fever、spoon、sock 都不能種花和蘋果樹。
+> 3 a glass roof「玻璃屋頂」：躺在床上就能看星星。throat、candy、knee 都不是房子的一部分。
+> 4 a swimming pool in the yard「院子裡的游泳池」。lemon、bowl、cookie 都放不下游泳池。
+> 5 be proud of…「以…為傲」：花了六小時蓋好。salty、sour、spicy 都是味道，不能接 of our work。
++ Minecraft = 當個創世神（電玩遊戲）
++ zombie = 殭屍
++ wooden = 木頭的
++ tunnel = 地道
++ by accident = 不小心
+= 我和我最好的朋友 Kevin 每個星期六都玩 Minecraft。上星期，我們決定一起蓋一棟夢想中的房子。首先，我們蓋了一道高高的石牆和一扇木頭大門，把殭屍擋在外面。牆內，Kevin 做了一座大花園，有花、紅蘿蔔，還有一棵蘋果樹。我負責蓋房子，它有玻璃屋頂，晚上躺在床上就能看到星星。我們還在院子裡放了游泳池，在廚房底下挖了一條祕密地道。我們花了六個小時，對成果非常驕傲。星期天，Kevin 的妹妹第一次玩這個遊戲。她不會玩，不小心把我們的房子燒了！Kevin 一開始很生氣，但後來我們兩個都笑了。「我們來蓋一棟更棒的吧。」我說。
+
+## 沒關好的大門
+Every morning, Dad reminds me, "Close the [[gate|cough|soup|tooth]] when you leave!" Our dog Bobo loves to run, and our [[yard|fever|spoon|sock]] is next to a busy road. Last Tuesday, I was late for school, and I forgot. When I came home, Bobo was gone! I was so [[worried|salty|sour|spicy]] that I started to cry. My family looked for him everywhere. An hour later, our neighbor Mrs. Wu called. "Your dog is in my [[garden|throat|candy|knee]], and he's eating my tomatoes!" We ran over to her house. Bobo was sitting between the plants with red tomato [[juice|cough|glove|belt]] all over his face. He looked very happy. I said sorry to Mrs. Wu and gave her a box of cookies. She laughed and said, "At least he has good taste." Now there is a sign on our gate that says, "Did you close me?"
+> 1 close the gate「關上大門」：狗會跑出去。cough、soup、tooth 都不能開關。
+> 2 our yard is next to a busy road「我們家院子在大馬路旁」。fever、spoon、sock 都不是狗跑來跑去的地方。
+> 3 so worried that…「擔心到…」：狗不見了急到哭。salty、sour、spicy 都是味道，不能形容心情。
+> 4 in my garden, eating my tomatoes「在我的菜園裡吃番茄」。throat、candy、knee 都種不了番茄。
+> 5 tomato juice「番茄汁」：滿臉紅紅的番茄汁。cough、glove、belt 都不能從番茄流出來沾到臉上。
++ remind = 提醒
++ neighbor = 鄰居
++ at least = 至少
+= 每天早上，爸爸都會提醒我：「出門時要把大門關好！」我們家的狗 Bobo 很愛跑，而我們家的院子就在一條大馬路旁邊。上星期二，我上學快遲到了，結果忘了關。我回家時，Bobo 不見了！我擔心到哭了起來。全家人到處找牠。一個小時後，鄰居吳太太打電話來：「你們家的狗在我的菜園裡，正在吃我的番茄！」我們跑到她家。Bobo 坐在菜苗之間，滿臉都是紅紅的番茄汁，看起來非常開心。我向吳太太道歉，還送她一盒餅乾。她笑著說：「至少牠很識貨。」現在我們家大門上有一張牌子寫著：「你把我關好了嗎？」
+
+## 院子裡的籃球架
+For my twelfth birthday, Dad put up a basketball hoop in our [[yard|cough|soup|sock]]. Every day after school, I shoot the ball until it gets dark. Mom only has one rule: "Keep the ball away from my flower [[garden|fever|tooth|spoon]]!" One evening, I threw the ball too hard. It flew over the hoop and landed on the [[roof|throat|lemon|candy]] of our house. Dad had to get a ladder to bring it down. Another day, the ball rolled out through the [[gate|knee|bowl|cookie]] and down the hill. My little sister chased it all the way to the 7-Eleven! But all that practice was worth it. Last month, the coach of our school team watched me play and [[invited|arrived|happened|appeared]] me to join the team. Now I practice with the team at school, but I still shoot a few balls in the yard every night. Mom's flowers are still safe, too.
+> 1 put up a hoop in our yard「在院子裡裝籃球架」。cough、soup、sock 都裝不了籃球架。
+> 2 flower garden「花園」：媽媽要求球不能靠近她的花。fever、tooth、spoon 都不能和 flower 組成種花的地方。
+> 3 land on the roof「掉在屋頂上」，要用梯子拿下來。throat、lemon、candy 都不是房子上面的地方。
+> 4 roll out through the gate「從大門滾出去」，滾下山坡。knee、bowl、cookie 都不是院子的出入口。
+> 5 invite + 人 + to V「邀請某人做…」。arrived、happened、appeared 都是不及物動詞，後面不能直接接 me。
++ hoop = 籃框
++ ladder = 梯子
++ roll = 滾動
++ coach = 教練
+= 我十二歲生日時，爸爸在我們家院子裝了一個籃球架。每天放學後，我都投球投到天黑。媽媽只有一個規定：「球不准靠近我的花園！」有一天傍晚，我丟得太用力，球飛過籃框，掉到我們家的屋頂上。爸爸只好拿梯子把它拿下來。還有一天，球從大門滾出去，一路滾下山坡，妹妹一路追到 7-Eleven！不過這些練習都很值得。上個月，學校球隊的教練看我打球，邀請我加入球隊。現在我在學校和隊友一起練習，但每天晚上還是會在院子裡投幾顆球。媽媽的花也都還平安無事。
+
+## 合歡山的雪
+Last January, a cold wave came to Taiwan, and it snowed on Hehuan Mountain. My family left home at four in the morning to see it. The mountain road was full of cars, so we had to [[park|boil|fry|spell]] far away and walk for an hour. When we arrived, everything was white. Snow covered the [[roofs|coughs|soups|toes]] of the small houses and the cars along the road. The [[garden|fever|spoon|sock]] in front of the hotel looked like a big white cake. My brother and I made a snowman in the hotel [[yard|throat|lemon|candy]] and gave him Dad's hat. Then we had a snowball fight with some kids from Kaohsiung. None of us had ever seen snow before! On the way home, we were all [[tired|salty|sour|sweet]] but happy. My brother fell asleep in the car with a piece of snow in a small bottle. Of course, it was only water when we got home.
+> 1 park far away「把車停在很遠的地方」。boil、fry、spell 都不能表示「停車」。
+> 2 snow covered the roofs「雪蓋住了屋頂」。coughs、soups、toes 都不是房子的一部分。
+> 3 the garden in front of the hotel「飯店前的花園」，像一個大白蛋糕。fever、spoon、sock 都不是飯店前的一塊地。
+> 4 make a snowman in the yard「在院子裡堆雪人」。throat、lemon、candy 都不能堆雪人。
+> 5 tired but happy「累但開心」。salty、sour、sweet 都是味道，不能形容人的狀態。
++ cold wave = 寒流
++ Hehuan Mountain = 合歡山
++ snowman = 雪人
++ snowball fight = 打雪仗
++ Kaohsiung = 高雄
+= 去年一月，寒流來到台灣，合歡山下雪了。我們全家清晨四點就出門去看雪。山路上擠滿了車，我們只好把車停在很遠的地方，走了一個小時。到了之後，到處都是白色的。雪覆蓋了小房子的屋頂和路邊的車子。飯店前的花園看起來像一個大大的白色蛋糕。我和弟弟在飯店的院子裡堆了一個雪人，還把爸爸的帽子給它戴。然後我們和幾個從高雄來的小朋友打雪仗。我們都是第一次看到雪！回家的路上，大家都很累，但很開心。弟弟在車上睡著了，手上拿著一小瓶雪。當然，到家時它已經變成水了。
+
+## 機器人園丁出錯了
+In the year 2080, my family has a robot named Pip. Pip takes care of our [[garden|cough|soup|sock]]. It waters the plants, picks the fruit, and cuts the grass in the [[yard|fever|tooth|spoon]] every Monday. One morning, something went wrong with Pip's [[program|throat|lemon|candy]]. Instead of cutting the grass, it cut all of Mom's roses! Then it climbed onto the [[roof|knee|bowl|cookie]] of our house and started to plant tomatoes there. "Pip, come down!" Mom shouted. Pip waved and said, "Good morning! The weather is perfect for tomatoes!" We called the robot company, and a worker came to [[fix|arrive|cry|happen]] Pip in the afternoon. He said a small bug had changed Pip's plans. Mom was still a little sad about her roses. But a few weeks later, we had the best tomatoes in town, and they were growing on our roof. Dad laughed and said, "Maybe Pip was right."
+> 1 take care of our garden「照顧我們的花園」：澆水、摘水果。cough、soup、sock 都沒有植物可以照顧。
+> 2 cut the grass in the yard「修剪院子裡的草」。fever、tooth、spoon 都不會長草。
+> 3 something went wrong with the program「程式出了問題」，後面說有個小錯誤改了它的計畫。throat、lemon、candy 都不是機器人的一部分。
+> 4 climb onto the roof「爬上屋頂」種番茄。knee、bowl、cookie 都不是房子的一部分。
+> 5 come to fix Pip「來修理 Pip」。arrive、cry、happen 都是不及物動詞，後面不能直接接 Pip。
++ robot = 機器人
++ rose = 玫瑰
++ wave = 揮手
++ perfect = 完美的
++ bug = （程式）錯誤
+= 在 2080 年，我們家有一個叫 Pip 的機器人。Pip 負責照顧我們的花園，它會澆花、摘水果，每週一還會修剪院子裡的草。有一天早上，Pip 的程式出了問題。它沒有去剪草，反而把媽媽的玫瑰全剪掉了！接著它爬上我們家的屋頂，開始在那裡種番茄。「Pip，下來！」媽媽大喊。Pip 揮揮手說：「早安！今天的天氣最適合種番茄了！」我們打電話給機器人公司，下午有一位工人來修理 Pip。他說是一個小錯誤改變了 Pip 的計畫。媽媽還是有點為她的玫瑰難過。不過幾個星期後，我們家有了全鎮最棒的番茄，而且就長在屋頂上。爸爸笑著說：「也許 Pip 是對的。」
+
+## 不敢搭電梯的爸爸
+My dad is big and strong, but he is afraid of [[elevators|coughs|soups|socks]]. When he was a child, he was stuck in one for two hours. Since then, he always takes the [[stairs|fevers|teeth|spoons]]. Last spring, Dad got a new job in an office on the twentieth floor. Every morning, he walks up four hundred steps. At first, he was out of breath when he got to his desk. But after a few months, he was much [[stronger|saltier|sourer|spicier]] than before. One day, the elevator in his building broke, and everyone had to walk up. His coworkers stopped every few floors to rest, but Dad reached the top first. Now some of them walk with him every morning. At lunch, they all go up to the [[roof|throat|lemon|candy]], where there is a small [[garden|knee|bowl|cookie]] with tables and chairs. "My fear made me healthy," Dad says with a smile.
+> 1 be afraid of elevators「怕電梯」：小時候被困在裡面兩小時。coughs、soups、socks 都不能把人困住兩小時。
+> 2 take the stairs「走樓梯」。fevers、teeth、spoons 都不能和 take 搭配表示上下樓的方式。
+> 3 much stronger than before「比以前強壯得多」：每天爬四百階。saltier、sourer、spicier 都是味道的比較級，不能形容人的身體。
+> 4 go up to the roof「上到頂樓」。throat、lemon、candy 都不是大樓的一部分。
+> 5 a small garden with tables and chairs「擺著桌椅的小花園」。knee、bowl、cookie 都放不下桌椅。
++ stuck = 被困住的
++ out of breath = 喘不過氣
++ coworker = 同事
++ fear = 恐懼
+= 我爸爸又高又壯，卻很怕電梯。他小時候曾經被困在電梯裡兩個小時，從那之後，他總是走樓梯。去年春天，爸爸換了新工作，辦公室在二十樓。每天早上，他都要爬四百個台階。一開始，他走到座位時都喘不過氣，但幾個月後，他比以前強壯多了。有一天，他公司大樓的電梯壞了，所有人都只能走上去。同事們每爬幾層就要停下來休息，爸爸卻第一個到達頂樓。現在有些同事每天早上都跟他一起爬樓梯。中午時，大家會一起上頂樓，那裡有一座擺著桌椅的小花園。「我的恐懼讓我變健康了。」爸爸笑著說。
+
+## 阿嬤院子裡的皮卡丘
+My cousin and I love playing Pokémon GO. Last weekend, we visited Grandma's house in the countryside. Suddenly, my phone showed that a rare Pikachu was in Grandma's [[yard|cough|soup|sock]]! We ran outside with our phones. "It's near the [[gate|fever|tooth|spoon]]!" my cousin shouted. Then the Pikachu moved, and we ran right into the vegetable [[garden|throat|lemon|candy]]. We stepped on two of Grandma's cabbages. Grandma came out and asked, "What are you two doing?" We [[explained|arrived|happened|appeared]] the game to her. She looked at the phone and laughed. "In my day, we caught real frogs in this garden," she said. Then she took us to the small pond behind the house. We caught three frogs with our hands and let them go again. It was more [[fun|cough|fever|soup]] than the game! Before we left, we helped Grandma plant new cabbages.
+> 1 in Grandma's yard「在阿嬤的院子裡」出現寶可夢。cough、soup、sock 都不是可以跑出去的地方。
+> 2 near the gate「在大門附近」。fever、tooth、spoon 都不是院子裡的位置。
+> 3 vegetable garden「菜園」：踩到阿嬤的高麗菜。throat、lemon、candy 都不能種菜。
+> 4 explain the game to her「向她解釋這個遊戲」。arrived、happened、appeared 都是不及物動詞，不能接 the game。
+> 5 more fun than…「比…更好玩」。cough、fever、soup 不能用來表示「好玩」。
++ Pokémon GO = 寶可夢 GO（手機遊戲）
++ rare = 稀有的
++ Pikachu = 皮卡丘
++ cabbage = 高麗菜
++ pond = 池塘
+= 我和表哥很愛玩寶可夢 GO。上週末，我們去鄉下的阿嬤家。突然，我的手機顯示阿嬤家的院子裡有一隻稀有的皮卡丘！我們拿著手機衝出去。「在大門附近！」表哥大喊。接著皮卡丘移動了，我們直接衝進了菜園，還踩壞了兩顆阿嬤的高麗菜。阿嬤走出來問：「你們兩個在幹嘛？」我們向她解釋這個遊戲。她看了看手機就笑了。「我小時候都在這個菜園裡抓真的青蛙。」她說。接著她帶我們到房子後面的小池塘。我們用手抓了三隻青蛙，然後又把牠們放走。這比玩遊戲還好玩！離開之前，我們幫阿嬤種了新的高麗菜。
