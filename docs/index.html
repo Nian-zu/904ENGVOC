@@ -94,6 +94,9 @@ input[type=text]{flex:1;min-width:200px}
 .opt .ow{display:flex;flex-direction:column;gap:2px}
 .opt .oz{font-family:var(--font-body);font-size:.85rem;color:var(--muted);line-height:1.35}
 .feedback .zh{font-size:1rem}
+.feedback .xp{margin-top:8px;padding-top:8px;border-top:1px dashed currentColor;font-size:.95rem;line-height:1.6;color:var(--ink,inherit)}
+.feedback .xp p{margin:2px 0}
+.feedback .xp .tip{font-weight:700}
 .wrong .z{font-size:.9rem;margin-top:2px}
 .feedback{margin-top:14px;padding:12px 14px;border-radius:10px;display:grid;gap:4px}
 .feedback.ok{background:var(--ok-bg);color:var(--ink);border-left:5px solid var(--ok)}
@@ -485,6 +488,8 @@ function qHTML(q, fill){
   if (q.m != null) return br(q.a) + `<u class="hl">${esc(q.m)}</u>` + br(q.b);
   return br(q.a) + (fill == null ? '<span class="blank">&nbsp;</span>' : `<span class="blank">${esc(fill)}</span>`) + br(q.b);
 }
+// 會考文法題詳解：為什麼選這個、其他選項錯在哪、口訣
+const xpHTML = q => `<div class="xp"><p><b>為什麼選 ${esc(q.o[q.c])}：</b>${esc(q.x[0])}</p><p><b>其他選項：</b>${esc(q.x[1])}</p><p class="tip">📌 ${esc(q.x[2])}</p></div>`;
 const capTag = t => { const m = String(t || '').match(/^(\d+)(-補)?-(\d+)$/); return m ? `${m[1]} 年${m[2] ? '補考' : '會考'}第 ${m[3]} 題` : ''; };
 // 同一個字（片語）在講義裡的所有意思
 let SENSES = null;
@@ -597,7 +602,8 @@ function answer(oi){
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
   fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` +
-    (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') +
+    (q.z ? `<span class="zh">中文：${br(q.z)}</span>` : '') +
+    (q.x ? xpHTML(q) : '') +
     (q.k === 'cap' ? `<span class="hint">📝 ${esc(capTag(q.t))}・文法：${esc(q.p || '')}</span>`
      : q.k === 'sense' || q.k === 'phrase' ? `<span class="hint">${esc(q.w)} 的意思：${sensesOf(q).map(esc).join('／')}</span>`
      : `<span class="hint">單字：${esc(q.w)}${q.k === 'verb' && GL['v|' + q.w] ? ' ' + esc(GL['v|' + q.w]) : ''}</span>`);
@@ -632,7 +638,8 @@ function finish(){
     const q = DATA.bank[w.qi];
     li.innerHTML = `<div class="s">${q.m != null ? qHTML(q) : br(q.a) + '<b>' + esc(q.o[q.c]) + '</b>' + br(q.b)}</div>` +
       (q.k === 'cap' ? `<div class="z">${esc(capTag(q.t))}・${esc(q.p || '')}</div>` : '') +
-      (q.z ? `<div class="z">${esc(q.z)}</div>` : '') +
+      (q.z ? `<div class="z">${br(q.z)}</div>` : '') +
+      (q.x ? `<div class="z">${esc(q.x[0])}</div><div class="z">📌 ${esc(q.x[2])}</div>` : '') +
       `<div class="a">${lab(q.d)}・你選 <s>${esc(q.o[w.pick])}</s>${gloss(q, w.pick) ? '（' + esc(gloss(q, w.pick)) + '）' : ''}，正確是 <b>${esc(q.o[q.c])}</b>${gloss(q, q.c) ? '（' + esc(gloss(q, q.c)) + '）' : ''}</div>`;
     ul.appendChild(li);
   });

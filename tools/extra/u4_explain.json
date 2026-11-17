@@ -1,0 +1,611 @@
+[
+ {
+  "tag": "113-20",
+  "zh": "我想找另一位牙醫，因為我上次去看的那位牙醫，把我一顆好好的牙齒拔掉了。",
+  "why": "空格要當句子的主詞，意思是「我的牙醫」。mine＝my dentist（我的那一位），可以單獨當主詞，所以選 mine。",
+  "no": "I 是「我」，但拔牙的是牙醫，不是我自己；me 是受詞，不能當主詞；myself 是「我自己」，不能當主詞。",
+  "tip": "所有格代名詞 mine／yours／his／hers／ours／theirs ＝「所有格＋名詞」，可以單獨當主詞或受詞。"
+ },
+ {
+  "tag": "109-6",
+  "zh": "我太太喜歡跟朋友去看電影，但我喜歡自己一個人在家看電視。",
+  "why": "by oneself 是固定說法，意思是「獨自；自己一個人」。主詞是 I，所以用 by myself。",
+  "no": "by I、by me、by mine 都不是正確說法。",
+  "tip": "by oneself＝alone（獨自）。主詞是誰就用誰的反身代名詞：by myself、by herself、by themselves…"
+ },
+ {
+  "tag": "108-6",
+  "zh": "瑪莉書桌下的那本書是我的，但我不知道它為什麼在那裡。",
+  "why": "空格要表示「我的（那本書）」，後面沒有名詞，所以用所有格代名詞 mine＝my book。",
+  "no": "us、me 是受詞，意思變成「書是我們／我」，不合理；my 後面一定要接名詞（my book），不能單獨放在句尾。",
+  "tip": "my＋名詞＝mine。後面沒有名詞時，用 mine。"
+ },
+ {
+  "tag": "106-9",
+  "zh": "我不覺得凱蒂會讀你幫她挑的任何一本書：它們看起來都很無聊。",
+  "why": "空格指的是前面提到的 the books（那些書，複數），而且是特定的那幾本，所以用 they，動詞用 look。",
+  "no": "it 是單數，只能指一個東西；one 是「同類的任一個」，不是指那幾本書；some 是「一些」，不是指全部那些書。",
+  "tip": "指前面說過的「那個」用 it，「那些」用 they／them；只是「同一種的另一個」才用 one。"
+ },
+ {
+  "tag": "105-11",
+  "zh": "我媽媽要我在英國好好照顧自己。她擔心我在那裡吃不好、睡不好。",
+  "why": "「我」要照顧的是「我自己」，主詞（我）和受詞（自己）是同一個人，要用反身代名詞 myself。",
+  "no": "me 是「我」，但主詞和受詞同一人時要用 myself；her／herself 是媽媽，但媽媽不在英國，要被照顧的是我。",
+  "tip": "take care of oneself＝照顧自己。做動作的人和接受動作的人是同一人 → 用 -self。"
+ },
+ {
+  "tag": "114-14",
+  "zh": "我猜雨水是從廚房進來的。你看，除了廚房那扇以外，所有的窗戶都是關著的。",
+  "why": "「除了廚房那一扇以外，其他全部都關著」，要用 All（全部）。窗戶有好幾扇，所以不是 Both。",
+  "no": "Both 只用在「兩個」；Most（大部分）、Some（一些）都不是「全部」，就不能說只有廚房那扇沒關。",
+  "tip": "except（除了…）常跟 all、every、no 一起出現：All…except…＝除了…以外全部都…。"
+ },
+ {
+  "tag": "114-8",
+  "zh": "吳先生和吳太太有三個女兒。兩個在讀高中，另一個在讀小學。",
+  "why": "三個女兒，已經說了兩個，剩下的最後一個是確定的，所以用 the other。",
+  "no": "each 是「每一個」；the one 要接「哪一個」的說明；the next 是「下一個」，講的是順序。",
+  "tip": "一群人分成兩部分，剩下的最後一個 → the other；剩下的好幾個 → the others。"
+ },
+ {
+  "tag": "113-6",
+  "zh": "克里斯喜歡在下雪天跟安娜一起散步，但是安娜非常討厭這件事。",
+  "why": "安娜討厭的是「在下雪天散步」這件事，指前面整件事要用 it。",
+  "no": "them 是「他們」，如果選 them 就變成安娜討厭克里斯和自己，不合理；so 不能當 hate 的受詞；one 指「同類的一個東西」。",
+  "tip": "用 it 代替前面提到的一件事或一個動作。"
+ },
+ {
+  "tag": "111-補-15",
+  "zh": "這些鳥是一月時在這裡唯一看得到的種類，因為其他所有種類的鳥都飛到南方過冬了。",
+  "why": "「這是唯一看得到的種類」，表示其他種類「全部」都飛走了，所以用 all。",
+  "no": "both 只用在兩個；few（很少）、some（一些）表示還有別的鳥留下來，就不會是「唯一」的種類了。",
+  "tip": "the only…（唯一的…）→ 其他的 all（全部）都不是。"
+ },
+ {
+  "tag": "111-補-2",
+  "zh": "瑪莉有兩個哥哥。一個十歲，另一個十二歲。",
+  "why": "只有兩個哥哥，一個用 One，剩下的另一個就是確定的那一個，用 the other。",
+  "no": "another 用在三個以上；other 後面要接名詞；others 是複數「其他人」，這裡只剩一個人。",
+  "tip": "兩個：one…, the other…。"
+ },
+ {
+  "tag": "111-18",
+  "zh": "往機場的公車一小時才來一班，我們剛剛錯過了一班。我們何不搭計程車？",
+  "why": "錯過的是「（往機場的）一班公車」，不是特定哪一班，用 one＝a bus。",
+  "no": "another 是「另一班」，但前面沒有說錯過過一班；it 是指特定的那個東西；them 是複數，錯過的不是所有公車。",
+  "tip": "one＝a＋前面提過的名詞（同類中的任一個）；it＝the＋那個名詞（就是那一個）。"
+ },
+ {
+  "tag": "110-14",
+  "zh": "諾拉：我可以看看你的抽屜裡有沒有我們能用的工具嗎？\n麥特：好啊，看吧。看看你能不能在裡面找到一些。",
+  "why": "「看看找不找得到任何（工具）」，用在問句或 if／whether 後面，表示「任何一些」用 any。",
+  "no": "it 是單數特定的東西；others 是「其他的」，前面沒有提到別的；those 是「那些」，但工具還沒找到，不知道是哪些。",
+  "tip": "some 用在肯定句，any 用在否定句、問句和 if（是否）後面。"
+ },
+ {
+  "tag": "109-13",
+  "zh": "強森女士從今天早上進辦公室就一直在接電話。正當她以為終於可以下班時，又來了一通電話。",
+  "why": "已經接了很多通，現在「又一通」，用 another＝再一個、另一個。",
+  "no": "each 是「每一個」；the next 要指特定的下一個，不會用在突然進來的這通；the other 只用在兩個中的另一個。",
+  "tip": "another＋單數名詞＝再一個、又一個。"
+ },
+ {
+  "tag": "109-補-2",
+  "zh": "你喜歡羊奶嗎？我剛從市場買了一些。",
+  "why": "羊奶 milk 是不可數名詞，「一些」用 some（肯定句）。",
+  "no": "them 是複數可數；any 用在否定句或問句；another 要接單數可數名詞。",
+  "tip": "不可數名詞（milk、water、bread）不能數，說「一些」用 some。"
+ },
+ {
+  "tag": "108-15",
+  "zh": "餐廳裡其他的服務生很少有人在這裡工作得比克拉克久，只有路易絲和拉娜比他早開始工作。",
+  "why": "後面說「只有兩個人」比他早來，所以是「很少」人比他久，用 Few（很少、幾乎沒有）。",
+  "no": "All（全部）、Most（大部分）、Some（一些）都跟「只有兩個人」矛盾。",
+  "tip": "few＝很少（幾乎沒有）；a few＝一些。"
+ },
+ {
+  "tag": "108-8",
+  "zh": "照顧妹妹一個下午就讓凱文累得半死。他很好奇媽媽怎麼能每天都做這件事。",
+  "why": "媽媽每天做的是「照顧小妹妹」這件事，代替一件事用 it。",
+  "no": "her 是「她」，do her 不合理；one 是「同類的一個」；them 是複數。",
+  "tip": "do it＝做這件事。用 it 代替前面說過的動作。"
+ },
+ {
+  "tag": "105-10",
+  "zh": "我爸媽的嗜好不一樣，一個喜歡烤東西，另一個喜歡拍照。",
+  "why": "爸媽是兩個人，前面已經用 One 說了一個，剩下的另一個是確定的，所以用 the other。",
+  "no": "another 是「三個以上的另一個」；the next、the second 是講順序，不是兩人中的另一個。",
+  "tip": "兩個：one…, the other…；三個以上：one…, another…, the others…"
+ },
+ {
+  "tag": "105-8",
+  "zh": "蘇珊在超市買了一些麵包，但是沒有買任何喝的東西。",
+  "why": "bread（麵包）是不可數名詞，肯定句的「一些」用 some。",
+  "no": "many 只能接可數名詞；any 用在否定句或問句；one 不能接不可數名詞。",
+  "tip": "bread 不可數：some bread、a loaf of bread，不能說 a bread 或 many breads。"
+ },
+ {
+  "tag": "104-7",
+  "zh": "這三支手錶我都不喜歡。可以給我看看另一支嗎？",
+  "why": "三支都不喜歡，想看「再另外一支」（不在這三支裡），用 another one。",
+  "no": "the others 是複數，不能接 one；other 不能直接接 one 當「另一個」；either 只用在兩個中的任一個。",
+  "tip": "another＝an＋other，後面接單數：another one、another watch。"
+ },
+ {
+  "tag": "114-4",
+  "zh": "辛蒂喜歡在睡前聽爸爸讀故事給她聽。",
+  "why": "enjoy 後面接動名詞（V-ing），所以是 enjoy listening to。",
+  "no": "enjoy 後面不能接 to V 或原形動詞；listens 是動詞的第三人稱形，不能直接接在 enjoy 後面。",
+  "tip": "enjoy、finish、keep、mind、practice＋V-ing。"
+ },
+ {
+  "tag": "110-補-7",
+  "zh": "小男孩常常要求爸爸幫他買糖果和餅乾。",
+  "why": "ask＋人＋to V＝要求某人做某事，所以用 to buy。",
+  "no": "ask 後面的動作不能用原形、加 s 或 V-ing。",
+  "tip": "ask／tell／want＋人＋to V。"
+ },
+ {
+  "tag": "108-3",
+  "zh": "用手機玩遊戲在高中生之間很受歡迎。",
+  "why": "主詞是 Playing games（玩遊戲這件事），動名詞當主詞視為單數，所以用 is。",
+  "no": "are 是複數動詞，不能因為看到 games 就用複數；being、to be 不是句子的主要動詞，句子會缺動詞。",
+  "tip": "V-ing 開頭當主詞 → 一件事 → 用單數動詞（is、was、has、加 s）。"
+ },
+ {
+  "tag": "105-9",
+  "zh": "一週至少運動三次對你的健康有益。",
+  "why": "主詞是 Playing sports（運動這件事），動名詞當主詞是單數；「對…有益」是 be good for，所以用 is。",
+  "no": "are 是複數；has／have 不能接 good for 表示「對…有益」。",
+  "tip": "be good for＝對…有益。V-ing 當主詞 → 單數動詞。"
+ },
+ {
+  "tag": "111-補-5",
+  "zh": "不要讓小孩在這條繁忙的街上騎腳踏車，非常危險。",
+  "why": "let 是使役動詞，let＋人＋原形動詞，所以用 ride。",
+  "no": "let 後面不能接 to V、V-ing 或 are riding。",
+  "tip": "使役動詞 let／make／have＋人＋原形動詞。"
+ },
+ {
+  "tag": "112-4",
+  "zh": "人們看著史密斯女士在派對上跳舞，都非常興奮。",
+  "why": "watch 是感官動詞，watch＋人＋V-ing 表示「看到某人正在做某事」，所以用 dancing。",
+  "no": "感官動詞後面不能接過去式 danced、現在完成式 has danced 或 to V。",
+  "tip": "see／watch／hear／feel＋人＋原形（看到整個動作）或 V-ing（看到正在進行）。"
+ },
+ {
+  "tag": "111-16",
+  "zh": "大衛從陽台窗戶往外看，看到一個女人上了他的車，然後把車開走。",
+  "why": "saw 後面是 a woman get in his car，又看到她 drive away。兩個動作要用 and 連接，而且都要用原形，所以是 and drive。",
+  "no": "drive／drove 前面沒有 and，兩個動作連不起來；and drove 用了過去式，但 saw＋人 後面要接原形。",
+  "tip": "saw＋人＋原形 A and 原形 B：兩個原形動作用 and 連接。"
+ },
+ {
+  "tag": "105-3",
+  "zh": "我的貓看到那個男孩正在抓鳥時，變得很興奮。",
+  "why": "saw 是感官動詞，saw＋人＋V-ing 表示「看到某人正在做」，所以用 catching。",
+  "no": "感官動詞後面不能接 catches、to catch 或 caught。",
+  "tip": "see＋人＋V-ing＝看到某人正在做某事。"
+ },
+ {
+  "tag": "111-8",
+  "zh": "雖然幫十個人準備一頓大餐花了我很多時間，但大家都吃得很開心，我很高興。",
+  "why": "It takes＋人＋時間＋to V＝某人花了多少時間做某事，所以用 to prepare。",
+  "no": "這個句型固定用 to V，不用原形、V-ing 或過去式。",
+  "tip": "It takes (took)＋人＋時間＋to V。"
+ },
+ {
+  "tag": "107-10",
+  "zh": "警察花了很多時間，才查出一年前是誰闖進劉女士的家殺了她。",
+  "why": "It took＋人＋時間＋to V，所以用 to find out（查出）。",
+  "no": "這個句型要用 to V，不能用 and found out、原形 find out 或 finding out。",
+  "tip": "It took＋人＋時間＋to V；find out＝查出、發現。"
+ },
+ {
+  "tag": "104-5",
+  "zh": "查爾斯在百貨公司花了一整天，幫太太找帽子。",
+  "why": "人＋spend＋時間＋V-ing＝某人花時間做某事。主詞是人（Charles），後面是 looking，所以用 spent。",
+  "no": "cost 的主詞要是「東西」（The hat cost me…）；saw（看見）和 made（做）都不能接「時間＋V-ing」。",
+  "tip": "人 spend 時間／錢 V-ing；東西 cost 人 錢；It takes 人 時間 to V。"
+ },
+ {
+  "tag": "114-15",
+  "zh": "雖然機器用來採水果已經很久了，但直到幾年前才開始用在草莓農場上。",
+  "why": "前半句說「很久以前就用了」，後半句說「草莓農場幾年前才用」，前後意思相反，用 Although（雖然）。",
+  "no": "Because（因為）、Before（在…之前）、If（如果）都接不上這種相反的意思。",
+  "tip": "Although＝雖然，前後語氣相反。注意：英文有 although 就不能再加 but。"
+ },
+ {
+  "tag": "113-14",
+  "zh": "派蒂花了好幾天計畫邀請查理吃晚餐，但兩人見面時，她卻一句話都說不出來。",
+  "why": "花了好幾天準備，結果卻說不出話，前後意思相反，用 but。",
+  "no": "if（如果）、or（否則）、so（所以）都不合這個相反的意思。",
+  "tip": "but＝但是，連接意思相反的兩件事。"
+ },
+ {
+  "tag": "112-9",
+  "zh": "煮東西的時候不要走開，否則食物可能會燒焦。",
+  "why": "「不要走開，否則食物會燒焦」，祈使句＋, or ＝「否則」。",
+  "no": "but（但是）、if（如果）、so（所以）都不是「否則」的意思。",
+  "tip": "祈使句, or＋結果＝不這麼做的話就會…；祈使句, and＋結果＝這麼做的話就會…。"
+ },
+ {
+  "tag": "111-2",
+  "zh": "電影兩點開始，所以我們一點四十五分在電影院碰面吧。",
+  "why": "「因為兩點開始，所以早一點碰面」，前因後果，用 so（所以）。",
+  "no": "or（否則）、if（如果）不合；because 後面要接原因，但這裡後面接的是結果。",
+  "tip": "原因, so＋結果；結果 because＋原因。because 和 so 不能同時用。"
+ },
+ {
+  "tag": "111-補-6",
+  "zh": "如果你今晚沒時間吃晚餐，也許我們可以一起很快地喝杯飲料就好。",
+  "why": "「如果你沒時間吃晚餐，那就喝一杯」，是假設條件，用 If。",
+  "no": "Before（在…之前）、Until（直到）、When（當…時）都不合這個條件的意思。",
+  "tip": "If＝如果，後面接條件。"
+ },
+ {
+  "tag": "110-10",
+  "zh": "雖然吉米的爸爸已經試著把他從床上拉起來好幾次了，吉米還是不肯起床吃早餐。",
+  "why": "爸爸拉了好幾次，他卻還是不起床，前後意思相反，用 although（雖然）。",
+  "no": "because（因為）、if（如果）、until（直到）都不合這個相反的意思。",
+  "tip": "although 子句可以放在句首，也可以放在後面。"
+ },
+ {
+  "tag": "110-9",
+  "zh": "如果你對我們的商業計畫有興趣，就打這支電話找李小姐，她會回答你的問題。",
+  "why": "If 子句後面接主要子句。這裡是叫對方去做事的祈使句，用原形動詞 call 開頭。",
+  "no": "calling、to call 都不能單獨當主要子句的動詞；and call 前面沒有另一個動作可以用 and 連接。",
+  "tip": "If…, 原形動詞…（祈使句）＝如果…就去做…。"
+ },
+ {
+  "tag": "108-2",
+  "zh": "劉老師平常都給我們很多功課，但她今天一點功課都沒出。",
+  "why": "平常很多、今天卻沒有，前後相反，用 but。",
+  "no": "if（如果）、or（否則）、so（所以）都不合。",
+  "tip": "usually…, but today…：平常…，但今天…。"
+ },
+ {
+  "tag": "104-2",
+  "zh": "這件洋裝很漂亮，但我穿起來不好看。",
+  "why": "洋裝漂亮，穿起來卻不好看，前後相反，用 but。",
+  "no": "so（所以）、or（否則）、if（如果）都不合。",
+  "tip": "look good on＋人＝某人穿起來好看。"
+ },
+ {
+  "tag": "103-21",
+  "zh": "我現在得去趕公車，不然就會錯過我弟弟的生日派對。",
+  "why": "「得趕公車，否則會錯過派對」，or＝否則、不然。",
+  "no": "and（而且）、because（因為）、until（直到）都不合「不然就會…」的意思。",
+  "tip": "must／have to…, or…＝必須…，否則就會…。"
+ },
+ {
+  "tag": "111-10",
+  "zh": "鮑伯是家裡男生中最懶的。他從來不做家事，他的兄弟們至少偶爾還會倒垃圾。",
+  "why": "of the boys in the family（在家裡的男生之中）是三個以上比較，要用最高級 the laziest。",
+  "no": "lazier、the lazier 是比較級，用在兩者比較；the lazy 不是最高級。",
+  "tip": "the＋最高級＋of／in＋範圍＝在…之中最…。"
+ },
+ {
+  "tag": "110-補-12",
+  "zh": "火災之後，公寓裡的每個人煮飯時都變得比較小心了。他們不希望再有人受傷。",
+  "why": "was 後面接形容詞（be 動詞＋形容詞），而且是跟以前比「更小心」，所以用比較級 more careful。",
+  "no": "more carefully、the most carefully 是副詞，不能放在 be 動詞後面；the most careful 是「最小心」，但這裡是跟火災前比較。",
+  "tip": "be 動詞後面接形容詞；一般動詞後面才用副詞（cook carefully）。"
+ },
+ {
+  "tag": "109-15",
+  "zh": "對麥克來說，買牛仔褲時價格是最不重要的。他更在意口袋的形狀和大小。",
+  "why": "後面說他「更在意」口袋，表示價格是最不重要的，用 the least important。",
+  "no": "the more、the less 是比較級，不能接 thing 表示「最…」；the most important 意思相反。",
+  "tip": "the least＋形容詞＝最不…；the most＋形容詞＝最…。"
+ },
+ {
+  "tag": "112-23",
+  "zh": "現在我常常想起和我的寵物狗皮普在一起的日子。以前我在房間看書時，牠都會過來安靜地坐在我旁邊。",
+  "why": "those days（那些日子）是過去的事，而且是以前常常發生、現在已經沒有的習慣，用 used to＋原形：used to come and sit。",
+  "no": "will come and sit 是未來；comes and sits 是現在的習慣；has come and sat 是現在完成式，都不合「以前常常」。",
+  "tip": "used to＋原形動詞＝以前常常（現在不會了）。"
+ },
+ {
+  "tag": "108-13",
+  "zh": "我上學那段時間，每天都會聽英文廣播節目。那就是我當時學英文的方法。",
+  "why": "In my school days、at that time 都是過去，而且是以前每天的習慣，用 used to listen。",
+  "no": "listen 是現在式；have listened 是現在完成式；was listening 是過去某一刻正在做，不是習慣。",
+  "tip": "used to＋原形＝過去的習慣；be used to＋V-ing＝習慣於…（兩個不一樣）。"
+ },
+ {
+  "tag": "109-補-9",
+  "zh": "亨利：雪莉在保健室，對吧？\n丹尼爾：對，她剛剛割傷了手指。",
+  "why": "Shelly's＝Shelly is，是現在式肯定句，附加問句要用否定的 isn't she。",
+  "no": "wasn't 是過去式；hasn't、didn't 跟 is 對不上。",
+  "tip": "附加問句：前面肯定 → 後面否定；前面用什麼動詞 → 後面就用同一個。"
+ },
+ {
+  "tag": "104-3",
+  "zh": "在寒冷的早上早起並不容易，對吧？",
+  "why": "主詞是 Getting up early（早起這件事），用代名詞 it；前面是否定句 is not，附加問句就用肯定的 is it。",
+  "no": "are you、do you 主詞不對；does it 動詞不對，前面是 be 動詞 is。",
+  "tip": "V-ing 當主詞時，附加問句的主詞用 it。前面否定 → 後面肯定。"
+ },
+ {
+  "tag": "112-10",
+  "zh": "傑瑞想知道他為什麼被踢出足球隊，但沒有人給他一個好理由。",
+  "why": "後面說「沒有人給他好的理由（reason）」，他想知道的是原因，用 why。",
+  "no": "where（哪裡）、when（何時）、whether（是否）都跟「理由」對不上。",
+  "tip": "想知道「為什麼」→ why，答案就是 reason（理由）。"
+ },
+ {
+  "tag": "103-27",
+  "zh": "我不確定凱文今天早上會不會進來，但如果他來了，我會告訴他你打過電話。",
+  "why": "if 在這裡是「是否」，當 not sure 的受詞（名詞子句），要講未來的事就用 will come in。",
+  "no": "comes in 是現在式，用在 if＝「如果」的條件句；has come in、came in 是已經發生，但他還沒來。",
+  "tip": "if＝是否（名詞子句）→ 未來用 will；if＝如果（條件句）→ 用現在式代替未來（if he does）。"
+ },
+ {
+  "tag": "113-12",
+  "zh": "想參加校外教學的學生應該先問過家長。",
+  "why": "主詞是 Students，後面用關係代名詞 who 來說明是「哪些學生」：who want to go…。主要動詞是 should ask。",
+  "no": "只用 want 的話，一句就有兩個動詞；who they want、what they want 多了 they，不能這樣接。",
+  "tip": "人＋who＋動詞…＝做…的人。"
+ },
+ {
+  "tag": "112-22",
+  "zh": "剛上市的新藥已經救了好幾千條人命。",
+  "why": "主詞是 The new medicine，that just came out on the market 只是在說明是哪種藥，句子還缺主要動詞。用現在完成式 has saved（已經救了）。",
+  "no": "and saved 前面沒有可以並列的動詞；saving、to save 不能當主要動詞，句子會不完整。",
+  "tip": "主詞後面有 that／who 子句時，要找到真正的主要動詞。"
+ },
+ {
+  "tag": "112-19",
+  "zh": "史考特不確定眼前這位年輕女子，是不是把他從著火的車裡拉出來的那個人。",
+  "why": "was 後面要接名詞 the one（那個人），再用 who 說明是哪個人：the one who pulled him out。",
+  "no": "只用 who 缺少名詞；the one 後面直接接動詞不行；the one she 多了 she，句子會錯。",
+  "tip": "the one who＋動詞＝做…的那個人。"
+ },
+ {
+  "tag": "110-12",
+  "zh": "費歐娜很喜歡聽她的孩子們唱在學校學的歌。",
+  "why": "songs (that) they learned at school＝他們在學校學的歌。songs 是 learned 的受詞，關係代名詞 that 可以省略，所以用 they learned。",
+  "no": "are learned、that are learned 是被動，但主詞不見了也不通順；that learned 會變成「歌學了東西」，不合理。",
+  "tip": "關係代名詞當受詞時可以省略：the songs (that) they learned。"
+ },
+ {
+  "tag": "109-補-15",
+  "zh": "知道答案的人可以大聲說出來嗎？",
+  "why": "Can 是助動詞，後面接原形動詞 say。who knows the answer 只是在說明 anyone。",
+  "no": "助動詞 can 後面不能接 says、saying、to say。",
+  "tip": "can／will／should／must／do＋原形動詞。"
+ },
+ {
+  "tag": "106-13",
+  "zh": "尼克找的那些藉口，在在顯示出他有多討厭做這份工作。",
+  "why": "主詞是 All the excuses（複數），(that) Nick made 是說明，主要動詞要用複數現在式 say。say a lot about＝很能說明…。",
+  "no": "saying、to say 不能當主要動詞；which say 會讓句子缺主要動詞。",
+  "tip": "先找主詞（excuses），中間的說明跳過，再決定主要動詞。"
+ },
+ {
+  "tag": "104-12",
+  "zh": "演員大衛·派柏在被訪問很多次之後，已經厭倦談論讓他成名的那部電影。",
+  "why": "be famous for＋事物＝因…而有名。the movie (that) he is famous for＝他因而成名的那部電影，that 可以省略，for 要留著。",
+  "no": "he is famous、that he is famous 少了 for；that is famous for 少了主詞 he，意思變成「電影因為…有名」。",
+  "tip": "關係子句裡的介系詞不能丟：the movie he is famous for。"
+ },
+ {
+  "tag": "114-18",
+  "zh": "在黛芙妮問起之前，你應該告訴她你打破了她最喜歡的杯子。",
+  "why": "before 是時間連接詞，用現在式代替未來，所以用 asks。",
+  "no": "asked、was asking 是過去；will ask 不能用在 before／when／if 引導的時間或條件子句。",
+  "tip": "before、after、when、until、if 子句裡：現在式代替未來式。"
+ },
+ {
+  "tag": "114-10",
+  "zh": "聖誕節快到了，我想去國外拜訪阿姨。你有什麼計畫了嗎？",
+  "why": "「聖誕節快到了」是即將發生的事，用現在進行式 is coming 表示快要。",
+  "no": "came、was coming 是過去；comes 是一般的事實或習慣，沒有「快要到了」的意思。",
+  "tip": "be＋V-ing 也可以表示快要發生、已經安排好的未來。"
+ },
+ {
+  "tag": "113-21",
+  "zh": "媽媽：琳達，你整個晚上都在玩電腦遊戲！報告寫完了嗎？\n琳達：嗯，我今天下午已經寫了大部分，星期五前會寫完。",
+  "why": "this afternoon（今天下午）是已經過去的時間，做完的事用過去式 I did。",
+  "no": "I would do 是假設；I was doing 是過去某一刻正在做，不是做完了大部分；I'll do 是未來。",
+  "tip": "已經結束的時間（yesterday、this afternoon 在晚上說）→ 過去式。"
+ },
+ {
+  "tag": "113-15",
+  "zh": "我沒辦法告訴你我覺得這部電影怎麼樣，因為我還沒看過。我大概這個星期六會去看。",
+  "why": "「到現在為止還沒看過」，用現在完成式否定 haven't seen。",
+  "no": "am not seeing 是現在沒有在看；don't see 是習慣上不看；won't see 是不會去看，但他星期六要去看。",
+  "tip": "have／has＋p.p.＝到現在為止（已經、還沒、曾經）。"
+ },
+ {
+  "tag": "112-6",
+  "zh": "雷克斯沒有感覺到今天早上的地震。地震的時候他正在公園慢跑。",
+  "why": "at the time（那個時候）指過去某一刻，當時正在做的事用過去進行式 was jogging。",
+  "no": "jogged 是過去做過，不強調當時正在做；has jogged 是現在完成式；would jog 是過去常常會。",
+  "tip": "過去某一刻正在做 → was／were＋V-ing。"
+ },
+ {
+  "tag": "112-12",
+  "zh": "艾德和吉兒這個週末要去露營，所以他們得在星期五以前寫完功課。",
+  "why": "this weekend 是已經安排好的未來計畫，用現在進行式 are going（camping）表示。",
+  "no": "went 是過去；were going 是過去本來要去；have gone 是已經去了，都不合「這個週末要去」。",
+  "tip": "go camping＝去露營；be＋V-ing 可以表示安排好的未來。"
+ },
+ {
+  "tag": "111-19",
+  "zh": "艾莉兒在中文考試前一個星期每天晚上都在讀書，結果考得非常好。",
+  "why": "後面 got a very good grade 是過去式，考試已經考完了，前面讀書也是過去的事，用 studied。",
+  "no": "studies 是現在式；has studied 是現在完成式；was going to study 是「本來要讀」，跟考得很好接不起來。",
+  "tip": "同一句裡的兩件過去的事，動詞時態要一致：studied…and got…。"
+ },
+ {
+  "tag": "111-15",
+  "zh": "你找到暑假工作了嗎？費斯先生正在找人在假期照顧他的孩子。也許你可以去跟他談談。",
+  "why": "他「現在正在」找人，所以「也許你可以去談」，用現在進行式 is looking for。",
+  "no": "has looked for 是已經找過；looks for 是習慣；was looking for 是過去在找，現在不一定還在找。",
+  "tip": "現在這段時間正在進行的事 → am／is／are＋V-ing。"
+ },
+ {
+  "tag": "111-13",
+  "zh": "昨天我下班回到家時，我哥哥正要出去吃晚餐，所以他邀我一起去。",
+  "why": "「我回到家」是過去的某一刻，那時哥哥「正要出門」，用過去進行式 was going out。",
+  "no": "goes out 是現在式；went out 表示已經出去了，就不能再邀我；has gone out 是現在完成式。",
+  "tip": "when＋過去式（短動作），另一邊用 was／were＋V-ing（當時正在做）。"
+ },
+ {
+  "tag": "111-11",
+  "zh": "吉娜阿姨在這個鎮上住了六十多年，所以她非常了解這裡。",
+  "why": "她現在住了六十年，所以「現在」很了解，用現在式 knows。know 是表示狀態的動詞，不用進行式。",
+  "no": "will know 是未來；knew 是過去；was going to know 不合理。",
+  "tip": "know、like、love、want 這類表示狀態的動詞，通常用現在式。"
+ },
+ {
+  "tag": "110-7",
+  "zh": "我姊姊今天要來我家。她會跟我住一個星期。",
+  "why": "她今天才要來，住一個星期是之後的事，用未來式 will stay。",
+  "no": "stays 是習慣；stayed 是過去；has stayed 是已經住了，但她還沒來。",
+  "tip": "還沒發生的事 → will＋原形。"
+ },
+ {
+  "tag": "110-6",
+  "zh": "我們的吳老師很少笑，但她一笑，整棟樓的人都聽得到。",
+  "why": "空格是代替前面的 laughs（一般動詞，現在式、第三人稱），用助動詞 does 代替，避免重複。",
+  "no": "can、has、will 都不能代替一般動詞 laughs 的現在式。",
+  "tip": "代替前面的一般動詞：現在式用 do／does，過去式用 did。"
+ },
+ {
+  "tag": "110-5",
+  "zh": "保羅很想念他爸媽。他一年前來台灣工作，從那時起就沒見過他們了。",
+  "why": "since＋過去的時間點（從那時起到現在），主要子句用現在完成式 hasn't seen。",
+  "no": "didn't see、doesn't see、won't see 都不能跟 since 一起表示「從…到現在」。",
+  "tip": "since＋過去時間點 → 主要子句用 have／has＋p.p.。"
+ },
+ {
+  "tag": "110-2",
+  "zh": "你聽！寶寶在房間裡哭。你何不進去看看？",
+  "why": "Listen!（你聽！）表示現在正在發生，用現在進行式 is crying。",
+  "no": "cried 是過去；cries 是習慣；will cry 是未來。",
+  "tip": "Look!、Listen! 後面常接現在進行式。"
+ },
+ {
+  "tag": "109-14",
+  "zh": "我們當時很確定傑瑞會把這份困難的工作做好，他過去在其他工作上的經驗顯示他是適合的人選。所以當他失敗時，沒有人相信。",
+  "why": "「當時」覺得他「將來會」做好，是過去時間裡的未來，用 would do。",
+  "no": "had done、did、has done 都是已經做了，但說話的人當時是在預測。",
+  "tip": "過去說的「會…」→ would＋原形（will 的過去式）。"
+ },
+ {
+  "tag": "109-6",
+  "zh": "過去二十年來，我爸爸一直在學校圖書館工作。不過他下個月就要離職了。",
+  "why": "For the past twenty years（過去二十年到現在），而且現在還在做，用現在完成式 has worked。",
+  "no": "worked 是過去，表示現在已經不做了；is working 不能接「二十年」這種一段時間；works 是一般現在式。",
+  "tip": "for the past＋一段時間 → have／has＋p.p.。"
+ },
+ {
+  "tag": "109-補-10",
+  "zh": "爸爸：瑪莉，你在哪裡？出來！\n媽媽：你知道的，她正在跟你玩。你找到她之前，她不會出來的。",
+  "why": "瑪莉正在跟爸爸玩捉迷藏，是現在正在進行的事，用 she's playing。",
+  "no": "she'll play 是未來；she plays 是習慣；she played 是過去。",
+  "tip": "說話的當下正在發生 → be＋V-ing。"
+ },
+ {
+  "tag": "109-補-8",
+  "zh": "艾咪：日本那裡天氣怎麼樣？在下雪嗎？\n珊蒂：沒有，但接下來幾天會下。我是看電視新聞知道的。",
+  "why": "for the next few days（接下來幾天）是未來，it will（snow），後面省略了 snow。",
+  "no": "it was 是過去；it has、it is 後面都接不了省略的 snow。",
+  "tip": "for the next…（接下來的…）→ 未來式。"
+ },
+ {
+  "tag": "108-11",
+  "zh": "你要吃最後那塊派嗎？如果不吃，我可以吃嗎？我早上沒吃什麼。",
+  "why": "問對方「打算要吃嗎」，是問未來的打算，用 Are you going to eat。",
+  "no": "Had you eaten 是過去完成式；Were you eating 是過去正在吃；Do you eat 是問習慣，都不是問現在的打算。",
+  "tip": "be going to＋原形＝打算、將要。"
+ },
+ {
+  "tag": "107-8",
+  "zh": "爸爸：你刷牙了嗎？\n安：還沒，但我睡覺前會刷。",
+  "why": "「睡覺前會刷」是未來的事，I will (brush my teeth)，後面省略了動詞。",
+  "no": "haven't、have 是現在完成式，接不上未來；won't 意思變成「不會刷」，跟 but 不合。",
+  "tip": "回答時可以只說助動詞：I will.＝I will brush my teeth.。"
+ },
+ {
+  "tag": "107-4",
+  "zh": "我身上沒錢，因為我今天早上把錢包弄丟了。",
+  "why": "this morning（今天早上）是過去的時間，用過去式 lost。",
+  "no": "had lost 是過去完成式，要有另一個過去時間點才用；would lose 是假設；was losing 是正在弄丟，不合理。",
+  "tip": "lose（弄丟）的過去式是 lost。"
+ },
+ {
+  "tag": "106-12",
+  "zh": "最近幾天天氣一直又下雨又多雲。我希望太陽快點出來。",
+  "why": "in the last few days（過去幾天到現在），用現在完成式 has been。",
+  "no": "had been 是過去完成式；will be、would be 是未來或假設。",
+  "tip": "in the last／past＋一段時間 → have／has＋p.p.。"
+ },
+ {
+  "tag": "106-5",
+  "zh": "不好意思，我真的得走了。我的孩子們正在學校等我。",
+  "why": "孩子們「現在正在」等，用現在進行式 are waiting。",
+  "no": "were waiting、waited 是過去；wait 是習慣，不是現在正在等。",
+  "tip": "現在正在發生 → am／is／are＋V-ing。"
+ },
+ {
+  "tag": "104-9",
+  "zh": "兒童節那天，知名童書作家李女士要來莫莉書店談她的新書。我的兩個小孩迫不及待想見到她。",
+  "why": "孩子們迫不及待，表示還沒發生，是未來安排好的事，用 is going to come。",
+  "no": "came、was coming 是過去；has come 是已經來了，就不用「迫不及待」。",
+  "tip": "can't wait to＝迫不及待 → 事情還沒發生。"
+ },
+ {
+  "tag": "103-30",
+  "zh": "《聰明頭腦》是最近最熱門的電視節目之一，只要能在 15 分鐘內答對 20 題，就送觀眾去夏威夷的免費機票。",
+  "why": "主詞是 Smart Head（單數），one of the hottest TV programs 是補充說明；節目平常的規則用現在式，所以用 gives。",
+  "no": "have given 是複數；giving、to give 不能當主要動詞。",
+  "tip": "主詞後面用兩個逗號夾起來的補充說明，不影響動詞。主詞單數 → 動詞加 s。"
+ },
+ {
+  "tag": "114-19",
+  "zh": "今天早上風很大。陽台上的幾件襯衫被吹走，掉進池塘裡了。",
+  "why": "襯衫「被吹走」又「掉進池塘」，兩個動作用 and 連接；were blown away 是過去式，fell 也用過去式，所以是 and fell。",
+  "no": "fell 前面沒有 and 連不起來；fallen 是過去分詞，不能單獨當動詞；and fallen 要接在 have 後面。",
+  "tip": "兩個動作用 and 連接，時態要一致。fall-fell-fallen。"
+ },
+ {
+  "tag": "113-19",
+  "zh": "王先生和王太太家裡的家事，是由他們夫妻和孩子們一起分擔的。",
+  "why": "家事是「被分擔」，用被動 be＋p.p.；主詞 The housework 是不可數，所以用 is shared。",
+  "no": "are shared 是複數；shares、share 是主動，變成「家事去分擔」，不合理。",
+  "tip": "主詞是被做的東西 → be＋p.p.。housework 不可數 → 用 is。"
+ },
+ {
+  "tag": "112-13",
+  "zh": "哆啦A夢是一隻藍色的日本機器貓，自從牠的耳朵被老鼠咬掉之後，就很討厭老鼠。",
+  "why": "耳朵是「被」老鼠咬，用被動；since 後面是過去發生的事，所以用 were bitten。",
+  "no": "bit、bite 是主動，變成耳朵去咬；have bitten 也是主動，而且是現在完成式。",
+  "tip": "by＋做動作的人或動物 → 前面通常是被動。bite-bit-bitten。"
+ },
+ {
+  "tag": "111-17",
+  "zh": "警察還沒找到那個在超市被帶走的小女孩。他們會繼續盡全力找她。",
+  "why": "小女孩是「被帶走」的，用被動；這是過去發生的事，所以用 was taken away。",
+  "no": "took away、has taken away 是主動，變成小女孩去帶走別人；taken away 少了 be 動詞。",
+  "tip": "被動：be＋p.p.；take-took-taken。"
+ },
+ {
+  "tag": "105-15",
+  "zh": "我的狗吉米很喜歡被梳毛。每次我幫牠梳毛，牠就會閉上眼睛睡著。",
+  "why": "狗是「被梳毛」，要用被動；love 後面接動名詞，被動的動名詞是 being＋p.p.，所以用 being brushed。",
+  "no": "to brush、brushing 是主動，變成狗去梳別人；to be brushing 不是被動。",
+  "tip": "被動的 V-ing：being＋p.p.；被動的 to V：to be＋p.p.。"
+ },
+ {
+  "tag": "105-13",
+  "zh": "我跟你說過這條路方向不對，但你就是不聽。現在我們得掉頭走另一條路。",
+  "why": "走錯路了，要「掉頭、往回走」，用 turn back。",
+  "no": "go ahead（往前走、請便）、move away（搬走）、pass by（經過）都不合「走錯路要回頭」。",
+  "tip": "turn back＝掉頭、往回走。"
+ }
+]

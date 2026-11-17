@@ -164,6 +164,7 @@ def main():
         return nxt - 1
 
     # ---------- Unit 2 一字多義 ----------
+    ZH = json.load(open(os.path.join(SRC, 'zh_examples.json'), encoding='utf-8'))   # 例句中文翻譯
     u2 = json.load(open(os.path.join(SRC, 'u2_polysemy.json'), encoding='utf-8'))
     groups = {}
     for r in u2: groups.setdefault(r['w'], []).append(r)
@@ -184,7 +185,7 @@ def main():
                 if not sp: errs.append(f'U2 找不到 {w}：{ex}'); continue
                 o = pick(r['zh'], same, pool2, 'u2|' + w + '|' + ex)
                 order = list(range(len(o))); random.Random('o|' + ex).shuffle(order)
-                add({'k': 'sense', 'a': ex[:sp[0]], 'm': ex[sp[0]:sp[1]], 'b': ex[sp[1]:], 'w': w,
+                add({'k': 'sense', 'a': ex[:sp[0]], 'm': ex[sp[0]:sp[1]], 'b': ex[sp[1]:], 'w': w, 'z': ZH[ex],
                      'o': [o[j] for j in order], 'c': order.index(0)}, f'u2|{w}|{r["zh"]}|{ex}', d)
 
     # ---------- Unit 3 片語 ----------
@@ -207,12 +208,15 @@ def main():
                 if not sp: errs.append(f'U3 找不到 {w}：{ex}'); continue
                 o = pick(r['zh'], same + sorted(near), pool3, 'u3|' + w + '|' + ex)
                 order = list(range(len(o))); random.Random('o|' + ex).shuffle(order)
-                add({'k': 'phrase', 'a': ex[:sp[0]], 'm': ex[sp[0]:sp[1]], 'b': ex[sp[1]:], 'w': w,
+                add({'k': 'phrase', 'a': ex[:sp[0]], 'm': ex[sp[0]:sp[1]], 'b': ex[sp[1]:], 'w': w, 'z': ZH[ex],
                      'o': [o[j] for j in order], 'c': order.index(0)}, f'u3|{w}|{r["zh"]}|{ex}', d)
 
     # ---------- Unit 4 文法會考真題 ----------
     u4 = json.load(open(os.path.join(SRC, 'u4_cap.json'), encoding='utf-8'))
-    for x in u4:
+    # 詳解（與 u4_cap.json 同順序）：中文翻譯、為什麼選這個、其他選項錯在哪、口訣
+    XP = json.load(open(os.path.join(SRC, 'u4_explain.json'), encoding='utf-8'))
+    assert [e['tag'] for e in XP] == [x['tag'] for x in u4], 'u4_explain.json 和 u4_cap.json 順序不一致'
+    for x, e in zip(u4, XP):
         a, b = x['stem'].split('＿＿')
         right = x['o'][x['c']]
         # 放在題目裡出現的 1200 字所在的天之中，目前新題最少的那天
@@ -221,7 +225,7 @@ def main():
         d = min(hits, key=lambda v: (load[v], v)) if hits else day_for([], 'u4-' + x['tag'])
         load[d] += 1
         add({'k': 'cap', 'a': a, 'b': b, 'o': x['o'], 'c': x['c'], 'w': right,
-             't': x['tag'], 'p': x['topic']}, f'u4|{x["tag"]}|{x["stem"][:40]}', d)
+             't': x['tag'], 'p': x['topic'], 'z': e['zh'], 'x': [e['why'], e['no'], e['tip']]}, f'u4|{x["tag"]}|{x["stem"][:40]}', d)
 
     # 寫回
     start = len(items)
