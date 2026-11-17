@@ -267,3 +267,133 @@ Tom was late for school again. When he finally walked into the [[classroom|fever
 + ahead = 在前面
 + gate = 大門
 = 湯姆上學又遲到了。他終於走進教室時，已經八點二十分了。「這次為什麼遲到？」陳老師問。「對不起，」湯姆說，「我在路上看到一個告示牌，上面寫『前有學校，慢行』。所以我就走得非常、非常慢。」全班都笑了，但陳老師沒有笑。她叫湯姆去見校長。校長聽完他的說法後笑了。「湯姆，那個告示是給車子看的，不是給學生看的。」他說，「既然你這麼喜歡告示牌，我給你一個工作。」接下來的一週，湯姆每天七點就要到校，替學校做告示牌。他替圖書館做了一個「請保持安靜」，替體育館做了一個「禁止飲食」。他做的最後一個告示牌掛在校門口，上面寫著：「前有學校，快走！」從那以後，他再也沒遲到過。
+
+## 最高的架子
+My little brother Leo is the shortest boy in his class, and he hates it. One day after school, he walked into the school [[library|fever|sugar|weather]] and asked the librarian, "Excuse me, do you have any books on how to grow taller?" The librarian smiled and pointed up. "Yes, we do. They're on the top shelf." Leo looked up. The shelf was so high that he could not [[reach|boil|marry|arrive]] it, even when he stood on his toes. Some older students nearby started to laugh. Leo's face turned red. But then the librarian winked at him and gave him a book from her desk. It was about basketball players who were not tall. Leo read it in one night. Now he practices in the [[gym|cough|pumpkin|receipt]] every morning, and he runs around the [[playground|noise|fever|sugar]] after school. He is still short, but he is the fastest player on his team. Even the [[principal|weather|cough|pumpkin]] came to watch his last game.
+> 1 walked into the school library and asked the librarian「走進學校圖書館問館員」。fever、sugar、weather 都不是可以走進去的地方。
+> 2 could not reach it「搆不到」，reach 當及物動詞「伸手碰到」。boil、marry、arrive 都不能表示搆到架子。
+> 3 practices in the gym「在體育館練習」。cough、pumpkin、receipt 都不是練球的地方。
+> 4 runs around the playground「繞著操場跑」。noise、fever、sugar 都不是可以繞著跑的地方。
+> 5 the principal came to watch his game「校長也來看他比賽」，主詞要是人。weather、cough、pumpkin 都不會來看比賽。
++ librarian = 圖書館員
++ shelf = 架子
++ wink = 眨眼示意
+= 我弟弟里歐是班上最矮的男生，他很討厭這一點。有一天放學後，他走進學校圖書館問館員：「不好意思，請問有教人怎麼長高的書嗎？」館員笑著往上指。「有啊，在最上面那一層。」里歐抬頭一看，那層架子高到他踮起腳尖也搆不到。旁邊有幾個學長姊開始笑，里歐的臉都紅了。但接著館員對他眨了眨眼，從她桌上拿了一本書給他。那本書講的是一些個子不高的籃球員。里歐一個晚上就讀完了。現在他每天早上都在體育館練球，放學後還繞著操場跑步。他還是很矮，但他是隊上跑得最快的球員。連校長都來看了他上一場比賽。
+
+## 去找 Jim 老師
+Kenji is an exchange student from Japan, and his English is still not very good. On his first day at our school, our homeroom teacher said, "Kenji, after lunch, please go and see Mr. Jim. He will give you your schoolbooks." Kenji nodded. But to him, "Jim" sounded just like "gym." So after lunch, he walked all the way to the [[gym|fever|sugar|receipt]] and waited there for a whole hour. A basketball team was practicing, and they asked him to play. When Kenji finally came back to the [[classroom|cough|weather|noise]], he was very [[tired|salty|national|crowded]] and had no books. Our teacher was confused, and then she laughed. Mr. Jim was actually in the [[library|pumpkin|fever|cough]] the whole time, waiting for Kenji with a big box of books. The story spread around the school. Now even our [[principal|sugar|noise|weather]] calls the gym "Jim's room."
+> 1 walked to the gym「走到體育館」，他把 Jim 聽成 gym。fever、sugar、receipt 都不是地點，也和 Jim 的發音不像。
+> 2 came back to the classroom「回到教室」。cough、weather、noise 都不是可以回去的地方。
+> 3 very tired「很累」，他在體育館打了一個小時的球。salty（鹹的）、national（國家的）、crowded（擁擠的）都不能形容人很累。
+> 4 in the library, waiting with a box of books「在圖書館拿著一箱書等他」。pumpkin、fever、cough 都不是可以待著的地方。
+> 5 our principal calls the gym "Jim's room"「校長把體育館叫成『Jim 的房間』」，主詞要是會說話的人。sugar、noise、weather 都不會叫東西的名字。
++ exchange student = 交換學生
++ nod = 點頭
++ confused = 困惑的
++ spread = 傳開
+= 健二是從日本來的交換學生，他的英文還不太好。他到我們學校的第一天，班導說：「健二，午餐後請去找 Jim 老師，他會給你課本。」健二點點頭。但對他來說，「Jim」聽起來就跟「gym（體育館）」一模一樣。所以午餐後，他一路走到體育館，在那裡等了整整一個小時。有一支籃球隊在練球，還找他一起打。等健二終於回到教室時，他累壞了，而且一本書也沒拿到。老師很困惑，接著就笑了出來。Jim 老師其實一直在圖書館，抱著一大箱書等他。這件事傳遍了全校。現在連校長都把體育館叫成「Jim 的房間」。
+
+## 下雨天的體育課
+On Tuesday morning, it was raining hard. We had PE class, but the [[playground|fever|sugar|cough]] was full of water. The [[gym|weather|receipt|noise]] was already being used by the ninth graders for their basketball test. So Mr. Wu, our PE teacher, took us back to our [[classroom|pumpkin|cough|fever]]. "No running today?" asked May. "Don't worry," Mr. Wu said. "You will still sweat." He asked us to [[push|borrow|marry|taste]] all the desks against the walls. Then he taught us a game called "Human Knot." Everyone stood in a circle and held hands with two different people across the circle. Then we had to untie the knot without letting go. It was much harder than it looked! We stepped over arms and crawled under legs, and everyone was laughing. When the [[principal|sugar|weather|noise]] walked past our door, he stopped and watched us through the window for a long time. The next day, he asked Mr. Wu to teach the game to the teachers at their meeting.
+> 1 the playground was full of water「操場積滿了水」，下大雨不能在戶外上課。fever、sugar、cough 都不會「積水」。
+> 2 The gym was being used「體育館有人在用」，九年級在考籃球。weather、receipt、noise 都不是可以使用的場地。
+> 3 took us back to our classroom「帶我們回教室」。pumpkin、cough、fever 都不是可以回去的地方。
+> 4 push the desks against the walls「把桌子推到牆邊」。borrow、marry、taste 都不能和 against the walls 搭配。
+> 5 the principal walked past our door「校長經過我們班門口」，主詞要是人。sugar、weather、noise 都不會走路、看窗戶。
++ sweat = 流汗
++ knot = 結
++ untie = 解開
++ crawl = 爬
+= 星期二早上下著大雨。我們有體育課，但操場積滿了水。體育館已經被九年級借去考籃球了。所以體育老師吳老師帶我們回教室。「今天不跑步嗎？」小梅問。「別擔心，」吳老師說，「你們還是會流汗的。」他叫我們把桌子全推到牆邊，然後教我們玩一個叫「人體打結」的遊戲。大家站成一圈，兩隻手分別牽住對面兩個不同的人。接著我們要在不放手的情況下把結解開。這比看起來難多了！我們跨過手臂、從腿下面爬過去，每個人都笑個不停。校長經過我們班門口時停下腳步，透過窗戶看了好久。隔天，他請吳老師在教師會議上教老師們玩這個遊戲。
+
+## 圖書館裡的貓館員
+Our school [[library|fever|sugar|cough]] has a very special helper. Her name is Mochi, and she is a gray cat. Three years ago, she walked in on a rainy day and never left. At first, the [[principal|weather|pumpkin|noise]] said no pets were allowed at school. But Mochi was so quiet and gentle that he finally let her stay. Now she sleeps on the returned books and watches students read. When the library is too noisy, she jumps on the table and stares at the loud students until they stop talking. Some kids even [[bring|boil|arrive|cry]] her small toys. Last winter, Mochi went missing for two days. The whole school looked for her. We searched every [[classroom|receipt|fever|sugar]], the music room, and even the teachers' office. Finally, a student found her sleeping on a soft mat in the [[gym|cough|weather|noise]]. She had followed the PE teacher there because it was warm. Now the library has a warm cat bed, and Mochi never leaves.
+> 1 Our school library has a helper「我們學校圖書館有一位小幫手」。fever、sugar、cough 都不是會有幫手的地方。
+> 2 the principal said no pets were allowed「校長說學校不准養寵物」，後面 he finally let her stay 也指校長。weather、pumpkin、noise 都不會說話、做決定。
+> 3 bring her small toys「帶小玩具給牠」，bring + 人 + 東西。boil、arrive、cry 都不能這樣接兩個受詞。
+> 4 searched every classroom「找遍每一間教室」。receipt、fever、sugar 都不是可以搜尋的地方。
+> 5 sleeping on a mat in the gym「睡在體育館的軟墊上」，體育老師帶去的地方。cough、weather、noise 都不是地點。
++ returned = 歸還的
++ stare = 盯著看
++ mat = 墊子
+= 我們學校圖書館有一位很特別的小幫手。她叫麻糬，是一隻灰色的貓。三年前的一個雨天，她走了進來，從此就沒離開過。一開始，校長說學校不准養寵物。但麻糬又安靜又溫和，校長最後還是讓她留下來了。現在她睡在還回來的書上，看著學生讀書。圖書館太吵的時候，她會跳上桌子，一直盯著大聲講話的學生，直到他們閉嘴。有些同學還會帶小玩具給她。去年冬天，麻糬失蹤了兩天，全校都在找她。我們找遍每一間教室、音樂教室，連教師辦公室都找了。最後，一個學生發現她睡在體育館的一張軟墊上。原來她跟著體育老師過去，因為那裡很溫暖。現在圖書館有一張溫暖的貓床，麻糬再也不亂跑了。
+
+## 校長也來玩躲避球
+Every year, our school has a dodgeball game between students and teachers. This year, our new [[principal|pumpkin|fever|sugar]] wanted to join the teachers' team. "I was a good player when I was young," he told us. Everyone was excited to see him play. On the day of the game, the whole school sat around the [[gym|weather|cough|receipt]]. At first, the principal was great. He caught three balls in a row, and the students on our team looked [[worried|salty|national|crowded]]. Then my classmate Annie threw the ball very fast and hit him on the leg. "Out!" shouted the referee. The principal walked off the court with a big smile. "That was a good throw," he said. After the game, he invited Annie to his office. Everyone thought she was in trouble. But he just gave her a certificate that said "Best Player of the Year." Annie put it on the wall of our [[classroom|noise|fever|sugar]], and now our class wants to [[challenge|boil|cry|arrive]] the teachers again next year.
+> 1 our new principal wanted to join「新校長想加入」，後面他說自己年輕時很會打。pumpkin、fever、sugar 都不會打球。
+> 2 sat around the gym「坐在體育館四周」看比賽。weather、cough、receipt 都不是場地。
+> 3 looked worried「看起來很擔心」，校長連接三球讓學生隊緊張。salty（鹹的）、national（國家的）、crowded（擁擠的）都不能形容人的表情。
+> 4 the wall of our classroom「我們教室的牆」。noise、fever、sugar 都沒有牆。
+> 5 challenge the teachers「向老師們挑戰」。boil、cry、arrive 都不能接受詞 the teachers 表示挑戰。
++ dodgeball = 躲避球
++ referee = 裁判
++ court = 球場
++ certificate = 獎狀；證書
+= 我們學校每年都有學生對老師的躲避球比賽。今年，新校長想加入老師隊。「我年輕時可是很厲害的。」他告訴我們。大家都很期待看他上場。比賽那天，全校坐在體育館四周。一開始，校長表現很好，連續接住三顆球，我們學生隊的人看起來都很擔心。接著我的同學安妮用力丟出一顆快球，打中他的腿。「出局！」裁判大喊。校長笑容滿面地走下球場。「丟得好。」他說。比賽結束後，他請安妮到校長室。大家都以為她惹上麻煩了。結果校長只是給她一張寫著「年度最佳球員」的獎狀。安妮把它貼在我們教室的牆上，現在我們班明年還想再向老師們挑戰。
+
+## 會考前的圖書館
+It is two months before the big exam, and the city [[library|fever|sugar|cough]] is always full. Every Saturday, my friend Ivy and I get there at 8:30, half an hour before it opens, to get a seat. Inside, it is so quiet that you can hear people turning pages. We study for three hours, then take a break and walk to the [[playground|weather|receipt|noise]] of the elementary school next door. We sit on the swings and test each other on English words. Last Saturday, Ivy asked me, "What's the word for the person who is in charge of a school?" I said, "Principle." She laughed. "No! It's '[[principal|pumpkin|weather|noise]],' with 'pal' at the end. The principal is your pal, remember?" I will never forget it now. On Monday, I saw our principal in the hallway and almost said, "Hi, pal!" Back in the [[classroom|fever|cough|sugar]], I told the story, and everyone laughed. I hope I can [[remember|boil|marry|arrive]] all my words that easily.
+> 1 the city library is always full「市立圖書館總是客滿」，要提早排隊才有座位。fever、sugar、cough 都不是可以讀書的地方。
+> 2 the playground of the elementary school「隔壁國小的遊戲場」，有盪鞦韆。weather、receipt、noise 都不是地點。
+> 3 principal「校長」，拼法結尾是 pal（朋友），和 principle（原則）不同。pumpkin、weather、noise 都不是「學校負責人」。
+> 4 Back in the classroom「回到教室裡」。fever、cough、sugar 都不是地點。
+> 5 remember all my words「記住所有的單字」。boil、marry、arrive 都不能表示記住單字。
++ swing = 盪鞦韆
++ in charge of = 負責
++ principle = 原則
++ pal = 朋友；夥伴
++ hallway = 走廊
+= 離會考只剩兩個月，市立圖書館總是坐滿了人。每個星期六，我和朋友艾薇八點半就到，比開館早半小時，才搶得到座位。裡面安靜到聽得見翻書的聲音。我們讀三個小時後休息一下，走到隔壁國小的遊戲場，坐在鞦韆上互相考英文單字。上星期六，艾薇問我：「負責管理學校的人，英文怎麼說？」我說：「Principle。」她笑了出來。「不對！是 principal，結尾是 pal。校長是你的好朋友（pal），記得嗎？」現在我永遠忘不了了。星期一，我在走廊看到校長，差點脫口說出「嗨，朋友！」回到教室後我說了這件事，大家都笑了。真希望我能把所有單字都記得這麼容易。
+
+## 交換學生眼中的台灣教室
+Last semester, Emma, a student from Canada, joined our class for three months. Many things at our school surprised her. First, she was surprised that students [[clean|boil|marry|arrive]] the school themselves. Every morning, we sweep our [[classroom|fever|sugar|cough]], wipe the windows, and take out the trash. "In my school in Canada, workers do the cleaning," she said. Second, she couldn't believe that we eat lunch at our desks and then take a nap. "A nap at school? I love it!" she said. Third, she was amazed by our morning meetings. Every Monday, the whole school stands on the [[playground|weather|receipt|pumpkin]] while the [[principal|noise|fever|sugar]] gives a short speech. On her last day, Emma gave a speech in Chinese at the meeting. It was only three sentences, but everyone clapped. Before she left, she gave our class a book about Canada. We put it in our class [[library|cough|weather|receipt]] corner so we can remember her.
+> 1 students clean the school「學生自己打掃學校」，後面舉例掃地、擦窗、倒垃圾。boil、marry、arrive 都不能表示打掃。
+> 2 sweep our classroom「掃我們的教室」。fever、sugar、cough 都不能「掃」。
+> 3 stands on the playground「站在操場上」開朝會。weather、receipt、pumpkin 都不是可以站的地方。
+> 4 the principal gives a short speech「校長簡短致詞」，主詞要是人。noise、fever、sugar 都不會演講。
+> 5 our class library corner「班級圖書角」，放書的地方。cough、weather、receipt 都不能和 corner 組成放書的角落。
++ semester = 學期
++ Canada = 加拿大
++ wipe = 擦
++ nap = 午睡
++ amazed = 驚奇的
+= 上學期，來自加拿大的學生艾瑪加入我們班三個月。學校有很多事讓她很驚訝。第一，她很驚訝學生要自己打掃學校。每天早上，我們掃教室、擦窗戶、倒垃圾。「在我加拿大的學校，打掃都是工作人員做的。」她說。第二，她不敢相信我們在自己的座位上吃午餐，吃完還要午睡。「在學校睡午覺？我太愛了！」她說。第三，我們的朝會讓她覺得很新奇。每週一，全校站在操場上聽校長簡短致詞。最後一天，艾瑪在朝會上用中文致詞。雖然只有三句話，但大家都拍手了。離開前，她送我們班一本介紹加拿大的書。我們把它放在班級圖書角，這樣就能記得她。
+
+## 遊戲場上的時光機
+There is an old red slide on the [[playground|fever|sugar|cough]] behind our school. One evening, I was waiting for my mom there, and I slid down it just for fun. When I reached the bottom, everything looked different. The trees were smaller, and the school buildings were new. A boy ran past me with a ball. He looked a lot like our [[principal|weather|pumpkin|noise]], but he was only about ten years old! I followed him into the [[gym|receipt|cough|sugar]], where some kids were playing basketball. On the wall, there was a calendar. It said 1985! I was so [[scared|salty|national|crowded]] that I ran back to the slide and climbed up it. At the top, I slid down again, and everything was back to normal. The next day, I went to the school [[library|weather|fever|noise]] and found an old yearbook from 1985. There, in a class photo, was the same boy, holding the same ball. Under the picture was our principal's name.
+> 1 an old red slide on the playground「操場上一座舊的紅色溜滑梯」。fever、sugar、cough 都不是可以放溜滑梯的地方。
+> 2 looked a lot like our principal「長得很像我們的校長」，結尾照片下面正是校長的名字。weather、pumpkin、noise 都不能「長得像」小男孩。
+> 3 followed him into the gym「跟著他走進體育館」，裡面有人在打籃球。receipt、cough、sugar 都不是可以走進去的地方。
+> 4 so scared that I ran back「嚇得跑回去」，發現自己回到 1985 年。salty（鹹的）、national（國家的）、crowded（擁擠的）都不能形容害怕的心情。
+> 5 went to the school library and found an old yearbook「去學校圖書館找到一本舊畢業紀念冊」。weather、fever、noise 都不是可以找書的地方。
++ slide = 溜滑梯；滑下
++ normal = 正常的
++ yearbook = 畢業紀念冊
+= 我們學校後面的遊戲場有一座舊的紅色溜滑梯。有一天傍晚，我在那裡等媽媽，就溜了一下好玩。滑到底的時候，一切看起來都不一樣了。樹變小了，校舍是新的。一個男孩抱著球從我身邊跑過。他長得很像我們的校長，但看起來只有十歲左右！我跟著他走進體育館，裡面有幾個小孩在打籃球。牆上有一份日曆，上面寫著 1985 年！我嚇得跑回溜滑梯，從滑道爬上去，到頂端後再滑下來一次，一切就恢復正常了。隔天，我去學校圖書館，找到一本 1985 年的舊畢業紀念冊。在一張班級合照裡，就是那個男孩，抱著同一顆球。照片下面寫的正是我們校長的名字。
+
+## 最後一次打掃教室
+Tomorrow is our graduation day. This afternoon, our teacher said, "Let's clean our [[classroom|fever|sugar|cough]] one last time." Nobody complained. We swept the floor, washed the windows, and took down the pictures from the walls. Under my desk, I found a paper airplane from seventh grade. On it, someone had written, "See you on the [[playground|weather|receipt|noise]] at lunch!" It was from my best friend, Rick. We first met when we were both new and lost. Later, we spent many lunch breaks reading comics together in the [[library|pumpkin|fever|sugar]] and playing basketball in the [[gym|cough|noise|weather]]. I showed him the airplane, and he laughed so hard that he almost cried. When we finished cleaning, the [[principal|receipt|pumpkin|sugar]] came in to check our room. "This is the cleanest classroom in the whole school," he said. Then he took a photo of all of us standing in front of the clean blackboard.
+> 1 clean our classroom「打掃我們的教室」。fever、sugar、cough 都不能打掃。
+> 2 See you on the playground「操場見」。weather、receipt、noise 都不是可以約見面的地方。
+> 3 reading comics in the library「在圖書館看漫畫」。pumpkin、fever、sugar 都不是可以看書的地方。
+> 4 playing basketball in the gym「在體育館打籃球」。cough、noise、weather 都不是打球的場地。
+> 5 the principal came in to check our room「校長進來檢查教室」，後面說話的也是校長。receipt、pumpkin、sugar 都不會走進來說話。
++ graduation = 畢業
++ complain = 抱怨
++ paper airplane = 紙飛機
++ comic = 漫畫
++ blackboard = 黑板
+= 明天就是我們的畢業典禮了。今天下午，老師說：「我們最後一次打掃教室吧。」沒有人抱怨。我們掃地、洗窗戶，把牆上的照片拿下來。我在桌子底下找到一架七年級時的紙飛機，上面有人寫著：「午休操場見！」那是我最好的朋友瑞克寫的。我們第一次見面時都是剛入學、找不到路的新生。後來，我們有好多個午休一起在圖書館看漫畫，在體育館打籃球。我把紙飛機拿給他看，他笑到眼淚都快流出來了。我們打掃完時，校長進來檢查教室。「這是全校最乾淨的教室。」他說。接著他替站在乾淨黑板前的我們全班拍了一張照片。
+
+## 新操場的第一天
+For a whole year, our school [[playground|fever|sugar|cough]] was closed because workers were building a new running track and a soccer field. During that year, we had PE in the [[gym|weather|receipt|noise]] every week, and it was always hot and crowded. Finally, last Monday, the new playground opened. Our [[principal|pumpkin|cough|fever]] cut a red ribbon at the morning meeting, and everyone cheered. The track was bright blue, and the grass was so green that it looked fake. At lunch, nobody wanted to stay in the [[classroom|sugar|noise|receipt]]. Some students played soccer, some ran around the track, and some just lay on the grass and looked at the sky. My friend Andy took off his shoes and ran on the soft track. Then a teacher came over and asked him to put them back on. "It's new, but it's not your bed!" she said. Andy was a little [[disappointed|salty|national|crowded]], but he was still smiling.
+> 1 our school playground was closed「學校操場封起來」，因為在蓋新跑道和足球場。fever、sugar、cough 都不會「封閉施工」。
+> 2 had PE in the gym「在體育館上體育課」，操場不能用所以改在室內。weather、receipt、noise 都不是場地。
+> 3 Our principal cut a red ribbon「校長剪綵」，主詞要是人。pumpkin、cough、fever 都不會剪綵。
+> 4 stay in the classroom「待在教室裡」，大家都想去新操場。sugar、noise、receipt 都不是可以待的地方。
+> 5 a little disappointed「有點失望」，被老師要求穿回鞋子。salty（鹹的）、national（國家的）、crowded（擁擠的）都不能形容人的心情。
++ track = 跑道
++ ribbon = 彩帶
++ grass = 草地
++ fake = 假的
+= 有一整年，我們學校的操場都封起來，因為工人在蓋新跑道和足球場。那一年，我們每週都在體育館上體育課，裡面總是又熱又擠。終於，上星期一，新操場開放了。校長在朝會上剪綵，大家都歡呼起來。跑道是亮藍色的，草地綠到看起來像假的。午餐時間，沒有人想待在教室裡。有人踢足球，有人繞著跑道跑，有人乾脆躺在草地上看天空。我的朋友安迪脫掉鞋子在柔軟的跑道上跑。接著一位老師走過來，請他把鞋子穿回去。「它是新的，但不是你的床！」她說。安迪有點失望，但還是笑嘻嘻的。

@@ -10,3 +10,4 @@ f33b63963a|choose,lend,measure,judge,give|Can your mom ____ a car? Yes, she driv
 20df327b5e|jeans,candy,breakfast,clock,magazine
 0bcc9a01f6|Mark
 49cec231d1|local,real,late,sad,ready,similar
+721b6c8324|government,situation,boss,tourist,lecture,fire|Nobody knows what will happen in the ____, so let's enjoy today.
