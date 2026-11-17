@@ -261,3 +261,134 @@ My brother and I love a video game called Crazy Kitchen. In the game, we work in
 + character = 角色
 + rat = 老鼠
 = 我和哥哥很愛一款叫《瘋狂廚房》的電玩遊戲。在遊戲裡，我們一起在一家忙碌的餐廳工作：一個人煮菜，另一個人洗盤子。如果沒有乾淨的盤子，客人就會生氣離開。昨天晚上，我們玩最難的一關。地上到處都是水，我們的角色一直跌倒。「快！拖地！」我大喊。哥哥跑去拿拖把，結果半路把一個蛋糕掉在地上。接著一隻老鼠跑進廚房！「這地方到底是誰在打掃的？」哥哥開玩笑說。我們那一關失敗了五次。玩完遊戲，媽媽走進來看看真正的廚房——我們的零食碗和杯子擺滿了桌子。「你們兩個在遊戲裡很會煮菜嘛，」她說，「現在過來洗這些真正的碗。」
+
+## 越洗越髒的東西
+My cousin Leo loves riddles. Every time we meet, he asks me one. Last weekend, we were helping Grandma in her kitchen. I [[washed|arrived|cried|slept]] the vegetables, and Leo was [[sweeping|sleeping|crying|arriving]] the floor. Suddenly he stopped and asked, "What gets dirtier the more you wash it?" I thought about it. "My shoes?" "No." "The [[mop|lesson|fever|weather]]?" "Good guess, but no." After five more wrong answers, I [[gave|cried|slept|arrived]] up. Leo smiled. "Water! The more you wash things, the dirtier the water gets." Grandma laughed. "That's a good one," she said. "Then let's see how dirty we can make the water today." She brought out a big basket of [[laundry|village|noise|distance]] and gave us two pairs of rubber gloves. Leo and I washed shirts by hand for an hour. When we finished, the water was really dirty. "Next time," Leo said, "I'm going to tell Grandma an easier riddle."
+> 1 washed the vegetables「洗菜」。arrived、cried、slept 都是不及物動詞，不能接 the vegetables。
+> 2 was sweeping the floor「正在掃地」。sleeping、crying、arriving 都不能接受詞 the floor。
+> 3 The mop?「是拖把嗎？」猜謎時猜一樣「越用越髒」的東西。lesson、fever、weather 都不是能拿來洗的東西。
+> 4 give up「放棄」，猜了五次都錯。cried、slept、arrived 都不能和 up 組成「放棄」的意思。
+> 5 a basket of laundry「一籃要洗的衣服」，後面說用手洗襯衫。village、noise、distance 都不能裝在籃子裡洗。
++ riddle = 謎語
++ basket = 籃子
++ rubber glove = 橡膠手套
++ by hand = 用手
+= 我表哥 Leo 很愛猜謎，每次見面都會考我一題。上週末，我們在奶奶家的廚房幫忙。我洗菜，Leo 在掃地。他突然停下來問：「什麼東西越洗越髒？」我想了想。「我的鞋子？」「不是。」「拖把？」「猜得好，但不是。」又錯了五次之後，我放棄了。Leo 笑著說：「是水！你洗越多東西，水就越髒。」奶奶笑了。「這題不錯，」她說，「那我們來看看今天能把水弄得多髒。」她搬出一大籃要洗的衣服，給我們兩雙橡膠手套。Leo 和我用手洗了一個小時的襯衫，洗完時水真的超髒。「下次，」Leo 說，「我要出一題簡單一點的給奶奶。」
+
+## 媽祖生日前的廟埕
+Every spring, our town holds a big festival for Mazu's birthday. A week before the festival, Grandpa takes me to the temple to help. This year, there were about thirty volunteers. Some old ladies [[washed|arrived|cried|slept]] the stone lions at the front gate with soft brushes. Grandpa [[cleaned|rose|happened|appeared]] the big wooden tables inside. My job was to [[sweep|arrive|cry|rise]] the yard in front of the temple. It was huge! It took me two hours, and my arms really hurt. But when I finished, there wasn't a single leaf on the ground. Then a young man came with a bucket and [[mopped|laughed|appeared|smiled]] the stone floor inside the temple. On the festival day, thousands of people came. Fireworks, drums, and lion dances filled the street. Grandpa pointed at the clean yard and said, "You did that." I didn't say anything, but I felt very [[proud|national|modern|wooden]].
+> 1 washed the stone lions「刷洗石獅」。arrived、cried、slept 都不能接受詞 the stone lions。
+> 2 cleaned the tables「擦乾淨桌子」。rose、happened、appeared 都是不及物動詞，不能接 the tables。
+> 3 My job was to sweep the yard「我的工作是掃廟埕」。arrive、cry、rise 都不能接受詞 the yard。
+> 4 mopped the stone floor「拖石頭地板」。laughed、appeared、smiled 都不能直接接 the floor。
+> 5 felt very proud「覺得很驕傲」，阿公稱讚我掃的廟埕。national（國家的）、modern（現代的）、wooden（木製的）都不能形容心情。
++ Mazu = 媽祖
++ stone lion = 石獅
++ firework = 煙火
++ drum = 鼓
++ lion dance = 舞獅
+= 每年春天，我們鎮上都會為媽祖生日舉辦盛大的廟會。廟會前一個星期，阿公都會帶我去廟裡幫忙。今年大約有三十位志工。幾位阿嬤用軟刷子刷洗大門前的石獅，阿公把廟裡的大木桌擦乾淨。我的工作是掃廟前的廟埕。那裡超大！我花了兩個小時，手臂好痠。但掃完時，地上連一片葉子都沒有。接著一個年輕人提著水桶來，把廟裡的石頭地板拖乾淨。廟會那天來了好幾千人，煙火、鼓聲和舞獅擠滿了整條街。阿公指著乾淨的廟埕說：「那是你掃的。」我什麼也沒說，但心裡覺得很驕傲。
+
+## 偶像宿舍直播
+The boy band Seven Dreams did a live stream from their dorm last night. Fans like me could see their messy living room. At first, the members just talked and played games. Then the leader, Taeo, held up a smelly sock. "Whose is this?" he asked. Nobody answered. "OK, new rule," Taeo said. "From today, everyone does his own [[laundry|village|noise|distance]]." The youngest member, Ray, said, "But I don't know how to use the washing machine!" The others laughed. So Taeo showed him on camera. "Put in the clothes, add soap, and push this button. And don't [[wash|arrive|cry|rise]] your white shirts with your red pants!" After that, they all [[cleaned|arrived|cried|slept]] the living room together. One member [[mopped|laughed|appeared|smiled]] the floor while dancing to their new song. Fans sent thousands of messages: "Ray, you can do it!" The next day, Ray posted a photo of a pink shirt. "I made a [[mistake|weather|fever|village]]," he wrote.
+> 1 do his own laundry「自己洗自己的衣服」。village、noise、distance 都不能和 do 組成家事。
+> 2 don't wash your white shirts with your red pants「白襯衫不要和紅褲子一起洗」。arrive、cry、rise 都不能接受詞 your white shirts。
+> 3 cleaned the living room「打掃客廳」。arrived、cried、slept 都不能接受詞 the living room。
+> 4 mopped the floor「拖地」，一邊跳新歌的舞。laughed、appeared、smiled 都不能直接接 the floor。
+> 5 make a mistake「犯錯」，白襯衫被洗成粉紅色。weather、fever、village 都不能和 make 組成「犯錯」。
++ live stream = 直播
++ dorm = 宿舍
++ leader = 隊長
++ button = 按鈕
+= 男團 Seven Dreams 昨晚在宿舍開直播，像我這樣的粉絲可以看到他們亂七八糟的客廳。一開始，成員們只是聊天、玩遊戲。接著隊長 Taeo 拿起一隻臭襪子。「這是誰的？」他問。沒人回答。「好，新規定，」Taeo 說，「從今天開始，每個人自己洗自己的衣服。」年紀最小的成員 Ray 說：「可是我不會用洗衣機！」其他人都笑了。所以 Taeo 在鏡頭前示範：「把衣服放進去，加洗衣精，按這個按鈕。還有，白襯衫不要和紅褲子一起洗！」之後他們一起打掃客廳，有一位成員一邊跳新歌的舞一邊拖地。粉絲傳了好幾千則留言：「Ray，你可以的！」隔天，Ray 貼了一張粉紅色襯衫的照片，寫著：「我搞砸了。」
+
+## 教室裡的小腳印
+On Monday morning, the school janitor was [[sweeping|sleeping|crying|arriving]] the hallway when he found small muddy footprints in our classroom. They went from the window to the teacher's desk and back. Who did it? Our class decided to be detectives. We looked at the prints carefully. They were tiny and round. "A ghost?" someone asked. "Ghosts don't have feet," said Amy. Then our teacher noticed that someone had eaten the fish in her lunch box. The answer was clear: a cat! The next day, we left the window open and waited quietly. A gray cat jumped in, walked across the desk, and looked at us. Everyone laughed. Our teacher said, "OK, detectives. Now [[clean|arrive|cry|lie]] the floor." Tom [[mopped|laughed|appeared|smiled]] the footprints off the floor, and Amy [[washed|arrived|cried|slept]] the dirty desk. Before the cat left, we gave it some [[fresh|honest|polite|brave]] water and named it Detective Fish.
+> 1 was sweeping the hallway「正在掃走廊」，過去進行式。sleeping、crying、arriving 都不能接受詞 the hallway。
+> 2 Now clean the floor「現在把地板清乾淨」，祈使句用原形動詞。arrive、cry、lie 都不能接受詞 the floor。
+> 3 mopped the footprints off the floor「把腳印從地上拖掉」。laughed、appeared、smiled 都不能接受詞 the footprints。
+> 4 washed the dirty desk「把髒桌子擦洗乾淨」。arrived、cried、slept 都不能接受詞。
+> 5 fresh water「乾淨的新鮮清水」。honest、polite、brave 都是形容人的個性，不能形容水。
++ janitor = 工友
++ muddy = 沾了泥巴的
++ footprint = 腳印
++ detective = 偵探
+= 星期一早上，學校工友在掃走廊時，發現我們教室裡有沾了泥巴的小腳印，從窗戶走到老師的桌子再走回去。是誰做的？我們班決定當偵探。我們仔細看那些腳印，又小又圓。「是鬼嗎？」有人問。「鬼沒有腳啦。」Amy 說。接著老師發現她便當裡的魚被吃掉了。答案很清楚：是貓！隔天，我們把窗戶打開，安靜地等。一隻灰貓跳進來，走過老師的桌子，看著我們。大家都笑了。老師說：「好了，偵探們，現在把地板清乾淨。」Tom 把地上的腳印拖掉，Amy 把髒桌子擦乾淨。貓離開前，我們給牠一些乾淨的水，還幫牠取名叫「魚偵探」。
+
+## 科展上的洗襪機
+For the school science fair, my partner Ben and I wanted to solve a big problem: smelly socks. In my house, nobody likes to [[wash|arrive|cry|rise]] socks by hand. So we built a "Sock Washer" from an old fan, a plastic box, and some water. You put the socks inside, add soap, and turn it on. The fan moves the water around and [[cleans|arrives|sleeps|cries]] the socks in ten minutes. On the day of the fair, we showed it to the judges. At first, it worked well. Then the box started to shake. Water and bubbles flew everywhere! The judges' shoes got wet, and one judge had a sock on her head. We said sorry again and again and quickly [[mopped|laughed|appeared|smiled]] the floor. We didn't win first place, but we got a special [[prize|fever|cough|noise]] for "Most Exciting Project." Now our machine sits in the [[bathroom|weather|fever|history]] at home, and Dad uses it every Sunday.
+> 1 likes to wash socks「喜歡洗襪子」，to 後接原形動詞。arrive、cry、rise 都不能接受詞 socks。
+> 2 cleans the socks「把襪子洗乾淨」，主詞 the fan 第三人稱單數。arrives、sleeps、cries 都不能接受詞 the socks。
+> 3 mopped the floor「拖地」，因為水灑滿地。laughed、appeared、smiled 都不能直接接 the floor。
+> 4 a special prize「特別獎」。fever、cough、noise 都不能「得到」當作比賽獎項。
+> 5 in the bathroom「在浴室裡」，洗襪機放在家裡用水的地方。weather、fever、history 都不是地點。
++ science fair = 科展
++ partner = 夥伴
++ judge = 評審
++ bubble = 泡泡
++ project = 作品
+= 學校科展時，我和夥伴 Ben 想解決一個大問題：臭襪子。我家沒有人喜歡用手洗襪子，所以我們用一台舊電風扇、一個塑膠箱和一些水做了一台「洗襪機」。把襪子放進去、加洗衣精、打開開關，電風扇就會攪動水，十分鐘就能把襪子洗乾淨。科展那天，我們把它展示給評審看。一開始運作得很好，接著箱子開始晃動，水和泡泡到處亂飛！評審的鞋子濕了，有一位評審頭上還掛著一隻襪子。我們一直道歉，趕快把地拖乾淨。我們沒拿到第一名，但得到了「最刺激作品」特別獎。現在我們的機器放在家裡的浴室，爸爸每個星期天都會用。
+
+## 露營遇到大雷雨
+Last month, my family went camping in the mountains of Hsinchu. On the first night, it rained very hard. Water came into our tent, and everything got wet and muddy. The next morning, the sun finally came out, and we had a lot of work to do. Dad [[washed|arrived|cried|slept]] the muddy pots at the sink of the campground. Mom hung our wet clothes on a rope between two trees. My brother and I [[cleaned|rose|happened|appeared]] the inside of the tent with old towels. Then I used a small broom to [[sweep|arrive|cry|rise]] the leaves off the tent. By lunchtime, everything was dry again, and we had a great time by the river that afternoon. But when we got home, there was a mountain of dirty [[laundry|village|noise|distance]] waiting for us. It took Mom three days to wash it all. "Next time," she said, "let's check the [[weather|fever|cough|history]] first."
+> 1 washed the muddy pots「洗沾了泥巴的鍋子」。arrived、cried、slept 都不能接受詞 the pots。
+> 2 cleaned the inside of the tent「把帳篷裡面擦乾淨」。rose、happened、appeared 都是不及物動詞，不能接受詞。
+> 3 to sweep the leaves off the tent「把帳篷上的葉子掃掉」。arrive、cry、rise 都不能接受詞 the leaves。
+> 4 a mountain of dirty laundry「一大堆要洗的髒衣服」，後面說媽媽洗了三天。village、noise、distance 都不能拿來洗。
+> 5 check the weather「查看天氣」，因為遇到大雨。fever、cough、history 都和出發露營前要查的事無關。
++ Hsinchu = 新竹
++ tent = 帳篷
++ campground = 營地
++ sink = 水槽
++ rope = 繩子
+= 上個月，我們全家去新竹的山上露營。第一天晚上雨下得很大，水灌進帳篷，所有東西都又濕又髒。隔天早上太陽終於出來了，我們有好多事要做。爸爸在營地的水槽洗沾了泥巴的鍋子，媽媽把濕衣服晾在兩棵樹之間的繩子上。我和弟弟用舊毛巾把帳篷裡面擦乾淨，接著我用小掃把把帳篷上的葉子掃掉。到了中午，東西都乾了，那天下午我們在河邊玩得很開心。可是一回到家，一大堆髒衣服正等著我們，媽媽花了三天才全部洗完。「下次，」她說，「我們先查一下天氣吧。」
+
+## 泡泡淹沒洗衣間
+My little brother, Andy, is seven, and he wants to help with everything. Last Saturday, Mom was [[busy|national|wooden|illegal]], so she said, "Andy, can you help me do the [[laundry|village|noise|distance]]? Put the clothes in the machine and add one cup of soap." Andy did it, but he thought one cup was too little. "More soap will [[wash|arrive|cry|rise]] the clothes better," he said, and he added the whole bottle! Ten minutes later, I heard him scream. Bubbles were coming out of the machine and covering the floor. Our cat ran away, and Andy was standing in a mountain of white bubbles. Mom came in, saw the mess, and started to laugh. "Well, at least the floor will be [[clean|honest|polite|hungry]] today," she said. It took the three of us an hour to [[mop|arrive|cry|rise]] up all the bubbles. Now Andy knows that "more" isn't always "better."
+> 1 Mom was busy「媽媽很忙」，所以請 Andy 幫忙。national、wooden、illegal 都不能形容媽媽沒空。
+> 2 do the laundry「洗衣服」。village、noise、distance 都不能和 do 組成家事。
+> 3 will wash the clothes better「會把衣服洗得更好」，will 後接原形動詞。arrive、cry、rise 都不能接受詞 the clothes。
+> 4 the floor will be clean「地板會很乾淨」，因為被泡泡洗過。honest、polite、hungry 都是形容人的，不能形容地板。
+> 5 mop up「（用拖把）拖乾淨」。arrive、cry、rise 都不能和 up 組成「清掉」的意思，也不能接受詞 the bubbles。
++ bubble = 泡泡
++ scream = 尖叫
++ mess = 一團亂
++ mop up = 拖乾淨
+= 我弟弟 Andy 七歲，什麼事都想幫忙。上星期六，媽媽很忙，就對他說：「Andy，可以幫我洗衣服嗎？把衣服放進洗衣機，加一杯洗衣精就好。」Andy 照做了，但他覺得一杯太少。「多加一點洗衣精會把衣服洗得更乾淨。」他說完，就把一整瓶倒進去！十分鐘後，我聽到他尖叫。泡泡從洗衣機裡冒出來，蓋滿了地板。我們的貓逃走了，Andy 站在一座白色的泡泡山裡。媽媽進來看到這一團亂，竟然笑了出來。「嗯，至少今天地板會很乾淨。」她說。我們三個花了一個小時才把泡泡全部拖乾淨。現在 Andy 知道「多」不一定就是「好」。
+
+## 交換學生的掃地初體驗
+Emma is an exchange student from Canada. She is spending one year at our junior high school in Tainan. On her first day, the bell rang at 7:30, and everyone stood up and took out brooms and mops. Emma looked surprised. "What's happening?" she asked. "It's cleaning time," I said. "Every morning, we [[clean|arrive|cry|lie]] our classroom and the hallway." In Canada, students don't do this. Workers do it after school. Our teacher gave Emma an easy job. She had to [[sweep|arrive|cry|rise]] the floor near the windows. She also watched my friend [[mop|arrive|happen|appear]] the hallway and two boys [[wash|arrive|cry|rise]] the windows. At first, she thought it was a strange [[habit|weather|fever|village]]. But after a month, she loved it. "It makes me feel the classroom is really ours," she said. Now she wants to start a cleaning time at her school when she goes back to Canada.
+> 1 we clean our classroom「我們打掃教室」，主詞 we 用原形。arrive、cry、lie 都不能接受詞 our classroom。
+> 2 had to sweep the floor「必須掃地」。arrive、cry、rise 都不能接受詞 the floor。
+> 3 watch + 人 + 原形動詞：watched my friend mop the hallway「看我朋友拖走廊」。arrive、happen、appear 都不能接受詞 the hallway。
+> 4 two boys wash the windows「兩個男生擦洗窗戶」，同樣接在 watched 後面用原形。arrive、cry、rise 都不能接受詞。
+> 5 a strange habit「奇怪的習慣」，每天早上打掃。weather、fever、village 都不能用來說「做事的習慣」。
++ exchange student = 交換學生
++ Canada = 加拿大
++ Tainan = 臺南
++ hallway = 走廊
+= Emma 是從加拿大來的交換學生，要在我們臺南的國中待一年。她上學第一天，七點半鐘聲一響，大家都站起來拿出掃把和拖把。Emma 看起來很驚訝。「發生什麼事了？」她問。「現在是打掃時間，」我說，「我們每天早上都要打掃教室和走廊。」在加拿大，學生不做這些事，是工作人員放學後打掃。老師給 Emma 一個簡單的工作：掃窗戶旁邊的地板。她也看著我朋友拖走廊、兩個男生擦窗戶。一開始，她覺得這是個奇怪的習慣。但一個月後，她愛上了打掃。「這讓我覺得教室真的是我們的。」她說。現在她想等回加拿大後，也在她的學校推動打掃時間。
+
+## 霸佔衣服的貓
+Every Sunday afternoon, I help Mom with the [[laundry|village|noise|distance]]. We [[wash|arrive|cry|rise]] the clothes in the morning and dry them in the sun. Then I bring them inside and put them on my bed to fold. But I have a problem: our cat, Tofu. The second I put the clothes down, Tofu jumps on them and lies there. He loves warm, [[clean|honest|polite|hungry]] clothes more than anything. If I try to move him, he gets angry and bites my hand. Last week, he fell asleep on Dad's white shirt. When he woke up, the shirt was covered in orange hair, and Mom had to wash it again. So this week, I had a plan. I put an old towel on the bed first. Tofu jumped on the towel, and I folded the clothes on the other side. It worked! But when I came back from the [[kitchen|fever|weather|history]], Tofu was sleeping in my [[drawer|cough|noise|lesson]] with my clean socks.
+> 1 help Mom with the laundry「幫媽媽洗衣服」。village、noise、distance 都不是能幫忙做的家事。
+> 2 wash the clothes「洗衣服」，主詞 we 用原形。arrive、cry、rise 都不能接受詞 the clothes。
+> 3 warm, clean clothes「溫暖又乾淨的衣服」，剛曬好收進來。honest、polite、hungry 都是形容人的，不能形容衣服。
+> 4 came back from the kitchen「從廚房回來」。fever、weather、history 都不是地點，不能從那裡回來。
+> 5 sleeping in my drawer「睡在我的抽屜裡」，和襪子在一起。cough、noise、lesson 都不能讓貓睡在裡面。
++ fold = 摺
++ Tofu = 豆腐（貓的名字）
+= 每個星期天下午，我都會幫媽媽洗衣服。我們早上把衣服洗好，拿到太陽下曬乾，然後我把衣服拿進來，放在床上摺。可是我有個麻煩：我們家的貓豆腐。我一把衣服放下，豆腐就跳上去躺著。牠最愛溫暖又乾淨的衣服了。如果我想把牠移開，牠就會生氣咬我的手。上星期，牠在爸爸的白襯衫上睡著，醒來時襯衫沾滿了橘色的貓毛，媽媽只好再洗一次。所以這星期我想了個辦法：先在床上鋪一條舊毛巾。豆腐跳到毛巾上，我就在另一邊摺衣服。成功了！可是我從廚房回來時，豆腐正睡在我的抽屜裡，跟我乾淨的襪子在一起。
+
+## 太認真的機器人管家
+Last month, Dad bought a robot helper called Max. Max can do many chores. Every morning, it [[sweeps|arrives|sleeps|cries]] the floors and [[washes|rises|appears|happens]] the breakfast dishes. At night, it [[mops|laughs|appears|smiles]] the kitchen. We all loved Max. But Max has one problem: it takes every word very seriously. One evening, Dad said, "Max, please [[clean|arrive|cry|sleep]] everything on the table." Max picked up the plates, the cups, and Dad's phone, and put them all in the sink! Water ran over the phone. "No!" Dad shouted. He quickly took the phone out and put it in a bowl of [[rice|weather|fever|noise]] for a whole night. Luckily, it worked again the next day. Now Dad chooses his words carefully. "Max, please clean the plates on the table," he says. "Only the plates!" And Max answers, "Yes, sir. Only the plates."
+> 1 sweeps the floors「掃地板」，主詞 it 第三人稱單數加 s。arrives、sleeps、cries 都不能接受詞 the floors。
+> 2 washes the breakfast dishes「洗早餐的碗盤」。rises、appears、happens 都不能接受詞。
+> 3 mops the kitchen「拖廚房」。laughs、appears、smiles 都不能接受詞 the kitchen。
+> 4 please clean everything on the table「請把桌上的東西都清乾淨」，please 後接原形動詞。arrive、cry、sleep 都不能接受詞 everything。
+> 5 a bowl of rice「一碗米」，把泡水的手機放進米裡吸乾水分。weather、fever、noise 都不能裝在碗裡放手機。
++ robot = 機器人
++ chore = 家事
++ seriously = 認真地
++ sink = 水槽
+= 上個月，爸爸買了一台叫 Max 的機器人幫手。Max 會做很多家事：每天早上掃地、洗早餐的碗盤，晚上還會拖廚房。我們都很喜歡 Max。但 Max 有個問題：它把每句話都看得非常認真。有一天晚上，爸爸說：「Max，請把桌上的東西都清乾淨。」Max 就把盤子、杯子，還有爸爸的手機全拿起來放進水槽！水沖過手機。「不要！」爸爸大叫。他趕快把手機拿出來，放進一碗米裡過了一整夜。幸好隔天手機又能用了。現在爸爸說話都很小心。「Max，請把桌上的盤子洗乾淨，」他說，「只有盤子！」Max 回答：「是的，先生。只有盤子。」
