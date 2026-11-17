@@ -120,3 +120,18 @@ D98-15 曲球的「急轉彎」是錯覺：https://www.sciencedaily.com/releases
 D98-16 吃完飯真的不能游泳嗎：https://uamshealth.com/medical-myths/do-you-have-to-wait-30-minutes-after-eating-before-swimming/；https://www.cbs8.com/article/news/verify/swimming-30-minutes-after-eating-not-dangerous-drowning-risk-cramps-digestion-blood-flow/536-aa7cb9eb-072d-4d5f-a41b-c12d2c42b5d6
 D98-17 早上比晚上高一公分：https://backinmotion.com.au/cranbourne/news/stand-tall；https://spacedatam18.imascientist.org.uk/question/how-tall-are-you/index.html
 D98-18 冷的網球彈不高：https://van.physics.illinois.edu/ask/listing/16067；https://wonderopolis.org/wonder/Does-Temperature-Affect-the-Bounce-of-a-Ball
+D97-01 跑 81.5 公里的歌手：https://www.koreaherald.com/article/10848440；https://biz.heraldcorp.com/article/10843254
+D97-02 跑步綜藝裡的「斯巴達」：https://en.wikipedia.org/wiki/Kim_Jong-kook；https://www.wikiwand.com/en/articles/Kim_Jong-kook_(singer)
+D97-03 跑吧防彈：https://en.wikipedia.org/wiki/Run_BTS；https://usbtsarmy.com/notable-achievements/runbts-premiere
+D97-07 排球女王金軟景：https://www.koreajoongangdaily.com/korea/10958905；https://asianews.network/south-korean-volleyball-star-kim-yeon-koung-caps-off-last-dance-with-5th-v-league-title/
+D97-08 農村女孩朱婷：https://en.wikipedia.org/wiki/Zhu_Ting_(volleyball)；https://oca.asia/news/789-rio-2016-mvp-zhu-ting-targets-olympic-hat-trick-of-appearances.html
+D97-09 室內和沙灘都拿金牌：https://en.wikipedia.org/wiki/Karch_Kiraly；https://www.teamusa.com/news/2021/august/14/karch-kiralys-long-journey-through-volleyball-continued-in-tokyo
+D97-10 不高的扣球手：https://nippon.com/en/japan-topics/g02301；https://wiki.riteme.site/wiki/Ran_Takahashi
+D97-11 二十三面金牌的飛魚：https://olympics.com/en/news/michael-phelps-olympic-medals-record-how-many-gold-swimmer-world-record；https://www.olympedia.org/athletes/93860
+D97-12 十五歲就拿金牌的雷德基：https://www.cbssports.com/olympics/news/2024-olympics-katie-ledecky-becomes-first-woman-to-win-four-gold-medals-in-event-taking-800-meter-freestyle；https://www.nst.com.my/amp/sports/others/2024/08/1086683/ledecky-confirms-greatness-ninth-gold-medal
+D97-13 跑進兩小時的人：https://worldathletics.org/news/report/eliud-kipchoge-breaks-two-hours-vienna；https://www.cbssports.com/olympics/news/eliud-kipchoge-becomes-first-athlete-to-run-marathon-in-less-than-two-hours-but-its-not-a-world-record
+D97-14 巴黎泳池的主場英雄：https://www.npr.org/2024/08/03/nx-s1-5062365/leon-marchand-france-swimmer-olympic-gold；https://voanews.com/a/marchand-captures-4th-olympic-swimming-gold/7728409.html
+D97-15 河馬其實不會游泳：https://www.nationalgeographic.com/animals/mammals/facts/hippopotamus；https://blog.londolozi.com/2021/10/07/can-hippos-swim/
+D97-16 北極熊其實不是白色的：https://oceanconservancy.org/blog/2020/02/20/polar-bears-white-fur/；https://a-z-animals.com/articles/why-do-polar-bears-have-white-fur-and-dark-skin/
+D97-17 熱量真的從頭跑掉嗎：https://theconversation.com/mondays-medical-myth-you-lose-most-heat-through-your-head-10834；https://health.clevelandclinic.org/body-heat-loss/
+D97-18 會游泳的大象：https://news.wildlifesos.org/did-you-know-that-elephants-can-snorkel-heres-how/；https://a-z-animals.com/animals/elephant/elephant-facts/can-elephants-swim-2/
