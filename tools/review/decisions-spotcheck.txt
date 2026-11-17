@@ -15,3 +15,4 @@ f33b63963a|choose,lend,measure,judge,give|Can your mom ____ a car? Yes, she driv
 55a7ed4eaa|slowly,suddenly,indeed,especially
 10c9b4db9b|discount,record,bottle,hotel,insect,copy
 666f6259da|breads,chesses,newses,uniforms
+d47eb4b174|bathroom,dentist,bank,blanket,sandwich,destination

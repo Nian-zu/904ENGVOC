@@ -91,3 +91,18 @@ D100-15 愛因斯坦數學不及格？：https://content.time.com/time/specials/
 D100-16 吞下口香糖會留在肚子裡七年？：https://www.dukehealth.org/blog/myth-or-fact-it-takes-seven-years-digest-chewing-gum；https://science.howstuffworks.com/science-vs-myth/everyday-myths/gum-seven-years.htm
 D100-17 吃紅蘿蔔就能在黑暗中看見嗎：https://www.livescience.com/38861-carrots-eyesight-myth-origins.html；https://www.sciencefocus.com/the-human-body/do-carrots-really-help-you-see-in-the-dark
 D100-18 月球的「黑暗面」其實不黑：https://www.skyatnightmagazine.com/space-science/dark-side-of-the-moon；https://www.farmersalmanac.com/far-side-of-the-moon
+D99-01 唱上冠軍的動畫女團：https://www.billboard.com/lists/huntrx-golden-hot-100-number-one-fifth-week/；https://www.thefader.com/2025/09/02/kpop-demon-hunters-huntrx-golden-chart-record
+D99-02 站上芝加哥主舞台的 j-hope：https://www.rollingstone.com/music/music-news/lollapalooza-2022-lineup-metallica-dua-lipa-doja-cat-1325066/；https://gulfnews.com/amp/entertainment/hollywood/bts-j-hope-makes-history-on-lollapalooza-festival-stage-1.89661586
+D99-03 死侍和金鋼狼來客串：https://en.wikipedia.org/wiki/Chk_Chk_Boom；https://www.etonline.com/ryan-reynolds-and-hugh-jackman-cameo-in-stray-kids-chk-chk-boom-music-video-229405
+D99-04 子瑜站上美國體育場：https://www.soompi.com/article/1574831wpp/twice-becomes-1st-girl-group-from-any-country-to-sell-out-californias-sofi-stadium；https://www.tenasia.com/amp/2023092853954
+D99-05 我們班的〈plot twist〉：https://www.koreatimes.co.kr/entertainment/k-pop/20250122/tws-reflects-on-debut-year-looks-forward-to-continued-growth；https://www.koreatimes.co.kr/amp/entertainment/k-pop/20241218/from-illit-to-tws-k-pop-rookies-make-impressive-debuts-in-2024
+D99-07 不靠罰球的金靴獎：https://www.tottenhamhotspur.com/news/2022/may/heung-min-son-makes-history-as-he-joins-our-list-of-golden-boot-winners/；https://www.si.com/fannation/soccer/futbol/news/son-heung-min-shares-premier-league-golden-boot-with-mo-salah
+D99-08 鈴木一朗的 262 支安打：https://sabr.org/?p=97726；https://www.baseball-reference.com/leaders/H_season.shtml
+D99-09 黑板上的四萬分：https://www.cbsnews.com/amp/texas/news/lebron-james-first-nba-player-to-score-40000-regular-season-points；https://www.nbcdfw.com/nba/lebron-james-becomes-the-first-and-only-player-in-nba-to-score-40000-career-points-in-first-half-against-nuggets/3478128/
+D99-10 冰上女王金妍兒：https://olympics.com/en/news/yuna-kim-and-her-life-changing-vancouver-2010-gold；https://www.kpbs.org/news/national/2010/02/25/s-koreas-kim-shatters-record-to-win-skating-gold
+D99-11 網球為什麼是黃色的：https://www.nbcwashington.com/news/sports/tennis/why-tennis-balls-are-yellow/3655352/；https://www.hellomagazine.com/travel/345996/wimbledon-tennis-balls-yellow/
+D99-12 為電視設計的黑白足球：https://en.wikipedia.org/wiki/Adidas_Telstar；https://www.wlv.ac.uk/news-and-events/wlv-blog/2018/blog-the-world-cup-in-10-objects---part-4/a-history-of-the-world-cup-in-ten-objects-part-four-the-telstar-ball.php
+D99-15 鉛筆裡沒有鉛：https://www.mcgill.ca/oss/article/did-you-know/pencils-never-contained-lead；https://kids.britannica.com/students/article/pencil/276344
+D99-16 紙只能對折七次嗎：https://wonderopolis.org/wonder/can-you-fold-a-piece-of-paper-more-than-seven-times；https://www.mentalfloss.com/article/62865/how-many-times-can-you-fold-piece-paper
+D99-17 玻璃其實不是液體：https://www.psu.edu/news/research/story/researcher-uses-westminster-abbey-windows-shine-light-glass-myth；https://gizmodo.com/the-glass-is-a-liquid-myth-has-finally-been-destroyed-496190894
+D99-18 離太空最近的山頂：https://oceanservice.noaa.gov/facts/highestpoint.html；https://www.guinnessworldrecords.com/world-records/66663-mountain-with-peak-farthest-from-earths-centre
