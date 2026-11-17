@@ -38,13 +38,21 @@ D102-15 聽莫札特會變聰明嗎：https://medienportal.univie.ac.at/media/ak
 D102-16 公牛討厭紅色嗎：https://www.howitworksdaily.com/are-bulls-enraged-by-the-colour-red/；https://www.scienceabc.com/nature/animals/do-bulls-really-hate-red-colour-blind.html
 D102-17 鴕鳥把頭埋進沙裡？：https://www.nationalgeographic.com/animals/birds/facts/ostrich；https://www.sciencefocus.com/nature/do-ostriches-really-bury-their-head-in-the-sand
 D102-18 夏天比較熱，是因為離太陽比較近嗎：https://spaceplace.nasa.gov/seasons/en；https://www.nationalgeographic.com/science/article/what-is-perihelion-earth-orbit
-D103-01 SEVENTEEN 的數學題：https://www.cheatsheet.com/news/seventeen-only-has-13-members-so-where-did-their-name-come-from.html；https://svtfaq.carrd.co
-D103-02 從台南出發的子瑜：https://en.wikipedia.org/wiki/Tzuyu
+D103-01 把 YouTube 計數器撐爆的歌：https://www.engadget.com/2014-12-04-op-op-op-op.html；https://www.guinnessworldrecords.com/world-records/381953-first-youtube-video-to-require-a-64-bit-counter
+D103-02 在世界盃開幕唱歌的柾國：https://www.cbssports.com/soccer/news/qatar-2022-opening-ceremony-world-cup-mascots-bts-jung-kook-morgan-freeman-and-fireworks-headline-big-show；https://www.soompi.com/article/1555141wpp/watch-btss-jungkook-performs-at-world-cup-2022-opening-ceremony
 D103-03 BLACKPINK 的世界地圖：https://studyinternational.com/news/where-blackpink-studied-kpop-education/；https://www.capitalfm.com/news/music/blackpink/where-from/
 D103-04 藏在團名裡的祕密：https://www.koreajoongangdaily.com/entertainment/who-is-le-sserafim/12767501；https://hypebae.com/2022/3/hybe-corporation-first-girl-group-le-sserafim-miyawaki-sakura-kim-chaewon-info
 D103-05 從雪梨到首爾的隊長：https://en.wikipedia.org/wiki/Bang_Chan；https://au.rollingstone.com/music/music-features/stray-kids-recipe-for-success-31726/
 D103-06 坐在場邊的 Suga：https://amp.cnn.com/cnn/2023/04/06/sport/bts-suga-nba-basketball-ambassador-spt-intl；https://www.billboard.com/music/pop/bts-suga-nba-ambassador-2-1235319713
-D103-07 十二強奪冠的那一夜：https://olympics.com/en/news/wbsc-premier12-2024-final；https://japantimes.co.jp/sports/2024/11/24/baseball/taiwan-beats-japan-premier12-final
+D103-07 9.58 秒的世界紀錄：https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat；https://guinnessworldrecords.com/world-records/fastest-run-100-metres-(male)
 D103-08 舉起四倍體重的金牌：https://olympics.com/en/news/kuo-hsing-chun-powers-her-way-to-gold-in-the-womens-59kg-weightlifting；https://www.scmp.com/sport/article/3142718/tokyo-olympics-weightlifter-kuo-hsing-chun-wins-taiwans-first-gold-dominant
 D103-09 字母哥的地圖：https://olympics.com/en/news/giannis-antetokounmpo-origin-story-basketball-legend；https://olympics.com/en/news/giannis-antetokounmpo-nba-milwaukee-bucks-greece
 D103-10 寫在餐巾紙上的合約：https://www.nbcnews.com/news/amp/rcna152777；https://cbssports.com/soccer/news/lionel-messis-barcelona-contract-napkin-sells-for-965000-at-auction
+D103-11 救了籃球的 24 秒：https://www.todayifoundout.com/index.php/2013/12/lowest-scoring-game-nba-history-invention-saved-professional-basketball/；https://en.wikipedia.org/wiki/Danny_Biasone
+D103-12 變大兩公釐的桌球：https://olympics.com/en/news/timo-boll-explains-table-tennis-changes；https://www.allabouttabletennis.com/table-tennis-balls.html
+D103-13 高爾夫球上的小凹洞：https://www.psu.edu/news/research/story/probing-question-how-do-dimples-make-golf-balls-travel-farther；https://www.mentalfloss.com/science/physics/why-golf-balls-have-dimples
+D103-14 奧運五環的顏色：https://www.nbc.com/nbc-insider/meaning-behind-olympic-rings-5-colors-symbolism-flag；https://www.rd.com/article/olympic-rings-meaning/
+D103-15 世界最大的沙漠在哪裡：https://www.livescience.com/largest-desert-on-earth；https://www.guinnessworldrecords.com/world-records/largest-desert-cold
+D103-16 最高的山是哪一座：https://www.livescience.com/32594-which-mountain-is-the-tallest-in-the-world.html；https://geology.com/records/highest-mountain-in-the-world.shtml
+D103-17 香蕉是漿果，草莓卻不是：https://www.livescience.com/57477-why-are-bananas-considered-berries.html；https://sciencenotes.org/is-a-strawberry-a-berry-why-the-answer-is-surprisingly-no/
+D103-18 閃電會打同一個地方嗎：https://www.weather.gov/safety/lightning-myths；https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
