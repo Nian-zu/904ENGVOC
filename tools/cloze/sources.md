@@ -106,3 +106,17 @@ D99-15 鉛筆裡沒有鉛：https://www.mcgill.ca/oss/article/did-you-know/penci
 D99-16 紙只能對折七次嗎：https://wonderopolis.org/wonder/can-you-fold-a-piece-of-paper-more-than-seven-times；https://www.mentalfloss.com/article/62865/how-many-times-can-you-fold-piece-paper
 D99-17 玻璃其實不是液體：https://www.psu.edu/news/research/story/researcher-uses-westminster-abbey-windows-shine-light-glass-myth；https://gizmodo.com/the-glass-is-a-liquid-myth-has-finally-been-destroyed-496190894
 D99-18 離太空最近的山頂：https://oceanservice.noaa.gov/facts/highestpoint.html；https://www.guinnessworldrecords.com/world-records/66663-mountain-with-peak-farthest-from-earths-centre
+D98-01 在巴黎傳聖火的 Jin：https://thestar.com.my/aseanplus/aseanplus-news/2024/07/15/bts039-jin-carries-paris-olympics-torch-amid-cheers-from-thousands-of-fans；https://www.soompi.com/article/1674584wpp/btss-jin-shares-message-of-support-after-completing-his-role-as-torchbearer-in-paris-2024-olympic-games
+D98-02 V 投出的開球：https://abc7.com/post/bts-poses-shohei-ohtani-throws-dodgers-first-pitch/17648520/；https://www.ksl.com/article/51365645/v-of-k-pop-sensation-bts-thrills-fans-with-first-pitch-at-dodgers-game-and-meets-shohei-ohtani
+D98-03 冬奧閉幕式上的 EXO：https://www.soompi.com/article/1120475wpp/exo-cl-perform-closing-ceremony-2018-pyeongchang-winter-olympics；https://www.scmp.com/magazines/style/news-trends/article/2134047/k-pop-stars-exo-cl-winter-olympics-closing-ceremony
+D98-07 十九歲的世界球王：https://www.cbssports.com/tennis/news/carlos-alcaraz-19-becomes-youngest-world-no-1-in-mens-atp-rankings-history-after-us-open-title；https://www.guinnessworldrecords.com/world-records/717987-youngest-tennis-player-to-be-ranked-world-no-1-atp-rankings
+D98-08 球后戴資穎：https://en.wikipedia.org/wiki/Tai_Tzu-ying；https://thepeninsulaqatar.com/article/08/11/2025/taiwan-badminton-star-tai-tzu-ying-announces-retirement
+D98-09 姚明的籃球之路：https://www.britannica.com/biography/Yao-Ming；https://www.fiba.basketball/en/news/a-gracious-humorous-yao-enters-naismith-hall-of-fame
+D98-10 決賽裡的帽子戲法：https://fourfourtwo.com/news/watch-kylian-mbappe-seals-first-world-cup-final-hat-trick-since-geoff-hurst-with-dramatic-extra-time-penalty；https://irishtimes.com/sport/soccer/2022/12/18/lionel-messi-gets-his-crowning-moment-as-argentina-win-epic-world-cup-final
+D98-11 比賽車還快的殺球：https://www.guinnessworldrecords.com/world-records/92507-fastest-badminton-hit-male；https://www.onmanorama.com/sports/other-sports/2023/07/18/satwiksairaj-rankireddy-breaks-world-record-for-fastest-hit-by-a-shuttler.html
+D98-12 棒球上的 108 針：https://childrensmuseum.org/stories/why-baseball-red-stitching；https://www.smithsonianmag.com/legacy_blog/a-brief-history-of-the-baseball/
+D98-13 打了三天的網球賽：https://en.wikipedia.org/wiki/Isner%E2%80%93Mahut_match_at_the_2010_Wimbledon_Championships；https://olympics.com/en/news/longest-tennis-match-history-grand-slam-record
+D98-15 曲球的「急轉彎」是錯覺：https://www.sciencedaily.com/releases/2010/10/101013173841.htm；https://www.nbcnews.com/id/wbna39658106
+D98-16 吃完飯真的不能游泳嗎：https://uamshealth.com/medical-myths/do-you-have-to-wait-30-minutes-after-eating-before-swimming/；https://www.cbs8.com/article/news/verify/swimming-30-minutes-after-eating-not-dangerous-drowning-risk-cramps-digestion-blood-flow/536-aa7cb9eb-072d-4d5f-a41b-c12d2c42b5d6
+D98-17 早上比晚上高一公分：https://backinmotion.com.au/cranbourne/news/stand-tall；https://spacedatam18.imascientist.org.uk/question/how-tall-are-you/index.html
+D98-18 冷的網球彈不高：https://van.physics.illinois.edu/ask/listing/16067；https://wonderopolis.org/wonder/Does-Temperature-Affect-the-Bounce-of-a-Ball
