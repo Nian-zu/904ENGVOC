@@ -265,3 +265,140 @@ In the year 2060, most stores have robot clerks. The robot at my favorite shoe s
 + error = 錯誤
 + manager = 經理
 = 在 2060 年，大部分的商店都有機器人店員。我最喜歡的那家鞋店的機器人叫做 Penny。她知道店裡每一雙鞋的價格，只要看你一眼就知道你腳的尺寸。上週，我去買新的跑鞋。Penny 說：「這雙今天特價，1,800 元。」接著她看看我說：「你是學生，可以再打九折。」我好開心。但我付錢的時候，Penny 發出奇怪的聲音：「錯誤！錯誤！您的價格是 18 元！」我知道這不對，就把經理叫了過來。他修好 Penny，謝謝我這麼誠實，還送我一雙免費的襪子。誠實果然有好報！
+
+## 用回憶付錢的魔法店
+In a small town, there was a strange shop with no name. Everything inside was beautiful: glowing lamps, singing birds, and books that could talk. But there was no [[price|cough|tooth|throat]] on anything. One day, a girl named Nora walked in. She wanted to buy a music box for her sick little brother. "How many [[dollars|fevers|knees|lessons]] is it?" she asked. The old shopkeeper smiled. "We don't take money here. You pay with a happy memory." Nora thought for a long time. Then she [[chose|fried|boiled|coughed]] the memory of her tenth birthday party. The shopkeeper touched her head, and the memory was gone. Nora took the music box home. Her brother loved it and smiled for the first time in weeks. Nora couldn't remember her tenth birthday anymore, but she didn't [[mind|describe|borrow|fry]]. Her brother's smile was worth more than any [[coin|fever|knee|throat]] in the world.
+> 1 店裡的東西都沒有標價格 price。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不是會標在商品上的東西。
+> 2 How many dollars is it?「它要多少錢？」fevers（發燒）、knees（膝蓋）、lessons（課）都不是金錢單位。
+> 3 她選擇 chose 用十歲生日派對的回憶來付。fried（油炸）、boiled（煮沸）、coughed（咳嗽）都不能接 the memory。
+> 4 she didn't mind「她不介意」，mind 可以不接受詞。describe（描述）、borrow（借入）需要受詞；fry（油炸）和心情無關。
+> 5 弟弟的笑容比世上任何一枚硬幣 coin 都珍貴。fever（發燒）、knee（膝蓋）、throat（喉嚨）都不能用來比較價值。
++ glow = 發光
++ music box = 音樂盒
++ shopkeeper = 店主
++ memory = 回憶
+= 在一個小鎮上，有一家沒有名字的奇怪商店。裡面每樣東西都很美：會發光的燈、會唱歌的鳥，還有會說話的書。但所有東西都沒有標價。有一天，一個叫 Nora 的女孩走了進來，她想買一個音樂盒給生病的弟弟。「這個要多少錢？」她問。老店主笑了笑：「我們這裡不收錢，你要用一段快樂的回憶來付。」Nora 想了很久，最後選了她十歲生日派對的回憶。店主摸了摸她的頭，那段回憶就消失了。Nora 把音樂盒帶回家，弟弟非常喜歡，好幾個星期以來第一次露出笑容。Nora 再也想不起她十歲的生日了，但她一點也不介意。弟弟的笑容比世上任何一枚硬幣都珍貴。
+
+## 書展的折扣攻略
+Every February, the Taipei International Book Exhibition is held at the World Trade Center. It's the biggest book fair in Taiwan, and most books are sold at a [[discount|wallet|cap|umbrella]] of 20% or more. This year, I went with my older sister. She had a plan. "First, we walk around and compare the [[prices|coughs|knees|throats]]. Then we buy," she said. I wanted to buy everything right away, but I [[followed|fried|boiled|coughed]] her plan. We found a comic book series that was half price at one booth, but only 10% off at another! On the last day of the fair, many booths had an even bigger [[sale|cough|knee|fever]]. In the end, I bought seven books for 1,200 [[dollars|fevers|knees|lessons]]. My bag was so heavy that my arms hurt, but I was very happy.
+> 1 at a discount of 20%「打八折」，書展大部分的書都有折扣。wallet（錢包）、cap（帽子）、umbrella（雨傘）都不能和 of 20% 表示打折。
+> 2 compare the prices「比價」，先逛再買。coughs（咳嗽）、knees（膝蓋）、throats（喉嚨）都不能拿來比較哪裡便宜。
+> 3 follow one's plan「照某人的計畫做」。fried（油炸）、boiled（煮沸）、coughed（咳嗽）都不能接 her plan。
+> 4 最後一天很多攤位有更大的特價 sale。cough（咳嗽）、knee（膝蓋）、fever（發燒）都不能用 an even bigger… 表示優惠。
+> 5 七本書花了 1,200 元 dollars。fevers（發燒）、knees（膝蓋）、lessons（課）都不是金錢單位。
++ Book Exhibition = 書展
++ World Trade Center = 世貿中心
++ compare = 比較
++ series = 系列
++ booth = 攤位
+= 每年二月，台北國際書展都會在世貿中心舉辦。這是台灣最大的書展，大部分的書都打八折或更低。今年我和姊姊一起去，她有一套計畫：「我們先到處逛、比比價錢，然後再買。」我很想一看到就馬上買，但還是照著她的計畫做。我們發現一套漫畫在某個攤位打五折，在另一個攤位卻只打九折！書展最後一天，很多攤位的特價更優惠。最後，我用 1,200 元買了七本書。我的袋子重到手臂都痠了，但我非常開心。
+
+## 網購的運費陷阱
+Last month, I wanted to buy a phone case online. On one website, the [[price|cough|tooth|throat]] was only 99 dollars. On another, it was 150. Of course, I chose the cheaper one. But when I was about to pay, I saw the shipping fee: 120 [[dollars|fevers|knees|lessons]]! So the total was 219. The other website had free shipping, so it was actually cheaper. I almost made a big [[mistake|fever|knee|tooth]]. My dad told me another trick. "Some websites give you a [[discount|wallet|cap|umbrella]] if you spend more than 500 dollars," he said. "So you can shop with friends and pay together." I [[invited|fried|boiled|coughed]] two classmates to shop with me, and we bought our things together. We all got free shipping and 50 dollars off. Now I always check the total before I click "Buy."
+> 1 這個網站上的價格 price 只要 99 元。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不能表示商品多少錢。
+> 2 運費要 120 元 dollars。fevers（發燒）、knees（膝蓋）、lessons（課）都不是金錢單位。
+> 3 make a mistake「犯錯」，差點買到比較貴的。fever（發燒）、knee（膝蓋）、tooth（牙齒）都不能和 make 組成「犯錯」。
+> 4 消費超過 500 元就給折扣 discount。wallet（錢包）、cap（帽子）、umbrella（雨傘）都不能表示「便宜一點」。
+> 5 invite… to…「邀請…一起做…」，我邀兩個同學一起買。fried（油炸）、boiled（煮沸）、coughed（咳嗽）都不能和 classmates to shop 搭配。
++ phone case = 手機殼
++ website = 網站
++ shipping fee = 運費
++ total = 總額
++ click = 點擊
+= 上個月，我想在網路上買一個手機殼。某個網站上的價格只要 99 元，另一個是 150 元，我當然選了比較便宜的。但正要付錢時，我看到運費：120 元！所以總共是 219 元。另一個網站免運費，所以其實比較便宜。我差點犯了大錯。爸爸還教我另一招：「有些網站消費滿 500 元就有折扣，所以你可以和朋友一起買、一起付錢。」我邀了兩個同學一起買東西，結果我們都免運費，還折了 50 元。現在我在按下「購買」之前，一定會先看清楚總額。
+
+## 夏天買的羽絨外套
+Last July, my mom and I went to a department store. It was 35 degrees outside, but she wanted to buy me a winter coat. "In summer, winter clothes are on [[sale|cap|umbrella|wallet]]," she explained. She was right. There was a big sign: "Winter Clothes — 60% Off!" I found a warm blue down jacket. The normal [[price|cough|tooth|throat]] was 4,500 dollars, but it was only 1,800 [[dollars|fevers|knees|lessons]] that day. I tried it on and started to sweat right away. Everyone in the store [[laughed|fried|boiled|borrowed]]. I didn't wear it again until winter. In December, a cold front came to Taiwan. My classmates were shaking in the cold, but I was warm in my new jacket. My friend asked when I had bought it. "In July," I said. She looked at me like I was [[crazy|salty|sour|bitter]].
+> 1 on sale「特價中」，夏天冬衣在特價。cap（帽子）、umbrella（雨傘）、wallet（錢包）都不能和 on 組成「特價」的意思。
+> 2 the normal price「原價」是 4,500 元。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不能表示衣服多少錢。
+> 3 那天只要 1,800 元 dollars。fevers（發燒）、knees（膝蓋）、lessons（課）都不是金錢單位。
+> 4 大熱天試穿羽絨外套流汗，店裡的人都笑了 laughed。fried（油炸）、boiled（煮沸）是料理方法，borrowed（借入）需要受詞，都不能表示看到好笑的事的反應。
+> 5 朋友看我的樣子像覺得我瘋了 crazy，七月買冬衣很奇怪。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容人。
++ department store = 百貨公司
++ degree = 度
++ down jacket = 羽絨外套
++ sweat = 流汗
++ cold front = 冷鋒
+= 去年七月，我和媽媽去百貨公司。外面三十五度，她卻想幫我買一件冬天的外套。「夏天的時候，冬衣都在特價。」她解釋說。她說得沒錯，店裡有一個大牌子寫著：「冬季服飾，四折！」我找到一件保暖的藍色羽絨外套，原價 4,500 元，那天只要 1,800 元。我一試穿就開始狂流汗，店裡的人都笑了。之後我一直到冬天才再穿它。十二月，一道冷鋒來到台灣，同學們都冷得發抖，我卻穿著新外套暖呼呼的。我的朋友問我什麼時候買的。「七月。」我說。她看著我，好像覺得我瘋了一樣。
+
+## 我們班的鬆餅攤
+At our school fair last week, our class sold waffles. We spent a whole week getting ready. We practiced making waffles at Jenny's house and [[decorated|fried|boiled|coughed]] our booth with colorful paper flowers. We decided the [[price|cough|tooth|throat]] of one waffle would be 40 dollars. In the morning, business was slow. Only a few teachers came. Then our class leader had an idea. "Let's have a [[sale|cough|knee|fever]]: two waffles for 70 dollars!" It worked. Soon, there was a long line in front of our booth. By two o'clock, we had sold 300 waffles. We put all the paper money and [[coins|fevers|knees|throats]] into a big box and counted them together. We made 9,800 [[dollars|lessons|fevers|knees]]! We will use the money for our graduation trip.
+> 1 用彩色紙花裝飾 decorated 攤位。fried（油炸）、boiled（煮沸）、coughed（咳嗽）都不能和 with colorful paper flowers 搭配。
+> 2 一份鬆餅的價格 price 定為 40 元。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不能表示賣多少錢。
+> 3 生意不好，班長提議來個特價 sale：兩份 70 元。cough（咳嗽）、knee（膝蓋）、fever（發燒）都不能表示促銷。
+> 4 把紙鈔和硬幣 coins 都放進大箱子裡數。fevers（發燒）、knees（膝蓋）、throats（喉嚨）都不是錢。
+> 5 賺了 9,800 元 dollars。lessons（課）、fevers（發燒）、knees（膝蓋）都不是金錢單位。
++ school fair = 園遊會
++ waffle = 鬆餅
++ booth = 攤位
++ graduation trip = 畢業旅行
+= 上週學校園遊會，我們班賣鬆餅。我們花了一整個星期準備：在 Jenny 家練習做鬆餅，還用彩色紙花裝飾我們的攤位。我們決定一份鬆餅賣 40 元。早上生意很冷清，只有幾位老師來買。後來班長想到一個點子：「我們來特價：兩份 70 元！」這招奏效了，沒多久攤位前就排起長長的隊伍。到了兩點，我們已經賣出 300 份鬆餅。我們把所有紙鈔和硬幣放進一個大箱子，大家一起數，總共賺了 9,800 元！我們要把這筆錢用在畢業旅行上。
+
+## 送錯的外送晚餐
+Last Friday night, Mom was too tired to cook, so we ordered dinner on a food delivery app. I found a special code on the app's home page: "FRIDAY50." It gave us a 50-dollar [[discount|wallet|cap|umbrella]] on orders over 300 [[dollars|fevers|knees|lessons]]. We ordered fried rice, dumplings, and a big bowl of beef noodles. The total [[price|cough|tooth|throat]] was 360 dollars, so with the code, we only paid 310. Forty minutes later, the food [[arrived|borrowed|decorated|described]], but it wasn't ours! There were two pizzas and a salad. Mom called the app's customer service. The woman on the phone said sorry and gave all our money back. She also told us we could keep the pizzas for free. We were so [[lucky|salty|sour|bitter]]. We paid nothing and had a pizza party!
+> 1 優惠碼可以折 50 元，a 50-dollar discount「折價 50 元」。wallet（錢包）、cap（帽子）、umbrella（雨傘）都不能表示訂單便宜多少。
+> 2 訂單滿 300 元 dollars 才能用。fevers（發燒）、knees（膝蓋）、lessons（課）都不是金錢單位。
+> 3 the total price「總價」是 360 元。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不能和 total 組成金額。
+> 4 四十分鐘後餐點送到了 arrived，arrive 不用接受詞。borrowed（借入）、decorated（裝飾）、described（描述）都需要受詞，句子不完整。
+> 5 什麼錢都沒付還有披薩吃，我們真幸運 lucky。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容人的運氣。
++ delivery app = 外送 app
++ code = 優惠碼；代碼
++ order = 訂單
++ customer service = 客服
+= 上週五晚上，媽媽太累了不想煮飯，所以我們用外送 app 訂晚餐。我在 app 首頁找到一組特別的優惠碼：「FRIDAY50」，訂單滿 300 元可以折 50 元。我們點了炒飯、水餃和一大碗牛肉麵，總價 360 元，用了優惠碼只要付 310 元。四十分鐘後餐點送到了，但那不是我們的！裡面是兩個披薩和一份沙拉。媽媽打電話給 app 客服，電話裡的小姐向我們道歉，把錢全部退還，還說披薩我們可以免費留著。我們真是太幸運了，一毛錢都沒付，還辦了一場披薩派對！
+
+## 弟弟的遊戲金幣帳單
+My little brother, Andy, loves a mobile game about building castles. In the game, you need gold [[coins|fevers|knees|throats]] to build faster. You can win them by playing, or you can buy them with real money. One day, Mom got her credit card [[bill|knee|tooth|cough]]. There were twenty small payments to the game company. Each one was only 150 [[dollars|lessons|fevers|knees]], so Andy thought it was no big deal. But together, they were 3,000 dollars! Andy had used Mom's phone without asking. Mom was very [[angry|salty|sour|bitter]]. She asked the company for help, and they gave some of the money back. Andy had to do chores for two months to pay for the rest. "But the game said there was a big [[sale|cough|knee|fever]] on coins," he said. "I thought I was saving money!"
+> 1 遊戲裡要用金幣 gold coins 才能蓋得更快。fevers（發燒）、knees（膝蓋）、throats（喉嚨）都不能用真錢買來玩遊戲。
+> 2 credit card bill「信用卡帳單」，上面列出二十筆付款。knee（膝蓋）、tooth（牙齒）、cough（咳嗽）都不能和 credit card 組成會列出付款的東西。
+> 3 每筆只要 150 元 dollars。lessons（課）、fevers（發燒）、knees（膝蓋）都不是金錢單位。
+> 4 弟弟沒問就用媽媽的手機花錢，媽媽很生氣 angry。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容人的心情。
+> 5 遊戲說金幣大特價 a big sale on coins。cough（咳嗽）、knee（膝蓋）、fever（發燒）都不能表示「便宜賣」。
++ mobile game = 手機遊戲
++ castle = 城堡
++ credit card = 信用卡
++ payment = 付款
++ chores = 家事
+= 我弟弟 Andy 很愛玩一款蓋城堡的手機遊戲。在遊戲裡，要用金幣才能蓋得更快，金幣可以靠玩遊戲贏來，也可以用真的錢買。有一天，媽媽收到信用卡帳單，上面有二十筆付給遊戲公司的小額款項。每一筆只要 150 元，所以 Andy 覺得沒什麼大不了。但加起來竟然有 3,000 元！原來 Andy 沒經過同意就用了媽媽的手機。媽媽非常生氣。她請遊戲公司幫忙，對方退回了一部分的錢。Andy 得做兩個月的家事來還剩下的錢。「可是遊戲說金幣在大特價啊，」他說，「我以為我在省錢！」
+
+## 從貝殼到硬幣
+Long ago, before there were [[coins|fevers|knees|throats]] or paper money, people traded things they had for things they needed. A farmer might give a fisherman some rice for a few fish. But this was not always easy. What if the fisherman didn't want rice? So people started to use small, beautiful things as money. In ancient China, people used shells. They were easy to [[carry|fry|boil|cough]] and hard to copy. Later, people made money from metal. Some of the first coins in China looked like little knives! Many later coins had a square hole in the middle, so people could put them on a string. Today, we use coins, paper money, and even our phones to pay. But some things have never [[changed|fried|boiled|coughed]]: everything has a [[price|cough|tooth|throat]], and people still love a good [[sale|cough|knee|fever]]!
+> 1 在有硬幣 coins 和紙鈔之前，人們用以物易物。fevers（發燒）、knees（膝蓋）、throats（喉嚨）都不能和 paper money 並列為錢的種類。
+> 2 貝殼容易攜帶 easy to carry。fry（油炸）、boil（煮沸）、cough（咳嗽）都不能說明貝殼適合當錢的原因。
+> 3 有些事從來沒有改變 changed。fried（油炸）、boiled（煮沸）、coughed（咳嗽）都不能和 some things have never… 表示「不變」。
+> 4 everything has a price「每樣東西都有價錢」。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不能表示東西值多少錢。
+> 5 a good sale「划算的特價」，人們還是愛撿便宜。cough（咳嗽）、knee（膝蓋）、fever（發燒）都不是大家「喜歡」的購物活動。
++ trade = 交換；交易
++ fisherman = 漁夫
++ ancient = 古代的
++ shell = 貝殼
++ metal = 金屬
+= 很久以前，在硬幣和紙鈔出現之前，人們會用自己有的東西去交換需要的東西。農夫可能會拿一些米跟漁夫換幾條魚。但這不一定都很順利，萬一漁夫不想要米怎麼辦？所以人們開始用小巧美麗的東西當作錢。在古代中國，人們用貝殼，因為貝殼容易攜帶，又很難仿造。後來，人們開始用金屬做錢，中國最早的一些硬幣看起來就像小刀子！後來很多硬幣中間有一個方形的洞，讓人可以用繩子串起來。今天，我們用硬幣、紙鈔，甚至用手機付錢。但有些事從來沒有改變：每樣東西都有價錢，而且大家還是很愛划算的特價！
+
+## 狐狸先生的半價攤
+Every spring, the animals in Green Forest have a market day. This year, Mr. Fox opened a new stand. He sold honey, nuts, and berries. "Big [[sale|cough|knee|fever]]! Everything is half [[price|cough|tooth|throat]] today!" he shouted. Many animals came running. Mrs. Rabbit bought five jars of honey, and Mr. Bear bought a big bag of nuts. But when they got home, they found the honey jars were half empty, and the nut bag had a hole in the bottom. "That fox [[tricked|fried|boiled|coughed]] us!" Mr. Bear said. The next day, all the animals went to Mr. Fox's stand together. Owl, the wise judge of the forest, listened to everyone. Then she said, "Mr. Fox, you must give back every [[coin|fever|knee|throat]] you took." Mr. Fox was ashamed and paid everyone back. After that, no one in Green Forest believed his signs. A low price means nothing if the seller is not [[honest|salty|sour|bitter]].
+> 1 Big sale!「大特價！」狐狸大喊招攬客人。cough（咳嗽）、knee（膝蓋）、fever（發燒）都不能用來喊價吸引顧客。
+> 2 half price「半價」。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不能和 half 組成打折的意思。
+> 3 蜂蜜只有半罐、袋子有破洞，狐狸騙了 tricked 我們。fried（油炸）、boiled（煮沸）、coughed（咳嗽）都不能接 us 表示「欺騙」。
+> 4 必須把收到的每一枚硬幣 coin 都還回去。fever（發燒）、knee（膝蓋）、throat（喉嚨）都不是付給商家的錢。
+> 5 賣家不誠實 honest 的話，價格再低也沒用。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容賣家的品格。
++ stand = 攤子
++ berry = 莓果
++ jar = 罐子
++ owl = 貓頭鷹
++ ashamed = 羞愧的
+= 每年春天，綠森林的動物們都會舉辦市集日。今年，狐狸先生開了一個新攤位，賣蜂蜜、堅果和莓果。「大特價！今天全部半價！」他大喊。許多動物都跑了過來。兔太太買了五罐蜂蜜，熊先生買了一大袋堅果。但回到家後，他們發現蜂蜜罐只裝了一半，堅果袋的底部還有一個破洞。「那隻狐狸騙了我們！」熊先生說。隔天，所有動物一起到狐狸先生的攤位。森林裡充滿智慧的法官貓頭鷹聽完大家的話後說：「狐狸先生，你必須把收到的每一枚硬幣都還回去。」狐狸先生很羞愧，把錢都還給了大家。從此以後，綠森林裡沒有人再相信他的招牌了。賣家如果不誠實，價格再低也沒有意義。
+
+## 爸爸改騎腳踏車上班
+This year, the [[price|cough|tooth|throat]] of gas went up again. My dad drives to work every day, and he spends almost 3,000 [[dollars|fevers|knees|lessons]] on gas every month. "That's too much," he said one night. So he [[decided|fried|boiled|coughed]] to ride a bicycle to work instead. His office is only six kilometers away. At first, Mom was worried about his safety, so she bought him a helmet. There was a big [[sale|cough|knee|fever]] at the bike shop, so she got it at 30% off. After one month, Dad had saved a lot of money. He also lost three kilograms and had more [[energy|fever|knee|throat]] at work. Now he says riding to work is the best decision he has made in years. Mom is thinking about riding a bicycle to work, too.
+> 1 the price of gas「油價」又漲了。cough（咳嗽）、tooth（牙齒）、throat（喉嚨）都不能「漲價」。
+> 2 每個月花將近 3,000 元 dollars 買油。fevers（發燒）、knees（膝蓋）、lessons（課）都不是金錢單位。
+> 3 decide to…「決定去做…」，他決定改騎腳踏車。fried（油炸）、boiled（煮沸）、coughed（咳嗽）後面都不能接 to ride。
+> 4 腳踏車店在大特價 sale，所以安全帽打七折。cough（咳嗽）、knee（膝蓋）、fever（發燒）都不能表示促銷。
+> 5 have more energy「更有精神」，騎車讓他變瘦又更有活力。fever（發燒）、knee（膝蓋）、throat（喉嚨）都不是運動後「變多」的好處。
++ gas = 汽油
++ kilometer = 公里
++ safety = 安全
++ helmet = 安全帽
++ kilogram = 公斤
+= 今年油價又漲了。我爸爸每天開車上班，每個月花在油錢上將近 3,000 元。「這太多了。」有天晚上他說。於是他決定改騎腳踏車上班。他的辦公室只有六公里遠。一開始，媽媽擔心他的安全，就幫他買了一頂安全帽。腳踏車店剛好在大特價，所以她用七折買到。一個月後，爸爸省了很多錢，還瘦了三公斤，上班也更有精神。現在他說騎車上班是他這幾年做過最好的決定。媽媽也在考慮騎腳踏車去上班了。
