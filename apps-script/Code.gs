@@ -530,7 +530,7 @@ function readTasks_() {
       days = dayNums_(s2 ? s1 + '–' + s2 : s1);
     }
     if (!date || (!days && !pw)) return;
-    const base = { date: date, pw: pw, n: parseInt(r[3], 10) || 20, pass: Number(r[4]) || 95, note: String(r[5] || '') };
+    const base = { date: date, pw: pw, n: parseInt(r[3], 10) || 20, pass: Number(r[4]) || 80, note: String(r[5] || '') };
     if (!days) { out.push(Object.assign(base, { days: null, list: false, from: '', to: '', label: '自選範圍（以多數同學為準）' })); return; }
     const contiguous = days.length === days[0] - days[days.length - 1] + 1;
     out.push(Object.assign(base, { days: days, list: !contiguous,
