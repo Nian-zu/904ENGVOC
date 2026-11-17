@@ -1,0 +1,725 @@
+[
+ {
+  "w": "across from",
+  "zh": "在……對面",
+  "ex": [
+   "The library is across from the park."
+  ]
+ },
+ {
+  "w": "after school",
+  "zh": "放學後",
+  "ex": [
+   "We often play basketball in the gym after school."
+  ]
+ },
+ {
+  "w": "arrive at / in",
+  "zh": "抵達",
+  "ex": [
+   "We arrived at the party on time.",
+   "What time will the plane arrive in Taiwan?"
+  ]
+ },
+ {
+  "w": "at last",
+  "zh": "最後",
+  "ex": [
+   "At last, Mary found out who put roses on her desk every morning."
+  ]
+ },
+ {
+  "w": "at least",
+  "zh": "至少",
+  "ex": [
+   "It will take you at least twenty minutes to get there."
+  ]
+ },
+ {
+  "w": "be / get used to",
+  "zh": "習慣",
+  "ex": [
+   "I am used to the heavy traffic here."
+  ]
+ },
+ {
+  "w": "be filled with",
+  "zh": "充滿",
+  "ex": [
+   "The sky was filled with stars."
+  ]
+ },
+ {
+  "w": "be full of",
+  "zh": "充滿",
+  "ex": [
+   "The kitchen was full of smoke."
+  ]
+ },
+ {
+  "w": "be proud of",
+  "zh": "以……為榮",
+  "ex": [
+   "Peter was proud of himself for not giving up."
+  ]
+ },
+ {
+  "w": "belong to",
+  "zh": "屬於",
+  "ex": [
+   "Who does the bag belong to?"
+  ]
+ },
+ {
+  "w": "break down",
+  "zh": "分解",
+  "ex": [
+   "Food is broken down in the stomach."
+  ]
+ },
+ {
+  "w": "break down",
+  "zh": "故障",
+  "ex": [
+   "Has your washing machine broken down again?"
+  ]
+ },
+ {
+  "w": "burn down",
+  "zh": "燒掉",
+  "ex": [
+   "The hotel burned down in 1990."
+  ]
+ },
+ {
+  "w": "by the way",
+  "zh": "順帶一提",
+  "ex": [
+   "I like your shirt. By the way, can I go to the party with you this Friday?"
+  ]
+ },
+ {
+  "w": "catch a cold",
+  "zh": "感冒",
+  "ex": [
+   "I caught a cold, so I didn't go to school today."
+  ]
+ },
+ {
+  "w": "check out",
+  "zh": "查看",
+  "ex": [
+   "Emily had problems with her car and asked me to check it out."
+  ]
+ },
+ {
+  "w": "check out",
+  "zh": "（飯店）退房",
+  "ex": [
+   "We checked out of our hotel at 6 a.m. to catch a 9 a.m. flight."
+  ]
+ },
+ {
+  "w": "check in",
+  "zh": "（飯店）登記住宿；（機場）報到",
+  "ex": [
+   "The Lin family checked in at the hotel this afternoon.",
+   "Check in two hours before the flight."
+  ]
+ },
+ {
+  "w": "cheer for",
+  "zh": "為……加油",
+  "ex": [
+   "Mary will join a singing contest. Let's cheer for her."
+  ]
+ },
+ {
+  "w": "cheer up",
+  "zh": "振作起來",
+  "ex": [
+   "Cheer up! I believe you can get good grades next time."
+  ]
+ },
+ {
+  "w": "cool down",
+  "zh": "冷靜；冷卻",
+  "ex": [
+   "The air has cooled down a little now."
+  ]
+ },
+ {
+  "w": "deal with",
+  "zh": "處理",
+  "ex": [
+   "We will deal with your order as quickly as possible."
+  ]
+ },
+ {
+  "w": "dream of",
+  "zh": "夢想",
+  "ex": [
+   "James has dreamed of being a lawyer for years."
+  ]
+ },
+ {
+  "w": "drop off",
+  "zh": "讓某人下車",
+  "ex": [
+   "Please drop me off at the bank."
+  ]
+ },
+ {
+  "w": "eat up",
+  "zh": "吃完",
+  "ex": [
+   "Be a good boy and eat up your vegetables."
+  ]
+ },
+ {
+  "w": "end up",
+  "zh": "最後成為",
+  "ex": [
+   "If you keep wasting money like that, you may end up having no money."
+  ]
+ },
+ {
+  "w": "fall down",
+  "zh": "（建築物）倒塌",
+  "ex": [
+   "Many buildings in the old part of the city are falling down."
+  ]
+ },
+ {
+  "w": "fall down",
+  "zh": "倒下；倒地",
+  "ex": [
+   "The kid fell down and hurt his knee."
+  ]
+ },
+ {
+  "w": "fall off",
+  "zh": "（從……）掉下",
+  "ex": [
+   "Linda fell off her scooter and hurt her leg last week."
+  ]
+ },
+ {
+  "w": "feed on",
+  "zh": "餵食",
+  "ex": [
+   "The goat feeds on grass."
+  ]
+ },
+ {
+  "w": "find out",
+  "zh": "找出",
+  "ex": [
+   "Let's find out the answer."
+  ]
+ },
+ {
+  "w": "get on / off",
+  "zh": "上車",
+  "ex": [
+   "We got on the wrong bus."
+  ]
+ },
+ {
+  "w": "give up",
+  "zh": "放棄",
+  "ex": [
+   "Can I give up the badminton game?"
+  ]
+ },
+ {
+  "w": "go ahead",
+  "zh": "（用於給別人許可）進行；開始；做",
+  "ex": [
+   "A: Could I ask you a personal question?\nB: Sure, go ahead."
+  ]
+ },
+ {
+  "w": "go out",
+  "zh": "（燈、火）熄滅",
+  "ex": [
+   "Suddenly the candle went out."
+  ]
+ },
+ {
+  "w": "hand in",
+  "zh": "繳交",
+  "ex": [
+   "Ed didn't hand in his math workbook because he forgot to bring it to school."
+  ]
+ },
+ {
+  "w": "head for",
+  "zh": "前往",
+  "ex": [
+   "Where are you heading for after the ball game?"
+  ]
+ },
+ {
+  "w": "hear about",
+  "zh": "得知；聽說",
+  "ex": [
+   "I just heard about his story."
+  ]
+ },
+ {
+  "w": "hear from",
+  "zh": "從……得到消息",
+  "ex": [
+   "I heard from Jane this morning. She said she would come back to Taiwan soon."
+  ]
+ },
+ {
+  "w": "hear of",
+  "zh": "聽說過某人",
+  "ex": [
+   "A: Have you ever heard of Mr. Smith?\nB: Yes. He was my English teacher."
+  ]
+ },
+ {
+  "w": "hold on",
+  "zh": "等一下",
+  "ex": [
+   "Hold on a minute! Isn't your bike over there?"
+  ]
+ },
+ {
+  "w": "hold on",
+  "zh": "堅持；繼續",
+  "ex": [
+   "We just had to hold on until help arrived."
+  ]
+ },
+ {
+  "w": "hold onto",
+  "zh": "緊緊抓住；抱牢",
+  "ex": [
+   "Hold onto the rope and don't let go."
+  ]
+ },
+ {
+  "w": "in fact",
+  "zh": "事實上",
+  "ex": [
+   "Ian is sad. In fact, he lost his pet."
+  ]
+ },
+ {
+  "w": "in the end",
+  "zh": "最後",
+  "ex": [
+   "I hope everything will go well in the end."
+  ]
+ },
+ {
+  "w": "keep... in mind",
+  "zh": "記住……",
+  "ex": [
+   "I like your idea. I'll keep it in mind."
+  ]
+ },
+ {
+  "w": "knock down",
+  "zh": "擊倒",
+  "ex": [
+   "The police knocked down the thief and took him to the police station."
+  ]
+ },
+ {
+  "w": "laugh at",
+  "zh": "取笑",
+  "ex": [
+   "She thinks people will laugh at her if she sings."
+  ]
+ },
+ {
+  "w": "lead to",
+  "zh": "導致",
+  "ex": [
+   "Eating too much fast food may lead to health problems."
+  ]
+ },
+ {
+  "w": "leave for",
+  "zh": "前往",
+  "ex": [
+   "Peter will leave for the USA tonight."
+  ]
+ },
+ {
+  "w": "look after",
+  "zh": "照顧",
+  "ex": [
+   "Don't worry. I can look after the kids tomorrow."
+  ]
+ },
+ {
+  "w": "look at",
+  "zh": "看",
+  "ex": [
+   "Please look at the picture on page five."
+  ]
+ },
+ {
+  "w": "look for",
+  "zh": "尋找",
+  "ex": [
+   "Joyce is looking for her doll."
+  ]
+ },
+ {
+  "w": "look out",
+  "zh": "小心；留意",
+  "ex": [
+   "Look out! There's a car coming."
+  ]
+ },
+ {
+  "w": "look up",
+  "zh": "查閱",
+  "ex": [
+   "Jack is looking up the new words in the dictionary."
+  ]
+ },
+ {
+  "w": "make up one’s mind",
+  "zh": "下定決心",
+  "ex": [
+   "I can't make up my mind to buy the car."
+  ]
+ },
+ {
+  "w": "on foot",
+  "zh": "走路；步行",
+  "ex": [
+   "Steve goes to school on foot every day."
+  ]
+ },
+ {
+  "w": "on sale",
+  "zh": "特價",
+  "ex": [
+   "These jeans were on sale for only NT$299."
+  ]
+ },
+ {
+  "w": "on the other hand",
+  "zh": "另一方面",
+  "ex": [
+   "I'd like a job that pays more, but on the other hand, I enjoy the work I'm doing at the moment."
+  ]
+ },
+ {
+  "w": "out of order",
+  "zh": "故障的",
+  "ex": [
+   "Our washing machine is out of order. What can I do with the dirty clothes?"
+  ]
+ },
+ {
+  "w": "pass away",
+  "zh": "去世",
+  "ex": [
+   "She is sad because her father passed away last week."
+  ]
+ },
+ {
+  "w": "pass on",
+  "zh": "傳遞",
+  "ex": [
+   "I'll pass the information on to our sales department."
+  ]
+ },
+ {
+  "w": "pick on",
+  "zh": "欺負（某人）",
+  "ex": [
+   "Stop picking on me!"
+  ]
+ },
+ {
+  "w": "pick up",
+  "zh": "撿起",
+  "ex": [
+   "Please pick up the trash before you leave the classroom."
+  ]
+ },
+ {
+  "w": "pick up",
+  "zh": "接送（某人）",
+  "ex": [
+   "My mother picks my brother up after school every day."
+  ]
+ },
+ {
+  "w": "pick up",
+  "zh": "接電話",
+  "ex": [
+   "I tried his home number, but he didn't pick up."
+  ]
+ },
+ {
+  "w": "put away",
+  "zh": "收拾",
+  "ex": [
+   "He put his toys away every night."
+  ]
+ },
+ {
+  "w": "put off",
+  "zh": "延後",
+  "ex": [
+   "The meeting has been put off for a week."
+  ]
+ },
+ {
+  "w": "put on",
+  "zh": "穿上",
+  "ex": [
+   "Put on your coat. It's cold outside."
+  ]
+ },
+ {
+  "w": "put on",
+  "zh": "增加（體重）",
+  "ex": [
+   "I put on a lot of weight during the summer vacation."
+  ]
+ },
+ {
+  "w": "put out",
+  "zh": "撲滅",
+  "ex": [
+   "The fire was put out in five minutes."
+  ]
+ },
+ {
+  "w": "put up with",
+  "zh": "忍受",
+  "ex": [
+   "I'm not going to put up with their smoking any longer."
+  ]
+ },
+ {
+  "w": "run out",
+  "zh": "用完",
+  "ex": [
+   "We need to find a gas station. We're running out of gas."
+  ]
+ },
+ {
+  "w": "set up",
+  "zh": "設立",
+  "ex": [
+   "They set up signs on the road."
+  ]
+ },
+ {
+  "w": "set up",
+  "zh": "搭（帳篷）",
+  "ex": [
+   "The view here is nice. Let's set up camp here."
+  ]
+ },
+ {
+  "w": "show off",
+  "zh": "炫耀",
+  "ex": [
+   "He can't wait to show off his new cellphone to his friends."
+  ]
+ },
+ {
+  "w": "show up",
+  "zh": "出現",
+  "ex": [
+   "Victor was late. He didn't show up on time."
+  ]
+ },
+ {
+  "w": "show... around...",
+  "zh": "帶領……四處參觀",
+  "ex": [
+   "Can you show me around the town?"
+  ]
+ },
+ {
+  "w": "slim down",
+  "zh": "變瘦",
+  "ex": [
+   "Ann exercises every day because she wants to slim down."
+  ]
+ },
+ {
+  "w": "stand for",
+  "zh": "代表",
+  "ex": [
+   "These roses stand for my love for you."
+  ]
+ },
+ {
+  "w": "stay up",
+  "zh": "熬夜",
+  "ex": [
+   "We stayed up late to watch a movie."
+  ]
+ },
+ {
+  "w": "take action",
+  "zh": "採取行動",
+  "ex": [
+   "The richer countries should take action to help the poorer countries."
+  ]
+ },
+ {
+  "w": "take away",
+  "zh": "拿走",
+  "ex": [
+   "Who took away my pen?"
+  ]
+ },
+ {
+  "w": "take away",
+  "zh": "（餐點）外帶",
+  "ex": [
+   "Do you want that hamburger to eat here or to take away?"
+  ]
+ },
+ {
+  "w": "take off",
+  "zh": "脫掉",
+  "ex": [
+   "I hate this tie. Can I take it off?"
+  ]
+ },
+ {
+  "w": "take off",
+  "zh": "（飛機）起飛",
+  "ex": [
+   "The plane took off at 8:30 a.m."
+  ]
+ },
+ {
+  "w": "take a picture / photo",
+  "zh": "拍照",
+  "ex": [
+   "We took a picture of the children on their new bicycles."
+  ]
+ },
+ {
+  "w": "take place",
+  "zh": "舉行；發生",
+  "ex": [
+   "When will the basketball game take place?"
+  ]
+ },
+ {
+  "w": "throw away",
+  "zh": "丟棄",
+  "ex": [
+   "When are you going to throw away those old books?"
+  ]
+ },
+ {
+  "w": "throw up",
+  "zh": "嘔吐",
+  "ex": [
+   "He threw up his breakfast all over the back seat of the car."
+  ]
+ },
+ {
+  "w": "tidy up",
+  "zh": "整理",
+  "ex": [
+   "You must tidy up the house after the party."
+  ]
+ },
+ {
+  "w": "try on",
+  "zh": "試穿",
+  "ex": [
+   "You should try on the dress. It will look great on you."
+  ]
+ },
+ {
+  "w": "turn down",
+  "zh": "拒絕",
+  "ex": [
+   "I asked her out, but she turned me down."
+  ]
+ },
+ {
+  "w": "turn down",
+  "zh": "關小（聲）；調低",
+  "ex": [
+   "Can you turn the TV down? Grandpa is sleeping."
+  ]
+ },
+ {
+  "w": "turn off",
+  "zh": "關電器",
+  "ex": [
+   "Remember to turn off the light before you leave."
+  ]
+ },
+ {
+  "w": "turn on",
+  "zh": "開電器",
+  "ex": [
+   "Peter turned on his computer and checked his e-mail."
+  ]
+ },
+ {
+  "w": "under the weather",
+  "zh": "生病；覺得不舒服",
+  "ex": [
+   "Sorry, I can't go with you. I'm under the weather."
+  ]
+ },
+ {
+  "w": "used to",
+  "zh": "過去經常",
+  "ex": [
+   "Ann used to love singing, but now she doesn't do that anymore."
+  ]
+ },
+ {
+  "w": "wait for",
+  "zh": "等待",
+  "ex": [
+   "Hurry up! They're waiting for us."
+  ]
+ },
+ {
+  "w": "wake up",
+  "zh": "喚醒；醒來",
+  "ex": [
+   "I woke up late this morning."
+  ]
+ },
+ {
+  "w": "watch out",
+  "zh": "當心；小心",
+  "ex": [
+   "Watch out for bears!"
+  ]
+ },
+ {
+  "w": "worry about",
+  "zh": "擔心",
+  "ex": [
+   "The students worry about their future."
+  ]
+ },
+ {
+  "w": "write down",
+  "zh": "寫下",
+  "ex": [
+   "I want all of you to write down your ideas."
+  ]
+ }
+]

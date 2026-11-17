@@ -81,6 +81,7 @@ input[type=text]{flex:1;min-width:200px}
 .bar span{display:block;position:relative;height:100%;background:var(--chalk);border-radius:999px;transition:width .25s;min-width:2px}
 .bar span::after{content:'🚀';position:absolute;right:-8px;top:50%;transform:translateY(-54%);font-size:15px;line-height:1}
 .sentence{font-family:var(--font-en);font-size:1.45rem;line-height:1.55;margin:6px 0 18px;text-wrap:pretty}
+.sentence u.hl,#rWrong u.hl{text-decoration:none;background:linear-gradient(transparent 62%,#ffe08a 62%);font-weight:700;padding:0 2px}
 .blank{display:inline-block;min-width:5.5em;border-bottom:3px solid var(--ink);text-align:center;color:var(--board-2);font-weight:700}
 .ask{color:var(--muted);font-size:.9rem;margin:0}
 .opts{display:grid;gap:10px}
@@ -268,6 +269,9 @@ input[type=text]{flex:1;min-width:200px}
       <button data-k="verb" aria-pressed="true">動詞變化</button>
       <button data-k="prep" aria-pressed="true">介系詞搭配</button>
       <button data-k="cloze" aria-pressed="true">克漏字</button>
+      <button data-k="sense" aria-pressed="true">一字多義</button>
+      <button data-k="phrase" aria-pressed="true">片語</button>
+      <button data-k="cap" aria-pressed="true">會考文法</button>
     </div>
     <div class="hint" id="kindHint">只會出現有勾選的題型。克漏字一篇 5 格，每格算 1 題。</div>
   </div>
@@ -375,9 +379,11 @@ const $ = id => document.getElementById(id);
 
 let mode = 'range', num = 20;
 // 題型可複選；只有勾選的題型會出題
-const KINDS = ['word', 'verb', 'prep', 'cloze'];
+const KINDS = ['word', 'verb', 'prep', 'cloze', 'sense', 'phrase', 'cap'];
+const EXTRA = new Set(['sense', 'phrase', 'cap']);   // 講義 Unit 2–4 的題目
+const KIND_ZH = {verb: '動詞變化', word: '單字選擇', prep: '介系詞搭配', sense: '一字多義', phrase: '片語', cap: '會考文法'};
 let types = new Set(KINDS);
-try { const t = JSON.parse(localStorage.getItem('types') || 'null'); if (Array.isArray(t)) types = new Set(t.filter(k => KINDS.includes(k))); } catch (e) {}
+try { const t = JSON.parse(localStorage.getItem('types') || 'null'); if (Array.isArray(t)) { types = new Set(t.filter(k => KINDS.includes(k))); if (!localStorage.getItem('types2')) EXTRA.forEach(k => types.add(k)); } } catch (e) {}
 const kindCode = () => types.size === KINDS.length ? 'all' : KINDS.filter(k => types.has(k)).join('+');
 // 克漏字：docs/cloze/index.json 列出各回篇數，作答時才載入該回的文章
 const CLOZE = {units: {}, data: {}};
@@ -441,10 +447,15 @@ function pool(){
   return {days, all: [...all], sentences: keys.size, passages};
 }
 // 每個句子只抽一個版本（隨機選一種誘答），同一次測驗不重複
+// 講義題（一字多義／片語／會考文法）題數少，保底占約四分之一，不然很難抽到
 function pickItems(all, n){
-  const list = shuffle(all.slice()), keys = new Set(), out = [];
-  for (const qi of list) { const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(qi); if (out.length >= n) break; }
-  return out;
+  const take = (list, m, keys, out) => { for (const qi of shuffle(list.slice())) { if (out.length >= m) break; const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(qi); } };
+  const ex = all.filter(qi => EXTRA.has(DATA.bank[qi].k)), base = all.filter(qi => !EXTRA.has(DATA.bank[qi].k));
+  const keys = new Set(), out = [];
+  if (ex.length && base.length) take(ex, Math.max(1, Math.round(n / 4)), keys, out);
+  take(base.length ? base : ex, n, keys, out);
+  if (out.length < n) take(all, n, keys, out);
+  return shuffle(out);
 }
 let session_days = new Set();
 function update(){
@@ -467,7 +478,20 @@ function setMode(m){
   $('rangeBox').classList.toggle('hidden', m!=='range'); $('pickBox').classList.toggle('hidden', m!=='pick');
   update();
 }
-function gloss(q, i){ const o = q.o[i]; return (q.k === 'verb' ? GL['v|' + q.w + '|' + o] : GL[o]) || ''; }
+function gloss(q, i){ if (EXTRA.has(q.k)) return ''; const o = q.o[i]; return (q.k === 'verb' ? GL['v|' + q.w + '|' + o] : GL[o]) || ''; }
+const br = t => esc(t).replace(/\n/g, '<br>');
+// 句子：有畫線（一字多義／片語）就畫線，否則留空格
+function qHTML(q, fill){
+  if (q.m != null) return br(q.a) + `<u class="hl">${esc(q.m)}</u>` + br(q.b);
+  return br(q.a) + (fill == null ? '<span class="blank">&nbsp;</span>' : `<span class="blank">${esc(fill)}</span>`) + br(q.b);
+}
+const capTag = t => { const m = String(t || '').match(/^(\d+)(-補)?-(\d+)$/); return m ? `${m[1]} 年${m[2] ? '補考' : '會考'}第 ${m[3]} 題` : ''; };
+// 同一個字（片語）在講義裡的所有意思
+let SENSES = null;
+function sensesOf(q){
+  if (!SENSES) { SENSES = {}; DATA.bank.forEach(x => { if (x.k === 'sense' || x.k === 'phrase') { const k = x.k + '|' + x.w; (SENSES[k] = SENSES[k] || []).includes(x.o[x.c]) || SENSES[k].push(x.o[x.c]); } }); }
+  return SENSES[q.k + '|' + q.w] || [];
+}
 function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
 function start(items){
@@ -484,13 +508,14 @@ function show(){
   $('qGloss').classList.add('hidden');
   if (typeof st === 'object') return showCloze(st);
   const q = DATA.bank[st];
-  $('qAsk').textContent = '＿＿＿ 處適合填入何者？';
+  $('qAsk').textContent = q.k === 'sense' ? `句中畫線的「${q.m}」是什麼意思？` : q.k === 'phrase' ? '句中畫線的片語是什麼意思？' : '＿＿＿ 處適合填入何者？';
   $('qText').className = 'sentence';
   $('qDay').textContent = lab(q.d);
-  $('qKind').textContent = ({verb:'動詞變化', word:'單字選擇', prep:'介系詞搭配'})[q.k] + (session_days.has(q.d) ? '' : '・複習');
+  $('qKind').textContent = KIND_ZH[q.k] + (q.k === 'cap' ? '・' + capTag(q.t) : '') + (session_days.has(q.d) ? '' : '・複習');
   $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
   $('qBar').style.width = (s.i / s.items.length * 100) + '%';
-  $('qText').innerHTML = esc(q.a) + '<span class="blank">&nbsp;</span>' + esc(q.b);
+  $('qText').innerHTML = qHTML(q);
+  $('qText').classList.toggle('zhopts', q.k === 'sense' || q.k === 'phrase');
   const box = $('qOpts'); box.innerHTML = '';
   s.order[s.i].forEach((oi, k) => {
     const b = document.createElement('button');
@@ -568,12 +593,14 @@ function answer(oi){
     const g = gloss(q, v);
     if (g) b.querySelector('.ow').insertAdjacentHTML('beforeend', `<span class="oz">${esc(g)}</span>`);
   });
-  $('qText').querySelector('.blank').textContent = q.o[q.c];
+  const bl = $('qText').querySelector('.blank'); if (bl) bl.textContent = q.o[q.c];
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
   fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` +
     (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') +
-    `<span class="hint">單字：${esc(q.w)}${q.k === 'verb' && GL['v|' + q.w] ? ' ' + esc(GL['v|' + q.w]) : ''}</span>`;
+    (q.k === 'cap' ? `<span class="hint">📝 ${esc(capTag(q.t))}・文法：${esc(q.p || '')}</span>`
+     : q.k === 'sense' || q.k === 'phrase' ? `<span class="hint">${esc(q.w)} 的意思：${sensesOf(q).map(esc).join('／')}</span>`
+     : `<span class="hint">單字：${esc(q.w)}${q.k === 'verb' && GL['v|' + q.w] ? ' ' + esc(GL['v|' + q.w]) : ''}</span>`);
   $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
   const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
   fxAnswer(ok);
@@ -603,7 +630,8 @@ function finish(){
       ul.appendChild(li); return;
     }
     const q = DATA.bank[w.qi];
-    li.innerHTML = `<div class="s">${esc(q.a)}<b>${esc(q.o[q.c])}</b>${esc(q.b)}</div>` +
+    li.innerHTML = `<div class="s">${q.m != null ? qHTML(q) : br(q.a) + '<b>' + esc(q.o[q.c]) + '</b>' + br(q.b)}</div>` +
+      (q.k === 'cap' ? `<div class="z">${esc(capTag(q.t))}・${esc(q.p || '')}</div>` : '') +
       (q.z ? `<div class="z">${esc(q.z)}</div>` : '') +
       `<div class="a">${lab(q.d)}・你選 <s>${esc(q.o[w.pick])}</s>${gloss(q, w.pick) ? '（' + esc(gloss(q, w.pick)) + '）' : ''}，正確是 <b>${esc(q.o[q.c])}</b>${gloss(q, q.c) ? '（' + esc(gloss(q, q.c)) + '）' : ''}</div>`;
     ul.appendChild(li);
@@ -807,7 +835,7 @@ $('mPick').onclick = () => setMode('pick');
 $('from').onchange = update; $('to').onchange = update;
 function syncKinds(){
   document.querySelectorAll('[data-k]').forEach(x => x.setAttribute('aria-pressed', x.dataset.k === 'all' ? types.size === KINDS.length : types.has(x.dataset.k)));
-  try { localStorage.setItem('types', JSON.stringify([...types])); } catch (e) {}
+  try { localStorage.setItem('types', JSON.stringify([...types])); localStorage.setItem('types2', '1'); } catch (e) {}
 }
 document.querySelectorAll('[data-k]').forEach(b => b.onclick = () => {
   const k = b.dataset.k;
@@ -962,7 +990,7 @@ function givenName(n) {
   return n.slice(cut) || n;
 }
 let boardPeriod = 'week', boardSort = 'right', boardType = 'all', boardData = null;
-const TYPE_ZH = {all: '', word: '單字題', verb: '動詞變化題', prep: '介系詞題', cloze: '克漏字'};
+const TYPE_ZH = {all: '', word: '單字題', verb: '動詞變化題', prep: '介系詞題', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法'};
 const PERIOD_ZH = {day: '今天', week: '本週', month: '本月', all: '開學以來'};
 const PREV_ZH = {day: '昨天', week: '上週', month: '上個月'};
 async function loadBoard(){

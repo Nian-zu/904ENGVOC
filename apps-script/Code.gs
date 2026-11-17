@@ -33,7 +33,7 @@ function doPost(e) {
     let key = loadKey_();
     // 新加的克漏字題號可能還不在快取裡：缺題號就重新抓一次答案檔
     if (answers.some(function (a) { return !key[parseInt(a[0], 10)]; })) key = loadKey_(true);
-    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字' };
+    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法' };
     const range = String(body.range || '').slice(0, 120);
     const redo = range.indexOf('錯題重做') >= 0 ? 1 : 0;
     let right = 0;
@@ -49,7 +49,7 @@ function doPost(e) {
     const total = Math.max(answered, Math.min(300, parseInt(body.total, 10) || answered));
     const score = Math.round(right / answered * 100);
     const seconds = Math.max(0, Math.min(36000, parseInt(body.seconds, 10) || 0));
-    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字' };
+    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法' };
 
     // 台灣時間
     const now = new Date();
@@ -120,7 +120,7 @@ function doGet(e) {
   if (period === 'month') { from = today.slice(0, 8) + '01'; prevTo = shift_(from, -1); prevFrom = prevTo.slice(0, 8) + '01'; }
 
   // type=word|verb|prep|cloze：只算這種題型（用「作答明細」逐題資料）；不給就是全部題型（用「成績」）
-  const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字' };
+  const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法' };
   const type = TYPE_ZH[p.type] ? p.type : 'all';
   const allRows = readRows_();
   const rows = type === 'all' ? allRows : readDetail_(TYPE_ZH[type]);
@@ -323,7 +323,7 @@ function givenName(n) {
   return n.slice(cut) || n;
 }
 
-function loadKey_(fresh) {
+function loadKeyMain_(fresh) {
   const cache = CacheService.getScriptCache();
   const parts = fresh ? null : cache.get('key_parts');
   if (parts) {
@@ -339,6 +339,20 @@ function loadKey_(fresh) {
   obj['key_parts'] = String(n);
   cache.putAll(obj, 21600);
   return JSON.parse(text);
+}
+
+// 講義題（一字多義／片語／會考文法）的答案另放 answer-key-extra.json（題號 40000 起），不跟克漏字的答案檔互相干擾
+const KEY_EXTRA_URL = 'https://nian-zu.github.io/904ENGVOC/answer-key-extra.json';
+function loadKey_(fresh) {
+  const key = loadKeyMain_(fresh);
+  const cache = CacheService.getScriptCache();
+  let text = fresh ? null : cache.get('key_extra');
+  if (!text) {
+    try { text = UrlFetchApp.fetch(KEY_EXTRA_URL).getContentText(); cache.put('key_extra', text, 21600); } catch (e) { text = '{}'; }
+  }
+  const ex = JSON.parse(text);
+  Object.keys(ex).forEach(function (id) { key[parseInt(id, 10)] = ex[id]; });
+  return key;
 }
 
 function out_(o) {

@@ -1,0 +1,1046 @@
+[
+ {
+  "topic": "代名詞",
+  "tag": "113-20",
+  "stem": "I want to find another dentist because ＿＿ pulled out a good tooth last time I went to him.",
+  "o": [
+   "I",
+   "me",
+   "mine",
+   "myself"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "代名詞",
+  "tag": "109-6",
+  "stem": "My wife enjoys going to the movies with her friends, but I like to watch TV at home by ＿＿.",
+  "o": [
+   "I",
+   "me",
+   "myself",
+   "mine"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "代名詞",
+  "tag": "108-6",
+  "stem": "The book under Mary's desk is ＿＿, but I don't know why it is there.",
+  "o": [
+   "us",
+   "me",
+   "my",
+   "mine"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "代名詞",
+  "tag": "106-9",
+  "stem": "I don't think Katie will read any one of the books you've picked out for her: ＿＿ look(s) very boring.",
+  "o": [
+   "it",
+   "one",
+   "some",
+   "they"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "代名詞",
+  "tag": "105-11",
+  "stem": "My mom told me to take care of ＿＿ in England. She worried that I couldn't eat or sleep well there.",
+  "o": [
+   "me",
+   "myself",
+   "her",
+   "herself"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "代名詞",
+  "tag": "114-14",
+  "stem": "I guess the rainwater has come in from the kitchen. See? ＿＿ of the windows are closed except the one in the kitchen.",
+  "o": [
+   "All",
+   "Both",
+   "Most",
+   "Some"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "代名詞",
+  "tag": "114-8",
+  "stem": "Mr. and Mrs. Wu have three daughters. Two are in high school, and ＿＿ is in elementary school.",
+  "o": [
+   "each",
+   "the other",
+   "the one",
+   "the next"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "代名詞",
+  "tag": "113-6",
+  "stem": "Chris loves walking with Anna on snowy days, but Anna hates ＿＿ very much.",
+  "o": [
+   "them",
+   "so",
+   "one",
+   "it"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "代名詞",
+  "tag": "111-補-15",
+  "stem": "These birds are the only kind you can see here in January because ＿＿ other kinds of birds fly south for the winter.",
+  "o": [
+   "all",
+   "both",
+   "few",
+   "some"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "代名詞",
+  "tag": "111-補-2",
+  "stem": "Mary has two brothers. One is ten, and ＿＿ is twelve.",
+  "o": [
+   "another",
+   "other",
+   "others",
+   "the other"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "代名詞",
+  "tag": "111-18",
+  "stem": "Buses to the airport only come once every hour, and we just missed ＿＿. Why don't we take a taxi?",
+  "o": [
+   "another",
+   "it",
+   "one",
+   "them"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "代名詞",
+  "tag": "110-14",
+  "stem": "Nora: Can I check your drawer for some tools we can use?\nMatt: Sure. Take a look. See if you can find ＿＿ in there.",
+  "o": [
+   "any",
+   "it",
+   "others",
+   "those"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "代名詞",
+  "tag": "109-13",
+  "stem": "Ms. Johnson has been taking phone calls since she entered the office this morning. Just when she thought she could finally leave work, ＿＿ call came in.",
+  "o": [
+   "another",
+   "each",
+   "the next",
+   "the other"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "代名詞",
+  "tag": "109-補-2",
+  "stem": "Do you like goat milk? I just got ＿＿ from the market.",
+  "o": [
+   "them",
+   "some",
+   "any",
+   "another"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "代名詞",
+  "tag": "108-15",
+  "stem": "＿＿ other waiters in the restaurant have worked here longer than Clark; only Lois and Lana started working here before him.",
+  "o": [
+   "All",
+   "Most",
+   "Some",
+   "Few"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "代名詞",
+  "tag": "108-8",
+  "stem": "It almost killed Kevin to take care of his baby sister for one afternoon. He wondered how his mom could do ＿＿ every day.",
+  "o": [
+   "her",
+   "it",
+   "one",
+   "them"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "代名詞",
+  "tag": "105-10",
+  "stem": "My parents have different hobbies. One enjoys baking; ＿＿ enjoys taking pictures.",
+  "o": [
+   "another",
+   "the next",
+   "the other",
+   "the second"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "代名詞",
+  "tag": "105-8",
+  "stem": "Susan bought ＿＿ bread in the supermarket, but she did not buy anything to drink.",
+  "o": [
+   "many",
+   "some",
+   "any",
+   "one"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "代名詞",
+  "tag": "104-7",
+  "stem": "I don't like any one of these three watches. Can you show me ＿＿ one?",
+  "o": [
+   "the others",
+   "other",
+   "either",
+   "another"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "不定詞與動名詞",
+  "tag": "114-4",
+  "stem": "Cindy enjoys ＿＿ her dad read stories to her before bed.",
+  "o": [
+   "to listen to",
+   "listening to",
+   "listen to",
+   "listens to"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "不定詞與動名詞",
+  "tag": "110-補-7",
+  "stem": "The little boy often asks his father ＿＿ candies and cookies for him.",
+  "o": [
+   "buy",
+   "buys",
+   "buying",
+   "to buy"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "不定詞與動名詞",
+  "tag": "108-3",
+  "stem": "Playing games on the cellphone ＿＿ popular with high school students.",
+  "o": [
+   "is",
+   "are",
+   "being",
+   "to be"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "不定詞與動名詞",
+  "tag": "105-9",
+  "stem": "Playing sports at least three times a week ＿＿ good for your health.",
+  "o": [
+   "is",
+   "are",
+   "has",
+   "have"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "使役動詞",
+  "tag": "111-補-5",
+  "stem": "Don't let kids ＿＿ bicycles on this busy street; it's very dangerous.",
+  "o": [
+   "ride",
+   "to ride",
+   "riding",
+   "are riding"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "感官動詞",
+  "tag": "112-4",
+  "stem": "People got very excited when they watched Ms. Smith ＿＿ at the party.",
+  "o": [
+   "danced",
+   "dancing",
+   "has danced",
+   "to dance"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "感官動詞",
+  "tag": "111-16",
+  "stem": "David looked out of the balcony window and saw a woman get in his car ＿＿ away.",
+  "o": [
+   "drive",
+   "drove",
+   "and drive",
+   "and drove"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "感官動詞",
+  "tag": "105-3",
+  "stem": "My cat got excited when it saw the boy ＿＿ the birds.",
+  "o": [
+   "catches",
+   "catching",
+   "to catch",
+   "caught"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "花費動詞",
+  "tag": "111-8",
+  "stem": "Although it took me lots of time ＿＿ a big meal for ten people, I was happy that everyone enjoyed it.",
+  "o": [
+   "prepare",
+   "to prepare",
+   "preparing",
+   "prepared"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "花費動詞",
+  "tag": "107-10",
+  "stem": "It took the police lots of time ＿＿ who entered Liu's house and killed her one year ago.",
+  "o": [
+   "and found out",
+   "find out",
+   "finding out",
+   "to find out"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "花費動詞",
+  "tag": "104-5",
+  "stem": "Charles ＿＿ a day in the department store looking for a hat for his wife.",
+  "o": [
+   "cost",
+   "spent",
+   "saw",
+   "made"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "連接詞",
+  "tag": "114-15",
+  "stem": "＿＿ machines have been used to pick fruits for a long time, they were not used on strawberry farms until several years ago.",
+  "o": [
+   "Although",
+   "Because",
+   "Before",
+   "If"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "連接詞",
+  "tag": "113-14",
+  "stem": "Patty spent several days planning to invite Charlie to dinner, ＿＿ she couldn't say a word when they met.",
+  "o": [
+   "but",
+   "if",
+   "or",
+   "so"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "連接詞",
+  "tag": "112-9",
+  "stem": "Don't go away when you're cooking, ＿＿ the food might burn.",
+  "o": [
+   "but",
+   "if",
+   "or",
+   "so"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "連接詞",
+  "tag": "111-2",
+  "stem": "The movie starts at two o'clock, ＿＿ let's meet at the theater at one forty-five.",
+  "o": [
+   "so",
+   "or",
+   "if",
+   "because"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "連接詞",
+  "tag": "111-補-6",
+  "stem": "＿＿ you don't have time for dinner tonight, perhaps we can just have a quick drink together.",
+  "o": [
+   "Before",
+   "If",
+   "Until",
+   "When"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "連接詞",
+  "tag": "110-10",
+  "stem": "Jimmy would not get up for breakfast, ＿＿ his dad had already tried to pull him from his bed several times.",
+  "o": [
+   "although",
+   "because",
+   "if",
+   "until"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "連接詞",
+  "tag": "110-9",
+  "stem": "If you're interested in our business plan, ＿＿ this number and ask for Ms. Lee. She'll answer your questions.",
+  "o": [
+   "calling",
+   "call",
+   "and call",
+   "to call"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "連接詞",
+  "tag": "108-2",
+  "stem": "Ms. Liu usually gives us a lot of homework, ＿＿ she didn't give us any today.",
+  "o": [
+   "but",
+   "if",
+   "or",
+   "so"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "連接詞",
+  "tag": "104-2",
+  "stem": "This dress is pretty, ＿＿ it does not look good on me.",
+  "o": [
+   "so",
+   "but",
+   "or",
+   "if"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "連接詞",
+  "tag": "103-21",
+  "stem": "I have to catch the bus right now, ＿＿ I'll miss my brother's birthday party.",
+  "o": [
+   "and",
+   "because",
+   "or",
+   "until"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "比較級與最高級",
+  "tag": "111-10",
+  "stem": "Bob is ＿＿ of the boys in the family. He never does any housework. His brothers at least take out the garbage sometimes.",
+  "o": [
+   "lazier",
+   "the lazy",
+   "the lazier",
+   "the laziest"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "比較級與最高級",
+  "tag": "110-補-12",
+  "stem": "After the fire, everyone in the apartment was ＿＿ when they cooked. They did not want any people to be hurt again.",
+  "o": [
+   "more carefully",
+   "more careful",
+   "the most careful",
+   "the most carefully"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "比較級與最高級",
+  "tag": "109-15",
+  "stem": "For Mike, the price is ＿＿ important thing when he shops for jeans. He cares even more about the shape and the size of the pockets.",
+  "o": [
+   "the more",
+   "the most",
+   "the less",
+   "the least"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "used to 的用法",
+  "tag": "112-23",
+  "stem": "Now I often think of those days with Pip, my pet dog. When I read in my room, he ＿＿ quietly beside me.",
+  "o": [
+   "will come and sit",
+   "comes and sits",
+   "has come and sat",
+   "used to come and sit"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "used to 的用法",
+  "tag": "108-13",
+  "stem": "In my school days, I ＿＿ to English radio programs every day. That was how I learned English at that time.",
+  "o": [
+   "listen",
+   "have listened",
+   "used to listen",
+   "was listening"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "附加問句",
+  "tag": "109-補-9",
+  "stem": "Henry: Shelly's in the nurse's office, ＿＿ she?\nDaniel: Yeah, she just cut her finger.",
+  "o": [
+   "wasn't",
+   "isn't",
+   "hasn't",
+   "didn't"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "附加問句",
+  "tag": "104-3",
+  "stem": "Getting up early on a cold morning is not easy, ＿＿?",
+  "o": [
+   "are you",
+   "do you",
+   "does it",
+   "is it"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "名詞子句及名詞片語",
+  "tag": "112-10",
+  "stem": "Jerry wanted to know ＿＿ he was kicked off the soccer team, but no one gave him a good reason.",
+  "o": [
+   "where",
+   "when",
+   "whether",
+   "why"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "名詞子句及名詞片語",
+  "tag": "103-27",
+  "stem": "I'm not sure if Kevin ＿＿ this morning, but if he does, I'll tell him that you called.",
+  "o": [
+   "will come in",
+   "comes in",
+   "has come in",
+   "came in"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "形容詞子句",
+  "tag": "113-12",
+  "stem": "Students ＿＿ to go on the school trip should ask their parents first.",
+  "o": [
+   "who want",
+   "want",
+   "who they want",
+   "what they want"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "形容詞子句",
+  "tag": "112-22",
+  "stem": "The new medicine that just came out on the market ＿＿ thousands of lives.",
+  "o": [
+   "and saved",
+   "has saved",
+   "saving",
+   "to save"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "形容詞子句",
+  "tag": "112-19",
+  "stem": "Scott wasn't sure if the young woman before him was ＿＿ pulled him out of a car on fire.",
+  "o": [
+   "who",
+   "the one",
+   "the one she",
+   "the one who"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "形容詞子句",
+  "tag": "110-12",
+  "stem": "Fiona loves listening to her children sing songs ＿＿ at school.",
+  "o": [
+   "are learned",
+   "that learned",
+   "they learned",
+   "that they are learned"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "形容詞子句",
+  "tag": "109-補-15",
+  "stem": "Can anyone who knows the answer ＿＿ it out loud?",
+  "o": [
+   "say",
+   "says",
+   "saying",
+   "to say"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "形容詞子句",
+  "tag": "106-13",
+  "stem": "All the excuses Nick made ＿＿ a lot about how much he hates to do the job.",
+  "o": [
+   "say",
+   "saying",
+   "which say",
+   "to say"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "形容詞子句",
+  "tag": "104-12",
+  "stem": "Actor David Piper became tired of talking about the movie ＿＿ after he was interviewed about it many times.",
+  "o": [
+   "he is famous",
+   "that he is famous",
+   "that is famous for",
+   "he is famous for"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "114-18",
+  "stem": "Before she ＿＿ about it, you should tell Daphne you broke her favorite cup.",
+  "o": [
+   "asks",
+   "asked",
+   "was asking",
+   "will ask"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "時態",
+  "tag": "114-10",
+  "stem": "Christmas ＿＿ and I want to visit my aunt abroad. Do you have any plans yet?",
+  "o": [
+   "came",
+   "comes",
+   "is coming",
+   "was coming"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "時態",
+  "tag": "113-21",
+  "stem": "Mom: Linda, you've been playing computer games all evening! Have you finished your report?\nLinda: Well, ＿＿ most of it this afternoon, and I'll finish it by Friday.",
+  "o": [
+   "I would do",
+   "I did",
+   "I was doing",
+   "I'll do"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "時態",
+  "tag": "113-15",
+  "stem": "I can't tell you what I think of the movie because I ＿＿ it. I'll probably watch it this Saturday.",
+  "o": [
+   "am not seeing",
+   "don't see",
+   "haven't seen",
+   "won't see"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "時態",
+  "tag": "112-6",
+  "stem": "Rex did not feel the earthquake this morning. He ＿＿ in the park at the time.",
+  "o": [
+   "jogged",
+   "was jogging",
+   "has jogged",
+   "would jog"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "時態",
+  "tag": "112-12",
+  "stem": "Ed and Jill ＿＿ camping this weekend, so they have to finish their homework by Friday.",
+  "o": [
+   "went",
+   "were going",
+   "are going",
+   "have gone"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "時態",
+  "tag": "111-19",
+  "stem": "Ariel ＿＿ every night for a week before her Chinese test and got a very good grade.",
+  "o": [
+   "studied",
+   "studies",
+   "has studied",
+   "was going to study"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "時態",
+  "tag": "111-15",
+  "stem": "Have you found a summer job yet? Mr. Firth ＿＿ someone to take care of his kids during the vacation. Maybe you can talk to him.",
+  "o": [
+   "has looked for",
+   "is looking for",
+   "looks for",
+   "was looking for"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "時態",
+  "tag": "111-13",
+  "stem": "Yesterday when I got home from work, my brother ＿＿ for dinner, so he invited me to join him.",
+  "o": [
+   "goes out",
+   "went out",
+   "has gone out",
+   "was going out"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "111-11",
+  "stem": "Aunt Gina has lived in this town for more than sixty years, so she ＿＿ it very well.",
+  "o": [
+   "will know",
+   "knew",
+   "knows",
+   "was going to know"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "時態",
+  "tag": "110-7",
+  "stem": "My sister is coming to my home today. She ＿＿ with me for a week.",
+  "o": [
+   "stays",
+   "stayed",
+   "has stayed",
+   "will stay"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "110-6",
+  "stem": "Our teacher Ms. Wu seldom laughs, but when she ＿＿, everyone in the same building can hear her.",
+  "o": [
+   "can",
+   "does",
+   "has",
+   "will"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "時態",
+  "tag": "110-5",
+  "stem": "Paul misses his parents a lot. He ＿＿ them since he came to work in Taiwan a year ago.",
+  "o": [
+   "didn't see",
+   "doesn't see",
+   "hasn't seen",
+   "won't see"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "時態",
+  "tag": "110-2",
+  "stem": "Listen! The baby ＿＿ in the bedroom. Why don't you go in and take a look?",
+  "o": [
+   "cried",
+   "cries",
+   "is crying",
+   "will cry"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "時態",
+  "tag": "109-14",
+  "stem": "We were so sure that Jerry ＿＿ well on the difficult job. His past experience in other work showed he was the right guy for it. So when he failed, no one believed it.",
+  "o": [
+   "had done",
+   "did",
+   "has done",
+   "would do"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "109-6",
+  "stem": "For the past twenty years, my father ＿＿ in a school library. But he'll leave the job next month.",
+  "o": [
+   "worked",
+   "has worked",
+   "is working",
+   "works"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "時態",
+  "tag": "109-補-10",
+  "stem": "Dad: Where are you, Mary? Come out!\nMom: You know, ＿＿ with you. She won't come out until you find her.",
+  "o": [
+   "she'll play",
+   "she's playing",
+   "she plays",
+   "she played"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "時態",
+  "tag": "109-補-8",
+  "stem": "Amy: How's the weather there in Japan? Is it snowing?\nSandy: No, but ＿＿ for the next few days. I learned it from the TV news.",
+  "o": [
+   "it was",
+   "it has",
+   "it is",
+   "it will"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "108-11",
+  "stem": "＿＿ that last piece of pie? If not, can I have it? I didn't eat much this morning.",
+  "o": [
+   "Had you eaten",
+   "Were you eating",
+   "Do you eat",
+   "Are you going to eat"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "107-8",
+  "stem": "Dad: Have you brushed your teeth yet?\nAnn: No, but I ＿＿ before I go to bed.",
+  "o": [
+   "haven't",
+   "have",
+   "won't",
+   "will"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "107-4",
+  "stem": "I don't have any money with me because I ＿＿ my wallet this morning.",
+  "o": [
+   "had lost",
+   "would lose",
+   "lost",
+   "was losing"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "時態",
+  "tag": "106-12",
+  "stem": "The weather ＿＿ rainy and cloudy in the last few days. I hope the sun will come out soon.",
+  "o": [
+   "has been",
+   "had been",
+   "will be",
+   "would be"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "時態",
+  "tag": "106-5",
+  "stem": "Excuse me. I really need to go now. My kids ＿＿ for me at school.",
+  "o": [
+   "are waiting",
+   "were waiting",
+   "wait",
+   "waited"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "時態",
+  "tag": "104-9",
+  "stem": "On Children's Day, Ms. Lee, a famous storybook writer, ＿＿ to Molly's Bookstore to talk about her new book. My two little kids can't wait to see her.",
+  "o": [
+   "came",
+   "was coming",
+   "has come",
+   "is going to come"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "時態",
+  "tag": "103-30",
+  "stem": "Smart Head, one of the hottest TV programs these days, ＿＿ people free plane tickets to Hawaii if they can answer 20 questions correctly in 15 minutes.",
+  "o": [
+   "have given",
+   "gives",
+   "giving",
+   "to give"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "被動語態",
+  "tag": "114-19",
+  "stem": "It was very windy this morning. Some of the shirts on the balcony were blown away ＿＿ in the pond.",
+  "o": [
+   "fell",
+   "and fell",
+   "fallen",
+   "and fallen"
+  ],
+  "c": 1
+ },
+ {
+  "topic": "被動語態",
+  "tag": "113-19",
+  "stem": "The housework in Mr. and Mrs. Wang's family ＿＿ between them and their kids. Everyone's got their own job to do.",
+  "o": [
+   "is shared",
+   "are shared",
+   "shares",
+   "share"
+  ],
+  "c": 0
+ },
+ {
+  "topic": "被動語態",
+  "tag": "112-13",
+  "stem": "Doraemon, a blue Japanese robot cat, has hated mice since his ears ＿＿ by a mouse.",
+  "o": [
+   "bit",
+   "bite",
+   "were bitten",
+   "have bitten"
+  ],
+  "c": 2
+ },
+ {
+  "topic": "被動語態",
+  "tag": "111-17",
+  "stem": "The police haven't found the little girl who ＿＿ at a supermarket. They'll keep doing all they can to find her.",
+  "o": [
+   "took away",
+   "taken away",
+   "has taken away",
+   "was taken away"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "被動語態",
+  "tag": "105-15",
+  "stem": "My dog Jimmy loves ＿＿ with a comb. Every time I comb his hair, he will close his eyes and fall asleep.",
+  "o": [
+   "to brush",
+   "brushing",
+   "to be brushing",
+   "being brushed"
+  ],
+  "c": 3
+ },
+ {
+  "topic": "片語動詞",
+  "tag": "105-13",
+  "stem": "I told you this road went the wrong way, but you just wouldn't listen. Now we have to ＿＿ and take another road.",
+  "o": [
+   "go ahead",
+   "move away",
+   "pass by",
+   "turn back"
+  ],
+  "c": 3
+ }
+]
