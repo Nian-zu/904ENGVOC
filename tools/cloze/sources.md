@@ -168,3 +168,38 @@ D94-19 富蘭克林的風箏沒被閃電打中：https://www.fi.edu/en/benjamin-
 D94-20 世界第一張照片要拍好幾個小時：https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras；https://lindahall.org/joseph-nicephore-niepce
 D94-21 科學怪人其實沒有名字：https://www.newworldencyclopedia.org/entry/Frankenstein；https://www.mentalfloss.com/article/69171/10-monstrous-facts-about-frankenstein
 D94-22 被蛇咬了千萬別用嘴吸：https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html；https://www.mayoclinic.org/first-aid/first-aid-overview/basics/art-20056681
+D93-01 Jin 的〈Super Tuna〉：https://www.bandwagon.asia/articles/bts-jin-releases-surprise-super-tuna-song-bumzu-kim-seokjin-track-birthday-mixtape-kim-seokjin-worldwide-handsome-fishing-2021；https://v.daum.net/v/20240903172758226
+D93-02 ITZY 的《CHECKMATE》：https://en.wikipedia.org/wiki/Checkmate_(EP)；https://www.soompi.com/article/1529017wpp/itzy-announces-july-comeback-dates-and-cities-for-1st-world-tour-checkmate
+D93-03 TXT 的第一首英文歌〈Magic〉：https://www.dtnext.in/cinema/2021/06/11/kpop-band-tomorrow-x-together-release-first-english-song-magic；https://soompi.com/article/1474066wpp/watch-txt-lights-up-good-morning-america-with-premiere-performance-of-english-track-magic；https://en.wikipedia.org/wiki/The_Chaos_Chapter:_Freeze
+D93-04 拿下葛萊美獎的〈Golden〉：https://www.soompi.com/article/1816566wpp/golden-from-kpop-demon-hunters-makes-historic-1st-k-pop-win-；https://au.variety.com/2026/music/news/kpop-demons-hunters-grammy-win-32586
+D93-05 CORTIS 的跑步機舞蹈：https://www.tenasia.com/amp/2025081993984；https://www.allkpop.com/article/2025/08/bighits-new-boy-group-cortis-reveals-that-there-were-over-300-song-candidates-for-their-debut-shares-advice-they-received-from-bts-and-txt
+D93-06 BIGBANG 的二十週年舞台：https://www.tenasia.com/amp/2026041376784；https://www.gmanetwork.com/entertainment/showbiznews/news/132213/bigbang-ignites-coachella-stage-with-long-awaited-debut-performance/story
+D93-11 魔術強森的綽號由來：https://www.nba.com/lakers/history/alumni/earvin-magic-johnson；https://www.grunge.com/808427/this-is-how-magic-johnson-got-his-nickname
+D93-12 米拉的角旗舞：https://www.britannica.com/biography/Roger-Milla；https://www.laliga.com/en-GB/news/world-cup-legends-roger-milla
+D93-13 泰德・威廉斯的另一個最愛：https://www.thefisherman.com/article/editors-log-dual-hall-of-fame/；https://cffcm.com/hall-of-fame/2022/1/20/ted-williams；https://www.history.com/this-day-in-history/september-28/ted-williams-becomes-last-player-to-hit-400
+D93-14 雨中公園的溫班亞瑪：https://www.chess.com/news/view/nba-superstar-requested-chess-partner-in-nyc；https://en.chessbase.com/post/victory-wembanyama-plays-chess-in-ny
+D93-15 霹靂舞登上巴黎奧運：https://www.smithsonianmag.com/smart-news/breaking-just-made-its-olympic-debut-will-it-return-in-2032-180984878/；https://amp.cbc.ca/lite/story/1.7290600；https://www.cna.com.tw/news/aspt/202408110009.aspx
+D93-16 西洋棋是運動嗎？：https://en.wikipedia.org/wiki/Chess_at_the_Asian_Games；https://www.scmp.com/sport/china/article/3219787/asian-games-world-chess-champion-ding-lead-chinese-team-sport-returns-after-13-year-gap
+D93-17 黑衫軍的哈卡舞：https://www.allblacks.com/our-legacy/haka/ka-mate；https://en.wikipedia.org/wiki/Ka_Mate
+D93-21 會跳舞報路的蜜蜂：https://content.ces.ncsu.edu/honey-bee-dance-language；https://www.lindahall.org/about/news/scientist-of-the-day/karl-von-frisch/
+D93-22 小鳥唱歌要用學的：https://academy.allaboutbirds.org/birdsong/；https://acp.eugraph.com/birds/index.html
+D93-23 魔術騙的是大腦：https://gsas.harvard.edu/news/paying-attention；https://gizmodo.com/the-invisible-gorilla-returns-to-show-us-how-often-we-m-5585219
+D93-24 西洋棋大師的記憶力：https://andymatuschak.org/prompts/Chase1973.pdf；https://www.chessprogramming.org/Special:MobileDiff/5940
+D92-01 光化門前不停車的地鐵：https://sbsstar.net/article/N1008471008/seoul-to-skip-gwanghwamun-city-hall-gyeongbokgung-subway-stops-for-bts-comeback-show；https://en.fnnews.com/news/202603211256221540；https://www.news4jax.com/entertainment/2026/03/19/bts-will-stage-a-long-awaited-comeback-concert-at-a-seoul-landmark/
+D92-02 BLACKPINK 與高雄捷運的紀錄：https://www.taipeitimes.com/News/taiwan/archives/2025/10/21/2003845843；https://www.allkpop.com/article/2025/10/blackpink-concerts-generated-139-billion-won-tourism-boost-in-kaohsiung-city；https://www.thenewslens.com/article/259733
+D92-03 RM 的〈Bicycle〉：https://www.soompi.com/article/1473280wpp/listen-btss-rm-drops-new-self-composed-song-bicycle；https://au.rollingstone.com/music/music-news/hear-bts-member-rms-new-solo-song-bicycle-26338
+D92-04 智旻和 RM 的漢江單車行：https://sbsstar.net/article/N1005173079/video-bts-jimin-rm-ride-a-bicycle-together-for-the-first-time-in-3-years；https://www.elitedaily.com/p/the-video-of-bts-jimin-rms-biking-trip-will-make-you-swoon-over-their-friendship-16841934
+D92-05 首爾地鐵站的生日廣告：https://www.koreaherald.com/article/1803780；https://www.soompi.com/article/1197839wpp/seoul-metro-officials-clarify-celebrity-birthday-ads-will-continue-allowed
+D92-06 防彈少年團十週年的汝矣島之夜：https://www.koreatimes.co.kr/southkorea/society/20230616/seoul-city-on-alert-over-bts-10th-anniversary-celebration；https://news.seoul.go.kr/traffic/?p=509726
+D92-11 詹姆斯和騎士隊搭紐約地鐵：https://www.nba.com/news/lebron-james-cleveland-cavaliers-take-new-york-city-subway-back-shootaround；https://thegrio.com/2017/11/13/lebron-james-cavaliers-ride-new-york-subway-game-knicks；https://www.cbssports.com/nba/gametracker/recap/NBA_20171113_CLE@NY
+D92-12 波加查的第四座環法冠軍：https://www.nbcwashington.com/news/sports/tadej-pogacar-wins-tour-de-france-2025-fourth-time/3965455/；https://www.sbs.com.au/news/article/tour-de-france-stage-21-results-pogacar-wins-fourth-title/rkvkls9p8
+D92-13 卡文迪許的第 35 個環法賽段冠軍：https://www.cyclingnews.com/news/how-mark-cavendish-broke-eddy-merckxs-all-time-tour-de-france-stage-win-record；https://itv.com/news/granada/2024-07-03/cavendish-finally-breaks-tour-de-france-record-with-historic-win
+D92-14 亨利搭火車去踢球：https://www.mlssoccer.com/news/path-commuter-henry-loves-living-normally；https://www.mlssoccer.com/news/thierry-henry-mls-move-came-welcome-anonymity-new-york-city
+D92-15 劉金標七十三歲騎車環島：https://en.wikipedia.org/wiki/King_Liu；https://www.giant-bicycles.com/us/ridelikeking；https://www.bikeradar.com/news/ride-like-king-turns-10
+D92-16 YouBike 是怎麼走進台北的：https://en.wikipedia.org/wiki/YouBike；https://taipeitimes.com/News/taiwan/archives/2024/02/28/2003814196
+D92-17 日本騎車滑手機要罰錢：https://www.nippon.com/en/japan-data/h02655/japan-to-start-new-fine-system-for-traffic-violations-by-cyclists-in-april.html；https://www.timeout.com/tokyo/news/cyclists-in-japan-can-now-be-fined-for-minor-traffic-violations-040126
+D92-18 在凱道看環台賽：https://ocacnews.net/article/422288；https://www.taipeitimes.com/News/taiwan/archives/2026/03/16/2003853897；https://en.wikipedia.org/wiki/Tour_de_Taiwan
+D92-21 世界第一條地鐵其實靠蒸汽火車：https://ltmuseum.co.uk/visit/museum-guide/worlds-first-underground；https://www.guinnessworldrecords.com/world-records/first-underground-railway-system
+D92-22 腳踏車不倒其實不只靠輪子轉：https://www.sciencedaily.com/releases/2011/04/110414141356.htm；https://www.iamexpat.nl/expat-info/dutch-news/tu-delft-why-does-moving-bicycle-not-fall-over
+D92-23 倫敦計程車司機的大腦會改變：https://www.scientificamerican.com/article/london-taxi-memory/；https://www.npr.org/sections/thetwo-way/2011/12/09/143465903/scientists-find-studying-for-test-to-become-london-cabbie-enlarges-brain
+D92-24 騎腳踏車其實比走路省力：https://www.zmescience.com/science/physics/cycling-is-four-times-more-efficient-than-walking-a-biomechanics-expert-explains-why；https://www.bikeradar.com/features/long-reads/cycling-environmental-impact/
