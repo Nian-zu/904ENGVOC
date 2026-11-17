@@ -16,3 +16,4 @@ f33b63963a|choose,lend,measure,judge,give|Can your mom ____ a car? Yes, she driv
 10c9b4db9b|discount,record,bottle,hotel,insect,copy
 666f6259da|breads,chesses,newses,uniforms
 d47eb4b174|bathroom,dentist,bank,blanket,sandwich,destination
+d2ccfa03ce|careful,glad,nervous,anxious,serious,cross|The boy was so ____ about the new robot that he asked many questions.
