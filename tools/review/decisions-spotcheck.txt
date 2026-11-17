@@ -9,3 +9,4 @@ f33b63963a|choose,lend,measure,judge,give|Can your mom ____ a car? Yes, she driv
 5f1a051072|cash,strong,creative
 20df327b5e|jeans,candy,breakfast,clock,magazine
 0bcc9a01f6|Mark
+49cec231d1|local,real,late,sad,ready,similar

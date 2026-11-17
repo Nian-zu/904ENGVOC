@@ -263,3 +263,135 @@ In the new clothing store at the mall, there is a robot named Tobi. It helps cus
 + scan = 掃描
 + clerk = 店員
 = 購物中心新開的服飾店裡，有一個叫 Tobi 的機器人，它會幫顧客挑衣服。我一走進去，Tobi 就用它的大藍眼睛看著我說：「你好！今天想找什麼呢？」我告訴它我需要上學穿的保暖衣服。Tobi 掃描了我的身體，在螢幕上給我看了三件毛衣，接著說：「這件灰色的和你的藍色牛仔褲很搭。」我試穿了，看起來很棒。接著我問 Tobi 冬天的大衣，它推薦了一件長版的，但太貴了。「有便宜一點的嗎？」我問。Tobi 想了一下，指向一件特價的薄外套，只要六百元！我覺得 Tobi 比我認識的大部分店員都聰明。
+
+## 可以穿便服的星期五
+At our school, students usually have to wear uniforms. But last month, our principal said that on the last Friday of every month, we can wear our own clothes. Everyone was so [[excited|wooden|salty|empty]]! On the first "free dress Friday," the school looked like a fashion show. Most boys wore T-shirts and [[jeans|spoons|lemons|nurses]]. Some girls wore long skirts and cute [[sweaters|kitchens|beans|tickets]]. My friend Max wore a bright orange [[jacket|soup|tooth|menu]], and our teacher said he looked like a traffic cone. Everybody laughed. A few students even came in [[shorts|cookies|plates|knives]], though it was only fifteen degrees that day. I wore my favorite gray hoodie. It was really fun to see everyone's style. Now we all can't wait for the next free dress Friday.
+> 1 可以穿便服，大家都很興奮 excited。wooden（木製的）、salty（鹹的）、empty（空的）都不能形容人的心情。
+> 2 男生大多穿 T 恤和牛仔褲 jeans。spoons（湯匙）、lemons（檸檬）、nurses（護士）都不能穿。
+> 3 女生穿長裙和可愛的毛衣 sweaters。kitchens（廚房）、beans（豆子）、tickets（票）都不是衣服。
+> 4 Max 穿一件亮橘色外套 jacket，被說像交通錐。soup（湯）、tooth（牙齒）、menu（菜單）都不能穿。
+> 5 come in shorts「穿短褲來」，天氣只有十五度所以用 though。cookies（餅乾）、plates（盤子）、knives（刀子）都不能「穿著來上學」。
++ principal = 校長
++ fashion show = 時裝秀
++ traffic cone = 交通錐；三角錐
++ hoodie = 連帽上衣
++ style = 風格
+= 在我們學校，學生通常都得穿制服。但上個月，校長說每個月的最後一個星期五，我們可以穿自己的衣服。大家都超興奮！第一次「便服星期五」，學校看起來就像一場時裝秀。大部分男生穿 T 恤和牛仔褲，有些女生穿長裙配可愛的毛衣。我的朋友 Max 穿了一件亮橘色的外套，老師說他看起來像一個交通錐，大家都笑了。有幾個同學甚至穿短褲來，雖然那天只有十五度。我穿了我最喜歡的灰色連帽上衣。看到每個人不同的風格真的很好玩，現在大家都等不及下一個便服星期五了。
+
+## 爸媽的情侶外套
+My parents have been [[married|baked|spelled|boiled]] for twenty years, but they still act like young lovers. Last weekend, they bought matching red [[jackets|lemons|bowls|dentists]] at the mall. On Sunday, they wore them with the same blue [[jeans|candies|forks|throats]] and white sneakers. Then they asked me to go hiking with them. "No way!" I said. "People will laugh at us." But they didn't care. On the mountain, many people smiled at them, and an old couple even asked to take a photo with them. The old man was wearing a [[sweater|ticket|tooth|noodle]] with a big heart on it, and his wife was wearing the same one! "We've matched for fifty years," the old woman said. Suddenly, I didn't feel embarrassed anymore. Maybe one day, I will find someone to wear matching [[coats|plates|soups|menus]] with, too.
+> 1 have been married for twenty years「結婚二十年」。baked（烘烤）、spelled（拼字）、boiled（煮沸）都不能接 for twenty years 說夫妻關係。
+> 2 買了一模一樣的紅外套 jackets，後面說 wore them。lemons（檸檬）、bowls（碗）、dentists（牙醫）都不能穿。
+> 3 搭配一樣的藍色牛仔褲 jeans 和白球鞋。candies（糖果）、forks（叉子）、throats（喉嚨）都不是穿搭的衣服。
+> 4 老先生穿著有大愛心的毛衣 sweater，太太也穿同一款。ticket（票）、tooth（牙齒）、noodle（麵）都不能穿。
+> 5 找個人一起穿情侶大衣 coats。plates（盤子）、soups（湯）、menus（菜單）都不能「穿」。
++ lover = 情人
++ matching = 成對的；相配的
++ hiking = 健行
++ couple = 夫妻；一對
++ embarrassed = 尷尬的
+= 我爸媽已經結婚二十年了，但他們還是像年輕情侶一樣。上週末，他們在購物中心買了一模一樣的紅外套。星期天，他們穿著外套，搭配一樣的藍色牛仔褲和白球鞋，還找我一起去爬山。「才不要！」我說，「大家會笑我們啦。」但他們一點也不在意。在山上，很多人對他們微笑，一對老夫妻甚至要求和他們合照。老先生穿著一件有大愛心的毛衣，他太太竟然也穿同一件！「我們已經穿情侶裝五十年了。」老太太說。突然間，我一點也不覺得丟臉了。也許有一天，我也會找到一個人跟我一起穿情侶大衣。
+
+## 夜市殺價買短褲
+On Friday night, my cousin and I went to Shilin Night Market to buy cheap clothes for summer. At one small store, I saw a pair of green [[shorts|grapes|spoons|nurses]] that I really liked. They cost NT$350. Next to them was a pair of light blue [[jeans|lemons|knives|soups]] that my cousin wanted. My cousin whispered, "Don't pay too much. Let's [[try|bake|boil|marry]] to get a lower price." She smiled at the owner and said, "If we buy both, can you give us a better price?" The owner thought for a moment and said, "OK, NT$650 for both." Then we saw a [[jacket|noodle|tooth|ticket]] with a funny cat on the back. "How about this, too?" my cousin asked. The owner laughed and said, "You two are really good at this!" In the end, we got all three for NT$950. On the way home, it got windy, so I put on my new jacket right away. My cousin said, "See? Being [[polite|wooden|salty|empty]] always helps."
+> 1 a pair of green shorts「一件綠色短褲」，要買來夏天穿。grapes（葡萄）、spoons（湯匙）、nurses（護士）都不是服飾攤賣的衣服。
+> 2 旁邊有一條淺藍色牛仔褲 jeans 是表姊想要的。lemons（檸檬）、knives（刀子）、soups（湯）都不能用 a pair of 來說，也不是衣服。
+> 3 try to…「試著…」，試著拿到更低的價錢。bake（烘烤）、boil（煮沸）、marry（結婚）都不能接 to get a lower price。
+> 4 背後有隻好笑貓咪圖案的外套 jacket，後面也說穿上新外套。noodle（麵）、tooth（牙齒）、ticket（票）都不能穿。
+> 5 表姊笑著好好跟老闆說，所以說「有禮貌 polite 總是有幫助」。wooden（木製的）、salty（鹹的）、empty（空的）都不能形容人的態度。
++ Shilin Night Market = 士林夜市
++ whisper = 小聲說
++ windy = 風大的
+= 星期五晚上，我和表姊去士林夜市買便宜的夏天衣服。在一家小攤子，我看到一件很喜歡的綠色短褲，要價三百五十元。旁邊有一條淺藍色牛仔褲是表姊想要的。表姊小聲說：「別付那麼多，我們試著殺價看看。」她對老闆笑著說：「如果兩件都買，可以算便宜一點嗎？」老闆想了一下說：「好吧，兩件六百五。」接著我們又看到一件背後有好笑貓咪圖案的外套。「這件也一起算呢？」表姊問。老闆笑著說：「你們兩個真會殺價！」最後我們三件只花了九百五十元。回家路上起風了，我馬上穿上新外套。表姊說：「看吧？有禮貌總是有用的。」
+
+## 電影院的冷氣
+Last Saturday, my friends and I went to see the new Spider-Man movie. It was thirty-three degrees outside, so we all wore T-shirts and [[shorts|beans|plates|dentists]]. But inside the movie theater, the air conditioner was really strong. After twenty minutes, I felt so cold that I couldn't [[concentrate|bake|marry|boil]] on the movie. My friend Amy was smarter. She took a thin [[jacket|lemon|tooth|menu]] out of her bag and put it on. She also had a big [[sweater|cookie|knife|ticket]] in there, and she lent it to me. "I always bring one to the movies," she said. "Theaters in Taiwan are as cold as the North Pole." During the most exciting part, when Spider-Man was fighting the bad guy, I was finally warm. Next time, I'll wear [[jeans|candies|bowls|noodles]] instead of shorts, and I'll bring my own sweater, too!
+> 1 外面三十三度，所以大家穿 T 恤和短褲 shorts，最後一句也說 instead of shorts。beans（豆子）、plates（盤子）、dentists（牙醫）都不能穿。
+> 2 concentrate on…「專心於…」，冷到無法專心看電影。bake（烘烤）、marry（結婚）、boil（煮沸）都不能接 on the movie。
+> 3 Amy 從包包拿出一件薄外套 jacket 穿上。lemon（檸檬）、tooth（牙齒）、menu（菜單）都不能 put on。
+> 4 她還帶了一件大毛衣 sweater 借我，最後也說要帶自己的 sweater。cookie（餅乾）、knife（刀子）、ticket（票）都不能借來保暖。
+> 5 下次要穿牛仔褲 jeans 而不是短褲。candies（糖果）、bowls（碗）、noodles（麵）都不能代替短褲穿。
++ theater = 戲院
++ air conditioner = 冷氣機
++ North Pole = 北極
++ bad guy = 壞人
+= 上星期六，我和朋友去看新的蜘蛛人電影。外面三十三度，所以我們都穿 T 恤和短褲。但是電影院裡的冷氣超強，二十分鐘後，我就冷到沒辦法專心看電影。我的朋友 Amy 比較聰明，她從包包裡拿出一件薄外套穿上。她包包裡還有一件大毛衣，就借給我穿。「我去看電影都會帶一件，」她說，「台灣的電影院跟北極一樣冷。」到了最精彩的部分，蜘蛛人在跟壞人打鬥時，我終於暖和起來了。下次我要穿牛仔褲，不穿短褲，也要帶自己的毛衣！
+
+## 面試前打翻的果汁
+My sister Grace had an important interview for a summer job last Tuesday. She got up early to get ready. Mom always says, "Never wear [[jeans|lemons|forks|nurses]] to an interview," so Grace chose a white shirt, a gray [[coat|bowl|tooth|cookie]], and black pants. At breakfast, she was so [[nervous|wooden|salty|crowded]] that her hands kept shaking. Then it happened. She knocked over her glass of orange juice, and it went all over her coat! "Oh no! What should I do?" she cried. There was no time to wash it. Mom quickly ran to her room and came back with her own dark blue [[jacket|soup|banana|ticket]]. "Wear this. It will look nice with your pants," she said. Grace put it on, and it fit her perfectly. She [[arrived|baked|spelled|married]] at the interview just in time. That evening, she came home with a big smile. She got the job! Now she calls Mom's jacket her "lucky jacket."
+> 1 媽媽說面試絕對不要穿牛仔褲 jeans，所以改穿正式的衣服。lemons（檸檬）、forks（叉子）、nurses（護士）都不能「穿去面試」。
+> 2 她選了白襯衫、灰色大衣 coat 和黑褲子，後面果汁也灑在 her coat 上。bowl（碗）、tooth（牙齒）、cookie（餅乾）都不能穿。
+> 3 緊張 nervous 到手一直發抖。wooden（木製的）、salty（鹹的）、crowded（擁擠的）都不能形容人的心情。
+> 4 媽媽拿來自己的深藍色外套 jacket 給她穿，最後也叫它 lucky jacket。soup（湯）、banana（香蕉）、ticket（票）都不能穿。
+> 5 arrive at…「到達…」，及時趕到面試。baked（烘烤）、spelled（拼字）、married（結婚）都不能接 at the interview。
++ knock over = 打翻
++ just in time = 及時
+= 上星期二，我姊姊 Grace 要參加一場暑期打工的重要面試。她一早就起床準備。媽媽總是說：「面試絕對不能穿牛仔褲。」所以 Grace 選了白襯衫、灰色大衣和黑色長褲。吃早餐時，她緊張到手一直發抖。結果事情就發生了：她打翻了一杯柳橙汁，果汁灑得她大衣上到處都是！「完了！我該怎麼辦？」她大叫。根本沒時間洗了。媽媽馬上跑回房間，拿來她自己的深藍色外套。「穿這件，配你的褲子會很好看。」她說。Grace 穿上後剛好合身。她及時趕到了面試。那天晚上，她帶著大大的笑容回家——她錄取了！現在她把媽媽那件外套叫做「幸運外套」。
+
+## 阿公閣樓裡的隱形外套
+One rainy afternoon, I found a strange old [[jacket|spoon|lemon|plate]] in my grandpa's attic. It was silver and felt as light as paper. When I put it on and looked in the mirror, I couldn't [[believe|bake|marry|spell]] my eyes. I was invisible! Only my head, my blue [[jeans|candies|forks|nurses]], and my shoes were still there. It looked like a head was floating above a pair of pants! I ran downstairs to scare my sister. She was watching TV in her pajamas and a big [[sweater|kitchen|tooth|soup]]. When she saw me, she screamed and threw a pillow at me. Grandpa came out to see what happened. He laughed and said, "So you found my old magic jacket! I [[wore|boiled|spelled|prayed]] it when I was your age to hide from my teacher." Now the jacket is our family's biggest secret.
+> 1 在閣樓找到一件奇怪的舊外套 jacket，後面說穿上 put it on。spoon（湯匙）、lemon（檸檬）、plate（盤子）都不能穿上身。
+> 2 couldn't believe my eyes「不敢相信自己的眼睛」。bake（烘烤）、marry（結婚）、spell（拼字）都不能接 my eyes 這樣用。
+> 3 只剩下頭、藍色牛仔褲 jeans 和鞋子看得到，後面也說 a pair of pants。candies（糖果）、forks（叉子）、nurses（護士）都不是身上穿的。
+> 4 姊姊穿著睡衣和一件大毛衣 sweater 看電視。kitchen（廚房）、tooth（牙齒）、soup（湯）都不能穿。
+> 5 阿公小時候穿 wore 這件外套躲老師。boiled（煮沸）、spelled（拼字）、prayed（祈禱）都不能接 it 指外套。
++ attic = 閣樓
++ invisible = 隱形的
++ float = 漂浮
++ pajamas = 睡衣
++ pillow = 枕頭
+= 一個下雨的下午，我在阿公家的閣樓找到一件奇怪的舊外套。它是銀色的，摸起來跟紙一樣輕。我穿上它看著鏡子，簡直不敢相信自己的眼睛——我隱形了！只剩下我的頭、藍色牛仔褲和鞋子還看得到，看起來就像一顆頭飄在一條褲子上面！我跑下樓去嚇姊姊。她穿著睡衣和一件大毛衣在看電視，看到我時尖叫一聲，拿枕頭丟我。阿公走出來看發生了什麼事，他笑著說：「原來你找到我那件魔法外套了！我像你這麼大的時候，都穿它來躲老師。」現在這件外套是我們家最大的秘密。
+
+## 清晨的基隆海邊釣魚
+My dad loves fishing. Last Sunday, he woke me up at four in the morning to go fishing with him in Keelung. It was still dark, and the wind from the sea was very cold. Dad made me wear a [[sweater|lemon|ticket|bowl]] and a thick [[coat|fork|nurse|cookie]] over it. "It's not winter!" I said. But when we got to the harbor, I was happy to have them. Dad wore old [[jeans|grapes|plates|candies]] and his favorite fishing [[jacket|soup|menu|kitchen]] with many small pockets. He keeps hooks and snacks in them. We sat quietly for two hours, and I almost fell asleep. Suddenly, my line moved! I pulled hard, and a big fish came out of the water. Dad was so [[proud|wooden|empty|salty]] that he took twenty photos of me with it.
+> 1 爸爸叫我穿一件毛衣 sweater，外面再加厚大衣。lemon（檸檬）、ticket（票）、bowl（碗）都不能穿。
+> 2 a thick coat over it「在毛衣外面套一件厚大衣」。fork（叉子）、nurse（護士）、cookie（餅乾）都不能穿在毛衣外面。
+> 3 爸爸穿舊牛仔褲 jeans 去釣魚。grapes（葡萄）、plates（盤子）、candies（糖果）都不能穿。
+> 4 有很多小口袋的釣魚外套 jacket，可以放魚鉤和零食。soup（湯）、menu（菜單）、kitchen（廚房）都不是穿在身上、有口袋的東西。
+> 5 我釣到大魚，爸爸很驕傲 proud，拍了二十張照片。wooden（木製的）、empty（空的）、salty（鹹的）都不能形容人的心情。
++ Keelung = 基隆
++ harbor = 港口
++ hook = 魚鉤
++ line = 釣魚線
+= 我爸爸很愛釣魚。上星期天，他凌晨四點就把我叫醒，帶我去基隆釣魚。天還是黑的，海風非常冷。爸爸要我穿一件毛衣，外面再套一件厚大衣。「現在又不是冬天！」我說。但到了港口，我很慶幸有穿。爸爸穿著舊牛仔褲，還有他最喜歡的釣魚外套，上面有很多小口袋，他把魚鉤和零食都放在裡面。我們安靜地坐了兩個小時，我差點睡著。突然間，我的釣線動了！我用力一拉，一條大魚從水裡跳了出來。爸爸驕傲到幫我和那條魚拍了二十張照片。
+
+## 分不清的雙胞胎
+Amy and Annie are twins in my class. They look exactly the same, and they love to [[wear|bake|boil|spell]] the same clothes. Every day, they come to school in the same white T-shirts and blue [[jeans|spoons|lemons|nurses]]. Our new English teacher, Mr. Brown, could never [[remember|bake|marry|boil]] who was who. One day, he had a smart idea. He gave Amy a red ribbon and Annie a blue one. But the next day, the twins switched ribbons as a joke! Mr. Brown called Amy "Annie" all day. Finally, the twins felt sorry for him. The next morning, Amy came to school in a yellow [[jacket|soup|tooth|ticket]], and Annie wore a green [[sweater|cookie|bowl|menu]]. "Yellow is Amy, and green is Annie," Amy said with a smile. Mr. Brown laughed and said, "Thank you! Now my life is much easier."
+> 1 love to wear the same clothes「喜歡穿一樣的衣服」。bake（烘烤）、boil（煮沸）、spell（拼字）都不能接 clothes。
+> 2 穿一樣的白 T 恤和藍色牛仔褲 jeans。spoons（湯匙）、lemons（檸檬）、nurses（護士）都不能穿。
+> 3 老師老是記不得 remember 誰是誰。bake（烘烤）、marry（結婚）、boil（煮沸）都不能接 who was who。
+> 4 Amy 穿黃色外套 jacket 來學校。soup（湯）、tooth（牙齒）、ticket（票）都不能穿。
+> 5 Annie 穿綠色毛衣 sweater，用顏色分辨兩人。cookie（餅乾）、bowl（碗）、menu（菜單）都不能穿。
++ twins = 雙胞胎
++ exactly = 完全地
++ ribbon = 緞帶
++ switch = 交換
+= Amy 和 Annie 是我們班上的雙胞胎。她們長得一模一樣，而且喜歡穿一樣的衣服。她們每天都穿著同樣的白 T 恤和藍色牛仔褲來上學。我們新來的英文老師 Brown 先生總是記不得誰是誰。有一天，他想到一個好方法：給 Amy 一條紅緞帶，給 Annie 一條藍緞帶。沒想到隔天雙胞胎開玩笑地把緞帶交換了！Brown 老師一整天都把 Amy 叫成「Annie」。最後，雙胞胎覺得對老師不好意思。隔天早上，Amy 穿著黃色外套來上學，Annie 則穿了綠色毛衣。「黃色是 Amy，綠色是 Annie。」Amy 笑著說。Brown 老師笑著說：「謝謝你們！現在我輕鬆多了。」
+
+## 跑步社的寒冬晨練
+I'm in the running club at school. Every morning at 6:30, we run around the track ten times. In summer, it's easy to get out of bed, and we all run in T-shirts and [[shorts|beans|lemons|nurses]]. But winter is a different story. Last week, it was only eight degrees. When my alarm rang, I really didn't want to [[leave|bake|spell|marry]] my warm bed. Finally, I put on a [[sweater|ticket|tooth|bowl]], a jacket, and long pants, and rode my bike to school. My coach, Ms. Chang, was already there in a big down [[coat|plate|soup|menu]]. "Take off your jacket after you warm up," she said. After three laps, I was warm enough to take off my [[jacket|noodle|banana|kitchen]]. When we finished, the sun was coming up, and the sky was pink and orange. I felt tired but happy. Getting up early in winter is hard, but it's worth it.
+> 1 夏天大家穿 T 恤和短褲 shorts 跑步。beans（豆子）、lemons（檸檬）、nurses（護士）都不能穿。
+> 2 冬天鬧鐘響了，不想離開 leave 溫暖的床。bake（烘烤）、spell（拼字）、marry（結婚）都不能接 my warm bed。
+> 3 穿上一件毛衣 sweater、外套和長褲出門。ticket（票）、tooth（牙齒）、bowl（碗）都不能穿。
+> 4 a down coat「羽絨外套」，教練穿著它在操場等。plate（盤子）、soup（湯）、menu（菜單）都不能「穿著」。
+> 5 跑了三圈夠暖了，就把外套 jacket 脫掉，呼應教練說的 Take off your jacket。noodle（麵）、banana（香蕉）、kitchen（廚房）都不能脫掉。
++ track = 跑道
++ alarm = 鬧鐘
++ down coat = 羽絨外套
++ warm up = 暖身
++ lap = （跑道的）一圈
+= 我是學校跑步社的社員。每天早上六點半，我們要繞跑道跑十圈。夏天很容易起床，大家都穿 T 恤和短褲跑步。但冬天就不一樣了。上星期，氣溫只有八度，鬧鐘響的時候，我真的很不想離開溫暖的床。最後我穿上毛衣、外套和長褲，騎腳踏車去學校。張教練已經穿著一件大羽絨外套在那裡等了。「暖身之後就把外套脫掉。」她說。跑了三圈之後，我已經暖到可以脫掉外套。我們跑完時，太陽正好升起，天空一片粉紅和橘色。我覺得很累，但很開心。冬天早起雖然很難，但很值得。
+
+## 送給街友的冬衣
+Every December, my family joins a winter event at a church near Taipei Main Station. We collect warm clothes for homeless people. This year, I asked my classmates to [[give|bake|boil|marry]] their old clothes too. In two weeks, we got more than one hundred [[coats|lemons|spoons|candies]], fifty sweaters, and lots of hats and gloves. On the day of the event, it was cold and rainy. Many people were waiting in line. An old man chose a brown [[jacket|soup|ticket|menu]] and put it on right away. "It's so warm. Thank you," he said with tears in his eyes. A young woman took a pink [[sweater|cookie|knife|bowl]] for her daughter. I also gave a man a pair of [[jeans|grapes|plates|forks]] because his pants had big holes in them. That night, I didn't feel cold at all, even though I gave away my favorite coat.
+> 1 請同學也捐出 give 他們的舊衣服。bake（烘烤）、boil（煮沸）、marry（結婚）都不能接 old clothes。
+> 2 收到一百多件大衣 coats、五十件毛衣。lemons（檸檬）、spoons（湯匙）、candies（糖果）都不是冬衣。
+> 3 老先生選了一件棕色外套 jacket，馬上穿上。soup（湯）、ticket（票）、menu（菜單）都不能穿。
+> 4 年輕媽媽幫女兒拿了一件粉紅毛衣 sweater。cookie（餅乾）、knife（刀子）、bowl（碗）都不是募集的衣物。
+> 5 給一位褲子破洞的人一條牛仔褲 jeans。grapes（葡萄）、plates（盤子）、forks（叉子）都不能代替褲子。
++ church = 教會
++ Taipei Main Station = 台北車站
++ homeless = 無家可歸的
++ wait in line = 排隊
++ give away = 送出
+= 每年十二月，我們家都會參加台北車站附近一間教會舉辦的冬季活動，為無家可歸的人募集保暖衣物。今年，我也請同學們捐出他們的舊衣服。兩個星期內，我們收到一百多件大衣、五十件毛衣，還有很多帽子和手套。活動那天又冷又下雨，很多人在排隊。一位老先生選了一件棕色外套，馬上就穿上。「好溫暖，謝謝你們。」他眼眶含淚地說。一位年輕女士幫她的女兒拿了一件粉紅色毛衣。我也給了一位先生一條牛仔褲，因為他的褲子破了好幾個大洞。那天晚上，雖然我把自己最喜歡的大衣送出去了，我卻一點也不覺得冷。
