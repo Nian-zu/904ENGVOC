@@ -125,3 +125,131 @@ In the year 2080, every home has a smart closet. Mine is called Max. Every morni
 + embarrassing = 令人尷尬的
 + princess = 公主
 = 在 2080 年，每個家庭都有一個智慧衣櫃，我的叫做 Max。每天早上，Max 會查天氣，然後告訴我要穿什麼。「三點會下雨，請帶傘。」他說。Max 也什麼都記得，如果我忘了帶錢包或眼鏡，他會在我出門前叫住我。上週，Max 犯了一個大錯。他的電腦壞了，竟然選了一件粉紅色的派對洋裝讓我穿去學校，而我是男生！我一直沒注意到，直到同學們開始大笑。真是太丟臉了。爸爸當晚就把 Max 修好了。現在出門前，我一定會先照鏡子檢查衣服。Max 很聰明，但我再也不想打扮得像公主了！
+
+## 颱風天白跑一趟
+Last week, a typhoon came to Taiwan. School was open in the morning, so I had to walk there. I took my biggest [[umbrella|pumpkin|fever|nurse]], but when I turned the corner, a strong wind turned it inside out! Then the wind blew my [[cap|soup|cough|knee]] off my head and into a puddle. I was wet from head to toe. When I arrived at school, my teacher was [[surprised|salty|sour|bitter]] to see me. "Didn't you hear the news? The government just closed all the schools. Everyone is going home!" she said. So I had to walk back home in the rain. On the way, I stopped at a store to buy a new umbrella, but I couldn't find my [[wallet|throat|fever|tooth]] in my bag. I had left it on my desk at home! The store owner [[felt|fried|boiled|spelled]] sorry for me and lent me an old umbrella. I'll bring it back to her after the typhoon.
+> 1 颱風天帶最大的雨傘 umbrella 出門，後面說風把它吹得外翻。pumpkin（南瓜）、fever（發燒）、nurse（護士）都不能被風吹到 inside out。
+> 2 風把頭上的帽子 cap 吹進水坑。soup（湯）、cough（咳嗽）、knee（膝蓋）都不是戴在頭上會被吹走的東西。
+> 3 be surprised to see…「看到…很驚訝」，老師沒想到停課了我還來。salty（鹹的）、sour（酸的）、bitter（苦的）都是食物的味道，不能形容人看到某人的反應。
+> 4 想買傘卻在包包裡找不到錢包 wallet，後面說忘在書桌上。throat（喉嚨）、fever（發燒）、tooth（牙齒）都不能放在書桌上忘了帶。
+> 5 feel sorry for…「同情…」，老闆同情我，借我一把舊傘。fried（油炸）、boiled（煮沸）、spelled（拼字）都不能和 sorry for me 搭配。
++ typhoon = 颱風
++ inside out = 裡外翻過來
++ puddle = 水坑
++ from head to toe = 從頭到腳
+= 上週，有個颱風來到台灣。早上學校照常上課，所以我得走路去學校。我帶了我最大的一把傘，但一轉過街角，一陣強風就把傘吹得整個外翻！接著風又把我頭上的帽子吹進水坑裡，我從頭到腳都濕透了。我到學校時，老師看到我很驚訝。「你沒聽到新聞嗎？政府剛剛宣布所有學校停課，大家都要回家了！」她說。所以我只好再冒雨走回家。路上，我停在一家店想買把新傘，卻在包包裡找不到錢包，我把它忘在家裡的書桌上了！店老闆很同情我，借了我一把舊傘。颱風過後我會拿去還她。
+
+## 外婆的婚紗
+My aunt is getting married next month. She doesn't want to buy a new wedding [[dress|cough|fever|throat]]. Instead, she wants to wear the one Grandma wore fifty years ago. Last weekend, Grandma took it out of a big box. It was white and long, but it was a little [[dirty|salty|sour|spicy]] after so many years, so my aunt took it to a shop to have it cleaned. Grandma put on her [[glasses|noodles|pumpkins|fevers]] to look at the small flowers on it. "I sewed these by hand," she said proudly. Grandma also gave my aunt an old red [[wallet|throat|cough|knee]]. Inside it, there was a coin from her own wedding day. "Keep this, and you'll never be poor," she said. My aunt cried and hugged her. I think the wedding will be very [[special|salty|sour|bitter]] because the dress has so much love in it.
+> 1 wedding dress「婚紗」，後面說要穿外婆五十年前穿過的那件。cough（咳嗽）、fever（發燒）、throat（喉嚨）都不能買來穿。
+> 2 放了很多年，婚紗有點髒 dirty，所以拿去送洗。salty（鹹的）、sour（酸的）、spicy（辣的）都是味道，不能形容衣服，也和「送洗」無關。
+> 3 戴上眼鏡 glasses 看衣服上的小花。noodles（麵）、pumpkins（南瓜）、fevers（發燒）都不能戴來幫助看東西。
+> 4 紅色的舊錢包 wallet，裡面裝著一枚硬幣。throat（喉嚨）、cough（咳嗽）、knee（膝蓋）都不能送人、也不能裝硬幣。
+> 5 婚紗充滿了愛，婚禮會很特別 special。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容婚禮。
++ wedding = 婚禮
++ sew = 縫
++ proudly = 驕傲地
++ coin = 硬幣
+= 我阿姨下個月要結婚了。她不想買新的婚紗，而是想穿外婆五十年前穿過的那一件。上週末，外婆從一個大箱子裡把它拿出來。婚紗又白又長，但放了這麼多年有點髒了，所以阿姨把它拿去店裡送洗。外婆戴上眼鏡，看著婚紗上的小花。「這些是我親手縫的。」她驕傲地說。外婆還送給阿姨一個紅色的舊錢包，裡面有一枚她自己結婚那天的硬幣。「留著它，妳就永遠不會窮。」她說。阿姨哭著抱住她。我想這場婚禮一定會很特別，因為那件婚紗裡裝滿了愛。
+
+## 愛戴帽子的柴犬
+My dog Mochi is a Shiba Inu, and he loves wearing hats. It started last summer. The sun was so hot that I put my old baseball [[cap|soup|cough|fever]] on his head. I thought he would take it off, but he [[seemed|fried|boiled|coughed]] very happy. Now, every time I take him for a walk, he waits by the door until I put the cap on him. People on the street always stop to take photos. On rainy days, I hold an [[umbrella|pumpkin|tooth|lesson]] over both of us. Last month, my sister even made a tiny [[dress|knee|fever|throat]] for him to wear at her birthday party. Mochi didn't like it, so he ran under the table. I guess he only likes caps. Mochi is famous on the internet now, and some people even send him gifts. My mom says he has more fans than I do, and she's [[right|salty|sour|bitter]].
+> 1 把舊的棒球帽 cap 戴在狗狗頭上遮太陽，後面也說出門前要幫牠戴 the cap。soup（湯）、cough（咳嗽）、fever（發燒）都不能戴在頭上。
+> 2 seem + 形容詞「看起來…」，牠看起來很開心。fried（油炸）、boiled（煮沸）、coughed（咳嗽）後面都不能接 very happy。
+> 3 下雨天撐一把雨傘 umbrella 遮我們兩個。pumpkin（南瓜）、tooth（牙齒）、lesson（課）都不能拿來遮雨。
+> 4 妹妹做了一件小洋裝 dress 給牠在派對上穿。knee（膝蓋）、fever（發燒）、throat（喉嚨）都不能做出來給狗穿。
+> 5 媽媽說狗狗的粉絲比我多，她說得對 right。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容一個人說的話對不對。
++ Shiba Inu = 柴犬
++ internet = 網路
++ fan = 粉絲
+= 我的狗狗麻糬是一隻柴犬，牠超愛戴帽子。這是從去年夏天開始的。那時太陽好大，我就把我的舊棒球帽戴在牠頭上。我以為牠會把帽子甩掉，但牠看起來很開心。現在每次我帶牠去散步，牠都會在門邊等，直到我幫牠戴上帽子。路上的人總是停下來拍照。下雨天，我會撐一把傘遮住我們兩個。上個月，我妹妹甚至做了一件小洋裝，讓牠在她的生日派對上穿。麻糬不喜歡，就跑到桌子底下躲起來。我猜牠只喜歡帽子吧。麻糬現在在網路上很紅，有些人甚至會寄禮物給牠。媽媽說牠的粉絲比我還多，她說得沒錯。
+
+## 爸爸的防丟小幫手
+My dad loses things all the time. Last year, he lost his [[wallet|throat|fever|cough]] three times. So for Father's Day, I gave him a small tracker. It's a tiny round thing that you can put inside your wallet. If you can't [[find|fry|boil|cough]] it, you just open an app on your phone, and it will show you where your wallet is. Dad loved it so much that he bought four more. He put one on his keys, one in his [[glasses|noodles|pumpkins|headaches]] case, and one on his black [[umbrella|lemon|tooth|nurse]]. He even put one on our cat's collar. Last week, Dad couldn't find his phone. "No problem," he said. "I'll just use the app." Then he stopped and [[laughed|baked|borrowed|described]]. The app is on his phone!
+> 1 爸爸一年弄丟三次錢包 wallet，後面說追蹤器可以放進 your wallet。throat（喉嚨）、fever（發燒）、cough（咳嗽）都不是會弄丟的東西。
+> 2 找不到 find 錢包時，打開 app 就能知道它在哪裡。fry（油炸）、boil（煮沸）、cough（咳嗽）都和「找東西」無關。
+> 3 glasses case「眼鏡盒」，放一個在眼鏡盒裡。noodles（麵）、pumpkins（南瓜）、headaches（頭痛）都不能和 case 組成隨身物品。
+> 4 放一個在他的黑色雨傘 umbrella 上。lemon（檸檬）、tooth（牙齒）、nurse（護士）都不是會帶出門又常弄丟的黑色物品。
+> 5 爸爸想到 app 就在手機裡，忍不住笑了 laughed。baked（烘烤）、borrowed（借入）、described（描述）都不能表示發現好笑的事時的反應，而且 borrowed、described 需要受詞。
++ tracker = 追蹤器
++ app = 手機應用程式
++ collar = 項圈
+= 我爸爸老是弄丟東西，去年他就弄丟了三次錢包。所以父親節時，我送他一個小小的追蹤器。它是一個圓圓的小東西，可以放進錢包裡。如果找不到錢包，只要打開手機上的 app，就會顯示錢包在哪裡。爸爸超愛它，又多買了四個。他放一個在鑰匙上、一個在眼鏡盒裡、一個在他的黑雨傘上，甚至還放一個在我們家貓咪的項圈上。上週，爸爸找不到他的手機。「沒問題，」他說，「我用 app 找就好。」接著他停了下來，笑了出來。那個 app 就在他的手機裡啊！
+
+## 歌仔戲的後台
+My aunt works for a Taiwanese opera group. Last weekend, she took me backstage before a show at a temple. The room was full of colorful costumes and hats. I watched the actors [[dress|borrow|describe|fry]] for the show. It took them over an hour to put on their makeup and clothes. One actor played a rich old man. He wore a big black hat and a pair of round [[glasses|noodles|pumpkins|fevers]] with no glass in them. "They're just for the look," he told me. Another actor played a young lady. She wore a long pink [[dress|cough|throat|lesson]] with gold flowers on it. During the show, it started to rain, but nobody left. The people in the audience just opened their [[umbrellas|teeth|pumpkins|fevers]] and kept watching. After the show, the actors were very tired, but they were still [[glad|salty|sour|bitter]] to take photos with the kids.
+> 1 dress for the show「為了表演換裝打扮」，dress 在這裡是動詞。borrow（借入）、describe（描述）都需要受詞；fry（油炸）是料理，都不能表示演員換裝。
+> 2 a pair of round glasses「一副圓眼鏡」，後面說鏡框裡沒有鏡片。noodles（麵）、pumpkins（南瓜）、fevers（發燒）都不能戴在臉上。
+> 3 演小姐的演員穿著粉紅色長洋裝 dress。cough（咳嗽）、throat（喉嚨）、lesson（課）都不能穿在身上。
+> 4 下雨了，觀眾打開雨傘 umbrellas 繼續看戲。teeth（牙齒）、pumpkins（南瓜）、fevers（發燒）都不能打開來遮雨。
+> 5 be glad to…「樂意…」，演員很累但還是樂意和小朋友拍照。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容人的心情。
++ Taiwanese opera = 歌仔戲
++ backstage = 後台
++ costume = 戲服
++ makeup = 化妝；妝
++ audience = 觀眾
+= 我阿姨在一個歌仔戲團工作。上週末，在一場廟口演出開始前，她帶我去後台。房間裡滿是色彩繽紛的戲服和帽子。我看著演員們為演出換裝打扮，他們花了一個多小時才化好妝、穿好衣服。有一位演員演一個有錢的老爺，他戴著一頂大黑帽和一副圓眼鏡，但眼鏡裡沒有鏡片。「這只是裝個樣子。」他告訴我。另一位演員演一位年輕小姐，她穿著一件有金色花朵的粉紅色長裙裝。演出中下起雨來，但沒有人離開，台下的觀眾只是打開雨傘繼續看。演出結束後，演員們都很累了，但還是很樂意和小朋友們合照。
+
+## 外星人的地球打扮
+Zib was an alien from a faraway planet. He wanted to learn about Earth, so he flew his spaceship to Taipei. To look like a human, he studied photos from the internet. Then he put on a pink [[dress|cough|fever|throat]], a big yellow cap, and three pairs of [[glasses|noodles|pumpkins|headaches]], one on top of another. He also carried an umbrella, though it was a sunny day. When he walked down the street, everyone looked at him. Zib was [[worried|salty|sour|bitter]]. "Why are they looking at me?" he thought. Then a little girl came up to him. "Your clothes are fun, but you don't need an [[umbrella|lemon|tooth|nurse]] today. And you only need one pair of glasses," she said kindly. Zib thanked her and took off two pairs. Then he went into a store to buy a T-shirt, but he didn't have a [[wallet|throat|fever|knee]] or any money. Living on Earth was harder than he thought!
+> 1 外星人穿上一件粉紅色洋裝 dress 想打扮成地球人。cough（咳嗽）、fever（發燒）、throat（喉嚨）都不能 put on 穿在身上。
+> 2 three pairs of glasses「三副眼鏡」，疊在一起戴，後面女孩說只要一副就好。noodles（麵）、pumpkins（南瓜）、headaches（頭痛）都不能用 pairs 數，也不能戴。
+> 3 大家都盯著他看，Zib 很擔心 worried。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容人的心情。
+> 4 大晴天不需要雨傘 umbrella，前面也說他帶了傘。lemon（檸檬）、tooth（牙齒）、nurse（護士）都和晴天、雨天無關。
+> 5 想買 T 恤，卻沒有錢包 wallet 也沒有錢。throat（喉嚨）、fever（發燒）、knee（膝蓋）都不是買東西要帶的。
++ alien = 外星人
++ planet = 星球
++ spaceship = 太空船
++ human = 人類
+= Zib 是一個來自遙遠星球的外星人。他想認識地球，所以開著太空船飛到台北。為了看起來像人類，他研究了網路上的照片，然後穿上一件粉紅色洋裝、戴上一頂大黃帽，還戴了三副疊在一起的眼鏡。雖然是大晴天，他也帶著一把傘。他走在街上時，每個人都盯著他看。Zib 很擔心，心想：「他們為什麼都看著我？」這時，一個小女孩走過來。「你的衣服很好玩，可是今天不需要傘喔。而且眼鏡只要戴一副就好了。」她親切地說。Zib 謝謝她，拿下了兩副眼鏡。接著他走進一家店想買件 T 恤，但他沒有錢包，也沒有半毛錢。在地球生活比他想的還難啊！
+
+## 失物招領處的小幫手
+This semester, I volunteer at our school's lost and found. Every day after lunch, I sort the things that students have left behind. You won't believe how many [[umbrellas|fevers|coughs|lessons]] there are! On rainy mornings, students bring them to school, but on sunny afternoons, they forget them. Last Monday, someone brought in a black [[wallet|throat|fever|knee]] with 3,000 dollars in it. I checked the student card inside and found the owner, a boy in ninth grade. He was so [[glad|salty|sour|bitter]] that he almost cried. Another day, a teacher came looking for her [[glasses|noodles|pumpkins|fevers]]. She couldn't read her students' homework without them. I found them in a box under a pile of baseball [[caps|soups|coughs|knees]]. She thanked me and gave me a chocolate. I love this job because I can help people every day.
+> 1 失物招領處有很多雨傘 umbrellas，後面說雨天早上帶來、晴天下午就忘了。fevers（發燒）、coughs（咳嗽）、lessons（課）都不是會被忘在學校的物品。
+> 2 黑色錢包 wallet 裡有三千元和學生證。throat（喉嚨）、fever（發燒）、knee（膝蓋）都不能裝錢、被送到失物招領處。
+> 3 找回錢包，他高興 glad 到差點哭出來。salty（鹹的）、sour（酸的）、bitter（苦的）都是味道，不能形容人的心情。
+> 4 老師來找眼鏡 glasses，沒有它看不了作業。noodles（麵）、pumpkins（南瓜）、fevers（發燒）都不能幫助看字。
+> 5 baseball caps「棒球帽」，眼鏡壓在一堆棒球帽下面。soups（湯）、coughs（咳嗽）、knees（膝蓋）都不能和 baseball 組成被遺失的物品。
++ volunteer = 當志工
++ lost and found = 失物招領處
++ sort = 分類
++ pile = 一堆
+= 這學期，我在學校的失物招領處當志工。每天午餐後，我都會整理同學們遺留下來的東西。你一定不敢相信這裡有多少把雨傘！下雨的早上大家帶傘來學校，到了出太陽的下午就忘了。上週一，有人送來一個黑色錢包，裡面有三千元。我看了裡面的學生證，找到了失主，是一個九年級的男生。他高興到差點哭出來。還有一天，一位老師來找她的眼鏡，沒有眼鏡她就沒辦法改學生的作業。我在一個箱子裡、一堆棒球帽底下找到了它。她謝謝我，還給了我一顆巧克力。我很喜歡這份工作，因為每天都能幫助別人。
+
+## 小狐狸的換裝商店
+My favorite video game is about a little fox who travels around a magic island. In the game, you can collect coins and buy clothes for your fox. Last night, I finally had enough coins to buy the rare blue [[dress|cough|fever|throat]] with stars on it. I also bought a tiny red [[cap|soup|tooth|knee]] and a pair of heart-shaped [[glasses|noodles|pumpkins|headaches]]. My fox looked so cute! But then it started to rain in the game, and my fox's clothes got wet. I had to go back to the shop to buy an [[umbrella|lemon|fever|nurse]], but I didn't have any coins left. My little brother laughed and said, "In real life, you never [[remember|fry|boil|cough]] your umbrella, either." He was right. I left mine on the bus last week.
+> 1 存夠金幣買那件有星星的藍色洋裝 dress 給狐狸穿。cough（咳嗽）、fever（發燒）、throat（喉嚨）都不能在商店買來當衣服。
+> 2 還買了一頂小紅帽 cap。soup（湯）、tooth（牙齒）、knee（膝蓋）都不是服裝商店賣的衣服配件。
+> 3 a pair of heart-shaped glasses「一副愛心形狀的眼鏡」。noodles（麵）、pumpkins（南瓜）、headaches（頭痛）都不能用 a pair of 來數。
+> 4 遊戲裡下雨，要回商店買雨傘 umbrella，弟弟後面也提到 your umbrella。lemon（檸檬）、fever（發燒）、nurse（護士）都不能遮雨。
+> 5 弟弟說我現實中也從來不記得 remember 帶傘，接著說我把傘忘在公車上。fry（油炸）、boil（煮沸）、cough（咳嗽）都不能用在雨傘上。
++ video game = 電玩遊戲
++ fox = 狐狸
++ coin = 金幣；硬幣
++ rare = 稀有的
++ heart-shaped = 愛心形狀的
+= 我最喜歡的電玩遊戲是關於一隻小狐狸在魔法島上到處旅行。在遊戲裡，你可以收集金幣，幫狐狸買衣服。昨天晚上，我終於存夠金幣，買下那件稀有的、有星星圖案的藍色洋裝。我還買了一頂小紅帽和一副愛心形狀的眼鏡。我的狐狸看起來超可愛！但接著遊戲裡下起雨來，狐狸的衣服都濕了。我得回商店買一把傘，可是我已經沒有金幣了。弟弟笑著說：「在現實生活中，你也從來不記得帶傘啊。」他說得沒錯，我上週才把傘忘在公車上。
+
+## 運動會的啦啦隊
+Every year, our school has a sports day in November. This year, our class decided to make a cheering team. We all wore the same red [[caps|soups|coughs|knees]] and white T-shirts. Our class leader, Yuki, made a big sign that said "Class 904, Go!" In the morning, the sun was very strong, and many students wore dark [[glasses|noodles|pumpkins|fevers]]. Our class did well in the 400-meter relay. When our last runner crossed the finish line first, we all [[cheered|fried|boiled|borrowed]] loudly. But in the afternoon, it suddenly started to rain. Most of us didn't have [[umbrellas|teeth|lemons|fevers]], so we held our sign over our heads. It didn't help much. We were all wet, but we were still [[proud|salty|sour|bitter]] of our team. We won second place!
+> 1 全班戴一樣的紅帽子 caps、穿白 T 恤。soups（湯）、coughs（咳嗽）、knees（膝蓋）都不能和 T 恤一起穿戴。
+> 2 太陽很大，很多同學戴深色眼鏡 dark glasses（墨鏡）。noodles（麵）、pumpkins（南瓜）、fevers（發燒）都不能戴在臉上擋太陽。
+> 3 最後一棒第一個衝過終點，我們都大聲歡呼 cheered。fried（油炸）、boiled（煮沸）、borrowed（借入）都不能表示看比賽時的反應。
+> 4 突然下雨，大部分人沒有雨傘 umbrellas，只好拿標語擋雨。teeth（牙齒）、lemons（檸檬）、fevers（發燒）都不能擋雨。
+> 5 be proud of…「以…為榮」，雖然淋濕了還是以班隊為榮。salty（鹹的）、sour（酸的）、bitter（苦的）都不能和 of our team 搭配形容心情。
++ sports day = 運動會
++ cheering team = 啦啦隊
++ relay = 接力賽
++ finish line = 終點線
+= 我們學校每年十一月都有運動會。今年，我們班決定組一支啦啦隊。大家都戴一樣的紅帽子，穿白色 T 恤。班長 Yuki 做了一個大標語，上面寫著「904 加油！」早上太陽很大，很多同學都戴著墨鏡。我們班在 400 公尺接力表現很好，當最後一棒第一個衝過終點線時，我們全都大聲歡呼。但到了下午，突然下起雨來。我們大部分人都沒帶傘，只好把標語舉在頭上擋雨，但沒什麼用。大家都淋濕了，但我們還是以我們的班隊為榮。我們得到第二名！
+
+## 錢包裡的舊車票
+Last month, my grandpa gave me his old brown [[wallet|throat|fever|cough]]. "I bought this in Japan fifty years ago," he said. "Now it's yours." When I opened it, I found an old train [[ticket|soup|knee|tooth]] inside. It was from Taipei to Hualien, and the date was 1975. "Why did you keep this?" I asked. Grandpa put on his [[glasses|noodles|pumpkins|fevers]] and looked at it for a long time. Then he smiled. "That was the day I met your grandma. It was raining, and she [[shared|fried|boiled|coughed]] her umbrella with me at the station." I was surprised. Grandma had never told me that. Now, I keep the ticket in the wallet, just like Grandpa did. And whenever it rains, I always carry an extra [[umbrella|lemon|fever|nurse]]. Who knows? I might meet someone special, too.
+> 1 爺爺送我他的咖啡色舊錢包 wallet，後面打開它找到車票。throat（喉嚨）、fever（發燒）、cough（咳嗽）都不能送人、打開。
+> 2 train ticket「火車票」，上面有台北到花蓮和日期。soup（湯）、knee（膝蓋）、tooth（牙齒）都不能和 train 組成會印日期的東西。
+> 3 戴上眼鏡 glasses 仔細看車票。noodles（麵）、pumpkins（南瓜）、fevers（發燒）都不能戴著看東西。
+> 4 share A with B「和 B 共用 A」，奶奶和爺爺共撐一把傘。fried（油炸）、boiled（煮沸）、coughed（咳嗽）都不能用 with me 表示和人共用。
+> 5 下雨時我總是多帶一把雨傘 umbrella，像奶奶一樣可以分給別人。lemon（檸檬）、fever（發燒）、nurse（護士）都和下雨無關。
++ Hualien = 花蓮
++ extra = 額外的
+= 上個月，爺爺把他咖啡色的舊錢包送給我。「這是我五十年前在日本買的，」他說，「現在它是你的了。」我打開錢包，在裡面找到一張舊火車票，是從台北到花蓮的，日期是 1975 年。「你為什麼留著這個？」我問。爺爺戴上眼鏡，看了它好久，然後笑了。「那天是我遇見你奶奶的日子。那天下著雨，她在車站和我共撐一把傘。」我好驚訝，奶奶從來沒跟我說過這件事。現在，我也像爺爺一樣，把那張車票放在錢包裡。而且每次下雨，我都會多帶一把傘。誰知道呢？說不定我也會遇見一個特別的人。
