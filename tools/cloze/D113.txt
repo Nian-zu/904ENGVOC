@@ -24,7 +24,7 @@ My grandma has a thick blue folder. Inside, there are hundreds of [[coupons|coug
 = 我阿嬤有一個厚厚的藍色資料夾，裡面有幾百張從報紙和傳單上剪下來的折價券。她把它們按照日期和店家分類，每天早上都會檢查哪些還能用。上個星期天，她帶我去一家大百貨公司。她用了一張折價券買毛巾、一張買平底鍋，還有一張買我的新書包。收銀員算好之後說：「您省了一千五百元！」排在我們後面的人都為她歡呼，阿嬤看起來很驕傲。回家路上，她給了我一個屬於我自己的小資料夾。「現在就開始收集吧，」她說，「等你有了家庭，你會感謝我的。」我把資料夾放在床邊，現在每個星期還會看超市的傳單。
 
 ## 試吃大軍
-My little brother Tim loves free samples. Every time we go to the [[supermarket|cough|throat|toe]], he walks slowly past every table. He tries sausages, cheese, dumplings, and juice. One Sunday, Mom said, "Tim, we are here to buy food, not to eat it all for free!" But Tim had a plan. He took a [[coupon|fever|knee|spoon]] from the sausage table and gave it to Mom. "Look! If you buy two bags, you get one free," he said. Mom [[checked|fried|boiled|spelled]] the price. It was a good deal, so she bought them. At the counter, she paid in [[cash|throat|sock|lemon]] and looked at the long [[receipt|knee|cough|fever]]. "Okay," she laughed, "your free lunch finally saved us some money."
+My little brother Tim loves free samples. Every time we go to the [[supermarket|cough|throat|toe]], he walks slowly past every table. He tries sausages, cheese, dumplings, and juice. One Sunday, Mom said, "Tim, we are here to buy food, not to eat it all for free!" But Tim had a plan. He took a [[coupon|fever|knee|spoon]] from the sausage table and gave it to Mom. "Look! If you buy two bags, you get one free," he said. Mom [[checked|fried|boiled|spelled]] the price. It was a good deal, so she bought them. At the counter, she paid in [[cash|throat|sock|lemon]] and looked at the long [[receipt|knee|cough|fever]]. "Okay," she laughed, "your free lunch finally saved us some money." Tim was very proud of himself and said he would find more coupons next week.
 > 1 the supermarket「超市」，有試吃攤位。cough、throat、toe 都不是地點。
 > 2 coupon「折價券」：從香腸攤拿的，買兩包送一包。fever、knee、spoon 都不會寫優惠內容。
 > 3 checked the price「看了一下價格」。fried、boiled、spelled 接 the price 都不通。
@@ -33,7 +33,7 @@ My little brother Tim loves free samples. Every time we go to the [[supermarket|
 + sample = 試吃品、樣品
 + sausage = 香腸
 + deal = 交易；划算的買賣
-= 我弟弟 Tim 超愛免費試吃。每次我們去超市，他都會慢慢地經過每一個試吃攤，香腸、起司、水餃、果汁都要吃一口。有個星期天，媽媽說：「Tim，我們是來買東西的，不是來把東西全部免費吃光的！」但 Tim 早有計畫。他從香腸攤拿了一張折價券給媽媽。「你看！買兩包送一包。」他說。媽媽看了看價格，覺得很划算，就買了。到了櫃台，她付了現金，看著長長的收據笑著說：「好啦，你的免費午餐總算幫我們省了一點錢。」
+= 我弟弟 Tim 超愛免費試吃。每次我們去超市，他都會慢慢地經過每一個試吃攤，香腸、起司、水餃、果汁都要吃一口。有個星期天，媽媽說：「Tim，我們是來買東西的，不是來把東西全部免費吃光的！」但 Tim 早有計畫。他從香腸攤拿了一張折價券給媽媽。「你看！買兩包送一包。」他說。媽媽看了看價格，覺得很划算，就買了。到了櫃台，她付了現金，看著長長的收據笑著說：「好啦，你的免費午餐總算幫我們省了一點錢。」Tim 對自己非常得意，還說下星期要找更多折價券。
 
 ## 洗衣機裡的鈔票
 On Monday morning, Dad couldn't find his wallet. He [[looked|fried|boiled|spelled]] everywhere: in the car, under the sofa, and even in the fridge. Then Mom opened the washing machine and screamed. Dad's wallet was inside, and so was all his [[cash|knee|cough|throat]]! The bills were wet and stuck together. There was also a long [[receipt|fever|toe|spoon]] from the supermarket. It was now just a ball of soft white paper. Dad sat down and laughed. "Well, at least my money is clean now," he joked. We put the bills on the table to dry. Luckily, most of them were fine. Dad used them to buy breakfast the next day, but he had to [[explain|fry|boil|spell]] to the clerk why they looked so strange. Now Mom always checks every [[pocket|lemon|bean|cough]] before she washes clothes.
@@ -49,7 +49,7 @@ On Monday morning, Dad couldn't find his wallet. He [[looked|fried|boiled|spelle
 = 星期一早上，爸爸找不到他的錢包。他到處找：車上、沙發底下，連冰箱都找過了。後來媽媽打開洗衣機，尖叫了一聲——爸爸的錢包就在裡面，他所有的現金也是！鈔票濕答答地黏在一起，還有一張超市的長收據，現在已經變成一團軟軟的白紙。爸爸坐下來哈哈大笑。「至少我的錢現在很乾淨了。」他開玩笑說。我們把鈔票攤在桌上晾乾，還好大部分都沒事。隔天爸爸用那些錢買早餐，但他得跟店員解釋為什麼鈔票看起來這麼奇怪。現在媽媽洗衣服前都會檢查每一個口袋。
 
 ## 頂樓的舊遊樂場
-When my dad was a child, the old [[department|knee|throat|cough]] store in our city had a small amusement park on the roof. There was a merry-go-round, a tiny train, and a machine that gave out candy. Every Sunday, Grandpa took him there. The rides did not take [[cash|fever|toe|spoon]]. Instead, you bought paper tickets at the entrance. Dad still has one old ticket and a faded [[receipt|lemon|sock|bean]] from 1988 in his drawer. Last year, the store closed, and the roof park was [[taken|fried|boiled|spelled]] down. Dad was sad, so he took me to the roof before it was gone. We stood there quietly and looked at the city. "This was my [[favorite|salty|sour|thirsty]] place in the whole world," he said softly.
+When my dad was a child, the old [[department|knee|throat|cough]] store in our city had a small amusement park on the roof. There was a merry-go-round, a tiny train, and a machine that gave out candy. Every Sunday, Grandpa took him there. The rides did not take [[cash|fever|toe|spoon]]. Instead, you bought paper tickets at the entrance. Dad still has one old ticket and a faded [[receipt|lemon|sock|bean]] from 1988 in his drawer. Last year, the store closed, and the roof park was [[taken|fried|boiled|spelled]] down. Dad was sad, so he took me to the roof before it was gone. We stood there quietly and looked at the city. "This was my [[favorite|salty|sour|thirsty]] place in the whole world," he said softly. Then he took out the old ticket and gave it to me. "Now it is your treasure," he said.
 > 1 department store「百貨公司」。knee、throat、cough 不能和 store 組成地點。
 > 2 take cash「收現金」：遊樂設施不收現金，要買紙票。fever、toe、spoon 都不是錢。
 > 3 a faded receipt「一張褪色的收據」，和舊票一起收在抽屜。lemon、sock、bean 放三十多年不會說是「1988 年的…」紀念品。
@@ -59,7 +59,7 @@ When my dad was a child, the old [[department|knee|throat|cough]] store in our c
 + merry-go-round = 旋轉木馬
 + entrance = 入口
 + faded = 褪色的
-= 我爸爸小時候，我們城市那家老百貨公司的頂樓有一座小小的遊樂園，有旋轉木馬、迷你火車，還有一台會掉出糖果的機器。每個星期天，阿公都會帶他去。遊樂設施不收現金，要在入口買紙票。爸爸的抽屜裡到現在還留著一張舊票，和一張 1988 年、已經褪色的收據。去年那家百貨公司結束營業，頂樓的遊樂園也被拆了。爸爸很難過，就在拆掉之前帶我上了頂樓。我們靜靜地站在那裡看著城市。「這裡曾經是我在全世界最喜歡的地方。」他輕聲說。
+= 我爸爸小時候，我們城市那家老百貨公司的頂樓有一座小小的遊樂園，有旋轉木馬、迷你火車，還有一台會掉出糖果的機器。每個星期天，阿公都會帶他去。遊樂設施不收現金，要在入口買紙票。爸爸的抽屜裡到現在還留著一張舊票，和一張 1988 年、已經褪色的收據。去年那家百貨公司結束營業，頂樓的遊樂園也被拆了。爸爸很難過，就在拆掉之前帶我上了頂樓。我們靜靜地站在那裡看著城市。「這裡曾經是我在全世界最喜歡的地方。」他輕聲說。接著他拿出那張舊票交給我。「現在它是你的寶貝了。」他說。
 
 ## 超市裡走失的狗
 On a rainy afternoon, a wet little dog ran into our neighborhood [[supermarket|fever|throat|toe]]. It went straight to the meat section and sat down. The workers tried to [[catch|fry|boil|spell]] it, but it was too fast. Customers laughed as it ran between the shelves. Finally, a girl gave it a piece of bread, and it stopped running. There was a phone number on its collar, so the manager called the owner. Twenty minutes later, an old man came in. "Lucky! There you are!" he shouted. To say thank you, he bought a big bag of dog food and a cake for the workers. He paid in [[cash|knee|lemon|cough]] and left a [[coupon|sock|spoon|bean]] for free coffee for the girl. The store kept his [[receipt|toe|fever|throat]] on the wall, with a photo of Lucky.
@@ -87,7 +87,7 @@ In Taiwan, every [[receipt|fever|cough|knee]] from a store is also a lottery tic
 = 在台灣，每一張商店的收據（發票）也是一張彩券，政府每兩個月會選出中獎號碼。大部分的人都直接把發票丟掉，但我阿姨會把它們全部收在一個大盒子裡。上個月，她請我幫她對發票，我們花了兩個小時看號碼。突然我大叫：「阿姨，這張中了一千元！」那是她在一家小超市買一瓶醬油的發票。我們好開心。她去郵局領了現金，然後帶我去百貨公司，買了一雙新球鞋給我。「是你找到的，你值得一份禮物。」她說。
 
 ## 殭屍也要逛超市
-In the town of Grayhill, zombies are not scary. They are just a little slow. Every Thursday night, the [[supermarket|cough|knee|fever]] opens late just for them. The zombies push their carts very, very slowly. They love [[looking|frying|boiling|spelling]] for brain-shaped jelly and cold soup. The clerks are patient. "Take your time, Mr. Bones," they say with a smile. Zombies never use cards. They always pay in [[cash|throat|toe|spoon]], and the coins are often a hundred years old! Last week, a zombie named Ruby brought a [[coupon|lemon|bean|sock]] for 50% off. "I found it in my grave," she said. The clerk checked it and laughed. It was from 1923. She still gave Ruby the discount and a free [[receipt|fever|knee|throat]] holder as a gift.
+In the town of Grayhill, zombies are not scary. They are just a little slow. Every Thursday night, the [[supermarket|cough|knee|fever]] opens late just for them. The zombies push their carts very, very slowly. They love [[looking|frying|boiling|spelling]] for brain-shaped jelly and cold soup. The clerks are patient. "Take your time, Mr. Bones," they say with a smile. Zombies never use cards. They always pay in [[cash|throat|toe|spoon]], and the coins are often a hundred years old! Last week, a zombie named Ruby brought a [[coupon|lemon|bean|sock]] for 50% off. "I found it in my grave," she said. The clerk checked it and laughed. It was from 1923. She still gave Ruby the discount and a free [[receipt|fever|knee|throat]] holder as a gift. Ruby was so happy that she smiled, and one of her teeth fell out.
 > 1 the supermarket「超市」為殭屍晚開。cough、knee、fever 都不是商店。
 > 2 look for「尋找」：他們喜歡找大腦形狀的果凍。frying、boiling、spelling 都不能和 for 搭配表示「找」。
 > 3 pay in cash「付現金」，後面說硬幣有一百年歷史。throat、toe、spoon 不能放在 pay in 後面。
@@ -98,7 +98,7 @@ In the town of Grayhill, zombies are not scary. They are just a little slow. Eve
 + jelly = 果凍
 + grave = 墳墓
 + holder = 夾子、架子
-= 在灰丘鎮，殭屍一點也不可怕，只是動作有點慢。每個星期四晚上，超市都會為了他們晚點打烊。殭屍們推著推車，非常非常慢地前進。他們最喜歡找大腦形狀的果凍和冷湯。店員們都很有耐心。「慢慢來，骨頭先生。」他們笑著說。殭屍從來不用卡，總是付現金，而且硬幣常常已經有一百年歷史了！上星期，一個叫 Ruby 的殭屍帶來一張半價折價券。「我在我的墳墓裡找到的。」她說。店員一看就笑了，那是 1923 年的。她還是給了 Ruby 折扣，還送她一個收據夾當禮物。
+= 在灰丘鎮，殭屍一點也不可怕，只是動作有點慢。每個星期四晚上，超市都會為了他們晚點打烊。殭屍們推著推車，非常非常慢地前進。他們最喜歡找大腦形狀的果凍和冷湯。店員們都很有耐心。「慢慢來，骨頭先生。」他們笑著說。殭屍從來不用卡，總是付現金，而且硬幣常常已經有一百年歷史了！上星期，一個叫 Ruby 的殭屍帶來一張半價折價券。「我在我的墳墓裡找到的。」她說。店員一看就笑了，那是 1923 年的。她還是給了 Ruby 折扣，還送她一個收據夾當禮物。Ruby 開心得笑了出來，結果掉了一顆牙。
 
 ## 百貨公司的玩具部
 When I was six, my favorite place was the toy [[department|throat|fever|cough]] on the fifth floor of a big store downtown. There were trains, robots, dolls, and a huge box of colorful balls. I could stay there for hours. One day, I wanted a red fire truck, but Mom said it was too [[expensive|lazy|rude|thirsty]]. I cried and refused to leave. A kind clerk came over and showed me a small [[coupon|knee|toe|lemon]] book. "If your mom buys something today, she can get 30% off next time," she said. Mom smiled and bought me a small puzzle. Two weeks later, we came back, and the fire truck was cheaper with the coupon. Mom paid in [[cash|fever|bean|sock]]. I still have the fire truck, and Mom still has the [[receipt|spoon|cough|throat]] in her old photo album.
@@ -190,7 +190,7 @@ High on a mountain lived a dragon named Grumble. People said he had a cave full 
 = 高高的山上住著一隻叫 Grumble 的龍，大家都說他有一個裝滿黃金的洞穴。有一天，一個名叫 Tess 的勇敢女孩爬上山去找寶藏。她走進洞裡，卻一塊黃金都沒看到，取而代之的是來自王國每家商店的好幾千張折價券。「黃金很無聊，」Grumble 說，「有了這些，我在這片土地上任何一家超市都能打五折！」Tess 笑了：「可是龍不能去買東西啊，大家都怕你。」Grumble 看起來很難過。於是 Tess 提出一個建議：她每個星期幫他買食物，他每次給她一張折價券。Grumble 答應了，甚至還從床底下拿出一袋舊鈔票給她。現在 Tess 幫一隻龍買菜，而且每次都會把收據帶給他，讓他檢查價格。
 
 ## 停電的超市
-Last Friday evening, the power went out in our whole neighborhood. I was at the [[supermarket|knee|cough|throat]] with my mom at the time. Suddenly, all the lights went off, and the cash registers stopped working. People couldn't pay with cards or phones. The manager stood on a chair and shouted, "We can only take [[cash|toe|fever|spoon]] now!" Luckily, Mom had some money in her wallet. The cashiers used flashlights and calculators to add up the prices. They couldn't print a [[receipt|lemon|bean|sock]], so they wrote everything by hand. It was slow, but nobody complained. Some people even [[offered|fried|boiled|spelled]] to hold flashlights for the workers. When we walked out, the stars were very bright. Mom said, "Sometimes a little trouble brings people [[together|salty|sour|spicy]]."
+Last Friday evening, the power went out in our whole neighborhood. I was at the [[supermarket|knee|cough|throat]] with my mom at the time. Suddenly, all the lights went off, and the cash registers stopped working. People couldn't pay with cards or phones. The manager stood on a chair and shouted, "We can only take [[cash|toe|fever|spoon]] now!" Luckily, Mom had some money in her wallet. The cashiers used flashlights and calculators to add up the prices. They couldn't print a [[receipt|lemon|bean|sock]], so they wrote everything by hand. It was slow, but nobody complained. Some people even [[offered|fried|boiled|spelled]] to hold flashlights for the workers. When we walked out, the stars were very bright. Mom said, "Sometimes a little trouble brings people [[together|salty|sour|spicy]]." Later, a cashier told us that when the lights came back, everyone in the store clapped.
 > 1 at the supermarket「在超市」。knee、cough、throat 都不是地點。
 > 2 take cash「收現金」：停電刷卡機不能用。toe、fever、spoon 都不能當付款方式。
 > 3 print a receipt「印收據」：印不出來所以用手寫。lemon、bean、sock 都不是印表機印出來的東西。
@@ -201,7 +201,7 @@ Last Friday evening, the power went out in our whole neighborhood. I was at the 
 + flashlight = 手電筒
 + calculator = 計算機
 + complain = 抱怨
-= 上星期五傍晚，我們整個社區都停電了。當時我正和媽媽在超市裡。突然所有的燈都熄了，收銀機也停了，大家都不能用卡或手機付款。店長站到椅子上大喊：「現在只能收現金！」還好媽媽的錢包裡有一些錢。收銀員用手電筒和計算機來算價錢，因為印不出收據，所以全部用手寫。雖然很慢，但沒有人抱怨，有些人甚至主動幫員工拿手電筒照明。我們走出超市時，星星好亮。媽媽說：「有時候，一點小麻煩反而會讓大家團結在一起。」
+= 上星期五傍晚，我們整個社區都停電了。當時我正和媽媽在超市裡。突然所有的燈都熄了，收銀機也停了，大家都不能用卡或手機付款。店長站到椅子上大喊：「現在只能收現金！」還好媽媽的錢包裡有一些錢。收銀員用手電筒和計算機來算價錢，因為印不出收據，所以全部用手寫。雖然很慢，但沒有人抱怨，有些人甚至主動幫員工拿手電筒照明。我們走出超市時，星星好亮。媽媽說：「有時候，一點小麻煩反而會讓大家團結在一起。」後來一位收銀員告訴我們，電來的那一刻，店裡的每個人都拍起手來。
 
 ## 公園長椅上的信封
 On my way home from school, I saw a brown envelope on a park bench. I opened it and found 20,000 dollars in [[cash|knee|cough|toe]]! There was also a [[receipt|fever|spoon|throat]] from a hospital inside. My heart beat fast. I could buy a new game, new shoes, and lots of snacks. But then I began to [[worry|fry|boil|spell]] about the person who lost it. Maybe the money was for someone who was sick. So I took the envelope to the police station. An hour later, an old woman came in, crying. The money was for her husband's medicine. She hugged me and gave me a [[coupon|lemon|bean|sock]] for a free dinner at her son's restaurant. That night, my parents said they were very [[proud|salty|sour|spicy]] of me. That felt better than any new game.
@@ -252,3 +252,128 @@ My grandma is seventy-five, and she still pays for everything in [[cash|cough|to
 + photo album = 相簿
 + practice = 練習
 = 我外婆七十五歲了，買什麼都還是付現金。上個月，我表姊教她用手機付款。「很簡單啦，外婆，只要出示這個條碼就好。」她說。隔天，外婆在超市試著用，結果按錯按鈕，打開了她的相簿。收銀員看到了五十張她的貓的照片。排隊的人都笑了起來，外婆自己也笑了。最後，她拿出舊錢包，用老方法付了錢，還用了一張紙本的米折價券。回到家，她拿收據給我看，說：「你看，紙從來不會出錯。」不過她每天晚上還是會拿手機出來練習。
+
+## 用折價券交到的朋友
+Mrs. Chang, our new neighbor, moved in last spring. She was quiet, and nobody really knew her. One day, I saw her at the [[supermarket|cough|knee|toe]] with a pile of coupons. She was sorting them on a bench. I had a [[coupon|fever|throat|spoon]] for cat food in my pocket, but we didn't have a cat. "Do you need this?" I asked. Her eyes lit up. "My cat, Mochi, loves this brand!" From then on, we [[shared|fried|boiled|spelled]] coupons every week. She gave me ones for snacks, and I gave her ones for pet food. Soon, she was inviting me in for tea. Now she isn't [[lonely|salty|sour|spicy]] anymore, and I have a new friend. Last week, she even saved her [[receipt|lemon|bean|sock]] from the pet shop to show me how much money our trading saved her.
+> 1 at the supermarket「在超市」。cough、knee、toe 都不是地點。
+> 2 a coupon for cat food「貓飼料折價券」。fever、throat、spoon 都不能接 for cat food 表示優惠。
+> 3 shared coupons「分享（互換）折價券」，後面說你給我零食的、我給你寵物食品的。fried、boiled、spelled 接 coupons 都不通。
+> 4 not lonely anymore「不再寂寞」，前面說她很安靜、沒人認識她。salty、sour、spicy 都是味道，不能形容心情。
+> 5 her receipt「她的收據」可以看出省了多少錢。lemon、bean、sock 上面沒有金額。
++ pile = 一疊
++ brand = 品牌
++ trade = 交換
++ Mochi = 麻糬（貓的名字）
+= 我們的新鄰居張太太去年春天搬來。她很安靜，大家其實都不太認識她。有一天，我在超市看到她拿著一大疊折價券，坐在長椅上整理。我口袋裡剛好有一張貓飼料折價券，但我們家沒有養貓。「你需要這個嗎？」我問。她眼睛一亮：「我的貓麻糬最愛這個牌子了！」從那之後，我們每個星期都會交換折價券。她給我零食的，我給她寵物食品的。很快地，她就開始邀我進去喝茶了。現在她不再寂寞，我也多了一個新朋友。上星期，她甚至把寵物店的收據留下來，給我看我們的交換幫她省了多少錢。
+
+## 超市裡的捉迷藏
+When I was seven, I played hide-and-seek with my cousin in a big [[supermarket|throat|fever|cough]]. It was a terrible idea. I hid behind a huge pile of watermelons, and my cousin couldn't [[find|fry|boil|spell]] me. Ten minutes passed, then twenty. My mom started to look for me too. She was so [[worried|salty|sour|spicy]] that she asked the manager for help. Soon, a voice came from the speakers: "Will a girl named Lily please come to the front desk?" I knew I was in trouble. I walked out slowly. Mom hugged me first, and then she gave me a long talk. To say sorry, I gave her my birthday [[cash|knee|toe|spoon]] from Grandpa to pay for the groceries. She kept the [[receipt|lemon|bean|sock]] and wrote on it: "Never play hide-and-seek in a store again."
+> 1 a big supermarket「一間大超市」。throat、fever、cough 都不是地點。
+> 2 couldn't find me「找不到我」。fry、boil、spell 接 me 都不合理。
+> 3 so worried that…「擔心到…」：找不到孩子，所以請店長幫忙。salty、sour、spicy 都不能形容心情。
+> 4 birthday cash「生日收到的現金」，拿來付買菜的錢。knee、toe、spoon 都不能拿來付錢。
+> 5 kept the receipt and wrote on it「留下收據並在上面寫字」。lemon、bean、sock 都不適合拿來寫字當警告。
++ hide-and-seek = 捉迷藏
++ speaker = 擴音器
++ groceries = 買的食品雜貨
+= 我七歲的時候，和表妹在一間大超市裡玩捉迷藏，那真是個糟糕的主意。我躲在一大堆西瓜後面，表妹一直找不到我。十分鐘過去了，接著二十分鐘。媽媽也開始找我，她擔心到去請店長幫忙。很快地，擴音器傳來一個聲音：「請一位叫 Lily 的小妹妹到服務台。」我知道我麻煩大了，只好慢慢走出來。媽媽先抱住我，然後好好地訓了我一頓。為了道歉，我把阿公給我的生日現金拿出來付買菜的錢。媽媽留下那張收據，在上面寫著：「再也不准在店裡玩捉迷藏。」
+
+## 回到 1990 年的超市
+Jake found an old watch in his grandpa's drawer. When he turned it, everything around him began to shake. Suddenly, he was standing in front of a [[supermarket|cough|knee|toe]] he had never seen. The cars looked old, and people were wearing big jackets. A newspaper said "1990." Jake was hungry, so he went inside. A bottle of milk cost only 35 dollars! He tried to pay with his phone, but the cashier looked confused. "Do you have [[cash|toe|throat|belt]]?" she asked. Jake checked his pocket and found a 50-dollar coin. "This coin is from 2015," the cashier said. "Is it a toy?" Jake [[ran|fried|boiled|spelled]] out of the store and turned the watch again. He was back in his grandpa's room. The only thing he brought back was a tiny paper [[receipt|bean|sock|spoon]] with a handwritten "Thank you, come again!" at the bottom. He never [[showed|fried|boiled|spelled]] it to anyone, but he still keeps it in his wallet.
+> 1 in front of a supermarket「在一家超市前面」，後面他走進去買牛奶。cough、knee、toe 都不是建築物。
+> 2 Do you have cash?「你有現金嗎？」1990 年不能用手機付款。toe（腳趾）、throat（喉嚨）、belt（皮帶）都不是付款方式。
+> 3 ran out of the store「跑出店外」。fried、boiled、spelled 接 out of the store 都不通。
+> 4 a paper receipt「紙本收據」，上面寫著「謝謝光臨」。bean、sock、spoon 上面不會手寫字。
+> 5 show + 物 + to + 人「把某物給某人看」：他從沒給任何人看過。fried、boiled、spelled 都不能用「物 to 人」的句型。
++ drawer = 抽屜
++ confused = 困惑的
++ handwritten = 手寫的
+= Jake 在阿公的抽屜裡找到一支舊手錶。他一轉動手錶，周圍的一切就開始搖晃。突然，他站在一間從沒見過的超市前面。路上的車子看起來很舊，大家都穿著大外套，報紙上寫著「1990」。Jake 肚子餓了，就走了進去。一瓶牛奶竟然只要 35 元！他想用手機付錢，但收銀員一臉困惑：「你有現金嗎？」她問。Jake 摸了摸口袋，找到一枚五十元硬幣。「這枚硬幣是 2015 年的，」收銀員說，「是玩具嗎？」Jake 跑出店外，又轉了一次手錶，他回到了阿公的房間。他唯一帶回來的，是一張小小的紙本收據，最下面手寫著「謝謝光臨，歡迎再來！」他從來沒有給任何人看過，但他到現在還把那張收據放在錢包裡。
+
+## 比圍巾還長的收據
+My friend Owen bought only one bottle of water at a convenience store, but the clerk handed him a [[receipt|cough|knee|toe]] that was almost one meter long! Owen held it up and laughed. "Is this a receipt or a scarf?" he asked. Most of it was full of ads and [[coupons|fevers|throats|spoons]]: 10% off coffee, buy one get one free on ice cream, and a free bag of chips at the [[supermarket|lemon|bean|sock]] next door. Owen decided to use them all. That week, he saved 300 dollars. "This is the most [[useful|salty|sour|spicy]] piece of paper I have ever had," he said. But his mom wasn't happy. "Think about how many trees we [[waste|fry|boil|spell]] on long receipts," she said. Now Owen uses the store app instead, and he still gets the coupons.
+> 1 a receipt「收據」：買一瓶水拿到快一公尺長的收據。cough、knee、toe 都不是店員遞的紙。
+> 2 ads and coupons「廣告和折價券」，後面列出各種優惠。fevers、throats、spoons 都不會印在收據上。
+> 3 the supermarket next door「隔壁的超市」。lemon、bean、sock 都不是商店。
+> 4 the most useful piece of paper「最有用的一張紙」：幫他省了三百元。salty、sour、spicy 都不能形容紙張。
+> 5 waste trees「浪費樹木」：長收據很浪費紙。fry、boil、spell 接 trees 都不通。
++ scarf = 圍巾
++ ad = 廣告
++ app = 應用程式
+= 我朋友 Owen 在便利商店只買了一瓶水，店員卻遞給他一張快一公尺長的收據！Owen 把它舉起來笑著問：「這是收據還是圍巾？」上面大部分都是廣告和折價券：咖啡九折、冰淇淋買一送一，還有隔壁超市的一包免費洋芋片。Owen 決定全部都用掉，那個星期他省了三百元。「這是我拿過最有用的一張紙。」他說。但他媽媽不太高興。「想想看我們在長收據上浪費了多少樹。」她說。現在 Owen 改用商店的 app，一樣拿得到折價券。
+
+## 在百貨公司走散了
+Last Sunday, my family went to a big [[department|fever|throat|cough]] store to buy a gift for Grandma. My little brother Max, who is five, held my hand at first. But when I stopped to look at some sneakers, he [[disappeared|fried|boiled|spelled]]. I looked everywhere on the third floor. My heart was beating so fast. Mom told a clerk, and the clerk called the other floors. Five minutes later, we heard Max's name on the speaker. He was at the candy shop on the first floor! When we got there, Max was holding a lollipop. "A nice lady gave it to me," he said. Mom wanted to [[pay|fry|boil|spell]] for it, but the shop owner said no. So Mom bought a big box of chocolates there and paid in [[cash|knee|lemon|sock]]. On the [[receipt|toe|bean|spoon]], the owner wrote, "Hold his hand next time!"
+> 1 department store「百貨公司」，有好幾層樓。fever、throat、cough 不能和 store 組成地點。
+> 2 disappeared「不見了」：我停下來看鞋子，弟弟就不見了。fried、boiled、spelled 都不能表示人走失。
+> 3 pay for it「付錢買它」：媽媽想付棒棒糖的錢。fry、boil、spell 都不能接 for it 表示付錢。
+> 4 pay in cash「付現金」。knee、lemon、sock 不能放在 pay in 後面。
+> 5 on the receipt「在收據上」寫字。toe、bean、spoon 都不適合寫字提醒。
++ speaker = 擴音器
++ lollipop = 棒棒糖
++ disappear = 消失
+= 上星期天，我們全家去一家大百貨公司買禮物送阿嬤。我五歲的弟弟 Max 一開始牽著我的手，但我停下來看球鞋時，他就不見了。我把三樓找了一遍，心跳得好快。媽媽告訴一位店員，店員打電話通知其他樓層。五分鐘後，我們聽到廣播叫 Max 的名字——他在一樓的糖果店！我們趕到時，Max 手裡拿著一支棒棒糖。「一位好心的阿姨給我的。」他說。媽媽想付棒棒糖的錢，但店老闆不肯收。於是媽媽在那裡買了一大盒巧克力，付了現金。老闆在收據上寫著：「下次要牽好他的手！」
+
+## 美國超市的巨大推車
+This summer, I visited my uncle in Texas. On the first day, he took me to an American [[supermarket|cough|knee|toe]]. Everything was huge! The shopping carts were as big as a small car, and the milk came in giant bottles. There was even a whole aisle just for [[different|lazy|rude|thirsty]] kinds of cereal. I counted more than eighty boxes. My uncle had a stack of paper [[coupons|fevers|throats|lemons]] from the newspaper, and he used almost all of them. At the end, the cashier asked, "Cash or card?" My uncle paid by card, but I paid for my own snacks in [[cash|bean|sock|spoon]]. I wanted to use the dollars I [[saved|fried|boiled|spelled]] for the trip. It felt like a small adventure. When I got home to Taiwan, our neighborhood supermarket suddenly looked very small and cute.
+> 1 an American supermarket「一家美國超市」。cough、knee、toe 都不是地點。
+> 2 different kinds of cereal「不同種類的穀片」，後面說數到八十多盒。lazy（懶惰的）、rude（無禮的）、thirsty（口渴的）都是形容人的字，不能形容穀片的種類。
+> 3 paper coupons from the newspaper「報紙上的紙本折價券」。fevers、throats、lemons 都不能從報紙剪下來使用。
+> 4 pay in cash「付現金」，和 by card 對比。bean、sock、spoon 不能放在 pay in 後面。
+> 5 the dollars I saved「我存下來的美元」。fried、boiled、spelled 接 dollars 都不通。
++ Texas = 德州
++ aisle = 走道
++ cereal = 早餐穀片
++ stack = 一疊
++ adventure = 冒險
+= 今年夏天，我去德州找我叔叔。第一天，他帶我去一家美國超市。每樣東西都好大！購物推車跟一台小車子一樣大，牛奶也是超大瓶的。甚至有一整條走道只賣各種不同的早餐穀片，我數了一下，超過八十盒。叔叔有一疊從報紙剪下來的折價券，幾乎全部都用掉了。最後收銀員問：「現金還是刷卡？」叔叔刷卡，而我用現金付了自己的零食錢，我想用為這趟旅行存下來的美元。那感覺就像一場小小的冒險。回到台灣後，我們社區的超市突然看起來好小、好可愛。
+
+## 現金與刷卡的辯論
+In English class, Mr. Lin gave us a debate topic: "Is cash better than cards?" Our class was divided into two teams. My team was on the [[cash|cough|knee|toe]] side. "With paper money, you can see how much you spend," I said. "Kids who use cards often spend too much." The other team had good points too. "Cards are safer. If you lose your wallet, you lose everything," said Amy. "And many [[department|fever|throat|spoon]] stores give extra points to card users." Then Ben from my team held up a long [[receipt|lemon|bean|sock]]. "My mom paid by card last week and didn't notice a mistake until she checked this," he said. Everyone [[laughed|fried|boiled|spelled]]. In the end, Mr. Lin said both teams won. "The real answer," he said, "is to be careful with money, cash or card. And always use your [[coupons|knees|fevers|throats]]!"
+> 1 the cash side「現金這一方」，後面我說紙鈔可以看到花了多少。cough、knee、toe 都不能當辯論的立場。
+> 2 department stores「百貨公司」給刷卡的人額外點數。fever、throat、spoon 不能和 stores 組成地點。
+> 3 a long receipt「一張長長的收據」，看了才發現錯誤。lemon、bean、sock 上面不會有帳目。
+> 4 Everyone laughed.「大家都笑了。」fried、boiled、spelled 都不能表示聽到後的反應。
+> 5 use your coupons「使用折價券」省錢。knees、fevers、throats 都不能「使用」來省錢。
++ debate = 辯論
++ divide = 分成
++ point = 論點；點數
+= 英文課時，林老師給我們一個辯論題目：「現金比卡片好嗎？」全班分成兩隊，我這隊站在現金這一方。「用紙鈔，你看得到自己花了多少錢，」我說，「用卡的小孩常常花太多。」另一隊也有很好的論點。「卡片比較安全，要是掉了錢包，你就什麼都沒了，」Amy 說，「而且很多百貨公司會給刷卡的人額外點數。」接著我們隊的 Ben 舉起一張長長的收據。「我媽上星期刷卡，直到看了這個才發現被算錯。」他說。大家都笑了。最後，林老師說兩隊都贏了。「真正的答案是，」他說，「不管現金還是刷卡，都要小心用錢。還有，一定要記得用折價券！」
+
+## 守夜的超市貓
+Every night after closing time, the lights in the small [[supermarket|fever|cough|knee]] on Maple Street go off, but one worker stays. Her name is Pepper, and she is a black cat. Pepper's job is to [[keep|fry|boil|spell]] the mice away from the rice and bread. She walks between the shelves all night like a little guard. In the morning, the owner gives her a bowl of fish. Customers love Pepper. Some children come in just to see her, and they leave her small gifts. Last month, the owner made a special [[coupon|toe|throat|bean]] with Pepper's picture on it: "Show this and get 10% off cat food." Many people used it. On every [[receipt|sock|lemon|spoon]], there is now a tiny paw print. The owner says Pepper is the best worker he has ever had, and she never asks for [[cash|knee|fever|cough]].
+> 1 the small supermarket「那家小超市」。fever、cough、knee 都不是地點。
+> 2 keep … away from「讓…遠離」：貓的工作是不讓老鼠靠近米和麵包。fry、boil、spell 都不能和 away from 搭配。
+> 3 a special coupon「特別的折價券」，出示可以打九折。toe、throat、bean 都不能印圖片打折。
+> 4 on every receipt「每張收據上」都印了小腳印。sock、lemon、spoon 都不是結帳時印出來的東西。
+> 5 ask for cash「要錢」：貓從來不要薪水。knee、fever、cough 都不能當作薪水。
++ guard = 守衛
++ mice = 老鼠（mouse 的複數）
++ paw print = 腳掌印
+= 每天晚上打烊後，楓樹街上那家小超市的燈都會熄掉，但有一位員工會留下來。她叫 Pepper，是一隻黑貓。Pepper 的工作是不讓老鼠靠近米和麵包。她整晚在貨架之間走來走去，就像一個小守衛。早上，老闆會給她一碗魚。客人都很喜歡 Pepper，有些小孩專程來看她，還會留下小禮物給她。上個月，老闆做了一張印有 Pepper 照片的特別折價券：「出示此券，貓飼料打九折。」很多人都用了。現在每張收據上都印著一個小小的貓腳印。老闆說 Pepper 是他遇過最好的員工，而且她從來不要薪水。
+
+## 超市廣播的生日歌
+For Mom's fortieth birthday, Dad and I planned a surprise. Mom goes to the same [[supermarket|throat|toe|cough]] every Saturday morning, and she knows all the workers there. So Dad talked to the manager, and the manager [[agreed|fried|boiled|spelled]] to help. When Mom walked in, everything seemed normal. But when she got to the checkout, the music stopped. A voice on the speaker said, "Happy birthday, Mrs. Wu!" Then all the cashiers started singing. Mom's face turned red, and she started to cry. The manager gave her a bunch of flowers and a gift [[coupon|knee|fever|lemon]] for 1,000 dollars. Dad paid for the cake in [[cash|bean|sock|spoon]] and hid the [[receipt|cough|toe|throat]] so Mom wouldn't see the price. Mom says it was the best birthday she has ever had.
+> 1 the same supermarket「同一家超市」。throat、toe、cough 都不是地點。
+> 2 agree to + 原形動詞「答應做…」：店長答應幫忙。fried、boiled、spelled 都不能接 to help。
+> 3 a gift coupon「禮券」：價值一千元。knee、fever、lemon 都不能和 gift 組成可以使用的禮券。
+> 4 pay in cash「付現金」。bean、sock、spoon 不能放在 pay in 後面。
+> 5 hid the receipt「把收據藏起來」，媽媽才看不到價錢。cough、toe、throat 都不會印出價錢。
++ checkout = 結帳處
++ speaker = 擴音器
++ bunch = 一束
+= 媽媽四十歲生日那天，爸爸和我策劃了一個驚喜。媽媽每個星期六早上都去同一家超市，認識那裡所有的員工。所以爸爸去跟店長談，店長也答應幫忙。媽媽走進來時，一切看起來都很正常。但當她走到結帳處，音樂突然停了，擴音器傳來一個聲音：「吳太太，生日快樂！」接著所有收銀員一起唱起歌來。媽媽的臉都紅了，還哭了出來。店長送她一束花和一張一千元的禮券。爸爸用現金付了蛋糕錢，還把收據藏起來，不讓媽媽看到價錢。媽媽說，那是她過過最棒的生日。
+
+## 兩百元的晚餐挑戰
+Our home economics teacher gave us a challenge: make dinner for your family with only 200 dollars. I went to the [[supermarket|fever|knee|throat]] with two red bills in my hand. I couldn't use any cards, only [[cash|cough|toe|spoon]]. First, I checked the flyer at the door and found a [[coupon|lemon|bean|sock]] for eggs. Then I walked around and compared prices. I bought six eggs, a bunch of green onions, two tomatoes, and a small bag of rice. The total was 186 dollars. I kept the [[receipt|throat|fever|knee]] for my report. That night, I cooked tomato and egg fried rice. My dad ate two bowls and said it was [[delicious|lazy|rude|thirsty]]. I got an A on my report, but the best part was seeing my family enjoy the meal.
+> 1 went to the supermarket「去超市」。fever、knee、throat 都不是地點。
+> 2 only cash「只能用現金」，和 cards 對比。cough、toe、spoon 都不是付款方式。
+> 3 a coupon for eggs「雞蛋折價券」，從傳單上找到。lemon、bean、sock 都不能用來打折。
+> 4 kept the receipt for my report「留下收據寫報告」。throat、fever、knee 上面沒有花費明細。
+> 5 delicious「好吃的」，爸爸吃了兩碗。lazy、rude、thirsty 都是形容人的字，不能形容炒飯。
++ home economics = 家政課
++ challenge = 挑戰
++ bill = 紙鈔
++ green onion = 蔥
++ total = 總額
+= 家政老師給我們一個挑戰：只用兩百元幫家人做一頓晚餐。我手裡拿著兩張紅色鈔票走進超市，不能用卡，只能付現金。首先，我看了門口的傳單，找到一張雞蛋折價券。接著我到處逛、比較價格，買了六顆蛋、一把蔥、兩顆番茄和一小包米，總共 186 元。我把收據留下來寫報告。那天晚上，我做了番茄蛋炒飯。爸爸吃了兩碗，說很好吃。我的報告拿了 A，但最棒的是看到家人吃得那麼開心。
