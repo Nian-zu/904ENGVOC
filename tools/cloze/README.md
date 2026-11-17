@@ -45,7 +45,7 @@
 - 每次開始寫一回之前，先用 WebSearch 查一下最近半年的熱門話題（例如「2026 韓團 人氣 排行」「台灣 運動 最新 新聞」「科學 新發現 2026」），從結果裡挑題目，再照「真實故事的寫法」查證細節。
 - 可以參考的方向（寫之前一樣要查證最新狀況）：
   - 韓團：BTS 退伍後回歸、BLACKPINK、BIGBANG 20 週年巡演來台、SEVENTEEN、Stray Kids、IVE、aespa、LE SSERAFIM、NewJeans、ILLIT、BABYMONSTER、TWS、RIIZE、ZEROBASEONE 等 4、5 代團。
-  - 運動：2024 世界棒球十二強賽台灣奪冠、2026 WBC 經典賽、2026 米蘭冬奧台灣選手、2026 愛知名古屋亞運、羽球李洋／王齊麟奧運連霸、大谷翔平、Stephen Curry、Wembanyama、Lamine Yamal（和學生同年代的球星）、Messi 2022 世界盃、電競選手（例如 Faker）。
+  - 運動：2024 世界棒球十二強賽台灣奪冠、2026 WBC 經典賽、2026 米蘭冬奧台灣選手、2026 愛知名古屋亞運、羽球李洋／王齊麟奧運連霸、大谷翔平、Stephen Curry、Wembanyama、Lamine Yamal（2007 年生，年紀和學生相近的球星）、Messi 2022 世界盃、電競選手（例如 Faker）。
   - 科學：韋伯太空望遠鏡的新發現、AI 新應用、動物行為新研究，以及「大家以為……其實……」的冷知識。
 - 用學生熟悉的生活場景：手機、IG／TikTok／YouTube 短影音、線上遊戲（Minecraft、Roblox、傳說對決）、手搖飲、超商、演唱會搶票、大巨蛋。
 - 動漫、遊戲只提作品名和角色名，不抄寫原作台詞或劇情文字。
