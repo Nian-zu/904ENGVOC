@@ -364,3 +364,29 @@ D87-24 從雪梨到首爾的 Felix 和 Bang Chan：https://en.wikipedia.org/wiki
 D87-25 〈APT.〉讓全世界玩韓國遊戲：https://www.koreatimes.co.kr/entertainment/k-pop/20241029/roses-apt-enters-billboard-hot-100-at-no-8；https://guinnessworldrecords.com/news/2025/1/more-records-for-blackpinks-rose-after-infectious-bop-apt-sparks-viral-tiktok-craze
 D87-29 東京的失物招領奇蹟：https://scmp.com/week-asia/lifestyle-culture/article/3257055/honesty-japan-tokyo-marks-record-us291-million-lost-cash-found-20-surge-belongings-returned；https://japantoday.com/category/national/tokyo-police-care-for-lost-umbrellas-keys-flying-squirrels
 D87-30 寄到北極圈的信：https://atlasobscura.com/places/santa-claus-main-post-office；https://www.posti.fi/en/latest-news-at-posti/20210917_joulupukin_paaposti_avataan_taas_en
+D86-01 台灣米其林指南 2025：https://focustaiwan.tw/society/202508190027；https://www.taipeitimes.com/News/taiwan/archives/2025/08/20/2003842354
+D86-02 鬼滅之刃無限城篇的票房紀錄：https://www.nippon.com/en/news/l00372/；https://www.screendaily.com/news/demon-slayer-infinity-castle-breaks-five-records-at-japan-box-office/5207197.article
+D86-03 爆紅的杜拜巧克力：https://thenationalnews.com/lifestyle/food/2024/07/26/viral-desserts-fix-chocolate-dubai；https://www.foodnavigator.com/Article/2024/08/26/viral-hit-dubai-chocolate-underscores-impact-of-social-media-exclusivity-and-regional-flavours/
+D86-04 美國書店的逆轉勝：https://www.fox35orlando.com/news/barnes-noble-opening-new-stores-2025；https://www.goodreads.com/author_blog_posts/25479042-barnes-noble-will-open-60-new-bookstores-in-2025-breaking-last-year-s
+D86-05 世界最佳餐廳在秘魯：https://www.theworlds50best.com/stories/News/maido-lima-the-worlds-best-restaurant-2025.html；https://www.thestar.com.my/lifestyle/living/2025/06/20/peruvian-restaurant-maido-named-the-world039s-best-restaurant-by-50-best
+D86-06 日本換新鈔了：https://en.wikipedia.org/wiki/Eiichi_Shibusawa；https://www.nippon.com/en/japan-data/h01962/
+D86-07 電影院為什麼賣爆米花：https://www.smithsonianmag.com/arts-culture/why-do-we-eat-popcorn-at-the-movies-475063/；https://en.wikipedia.org/wiki/Popcorn
+D86-08 切洋蔥為什麼會流眼淚：https://en.wikipedia.org/wiki/Syn-Propanethial-S-oxide；https://www.livescience.com/
+D86-09 舊書為什麼有香草味：https://www.smithsonianmag.com/smart-news/that-old-book-smell-is-a-mix-of-grass-and-vanilla-710038/；https://www.ebi.ac.uk/pdbe/node/31340
+D86-11 幸運餅乾其實來自日本：https://en.wikipedia.org/wiki/Fortune_cookie；https://www.nytimes.com/2008/01/16/dining/16fort.html
+D86-12 兩千多年前的超強音響：https://sciencedaily.com/releases/2007/04/070404162237.htm；https://phys.org/news94917247.html
+D86-13 「夢劇場」老特拉福：https://en.wikipedia.org/wiki/Old_Trafford；https://www.manutd.com/en/visit-old-trafford
+D86-14 鄧肯的擦板球：https://en.wikipedia.org/wiki/Tim_Duncan；https://www.nba.com/spurs/
+D86-15 菲爾普斯一天吃一萬兩千大卡？：https://www.yahoo.com/celebrity/blogs/balancedliving/michael-phelps-squashes-those-12-000-calories-per-223817970.html；https://www.nbcsports.com/olympics/news/michael-phelps-calories-swimming
+D86-16 柯比的《曼巴精神》：https://en.wikipedia.org/wiki/The_Mamba_Mentality；https://en.wikipedia.org/wiki/Kobe_Bryant
+D86-17 全世界最大的餐廳在奧運村：https://olympics.com/en/news/paris-2024-inside-the-athlete-restaurant；https://www.pressreader.com/uk/the-guardian/20240427/281582360695812
+D86-18 詹皇蓋的學校：https://qz.com/1345631/why-lebron-james-is-opening-a-school-for-at-risk-kids；https://www.cbsnews.com/amp/sacramento/news/lebron-james-elementary-school
+D86-19 台灣第一間同志書店：https://www.oneindia.com/2010/11/01/taiwansfirst-gay-lesbian-bookstore-has-restroom-withtran.html；https://en.wikipedia.org/wiki/List_of_LGBTQ_bookstores
+D86-20 女性也能自己辦信用卡：https://www.tpr.org/2024-10-28/smithsonians-new-series-is-tied-to-50th-anniversary-of-equal-credit-opportunity-act；https://www.kiplinger.com/personal-finance/credit-debt/years-ago-women-won-equal-access-to-credit
+D86-21 會上錯菜的餐廳：https://mymodernmet.com/restaurant-of-mistaken-orders/；https://japan.go.jp/tomodachi/2019/winter2019/restaurant_of_mistaken_orders.html
+D86-22 用手語點咖啡：https://fortune.com/2018/10/23/starbucks-sign-language-signing-store；https://www.thejakartapost.com/life/2018/10/24/starbucks-opens-first-sign-language-store-in-us.html
+D86-23 在電影院大合唱的《K-POP 獵魔女團》：https://fortune.com/2025/08/25/kpop-demon-hunters-netflix-box-office-number-one/；https://www.ahotset.com/film/receipts-first-steps-steps-down-from-first-kpop-demon-hunters-goes-1-on-hot-100-m3p3p
+D86-24 在電影院看 BTS 的釜山演唱會：https://en.wikipedia.org/wiki/BTS:_Yet_to_Come_in_Cinemas；https://celluloidjunkie.com/wire/bts-yet-to-come-in-cinemas-screening-worldwide-beginning-february-1st-for-a-limited-time-only/
+D86-25 首爾的星空圖書館：https://www.lonelyplanet.com/news/seoul-south-korea-library-coex；https://www.ladyironchef.com/tag/starfield-library-seoul/
+D86-29 由劇院改建的書店：https://turismo.buenosaires.gob.ar/en/atractivo/el-ateneo-grand-splendid；https://www.designboom.com/architecture/theatre-bookstore-buenos-aires-el-ateneo-07-28-2016/
+D86-30 莎士比亞的環球劇場：https://en.wikipedia.org/wiki/Shakespeare%27s_Globe；https://www.shakespearesglobe.com/
