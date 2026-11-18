@@ -417,3 +417,29 @@ D83-24 防彈少年團的年度藝人獎：https://www.soompi.com/article/149988
 D83-25 BLACKPINK 的 MTV 之夜：https://www.soompi.com/article/1772168wpp/rose-becomes-first-k-pop-artist-to-win-song-of-the-year-blackpink-lisa-and-katseye-take-wins-at-2025-mtv-vmas；https://www.thefader.com/2025/09/07/rose-2025-vmas-song-of-the-year-blackpink
 D83-26 來自世界各地的 KATSEYE：https://www.wikiwand.com/en/articles/KATSEYE；https://www.katseye.world/story-of-katseye/
 D83-29 宜蘭來的繪本作家幾米：https://en.wikipedia.org/wiki/Jimmy_Liao；https://pk.trip.com/moments/poi-jimmy-park-13484765
+D82-01 破紀錄的時代巡迴演唱會：https://www.fox32chicago.com/news/taylor-swift-eras-tour-ends-how-much-she-made；https://cfjctoday.com/2024/12/09/taylor-swift-wraps-up-eras-tour-in-vancouver/
+D82-02 從洗碗工到 AI 晶片王：https://fortune.com/2024/02/22/who-is-jensen-huang-nvidia-net-worth-biography-success/；https://thenightly.com.au/society/technology/jensen-huang-how-nvidia-founder-and-taylor-swift-of-tech-built-5-trillion-artificial-intelligence-empire-c-15095430
+D82-03 光復鄉的鏟子超人：https://taiwaninsight.org/2025/10/07/when-the-waters-rose-so-did-taiwans-people/；https://focustaiwan.tw/society/202509290006
+D82-04 在太空多待了九個月：https://whyy.org/articles/nasa-spacex-astronauts-suni-williams-butch-wilmore；https://www.news4jax.com/tech/2025/03/18/nasas-stuck-astronauts-are-finally-on-their-way-back-to-earth-after-9-months-in-space/
+D82-05 壞痞兔的歷史性一夜：https://www.pbs.org/newshour/arts/bad-bunny-wins-album-of-the-year-at-the-2026-grammy-awards-making-history-for-a-spanish-language-album；https://www.scmp.com/lifestyle/entertainment/article/3342082/bad-bunny-wins-album-year-2026-grammy-awards-first-spanish-language-album
+D82-06 在電影院看《怪奇物語》大結局：https://www.motionpictures.org/2025/10/stranger-things-two-hour-finale-to-get-historic-release-in-theaters-on-new-years-eve/；https://www.whats-on-netflix.com/news/stranger-things-season-5-theater-rollout/
+D82-07 歌手真的能用聲音震破玻璃嗎？：https://www.livescience.com/37005-singer-break-glass-singing-break-wineglass.html；https://www.scientificamerican.com/article/fact-or-fiction-opera-singer-can-shatter-glass/
+D82-08 黑盒子其實是橘色的：https://www.slashgear.com/1834274/black-box-airplane-color/；https://blog.klm.com/5-fascinating-facts-black-box/
+D82-09 開腳踏車店的萊特兄弟：https://www.history.com/news/10-things-you-may-not-know-about-the-wright-brothers；https://www.thehenryford.org/collections/explore/videos/wilbur-and-orville-wright
+D82-10 白蟻王國的士兵：https://www.orkin.com/pests/termites/colony/soldier-termites；https://kids.britannica.com/students/article/termite/277306
+D82-11 機長和副機長吃不一樣的餐：https://www.flightdeckfriend.com/ask-a-pilot/can-the-pilots-eat-the-same-meal-when-flying；https://www.foxnews.com/travel/why-pilots-and-co-pilots-dont-eat-the-same-meals-on-a-flight
+D82-12 天空中的白線：https://en.wikipedia.org/wiki/Contrail；https://www.lot.com/gb/en/explore/inspirations/aviation-trivia/what-is-a-contrail
+D82-13 打擊王也是戰鬥機飛行員：https://www.history.com/articles/ted-williams-fighter-pilot-korean-war；https://www.moaa.org/Content/Publications-and-Media/Features-and-Columns/MOAA-Features/Baseball-Legend-Ted-Williams-Was-Once-John-Glenn-s-Wingman
+D82-14 口袋只剩七塊錢的巨石強森：https://en.wikipedia.org/wiki/Seven_Bucks_Productions；https://thecomeback.com/nfl/the-rock-has-high-praise-for-cfl-coach-who-cut-him-back-in-1995.html
+D82-15 柯比的奧斯卡獎：https://www.si.com/nba/2018/03/04/kobe-bryant-dear-basketball-wins-oscar-best-animated-short-film；https://newsletter.oscars.org/features/dear-basketball-director-glen-keane-remembers-kobe-bryant-exclusive
+D82-16 從球場到老闆椅的喬丹：https://www.forbes.com.au/news/billionaires/michael-jordan-net-worth-nba-legend-now-worth-3-billion/；https://business-standard.com/amp/article/news-ani/michael-jordan-crowned-as-sports-first-billionaire-by-forbes-114061400552_1.html
+D82-17 惠妮休斯頓的國歌：https://en.wikipedia.org/wiki/The_Star_Spangled_Banner_(Whitney_Houston_recording)；https://clickorlando.com/features/2021/01/27/30-years-later-whitney-houstons-stirring-super-bowl-performance-still-resonates
+D82-18 冬季兩項的軍事起源：https://www.biathlonworld.com/discover-biathlon/history/military-origins；https://en.wikipedia.org/wiki/Biathlon
+D82-19 學法文去開飛機的貝西‧柯爾曼：https://aerocorner.com/blog/bessie-coleman/；https://migflug.com/jetflights/bessie-coleman-she-learned-french-to-learn-to-fly/
+D82-20 楊紫瓊的奧斯卡影后：https://www.npr.org/2023/03/12/1158764789/michelle-yeoh-best-actress-oscar-everything-everywhere-all-at-once；https://www.nme.com/news/michelle-yeoh-becomes-first-asian-best-actress-oscar-winner-3412323
+D82-21 艾爾頓強和他的另一半：https://www.biography.com/musicians/elton-john-david-furnish-love-story；https://www.refinery29.com/en-us/2019/05/233730/elton-john-husband-david-furnish-married-kids-love-story
+D82-22 獨自飛越大西洋的愛蜜莉亞：https://pioneersofflight.si.edu/node/331；https://airandspace.si.edu/amelia-earhart
+D82-23 車銀優去當兵了：https://sbsstar.net/article/N1008119127/cha-eunwoo-to-enlist-on-july-28-serving-in-the-army-band；https://www.malaymail.com/news/showbiz/2025/05/31/k-pops-face-genius-cha-eun-woo-gets-his-marching-orders-to-enlist-july-28/178779
+D82-24 防彈少年團全員退伍：https://abc7news.com/amp/post/bts-military-discharge-countdown-members-jin-jimin-jung-kook-rm-hope-suga-done-south-korea-service/16797018/；https://www.koreatimes.co.kr/entertainment/k-pop/20250610/bts-rm-v-discharged-from-military-service
+D82-25 IU 在《苦盡柑來遇見你》：https://www.koreatimes.co.kr/entertainment/shows-dramas/20250402/interview-iu-learns-life-goes-on-from-when-life-gives-you-tangerines；https://marieclaire.com/culture/tv-shows/when-life-gives-you-tangerines-cast
+D82-26 子瑜的第一張個人專輯：https://www.gmanetwork.com/entertainment/showbiznews/tzuyu-of-twice-marks-solo-debut-with-run-away/115769；https://www.nme.com/news/music/twice-tzuyu-solo-debut-aboutzu-3780377
