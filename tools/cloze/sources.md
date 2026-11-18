@@ -470,3 +470,31 @@ D81-24 Lisa 第一次當演員：https://rollingstone.co.uk/tv/lisa-calls-her-ac
 D81-25 權志龍十多年來的第一張正規專輯：https://www.allkpop.com/article/2025/02/g-dragon-announces-third-full-album-ubermensch-his-first-in-11-years；https://entertainment.inquirer.net/599110/g-dragon-shows-stronger-version-of-himself-with-ubermensch-album
 D81-26 七個人的 BABYMONSTER：https://en.wikipedia.org/wiki/Babymonster；https://www.koreaherald.com/article/3057845
 D81-29 有自己郵遞區號的熊：https://www.smithsonianmag.com/history/brief-history-smokey-bear-180972549/；https://kottke.org/19/08/the-bear-with-its-own-zip-code
+D85-01 第一位來自美國的教宗：https://www.ncregister.com/cna/14-things-to-know-about-pope-leo-xiv-the-first-u-s-born-pope；https://www.usccb.org/popes/pope-leo-xiv
+D85-02 日本沒有熊貓了：https://www.tokyoweekender.com/japan-life/news-and-opinion/ueno-zoo-pandas-return-to-china-final-viewing/；https://asianews.network/tokyo-ueno-zoos-twin-pandas-to-be-returned-to-china-leaving-japan-with-none-for-1st-time-since-1972/
+D85-03 爆紅的小河馬彈跳豬：https://www.khaosodenglish.com/tourism/2024/09/12/viral-pygmy-hippo-moo-deng-boosts-khao-kheow-open-zoo-visitors/；https://www.cbsnews.com/news/moo-deng-baby-hippo-thailand-zoo-bouncy-pork-goes-viral
+D85-04 世界最高的教堂：https://www.catalannews.com/society-science/item/sagrada-familia-reaches-1725-metres；https://www.americamagazine.org/news/2026/02/20/barcelonas-sagrada-familia-reaches-maximum-height/
+D85-05 大阪世博的脈脈君：https://www.timeout.com/osaka/news/osaka-expo-wraps-up-six-month-celebration-of-world-cultures-with-over-25-million-visitors-101425；https://www.japantimes.co.jp/news/2025/10/13/japan/society/osaka-expo-closing-ceremony
+D85-06 六十八歲的大猩猩奶奶：https://www.guinnessworldrecords.com/news/2025/4/worlds-oldest-gorilla-celebrates-her-68th-birthday-in-germany；https://www.ksat.com/tech/2025/04/11/fatou-the-worlds-oldest-gorilla-in-a-zoo-is-celebrating-her-68th-birthday-in-berlin/
+D85-07 大象會叫彼此的名字：https://savetheelephants.org/news/like-us-elephants-have-names-too-2/；https://geographical.co.uk/news/elephants-call-each-other-by-name
+D85-08 長頸鹿晚上會哼歌：https://www.cbsnews.com/news/giraffes-make-strange-sounds-at-nighttime；https://time.com/4043387/giraffes-sound-hum
+D85-09 一天打一萬次瞌睡的企鵝：https://www.livescience.com/animals/birds/weird-chinstrap-penguins-sleep-over-10000-times-a-day-for-just-4-seconds-at-a-time；https://earth.com/news/chinstrap-penguins-take-over-10000-micro-sleeps-per-day
+D85-10 警犬的鼻子有多厲害：https://www.earthdate.org/episodes/super-sniffers；https://firstvet.com/us/articles/how-good-is-a-dogs-sense-of-smell
+D85-11 紅鶴天生不是粉紅色的：https://www.Britannica.Com/story/why-are-flamingos-pink；https://www.discoverwildlife.com/animal-facts/why-are-flamingos-pink
+D85-12 記仇的烏鴉：https://theconversation.com/never-cross-a-crow-it-will-remember-your-face-2121；https://www.discovermagazine.com/angry-crows-recognize-humanseven-dick-cheney-28152
+D85-13 一場比賽三支全壘打、十次三振：https://www.nbcwashington.com/news/sports/brewers-dodgers-nlcs-game-four-2/4003668/；https://www.nbcnewyork.com/news/sports/brewers-dodgers-nlcs-game-four-2/6406711/
+D85-14 警察和消防員的奧運：https://www.policemag.com/news/news/15749507/2025-world-police-fire-games-begin-friday-in-birmingham；https://www.birminghamal.org/2024/03/07/world-police-fire-games-bhm-2025/
+D85-15 四十年來最快的四百公尺：https://www.cbssports.com/olympics/news/sydney-mclaughlin-levrone-wins-400m-gold-with-world-championship-record-runs-second-fastest-time-in-history；https://www.nbcsports.com/olympics/news/sydney-mclaughlin-levrone-near-world-record-400-meters-championships-2025
+D85-16 第一個有十億粉絲的人：https://www.aljazeera.com/amp/sports/2024/9/13/ronaldo-becomes-first-individual-with-one-billion-social-media-followers；https://thestar.com.my/sport/football/2024/09/13/soccer-ronaldo-reaches-one-billion-followers-on-social-media
+D85-17 半夜宣布的大交易：https://www.nbcsports.com/nba/news/shocking-trade-luka-doncic-to-lakers-for-anthony-davis-is-league-changing-three-team-swap；https://kutv.com/sports/nba/luka-doncic-heads-to-the-lakers-and-anthony-davis-goes-to-the-mavs-in-blockbuster-trade-02-02-2025
+D85-18 漢米爾頓換上紅色賽車服：https://www.formula1.com/en/latest/article/hamilton-hails-most-exciting-period-of-my-life-as-he-gets-set-for-ferrari.3rud7jVdu5IaeasD7KISfD；https://www.motorauthority.com/news/1145555_lewis-hamilton-spends-his-first-day-at-ferrari
+D85-19 從教堂出發的金恩博士：https://nobelprize.org/prizes/peace/1964/king/biographical/；https://www.biography.com/activists/martin-luther-king-jr
+D85-20 愛笑的屠圖大主教：https://africa.com/profile-sir-desmond-tutu-anglican-archbishop-emeritus-of-cape-town-and-nobel-peace-prize-winner/；https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/archbishop-desmond-tutu
+D85-21 六歲的露比走進學校：https://www.britannica.com/biography/Ruby-Bridges；https://www.history.com/this-day-in-history/ruby-bridges-desegregates-her-school
+D85-22 湯姆‧戴利的金牌和毛線：https://www.npr.org/2024/08/13/g-s1-16588/british-olympic-diver-tom-daley-retirement；https://africa.espn.com/olympics/story/_/id/40833881/olympics-2024-team-gb-diver-tom-daley-retires-silver
+D85-23 SM 的新女團 Hearts2Hearts：https://en.wikipedia.org/wiki/Hearts2Hearts；https://variety.com/2025/music/news/k-pop-girl-group-hearts2hearts-debut-single-1236318668
+D85-24 ATEEZ 登上告示牌冠軍：https://variety.com/2023/music/news/ateez-first-number-one-album-billboard-200-1235833860；https://www.koreatimes.co.kr/amp/entertainment/k-pop/20231211/ateez-soars-to-no-1-on-billboard-main-albums-chart
+D85-25 TWICE 出道十週年：https://en.wikipedia.org/wiki/Ten:_The_Story_Goes_On；https://sbsstar.net/article/N1008301008/twice-marks-10-years-with-historic-10th-billboard-200-entry
+D85-26 智秀的〈FLOWER〉：https://yg-life.com/archives/182477?lang=en；https://www.koreatimes.co.kr/amp/entertainment/20230407/blackpinks-jisoo-sets-1st-week-sales-record-for-k-pop-female-soloist-with-me
+D85-29 在澀谷車站等了快十年的八公：https://en.wikipedia.org/wiki/Hachik%C5%8D；https://www.nippon.com/en/japan-glances/jg00137/
+D85-30 韓國人的寶貝福寶：https://local10.com/news/world/2024/04/03/with-tears-a-crowd-of-south-koreans-bids-farewell-to-beloved-panda-before-her-departure-to-china；https://www.thestar.com.my/aseanplus/aseanplus-news/2024/04/03/s-korean-fans-bid-farewell-to-internet-famous-panda-fu-bao
