@@ -195,8 +195,11 @@ def main():
         y = why(q)
         if y: q['y'] = y; n += 1
         else: q.pop('y', None)
+    # 判斷不出原因的動詞變化題（可能有兩個說得通的答案）不出題：只從每天的題目清單拿掉，題目本身和題號不動
+    hide = {i for i, q in enumerate(b['bank']) if q['k'] == 'verb' and not q.get('y')}
+    b['days'] = [[i for i in d if i not in hide] for d in b['days']]
     json.dump(b, open(BANK, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-    print(f'動詞變化說明：{n}/{tot} 題')
+    print(f'動詞變化說明：{n}/{tot} 題；沒有說明、不出題 {len(hide)} 題')
 
 
 if __name__ == '__main__':
