@@ -876,19 +876,17 @@ $('qUpto').onclick = () => { setMode('range'); $('from').value = 0; $('to').valu
 $('qWeek').onclick = () => { const t = todayIdx(); setMode('range'); $('from').value = Math.max(0, t-6); $('to').value = t; update(); };
 // 組題：克漏字依勾選題型數平均分配題數（以 5 格為一篇），其餘由句子題補足；整篇的 5 格連在一起
 // 每日小考：不管學生勾了哪些題型，固定這樣出（以 20 題為例）——
-//   單字選擇／動詞變化／介系詞搭配（單字書）約 80%：16 題
-//   講義題（一字多義／片語／會考文法）2 題
-//   克漏字 1 篇裡挑 2 格（其他格直接顯示答案，當閱讀提示）
-const QUIZ_BASE = 0.8, QUIZ_EX = 2, QUIZ_CLOZE = 2;
+//   單字書 80%＝16 題：克漏字整篇 1 篇（5 格，也是考當天的單字）＋單字選擇／動詞變化／介系詞搭配 11 題
+//   講義題（一字多義／片語／會考文法）20%＝4 題
+const QUIZ_BASE = 0.8, QUIZ_CLOZE = 5;
 async function startQuiz(){
   const saved = types; types = new Set(KINDS);
   const {all, passages} = pool();
   types = saved;
   const n = num;
   const base = all.filter(qi => !EXTRA.has(DATA.bank[qi].k)), ex = all.filter(qi => EXTRA.has(DATA.bank[qi].k));
-  let nC = passages.length ? QUIZ_CLOZE : 0, nE = Math.min(QUIZ_EX, ex.length);
+  let nC = passages.length ? QUIZ_CLOZE : 0, nE = Math.min(n - Math.round(n * QUIZ_BASE), ex.length);
   let nB = Math.max(0, n - nC - nE);
-  if (nB < Math.round(n * QUIZ_BASE)) nB = Math.min(nB, base.length);
   let pick = null;
   if (nC) {
     pick = shuffle(passages.slice())[0];
