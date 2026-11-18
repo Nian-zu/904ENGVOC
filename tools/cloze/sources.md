@@ -284,3 +284,31 @@ D90-25 Lisa 在曼谷中國城拍 MV：https://www.bangkokpost.com/thailand/gene
 D90-26 江南的 K-Star 大道：https://thesoulofseoul.net/explore-k-star-road-in-gangnam-where-to-see-bts-exo-and-more-in-seoul/；https://www.visitgangnam.net/en/kpop
 D90-29 艾比路上的斑馬線：https://historicengland.org.uk/listing/the-list/list-entry/1396390；https://www.npr.org/sections/thetwo-way/2010/12/22/132254177/abbey-road-pix-officially-iconic
 D90-30 條條大路通羅馬：https://www.nationalgeographic.com/history/history-magazine/article/200000-miles-roman-roads-provided-framework-empire；https://ebsco.com/research-starters/history/roman-road-system
+D89-01 倒立著陸的月球探測器：https://www.pbs.org/newshour/science/japans-1st-moon-lander-has-hit-its-target-but-it-appears-to-be-upside-down；https://techcrunch.com/2024/01/25/japans-slim-spacecraft-sticks-moon-landing-upside-down
+D89-02 原本八天變成九個月：https://www.npr.org/2025/03/18/nx-s1-5331907/nasa-astronauts-return-long-space-station-suni-williams-butch-wilmore；https://foxweather.com/earth-space/nasa-starliner-astronauts-butch-wilmore-suni-williams-splash-down-spacex-dragon
+D89-03 一個晚上蓋好的車站：https://www.thestar.com.my/news/focus/2025/04/13/how-japan-built-a-3d-printed-train-station-in-six-hours；https://www.voxelmatters.com/serendix-and-jr-west-build-japans-first-3d-printed-railway-station-overnight/
+D89-04 台灣看不到的極光：https://taipeitimes.com/News/taiwan/archives/2024/05/13/2003817787；https://earthobservatory.nasa.gov/images/152815/historic-geomagnetic-storm-dazzles
+D89-05 大阪世博的木造大屋頂：https://nwasianweekly.com/2025/04/osaka-expo-opens-in-japan-offering-a-vision-of-the-future-heres-what-to-know；https://en.wikipedia.org/wiki/Yumeshima_Station
+D89-06 會搬家的磁北極：https://www.iflscience.com/earths-magnetic-north-pole-officially-has-a-new-position-77286；https://discovermagazine.com/the-sciences/the-magnetic-north-pole-is-drifting-across-the-arctic-toward-siberia
+D89-13 亞馬爾的左腳：https://abcnews.go.com/Sports/wireStory/spains-lamine-yamal-youngest-player-score-mens-european-111788404；https://www.si.com/soccer/16-year-old-lamine-yamal-makes-euros-history-with-sensational-goal-france
+D89-16 跑道為什麼都往左轉：https://www.livescience.com/32442-why-are-races-run-counterclockwise.html；https://www.iflscience.com/why-do-runners-race-in-an-anti-clockwise-direction-78719
+D89-18 箱根驛傳的接力站：https://www.nippon.com/en/articles/-/16121；https://www.marathons.com/en/save-the-date/how-do-you-enter-the-hakone-ekiden_qgw2
+D89-19 雨中的台灣同志遊行：https://www.taiwanplus.com/news/taiwan-news/lgbtq/251025012/thousands-march-in-taipei-for-2025-taiwan-pride；https://thefinancialexpress.com.bd/lifestyle/living/tens-of-thousands-brave-rain-at-east-asias-largest-pride-march-in-taiwan
+D89-20 地上的黃色導盲磚：https://en.wikipedia.org/wiki/Seiichi_Miyake；https://japanupclose.web-japan.org/tech/t20211008_1.html
+D89-22 第一位走到北極的女性：https://www.guinnessworldrecords.com/world-records/463048-first-woman-to-reach-the-north-pole；https://www.britannica.com/biography/Ann-Bancroft
+D89-23 防彈少年團的「靈魂地圖」：https://www.philstar.com/entertainment/2020/02/21/1994987/bts-release-new-album-4-million-pre-orders；https://www.thejakartapost.com/life/2020/02/22/bts-reflects-on-seven-years-together-on-map-of-the-soul-7.html
+D89-24 SEVENTEEN 的〈Left & Right〉：https://en.wikipedia.org/wiki/Left_%26_Right_(Seventeen_song)；https://www.thejakartapost.com/life/2020/06/23/seventeen-is-back-and-they-are-fearless
+D89-25 Jin 在羅浮宮傳聖火：https://thestar.com.my/aseanplus/aseanplus-news/2024/07/15/bts039-jin-carries-paris-olympics-torch-amid-cheers-from-thousands-of-fans；https://www.soompi.com/article/1674584wpp/btss-jin-shares-message-of-support-after-completing-his-role-as-torchbearer-in-paris-2024-olympic-games
+D89-26 BLACKPINK 演唱會擠爆高雄捷運：https://www.taipeitimes.com/News/taiwan/archives/2025/10/21/2003845843；https://news.tvbs.com.tw/english/3016835
+D89-07 馬桶的水會換方向轉嗎：https://www.scientificamerican.com/article/fact-or-fiction-south-of-equator-tornadoes-spin-in-opposite-direction/；https://www.todayifoundout.com/index.php/2010/07/what-hemisphere-you-are-in-does-not-affect-the-way-water-spins-down-your-drain/
+D89-08 北極星不是最亮的星：https://earthsky.org/brightest-stars/polaris-the-present-day-north-star/；https://space.com/15567-north-star-polaris.html
+D89-09 地圖上的格陵蘭被放大了：https://mentalfloss.com/article/57050/actual-size-greenland；https://upfront.scholastic.com/issues/2025-26/051126/rethinking-the-world-map.html
+D89-10 苔蘚不是指南針：https://www.mentalfloss.com/article/56243/does-moss-really-only-grow-north-side-trees；https://www.popsci.com/can-i-use-moss-to-navigate/
+D89-11 左撇子的煩惱：https://time.com/4451303/international-left-handers-day-why-are-people-left-handed/；https://cordis.europa.eu/article/id/120004-trending-science-the-trials-and-tribulations-of-being-lefthanded
+D89-12 飛回家的賽鴿：https://www.aljazeera.com/news/2004/2/7/secret-of-homing-pigeons-revealed；https://www.sbs.com.au/news/article/explainer-how-do-homing-pigeons-navigate/j84zkjq04
+D89-14 用左手打網球的納達爾：https://www.britannica.com/biography/Rafael-Nadal；https://www.npr.org/2024/10/10/nx-s1-5148781/rafael-nadal-retires-tennis
+D89-15 右手投球、左打的大谷：https://www.baseball-reference.com/bullpen/Shohei_Ohtani；https://www.foxsports.com/mlb/shohei-ohtani-player-bio
+D89-17 只靠地圖和指南針的運動：https://en.wikipedia.org/wiki/History_of_orienteering；https://www.ebsco.com/research-starters/sports-and-leisure/orienteering
+D89-21 跟著北極星走向自由：https://www.nps.gov/articles/harriet-tubman-and-the-underground-railroad.htm；https://www.history.com/articles/underground-railroad-harriet-tubman-strategies
+D89-29 在澀谷車站等待的小八：https://en.wikipedia.org/wiki/Hachik%C5%8D；https://www.nippon.com/en/japan-glances/jg00137/
+D89-30 不照比例畫的地鐵圖：https://en.wikipedia.org/wiki/Harry_Beck；https://www.londonmuseum.org.uk/collections/london-stories/harry-beck-revolutionised-tube-map/
