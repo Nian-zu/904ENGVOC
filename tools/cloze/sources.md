@@ -363,4 +363,4 @@ D87-23 從台南到首爾的子瑜：https://en.wikipedia.org/wiki/Tzuyu；https
 D87-24 從雪梨到首爾的 Felix 和 Bang Chan：https://en.wikipedia.org/wiki/Stray_Kids；https://www.allkpop.com/article/2025/07/stray-kids-complete-dominate-world-tour-covering-7-laps-around-the-globe
 D87-25 〈APT.〉讓全世界玩韓國遊戲：https://www.koreatimes.co.kr/entertainment/k-pop/20241029/roses-apt-enters-billboard-hot-100-at-no-8；https://guinnessworldrecords.com/news/2025/1/more-records-for-blackpinks-rose-after-infectious-bop-apt-sparks-viral-tiktok-craze
 D87-29 東京的失物招領奇蹟：https://scmp.com/week-asia/lifestyle-culture/article/3257055/honesty-japan-tokyo-marks-record-us291-million-lost-cash-found-20-surge-belongings-returned；https://japantoday.com/category/national/tokyo-police-care-for-lost-umbrellas-keys-flying-squirrels
-D87-30 寄到北極圈的信：https://www.visitrovaniemi.fi/；https://en.wikipedia.org/wiki/Santa_Claus_Village
+D87-30 寄到北極圈的信：https://atlasobscura.com/places/santa-claus-main-post-office；https://www.posti.fi/en/latest-news-at-posti/20210917_joulupukin_paaposti_avataan_taas_en
