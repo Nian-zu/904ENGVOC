@@ -340,3 +340,27 @@ D88-25 防彈少年團的旅行節目：https://en.wikipedia.org/wiki/BTS:_Bon_V
 D88-26 Stray Kids 繞地球七圈：https://www.allkpop.com/article/2025/07/stray-kids-complete-dominate-world-tour-covering-7-laps-around-the-globe；https://www.tenasia.com/amp/2025102002634
 D88-29 機器人員工的飯店：https://www.guinnessworldrecords.com/world-records/397696-first-robot-staffed-hotel；https://www.tpr.org/2019-01-28/this-time-humans-triumph-over-robots-as-they-take-back-hotel-jobs
 D88-30 在機場住了十八年的人：https://katv.com/news/entertainment/iranian-man-who-inspired-the-terminal-passes-away-in-paris-airport-steven-spielberg-the-terminal-tom-hanks-paris-belgium-diplomacy-immigration-charles-de-gaulle-obituary；https://uk.news.yahoo.com/iranian-man-lived-paris-airport-161215561.html
+D87-01 祇園的私人小巷不能進去了：https://kvia.com/news/ap-national/2024/03/07/kyotos-picturesque-geisha-district-fights-back-against-over-tourism-with-keep-out-signs/；https://euronews.com/travel/2024/03/08/kyoto-is-not-a-theme-park-tourists-told-to-stay-away-from-ancient-citys-famous-geisha-dist
+D87-02 讓航空公司幫忙找 AirTag 行李：https://9to5mac.com/2024/12/19/airtag-share-location-with-airlines-luggage/；https://thepointsguy.com/news/apple-airtag-share-location-with-airlines
+D87-03 一年三千三百萬件弄丟的行李：https://www.sita.aero/pressroom/news-releases/more-air-passengers-than-ever-with-one-of-the-lowest-rates-of-mishandled-baggage-thanks-to-tech-investments/；https://travelweekly.co.uk/news/mishandled-bags-cost-airlines-5bn-in-2024
+D87-04 大家都在搶 Labubu：https://www.foxbusiness.com/lifestyle/labubu-dolls-become-2025s-hottest-toy-craze-among-kids-adult-collectors；https://www.emarketer.com/content/pop-mart-milks-labubu-craze
+D87-05 賣到延長兩年的脈脈周邊：https://english.adnkronos.com/2025/10/13/expo-mascot-myaku-myaku-goods-sales-to-continue-thru-march/；https://www.nippon.com/en/news/yjj2026031601112
+D87-06 台灣人最愛寄明信片給陌生人：https://en.wikipedia.org/wiki/Postcrossing；https://www.postcrossing.com/blog/2026/01/12/postcrossing-in-numbers-2025-stats
+D87-07 人類先登月，行李箱才有輪子：https://travelpro.com/blogs/the-travelpro-blog/the-history-of-rolling-luggage；https://worldatlas.com/articles/did-you-know-that-we-went-to-the-moon-before-we-put-wheels-on-suitcases.html
+D87-08 行李箱在機場裡的旅程：https://www.sita.aero/pressroom/news-releases/more-air-passengers-than-ever-with-one-of-the-lowest-rates-of-mishandled-baggage-thanks-to-tech-investments/；https://www.aviationbusinessnews.com/cabin/bag-handling-emerging-from-forgotten-child-to-it-driven-bagometrics-future-says-sita/
+D87-09 第一張明信片的誕生：https://en.wikipedia.org/wiki/Emanuel_Herrmann；https://worldpostcardday.com/history
+D87-10 駱駝的駝峰裡裝的不是水：https://www.livescience.com/32366-why-do-camels-have-humps.html；https://www.clevelandzoosociety.org/z/2021/04/06/truth-or-tail-a-camels-hump
+D87-13 撐竿跳選手最怕弄丟的行李：https://www.news4jax.com/sports/2025/09/15/duplantis-breaks-pole-vault-world-record-for-14th-time-to-capture-third-world-championship-title/；https://www.beinsports.com/en-mena/athletics/articles-video/duplantis-sets-new-pole-vault-record-as-retains-world-title-2025-09-15
+D87-14 連續七年的外籍 MVP：https://www.fiba.basketball/en/news/shai-gilgeous-alexander-wins-mvp-adding-to-growing-list-of-global-honors；https://www.cbssports.com/nba/news/shai-gilgeous-alexander-named-mvp-thunder-star-put-up-one-of-best-guard-seasons-in-nba-history
+D87-15 一票之差的鈴木一朗：https://www.npr.org/2025/01/22/g-s1-44198/ichiro-suzuki-mlb-hall-of-fame-seattle-mariners；https://www.fox13seattle.com/sports/ichiro-suzuki-earns-selection-baseball-hall-fame
+D87-16 梅西的粉紅色球衣賣到缺貨：https://www.cbssports.com/soccer/news/lionel-messi-inter-miami-jerseys-gear-seeing-overwhelming-demand-as-merchandisers-struggle-to-keep-pace；https://frontofficesports.com/soccer-manufacturers-retailers-messi-mania-inter-miami/
+D87-18 為難民隊拿下第一面獎牌：https://olympics.com/en/news/paris-2024-boxing-women-bronze-75kg-ngamba-parker；https://www.africanews.com/2024/08/05/paris-2024-olympics-cindy-ngamba-wins-first-refugee-medal
+D87-19 來台灣參加同志遊行的外國朋友：https://www.taiwanplus.com/news/taiwan-news/lgbtq/251025012/thousands-march-in-taipei-for-2025-taiwan-pride；https://mygwork.com/news/massive-turnout-at-east-asias-largest-lgbtq-celebration-despite-heavy-rain
+D87-20 在巴黎的外國女孩居禮夫人：https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/；https://www.britannica.com/biography/Marie-Curie
+D87-21 學媽媽的語言：https://www.eyeontaiwan.com/southeast-asian-language-program-set-for-fall-2019；https://taiwaninsight.org/2020/08/21/moving-toward-a-more-inclusive-society-the-educational-policy-of-new-immigrant-children-in-taiwan/
+D87-22 最年輕的諾貝爾和平獎得主：https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/；https://www.britannica.com/biography/Malala-Yousafzai
+D87-23 從台南到首爾的子瑜：https://en.wikipedia.org/wiki/Tzuyu；https://www.tvmaze.com/people/152012/tzuyu
+D87-24 從雪梨到首爾的 Felix 和 Bang Chan：https://en.wikipedia.org/wiki/Stray_Kids；https://www.allkpop.com/article/2025/07/stray-kids-complete-dominate-world-tour-covering-7-laps-around-the-globe
+D87-25 〈APT.〉讓全世界玩韓國遊戲：https://www.koreatimes.co.kr/entertainment/k-pop/20241029/roses-apt-enters-billboard-hot-100-at-no-8；https://guinnessworldrecords.com/news/2025/1/more-records-for-blackpinks-rose-after-infectious-bop-apt-sparks-viral-tiktok-craze
+D87-29 東京的失物招領奇蹟：https://scmp.com/week-asia/lifestyle-culture/article/3257055/honesty-japan-tokyo-marks-record-us291-million-lost-cash-found-20-surge-belongings-returned；https://japantoday.com/category/national/tokyo-police-care-for-lost-umbrellas-keys-flying-squirrels
+D87-30 寄到北極圈的信：https://www.visitrovaniemi.fi/；https://en.wikipedia.org/wiki/Santa_Claus_Village
