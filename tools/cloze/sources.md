@@ -230,3 +230,29 @@ D96-24 Stray Kids 的製作小隊 3RACHA：https://www.papermag.com/3racha；htt
 D96-25 BTS 的《ARIRANG》回歸：https://www.stereogum.com/2485504/bts-announce-new-album-arirang-and-world-tour/news；https://www.koreajoongangdaily.com/entertainment/bts-tops-billboard-albums-chart-for-2nd-consecutive-week-with-arirang-a-first-in-k-pop/12584570
 D96-26 雨中開唱的 BTS：https://tribune.com.pk/story/2601852/bts-arirang-world-tour-opens-in-south-korea-as-thousands-attend-first-concert-after-hiatus；https://www.nme.com/reviews/live/bts-live-in-goyang-seoul-world-tour-arirang-setlist-3939727
 D96-30 公開出櫃的足球員拉皮諾：https://www.si.com/soccer/2019/07/07/megan-rapinoe-golden-boot-ball-uswnt-womens-world-cup-final-netherlands；https://worldsoccertalk.com/news/us-world-cup-superstar-rapinoe-wins-womens-ballon-dor-20191202-CMS-285851.html；https://www.si.com/si-wire/2012/07/03/soccer-player-megan-rapinoe-confirms-gay
+D91-01 阿里山林鐵終於全線通車：https://www.taipeitimes.com/News/taiwan/archives/2024/07/07/2003820458；https://www.businesswire.com/news/home/20240806014512/en/Taiwans-Scenic-Alishan-Forest-Railway-Resumes-Service-After-15-Year-Hiatus
+D91-02 世界最大的郵輪：https://www.cbsnews.com/news/worlds-largest-cruise-ship-icon-of-the-seas-begins-its-maiden-voyage-after-christening-from-lionel-messi/；https://thenationalnews.com/travel/2024/01/11/icon-of-the-seas-worlds-largest-cruise-ship-maiden-voyage
+D91-03 被「筷子」接住的火箭：https://www.space.com/spacex-starship-flight-5-launch-super-heavy-booster-catch-success-video；https://www.euronews.com/2024/10/13/spacex-catches-starship-rocket-booster-as-it-returns-to-earth
+D91-04 沒有司機的計程車：https://www.entrepreneur.com/business-news/waymo-reports-robotaxis-are-booked-250000-times-a-week/490644；https://insideevs.com/news/791245/waymo-rides-per-week-2026-doubled/
+D91-05 掛上風帆的貨船：https://www.aljazeera.com/news/2023/8/22/wind-powered-cargo-ship-sets-sail-on-maiden-voyage；https://gcaptain.com/wind-assisted-propulsion-trial-off-to-promising-start
+D91-06 高雄輕軌繞成一個圓：https://www.cna.com.tw/news/ahel/202312310028.aspx；https://newtalk.tw/news/view/2024-01-01/903163
+D91-07 搭飛機耳朵為什麼會痛：https://time.com/4901296/why-do-your-ears-pop-on-airplanes/；https://www.popsci.com/science/why-do-ears-pop-on-plane/
+D91-08 鋼鐵做的船為什麼不會沉：https://www.ypte.org.uk/factsheets/boats/print；https://cursa.app/hi/article/why-steel-ships-float-buoyancy-and-archimedes-principle-explained
+D91-09 為什麼會暈車暈船：https://www.scientificamerican.com/article/heres-what-causes-motion-sickness/；https://www.medicalnewstoday.com/articles/176198.php
+D91-10 萊特兄弟的十二秒：https://www.history.com/this-day-in-history/December-17/first-airplane-flies；https://www.biography.com/inventors/a53438787/orville-wilbur-wright-brothers-first-flight
+D91-11 學翠鳥的新幹線：https://www.jrpass.com/blog/why-do-shinkansen-have-such-long-noses-the-design-story；https://trellis.net/article/how-one-engineers-birdwatching-made-japans-bullet-train-better
+D91-12 飛機被閃電打到怎麼辦：https://www.livescience.com/32638-do-planes-get-struck-by-lightning.html；https://www.scientificamerican.com/article/what-happens-when-lightni/
+D91-13 戰鬥機護送的十二強冠軍：https://focustaiwan.tw/sports/202411250029；https://www.taiwannews.com.tw/zh/news/5979112
+D91-14 F1 賽車怎麼環遊世界：https://dhl.com/global-en/delivered/global-trade/inside-f1-logistics.html；https://f1chronicle.com/how-do-f1-cars-get-transported
+D91-15 搭飛機去奧運的馬：https://abcnews.go.com/Sports/wireStory/horses-air-passports-carryons-ahead-equestrian-eventing-paris-112188923；https://www.kpbs.org/news/international/2024/07/23/horses-take-to-the-air-with-passports-and-carryons-ahead-of-equestrian-eventing-at-paris-olympics
+D91-16 搭帆船來的奧運聖火：https://maritime-executive.com/article/historic-tall-ship-arrives-in-marseille-to-deliver-the-olympic-flame；https://www.pbs.org/newshour/amp/world/olympic-torch-makes-a-grand-entrance-in-marseille
+D91-17 住在郵輪上的奧運衝浪選手：https://abcnews.go.com/Sports/wireStory/olympic-surfers-sleep-cruise-ship-tahiti-games-112343776；https://dailyhive.com/vancouver/olympic-athletes-cruise-ship-tahiti
+D91-18 塞爾提克的鴨子船遊行：https://www.boston25news.com/news/local/championship-parade-celtics-ride-duck-boats-through-boston-city-celebrates-nba-title/KJUNZ4U2KJBTPDQS7JVHK3CHBE/；https://www.wgbh.org/news/local/2024-06-21/parade-celebrates-celtics-team-thats-everything-in-boston
+D91-19 第一位美國女太空人莎莉‧萊德：https://www.historyhit.com/sally-ride-the-first-american-woman-to-go-to-space/；https://www.12news.com/article/news/verify/lgbtq-verify/sally-ride-first-gay-lesbian-lgbtq-astronaut-woman-space/536-ee099120-a3ce-4d2c-9013-0485662f20f7
+D91-20 羅莎‧帕克斯的公車座位：https://www.history.com/topics/black-history/montgomery-bus-boycott；https://kids.britannica.com/students/article/Montgomery-bus-boycott/630403
+D91-21 飛越大西洋的愛蜜莉亞：https://www.history.com/this-day-in-history/May-21/earhart-completes-transatlantic-flight；https://www.airandspace.si.edu/collection-objects/lockheed-vega-5b-amelia-earhart/nasm_A19670093000
+D91-22 為了飛行去學法文的貝西：https://migflug.com/jetflights/bessie-coleman-she-learned-french-to-learn-to-fly/；https://aerocorner.com/blog/bessie-coleman/
+D91-23 BTS 的〈Airplane pt.2〉：https://en.wikipedia.org/wiki/Airplane_Pt._2；https://en.wikipedia.org/wiki/Love_Yourself:_Tear
+D91-24 智旻和柾國的旅行節目：https://abc7.com/15022122；https://philstar.com/korean-wave/2024/07/04/2367428/bts-jimin-jungkook-star-travel-show
+D91-25 為 BTS 加開的列車：https://www.asiae.co.kr/en/article/2022100415222646674；https://www.koreatimes.co.kr/entertainment/k-pop/20220829/how-busan-prepares-for-bts-october-concert
+D91-26 騎著看不見的馬的〈江南 Style〉：https://www.guinnessworldrecords.com/world-records/107048-first-video-to-receive-one-billion-views；https://www.history.com/this-day-in-history/december-21/gangnam-style-first-youtube-video-to-hit-one-billion-views

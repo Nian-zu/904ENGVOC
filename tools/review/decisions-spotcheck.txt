@@ -20,3 +20,4 @@ d2ccfa03ce|careful,glad,nervous,anxious,serious,cross|The boy was so ____ about 
 # 抽查 2026-11-18：誘答也說得通
 555719230a|grandparent
 50ec3f80c0|calm,real,local,cheerful
+a2b162b251|rapid,correct,right,wrong,clear,quick,short,long,honest,simple,easy,true,perfect,final,polite,wise,careful,excellent,interesting,strange,funny,serious,good,great,better,best,fast,smart,clever,complete,exact,different,same,real,specific,useful,helpful,detailed,proper,official,brief,positive,negative,famous,popular,similar,certain,possible,reasonable,wonderful,terrible,strong,quiet,loud,friendly,kind,rude,careless,sudden,immediate,slow
