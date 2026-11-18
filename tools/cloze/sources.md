@@ -390,3 +390,30 @@ D86-24 在電影院看 BTS 的釜山演唱會：https://en.wikipedia.org/wiki/BT
 D86-25 首爾的星空圖書館：https://www.lonelyplanet.com/news/seoul-south-korea-library-coex；https://www.ladyironchef.com/tag/starfield-library-seoul/
 D86-29 由劇院改建的書店：https://turismo.buenosaires.gob.ar/en/atractivo/el-ateneo-grand-splendid；https://www.designboom.com/architecture/theatre-bookstore-buenos-aires-el-ateneo-07-28-2016/
 D86-30 莎士比亞的環球劇場：https://en.wikipedia.org/wiki/Shakespeare%27s_Globe；https://www.shakespearesglobe.com/
+D83-01 巴黎聖母院重新開放：https://www.cbsnews.com/amp/miami/news/notre-dame-cathedral-reopening-after-fire；https://wtop.com/world/2024/12/notre-dames-reopening-celebrated-its-saviors-as-much-as-the-cathedrals-resurrection-from-fire
+D83-02 日本的米價風波：https://asianews.network/rice-supplies-in-japan-still-low-with-prices-almost-doubled-from-year-ago/；https://www.thejakartapost.com/business/2025/03/10/japan-auctions-emergency-rice-reserves-as-prices-soar
+D83-03 機器人畫家 Ai-Da：https://krdo.com/news/2024/11/08/ai-robots-portrait-of-alan-turing-that-challenges-what-it-is-to-be-human-sets-record-selling-for-1-08-million/；https://news.artnet.com/market/ai-da-sothebys-sale-1-million-2566733
+D83-04 福衛八號飛上太空：https://en.wikipedia.org/wiki/Formosat-8；https://fapa.org/2025-1201-taiwans-formosat-8-satellite-successfully-launched/
+D83-05 不用火的奧運聖火：https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/the-cauldron-of-the-olympic-games-paris-2024-takes-to-the-skies-to-shine-over-the-capital；https://olympics.com/en/news/paris-2024-olympic-flame-takes-centre-stage
+D83-06 溫布頓不再有線審：https://www.malaymail.com/news/sports/2025/06/28/you-cannot-be-serious-wimbledon-ditches-line-judges-after-148-years-of-out/181891；https://www.aljazeera.com/sports/2024/10/9/wimbledon-to-replace-tennis-line-judges-with-electronic-system-from-2025
+D83-07 狗狗散步帶來的魔鬼氈：https://www.history.com/articles/velcro-invention；https://www.velcro.com/about-us/our-story/
+D83-08 一張黏不牢的便利貼：https://lemelson.mit.edu/resources/art-fry-spencer-silver；https://www.history.com/this-day-in-history/april-6/post-it-notes-debut
+D83-09 切成兩半的蚯蚓：https://www.countrylife.co.uk/nature/an-ode-to-the-worm-the-intestines-of-the-earth-6000-species-600-million-years-old-and-undeniably-valuable-213535；https://www.gardenmyths.com/earthworm-myths/
+D83-10 向日葵真的一直看著太陽嗎？：https://www.sciencenews.org/article/internal-clock-helps-young-sunflowers-follow-sun；https://csmonitor.com/Science/2016/0805/How-do-sunflowers-follow-the-sun-s-path-A-circadian-clock-revealed
+D83-11 修道院裡的豌豆：https://dnalc.cshl.edu/view/16167-Biography-2-Gregor-Mendel-1822-1884-.html；https://www.nationalgeographic.com/science/article/gregor-mendel-genetics
+D83-12 倒著寫字的達文西：https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks；https://science-sparks.com/leonardo-da-vinci-mirror-writing
+D83-13 藝術家也能拿奧運金牌：https://www.smithsonianmag.com/arts-culture/when-the-olympics-gave-out-medals-for-art-6878965/；https://www.olympedia.org/sports/ART
+D83-14 環法賽的田野藝術：https://rouleur.cc/es/blogs/the-rouleur-journal/agriculture-club-tour-de-france-field-art；https://www.sbs.com.au/sport/article/tour-de-france-field-art/dgdx4z6mv
+D83-15 巴黎服務生的賽跑：https://npr.org/2024/03/25/1240667647/paris-waiters-race-tradition-cafe-olympics；https://www.sortiraparis.com/en/what-to-do-in-paris/sport-wellness/articles/308057-la-course-des-cafes-the-iconic-waiters-and-waitresses-race-returns-after-13-years
+D83-16 穿著工作靴來比賽的農夫：https://en.wikipedia.org/wiki/Cliff_Young_(athlete)；https://www.todayifoundout.com/index.php/2011/10/a-61-year-old-potato-farmer-once-won-one-of-the-worlds-most-grueling-athletic-competitions/
+D83-17 溫布頓的草莓：https://trulyexperiencesblog.com/where-do-wimbledon-strawberries-come-from；https://italianberry.it/en/news/wimbledon-strawberries-cream-british-tennis-tradition
+D83-18 漢米爾頓耳機裡的聲音：https://www.racefans.net/2023/03/01/hamilton-and-bono-10-years-of-f1s-most-successful-driver-engineer-duo/；https://www.skysports.com/f1/news/12433/13200617/lewis-hamilton-mercedes-f1-drivers-engineer-peter-bono-bonnington-to-stay-at-mercedes-after-ferrari-links
+D83-19 完成布魯克林大橋的女人：https://en.wikipedia.org/wiki/Emily_Warren_Roebling；https://www.mentalfloss.com/article/515792/emily-warren-roebling-woman-who-helped-build-brooklyn-bridge
+D83-20 發明跳頻技術的電影明星：https://massivesci.com/articles/hedy-lamarr-inventor-world-war-movie-star-frequency/；https://moneyweek.com/332570/11-august-1942-screen-goddess-hedy-lamarr-invents-wi-fi
+D83-21 庫克的一封公開信：https://csmonitor.com/layout/set/amphtml/Business/Latest-News-Wires/2014/1030/Apple-s-Tim-Cook-is-proud-to-be-gay-hopes-to-help-others；https://www.biography.com/business-leaders/tim-cook
+D83-22 遠端操控的機器人服務生：https://www.tokyoweekender.com/entertainment/tech-trends/robot-cafe-tokyo-disabled/；https://qz.com/work/2082476/a-robot-cafe-staffed-by-remote-disabled-workers-wins-japans-top-design-prize
+D83-23 熱愛藝術的 RM：https://thenationalnews.com/arts-culture/art/2022/09/16/how-rm-of-k-pop-group-bts-became-one-of-the-art-worlds-biggest-and-youngest-influencers；https://www.koreatimes.co.kr/entertainment/20200914/bts-rm-donates-for-art-book-campaign
+D83-24 防彈少年團的年度藝人獎：https://www.soompi.com/article/1499884wpp/bts-makes-history-as-they-win-artist-of-the-year-at-2021-american-music-awards；https://www.gmanetwork.com/entertainment/showbiznews/news/82861/bts-is-the-first-asian-act-to-win-artist-of-the-year-at-2021-amas/story?amp
+D83-25 BLACKPINK 的 MTV 之夜：https://www.soompi.com/article/1772168wpp/rose-becomes-first-k-pop-artist-to-win-song-of-the-year-blackpink-lisa-and-katseye-take-wins-at-2025-mtv-vmas；https://www.thefader.com/2025/09/07/rose-2025-vmas-song-of-the-year-blackpink
+D83-26 來自世界各地的 KATSEYE：https://www.wikiwand.com/en/articles/KATSEYE；https://www.katseye.world/story-of-katseye/
+D83-29 宜蘭來的繪本作家幾米：https://en.wikipedia.org/wiki/Jimmy_Liao；https://pk.trip.com/moments/poi-jimmy-park-13484765
