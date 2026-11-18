@@ -25,3 +25,9 @@ d250a971a5|award,prize,gift,medal,present,trophy,bonus,tip,ticket,card,letter,me
 2279b06645|glad,correct,pleased,excited,perfect,alone,active
 50388f80dc|chopsticks,turn,corner,website,tourist
 3a1148da77|important,yummy,boring,easy,wild
+# 抽查 2026-11-18（D80 回）：誘答也說得通
+a4a0773e35|education,cellphone,point,career,player|You need a(n) ____ to help you in court.
+44a6bedca0|victory,favor|It's a(n) ____ to meet you.
+58fec9c3fe|gift|We play basketball in the school ____.
+744b07cf1c|jealous,loud|I'm ____ of my team.
+77221af9e0|quarrel,discuss,organize|We ____ with our friends by phone.

@@ -525,3 +525,29 @@ D84-24 TWS 的〈plot twist〉：https://www.allkpop.com/article/2024/03/rookie-
 D84-25 RIIZE 的第一把吉他：https://en.wikipedia.org/wiki/Riize；https://mb.com.ph/2023/9/5/new-k-pop-boy-band-riize-debuts-sells-more-than-178-000-copies-of-get-a-guitar
 D84-26 G-Dragon 睽違七年的〈POWER〉：https://www.allkpop.com/article/2024/10/g-dragons-power-sets-2024-melon-record-with-over-83000-listeners-in-the-first-hour；https://www.koreatimes.co.kr/entertainment/k-pop/20241105/bigbangs-g-dragon-proves-his-power-with-bold-new-single-power
 D84-29 羅傑斯先生的鄰居們：https://www.smithsonianmag.com/smithsonian-institution/cardiganed-fred-rogers-every-kids-cozy-comfort-zone-81938212/；https://www.remindmagazine.com/article/11027/mister-rogers-neighborhood-fred-rogers-sweaters-smithsonian
+D80-01 沙漠城市杜拜的大雨：https://www.al-monitor.com/originals/2024/04/dubai-floods-bring-travel-halt-after-heaviest-uae-rainfall-record；https://www.nbcnews.com/news/world/dubai-floods-uae-rainstorm-airport-disruption-rcna148344
+D80-02 撒哈拉沙漠出現了湖：https://www.cbsnews.com/amp/news/sahara-desert-flooding-morocco；https://science.nasa.gov/earth/earth-observatory/a-deluge-for-the-sahara-153320/
+D80-03 康芮颱風來的那一天：https://www.rnz.co.nz/news/top/532494/typhoon-kong-rey-bashes-taiwan-the-largest-storm-to-hit-island-since-1996；https://thestar.com.my/aseanplus/aseanplus-news/2024/10/31/kong-rey-among-biggest-typhoons-to-hit-taiwan-in-decades
+D80-04 雲散開的那幾分鐘：https://news.wttw.com/2024/04/08/huge-crowds-await-total-solar-eclipse-across-north-america-clouds-may-spoil-view；https://www.wfsb.com/2024/04/08/huge-crowds-await-total-solar-eclipse-north-america-clouds-may-spoil-view/
+D80-05 四個地方同時開幕的冬奧：https://www.olympics.com/ioc/news/from-san-siro-to-the-dolomites-a-multi-site-opening-sets-the-tone-for-milano-cortina-2026；https://focustaiwan.tw/sports/202601210019
+D80-06 雨中開幕的大阪世博：https://www.thestar.com.my/aseanplus/aseanplus-news/2025/04/14/119000-people-flock-to-osaka-expo-on-opening-day-amid-rain；https://gmanetwork.com/news/lifestyle/travel/942613/world-expo-opens-in-japan-in-rocky-times/story
+D80-07 雪其實是透明的：https://livescience.com/why-is-snow-white.html；https://potassiumm11.imascientist.org.uk/question/why-is-ice-clear-and-snow-white.html
+D80-08 陰天也會曬傷：https://www.mcgill.ca/oss/article/medical-student-contributors/cloudy-chance-sunburn；https://wusa9.com/article/news/verify/verify-cloudy-day-yes-you-still-need-spf/65-f92b4056-9c12-49ef-9426-9ea38d746970
+D80-09 下雨的味道有名字：https://www.smithsonianmag.com/science-nature/what-makes-rain-smell-so-good-13806085/；https://sciencenotes.org/petrichor-and-geosmin-the-smell-of-rain/
+D80-10 雨滴不是眼淚的形狀：https://www.usgs.gov/water-science-school/science/are-raindrops-shaped-teardrops；https://spectrumnews1.com/ky/louisville/weather/2021/02/24/the-shape-of-a-raindrop--it-s-not-what-you-think
+D80-11 風城其實不是最會颳風的城市：https://en.wikipedia.org/wiki/Windy_City_(nickname)；https://www.history.com/articles/why-is-chicago-called-the-windy-city
+D80-12 台北 101 的大鐵球：https://www.guinnessworldrecords.com/world-records/774616-largest-tuned-mass-damper；https://www.taiwannews.com.tw/en/news/3683775
+D80-13 溫布頓的屋頂：https://en.wikipedia.org/wiki/Centre_Court；https://mg.co.za/article/2009-06-30-first-full-match-under-new-roof-produces-drama
+D80-14 風雨中的波士頓馬拉松：https://athleticsweekly.com/news/reports/desi-linden-and-yuki-kawauchi-win-rain-soaked-boston-marathon-95755/；https://www.npr.org/602907273
+D80-15 來自熱帶島嶼的雪車隊：https://olympics.com/en/news/jamaican-bobsleigh-team-1988-winter-olympics；https://www.fox13news.com/news/cool-runnings-inspired-by-original-jamaican-bobsled-team
+D80-16 席弗琳的第一百勝：https://www.npr.org/2025/02/24/nx-s1-5306991/skier-mikaela-shiffrin-world-cup-wins；https://www.usskiandsnowboard.org/news/shiffrin-claims-historic-100th-win-alongside-moltzan-third
+D80-17 第一座能打開屋頂的球場：https://en.wikipedia.org/wiki/Rogers_Centre；https://www.mlb.com/bluejays/ballpark/information/history
+D80-18 台灣冬奧的花式滑冰選手：https://focustaiwan.tw/sports/202601210019；https://news.pts.org.tw/article/794145；https://focustaiwan.tw/sports/202602170011
+D80-19 雨中通過的婚姻平權：https://www.nbcnews.com/news/world/first-asia-taiwan-approves-same-sex-marriage-n1006801；https://www.rfa.org/english/news/china/marriage-05172019120217.html
+D80-20 第一位登上聖母峰的女性：https://en.wikipedia.org/wiki/Junko_Tabei；https://www.npr.org/sections/thetwo-way/2016/10/22/498971169/japanese-climber-junko-tabei-first-woman-to-conquer-mount-everest-dies-at-77
+D80-21 粉紅襯衫日：https://en.wikipedia.org/wiki/Pink_Shirt_Day；https://www.cbc.ca/kids/articles/what-is-pink-shirt-day
+D80-22 下雨天讀馬拉拉：https://nobelprize.org/prizes/peace/2014/yousafzai/biographical；https://www.guinnessworldrecords.com/records/hall-of-fame/malala-yousafzai-youngest-nobel-prize-winner
+D80-23 從冬天等到春天的〈Spring Day〉：https://en.wikipedia.org/wiki/Spring_Day_(song)；https://www.soompi.com/article/1345077wpp/btss-spring-day-achieves-record-of-longest-charting-song-on-melons-weekly-
+D80-24 雪地裡的那隻鹿：https://en.wikipedia.org/wiki/Ditto_(song)；https://www.allkpop.com/article/2022/12/newjeans-new-song-ditto-is-met-with-massive-love-in-korea-upon-its-release
+D80-25 雨中的巡演終點站：https://sbsstar.net/article/N1008137683/musicy-jhope-pierces-through-the-rain-with-world-tour-fervor-finale-wrapped-up-with-bts-members-support；https://www.allkpop.com/article/2025/06/btss-jin-and-jungkook-make-a-surprise-appearance-on-stage-at-j-hopes-hope-on-the-stage-final
+D80-26 權志龍在河內的大雨中開唱：https://vietnamnews.vn/life-style/1720058/k-pop-sensation-performs-mega-hits-in-the-pouring-rain-in-ha-noi.html；https://vntravellive.com/en/g-dragon-tam-mua-cung-40000-nguoi-tren-san-my-dinh-d39119.html
