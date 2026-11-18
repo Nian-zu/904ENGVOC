@@ -578,3 +578,30 @@ D79-24 像打雷一樣的〈Thunderous〉：https://en.wikipedia.org/wiki/Thunde
 D79-25 BLACKPINK 回到高雄：https://focustaiwan.tw:443/society/202510200019；https://ground.news/article/blackpink-resumes-deadline-tour-in-taiwan-100-000-fans-attend-opening-nights-k-pop-newswire
 D79-26 ILLIT 的〈Magnetic〉：https://www.soompi.com/article/1655236wpp/illit-becomes-1st-k-pop-group-to-enter-billboard-hot-100-with-debut-song；https://www.allkpop.com/article/2024/04/illit-set-new-record-as-magnetic-debuts-on-billboards-hot-100-chart
 D79-30 彩虹為什麼有七種顏色？：https://colourliteracy.org/many-colours-in-spectrum；https://www.the-scientist.com/newtons-color-theory-ca-1665-31931
+D78-01 南海海槽的第一次「巨大地震注意」：https://alpha.japantimes.co.jp/article/national_news/202408/115724；https://www.cbsnews.com/amp/news/japan-fumio-kishida-megaquake-scientists-urge-preparations
+D78-02 堪察加的規模 8.8 大地震：https://www.aljazeera.com/news/2025/7/30/tsunami-waves-hit-hawaii-japan-after-russia-quake-what-we-know-so-far；https://www.intellinews.com/strongest-earthquake-in-kamchatka-since-1952-triggers-tsunami-alerts-across-pacific-393573；https://ctif.org/news/two-million-under-evacuation-advisory-when-2025-earthquake-triggered-pacific-tsunami-japan
+D78-03 富士山遲到的白雪帽：https://www.rnz.co.nz/news/top/533158/snowcap-on-japan-s-mt-fuji-this-year-is-latest-spotted-in-130-years；https://nippon.com/en/news/yjj2024110700416
+D78-04 只剩兩個季節的日本？：https://www.scmp.com/news/asia/east-asia/article/3328658/summers-japan-longer-3-weeks-over-42-years-researchers-say；https://sj.jst.go.jp/news/202510/n1017-02n.html
+D78-05 連續第三年最早開的東京櫻花：https://www.japantimes.co.jp/news/2023/03/14/national/tokyo-cherry-blossoms-blooming；https://soranews24.com/2023/03/14/cherry-blossoms-begin-blooming-in-tokyo-earliest-start-to-sakura-season-for-third-year/
+D78-06 手機響起的國家級警報：https://en.wikipedia.org/wiki/2024_Hualien_earthquake；https://nwasianweekly.com/2024/04/strongest-earthquake-in-25-years-rocks-taiwan-killing-9-people-and-trapping-70-workers-in-quarries/
+D78-07 夏天不是因為離太陽比較近：https://spaceplace.nasa.gov/seasons/en/；https://www.nesdis.noaa.gov/about/k-12-education/understanding-our-planet/why-does-earth-have-seasons
+D78-08 秋天的葉子為什麼會變色：https://www.pbs.org/newshour/science/why-do-leaves-change-color；https://edu.rsc.org/everyday-chemistry/the-chemistry-behind-leaves-changing-colour-and-falling-from-trees/4018155.article
+D78-09 沒有「地震天氣」這回事：https://ktvu.com/news/usgs-earthquake-weather-doesnt-exist；https://science.nasa.gov/earth/climate-change/can-climate-affect-earthquakes-or-are-the-connections-shaky/
+D78-10 泡溫泉的雪猴：https://www.kyoto-u.ac.jp/en/research-news/2018-04-04；https://www.nationalgeographic.com/animals/article/japanese-snow-monkey-macaques-bath-stress-spd
+D78-11 只有春分才能立蛋？：https://www.scholastic.com/parents/kids-activities-and-printables/activities-for-kids/math-and-science-ideas/science-myth-can-you-balance-egg-spring-equinox.html；https://www.accuweather.com/en/space-news/can-you-balance-an-egg-on-the-equinox/1756974
+D78-12 帝王斑蝶的秋天大旅行：https://www.discoverwildlife.com/animal-facts/insects-invertebrates/monarch-butterfly-migration；https://www.earthdate.org/node/431
+D78-13 溫泉是從哪裡來的？：https://taiwanhotspring.net/Articles.aspx?a=102&l=2；https://samurai-sauna-magazine.com/en/guides/volcano-and-onsen-relationship
+D78-14 春訓的起點是溫泉小鎮：https://www.history.com/articles/hot-springs-grapefruits-and-the-babe-a-history-of-spring-training；https://www.wilderness.org/articles/blog/little-known-national-park-big-part-baseball-history；https://en.wikipedia.org/wiki/Spring_training
+D78-15 橫濱高中的春季甲子園：https://www.baseballchannel.jp/etc/208566；https://www.baseball-reference.com/bullpen/Spring_Koshien
+D78-16 地震後奪冠的大和撫子：https://www.fifa.com/news/japans-womens-world-cup-triumph-ten-years-on；https://www.aljazeera.com/sport/football/2011/07/201171718416280786.html
+D78-17 柯瑞的賽前暖身秀：https://africa.espn.com/nba/story/_/id/22215844/steph-curry-pregame-show-anything-routine；https://www.complex.com/sports/a/brett-pollakoff/stephen-curry-warriors-let-fans-into-arena-early-to-watch-pregame
+D78-18 在深秋開踢的卡達世界盃：https://www.tbsnews.net/sports/why-qatar-world-cup-being-played-winter-535438；https://www.fifa.com/social-impact/sustainability/news/legacy-in-action-qatars-revolutionary-stadium-cooling-technology
+D78-19 「加油神戶」的歐力士藍浪：https://wikipedia.com/wiki/1995_Nippon_Professional_Baseball_season；https://thehanshintigers.com/team-profiles/orix-buffaloes
+D78-20 2003 年的第一次台灣同志遊行：https://en.wikipedia.org/wiki/Taiwan_Pride；https://www.fridae.asia/sc/gay-news/2003/11/03/584.taiwan-holds-its-first-gay-parade；https://m.washingtontimes.com/news/2024/oct/26/thousands-gather-colorful-celebration-taiwan-pride/
+D78-21 九二一地震教育園區的跑道：https://www.nmns.edu.tw/park_921/about/data/Running-Track/；https://atlasobscura.com/places/921-earthquake-museum
+D78-22 日本的敬老之日：https://thefinancialexpress.com.bd/world/asia/japans-centenarian-population-hits-new-record-of-over-99000；https://traveltomorrow.com/japan-breaks-record-with-nearly-100000-centenarians/
+D78-23 發現地球內核的英格‧雷曼：https://en.wikipedia.org/wiki/Inge_Lehmann；https://www.amnh.org/learn-teach/curriculum-collections/earth-inside-and-out/inge-lehmann-discoverer-of-the-earth-s-inner-core
+D78-24 IU 的〈秋天的早晨〉：https://www.soompi.com/article/1045279wpp/iu-surprises-fans-new-track-autumn-morning-9th-debut-anniversary；https://www.soompi.com/article/1046955wpp/ius-autumn-morning-takes-perfect-kill-charts；https://en.wikipedia.org/wiki/Autumn_Morning
+D78-25 太妍的〈四季〉：https://en.wikipedia.org/wiki/Four_Seasons_(song)；https://www.soompi.com/article/1312451wpp/girls-generations-taeyeon-reigns-over-all-major-realtime-charts-with-four-seasons
+D78-26 BIGBANG 的〈春夏秋冬〉：https://en.wikipedia.org/wiki/Still_Life_(BigBang_song)；https://www.soompi.com/article/1521444wpp/bigbangs-still-life-becomes-1st-song-by-male-artist-to-achieve-perfect-all-kill-in-2022
+D78-27 每年春天都回來的〈櫻花結局〉：https://en.wikipedia.org/wiki/Cherry_Blossom_Ending；https://www.kpopstarz.com/articles/89407/20140426/will-iu-benefit-cherry-blossom-pensions.htm；https://www.kpopstarz.com/articles/181892/20150309/busker-busker-cherry-blossom-ending-zombie-song.htm
