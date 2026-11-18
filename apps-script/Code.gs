@@ -124,7 +124,10 @@ function doGet(e) {
   const type = TYPE_ZH[p.type] ? p.type : 'all';
   const allRows = readRows_();
   const rows = type === 'all' ? allRows : readDetail_(TYPE_ZH[type]);
+  const clozeRows = readDetail_('克漏字');
   const cur = agg_(rows, from, today), prv = prevFrom ? agg_(rows, prevFrom, prevTo) : {};
+  // 「全部」排行不算克漏字：從每人的題數扣掉同期間克漏字的題數
+  if (type === 'all') { minus_(cur, agg_(clozeRows, from, today)); if (prevFrom) minus_(prv, agg_(clozeRows, prevFrom, prevTo)); }
   const list = Object.keys(cur).map(function (k) { return cur[k]; });
   const rateOf = function (s) { return s.fAns ? Math.round(s.fRight / s.fAns * 100) : null; };
   const entry = function (s) {
@@ -151,7 +154,7 @@ function doGet(e) {
 
   return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, readDetail_('克漏字')) });
+    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows) });
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -215,6 +218,14 @@ function agg_(rows, from, to) {
     if (!r.redo) { s.fRight += r.right; s.fAns += r.answered; }
   });
   return st;
+}
+
+function minus_(st, cz) {
+  Object.keys(cz).forEach(function (k) {
+    const s = st[k], c = cz[k];
+    if (!s) return;
+    s.right -= c.right; s.answered -= c.answered; s.fRight -= c.fRight; s.fAns -= c.fAns;
+  });
 }
 
 function upOf_(s, q, period) {

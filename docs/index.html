@@ -52,6 +52,7 @@ main{padding:18px 16px 40px}
 .cb.cur{border-color:var(--chalk);background:#fff6d6;color:var(--ink)}
 .cb.ok{border-color:var(--ok);color:var(--ok)}
 .cb.bad{border-color:var(--bad);color:var(--bad)}
+.cb.given{border-color:transparent;color:var(--ink);font-weight:600;min-width:0;padding:0 2px}
 .cgloss{font-size:.88rem;color:var(--muted);background:var(--paper);border:1px dashed var(--line);border-radius:10px;padding:8px 12px;margin:-4px 0 14px;line-height:1.6}
 .cgloss b{color:var(--ink);font-family:var(--font-en)}
 .feedback .why{font-size:.95rem}
@@ -345,7 +346,7 @@ input[type=text]{flex:1;min-width:200px}
     </div>
   </div>
   <div class="seg sortseg" role="group" aria-label="題型">
-    <button data-bt="all" aria-pressed="true">全部題型</button>
+    <button data-bt="all" aria-pressed="true">全部（不含克漏字）</button>
     <button data-bt="word" aria-pressed="false">單字</button>
     <button data-bt="verb" aria-pressed="false">動詞變化</button>
     <button data-bt="prep" aria-pressed="false">介系詞</button>
@@ -504,6 +505,7 @@ function start(items){
   session = {items, i:0, right:0, wrong:[], answered:false, done:{}, streak:0, order: items.map(() => shuffle([0,1,2,3])),
     log: [], t0: Date.now(), planned: items.length, rangeText: rangeText(), quiz: pendingQuiz};
   pendingQuiz = null; $('qQuiz').classList.toggle('hidden', !session.quiz);
+  session.asked = new Set(items.filter(x => typeof x === 'object').map(x => x.u + '-' + x.p + '-' + x.b));
   $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); $('board').classList.add('hidden');
   show();
 }
@@ -537,6 +539,7 @@ function clozeHtml(st, reveal){
   return esc(P.text).replace(/\{(\d)\}/g, (m, k) => {
     const b = +k - 1, B = P.blanks[b];
     if (b === st.b && !reveal) return `<span class="cb cur">(${k}) ＿＿</span>`;
+    if (s.asked && !s.asked.has(st.u + '-' + st.p + '-' + b)) return `<span class="cb given">${esc(B.o[B.c])}</span>`;
     const done = s.done && s.done[st.u + '-' + st.p + '-' + b];
     if (b === st.b || done != null) { const pick = b === st.b ? reveal.pick : done; return `<span class="cb ${pick === B.c ? 'ok' : 'bad'}${b === st.b && reveal ? ' now' : ''}">(${k}) ${esc(B.o[B.c])}</span>`; }
     return `<span class="cb">(${k}) ＿＿</span>`;
@@ -872,7 +875,47 @@ $('qToday').onclick = () => { const t = todayIdx(); setMode('range'); $('from').
 $('qUpto').onclick = () => { setMode('range'); $('from').value = 0; $('to').value = todayIdx(); update(); };
 $('qWeek').onclick = () => { const t = todayIdx(); setMode('range'); $('from').value = Math.max(0, t-6); $('to').value = t; update(); };
 // 組題：克漏字依勾選題型數平均分配題數（以 5 格為一篇），其餘由句子題補足；整篇的 5 格連在一起
+// 每日小考：不管學生勾了哪些題型，固定這樣出（以 20 題為例）——
+//   單字選擇／動詞變化／介系詞搭配（單字書）約 80%：16 題
+//   講義題（一字多義／片語／會考文法）2 題
+//   克漏字 1 篇裡挑 2 格（其他格直接顯示答案，當閱讀提示）
+const QUIZ_BASE = 0.8, QUIZ_EX = 2, QUIZ_CLOZE = 2;
+async function startQuiz(){
+  const saved = types; types = new Set(KINDS);
+  const {all, passages} = pool();
+  types = saved;
+  const n = num;
+  const base = all.filter(qi => !EXTRA.has(DATA.bank[qi].k)), ex = all.filter(qi => EXTRA.has(DATA.bank[qi].k));
+  let nC = passages.length ? QUIZ_CLOZE : 0, nE = Math.min(QUIZ_EX, ex.length);
+  let nB = Math.max(0, n - nC - nE);
+  if (nB < Math.round(n * QUIZ_BASE)) nB = Math.min(nB, base.length);
+  let pick = null;
+  if (nC) {
+    pick = shuffle(passages.slice())[0];
+    $('startBtn').disabled = true; $('startBtn').textContent = '載入克漏字…';
+    try { await loadCloze([pick.u]); } catch (e) { pick = null; nC = 0; nB = n - nE; }
+  }
+  // 講義題盡量挑不同題型
+  const exPick = [], seen = new Set();
+  for (const qi of shuffle(ex.slice())) { if (exPick.length >= nE) break; const k = DATA.bank[qi].k; if (seen.has(k) && ex.some(x => !seen.has(DATA.bank[x].k))) continue; seen.add(k); exPick.push(qi); }
+  const take = (list, m, keys) => { const out = []; for (const qi of shuffle(list.slice())) { if (out.length >= m) break; const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(qi); } return out; };
+  const keys = new Set(exPick.map(qi => DATA.bank[qi].g));
+  // 單字書三種題型平均分（介系詞題比較少，有多少出多少，不足的由其他兩種補）
+  const want = Math.min(nB, n - nC - exPick.length), per = Math.floor(want / 3);
+  let basePick = [];
+  ['word', 'verb', 'prep'].forEach((k, i) => { basePick = basePick.concat(take(base.filter(qi => DATA.bank[qi].k === k), per + (i < want % 3 ? 1 : 0), keys)); });
+  if (basePick.length < want) basePick = basePick.concat(take(base, want - basePick.length, keys));
+  if (basePick.length + exPick.length + nC < n) basePick = basePick.concat(take(all, n - nC - exPick.length - basePick.length, keys));
+  const blocks = basePick.concat(exPick).map(qi => [qi]);
+  if (pick) {
+    const bs = shuffle(clozeOf(pick).blanks.map((_, b) => b)).slice(0, nC).sort((a, b) => a - b);
+    blocks.push(bs.map(b => ({u: pick.u, p: pick.p, b})));
+  }
+  start(shuffle(blocks).flat());
+  update();
+}
 $('startBtn').onclick = async () => {
+  if (pendingQuiz) return startQuiz();
   const {all, sentences, passages} = pool();
   const sentTypes = KINDS.filter(k => k !== 'cloze' && types.has(k)).length;
   let nP = 0;
@@ -962,7 +1005,7 @@ async function upload(){
   if (!SHEET_URL) { box.className = 'upload bad'; box.textContent = '老師尚未設定成績上傳網址，這次成績沒有上傳。'; return; }
   box.className = 'upload'; box.textContent = '成績上傳中…';
   const body = JSON.stringify({
-    seat: $('seat').value, name: $('sname').value.trim(), pin: $('spin').value.trim(), range: s.rangeText, kind: kindCode(),
+    seat: $('seat').value, name: $('sname').value.trim(), pin: $('spin').value.trim(), range: s.rangeText, kind: s.quiz ? 'all' : kindCode(),
     total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log, quiz: s.quiz || ''
   });
   const okMsg = sc => `✓ 成績已上傳（${TEACHERS[$('seat').value] ? '' : $('seat').value + ' 號 '}${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
