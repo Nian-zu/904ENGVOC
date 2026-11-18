@@ -103,6 +103,7 @@ function doGet(e) {
   if (p.action === 'dash') return out_(dash_(p.key));
   if (p.action === 'badges') return out_(badges_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
+  if (p.action === 'parent') return out_(parent_(p.key, p.seat));
   if (p.action === 'who') { const ws = parseInt(p.seat, 10), wn = roster_()[ws]; return out_({ ok: true, given: wn ? givenName(wn) : '' }); }
   if (p.action === 'login') {
     const ls = parseInt(p.seat, 10), lc = checkPin_(ls, p.pin);
@@ -698,4 +699,98 @@ function checkPin_(seat, pin) {
   const lk = 'pinlast-' + seat;
   if (tried && cache.get(lk) !== tried) { cache.put(k, String(fails + 1), 300); cache.put(lk, tried, 300); }
   return { ok: false, error: pin ? '個人密碼不正確，請再確認一次。' : '請輸入個人密碼。' };
+}
+
+// ===================== 家長查詢頁（docs/parent.html） =====================
+// 密碼放在試算表「設定」分頁：A 欄「家長密碼」、B 欄密碼（不放在 GitHub 上）
+function parentKey_() {
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('設定');
+  if (sh && sh.getLastRow() >= 1) {
+    const v = sh.getRange(1, 1, sh.getLastRow(), 2).getValues();
+    for (let i = 0; i < v.length; i++) if (String(v[i][0]).trim() === '家長密碼') return String(v[i][1]).trim();
+  }
+  return PropertiesService.getScriptProperties().getProperty('PARENT_KEY') || '';
+}
+
+function parent_(key, seat) {
+  const want = parentKey_();
+  if (!want) return { ok: false, error: '家長密碼尚未設定，請洽導師。' };
+  if (String(key || '').trim() !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入密碼' };
+  const ro = roster_();
+  const roster = Object.keys(ro).map(Number).filter(function (x) { return x !== 30 && x !== 31; })
+    .sort(function (a, b) { return a - b; }).map(function (x) { return { seat: x, name: ro[x] }; });
+  const s = parseInt(seat, 10);
+  if (!s) return { ok: true, roster: roster };
+  if (!ro[s]) return { ok: false, error: '找不到這個座號' };
+  const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  const isStu = function (x) { return x && x !== 30 && x !== 31; };
+
+  // ---- 練習量：每次交卷（成績分頁）
+  const rows = readRows_().filter(function (r) { return isStu(r.seat); });
+  const mine = rows.filter(function (r) { return r.seat === s; });
+  const weeks = {}, classWeeks = {}, days = {};
+  const wk = function (o, r) { const w = weekStart_(r.d); const x = o[w] || (o[w] = { w: w, tests: 0, answered: 0, right: 0, seats: {} }); x.tests++; x.answered += r.answered; x.right += r.right; x.seats[r.seat] = 1; };
+  mine.forEach(function (r) { wk(weeks, r); days[r.d] = 1; });
+  rows.forEach(function (r) { wk(classWeeks, r); });
+  const nStu = roster.length || 1;
+  const weekList = [];
+  for (let i = 7; i >= 0; i--) {
+    const w = weekStart_(shift_(today, -7 * i)), m = weeks[w] || { tests: 0, answered: 0, right: 0 }, c = classWeeks[w] || { answered: 0, right: 0 };
+    weekList.push({ w: w, tests: m.tests, answered: m.answered, rate: m.answered ? Math.round(m.right / m.answered * 100) : null,
+      classAnswered: Math.round(c.answered / nStu), classRate: c.answered ? Math.round(c.right / c.answered * 100) : null });
+  }
+  let streak = 0;
+  for (let d = days[today] ? today : shift_(today, -1); days[d]; d = shift_(d, -1)) streak++;
+  const tot = mine.reduce(function (a, r) { a.answered += r.answered; a.right += r.right; return a; }, { answered: 0, right: 0 });
+  const ctot = rows.reduce(function (a, r) { a.answered += r.answered; a.right += r.right; return a; }, { answered: 0, right: 0 });
+
+  // ---- 各題型答對率、常錯的單字（作答明細分頁）
+  const types = {}, ctypes = {}, words = {};
+  const dsh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
+  if (dsh && dsh.getLastRow() > 1) {
+    dsh.getRange(2, 1, dsh.getLastRow() - 1, 11).getValues().forEach(function (r) {
+      const st = parseInt(r[1], 10);
+      if (!isStu(st)) return;
+      const kind = String(r[6]), ok = Number(r[7]) === 1;
+      const c = ctypes[kind] || (ctypes[kind] = { answered: 0, right: 0 }); c.answered++; if (ok) c.right++;
+      if (st !== s) return;
+      const t = types[kind] || (types[kind] = { answered: 0, right: 0 }); t.answered++; if (ok) t.right++;
+      if (kind === '會考文法') return;
+      const w = String(r[5]).trim();
+      if (!w) return;
+      const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).slice(0, 10);
+      const x = words[w] || (words[w] = { w: w, total: 0, wrong: 0, last: '', lastOk: false, kind: kind });
+      x.total++; if (!ok) x.wrong++;
+      const stamp = String(r[10]);
+      if (stamp >= x.last) { x.last = stamp; x.lastOk = ok; x.lastDate = d; }
+    });
+  }
+  const ORDER = ['單字', '動詞變化', '介系詞', '克漏字', '一字多義', '片語', '會考文法'];
+  const typeList = ORDER.filter(function (k) { return types[k] || ctypes[k]; }).map(function (k) {
+    const t = types[k] || { answered: 0, right: 0 }, c = ctypes[k] || { answered: 0, right: 0 };
+    return { kind: k, answered: t.answered, rate: t.answered ? Math.round(t.right / t.answered * 100) : null,
+      classRate: c.answered ? Math.round(c.right / c.answered * 100) : null };
+  });
+  const wrong = Object.keys(words).map(function (k) { return words[k]; }).filter(function (x) { return x.wrong > 0; })
+    .sort(function (a, b) { return b.wrong - a.wrong || (a.lastOk === b.lastOk ? 0 : a.lastOk ? 1 : -1) || (b.last < a.last ? -1 : 1); })
+    .slice(0, 30).map(function (x) { return { w: x.w, wrong: x.wrong, total: x.total, lastOk: x.lastOk, lastDate: x.lastDate }; });
+
+  // ---- 每日小考
+  const tk = tasks_(PropertiesService.getScriptProperties().getProperty('TEACHER_KEY') || '');
+  const quiz = [];
+  if (tk.ok) {
+    tk.tasks.filter(function (t) { return t.date <= today; }).sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (t) {
+      const r = (tk.results[t.date] || {})[s] || null;
+      quiz.push({ date: t.date, label: t.days ? t.label : (t.refLabel || '老師公布的範圍'), n: t.n, pass: t.pass,
+        passAt: r && r.passAt || '', best: r ? r.best : null, attempts: r ? r.attempts : 0,
+        wrongRange: r && r.wrong ? r.wrong.range : '', short: r && r.short ? r.short.n : 0 });
+    });
+  }
+
+  return { ok: true, today: today, seat: s, name: ro[s], roster: roster,
+    summary: { answered: tot.answered, rate: tot.answered ? Math.round(tot.right / tot.answered * 100) : null,
+      classRate: ctot.answered ? Math.round(ctot.right / ctot.answered * 100) : null,
+      classAnswered: Math.round(ctot.answered / nStu), days: Object.keys(days).length, streak: streak, tests: mine.length,
+      firstDay: Object.keys(days).sort()[0] || '' },
+    weeks: weekList, types: typeList, wrong: wrong, quiz: quiz };
 }

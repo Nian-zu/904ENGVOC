@@ -203,6 +203,10 @@ def main():
     hide = {i for i, q in enumerate(b['bank']) if q['k'] == 'verb' and not q.get('y')}
     b['days'] = [[i for i in d if i not in hide] for d in b['days']]
     json.dump(b, open(BANK, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    # 家長查詢頁用的小字典（只有單字書的字，不用下載整個題庫）
+    words = {w for d in b['words'] for w in d}
+    json.dump({'gl': {w: GL[w] for w in sorted(words) if GL.get(w)}, 'more': b['more']},
+              open(os.path.join(ROOT, 'docs', 'gl.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     print(f'動詞變化說明：{n}/{tot} 題；沒有說明、不出題 {len(hide)} 題')
 
 

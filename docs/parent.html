@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>永中904每日背英單・家長查詢</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --board:#1f3d33; --board-2:#2a5245; --chalk:#f2c94c; --paper:#fbfaf6; --card:#ffffff;
+  --ink:#1c2321; --muted:#5f6b67; --line:#dde3df;
+  --ok:#1f8a4c; --ok-bg:#e5f5ec; --bad:#c2412d; --bad-bg:#fbe9e5; --warn:#a86a00; --warn-bg:#fff4d6;
+  --me:#2a7a5f; --cls:#9aa8a3;
+  --font-body:"Noto Sans TC",system-ui,sans-serif; --font-en:"Atkinson Hyperlegible","Noto Sans TC",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --board:#15291f; --board-2:#1f3b2f; --paper:#121715; --card:#1a201e; --ink:#e9eeec; --muted:#9aa8a3; --line:#2c3633;
+  --ok:#4cc27e; --ok-bg:#16301f; --bad:#ef7a64; --bad-bg:#3a1c16; --warn:#f2c94c; --warn-bg:#3a3014; --me:#5cc79c; --cls:#5f6b67; color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.6}
+header{background:var(--board);color:#f4f1e6;padding:18px 20px 16px}
+header h1{margin:0;font-size:1.25rem;font-weight:900;letter-spacing:.02em}
+header h1 span{color:var(--chalk)}
+header p{margin:2px 0 0;color:#cfd8d3;font-size:.9rem}
+main{max-width:860px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px}
+h2{font-size:1.08rem;margin:0 0 10px;font-weight:900}
+h2 small{font-weight:500;color:var(--muted);font-size:.85rem;margin-left:6px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+input,select,button{font:inherit}
+input,select{padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);min-width:0}
+button{padding:9px 16px;border-radius:10px;border:0;background:var(--board);color:#fff;font-weight:700;cursor:pointer}
+button.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--chalk);outline-offset:2px}
+.err{color:var(--bad);font-weight:700}
+.muted{color:var(--muted)}
+.hidden{display:none!important}
+.who{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:4px 0 12px}
+.who b{font-size:1.4rem;font-weight:900}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.stat{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--card)}
+.stat .k{font-size:.82rem;color:var(--muted)}
+.stat .v{font-size:1.6rem;font-weight:900;font-variant-numeric:tabular-nums;line-height:1.2}
+.stat .v small{font-size:.9rem;font-weight:700;margin-left:2px}
+.stat .c{font-size:.8rem;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.82rem;color:var(--muted);font-weight:700}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.tag{display:inline-block;padding:1px 9px;border-radius:999px;font-size:.85rem;font-weight:700;white-space:nowrap}
+.tag.ok{background:var(--ok-bg);color:var(--ok)}
+.tag.no{background:var(--bad-bg);color:var(--bad)}
+.tag.warn{background:var(--warn-bg);color:var(--warn)}
+.tag.todo{background:var(--line);color:var(--muted)}
+.chart svg{width:100%;height:auto;display:block}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.82rem;color:var(--muted);margin-top:6px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:4px}
+.bars .b{display:grid;grid-template-columns:5.5em 1fr 3.4em;gap:8px;align-items:center;margin:8px 0}
+.bars .track{position:relative;height:14px;background:var(--line);border-radius:7px}
+.bars .fill{position:absolute;left:0;top:0;bottom:0;border-radius:7px;background:var(--me)}
+.bars .mark{position:absolute;top:-4px;bottom:-4px;width:3px;border-radius:2px;background:var(--ink);opacity:.55}
+.bars .n{font-size:.78rem;color:var(--muted)}
+.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.word{border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.word .en{font-family:var(--font-en);font-weight:700;font-size:1.05rem}
+.word .zh{font-size:.85rem;color:var(--muted)}
+.word .more{font-size:.8rem;color:var(--muted)}
+.word .ct{font-size:.82rem;margin-top:2px}
+.tips li{margin:4px 0}
+footer{font-size:.82rem;color:var(--muted);text-align:center;padding:10px 16px 30px}
+</style>
+</head>
+<body>
+<header>
+  <h1>永中904<span>每日背英單</span>・家長查詢</h1>
+  <p>看看孩子每天的英文單字練習與小考狀況</p>
+</header>
+<main>
+  <section class="card" id="login">
+    <h2>輸入家長密碼</h2>
+    <div class="row">
+      <input type="password" id="pw" placeholder="密碼" autocomplete="current-password" aria-label="家長密碼" style="flex:0 1 200px">
+      <button id="pwBtn" type="button">進入</button>
+      <span id="pwMsg" class="err" role="alert"></span>
+    </div>
+    <p class="muted" style="margin:8px 0 0;font-size:.88rem">密碼請向導師索取。這台裝置會記住密碼，共用電腦用完請按「登出」。</p>
+  </section>
+
+  <section class="card hidden" id="pick">
+    <div class="row">
+      <label for="seat"><b>選擇孩子</b></label>
+      <select id="seat" style="flex:0 1 220px"><option value="">座號・姓名</option></select>
+      <button class="ghost" id="logout" type="button">登出</button>
+      <span id="loadMsg" class="muted"></span>
+    </div>
+  </section>
+
+  <div id="report" class="hidden">
+    <section class="card">
+      <div class="who"><b id="rName"></b><span class="muted" id="rSince"></span></div>
+      <div class="stats" id="rStats"></div>
+    </section>
+
+    <section class="card">
+      <h2>每日小考<small>每天早上考 20 題，答對率達標就過關，可以重考</small></h2>
+      <div id="rQuiz"></div>
+    </section>
+
+    <section class="card chart">
+      <h2>每週練習量與答對率<small>最近 8 週</small></h2>
+      <div id="rWeeks"></div>
+      <div class="legend"><span><i style="background:var(--me)"></i>孩子練習題數</span><span><i style="background:var(--cls)"></i>全班平均題數</span><span><i style="background:var(--chalk)"></i>孩子答對率</span></div>
+    </section>
+
+    <section class="card">
+      <h2>各題型答對率<small>深色條是孩子，細黑線是全班平均</small></h2>
+      <div class="bars" id="rTypes"></div>
+    </section>
+
+    <section class="card">
+      <h2>常錯的單字<small>錯最多次的在前面，可以在家陪孩子念一念</small></h2>
+      <div class="words" id="rWords"></div>
+    </section>
+
+    <section class="card tips">
+      <h2>可以怎麼陪孩子</h2>
+      <ul>
+        <li>每天花 10 分鐘練習，比週末一次練很多更有效。看看上面的「連續練習」天數。</li>
+        <li>「常錯的單字」可以抽考孩子：唸英文請他說中文，或反過來。</li>
+        <li>答對率比題數重要：鼓勵孩子做完後按「錯題重做」，把錯的弄懂。</li>
+        <li>小考沒過關沒關係，可以重考；重要的是每天都有完成。</li>
+      </ul>
+    </section>
+  </div>
+</main>
+<footer>資料每次打開時從學校的成績紀錄即時讀取。有任何問題請洽英文老師。</footer>
+
+<script>
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxVmbIvH50EIkAU283p-MCnfhSmSvT_dsNoOeQFE-9og2788WmtwD9MBYwVMQJoD9fNaQ/exec';
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const md = d => { const p = String(d).split('-'); return +p[1] + '/' + +p[2]; };
+let KEY = '', GLD = {gl: {}, more: {}};
+const store = { get(k){ try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v){ try { localStorage.setItem(k, v); } catch (e) {} }, del(k){ try { localStorage.removeItem(k); } catch (e) {} } };
+
+fetch('gl.json').then(r => r.json()).then(j => { GLD = j; }).catch(() => {});
+
+async function api(params){
+  const q = new URLSearchParams(Object.assign({action: 'parent', key: KEY}, params));
+  const r = await fetch(SHEET_URL + '?' + q.toString());
+  return r.json();
+}
+
+async function login(pw, quiet){
+  KEY = pw;
+  $('pwMsg').textContent = quiet ? '' : '確認中…'; $('pwMsg').className = 'muted';
+  try {
+    const j = await api({});
+    if (!j.ok) { $('pwMsg').textContent = j.error || '密碼不正確'; $('pwMsg').className = 'err'; store.del('parentKey'); return; }
+    store.set('parentKey', pw);
+    $('login').classList.add('hidden'); $('pick').classList.remove('hidden');
+    $('seat').innerHTML = '<option value="">座號・姓名</option>' + j.roster.map(x => `<option value="${x.seat}">${x.seat} 號 ${esc(x.name)}</option>`).join('');
+    const last = store.get('parentSeat');
+    if (last && j.roster.some(x => String(x.seat) === last)) { $('seat').value = last; load(); }
+  } catch (e) { $('pwMsg').textContent = '連線失敗，請稍後再試。'; $('pwMsg').className = 'err'; }
+}
+$('pwBtn').onclick = () => { const v = $('pw').value.trim(); if (v) login(v); };
+$('pw').onkeydown = e => { if (e.key === 'Enter') $('pwBtn').click(); };
+$('logout').onclick = () => { store.del('parentKey'); store.del('parentSeat'); KEY = ''; $('pw').value = ''; $('report').classList.add('hidden'); $('pick').classList.add('hidden'); $('login').classList.remove('hidden'); $('pwMsg').textContent = ''; };
+$('seat').onchange = () => { store.set('parentSeat', $('seat').value); load(); };
+
+async function load(){
+  const seat = $('seat').value;
+  if (!seat) { $('report').classList.add('hidden'); return; }
+  $('loadMsg').textContent = '讀取中…（第一次大約要 5 秒）';
+  try {
+    const j = await api({seat});
+    if (seat !== $('seat').value) return;
+    if (!j.ok) { $('loadMsg').textContent = j.error || '讀取失敗'; return; }
+    $('loadMsg').textContent = '';
+    render(j);
+  } catch (e) { $('loadMsg').textContent = '連線失敗，請稍後再試。'; }
+}
+
+function stat(k, v, unit, c){ return `<div class="stat"><div class="k">${k}</div><div class="v">${v}${unit ? `<small>${unit}</small>` : ''}</div>${c ? `<div class="c">${c}</div>` : ''}</div>`; }
+
+function render(j){
+  const S = j.summary;
+  $('report').classList.remove('hidden');
+  $('rName').textContent = `${j.seat} 號 ${j.name}`;
+  $('rSince').textContent = S.firstDay ? `從 ${md(S.firstDay)} 開始練習` : '還沒有練習紀錄';
+  const qDone = j.quiz.filter(q => q.passAt).length;
+  $('rStats').innerHTML =
+    stat('累計練習題數', S.answered.toLocaleString(), '題', `全班平均 ${S.classAnswered.toLocaleString()} 題`) +
+    stat('整體答對率', S.rate == null ? '—' : S.rate, S.rate == null ? '' : '%', S.classRate == null ? '' : `全班平均 ${S.classRate}%`) +
+    stat('練習天數', S.days, '天', `共交卷 ${S.tests} 次`) +
+    stat('連續練習', S.streak, '天', S.streak ? '到今天（或昨天）為止' : '今天還沒練習') +
+    stat('每日小考過關', `${qDone}/${j.quiz.length}`, '次', j.quiz.length ? '' : '還沒有小考');
+
+  // 每日小考
+  if (!j.quiz.length) $('rQuiz').innerHTML = '<p class="muted">還沒有每日小考。</p>';
+  else $('rQuiz').innerHTML = `<table><thead><tr><th>日期</th><th>範圍</th><th>結果</th><th>最好答對率</th></tr></thead><tbody>` +
+    j.quiz.map(q => {
+      let tag;
+      if (q.passAt) tag = `<span class="tag ok">✓ 過關</span> <span class="muted" style="font-size:.82rem">${md(q.passAt.slice(0, 10))} ${q.passAt.slice(11, 16)}${q.passAt.slice(0, 10) !== q.date ? '（補考）' : ''}</span>`;
+      else if (q.attempts) tag = `<span class="tag no">未達 ${q.pass}%</span> <span class="muted" style="font-size:.82rem">考了 ${q.attempts} 次</span>`;
+      else if (q.wrongRange) tag = `<span class="tag warn">範圍考錯</span> <span class="muted" style="font-size:.82rem">考成 ${esc(q.wrongRange)}</span>`;
+      else if (q.short) tag = `<span class="tag warn">題數不足</span> <span class="muted" style="font-size:.82rem">只考 ${q.short} 題</span>`;
+      else tag = q.date === j.today ? '<span class="tag todo">今天還沒考</span>' : '<span class="tag no">沒有考</span>';
+      return `<tr><td class="num">${md(q.date)}${q.date === j.today ? '（今天）' : ''}</td><td>${esc(q.label)}<div class="muted" style="font-size:.8rem">${q.n} 題・${q.pass}% 過關</div></td><td>${tag}</td><td class="num">${q.best == null || !q.attempts ? '—' : q.best + '%'}</td></tr>`;
+    }).join('') + '</tbody></table>';
+
+  // 每週圖
+  let ws = j.weeks.slice(); while (ws.length > 2 && !ws[0].answered && !ws[0].classAnswered) ws.shift();   // 開始使用前的空白週不畫
+  $('rWeeks').innerHTML = weeksSVG(ws);
+
+  // 題型
+  $('rTypes').innerHTML = j.types.map(t => `<div class="b"><span>${esc(t.kind)}</span>
+    <div class="track" title="孩子 ${t.rate == null ? '—' : t.rate + '%'}；全班 ${t.classRate == null ? '—' : t.classRate + '%'}">
+      ${t.rate == null ? '' : `<div class="fill" style="width:${t.rate}%"></div>`}
+      ${t.classRate == null ? '' : `<div class="mark" style="left:calc(${t.classRate}% - 1px)"></div>`}
+    </div>
+    <span class="num"><b>${t.rate == null ? '—' : t.rate + '%'}</b><div class="n">${t.answered} 題</div></span></div>`).join('') ||
+    '<p class="muted">還沒有作答紀錄。</p>';
+
+  // 常錯單字
+  $('rWords').innerHTML = j.wrong.length ? j.wrong.map(w => {
+    const key = w.w.toLowerCase(), gl = GLD.gl[key] || '', more = GLD.more[key] || '';
+    return `<div class="word"><div class="en">${esc(w.w)}</div>${gl ? `<div class="zh">${esc(gl)}</div>` : ''}${more ? `<div class="more">也有：${esc(more)}</div>` : ''}
+      <div class="ct">錯 <b>${w.wrong}</b> 次／共 ${w.total} 次　${w.lastOk ? '<span class="tag ok">最近一次答對</span>' : '<span class="tag no">最近一次答錯</span>'}</div></div>`;
+  }).join('') : '<p class="muted">目前沒有答錯的單字，太棒了！</p>';
+}
+
+function weeksSVG(ws){
+  const W = Math.min(640, Math.max(320, $('rWeeks').clientWidth || 640)), H = 230, L = 40, R = 40, T = 14, B = 36, iw = W - L - R, ih = H - T - B;
+  const maxQ = Math.max(20, ...ws.map(w => Math.max(w.answered, w.classAnswered)));
+  const step = iw / ws.length, bw = Math.min(26, step / 3);
+  const y = v => T + ih - v / maxQ * ih, yr = v => T + ih - v / 100 * ih;
+  let g = '';
+  [0, .5, 1].forEach(f => { const v = Math.round(maxQ * f); g += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${L - 6}" y="${y(v) + 4}" font-size="11" text-anchor="end" fill="var(--muted)">${v}</text>`; });
+  [0, 50, 100].forEach(v => { g += `<text x="${W - R + 6}" y="${yr(v) + 4}" font-size="11" fill="var(--muted)">${v}%</text>`; });
+  const pts = [];
+  ws.forEach((w, i) => {
+    const cx = L + step * i + step / 2;
+    g += `<rect x="${cx - bw - 1}" y="${y(w.answered)}" width="${bw}" height="${T + ih - y(w.answered)}" rx="3" fill="var(--me)"><title>${md(w.w)} 這週：${w.answered} 題</title></rect>`;
+    g += `<rect x="${cx + 1}" y="${y(w.classAnswered)}" width="${bw}" height="${T + ih - y(w.classAnswered)}" rx="3" fill="var(--cls)"><title>全班平均：${w.classAnswered} 題</title></rect>`;
+    g += `<text x="${cx}" y="${H - B + 16}" font-size="11" text-anchor="middle" fill="var(--muted)">${md(w.w)}</text>`;
+    if (w.answered) g += `<text x="${cx - bw / 2 - 1}" y="${y(w.answered) - 4}" font-size="10" text-anchor="middle" fill="var(--ink)">${w.answered}</text>`;
+    if (w.rate != null) pts.push([cx, yr(w.rate), w.rate]);
+  });
+  if (pts.length > 1) g += `<polyline points="${pts.map(p => p[0] + ',' + p[1]).join(' ')}" fill="none" stroke="var(--chalk)" stroke-width="2.5"/>`;
+  pts.forEach(p => { g += `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="var(--chalk)" stroke="var(--card)" stroke-width="1.5"><title>答對率 ${p[2]}%</title></circle>`; });
+  g += `<text x="${L + iw / 2}" y="${H - 4}" font-size="11" text-anchor="middle" fill="var(--muted)">每週一開始的那一週</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="每週練習題數與答對率">${g}</svg>`;
+}
+
+const saved = store.get('parentKey');
+if (saved) login(saved, true);
+</script>
+</body>
+</html>
