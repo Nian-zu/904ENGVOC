@@ -197,6 +197,8 @@ def main():
         y = VW.get(q['a'] + '|' + q['b']) or why(q)
         if y: q['y'] = y; n += 1
         else: q.pop('y', None)
+    # 單字延伸意思（課本 1200 字表以外、常見的其他意思／詞性），答題後顯示，讓學生順便多記一個意思
+    b['more'] = json.load(open(os.path.join(ROOT, 'tools', 'extra', 'word_more.json'), encoding='utf-8'))
     # 判斷不出原因的動詞變化題（可能有兩個說得通的答案）不出題：只從每天的題目清單拿掉，題目本身和題號不動
     hide = {i for i, q in enumerate(b['bank']) if q['k'] == 'verb' and not q.get('y')}
     b['days'] = [[i for i in d if i not in hide] for d in b['days']]
