@@ -17,3 +17,6 @@ f33b63963a|choose,lend,measure,judge,give|Can your mom ____ a car? Yes, she driv
 666f6259da|breads,chesses,newses,uniforms
 d47eb4b174|bathroom,dentist,bank,blanket,sandwich,destination
 d2ccfa03ce|careful,glad,nervous,anxious,serious,cross|The boy was so ____ about the new robot that he asked many questions.
+# 抽查 2026-11-18：誘答也說得通
+555719230a|grandparent
+50ec3f80c0|calm,real,local,cheerful

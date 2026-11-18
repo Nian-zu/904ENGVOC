@@ -203,3 +203,29 @@ D92-21 世界第一條地鐵其實靠蒸汽火車：https://ltmuseum.co.uk/visit
 D92-22 腳踏車不倒其實不只靠輪子轉：https://www.sciencedaily.com/releases/2011/04/110414141356.htm；https://www.iamexpat.nl/expat-info/dutch-news/tu-delft-why-does-moving-bicycle-not-fall-over
 D92-23 倫敦計程車司機的大腦會改變：https://www.scientificamerican.com/article/london-taxi-memory/；https://www.npr.org/sections/thetwo-way/2011/12/09/143465903/scientists-find-studying-for-test-to-become-london-cabbie-enlarges-brain
 D92-24 騎腳踏車其實比走路省力：https://www.zmescience.com/science/physics/cycling-is-four-times-more-efficient-than-walking-a-biomechanics-expert-explains-why；https://www.bikeradar.com/features/long-reads/cycling-environmental-impact/
+D96-01 西班牙拿下 2026 世界盃：https://abcnews.com/culture/story/spain-argentina-win-2026-world-cup-134824556；https://e.vnexpress.net/evolution/football/spain-1-0-argentina-extra-time-torres-scores-5099253.html
+D96-02 繞月飛行的阿提米絲二號：https://www.planetary.org/articles/artemis-ii-launch；https://www.livescience.com/space/space-exploration/im-at-a-loss-for-words-artemis-ii-mission-comes-home-to-joy-and-cheers-after-historic-10-day-mission
+D96-03 跑半馬的機器人：https://english.beijing.gov.cn/latest/news/202504/t20250421_4070140.html；https://technode.com/2025/04/21/beijing-hosts-worlds-first-half-marathon-for-humanoid-robots-tiangong-ultra-wins-in-two-hours-40-minutes/
+D96-04 參加數學奧林匹亞的 AI：https://www.euronews.com/2025/07/22/did-google-deepmind-or-openai-win-gold-at-the-worlds-most-prestigious-math-competition；https://amt.edu.au/news/the-worlds-smartest-young-maths-minds-descend-on-the-sunshine-coast-this-weekend-for-the-international-mathematical-olympiad-2025
+D96-05 一百零五歲的世壯運選手：https://en.wikipedia.org/wiki/2025_Summer_World_Masters_Games；https://www.scmp.com/sport/other-sport/article/3311513/thai-athlete-105-league-his-own-world-masters-games
+D96-06 切爾西奪下世俱盃：https://www.beinsports.com/en-us/soccer/fifa-club-world-cup/articles/chelsea-conquer-the-2025-club-world-cup-2025-07-13；https://www.wikiwand.com/en/articles/2025_FIFA_Club_World_Cup
+D96-07 沒有觀眾的主場：https://www.leeds.ac.uk/news/article/4894/how_empty_stadiums_affected_football_during_pandemic；https://www.sciencenews.org/?p=3102772
+D96-08 「手感發燙」是真的嗎：https://en.wikipedia.org/wiki/Hot_hand；https://igier.unibocconi.eu/sites/default/files/media/publication/552.pdf
+D96-09 守門員別急著撲：https://www.bps.org.uk/research-digest/dont-jump-advice-goalkeepers-economic-psychology；https://mpra.ub.uni-muenchen.de/4477/
+D96-10 狼群裡沒有「狼王」：https://www.scientificamerican.com/article/is-the-alpha-wolf-idea-a-myth/；https://www.usgs.gov/publications/alpha-status-dominance-leadership-and-division-labor-wolf-packs
+D96-11 會組成木筏的火蟻：https://www.nationalgeographic.com/animals/article/110425-fire-ants-life-rafts-swarms-science-proceedings；https://www.me.gatech.edu/news/fire-ant-rafts-form-thanks-force-known-cheerios-effect
+D96-12 沒有申請專利的火柴發明人：https://www.countrylife.co.uk/country-life/the-sparkling-history-of-the-match-and-why-its-inventor-never-got-the-credit-he-deserved；https://phillumeny.com/johnwalker/on-line-exhibition-chapter-5/
+D96-13 亞馬爾的十七歲夏天：https://www.uefa.com/uefaeuro/history/news/028e-1b131a1d2848-526b6661948b-1000--euro-s-youngest-scorers-lamine-yamal-vonlanthen-rooney-renat/；https://www.uefa.com/uefaeuro/history/news/028f-1b5e5c2b7b67-d5faab9be20b-1000--euro-2024-final-spain-2-1-england-late-oyarzabal-winner-earns-la-roja-reco/
+D96-14 雷霆隊與 SGA 的第七戰：https://www.aljazeera.com/sports/2025/6/23/okc-thunder-beat-indiana-pacers-103-91-in-game-7-to-win-nba-finals；https://www.cbc.ca/lite/story/1.7568209
+D96-15 山本由伸的世界大賽第七戰：https://www.espn.com/mlb/story/_/id/46672385；https://www.cbssports.com/mlb/news/yoshinobu-yamamoto-world-series-mvp-dodgers
+D96-16 萊斯特城的五千分之一奇蹟：https://www.fourfourtwo.com/news/on-this-day-in-2016-5000-1-outsiders-leicester-win-premier-league-title-1619871785000；https://www.lcfc.com/media-article/leicester-city-lcfc-15-16-by-the-numbers
+D96-17 辛納和艾卡拉斯的兩場決賽：https://africa.espn.com/tennis/story/_/id/45732583/jannik-sinner-defeats-carlos-alcaraz-rematch-win-wimbledon-2025-men-singles-title；https://www.atptour.com/en/news/sinner-alcaraz-us-open-2025-final
+D96-18 梅西的第一座 MLS 盃：https://www.aljazeera.com/sports/2025/12/7/lionel-messi-inter-miami-defeat-vancouver-to-win-first-mls-cup-title；https://www.cbsnews.com/amp/miami/news/inter-miami-cf-vancouver-whitecaps-fc-2025-mls-cup-final-score-recap-messi-muller
+D96-19 美國女足爭取到同工同酬：https://www.si.com/soccer/2022/05/18/us-soccer-cba-equal-pay-uswnt-usmnt-world-cup-prize-money；https://www.cbssports.com/soccer/news/uswnt-u-s-soccer-reach-24m-equal-pay-settlement-rapinoe-says-justice-comes-in-the-next-generation
+D96-20 比莉‧珍‧金的「性別大戰」：https://www.billiejeanking.com/battle-of-the-sexes/；https://ktvz.com/news/2023/06/20/billie-jean-king-recalls-the-meeting-that-launched-the-wta-womens-tennis-tour-50-years-ago/
+D96-21 難民奧運代表隊的第一面獎牌：https://www.npr.org/2024/08/09/nx-s1-5069315/olympic-refugee-team-medal-boxer-cindy-ngamba；https://www.unhcr.ca/news/cindy-ngamba-wins-historic-first-medal-for-refugee-olympic-team/
+D96-22 和大家同一隊的特殊奧運：https://en.wikipedia.org/wiki/1968_Special_Olympics_World_Summer_Games；https://www.specialolympics.org/about/press-room/fast-facts
+D96-23 aespa 在首爾大聯盟開幕戰：https://www.mlb.com/news/seoul-series-2024-best-moments-game-1；https://v.daum.net/v/20240313103615714
+D96-24 Stray Kids 的製作小隊 3RACHA：https://www.papermag.com/3racha；https://www.khaleejtimes.com/entertainment/stray-kids-scored-ninth-billboard-list
+D96-25 BTS 的《ARIRANG》回歸：https://www.stereogum.com/2485504/bts-announce-new-album-arirang-and-world-tour/news；https://www.koreajoongangdaily.com/entertainment/bts-tops-billboard-albums-chart-for-2nd-consecutive-week-with-arirang-a-first-in-k-pop/12584570
+D96-26 雨中開唱的 BTS：https://tribune.com.pk/story/2601852/bts-arirang-world-tour-opens-in-south-korea-as-thousands-attend-first-concert-after-hiatus；https://www.nme.com/reviews/live/bts-live-in-goyang-seoul-world-tour-arirang-setlist-3939727
