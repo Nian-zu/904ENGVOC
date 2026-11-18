@@ -31,3 +31,6 @@ a4a0773e35|education,cellphone,point,career,player|You need a(n) ____ to help yo
 58fec9c3fe|gift|We play basketball in the school ____.
 744b07cf1c|jealous,loud|I'm ____ of my team.
 77221af9e0|quarrel,discuss,organize|We ____ with our friends by phone.
+# 抽查 2026-11-18（D79 回）：誘答也說得通
+6fdff6f524|windy,clean,public
+7a8ff1ba4b|system,challenge,land,sound,quarrel
