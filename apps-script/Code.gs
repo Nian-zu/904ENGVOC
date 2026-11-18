@@ -781,13 +781,50 @@ function parent_(key, seat) {
   if (tk.ok) {
     tk.tasks.filter(function (t) { return t.date <= today; }).sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (t) {
       const r = (tk.results[t.date] || {})[s] || null;
-      quiz.push({ date: t.date, label: t.days ? t.label : (t.refLabel || '老師公布的範圍'), n: t.n, pass: t.pass,
+      const all = tk.results[t.date] || {};
+      const passN = roster.filter(function (x) { return all[x.seat] && all[x.seat].passAt; }).length;
+      quiz.push({ classPass: Math.round(passN / (roster.length || 1) * 100), classPassN: passN, classN: roster.length, date: t.date, label: t.days ? t.label : (t.refLabel || '老師公布的範圍'), n: t.n, pass: t.pass,
         passAt: r && r.passAt || '', best: r ? r.best : null, attempts: r ? r.attempts : 0,
         wrongRange: r && r.wrong ? r.wrong.range : '', short: r && r.short ? r.short.n : 0 });
     });
   }
 
-  return { ok: true, today: today, seat: s, name: ro[s], roster: roster,
+  // ---- 跟全班比：每位同學的數值（匿名，只標出自己的那一個）
+  const per = {};
+  roster.forEach(function (x) { per[x.seat] = { answered: 0, right: 0, week: 0, days: {}, quiz: 0 }; });
+  const wk7 = shift_(today, -6);
+  rows.forEach(function (r) {
+    const p = per[r.seat]; if (!p) return;
+    p.answered += r.answered; p.right += r.right; p.days[r.d] = 1;
+    if (r.d >= wk7) p.week += r.answered;
+  });
+  if (tk.ok) tk.tasks.forEach(function (t) {
+    const all = tk.results[t.date] || {};
+    Object.keys(all).forEach(function (k) { if (per[k] && all[k].passAt) per[k].quiz++; });
+  });
+  const metric = function (fn, minAns) {
+    const vals = [];
+    let me = null;
+    roster.forEach(function (x) {
+      const p = per[x.seat];
+      if (minAns && p.answered < minAns) return;
+      const v = fn(p);
+      vals.push(v);
+      if (x.seat === s) me = v;
+    });
+    if (me == null) return { values: vals.sort(function (a, b) { return a - b; }), me: null };
+    const rank = 1 + vals.filter(function (v) { return v > me; }).length;
+    return { values: vals.sort(function (a, b) { return a - b; }), me: me, rank: rank, n: vals.length };
+  };
+  const compare = {
+    answered: metric(function (p) { return p.answered; }),
+    week: metric(function (p) { return p.week; }),
+    rate: metric(function (p) { return Math.round(p.right / p.answered * 100); }, 50),
+    days: metric(function (p) { return Object.keys(p.days).length; }),
+    quiz: metric(function (p) { return p.quiz; })
+  };
+
+  return { ok: true, today: today, seat: s, name: ro[s], roster: roster, compare: compare,
     summary: { answered: tot.answered, rate: tot.answered ? Math.round(tot.right / tot.answered * 100) : null,
       classRate: ctot.answered ? Math.round(ctot.right / ctot.answered * 100) : null,
       classAnswered: Math.round(ctot.answered / nStu), days: Object.keys(days).length, streak: streak, tests: mine.length,

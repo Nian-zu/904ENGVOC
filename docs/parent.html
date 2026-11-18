@@ -71,6 +71,17 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 .word .more{font-size:.8rem;color:var(--muted)}
 .word .ct{font-size:.82rem;margin-top:2px}
 .tips li{margin:4px 0}
+.insight{margin:0 0 12px;padding-left:1.2em}
+.insight li{margin:4px 0}
+.insight b.up{color:var(--ok)} .insight b.down{color:var(--bad)}
+.cmp{display:grid;grid-template-columns:7.5em 1fr;gap:4px 12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.cmp:first-child{border-top:0}
+.cmp .lab{font-weight:700;font-size:.95rem}
+.cmp .lab small{display:block;font-weight:500;color:var(--muted);font-size:.8rem}
+.cmp .rk{grid-column:2;font-size:.88rem}
+.cmp .rk b{font-size:1.05rem}
+.strip svg{width:100%;height:auto;display:block}
+@media (max-width:520px){.cmp{grid-template-columns:1fr}.cmp .rk{grid-column:1}}
 footer{font-size:.82rem;color:var(--muted);text-align:center;padding:10px 16px 30px}
 </style>
 </head>
@@ -103,6 +114,12 @@ footer{font-size:.82rem;color:var(--muted);text-align:center;padding:10px 16px 3
     <section class="card">
       <div class="who"><b id="rName"></b><span class="muted" id="rSince"></span></div>
       <div class="stats" id="rStats"></div>
+    </section>
+
+    <section class="card">
+      <h2>跟全班比一比<small>每個點是一位同學（不顯示姓名），大圓點是您的孩子</small></h2>
+      <ul class="insight" id="rInsight"></ul>
+      <div id="rCompare"></div>
     </section>
 
     <section class="card">
@@ -201,9 +218,11 @@ function render(j){
     stat('連續練習', S.streak, '天', S.streak ? '到今天（或昨天）為止' : '今天還沒練習') +
     stat('每日小考過關', `${qDone}/${j.quiz.length}`, '次', j.quiz.length ? '' : '還沒有小考');
 
+  renderCompare(j);
+
   // 每日小考
   if (!j.quiz.length) $('rQuiz').innerHTML = '<p class="muted">還沒有每日小考。</p>';
-  else $('rQuiz').innerHTML = `<table><thead><tr><th>日期</th><th>範圍</th><th>結果</th><th>最好答對率</th></tr></thead><tbody>` +
+  else $('rQuiz').innerHTML = `<table><thead><tr><th>日期</th><th>範圍</th><th>結果</th><th>最好答對率</th><th>全班過關</th></tr></thead><tbody>` +
     j.quiz.map(q => {
       let tag;
       if (q.passAt) tag = `<span class="tag ok">✓ 過關</span> <span class="muted" style="font-size:.82rem">${md(q.passAt.slice(0, 10))} ${q.passAt.slice(11, 16)}${q.passAt.slice(0, 10) !== q.date ? '（補考）' : ''}</span>`;
@@ -211,7 +230,7 @@ function render(j){
       else if (q.wrongRange) tag = `<span class="tag warn">範圍考錯</span> <span class="muted" style="font-size:.82rem">考成 ${esc(q.wrongRange)}</span>`;
       else if (q.short) tag = `<span class="tag warn">題數不足</span> <span class="muted" style="font-size:.82rem">只考 ${q.short} 題</span>`;
       else tag = q.date === j.today ? '<span class="tag todo">今天還沒考</span>' : '<span class="tag no">沒有考</span>';
-      return `<tr><td class="num">${md(q.date)}${q.date === j.today ? '（今天）' : ''}</td><td>${esc(q.label)}<div class="muted" style="font-size:.8rem">${q.n} 題・${q.pass}% 過關</div></td><td>${tag}</td><td class="num">${q.best == null || !q.attempts ? '—' : q.best + '%'}</td></tr>`;
+      return `<tr><td class="num">${md(q.date)}${q.date === j.today ? '（今天）' : ''}</td><td>${esc(q.label)}<div class="muted" style="font-size:.8rem">${q.n} 題・${q.pass}% 過關</div></td><td>${tag}</td><td class="num">${q.best == null || !q.attempts ? '—' : q.best + '%'}</td><td class="num">${q.classPass == null ? '—' : q.classPass + '%'}<div class="muted" style="font-size:.78rem">${q.classPassN ?? ''}/${q.classN ?? ''} 人</div></td></tr>`;
     }).join('') + '</tbody></table>';
 
   // 每週圖
@@ -233,6 +252,72 @@ function render(j){
     return `<div class="word"><div class="en">${esc(w.w)}</div>${gl ? `<div class="zh">${esc(gl)}</div>` : ''}${more ? `<div class="more">也有：${esc(more)}</div>` : ''}
       <div class="ct">錯 <b>${w.wrong}</b> 次／共 ${w.total} 次　${w.lastOk ? '<span class="tag ok">最近一次答對</span>' : '<span class="tag no">最近一次答錯</span>'}</div></div>`;
   }).join('') : '<p class="muted">目前沒有答錯的單字，太棒了！</p>';
+}
+
+// ---- 跟全班比
+const CMP = [
+  ['answered', '累計練習題數', '題', '開始到現在'],
+  ['week', '最近 7 天練習', '題', '看最近是否有持續'],
+  ['rate', '整體答對率', '%', '練習滿 50 題的同學才列入'],
+  ['days', '練習天數', '天', '有交卷的天數'],
+  ['quiz', '每日小考過關', '次', '']
+];
+const median = a => a.length ? (a.length % 2 ? a[(a.length - 1) / 2] : (a[a.length / 2 - 1] + a[a.length / 2]) / 2) : 0;
+function stripSVG(c, unit){
+  const W = Math.min(620, Math.max(260, ($('rCompare').clientWidth || 600) - 140)), L = 10, R = 10;
+  const max = Math.max(1, ...c.values, unit === '%' ? 100 : 0), min = unit === '%' ? Math.min(...c.values, 50) : 0;
+  const x = v => L + (v - min) / (max - min || 1) * (W - L - R);
+  // 相同數值的點往上疊，看得出有幾個人
+  const cnt = {}; c.values.forEach(v => { const k = Math.round(x(v) / 6); cnt[k] = (cnt[k] || 0) + 1; });
+  const most = Math.max(1, ...Object.values(cnt)), gap = most > 8 ? 3.2 : 5;
+  const base = 16 + (most - 1) * gap + 6, H = base + 16;
+  const med = median(c.values), stack = {};
+  let g = `<line x1="${L}" x2="${W - R}" y1="${base}" y2="${base}" stroke="var(--line)" stroke-width="2"/>`;
+  g += `<line x1="${x(med)}" x2="${x(med)}" y1="12" y2="${base + 6}" stroke="var(--muted)" stroke-dasharray="3 3"/><text x="${Math.min(W - 60, Math.max(60, x(med)))}" y="9" font-size="10" text-anchor="middle" fill="var(--muted)">全班中間值 ${Math.round(med)}${unit}</text>`;
+  c.values.forEach(v => { const k = Math.round(x(v) / 6); const n = stack[k] = (stack[k] || 0) + 1; g += `<circle cx="${x(v)}" cy="${base - (n - 1) * gap}" r="3.3" fill="var(--cls)" opacity=".85"/>`; });
+  if (c.me != null) g += `<circle cx="${x(c.me)}" cy="${base}" r="8" fill="var(--me)" stroke="var(--card)" stroke-width="2"><title>您的孩子：${c.me}${unit}</title></circle>`;
+  g += `<text x="${L}" y="${H}" font-size="10" fill="var(--muted)">${min}${unit}</text><text x="${W - R}" y="${H}" font-size="10" text-anchor="end" fill="var(--muted)">${max}${unit}</text>`;
+  return `<div class="strip"><svg viewBox="0 0 ${W} ${H + 2}" role="img" aria-label="全班分布">${g}</svg></div>`;
+}
+function renderCompare(j){
+  const C = j.compare || {};
+  $('rCompare').innerHTML = CMP.map(([k, label, unit, note]) => {
+    const c = C[k]; if (!c || !c.values.length) return '';
+    const rk = c.me == null ? `<span class="muted">${k === 'rate' ? '練習還不到 50 題，暫不排名' : '—'}</span>`
+      : `<b>${c.me}${unit}</b>　全班第 <b>${c.rank}</b> 名（共 ${c.n} 人${c.rank <= Math.ceil(c.n * 0.25) ? '，前 25%' : c.rank > Math.floor(c.n * 0.75) ? '，後 25%' : ''}）`;
+    return `<div class="cmp"><div class="lab">${label}${note ? `<small>${note}</small>` : ''}</div>${stripSVG(c, unit)}<div class="rk">${rk}</div></div>`;
+  }).join('');
+  // 文字分析
+  const out = [], S = j.summary;
+  const a = C.answered, w = C.week, r = C.rate;
+  if (a && a.me != null) {
+    const m = median(a.values);
+    out.push(a.me >= m * 1.3 ? `練習量 <b class="up">比班上大多數同學多</b>（${a.me} 題，全班中間值 ${Math.round(m)} 題）。`
+      : a.me < m * 0.7 ? `練習量 <b class="down">比班上大多數同學少</b>（${a.me} 題，全班中間值 ${Math.round(m)} 題），可以鼓勵孩子每天固定練一點。`
+      : `練習量和班上大部分同學差不多（${a.me} 題，全班中間值 ${Math.round(m)} 題）。`);
+  }
+  if (w && w.me != null) {
+    const m = median(w.values);
+    if (w.me === 0) out.push('最近 7 天<b class="down">沒有練習</b>，可以問問孩子是不是遇到困難。');
+    else if (w.me >= m * 1.3 && m > 0) out.push(`最近 7 天練習很認真，<b class="up">高於班上多數同學</b>。`);
+  }
+  if (r && r.me != null) {
+    const m = median(r.values);
+    out.push(r.me >= m + 5 ? `答對率 <b class="up">高於全班中間值</b>（${r.me}%，全班 ${Math.round(m)}%），基礎很穩。`
+      : r.me <= m - 5 ? `答對率 <b class="down">低於全班中間值</b>（${r.me}%，全班 ${Math.round(m)}%），建議做完題目後多用「錯題重做」。`
+      : `答對率和全班中間值差不多（${r.me}%，全班 ${Math.round(m)}%）。`);
+  }
+  const ts = (j.types || []).filter(t => t.rate != null && t.classRate != null && t.answered >= 20);
+  const good = ts.filter(t => t.rate - t.classRate >= 5).sort((x, y) => (y.rate - y.classRate) - (x.rate - x.classRate));
+  const weak = ts.filter(t => t.classRate - t.rate >= 5).sort((x, y) => (y.classRate - y.rate) - (x.classRate - x.rate));
+  if (good.length) out.push(`強項：${good.slice(0, 2).map(t => `<b class="up">${esc(t.kind)}</b>（比全班高 ${t.rate - t.classRate}%）`).join('、')}。`);
+  if (weak.length) out.push(`可以加強：${weak.slice(0, 2).map(t => `<b class="down">${esc(t.kind)}</b>（比全班低 ${t.classRate - t.rate}%）`).join('、')}。`);
+  const q = C.quiz;
+  if (q && q.me != null && j.quiz.length) {
+    const m = median(q.values);
+    if (q.me < m) out.push(`每日小考過關 ${q.me} 次，<b class="down">少於班上多數同學</b>（中間值 ${m} 次）。小考可以重考，沒過的可以提醒孩子再考一次。`);
+  }
+  $('rInsight').innerHTML = out.map(t => `<li>${t}</li>`).join('') || '<li class="muted">資料還不夠多，過幾天再來看看。</li>';
 }
 
 function weeksSVG(ws){
