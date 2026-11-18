@@ -175,7 +175,14 @@ def main():
     OK_WORD = ('前面有助動詞', '句首有助動詞', 'to 後面接原形', '前面有 has', '前面有 have', '前面有 had', '句首有 Has',
                '句首有 Have', "Don't＋", 'be 動詞', '句中有 now，be', '句中有 right now', '這是進行式的疑問句', '主詞是「被」',
                'make', 'made', 'let')
+    # 介系詞搭配題：人工寫好的搭配說明（tools/extra/prep_why.json，以題目句子為鍵）
+    PW = json.load(open(os.path.join(ROOT, 'tools', 'extra', 'prep_why.json'), encoding='utf-8'))
     for q in b['bank']:
+        if q['k'] == 'prep':
+            y = PW.get(q['a'] + '|' + q['b'])
+            if y: q['y'] = y
+            else: q.pop('y', None)
+            continue
         if q['k'] == 'word':
             y = why(q) if '(v.)' in GL.get(q['w'], '') else None
             # do／does／did 不在句首又不是否定時，可能是一般動詞（Smoking does harm to…），不說明
