@@ -312,3 +312,31 @@ D89-17 只靠地圖和指南針的運動：https://en.wikipedia.org/wiki/History
 D89-21 跟著北極星走向自由：https://www.nps.gov/articles/harriet-tubman-and-the-underground-railroad.htm；https://www.history.com/articles/underground-railroad-harriet-tubman-strategies
 D89-29 在澀谷車站等待的小八：https://en.wikipedia.org/wiki/Hachik%C5%8D；https://www.nippon.com/en/japan-glances/jg00137/
 D89-30 不照比例畫的地鐵圖：https://en.wikipedia.org/wiki/Harry_Beck；https://www.londonmuseum.org.uk/collections/london-stories/harry-beck-revolutionised-tube-map/
+D88-01 史上最賺錢的巡迴演唱會：https://news.pollstar.com/2024/12/09/taylor-swifts-eras-tour-sets-all-time-touring-record-breaking-2b/；https://www.click2houston.com/business/2024/12/09/taylor-swifts-eras-tour-ends-by-shattering-own-record-grossing-an-estimated-22b-pollstar-says/
+D88-02 日本迎來四千萬名旅客：https://www.nippon.com/en/japan-data/h02673/japan-welcomes-record-42-7-million-international-visitors-in-2025.html；https://www.travelmole.com/news/japan-40-million-tourist-barrier-2025
+D88-03 世界最佳機場又是樟宜：https://www.timeout.com/singapore/news/singapore-changi-airport-has-been-crowned-the-worlds-best-airport-for-2025-041025；https://www.thestar.com.my/aseanplus/aseanplus-news/2025/04/11/changi-airport-crowned-worlds-best-once-more
+D88-04 哪一本護照最好用：https://www.timeout.com/news/this-country-officially-has-the-worlds-most-powerful-passport-in-2025-072325；https://www.nownews.com/news/6764670
+D88-05 每天限四千人的富士山：https://www.timeout.com/tokyo/news/mt-fuji-has-increased-ticket-prices-for-the-2025-climbing-season-031825；https://fujisan-climb.jp/en/news/241227_2025_Safety_Measures.html
+D88-06 世界最高的飯店：https://www.arabianbusiness.com/industries/travel-hospitality/ciel-dubai-marina-ciel-crowned-worlds-tallest-hotel-by-guinness-world-records；https://gulfnews.com/business/markets/worlds-tallest-hotel-ciel-dubai-marina-to-open-november-15-rooms-from-dh1310-1.500342728
+D88-07 為什麼會有時差：https://www.sleepfoundation.org/travel/jet-lag；https://migflug.com/afterburner/why-jet-lag-worse-flying-east-circadian-rhythm/
+D88-08 跑道上的大數字：https://www.slashgear.com/1880914/airport-runway-numbers-meaning-explained；https://stantec.com/en/ideas/topic/mobility/airport-runways-what-do-those-big-numbers-mean
+D88-09 飛機上的飯為什麼比較淡：https://time.com/3893141/airline-food-airplane/；https://www.chowhound.com/1925946/how-much-taste-you-lose-on-plane
+D88-10 不吃不睡飛十一天的斑尾鷸：https://www.guinnessworldrecords.com/news/2023/1/the-record-breaking-bird-that-flew-from-alaska-to-australia-731576；https://earthsky.org/earth/longest-nonstop-bird-flight-world-record-bar-tailed-godwit-2022/
+D88-11 一輩子飛到月球三趟的北極燕鷗：https://en.wikipedia.org/wiki/Arctic_tern；https://www.guinnessworldrecords.com/world-records/86385-longest-non-stop-migration-by-a-bird
+D88-12 每年都會融化的冰旅館：https://visitsweden.com/where-to-go/northern-sweden/arctic-sweden/icehotel/；https://guide.michelin.com/en/article/travel/icehotel-sweden-the-circle-of-ice-the-hotel-that-melts-every-year
+D88-13 拿下第四座環法冠軍的波加查：https://www.sbs.com.au/news/article/tour-de-france-stage-21-results-pogacar-wins-fourth-title/rkvkls9p8；https://www.nbcwashington.com/news/sports/tadej-pogacar-wins-tour-de-france-2025-fourth-time/3965455/
+D88-14 戰鬥機護送回國的羽球金牌：https://www.taipeitimes.com/News/front/archives/2024/08/08/2003821930；https://www.eurasiantimes.com/paris-2024-taiwan-deploys-f-16-vipers/
+D88-15 大聯盟開幕戰飛到東京：https://news.wttw.com/2025/03/18/yamamoto-ohtani-deliver-return-japan-dodgers-beat-cubs-4-1-season-opener；https://www.cbssports.com/mlb/news/dodgers-vs-cubs-score-shohei-ohtani-makes-history-shota-imanaga-gets-wild-and-more-from-tokyo-series-game-1/live
+D88-16 Faker 在倫敦拿下第五座世界冠軍：https://abs-cbn.com/sports/2024/11/3/faker-s-t1-retain-league-of-legends-world-title-1428；https://esports-news.co.uk/2024/11/02/t1-win-worlds-2024-final-attendance
+D88-17 球后曾雅妮的巡迴賽人生：https://en.wikipedia.org/wiki/Yani_Tseng；https://kpmgwomenspgachampionship.com/player/yani-tseng
+D88-18 奧運選手村的紙板床：https://www.michiganpublic.org/2024-07-25/cardboard-beds-have-returned-to-the-olympics-what-do-they-do；https://runningmagazine.ca/?p=100689
+D88-19 全女性機組的太空旅行：https://www.npr.org/2025/04/14/nx-s1-5364460/blue-origin-launch-female-space-flight-katy-perry；https://abc7.com/post/blue-origin-rocket-female-crew-including-katy-perry-set-launch/16169033/
+D88-20 跨國同婚可以登記了：https://focustaiwan.tw/politics/202301200007；https://www.freemalaysiatoday.com/category/world/2023/01/22/taiwan-recognises-transnational-same-sex-marriage
+D88-21 向日葵掛繩的意思：https://wikipedia.com/wiki/Hidden_Disabilities_Sunflower；https://www.sightadvicefaq.org.uk/independent-living/getting-out-and-about-mobility/Sunflower-Lanyard
+D88-22 七十二天環遊世界的女記者：https://www.heinzhistorycenter.org/learn/women-forging-the-way/nellie-bly/；https://historyhit.com/1889-nellie-bly-crosses-world-72-days
+D88-23 BLACKPINK 的「Born Pink」巡演：https://en.wikipedia.org/wiki/Born_Pink_World_Tour；https://www.thestar.com.my/lifestyle/entertainment/2023/04/23/blackpink-breaks-spice-girls-record-for-highest-grossing-tour-by-a-female-group
+D88-24 Jin 的第一次個人巡演：https://en.wikipedia.org/wiki/RunSeokjin_Ep._Tour；https://www.koreatimes.co.kr/entertainment/k-pop/20250418/bts-jin-to-launch-first-solo-world-tour-in-june-starting-in-goyang
+D88-25 防彈少年團的旅行節目：https://en.wikipedia.org/wiki/BTS:_Bon_Voyage；https://soompi.com/article/1229509wpp/watch-bts-goes-fun-adventures-malta-bon-voyage-3-teaser
+D88-26 Stray Kids 繞地球七圈：https://www.allkpop.com/article/2025/07/stray-kids-complete-dominate-world-tour-covering-7-laps-around-the-globe；https://www.tenasia.com/amp/2025102002634
+D88-29 機器人員工的飯店：https://www.guinnessworldrecords.com/world-records/397696-first-robot-staffed-hotel；https://www.tpr.org/2019-01-28/this-time-humans-triumph-over-robots-as-they-take-back-hotel-jobs
+D88-30 在機場住了十八年的人：https://katv.com/news/entertainment/iranian-man-who-inspired-the-terminal-passes-away-in-paris-airport-steven-spielberg-the-terminal-tom-hanks-paris-belgium-diplomacy-immigration-charles-de-gaulle-obituary；https://uk.news.yahoo.com/iranian-man-lived-paris-airport-161215561.html
