@@ -605,3 +605,29 @@ D78-24 IU 的〈秋天的早晨〉：https://www.soompi.com/article/1045279wpp/i
 D78-25 太妍的〈四季〉：https://en.wikipedia.org/wiki/Four_Seasons_(song)；https://www.soompi.com/article/1312451wpp/girls-generations-taeyeon-reigns-over-all-major-realtime-charts-with-four-seasons
 D78-26 BIGBANG 的〈春夏秋冬〉：https://en.wikipedia.org/wiki/Still_Life_(BigBang_song)；https://www.soompi.com/article/1521444wpp/bigbangs-still-life-becomes-1st-song-by-male-artist-to-achieve-perfect-all-kill-in-2022
 D78-27 每年春天都回來的〈櫻花結局〉：https://en.wikipedia.org/wiki/Cherry_Blossom_Ending；https://www.kpopstarz.com/articles/89407/20140426/will-iu-benefit-cherry-blossom-pensions.htm；https://www.kpopstarz.com/articles/181892/20150309/busker-busker-cherry-blossom-ending-zombie-song.htm
+D77-01 聖母峰登山費漲到一萬五千美元：https://kathmandupost.com/money/2025/01/21/nepal-hikes-everest-climbing-fee-to-15-000；https://www.smithsonianmag.com/smart-news/the-price-to-climb-mount-everest-will-rise-to-15000-this-year-180985926/；https://asianews.network/new-everest-permit-fee-of-15000-takes-effect
+D77-02 公海條約開始生效：https://www.downtoearth.org.in/water/bbnj-treaty-receives-60-ratifications-will-enter-into-force-to-protect-marine-life-in-international-waters-in-january-2026；https://gcaptain.com/un-high-seas-treaty-enters-into-force/
+D77-03 碎成上千塊的超級冰山：https://www.washingtontimes.com/news/2025/mar/5/a23a-worlds-biggest-iceberg-runs-aground-near-remote-island-southern/；https://www.livescience.com/planet-earth/antarctica/worlds-largest-iceberg-a23a-is-disintegrating-into-thousands-of-pieces-alongside-penguin-refuge-earth-from-space
+D77-04 東京的富士山噴發 AI 影片：https://www.pbs.org/newshour/world/japan-uses-ai-generated-eruption-of-mount-fuji-to-prepare-for-worst-case-scenario；https://www.livescience.com/planet-earth/volcanos/see-what-would-happen-to-tokyo-if-mount-fuji-erupted-without-any-warning-in-new-ai-generated-video
+D77-05 吐瓦魯人的氣候簽證：https://www.rnz.co.nz/news/world/565276/nearly-one-third-of-tuvalu-residents-apply-for-australian-climate-change-visa-programme；https://abc17news.com/news/2025/06/27/more-than-a-third-of-this-countrys-population-has-applied-to-relocate/
+D77-06 從太空量河流和湖泊的衛星：https://space.com/spacex-launches-nasa-swot-water-monitoring-satellite；https://cee.northeastern.edu/news/first-ever-global-survey-of-earths-surface-water
+D77-07 聖母峰頂上的海底化石：https://montana.edu/everest/facts/summit-limestone.html；https://www.aap.com.au/nothing-fishy-about-ancient-marine-fossils-on-everest/
+D77-08 世界最深的貝加爾湖：https://www.newworldencyclopedia.org/entry/Lake_Baikal；https://bigthink.com/starts-with-a-bang/lake-baikal/
+D77-09 死海其實是一座湖：https://www.worldatlas.com/articles/why-is-the-dead-sea-so-salty.html；https://newworldencyclopedia.org/entry/Dead_Sea
+D77-10 比聖母峰還深的馬里亞納海溝：https://amp.cnn.com/cnn/2023/06/23/world/mariana-trench-challenger-deep-facts-scn；https://www.discoverwildlife.com/animal-facts/marine-animals/deepest-part-of-the-ocean
+D77-11 鮭魚靠鼻子找到回家的河：https://usgs.gov/faqs/how-do-salmon-know-where-their-home-when-they-return-ocean；https://www.smithsonianmag.com/arts-culture/what-does-home-smell-like-16588384/
+D77-12 湖水為什麼從上面開始結冰？：https://www.gi.alaska.edu/alaska-science-forum/surprises-ice；https://northernwoodlands.org/outside_story/article/ice-capades
+D77-13 普萊西德湖的冰上奇蹟：https://www.history.com/this-day-in-history/february-22/u-s-hockey-team-makes-miracle-on-ice；https://www.ksl.com/article/51452104/ap-was-there-an-olympic-miracle-on-ice-as-us-shocks-ussr
+D77-14 第一位游過英吉利海峽的女性：https://www.history.com/articles/gertrude-ederle-first-woman-swim-english-channel；https://www.nationalgeographic.com/travel/article/olympics-swimming-gertrude-ederle-long-distance-open-water
+D77-15 飛進海灣的全壘打：https://www.mlb.com/news/giants-mccovey-cove-splash-hits-history；https://en.wikipedia.org/wiki/McCovey_Cove
+D77-16 爬上聖母峰 31 次的雪巴人：https://kathmandupost.com/national/2025/05/27/kami-rita-sherpa-reaches-everest-summit-for-31st-time-extending-his-world-record；https://www.npr.org/2025/05/27/nx-s1-5413222/everest-sherpa-record-climbing-summit
+D77-17 箱根驛傳的「山神」：https://japanrunningnews.blogspot.com/2026/01/kuroda-conquers-mountain-to-give-aoyama.html；https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Hakone_Ekiden
+D77-18 繞著白朗峰跑 170 公里：https://www.julbo.com/en_wo/article/kilian-jornet-utmb；https://www.letemps.ch/articles/un-kilian-jornet-records-remporte-lutmb
+D77-19 李安與《斷背山》：https://www.britannica.com/biography/Ang-Lee；https://global.chinadaily.com.cn/english/doc/2006-03/06/content_527192.htm
+D77-20 裝著義肢登上聖母峰的阿魯妮瑪：https://en.wikipedia.org/wiki/Arunima_Sinha；https://dawn.com/news/1012973/indian-woman-is-first-female-amputee-to-climb-everest
+D77-21 十八歲開始清理海洋的波揚：https://www.theoceancleanup.com/about/；https://en.wikipedia.org/wiki/Boyan_Slat
+D77-22 種下幾千萬棵樹的旺加里‧馬塔伊：https://wangarimaathai.org/wangaris-story；https://rfkhumanrights.org/wangari-maathai
+D77-23 Hanni 在東京巨蛋唱〈青色珊瑚礁〉：https://www.koreatimes.co.kr/lifestyle/trends/20240724/newjeans-blue-coral-reef-cover-spurs-retro-consumption-in-japan；https://www.asiae.co.kr/en/article/2024070315595160374
+D77-24 防彈少年團的〈八道江山〉：https://www.generasia.com/wiki/Paldogangsan；https://magazine.weverse.io/article/view/159?lang=en
+D77-25 湖邊舞台上的 TXT 和 NewJeans：https://www.soompi.com/article/1574301wpp/txt-to-headline-lollapalooza-2023-alongside-kendrick-lamar-billie-eilish-red-hot-chili-peppers-and-more；https://stereogum.com/2232173/newjeans-perform-first-us-concert-at-lollapalooza-debut-at-1-on-albums-chart/news
+D77-26 只有實體專輯才聽得到的〈Sea〉：https://hallyuism.com/2022/08/30/k-song-review-hidden-track-sea-by-bts/；https://bts.fandom.com/wiki/Love_Yourself:_Her
