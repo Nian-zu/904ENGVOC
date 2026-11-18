@@ -631,3 +631,31 @@ D77-23 Hanni 在東京巨蛋唱〈青色珊瑚礁〉：https://www.koreatimes.co
 D77-24 防彈少年團的〈八道江山〉：https://www.generasia.com/wiki/Paldogangsan；https://magazine.weverse.io/article/view/159?lang=en
 D77-25 湖邊舞台上的 TXT 和 NewJeans：https://www.soompi.com/article/1574301wpp/txt-to-headline-lollapalooza-2023-alongside-kendrick-lamar-billie-eilish-red-hot-chili-peppers-and-more；https://stereogum.com/2232173/newjeans-perform-first-us-concert-at-lollapalooza-debut-at-1-on-albums-chart/news
 D77-26 只有實體專輯才聽得到的〈Sea〉：https://hallyuism.com/2022/08/30/k-song-review-hidden-track-sea-by-bts/；https://bts.fandom.com/wiki/Love_Yourself:_Her
+D76-01 金門大橋通車了：https://en.wikipedia.org/wiki/Kinmen_Bridge；https://news.tvbs.com.tw/amp/english/1948877；https://www.taiwanplus.com/news/taiwan-news/transportation/221027027/kinmen-bridge-to-open-to-traffic-after-a-decade-of-construction
+D76-02 付錢請大家保護森林：https://www.wri.org/news/statement-brazil-launches-tropical-forests-forever-facility；https://climatechangenews.com/2025/11/06/norway-pledges-3bn-in-boost-for-brazil-led-tropical-forest-fund/；https://www.business-humanrights.org/en/latest-news/cop30-brazil-launches-tropical-forests-forever-facility-to-compensate-countries-for-conservation-and-saves-20-for-indigenous-peoples-and-traditional-communities/
+D76-03 硫磺島外海冒出的新島：https://www.nbcnews.com/science/science-news/new-island-emerges-undersea-volcano-erupts-japan-experts-say-may-not-l-rcna124474；https://www.japantimes.co.jp/news/2023/11/07/japan/science-health/iwo-jima-volcano-new-isle
+D76-04 尼斯的聯合國海洋大會：https://www.un.org/sustainabledevelopment/blog/2025/06/closing-press-release-2025-unoc；https://caribbean.un.org/en/296262-un-ocean-summit-nice-closes-wave-commitments
+D76-05 珊瑚礁的第四次全球白化：https://www.nesdis.noaa.gov/news/noaa-confirms-fourth-global-coral-bleaching-event；https://www.axios.com/2024/04/15/global-coral-bleaching-event-noaa
+D76-06 沙烏地阿拉伯的沙漠下雪了：https://www.ewn.co.za/2024/11/11/pics-snow-falls-in-saudi-arabian-desert-for-the-first-time-in-history；https://technology.inquirer.net/138414/first-ever-snowfall-happens-in-saudi-arabian-desert/amp
+D76-07 白色沙灘是魚的便便：https://nautil.us/beaches-are-blankets-of-fish-poop-487558；https://atlasobscura.com/articles/bumphead-parrotfish-poop-coral-reefs
+D76-08 地球的氧氣有一半來自海洋：https://oceanservice.noaa.gov/facts/ocean-oxygen.html；https://earthsky.org/earth/how-much-oxygen-comes-from-ocean/
+D76-09 撒哈拉沙漠曾經是綠色的：https://phys.org/news/2013-04-abrupt-widespread-climate-shift-sahara.pdf；https://eos.org/articles/podcast-when-the-sahara-was-green
+D76-10 鯊魚比樹還古老：https://www.livescience.com/animals/sharks/are-sharks-really-older-than-trees；https://www.discoverwildlife.com/prehistoric-life/are-sharks-older-than-trees
+D76-11 在地球上練習去火星：https://m.phys.org/news/2017-03-mars-rover-drilling-life-chile.html；https://www.engadget.com/2017/03/13/nasa-tests-martian-rover-drill-atacama-desert/
+D76-12 1963 年誕生的叙爾特塞島：https://earthsky.org/earth/surtsey-and-the-birth-of-new-islands/；https://worldatlas.com/articles/where-is-the-island-of-surtsey.html
+D76-13 衝浪之父杜克：https://olympics.com/en/news/the-legend-of-duke-kahanamoku-the-father-of-modern-surfing-and-double-olympic-ch；https://en.wikipedia.org/wiki/Duke_Kahanamoku
+D76-14 在撒哈拉沙漠跑 250 公里：https://www.aljazeera.com/sports/2014/4/7/marathon-des-sables-desert-ultramarathon；https://marathondessables.com/en/format/mds-legendary
+D76-15 繞著大不列顛島游一圈：https://time.com/5444696/ross-edgley-swim-great-britain；https://www.guinnessworldrecords.com/world-records/558110-first-stage-swim-around-great-britain
+D76-16 鐵人三項從夏威夷開始：https://www.active.com/triathlon/articles/a-brief-history-of-the-ironman-world-championships；https://www.stripes.com/news/2008-10-11/ironman-competition-co-founded-by-navy-officer-in-1978-1900929.html
+D76-17 衝浪王凱利‧史雷特：https://www.si.com/si-wire/2011/11/03/kelly-slater-wins-record-11th-world-title；https://www.britannica.com/biography/Kelly-Slater
+D76-18 值班時贏得衝浪大賽的救生員：https://www.cbssports.com/general/news/on-duty-lifeguard-wins-prestigious-hawaii-big-wave-surf-contest-while-on-break；https://itv.com/news/2023-01-26/lifeguard-wins-worlds-biggest-surfing-competition-during-his-break
+D76-19 六十四歲游過佛羅里達海峽的奈德：https://www.history.com/this-day-in-history/diana-nyad-64-makes-record-swim-from-cuba-to-florida；https://www.euronews.com/2013/09/02/american-diana-nyad-becomes-the-first-to-swim-florida-straits-without-shark-cage
+D76-20 寫出《大藍海洋》的瑞秋‧卡森：https://www.britannica.com/biography/Rachel-Carson；https://ebsco.com/research-starters/history/rachel-carson
+D76-21 「深海女王」希爾薇亞‧厄爾：https://www.nationalgeographic.com/environment/article/sylvia-earle-90-birthday-ocean-exploration-conservation；https://www.sea.museum/ocean-futures/ocean-changemakers/dr-sylvia-earle
+D76-22 清理孟買海灘的律師：https://www.unep.org/news-and-stories/story/organizer-worlds-largest-beach-clean-wins-top-un-environmental-award；https://amp.cnn.com/cnn/2017/05/22/asia/mumbai-beach-dramatic-makeover
+D76-23 防彈少年團的森林假期：https://en.wikipedia.org/wiki/BTS_In_the_Soop；https://www.soompi.com/article/1415381wpp/bts-to-launch-new-nature-themed-reality-show
+D76-24 防彈少年團的夏威夷旅行：https://en.wikipedia.org/wiki/BTS:_Bon_Voyage；https://soompi.com/article/1000635wpp/watch-bts-goes-adventures-teaser-2nd-season-travel-show-bon-voyage
+D76-25 李孝利在濟州島的民宿：https://en.wikipedia.org/wiki/Hyori%27s_Homestay；https://www.tenasia.com/amp/2024100565944
+D76-26 在蒙古長大的樂童音樂家：https://en.wikipedia.org/wiki/AKMU；https://www.wikipedia.org/wiki/Lee_Chan-hyuk
+D76-29 132 年前的漂流瓶：https://www.npr.org/sections/thetwo-way/2018/03/06/591177889/oldest-known-message-in-a-bottle-found-in-australia；https://www.anmm.gov.au/2018/03/07/message-in-a-bottle
+D76-30 真實版的魯賓遜：https://www.nationalgeographic.com/culture/article/robinson-crusoe-alexander-selkirk-history；https://en.wikipedia.org/wiki/Alexander_Selkirk
