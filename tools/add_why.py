@@ -177,6 +177,7 @@ def main():
                'make', 'made', 'let')
     # 介系詞搭配題：人工寫好的搭配說明（tools/extra/prep_why.json，以題目句子為鍵）
     PW = json.load(open(os.path.join(ROOT, 'tools', 'extra', 'prep_why.json'), encoding='utf-8'))
+    VW = json.load(open(os.path.join(ROOT, 'tools', 'extra', 'verb_why.json'), encoding='utf-8'))
     for q in b['bank']:
         if q['k'] == 'prep':
             y = PW.get(q['a'] + '|' + q['b'])
@@ -192,7 +193,8 @@ def main():
             continue
         if q['k'] != 'verb': continue
         tot += 1
-        y = why(q)
+        # 規則判斷不出來、但答案明確的題目：人工寫的說明（tools/extra/verb_why.json）
+        y = VW.get(q['a'] + '|' + q['b']) or why(q)
         if y: q['y'] = y; n += 1
         else: q.pop('y', None)
     # 判斷不出原因的動詞變化題（可能有兩個說得通的答案）不出題：只從每天的題目清單拿掉，題目本身和題號不動
