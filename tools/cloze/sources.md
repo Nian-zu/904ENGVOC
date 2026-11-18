@@ -498,3 +498,30 @@ D85-25 TWICE 出道十週年：https://en.wikipedia.org/wiki/Ten:_The_Story_Goes
 D85-26 智秀的〈FLOWER〉：https://yg-life.com/archives/182477?lang=en；https://www.koreatimes.co.kr/amp/entertainment/20230407/blackpinks-jisoo-sets-1st-week-sales-record-for-k-pop-female-soloist-with-me
 D85-29 在澀谷車站等了快十年的八公：https://en.wikipedia.org/wiki/Hachik%C5%8D；https://www.nippon.com/en/japan-glances/jg00137/
 D85-30 韓國人的寶貝福寶：https://local10.com/news/world/2024/04/03/with-tears-a-crowd-of-south-koreans-bids-farewell-to-beloved-panda-before-her-departure-to-china；https://www.thestar.com.my/aseanplus/aseanplus-news/2024/04/03/s-korean-fans-bid-farewell-to-internet-famous-panda-fu-bao
+D84-01 被黑網擋住的富士山超商：https://www.nbcnews.com/news/amp/rcna153213；https://www.stripes.com/theaters/asia_pacific/2024-05-21/mt-fuji-view-blocked-13928908.html
+D84-02 沒有談成的 7-Eleven 收購案：https://www.convenience.org/Media/Daily/2025/July/17/1-Couche-Tard-Withdraws-Acquire-Seven-i_MA；https://www.bnnbloomberg.ca/business/company-news/2025/07/16/couche-tard-pulls-bid-for-7-eleven-parent-company/
+D84-03 沒有司機的計程車：https://techcrunch.com/2024/06/25/waymo-opens-up-san-francisco-robotaxi-service-to-everyone/；https://m.washingtontimes.com/news/2024/jun/26/waymo-driverless-taxis-end-waitlist-open-service-t/
+D84-04 世界最大的加油站：https://www.convenience.org/Media/Daily/2023/June/27/6-Bucees-Worlds-Largest-Gas-Station_Ops；https://www.thedrive.com/news/worlds-largest-gas-station-is-a-new-buc-ees-with-120-pumps
+D84-05 隨處都能換電池的 Gogoro：https://electrek.co/2022/01/12/taiwan-soon-to-have-more-gogoro-electric-scooter-battery-swap-stations-than-gas-stations/；https://www.taipeitimes.com/News/biz/archives/2022/01/12/2003771172
+D84-06 走幾步就有一家超商：https://www.statista.com/statistics/1048613/taiwan-number-of-convenience-store-outlets/；https://www.sdxcentral.com/analysis/how-7-eleven-taiwan-networks-the-nation-together/
+D84-07 加油站不能用手機嗎：https://www.slate.com/blogs/business_insider/2014/10/03/cellphones_at_gas_stations_mythbusters_debunk_one_of_the_biggest_myths_in.html；https://www.tvmaze.com/episodes/34562/mythbusters-2x02-cell-phonegas-station-explosion-exploding-implants-exploding-cds
+D84-08 從大樓掉下來的一分錢：https://www.todayifoundout.com/index.php/2010/10/dropping-a-penny-from-the-top-of-the-empire-state-building-isnt-dangerous/；https://ripleys.com/stories/penny-drop
+D84-09 停在太陽下的車有多熱：https://health.clevelandclinic.org/dangers-of-leaving-children-in-a-hot-car；https://www.10news.com/news/how-fast-can-temperatures-inside-a-parked-car-rise-during-the-summer
+D84-10 為什麼市中心比較熱：https://scied.ucar.edu/learning-zone/climate-change-impacts/urban-heat-islands；https://climate.mit.edu/sites/default/files/2025-06/usepa_heatislands.pdf
+D84-11 瓦斯本來沒有味道：https://wfaa.com/article/news/local/why-natural-gas-smells-like-rotten-eggs/287-bfab0cfe-59c8-487c-b743-e189904d2cdf；https://kcc.ks.gov/natural-gas-pipeline-safety-liquid-pipeline/natural-gas-safety
+D84-12 放進冷凍庫的汽水：https://childrensmuseum.org/blog/why-do-soda-cans-pop-freezer；https://tastingtable.com/848607/what-really-happens-if-you-freeze-carbonated-drinks
+D84-13 只贏兩分的 F1 世界冠軍：https://www.fia.com/news/f1-norris-crowned-fia-formula-one-world-champion-verstappen-takes-abu-dhabi-win；https://www.nbcnews.com/sports/formula-1/lando-norris-wins-formula-1-world-championship-final-race-2025-rcna246885
+D84-14 F1 賽車為什麼不加油：https://racer.com/racerpedia/series-guides/formula-1/why-don-t-f1-cars-refuel-during-pitstops；https://www.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555079/
+D84-15 四十一歲的滑雪女王：https://www.nbcolympics.com/news/lindsey-vonn-wins-downhill-st-moritz-continue-remarkable-comeback；https://www.cbsnews.com/amp/news/lindsey-vonn-victory-world-cup-downhill
+D84-16 開進市中心的賽車：https://www.nascar.com/gallery/news-media/2023/07/02/nascar-cup-series-chicago-street-race-recap-shane-van-gisbergen-wins-debut/；https://fox32chicago.com/news/shane-van-gisbergen-wins-his-nascar-cup-series-debut-in-memorable-finish-to-street-race-in-chicago
+D84-17 第一場 F1 夜間賽：https://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix；https://singaporegp.sg/news/2008/timetable-set-for-first-ever-night-race-in-formula-1a-history/
+D84-18 高芙的第一座法網冠軍：https://www.wtatennis.com/news/4280339/a-champions-heart-gauff-defeats-sabalenka-to-win-french-open；https://www.aljazeera.com/sports/2025/6/7/gauff-beats-sabalenka-to-claim-french-open-title-for-first-time
+D84-19 停車格上的輪椅標誌：https://en.wikipedia.org/wiki/International_Symbol_of_Access；https://99percentinvisible.org/episode/icon-for-access/
+D84-20 第一位贏得印地賽車的女生：https://www.history.com/this-day-in-history/april-20/danica-patrick-becomes-first-woman-to-win-indy-race；https://abcnews.go.com/GMA/story?id=4689772
+D84-21 彩虹旗的誕生：https://glbthistory.org/rainbow-flag；https://www.biography.com/activists/a65057204/gilbert-baker-rainbow-pride-flag
+D84-22 前院的小小免費圖書館：https://littlefreelibrary.org/about/history/；https://en.wikipedia.org/wiki/Todd_Bol
+D84-23 住在隔壁的男孩們 BOYNEXTDOOR：https://en.wikipedia.org/wiki/BoyNextDoor；https://www.soompi.com/article/1583801wpp/zicos-upcoming-boy-group-boynextdoor-counts-down-to-debut-with-new-teaser
+D84-24 TWS 的〈plot twist〉：https://www.allkpop.com/article/2024/03/rookie-boy-group-tws-finally-reaches-1-on-melons-hot100-music-chart-with-plot-twist；https://www.bandwagon.asia/articles/tws-debut-album-sparkling-blue-pledis-entertainment-rookies-seventeen-listen-streaming-plot-twist-music-video-watch-hybe-january-2024
+D84-25 RIIZE 的第一把吉他：https://en.wikipedia.org/wiki/Riize；https://mb.com.ph/2023/9/5/new-k-pop-boy-band-riize-debuts-sells-more-than-178-000-copies-of-get-a-guitar
+D84-26 G-Dragon 睽違七年的〈POWER〉：https://www.allkpop.com/article/2024/10/g-dragons-power-sets-2024-melon-record-with-over-83000-listeners-in-the-first-hour；https://www.koreatimes.co.kr/entertainment/k-pop/20241105/bigbangs-g-dragon-proves-his-power-with-bold-new-single-power
+D84-29 羅傑斯先生的鄰居們：https://www.smithsonianmag.com/smithsonian-institution/cardiganed-fred-rogers-every-kids-cozy-comfort-zone-81938212/；https://www.remindmagazine.com/article/11027/mister-rogers-neighborhood-fred-rogers-sweaters-smithsonian
