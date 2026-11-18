@@ -256,3 +256,31 @@ D91-23 BTS 的〈Airplane pt.2〉：https://en.wikipedia.org/wiki/Airplane_Pt._2
 D91-24 智旻和柾國的旅行節目：https://abc7.com/15022122；https://philstar.com/korean-wave/2024/07/04/2367428/bts-jimin-jungkook-star-travel-show
 D91-25 為 BTS 加開的列車：https://www.asiae.co.kr/en/article/2022100415222646674；https://www.koreatimes.co.kr/entertainment/k-pop/20220829/how-busan-prepares-for-bts-october-concert
 D91-26 騎著看不見的馬的〈江南 Style〉：https://www.guinnessworldrecords.com/world-records/107048-first-video-to-receive-one-billion-views；https://www.history.com/this-day-in-history/december-21/gangnam-style-first-youtube-video-to-hit-one-billion-views
+D90-01 淡江大橋通車了：https://newatlas.com/architecture/taiwan-longest-single-mast-bridge-danjiang-zaha-hadid/；https://www.businesswire.com/news/home/20260509512973/en/Taiwan-Launches-Danjiang-Bridge-Showcasing-World-Class-Engineering
+D90-02 兩小時變兩分鐘的大橋：https://www.smithsonianmag.com/smart-news/the-highest-bridge-in-the-world-just-opened-in-china-at-more-than-2000-feet-above-the-ground-180987429/；https://www.fox6now.com/news/worlds-tallest-bridge-cuts-2-hour-mountain-trip-just-2-minutes
+D90-03 比艾菲爾鐵塔還高的鐵路橋：https://www.businesstoday.in/india/story/higher-than-the-eiffel-tower-built-at-rs-1486-crore-cost-worlds-highest-railway-bridge-over-chenab-inaugurated-479310-2025-06-06；https://www.theweek.in/news/india/2025/06/06/watch-pm-modi-waves-national-flag-as-he-inaugurates-world-s-tallest-railway-bridge-chenab-bridge-in-j-k.html
+D90-04 停下來讓行人先走：https://focustaiwan.tw/society/202306290016；https://focustaiwan.tw/society/202301310017
+D90-05 塞納河上的奧運開幕式：https://www.ksl.com/article/51080817/paris-dazzles-with-a-rainy-olympics-opening-ceremony-on-the-seine-river；https://www.inquirer.com/sports/paris-olympics-opening-ceremony-parade-20240726.html
+D90-06 方塊世界上了大銀幕：https://www.axios.com/2025/04/08/minecraft-movie-box-office-records；https://fortune.com/2025/04/07/a-minecraft-movie-us-box-office/
+D90-07 金門大橋其實不是金色的：https://laist.com/news/npr-news/the-golden-gate-bridges-accidental-color；https://kids.britannica.com/students/article/Golden-Gate-Bridge/609600
+D90-08 會搖晃的千禧橋：https://en.wikipedia.org/wiki/Millennium_Bridge,_London；https://plus.maths.org/content/millennial-wobbles
+D90-09 用身體搭橋的行軍蟻：https://www.princeton.edu/news/2015/11/30/ants-build-living-bridges-their-bodies-speak-volumes-about-group-intelligence；https://www.sciencedaily.com/releases/2015/11/151124143516.htm
+D90-10 會長大縮小的橋：https://practical.engineering/blog/2018/8/1/why-do-bridges-move；https://www.popsci.com/heat-wave-bridge-infrastructure/
+D90-11 一塊樂高能撐多重：https://www.smithsonianmag.com/smart-news/how-much-abuse-can-a-single-lego-brick-take-343398/；https://gizmodo.com/how-tall-can-a-lego-tower-be-before-it-crushes-itself-5965451
+D90-12 聖誕島的紅蟹大遷徙：https://storyworks.scholastic.com/issues/2022-23/100122/crab-crossing.html；https://mothership.sg/2021/11/christmas-island-red-crabs-migration
+D90-13 溫班亞瑪的火鍋秀：https://www.nba.com/news/victor-wembanyama-named-2023-24-kia-nba-rookie-of-the-year；https://www.thescore.com/news/2895048
+D90-14 搖手指的穆湯波：https://theanalyst.com/articles/who-has-the-most-blocks-in-nba-history；https://sports.betmgm.com/en/blog/nba/most-blocks-nba-history-bm06/
+D90-15 跑過五座橋的紐約馬拉松：https://www.marathons.com/en/new-york-marathon/inside-the-new-york-city-marathon-course-five-bridges-and-the-traps-to-avoid_m403；https://www.cbsnews.com/newyork/news/nyc-marathon-2025-route-maps
+D90-16 破兩小時的那條路：https://athleticsweekly.com/news/reports/eliud-kipchoge-runs-sub-two-hour-marathon-1039925986/；https://www.ineos.com/news/history-made
+D90-17 從海邊騎到三千公尺：https://www.cyclingnews.com/news/pooley-wins-taiwan-kom-challenge；https://www.taipeitimes.com/News/feat/archives/2020/10/31/2003746087
+D90-18 從橋邊跳進塞納河：https://olympics.com/ioc/news/paris-2024-olympic-and-paralympic-triathlon-route-revealed；https://bnnbloomberg.ca/business/international/2024/07/31/paris-olympics-triathlon-to-go-ahead-wednesday-after-seine-deemed-compliant
+D90-19 西門町的彩虹斑馬線：https://en.wikipedia.org/wiki/Rainbow_crossings_in_Taipei；https://travel.taipei/en/must-visit/rainbow
+D90-20 人行道轉角的小斜坡：https://www.pbs.org/wgbh/americanexperience/features/they-took-sledgehammers-sidewalks-heres-why-curb-cut-effect/；https://99percentinvisible.org/episode/308-curb-cuts/
+D90-21 讓綠燈多亮幾秒的卡片：https://lta.gov.sg/content/ltagov/en/getting_around/driving_in_singapore/intelligent_transport_systems/green_man.html；https://mothership.sg/2019/09/green-man-plus-lta
+D90-22 跑完全程的 261 號：https://www.marathons.com/en/featured-stories/kathrine-switzer-the-first-woman-to-officially-run-a-marathon；https://whdh.com/news/boston-marathon-retires-bib-no-261-for-womens-pioneer/
+D90-23 BTS 的斑馬線演唱會：https://www.etonline.com/bts-gives-epic-crosswalk-concert-on-late-late-show-with-james-corden-176779；https://www.udiscovermusic.com/news/bts-takes-over-streets-la-corden-crosswalk-performance/
+D90-24 被染成紫色的漢江大橋：https://www.koreatimes.co.kr/lifestyle/travel-food/20230613/bts-fans-flock-to-purple-lit-seoul-for-groups-10th-anniversary；https://gmanetwork.com/news/lifestyle/hobbiesandactivities/871120/bts-is-turning-seoul-purple-in-celebration-of-10th-anniversary/story
+D90-25 Lisa 在曼谷中國城拍 MV：https://www.bangkokpost.com/thailand/general/2819646/yaowarat-shines-in-rockstar-video；https://www.asiae.co.kr/en/article/2024070416562779932
+D90-26 江南的 K-Star 大道：https://thesoulofseoul.net/explore-k-star-road-in-gangnam-where-to-see-bts-exo-and-more-in-seoul/；https://www.visitgangnam.net/en/kpop
+D90-29 艾比路上的斑馬線：https://historicengland.org.uk/listing/the-list/list-entry/1396390；https://www.npr.org/sections/thetwo-way/2010/12/22/132254177/abbey-road-pix-officially-iconic
+D90-30 條條大路通羅馬：https://www.nationalgeographic.com/history/history-magazine/article/200000-miles-roman-roads-provided-framework-empire；https://ebsco.com/research-starters/history/roman-road-system
