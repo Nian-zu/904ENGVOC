@@ -260,6 +260,11 @@
      "lv": 1
     },
     {
+     "id": "long",
+     "name": "長臉",
+     "lv": 1
+    },
+    {
      "id": "square",
      "name": "方臉",
      "lv": 1
@@ -268,6 +273,16 @@
      "id": "heart",
      "name": "瓜子臉",
      "lv": 1
+    },
+    {
+     "id": "diamond",
+     "name": "菱形臉",
+     "lv": 2
+    },
+    {
+     "id": "pear",
+     "name": "下巴寬",
+     "lv": 3
     },
     {
      "id": "chubby",
