@@ -1,0 +1,59 @@
+{
+  "note": "人物造型部件與解鎖等級（lv）。docs/avatar.js 依 id 畫圖；Apps Script 存檔時也用這份檢查等級。",
+  "levels": {
+    "base": 15,
+    "titles": [[1, "單字見習生"], [5, "字彙探險家"], [10, "片語冒險家"], [15, "文法騎士"], [20, "閱讀魔法師"], [25, "會考勇者"], [30, "英文大師"], [40, "傳說學霸"], [50, "永中傳奇"]],
+    "xp": {"right": 1, "quiz": 30, "day": 10}
+  },
+  "cats": [
+    {"key": "skin", "name": "膚色", "items": [
+      {"id": "s1", "name": "膚色 1", "lv": 1, "c": "#f9dcc4"}, {"id": "s2", "name": "膚色 2", "lv": 1, "c": "#f1c27d"},
+      {"id": "s3", "name": "膚色 3", "lv": 1, "c": "#e0ac69"}, {"id": "s4", "name": "膚色 4", "lv": 1, "c": "#c68642"},
+      {"id": "s5", "name": "膚色 5", "lv": 1, "c": "#8d5524"}, {"id": "s6", "name": "膚色 6", "lv": 1, "c": "#5c3a1e"}]},
+    {"key": "hair", "name": "髮型", "items": [
+      {"id": "short", "name": "短髮", "lv": 1}, {"id": "buzz", "name": "平頭", "lv": 1}, {"id": "bob", "name": "鮑伯頭", "lv": 1},
+      {"id": "long", "name": "長直髮", "lv": 1}, {"id": "side", "name": "旁分", "lv": 2}, {"id": "ponytail", "name": "馬尾", "lv": 2},
+      {"id": "buns", "name": "包包頭", "lv": 4}, {"id": "spiky", "name": "刺蝟頭", "lv": 4}, {"id": "curly", "name": "捲髮", "lv": 6},
+      {"id": "wavy", "name": "長捲髮", "lv": 8}, {"id": "mohawk", "name": "龐克頭", "lv": 12}, {"id": "none", "name": "光頭", "lv": 3}]},
+    {"key": "hc", "name": "髮色", "items": [
+      {"id": "black", "name": "黑色", "lv": 1, "c": "#2b2523"}, {"id": "dbrown", "name": "深棕", "lv": 1, "c": "#4a3123"},
+      {"id": "brown", "name": "棕色", "lv": 1, "c": "#7a4b2a"}, {"id": "blonde", "name": "金色", "lv": 5, "c": "#e6c16a"},
+      {"id": "red", "name": "紅色", "lv": 7, "c": "#b5442c"}, {"id": "blue", "name": "藍色", "lv": 10, "c": "#3b6fd1"},
+      {"id": "pink", "name": "粉紅", "lv": 13, "c": "#ef8fb4"}, {"id": "green", "name": "綠色", "lv": 16, "c": "#3fa66b"},
+      {"id": "silver", "name": "銀色", "lv": 20, "c": "#c9cdd3"}, {"id": "purple", "name": "紫色", "lv": 24, "c": "#8a5cc8"}]},
+    {"key": "eyes", "name": "眼睛", "items": [
+      {"id": "dot", "name": "圓眼", "lv": 1}, {"id": "happy", "name": "笑眼", "lv": 1}, {"id": "big", "name": "閃亮大眼", "lv": 2},
+      {"id": "wink", "name": "眨眼", "lv": 3}, {"id": "cool", "name": "酷酷", "lv": 6}, {"id": "star", "name": "星星眼", "lv": 15}]},
+    {"key": "mouth", "name": "嘴巴", "items": [
+      {"id": "smile", "name": "微笑", "lv": 1}, {"id": "grin", "name": "露齒笑", "lv": 1}, {"id": "o", "name": "驚訝", "lv": 2},
+      {"id": "tongue", "name": "吐舌", "lv": 4}, {"id": "cat", "name": "貓嘴", "lv": 9}]},
+    {"key": "top", "name": "衣服", "items": [
+      {"id": "tee", "name": "T 恤", "lv": 1}, {"id": "uniform", "name": "制服", "lv": 1}, {"id": "hoodie", "name": "帽 T", "lv": 1},
+      {"id": "jersey", "name": "球衣", "lv": 3}, {"id": "sweater", "name": "毛衣", "lv": 5}, {"id": "jacket", "name": "外套", "lv": 7},
+      {"id": "suit", "name": "西裝", "lv": 11}, {"id": "robe", "name": "魔法袍", "lv": 18}, {"id": "armor", "name": "騎士鎧甲", "lv": 22},
+      {"id": "cape", "name": "英雄披風", "lv": 28}]},
+    {"key": "tc", "name": "衣服顏色", "items": [
+      {"id": "navy", "name": "深藍", "lv": 1, "c": "#2c4a7a"}, {"id": "green", "name": "墨綠", "lv": 1, "c": "#2a6b52"},
+      {"id": "white", "name": "白色", "lv": 1, "c": "#f1f1ee"}, {"id": "gray", "name": "灰色", "lv": 1, "c": "#8a9196"},
+      {"id": "red", "name": "紅色", "lv": 2, "c": "#c8473a"}, {"id": "yellow", "name": "黃色", "lv": 3, "c": "#f2c94c"},
+      {"id": "pink", "name": "粉紅", "lv": 4, "c": "#ee9fbd"}, {"id": "sky", "name": "天藍", "lv": 5, "c": "#7fb8e6"},
+      {"id": "purple", "name": "紫色", "lv": 8, "c": "#8a5cc8"}, {"id": "black", "name": "黑色", "lv": 10, "c": "#2a2a2e"}]},
+    {"key": "acc", "name": "配件", "items": [
+      {"id": "none", "name": "不戴", "lv": 1}, {"id": "glasses", "name": "眼鏡", "lv": 1}, {"id": "bow", "name": "蝴蝶結", "lv": 2},
+      {"id": "flower", "name": "小花", "lv": 3}, {"id": "sunglasses", "name": "墨鏡", "lv": 5}, {"id": "cap", "name": "棒球帽", "lv": 6},
+      {"id": "headphones", "name": "耳機", "lv": 9}, {"id": "beanie", "name": "毛帽", "lv": 11}, {"id": "wizard", "name": "巫師帽", "lv": 19},
+      {"id": "crown", "name": "皇冠", "lv": 30}]},
+    {"key": "pet", "name": "寵物", "items": [
+      {"id": "none", "name": "不帶", "lv": 1}, {"id": "cat", "name": "貓咪", "lv": 2}, {"id": "dog", "name": "小狗", "lv": 3},
+      {"id": "rabbit", "name": "兔子", "lv": 5}, {"id": "shiba", "name": "柴犬", "lv": 8}, {"id": "hamster", "name": "倉鼠", "lv": 10},
+      {"id": "owl", "name": "貓頭鷹", "lv": 13}, {"id": "panda", "name": "熊貓", "lv": 16}, {"id": "dino", "name": "小恐龍", "lv": 20},
+      {"id": "dragon", "name": "小龍", "lv": 30}]},
+    {"key": "bg", "name": "背景", "items": [
+      {"id": "mint", "name": "薄荷", "lv": 1, "c": "#cfeee0"}, {"id": "cream", "name": "奶油", "lv": 1, "c": "#fbefc9"},
+      {"id": "sky", "name": "天空", "lv": 1, "c": "#cfe6fb"}, {"id": "peach", "name": "蜜桃", "lv": 1, "c": "#fbd9cc"},
+      {"id": "lilac", "name": "丁香", "lv": 4, "c": "#e3d6f6"}, {"id": "board", "name": "黑板", "lv": 6, "c": "#1f3d33"},
+      {"id": "night", "name": "星空", "lv": 14, "c": "#1d2450"}, {"id": "sunset", "name": "夕陽", "lv": 21, "c": "#f6a96b"},
+      {"id": "gold", "name": "金色", "lv": 26, "c": "#f2c94c"}]}
+  ],
+  "default": {"skin": "s2", "hair": "short", "hc": "black", "eyes": "dot", "mouth": "smile", "top": "uniform", "tc": "white", "acc": "none", "pet": "none", "bg": "mint"}
+}

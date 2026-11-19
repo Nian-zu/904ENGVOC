@@ -23,6 +23,7 @@ function doPost(e) {
     if (!(seat >= 1 && seat <= 60)) return out_({ ok: false, error: '座號不正確' });
     const pc = checkPin_(seat, body.pin);
     if (!pc.ok) return out_({ ok: false, error: pc.error, pin: true });
+    if (body.type === 'avatar') return out_(saveAvatar_(seat, body.avatar));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -82,6 +83,7 @@ function doPost(e) {
         const dt = detailSheet_();
         append_(dt, rows);
       }
+      CacheService.getScriptCache().remove('prof_v1');   // 經驗值要重算
     } finally {
       lock.releaseLock();
     }
@@ -103,6 +105,7 @@ function doGet(e) {
   if (p.action === 'dash') return out_(dash_(p.key));
   if (p.action === 'badges') return out_(badges_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
+  if (p.action === 'profile') return out_(profile_(p.seat));
   if (p.action === 'parent') return out_(parent_(p.key, p.seat));
   if (p.action === 'who') { const ws = parseInt(p.seat, 10), wn = roster_()[ws]; return out_({ ok: true, given: wn ? givenName(wn) : '' }); }
   if (p.action === 'login') {
@@ -155,7 +158,7 @@ function doGet(e) {
 
   return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows) });
+    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows), av: avMap_() });
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -830,4 +833,85 @@ function parent_(key, seat) {
       classAnswered: Math.round(ctot.answered / nStu), days: Object.keys(days).length, streak: streak, tests: mine.length,
       firstDay: Object.keys(days).sort()[0] || '' },
     weeks: weekList, types: typeList, wrong: wrong, quiz: quiz };
+}
+
+// ===================== 等級與人物造型 =====================
+// 經驗值 = 答對題數 × 1 ＋ 每日小考過關 × 30 ＋ 練習天數 × 10（數字在 docs/avatar-items.json 的 levels）
+// 造型存在試算表「造型」分頁：座號 | 造型（JSON）| 更新時間
+const AV_ITEMS_URL = 'https://nian-zu.github.io/904ENGVOC/avatar-items.json';
+function avItems_() {
+  const cache = CacheService.getScriptCache();
+  let t = cache.get('av_items');
+  if (!t) { t = UrlFetchApp.fetch(AV_ITEMS_URL).getContentText(); cache.put('av_items', t, 21600); }
+  return JSON.parse(t);
+}
+function avSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName('造型');
+  if (!sh) { sh = ss.insertSheet('造型'); sh.getRange(1, 1, 1, 3).setValues([['座號', '造型', '更新時間']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function avNeed_(n, base) { return base * n * (n - 1); }
+function avLevel_(xp, base) { let n = 1; while (n < 50 && xp >= avNeed_(n + 1, base)) n++; return n; }
+function avTitle_(lv, titles) { let t = ''; titles.forEach(function (x) { if (lv >= x[0]) t = x[1]; }); return t; }
+
+// 所有學生的經驗值、等級、造型（快取 60 秒）
+function profiles_() {
+  const cache = CacheService.getScriptCache(), hit = cache.get('prof_v1');
+  if (hit) return JSON.parse(hit);
+  const L = avItems_().levels, out = {};
+  const rows = readRows_();
+  rows.forEach(function (r) {
+    const o = out[r.seat] || (out[r.seat] = { right: 0, quiz: 0, days: {} });
+    o.right += r.right; o.days[r.d] = 1;
+  });
+  const tk = tasks_(PropertiesService.getScriptProperties().getProperty('TEACHER_KEY') || '');
+  if (tk.ok) tk.tasks.forEach(function (t) {
+    const res = tk.results[t.date] || {};
+    Object.keys(res).forEach(function (k) { if (res[k].passAt) { const o = out[k] || (out[k] = { right: 0, quiz: 0, days: {} }); o.quiz++; } });
+  });
+  const sh = avSheet_(), av = {};
+  if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 2).getValues().forEach(function (r) {
+    const k = parseInt(r[0], 10); if (!k) return;
+    try { av[k] = JSON.parse(String(r[1] || '{}')); } catch (e) {}
+  });
+  const res = {};
+  Object.keys(roster_()).concat(Object.keys(out)).forEach(function (k) {
+    k = parseInt(k, 10); if (!k || k === 30 || res[k]) return;
+    const o = out[k] || { right: 0, quiz: 0, days: {} }, days = Object.keys(o.days).length;
+    const xp = o.right * L.xp.right + o.quiz * L.xp.quiz + days * L.xp.day;
+    res[k] = { xp: xp, lv: avLevel_(xp, L.base), right: o.right, quiz: o.quiz, days: days, a: av[k] || null };
+  });
+  cache.put('prof_v1', JSON.stringify(res), 60);
+  return res;
+}
+function avMap_() {
+  try {
+    const p = profiles_(), m = {};
+    Object.keys(p).forEach(function (k) { m[k] = { lv: p[k].lv, a: p[k].a }; });
+    return m;
+  } catch (e) { return {}; }
+}
+function profile_(seat) {
+  const s = parseInt(seat, 10), p = profiles_()[s];
+  if (!p) return { ok: false, error: '找不到這個座號' };
+  const L = avItems_().levels;
+  return { ok: true, seat: s, xp: p.xp, lv: p.lv, title: avTitle_(p.lv, L.titles), cur: avNeed_(p.lv, L.base), next: p.lv >= 50 ? null : avNeed_(p.lv + 1, L.base),
+    right: p.right, quiz: p.quiz, days: p.days, a: p.a, xpRule: L.xp };
+}
+// 存造型：每個部件都要存在、而且等級夠才能用，否則換回預設
+function saveAvatar_(seat, a) {
+  const items = avItems_(), p = profiles_()[seat] || { lv: 1 }, clean = {};
+  items.cats.forEach(function (c) {
+    const want = a && a[c.key], it = c.items.filter(function (x) { return x.id === want; })[0];
+    clean[c.key] = it && it.lv <= p.lv ? it.id : items.default[c.key];
+  });
+  const sh = avSheet_(), n = sh.getLastRow() - 1;
+  const stamp = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd HH:mm');
+  let row = 0;
+  if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (r, i) { if (parseInt(r[0], 10) === seat) row = i + 2; });
+  if (row) sh.getRange(row, 2, 1, 2).setValues([[JSON.stringify(clean), stamp]]);
+  else sh.appendRow([seat, JSON.stringify(clean), stamp]);
+  CacheService.getScriptCache().remove('prof_v1');
+  return { ok: true, a: clean };
 }

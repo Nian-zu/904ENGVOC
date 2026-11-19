@@ -205,6 +205,53 @@ input[type=text]{flex:1;min-width:200px}
 #tbStat.try{color:#9a6700}
 .taskban.done{border-color:var(--ok);background:#e9f7ee}
 .pinmsg{font-weight:900;font-size:.92rem}
+svg.avatar{border-radius:50%;display:block;flex:none}
+.mecard{display:flex;align-items:center;gap:14px;padding:10px 12px;margin:10px 0 4px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.meav{padding:0;border:0;background:none;cursor:pointer;border-radius:50%}
+.meav svg.avatar{width:76px;height:76px;box-shadow:0 0 0 3px var(--chalk)}
+.meinfo{flex:1;min-width:0}
+.mename{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.mename b{font-size:1.1rem}
+.lv{background:var(--board);color:var(--chalk);font-weight:900;border-radius:999px;padding:0 9px;font-size:.85rem}
+.mettl{color:var(--muted);font-size:.88rem;font-weight:700}
+.xpbar{height:10px;border-radius:5px;background:var(--line);overflow:hidden;margin:6px 0 2px}
+.xpbar span{display:block;height:100%;background:linear-gradient(90deg,var(--chalk),#f29d4c);border-radius:5px;transition:width .8s}
+.xptxt{font-size:.8rem;color:var(--muted)}
+.ghostbtn{background:transparent;border:1px solid var(--line);border-radius:10px;padding:7px 12px;font:inherit;font-weight:700;color:inherit;cursor:pointer}
+.qav svg.avatar{width:34px;height:34px}
+.qav.jump svg{animation:avjump .5s}
+@keyframes avjump{0%,100%{transform:translateY(0)}35%{transform:translateY(-9px) rotate(-6deg)}70%{transform:translateY(0) rotate(4deg)}}
+.avmodal{position:fixed;inset:0;background:rgba(10,20,16,.55);z-index:80;display:grid;place-items:center;padding:12px}
+.avbox{background:var(--card);color:var(--ink);border-radius:18px;width:min(560px,100%);max-height:94vh;display:flex;flex-direction:column;overflow:hidden}
+.avtop{display:flex;gap:14px;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line)}
+.avtop svg.avatar{width:110px;height:110px}
+.avtop>div:nth-child(2){flex:1}
+.avx{border:0;background:none;font-size:1.3rem;cursor:pointer;color:var(--muted)}
+.avtabs{display:flex;gap:6px;overflow-x:auto;padding:10px 12px 4px}
+.avtabs button{flex:none;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:4px 12px;font:inherit;font-size:.9rem;cursor:pointer;color:inherit}
+.avtabs button[aria-selected="true"]{background:var(--board);color:#fff;border-color:var(--board)}
+.avgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
+.avgrid button{position:relative;border:2px solid var(--line);border-radius:12px;background:var(--paper);padding:6px 2px 4px;cursor:pointer;font:inherit;font-size:.78rem;color:inherit;display:flex;flex-direction:column;align-items:center;gap:2px}
+.avgrid button[aria-pressed="true"]{border-color:var(--chalk);box-shadow:0 0 0 2px var(--chalk)}
+.avgrid button:disabled{cursor:not-allowed}
+.avgrid button:disabled>svg{opacity:.35;filter:grayscale(1)}
+.avgrid .lock{position:absolute;top:22px;left:0;right:0;font-weight:900;font-size:.8rem}
+.avgrid .sw{width:46px;height:46px;border-radius:50%;border:1px solid rgba(0,0,0,.15)}
+.avact{display:flex;gap:8px;align-items:center;justify-content:flex-end;padding:10px 14px;border-top:1px solid var(--line)}
+.avact .hint{margin-right:auto}
+.podium{display:flex;justify-content:center;align-items:flex-end;gap:10px;margin:10px 0 6px}
+.podium .pd{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:84px;text-align:center}
+.podium .pd svg.avatar{width:64px;height:64px;box-shadow:0 0 0 3px #d9dee0}
+.podium .pd.p1 svg.avatar{width:86px;height:86px;box-shadow:0 0 0 4px var(--chalk)}
+.podium .pd.p3 svg.avatar{box-shadow:0 0 0 3px #e8c7a6}
+.podium .pd b{font-size:.95rem}
+.podium .pd small{color:var(--muted);font-size:.78rem}
+.podium .medal{font-size:1.3rem;line-height:1}
+.board td .nmav{display:inline-flex;align-items:center;gap:6px;vertical-align:middle}
+.board td .nmav svg.avatar{width:28px;height:28px}
+.board .lvs{font-size:.72rem;font-weight:900;color:var(--muted);margin-left:2px}
+.lvup{position:fixed;left:50%;top:18%;transform:translateX(-50%);z-index:95;background:var(--board);color:#fff;border-radius:16px;padding:14px 20px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.3);animation:pop .4s}
+.lvup b{color:var(--chalk);font-size:1.4rem;display:block}
 .pinbtn{padding:6px 14px;font-weight:900}
 #sname[readonly]{background:transparent;border-color:transparent;font-weight:900;padding-left:2px}
 .pinmsg.ok{color:var(--ok)}
@@ -231,6 +278,15 @@ input[type=text]{flex:1;min-width:200px}
       <label for="spin">密碼</label><input type="password" id="spin" maxlength="30" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="校務帳號" enterkeyhint="done" style="min-width:130px;flex:0 1 170px"><button type="button" id="pinBtn" class="pinbtn">確認</button><span id="pinMsg" class="pinmsg"></span>
     </div>
     <div class="hint">密碼就是你的校務帳號（例如 ntpc12345），輸入完按 Enter。交卷後成績會自動上傳給老師。這台裝置會記住你的座號和密碼，和別人共用的電腦考完請按「換人」。<button type="button" class="linkbtn" id="logoutBtn">換人</button></div>
+  </div>
+  <div class="mecard hidden" id="meCard">
+    <button type="button" class="meav" id="meAv" aria-label="換造型"></button>
+    <div class="meinfo">
+      <div class="mename"><b id="meName"></b><span class="lv" id="meLv"></span><span class="mettl" id="meTitle"></span></div>
+      <div class="xpbar" aria-hidden="true"><span id="meXpBar"></span></div>
+      <div class="xptxt" id="meXp"></div>
+    </div>
+    <button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button>
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
@@ -300,11 +356,20 @@ input[type=text]{flex:1;min-width:200px}
   </div>
 </section>
 
+<div class="avmodal hidden" id="avModal" role="dialog" aria-modal="true" aria-label="換造型">
+  <div class="avbox">
+    <div class="avtop"><div id="avPrev"></div><div><b>換造型</b><div class="hint" id="avLvTxt"></div></div><button type="button" class="avx" id="avClose" aria-label="關閉">✕</button></div>
+    <div class="avtabs" id="avTabs" role="tablist"></div>
+    <div class="avgrid" id="avGrid"></div>
+    <div class="avact"><span class="hint" id="avMsg"></span><button type="button" class="ghostbtn" id="avRand">🎲 隨機</button><button type="button" class="primary" id="avSave">儲存</button></div>
+  </div>
+</div>
+
 <section id="quiz" class="panel hidden" aria-live="polite">
   <div>
     <div class="qhead">
       <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span><span class="chip streak hidden" id="qStreak"></span><span class="chip quizchip hidden" id="qQuiz">📝 每日小考</span></div>
-      <div class="row"><span class="hint" id="qProg"></span><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
+      <div class="row"><span class="qav" id="qAv"></span><span class="hint" id="qProg"></span><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
     </div>
     <div class="bar"><span id="qBar"></span></div>
     <p class="ask" id="qAsk">＿＿＿ 處適合填入何者？</p>
@@ -369,6 +434,7 @@ input[type=text]{flex:1;min-width:200px}
   </details>
 </section>
 </div></main>
+<script src="avatar.js"></script>
 <script>
 let DATA = null, GL = {};
 let N = 183;
@@ -729,7 +795,7 @@ function fxAnswer(ok){
     b.textContent = (s.streak >= 10 ? '🔥🔥🔥' : s.streak >= 5 ? '🔥🔥' : '🔥') + ' 連對 ' + s.streak + ' 題';
     b.classList.remove('hidden'); b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop');
   } else b.classList.add('hidden');
-  if (ok) { burst(document.querySelector('#qOpts .opt.ok')); SND.ok(s.streak); } else SND.bad();
+  if (ok) { burst(document.querySelector('#qOpts .opt.ok')); SND.ok(s.streak); const q = $('qAv'); q.classList.remove('jump'); void q.offsetWidth; q.classList.add('jump'); } else SND.bad();
 }
 function countUp(el, to){
   el.classList.remove('bump'); void el.offsetWidth; el.classList.add('bump');
@@ -965,6 +1031,84 @@ SEATS.forEach(i => $('seat').add(new Option(TEACHERS[i] || (i === 30 ? '30 號�
 const seatLabel = n => TEACHERS[n] ? '老師' : n;
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; if (st.pin) $('spin').value = st.pin; } catch (e) {}
 function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim(), pin: PIN_OK ? $('spin').value.trim() : ''})); } catch (e) {} }
+// ---------------- 等級與人物造型 ----------------
+let ME = null, AVSEL = null, AVCAT = 'hair';
+AV.load().then(() => { if (boardData) drawBoard(); if (ME) drawMe(); }).catch(() => {});
+async function loadProfile(after){
+  const seat = $('seat').value;
+  if (!seat || !SHEET_URL) { $('meCard').classList.add('hidden'); return; }
+  try {
+    await AV.load();
+    const j = await fetch(SHEET_URL + '?action=profile&seat=' + seat + '&_=' + Date.now()).then(r => r.json());
+    if (!j.ok || j.lv == null || seat !== $('seat').value) return;   // 伺服器還沒更新時不顯示
+    const old = ME && ME.seat === j.seat ? ME.lv : null;
+    ME = j;
+    drawMe();
+    if (after && old != null && j.lv > old) lvUp(j.lv);
+  } catch (e) {}
+}
+function drawMe(){
+  if (!ME) return;
+  $('meCard').classList.remove('hidden');
+  $('meAv').innerHTML = AV.svg(ME.a, {size: 76, label: '我的頭像'});
+  $('qAv').innerHTML = AV.svg(ME.a, {size: 34});
+  $('meName').textContent = TEACHERS[ME.seat] || $('sname').value || (ME.seat + ' 號');
+  $('meLv').textContent = 'Lv.' + ME.lv;
+  $('meTitle').textContent = ME.title;
+  const span = ME.next == null ? 1 : ME.next - ME.cur, got = ME.next == null ? 1 : ME.xp - ME.cur;
+  $('meXpBar').style.width = Math.max(3, Math.min(100, got / span * 100)) + '%';
+  $('meXp').textContent = ME.next == null ? `經驗值 ${ME.xp}・已達最高等級！` : `經驗值 ${ME.xp}・再 ${ME.next - ME.xp} 點升到 Lv.${ME.lv + 1}（答對 1 題 +${ME.xpRule.right}、小考過關 +${ME.xpRule.quiz}、每練習一天 +${ME.xpRule.day}）`;
+}
+function lvUp(lv){
+  const d = document.createElement('div'); d.className = 'lvup';
+  const items = [];
+  AV.items.cats.forEach(c => c.items.forEach(it => { if (it.lv === lv) items.push(it.name); }));
+  d.innerHTML = `🎉 升級了！<b>Lv.${lv}・${esc(AV.title(lv))}</b>${items.length ? '解鎖：' + items.map(esc).join('、') : ''}`;
+  document.body.appendChild(d); try { SND.ok(10); } catch (e) {}
+  if (typeof confetti === 'function') confetti();
+  setTimeout(() => d.remove(), 3500);
+}
+function openAv(){
+  if (!ME || !AV.items) return;
+  AVSEL = AV.norm(ME.a);
+  $('avTabs').innerHTML = AV.items.cats.map(c => `<button type="button" role="tab" data-c="${c.key}" aria-selected="${c.key === AVCAT}">${esc(c.name)}</button>`).join('');
+  $('avTabs').querySelectorAll('button').forEach(b => b.onclick = () => { AVCAT = b.dataset.c; openAvTab(); });
+  $('avLvTxt').textContent = `Lv.${ME.lv} ${ME.title}・等級越高，能選的越多`;
+  $('avMsg').textContent = '';
+  $('avModal').classList.remove('hidden');
+  openAvTab();
+}
+function openAvTab(){
+  $('avTabs').querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', b.dataset.c === AVCAT));
+  $('avPrev').innerHTML = AV.svg(AVSEL, {size: 110});
+  const cat = AV.items.cats.find(c => c.key === AVCAT);
+  $('avGrid').innerHTML = cat.items.map(it => {
+    const lock = it.lv > ME.lv;
+    const pic = it.c && cat.key !== 'skin' ? `<span class="sw" style="background:${it.c}"></span>` : AV.thumb(AVSEL, cat.key, it.id, 52);
+    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? 'Lv.' + it.lv + ' 解鎖' : esc(it.name)}">${pic}${lock ? `<span class="lock">🔒Lv.${it.lv}</span>` : ''}<span>${esc(it.name)}</span></button>`;
+  }).join('');
+  $('avGrid').querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { AVSEL[AVCAT] = b.dataset.i; openAvTab(); });
+}
+$('meEdit').onclick = openAv; $('meAv').onclick = openAv;
+$('avClose').onclick = () => $('avModal').classList.add('hidden');
+$('avModal').onclick = e => { if (e.target === $('avModal')) $('avModal').classList.add('hidden'); };
+$('avRand').onclick = () => {
+  AV.items.cats.forEach(c => { const ok = c.items.filter(it => it.lv <= ME.lv); AVSEL[c.key] = ok[Math.floor(Math.random() * ok.length)].id; });
+  openAvTab();
+};
+$('avSave').onclick = async () => {
+  $('avSave').disabled = true; $('avMsg').textContent = '儲存中…';
+  try {
+    const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'},
+      body: JSON.stringify({type: 'avatar', seat: $('seat').value, pin: $('spin').value.trim(), avatar: AVSEL})});
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || '儲存失敗');
+    ME.a = j.a; drawMe(); $('avModal').classList.add('hidden');
+    if (boardData) { boardData.av = boardData.av || {}; boardData.av[ME.seat] = {lv: ME.lv, a: j.a}; drawBoard(); }
+  } catch (e) { $('avMsg').textContent = '⚠️ ' + e.message; }
+  finally { $('avSave').disabled = false; }
+};
+
 // 個人密碼：老師在試算表「名單」設定；輸入對了才能開始、上傳
 var PIN_OK = false;
 let pinSeq = 0;
@@ -978,7 +1122,7 @@ async function checkPin(quiet){
   try {
     const j = await fetch(SHEET_URL + '?action=login&seat=' + seat + '&pin=' + encodeURIComponent(pin)).then(r => r.json());
     if (my !== pinSeq) return;
-    if (j.ok) { PIN_OK = true; pinMsg('✓', 'ok'); if (j.given && !TEACHERS[seat]) $('sname').value = j.given; }
+    if (j.ok) { PIN_OK = true; pinMsg('✓', 'ok'); if (j.given && !TEACHERS[seat]) $('sname').value = j.given; loadProfile(); }
     else { PIN_OK = false; pinMsg(j.error || '密碼不對', 'bad'); }
   } catch (e) { if (my === pinSeq) { PIN_OK = true; pinMsg(''); } }   // 網路不穩時先讓他考，交卷時伺服器會再檢查
   saveStudent(); update();
@@ -990,7 +1134,7 @@ $('spin').oninput = () => { PIN_OK = false; lastTried = ''; update(); pinMsg($('
 $('spin').onchange = tryPin;
 $('spin').onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); tryPin(); } };
 $('pinBtn').onclick = () => { lastTried = ''; tryPin(); };
-$('logoutBtn').onclick = () => { $('seat').value = ''; $('sname').value = ''; $('spin').value = ''; PIN_OK = false; pinMsg(''); try { localStorage.removeItem('student'); } catch (e) {} $('taskBan').classList.add('hidden'); update(); if (typeof drawBoard === 'function') drawBoard(); };
+$('logoutBtn').onclick = () => { ME = null; $('meCard').classList.add('hidden'); $('qAv').innerHTML = ''; $('seat').value = ''; $('sname').value = ''; $('spin').value = ''; PIN_OK = false; pinMsg(''); try { localStorage.removeItem('student'); } catch (e) {} $('taskBan').classList.add('hidden'); update(); if (typeof drawBoard === 'function') drawBoard(); };
 // 選座號就從「名單」帶入名字；名單上沒有的座號（30 號測試）才自己輸入
 async function fillName(){
   const seat = $('seat').value;
@@ -1005,7 +1149,7 @@ async function fillName(){
   $('sname').placeholder = $('sname').readOnly ? '選座號後自動帶入' : '請輸入姓名';
   saveStudent(); update();
 }
-$('seat').onchange = () => { $('spin').value = ''; PIN_OK = false; pinMsg(''); fillName(); setTimeout(loadTodayTask, 0); saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
+$('seat').onchange = () => { ME = null; $('meCard').classList.add('hidden'); $('qAv').innerHTML = ''; $('spin').value = ''; PIN_OK = false; pinMsg(''); fillName(); setTimeout(loadTodayTask, 0); saveStudent(); update(); if (typeof drawBoard === 'function') drawBoard(); };
 $('sname').oninput = () => { saveStudent(); update(); };
 
 // Google Apps Script 網頁應用程式網址（部署後貼在這裡）
@@ -1026,6 +1170,7 @@ async function upload(){
     if (!j.ok) throw new Error(j.error || '上傳失敗');
     if (j.quiz === false) { box.className = 'upload bad'; box.textContent = okMsg(j.score) + '，但小考密碼不對（或已過了當天），這次沒有算成每日小考。'; }
     else { box.className = 'upload ok'; box.textContent = okMsg(j.score) + (j.quiz ? '・📝 已記錄為每日小考' : ''); }
+    setTimeout(() => loadProfile(true), 400);
     loadBoard();
   } catch (e) {
     if (e instanceof TypeError) {
@@ -1087,10 +1232,14 @@ function drawBoard(){
     up: [`<th class="n">進步</th><th class="n">${PREV_ZH[boardPeriod] || '上期'}</th><th class="n">${PERIOD_ZH[boardPeriod]}</th>`, x => `<td class="n up">+${x.up}</td><td class="n">${pct(x.prevRate)}</td><td class="n">${pct(x.rate)}</td>`]
   }[boardSort];
   const empty = {right: '這段期間還沒有人交卷，搶第一名吧！', rate: `還沒有人作答滿 ${j.min ? j.min.rate : ''} 題，多做幾回就能上榜！`, up: `還沒有人比${PREV_ZH[boardPeriod] || '上期'}進步（兩段都要作答滿 ${j.min && j.min.up || ''} 題才算）。`}[boardSort];
+  const AVM = j.av || {}, avOf = seat => (window.AV && AV.items) ? AV.svg((AVM[seat] || {}).a, {size: 28}) : '';
+  const lvOf = seat => AVM[seat] ? `<span class="lvs">Lv.${AVM[seat].lv}</span>` : '';
+  const top3 = list.filter(x => x.rank <= 3).slice(0, 3);
+  const podium = top3.length && window.AV && AV.items ? `<div class="podium">${[top3[1], top3[0], top3[2]].filter(Boolean).map(x => `<div class="pd p${x.rank}"><span class="medal">${['🥇', '🥈', '🥉'][x.rank - 1]}</span>${AV.svg((AVM[x.seat] || {}).a, {size: x.rank === 1 ? 86 : 64})}<b>${nm(x)}</b><small>${AVM[x.seat] ? 'Lv.' + AVM[x.seat].lv + '・' : ''}${boardSort === 'right' ? x.right + ' 題' : boardSort === 'rate' ? pct(x.rate) : '+' + x.up}</small></div>`).join('')}</div>` : '';
   body.className = '';
-  body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + (list.length
+  body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + podium + (list.length
     ? `<table><thead><tr><th>名次</th><th>座號</th><th>名字</th>${cols[0]}</tr></thead><tbody>` +
-      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td>${nm(x)}${bic(x.seat)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
+      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td><span class="nmav">${avOf(x.seat)}<span>${nm(x)}${lvOf(x.seat)}</span></span>${bic(x.seat)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
     : `<div class="empty">${empty}</div>`);
   $('boardHint').textContent = {
     right: `依${PERIOD_ZH[boardPeriod]}${tz}答對題數加總排名，做越多、答對越多就越前面。`,
