@@ -114,6 +114,16 @@
      "lv": 1
     },
     {
+     "id": "athletic",
+     "name": "精實",
+     "lv": 1
+    },
+    {
+     "id": "muscle",
+     "name": "肌肉",
+     "lv": 1
+    },
+    {
      "id": "sturdy",
      "name": "壯壯",
      "lv": 1
@@ -193,6 +203,31 @@
      "id": "none",
      "name": "光頭",
      "lv": 3
+    },
+    {
+     "id": "messy",
+     "name": "亂翹髮",
+     "lv": 1
+    },
+    {
+     "id": "twintail",
+     "name": "雙馬尾",
+     "lv": 4
+    },
+    {
+     "id": "braid",
+     "name": "側辮子",
+     "lv": 8
+    },
+    {
+     "id": "undercut",
+     "name": "油頭",
+     "lv": 12
+    },
+    {
+     "id": "afro",
+     "name": "爆炸頭",
+     "s": 150
     }
    ]
   },
@@ -642,6 +677,31 @@
      "lv": 1,
      "t": "cap30",
      "how": "會考文法答對 30 題"
+    },
+    {
+     "id": "tank",
+     "name": "運動背心",
+     "lv": 3
+    },
+    {
+     "id": "pajama",
+     "name": "睡衣",
+     "lv": 6
+    },
+    {
+     "id": "lab",
+     "name": "實驗袍",
+     "lv": 14
+    },
+    {
+     "id": "chef",
+     "name": "廚師服",
+     "s": 200
+    },
+    {
+     "id": "hero",
+     "name": "英雄裝",
+     "s": 350
     }
    ]
   },
@@ -828,6 +888,143 @@
      "id": "devil",
      "name": "小惡魔角",
      "s": 150
+    }
+   ]
+  },
+  {
+   "key": "deco",
+   "name": "小物",
+   "items": [
+    {
+     "id": "none",
+     "name": "無",
+     "lv": 1
+    },
+    {
+     "id": "mole",
+     "name": "美人痣",
+     "lv": 1
+    },
+    {
+     "id": "mask",
+     "name": "口罩",
+     "lv": 1
+    },
+    {
+     "id": "sweat",
+     "name": "汗滴",
+     "lv": 2
+    },
+    {
+     "id": "bowtie",
+     "name": "領結",
+     "lv": 3
+    },
+    {
+     "id": "necklace",
+     "name": "項鍊",
+     "lv": 5
+    },
+    {
+     "id": "earring",
+     "name": "耳環",
+     "lv": 7
+    },
+    {
+     "id": "scarf",
+     "name": "圍巾",
+     "lv": 9
+    },
+    {
+     "id": "sweatband",
+     "name": "運動頭帶",
+     "lv": 11
+    },
+    {
+     "id": "gum",
+     "name": "泡泡糖",
+     "s": 60
+    },
+    {
+     "id": "lollipop",
+     "name": "棒棒糖",
+     "s": 60
+    },
+    {
+     "id": "mustache",
+     "name": "八字鬍",
+     "s": 80
+    },
+    {
+     "id": "beard",
+     "name": "大鬍子",
+     "s": 120
+    },
+    {
+     "id": "headset",
+     "name": "直播耳麥",
+     "s": 150
+    },
+    {
+     "id": "sparkle",
+     "name": "閃亮亮",
+     "s": 200
+    }
+   ]
+  },
+  {
+   "key": "hold",
+   "name": "手持",
+   "items": [
+    {
+     "id": "none",
+     "name": "無",
+     "lv": 1
+    },
+    {
+     "id": "book",
+     "name": "英文書",
+     "lv": 1
+    },
+    {
+     "id": "basketball",
+     "name": "籃球",
+     "lv": 5
+    },
+    {
+     "id": "sign",
+     "name": "A+ 應援牌",
+     "lv": 10
+    },
+    {
+     "id": "balloon",
+     "name": "氣球",
+     "s": 60
+    },
+    {
+     "id": "icecream",
+     "name": "冰淇淋",
+     "s": 60
+    },
+    {
+     "id": "boba",
+     "name": "珍珠奶茶",
+     "s": 80
+    },
+    {
+     "id": "mic",
+     "name": "麥克風",
+     "s": 120
+    },
+    {
+     "id": "wand",
+     "name": "魔法棒",
+     "s": 250
+    },
+    {
+     "id": "trophy",
+     "name": "獎盃",
+     "s": 400
     }
    ]
   },
@@ -1105,7 +1302,9 @@
   "brow": "soft",
   "nose": "dot",
   "cheek": "blush",
-  "body": "normal"
+  "body": "normal",
+  "deco": "none",
+  "hold": "none"
  },
  "treasures": [
   {

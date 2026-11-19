@@ -49,6 +49,13 @@
     wavy: {back: 'M31 56 Q29 21 60 21 Q91 21 89 56 Q95 66 90 76 Q96 86 90 98 Q84 104 76 100 Q80 90 76 82 L77 60 L43 60 L44 82 Q40 90 44 100 Q36 104 30 98 Q24 86 30 76 Q25 66 31 56Z',
       front: 'M35 55 Q33 25 60 24 Q87 25 85 55 Q78 40 70 37 Q60 46 50 38 Q41 42 35 55Z'},
     mohawk: {front: 'M52 40 L50 14 Q60 8 70 14 L68 40 Q60 36 52 40Z M37 50 Q40 40 50 38 L52 40 Q44 42 37 50Z M83 50 Q80 40 70 38 L68 40 Q76 42 83 50Z'},
+    twintail: {back: 'M37 38 Q16 46 18 72 Q20 92 30 100 Q27 76 41 56Z M83 38 Q104 46 102 72 Q100 92 90 100 Q93 76 79 56Z',
+      front: 'M35 52 Q34 26 60 25 Q86 26 85 52 Q79 38 60 38 Q41 38 35 52Z', ties: [[37, 41], [83, 41]]},
+    braid: {back: 'M31 56 Q29 22 60 22 Q91 22 89 56 L86 62 L34 62Z M75 62 a6 6.5 0 1 0 12 0 a6 6.5 0 1 0 -12 0Z M77 73 a6 6.5 0 1 0 12 0 a6 6.5 0 1 0 -12 0Z M78 84 a5.5 6 0 1 0 11 0 a5.5 6 0 1 0 -11 0Z M79 95 a5 5.5 0 1 0 10 0 a5 5.5 0 1 0 -10 0Z',
+      front: 'M35 54 Q33 25 62 24 Q87 26 85 54 Q80 38 70 36 Q56 38 46 44 Q38 46 35 54Z', ties: [[84, 102]]},
+    messy: {front: 'M34 54 L36 36 L29 31 L42 30 L43 19 L52 28 L57 13 L64 26 L73 15 L74 28 L87 25 L82 36 L88 46 L84 54 Q78 40 66 40 L62 46 L56 40 Q42 40 34 54Z'},
+    undercut: {front: 'M37 49 Q34 30 50 23 Q67 15 84 25 Q91 34 85 47 Q78 34 65 34 Q51 35 44 42 Q40 44 37 49Z'},
+    afro: {back: 'M60 6 a37 35 0 1 0 0.1 0Z', front: 'M34 50 Q31 40 37 34 Q37 26 46 26 Q50 20 60 22 Q70 20 74 26 Q83 26 83 34 Q89 40 86 50 Q80 38 60 37 Q40 38 34 50Z'},
     none: {}
   };
 
@@ -133,6 +140,11 @@
       case 'champion': return neck + `<path d="${BODY}" fill="${c}"/><path d="M50 87 L60 122 L70 87Z" fill="#f4f4f2"/><path d="M44 87 L52 122 M76 87 L68 122" stroke="#f2c94c" stroke-width="3"/><path d="M30 104 l2.2 4.4 4.8.6 -3.5 3.3 .9 4.7 -4.4 -2.4 -4.4 2.4 .9 -4.7 -3.5 -3.3 4.8 -.6Z" fill="#f2c94c"/><path d="M18 122 Q20 100 30 94" stroke="#f2c94c" stroke-width="2.5" fill="none"/>`;
       case 'space': return neck + `<path d="${BODY}" fill="#eef1f4"/><path d="M42 84 Q60 94 78 84 L80 90 Q60 100 40 90Z" fill="#9aa4ae"/><rect x="66" y="100" width="18" height="11" rx="2" fill="#3b6fd1"/><circle cx="71" cy="105.5" r="1.6" fill="#f2c94c"/><circle cx="77" cy="105.5" r="1.6" fill="#e2445f"/><path d="M30 110 L44 110" stroke="#c8473a" stroke-width="3" stroke-linecap="round"/>`;
       case 'detective': return neck + `<path d="${BODY}" fill="#b98f5e"/><path d="M48 87 L58 104 L52 122 L44 122Z M72 87 L62 104 L68 122 L76 122Z" fill="#9c7647"/><path d="M50 87 L60 104 L70 87Z" fill="#f4f4f2"/><path d="M22 112 L98 112" stroke="#6b4f2e" stroke-width="4"/><rect x="56" y="109" width="8" height="6" rx="1" fill="none" stroke="#d9b45a" stroke-width="1.6"/>`;
+      case 'tank': return `<path d="${BODY}" fill="${skin}"/>` + neck + `<path d="M40 122 Q41 100 44 90 L50 87 Q60 99 70 87 L76 90 Q79 100 80 122Z" fill="${c}"/><path d="M36 100 Q39 110 40 122 M84 100 Q81 110 80 122" stroke="${shade(skin, -0.18)}" stroke-width="1.4" fill="none"/>`;
+      case 'lab': return neck + `<path d="${BODY}" fill="#f7f7f5"/><path d="M50 87 L60 110 L70 87Z" fill="${c}"/><path d="M48 87 L58 106 L52 122 L45 122Z M72 87 L62 106 L68 122 L75 122Z" fill="#e3e6e8"/><rect x="73" y="105" width="12" height="10" rx="1" fill="none" stroke="#cfd3d6" stroke-width="1.2"/><path d="M76 105 L76 98 M80 105 L80 99.5" stroke="#3b6fd1" stroke-width="2" stroke-linecap="round"/>`;
+      case 'chef': return neck + `<path d="${BODY}" fill="#fbfbfa"/><path d="M48 87 L60 98 L72 87" stroke="#e3e3df" stroke-width="2" fill="none"/>` + [[53, 100], [53, 110], [67, 100], [67, 110]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="1.8" fill="#b9bdc1"/>`).join('') + `<path d="M50 86 Q60 93 70 86 L69 91 Q60 97 51 91Z" fill="#c8473a"/>`;
+      case 'pajama': return neck + base + [[30, 104], [44, 112], [62, 108], [80, 102], [90, 114], [52, 99], [72, 118]].map(([x, y], i) => i % 2 ? `<circle cx="${x}" cy="${y}" r="1.8" fill="${l}"/>` : `<path d="M${x} ${y - 3} l1 2.2 2.4.3 -1.8 1.6.5 2.4 -2.1 -1.2 -2.1 1.2.5 -2.4 -1.8 -1.6 2.4 -.3Z" fill="${l}"/>`).join('') + `<path d="M48 87 L56 95 L60 89 L64 95 L72 87" stroke="${d}" stroke-width="2" fill="none"/>`;
+      case 'hero': return neck + base + `<path d="M50 87 Q60 95 70 87" stroke="${d}" stroke-width="3" fill="none"/><path d="M49 97 L71 97 L69 109 Q60 118 51 109Z" fill="#f2c94c" stroke="${d}" stroke-width="1"/><path d="M62 99 L55 107.5 L59.5 107.5 L56.5 115 L65 104.5 L60.5 104.5 L63.5 99Z" fill="${d}"/>`;
       default: return neck + base + `<path d="M50 87 Q60 96 70 87" stroke="${d}" stroke-width="3" fill="none"/>`;   // tee
     }
   }
@@ -161,6 +173,47 @@
       case 'devil': return '<path d="M41 34 Q35 22 41 12 Q43 24 51 29Z M79 34 Q85 22 79 12 Q77 24 69 29Z" fill="#d93b3b" stroke="#a82626" stroke-width="1"/>';
       default: return '';
     }
+  }
+
+  // ---------- 小物（layer：neck 脖子、face 臉上、top 最上層）
+  function deco(id, layer, o) {
+    const L = {necklace: 'neck', scarf: 'neck', bowtie: 'neck', sweat: 'top', sweatband: 'top', sparkle: 'top'}[id] || 'face';
+    if (L !== layer) return '';
+    switch (id) {
+      case 'necklace': return '<path d="M51 87 Q60 98 69 87" stroke="#e6c15a" stroke-width="1.6" fill="none"/><circle cx="60" cy="95.5" r="2.8" fill="#7fc8f2" stroke="#e6c15a" stroke-width="1"/>';
+      case 'scarf': return '<path d="M43 83 Q60 94 77 83 L79 92 Q60 103 41 92Z" fill="#c8473a"/><path d="M65 94 L70 113 L61 113 L59 96Z" fill="#a8382d"/><path d="M45 88 Q60 97 75 88" stroke="#fff" stroke-width="1.3" fill="none" opacity=".45"/>';
+      case 'bowtie': return '<path d="M60 90 L50.5 84.5 L50.5 95.5Z M60 90 L69.5 84.5 L69.5 95.5Z" fill="#c8473a"/><circle cx="60" cy="90" r="2.5" fill="#a8382d"/>';
+      case 'mole': return '<circle cx="70" cy="70" r="1.3" fill="#3a2a22"/>';
+      case 'mask': return '<path d="M45 59 Q60 56 75 59 L74 74 Q60 80 46 74Z" fill="#f4f6f8" stroke="#d5dadf" stroke-width="1"/><path d="M48 64 L72 64 M48 69 L72 69" stroke="#dde2e6" stroke-width="1"/><path d="M45 60 L37 56 M75 60 L83 56" stroke="#d5dadf" stroke-width="1.2"/>';
+      case 'mustache': return `<path d="M60 64.6 Q55 60.5 49.5 63.8 Q52.5 68 60 65.8 Q67.5 68 70.5 63.8 Q65 60.5 60 64.6Z" fill="${o.hair}"/>`;
+      case 'beard': return `<path d="M44 66 Q45 86 60 88 Q75 86 76 66 Q72 76 66 76 Q60 73 54 76 Q48 76 44 66Z" fill="${o.hair}"/>`;
+      case 'gum': return '<circle cx="64" cy="70" r="6.2" fill="#f7a6c8" stroke="#e57aa8" stroke-width=".8"/><ellipse cx="61.8" cy="67.8" rx="2" ry="1.2" fill="#fff" opacity=".7"/>';
+      case 'lollipop': return '<path d="M64 68 L78 76" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="82" cy="78" r="6.5" fill="#f29dc4" stroke="#e57aa8" stroke-width=".8"/><path d="M82 78 m-3 0 a3 3 0 1 1 3 3 a5 5 0 0 1 -4.6 -5" stroke="#fff" stroke-width="1.3" fill="none"/>';
+      case 'earring': return `<circle cx="${o.earL}" cy="63.5" r="2.2" fill="#f2c94c" stroke="#c9971a" stroke-width=".6"/><circle cx="${o.earR}" cy="63.5" r="2.2" fill="#f2c94c" stroke="#c9971a" stroke-width=".6"/>`;
+      case 'headset': return `<rect x="${o.earR - 3.5}" y="51" width="7" height="12" rx="3.5" fill="#2a2a2e"/><path d="M${o.earR - 1} 61 Q80 72 67 70" stroke="#2a2a2e" stroke-width="1.6" fill="none"/><circle cx="66.5" cy="70" r="2.1" fill="#2a2a2e"/>`;
+      case 'sweat': return '<path d="M83 38 Q78.5 46 83 49.5 Q87.5 46 83 38Z" fill="#9fd6f7" stroke="#4f9fd6" stroke-width=".8"/>';
+      case 'sweatband': return '<rect x="34" y="37" width="52" height="7.5" rx="3.5" fill="#e2445f"/><path d="M37 40.8 L83 40.8" stroke="#fff" stroke-width="1.3"/>';
+      case 'sparkle': return [[22, 30, 1], [98, 22, .8], [102, 60, .6], [18, 66, .55]].map(([x, y, k]) => `<path transform="translate(${x} ${y}) scale(${k})" d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2Z" fill="#f7d35c"/>`).join('');
+      default: return '';
+    }
+  }
+  // ---------- 手持（左下角）
+  function hold(id, skin) {
+    const hand = `<ellipse cx="33" cy="106" rx="5.5" ry="5" fill="${skin}" stroke="${shade(skin, -0.2)}" stroke-width=".8"/>`;
+    let x = '';
+    switch (id) {
+      case 'book': x = '<g transform="rotate(-12 30 98)"><rect x="18" y="83" width="24" height="31" rx="2" fill="#2f5fb3"/><rect x="20" y="85" width="20" height="27" rx="1" fill="#4f86e6"/><text x="30" y="102" font-size="8.5" font-weight="900" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif">ABC</text></g>'; break;
+      case 'boba': x = '<path d="M33 85 L37 70" stroke="#e2445f" stroke-width="3" stroke-linecap="round"/><path d="M20 84 L40 84 L37 116 L23 116Z" fill="#f5ead6" stroke="#c9a77a" stroke-width="1"/><path d="M21.6 97 L38.4 97 L37 116 L23 116Z" fill="#c8915a"/>' + [[25, 112], [29, 110], [33, 112], [27, 106], [31, 105], [35, 107]].map(([a, b]) => `<circle cx="${a}" cy="${b}" r="1.8" fill="#3a2418"/>`).join('') + '<path d="M19 84 L41 84" stroke="#c9a77a" stroke-width="2"/>'; break;
+      case 'icecream': x = '<path d="M23 96 L37 96 L30 116Z" fill="#e0a868"/><path d="M25 100 L35 100 M27 105 L33 105" stroke="#c48a4a" stroke-width="1"/><circle cx="26.5" cy="92" r="6" fill="#f7c6d9"/><circle cx="33.5" cy="91" r="6" fill="#fff3c4"/><circle cx="30" cy="85" r="5.6" fill="#8a5a3a"/><circle cx="30.5" cy="79.5" r="2" fill="#e2445f"/>'; break;
+      case 'balloon': x = '<path d="M33 104 Q27 92 25 72" stroke="#888" stroke-width="1" fill="none"/><ellipse cx="23" cy="61" rx="10" ry="12" fill="#e2445f"/><path d="M23 73 L21 76 L25 76Z" fill="#c43c52"/><ellipse cx="19.5" cy="56" rx="2.5" ry="4" fill="#fff" opacity=".45"/>'; break;
+      case 'basketball': x = '<circle cx="27" cy="98" r="11.5" fill="#e8742c"/><path d="M15.5 98 L38.5 98 M27 86.5 L27 109.5 M19 90 Q24 98 19 106 M35 90 Q30 98 35 106" stroke="#7a3410" stroke-width="1.2" fill="none"/>'; break;
+      case 'mic': x = '<rect x="29.5" y="92" width="6" height="22" rx="2" fill="#2a2a2e"/><circle cx="32.5" cy="87" r="7.5" fill="#9aa4ae"/><path d="M27 84 L38 84 M26 88 L39 88 M27.5 92 L37.5 92" stroke="#6f7880" stroke-width=".9"/>'; break;
+      case 'wand': x = '<path d="M33 110 L22 79" stroke="#4a3a2a" stroke-width="3" stroke-linecap="round"/><path d="M21 66 l2.6 5.3 5.8.8 -4.2 4 1 5.8 -5.2 -2.8 -5.2 2.8 1 -5.8 -4.2 -4 5.8 -.8Z" fill="#f7d35c" stroke="#d9a21a" stroke-width=".8"/><circle cx="34" cy="70" r="1.3" fill="#f7d35c"/><circle cx="12" cy="80" r="1" fill="#f7d35c"/>'; break;
+      case 'trophy': x = '<path d="M20 80 L40 80 Q40 97 30 99 Q20 97 20 80Z" fill="#f2c230" stroke="#c9971a" stroke-width=".8"/><path d="M20 84 Q13 84 14 90 Q16 94 21 93 M40 84 Q47 84 46 90 Q44 94 39 93" stroke="#f2c230" stroke-width="2.2" fill="none"/><rect x="28" y="99" width="4" height="6" fill="#d9a21a"/><rect x="22" y="105" width="16" height="6" rx="1" fill="#8a5a2a"/><path d="M30 84 l1.2 2.4 2.6.4 -1.9 1.8.5 2.6 -2.4 -1.3 -2.4 1.3.5 -2.6 -1.9 -1.8 2.6 -.4Z" fill="#fff6c9"/>'; break;
+      case 'sign': x = '<path d="M30 117 L30 96" stroke="#a07a4f" stroke-width="3"/><rect x="14" y="75" width="32" height="22" rx="3" fill="#fff" stroke="#e2445f" stroke-width="2"/><text x="30" y="91" font-size="12.5" font-weight="900" text-anchor="middle" fill="#e2445f" font-family="Arial,sans-serif">A+</text>'; break;
+      default: return '';
+    }
+    return x + hand;
   }
 
   // ---------- 寵物（在 0–100 的格子裡畫，之後縮小放在右下角）
@@ -223,15 +276,20 @@
     const hcSolid = GRAD[a.hc] ? GRAD[a.hc][0] : hc;
     const H = HAIR[a.hair] || {};
     // 身材：[身體寬度, 臉寬度, 雙下巴]
-    const BD = {slim: [0.8, 0.92, 0], lean: [0.9, 0.96, 0], normal: [1, 1, 0], sturdy: [1.12, 1.03, 0], chubby: [1.24, 1.08, 1], big: [1.38, 1.14, 1]}[a.body] || [1, 1, 0];
+    const BD = {slim: [0.8, 0.92, 0], lean: [0.9, 0.96, 0], normal: [1, 1, 0], athletic: [1.1, 0.99, 0], muscle: [1.3, 1.02, 0], sturdy: [1.12, 1.03, 0], chubby: [1.24, 1.08, 1], big: [1.38, 1.14, 1]}[a.body] || [1, 1, 0];
     const sx = f => f === 1 ? '' : ` transform="translate(60 0) scale(${f} 1) translate(-60 0)"`;
     const id = 'av' + (++uid);
     let g = GRAD[a.hc] ? `<defs><linearGradient id="${id}h" x1="0" y1="0" x2="1" y2="1">${GRAD[a.hc].map((c2, i, arr) => `<stop offset="${i / (arr.length - 1)}" stop-color="${c2}"/>`).join('')}</linearGradient></defs>` : '';
     g += bgSVG(a.bg, col('bg', a.bg, '#cfeee0'));
     g += `<clipPath id="${id}c"><circle cx="60" cy="60" r="60"/></clipPath><g clip-path="${opt.square ? '' : `url(#${id}c)`}">`;
     if (H.back) g += `<path d="${H.back}" fill="${hc}"${sx(BD[1])}/>`;
-    g += `<g${sx(BD[0])}>${top(a.top, tc, skin)}</g>`;
+    g += `<g${sx(BD[0])}>${top(a.top, tc, skin)}`;
+    if (a.body === 'muscle' || a.body === 'athletic') g += `<path d="M44 99 Q52 ${a.body === 'muscle' ? 106 : 103} 60 101 Q68 ${a.body === 'muscle' ? 106 : 103} 76 99" stroke="rgba(0,0,0,.2)" stroke-width="1.6" fill="none" stroke-linecap="round"/>`;
+    if (a.body === 'muscle') g += '<path d="M28 98 Q33 104 35 113 M92 98 Q87 104 85 113" stroke="rgba(0,0,0,.16)" stroke-width="1.6" fill="none" stroke-linecap="round"/>' + (a.top === 'tank' ? '<path d="M60 104 L60 120 M53 110 L58 110 M62 110 L67 110 M53 116 L58 116 M62 116 L67 116" stroke="rgba(0,0,0,.14)" stroke-width="1.3" stroke-linecap="round"/>' : '');
+    g += '</g>';
     const F = FACE[a.face] || FACE.round, ex = x => (60 + (x - 60) * BD[1]).toFixed(1);
+    const DO = {hair: shade(hcSolid, -0.05), earL: +ex(F.ear[0]), earR: +ex(F.ear[1])};
+    g += deco(a.deco, 'neck', DO);
     g += `<circle cx="${ex(F.ear[0])}" cy="57" r="5" fill="${skin}"/><circle cx="${ex(F.ear[1])}" cy="57" r="5" fill="${skin}"/>`;
     g += `<path d="${F.d}" fill="${skin}"${sx(BD[1])}/>`;
     if (BD[2]) g += `<path d="M51 ${a.body === 'big' ? 80 : 79.5} Q60 ${a.body === 'big' ? 85 : 83.5} 69 ${a.body === 'big' ? 80 : 79.5}" stroke="${shade(skin, -0.16)}" stroke-width="1.4" fill="none" stroke-linecap="round"/>`;
@@ -241,9 +299,13 @@
     g += EYES[a.eyes] || EYES.dot;
     g += nose(a.nose, skin);
     g += MOUTH[a.mouth] || MOUTH.smile;
+    g += deco(a.deco, 'face', DO);
     if (H.front) g += `<path d="${H.front}" fill="${hc}"${sx(BD[1])}/>`;
     if (H.tie) g += `<circle cx="84" cy="44" r="3" fill="#e65a7f"/>`;
+    if (H.ties) g += `<g${sx(BD[1])}>` + H.ties.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="3.2" fill="#e65a7f"/>`).join('') + '</g>';
     g += acc(a.acc, hc);
+    if (a.deco === 'sweatband') g += `<g${sx(BD[1])}>${deco(a.deco, 'top', DO)}</g>`; else g += deco(a.deco, 'top', DO);
+    g += hold(a.hold, skin);
     if (a.pet && a.pet !== 'none') g += `<g transform="translate(74 70) scale(.46)" class="avpet">${pet(a.pet)}</g>`;
     g += '</g>';
     const size = opt.size || 64;
