@@ -102,6 +102,13 @@ input[type=text]{flex:1;min-width:200px}
 .feedback .xp p{margin:2px 0}
 .feedback .xp .tip{font-weight:700}
 .wrong .z{font-size:.9rem;margin-top:2px}
+.tts{display:inline-flex;gap:6px;flex-wrap:wrap;margin:2px 0}
+.tts button{font:inherit;font-size:.8rem;font-weight:700;border:1px solid var(--line);background:var(--paper);border-radius:99px;padding:3px 10px;cursor:pointer}
+.tts button:hover{border-color:var(--chalk)}
+.tts button.on{background:#e6f6ec;border-color:var(--ok)}
+.jw-say{font-size:1rem;border:0;background:none;cursor:pointer;vertical-align:middle}
+#ttsBtn{font:inherit;border:1px solid var(--line);background:var(--paper);border-radius:99px;padding:2px 8px;cursor:pointer;font-size:.8rem}
+#ttsBtn[aria-pressed="true"]{background:#e6f6ec;border-color:var(--ok)}
 .feedback{margin-top:14px;padding:12px 14px;border-radius:10px;display:grid;gap:4px}
 .feedback.ok{background:var(--ok-bg);color:var(--ink);border-left:5px solid var(--ok)}
 .feedback.bad{background:var(--bad-bg);color:var(--ink);border-left:5px solid var(--bad)}
@@ -464,7 +471,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
   <div>
     <div class="qhead">
       <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span><span class="chip streak hidden" id="qStreak"></span><span class="chip quizchip hidden" id="qQuiz">📝 每日小考</span></div>
-      <div class="row"><span class="qav" id="qAv"></span><span class="hint" id="qProg"></span><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
+      <div class="row"><span class="qav" id="qAv"></span><span class="hint" id="qProg"></span><button id="ttsBtn" type="button" aria-pressed="false" title="作答後自動朗讀單字和句子">🗣️ 自動朗讀</button><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
     </div>
     <div class="bar"><span id="qBar"></span></div>
     <p class="ask" id="qAsk">＿＿＿ 處適合填入何者？</p>
@@ -674,6 +681,35 @@ function setMode(m){
 function gloss(q, i){ if (EXTRA.has(q.k)) return ''; const o = q.o[i]; return (q.k === 'verb' ? GL['v|' + q.w + '|' + o] : GL[o]) || ''; }
 const br = t => esc(t).replace(/\n/g, '<br>');
 // 句子：有畫線（一字多義／片語）就畫線，否則留空格
+// ===== 朗讀（瀏覽器內建語音，不用網路）=====
+const TTS = {
+  ok: 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window,
+  auto: false, voice: null,
+  pick(){ if (!this.ok) return null; const vs = speechSynthesis.getVoices().filter(v => /^en[-_]/i.test(v.lang));
+    this.voice = vs.find(v => /en[-_]US/i.test(v.lang) && /Google|Samantha|Microsoft (Aria|Jenny|Zira)/i.test(v.name)) || vs.find(v => /en[-_]US/i.test(v.lang)) || vs[0] || null; return this.voice; },
+  say(list, rate){
+    if (!this.ok) return; speechSynthesis.cancel();
+    (Array.isArray(list) ? list : [list]).filter(Boolean).forEach(t => {
+      const u = new SpeechSynthesisUtterance(String(t).replace(/_{2,}|＿+/g, ' blank ').replace(/\s+/g, ' ').trim());
+      u.lang = 'en-US'; u.rate = rate || 0.9; const v = this.voice || this.pick(); if (v) u.voice = v;
+      speechSynthesis.speak(u);
+    });
+  }
+};
+if (TTS.ok) { try { TTS.auto = localStorage.getItem('tts') === '1'; } catch (e) {} speechSynthesis.onvoiceschanged = () => TTS.pick(); }
+const sayWord = q => String(q.w || '').split(' (')[0].replace(/\(=.*?\)/g, '').trim();
+const saySent = q => q.k === 'jt' && q.j !== 's' ? '' : String((q.a || '') + (q.m != null ? q.m : q.o[q.c]) + (q.b || '')).replace(/\n/g, ' ');
+const sayBtn = (t, label) => t ? `<button type="button" data-say="${esc(t)}">🔊 ${label}</button>` : '';
+function ttsBar(q){
+  if (!TTS.ok) return '';
+  const w = sayWord(q), st = saySent(q);
+  return `<span class="tts">${sayBtn(w, '單字')}${sayBtn(st, '整句')}${sayBtn(st, '慢速', 1)}</span>`;
+}
+function ttsAuto(q){ if (TTS.auto) TTS.say([sayWord(q), saySent(q)]); }
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-say]'); if (!b) return;
+  e.preventDefault(); TTS.say(b.dataset.say, b.textContent.includes('慢速') ? 0.6 : 0.9);
+});
 function qHTML(q, fill){
   if (q.m != null) return br(q.a) + `<u class="hl">${esc(q.m)}</u>` + br(q.b);
   return br(q.a) + (fill == null ? '<span class="blank">&nbsp;</span>' : `<span class="blank">${esc(fill)}</span>`) + br(q.b);
@@ -777,8 +813,9 @@ function showJt(q){
   $('qKind').textContent = '寂天・' + ({e: '英翻中', c: '中翻英', s: '選擇題'})[q.j];
   $('qProg').textContent = progText(s);
   if (!s.surv) $('qBar').style.width = (s.i / s.items.length * 100) + '%';
-  $('qText').innerHTML = q.j === 's' ? qHTML(q) : (q.j === 'e' ? `<span class="jw">${esc(q.w)}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
+  $('qText').innerHTML = q.j === 's' ? qHTML(q) : (q.j === 'e' ? `<span class="jw">${esc(q.w)}${TTS.ok ? ` <button type="button" class="jw-say" data-say="${esc(sayWord(q))}" title="朗讀" aria-label="朗讀">🔊</button>` : ''}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
   $('qText').classList.toggle('zhopts', q.j === 'e');
+  if (q.j === 'e' && TTS.auto) TTS.say(sayWord(q));
   const box = $('qOpts'); box.innerHTML = '';
   s.order[s.i].forEach((oi, k) => {
     const b = document.createElement('button');
@@ -839,7 +876,7 @@ function answerCloze(oi){
   const nx = s.items[s.i + 1], last = !(nx && typeof nx === 'object' && nx.u === st.u && nx.p === st.p);
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-  fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(B.o[B.c])}</b>` +
+  fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(B.o[B.c])}</b>` + (TTS.ok ? `<span class="tts">${sayBtn(B.o[B.c], '答案')}</span>` : '') +
     (B.why ? `<span class="why">詳解：${esc(B.why)}</span>` : '') +
     (last && P.zh ? `<div class="trans"><b>全文翻譯</b><br>${esc(P.zh)}</div>` : '');
   $('qProg').textContent = progText(s);
@@ -863,7 +900,8 @@ function answer(oi){
   if (q.k === 'jt') {
     const fb = $('qFb');
     fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-    fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`;
+    fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + ttsBar(q) + (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`;
+    ttsAuto(q);
     $('qProg').textContent = progText(s);
     const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
     fxAnswer(ok);
@@ -871,7 +909,7 @@ function answer(oi){
   }
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-  fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` +
+  fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + ttsBar(q) +
     (q.z ? `<span class="zh">中文：${br(q.z)}</span>` : '') +
     (q.x ? xpHTML(q) : '') +
     (q.y ? `<span class="why">💡 ${esc(q.y)}</span>` : '') +
@@ -879,6 +917,7 @@ function answer(oi){
      : q.k === 'sense' || q.k === 'phrase' ? `<span class="hint">${esc(q.w)} 的意思：${sensesOf(q).map(esc).join('／')}</span>`
      : `<span class="hint">單字：${esc(q.w)}${q.k === 'verb' && GL['v|' + q.w] ? ' ' + esc(GL['v|' + q.w]) : ''}</span>`) +
     moreHTML(q);
+  ttsAuto(q);
   $('qProg').textContent = progText(s);
   const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
   fxAnswer(ok);
@@ -920,7 +959,7 @@ function finish(){
     if (q.k === 'jt') {
       li.innerHTML = (q.j === 's' ? `<div class="s">${br(q.a)}<b>${esc(q.o[q.c])}</b>${br(q.b)}</div><div class="z">${esc(q.z)}</div><div class="z"><b>${esc(q.w)}</b> ${esc(q.p)} ${esc(q.zh)}</div>`
         : `<div class="s"><b>${esc(q.w)}</b> ${esc(q.p)} ${esc(q.zh)}</div>`) + (q.nt ? `<div class="z">${esc(q.nt)}</div>` : '') +
-        `<div class="a">U${q.u}・你選 <s>${esc(q.o[w.pick])}</s>（${esc(q.oz[w.pick])}），正確是 <b>${esc(q.o[q.c])}</b></div>`;
+        `<div class="a">U${q.u}・你選 <s>${esc(q.o[w.pick] ?? '（超時）')}</s>${w.pick >= 0 ? '（' + esc(q.oz[w.pick]) + '）' : ''}，正確是 <b>${esc(q.o[q.c])}</b></div>` + ttsBar(q);
       ul.appendChild(li); return;
     }
     li.innerHTML = `<div class="s">${q.m != null ? qHTML(q) : br(q.a) + '<b>' + esc(q.o[q.c]) + '</b>' + br(q.b)}</div>` +
@@ -928,7 +967,7 @@ function finish(){
       (q.z ? `<div class="z">${br(q.z)}</div>` : '') +
       (q.x ? `<div class="z">${esc(q.x[0])}</div><div class="z">📌 ${esc(q.x[2])}</div>` : '') +
       (q.y ? `<div class="z">💡 ${esc(q.y)}</div>` : '') +
-      `<div class="a">${lab(q.d)}・你選 <s>${esc(q.o[w.pick])}</s>${gloss(q, w.pick) ? '（' + esc(gloss(q, w.pick)) + '）' : ''}，正確是 <b>${esc(q.o[q.c])}</b>${gloss(q, q.c) ? '（' + esc(gloss(q, q.c)) + '）' : ''}</div>`;
+      ttsBar(q) + `<div class="a">${lab(q.d)}・你選 <s>${esc(q.o[w.pick] ?? '（超時）')}</s>${gloss(q, w.pick) ? '（' + esc(gloss(q, w.pick)) + '）' : ''}，正確是 <b>${esc(q.o[q.c])}</b>${gloss(q, q.c) ? '（' + esc(gloss(q, q.c)) + '）' : ''}</div>`;
     ul.appendChild(li);
   });
   session.last = s.items;
@@ -967,6 +1006,10 @@ try { SND.on = localStorage.getItem('snd') === '1'; } catch (e) {}
 const sndBtn = $('sndBtn');
 function sndIcon(){ sndBtn.textContent = SND.on ? '🔊' : '🔇'; sndBtn.setAttribute('aria-pressed', SND.on); }
 sndIcon();
+const ttsBtn = $('ttsBtn');
+if (!TTS.ok) ttsBtn.classList.add('hidden');
+ttsBtn.setAttribute('aria-pressed', TTS.auto);
+ttsBtn.onclick = () => { TTS.auto = !TTS.auto; ttsBtn.setAttribute('aria-pressed', TTS.auto); try { localStorage.setItem('tts', TTS.auto ? '1' : '0'); } catch (e) {} if (TTS.auto) TTS.say('Auto reading is on.'); };
 sndBtn.onclick = () => { SND.on = !SND.on; sndIcon(); try { localStorage.setItem('snd', SND.on ? '1' : '0'); } catch (e) {} if (SND.on) { SND.init(); SND.tone(880, 0, .12); SND.tone(1318.5, .08, .18); } };
 function burst(el){
   if (RM() || !el) return;
