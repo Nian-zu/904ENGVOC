@@ -90,6 +90,42 @@
    ]
   },
   {
+   "key": "body",
+   "name": "身材",
+   "items": [
+    {
+     "id": "slim",
+     "name": "纖瘦",
+     "lv": 1
+    },
+    {
+     "id": "lean",
+     "name": "偏瘦",
+     "lv": 1
+    },
+    {
+     "id": "normal",
+     "name": "標準",
+     "lv": 1
+    },
+    {
+     "id": "sturdy",
+     "name": "壯壯",
+     "lv": 1
+    },
+    {
+     "id": "chubby",
+     "name": "圓潤",
+     "lv": 1
+    },
+    {
+     "id": "big",
+     "name": "大隻",
+     "lv": 1
+    }
+   ]
+  },
+  {
    "key": "hair",
    "name": "髮型",
    "items": [
@@ -969,7 +1005,8 @@
   "face": "round",
   "brow": "soft",
   "nose": "dot",
-  "cheek": "blush"
+  "cheek": "blush",
+  "body": "normal"
  },
  "treasures": [
   {
