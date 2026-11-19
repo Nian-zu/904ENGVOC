@@ -659,3 +659,31 @@ D76-25 李孝利在濟州島的民宿：https://en.wikipedia.org/wiki/Hyori%27s_
 D76-26 在蒙古長大的樂童音樂家：https://en.wikipedia.org/wiki/AKMU；https://www.wikipedia.org/wiki/Lee_Chan-hyuk
 D76-29 132 年前的漂流瓶：https://www.npr.org/sections/thetwo-way/2018/03/06/591177889/oldest-known-message-in-a-bottle-found-in-australia；https://www.anmm.gov.au/2018/03/07/message-in-a-bottle
 D76-30 真實版的魯賓遜：https://www.nationalgeographic.com/culture/article/robinson-crusoe-alexander-selkirk-history；https://en.wikipedia.org/wiki/Alexander_Selkirk
+D75-01 藍色幽靈號登陸月球：https://fireflyspace.com/news/firefly-aerospace-becomes-first-commercial-company-to-successfully-land-on-the-moon/；https://www.npr.org/2025/03/02/g-s1-51579/private-lunar-lander-blue-ghost-touches-down-on-the-moon；https://spacepolicyonline.com/news/fireflys-dazzling-images-of-earth-eclipsing-the-sun/
+D75-02 嫦娥六號帶回月球背面的土：https://english.www.gov.cn/news/202406/28/content_WS667e2277c6d0868f4e8e8a54.html；https://www.scmp.com/news/china/science/article/3268451/chinas-lunar-probe-brought-back-19kg-rock-samples-space-agency-says
+D75-03 地球多了一個「迷你月亮」：https://www.space.com/earth-will-capture-second-moon-sept-2024；https://aasnova.org/2024/12/17/selections-from-2024-earth-predicted-to-gain-and-lose-a-mini-moon/
+D75-04 差點撞上地球的小行星：https://blogs.nasa.gov/planetarydefense/2025/02；https://www.euronews.com/2025/02/26/asteroid-2024-yr4-is-no-longer-a-threat-to-earth-scientists-say；https://www.skyatnightmagazine.com/news/asteroid-2024-yr-wont-hit-our-moon
+D75-05 土星又多了 128 個衛星：https://news.ubc.ca/2025/03/saturn-128-new-moons/；https://www.nationalgeographic.com/science/article/saturn-new-moons-record
+D75-06 飛向木衛二的歐羅巴快船：https://www.planetary.org/space-missions/europa-clipper；https://www.collectspace.com/news/news-101424a-europa-clipper-nasa-spacex-launch-jupiter-icy-moon.html
+D75-07 世界地球日的年度主題：https://www.aap.com.au/aapreleases/cision20240905ae97396/；https://blog.gale.com/the-theme-of-earth-day-2024-is-planet-vs-plastics/
+D75-08 月球每年離我們遠一點：https://jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/；https://eclipse.gsfc.nasa.gov/help/ApolloLaser.html
+D75-09 看不見銀河的城市：https://astronomy.com/science/one-third-of-humanity-cant-see-the-milky-way；https://www.kunc.org/npr-news/2016-06-10/light-pollution-hides-milky-way-from-80-percent-of-north-americans-atlas-shows
+D75-10 地球離太陽最近的時候是冬天：https://aa.usno.navy.mil/faq/seasons_orbit；https://spaceplace.nasa.gov/seasons
+D75-11 太空站上其實有重力：https://spaceplace.nasa.gov/feature/space-station；https://www.nasa.gov/international-space-station/
+D75-12 冥王星為什麼不是行星了：https://www.nationalgeographic.com/news/2006/8/dwarf-planet-pluto-astronomy/；https://www.astronomy.com/science/is-pluto-a-planet/
+D75-13 從月球拍到的「地出」：https://www.space.com/earthrise-image-apollo-8-earth-day-50th-anniversary.html；https://www.history.com/articles/earthrise-photo-apollo-8-anders-1968
+D75-14 比水星還大的衛星：https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/；https://www.space.com/16440-ganymede-facts-about-jupiters-largest-moon.html
+D75-15 在月球上打高爾夫：https://www.space.com/space-exploration/apollo/what-brand-of-golf-ball-did-alan-shepard-hit-off-the-moon-the-world-may-never-know；https://www.mentalfloss.com/article/91928/day-1971-apollo-14-golfers-arrived-moon
+D75-16 用舊手機做的奧運獎牌：https://www.smithsonianmag.com/smart-news/tokyo-2020-olympic-medals-will-be-made-recycled-materials-180972726/；https://www.fiercesensors.com/electronics/crews-recycle-phones-to-craft-5-000-tokyo-olympics-medals
+D75-17 全世界最環保的足球隊：https://unfccc.int/news/football-club-leads-with-climate-neutral-pledge；https://inside.fifa.com/sustainability/news/the-village-club-earning-un-honours-and-global-acclaim
+D75-18 邊跑步邊撿垃圾：https://www.unep.org/news-and-stories/story/plogging-eco-friendly-workout-trend-thats-sweeping-globe；https://learningenglish.voanews.com/amp/new-exercise-trend-also-helps-environment/4691101.html
+D75-19 電動方程式賽車：https://www.greencarreports.com/news/1094432_first-formula-e-electric-car-race-held-sunday-in-beijing；https://api.fia.com/news/formula-e-makes-history-spectacular-first-eprix
+D75-20 塞納河終於可以游泳了：https://www.aljazeera.com/sports/2024/7/30/olympic-mens-triathlon-postponed-due-to-high-pollution-levels-in-seine；https://www.cbsnews.com/news/paris-france-seine-river-opens-swimming-century-long-ban
+D75-21 種樹的諾貝爾和平獎得主馬塔伊：https://nobelprize.org/laureate/783；https://www.britannica.com/biography/Wangari-Maathai
+D75-22 把塑膠袋變成錢包的伊薩圖：https://en.wikipedia.org/wiki/Isatou_Ceesay；https://www.thersa.org/rsa-journal/2023/issue-3/feature/from-one-plastic-bag-to-1100-trees
+D75-23 庫克：「我以身為同志為傲」：https://phys.org/news/2014-10-tim-cook-im-proud-gay.html；https://www.thedrum.com/news/2014/10/30/i-m-proud-be-gay-apple-ceo-tim-cook-goes-public-sexuality-effort-help-others
+D75-24 第一位非裔女太空人梅‧傑米森：https://www.womenshistory.org/education-resources/biographies/mae-jemison；https://www.skyatnightmagazine.com/space-missions/mae-jemison-biography/
+D75-25 BLACKPINK 為氣候發聲：https://www.soompi.com/article/1456566wpp/blackpink-appointed-official-advocates-for-un-climate-change-conference；https://www.gmanetwork.com/news/lifestyle/content/809381/blackpink-calls-for-collective-action-in-fighting-climate-change-at-un-cop26/story
+D75-26 Jin 的月亮和太空人：https://thefader.com/2022/10/28/bts-jin-the-astronaut-coldplay；https://www.soompi.com/article/1552049wpp/watch-btss-jin-performs-the-astronaut-with-coldplay-live-for-1st-time-at-their-buenos-aires-concert
+D75-27 太陽和月亮組成的 MAMAMOO+：https://en.wikipedia.org/wiki/Mamamoo%2B；https://en.wikipedia.org/wiki/Moonbyul
+D75-28 K-pop 粉絲一起救地球：https://en.wikipedia.org/wiki/Kpop4planet；https://www.technologyreview.com/2024/07/16/1094982/music-streaming-climate-kpop-fan/
