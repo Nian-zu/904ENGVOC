@@ -390,7 +390,30 @@ const BADGE_DEFS = [
   { id: 'cloze85', icon: '📖', name: '克漏字高手', desc: '克漏字作答 50 題以上，答對率 85% 以上' },
   { id: 'allkind', icon: '🎨', name: '全能選手', desc: '四種題型各作答 30 題以上' },
   { id: 'week', icon: '🏆', name: '週冠王', desc: '拿下一次完整一週的答對數冠軍' },
-  { id: 'month', icon: '👑', name: '月冠王', desc: '拿下一次完整一個月的答對數冠軍' }
+  { id: 'month', icon: '👑', name: '月冠王', desc: '拿下一次完整一個月的答對數冠軍' },
+  { id: 'streak60', icon: '🌠', name: '連續 60 天', desc: '連續 60 天交卷' },
+  { id: 'streak100', icon: '💯', name: '百日不斷', desc: '連續 100 天交卷' },
+  { id: 'days30', icon: '📅', name: '三十天勤學', desc: '累積 30 天有交卷（不用連續）' },
+  { id: 'days100', icon: '🗓️', name: '一百天勤學', desc: '累積 100 天有交卷（不用連續）' },
+  { id: 'q2000', icon: '🚀', name: '兩千題達人', desc: '累積作答 2000 題' },
+  { id: 'q5000', icon: '🌌', name: '五千題傳說', desc: '累積作答 5000 題' },
+  { id: 'full5', icon: '🎳', name: '滿分連發', desc: '5 次不同的測驗 10 題以上全對' },
+  { id: 'full20', icon: '🏹', name: '神射手', desc: '20 次不同的測驗 10 題以上全對' },
+  { id: 'acc90', icon: '🔍', name: '精準之眼', desc: '累積作答 300 題以上，總答對率 90% 以上' },
+  { id: 'marathon', icon: '🏃', name: '單字馬拉松', desc: '單次測驗作答 50 題以上' },
+  { id: 'day100', icon: '⚡', name: '爆發日', desc: '一天之內作答 100 題以上' },
+  { id: 'redo50', icon: '🔁', name: '錯題剋星', desc: '完成錯題重做 50 次' },
+  { id: 'first', icon: '🥇', name: '搶頭香', desc: '某一天全班第一個交卷' },
+  { id: 'first10', icon: '🐓', name: '頭香常客', desc: '10 天是全班第一個交卷' },
+  { id: 'weekend', icon: '🛋️', name: '週末也努力', desc: '8 個不同的週六、週日有交卷' },
+  { id: 'comeback', icon: '🔙', name: '王者回歸', desc: '休息 7 天以上之後又回來交卷' },
+  { id: 'word300', icon: '🔤', name: '單字王', desc: '單字題答對 300 題' },
+  { id: 'verb200', icon: '🔧', name: '動詞達人', desc: '動詞變化答對 200 題' },
+  { id: 'prep200', icon: '🧭', name: '介系詞達人', desc: '介系詞答對 200 題' },
+  { id: 'cloze200', icon: '📚', name: '閱讀小書蟲', desc: '克漏字答對 200 題' },
+  { id: 'sense100', icon: '🪞', name: '一字多義通', desc: '一字多義答對 100 題' },
+  { id: 'phrase100', icon: '🧩', name: '片語通', desc: '片語答對 100 題' },
+  { id: 'cap80', icon: '📝', name: '會考文法通', desc: '會考文法答對 80 題' }
 ];
 
 // 「作答明細」各題型統計（不含錯題重做）
@@ -457,17 +480,24 @@ function maxStreak_(daysObj) {
 
 function badges_() {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const sh = sheet_(), n = sh.getLastRow() - 1, per = {};
+  const sh = sheet_(), n = sh.getLastRow() - 1, per = {}, first = {};
   if (n > 0) {
     sh.getRange(2, 1, n, 9).getValues().forEach(function (r) { // A:I
       const seat = parseInt(r[2], 10);
       if (!seat || seat === 30) return;
-      const p = per[seat] = per[seat] || { days: {}, early: false, full: false, ans: 0, redoN: 0 };
+      const p = per[seat] = per[seat] || { days: {}, early: false, full: false, fullN: 0, ans: 0, right: 0, redoN: 0, dayAns: {}, big: false };
       const d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]).replace(/\//g, '-');
       p.days[d] = 1;
       const answered = Number(r[7]) || 0, right = Number(r[8]) || 0;
       if (String(r[4]).indexOf('錯題重做') >= 0) p.redoN++;
-      else { p.ans += answered; if (answered >= 10 && right === answered) p.full = true; }
+      else {
+        p.ans += answered; p.right += right;
+        if (answered >= 10 && right === answered) { p.full = true; p.fullN++; }
+        if (answered >= 50) p.big = true;
+        p.dayAns[d] = (p.dayAns[d] || 0) + answered;
+      }
+      const ts = r[0] instanceof Date ? r[0].getTime() : Date.parse(String(r[0]).replace(/\//g, '-').replace(' ', 'T'));
+      if (isFinite(ts) && (!first[d] || ts < first[d].ts)) first[d] = { ts: ts, seat: seat };
       let hh = -1;
       if (r[0] instanceof Date) hh = Number(Utilities.formatDate(r[0], tz, 'HH'));
       else { const m = String(r[0]).match(/(\d{1,2}):\d{2}/); if (m) hh = Number(m[1]); }
@@ -480,7 +510,8 @@ function badges_() {
   const imp = improveEver_(rows, today);
   const det = detailStats_();
   const KINDS4 = ['單字', '動詞變化', '介系詞', '克漏字'];
-  const out = {};
+  const out = {}, firstN = {};
+  Object.keys(first).forEach(function (d) { const k = first[d].seat; firstN[k] = (firstN[k] || 0) + 1; });
   Object.keys(per).forEach(function (seat) {
     const p = per[seat], ids = [];
     if (p.full) ids.push('full');
@@ -500,6 +531,31 @@ function badges_() {
     if (KINDS4.every(function (k) { return dk[k] && dk[k].ans >= 30; })) ids.push('allkind');
     if (wk[seat]) ids.push('week');
     if (mo[seat]) ids.push('month');
+    // 進階徽章
+    if (st >= 60) ids.push('streak60');
+    if (st >= 100) ids.push('streak100');
+    const dl = Object.keys(p.days).sort();
+    if (dl.length >= 30) ids.push('days30');
+    if (dl.length >= 100) ids.push('days100');
+    if (p.ans >= 2000) ids.push('q2000');
+    if (p.ans >= 5000) ids.push('q5000');
+    if (p.fullN >= 5) ids.push('full5');
+    if (p.fullN >= 20) ids.push('full20');
+    if (p.ans >= 300 && p.right / p.ans >= 0.9) ids.push('acc90');
+    if (p.big) ids.push('marathon');
+    if (Object.keys(p.dayAns).some(function (d) { return p.dayAns[d] >= 100; })) ids.push('day100');
+    if (p.redoN >= 50) ids.push('redo50');
+    const fN = firstN[seat] || 0;
+    if (fN >= 1) ids.push('first');
+    if (fN >= 10) ids.push('first10');
+    if (dl.filter(function (d) { const w = new Date(d + 'T12:00:00+08:00').getDay(); return w === 0 || w === 6; }).length >= 8) ids.push('weekend');
+    for (let i = 1; i < dl.length; i++) {
+      if ((new Date(dl[i] + 'T12:00:00+08:00') - new Date(dl[i - 1] + 'T12:00:00+08:00')) / 864e5 >= 8) { ids.push('comeback'); break; }
+    }
+    [['單字', 300, 'word300'], ['動詞變化', 200, 'verb200'], ['介系詞', 200, 'prep200'], ['克漏字', 200, 'cloze200'],
+     ['一字多義', 100, 'sense100'], ['片語', 100, 'phrase100'], ['會考文法', 80, 'cap80']].forEach(function (x) {
+      if (dk[x[0]] && dk[x[0]].right >= x[1]) ids.push(x[2]);
+    });
     if (ids.length) out[seat] = ids;
   });
   return { ok: true, defs: BADGE_DEFS, badges: out, today: today };
