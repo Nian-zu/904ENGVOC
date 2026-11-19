@@ -250,6 +250,22 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .board td .nmav{display:inline-flex;align-items:center;gap:6px;vertical-align:middle}
 .board td .nmav svg.avatar{width:28px;height:28px}
 .board .lvs{font-size:.72rem;font-weight:900;color:var(--muted);margin-left:2px}
+.mebtns{display:flex;flex-direction:column;gap:6px}
+.trcount{font-size:.8rem;color:var(--muted);margin-left:2px}
+.avgrid .gem{position:absolute;top:2px;right:4px;font-size:.8rem}
+.trgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
+.tr{display:flex;gap:8px;align-items:center;border:2px solid var(--line);border-radius:12px;padding:6px 8px;background:var(--paper);text-align:left;font:inherit;color:inherit;cursor:pointer}
+.tr.on{border-color:var(--chalk)}
+.tr:disabled{cursor:default}
+.tr:disabled svg{opacity:.3;filter:grayscale(1)}
+.tr b{display:block;font-size:.88rem}
+.tr small{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
+.chestbox{background:var(--card);color:var(--ink);border-radius:20px;padding:22px 24px 14px;width:min(360px,100%);text-align:center}
+.chestbox h3{margin:10px 0 4px}
+.chestbox p{margin:0;color:var(--muted)}
+.chestlid{display:grid;place-items:center;animation:chest .7s ease-out}
+.chestlid svg{border-radius:18px;box-shadow:0 0 0 4px var(--chalk),0 0 30px rgba(242,201,76,.7)}
+@keyframes chest{0%{transform:scale(.2) rotate(-20deg);opacity:0}60%{transform:scale(1.15) rotate(6deg);opacity:1}100%{transform:scale(1)}}
 .lvup{position:fixed;left:50%;top:18%;transform:translateX(-50%);z-index:95;background:var(--board);color:#fff;border-radius:16px;padding:14px 20px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.3);animation:pop .4s}
 .lvup b{color:var(--chalk);font-size:1.4rem;display:block}
 .pinbtn{padding:6px 14px;font-weight:900}
@@ -286,7 +302,7 @@ svg.avatar{border-radius:50%;display:block;flex:none}
       <div class="xpbar" aria-hidden="true"><span id="meXpBar"></span></div>
       <div class="xptxt" id="meXp"></div>
     </div>
-    <button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button>
+    <div class="mebtns"><button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button><button type="button" class="ghostbtn" id="meTr">🎁 寶物</button></div>
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
@@ -363,6 +379,11 @@ svg.avatar{border-radius:50%;display:block;flex:none}
     <div class="avgrid" id="avGrid"></div>
     <div class="avact"><span class="hint" id="avMsg"></span><button type="button" class="ghostbtn" id="avRand">🎲 隨機</button><button type="button" class="primary" id="avSave">儲存</button></div>
   </div>
+</div>
+
+<div class="avmodal hidden" id="chest" role="dialog" aria-modal="true" aria-label="打開寶箱">
+  <div class="chestbox"><div class="chestlid" id="chestPic"></div><h3 id="chestTitle">🎁 打開寶箱！</h3><p id="chestText"></p>
+  <div class="avact" style="justify-content:center;border:0"><button type="button" class="ghostbtn" id="chestOk">收下</button><button type="button" class="primary" id="chestWear">馬上戴上</button></div></div>
 </div>
 
 <section id="quiz" class="panel hidden" aria-live="polite">
@@ -1045,6 +1066,7 @@ async function loadProfile(after){
     ME = j;
     drawMe();
     if (after && old != null && j.lv > old) lvUp(j.lv);
+    setTimeout(checkChests, after ? 1600 : 300);
   } catch (e) {}
 }
 function drawMe(){
@@ -1054,7 +1076,7 @@ function drawMe(){
   $('qAv').innerHTML = AV.svg(ME.a, {size: 34});
   $('meName').textContent = TEACHERS[ME.seat] || $('sname').value || (ME.seat + ' 號');
   $('meLv').textContent = 'Lv.' + ME.lv;
-  $('meTitle').textContent = ME.title;
+  $('meTitle').innerHTML = esc(ME.title) + (AV.items && AV.items.treasures ? `<span class="trcount">・💎 寶物 ${trList().filter(t => (ME.tr || []).includes(t.t)).length}/${trList().length}</span>` : '');
   const span = ME.next == null ? 1 : ME.next - ME.cur, got = ME.next == null ? 1 : ME.xp - ME.cur;
   $('meXpBar').style.width = Math.max(3, Math.min(100, got / span * 100)) + '%';
   $('meXp').textContent = ME.next == null ? `經驗值 ${ME.xp}・已達最高等級！` : `經驗值 ${ME.xp}・再 ${ME.next - ME.xp} 點升到 Lv.${ME.lv + 1}（答對 1 題 +${ME.xpRule.right}、小考過關 +${ME.xpRule.quiz}、每練習一天 +${ME.xpRule.day}）`;
@@ -1068,12 +1090,43 @@ function lvUp(lv){
   if (typeof confetti === 'function') confetti();
   setTimeout(() => d.remove(), 3500);
 }
-function openAv(){
+const owned = it => !it.t ? it.lv <= ME.lv : (ME.tr || []).includes(it.t);
+const trList = () => (AV.items && AV.items.treasures) || [];
+function trThumb(t, size){ const c = Object.assign({}, AV.norm(ME && ME.a)); c[t.cat] = t.id; return t.cat === 'pet' ? AV.thumb(c, 'pet', t.id, size) : AV.svg(c, {size}); }
+// 新拿到的寶物：一個一個開寶箱
+let chestQ = [];
+function checkChests(){
   if (!ME || !AV.items) return;
-  AVSEL = AV.norm(ME.a);
-  $('avTabs').innerHTML = AV.items.cats.map(c => `<button type="button" role="tab" data-c="${c.key}" aria-selected="${c.key === AVCAT}">${esc(c.name)}</button>`).join('');
+  const key = 'seenTr-' + ME.seat, have = trList().filter(t => (ME.tr || []).includes(t.t));
+  let seen = null; try { seen = JSON.parse(localStorage.getItem(key) || 'null'); } catch (e) {}
+  if (!Array.isArray(seen)) seen = [];
+  const fresh = have.filter(t => !seen.includes(t.t + ':' + t.id));
+  try { localStorage.setItem(key, JSON.stringify(have.map(t => t.t + ':' + t.id))); } catch (e) {}
+  chestQ = chestQ.concat(fresh);
+  if (fresh.length && $('chest').classList.contains('hidden')) nextChest();
+}
+function nextChest(){
+  const t = chestQ.shift();
+  if (!t) { $('chest').classList.add('hidden'); return; }
+  $('chestPic').innerHTML = trThumb(t, 130);
+  $('chestPic').style.animation = 'none'; void $('chestPic').offsetWidth; $('chestPic').style.animation = '';
+  $('chestTitle').textContent = '🎁 打開寶箱！得到「' + t.name + '」';
+  $('chestText').textContent = '因為你達成了：' + t.how;
+  $('chestWear').onclick = async () => { AVSEL = AV.norm(ME.a); AVSEL[t.cat] = t.id; await saveAv(); nextChest(); };
+  $('chest').classList.remove('hidden');
+  try { SND.ok(8); } catch (e) {}
+  if (typeof confetti === 'function') confetti();
+}
+$('chestOk').onclick = nextChest;
+function openTr(){
+  if (!ME || !AV.items) return;
+  AVSEL = AV.norm(ME.a); AVCAT = '_tr'; openAv(true);
+}
+function openAv(keep){
+  if (!ME || !AV.items) return;
+  if (keep !== true) { AVSEL = AV.norm(ME.a); if (AVCAT === '_tr') AVCAT = 'hair'; }
+  $('avTabs').innerHTML = `<button type="button" role="tab" data-c="_tr" aria-selected="${AVCAT === '_tr'}">🎁 寶物</button>` + AV.items.cats.map(c => `<button type="button" role="tab" data-c="${c.key}" aria-selected="${c.key === AVCAT}">${esc(c.name)}</button>`).join('');
   $('avTabs').querySelectorAll('button').forEach(b => b.onclick = () => { AVCAT = b.dataset.c; openAvTab(); });
-  $('avLvTxt').textContent = `Lv.${ME.lv} ${ME.title}・等級越高，能選的越多`;
   $('avMsg').textContent = '';
   $('avModal').classList.remove('hidden');
   openAvTab();
@@ -1081,11 +1134,21 @@ function openAv(){
 function openAvTab(){
   $('avTabs').querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', b.dataset.c === AVCAT));
   $('avPrev').innerHTML = AV.svg(AVSEL, {size: 110});
+  $('avGrid').className = AVCAT === '_tr' ? 'trgrid' : 'avgrid';
+  if (AVCAT === '_tr') {
+    const T = trList(), n = T.filter(t => (ME.tr || []).includes(t.t)).length;
+    $('avLvTxt').textContent = `寶物 ${n}/${T.length}・達成條件就會自動開寶箱`;
+    $('avGrid').innerHTML = T.map(t => { const got = (ME.tr || []).includes(t.t), on = AVSEL[t.cat] === t.id;
+      return `<button type="button" class="tr${on ? ' on' : ''}" data-cat="${t.cat}" data-i="${t.id}" ${got ? '' : 'disabled'}>${trThumb(t, 46)}<span><b>${got ? '💎 ' : '🔒 '}${esc(t.name)}</b><small>${esc(t.how)}</small></span></button>`; }).join('');
+    $('avGrid').querySelectorAll('.tr:not(:disabled)').forEach(b => b.onclick = () => { AVSEL[b.dataset.cat] = AVSEL[b.dataset.cat] === b.dataset.i ? AV.items.default[b.dataset.cat] : b.dataset.i; openAvTab(); });
+    return;
+  }
+  $('avLvTxt').textContent = `Lv.${ME.lv} ${ME.title}・等級越高，能選的越多；💎 是寶物`;
   const cat = AV.items.cats.find(c => c.key === AVCAT);
-  $('avGrid').innerHTML = cat.items.map(it => {
-    const lock = it.lv > ME.lv;
-    const pic = it.c && cat.key !== 'skin' ? `<span class="sw" style="background:${it.c}"></span>` : AV.thumb(AVSEL, cat.key, it.id, 52);
-    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? 'Lv.' + it.lv + ' 解鎖' : esc(it.name)}">${pic}${lock ? `<span class="lock">🔒Lv.${it.lv}</span>` : ''}<span>${esc(it.name)}</span></button>`;
+  $('avGrid').innerHTML = cat.items.filter(it => !it.t || owned(it)).map(it => {
+    const lock = !owned(it);
+    const pic = it.c && cat.key !== 'skin' && !it.t ? `<span class="sw" style="background:${it.c}"></span>` : AV.thumb(AVSEL, cat.key, it.id, 52);
+    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? 'Lv.' + it.lv + ' 解鎖' : esc(it.name)}">${it.t ? '<span class="gem">💎</span>' : ''}${pic}${lock ? `<span class="lock">🔒Lv.${it.lv}</span>` : ''}<span>${esc(it.name)}</span></button>`;
   }).join('');
   $('avGrid').querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { AVSEL[AVCAT] = b.dataset.i; openAvTab(); });
 }
@@ -1093,11 +1156,10 @@ $('meEdit').onclick = openAv; $('meAv').onclick = openAv;
 $('avClose').onclick = () => $('avModal').classList.add('hidden');
 $('avModal').onclick = e => { if (e.target === $('avModal')) $('avModal').classList.add('hidden'); };
 $('avRand').onclick = () => {
-  AV.items.cats.forEach(c => { const ok = c.items.filter(it => it.lv <= ME.lv); AVSEL[c.key] = ok[Math.floor(Math.random() * ok.length)].id; });
+  AV.items.cats.forEach(c => { const ok = c.items.filter(owned); AVSEL[c.key] = ok[Math.floor(Math.random() * ok.length)].id; });
   openAvTab();
 };
-$('avSave').onclick = async () => {
-  $('avSave').disabled = true; $('avMsg').textContent = '儲存中…';
+async function saveAv(){
   try {
     const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'},
       body: JSON.stringify({type: 'avatar', seat: $('seat').value, pin: $('spin').value.trim(), avatar: AVSEL})});
@@ -1105,9 +1167,15 @@ $('avSave').onclick = async () => {
     if (!j.ok) throw new Error(j.error || '儲存失敗');
     ME.a = j.a; drawMe(); $('avModal').classList.add('hidden');
     if (boardData) { boardData.av = boardData.av || {}; boardData.av[ME.seat] = {lv: ME.lv, a: j.a}; drawBoard(); }
-  } catch (e) { $('avMsg').textContent = '⚠️ ' + e.message; }
-  finally { $('avSave').disabled = false; }
+    return true;
+  } catch (e) { $('avMsg').textContent = '⚠️ ' + e.message; return false; }
+}
+$('avSave').onclick = async () => {
+  $('avSave').disabled = true; $('avMsg').textContent = '儲存中…';
+  await saveAv();
+  $('avSave').disabled = false;
 };
+$('meTr').onclick = openTr;
 
 // 個人密碼：老師在試算表「名單」設定；輸入對了才能開始、上傳
 var PIN_OK = false;

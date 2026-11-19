@@ -218,6 +218,30 @@
      "name": "紫色",
      "lv": 24,
      "c": "#8a5cc8"
+    },
+    {
+     "id": "rainbow",
+     "name": "彩虹髮",
+     "lv": 1,
+     "t": "streak7",
+     "how": "連續 7 天交卷",
+     "c": "#e85d75"
+    },
+    {
+     "id": "gold",
+     "name": "閃亮金髮",
+     "lv": 1,
+     "t": "full",
+     "how": "單次測驗 10 題以上全對",
+     "c": "#f6c945"
+    },
+    {
+     "id": "ombre",
+     "name": "漸層髮",
+     "lv": 1,
+     "t": "sense50",
+     "how": "一字多義答對 50 題",
+     "c": "#6a5acd"
     }
    ]
   },
@@ -346,6 +370,13 @@
      "id": "heart",
      "name": "愛心眼",
      "lv": 12
+    },
+    {
+     "id": "galaxy",
+     "name": "銀河眼",
+     "lv": 1,
+     "t": "lv10",
+     "how": "升到 Lv.10"
     }
    ]
   },
@@ -459,6 +490,13 @@
      "id": "band",
      "name": "OK 繃",
      "lv": 4
+    },
+    {
+     "id": "whisker",
+     "name": "貓鬍鬚",
+     "lv": 1,
+     "t": "streak3",
+     "how": "連續 3 天交卷"
     }
    ]
   },
@@ -515,6 +553,27 @@
      "id": "cape",
      "name": "英雄披風",
      "lv": 28
+    },
+    {
+     "id": "champion",
+     "name": "冠軍外套",
+     "lv": 1,
+     "t": "week",
+     "how": "拿下一次週冠王"
+    },
+    {
+     "id": "space",
+     "name": "太空衣",
+     "lv": 1,
+     "t": "quiz10",
+     "how": "每日小考過關 10 次"
+    },
+    {
+     "id": "detective",
+     "name": "偵探風衣",
+     "lv": 1,
+     "t": "cap30",
+     "how": "會考文法答對 30 題"
     }
    ]
   },
@@ -637,6 +696,48 @@
      "id": "crown",
      "name": "皇冠",
      "lv": 30
+    },
+    {
+     "id": "halo",
+     "name": "天使光環",
+     "lv": 1,
+     "t": "streak30",
+     "how": "連續 30 天交卷"
+    },
+    {
+     "id": "gradcap",
+     "name": "學士帽",
+     "lv": 1,
+     "t": "q1000",
+     "how": "累積作答 1000 題"
+    },
+    {
+     "id": "laurel",
+     "name": "月桂冠",
+     "lv": 1,
+     "t": "month",
+     "how": "拿下一次月冠王"
+    },
+    {
+     "id": "pencil",
+     "name": "耳朵上的鉛筆",
+     "lv": 1,
+     "t": "quiz1",
+     "how": "第一次每日小考過關"
+    },
+    {
+     "id": "medal",
+     "name": "金牌",
+     "lv": 1,
+     "t": "quiz5",
+     "how": "每日小考過關 5 次"
+    },
+    {
+     "id": "bandana",
+     "name": "冒險頭巾",
+     "lv": 1,
+     "t": "phrase50",
+     "how": "片語答對 50 題"
     }
    ]
   },
@@ -693,6 +794,48 @@
      "id": "dragon",
      "name": "小龍",
      "lv": 30
+    },
+    {
+     "id": "phoenix",
+     "name": "火鳳凰",
+     "lv": 1,
+     "t": "streak14",
+     "how": "連續 14 天交卷"
+    },
+    {
+     "id": "whale",
+     "name": "小鯨魚",
+     "lv": 1,
+     "t": "q500",
+     "how": "累積作答 500 題"
+    },
+    {
+     "id": "penguin",
+     "name": "早起企鵝",
+     "lv": 1,
+     "t": "early",
+     "how": "早上 4 點到 7 點之間交卷"
+    },
+    {
+     "id": "turtle",
+     "name": "努力小烏龜",
+     "lv": 1,
+     "t": "redo10",
+     "how": "完成錯題重做 10 次"
+    },
+    {
+     "id": "fox",
+     "name": "聰明狐狸",
+     "lv": 1,
+     "t": "cloze85",
+     "how": "克漏字作答 50 題以上、答對率 85%"
+    },
+    {
+     "id": "unicorn",
+     "name": "獨角獸",
+     "lv": 1,
+     "t": "quizPerfect",
+     "how": "每日小考考滿分"
     }
    ]
   },
@@ -753,6 +896,46 @@
      "name": "金色",
      "lv": 26,
      "c": "#f2c94c"
+    },
+    {
+     "id": "library",
+     "name": "書香圖書館",
+     "lv": 1,
+     "t": "q100",
+     "how": "累積作答 100 題",
+     "c": "#e9d8b8"
+    },
+    {
+     "id": "stage",
+     "name": "聚光舞台",
+     "lv": 1,
+     "t": "improve",
+     "how": "某一週答對率比前一週高 10 分以上",
+     "c": "#2a1f3d"
+    },
+    {
+     "id": "rainbow",
+     "name": "彩虹背景",
+     "lv": 1,
+     "t": "allkind",
+     "how": "四種題型各作答 30 題以上",
+     "c": "#e85d75"
+    },
+    {
+     "id": "fireworks",
+     "name": "煙火",
+     "lv": 1,
+     "t": "quiz30",
+     "how": "每日小考過關 30 次",
+     "c": "#151b3a"
+    },
+    {
+     "id": "space",
+     "name": "外太空",
+     "lv": 1,
+     "t": "lv20",
+     "how": "升到 Lv.20",
+     "c": "#0b1030"
     }
    ]
   }
@@ -772,5 +955,182 @@
   "brow": "soft",
   "nose": "dot",
   "cheek": "blush"
- }
+ },
+ "treasures": [
+  {
+   "cat": "cheek",
+   "id": "whisker",
+   "name": "貓鬍鬚",
+   "t": "streak3",
+   "how": "連續 3 天交卷"
+  },
+  {
+   "cat": "hc",
+   "id": "rainbow",
+   "name": "彩虹髮",
+   "t": "streak7",
+   "how": "連續 7 天交卷"
+  },
+  {
+   "cat": "pet",
+   "id": "phoenix",
+   "name": "火鳳凰",
+   "t": "streak14",
+   "how": "連續 14 天交卷"
+  },
+  {
+   "cat": "acc",
+   "id": "halo",
+   "name": "天使光環",
+   "t": "streak30",
+   "how": "連續 30 天交卷"
+  },
+  {
+   "cat": "bg",
+   "id": "library",
+   "name": "書香圖書館",
+   "t": "q100",
+   "how": "累積作答 100 題"
+  },
+  {
+   "cat": "pet",
+   "id": "whale",
+   "name": "小鯨魚",
+   "t": "q500",
+   "how": "累積作答 500 題"
+  },
+  {
+   "cat": "acc",
+   "id": "gradcap",
+   "name": "學士帽",
+   "t": "q1000",
+   "how": "累積作答 1000 題"
+  },
+  {
+   "cat": "hc",
+   "id": "gold",
+   "name": "閃亮金髮",
+   "t": "full",
+   "how": "單次測驗 10 題以上全對"
+  },
+  {
+   "cat": "pet",
+   "id": "penguin",
+   "name": "早起企鵝",
+   "t": "early",
+   "how": "早上 4 點到 7 點之間交卷"
+  },
+  {
+   "cat": "pet",
+   "id": "turtle",
+   "name": "努力小烏龜",
+   "t": "redo10",
+   "how": "完成錯題重做 10 次"
+  },
+  {
+   "cat": "bg",
+   "id": "stage",
+   "name": "聚光舞台",
+   "t": "improve",
+   "how": "某一週答對率比前一週高 10 分以上"
+  },
+  {
+   "cat": "pet",
+   "id": "fox",
+   "name": "聰明狐狸",
+   "t": "cloze85",
+   "how": "克漏字作答 50 題以上、答對率 85%"
+  },
+  {
+   "cat": "bg",
+   "id": "rainbow",
+   "name": "彩虹背景",
+   "t": "allkind",
+   "how": "四種題型各作答 30 題以上"
+  },
+  {
+   "cat": "top",
+   "id": "champion",
+   "name": "冠軍外套",
+   "t": "week",
+   "how": "拿下一次週冠王"
+  },
+  {
+   "cat": "acc",
+   "id": "laurel",
+   "name": "月桂冠",
+   "t": "month",
+   "how": "拿下一次月冠王"
+  },
+  {
+   "cat": "acc",
+   "id": "pencil",
+   "name": "耳朵上的鉛筆",
+   "t": "quiz1",
+   "how": "第一次每日小考過關"
+  },
+  {
+   "cat": "acc",
+   "id": "medal",
+   "name": "金牌",
+   "t": "quiz5",
+   "how": "每日小考過關 5 次"
+  },
+  {
+   "cat": "top",
+   "id": "space",
+   "name": "太空衣",
+   "t": "quiz10",
+   "how": "每日小考過關 10 次"
+  },
+  {
+   "cat": "bg",
+   "id": "fireworks",
+   "name": "煙火",
+   "t": "quiz30",
+   "how": "每日小考過關 30 次"
+  },
+  {
+   "cat": "pet",
+   "id": "unicorn",
+   "name": "獨角獸",
+   "t": "quizPerfect",
+   "how": "每日小考考滿分"
+  },
+  {
+   "cat": "eyes",
+   "id": "galaxy",
+   "name": "銀河眼",
+   "t": "lv10",
+   "how": "升到 Lv.10"
+  },
+  {
+   "cat": "bg",
+   "id": "space",
+   "name": "外太空",
+   "t": "lv20",
+   "how": "升到 Lv.20"
+  },
+  {
+   "cat": "hc",
+   "id": "ombre",
+   "name": "漸層髮",
+   "t": "sense50",
+   "how": "一字多義答對 50 題"
+  },
+  {
+   "cat": "acc",
+   "id": "bandana",
+   "name": "冒險頭巾",
+   "t": "phrase50",
+   "how": "片語答對 50 題"
+  },
+  {
+   "cat": "top",
+   "id": "detective",
+   "name": "偵探風衣",
+   "t": "cap30",
+   "how": "會考文法答對 30 題"
+  }
+ ]
 }

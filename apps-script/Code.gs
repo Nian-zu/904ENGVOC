@@ -866,10 +866,18 @@ function profiles_() {
     o.right += r.right; o.days[r.d] = 1;
   });
   const tk = tasks_(PropertiesService.getScriptProperties().getProperty('TEACHER_KEY') || '');
+  const perfect = {};
   if (tk.ok) tk.tasks.forEach(function (t) {
     const res = tk.results[t.date] || {};
-    Object.keys(res).forEach(function (k) { if (res[k].passAt) { const o = out[k] || (out[k] = { right: 0, quiz: 0, days: {} }); o.quiz++; } });
+    Object.keys(res).forEach(function (k) {
+      if (res[k].passAt) { const o = out[k] || (out[k] = { right: 0, quiz: 0, days: {} }); o.quiz++; }
+      if (t.quiz && res[k].best >= 100 && res[k].attempts) perfect[k] = 1;
+    });
   });
+  // 寶物：徽章＋小考次數＋等級＋講義題答對數
+  let bd = {}, det = {};
+  try { bd = badges_().badges || {}; } catch (e) {}
+  try { det = detailStats_(); } catch (e) {}
   const sh = avSheet_(), av = {};
   if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 2).getValues().forEach(function (r) {
     const k = parseInt(r[0], 10); if (!k) return;
@@ -880,9 +888,15 @@ function profiles_() {
     k = parseInt(k, 10); if (!k || k === 30 || res[k]) return;
     const o = out[k] || { right: 0, quiz: 0, days: {} }, days = Object.keys(o.days).length;
     const xp = o.right * L.xp.right + o.quiz * L.xp.quiz + days * L.xp.day;
-    res[k] = { xp: xp, lv: avLevel_(xp, L.base), right: o.right, quiz: o.quiz, days: days, a: av[k] || null };
+    const lv = avLevel_(xp, L.base), tr = (bd[k] || []).slice(), dk = det[k] || {};
+    [[1, 'quiz1'], [5, 'quiz5'], [10, 'quiz10'], [30, 'quiz30']].forEach(function (x) { if (o.quiz >= x[0]) tr.push(x[1]); });
+    if (perfect[k]) tr.push('quizPerfect');
+    if (lv >= 10) tr.push('lv10');
+    if (lv >= 20) tr.push('lv20');
+    [['一字多義', 50, 'sense50'], ['片語', 50, 'phrase50'], ['會考文法', 30, 'cap30']].forEach(function (x) { if (dk[x[0]] && dk[x[0]].right >= x[1]) tr.push(x[2]); });
+    res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr };
   });
-  cache.put('prof_v1', JSON.stringify(res), 60);
+  cache.put('prof_v1', JSON.stringify(res), 90);
   return res;
 }
 function avMap_() {
@@ -897,14 +911,15 @@ function profile_(seat) {
   if (!p) return { ok: false, error: '找不到這個座號' };
   const L = avItems_().levels;
   return { ok: true, seat: s, xp: p.xp, lv: p.lv, title: avTitle_(p.lv, L.titles), cur: avNeed_(p.lv, L.base), next: p.lv >= 50 ? null : avNeed_(p.lv + 1, L.base),
-    right: p.right, quiz: p.quiz, days: p.days, a: p.a, xpRule: L.xp };
+    right: p.right, quiz: p.quiz, days: p.days, a: p.a, xpRule: L.xp, tr: p.tr || [] };
 }
 // 存造型：每個部件都要存在、而且等級夠才能用，否則換回預設
 function saveAvatar_(seat, a) {
   const items = avItems_(), p = profiles_()[seat] || { lv: 1 }, clean = {};
   items.cats.forEach(function (c) {
     const want = a && a[c.key], it = c.items.filter(function (x) { return x.id === want; })[0];
-    clean[c.key] = it && it.lv <= p.lv ? it.id : items.default[c.key];
+    const ok = it && (it.t ? (p.tr || []).indexOf(it.t) >= 0 : it.lv <= p.lv);
+    clean[c.key] = ok ? it.id : items.default[c.key];
   });
   const sh = avSheet_(), n = sh.getLastRow() - 1;
   const stamp = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd HH:mm');

@@ -63,6 +63,7 @@
     sleepy: '<path d="M47 56 Q51 60 55 56 M65 56 Q69 60 73 56" stroke="#2b2523" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M46.5 55 L55.5 55 M64.5 55 L73.5 55" stroke="#2b2523" stroke-width="1.4" stroke-linecap="round" opacity=".6"/>',
     round: '<circle cx="51" cy="56.5" r="2" fill="#2b2523"/><circle cx="69" cy="56.5" r="2" fill="#2b2523"/>',
     heart: '<path d="M51 60 L46.6 55.6 A2.6 2.6 0 0 1 51 52.6 A2.6 2.6 0 0 1 55.4 55.6Z M69 60 L64.6 55.6 A2.6 2.6 0 0 1 69 52.6 A2.6 2.6 0 0 1 73.4 55.6Z" fill="#e2445f"/>',
+    galaxy: '<circle cx="51" cy="56" r="4.6" fill="#3a2a7a"/><circle cx="69" cy="56" r="4.6" fill="#3a2a7a"/><circle cx="51" cy="56" r="2.6" fill="#7b5ce0"/><circle cx="69" cy="56" r="2.6" fill="#7b5ce0"/><circle cx="52.6" cy="54.2" r="1.3" fill="#fff"/><circle cx="70.6" cy="54.2" r="1.3" fill="#fff"/><circle cx="49.6" cy="57.6" r=".7" fill="#fff"/><circle cx="67.6" cy="57.6" r=".7" fill="#fff"/>',
     star: '<path d="M51 51 l1.6 3.4 3.6.4 -2.7 2.4 .8 3.6 -3.3 -1.9 -3.3 1.9 .8 -3.6 -2.7 -2.4 3.6 -.4Z M69 51 l1.6 3.4 3.6.4 -2.7 2.4 .8 3.6 -3.3 -1.9 -3.3 1.9 .8 -3.6 -2.7 -2.4 3.6 -.4Z" fill="#f2b705" stroke="#2b2523" stroke-width=".8"/>'
   };
   const MOUTH = {
@@ -101,6 +102,7 @@
   function cheek(id, skin) {
     switch (id) {
       case 'none': return '';
+      case 'whisker': return '<path d="M38 61 L47 62.5 M37.5 65 L47 64.8 M39 69 L47.5 67 M82 61 L73 62.5 M82.5 65 L73 64.8 M81 69 L72.5 67" stroke="#5a4636" stroke-width="1.1" stroke-linecap="round"/><ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".3"/><ellipse cx="75" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".3"/>';
       case 'freckle': return [[44, 62], [47, 64], [43, 65.5], [76, 62], [73, 64], [77, 65.5]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r=".95" fill="${shade(skin, -0.38)}"/>`).join('');
       case 'dimple': return `<path d="M51 65.5 Q52 67.5 51.2 69 M69 65.5 Q68 67.5 68.8 69" stroke="${shade(skin, -0.3)}" stroke-width="1.2" fill="none" stroke-linecap="round"/><ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".25"/><ellipse cx="75" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".25"/>`;
       case 'sticker': return '<path d="M76 59.5 l1.4 2.9 3.2.4 -2.4 2.2 .6 3.1 -2.8 -1.6 -2.8 1.6 .6 -3.1 -2.4 -2.2 3.2 -.4Z" fill="#f2c94c" stroke="#d9a21a" stroke-width=".6"/><ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".3"/>';
@@ -125,6 +127,9 @@
       case 'robe': return `<path d="M14 122 Q14 86 40 82 L80 82 Q106 86 106 122Z" fill="${c}"/>` + neck + `<path d="M44 84 L60 120 L76 84" stroke="#f2c94c" stroke-width="3" fill="none"/><path d="M30 108 l2 4 4 .5 -3 2.5 1 4 -4 -2 -4 2 1 -4 -3 -2.5 4 -.5Z M88 100 l1.6 3 3 .4 -2.3 2 .7 3 -3 -1.6 -3 1.6 .7 -3 -2.3 -2 3 -.4Z" fill="#f2c94c"/>`;
       case 'armor': return neck + `<path d="${BODY}" fill="#aeb4ba"/><path d="M24 104 Q60 96 96 104" stroke="#7d848b" stroke-width="2" fill="none"/><path d="M44 87 Q32 88 26 100 Q36 96 46 96Z M76 87 Q88 88 94 100 Q84 96 74 96Z" fill="#d4d8dc"/><path d="M60 92 L66 100 L60 114 L54 100Z" fill="${c}"/>`;
       case 'cape': return `<path d="M30 88 Q8 104 10 122 L110 122 Q112 104 90 88Z" fill="#c8473a"/>` + neck + base + `<path d="M60 96 l3.2 6.6 7.2.9 -5.3 4.9 1.4 7.1 -6.5 -3.6 -6.5 3.6 1.4 -7.1 -5.3 -4.9 7.2 -.9Z" fill="#f2c94c" stroke="${d}" stroke-width=".8"/>`;
+      case 'champion': return neck + `<path d="${BODY}" fill="${c}"/><path d="M50 87 L60 122 L70 87Z" fill="#f4f4f2"/><path d="M44 87 L52 122 M76 87 L68 122" stroke="#f2c94c" stroke-width="3"/><path d="M30 104 l2.2 4.4 4.8.6 -3.5 3.3 .9 4.7 -4.4 -2.4 -4.4 2.4 .9 -4.7 -3.5 -3.3 4.8 -.6Z" fill="#f2c94c"/><path d="M18 122 Q20 100 30 94" stroke="#f2c94c" stroke-width="2.5" fill="none"/>`;
+      case 'space': return neck + `<path d="${BODY}" fill="#eef1f4"/><path d="M42 84 Q60 94 78 84 L80 90 Q60 100 40 90Z" fill="#9aa4ae"/><rect x="66" y="100" width="18" height="11" rx="2" fill="#3b6fd1"/><circle cx="71" cy="105.5" r="1.6" fill="#f2c94c"/><circle cx="77" cy="105.5" r="1.6" fill="#e2445f"/><path d="M30 110 L44 110" stroke="#c8473a" stroke-width="3" stroke-linecap="round"/>`;
+      case 'detective': return neck + `<path d="${BODY}" fill="#b98f5e"/><path d="M48 87 L58 104 L52 122 L44 122Z M72 87 L62 104 L68 122 L76 122Z" fill="#9c7647"/><path d="M50 87 L60 104 L70 87Z" fill="#f4f4f2"/><path d="M22 112 L98 112" stroke="#6b4f2e" stroke-width="4"/><rect x="56" y="109" width="8" height="6" rx="1" fill="none" stroke="#d9b45a" stroke-width="1.6"/>`;
       default: return neck + base + `<path d="M50 87 Q60 96 70 87" stroke="${d}" stroke-width="3" fill="none"/>`;   // tee
     }
   }
@@ -141,6 +146,12 @@
       case 'beanie': return '<path d="M33 46 Q33 16 60 16 Q87 16 87 46Z" fill="#2a6b52"/><rect x="31" y="40" width="58" height="9" rx="4" fill="#1f5240"/><circle cx="60" cy="14" r="5" fill="#f1f1ee"/>';
       case 'wizard': return '<path d="M30 42 Q60 34 90 42 L66 0 Q62 -2 60 4Z" fill="#4a3a8c"/><path d="M26 42 Q60 32 94 42 Q60 50 26 42Z" fill="#372b6b"/><path d="M58 22 l1.6 3.2 3.4.4 -2.5 2.3.7 3.4 -3.2 -1.8 -3.2 1.8.7 -3.4 -2.5 -2.3 3.4 -.4Z" fill="#f2c94c"/>';
       case 'crown': return '<path d="M38 34 L42 14 L51 26 L60 10 L69 26 L78 14 L82 34Z" fill="#f2c94c" stroke="#b98a12" stroke-width="1.4"/><circle cx="60" cy="27" r="2.6" fill="#c8473a"/><circle cx="47" cy="29" r="2" fill="#3b6fd1"/><circle cx="73" cy="29" r="2" fill="#3fa66b"/>';
+      case 'halo': return '<ellipse cx="60" cy="14" rx="20" ry="5.5" fill="none" stroke="#f7d35c" stroke-width="3.5"/><ellipse cx="60" cy="14" rx="20" ry="5.5" fill="none" stroke="#fff6c9" stroke-width="1.2"/>';
+      case 'gradcap': return '<path d="M30 26 L60 14 L90 26 L60 38Z" fill="#23232b"/><path d="M42 31 L42 40 Q60 47 78 40 L78 31 L60 38Z" fill="#33333d"/><path d="M84 28 L86 44" stroke="#f2c94c" stroke-width="2"/><circle cx="86" cy="46" r="2.6" fill="#f2c94c"/>';
+      case 'laurel': return '<g fill="#5fae5a">' + [0, 1, 2, 3, 4].map(i => `<ellipse cx="${38 + i * 3}" cy="${40 - i * 5}" rx="5" ry="2.4" transform="rotate(${-50 + i * 12} ${38 + i * 3} ${40 - i * 5})"/><ellipse cx="${82 - i * 3}" cy="${40 - i * 5}" rx="5" ry="2.4" transform="rotate(${50 - i * 12} ${82 - i * 3} ${40 - i * 5})"/>`).join('') + '</g><circle cx="60" cy="19" r="2.6" fill="#f2c94c"/>';
+      case 'pencil': return '<g transform="rotate(-35 86 46)"><rect x="80" y="43" width="22" height="5" rx="1" fill="#f2c94c"/><path d="M102 43 L108 45.5 L102 48Z" fill="#f3d2a8"/><path d="M106 44.6 L108 45.5 L106 46.4Z" fill="#2b2523"/><rect x="77" y="43" width="4" height="5" fill="#e26d7d"/></g>';
+      case 'medal': return '<path d="M50 86 L56 100 M70 86 L64 100" stroke="#3b6fd1" stroke-width="4"/><circle cx="60" cy="104" r="7" fill="#f2c94c" stroke="#c9971a" stroke-width="1.5"/><path d="M60 100 l1.2 2.4 2.6.3 -1.9 1.8.5 2.6 -2.4 -1.3 -2.4 1.3.5 -2.6 -1.9 -1.8 2.6 -.3Z" fill="#fff6c9"/>';
+      case 'bandana': return '<path d="M35 44 Q36 26 60 25 Q84 26 85 44 Q60 36 35 44Z" fill="#c8473a"/><circle cx="48" cy="33" r="1.4" fill="#fff"/><circle cx="62" cy="30" r="1.4" fill="#fff"/><circle cx="74" cy="35" r="1.4" fill="#fff"/><path d="M84 40 Q94 42 98 50 Q90 48 86 46Z M84 42 Q92 50 92 58 Q86 52 84 46Z" fill="#a8382d"/>';
       default: return '';
     }
   }
@@ -158,6 +169,12 @@
       case 'panda': return `<circle cx="22" cy="28" r="12" fill="#2b2523"/><circle cx="78" cy="28" r="12" fill="#2b2523"/><circle cx="50" cy="56" r="34" fill="#fbfbfb" stroke="#ddd" stroke-width="1.5"/><ellipse cx="37" cy="52" rx="9" ry="11" fill="#2b2523" transform="rotate(-20 37 52)"/><ellipse cx="63" cy="52" rx="9" ry="11" fill="#2b2523" transform="rotate(20 63 52)"/><circle cx="38" cy="51" r="3" fill="#fff"/><circle cx="62" cy="51" r="3" fill="#fff"/><ellipse cx="50" cy="66" rx="5" ry="3.6" fill="#2b2523"/>`;
       case 'dino': return `<path d="M30 30 L36 16 L42 28 L48 12 L54 26 L62 12 L66 28 L72 18 L74 32Z" fill="#2f8f5b"/><ellipse cx="50" cy="58" rx="34" ry="32" fill="#56c08a"/><ellipse cx="50" cy="72" rx="22" ry="16" fill="#c8f0d8"/>${eye(38, 50)}${eye(62, 50)}<path d="M40 70 Q50 78 60 70" stroke="#2b2523" stroke-width="2" fill="none"/><circle cx="44" cy="64" r="1.6" fill="#2f8f5b"/><circle cx="56" cy="64" r="1.6" fill="#2f8f5b"/>`;
       case 'dragon': return `<path d="M10 54 Q0 30 20 22 Q18 40 30 46Z M90 54 Q100 30 80 22 Q82 40 70 46Z" fill="#f2c94c"/><path d="M34 26 L28 6 L42 22Z M66 26 L72 6 L58 22Z" fill="#f6e7b0"/><ellipse cx="50" cy="58" rx="33" ry="32" fill="#d94a3a"/><ellipse cx="50" cy="72" rx="20" ry="14" fill="#f5b38f"/>${eye(38, 50)}${eye(62, 50)}<circle cx="45" cy="68" r="2" fill="#7a2a20"/><circle cx="55" cy="68" r="2" fill="#7a2a20"/><path d="M40 80 Q50 84 60 80" stroke="#7a2a20" stroke-width="2" fill="none"/>`;
+      case 'phoenix': return `<path d="M50 90 Q30 96 18 80 Q34 84 42 76Z M50 90 Q70 96 82 80 Q66 84 58 76Z" fill="#f29d4c"/><path d="M14 52 Q2 30 20 18 Q22 40 34 46Z M86 52 Q98 30 80 18 Q78 40 66 46Z" fill="#f2c94c"/><ellipse cx="50" cy="56" rx="28" ry="30" fill="#e8553b"/><path d="M42 26 Q44 6 50 2 Q56 6 58 26Z" fill="#f2c94c"/>${eye(40, 52)}${eye(60, 52)}<path d="M45 62 L55 62 L50 70Z" fill="#f2c94c"/>`;
+      case 'whale': return `<path d="M84 52 Q98 40 96 30 Q90 40 82 44Z M84 56 Q98 66 96 76 Q90 66 82 62Z" fill="#3b78c4"/><ellipse cx="46" cy="58" rx="40" ry="30" fill="#4f93dd"/><path d="M10 62 Q46 92 84 62 Q46 78 10 62Z" fill="#cfe6fb"/>${eye(30, 52)}<path d="M40 20 Q40 10 34 6 M40 20 Q42 10 48 8" stroke="#7fb8e6" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="22" cy="62" r="3" fill="#f3b7c6" opacity=".6"/>`;
+      case 'penguin': return `<ellipse cx="50" cy="58" rx="32" ry="36" fill="#2b2f3a"/><ellipse cx="50" cy="64" rx="22" ry="28" fill="#fbfbfb"/>${eye(40, 46)}${eye(60, 46)}<path d="M44 54 L56 54 L50 61Z" fill="#f29d4c"/><path d="M34 94 L44 92 L40 98Z M66 94 L56 92 L60 98Z" fill="#f29d4c"/><circle cx="34" cy="58" r="4" fill="#f3b7c6" opacity=".6"/><circle cx="66" cy="58" r="4" fill="#f3b7c6" opacity=".6"/>`;
+      case 'turtle': return `<ellipse cx="86" cy="58" rx="12" ry="10" fill="#8fd18a"/>${eye(88, 55, 3)}<ellipse cx="28" cy="86" rx="9" ry="6" fill="#8fd18a"/><ellipse cx="72" cy="86" rx="9" ry="6" fill="#8fd18a"/><path d="M14 74 Q14 34 50 32 Q86 34 86 74Z" fill="#3f8f4f"/><path d="M50 36 L50 72 M30 46 L70 46 M24 62 L76 62" stroke="#2c6a39" stroke-width="2"/><path d="M10 74 L90 74" stroke="#2c6a39" stroke-width="4" stroke-linecap="round"/>`;
+      case 'fox': return `<path d="M18 44 L24 8 L46 32Z M82 44 L76 8 L54 32Z" fill="#e8742c"/><path d="M24 18 L28 36 L38 32Z M76 18 L72 36 L62 32Z" fill="#2b2523"/><path d="M14 46 Q16 84 50 92 Q84 84 86 46 Q70 30 50 30 Q30 30 14 46Z" fill="#e8742c"/><path d="M22 60 Q34 64 50 88 Q66 64 78 60 Q66 76 50 92 Q34 76 22 60Z" fill="#fbf1e4"/>${eye(38, 54)}${eye(62, 54)}<ellipse cx="50" cy="78" rx="4.5" ry="3.2" fill="#2b2523"/>`;
+      case 'unicorn': return `<path d="M44 26 L50 0 L56 26Z" fill="#f2c94c"/><path d="M46 18 L54 14 M45 23 L55 19" stroke="#e8a92c" stroke-width="1.4"/><path d="M26 34 L30 14 L42 28Z M74 34 L70 14 L58 28Z" fill="#fbfbfb" stroke="#e5dfe8" stroke-width="1.2"/><path d="M70 26 Q92 30 88 64 Q84 50 74 44Z" fill="#c39be8"/><path d="M68 32 Q86 44 80 72 Q76 56 70 48Z" fill="#f3a5c8"/><circle cx="50" cy="58" r="32" fill="#fbfbfb" stroke="#e5dfe8" stroke-width="1.5"/>${eye(39, 54)}${eye(61, 54)}<ellipse cx="50" cy="74" rx="14" ry="9" fill="#f6dce9"/><circle cx="45" cy="74" r="1.6" fill="#b07aa0"/><circle cx="55" cy="74" r="1.6" fill="#b07aa0"/>`;
       default: return '';
     }
   }
@@ -167,6 +184,11 @@
     if (id === 'night') s += [[18, 20], [96, 16], [104, 52], [14, 64], [30, 98], [100, 92], [80, 30]].map(([x, y], i) => `<circle cx="${x}" cy="${y}" r="${i % 2 ? 1.2 : 1.8}" fill="#fff" opacity=".85"/>`).join('');
     if (id === 'sunset') s = `<defs><linearGradient id="avsun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6a96b"/><stop offset="1" stop-color="#e4606d"/></linearGradient></defs><rect width="120" height="120" fill="url(#avsun)"/>`;
     if (id === 'gold') s += '<circle cx="60" cy="56" r="52" fill="#fff" opacity=".25"/>';
+    if (id === 'library') s += [0, 1, 2].map(r => `<rect x="0" y="${18 + r * 34}" width="120" height="3" fill="#a07a4f"/>` + [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(k => `<rect x="${4 + k * 12}" y="${21 + r * 34 - 22 + (k % 3) * 3}" width="8" height="${22 - (k % 3) * 3}" fill="${['#c8473a', '#3b6fd1', '#3fa66b', '#f2c94c', '#8a5cc8'][(k + r) % 5]}" opacity=".55"/>`).join('')).join('');
+    if (id === 'stage') s += '<path d="M60 -10 L20 120 L100 120Z" fill="#fff6c9" opacity=".22"/><path d="M0 0 Q14 40 6 120 L0 120Z M120 0 Q106 40 114 120 L120 120Z" fill="#9c2b3a"/>';
+    if (id === 'rainbow') s = `<rect width="120" height="120" fill="#eaf6ff"/>` + ['#e85d75', '#f29d4c', '#f2c94c', '#5fae5a', '#3b78c4', '#8a5cc8'].map((cc, i) => `<path d="M${-6 + i * 7} 120 A${66 - i * 7} ${66 - i * 7} 0 0 1 ${126 - i * 7} 120" fill="none" stroke="${cc}" stroke-width="7" opacity=".75"/>`).join('');
+    if (id === 'fireworks') s += [[24, 26, '#f2c94c'], [94, 22, '#e85d75'], [100, 74, '#7fb8e6'], [16, 80, '#5fae5a']].map(([x, y, cc]) => [0, 45, 90, 135, 180, 225, 270, 315].map(a => `<path d="M${x} ${y} L${(x + 11 * Math.cos(a * Math.PI / 180)).toFixed(1)} ${(y + 11 * Math.sin(a * Math.PI / 180)).toFixed(1)}" stroke="${cc}" stroke-width="2" stroke-linecap="round"/>`).join('')).join('');
+    if (id === 'space') s += '<circle cx="98" cy="24" r="12" fill="#f29d4c"/><ellipse cx="98" cy="24" rx="20" ry="4" fill="none" stroke="#f6c98b" stroke-width="2" transform="rotate(-20 98 24)"/><circle cx="18" cy="90" r="7" fill="#7fb8e6"/>' + [[30, 18], [70, 10], [10, 46], [108, 60], [52, 104], [100, 104]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="1.4" fill="#fff"/>`).join('');
     if (id === 'board') s += '<path d="M10 104 L40 104 M86 18 L108 18" stroke="#f2f0e6" stroke-width="1.6" opacity=".35" stroke-linecap="round"/>';
     return s;
   }
@@ -176,10 +198,15 @@
   AV.svg = function (cfg, opt) {
     opt = opt || {};
     const a = AV.norm(cfg || {});
-    const skin = col('skin', a.skin, '#f1c27d'), hc = col('hc', a.hc, '#2b2523'), tc = col('tc', a.tc, '#f1f1ee');
+    const skin = col('skin', a.skin, '#f1c27d'), tc = col('tc', a.tc, '#f1f1ee');
+    const id0 = 'av' + (uid + 1);
+    const GRAD = {rainbow: ['#e85d75', '#f2c94c', '#5fae5a', '#3b78c4'], ombre: ['#4a3a8c', '#e889b5'], gold: ['#fff0a8', '#e6b422']};
+    const hc = GRAD[a.hc] ? `url(#${id0}h)` : col('hc', a.hc, '#2b2523');
+    const hcSolid = GRAD[a.hc] ? GRAD[a.hc][0] : hc;
     const H = HAIR[a.hair] || {};
     const id = 'av' + (++uid);
-    let g = bgSVG(a.bg, col('bg', a.bg, '#cfeee0'));
+    let g = GRAD[a.hc] ? `<defs><linearGradient id="${id}h" x1="0" y1="0" x2="1" y2="1">${GRAD[a.hc].map((c2, i, arr) => `<stop offset="${i / (arr.length - 1)}" stop-color="${c2}"/>`).join('')}</linearGradient></defs>` : '';
+    g += bgSVG(a.bg, col('bg', a.bg, '#cfeee0'));
     g += `<clipPath id="${id}c"><circle cx="60" cy="60" r="60"/></clipPath><g clip-path="${opt.square ? '' : `url(#${id}c)`}">`;
     if (H.back) g += `<path d="${H.back}" fill="${hc}"/>`;
     g += top(a.top, tc, skin);
@@ -188,7 +215,7 @@
     g += `<path d="${F.d}" fill="${skin}"/>`;
     g += cheek(a.cheek, skin);
     const B = BROW[a.brow];
-    if (B) g += `<path d="${B[0]}" stroke="${shade(hc, -0.15)}" stroke-width="${B[1]}" fill="none" stroke-linecap="round"/>`;
+    if (B) g += `<path d="${B[0]}" stroke="${shade(hcSolid, -0.15)}" stroke-width="${B[1]}" fill="none" stroke-linecap="round"/>`;
     g += EYES[a.eyes] || EYES.dot;
     g += nose(a.nose, skin);
     g += MOUTH[a.mouth] || MOUTH.smile;
