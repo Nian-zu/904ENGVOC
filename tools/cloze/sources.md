@@ -715,3 +715,31 @@ D74-25 Lee Know 和三隻救援貓：https://www.koreatimes.co.kr/amp/southkorea
 D74-26 韓星怎麼幫寵物取名字：https://www.koreatimes.co.kr/lifestyle/trends/20250621/from-kuma-to-comme-des-how-k-pop-stars-name-their-pets；https://www.sportskeeda.com/pop-culture/5-k-pop-idols-adorable-pets
 D74-29 皮卡丘其實不是照著老鼠畫的：https://www.pokemon.com/uk/pokemon-news/creator-profile-the-creators-of-pikachu；https://soranews24.com/2018/05/03/shocking-news-star-pokemon-pikachus-design-isnt-based-on-a-mouse/
 D74-30 彼得兔來自一隻真的寵物兔：https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale；https://www.mentalfloss.com/literature/books/9-facts-about-peter-rabbit
+D73-01 2025 年是蛇年：https://www.timeanddate.com/news/calendar/lunar-new-year-2025；https://www.fox9.com/news/lunar-new-year-2025-year-snake
+D73-02 綠蠵龜不再是瀕危動物：https://news.mongabay.com/short-article/2025/10/green-turtle-rebounds-moving-from-endangered-to-least-concern/；https://divemagazine.com/scuba-diving-news/green-turtles-downgraded-to-least-concern-by-iucn-red-list
+D73-03 野生老虎變多了：https://panthera.org/newsroom/global-tiger-population-stable-and-potentially-increasing-despite-extreme-threats；https://news.mongabay.com/2022/07/tigers-may-avoid-extinction-but-we-must-aim-higher-commentary/
+D73-04 電影《獅子王：木法沙》：https://www.boxofficemojo.com/title/tt13186482；https://www.the-numbers.com/movies/franchise/Lion-King-The
+D73-05 194 歲的陸龜強納森：https://www.guinnessworldrecords.com/news/2026/4/jonathan-the-tortoise-is-not-dead-claims-oldest-land-animal-has-died-debunked；https://iflscience.com/at-age-194-jonathan-the-worlds-oldest-living-land-animal-has-officially-become-a-guinness-world-records-icon-83840
+D73-06 台灣的少用吸管規定：https://focustaiwan.tw/society/201905010007；https://www.taipeitimes.com/News/taiwan/archives/2019/06/28/2003717742
+D73-07 老虎連皮膚都有條紋：https://www.downtoearth.org.in/wildlife-biodiversity/why-do-tigers-have-stripes--74393；https://kiowacountypress.net/content/curious-kids-why-do-tigers-have-stripes
+D73-08 烏龜不能脫掉殼：https://www.scienceabc.com/nature/animals/can-a-turtle-live-without-its-shell.html；https://allturtles.com/turtle-anatomy/
+D73-09 蛇用舌頭聞味道：https://www.livescience.com/33325-snake-flick-tongue.html；https://worldatlas.com/articles/can-snakes-smell.html
+D73-10 沙子的溫度決定小海龜的性別：https://www.fisheries.noaa.gov/news/rising-temperatures-turning-major-sea-turtle-population-female；https://www.livescience.com/almost-all-florida-sea-turtles-female
+D73-11 獅子其實不住在叢林：https://kidadl.com/facts/do-lions-live-in-the-jungle-learn-about-the-jungle-king-s-habitat；https://kids.rangerrick.org/articles/lion-prides/
+D73-12 大象用耳朵吹冷氣：https://www.popsci.com/science/why-elephants-have-big-ears/；https://wonderopolis.org/wonder/Why-Do-Elephants-Have-Big-Ears
+D73-13 老虎伍茲名字的由來：https://www.history.com/this-day-in-history/april-13/tiger-woods-wins-first-major；https://thegolfnewsnet.com/ryan_ballengee/2024/07/18/what-is-tiger-woods-real-name-why-is-he-called-tiger-99553/
+D73-14 阪神虎隔 38 年再拿日本一：https://en.wikipedia.org/wiki/2023_Japan_Series；https://www.wbsc.org/en/news/hanshin-tigers-defeat-orix-buffaloes-in-seven-claim-2023-japan-series-title
+D73-15 運動家隊的白色大象：https://www.mlb.com/news/oakland-athletics-elephant-logo-origin；https://sabr.org/latest/radom-the-as-and-their-elephants-together-since-1902/
+D73-16 英格蘭隊的三頭獅子：https://en.wikipedia.org/wiki/Three_Lions_(song)；https://royalcentral.co.uk/uk/three-lions-on-a-shirt-meet-the-king-who-put-them-there-200922/
+D73-17 老虎對獅子的韓國大賽：https://en.wikipedia.org/wiki/2024_Korean_Series；https://www.koreatimes.co.kr/amp/sports/20241028/kia-tigers-win-korean-series-for-1st-time-in-7-years
+D73-18 台灣職棒元年的象、獅、虎、龍：https://cpblstats.com/today-in-cpbl-history-first-cpbl-game-17-march-1990/；https://en.wikipedia.org/wiki/Mercuries_Tigers；https://en.wikipedia.org/wiki/CTBC_Brothers
+D73-19 一群獅子叫做 pride：https://en.wikipedia.org/wiki/Taiwan_Pride；https://abcnews.go.com/International/wireStory/thousands-gather-colorful-celebration-taiwan-pride-parade-115174975
+D73-20 黑曼巴女子巡守隊：https://www.unep.org/news-and-stories/story/sweeping-bush-protecting-land-women-quashing-poaching；https://news.un.org/en/node/508302
+D73-21 大象孤兒的媽媽達芙妮：https://en.wikipedia.org/wiki/Daphne_Sheldrick；https://www.sheldrickwildlifetrust.org/about/mission-history
+D73-22 泰國的大象守護者 Lek：https://en.wikipedia.org/wiki/Sangduen_Chailert；https://intrepidtravel.com/adventures/the-elephant-whisperer-a-life-devoted-to-rescue-and-rehabilitation
+D73-23 Hoshi 和他的老虎：https://www.soompi.com/article/1538272wpp/listen-seventeens-hoshi-drops-collab-with-tiger-jk-on-global-tiger-day；https://www.allkpop.com/article/2022/07/seventeens-hoshi-and-tiger-jk-drop-a-new-song-together-on-international-tiger-day
+D73-24 SuperM 的〈Tiger Inside〉：https://en.wikipedia.org/wiki/Super_One_(album)；https://www.rollingstone.com/music/music-news/super-m-tiger-inside-video-1053860/
+D73-25 (G)I-DLE 的〈LION〉：https://en.wikipedia.org/wiki/Lion_((G)I-dle_song)；https://www.soompi.com/article/1363293wpp/watch-gi-dle-surprises-fans-by-dropping-regal-fierce-mv-teaser-for-lion
+D73-26 少女時代的〈Lion Heart〉：https://en.wikipedia.org/wiki/Lion_Heart_(album)；https://www.allkpop.com/article/2015/08/album-mv-review-girls-generation-lion-heart-5th-album-part-1
+D73-29 林旺爺爺的一生：https://en.wikipedia.org/wiki/Lin_Wang；https://www.taipeitimes.com/News/front/archives/2003/02/27/0000196067
+D73-30 蛇梯棋來自古印度：https://en.wikipedia.org/wiki/Snakes_and_ladders；https://bharatiyakhel.in/moksh-patam/
