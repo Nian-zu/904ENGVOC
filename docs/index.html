@@ -274,7 +274,7 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .mybox b b,.mybox div b{color:var(--chalk)}
 .mybox small{color:var(--muted)}
 tr.gap td{text-align:center;color:var(--muted);padding:0}
-@media (max-width:520px){#boardBody .opt{display:none}#boardBody .nmav span{white-space:nowrap}}
+@media (max-width:520px){#boardBody .tcol{display:none}#boardBody .nmav span{white-space:nowrap}}
 .chestbox{background:var(--card);color:var(--ink);border-radius:20px;padding:22px 24px 14px;width:min(360px,100%);text-align:center}
 .chestbox h3{margin:10px 0 4px}
 .chestbox p{margin:0;color:var(--muted)}
@@ -1351,7 +1351,7 @@ function drawBoard(){
   const nm = x => esc(TEACHERS[x.seat] || (x.given ?? givenName(x.name)));
   const pct = v => v == null ? '—' : v + '%';
   const cols = {
-    right: ['<th class="n">答對</th><th class="n">作答題數</th><th class="n">答對率</th><th class="n opt">測驗次數</th>', x => `<td class="n">${x.right}</td><td class="n">${x.answered ?? '—'}</td><td class="n">${pct(x.rate)}</td><td class="n opt">${x.tests}</td>`],
+    right: ['<th class="n">答對</th><th class="n">作答題數</th><th class="n">答對率</th><th class="n tcol">測驗次數</th>', x => `<td class="n">${x.right}</td><td class="n">${x.answered ?? '—'}</td><td class="n">${pct(x.rate)}</td><td class="n tcol">${x.tests}</td>`],
     rate: ['<th class="n">答對率</th><th class="n">作答題數</th>', x => `<td class="n">${pct(x.rate)}</td><td class="n">${x.fAns}</td>`],
     up: [`<th class="n">進步</th><th class="n">${PREV_ZH[boardPeriod] || '上期'}</th><th class="n">${PERIOD_ZH[boardPeriod]}</th>`, x => `<td class="n up">+${x.up}</td><td class="n">${pct(x.prevRate)}</td><td class="n">${pct(x.rate)}</td>`]
   }[boardSort];
