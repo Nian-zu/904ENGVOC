@@ -669,7 +669,7 @@ D75-07 世界地球日的年度主題：https://www.aap.com.au/aapreleases/cisio
 D75-08 月球每年離我們遠一點：https://jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/；https://eclipse.gsfc.nasa.gov/help/ApolloLaser.html
 D75-09 看不見銀河的城市：https://astronomy.com/science/one-third-of-humanity-cant-see-the-milky-way；https://www.kunc.org/npr-news/2016-06-10/light-pollution-hides-milky-way-from-80-percent-of-north-americans-atlas-shows
 D75-10 地球離太陽最近的時候是冬天：https://aa.usno.navy.mil/faq/seasons_orbit；https://spaceplace.nasa.gov/seasons
-D75-11 太空站上其實有重力：https://spaceplace.nasa.gov/feature/space-station；https://www.nasa.gov/international-space-station/
+D75-11 太空站上其實有重力：https://www.pressreader.com/uk/sky-at-night-magazine/20170518/283463551222999；https://www.scienceabc.com/nature/universe/if-there-is-no-gravity-in-space-why-dont-things-fly-off
 D75-12 冥王星為什麼不是行星了：https://www.nationalgeographic.com/news/2006/8/dwarf-planet-pluto-astronomy/；https://www.astronomy.com/science/is-pluto-a-planet/
 D75-13 從月球拍到的「地出」：https://www.space.com/earthrise-image-apollo-8-earth-day-50th-anniversary.html；https://www.history.com/articles/earthrise-photo-apollo-8-anders-1968
 D75-14 比水星還大的衛星：https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/；https://www.space.com/16440-ganymede-facts-about-jupiters-largest-moon.html
