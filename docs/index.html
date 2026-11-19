@@ -726,14 +726,19 @@ function survStart(){
   s.surv.end = Date.now() + SURV_SEC * 1000; s.surv.left = SURV_SEC;
   s.surv.timer = setInterval(survTick, 200); survTick();
 }
-function startSurv(){
-  const p = pool();
-  const items = shuffle(pickItems(p.all.filter(x => typeof x === 'number'), p.sentences));
-  if (items.length < 5) { alertMsg('範圍太小，至少要 5 題才能玩生存挑戰。'); return; }
-  const rt = rangeText();
+// 生存挑戰固定考寂天段考範圍（英翻中、中翻英、例句選擇題混合，同一個字只出一次）
+async function startSurv(){
+  alertMsg('載入寂天題庫中…');
+  try { await loadJt(); } catch (e) {}
+  if (!JT) { alertMsg('寂天題庫載入失敗，請重新整理頁面。'); return; }
+  alertMsg('');
+  const [a, b] = JT_EXAM, byG = {};
+  JT.idx.forEach(qi => { const q = DATA.bank[qi]; if (q.u >= a && q.u <= b) (byG[q.g] = byG[q.g] || []).push(qi); });
+  const items = shuffle(Object.values(byG).map(xs => xs[Math.floor(Math.random() * xs.length)]));
   start(items);
   session.surv = {lives: 3};
-  session.rangeText = ('生存挑戰｜' + rt).slice(0, 120);
+  session.kind = 'jt';
+  session.rangeText = '生存挑戰｜寂天 U' + a + '–U' + b;
   $('quiz').classList.add('survmode');
   show();
 }
@@ -1117,7 +1122,7 @@ function drawChallenge(before){
     `<div class="chline">🔥 連續交卷 <b>${j.streak}</b> 天・${j.doneToday ? `今天已領連續獎勵 +${j.streakCoin} 🪙` : `今天交卷可得 +${j.streakCoin} 🪙`}<small class="hint">（連續越多天越多，最多每天 +20）</small></div>` +
     `<div class="chline">🏫 全班本週目標：答對 <b>${w.total}</b> / ${w.goal} 題${w.total >= w.goal ? ' 🎉 達成！' : ''}<div class="qbar"><i style="width:${wp}%"></i></div>` +
     `<small class="hint">你本週作答 ${w.mine} 題${w.mine >= 50 ? '（✓ 有出力）' : '，作答 50 題才算有出力'}・達成時有出力的人各得 +50 🪙（目前 ${w.people} 人有出力）</small></div>` +
-    `<div class="survbox"><button type="button" class="survbtn" id="survBtn">💀 生存挑戰</button><small>用上面選的範圍，3 條命、每題 15 秒，看你能撐幾題！<br>個人最佳 <b>${j.survBest}</b> 題・本週最佳 ${j.survWeek} 題${top ? '<br>本週前三：' + top : ''}</small><span class="hint" id="chMsg"></span></div>`;
+    `<div class="survbox"><button type="button" class="survbtn" id="survBtn">💀 生存挑戰</button><small>寂天段考範圍 U${JT_EXAM[0]}–U${JT_EXAM[1]}，3 條命、每題 15 秒，看你能撐幾題！<br>個人最佳 <b>${j.survBest}</b> 題・本週最佳 ${j.survWeek} 題${top ? '<br>本週前三：' + top : ''}</small><span class="hint" id="chMsg"></span></div>`;
   $('chCard').classList.remove('hidden');
   $('survBtn').onclick = startSurv;
   if (before) {   // 剛交卷：新完成的挑戰給個慶祝

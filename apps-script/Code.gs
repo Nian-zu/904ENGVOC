@@ -599,7 +599,35 @@ const BADGE_DEFS = [
   { id: 'surv50', icon: '⚔️', name: '不倒戰士', desc: '生存挑戰撐到 50 題' },
   { id: 'surv100', icon: '🐲', name: '生存傳說', desc: '生存挑戰撐到 100 題' },
   { id: 'goal1', icon: '🤝', name: '團隊合作', desc: '全班達成一次週目標（那週自己作答 50 題以上）' },
-  { id: 'goal4', icon: '🏫', name: '班級支柱', desc: '全班達成 4 次週目標，每次都有出力' }
+  { id: 'goal4', icon: '🏫', name: '班級支柱', desc: '全班達成 4 次週目標，每次都有出力' },
+  // ---- 進階／長期目標 ----
+  { id: 'q10000', icon: '🌠', name: '萬題宗師', desc: '累積作答 10000 題' },
+  { id: 'streak150', icon: '🌋', name: '一百五十天不斷', desc: '連續 150 天交卷' },
+  { id: 'days150', icon: '📆', name: '一百五十天勤學', desc: '累積 150 天有交卷（不用連續）' },
+  { id: 'early20', icon: '🌄', name: '晨型人', desc: '20 個不同的早上（4–7 點）交卷' },
+  { id: 'week7', icon: '🗓️', name: '全勤週', desc: '某一週星期一到星期日每天都交卷' },
+  { id: 'speed', icon: '⚡', name: '閃電手', desc: '一次 20 題以上全對，平均每題 6 秒內' },
+  { id: 'full50', icon: '💎', name: '滿分機器', desc: '50 次不同的測驗 10 題以上全對' },
+  { id: 'first30', icon: '🦚', name: '頭香之王', desc: '30 天是全班第一個交卷' },
+  { id: 'cover50', icon: '🗺️', name: '探索者', desc: '練過單字書 50 個不同的天數（Day）' },
+  { id: 'cover100', icon: '🧭', name: '冒險家', desc: '練過單字書 100 個不同的天數' },
+  { id: 'cover183', icon: '🌏', name: '全書制霸', desc: '183 天的單字書每一天都練過' },
+  { id: 'jtcover25', icon: '📒', name: '寂天半本', desc: '練過寂天 25 個不同的單元' },
+  { id: 'jtcover50', icon: '📚', name: '寂天全制霸', desc: '寂天 50 個單元每一個都練過' },
+  { id: 'word1000', icon: '🔠', name: '單字大師', desc: '單字題答對 1000 題' },
+  { id: 'verb600', icon: '🛠️', name: '動詞大師', desc: '動詞變化答對 600 題' },
+  { id: 'prep600', icon: '🗝️', name: '介系詞大師', desc: '介系詞答對 600 題' },
+  { id: 'cloze500', icon: '📖', name: '閱讀大師', desc: '克漏字答對 500 題' },
+  { id: 'sense300', icon: '🔮', name: '一字多義大師', desc: '一字多義答對 300 題' },
+  { id: 'phrase300', icon: '🧠', name: '片語大師', desc: '片語答對 300 題' },
+  { id: 'cap200', icon: '🎓', name: '會考文法大師', desc: '會考文法答對 200 題' },
+  { id: 'jt1500', icon: '📕', name: '寂天大師', desc: '寂天答對 1500 題' },
+  { id: 'surv150', icon: '☄️', name: '生存之神', desc: '生存挑戰撐到 150 題' },
+  { id: 'quest60', icon: '🏅', name: '挑戰狂人', desc: '累積 60 天完成全部每日挑戰' },
+  { id: 'quest100', icon: '👑', name: '挑戰之王', desc: '累積 100 天完成全部每日挑戰' },
+  { id: 'goal10', icon: '🏟️', name: '班級英雄', desc: '全班達成 10 次週目標，每次都有出力' },
+  { id: 'shop5', icon: '🛍️', name: '購物達人', desc: '在商店買 5 件商品' },
+  { id: 'shop15', icon: '🧳', name: '收藏家', desc: '在商店買 15 件商品' }
 ];
 
 // 「作答明細」各題型統計（不含錯題重做）
@@ -666,10 +694,10 @@ function badges_() {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
   const sh = sheet_(), n = sh.getLastRow() - 1, per = {}, first = {};
   if (n > 0) {
-    sh.getRange(2, 1, n, 9).getValues().forEach(function (r) { // A:I
+    sh.getRange(2, 1, n, 11).getValues().forEach(function (r) { // A:K
       const seat = parseInt(r[2], 10);
       if (!seat || seat === 30) return;
-      const p = per[seat] = per[seat] || { days: {}, early: false, full: false, fullN: 0, ans: 0, right: 0, redoN: 0, dayAns: {}, big: false };
+      const p = per[seat] = per[seat] || { days: {}, early: false, earlyD: {}, full: false, fullN: 0, ans: 0, right: 0, redoN: 0, dayAns: {}, big: false, speed: false };
       const d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]).replace(/\//g, '-');
       p.days[d] = 1;
       const answered = Number(r[7]) || 0, right = Number(r[8]) || 0;
@@ -677,6 +705,7 @@ function badges_() {
       else {
         p.ans += answered; p.right += right;
         if (answered >= 10 && right === answered) { p.full = true; p.fullN++; }
+        if (answered >= 20 && right === answered && (Number(r[10]) || 999) > 0 && Number(r[10]) <= answered * 6) p.speed = true;
         if (answered >= 50) p.big = true;
         p.dayAns[d] = (p.dayAns[d] || 0) + answered;
       }
@@ -685,7 +714,7 @@ function badges_() {
       let hh = -1;
       if (r[0] instanceof Date) hh = Number(Utilities.formatDate(r[0], tz, 'HH'));
       else { const m = String(r[0]).match(/(\d{1,2}):\d{2}/); if (m) hh = Number(m[1]); }
-      if (hh >= 4 && hh < 7) p.early = true;
+      if (hh >= 4 && hh < 7) { p.early = true; p.earlyD[d] = 1; }
     });
   }
   const rows = readRows_(), cloze = readDetail_('克漏字').concat(readDetail_('寂天'));   // 週／月冠王不算克漏字和寂天
@@ -693,6 +722,22 @@ function badges_() {
   const mo = champsAll_(rows, cloze, today, function (d) { return d.slice(0, 7); });
   const imp = improveEver_(rows, today);
   const det = detailStats_();
+  // 練過哪些天數／單元（作答明細 D 欄：D183、U12）
+  const cover = {};
+  detailValues_().forEach(function (r) {
+    const seat = parseInt(r[1], 10); if (!seat || seat === 30) return;
+    const u = String(r[3]), c = cover[seat] = cover[seat] || { D: {}, U: {} };
+    if (/^D\d+$/.test(u)) c.D[u] = 1; else if (/^U\d+$/.test(u)) c.U[u] = 1;
+  });
+  // 商店買了幾件（造型分頁 D 欄）
+  const bought = {};
+  try {
+    const av = avSheet_();
+    if (av.getLastRow() > 1) av.getRange(2, 1, av.getLastRow() - 1, 4).getValues().forEach(function (r) {
+      const k = parseInt(r[0], 10); if (!k) return;
+      try { bought[k] = JSON.parse(String(r[3] || '[]')).length; } catch (e) {}
+    });
+  } catch (e) {}
   let dper = {};
   try { dper = dailyC_().per || {}; } catch (e) {}
   const KINDS4 = ['單字', '動詞變化', '介系詞', '克漏字'];
@@ -745,7 +790,30 @@ function badges_() {
     const dp = dper[seat] || {};
     [[1, 'quest1'], [7, 'quest7'], [30, 'quest30']].forEach(function (x) { if ((dp.clear || 0) >= x[0]) ids.push(x[1]); });
     [[20, 'surv20'], [50, 'surv50'], [100, 'surv100']].forEach(function (x) { if ((dp.survBest || 0) >= x[0]) ids.push(x[1]); });
-    [[1, 'goal1'], [4, 'goal4']].forEach(function (x) { if ((dp.goals || 0) >= x[0]) ids.push(x[1]); });
+    [[1, 'goal1'], [4, 'goal4'], [10, 'goal10']].forEach(function (x) { if ((dp.goals || 0) >= x[0]) ids.push(x[1]); });
+    // 進階徽章
+    if (p.ans >= 10000) ids.push('q10000');
+    if (st >= 150) ids.push('streak150');
+    if (dl.length >= 150) ids.push('days150');
+    if (Object.keys(p.earlyD).length >= 20) ids.push('early20');
+    if (dl.some(function (d) { if (new Date(d + 'T12:00:00+08:00').getDay() !== 1) return false; for (let i = 1; i < 7; i++) if (!p.days[shift_(d, i)]) return false; return true; })) ids.push('week7');
+    if (p.speed) ids.push('speed');
+    if (p.fullN >= 50) ids.push('full50');
+    if (fN >= 30) ids.push('first30');
+    const cv = cover[seat] || { D: {}, U: {} }, nD = Object.keys(cv.D).length, nU = Object.keys(cv.U).length;
+    if (nD >= 50) ids.push('cover50');
+    if (nD >= 100) ids.push('cover100');
+    if (nD >= 183) ids.push('cover183');
+    if (nU >= 25) ids.push('jtcover25');
+    if (nU >= 50) ids.push('jtcover50');
+    [['單字', 1000, 'word1000'], ['動詞變化', 600, 'verb600'], ['介系詞', 600, 'prep600'], ['克漏字', 500, 'cloze500'],
+     ['一字多義', 300, 'sense300'], ['片語', 300, 'phrase300'], ['會考文法', 200, 'cap200'], ['寂天', 1500, 'jt1500']].forEach(function (x) {
+      if (dk[x[0]] && dk[x[0]].right >= x[1]) ids.push(x[2]);
+    });
+    if ((dp.survBest || 0) >= 150) ids.push('surv150');
+    [[60, 'quest60'], [100, 'quest100']].forEach(function (x) { if ((dp.clear || 0) >= x[0]) ids.push(x[1]); });
+    if ((bought[seat] || 0) >= 5) ids.push('shop5');
+    if ((bought[seat] || 0) >= 15) ids.push('shop15');
     if (ids.length) out[seat] = ids;
   });
   return { ok: true, defs: BADGE_DEFS, badges: out, today: today };
