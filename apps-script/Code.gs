@@ -35,7 +35,7 @@ function doPost(e) {
     let key = loadKey_();
     // 新加的克漏字題號可能還不在快取裡：缺題號就重新抓一次答案檔
     if (answers.some(function (a) { return !key[parseInt(a[0], 10)]; })) key = loadKey_(true);
-    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法' };
+    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
     const range = String(body.range || '').slice(0, 120);
     const redo = range.indexOf('錯題重做') >= 0 ? 1 : 0;
     let right = 0;
@@ -51,7 +51,7 @@ function doPost(e) {
     const total = Math.max(answered, Math.min(300, parseInt(body.total, 10) || answered));
     const score = Math.round(right / answered * 100);
     const seconds = Math.max(0, Math.min(36000, parseInt(body.seconds, 10) || 0));
-    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法' };
+    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
 
     // 台灣時間
     const now = new Date();
@@ -78,7 +78,7 @@ function doPost(e) {
       const day = "'" + p[0] + '-' + ('0' + p[1]).slice(-2) + '-' + ('0' + p[2]).slice(-2);
       const stamp = "'" + day.slice(1) + ' ' + ('0' + p[3]).slice(-2) + ':' + ('0' + p[4]).slice(-2) + ':' + ('0' + p[5]).slice(-2);
       const rows = detail.map(function (x) {
-        return [day, seat, "'" + name, 'D' + (183 - x[1][2]), x[0], "'" + x[1][1], x[4], x[2] ? 1 : 0, "'" + x[3], redo, stamp];
+        return [day, seat, "'" + name, typeof x[1][2] === 'string' ? x[1][2] : 'D' + (183 - x[1][2]), x[0], "'" + x[1][1], x[4], x[2] ? 1 : 0, "'" + x[3], redo, stamp];
       });
       if (rows.length) {
         const dt = detailSheet_();
@@ -125,14 +125,19 @@ function doGet(e) {
   if (period === 'month') { from = today.slice(0, 8) + '01'; prevTo = shift_(from, -1); prevFrom = prevTo.slice(0, 8) + '01'; }
 
   // type=word|verb|prep|cloze：只算這種題型（用「作答明細」逐題資料）；不給就是全部題型（用「成績」）
-  const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法' };
+  const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
   const type = TYPE_ZH[p.type] ? p.type : 'all';
   const allRows = readRows_();
   const rows = type === 'all' ? allRows : readDetail_(TYPE_ZH[type]);
   const clozeRows = readDetail_('克漏字');
   const cur = agg_(rows, from, today), prv = prevFrom ? agg_(rows, prevFrom, prevTo) : {};
   // 「全部」排行不算克漏字：從每人的題數扣掉同期間克漏字的題數
-  if (type === 'all') { minus_(cur, agg_(clozeRows, from, today)); if (prevFrom) minus_(prv, agg_(clozeRows, prevFrom, prevTo)); }
+  // 「全部」也不算寂天（寂天有自己的排行）
+  if (type === 'all') {
+    const jtRows = readDetail_('寂天');
+    [clozeRows, jtRows].forEach(function (xs) { minus_(cur, agg_(xs, from, today)); if (prevFrom) minus_(prv, agg_(xs, prevFrom, prevTo)); });
+    Object.keys(cur).forEach(function (k) { if (cur[k].answered <= 0) delete cur[k]; });
+  }
   const list = Object.keys(cur).map(function (k) { return cur[k]; });
   const rateOf = function (s) { return s.fAns ? Math.round(s.fRight / s.fAns * 100) : null; };
   const entry = function (s) {
@@ -168,7 +173,7 @@ function doGet(e) {
   }
   return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards, me: me,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows), av: avMap_() });
+    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows.concat(readDetail_('寂天'))), av: avMap_() });
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -207,11 +212,17 @@ function readRows_() {
 }
 
 // 「作答明細」某一題型的逐題資料，依每次交卷合併成一列（格式同 readRows_）
+let DETAIL_VALUES_ = null;   // 同一次執行內只讀一次「作答明細」
+function detailValues_() {
+  if (DETAIL_VALUES_) return DETAIL_VALUES_;
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
+  DETAIL_VALUES_ = !sh || sh.getLastRow() < 2 ? [] : sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues();
+  return DETAIL_VALUES_;
+}
 function readDetail_(kindZh) {
-  const tz = 'Asia/Taipei', sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
+  const tz = 'Asia/Taipei';
   const out = [], by = {};
-  if (!sh || sh.getLastRow() < 2) return out;
-  sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues().forEach(function (r) { // A:K
+  detailValues_().forEach(function (r) { // A:K
     const seat = parseInt(r[1], 10);
     if (!seat || seat === 30 || String(r[6]) !== kindZh) return;
     const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).slice(0, 10);
@@ -368,6 +379,7 @@ function loadKeyMain_(fresh) {
 
 // 講義題（一字多義／片語／會考文法）的答案另放 answer-key-extra.json（題號 40000 起），不跟克漏字的答案檔互相干擾
 const KEY_EXTRA_URL = 'https://nian-zu.github.io/904ENGVOC/answer-key-extra.json';
+const KEY_JT_URL = 'https://nian-zu.github.io/904ENGVOC/answer-key-jt.json';
 function loadKey_(fresh) {
   const key = loadKeyMain_(fresh);
   const cache = CacheService.getScriptCache();
@@ -377,6 +389,13 @@ function loadKey_(fresh) {
   }
   const ex = JSON.parse(text);
   Object.keys(ex).forEach(function (id) { key[parseInt(id, 10)] = ex[id]; });
+  // 寂天 Reading Success 3（題號 50000 起）
+  let jt = fresh ? null : cache.get('key_jt');
+  if (!jt) {
+    try { jt = UrlFetchApp.fetch(KEY_JT_URL).getContentText(); cache.put('key_jt', jt, 21600); } catch (e) { jt = '{}'; }
+  }
+  const jx = JSON.parse(jt);
+  Object.keys(jx).forEach(function (id) { key[parseInt(id, 10)] = jx[id]; });
   return key;
 }
 
@@ -423,15 +442,15 @@ const BADGE_DEFS = [
   { id: 'cloze200', icon: '📚', name: '閱讀小書蟲', desc: '克漏字答對 200 題' },
   { id: 'sense100', icon: '🪞', name: '一字多義通', desc: '一字多義答對 100 題' },
   { id: 'phrase100', icon: '🧩', name: '片語通', desc: '片語答對 100 題' },
-  { id: 'cap80', icon: '📝', name: '會考文法通', desc: '會考文法答對 80 題' }
+  { id: 'cap80', icon: '📝', name: '會考文法通', desc: '會考文法答對 80 題' },
+  { id: 'jt100', icon: '📘', name: '寂天新手', desc: '寂天 Reading Success 3 答對 100 題' },
+  { id: 'jt500', icon: '📗', name: '寂天達人', desc: '寂天 Reading Success 3 答對 500 題' }
 ];
 
 // 「作答明細」各題型統計（不含錯題重做）
 function detailStats_() {
-  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
   const out = {};
-  if (!sh || sh.getLastRow() < 2) return out;
-  sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues().forEach(function (r) {
+  detailValues_().forEach(function (r) {
     const seat = parseInt(r[1], 10);
     if (!seat || seat === 30 || Number(r[9]) === 1) return;
     const s = out[seat] = out[seat] || {};
@@ -514,7 +533,7 @@ function badges_() {
       if (hh >= 4 && hh < 7) p.early = true;
     });
   }
-  const rows = readRows_(), cloze = readDetail_('克漏字');
+  const rows = readRows_(), cloze = readDetail_('克漏字').concat(readDetail_('寂天'));   // 週／月冠王不算克漏字和寂天
   const wk = champsAll_(rows, cloze, today, weekStart_);
   const mo = champsAll_(rows, cloze, today, function (d) { return d.slice(0, 7); });
   const imp = improveEver_(rows, today);
@@ -563,7 +582,7 @@ function badges_() {
       if ((new Date(dl[i] + 'T12:00:00+08:00') - new Date(dl[i - 1] + 'T12:00:00+08:00')) / 864e5 >= 8) { ids.push('comeback'); break; }
     }
     [['單字', 300, 'word300'], ['動詞變化', 200, 'verb200'], ['介系詞', 200, 'prep200'], ['克漏字', 200, 'cloze200'],
-     ['一字多義', 100, 'sense100'], ['片語', 100, 'phrase100'], ['會考文法', 80, 'cap80']].forEach(function (x) {
+     ['一字多義', 100, 'sense100'], ['片語', 100, 'phrase100'], ['會考文法', 80, 'cap80'], ['寂天', 100, 'jt100'], ['寂天', 500, 'jt500']].forEach(function (x) {
       if (dk[x[0]] && dk[x[0]].right >= x[1]) ids.push(x[2]);
     });
     if (ids.length) out[seat] = ids;
