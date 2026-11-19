@@ -1341,11 +1341,12 @@ document.addEventListener('keydown', e => {
 });
 // ---- student info
 // 班級座號（沒有 8、22 號；30 號是老師測試用）
-const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30,31,32];
+const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30,31,32,33];
 // 31 號是玠汝老師：上排行榜，但不算進老師儀表板的班級統計
-const TEACHERS = {31: '玠汝老師', 32: 'Cathy'};
+const TEACHERS = {31: '玠汝老師', 32: 'Cathy', 33: 'Cindy校長'};
+const ROLE = {33: '校長'};
 SEATS.forEach(i => $('seat').add(new Option(TEACHERS[i] || (i === 30 ? '30 號（測試用）' : i + ' 號'), i)));
-const seatLabel = n => TEACHERS[n] ? '老師' : n;
+const seatLabel = n => ROLE[n] || (TEACHERS[n] ? '老師' : n);
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; if (st.pin) $('spin').value = st.pin; } catch (e) {}
 function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim(), pin: PIN_OK ? $('spin').value.trim() : ''})); } catch (e) {} }
 // ---------------- 等級與人物造型 ----------------

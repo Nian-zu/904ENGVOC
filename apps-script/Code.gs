@@ -1034,13 +1034,13 @@ function parent_(key, seat) {
   if (!want) return { ok: false, error: '家長密碼尚未設定，請洽導師。' };
   if (String(key || '').trim() !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入密碼' };
   const ro = roster_();
-  const roster = Object.keys(ro).map(Number).filter(function (x) { return x !== 30 && x !== 31 && x !== 32; })
+  const roster = Object.keys(ro).map(Number).filter(function (x) { return x !== 30 && x !== 31 && x !== 32 && x !== 33; })
     .sort(function (a, b) { return a - b; }).map(function (x) { return { seat: x, name: ro[x] }; });
   const s = parseInt(seat, 10);
   if (!s) return { ok: true, roster: roster };
   if (!ro[s]) return { ok: false, error: '找不到這個座號' };
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const isStu = function (x) { return x && x !== 30 && x !== 31 && x !== 32; };
+  const isStu = function (x) { return x && x !== 30 && x !== 31 && x !== 32 && x !== 33; };
 
   // ---- 練習量：每次交卷（成績分頁）
   const rows = readRows_().filter(function (r) { return isStu(r.seat); });
