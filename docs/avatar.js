@@ -59,6 +59,10 @@
     big: '<ellipse cx="51" cy="56" rx="4.2" ry="5" fill="#2b2523"/><ellipse cx="69" cy="56" rx="4.2" ry="5" fill="#2b2523"/><circle cx="52.6" cy="54.2" r="1.6" fill="#fff"/><circle cx="70.6" cy="54.2" r="1.6" fill="#fff"/>',
     wink: '<ellipse cx="51" cy="56" rx="2.8" ry="3.4" fill="#2b2523"/><path d="M65 56 Q69 52 73 56" stroke="#2b2523" stroke-width="2.4" fill="none" stroke-linecap="round"/>',
     cool: '<path d="M46 55 L56 55 M64 55 L74 55" stroke="#2b2523" stroke-width="2.6" stroke-linecap="round"/><path d="M47 50 L55 52 M73 50 L65 52" stroke="#2b2523" stroke-width="1.8" stroke-linecap="round"/>',
+    lash: '<ellipse cx="51" cy="56" rx="2.9" ry="3.5" fill="#2b2523"/><ellipse cx="69" cy="56" rx="2.9" ry="3.5" fill="#2b2523"/><path d="M47.5 53.5 L45.5 51.5 M49.5 52.6 L48.6 50 M72.5 53.5 L74.5 51.5 M70.5 52.6 L71.4 50" stroke="#2b2523" stroke-width="1.4" stroke-linecap="round"/>',
+    sleepy: '<path d="M47 56 Q51 60 55 56 M65 56 Q69 60 73 56" stroke="#2b2523" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M46.5 55 L55.5 55 M64.5 55 L73.5 55" stroke="#2b2523" stroke-width="1.4" stroke-linecap="round" opacity=".6"/>',
+    round: '<circle cx="51" cy="56.5" r="2" fill="#2b2523"/><circle cx="69" cy="56.5" r="2" fill="#2b2523"/>',
+    heart: '<path d="M51 60 L46.6 55.6 A2.6 2.6 0 0 1 51 52.6 A2.6 2.6 0 0 1 55.4 55.6Z M69 60 L64.6 55.6 A2.6 2.6 0 0 1 69 52.6 A2.6 2.6 0 0 1 73.4 55.6Z" fill="#e2445f"/>',
     star: '<path d="M51 51 l1.6 3.4 3.6.4 -2.7 2.4 .8 3.6 -3.3 -1.9 -3.3 1.9 .8 -3.6 -2.7 -2.4 3.6 -.4Z M69 51 l1.6 3.4 3.6.4 -2.7 2.4 .8 3.6 -3.3 -1.9 -3.3 1.9 .8 -3.6 -2.7 -2.4 3.6 -.4Z" fill="#f2b705" stroke="#2b2523" stroke-width=".8"/>'
   };
   const MOUTH = {
@@ -66,8 +70,44 @@
     grin: '<path d="M52 65 Q60 75 68 65Z" fill="#7a3b2e"/><path d="M53.5 65.6 L66.5 65.6 L65.5 67.4 L54.5 67.4Z" fill="#fff"/>',
     o: '<ellipse cx="60" cy="68" rx="3.2" ry="3.8" fill="#7a3b2e"/>',
     tongue: '<path d="M53 66 Q60 72 67 66" stroke="#7a3b2e" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M58 69 Q60 74 63 69Z" fill="#e26d7d"/>',
-    cat: '<path d="M54 66 Q57 69 60 66 Q63 69 66 66" stroke="#7a3b2e" stroke-width="2" fill="none" stroke-linecap="round"/>'
+    cat: '<path d="M54 66 Q57 69 60 66 Q63 69 66 66" stroke="#7a3b2e" stroke-width="2" fill="none" stroke-linecap="round"/>',
+    flat: '<path d="M54 67.5 L66 67.5" stroke="#7a3b2e" stroke-width="2.2" stroke-linecap="round"/>',
+    teeth: '<path d="M50 64 Q60 64 70 64 Q68 77 60 77 Q52 77 50 64Z" fill="#7a3b2e"/><path d="M51.5 64.6 L68.5 64.6 L67.8 67.4 L52.2 67.4Z" fill="#fff"/><path d="M55 74 Q60 71 65 74 Q60 77 55 74Z" fill="#e26d7d"/>',
+    pout: '<path d="M56.5 67.5 Q58 64.5 60 66 Q62 64.5 63.5 67.5 Q60 70.5 56.5 67.5Z" fill="#d9657a"/>'
   };
+  // 臉型：輪廓與耳朵位置
+  const FACE = {
+    round: {d: 'M36 55 a24 26 0 1 0 48 0 a24 26 0 1 0 -48 0Z', ear: [36, 84]},
+    oval: {d: 'M38 55 a22 27 0 1 0 44 0 a22 27 0 1 0 -44 0Z', ear: [38, 82]},
+    square: {d: 'M37 41 Q37 29 49 29 L71 29 Q83 29 83 41 L83 63 Q83 81 60 81 Q37 81 37 63Z', ear: [37, 83]},
+    heart: {d: 'M36 49 Q36 28 60 28 Q84 28 84 49 Q84 67 60 82 Q36 67 36 49Z', ear: [36, 84]},
+    chubby: {d: 'M33 57 a27 25 0 1 0 54 0 a27 25 0 1 0 -54 0Z', ear: [33, 87]}
+  };
+  const BROW = {
+    soft: ['M46 48 Q51 45 56 47 M64 47 Q69 45 74 48', 2], thick: ['M46 48 Q51 44.5 56 47 M64 47 Q69 44.5 74 48', 3.8],
+    thin: ['M46.5 48 Q51 46 55.5 47.5 M64.5 47.5 Q69 46 73.5 48', 1.2], arch: ['M46 49 Q51 42.5 56 46 M64 46 Q69 42.5 74 49', 2.2],
+    worry: ['M46 46 Q51 46 56 49.5 M64 49.5 Q69 46 74 46', 2.2], angry: ['M46 45 L56 49 M64 49 L74 45', 2.8]
+  };
+  function nose(id, skin) {
+    const d = shade(skin, -0.28);
+    switch (id) {
+      case 'button': return `<circle cx="60" cy="61.5" r="2.7" fill="${shade(skin, -0.14)}"/>`;
+      case 'line': return `<path d="M60.5 57 Q58 62 61.5 63.2" stroke="${d}" stroke-width="1.6" fill="none" stroke-linecap="round"/>`;
+      case 'pointy': return `<path d="M60.5 55.5 L57.5 63 L62 63" stroke="${d}" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`;
+      case 'none': return '';
+      default: return `<ellipse cx="60" cy="62" rx="1.7" ry="1.2" fill="${d}"/>`;
+    }
+  }
+  function cheek(id, skin) {
+    switch (id) {
+      case 'none': return '';
+      case 'freckle': return [[44, 62], [47, 64], [43, 65.5], [76, 62], [73, 64], [77, 65.5]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r=".95" fill="${shade(skin, -0.38)}"/>`).join('');
+      case 'dimple': return `<path d="M51 65.5 Q52 67.5 51.2 69 M69 65.5 Q68 67.5 68.8 69" stroke="${shade(skin, -0.3)}" stroke-width="1.2" fill="none" stroke-linecap="round"/><ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".25"/><ellipse cx="75" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".25"/>`;
+      case 'sticker': return '<path d="M76 59.5 l1.4 2.9 3.2.4 -2.4 2.2 .6 3.1 -2.8 -1.6 -2.8 1.6 .6 -3.1 -2.4 -2.2 3.2 -.4Z" fill="#f2c94c" stroke="#d9a21a" stroke-width=".6"/><ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".3"/>';
+      case 'band': return '<g transform="rotate(-25 76 63)"><rect x="70" y="60.5" width="12" height="5" rx="2.4" fill="#f3d2a8" stroke="#d9b07a" stroke-width=".6"/><rect x="74.3" y="61.3" width="3.4" height="3.4" rx=".6" fill="#e7bd8c"/></g><ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".3"/>';
+      default: return '<ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".35"/><ellipse cx="75" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".35"/>';
+    }
+  }
 
   // ---------- 衣服（c = 衣服顏色）
   const BODY = 'M18 122 Q20 93 44 87 L76 87 Q100 93 102 122Z';
@@ -143,10 +183,14 @@
     g += `<clipPath id="${id}c"><circle cx="60" cy="60" r="60"/></clipPath><g clip-path="${opt.square ? '' : `url(#${id}c)`}">`;
     if (H.back) g += `<path d="${H.back}" fill="${hc}"/>`;
     g += top(a.top, tc, skin);
-    g += `<circle cx="36" cy="57" r="5" fill="${skin}"/><circle cx="84" cy="57" r="5" fill="${skin}"/>`;
-    g += `<ellipse cx="60" cy="55" rx="24" ry="26" fill="${skin}"/>`;
-    g += `<ellipse cx="45" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".35"/><ellipse cx="75" cy="64" rx="4" ry="2.4" fill="#f08a8a" opacity=".35"/>`;
+    const F = FACE[a.face] || FACE.round;
+    g += `<circle cx="${F.ear[0]}" cy="57" r="5" fill="${skin}"/><circle cx="${F.ear[1]}" cy="57" r="5" fill="${skin}"/>`;
+    g += `<path d="${F.d}" fill="${skin}"/>`;
+    g += cheek(a.cheek, skin);
+    const B = BROW[a.brow];
+    if (B) g += `<path d="${B[0]}" stroke="${shade(hc, -0.15)}" stroke-width="${B[1]}" fill="none" stroke-linecap="round"/>`;
     g += EYES[a.eyes] || EYES.dot;
+    g += nose(a.nose, skin);
     g += MOUTH[a.mouth] || MOUTH.smile;
     if (H.front) g += `<path d="${H.front}" fill="${hc}"/>`;
     if (H.tie) g += `<circle cx="84" cy="44" r="3" fill="#e65a7f"/>`;

@@ -842,7 +842,7 @@ const AV_ITEMS_URL = 'https://nian-zu.github.io/904ENGVOC/avatar-items.json';
 function avItems_() {
   const cache = CacheService.getScriptCache();
   let t = cache.get('av_items');
-  if (!t) { t = UrlFetchApp.fetch(AV_ITEMS_URL).getContentText(); cache.put('av_items', t, 21600); }
+  if (!t) { t = UrlFetchApp.fetch(AV_ITEMS_URL).getContentText(); cache.put('av_items', t, 600); }
   return JSON.parse(t);
 }
 function avSheet_() {
