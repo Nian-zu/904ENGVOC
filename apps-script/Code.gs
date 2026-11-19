@@ -967,6 +967,17 @@ function tasks_(key, seatOnly) {
     let t = null;
     pub.forEach(function (x) { if (x.date === today) t = x; });
     if (t) delete t.dist;
+    // 「設定」分頁的「小考密碼公開時間」到了，就把今天的小考密碼直接顯示給學生
+    if (t && t.quiz) {
+      const show = hhmm_(setting_('小考密碼公開時間')), until = hhmm_(setting_('小考密碼公開到'));
+      const now = Utilities.formatDate(new Date(), tz, 'HH:mm');
+      if (show) {
+        t.pwAt = show; t.pwUntil = until || '';
+        const raw = tasks.filter(function (x) { return x.date === today && x.pw; })[0];
+        if (raw && now >= show && (!until || now < until)) t.pwShow = raw.pw;
+      }
+      t.now = now;
+    }
     return { ok: true, today: today, task: t, me: t ? (results[t.date][onlySeat] || null) : null,
       given: ro[onlySeat] ? givenName(ro[onlySeat]) : '' };
   }
@@ -1016,6 +1027,21 @@ function checkPin_(seat, pin) {
   const lk = 'pinlast-' + seat;
   if (tried && cache.get(lk) !== tried) { cache.put(k, String(fails + 1), 300); cache.put(lk, tried, 300); }
   return { ok: false, error: pin ? '個人密碼不正確，請再確認一次。' : '請輸入個人密碼。' };
+}
+
+// 「設定」分頁：A 欄名稱、B 欄值
+function setting_(name) {
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('設定');
+  if (!sh || sh.getLastRow() < 1) return '';
+  const v = sh.getRange(1, 1, sh.getLastRow(), 2).getValues();
+  for (let i = 0; i < v.length; i++) if (String(v[i][0]).trim() === name) return v[i][1];
+  return '';
+}
+// 7:50、07:50、時間格式的儲存格 → "07:50"；看不懂就回空字串
+function hhmm_(v) {
+  if (v instanceof Date) return Utilities.formatDate(v, 'Asia/Taipei', 'HH:mm');
+  const m = String(v || '').trim().match(/^(\d{1,2})\s*[:：]\s*(\d{2})$/);
+  return m && +m[1] < 24 && +m[2] < 60 ? ('0' + m[1]).slice(-2) + ':' + m[2] : '';
 }
 
 // ===================== 家長查詢頁（docs/parent.html） =====================

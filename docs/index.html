@@ -285,6 +285,9 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .shopcard .have{font-size:.78rem;color:var(--chalk);font-weight:800}
 .shopgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
 .coin{font-weight:900;color:#a27400}
+.tbpw{margin:8px 0;padding:10px 12px;border-radius:12px;background:#fff3c4;border:2px dashed #e0a81a;font-size:.92rem;line-height:1.6}
+.tbpw b.pw{display:inline-block;font-size:1.6rem;letter-spacing:.12em;font-family:ui-monospace,Menlo,Consolas,monospace;background:#fff;border-radius:8px;padding:0 10px;margin:0 4px;color:#7a4b00}
+.tbpw.wait{background:var(--paper);border-style:solid;border-color:var(--line);color:var(--muted)}
 .chcard{border:2px solid #f2c94c;border-radius:16px;padding:12px 14px;margin:0 0 14px;background:linear-gradient(180deg,#fffaf0,var(--paper))}
 .chcard h3{margin:0 0 8px;font-size:1.05rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .chcard h3 small{font-weight:600;color:var(--muted);font-size:.8rem}
@@ -360,6 +363,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
+    <div class="tbpw hidden" id="tbPwShow" aria-live="polite"></div>
     <div class="tb-act"><input type="text" id="tbPw" class="hidden" maxlength="20" autocomplete="off" placeholder="輸入今日小考密碼" aria-label="今日小考密碼">
     <button class="primary" id="tbGo" type="button">開始今日任務</button></div>
   </div>
@@ -1193,6 +1197,19 @@ async function loadTodayTask(){
     $('tbRule').textContent = (t.quiz ? '📝 每日小考・' : '') + `範圍 ${lbl2}・${t.n} 題・答對率 ${t.pass}% 過關（可以重複考）`;
     $('tbPw').classList.toggle('hidden', !t.quiz);
     if (t.quiz && !$('tbPw').value) { try { $('tbPw').value = localStorage.getItem(pwKey(t.date)) || ''; } catch (e) {} }
+    // 到了老師設定的時間（例如 7:50），直接把今天的小考密碼顯示出來
+    const pb = $('tbPwShow');
+    clearTimeout(window.__pwTimer);
+    if (t.quiz && t.pwShow) {
+      pb.className = 'tbpw';
+      pb.innerHTML = `🔑 今天的小考密碼：<b class="pw">${esc(t.pwShow)}</b><br>👉 把密碼輸入下面的格子，按「開始每日小考」就可以考試了。` + (t.pwUntil ? `<br><small>密碼顯示到 ${esc(t.pwUntil)}</small>` : '');
+    } else if (t.quiz && t.pwAt && t.now < t.pwAt) {
+      pb.className = 'tbpw wait';
+      pb.textContent = `⏰ 小考密碼會在 ${t.pwAt} 自動顯示在這裡，時間到就會出現（不用重新整理）。`;
+      const [h, m] = t.pwAt.split(':').map(Number), [nh, nm] = t.now.split(':').map(Number);
+      const ms = ((h * 60 + m) - (nh * 60 + nm)) * 60000 + 5000;
+      if (ms > 0 && ms < 12 * 3600000) window.__pwTimer = setTimeout(loadTodayTask, ms);
+    } else pb.className = 'tbpw hidden';
     const st = $('tbStat');
     const warn = me && me.wrong ? `⚠️ 你剛剛考的是 ${me.wrong.range}，${t.days ? '不是今日任務範圍' : '和大部分同學不一樣，範圍可能選錯了'}，不算數喔！請確認範圍後重考。`
       : me && me.short ? `⚠️ 你剛剛只考了 ${me.short.n} 題，任務要 ${t.n} 題才算數，請重考。` : '';
