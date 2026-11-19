@@ -34,3 +34,6 @@ a4a0773e35|education,cellphone,point,career,player|You need a(n) ____ to help yo
 # 抽查 2026-11-18（D79 回）：誘答也說得通
 6fdff6f524|windy,clean,public
 7a8ff1ba4b|system,challenge,land,sound,quarrel
+# 抽查 2026-11-19（D74 回）：誘答也說得通
+63f9a9d975|fix,review,clean,accept,recover,find
+dd19a0919b|main,light,mad,illegal

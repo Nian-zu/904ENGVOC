@@ -687,3 +687,31 @@ D75-25 BLACKPINK 為氣候發聲：https://www.soompi.com/article/1456566wpp/bla
 D75-26 Jin 的月亮和太空人：https://thefader.com/2022/10/28/bts-jin-the-astronaut-coldplay；https://www.soompi.com/article/1552049wpp/watch-btss-jin-performs-the-astronaut-with-coldplay-live-for-1st-time-at-their-buenos-aires-concert
 D75-27 太陽和月亮組成的 MAMAMOO+：https://en.wikipedia.org/wiki/Mamamoo%2B；https://en.wikipedia.org/wiki/Moonbyul
 D75-28 K-pop 粉絲一起救地球：https://en.wikipedia.org/wiki/Kpop4planet；https://www.technologyreview.com/2024/07/16/1094982/music-streaming-climate-kpop-fan/
+D74-01 抱著玩偶長大的小猴子 Punch：https://www.kbtx.com/2026/02/23/baby-monkey-abandoned-by-mother-clings-stuffed-toy-winning-hearts-all-over-world/；https://gulfnews.com/world/asia/meet-punch-baby-monkey-and-his-toy-have-the-world-in-tears-1.500450186
+D74-02 跟著神舟二十一號上太空的老鼠：https://www.iflscience.com/astronaut-mouse-delivers-9-pups-a-month-after-return-to-earth-82115；https://www.euronews.com/video/2025/11/15/four-mice-brought-back-to-earth-from-chinas-space-station
+D74-03 長著長毛象毛髮的老鼠：https://www.opb.org/article/2025/03/04/hoping-to-revive-woolly-mammoths-scientists-start-with-woolly-mice/；https://abc7news.com/post/colossal-woolly-mouse-scientists-genetically-engineer-mice-thick-hair-like-extinct-mammoth/15980310/
+D74-04 會撒嬌的 AI 寵物 Moflin：https://www.designboom.com/technology/casio-ai-pet-robot-moflin-10-15-2024/；https://technews.tw/2024/10/15/casio-moflin/
+D74-05 寵物比小孩還多的台灣：https://www.taipeitimes.com/News/taiwan/archives/2024/09/17/2003823921；https://focustaiwan.tw/society/202404140009
+D74-06 唐寧街的捕鼠大臣 Larry：https://wtop.com/trending-now/2026/02/first-feline-larry-marks-15-years-as-britains-political-top-cat/；https://www.shropshirestar.com/uk-news/2026/02/15/larry-the-cat-marks-15-years-as-no-10s-chief-mouser
+D74-07 樂天桃猿的台灣大賽冠軍：https://news.tvbs.com.tw/sports/baseball/3009624；https://en.wikipedia.org/wiki/Rakuten_Monkeys
+D74-08 兔子其實不該天天吃紅蘿蔔：https://rspca.org.uk/adviceandwelfare/pets/rabbits/diet/myths；https://pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/rabbits/rabbit-myths
+D74-09 老鼠其實不愛吃起司：https://www.todayifoundout.com/index.php/2012/09/mice-dont-like-cheese/；https://www.sciencetimes.com/articles/42536/20230222/debunking-the-myth-do-mice-really-love-cheese.htm
+D74-10 第一批平安回家的太空猴：https://www.guinnessworldrecords.com/world-records/464499-first-monkeys-to-survive-a-space-flight；https://www.universetoday.com/articles/50th-anniversary-of-historic-space-monkey-flight
+D74-11 第一個電腦滑鼠是木頭做的：https://sri.com/hoi/computer-mouse-and-interactive-computing/；https://www.computinghistory.org.uk/det/5403/Douglas-Engelbart-invents-the-mouse/
+D74-12 會用石頭敲堅果的捲尾猴：https://www.nationalgeographic.com/science/article/capuchin-monkeys-used-stone-tools-3000-years-oldest-outside-africa；https://phys.org/news/2019-06-evidence-capuchin-monkeys-tools-years.html
+D74-13 狗狗的「無辜眼神」是怎麼來的：https://www.sci.news/biology/puppy-dog-eyes-domestication-07297.html；https://pubmed.ncbi.nlm.nih.gov/31209036/
+D74-14 大谷翔平的愛犬 Decoy 開球：https://www.cbssports.com/mlb/news/watch-shohei-ohtanis-dog-decoy-delivers-first-pitch-prior-to-dodgers-game；https://www.espn.com/mlb/story?id=41034089
+D74-15 找回世界盃獎盃的狗 Pickles：https://en.wikipedia.org/wiki/Pickles_(dog)；https://www.history.co.uk/articles/pickles-the-dog-world-cup
+D74-16 天使隊的「加油猴」：https://en.wikipedia.org/wiki/Rally_Monkey；https://www.mlb.com/news/angels-rally-monkey-origins
+D74-17 跑在前面的「兔子」：https://worldathletics.org/news/report/eliud-kipchoge-breaks-two-hours-vienna；https://www.the-star.co.ke/news/2020-10-23-track-rabbits-unravelled-art-and-craft-of-pacesetting
+D74-18 闖進春訓營的流浪狗 Hank：https://www.ksl.com/article/sports/mlb/stray-dog-hank-becomes-big-hit-in-brewers-camp/28821041；https://nesn.com/2014/03/brewers-officially-adopt-adorable-stray-dog-photos
+D74-19 珍古德：黑猩猩不是猴子：https://www.nationalgeographic.com/animals/article/jane-goodall-death-primatologist-chimpanzee；https://www.livescience.com/animals/jane-goodall-famed-primatologist-who-discovered-chimpanzee-tool-use-dies-at-91
+D74-20 企鵝 Roy 和 Silo 的家：https://en.wikipedia.org/wiki/Roy_and_Silo；https://en.wikipedia.org/wiki/And_Tango_Makes_Three
+D74-21 台灣收容所的零撲殺：https://www.taipeitimes.com/News/taiwan/archives/2017/02/06/2003664450；https://www.business-standard.com/amp/article/pti-stories/taiwan-bans-euthanasia-of-stray-animals-117020500320_1.html
+D74-22 陪伴長輩的機器海豹 PARO：https://web-japan.org/trends/09_sci-tech/sci090917.html；https://spectrum.ieee.org/robotics/home-robots/paro-the-robotic-seal-could-diminish-dementia
+D74-23 Stray Kids 的 SKZOO 動物園：https://primalscreen.itvmedia.co.uk/all-stray-kids-skzoo-names-explained.html；https://kprofiles.com/?p=320619
+D74-24 BTS 親手設計的 BT21：https://prnewswire.com/news-releases/line-friends-globally-launches-new-bt21-characters-inspired-by-k-pop-boy-band-bts-300537730.html；https://nomakenolife.com/blog/introducing-bt21-characters
+D74-25 Lee Know 和三隻救援貓：https://www.koreatimes.co.kr/amp/southkorea/environment-animals/20250726/stray-kids-lee-know-melts-hearts-with-story-of-his-three-rescue-cats-soondoongdori；https://stray-kids.fandom.com/wiki/SoonDoongDo
+D74-26 韓星怎麼幫寵物取名字：https://www.koreatimes.co.kr/lifestyle/trends/20250621/from-kuma-to-comme-des-how-k-pop-stars-name-their-pets；https://www.sportskeeda.com/pop-culture/5-k-pop-idols-adorable-pets
+D74-29 皮卡丘其實不是照著老鼠畫的：https://www.pokemon.com/uk/pokemon-news/creator-profile-the-creators-of-pikachu；https://soranews24.com/2018/05/03/shocking-news-star-pokemon-pikachus-design-isnt-based-on-a-mouse/
+D74-30 彼得兔來自一隻真的寵物兔：https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale；https://www.mentalfloss.com/literature/books/9-facts-about-peter-rabbit
