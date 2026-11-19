@@ -1349,7 +1349,10 @@ async function saveAv(){
       body: JSON.stringify({type: 'avatar', seat: $('seat').value, pin: $('spin').value.trim(), avatar: AVSEL})});
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '儲存失敗');
-    ME.a = j.a; drawMe(); $('avModal').classList.add('hidden');
+    const lost = AV.items.cats.filter(c => AVSEL[c.key] && j.a[c.key] !== AVSEL[c.key] && AV.items.default[c.key] !== AVSEL[c.key]);
+    ME.a = j.a; drawMe();
+    if (lost.length) { $('avMsg').textContent = '⚠️ 有些部件沒存到：' + lost.map(c => c.name).join('、') + '。伺服器可能還在更新造型清單，請過幾分鐘再按一次儲存。'; return false; }
+    $('avModal').classList.add('hidden');
     if (boardData) { boardData.av = boardData.av || {}; boardData.av[ME.seat] = {lv: ME.lv, a: j.a}; drawBoard(); }
     return true;
   } catch (e) { $('avMsg').textContent = '⚠️ ' + e.message; return false; }

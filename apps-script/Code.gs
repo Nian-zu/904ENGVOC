@@ -368,7 +368,7 @@ function loadKeyMain_(fresh) {
     const got = cache.getAll(keys);
     if (Object.keys(got).length === n) return JSON.parse(keys.map(function (k) { return got[k]; }).join(''));
   }
-  const text = UrlFetchApp.fetch(KEY_URL).getContentText();
+  const text = UrlFetchApp.fetch(fresh_(KEY_URL)).getContentText();
   const size = 90000, obj = {};
   let n = 0;
   for (let i = 0; i < text.length; i += size) obj['key_' + (n++)] = text.slice(i, i + size);
@@ -385,14 +385,14 @@ function loadKey_(fresh) {
   const cache = CacheService.getScriptCache();
   let text = fresh ? null : cache.get('key_extra');
   if (!text) {
-    try { text = UrlFetchApp.fetch(KEY_EXTRA_URL).getContentText(); cache.put('key_extra', text, 21600); } catch (e) { text = '{}'; }
+    try { text = UrlFetchApp.fetch(fresh_(KEY_EXTRA_URL)).getContentText(); cache.put('key_extra', text, 21600); } catch (e) { text = '{}'; }
   }
   const ex = JSON.parse(text);
   Object.keys(ex).forEach(function (id) { key[parseInt(id, 10)] = ex[id]; });
   // 寂天 Reading Success 3（題號 50000 起）
   let jt = fresh ? null : cache.get('key_jt');
   if (!jt) {
-    try { jt = UrlFetchApp.fetch(KEY_JT_URL).getContentText(); cache.put('key_jt', jt, 21600); } catch (e) { jt = '{}'; }
+    try { jt = UrlFetchApp.fetch(fresh_(KEY_JT_URL)).getContentText(); cache.put('key_jt', jt, 21600); } catch (e) { jt = '{}'; }
   }
   const jx = JSON.parse(jt);
   Object.keys(jx).forEach(function (id) { key[parseInt(id, 10)] = jx[id]; });
@@ -924,10 +924,12 @@ function parent_(key, seat) {
 // 經驗值 = 答對題數 × 1 ＋ 每日小考過關 × 30 ＋ 練習天數 × 10（數字在 docs/avatar-items.json 的 levels）
 // 造型存在試算表「造型」分頁：座號 | 造型（JSON）| 更新時間
 const AV_ITEMS_URL = 'https://nian-zu.github.io/904ENGVOC/avatar-items.json';
+// GitHub 上的檔案網址加上時間參數，避免抓到舊的快取版本（之前造型清單一直是舊的，新部件存不進去、商品不能買）
+function fresh_(url) { return url + (url.indexOf('?') < 0 ? '?' : '&') + 't=' + Date.now(); }
 function avItems_() {
   const cache = CacheService.getScriptCache();
-  let t = cache.get('av_items');
-  if (!t) { t = UrlFetchApp.fetch(AV_ITEMS_URL).getContentText(); cache.put('av_items', t, 600); }
+  let t = cache.get('av_items2');
+  if (!t) { t = UrlFetchApp.fetch(fresh_(AV_ITEMS_URL)).getContentText(); cache.put('av_items2', t, 600); }
   return JSON.parse(t);
 }
 function avSheet_() {
