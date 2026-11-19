@@ -84,7 +84,7 @@ function doPost(e) {
         const dt = detailSheet_();
         append_(dt, rows);
       }
-      CacheService.getScriptCache().remove('prof_v1');   // 經驗值要重算
+      bump_();   // 經驗值要重算
     } finally {
       lock.releaseLock();
     }
@@ -104,7 +104,7 @@ const MIN_UP = { day: 10, week: 20, month: 20 };                 // 進步榜：
 function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'dash') return out_(dash_(p.key));
-  if (p.action === 'badges') return out_(badges_());
+  if (p.action === 'badges') return out_(cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_));
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
   if (p.action === 'profile') return out_(profile_(p.seat));
   if (p.action === 'parent') return out_(parent_(p.key, p.seat));
@@ -115,6 +115,35 @@ function doGet(e) {
   }
   if (p.action === 'quizpw') { const qt = quizTask_(p.pw); return out_(qt ? { ok: true, date: qt.date, n: qt.n, days: qt.days } : { ok: false, error: '密碼不對，或今天沒有小考' }); }
   if (p.action !== 'board') return out_({ ok: true, message: '成績接收程式運作中' });
+  return out_(boardCached_(p));
+}
+
+// ===== 快取：有人交卷、存造型、買東西時把版本號換掉，所有排行／徽章／等級快取一起失效 =====
+function ver_() { return CacheService.getScriptCache().get('ver') || '0'; }
+function bump_() { CacheService.getScriptCache().put('ver', String(Date.now()), 21600); }
+function cached_(name, sec, fn) {
+  const cache = CacheService.getScriptCache(), k = name + '|' + ver_(), hit = cache.get(k);
+  if (hit) return JSON.parse(hit);
+  const v = fn(), t = JSON.stringify(v);
+  if (t.length < 95000) try { cache.put(k, t, sec); } catch (e) {}
+  return v;
+}
+
+// 排行榜：同一個版本內大家共用計算結果；「我」的成績另外從裡面挑出來
+function boardCached_(p) {
+  const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
+  const type = /^[a-z]{2,6}$/.test(String(p.type || '')) ? p.type : 'all';
+  const r = cached_('bd|' + period + '|' + type + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, function () { return boardCore_({ period: period, type: type }); });
+  const all = r.mineAll || {};
+  delete r.mineAll;
+  r.me = null;
+  const ms = parseInt(p.seat, 10);
+  if (ms && p.pin && checkPin_(ms, p.pin).ok) r.me = all[ms] || { seat: ms, right: 0, answered: 0, tests: 0, rate: null, fAns: 0, rank: null, total: r.total || 0 };
+  delete r.total;
+  return r;
+}
+
+function boardCore_(p) {
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const tz = 'Asia/Taipei';
   const today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
@@ -162,18 +191,17 @@ function doGet(e) {
     return { seat: +seat, name: names[seat], streak: k };
   });
 
-  // 自己的成績（沒進前 10 名也看得到）：要帶座號和個人密碼
-  let me = null;
-  const ms = parseInt(p.seat, 10);
-  if (ms && p.pin && checkPin_(ms, p.pin).ok) {
-    const s = cur[ms];
-    me = s ? entry(s) : { seat: ms, right: 0, answered: 0, tests: 0, rate: null, fAns: 0 };
-    me.rank = s && s.right > 0 ? 1 + list.filter(function (x) { return x.right > s.right; }).length : null;
-    me.total = list.filter(function (x) { return x.right > 0; }).length;
-  }
-  return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards, me: me,
+  // 每個人自己的成績（沒進前 10 名也看得到；回傳前只留下帶對密碼的那一位）
+  const total = list.filter(function (x) { return x.right > 0; }).length, mineAll = {};
+  list.forEach(function (s) {
+    const m = entry(s);
+    m.rank = s.right > 0 ? 1 + list.filter(function (x) { return x.right > s.right; }).length : null;
+    m.total = total;
+    mineAll[s.seat] = m;
+  });
+  return { ok: true, period: period, from: from, today: today, top: boards.right, boards: boards, mineAll: mineAll, total: total,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows.concat(readDetail_('寂天'))), av: avMap_() });
+    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows.concat(readDetail_('寂天'))), av: avMap_() };
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -945,7 +973,7 @@ function avTitle_(lv, titles) { let t = ''; titles.forEach(function (x) { if (lv
 
 // 所有學生的經驗值、等級、造型（快取 60 秒）
 function profiles_() {
-  const cache = CacheService.getScriptCache(), hit = cache.get('prof_v1');
+  const cache = CacheService.getScriptCache(), pk = 'prof|' + ver_(), hit = cache.get(pk);
   if (hit) return JSON.parse(hit);
   const L = avItems_().levels, out = {};
   const rows = readRows_();
@@ -964,7 +992,7 @@ function profiles_() {
   });
   // 寶物：徽章＋小考次數＋等級＋講義題答對數
   let bd = {}, det = {};
-  try { bd = badges_().badges || {}; } catch (e) {}
+  try { bd = cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_).badges || {}; } catch (e) {}
   try { det = detailStats_(); } catch (e) {}
   const sh = avSheet_(), av = {}, own = {}, spent = {};
   if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 5).getValues().forEach(function (r) {
@@ -989,7 +1017,7 @@ function profiles_() {
     res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr,
       own: own[k] || [], earn: earn, coin: Math.max(0, earn - (spent[k] || 0)) };
   });
-  cache.put('prof_v1', JSON.stringify(res), 90);
+  try { cache.put(pk, JSON.stringify(res), 600); } catch (e) {}
   return res;
 }
 function avMap_() {
@@ -1022,7 +1050,7 @@ function saveAvatar_(seat, a) {
   if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (r, i) { if (parseInt(r[0], 10) === seat) row = i + 2; });
   if (row) sh.getRange(row, 2, 1, 2).setValues([[JSON.stringify(clean), stamp]]);
   else sh.appendRow([seat, JSON.stringify(clean), stamp, '[]', 0]);
-  CacheService.getScriptCache().remove('prof_v1');
+  bump_();
   return { ok: true, a: clean };
 }
 // 商店：用代幣買造型（代幣＝答對題數＋小考過關＋徽章，扣掉已經花掉的）
@@ -1033,7 +1061,7 @@ function buy_(seat, cat, id) {
   const lock = LockService.getScriptLock();
   lock.waitLock(20000);
   try {
-    CacheService.getScriptCache().remove('prof_v1');
+    bump_();
     const p = profiles_()[seat];
     if (!p) return { ok: false, error: '找不到這個座號' };
     const key = cat + ':' + id, own = (p.own || []).slice();
@@ -1046,7 +1074,7 @@ function buy_(seat, cat, id) {
     const spent = p.earn - p.coin + it.s;
     if (row) sh.getRange(row, 4, 1, 2).setValues([[JSON.stringify(own), spent]]);
     else sh.appendRow([seat, JSON.stringify(p.a || items.default), '', JSON.stringify(own), spent]);
-    CacheService.getScriptCache().remove('prof_v1');
+    bump_();
     return { ok: true, coin: p.coin - it.s, own: own };
   } finally { lock.releaseLock(); }
 }
