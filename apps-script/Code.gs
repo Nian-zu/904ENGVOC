@@ -24,6 +24,7 @@ function doPost(e) {
     const pc = checkPin_(seat, body.pin);
     if (!pc.ok) return out_({ ok: false, error: pc.error, pin: true });
     if (body.type === 'avatar') return out_(saveAvatar_(seat, body.avatar));
+    if (body.type === 'buy') return out_(buy_(seat, String(body.cat || ''), String(body.id || '')));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -904,7 +905,8 @@ function avItems_() {
 function avSheet_() {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
   let sh = ss.getSheetByName('造型');
-  if (!sh) { sh = ss.insertSheet('造型'); sh.getRange(1, 1, 1, 3).setValues([['座號', '造型', '更新時間']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  if (!sh) { sh = ss.insertSheet('造型'); sh.getRange(1, 1, 1, 5).setValues([['座號', '造型', '更新時間', '已購買', '已花代幣']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  else if (sh.getLastColumn() < 5) sh.getRange(1, 4, 1, 2).setValues([['已購買', '已花代幣']]).setFontWeight('bold');
   return sh;
 }
 function avNeed_(n, base) { return base * n * (n - 1); }
@@ -934,11 +936,14 @@ function profiles_() {
   let bd = {}, det = {};
   try { bd = badges_().badges || {}; } catch (e) {}
   try { det = detailStats_(); } catch (e) {}
-  const sh = avSheet_(), av = {};
-  if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 2).getValues().forEach(function (r) {
+  const sh = avSheet_(), av = {}, own = {}, spent = {};
+  if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 5).getValues().forEach(function (r) {
     const k = parseInt(r[0], 10); if (!k) return;
     try { av[k] = JSON.parse(String(r[1] || '{}')); } catch (e) {}
+    try { own[k] = JSON.parse(String(r[3] || '[]')); } catch (e) { own[k] = []; }
+    spent[k] = Number(r[4]) || 0;
   });
+  const CR = L.coin || { right: 1, quiz: 20, badge: 20 };
   const res = {};
   Object.keys(roster_()).concat(Object.keys(out)).forEach(function (k) {
     k = parseInt(k, 10); if (!k || k === 30 || res[k]) return;
@@ -950,7 +955,9 @@ function profiles_() {
     if (lv >= 10) tr.push('lv10');
     if (lv >= 20) tr.push('lv20');
     [['一字多義', 50, 'sense50'], ['片語', 50, 'phrase50'], ['會考文法', 30, 'cap30']].forEach(function (x) { if (dk[x[0]] && dk[x[0]].right >= x[1]) tr.push(x[2]); });
-    res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr };
+    const earn = o.right * CR.right + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge;
+    res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr,
+      own: own[k] || [], earn: earn, coin: Math.max(0, earn - (spent[k] || 0)) };
   });
   cache.put('prof_v1', JSON.stringify(res), 90);
   return res;
@@ -967,14 +974,16 @@ function profile_(seat) {
   if (!p) return { ok: false, error: '找不到這個座號' };
   const L = avItems_().levels;
   return { ok: true, seat: s, xp: p.xp, lv: p.lv, title: avTitle_(p.lv, L.titles), cur: avNeed_(p.lv, L.base), next: p.lv >= 50 ? null : avNeed_(p.lv + 1, L.base),
-    right: p.right, quiz: p.quiz, days: p.days, a: p.a, xpRule: L.xp, tr: p.tr || [] };
+    right: p.right, quiz: p.quiz, days: p.days, a: p.a, xpRule: L.xp, tr: p.tr || [],
+    coin: p.coin || 0, earn: p.earn || 0, own: p.own || [], coinRule: L.coin || { right: 1, quiz: 20, badge: 20 } };
 }
 // 存造型：每個部件都要存在、而且等級夠才能用，否則換回預設
 function saveAvatar_(seat, a) {
   const items = avItems_(), p = profiles_()[seat] || { lv: 1 }, clean = {};
   items.cats.forEach(function (c) {
     const want = a && a[c.key], it = c.items.filter(function (x) { return x.id === want; })[0];
-    const ok = it && (it.t ? (p.tr || []).indexOf(it.t) >= 0 : it.lv <= p.lv);
+    const ok = it && (it.t ? (p.tr || []).indexOf(it.t) >= 0
+      : (it.lv != null && it.lv <= p.lv) || (it.s != null && (p.own || []).indexOf(c.key + ':' + it.id) >= 0));
     clean[c.key] = ok ? it.id : items.default[c.key];
   });
   const sh = avSheet_(), n = sh.getLastRow() - 1;
@@ -982,7 +991,32 @@ function saveAvatar_(seat, a) {
   let row = 0;
   if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (r, i) { if (parseInt(r[0], 10) === seat) row = i + 2; });
   if (row) sh.getRange(row, 2, 1, 2).setValues([[JSON.stringify(clean), stamp]]);
-  else sh.appendRow([seat, JSON.stringify(clean), stamp]);
+  else sh.appendRow([seat, JSON.stringify(clean), stamp, '[]', 0]);
   CacheService.getScriptCache().remove('prof_v1');
   return { ok: true, a: clean };
+}
+// 商店：用代幣買造型（代幣＝答對題數＋小考過關＋徽章，扣掉已經花掉的）
+function buy_(seat, cat, id) {
+  const items = avItems_(), c = items.cats.filter(function (x) { return x.key === cat; })[0];
+  const it = c && c.items.filter(function (x) { return x.id === id; })[0];
+  if (!it || it.s == null) return { ok: false, error: '這個商品不能買' };
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    CacheService.getScriptCache().remove('prof_v1');
+    const p = profiles_()[seat];
+    if (!p) return { ok: false, error: '找不到這個座號' };
+    const key = cat + ':' + id, own = (p.own || []).slice();
+    if (own.indexOf(key) >= 0) return { ok: true, coin: p.coin, own: own, already: true };
+    if (p.coin < it.s) return { ok: false, error: '代幣不夠，還差 ' + (it.s - p.coin) + ' 枚', coin: p.coin };
+    own.push(key);
+    const sh = avSheet_(), n = sh.getLastRow() - 1;
+    let row = 0;
+    if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (r, i) { if (parseInt(r[0], 10) === seat) row = i + 2; });
+    const spent = p.earn - p.coin + it.s;
+    if (row) sh.getRange(row, 4, 1, 2).setValues([[JSON.stringify(own), spent]]);
+    else sh.appendRow([seat, JSON.stringify(p.a || items.default), '', JSON.stringify(own), spent]);
+    CacheService.getScriptCache().remove('prof_v1');
+    return { ok: true, coin: p.coin - it.s, own: own };
+  } finally { lock.releaseLock(); }
 }

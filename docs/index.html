@@ -260,6 +260,16 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .tr:disabled svg{opacity:.3;filter:grayscale(1)}
 .tr b{display:block;font-size:.88rem}
 .tr small{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
+.shopcard{display:flex;flex-direction:column;align-items:center;gap:4px;border:2px solid var(--line);border-radius:12px;padding:8px 6px;background:var(--paper);text-align:center}
+.shopcard.on{border-color:var(--chalk);box-shadow:0 0 0 2px var(--chalk)}
+.shopcard .pic{border:0;background:none;padding:0;cursor:pointer}
+.shopcard b{font-size:.86rem}
+.shopcard .buy{font:inherit;font-size:.8rem;font-weight:800;border-radius:999px;border:0;padding:5px 12px;background:#f2c94c;color:#3a2a00;cursor:pointer}
+.shopcard .buy.sure{background:#c8473a;color:#fff}
+.shopcard .buy:disabled{background:#ddd;color:#777;cursor:not-allowed}
+.shopcard .have{font-size:.78rem;color:var(--chalk);font-weight:800}
+.shopgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
+.coin{font-weight:900;color:#a27400}
 .chestbox{background:var(--card);color:var(--ink);border-radius:20px;padding:22px 24px 14px;width:min(360px,100%);text-align:center}
 .chestbox h3{margin:10px 0 4px}
 .chestbox p{margin:0;color:var(--muted)}
@@ -302,7 +312,7 @@ svg.avatar{border-radius:50%;display:block;flex:none}
       <div class="xpbar" aria-hidden="true"><span id="meXpBar"></span></div>
       <div class="xptxt" id="meXp"></div>
     </div>
-    <div class="mebtns"><button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button><button type="button" class="ghostbtn" id="meTr">🎁 寶物</button></div>
+    <div class="mebtns"><button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button><button type="button" class="ghostbtn" id="meTr">🎁 寶物</button><button type="button" class="ghostbtn" id="meShop">🛒 商店</button></div>
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
@@ -1076,7 +1086,8 @@ function drawMe(){
   $('qAv').innerHTML = AV.svg(ME.a, {size: 34});
   $('meName').textContent = TEACHERS[ME.seat] || $('sname').value || (ME.seat + ' 號');
   $('meLv').textContent = 'Lv.' + ME.lv;
-  $('meTitle').innerHTML = esc(ME.title) + (AV.items && AV.items.treasures ? `<span class="trcount">・💎 寶物 ${trList().filter(t => (ME.tr || []).includes(t.t)).length}/${trList().length}</span>` : '');
+  $('meTitle').innerHTML = esc(ME.title) + (AV.items && AV.items.treasures ? `<span class="trcount">・💎 寶物 ${trList().filter(t => (ME.tr || []).includes(t.t)).length}/${trList().length}</span>` : '') + (ME.coin != null ? `<span class="trcount">・<span class="coin">🪙 ${ME.coin}</span></span>` : '');
+  $('meShop').classList.toggle('hidden', ME.coin == null);
   const span = ME.next == null ? 1 : ME.next - ME.cur, got = ME.next == null ? 1 : ME.xp - ME.cur;
   $('meXpBar').style.width = Math.max(3, Math.min(100, got / span * 100)) + '%';
   $('meXp').textContent = ME.next == null ? `經驗值 ${ME.xp}・已達最高等級！` : `經驗值 ${ME.xp}・再 ${ME.next - ME.xp} 點升到 Lv.${ME.lv + 1}（答對 1 題 +${ME.xpRule.right}、小考過關 +${ME.xpRule.quiz}、每練習一天 +${ME.xpRule.day}）`;
@@ -1090,7 +1101,10 @@ function lvUp(lv){
   if (typeof confetti === 'function') confetti();
   setTimeout(() => d.remove(), 3500);
 }
-const owned = it => !it.t ? it.lv <= ME.lv : (ME.tr || []).includes(it.t);
+// 擁有：寶物看成就；其他看等級，或是在商店買過
+const owned = (it, key) => it.t ? (ME.tr || []).includes(it.t) : (it.lv != null && it.lv <= ME.lv) || (it.s != null && (ME.own || []).includes(key + ':' + it.id));
+const shopList = () => AV.items ? AV.items.cats.flatMap(c => c.items.filter(it => it.s != null).map(it => Object.assign({cat: c.key}, it))) : [];
+let SHOP_SURE = '';
 const trList = () => (AV.items && AV.items.treasures) || [];
 function trThumb(t, size){ const c = Object.assign({}, AV.norm(ME && ME.a)); c[t.cat] = t.id; return t.cat === 'pet' ? AV.thumb(c, 'pet', t.id, size) : AV.svg(c, {size}); }
 // 新拿到的寶物：一個一個開寶箱
@@ -1124,8 +1138,9 @@ function openTr(){
 }
 function openAv(keep){
   if (!ME || !AV.items) return;
-  if (keep !== true) { AVSEL = AV.norm(ME.a); if (AVCAT === '_tr') AVCAT = 'hair'; }
-  $('avTabs').innerHTML = `<button type="button" role="tab" data-c="_tr" aria-selected="${AVCAT === '_tr'}">🎁 寶物</button>` + AV.items.cats.map(c => `<button type="button" role="tab" data-c="${c.key}" aria-selected="${c.key === AVCAT}">${esc(c.name)}</button>`).join('');
+  if (keep !== true) { AVSEL = AV.norm(ME.a); if (AVCAT === '_tr' || AVCAT === '_shop') AVCAT = 'hair'; }
+  SHOP_SURE = '';
+  $('avTabs').innerHTML = (ME.coin != null ? `<button type="button" role="tab" data-c="_shop" aria-selected="${AVCAT === '_shop'}">🛒 商店</button>` : '') + `<button type="button" role="tab" data-c="_tr" aria-selected="${AVCAT === '_tr'}">🎁 寶物</button>` + AV.items.cats.map(c => `<button type="button" role="tab" data-c="${c.key}" aria-selected="${c.key === AVCAT}">${esc(c.name)}</button>`).join('');
   $('avTabs').querySelectorAll('button').forEach(b => b.onclick = () => { AVCAT = b.dataset.c; openAvTab(); });
   $('avMsg').textContent = '';
   $('avModal').classList.remove('hidden');
@@ -1134,7 +1149,8 @@ function openAv(keep){
 function openAvTab(){
   $('avTabs').querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', b.dataset.c === AVCAT));
   $('avPrev').innerHTML = AV.svg(AVSEL, {size: 110});
-  $('avGrid').className = AVCAT === '_tr' ? 'trgrid' : 'avgrid';
+  $('avGrid').className = AVCAT === '_tr' ? 'trgrid' : AVCAT === '_shop' ? 'shopgrid' : 'avgrid';
+  if (AVCAT === '_shop') { drawShop(); return; }
   if (AVCAT === '_tr') {
     const T = trList(), n = T.filter(t => (ME.tr || []).includes(t.t)).length;
     $('avLvTxt').textContent = `寶物 ${n}/${T.length}・達成條件就會自動開寶箱`;
@@ -1145,10 +1161,10 @@ function openAvTab(){
   }
   $('avLvTxt').textContent = `Lv.${ME.lv} ${ME.title}・等級越高，能選的越多；💎 是寶物`;
   const cat = AV.items.cats.find(c => c.key === AVCAT);
-  $('avGrid').innerHTML = cat.items.filter(it => !it.t || owned(it)).map(it => {
-    const lock = !owned(it);
+  $('avGrid').innerHTML = cat.items.filter(it => (!it.t && it.lv != null) || owned(it, cat.key)).map(it => {
+    const lock = !owned(it, cat.key);
     const pic = it.c && cat.key !== 'skin' && !it.t ? `<span class="sw" style="background:${it.c}"></span>` : AV.thumb(AVSEL, cat.key, it.id, 52);
-    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? 'Lv.' + it.lv + ' 解鎖' : esc(it.name)}">${it.t ? '<span class="gem">💎</span>' : ''}${pic}${lock ? `<span class="lock">🔒Lv.${it.lv}</span>` : ''}<span>${esc(it.name)}</span></button>`;
+    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? 'Lv.' + it.lv + ' 解鎖' : esc(it.name)}">${it.t ? '<span class="gem">💎</span>' : ''}${pic}${lock ? `<span class="lock">🔒Lv.${it.lv}</span>` : ''}${it.s != null && !it.t && it.lv == null ? '<span class="gem">🛒</span>' : ''}<span>${esc(it.name)}</span></button>`;
   }).join('');
   $('avGrid').querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { AVSEL[AVCAT] = b.dataset.i; openAvTab(); });
 }
@@ -1156,10 +1172,43 @@ $('meEdit').onclick = openAv; $('meAv').onclick = openAv;
 $('avClose').onclick = () => $('avModal').classList.add('hidden');
 $('avModal').onclick = e => { if (e.target === $('avModal')) $('avModal').classList.add('hidden'); };
 $('avRand').onclick = () => {
-  AV.items.cats.forEach(c => { const ok = c.items.filter(owned); AVSEL[c.key] = ok[Math.floor(Math.random() * ok.length)].id; });
+  AV.items.cats.forEach(c => { const ok = c.items.filter(it => owned(it, c.key)); AVSEL[c.key] = ok[Math.floor(Math.random() * ok.length)].id; });
   openAvTab();
 };
+function drawShop(){
+  const R = ME.coinRule || {right: 1, quiz: 20, badge: 20};
+  $('avLvTxt').innerHTML = `<span class="coin">🪙 ${ME.coin}</span> 枚代幣・答對 1 題 +${R.right}、小考過關 +${R.quiz}、每個徽章 +${R.badge}。點圖可以先試穿`;
+  const L = shopList().sort((a, b) => a.s - b.s);
+  $('avGrid').innerHTML = L.map(it => {
+    const k = it.cat + ':' + it.id, have = owned(it, it.cat), on = AVSEL[it.cat] === it.id;
+    const pic = AV.thumb(AVSEL, it.cat, it.id, 58);
+    const btn = have ? '<span class="have">✓ 已擁有</span>'
+      : `<button type="button" class="buy${SHOP_SURE === k ? ' sure' : ''}" data-k="${k}" ${ME.coin < it.s ? 'disabled' : ''}>${SHOP_SURE === k ? '確定花 🪙' + it.s + '？' : '🪙 ' + it.s}</button>`;
+    return `<div class="shopcard${on ? ' on' : ''}"><button type="button" class="pic" data-cat="${it.cat}" data-i="${it.id}" title="試穿">${pic}</button><b>${esc(it.name)}</b>${it.lv != null && !have ? `<small class="hint">或 Lv.${it.lv} 免費</small>` : ''}${btn}</div>`;
+  }).join('');
+  $('avGrid').querySelectorAll('.pic').forEach(b => b.onclick = () => { const c = b.dataset.cat; AVSEL[c] = AVSEL[c] === b.dataset.i ? AV.norm(ME.a)[c] : b.dataset.i; openAvTab(); });
+  $('avGrid').querySelectorAll('.buy').forEach(b => b.onclick = () => { if (SHOP_SURE !== b.dataset.k) { SHOP_SURE = b.dataset.k; drawShop(); return; } buy(b.dataset.k); });
+}
+async function buy(k){
+  const [cat, id] = k.split(':');
+  $('avMsg').textContent = '購買中…';
+  try {
+    const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'},
+      body: JSON.stringify({type: 'buy', seat: $('seat').value, pin: $('spin').value.trim(), cat, id})});
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || '購買失敗');
+    ME.coin = j.coin; ME.own = j.own; SHOP_SURE = '';
+    AVSEL[cat] = id;
+    const it = AV.map[cat][id];
+    $('avMsg').textContent = `🎉 買到「${it.name}」了！按「儲存」就會穿上`;
+    try { SND.ok(8); } catch (e) {}
+    if (typeof confetti === 'function') confetti();
+    drawMe(); openAvTab();
+  } catch (e) { SHOP_SURE = ''; $('avMsg').textContent = '⚠️ ' + e.message; drawShop(); }
+}
 async function saveAv(){
+  const bad = AV.items.cats.find(c => { const it = AV.map[c.key][AVSEL[c.key]]; return it && !owned(it, c.key); });
+  if (bad) { $('avMsg').textContent = `⚠️ 「${AV.map[bad.key][AVSEL[bad.key]].name}」還沒擁有，先買下來或換掉再儲存`; return false; }
   try {
     const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'},
       body: JSON.stringify({type: 'avatar', seat: $('seat').value, pin: $('spin').value.trim(), avatar: AVSEL})});
@@ -1176,6 +1225,7 @@ $('avSave').onclick = async () => {
   $('avSave').disabled = false;
 };
 $('meTr').onclick = openTr;
+$('meShop').onclick = () => { if (!ME || !AV.items) return; AVSEL = AV.norm(ME.a); AVCAT = '_shop'; openAv(true); };
 
 // 個人密碼：老師在試算表「名單」設定；輸入對了才能開始、上傳
 var PIN_OK = false;
