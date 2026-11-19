@@ -270,6 +270,11 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .shopcard .have{font-size:.78rem;color:var(--chalk);font-weight:800}
 .shopgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
 .coin{font-weight:900;color:#a27400}
+.mybox{display:flex;gap:10px;align-items:center;border:2px solid var(--chalk);border-radius:14px;padding:8px 12px;margin:0 0 12px;background:var(--paper)}
+.mybox b b,.mybox div b{color:var(--chalk)}
+.mybox small{color:var(--muted)}
+tr.gap td{text-align:center;color:var(--muted);padding:0}
+@media (max-width:520px){#boardBody .opt{display:none}#boardBody .nmav span{white-space:nowrap}}
 .chestbox{background:var(--card);color:var(--ink);border-radius:20px;padding:22px 24px 14px;width:min(360px,100%);text-align:center}
 .chestbox h3{margin:10px 0 4px}
 .chestbox p{margin:0;color:var(--muted)}
@@ -1240,7 +1245,7 @@ async function checkPin(quiet){
   try {
     const j = await fetch(SHEET_URL + '?action=login&seat=' + seat + '&pin=' + encodeURIComponent(pin)).then(r => r.json());
     if (my !== pinSeq) return;
-    if (j.ok) { PIN_OK = true; pinMsg('✓', 'ok'); if (j.given && !TEACHERS[seat]) $('sname').value = j.given; loadProfile(); }
+    if (j.ok) { PIN_OK = true; pinMsg('✓', 'ok'); if (j.given && !TEACHERS[seat]) $('sname').value = j.given; loadProfile(); if (boardData) loadBoard(); }
     else { PIN_OK = false; pinMsg(j.error || '密碼不對', 'bad'); }
   } catch (e) { if (my === pinSeq) { PIN_OK = true; pinMsg(''); } }   // 網路不穩時先讓他考，交卷時伺服器會再檢查
   saveStudent(); update();
@@ -1322,7 +1327,8 @@ async function loadBoard(){
   if (!SHEET_URL) { body.textContent = '尚未設定成績網址。'; return; }
   body.className = 'empty'; body.textContent = '載入中…';
   try {
-    const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod + '&type=' + boardType);
+    const mine = PIN_OK && $('seat').value && $('spin').value.trim() ? '&seat=' + $('seat').value + '&pin=' + encodeURIComponent($('spin').value.trim()) : '';
+    const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod + '&type=' + boardType + mine);
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '');
     boardData = j; drawBoard();
@@ -1345,7 +1351,7 @@ function drawBoard(){
   const nm = x => esc(TEACHERS[x.seat] || (x.given ?? givenName(x.name)));
   const pct = v => v == null ? '—' : v + '%';
   const cols = {
-    right: ['<th class="n">答對題數</th><th class="n">測驗次數</th><th class="n">答對率</th>', x => `<td class="n">${x.right}</td><td class="n">${x.tests}</td><td class="n">${pct(x.rate)}</td>`],
+    right: ['<th class="n">答對</th><th class="n">作答題數</th><th class="n">答對率</th><th class="n opt">測驗次數</th>', x => `<td class="n">${x.right}</td><td class="n">${x.answered ?? '—'}</td><td class="n">${pct(x.rate)}</td><td class="n opt">${x.tests}</td>`],
     rate: ['<th class="n">答對率</th><th class="n">作答題數</th>', x => `<td class="n">${pct(x.rate)}</td><td class="n">${x.fAns}</td>`],
     up: [`<th class="n">進步</th><th class="n">${PREV_ZH[boardPeriod] || '上期'}</th><th class="n">${PERIOD_ZH[boardPeriod]}</th>`, x => `<td class="n up">+${x.up}</td><td class="n">${pct(x.prevRate)}</td><td class="n">${pct(x.rate)}</td>`]
   }[boardSort];
@@ -1353,11 +1359,16 @@ function drawBoard(){
   const AVM = j.av || {}, avOf = seat => (window.AV && AV.items) ? AV.svg((AVM[seat] || {}).a, {size: 28}) : '';
   const lvOf = seat => AVM[seat] ? `<span class="lvs">Lv.${AVM[seat].lv}</span>` : '';
   const top3 = list.filter(x => x.rank <= 3).slice(0, 3);
-  const podium = top3.length && window.AV && AV.items ? `<div class="podium">${[top3[1], top3[0], top3[2]].filter(Boolean).map(x => `<div class="pd p${x.rank}"><span class="medal">${['🥇', '🥈', '🥉'][x.rank - 1]}</span>${AV.svg((AVM[x.seat] || {}).a, {size: x.rank === 1 ? 86 : 64})}<b>${nm(x)}</b><small>${AVM[x.seat] ? 'Lv.' + AVM[x.seat].lv + '・' : ''}${boardSort === 'right' ? x.right + ' 題' : boardSort === 'rate' ? pct(x.rate) : '+' + x.up}</small></div>`).join('')}</div>` : '';
+  const podium = top3.length && window.AV && AV.items ? `<div class="podium">${[top3[1], top3[0], top3[2]].filter(Boolean).map(x => `<div class="pd p${x.rank}"><span class="medal">${['🥇', '🥈', '🥉'][x.rank - 1]}</span>${AV.svg((AVM[x.seat] || {}).a, {size: x.rank === 1 ? 86 : 64})}<b>${nm(x)}</b><small>${AVM[x.seat] ? 'Lv.' + AVM[x.seat].lv + '・' : ''}${boardSort === 'right' ? '答對 ' + x.right + (x.answered != null ? '／' + x.answered + ' 題' : ' 題') : boardSort === 'rate' ? pct(x.rate) : '+' + x.up}</small></div>`).join('')}</div>` : '';
+  // 我自己的這段期間成績（沒上榜也看得到）
+  const M = j.me && j.me.seat === me ? j.me : null;
+  const myBox = M ? `<div class="mybox">${window.AV && AV.items ? AV.svg((AVM[me] || {}).a, {size: 40}) : ''}<div><b>我${PERIOD_ZH[boardPeriod] ? '（' + PERIOD_ZH[boardPeriod] + (tz ? '・' + tz : '') + '）' : ''}</b><div>作答 <b>${M.answered}</b> 題・答對 <b>${M.right}</b> 題・答對率 ${pct(M.rate)}・交卷 ${M.tests} 次</div><small>${M.rank ? `答對題數排第 ${M.rank} 名（共 ${M.total} 人）` : '這段期間還沒交卷，做一回就能上榜！'}</small></div></div>` : '';
+  const inList = list.some(x => x.seat === me);
   body.className = '';
-  body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + podium + (list.length
+  body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + myBox + podium + (list.length
     ? `<table><thead><tr><th>名次</th><th>座號</th><th>名字</th>${cols[0]}</tr></thead><tbody>` +
-      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td><span class="nmav">${avOf(x.seat)}<span>${nm(x)}${lvOf(x.seat)}</span></span>${bic(x.seat)}</td>${cols[1](x)}</tr>`).join('') + '</tbody></table>'
+      list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td><span class="nmav">${avOf(x.seat)}<span>${nm(x)}${lvOf(x.seat)}</span></span>${bic(x.seat)}</td>${cols[1](x)}</tr>`).join('') +
+      (boardSort === 'right' && M && !inList && M.rank ? `<tr class="gap"><td colspan="${cols[0].split('<th').length + 2}">⋯</td></tr><tr class="me"><td><span class="rk">${M.rank}</span></td><td>${seatLabel(me)}</td><td><span class="nmav">${avOf(me)}<span>我${lvOf(me)}</span></span>${bic(me)}</td>${cols[1](M)}</tr>` : '') + '</tbody></table>'
     : `<div class="empty">${empty}</div>`);
   $('boardHint').textContent = {
     right: `依${PERIOD_ZH[boardPeriod]}${tz}答對題數加總排名，做越多、答對越多就越前面。`,

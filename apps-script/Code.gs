@@ -157,7 +157,16 @@ function doGet(e) {
     return { seat: +seat, name: names[seat], streak: k };
   });
 
-  return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards,
+  // 自己的成績（沒進前 10 名也看得到）：要帶座號和個人密碼
+  let me = null;
+  const ms = parseInt(p.seat, 10);
+  if (ms && p.pin && checkPin_(ms, p.pin).ok) {
+    const s = cur[ms];
+    me = s ? entry(s) : { seat: ms, right: 0, answered: 0, tests: 0, rate: null, fAns: 0 };
+    me.rank = s && s.right > 0 ? 1 + list.filter(function (x) { return x.right > s.right; }).length : null;
+    me.total = list.filter(function (x) { return x.right > 0; }).length;
+  }
+  return out_({ ok: true, period: period, from: from, today: today, top: boards.right, boards: boards, me: me,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
     type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows), av: avMap_() });
 }
