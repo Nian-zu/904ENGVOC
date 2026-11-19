@@ -284,7 +284,7 @@ const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxVmbIvH50EIkAU283p-M
           b.bank.forEach(q => { if (q.r >= 40000) items.push({題號: q.r, 回: b.labels[q.d], 題型: kz[q.k], 單字: q.w,
             題目: q.m != null ? q.a + '【' + q.m + '】' + q.b : q.a + '____' + q.b, 答案: q.o[q.c], 中文: q.t ? q.t + '・' + q.p : ''}); });
           if (jt) jt.items.forEach(q => items.push({題號: q.r, 回: 'U' + q.u, 題型: '寂天', 單字: q.w,
-            題目: (q.j === 'e' ? '英翻中：' + q.w : '中翻英：' + q.zh) + ' ' + q.p, 答案: q.o[q.c], 中文: q.zh}));
+            題目: q.j === 's' ? '選擇題：' + q.a + '____' + q.b : (q.j === 'e' ? '英翻中：' + q.w : '中翻英：' + q.zh) + ' ' + q.p, 答案: q.o[q.c], 中文: q.zh}));
           raw.items = items;
         }
         Object.assign(raw, d.blocks);

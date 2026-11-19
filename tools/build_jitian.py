@@ -116,6 +116,40 @@ def main():
             if x['lv'] in ('1', '2'): q['lv'] = int(x['lv'])
             items.append(q)
             key[str(i)] = [c, x['w'], 'U%d' % x['u']]
+    # ---------- 例句選擇題（j = 's'）：tools/jitian/sentences.txt，句子與誘答人工編寫 ----------
+    byw = {}
+    for x in W: byw.setdefault(x['w'].lower(), x)
+    nsent = 0
+    for line in open(os.path.join(ROOT, 'tools', 'jitian', 'sentences.txt'), encoding='utf-8'):
+        line = line.rstrip('\n')
+        if not line.strip() or line.startswith('#'): continue
+        u, w, sent, ans, ds, zh = line.split('|')
+        x = next((y for y in W if y['u'] == int(u) and y['w'] == w), None)
+        assert x, ('找不到單字', u, w)
+        assert sent.count('___') == 1, sent
+        opts = [(ans, w)]
+        for d in ds.split(','):
+            f, _, base = d.partition('=')
+            base = base or f
+            assert base.lower() in byw, ('誘答不在單字表', base)
+            assert f.lower() != ans.lower(), line
+            opts.append((f, base))
+        assert len(opts) == 4, line
+        sid = f"jt|{x['u']}|{x['n']}|{x['w']}|s"
+        if sid not in ids:
+            ids[sid] = nxt; nxt += 1
+        i = ids[sid]
+        order = list(range(4)); random.Random(sid).shuffle(order)
+        o = [opts[k] for k in order]
+        c = order.index(0)
+        a, b = sent.split('___')
+        q = {'k': 'jt', 'j': 's', 'u': x['u'], 'w': x['w'], 'p': x['p'], 'zh': x['zh'], 'r': i, 'g': f"jt{x['u']}-{x['n']}",
+             'a': a, 'b': b, 'z': zh, 'c': c, 'o': [f for f, _ in o],
+             'oz': [byw[base.lower()]['w'] + ' ' + byw[base.lower()]['zh'] if f.lower() != byw[base.lower()]['w'].lower() else byw[base.lower()]['zh'] for f, base in o]}
+        if x['nt']: q['nt'] = x['nt']
+        items.append(q); nsent += 1
+        key[str(i)] = [c, x['w'], 'U%d' % x['u']]
+    print('例句選擇題', nsent, '題')
     json.dump({'book': src['book'], 'units': src['units'], 'items': items}, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     json.dump(key, open(KEY, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     json.dump(ids, open(IDS, 'w', encoding='utf-8'), ensure_ascii=False, indent=0, sort_keys=True)

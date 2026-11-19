@@ -1,0 +1,159 @@
+# 寂天 RS3 例句選擇題（老師段考範圍 U11–U20）
+# 格式：單元|單字（與 rs3.json 相同）|句子（___ 是空格）|答案（句中的樣子）|誘答（逗號分開；變化形寫成 形式=原形）|中文
+11|junior|Amy is in her third year of ___ high school.|junior|silly,amazing,tough|艾咪是國中三年級的學生。
+11|fellow|The players thanked their ___ teammates after the game.|fellow|explode,discover,luck|比賽結束後，球員們感謝他們的隊友。
+11|silly|Don't ask me such a ___ question! Everyone knows the answer.|silly|quit,explode,luck|別問我這麼蠢的問題！大家都知道答案。
+11|principal|The ___ gave a speech to all the students at the school meeting.|principal|luck,experiment,beetle|校長在朝會上對全體學生演講。
+11|discover|Scientists hope to ___ new kinds of animals deep in the ocean.|discover|quit,explode,apologize|科學家希望在深海發現新的動物種類。
+11|feel at home|Our host family was so kind that I began to ___ in just a few days.|feel at home|result in,feed on,cut out|寄宿家庭非常親切，我才幾天就感到很自在。
+11|amazing|The view from the top of the mountain was ___, so I took a lot of photos.|amazing|ignorant,careless,unconscious|山頂的景色太驚人了，所以我拍了很多照片。
+11|hero|The firefighter saved three children from the fire, and everyone called him a ___.|hero|beetle,nest,kilogram|消防員從火場救出三個孩子，大家都稱他為英雄。
+11|tough|The math test was so ___ that only two students passed it.|tough|colorful,comfortable,female|數學考試太難了，只有兩個學生及格。
+11|quit|He decided to ___ smoking for his health.|quit|discover,breathe,lay|為了健康，他決定戒菸。
+11|explode|The firework flew into the sky and ___ with a loud bang.|exploded|buried=bury,apologized=apologize,weighed=weigh|煙火飛上天空，砰的一聲爆炸了。
+11|experiment|We did an interesting ___ in science class to see how plants grow without sunlight.|experiment|nest,colleague,kilogram|我們在自然課做了一個有趣的實驗，看看植物沒有陽光會怎麼生長。
+11|support|Thank you for your ___. I couldn't have won without you.|support|disease,bias,emergency|謝謝你的支持，沒有你我不可能贏。
+11|luck|Good ___ on your exam tomorrow!|luck|hole,dung,paperwork|祝你明天考試好運！
+12|creature|Many strange ___ live at the bottom of the sea.|creatures|medals=medal,kilograms=kilogram,statements=statement|海底住著許多奇怪的生物。
+12|tiny|An ant is so ___ that you can hardly see it.|tiny|furious,brave,intelligent|螞蟻小到你幾乎看不見。
+12|dung|This beetle makes balls of animal ___ and uses them as food.|dung|silver,paperwork,luck|這種甲蟲會把動物糞便做成球，拿來當食物。
+12|beetle|A dung ___ can push a ball that is fifty times heavier than its body.|beetle|dentist,principal,manager|糞金龜能推動比牠的身體重五十倍的球。
+12|nest|The bird built a ___ in the tree to keep its eggs safe.|nest|medal,blog,collar|鳥在樹上築巢，保護牠的蛋。
+12|hole|The rabbit ran into a ___ in the ground to hide from the fox.|hole|niece,tradition,medal|兔子跑進地上的洞裡躲狐狸。
+12|female|Only ___ mosquitoes bite people; the males don't.|female|careless,cruel,recent|只有母蚊子會叮人，公蚊子不會。
+12|lay|Our hens ___ about five eggs every week.|lay|argue,breathe,apologize|我們的母雞每週大約下五顆蛋。
+12|hatch|The baby birds will ___ from their eggs in about two weeks.|hatch|bury,ruin,maintain|小鳥大約兩週後會從蛋裡孵出來。
+12|feed on|Pandas mainly ___ bamboo.|feed on|make up,go missing,fall out|貓熊主要以竹子為食。
+12|disgusting|The garbage had been there for a week, and the smell was ___.|disgusting|intelligent,skillful,brave|垃圾放了一個星期，味道令人作嘔。
+12|ignorant|He is ___ about computers. He doesn't even know how to send an email.|ignorant|colorful,recent,average|他對電腦一無所知，連怎麼寄電子郵件都不會。
+12|alike|The twins look so ___ that even their teacher can't tell them apart.|alike|anytime,someday,mostly|這對雙胞胎長得好像，連老師都分不出來。
+12|nutrient|Vegetables are full of ___ that keep our bodies healthy.|nutrients|emergencies=emergency,ambulances=ambulance,colleagues=colleague|蔬菜富含讓身體保持健康的營養素。
+12|moreover|This phone is cheap. ___, it has a great camera.|Moreover|Someday=someday,Forever=forever,Anytime=anytime|這支手機很便宜。此外，它的相機也很棒。
+12|bury|The dog likes to ___ its bones in the garden.|bury|breathe,apologize,argue|那隻狗喜歡把骨頭埋在花園裡。
+12|nasty|The medicine tasted ___, but it made me feel better.|nasty|brave,skillful,intelligent|這藥很難喝，但讓我舒服多了。
+12|spread|Wash your hands often so that you don't ___ germs to others.|spread|weigh,apologize,argue|要常洗手，才不會把細菌傳給別人。
+12|disease|Smoking can cause heart ___.|disease|paperwork,custom,tradition|抽菸可能導致心臟病。
+12|bother|Please don't ___ your father. He is working on something important.|bother|breathe,weigh,lay|請不要打擾你爸爸，他正在忙重要的事。
+13|prof. (=professor)|___ Lee teaches history at the university.|Prof.|Niece=niece,Colleague=colleague,Manager=manager|李教授在大學教歷史。
+13|blog|She writes about her trips on her ___, and many people read it.|blog|blood,luck,nest|她在部落格上寫旅行的事，很多人都會看。
+13|dentist|I have a toothache, so I need to see a ___.|dentist|principal,colleague,beetle|我牙痛，所以要去看牙醫。
+13|blood|He cut his finger, and ___ came out.|blood|luck,silver,tradition|他割到手指，流血了。
+13|careless|You made a lot of ___ mistakes on the test. Check your answers next time.|careless|female,mixed-breed,colorful|你考試犯了很多粗心的錯，下次要檢查答案。
+13|single|She didn't say a ___ word all day.|single|tough,junior,furious|她一整天一個字都沒說。
+13|maintain|It costs a lot of money to ___ an old car.|maintain|explode,breathe,argue|保養一台舊車要花很多錢。
+13|colleague|My mom often has lunch with her ___ from the office.|colleagues|diseases=disease,holes=hole,nutrients=nutrient|我媽媽常和辦公室的同事一起吃午餐。
+13|due to|The baseball game was canceled ___ the heavy rain.|due to|result in,feed on,cut out|棒球比賽因為大雨取消了。
+13|tradition|Eating mooncakes is a ___ of the Moon Festival.|tradition|disease,blog,hole|吃月餅是中秋節的傳統。
+13|result in|Driving too fast can ___ terrible accidents.|result in|due to,feel at home,go missing|開車太快可能導致嚴重的車禍。
+13|suggest|The doctor ___ that I drink more water.|suggested|exploded=explode,hatched=hatch,buried=bury|醫生建議我多喝水。
+13|ruin|The heavy rain ___ our picnic.|ruined|discovered=discover,hatched=hatch,apologized=apologize|大雨毀了我們的野餐。
+13|intelligent|Dolphins are very ___ animals. They can learn many tricks.|intelligent|recent,nasty,single|海豚是很聰明的動物，能學會很多把戲。
+13|someday|I hope to visit Japan ___.|someday|moreover,secondly,alike|我希望有一天能去日本。
+14|make up|They had a fight yesterday, but they ___ today.|made up|cut out=cut out,went missing=go missing,fed on=feed on|他們昨天吵架，但今天和好了。
+14|fall out|Jack and his best friend ___ over a girl.|fell out|fed on=feed on,cut out=cut out,felt at home=feel at home|傑克和他最好的朋友為了一個女孩鬧翻了。
+14|argue|My parents sometimes ___ about money.|argue|breathe,lay,weigh|我爸媽有時候會為錢爭吵。
+14|normal|It's ___ to feel nervous before a big test.|normal|female,mixed-breed,colorful|大考前會緊張是正常的。
+14|friendship|Their ___ began in elementary school and has lasted for twenty years.|friendship|paperwork,ambulance,kilogram|他們的友誼從小學開始，已經維持二十年了。
+14|overcome|With her family's help, she ___ her fear of water.|overcame|weighed=weigh,hatched=hatch,rearranged=rearrange|在家人的幫助下，她克服了怕水的恐懼。
+14|conflict|The two countries tried to solve the ___ by talking, not fighting.|conflict|nutrient,collar,medal|兩國試著用對話而不是戰爭來解決衝突。
+14|suggestion|Do you have any ___ about where we should go for the class trip?|suggestions|collars=collar,kilograms=kilogram,beetles=beetle|你對校外教學要去哪裡有什麼建議嗎？
+14|calm|Take a deep breath and ___ down.|calm|weigh,hatch,quit|深呼吸，冷靜下來。
+14|resolve|The teacher helped the two students ___ their problem.|resolve|breathe,lay,hatch|老師幫兩位學生解決了他們的問題。
+14|secondly|First, it's too expensive. ___, it's too big for my room.|Secondly|Someday=someday,Forever=forever,Anytime=anytime|首先，它太貴了。其次，它對我的房間來說太大了。
+14|statement|The company made a ___ about the accident on TV.|statement|nest,dung,kilogram|公司在電視上針對事故發表了聲明。
+14|apologize|You should ___ to your sister for breaking her toy.|apologize|breathe,weigh,lay|你弄壞了妹妹的玩具，應該跟她道歉。
+14|blame|Don't ___ others for your own mistakes.|blame|breathe,hatch,weigh|不要把自己的錯怪到別人身上。
+14|comfortable|This sofa is so soft and ___ that I fell asleep on it.|comfortable|furious,ignorant,careless|這張沙發又軟又舒服，我在上面睡著了。
+14|solution|We need to find a ___ to the traffic problem.|solution|beetle,niece,medal|我們需要找出解決交通問題的辦法。
+15|coach|Our basketball ___ makes us run ten laps before every practice.|coach|niece,beetle,ambulance|我們的籃球教練每次練習前都要我們跑十圈。
+15|picture|Close your eyes and ___ yourself on a beautiful beach.|picture|weigh,hatch,breathe|閉上眼睛，想像自己在美麗的海灘上。
+15|politics|My uncle loves talking about ___ and the news.|politics|kilograms=kilogram,ambulances=ambulance,collars=collar|我叔叔喜歡談論政治和新聞。
+15|college|After high school, my sister went to ___ to study art.|college|dung,blood,luck|高中畢業後，我姊姊去讀大學學藝術。
+15|male|In this kind of bird, the ___ ones have brighter feathers than the females.|male|careless,ignorant,recent|在這種鳥類中，雄鳥的羽毛比雌鳥鮮豔。
+15|situation|The ___ is getting worse. We need to call for help now.|situation|kilogram,collar,nest|情況越來越糟，我們現在需要求救。
+15|indeed|A friend in need is a friend ___.|indeed|secondly,moreover,someday|患難見真情。
+15|silver|She came in second in the race and won a ___ medal.|silver|luck,blog,collar|她賽跑得了第二名，拿到銀牌。
+15|medal|The Olympic winner proudly showed his gold ___ to the cameras.|medal|dung,nutrient,disease|奧運冠軍驕傲地向鏡頭展示他的金牌。
+15|cut out|For a long time, women were ___ of many sports.|cut out|fed on=feed on,gone missing=go missing,felt at home=feel at home|長久以來，女性被排除在許多運動之外。
+15|employ|The new factory will ___ about 500 workers.|employ|breathe,hatch,apologize|新工廠將僱用大約 500 名員工。
+15|skillful|He is a ___ driver. He has never had an accident.|skillful|disgusting,tiny,recent|他是個技術熟練的駕駛，從沒出過車禍。
+15|average|The ___ age of the students in our class is fifteen.|average|female,careless,cruel|我們班學生的平均年齡是十五歲。
+15|manager|If you have a problem with the food, please talk to the restaurant ___.|manager|beetle,nutrient,collar|如果你對餐點有意見，請找餐廳經理。
+15|bias|A judge must make decisions without any ___.|bias|kilogram,collar,nest|法官必須不帶任何偏見地做決定。
+15|ignore|He ___ my message and didn't reply.|ignored|hatched=hatch,weighed=weigh,breathed=breathe|他不理我的訊息，也沒有回覆。
+16|discussion|We had a long ___ about where to go for the class trip.|discussion|dung,kilogram,beetle|我們針對校外教學要去哪裡討論了很久。
+16|aquarium|We saw sharks and colorful fish at the ___.|aquarium|dentist,paperwork,emergency|我們在水族館看到鯊魚和色彩繽紛的魚。
+16|colorful|The garden is full of ___ flowers in spring.|colorful|ignorant,careless,furious|春天時花園裡開滿五顏六色的花。
+16|up close|At the zoo, we could see the lions ___.|up close|due to,result in,feed on|在動物園裡，我們可以近距離看獅子。
+16|scientist|The ___ spent ten years studying how whales talk to each other.|scientist|ambulance,aquarium,kilogram|這位科學家花了十年研究鯨魚如何彼此溝通。
+16|ocean|The Pacific ___ is the largest in the world.|Ocean|Collar=collar,Blog=blog,Medal=medal|太平洋是世界上最大的海洋。
+16|cruel|It's ___ to keep a big dog in a tiny cage all day.|cruel|colorful,average,junior|整天把大狗關在小籠子裡很殘忍。
+16|feeling|I have a ___ that something bad will happen.|feeling|nest,dung,collar|我有一種壞事要發生的感覺。
+16|dangerous|It's ___ to swim in the river after heavy rain.|dangerous|colorful,junior,female|大雨過後在河裡游泳很危險。
+16|firsthand|Working at the hospital gave her ___ experience of a doctor's life.|firsthand|someday,moreover,secondly|在醫院工作讓她親身體驗了醫生的生活。
+16|naturally|Her hair is ___ curly. She never goes to the hair salon.|naturally|someday,secondly,moreover|她的頭髮是天生捲的，從來不去美髮院。
+16|belong|Wild animals ___ in nature, not in cages.|belong|weigh,hatch,apologize|野生動物應該待在大自然裡，而不是籠子裡。
+16|against|Most students voted ___ the new school rule.|against|onto,including,since|大部分學生投票反對新校規。
+16|vote|Let's ___ to decide which movie to watch.|vote|breathe,lay,hatch|我們投票決定要看哪部電影吧。
+17|restaurant|We had dinner at a famous Italian ___ last night.|restaurant|ambulance,kilogram,beetle|我們昨晚在一家有名的義大利餐廳吃晚餐。
+17|host|Which country will ___ the next Olympic Games?|host|breathe,weigh,lay|下一屆奧運會由哪個國家主辦？
+17|emergency|In an ___, call 119 right away.|emergency|aquarium,item,ocean|遇到緊急情況時，馬上打 119。
+17|item|There are only three ___ on the menu today.|items|nests=nest,diseases=disease,holes=hole|今天菜單上只有三個品項。
+17|discuss|Let's ___ this problem at the class meeting.|discuss|breathe,weigh,hatch|我們在班會上討論這個問題吧。
+17|recent|In ___ years, more and more people have started working from home.|recent|furious,ignorant,cruel|近年來，越來越多人開始在家工作。
+17|restrict|The new rule will ___ the number of customers to twenty at a time.|restrict|hatch,breathe,apologize|新規定會把客人人數限制在一次二十位。
+17|altogether|There are thirty students in our class ___.|altogether|secondly,moreover,anytime|我們班總共有三十個學生。
+17|provide|The hotel ___ free breakfast for all guests.|provides|breathes=breathe,hatches=hatch,apologizes=apologize|這家飯店為所有房客提供免費早餐。
+17|pay|The job is hard, but the ___ is good.|pay|hole,dung,nest|這份工作很辛苦，但薪水很好。
+17|necessary|Is it ___ to bring my passport?|necessary|female,colorful,junior|一定要帶護照嗎？
+17|paperwork|Before you start the new job, you have to finish a lot of ___.|paperwork|dung,blood,luck|開始新工作前，你得完成很多書面作業。
+17|apply|She wants to ___ for a job at the bank.|apply|breathe,hatch,lay|她想應徵銀行的工作。
+17|rearrange|Let's ___ the desks so that we can work in groups.|rearrange|breathe,hatch,apologize|我們把桌子重新排一排，好分組工作吧。
+17|social distancing|During the pandemic, ___ meant staying at least 1.5 meters away from others.|social distancing|paperwork,friendship,tradition|疫情期間，保持社交距離就是和別人保持至少 1.5 公尺。
+18|go missing|Our cat ___ last week, and we still can't find her.|went missing|made up=make up,fell out=fall out,felt at home=feel at home|我們的貓上週走失了，到現在還找不到。
+18|since|He moved to Taichung in 2020 and has lived there ever ___.|since|onto,against,including|他 2020 年搬到臺中，從那以後就一直住在那裡。
+18|forest|Many wild animals live in the ___.|forest|collar,kilogram,blog|很多野生動物住在森林裡。
+18|collar|The dog wears a red ___ with its name on it.|collar|nest,blood,ocean|那隻狗戴著寫有名字的紅色項圈。
+18|mixed-breed|Max is a ___ dog. His mother was a poodle, and his father was a beagle.|mixed-breed|careless,ignorant,recent|麥克斯是混種狗，媽媽是貴賓狗，爸爸是米格魯。
+18|mostly|The dog is ___ white, with a few black spots.|mostly|someday,moreover,secondly|那隻狗大部分是白色的，有幾個黑色斑點。
+18|spot|Our dog has a brown ___ on its back.|spot|luck,kilogram,paperwork|我們的狗背上有一個棕色斑點。
+18|including|Everyone came to the party, ___ my grandparents.|including|onto,against,since|大家都來參加派對了，包括我的祖父母。
+18|weigh|How much does your dog ___?|weigh|breathe,apologize,argue|你的狗有多重？
+18|kilogram|The dog weighs about ten ___.|kilograms|collars=collar,medals=medal,nests=nest|那隻狗大約十公斤重。
+18|centimeter|The dog is about 50 ___ tall.|centimeters|kilograms=kilogram,collars=collar,medals=medal|那隻狗大約 50 公分高。
+18|treat|My dog sits down nicely when I give him a ___.|treat|blood,disease,kilogram|我給狗狗零食時，牠會乖乖坐下。
+18|whoever|___ finds my lost dog will get a reward.|Whoever|Whenever=whenever,Anytime=anytime,Including=including|無論誰找到我走失的狗，都會得到酬金。
+18|receive|Did you ___ my email yesterday?|receive|breathe,weigh,hatch|你昨天有收到我的電子郵件嗎？
+18|reward|We will give a $5,000 ___ to anyone who finds our dog.|reward|disease,nutrient,dung|我們會給找到狗狗的人五千元酬金。
+18|account|I opened a bank ___ to save money.|account|collar,nest,medal|我開了一個銀行帳戶來存錢。
+19|step|Follow these simple ___ to make a paper airplane.|steps|kilograms=kilogram,diseases=disease,collars=collar|照著這些簡單的步驟做紙飛機。
+19|unconscious|The man fell and hit his head. He was ___ for a few minutes.|unconscious|colorful,junior,female|那個男人跌倒撞到頭，昏迷了幾分鐘。
+19|ambulance|Someone is hurt! Call an ___!|ambulance|aquarium,item,ocean|有人受傷了！快叫救護車！
+19|tap|He ___ me on the shoulder to get my attention.|tapped|buried=bury,hatched=hatch,weighed=weigh|他拍拍我的肩膀，引起我的注意。
+19|gently|Hold the baby bird ___. It's very weak.|gently|moreover,secondly,someday|輕輕地拿著小鳥，牠很虛弱。
+19|onto|The cat jumped ___ the table.|onto|since,including,whoever|貓跳到桌子上。
+19|tilt|___ the person's head back to open the airway.|Tilt|Weigh=weigh,Hatch=hatch,Apologize=apologize|把傷者的頭往後仰，打開呼吸道。
+19|remove|Please ___ your shoes before you enter the house.|remove|breathe,hatch,weigh|進屋前請把鞋子脫掉。
+19|breathe|Fish can ___ underwater, but we can't.|breathe|weigh,hatch,apologize|魚能在水中呼吸，但我們不行。
+19|proceed|After checking the person's breathing, ___ to the next step.|proceed|hatch,weigh,bury|檢查完傷者的呼吸後，繼續進行下一步。
+19|place|___ your hands in the middle of the person's chest.|Place|Breathe=breathe,Hatch=hatch,Apologize=apologize|把雙手放在傷者胸口的中央。
+19|perform|The students will ___ a play at the end of the year.|perform|breathe,hatch,weigh|學生們年底會演出一齣戲。
+19|press|___ the button to start the machine.|Press|Breathe=breathe,Hatch=hatch,Bury=bury|按下按鈕來啟動機器。
+19|middle|She sat in the ___ of the front row.|middle|blood,dung,luck|她坐在第一排的中間。
+19|repeat|Could you ___ that, please? I didn't hear you.|repeat|breathe,hatch,weigh|可以請你再說一次嗎？我沒聽到。
+19|arrive|Our train will ___ in Kaohsiung at 3 p.m.|arrive|breathe,hatch,apologize|我們的火車下午三點會抵達高雄。
+20|adventure|Traveling alone in Africa was a great ___ for him.|adventure|collar,kilogram,dung|獨自在非洲旅行對他來說是一場很棒的冒險。
+20|anytime|You can call me ___ if you need help.|anytime|moreover,secondly,alike|需要幫忙的話，隨時都可以打給我。
+20|frightening|The movie was so ___ that I couldn't sleep that night.|frightening|average,female,junior|那部電影太嚇人了，我那天晚上睡不著。
+20|brave|The ___ girl jumped into the water to save the little boy.|brave|average,recent,mixed-breed|那個勇敢的女孩跳進水裡救小男孩。
+20|adapt|It took me a few months to ___ to life in a new country.|adapt|breathe,hatch,weigh|我花了好幾個月才適應新國家的生活。
+20|custom|Giving red envelopes during Chinese New Year is an old ___.|custom|ambulance,ocean,aquarium|過年發紅包是一個古老的習俗。
+20|furious|Dad was ___ when he saw the broken window.|furious|colorful,average,female|爸爸看到破掉的窗戶時氣炸了。
+20|get to|On our trip to Kenya, we ___ see lions and elephants.|got to|fell out=fall out,made up=make up,cut out=cut out|去肯亞旅行時，我們有機會看到獅子和大象。
+20|niece|My sister's daughter is my ___.|niece|colleague,principal,coach|我姊姊的女兒是我的外甥女。
+20|promise|I ___ I will never be late again.|promise|breathe,hatch,weigh|我保證再也不會遲到了。
+20|museum|We saw many old paintings at the art ___.|museum|ocean,kilogram,ambulance|我們在美術館看到很多古老的畫作。
+20|forever|I will remember this trip ___.|forever|moreover,secondly,alike|我會永遠記得這次旅行。
+20|seriously|Please take your homework ___.|seriously|moreover,someday,secondly|請認真看待你的作業。
+20|whenever|___ I feel sad, I listen to music.|Whenever|Whoever=whoever,Moreover=moreover,Including=including|每當我難過時，我就會聽音樂。
+20|address|Please write your name and ___ on the envelope.|address|blood,luck,dung|請在信封上寫上你的姓名和地址。

@@ -341,6 +341,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <button id="jtExam">📝 段考範圍 U11–U20</button>
       <button id="jtAll">全部 U1–U50</button>
     </div>
+    <div class="hint" style="margin-top:6px">或自訂範圍：</div>
     <div class="row">
       <label for="jtFrom">從</label><select id="jtFrom"></select>
       <label for="jtTo">到</label><select id="jtTo"></select>
@@ -349,6 +350,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <div class="seg multi" role="group" aria-label="寂天題型">
       <button data-j="e" aria-pressed="true">英翻中</button>
       <button data-j="c" aria-pressed="true">中翻英</button>
+      <button data-j="s" aria-pressed="true">選擇題（例句填空）</button>
     </div>
     <div class="hint" id="jtHint"></div>
   </div>
@@ -524,9 +526,9 @@ let types = new Set(KINDS);
 try { const t = JSON.parse(localStorage.getItem('types') || 'null'); if (Array.isArray(t)) { types = new Set(t.filter(k => KINDS.includes(k))); if (!localStorage.getItem('types2')) EXTRA.forEach(k => types.add(k)); } } catch (e) {}
 const kindCode = () => book === 'jt' ? 'jt' : types.size === KINDS.length ? 'all' : KINDS.filter(k => types.has(k)).join('+');
 // 寂天 Ready for Reading Success 3：另一本教材，用單元（U1–U50）選範圍；題目在 jitian.json，載入後接在 DATA.bank 後面
-let book = 'main', JT = null, jtDirs = new Set(['e', 'c']);
+let book = 'main', JT = null, jtDirs = new Set(['e', 'c', 's']);
 const JT_EXAM = [11, 20];   // 本次段考範圍
-try { if (localStorage.getItem('book') === 'jt') book = 'jt'; const d = JSON.parse(localStorage.getItem('jtDirs') || 'null'); if (Array.isArray(d) && d.length) jtDirs = new Set(d.filter(x => x === 'e' || x === 'c')); } catch (e) {}
+try { if (localStorage.getItem('book') === 'jt') book = 'jt'; const d = JSON.parse(localStorage.getItem('jtDirs') || 'null'); if (Array.isArray(d) && d.length) jtDirs = new Set(d.filter(x => 'ecs'.includes(x))); if (!localStorage.getItem('jtDirs2')) jtDirs.add('s'); } catch (e) {}
 const jtRange = () => { let a = +$('jtFrom').value, b = +$('jtTo').value; if (a > b) [a, b] = [b, a]; return [a, b]; };
 const jtLab = q => 'U' + q.u;
 // 克漏字：docs/cloze/index.json 列出各回篇數，作答時才載入該回的文章
@@ -620,7 +622,10 @@ function update(){
     $('jtHint').innerHTML = JT ? `範圍：<b>U${a}${a !== b ? '–U' + b : ''}</b>，共 ${sentences} 個單字／片語` + (a === JT_EXAM[0] && b === JT_EXAM[1] ? '（本次段考範圍）' : '') : '寂天題庫載入中…';
     $('jtExam').setAttribute('aria-pressed', JT && a === JT_EXAM[0] && b === JT_EXAM[1]);
     $('jtAll').setAttribute('aria-pressed', JT && a === 1 && b === 50);
+    const hasS = JT && JT.idx.some(qi => { const q = DATA.bank[qi]; return q.j === 's' && q.u >= a && q.u <= b; });
+    if (jtDirs.has('s') && !hasS && jtDirs.size > 1) $('jtHint').innerHTML += '<br>選擇題（例句填空）目前只有 U11–U20，這個範圍只會出英翻中／中翻英。';
     if (!jtDirs.size) msg = '請至少勾選一種題型';
+    else if (!sentences) msg = '這個範圍沒有勾選的題型，選擇題（例句填空）目前只有 U11–U20。';
   }
   else if (!days.length) msg = '還沒有選天數';
   else if (!types.size) msg = '請至少勾選一種題型';
@@ -697,13 +702,13 @@ function show(){
 }
 function showJt(q){
   const s = session;
-  $('qAsk').textContent = q.j === 'e' ? '這個英文是什麼意思？' : '哪一個英文是這個意思？';
-  $('qText').className = 'sentence jtq' + (q.j === 'e' ? '' : ' zhq');
+  $('qAsk').textContent = q.j === 'e' ? '這個英文是什麼意思？' : q.j === 'c' ? '哪一個英文是這個意思？' : '＿＿＿ 處適合填入何者？';
+  $('qText').className = q.j === 's' ? 'sentence' : 'sentence jtq' + (q.j === 'e' ? '' : ' zhq');
   $('qDay').textContent = jtLab(q);
-  $('qKind').textContent = '寂天・' + (q.j === 'e' ? '英翻中' : '中翻英');
+  $('qKind').textContent = '寂天・' + ({e: '英翻中', c: '中翻英', s: '選擇題'})[q.j];
   $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
   $('qBar').style.width = (s.i / s.items.length * 100) + '%';
-  $('qText').innerHTML = (q.j === 'e' ? `<span class="jw">${esc(q.w)}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
+  $('qText').innerHTML = q.j === 's' ? qHTML(q) : (q.j === 'e' ? `<span class="jw">${esc(q.w)}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
   $('qText').classList.toggle('zhopts', q.j === 'e');
   const box = $('qOpts'); box.innerHTML = '';
   s.order[s.i].forEach((oi, k) => {
@@ -788,7 +793,7 @@ function answer(oi){
   if (q.k === 'jt') {
     const fb = $('qFb');
     fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-    fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b><span class="hint">📘 ${jtInfo(q)}</span>`;
+    fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`;
     $('qProg').textContent = `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
     const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
     fxAnswer(ok);
@@ -834,7 +839,8 @@ function finish(){
     }
     const q = DATA.bank[w.qi];
     if (q.k === 'jt') {
-      li.innerHTML = `<div class="s"><b>${esc(q.w)}</b> ${esc(q.p)} ${esc(q.zh)}</div>` + (q.nt ? `<div class="z">${esc(q.nt)}</div>` : '') +
+      li.innerHTML = (q.j === 's' ? `<div class="s">${br(q.a)}<b>${esc(q.o[q.c])}</b>${br(q.b)}</div><div class="z">${esc(q.z)}</div><div class="z"><b>${esc(q.w)}</b> ${esc(q.p)} ${esc(q.zh)}</div>`
+        : `<div class="s"><b>${esc(q.w)}</b> ${esc(q.p)} ${esc(q.zh)}</div>`) + (q.nt ? `<div class="z">${esc(q.nt)}</div>` : '') +
         `<div class="a">U${q.u}・你選 <s>${esc(q.o[w.pick])}</s>（${esc(q.oz[w.pick])}），正確是 <b>${esc(q.o[q.c])}</b></div>`;
       ul.appendChild(li); return;
     }
@@ -1076,7 +1082,7 @@ $('jtFrom').onchange = $('jtTo').onchange = () => { const [a, b] = jtRange(); jt
 document.querySelectorAll('[data-j]').forEach(b => b.onclick = () => {
   const j = b.dataset.j; jtDirs.has(j) ? jtDirs.delete(j) : jtDirs.add(j);
   document.querySelectorAll('[data-j]').forEach(x => x.setAttribute('aria-pressed', jtDirs.has(x.dataset.j)));
-  try { localStorage.setItem('jtDirs', JSON.stringify([...jtDirs])); } catch (e) {}
+  try { localStorage.setItem('jtDirs', JSON.stringify([...jtDirs])); localStorage.setItem('jtDirs2', '1'); } catch (e) {}
   update(); });
 document.querySelectorAll('[data-j]').forEach(x => x.setAttribute('aria-pressed', jtDirs.has(x.dataset.j)));
 $('mRange').onclick = () => setMode('range');
