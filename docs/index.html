@@ -196,6 +196,14 @@ input[type=text]{flex:1;min-width:200px}
 .bk b{display:block;font-size:.9rem}
 .bk small{color:var(--muted);font-size:.76rem;line-height:1.35;display:block}
 .bk .got{margin-left:auto;color:var(--ok);font-weight:900}
+.bk.pick{cursor:pointer}
+.bk.shown{box-shadow:0 0 0 3px #f2c94c;background:#fff3c4}
+.bk.shown .got{color:#b98a12}
+.bkhead{grid-column:1/-1;font-size:.86rem;line-height:1.6;padding:4px 2px}
+.bkhead .bkbar{height:8px;border-radius:99px;background:var(--line);overflow:hidden;margin:4px 0}
+.bkhead .bkbar i{display:block;height:100%;background:linear-gradient(90deg,#f2c94c,#e2445f)}
+.bkhead .goal{display:inline-block;margin:2px 6px 2px 0;padding:1px 8px;border-radius:99px;border:1px solid var(--line);font-size:.78rem}
+.bkhead .goal.ok{background:#e6f6ec;border-color:#3fa66b}
 @media (prefers-reduced-motion: no-preference){.badge.new{animation:okpop .5s cubic-bezier(.34,1.56,.64,1)}}
 .taskban{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;justify-content:space-between;border:2px solid var(--chalk);background:#fff8e1;border-radius:14px;padding:12px 14px;margin:0 0 18px}
 .taskban .tb-text{display:flex;flex-direction:column;gap:2px;line-height:1.5}
@@ -956,15 +964,52 @@ function bic(seat){
   const ids = badgeData.badges[seat] || [];
   if (!ids.length) return '';
   const defs = badgeDefs();
-  const ic = ids.slice(-3).map(id => defs[id] ? defs[id].icon : '').join('');
+  // 學生自己選的展示徽章優先；沒選就顯示最新的 3 個
+  const M = avm()[seat], pick = ((M && M.show) || []).filter(id => ids.includes(id));
+  const ic = (pick.length ? pick : ids.slice(-3)).map(id => defs[id] ? defs[id].icon : '').join('');
   return `<span class="bic" title="${ids.length} 個徽章">${ic}${ids.length > 3 ? '<small>+' + (ids.length - 3) + '</small>' : ''}</span>`;
 }
+const avm = () => (boardData && boardData.av) || {};
+function myShow(){ const seat = +$('seat').value, M = avm()[seat]; return ((ME && ME.seat === seat && ME.show) || (M && M.show) || []).slice(); }
 function drawBadgeBook(){
   if (!badgeData) return;
   const seat = $('seat').value, mine = (badgeData.badges && badgeData.badges[seat]) || [];
-  $('badgeBookBody').innerHTML = badgeData.defs.map(d =>
-    `<div class="bk${mine.includes(d.id) ? '' : ' off'}"><span class="bi">${d.icon}</span><div><b>${esc(d.name)}</b><small>${esc(d.desc)}</small></div>${mine.includes(d.id) ? '<span class="got">✓</span>' : ''}</div>`).join('');
+  const canPick = PIN_OK && ME, show = myShow().filter(id => mine.includes(id)), total = badgeData.defs.length;
+  // 徽章收集進度：收集到一定數量會解鎖特殊寶物
+  const goals = [[10, 'b10'], [20, 'b20'], [30, 'b30'], [total, 'b40']].map(([n, t]) => {
+    const tr = AV.items && (AV.items.treasures || []).find(x => x.t === t);
+    return tr ? `<span class="goal${mine.length >= n ? ' ok' : ''}">${mine.length >= n ? '💎' : '🔒'} ${n === total ? '全部 ' + n : n} 個 → ${esc(tr.name)}</span>` : '';
+  }).join('');
+  const head = `<div class="bkhead"><b>已收集 ${mine.length} / ${total} 個徽章</b><div class="bkbar"><i style="width:${Math.round(mine.length / total * 100)}%"></i></div>${goals}` +
+    (canPick ? `<div class="hint">點已經拿到的徽章，選擇要在排行榜上展示哪幾個（最多 3 個，已選 ${show.length} 個）<span id="showMsg"></span></div>` : '<div class="hint">輸入個人密碼後，可以選擇排行榜上要展示的徽章。</div>') + '</div>';
+  $('badgeBookBody').innerHTML = head + badgeData.defs.map(d => {
+    const got = mine.includes(d.id), on = show.includes(d.id);
+    return `<div class="bk${got ? '' : ' off'}${got && canPick ? ' pick' : ''}${on ? ' shown' : ''}" data-b="${d.id}"${got && canPick ? ' role="button" tabindex="0"' : ''}><span class="bi">${d.icon}</span><div><b>${esc(d.name)}</b><small>${esc(d.desc)}</small></div>${on ? '<span class="got">⭐ 展示中</span>' : got ? '<span class="got">✓</span>' : ''}</div>`;
+  }).join('');
+  if (canPick) $('badgeBookBody').querySelectorAll('.bk.pick').forEach(el => el.onclick = el.onkeydown = ev => {
+    if (ev.type === 'keydown' && ev.key !== 'Enter' && ev.key !== ' ') return;
+    const id = el.dataset.b, cur = myShow().filter(x => mine.includes(x));
+    const i = cur.indexOf(id);
+    if (i >= 0) cur.splice(i, 1); else { if (cur.length >= 3) cur.shift(); cur.push(id); }
+    saveShow(cur);
+  });
   $('badgeBook').classList.remove('hidden');
+}
+async function saveShow(ids){
+  const seat = +$('seat').value;
+  const setAv = v => { if (boardData) { boardData.av = boardData.av || {}; boardData.av[seat] = Object.assign(boardData.av[seat] || {}, {show: v}); } };
+  ME.show = ids; setAv(ids);
+  drawBadgeBook(); if (boardData) drawBoard();
+  if ($('showMsg')) $('showMsg').textContent = '　儲存中…';
+  try {
+    const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'},
+      body: JSON.stringify({type: 'show', seat, pin: $('spin').value.trim(), show: ids})});
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || '儲存失敗');
+    ME.show = j.show; setAv(j.show);
+    drawBadgeBook(); if ($('showMsg')) $('showMsg').textContent = '　✓ 已儲存';
+    if (boardData) drawBoard();
+  } catch (e) { if ($('showMsg')) $('showMsg').textContent = '　⚠️ ' + e.message; }
 }
 async function renderBadges(){
   const j = await fetchBadges(true);
@@ -1210,6 +1255,7 @@ async function loadProfile(after){
     const old = ME && ME.seat === j.seat ? ME.lv : null;
     ME = j;
     drawMe();
+    if (badgeData) drawBadgeBook();
     if (after && old != null && j.lv > old) lvUp(j.lv);
     setTimeout(checkChests, after ? 1600 : 300);
   } catch (e) {}

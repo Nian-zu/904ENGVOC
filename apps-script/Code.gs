@@ -25,6 +25,7 @@ function doPost(e) {
     if (!pc.ok) return out_({ ok: false, error: pc.error, pin: true });
     if (body.type === 'avatar') return out_(saveAvatar_(seat, body.avatar));
     if (body.type === 'buy') return out_(buy_(seat, String(body.cat || ''), String(body.id || '')));
+    if (body.type === 'show') return out_(saveShow_(seat, body.show));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -104,7 +105,7 @@ const MIN_UP = { day: 10, week: 20, month: 20 };                 // 進步榜：
 function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'dash') return out_(dash_(p.key));
-  if (p.action === 'badges') return out_(cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_));
+  if (p.action === 'badges') return out_(badgesC_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
   if (p.action === 'profile') return out_(profile_(p.seat));
   if (p.action === 'parent') return out_(parent_(p.key, p.seat));
@@ -119,6 +120,7 @@ function doGet(e) {
 }
 
 // ===== 快取：有人交卷、存造型、買東西時把版本號換掉，所有排行／徽章／等級快取一起失效 =====
+function badgesC_() { return cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_); }
 function ver_() { return CacheService.getScriptCache().get('ver') || '0'; }
 function bump_() { CacheService.getScriptCache().put('ver', String(Date.now()), 21600); }
 function cached_(name, sec, fn) {
@@ -992,14 +994,15 @@ function profiles_() {
   });
   // 寶物：徽章＋小考次數＋等級＋講義題答對數
   let bd = {}, det = {};
-  try { bd = cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_).badges || {}; } catch (e) {}
+  try { bd = badgesC_().badges || {}; } catch (e) {}
   try { det = detailStats_(); } catch (e) {}
-  const sh = avSheet_(), av = {}, own = {}, spent = {};
-  if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 5).getValues().forEach(function (r) {
+  const sh = avSheet_(), av = {}, own = {}, spent = {}, show = {};
+  if (sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 6).getValues().forEach(function (r) {
     const k = parseInt(r[0], 10); if (!k) return;
     try { av[k] = JSON.parse(String(r[1] || '{}')); } catch (e) {}
     try { own[k] = JSON.parse(String(r[3] || '[]')); } catch (e) { own[k] = []; }
     spent[k] = Number(r[4]) || 0;
+    try { show[k] = JSON.parse(String(r[5] || '[]')); } catch (e) { show[k] = []; }
   });
   const CR = L.coin || { right: 1, quiz: 20, badge: 20 };
   const res = {};
@@ -1012,10 +1015,16 @@ function profiles_() {
     if (perfect[k]) tr.push('quizPerfect');
     if (lv >= 10) tr.push('lv10');
     if (lv >= 20) tr.push('lv20');
+    const nb = (bd[k] || []).length;   // 徽章收集數量的寶物
+    if (nb >= 10) tr.push('b10');
+    if (nb >= 20) tr.push('b20');
+    if (nb >= 30) tr.push('b30');
+    if (nb >= BADGE_DEFS.length) tr.push('b40');
     [['一字多義', 50, 'sense50'], ['片語', 50, 'phrase50'], ['會考文法', 30, 'cap30']].forEach(function (x) { if (dk[x[0]] && dk[x[0]].right >= x[1]) tr.push(x[2]); });
     const earn = o.right * CR.right + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge;
     res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr,
-      own: own[k] || [], earn: earn, coin: Math.max(0, earn - (spent[k] || 0)) };
+      own: own[k] || [], earn: earn, coin: Math.max(0, earn - (spent[k] || 0)),
+      show: (show[k] || []).filter(function (id) { return (bd[k] || []).indexOf(id) >= 0; }) };
   });
   try { cache.put(pk, JSON.stringify(res), 600); } catch (e) {}
   return res;
@@ -1023,7 +1032,7 @@ function profiles_() {
 function avMap_() {
   try {
     const p = profiles_(), m = {};
-    Object.keys(p).forEach(function (k) { m[k] = { lv: p[k].lv, a: p[k].a }; });
+    Object.keys(p).forEach(function (k) { m[k] = { lv: p[k].lv, a: p[k].a, show: p[k].show || [] }; });
     return m;
   } catch (e) { return {}; }
 }
@@ -1033,7 +1042,7 @@ function profile_(seat) {
   const L = avItems_().levels;
   return { ok: true, seat: s, xp: p.xp, lv: p.lv, title: avTitle_(p.lv, L.titles), cur: avNeed_(p.lv, L.base), next: p.lv >= 50 ? null : avNeed_(p.lv + 1, L.base),
     right: p.right, quiz: p.quiz, days: p.days, a: p.a, xpRule: L.xp, tr: p.tr || [],
-    coin: p.coin || 0, earn: p.earn || 0, own: p.own || [], coinRule: L.coin || { right: 1, quiz: 20, badge: 20 } };
+    coin: p.coin || 0, earn: p.earn || 0, own: p.own || [], show: p.show || [], coinRule: L.coin || { right: 1, quiz: 20, badge: 20 } };
 }
 // 存造型：每個部件都要存在、而且等級夠才能用，否則換回預設
 function saveAvatar_(seat, a) {
@@ -1052,6 +1061,19 @@ function saveAvatar_(seat, a) {
   else sh.appendRow([seat, JSON.stringify(clean), stamp, '[]', 0]);
   bump_();
   return { ok: true, a: clean };
+}
+// 排行榜上要展示的徽章（自己選，最多 3 個，只能選已經拿到的）
+function saveShow_(seat, ids) {
+  const mine = (badgesC_().badges || {})[seat] || [];
+  const clean = (Array.isArray(ids) ? ids : []).map(String).filter(function (id, i, a) { return mine.indexOf(id) >= 0 && a.indexOf(id) === i; }).slice(0, 3);
+  const sh = avSheet_(), n = sh.getLastRow() - 1;
+  if (sh.getRange(1, 6).getValue() !== '展示徽章') sh.getRange(1, 6).setValue('展示徽章').setFontWeight('bold');
+  let row = 0;
+  if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (r, i) { if (parseInt(r[0], 10) === seat) row = i + 2; });
+  if (row) sh.getRange(row, 6).setValue(JSON.stringify(clean));
+  else sh.appendRow([seat, '', '', '[]', 0, JSON.stringify(clean)]);
+  bump_();
+  return { ok: true, show: clean };
 }
 // 商店：用代幣買造型（代幣＝答對題數＋小考過關＋徽章，扣掉已經花掉的）
 function buy_(seat, cat, id) {
