@@ -1870,15 +1870,17 @@ function buy_(seat, cat, id) {
 // ===================== 週末 BOSS 戰 =====================
 // 題目：寂天 U1–U20。答對＝打 BOSS 一下（扣 1 滴血），答錯或超時＝自己少 1 顆心。
 // 打倒 BOSS：拿代幣，並有機率掉落這隻 BOSS 的稀有寶物／寵物（每樣只會掉一次）。
-// 週六、週日開放（老師、測試帳號隨時可以試打）；每人每天最多挑戰 5 次；要先打倒前一隻才能挑戰下一隻。
+// 週六、週日開放（老師、測試帳號隨時可以試打）；每人每天最多挑戰 3 次；要先打倒前一隻才能挑戰下一隻。
 const BOSS_NAME = 'BOSS戰';
-const BOSS_PER_DAY = 5;
+const BOSS_PER_DAY = 3;
+// 難度設計（答對率 95% 的學生大約的勝率）：史萊姆王 97%、石像巨人 75%、暗影巫師 62%、冰霜巨龍 21%、混沌魔王 13%
+// 有限時、題型也比較難，實際勝率會再低一些
 const BOSSES = [
-  { id: 'slime', name: '史萊姆王', icon: '🟢', diff: '簡單', hp: 8, hearts: 4, sec: 20, u: [1, 10], j: ['e'], coin: 10, drop: 35, items: ['pet:crownslime', 'hold:slimewand'] },
-  { id: 'golem', name: '石像巨人', icon: '🗿', diff: '普通', hp: 12, hearts: 3, sec: 15, u: [1, 20], j: ['e', 'c'], coin: 15, drop: 40, items: ['pet:golem', 'acc:runeband'] },
-  { id: 'wizard', name: '暗影巫師', icon: '🧙', diff: '困難', hp: 15, hearts: 3, sec: 12, u: [1, 20], j: ['e', 'c', 's'], coin: 20, drop: 45, items: ['pet:shadowcat', 'hold:shadowstaff'] },
-  { id: 'icedragon', name: '冰霜巨龍', icon: '🐉', diff: '極難', hp: 20, hearts: 2, sec: 10, u: [1, 20], j: ['c', 's'], coin: 30, drop: 55, items: ['pet:icedragon', 'bg:glacier'] },
-  { id: 'chaos', name: '混沌魔王', icon: '😈', diff: '地獄', hp: 25, hearts: 2, sec: 9, u: [1, 20], j: ['e', 'c', 's'], coin: 50, drop: 70, items: ['pet:imp', 'acc:demonhorns'] }
+  { id: 'slime', name: '史萊姆王', icon: '🟢', diff: '簡單', hp: 12, hearts: 3, sec: 15, u: [1, 10], j: ['e'], coin: 10, drop: 25, items: ['pet:crownslime', 'hold:slimewand'] },
+  { id: 'golem', name: '石像巨人', icon: '🗿', diff: '普通', hp: 18, hearts: 2, sec: 12, u: [1, 20], j: ['e', 'c'], coin: 20, drop: 30, items: ['pet:golem', 'acc:runeband'] },
+  { id: 'wizard', name: '暗影巫師', icon: '🧙', diff: '困難', hp: 25, hearts: 2, sec: 10, u: [1, 20], j: ['e', 'c', 's'], coin: 30, drop: 35, items: ['pet:shadowcat', 'hold:shadowstaff'] },
+  { id: 'icedragon', name: '冰霜巨龍', icon: '🐉', diff: '極難', hp: 30, hearts: 1, sec: 8, u: [1, 20], j: ['c', 's'], coin: 50, drop: 40, items: ['pet:icedragon', 'bg:glacier'] },
+  { id: 'chaos', name: '混沌魔王', icon: '😈', diff: '地獄', hp: 40, hearts: 1, sec: 7, u: [1, 20], j: ['e', 'c', 's'], coin: 80, drop: 50, items: ['pet:imp', 'acc:demonhorns'] }
 ];
 function bossSheet_() {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);

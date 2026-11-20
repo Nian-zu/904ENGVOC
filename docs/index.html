@@ -1982,7 +1982,7 @@ function nextChest(){
   if (t.weekend) {   // 週末提醒
     $('chestPic').innerHTML = '<div style="font-size:4.5rem;line-height:1.2">🏰</div>';
     $('chestTitle').textContent = '🎉 週末 BOSS 戰開放中！';
-    $('chestText').textContent = '用寂天 U1–U20 的單字打倒 BOSS，有機會掉落稀有寶物和寵物！每天可以挑戰 5 次。';
+    $('chestText').textContent = '用寂天 U1–U20 的單字打倒 BOSS，有機會掉落稀有寶物和寵物！每天只能挑戰 3 次，要好好把握！';
     $('chestWear').classList.add('hidden');
     $('chestNo').classList.remove('hidden'); $('chestNo').textContent = '等等再說'; $('chestNo').onclick = nextChest;
     $('chestOk').textContent = '去挑戰'; $('chestOk').onclick = () => { $('chest').classList.add('hidden'); chestQ = chestQ.filter(x => !x.weekend); openBoss(); };
