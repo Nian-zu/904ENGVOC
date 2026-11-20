@@ -166,6 +166,29 @@ def why(q):
     return None
 
 
+# 「小心」提醒：規則說明容易讓學生只看提示字作答（看到 is 就選 V-ing），所以每一類規則再補一個反例
+def caution(y):
+    if re.match(r'(前面|句首)有助動詞 (will|can|could|should|must|may|might|would|Will|Can|Could|Should|Must|May)', y):
+        return '別只看到助動詞就選原形：如果主詞是「被」做的，要寫 be＋p.p.（The work will be done.）；未來某時正在做，要寫 will be＋V-ing。'
+    if re.match(r"(前面|句首)有助動詞 (did|didn't|does|doesn't|do|don't|Did|Does|Do)", y):
+        return 'do／does／did 也可以是一般動詞「做」，例如 He does his homework.（後面接名詞，不是原形動詞）。'
+    if y.startswith('to 後面接原形'):
+        return '不是所有 to 後面都接原形：look forward to、be used to、when it comes to 的 to 是介系詞，要接 V-ing。'
+    if re.match(r'(前面有 (has|have)|句首有 (Has|Have))', y):
+        return 'has／have 後面不一定是 p.p.：has to＋原形＝必須（She has to go.）；has＋名詞＝有（He has a cat.）。'
+    if 'be 動詞' in y and 'V-ing' in y:
+        return 'is／are 後面不一定接 V-ing：主詞是「被」做的要用 be＋p.p.（The room is cleaned.）；is going to 後面接原形；感覺用 -ed（I am tired.）。'
+    if y.startswith('主詞是「被」'):
+        return '先想主詞是「做」還是「被做」：The boy is washing the car.（男孩在洗車）／The car is washed.（車被洗）。'
+    if '第三人稱單數' in y:
+        return '先找真正的主詞：The students in my class like…（主詞是 students）；My brother and I walk…（兩個人）都不加 s。'
+    if '是過去發生的事' in y:
+        return '時間詞要看是哪一個動作的：Mr. Brown has lived here since 2020.（since＋過去時間 → 完成式）。'
+    if '進行式的疑問句' in y:
+        return '問「正在做」才用 V-ing；問「被做」要用 p.p.（Is the door locked?）。'
+    return None
+
+
 def main():
     b = json.load(open(BANK, encoding='utf-8'))
     n = tot = 0
@@ -190,13 +213,19 @@ def main():
             if y and re.match(r'前面有助動詞 (do|does|did)，', y): y = None
             if y and y.startswith(OK_WORD): q['y'] = y
             else: q.pop('y', None)
+            c = caution(q.get('y')) if q.get('y') else None
+            if c: q['yc'] = c
+            else: q.pop('yc', None)
             continue
-        if q['k'] != 'verb': continue
+        if q['k'] != 'verb' or q.get('trap'): continue
         tot += 1
         # 規則判斷不出來、但答案明確的題目：人工寫的說明（tools/extra/verb_why.json）
         y = VW.get(q['a'] + '|' + q['b']) or why(q)
         if y: q['y'] = y; n += 1
         else: q.pop('y', None)
+        c = caution(y) if y else None
+        if c: q['yc'] = c
+        else: q.pop('yc', None)
     # 單字延伸意思（課本 1200 字表以外、常見的其他意思／詞性），答題後顯示，讓學生順便多記一個意思
     b['more'] = json.load(open(os.path.join(ROOT, 'tools', 'extra', 'word_more.json'), encoding='utf-8'))
     # 判斷不出原因的動詞變化題（可能有兩個說得通的答案）不出題：只從每天的題目清單拿掉，題目本身和題號不動

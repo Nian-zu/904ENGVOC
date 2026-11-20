@@ -5,6 +5,9 @@
   u2_polysemy.json  Unit 2 一字多義：看例句，選這個字在句中的意思      → k = 'sense'
   u3_phrases.json   Unit 3 片語：看例句，選畫線片語的意思              → k = 'phrase'
   u4_cap.json       Unit 4 文法會考真題（原題、標年份題號）              → k = 'cap'
+  u5_traps.json     文法陷阱題：同一個提示字、答案卻不同的對照題        → k = 'verb'、trap = 1
+                    （例：is cleaning／is cleaned、has to clean／has cleaned、to see／look forward to seeing），
+                    破除「看到 is 就選 V-ing、看到 has 就選 p.p.」這種只看提示字的作答習慣
 
 每一題放在跟它有關的單字那一天；講義的字不在 1200 字清單裡的，平均分到題目最少的天。
 同一個字（片語）的所有意思放在同一天，學生才會碰到「同字不同義」。
@@ -130,7 +133,7 @@ def main():
 
     # 先拿掉舊的（都在最後面）
     items = bank['bank']
-    cut = next((i for i, q in enumerate(items) if q['k'] in KINDS), len(items))
+    cut = next((i for i, q in enumerate(items) if q['k'] in KINDS or q.get('trap')), len(items))
     items[:] = items[:cut]
     bank['days'] = [[i for i in d if i < cut] for d in bank['days']]
 
@@ -226,6 +229,17 @@ def main():
         load[d] += 1
         add({'k': 'cap', 'a': a, 'b': b, 'o': x['o'], 'c': x['c'], 'w': right,
              't': x['tag'], 'p': x['topic'], 'z': e['zh'], 'x': [e['why'], e['no'], e['tip']]}, f'u4|{x["tag"]}|{x["stem"][:40]}', d)
+
+    # ---------- 文法陷阱題 ----------
+    u5 = json.load(open(os.path.join(SRC, 'u5_traps.json'), encoding='utf-8'))
+    for x in u5:
+        a, b = x['stem'].split('＿＿')
+        right = x['o'][x['c']]
+        order = list(range(4)); random.Random('t|' + x['stem']).shuffle(order)
+        o = [x['o'][j] for j in order]
+        d = day_for([x['v']], 'u5-' + x['stem']); load[d] += 1
+        add({'k': 'verb', 'trap': 1, 'a': a, 'b': b, 'o': o, 'c': o.index(right), 'w': x['v'],
+             'z': x['zh'], 'y': x['why'], 'tc': x['trap']}, f'u5|{x["stem"]}', d)
 
     # 寫回
     start = len(items)

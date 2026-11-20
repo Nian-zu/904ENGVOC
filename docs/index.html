@@ -296,6 +296,8 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .shopcard .have{font-size:.78rem;color:var(--chalk);font-weight:800}
 .shopgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
 .coin{font-weight:900;color:#a27400}
+.trapnote{background:#fff0f3;border-left:4px solid #e2445f;padding:4px 8px;border-radius:6px}
+.carenote{background:#fff8e1;border-left:4px solid #e0a81a;padding:4px 8px;border-radius:6px;font-size:.9em}
 .tbpw{margin:8px 0;padding:10px 12px;border-radius:12px;background:#fff3c4;border:2px dashed #e0a81a;font-size:.92rem;line-height:1.6}
 .tbpw b.pw{display:inline-block;font-size:1.6rem;letter-spacing:.12em;font-family:ui-monospace,Menlo,Consolas,monospace;background:#fff;border-radius:8px;padding:0 10px;margin:0 4px;color:#7a4b00}
 .tbpw.wait{background:var(--paper);border-style:solid;border-color:var(--line);color:var(--muted)}
@@ -685,6 +687,17 @@ function pool(){
 }
 // 每個句子只抽一個版本（隨機選一種誘答），同一次測驗不重複
 // 講義題（一字多義／片語／會考文法）題數少，保底占約四分之一，不然很難抽到
+// 文法陷阱題（看到 is 不一定選 V-ing…）：不管選哪幾天，有練動詞變化就混一些進來，避免只看提示字作答
+let TRAPS = null;
+const trapList = () => TRAPS || (TRAPS = DATA.bank.map((q, i) => q.trap ? i : -1).filter(i => i >= 0));
+function mixTraps(items, ratio){
+  const vi = items.map((qi, k) => typeof qi === 'number' && DATA.bank[qi].k === 'verb' && !DATA.bank[qi].trap ? k : -1).filter(k => k >= 0);
+  if (vi.length < 3) return items;
+  const want = Math.max(1, Math.round(vi.length * ratio)), have = new Set(items.filter(x => typeof x === 'number'));
+  const pool = shuffle(trapList().filter(i => !have.has(i)));
+  shuffle(vi).slice(0, want).forEach((k, j) => { if (pool[j] != null) items[k] = pool[j]; });
+  return items;
+}
 function pickItems(all, n){
   const take = (list, m, keys, out) => { for (const qi of shuffle(list.slice())) { if (out.length >= m) break; const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(qi); } };
   const ex = all.filter(qi => EXTRA.has(DATA.bank[qi].k)), base = all.filter(qi => !EXTRA.has(DATA.bank[qi].k));
@@ -956,10 +969,11 @@ function answer(oi){
   }
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-  fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + ttsBar(q) +
+  fb.innerHTML = `<b>${q.trap ? '🪤 文法陷阱題・' : ''}${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + ttsBar(q) +
     (q.z ? `<span class="zh">中文：${br(q.z)}</span>` : '') +
     (q.x ? xpHTML(q) : '') +
     (q.y ? `<span class="why">💡 ${esc(q.y)}</span>` : '') +
+    (q.tc ? `<span class="why trapnote">🪤 ${esc(q.tc)}</span>` : q.yc ? `<span class="why carenote">⚠️ 小心：${esc(q.yc)}</span>` : '') +
     (q.k === 'cap' ? `<span class="hint">📝 ${esc(capTag(q.t))}・文法：${esc(q.p || '')}</span>`
      : q.k === 'sense' || q.k === 'phrase' ? `<span class="hint">${esc(q.w)} 的意思：${sensesOf(q).map(esc).join('／')}</span>`
      : `<span class="hint">單字：${esc(q.w)}${q.k === 'verb' && GL['v|' + q.w] ? ' ' + esc(GL['v|' + q.w]) : ''}</span>`) +
@@ -1420,6 +1434,7 @@ async function startQuiz(){
   const want = Math.min(nB, n - nC - exPick.length), per = Math.floor(want / 3);
   let basePick = [];
   ['word', 'verb', 'prep'].forEach((k, i) => { basePick = basePick.concat(take(base.filter(qi => DATA.bank[qi].k === k), per + (i < want % 3 ? 1 : 0), keys)); });
+  basePick = mixTraps(basePick, 1 / 4);   // 每日小考的動詞題至少一題是陷阱題
   if (basePick.length < want) basePick = basePick.concat(take(base, want - basePick.length, keys));
   if (basePick.length + exPick.length + nC < n) basePick = basePick.concat(take(all, n - nC - exPick.length - basePick.length, keys));
   const blocks = basePick.concat(exPick).map(qi => [qi]);
@@ -1444,7 +1459,7 @@ $('startBtn').onclick = async () => {
     catch (e) { pendingQuiz = null; $('startBtn').disabled = false; $('countLbl').textContent = '克漏字載入失敗，請檢查網路後再試一次。'; update(); return; }
   }
   const sentN = Math.max(0, Math.min(sentences, num - nP * 5));
-  const blocks = pickItems(all, sentN).map(qi => [qi]);
+  const blocks = (types.has('verb') ? mixTraps(pickItems(all, sentN), 1 / 5) : pickItems(all, sentN)).map(qi => [qi]);
   picks.forEach(x => blocks.push(clozeOf({u: x.u, p: x.p}).blanks.map((_, b) => ({u: x.u, p: x.p, b}))));
   start(shuffle(blocks).flat());
   update();
