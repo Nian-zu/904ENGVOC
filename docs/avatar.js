@@ -315,20 +315,53 @@
     if (a.deco === 'sweatband') g += `<g${sx(BD[1])}>${deco(a.deco, 'top', DO)}</g>`; else g += deco(a.deco, 'top', DO);
     g += hold(a.hold, skin);
     if (a.pet && a.pet !== 'none') {
-      // 寵物等級（opt.petLv）：Lv4 起有光暈、Lv7 起有星星、Lv10 戴小皇冠
+      // 寵物成長（opt.petLv）：Lv1 是蛋 → Lv2–3 寶寶（小）→ Lv4–6 長大 → Lv7 以上變大、有星星；Lv4 起有光暈
+      // 沒給 petLv（例如造型編輯器的小圖）就照一般大小畫
       const pl = +opt.petLv || 0;
-      if (pl >= 4) g += `<circle cx="97" cy="93" r="${pl >= 10 ? 27 : 24}" fill="${pl >= 10 ? '#ffe680' : pl >= 7 ? '#c9e7ff' : '#fff6d6'}" opacity=".55"/>`;
-      g += `<g transform="translate(74 70) scale(.46)" class="avpet">${pet(a.pet)}</g>`;
-      if (pl >= 7) g += [[76, 72, .5], [116, 80, .4], [112, 112, .35]].map(([x, y, k]) => `<path transform="translate(${x} ${y}) scale(${k})" d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2Z" fill="#f7d35c"/>`).join('');
-      if (pl >= 10) g += '<path d="M89 70 L91 64 L95 68 L97 62 L99 68 L103 64 L105 70Z" fill="#f2c94c" stroke="#b98a12" stroke-width=".6"/>';
+      const T = !pl ? 'translate(74 70) scale(.46)' : pl <= 3 ? 'translate(80 80) scale(.36)' : pl <= 6 ? 'translate(74 70) scale(.46)' : 'translate(69 64) scale(.53)';
+      if (pl >= 4) g += `<circle cx="97" cy="93" r="${pl >= 10 ? 28 : 24}" fill="${pl >= 10 ? '#ffe680' : pl >= 7 ? '#c9e7ff' : '#fff6d6'}" opacity=".55"/>`;
+      if (pl === 1) g += `<g transform="translate(76 72) scale(.44)" class="avpet">${egg(a.pet, (+opt.petXp || 0) >= 10)}</g>`;
+      else g += `<g transform="${T}" class="avpet">${pacc(a.pacc, 'back')}${pet(a.pet)}${pacc(a.pacc, 'front')}</g>`;
+      if (pl >= 7) g += [[74, 70, .5], [116, 78, .4], [112, 112, .35]].map(([x, y, k]) => `<path transform="translate(${x} ${y}) scale(${k})" d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2Z" fill="#f7d35c"/>`).join('');
     }
     g += '</g>';
     const size = opt.size || 64;
     return `<svg class="avatar${opt.cls ? ' ' + opt.cls : ''}" viewBox="0 0 120 120" width="${size}" height="${size}" role="img" aria-label="${opt.label || '人物頭像'}">${g}</svg>`;
   };
+  // ---------- 寵物蛋（Lv1）：蛋上的花紋顏色跟寵物有關；快孵化時有裂痕
+  const PETC = {cat: '#f2a93b', dog: '#c8915a', rabbit: '#f3b7c6', panda: '#2b2523', fox: '#e8742c', owl: '#a0764e', dragon: '#d93b3b', penguin: '#2f3a8f',
+    unicorn: '#c9a6f2', phoenix: '#e2445f', whale: '#3b78c4', turtle: '#3fa66b', chihuahua: '#e0b27a', corgi: '#e8913a', slime: '#6fd38f', ghost: '#9aa4ae',
+    wingdragon: '#7c5cc4', pegasus: '#8fc8f2', kitsune: '#f29d4c', golddragon: '#f2c230', scholarowl: '#a0764e', galaxydragon: '#2f3a8f'};
+  function egg(id, cracked) {
+    const c = PETC[id] || '#f29d4c';
+    return `<ellipse cx="50" cy="58" rx="30" ry="38" fill="#fffaf0" stroke="#d9cbb0" stroke-width="2.5"/>` +
+      `<circle cx="38" cy="44" r="7" fill="${c}" opacity=".75"/><circle cx="62" cy="62" r="9" fill="${c}" opacity=".75"/><circle cx="40" cy="76" r="5" fill="${c}" opacity=".75"/><circle cx="64" cy="36" r="4" fill="${c}" opacity=".75"/>` +
+      `<ellipse cx="38" cy="36" rx="5" ry="9" fill="#fff" opacity=".7"/>` +
+      (cracked ? '<path d="M24 56 L34 50 L40 58 L48 50 L56 58 L64 50 L76 56" stroke="#8a6d4a" stroke-width="2.4" fill="none" stroke-linejoin="round"/>' : '');
+  }
+  AV.egg = egg;
+  // ---------- 寵物配件（跟著寵物等級解鎖），畫在寵物自己的 0–100 座標上
+  function pacc(id, layer) {
+    if (!id || id === 'none') return '';
+    if (layer === 'back') return id === 'cape' ? '<path d="M24 56 Q8 100 28 106 L72 106 Q92 100 76 56Z" fill="#c8473a"/><path d="M28 60 L72 60" stroke="#f2c94c" stroke-width="3"/>' : '';
+    switch (id) {
+      case 'bow': return '<path d="M72 20 L61 12 L61 29Z M72 20 L83 12 L83 29Z" fill="#e65a7f"/><circle cx="72" cy="20" r="3.8" fill="#c43c62"/>';
+      case 'scarf': return '<path d="M24 80 Q50 93 76 80 L78 89 Q50 102 22 89Z" fill="#3b6fd1"/><path d="M62 91 L67 106 L58 106 L55 93Z" fill="#2f5fb3"/>';
+      case 'flower': return '<g transform="translate(30 22)">' + [0, 72, 144, 216, 288].map(a => `<circle cx="0" cy="-6" r="5" fill="#f7a6c8" transform="rotate(${a})"/>`).join('') + '<circle r="4" fill="#f7d35c"/></g>';
+      case 'hat': return '<rect x="37" y="2" width="26" height="19" rx="2" fill="#2b2523"/><rect x="28" y="19" width="44" height="6" rx="3" fill="#2b2523"/><rect x="37" y="14" width="26" height="4" fill="#c8473a"/>';
+      case 'glasses': return '<circle cx="37" cy="53" r="10" fill="none" stroke="#2b2523" stroke-width="2.6"/><circle cx="63" cy="53" r="10" fill="none" stroke="#2b2523" stroke-width="2.6"/><path d="M47 53 L53 53" stroke="#2b2523" stroke-width="2.6"/>';
+      case 'star': return '<path d="M74 14 l3.5 7 7.7 1.1 -5.6 5.4 1.3 7.7 -6.9 -3.6 -6.9 3.6 1.3 -7.7 -5.6 -5.4 7.7 -1.1Z" fill="#f7d35c" stroke="#d9a21a" stroke-width="1"/>';
+      case 'cape': return '';
+      case 'halo': return '<ellipse cx="50" cy="6" rx="22" ry="6" fill="none" stroke="#f7d35c" stroke-width="4"/>';
+      case 'crown': return '<path d="M32 26 L35 6 L44 17 L50 1 L56 17 L65 6 L68 26Z" fill="#f2c94c" stroke="#b98a12" stroke-width="1.4"/><circle cx="50" cy="19" r="3" fill="#e2445f"/>';
+      default: return '';
+    }
+  }
   // 只畫一個部件的小縮圖（造型編輯器用）
   AV.thumb = function (cfg, key, itemId, size) {
     const c = Object.assign({}, cfg, {[key]: itemId});
+    if (key === 'pacc') { const pt = (cfg && cfg.pet && cfg.pet !== 'none') ? cfg.pet : 'cat';
+      return `<svg viewBox="0 -6 100 112" width="${size}" height="${size}">${itemId === 'none' ? pet(pt) : pacc(itemId, 'back') + pet(pt) + pacc(itemId, 'front')}</svg>`; }
     if (key === 'pet') return `<svg viewBox="0 0 100 100" width="${size}" height="${size}">${itemId === 'none' ? '<path d="M30 30 L70 70 M70 30 L30 70" stroke="#aaa" stroke-width="6" stroke-linecap="round"/>' : pet(itemId)}</svg>`;
     return AV.svg(c, {size: size});
   };

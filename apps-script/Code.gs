@@ -1449,7 +1449,9 @@ function saveAvatar_(seat, a) {
   const items = avItems_(), p = profiles_()[seat] || { lv: 1 }, clean = {};
   items.cats.forEach(function (c) {
     const want = a && a[c.key], it = c.items.filter(function (x) { return x.id === want; })[0];
-    const ok = it && (it.t ? (p.tr || []).indexOf(it.t) >= 0
+    // 寵物配件（pl）：要看「這次選的寵物」養到幾級
+    const ok = it && (it.pl != null ? clean.pet && clean.pet !== 'none' && petLv_((p.pets || {})[clean.pet] || 0) >= it.pl
+      : it.t ? (p.tr || []).indexOf(it.t) >= 0
       : (it.lv != null && it.lv <= p.lv) || (it.s != null && (p.own || []).indexOf(c.key + ':' + it.id) >= 0));
     clean[c.key] = ok ? it.id : items.default[c.key];
   });

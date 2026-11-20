@@ -1203,6 +1203,71 @@
    ]
   },
   {
+   "key": "pacc",
+   "name": "寵物配件",
+   "items": [
+    {
+     "id": "none",
+     "name": "無",
+     "lv": 1
+    },
+    {
+     "id": "bow",
+     "name": "蝴蝶結",
+     "lv": 1,
+     "pl": 2
+    },
+    {
+     "id": "scarf",
+     "name": "小圍巾",
+     "lv": 1,
+     "pl": 3
+    },
+    {
+     "id": "flower",
+     "name": "小花",
+     "lv": 1,
+     "pl": 4
+    },
+    {
+     "id": "hat",
+     "name": "小禮帽",
+     "lv": 1,
+     "pl": 5
+    },
+    {
+     "id": "glasses",
+     "name": "圓眼鏡",
+     "lv": 1,
+     "pl": 6
+    },
+    {
+     "id": "star",
+     "name": "星星髮夾",
+     "lv": 1,
+     "pl": 7
+    },
+    {
+     "id": "cape",
+     "name": "英雄披風",
+     "lv": 1,
+     "pl": 8
+    },
+    {
+     "id": "halo",
+     "name": "天使光環",
+     "lv": 1,
+     "pl": 9
+    },
+    {
+     "id": "crown",
+     "name": "寵物王冠",
+     "lv": 1,
+     "pl": 10
+    }
+   ]
+  },
+  {
    "key": "bg",
    "name": "背景",
    "items": [
@@ -1347,7 +1412,8 @@
   "cheek": "blush",
   "body": "normal",
   "deco": "none",
-  "hold": "none"
+  "hold": "none",
+  "pacc": "none"
  },
  "treasures": [
   {

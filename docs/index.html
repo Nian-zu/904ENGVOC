@@ -1550,7 +1550,7 @@ async function loadProfile(after){
 function drawMe(){
   if (!ME) return;
   $('meCard').classList.remove('hidden');
-  $('meAv').innerHTML = AV.svg(ME.a, {size: 76, label: '我的頭像', petLv: ME.petLv});
+  $('meAv').innerHTML = AV.svg(ME.a, {size: 76, label: '我的頭像', petLv: ME.petLv, petXp: ME.petXp});
   $('qAv').innerHTML = AV.svg(ME.a, {size: 34, petLv: ME.petLv});
   drawPet();
   $('meName').textContent = TEACHERS[ME.seat] || $('sname').value || (seatNo(ME.seat) + ' 號');
@@ -1573,7 +1573,11 @@ function lvUp(lv){
   setTimeout(() => d.remove(), 3500);
 }
 // 擁有：寶物看成就；其他看等級，或是在商店買過
-const owned = (it, key) => it.t ? (ME.tr || []).includes(it.t) : (it.lv != null && it.lv <= ME.lv) || (it.s != null && (ME.own || []).includes(key + ':' + it.id));
+const PET_NEED_C = [0, 20, 60, 120, 200, 300, 450, 650, 900, 1200];
+const petLvOf = id => { const xp = ((ME && ME.pets) || {})[id] || 0, N = (ME && ME.petNeed) || PET_NEED_C; let lv = 1; for (let i = 1; i < N.length; i++) if (xp >= N[i]) lv = i + 1; return lv; };
+// 寵物配件看「正在選的寵物」養到幾級；其他照舊（寶物看成就、一般看等級或有沒有買）
+const owned = (it, key) => it.pl != null ? !!(AVSEL && AVSEL.pet && AVSEL.pet !== 'none' && petLvOf(AVSEL.pet) >= it.pl)
+  : it.t ? (ME.tr || []).includes(it.t) : (it.lv != null && it.lv <= ME.lv) || (it.s != null && (ME.own || []).includes(key + ':' + it.id));
 const shopList = () => AV.items ? AV.items.cats.flatMap(c => c.items.filter(it => it.s != null).map(it => Object.assign({cat: c.key}, it))) : [];
 let SHOP_SURE = '';
 const trList = () => (AV.items && AV.items.treasures) || [];
@@ -1603,16 +1607,27 @@ function drawPet(){
   const need = ME.petNeed || [0, 20, 60, 120, 200, 300, 450, 650, 900, 1200], lv = ME.petLv || 1, xp = ME.petXp || 0;
   const lo = need[lv - 1] || 0, hi = need[lv] || lo, pct = lv >= 10 ? 100 : Math.round((xp - lo) / (hi - lo) * 100);
   const away = ME.away == null ? 0 : ME.away, mood = away <= 1 ? ['😊', '心情很好'] : away <= 3 ? ['😐', '有點想你'] : ['😢', '好久沒見到你了，快來背單字！'];
+  const stage = lv === 1 ? '🥚 蛋' : lv <= 3 ? '🐣 寶寶' : lv <= 6 ? '🌱 成長期' : lv <= 9 ? '⭐ 成熟期' : '👑 傳說';
+  const paccs = (AV.items && (AV.items.cats.find(c => c.key === 'pacc') || {}).items || []).filter(x => x.pl);
+  const nextAcc = paccs.find(x => x.pl > lv);
   box.className = 'petbox';
-  box.innerHTML = `<span>🐾 <b>${esc(petNameOf(pid))}</b> Lv.${lv}・${mood[0]} ${mood[1]}<br><small class="hint">${lv >= 10 ? '已經是最高等級！' : `再 ${hi - xp} 經驗升級・答對 1 題 +1`}${lv < 4 ? '・Lv.4 有光環、Lv.7 有星星、Lv.10 戴皇冠' : ''}・對戰時 Lv.3 起可用「刪去兩個選項」</small></span>` +
+  box.innerHTML = `<span>🐾 <b>${lv === 1 ? '神秘的蛋' : esc(petNameOf(pid))}</b> Lv.${lv}・${stage}・${mood[0]} ${mood[1]}<br><small class="hint">${lv === 1 ? `再 ${hi - xp} 經驗就會孵化！答對 1 題 +1` : lv >= 10 ? '已經是最高等級！' : `再 ${hi - xp} 經驗升級・答對 1 題 +1`}` +
+    `${nextAcc ? `・Lv.${nextAcc.pl} 解鎖配件「${esc(nextAcc.name)}」` : ''}・對戰時 Lv.3 起可用「刪去兩個選項」</small></span>` +
     `<button type="button" id="petFeed">🍖 餵食 10🪙</button><span class="pbar"><i style="width:${pct}%"></i></span>`;
+  // 寵物升級：蛋孵化、解鎖配件時跳出通知（每隻寵物記住上次看到的等級）
+  try {
+    const k = 'petlv|' + $('seat').value + '|' + pid, prev = +localStorage.getItem(k) || 0;
+    if (prev && lv > prev) chestQ.push({pet: {pid, from: prev, to: lv, acc: paccs.filter(x => x.pl > prev && x.pl <= lv)}});
+    localStorage.setItem(k, lv);
+    if (prev && lv > prev && $('chest').classList.contains('hidden')) nextChest();
+  } catch (e) {}
   $('petFeed').onclick = async () => {
     $('petFeed').disabled = true;
     try {
       const j = await postJ({type: 'feed'});
       if (!j.ok) throw new Error(j.error || '餵食失敗');
       ME.coin = j.coin; ME.petXp = j.xp;
-      const up = j.lv > (ME.petLv || 1); ME.petLv = j.lv;
+      const up = j.lv > (ME.petLv || 1); ME.petLv = j.lv; ME.pets = Object.assign(ME.pets || {}, {[pid]: j.xp});
       drawMe();
       box.insertAdjacentHTML('beforeend', `<small class="hint" style="grid-column:1/-1">😋 好吃！+15 經驗${up ? '・🎉 升到 Lv.' + j.lv + '！' : ''}（今天還能餵 ${j.fedLeft} 次）</small>`);
       if (up && typeof confetti === 'function') confetti();
@@ -1824,6 +1839,16 @@ function nextChest(){
   const what = g => g.kind === 'item' ? '「' + g.name + '」' : ' ' + g.what + ' 枚代幣';
   $('chestNo').classList.add('hidden'); $('chestOk').textContent = '收下';
   $('chestOk').onclick = nextChest;
+  if (t.pet) {   // 寵物孵化／升級
+    const P = t.pet, name = petNameOf(P.pid);
+    $('chestPic').innerHTML = AV.svg(ME.a, {size: 130, petLv: P.to});
+    $('chestTitle').textContent = P.from === 1 ? `🐣 蛋孵化了！是一隻${name}！` : `🎉 ${name} 升到 Lv.${P.to}！`;
+    $('chestText').textContent = (P.acc.length ? '解鎖寵物配件：' + P.acc.map(x => x.name).join('、') + '，到「換造型 → 寵物配件」幫牠穿上吧！' : P.to === 4 ? '寵物長大了，身邊多了光環！' : P.to === 7 ? '寵物變得更大，身邊有星星！' : '繼續答題讓牠長大！');
+    $('chestWear').classList.add('hidden'); $('chestOk').textContent = '好可愛！';
+    $('chest').classList.remove('hidden');
+    if (typeof confetti === 'function') confetti();
+    return;
+  }
   if (t.duel) {   // 自己發起的對戰有結果了
     const d = t.duel, me = +$('seat').value;
     $('chestPic').innerHTML = `<div style="font-size:4.5rem;line-height:1.2">${d.win === me ? '🏆' : d.win === 0 ? '🤝' : '🤺'}</div>`;
@@ -1894,7 +1919,7 @@ function openAv(keep){
 }
 function openAvTab(){
   $('avTabs').querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', b.dataset.c === AVCAT));
-  $('avPrev').innerHTML = AV.svg(AVSEL, {size: 110});
+  $('avPrev').innerHTML = AV.svg(AVSEL, {size: 110, petLv: AVSEL.pet && AVSEL.pet !== 'none' ? petLvOf(AVSEL.pet) : 0, petXp: ((ME && ME.pets) || {})[AVSEL.pet] || 0});
   $('avGrid').className = AVCAT === '_tr' ? 'trgrid' : AVCAT === '_shop' ? 'shopgrid' : 'avgrid';
   if (AVCAT === '_shop') { drawShop(); return; }
   if (AVCAT === '_tr') {
@@ -1910,7 +1935,7 @@ function openAvTab(){
   $('avGrid').innerHTML = cat.items.filter(it => (!it.t && it.lv != null) || owned(it, cat.key)).map(it => {
     const lock = !owned(it, cat.key);
     const pic = it.c && cat.key !== 'skin' && !it.t ? `<span class="sw" style="background:${it.c}"></span>` : AV.thumb(AVSEL, cat.key, it.id, 52);
-    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? 'Lv.' + it.lv + ' 解鎖' : esc(it.name)}">${it.t ? '<span class="gem">💎</span>' : ''}${pic}${lock ? `<span class="lock">🔒Lv.${it.lv}</span>` : ''}${it.s != null && !it.t && it.lv == null ? '<span class="gem">🛒</span>' : ''}<span>${esc(it.name)}</span></button>`;
+    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? (it.pl ? '寵物 Lv.' + it.pl : 'Lv.' + it.lv) + ' 解鎖' : esc(it.name)}">${it.t ? '<span class="gem">💎</span>' : ''}${pic}${lock ? `<span class="lock">🔒${it.pl ? '🐾' + it.pl : 'Lv.' + it.lv}</span>` : ''}${it.s != null && !it.t && it.lv == null ? '<span class="gem">🛒</span>' : ''}<span>${esc(it.name)}</span></button>`;
   }).join('');
   $('avGrid').querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { AVSEL[AVCAT] = b.dataset.i; openAvTab(); });
 }
