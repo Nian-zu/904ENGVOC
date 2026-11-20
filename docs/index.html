@@ -1897,15 +1897,22 @@ const PREV_ZH = {day: '昨天', week: '上週', month: '上個月'};
 async function loadBoard(){
   const body = $('boardBody');
   if (!SHEET_URL) { body.textContent = '尚未設定成績網址。'; return; }
-  body.className = 'empty'; body.textContent = '載入中…';
+  // 先用上次存在這台裝置的排行榜立刻顯示，再到伺服器拿最新的（不用盯著「載入中」）
+  const lk = 'bd|' + boardPeriod + '|' + boardType + '|' + boardCls + '|' + $('seat').value;
+  let shown = false;
+  try { const c = JSON.parse(localStorage.getItem(lk) || 'null'); if (c && c.today) { boardData = c; drawBoard(); shown = true; $('boardHint').textContent = '🔄 更新中…（先顯示上次的排行）'; } } catch (e) {}
+  if (!shown) { body.className = 'empty'; body.textContent = '載入中…'; }
+  const myReq = (loadBoard.n = (loadBoard.n || 0) + 1);
   try {
     const mine = PIN_OK && $('seat').value && $('spin').value.trim() ? '&seat=' + $('seat').value + '&pin=' + encodeURIComponent($('spin').value.trim()) : '';
     const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod + '&type=' + boardType + (boardCls ? '&cls=' + boardCls : '') + mine);
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '');
+    if (myReq !== loadBoard.n) return;   // 使用者已經切到別的排行
     boardData = j; drawBoard();
+    try { localStorage.setItem(lk, JSON.stringify(j)); } catch (e) {}
     fetchBadges().then(j2 => { if (j2) drawBoard(); });
-  } catch (e) { boardData = null; body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; $('boardHint').textContent = ''; $('fameBody').innerHTML = ''; }
+  } catch (e) { if (shown) { $('boardHint').textContent = '⚠️ 暫時連不上，先顯示上次的排行。'; return; } boardData = null; body.className = 'empty'; body.textContent = '排行榜暫時無法載入，請稍後再試。'; $('boardHint').textContent = ''; $('fameBody').innerHTML = ''; }
 }
 function drawBoard(){
   const j = boardData, body = $('boardBody'), me = +$('seat').value;
@@ -1946,7 +1953,7 @@ function drawBoard(){
     right: `依${PERIOD_ZH[boardPeriod]}${tz}答對題數加總排名，做越多、答對越多就越前面。`,
     rate: `依${PERIOD_ZH[boardPeriod]}${tz}答對率排名，至少作答 ${j.min ? j.min.rate : ''} 題才上榜；不含錯題重做。`,
     up: `${PERIOD_ZH[boardPeriod]}${tz}的答對率比${PREV_ZH[boardPeriod] || '上期'}進步多少分；兩段都要作答滿 ${j.min && j.min.up || ''} 題，不含錯題重做。`
-  }[boardSort] + '每次交卷後會更新。' + (boardType === 'jt' ? '寂天排行從 11/19 開始累積，單字書的排行不算寂天。' : tz ? '各題型排行從 11/15 開始累積。' : '');
+  }[boardSort] + '交卷後約 1 分鐘內更新。' + (boardType === 'jt' ? '寂天排行從 11/19 開始累積，單字書的排行不算寂天。' : tz ? '各題型排行從 11/15 開始累積。' : '');
   const f = j.fame;
   const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(TEACHERS[w.seat] || w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
   $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王（不含克漏字）')}${famed(f.months, '🏆 歷屆月冠王（不含克漏字）')}</div>` : '';

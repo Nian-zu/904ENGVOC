@@ -273,7 +273,7 @@ function daily_() {
     week: CLASSES.reduce(function (o, c) { const cw = c + '|' + thisW; o[c] = { from: thisW, total: wk[cw] || 0, goal: goalOf(cw), mine: wkSeat[cw] || {} }; return o; }, {}),
     survTop: survTop, battle: battle, per: per };
 }
-function dailyC_() { return cached_('daily|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, daily_); }
+function dailyC_() { return cachedSoft_('daily2|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, 60, daily_); }
 function dailyFor_(seat) {
   const D = dailyC_(), s = parseInt(seat, 10), p = D.per[s] || { today: [0, 0, 0], streak: 0, survBest: 0, survWeek: 0 };
   return { ok: true, today: D.today, quests: D.quests.map(function (q, i) { return Object.assign({ val: (p.today || [])[i] || 0 }, q); }), clear: D.clear,
@@ -283,9 +283,23 @@ function dailyFor_(seat) {
     battle: D.battle || null, wins: p.wins || 0, mvp: p.mvp || 0,
     coins: { quest: p.qcoin || 0, streak: p.scoin || 0, goal: p.gcoin || 0, battle: p.bcoin || 0 }, clearDays: p.clear || 0 };
 }
-function badgesC_() { return cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_); }
+function badgesC_() { return cachedSoft_('badges2|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, 90, badges_); }
 function ver_() { return CacheService.getScriptCache().get('ver') || '0'; }
 function bump_() { CacheService.getScriptCache().put('ver', Date.now() + '.' + Math.floor(Math.random() * 1e6), 21600); }
+// 排行榜這類「大家都在看、晚一分鐘也沒關係」的資料：有人交卷後，舊結果最多再用 stale 秒才重算，
+// 避免下課大家一直交卷時，每個人打開排行榜都要等伺服器從頭算一次
+function cachedSoft_(name, sec, stale, fn) {
+  const cache = CacheService.getScriptCache(), ver = ver_(), now = Date.now(), hit = cache.get(name);
+  if (hit) {
+    try {
+      const h = JSON.parse(hit);
+      if (h.ver === ver || now - h.t < stale * 1000) return h.v;
+    } catch (e) {}
+  }
+  const v = fn(), t = JSON.stringify({ ver: ver, t: now, v: v });
+  if (t.length < 95000) try { cache.put(name, t, sec); } catch (e) {}
+  return v;
+}
 function cached_(name, sec, fn) {
   const cache = CacheService.getScriptCache(), k = name + '|' + ver_(), hit = cache.get(k);
   if (hit) return JSON.parse(hit);
@@ -299,7 +313,7 @@ function boardCached_(p) {
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const type = /^[a-z]{2,6}$/.test(String(p.type || '')) ? p.type : 'all';
   const cls = CLASSES.indexOf(p.cls) >= 0 ? p.cls : '';
-  const r = cached_('bd|' + period + '|' + type + '|' + cls + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, function () { return boardCore_({ period: period, type: type, cls: cls }); });
+  const r = cachedSoft_('bd2|' + period + '|' + type + '|' + cls + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, 60, function () { return boardCore_({ period: period, type: type, cls: cls }); });
   const all = r.mineAll || {};
   delete r.mineAll;
   r.me = null;
@@ -985,7 +999,7 @@ function readTasks_() {
 // 學生端（每次開網頁都會問）：只算今天的任務，全班共用一份快取，交卷後才重算
 function taskFor_(seat) {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const C = cached_('tday|' + today, 120, function () { const r = tasks_(null, null, true); return { tasks: r.tasks || [], results: r.results || {} }; });
+  const C = cachedSoft_('tday2|' + today, 120, 45, function () { const r = tasks_(null, null, true); return { tasks: r.tasks || [], results: r.results || {} }; });
   const ro = roster_();
   let t = null, pw = '';
   C.tasks.forEach(function (x) { if (x.date === today) { t = JSON.parse(JSON.stringify(x)); pw = x.pw || ''; } });
