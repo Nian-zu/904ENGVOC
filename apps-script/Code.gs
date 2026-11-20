@@ -176,7 +176,7 @@ function questsOf_(d) {
     return qs[hash_(d + '#' + tier) % qs.length];
   });
 }
-function mondayOf_(d) { const t = new Date(d + 'T12:00:00+08:00'), w = (t.getDay() + 6) % 7; return shift_(d, -w); }
+function mondayOf_(d) { return weekStart_(d); }   // 週次規則見 weekStart_（第一週 11/14–11/22）
 // 全部算好放快取：每人每天的挑戰完成、連續交卷、全班週目標、生存紀錄
 function daily_() {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
@@ -224,7 +224,7 @@ function daily_() {
     wk[w] = (wk[w] || 0) + r.right;
     const ws = wkSeat[w] = wkSeat[w] || {}; ws[r.seat] = (ws[r.seat] || 0) + r.answered;
   });
-  const goalOf = function (cw) { const c = cw.split('|')[0], w = cw.split('|')[1]; return Math.max(2000, Math.round((wk[c + '|' + shift_(w, -7)] || 0) * 1.1 / 100) * 100); };
+  const goalOf = function (cw) { const c = cw.split('|')[0], w = cw.split('|')[1]; return Math.max(2000, Math.round((wk[c + '|' + prevWeek_(w)] || 0) * 1.1 / 100) * 100); };
   Object.keys(wk).forEach(function (cw) {
     if (cw.split('|')[1] < mondayOf_(QUEST_START) || wk[cw] < goalOf(cw)) return;
     Object.keys(wkSeat[cw]).forEach(function (seat) { if (wkSeat[cw][seat] >= 50) { const p = P(+seat); p.gcoin += 50; p.goals++; } });
@@ -259,7 +259,7 @@ function daily_() {
   rows.forEach(function (r) { if (r.d === today && classOf_(r.seat)) (todayBy[classOf_(r.seat)] = todayBy[classOf_(r.seat)] || {})[r.seat] = 1; });
   const battle = CLASSES.reduce(function (o, c) {
     o[c] = { avg: avgOf(c, thisW), n: nCls[c] || 0, today: Math.min(nCls[c] || 0, Object.keys(todayBy[c] || {}).length),
-      lastAvg: avgOf(c, shift_(thisW, -7)) };
+      lastAvg: avgOf(c, prevWeek_(thisW)) };
     return o;
   }, {});
   // 4) 生存挑戰紀錄
@@ -339,7 +339,7 @@ function boardCore_(p) {
 
   let from = '0000-00-00', prevFrom = '', prevTo = '';
   if (period === 'day') { from = today; prevFrom = prevTo = shift_(today, -1); }
-  if (period === 'week') { from = weekStart_(today); prevFrom = shift_(from, -7); prevTo = shift_(from, -1); }
+  if (period === 'week') { from = weekStart_(today); prevFrom = prevWeek_(from); prevTo = shift_(from, -1); }
   if (period === 'month') { from = today.slice(0, 8) + '01'; prevTo = shift_(from, -1); prevFrom = prevTo.slice(0, 8) + '01'; }
 
   // type=word|verb|prep|cloze：只算這種題型（用「作答明細」逐題資料）；不給就是全部題型（用「成績」）
@@ -548,10 +548,15 @@ function rank_(list, val, entry) {
 function shift_(d, n) {
   return Utilities.formatDate(new Date(Date.parse(d + 'T12:00:00+08:00') + n * 86400000), 'Asia/Taipei', 'yyyy-MM-dd');
 }
+// 週次：第一週是 11/14（六）～11/22（日）共 9 天，之後每週一到週日
+const FIRST_WEEK = ['2026-11-14', '2026-11-22'];
 function weekStart_(d) {
+  if (d >= FIRST_WEEK[0] && d <= FIRST_WEEK[1]) return FIRST_WEEK[0];
   const dow = new Date(Date.parse(d + 'T12:00:00+08:00')).getUTCDay() || 7; // 1=週一 … 7=週日
   return shift_(d, 1 - dow);
 }
+function prevWeek_(w) { return weekStart_(shift_(w, -1)); }
+function weekEnd_(w) { const e = w === FIRST_WEEK[0] ? FIRST_WEEK[1] : shift_(w, 6); return w < FIRST_WEEK[0] && e >= FIRST_WEEK[0] ? shift_(FIRST_WEEK[0], -1) : e; }
 
 // 稱號：最強、神準、進步最多、最勤奮、連續達人（同分全部並列）
 function titles_(list, prv, streaks, period) {
@@ -599,7 +604,7 @@ function fame_(rows, today, clozeRows) {
   }
   const md = function (d) { return parseInt(d.slice(5, 7), 10) + '/' + parseInt(d.slice(8), 10); };
   return {
-    weeks: champs(weekStart_, function (k) { return md(k) + '–' + md(shift_(k, 6)); }, weekStart_(today)),
+    weeks: champs(weekStart_, function (k) { return md(k) + '–' + md(weekEnd_(k)); }, weekStart_(today)),
     months: champs(function (d) { return d.slice(0, 7); }, function (k) { return parseInt(k.slice(0, 4), 10) + ' 年 ' + parseInt(k.slice(5), 10) + ' 月'; }, today.slice(0, 7))
   };
 }
@@ -846,7 +851,7 @@ function improveEver_(rows, today) {
     const s = byWeek[seat];
     Object.keys(s).forEach(function (w) {
       if (w === curW) return;
-      const a = s[w], b = s[shift_(w, -7)];
+      const a = s[w], b = s[prevWeek_(w)];
       if (a && b && a.fa >= 20 && b.fa >= 20 &&
         Math.round(a.fr / a.fa * 100) - Math.round(b.fr / b.fa * 100) >= 10) out[seat] = 1;
     });
@@ -1289,8 +1294,10 @@ function parent_(key, seat) {
   rows.forEach(function (r) { wk(classWeeks, r); });
   const nStu = roster.length || 1;
   const weekList = [];
-  for (let i = 7; i >= 0; i--) {
-    const w = weekStart_(shift_(today, -7 * i)), m = weeks[w] || { tests: 0, answered: 0, right: 0 }, c = classWeeks[w] || { answered: 0, right: 0 };
+  const ws = [weekStart_(today)];
+  while (ws.length < 8) ws.unshift(prevWeek_(ws[0]));
+  for (let i = 0; i < ws.length; i++) {
+    const w = ws[i], m = weeks[w] || { tests: 0, answered: 0, right: 0 }, c = classWeeks[w] || { answered: 0, right: 0 };
     weekList.push({ w: w, tests: m.tests, answered: m.answered, rate: m.answered ? Math.round(m.right / m.answered * 100) : null,
       classAnswered: Math.round(c.answered / nStu), classRate: c.answered ? Math.round(c.right / c.answered * 100) : null });
   }
