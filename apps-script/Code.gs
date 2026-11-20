@@ -45,6 +45,8 @@ function doPost(e) {
     if (body.type === 'dueldecline') return out_(duelDecline_(seat, body.id));
     if (body.type === 'bossinfo') return out_(bossInfo_(seat));
     if (body.type === 'boss') return out_(bossFight_(seat, body));
+    if (body.type === 'news') return out_(news_(seat, !!body.check));
+    if (body.type === 'clap') return out_(clap_(seat, parseInt(body.id, 10)));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -1873,14 +1875,15 @@ function buy_(seat, cat, id) {
 // 週六、週日開放（老師、測試帳號隨時可以試打）；每人每天最多挑戰 3 次；要先打倒前一隻才能挑戰下一隻。
 const BOSS_NAME = 'BOSS戰';
 const BOSS_PER_DAY = 3;
+const BOSS_PITY = 4;   // 保底：同一隻 BOSS 連續打倒 4 次都沒掉寶，第 4 次一定掉
 // 難度設計（答對率 95% 的學生大約的勝率）：史萊姆王 97%、石像巨人 75%、暗影巫師 62%、冰霜巨龍 21%、混沌魔王 13%
 // 有限時、題型也比較難，實際勝率會再低一些
 const BOSSES = [
-  { id: 'slime', name: '史萊姆王', icon: '🟢', diff: '簡單', hp: 12, hearts: 3, sec: 15, u: [1, 10], j: ['e'], coin: 10, drop: 15, items: ['pet:crownslime', 'hold:slimewand'] },
-  { id: 'golem', name: '石像巨人', icon: '🗿', diff: '普通', hp: 18, hearts: 2, sec: 12, u: [1, 20], j: ['e', 'c'], coin: 20, drop: 18, items: ['pet:golem', 'acc:runeband'] },
-  { id: 'wizard', name: '暗影巫師', icon: '🧙', diff: '困難', hp: 25, hearts: 2, sec: 10, u: [1, 20], j: ['e', 'c', 's'], coin: 30, drop: 20, items: ['pet:shadowcat', 'hold:shadowstaff'] },
-  { id: 'icedragon', name: '冰霜巨龍', icon: '🐉', diff: '極難', hp: 30, hearts: 1, sec: 8, u: [1, 20], j: ['c', 's'], coin: 50, drop: 25, items: ['pet:icedragon', 'bg:glacier'] },
-  { id: 'chaos', name: '混沌魔王', icon: '😈', diff: '地獄', hp: 40, hearts: 1, sec: 7, u: [1, 20], j: ['e', 'c', 's'], coin: 80, drop: 30, items: ['pet:imp', 'acc:demonhorns'] }
+  { id: 'slime', name: '史萊姆王', icon: '🟢', diff: '簡單', hp: 12, hearts: 3, sec: 15, u: [1, 10], j: ['e'], coin: 10, drop: 20, items: ['pet:crownslime', 'hold:slimewand'] },
+  { id: 'golem', name: '石像巨人', icon: '🗿', diff: '普通', hp: 18, hearts: 2, sec: 12, u: [1, 20], j: ['e', 'c'], coin: 20, drop: 22, items: ['pet:golem', 'acc:runeband'] },
+  { id: 'wizard', name: '暗影巫師', icon: '🧙', diff: '困難', hp: 25, hearts: 2, sec: 10, u: [1, 20], j: ['e', 'c', 's'], coin: 30, drop: 25, items: ['pet:shadowcat', 'hold:shadowstaff'] },
+  { id: 'icedragon', name: '冰霜巨龍', icon: '🐉', diff: '極難', hp: 30, hearts: 1, sec: 8, u: [1, 20], j: ['c', 's'], coin: 50, drop: 30, items: ['pet:icedragon', 'bg:glacier'] },
+  { id: 'chaos', name: '混沌魔王', icon: '😈', diff: '地獄', hp: 40, hearts: 1, sec: 7, u: [1, 20], j: ['e', 'c', 's'], coin: 80, drop: 35, items: ['pet:imp', 'acc:demonhorns'] }
 ];
 function bossSheet_() {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
@@ -1913,21 +1916,25 @@ function bossOpen_(seat) {
 }
 function bossState_(seat, rows) {
   const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), mine = rows.filter(function (r) { return r.seat === seat; });
-  const beat = {}, drops = [];
-  mine.forEach(function (r) { if (r.win) beat[r.boss] = (beat[r.boss] || 0) + 1; if (r.drop && r.drop.indexOf(':') > 0) drops.push(r.drop); });
+  const beat = {}, drops = [], dry = {};   // dry：上次掉寶之後又打倒幾次
+  mine.forEach(function (r) {
+    if (r.win) { beat[r.boss] = (beat[r.boss] || 0) + 1; dry[r.boss] = (dry[r.boss] || 0) + 1; }
+    if (r.drop && r.drop.indexOf(':') > 0) { drops.push(r.drop); dry[r.boss] = 0; }
+  });
   const used = mine.filter(function (r) { return r.day === today; }).length;
-  return { beat: beat, drops: drops, used: used, left: Math.max(0, BOSS_PER_DAY - used) };
+  return { beat: beat, drops: drops, dry: dry, used: used, left: Math.max(0, BOSS_PER_DAY - used) };
 }
 function bossInfo_(seat) {
   const rows = bossRows_(), st = bossState_(seat, rows);
   const p = profiles_()[seat] || {}, own = p.own || [];
   const top = {};   // 每隻 BOSS 被打倒幾次（全校）
   rows.forEach(function (r) { if (r.win) top[r.boss] = (top[r.boss] || 0) + 1; });
-  return { ok: true, open: bossOpen_(seat), perDay: BOSS_PER_DAY, left: st.left, used: st.used,
+  return { ok: true, open: bossOpen_(seat), perDay: BOSS_PER_DAY, pityN: BOSS_PITY, left: st.left, used: st.used,
     bosses: BOSSES.map(function (b, i) {
       return { id: b.id, name: b.name, icon: b.icon, diff: b.diff, hp: b.hp, hearts: b.hearts, sec: b.sec, u: b.u, j: b.j, coin: b.coin, drop: b.drop,
         items: b.items.map(function (x) { return { key: x, got: own.indexOf(x) >= 0 }; }),
-        beat: st.beat[b.id] || 0, unlocked: i === 0 || !!st.beat[BOSSES[i - 1].id], kills: top[b.id] || 0 };
+        beat: st.beat[b.id] || 0, unlocked: i === 0 || !!st.beat[BOSSES[i - 1].id], kills: top[b.id] || 0,
+        pity: BOSS_PITY - (st.dry[b.id] || 0) };
     }) };
 }
 function bossFight_(seat, b) {
@@ -1961,12 +1968,99 @@ function bossFight_(seat, b) {
       coin = B.coin;
       const own = (profiles_()[seat] || {}).own || [];
       const left = B.items.filter(function (x) { return own.indexOf(x) < 0 && st.drops.indexOf(x) < 0; });
-      if (left.length && Math.random() * 100 < B.drop) drop = left[Math.floor(Math.random() * left.length)];
+      if (left.length && (Math.random() * 100 < B.drop || (st.dry[B.id] || 0) + 1 >= BOSS_PITY)) drop = left[Math.floor(Math.random() * left.length)];
       else if (!left.length) { bonus = Math.round(B.coin / 2); coin += bonus; }   // 寶物都拿到了：多給一點代幣
     }
     bossSheet_().appendRow([new Date(), seat, B.id, win ? 'win' : 'lose', right, wrong, secs, drop, coin]);
+    // 全校動態：掉寶、第一次打倒困難以上的 BOSS
+    try {
+      const nm = drop ? (avItemName_(drop) || drop) : '';
+      if (drop) newsAdd_(seat, 'drop', drop + '@' + Date.now(), '打倒' + B.icon + B.name + '，掉落稀有' + (drop.indexOf('pet:') === 0 ? '寵物' : '寶物') + '「' + nm + '」！', drop);
+      else if (win && !st.beat[B.id] && i >= 2) newsAdd_(seat, 'boss', B.id, '第一次打倒' + B.icon + B.name + '！', '');
+    } catch (e) {}
     bump_();
     return { ok: true, win: win, right: right, wrong: wrong, hp: hp, hearts: hearts, coin: coin, bonus: bonus, drop: drop, first: win && !st.beat[B.id],
       next: win && BOSSES[i + 1] && !st.beat[B.id] ? BOSSES[i + 1].name : '', left: st.left - 1 };
+  } finally { lock.releaseLock(); }
+}
+
+
+// ===================== 全校動態（光榮榜） =====================
+// 稀有寶物、BOSS 掉寶、金／鑽石徽章、每 5 級升級 → 寫進「動態」表，大家首頁都看得到，還能按 👏 恭喜
+// 第一次幫某個人檢查時，把他「以前就有的」成就先記成隱藏（不廣播舊的），之後新拿到的才廣播
+const NEWS_NAME = '動態';
+const NEWS_DAYS = 3;
+function newsSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName(NEWS_NAME);
+  if (!sh) { sh = ss.insertSheet(NEWS_NAME); sh.getRange(1, 1, 1, 8).setValues([['時間', '座號', '類型', '代號', '內容', '圖', '拍手', '隱藏']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function newsRows_() {
+  const sh = newsSheet_(), n = sh.getLastRow() - 1;
+  if (n <= 0) return [];
+  return sh.getRange(2, 1, n, 8).getValues().map(function (r, i) {
+    const t = r[0] instanceof Date ? r[0].getTime() : Date.parse(String(r[0])) || 0;
+    let claps = [];
+    try { claps = JSON.parse(String(r[6] || '[]')); } catch (e) {}
+    return { id: i + 2, t: t, seat: parseInt(r[1], 10), type: String(r[2]), key: String(r[3]), text: String(r[4]), pic: String(r[5] || ''), claps: claps, hidden: !!r[7] };
+  });
+}
+function newsAdd_(seat, type, key, text, pic, hidden) {
+  newsSheet_().appendRow([new Date(), seat, type, key, text, pic || '', '[]', hidden ? 1 : '']);
+}
+function avItemName_(key) {
+  const k = String(key).split(':'), c = avItems_().cats.filter(function (x) { return x.key === k[0]; })[0];
+  const it = c && c.items.filter(function (x) { return x.id === k[1]; })[0];
+  return it ? it.name : '';
+}
+// 檢查這個人有沒有新的成就要廣播
+function newsCheck_(seat) {
+  if (seat === 30) return;
+  const p = profiles_()[seat]; if (!p) return;
+  const items = avItems_(), TR = {};
+  (items.treasures || []).forEach(function (t) { TR[t.t] = t; });
+  const want = [];
+  (p.tr || []).forEach(function (t) { if (TR[t]) want.push(['tr', t, '獲得寶物「' + TR[t].name + '」💎', TR[t].cat + ':' + TR[t].id]); });
+  const B = {}, TIER = ['', '銅', '銀', '金', '鑽石'];
+  BADGE_DEFS.forEach(function (d) { B[d.id] = d; });
+  ((badgesC_().badges || {})[seat] || []).forEach(function (id) {
+    const d = B[id]; if (d && d.tier >= 3) want.push(['badge', id, '拿到' + TIER[d.tier] + '徽章「' + d.icon + ' ' + d.name + '」', '']);
+  });
+  for (let L = 5; L <= (p.lv || 0); L += 5) want.push(['lv', String(L), '升到 Lv.' + L + '！', '']);
+  const mine = newsRows_().filter(function (r) { return r.seat === seat; }), have = {};
+  mine.forEach(function (r) { have[r.type + '|' + r.key] = 1; });
+  const seed = !mine.some(function (r) { return r.type !== 'drop' && r.type !== 'boss'; });   // 第一次檢查：舊成就不廣播
+  let lvTop = 0;
+  want.forEach(function (w) { if (w[0] === 'lv' && !have['lv|' + w[1]]) lvTop = Math.max(lvTop, +w[1]); });
+  want.forEach(function (w) {
+    if (have[w[0] + '|' + w[1]]) return;
+    const quiet = seed || (w[0] === 'lv' && +w[1] !== lvTop);   // 一次跳好幾級只廣播最高的
+    newsAdd_(seat, w[0], w[1], w[2], w[3], quiet);
+  });
+  if (seed) newsAdd_(seat, 'seed', '', '', '', true);
+}
+function news_(seat, check) {
+  if (check) {
+    const lock = LockService.getScriptLock();
+    if (lock.tryLock(8000)) { try { newsCheck_(seat); } catch (e) {} finally { lock.releaseLock(); } }
+  }
+  const since = Date.now() - NEWS_DAYS * 864e5, ro = roster_(), av = avMap_();
+  const list = newsRows_().filter(function (r) { return !r.hidden && r.t >= since && ro[r.seat]; }).slice(-30).reverse().map(function (r) {
+    return { id: r.id, at: Utilities.formatDate(new Date(r.t), 'Asia/Taipei', 'MM/dd HH:mm'), t: r.t, seat: r.seat, given: givenName(ro[r.seat]),
+      cls: isStaff_(r.seat) ? '老師' : classOf_(r.seat), type: r.type, text: r.text, pic: r.pic, a: (av[r.seat] || {}).a || null,
+      claps: r.claps.length, iClap: r.claps.indexOf(seat) >= 0 };
+  });
+  return { ok: true, news: list };
+}
+function clap_(seat, id) {
+  const lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    const r = newsRows_().filter(function (x) { return x.id === id; })[0];
+    if (!r || r.hidden) return { ok: false, error: '找不到這則動態' };
+    if (r.seat === seat) return { ok: false, error: '不能幫自己拍手啦 😆' };
+    if (r.claps.indexOf(seat) < 0) { r.claps.push(seat); newsSheet_().getRange(id, 7).setValue(JSON.stringify(r.claps)); }
+    return { ok: true, claps: r.claps.length };
   } finally { lock.releaseLock(); }
 }

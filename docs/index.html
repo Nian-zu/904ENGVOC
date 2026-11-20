@@ -380,6 +380,16 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 .bsrow .drops{display:flex;gap:6px;margin-top:4px}.bsrow .drops span{display:inline-flex;align-items:center;gap:3px;font-size:.75rem;border:1px solid var(--line);border-radius:10px;padding:1px 6px 1px 2px;background:#fff}
 .bsrow .drops span.got{border-color:#f2c94c;background:#fff8e1}.bsrow .drops svg{border-radius:50%}
 .bsdiff{font-size:.72rem;font-weight:800;border-radius:99px;padding:1px 7px;margin-left:4px;color:#fff}
+.newsrow{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:8px 0;border-bottom:1px dashed var(--line)}
+.newsrow:last-child{border-bottom:0}.newsrow small{color:var(--muted);font-size:.75rem}.newsrow .nt{line-height:1.45}
+.newsrow.hot .nt b.who{color:#c8473a}.newsrow .pic svg{border-radius:50%;vertical-align:middle;margin-left:4px}
+.clap{font:inherit;font-size:.85rem;border:1px solid var(--line);background:#fff;border-radius:99px;padding:4px 10px;cursor:pointer;white-space:nowrap}
+.clap.on{background:#fff3c4;border-color:#f2c94c}.clap:disabled{cursor:default}
+#newsMore{font:inherit;font-size:.85rem;border:0;background:none;color:var(--muted);cursor:pointer;margin-top:4px}
+.toastbox{position:fixed;left:50%;top:12px;transform:translateX(-50%);z-index:80;display:flex;flex-direction:column;gap:8px;width:min(94vw,420px);pointer-events:none}
+.toast{pointer-events:auto;display:flex;gap:10px;align-items:center;background:#2b2523;color:#fff;border-radius:14px;padding:10px 12px;box-shadow:0 8px 24px rgba(0,0,0,.25);animation:tin .35s ease-out;font-size:.9rem;line-height:1.45}
+.toast.out{opacity:0;transform:translateY(-10px);transition:.4s}.toast .ti{font-size:1.6rem}
+@keyframes tin{from{opacity:0;transform:translateY(-14px)}to{opacity:1;transform:none}}
 </style>
 </head>
 <body>
@@ -595,6 +605,12 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <button class="primary" id="againBtn">同範圍再測一次</button>
   </div>
 </section>
+
+<section id="newsBox" class="panel hidden" aria-label="全校光榮榜">
+  <div class="row" style="justify-content:space-between"><h2>📣 全校光榮榜</h2><span class="hint">最近 3 天的稀有寶物、BOSS 掉寶、金／鑽石徽章和升級</span></div>
+  <div id="newsList"></div>
+</section>
+<div id="toastBox" class="toastbox" aria-live="polite"></div>
 
 <section id="board" class="panel board" aria-label="排行榜">
   <div class="row" style="justify-content:space-between">
@@ -1573,6 +1589,7 @@ async function loadProfile(after){
     setTimeout(checkInbox, after ? 2200 : 900);
     setTimeout(() => loadDuels(false), after ? 2600 : 1200);
     if (!after) setTimeout(weekendNotice, 1800);
+    setTimeout(() => loadNews(true), after ? 4200 : 2400);
   } catch (e) {}
 }
 function drawMe(){
@@ -1819,7 +1836,7 @@ function drawBoss(){
     const can = j.open && b.unlocked && j.left > 0;
     const drops = b.items.map(x => { const [c, id] = x.key.split(':'); return `<span class="${x.got ? 'got' : ''}" title="${esc(itemOf(x.key).name)}">${AV.items ? AV.thumb(AV.norm(ME.a), c, id, 26) : ''}${x.got ? '💎' : '❔'}${esc(itemOf(x.key).name)}</span>`; }).join('');
     return `<div class="bsrow${b.unlocked ? '' : ' off'}"><span class="bi">${b.unlocked ? b.icon : '🔒'}</span><div><b>${esc(b.name)}</b><span class="bsdiff" style="background:${DIFFC[b.diff] || '#888'}">${esc(b.diff)}</span>${b.beat ? ` <small style="display:inline">✓ 打倒 ${b.beat} 次</small>` : ''}` +
-      `<small>血量 ${b.hp}・你有 ${'❤️'.repeat(b.hearts)}・每題 ${b.sec} 秒・U${b.u[0]}–U${b.u[1]}・${b.j.map(x => ({e: '英翻中', c: '中翻英', s: '例句'})[x]).join('、')}<br>打倒 +${b.coin} 🪙・掉寶機率 ${b.drop}%${b.kills ? `・全校已打倒 ${b.kills} 次` : ''}${b.unlocked ? '' : '<br>🔒 先打倒「' + esc(j.bosses[i - 1].name) + '」才能挑戰'}</small><div class="drops">${drops}</div></div>` +
+      `<small>血量 ${b.hp}・你有 ${'❤️'.repeat(b.hearts)}・每題 ${b.sec} 秒・U${b.u[0]}–U${b.u[1]}・${b.j.map(x => ({e: '英翻中', c: '中翻英', s: '例句'})[x]).join('、')}<br>打倒 +${b.coin} 🪙・掉寶機率 ${b.drop}%${b.items.some(x => !x.got) && b.pity > 0 && b.pity < (j.pityN || 4) ? `・再打倒 ${b.pity} 次保證掉寶` : ''}${b.kills ? `・全校已打倒 ${b.kills} 次` : ''}${b.unlocked ? '' : '<br>🔒 先打倒「' + esc(j.bosses[i - 1].name) + '」才能挑戰'}</small><div class="drops">${drops}</div></div>` +
       `<button type="button" class="${can ? 'primary' : 'ghostbtn'}" data-bs="${i}" ${can ? '' : 'disabled'}>挑戰</button></div>`;
   }).join('');
   $('bsList').querySelectorAll('[data-bs]').forEach(b => b.onclick = () => startBoss(j.bosses[+b.dataset.bs]));
@@ -1858,9 +1875,52 @@ async function finishBoss(s){
       if (j.drop) { chestQ.push({bossDrop: {key: j.drop, boss: B}}); setTimeout(() => { if ($('chest').classList.contains('hidden')) nextChest(); }, 900); }
     } else box.textContent = `💀 ${B.name}還剩 ${j.hp} 滴血，差一點！今天還能挑戰 ${j.left} 次。`;
     loadProfile(true);
+    if (j.drop || j.first) setTimeout(() => loadNews(false), 1500);
   } catch (e) { box.textContent = '⚠️ BOSS 戰結果送出失敗：' + e.message; }
 }
 $('meBoss').onclick = openBoss;
+
+// ===================== 全校光榮榜 =====================
+let NEWS = [], NEWS_ALL = false;
+const NEWS_ICON = {drop: '👹', boss: '⚔️', tr: '💎', badge: '🏅', lv: '⬆️'};
+async function loadNews(check){
+  if (!PIN_OK) return;
+  try {
+    const j = await postJ({type: 'news', check});
+    if (!j.ok) return;
+    NEWS = j.news || []; drawNews();
+    // 別人的新動態：跳出小通知（最多 3 則）
+    const me = +$('seat').value, k = 'newsSeen|' + me;
+    let seen = 0; try { seen = +localStorage.getItem(k) || 0; } catch (e) {}
+    const fresh = NEWS.filter(n => n.t > seen && n.seat !== me);
+    if (seen) fresh.slice(0, 3).reverse().forEach((n, i) => setTimeout(() => toast(n), i * 1200));
+    if (NEWS.length) try { localStorage.setItem(k, String(Math.max(seen, ...NEWS.map(n => n.t)))); } catch (e) {}
+  } catch (e) {}
+}
+const newsWho = n => `<b class="who">${esc(n.given)}</b><small>（${n.cls === '老師' ? '老師' : n.cls + ' 班'}）</small>`;
+const newsPic = n => { if (!n.pic || !AV.items) return ''; const [c, i] = n.pic.split(':'); return `<span class="pic">${AV.thumb(AV.norm(n.a || (ME && ME.a)), c, i, 28)}</span>`; };
+function drawNews(){
+  $('newsBox').classList.toggle('hidden', !NEWS.length);
+  if (!NEWS.length) return;
+  const me = +$('seat').value, L = NEWS_ALL ? NEWS : NEWS.slice(0, 6);
+  $('newsList').innerHTML = L.map(n => `<div class="newsrow${n.type === 'drop' || n.type === 'boss' ? ' hot' : ''}"><span>${AV.items ? AV.svg(n.a || {}, {size: 40}) : ''}</span>` +
+    `<div class="nt">${NEWS_ICON[n.type] || '🎉'} ${newsWho(n)} ${esc(n.text)}${newsPic(n)}<br><small>${esc(n.at)}</small></div>` +
+    `<button type="button" class="clap${n.iClap ? ' on' : ''}" data-clap="${n.id}" ${n.seat === me || n.iClap ? 'disabled' : ''} title="${n.seat === me ? '大家幫你拍手的次數' : '恭喜一下'}">👏 ${n.claps || ''}</button></div>`).join('') +
+    (NEWS.length > 6 ? `<button type="button" id="newsMore">${NEWS_ALL ? '收起' : '看更多（共 ' + NEWS.length + ' 則）'}</button>` : '');
+  $('newsList').querySelectorAll('[data-clap]').forEach(b => b.onclick = async () => {
+    b.disabled = true; const n = NEWS.find(x => x.id === +b.dataset.clap);
+    n.iClap = true; n.claps = (n.claps || 0) + 1; drawNews();
+    try { const j = await postJ({type: 'clap', id: n.id}); if (j.ok) { n.claps = j.claps; drawNews(); } } catch (e) {}
+  });
+  const m = $('newsMore'); if (m) m.onclick = () => { NEWS_ALL = !NEWS_ALL; drawNews(); };
+}
+function toast(n){
+  const el = document.createElement('div'); el.className = 'toast';
+  el.innerHTML = `<span class="ti">${NEWS_ICON[n.type] || '🎉'}</span><span>${esc(n.given)}（${n.cls === '老師' ? '老師' : n.cls + ' 班'}）${esc(n.text)}</span>`;
+  el.onclick = () => { $('newsBox').scrollIntoView({behavior: 'smooth'}); el.remove(); };
+  $('toastBox').appendChild(el);
+  setTimeout(() => { el.classList.add('out'); setTimeout(() => el.remove(), 450); }, 6000);
+}
 $('bsClose').onclick = () => $('bossModal').classList.add('hidden');
 $('duClose').onclick = () => $('duelModal').classList.add('hidden');
 
