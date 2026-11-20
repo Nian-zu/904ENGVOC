@@ -11,7 +11,9 @@ const SPREADSHEET_ID = '1v_YtQtmFH29t1Zugvi4A8pej9MHkGRB7_Oe9VtpiK3o';
 
 // ===== 兩個班：904 座號 1–29；916 用 91601–91699（例如 91605 = 916 班 5 號）；30–99 是測試／老師／來賓帳號 =====
 const CLASSES = ['904', '916'];
-function classOf_(seat) { seat = +seat; return seat >= 90000 ? String(Math.floor(seat / 100)) : seat > 0 && seat < 30 ? '904' : ''; }
+// 老師帳號加入某一班（算進那班的排行、週目標、班級對抗），例如 31 號玠汝老師算 916
+const STAFF_CLASS = { 31: '916' };
+function classOf_(seat) { seat = +seat; return seat >= 90000 ? String(Math.floor(seat / 100)) : seat > 0 && seat < 30 ? '904' : STAFF_CLASS[seat] || ''; }
 function isStudent_(seat) { return !!classOf_(seat); }
 function validSeat_(seat) { seat = +seat; return (seat >= 1 && seat <= 99) || (seat >= 91601 && seat <= 91699); }
 function sheet_() {
@@ -550,7 +552,7 @@ function givenName(n) {
   n = String(n || '').trim();
   // 30 號以後是老師／來賓帳號：名單上怎麼寫就怎麼顯示（不去掉姓）
   const ro = roster_();
-  if (Object.keys(ro).some(function (k) { return !isStudent_(+k) && ro[k] === n; })) return n;
+  if (Object.keys(ro).some(function (k) { return +k >= 30 && +k < 100 && ro[k] === n; })) return n;
   if (!/^[\u4e00-\u9fff]{2,5}$/.test(n)) return n;
   const two = ['歐陽', '司馬', '諸葛', '上官', '張簡', '范姜', '端木', '皇甫', '司徒', '東方', '公孫', '令狐', '夏侯', '慕容', '尉遲', '長孫', '宇文', '軒轅', '單于', '呼延'];
   const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
@@ -1183,13 +1185,13 @@ function parent_(key, seat) {
   const cls = want && k === want ? '904' : want916 && k === want916 ? '916' : '';
   if (!cls) return { ok: false, error: key ? '密碼不正確' : '請輸入密碼' };
   const ro = roster_();
-  const roster = Object.keys(ro).map(Number).filter(function (x) { return classOf_(x) === cls; })
+  const roster = Object.keys(ro).map(Number).filter(function (x) { return classOf_(x) === cls && !isStaff_(x); })
     .sort(function (a, b) { return a - b; }).map(function (x) { return { seat: x, name: ro[x], label: x >= 90000 ? String(x % 100) : String(x) }; });
   const s = parseInt(seat, 10);
   if (!s) return { ok: true, roster: roster, cls: cls };
   if (!ro[s] || classOf_(s) !== cls) return { ok: false, error: '找不到這個座號' };
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const isStu = function (x) { return x && classOf_(x) === cls; };   // 班級比較只跟同班比
+  const isStu = function (x) { return x && classOf_(x) === cls && !isStaff_(x); };   // 班級比較只跟同班學生比
 
   // ---- 練習量：每次交卷（成績分頁）
   const rows = readRows_().filter(function (r) { return isStu(r.seat); });
@@ -1470,7 +1472,7 @@ function giftTotals_() {
 const isStaff_ = function (seat) { return seat >= 31 && seat < 100; };
 function names_() {
   const ro = roster_(), out = [];
-  Object.keys(ro).forEach(function (k) { if (+k !== 30) out.push({ seat: +k, given: givenName(ro[k]), cls: classOf_(+k) || '老師' }); });
+  Object.keys(ro).forEach(function (k) { if (+k !== 30) out.push({ seat: +k, given: givenName(ro[k]), cls: isStaff_(+k) ? '老師' : classOf_(+k) }); });
   return { ok: true, names: out.sort(function (a, b) { return a.seat - b.seat; }), msgs: GIFT_MSGS };
 }
 function gift_(seat, b) {
