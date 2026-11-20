@@ -215,6 +215,37 @@ function daily_() {
     Object.keys(wkSeat[cw]).forEach(function (seat) { if (wkSeat[cw][seat] >= 50) { const p = P(+seat); p.gcoin += 50; p.goals++; } });
   });
   const thisW = mondayOf_(today);
+  // 3b) 班級對抗：每週比「平均每人答對題數」（各班人數不同，用平均才公平）。
+  //     贏的班，本週作答 50 題以上的人各得 40 代幣；每班每週答對最多的人是該班 MVP
+  const nCls = {};
+  Object.keys(roster_()).forEach(function (k) { const c = classOf_(+k); if (c) nCls[c] = (nCls[c] || 0) + 1; });
+  const avgOf = function (c, w) { return nCls[c] ? Math.round((wk[c + '|' + w] || 0) / nCls[c] * 10) / 10 : 0; };
+  const weeks = {};
+  Object.keys(wk).forEach(function (cw) { weeks[cw.split('|')[1]] = 1; });
+  Object.keys(weeks).forEach(function (w) {
+    if (w < mondayOf_(QUEST_START)) return;
+    const done = w < thisW;   // 本週還沒結束：勝負週日晚上才算
+    // MVP：每班本週答對最多的人（週結束才算）
+    CLASSES.forEach(function (c) {
+      const rs = {};
+      rows.forEach(function (r) { if (classOf_(r.seat) === c && mondayOf_(r.d) === w) rs[r.seat] = (rs[r.seat] || 0) + r.right; });
+      const best = Object.keys(rs).sort(function (a, b) { return rs[b] - rs[a]; })[0];
+      if (done && best && rs[best] > 0) P(+best).mvp = (P(+best).mvp || 0) + 1;
+    });
+    if (!done) return;
+    const a = avgOf('904', w), b = avgOf('916', w);
+    if (a === b) return;
+    const win = a > b ? '904' : '916', ws = wkSeat[win + '|' + w] || {};
+    Object.keys(ws).forEach(function (seat) { if (ws[seat] >= 50) { const p = P(+seat); p.bcoin = (p.bcoin || 0) + 40; p.wins = (p.wins || 0) + 1; } });
+  });
+  // 今天各班交卷率
+  const todayBy = {};
+  rows.forEach(function (r) { if (r.d === today && classOf_(r.seat)) (todayBy[classOf_(r.seat)] = todayBy[classOf_(r.seat)] || {})[r.seat] = 1; });
+  const battle = CLASSES.reduce(function (o, c) {
+    o[c] = { avg: avgOf(c, thisW), n: nCls[c] || 0, today: Math.min(nCls[c] || 0, Object.keys(todayBy[c] || {}).length),
+      lastAvg: avgOf(c, shift_(thisW, -7)) };
+    return o;
+  }, {});
   // 4) 生存挑戰紀錄
   rows.forEach(function (r) {
     if (!isSurv_(r)) return;
@@ -233,7 +264,7 @@ function daily_() {
     .sort(function (a, b) { return b.best - a.best; }).slice(0, 10);
   return { ok: true, today: today, quests: qs.map(function (q) { return { id: q.id, t: q.t, need: q.need, coin: q.coin, tier: q.tier }; }), clear: QUEST_CLEAR,
     week: CLASSES.reduce(function (o, c) { const cw = c + '|' + thisW; o[c] = { from: thisW, total: wk[cw] || 0, goal: goalOf(cw), mine: wkSeat[cw] || {} }; return o; }, {}),
-    survTop: survTop, per: per };
+    survTop: survTop, battle: battle, per: per };
 }
 function dailyC_() { return cached_('daily|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, daily_); }
 function dailyFor_(seat) {
@@ -242,7 +273,8 @@ function dailyFor_(seat) {
     streak: p.streak, doneToday: !!p.done, streakCoin: Math.min(p.done ? p.streak : p.streak + 1, 10) * 2, survBest: p.survBest, survWeek: p.survWeek, survTop: D.survTop,
     week: (function () { const W = D.week[classOf_(s) || '904'] || {}, M = W.mine || {};
       return { cls: classOf_(s) || '904', from: W.from, total: W.total || 0, goal: W.goal || 2000, mine: M[s] || 0, people: Object.keys(M).filter(function (k) { return M[k] >= 50; }).length }; })(),
-    coins: { quest: p.qcoin || 0, streak: p.scoin || 0, goal: p.gcoin || 0 }, clearDays: p.clear || 0 };
+    battle: D.battle || null, wins: p.wins || 0, mvp: p.mvp || 0,
+    coins: { quest: p.qcoin || 0, streak: p.scoin || 0, goal: p.gcoin || 0, battle: p.bcoin || 0 }, clearDays: p.clear || 0 };
 }
 function badgesC_() { return cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_); }
 function ver_() { return CacheService.getScriptCache().get('ver') || '0'; }
@@ -641,8 +673,42 @@ const BADGE_DEFS = [
   { id: 'quest100', icon: '👑', name: '挑戰之王', desc: '累積 100 天完成全部每日挑戰' },
   { id: 'goal10', icon: '🏟️', name: '班級英雄', desc: '全班達成 10 次週目標，每次都有出力' },
   { id: 'shop5', icon: '🛍️', name: '購物達人', desc: '在商店買 5 件商品' },
-  { id: 'shop15', icon: '🧳', name: '收藏家', desc: '在商店買 15 件商品' }
+  { id: 'shop15', icon: '🧳', name: '收藏家', desc: '在商店買 15 件商品' },
+  // ---- 班級對抗 ----
+  { id: 'win1', icon: '🚩', name: '班級對抗勝利', desc: '自己的班贏得一次週對抗（那週自己作答 50 題以上）' },
+  { id: 'win4', icon: '🏆', name: '常勝之班', desc: '幫自己的班贏得 4 次週對抗' },
+  { id: 'win10', icon: '🏯', name: '王者之班', desc: '幫自己的班贏得 10 次週對抗' },
+  { id: 'mvp1', icon: '🌟', name: '班級 MVP', desc: '某一週答對題數是全班第一' },
+  { id: 'mvp4', icon: '💫', name: 'MVP 常客', desc: '當 4 次班級 MVP' }
 ];
+// 徽章分類與等級（1 銅、2 銀、3 金、4 鑽石）：同一系列越後面越難
+const BADGE_SERIES = [
+  ['堅持', '🔥', [['streak3', 'streak7', 'streak14', 'streak30', 'streak60', 'streak100', 'streak150'], ['days30', 'days100', 'days150'], ['weekend', 'week7'], ['comeback']]],
+  ['題量', '📈', [['q100', 'q500', 'q1000', 'q2000', 'q5000', 'q10000'], ['marathon', 'day100']]],
+  ['精準', '🎯', [['full', 'full5', 'full20', 'full50'], ['acc90', 'speed'], ['improve']]],
+  ['好習慣', '🌅', [['early', 'early20'], ['first', 'first10', 'first30'], ['redo10', 'redo50']]],
+  ['題型大師', '🧩', [['word300', 'word1000'], ['verb200', 'verb600'], ['prep200', 'prep600'], ['cloze85', 'cloze200', 'cloze500'], ['sense100', 'sense300'], ['phrase100', 'phrase300'], ['cap80', 'cap200'], ['allkind']]],
+  ['寂天', '📘', [['jt100', 'jt500', 'jt1500'], ['jtcover25', 'jtcover50']]],
+  ['探索', '🗺️', [['cover50', 'cover100', 'cover183']]],
+  ['挑戰', '💀', [['quest1', 'quest7', 'quest30', 'quest60', 'quest100'], ['surv20', 'surv50', 'surv100', 'surv150']]],
+  ['班級', '⚔️', [['goal1', 'goal4', 'goal10'], ['win1', 'win4', 'win10'], ['mvp1', 'mvp4'], ['week', 'month']]],
+  ['收藏', '🛍️', [['shop5', 'shop15']]]
+];
+(function () {
+  const meta = {};
+  let ORD = 0;
+  BADGE_SERIES.forEach(function (g) {
+    g[2].forEach(function (ser) {
+      ser.forEach(function (id, i) {
+        const top = Math.min(4, ser.length + 1), t = ser.length === 1 ? 2 : 1 + Math.round(i * (top - 1) / (ser.length - 1));
+        meta[id] = { cat: g[0], tier: t, ord: ++ORD };
+      });
+    });
+  });
+  BADGE_DEFS.forEach(function (d) { Object.assign(d, meta[d.id] || { cat: '其他', tier: 2 }); });
+})();
+const BADGE_CATS = BADGE_SERIES.map(function (g) { return { name: g[0], icon: g[1] }; });
+
 
 // 「作答明細」各題型統計（不含錯題重做）
 function detailStats_() {
@@ -828,9 +894,11 @@ function badges_() {
     [[60, 'quest60'], [100, 'quest100']].forEach(function (x) { if ((dp.clear || 0) >= x[0]) ids.push(x[1]); });
     if ((bought[seat] || 0) >= 5) ids.push('shop5');
     if ((bought[seat] || 0) >= 15) ids.push('shop15');
+    [[1, 'win1'], [4, 'win4'], [10, 'win10']].forEach(function (x) { if ((dp.wins || 0) >= x[0]) ids.push(x[1]); });
+    [[1, 'mvp1'], [4, 'mvp4']].forEach(function (x) { if ((dp.mvp || 0) >= x[0]) ids.push(x[1]); });
     if (ids.length) out[seat] = ids;
   });
-  return { ok: true, defs: BADGE_DEFS, badges: out, today: today };
+  return { ok: true, defs: BADGE_DEFS, cats: BADGE_CATS, badges: out, today: today };
 }
 
 // ===== 每日任務：老師在「每日任務」分頁設定每天要考的範圍、題數、過關答對率 =====
@@ -1266,7 +1334,7 @@ function profiles_() {
     if (nb >= BADGE_DEFS.length) tr.push('b40');
     [['一字多義', 50, 'sense50'], ['片語', 50, 'phrase50'], ['會考文法', 30, 'cap30']].forEach(function (x) { if (dk[x[0]] && dk[x[0]].right >= x[1]) tr.push(x[2]); });
     const dp = dper[k] || {};
-    const earn = o.right * CR.right + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge + (dp.qcoin || 0) + (dp.scoin || 0) + (dp.gcoin || 0);
+    const earn = o.right * CR.right + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge + (dp.qcoin || 0) + (dp.scoin || 0) + (dp.gcoin || 0) + (dp.bcoin || 0);
     res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr,
       own: own[k] || [], earn: earn, coin: Math.max(0, earn - (spent[k] || 0)),
       show: (show[k] || []).filter(function (id) { return (bd[k] || []).indexOf(id) >= 0; }) };

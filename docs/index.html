@@ -204,6 +204,17 @@ input[type=text]{flex:1;min-width:200px}
 .bk small{color:var(--muted);font-size:.76rem;line-height:1.35;display:block}
 .bk .got{margin-left:auto;color:var(--ok);font-weight:900}
 .bk.pick{cursor:pointer}
+.bkcat{grid-column:1/-1;display:flex;align-items:center;gap:8px;margin:10px 0 2px;font-weight:900;font-size:.95rem;border-bottom:2px solid var(--line);padding-bottom:4px}
+.bkcat small{font-weight:600;color:var(--muted);font-size:.78rem;margin-left:auto}
+.bk .bi{border-radius:50%;box-shadow:0 0 0 3px var(--tier,#ddd) inset;padding:4px}
+.bk.t1{--tier:#c8814a}.bk.t2{--tier:#a8b2bc}.bk.t3{--tier:#e0a81a}.bk.t4{--tier:#6fd3f2}
+.bk.t4 .bi{background:radial-gradient(circle,#eafaff,#fff)}
+.bk .tierlb{font-size:.68rem;font-weight:800;color:var(--tier);margin-left:4px}
+.battle{display:grid;grid-template-columns:auto 1fr auto;gap:4px 8px;align-items:center;margin-top:4px}
+.battle .bb{height:12px;background:var(--line);border-radius:99px;overflow:hidden}
+.battle .bb i{display:block;height:100%;border-radius:99px}
+.battle .c904 i{background:#3b6fd1}.battle .c916 i{background:#e2445f}
+.battle b.mine{color:var(--chalk)}
 .bk.shown{box-shadow:0 0 0 3px #f2c94c;background:#fff3c4}
 .bk.shown .got{color:#b98a12}
 .bkhead{grid-column:1/-1;font-size:.86rem;line-height:1.6;padding:4px 2px}
@@ -1105,9 +1116,17 @@ function drawBadgeBook(){
   }).join('');
   const head = `<div class="bkhead"><b>已收集 ${mine.length} / ${total} 個徽章</b><div class="bkbar"><i style="width:${Math.round(mine.length / total * 100)}%"></i></div>${goals}` +
     (canPick ? `<div class="hint">點已經拿到的徽章，選擇要在排行榜上展示哪幾個（最多 3 個，已選 ${show.length} 個）<span id="showMsg"></span></div>` : '<div class="hint">輸入個人密碼後，可以選擇排行榜上要展示的徽章。</div>') + '</div>';
-  $('badgeBookBody').innerHTML = head + badgeData.defs.map(d => {
+  const TIER = ['', '銅', '銀', '金', '鑽石'];
+  const card = d => {
     const got = mine.includes(d.id), on = show.includes(d.id);
-    return `<div class="bk${got ? '' : ' off'}${got && canPick ? ' pick' : ''}${on ? ' shown' : ''}" data-b="${d.id}"${got && canPick ? ' role="button" tabindex="0"' : ''}><span class="bi">${d.icon}</span><div><b>${esc(d.name)}</b><small>${esc(d.desc)}</small></div>${on ? '<span class="got">⭐ 展示中</span>' : got ? '<span class="got">✓</span>' : ''}</div>`;
+    return `<div class="bk t${d.tier || 2}${got ? '' : ' off'}${got && canPick ? ' pick' : ''}${on ? ' shown' : ''}" data-b="${d.id}"${got && canPick ? ' role="button" tabindex="0"' : ''}><span class="bi">${d.icon}</span><div><b>${esc(d.name)}<span class="tierlb">${TIER[d.tier || 2]}</span></b><small>${esc(d.desc)}</small></div>${on ? '<span class="got">⭐ 展示中</span>' : got ? '<span class="got">✓</span>' : ''}</div>`;
+  };
+  // 依分類分組（堅持、題量、精準…），每組顯示收集進度
+  const cats = badgeData.cats && badgeData.cats.length ? badgeData.cats : [{name: '', icon: ''}];
+  $('badgeBookBody').innerHTML = head + cats.map(c => {
+    const ds = badgeData.defs.filter(d => !c.name || d.cat === c.name).sort((x, y) => (x.ord || 0) - (y.ord || 0));
+    if (!ds.length) return '';
+    return (c.name ? `<div class="bkcat">${c.icon} ${esc(c.name)}<small>${ds.filter(d => mine.includes(d.id)).length} / ${ds.length}</small></div>` : '') + ds.map(card).join('');
   }).join('');
   if (canPick) $('badgeBookBody').querySelectorAll('.bk.pick').forEach(el => el.onclick = el.onkeydown = ev => {
     if (ev.type === 'keydown' && ev.key !== 'Enter' && ev.key !== ' ') return;
@@ -1164,6 +1183,16 @@ async function loadChallenge(){
     drawChallenge(before);
   } catch (e) {}
 }
+function battleHTML(j){
+  const B = j.battle; if (!B || !B['904'] || !B['916']) return '';
+  const my = j.week && j.week.cls, mx = Math.max(B['904'].avg, B['916'].avg, 1);
+  const row = c => `<b class="${c === my ? 'mine' : ''}">${c}${c === my ? '（我）' : ''}</b><span class="bb c${c}"><i style="width:${Math.round(B[c].avg / mx * 100)}%"></i></span><span>平均 <b>${B[c].avg}</b> 題</span>`;
+  const lead = B['904'].avg === B['916'].avg ? '目前平手！' : (B['904'].avg > B['916'].avg ? '904' : '916') + ' 暫時領先 ' + Math.abs(Math.round((B['904'].avg - B['916'].avg) * 10) / 10) + ' 題';
+  const pct = c => B[c].n ? Math.round(B[c].today / B[c].n * 100) : 0;
+  return `<div class="chline">⚔️ <b>本週班級對抗</b>（比平均每人答對題數）・${lead}<div class="battle">${row('904')}${row('916')}</div>` +
+    `<small class="hint">今天交卷率 904：${pct('904')}%・916：${pct('916')}%｜週日結算，贏的班作答 50 題以上的人各得 +40 🪙；每班本週答對最多的人是 MVP🌟` +
+    (j.wins || j.mvp ? `｜你已幫班上贏 ${j.wins} 次、當過 ${j.mvp} 次 MVP` : '') + `</small></div>`;
+}
 function drawChallenge(before){
   const j = CH, done = j.quests.filter(q => q.val >= q.need).length, all = done === 3;
   const stars = t => '⭐'.repeat(t);
@@ -1174,6 +1203,7 @@ function drawChallenge(before){
     `<div class="chline">🔥 連續交卷 <b>${j.streak}</b> 天・${j.doneToday ? `今天已領連續獎勵 +${j.streakCoin} 🪙` : `今天交卷可得 +${j.streakCoin} 🪙`}<small class="hint">（連續越多天越多，最多每天 +20）</small></div>` +
     `<div class="chline">🏫 ${esc(w.cls || '')} 班本週目標：答對 <b>${w.total}</b> / ${w.goal} 題${w.total >= w.goal ? ' 🎉 達成！' : ''}<div class="qbar"><i style="width:${wp}%"></i></div>` +
     `<small class="hint">你本週作答 ${w.mine} 題${w.mine >= 50 ? '（✓ 有出力）' : '，作答 50 題才算有出力'}・達成時有出力的人各得 +50 🪙（目前 ${w.people} 人有出力）</small></div>` +
+    battleHTML(j) +
     `<div class="survbox"><button type="button" class="survbtn" id="survBtn">💀 生存挑戰</button><small>寂天段考範圍 U${JT_EXAM[0]}–U${JT_EXAM[1]}，3 條命、每題 15 秒，看你能撐幾題！<br>個人最佳 <b>${j.survBest}</b> 題・本週最佳 ${j.survWeek} 題${top ? '<br>本週前三：' + top : ''}</small><span class="hint" id="chMsg"></span></div>`;
   $('chCard').classList.remove('hidden');
   $('survBtn').onclick = startSurv;
@@ -1540,7 +1570,7 @@ $('avRand').onclick = () => {
 };
 function drawShop(){
   const R = ME.coinRule || {right: 1, quiz: 20, badge: 20};
-  $('avLvTxt').innerHTML = `<span class="coin">🪙 ${ME.coin}</span> 枚代幣・答對 1 題 +${R.right}、小考過關 +${R.quiz}、每個徽章 +${R.badge}，還有每日挑戰、連續交卷、全班週目標。點圖可以先試穿`;
+  $('avLvTxt').innerHTML = `<span class="coin">🪙 ${ME.coin}</span> 枚代幣・答對 1 題 +${R.right}、小考過關 +${R.quiz}、每個徽章 +${R.badge}，還有每日挑戰、連續交卷、全班週目標、班級對抗。點圖可以先試穿`;
   const L = shopList().sort((a, b) => a.s - b.s);
   $('avGrid').innerHTML = L.map(it => {
     const k = it.cat + ':' + it.id, have = owned(it, it.cat), on = AVSEL[it.cat] === it.id;
