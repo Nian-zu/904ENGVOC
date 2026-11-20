@@ -500,6 +500,9 @@ function detailSheet_() {
 // 只留名字、去掉姓氏（複姓去兩字）；英文或其他寫法照原樣
 function givenName(n) {
   n = String(n || '').trim();
+  // 30 號以後是老師／來賓帳號：名單上怎麼寫就怎麼顯示（不去掉姓）
+  const ro = roster_();
+  if (Object.keys(ro).some(function (k) { return +k >= 30 && ro[k] === n; })) return n;
   if (!/^[\u4e00-\u9fff]{2,5}$/.test(n)) return n;
   const two = ['歐陽', '司馬', '諸葛', '上官', '張簡', '范姜', '端木', '皇甫', '司徒', '東方', '公孫', '令狐', '夏侯', '慕容', '尉遲', '長孫', '宇文', '軒轅', '單于', '呼延'];
   const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
@@ -1060,13 +1063,13 @@ function parent_(key, seat) {
   if (!want) return { ok: false, error: '家長密碼尚未設定，請洽導師。' };
   if (String(key || '').trim() !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入密碼' };
   const ro = roster_();
-  const roster = Object.keys(ro).map(Number).filter(function (x) { return x !== 30 && x !== 31 && x !== 32 && x !== 33; })
+  const roster = Object.keys(ro).map(Number).filter(function (x) { return x < 30; })   // 30 號以後是測試／老師／來賓帳號
     .sort(function (a, b) { return a - b; }).map(function (x) { return { seat: x, name: ro[x] }; });
   const s = parseInt(seat, 10);
   if (!s) return { ok: true, roster: roster };
   if (!ro[s]) return { ok: false, error: '找不到這個座號' };
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const isStu = function (x) { return x && x !== 30 && x !== 31 && x !== 32 && x !== 33; };
+  const isStu = function (x) { return x && x < 30; };
 
   // ---- 練習量：每次交卷（成績分頁）
   const rows = readRows_().filter(function (r) { return isStu(r.seat); });
