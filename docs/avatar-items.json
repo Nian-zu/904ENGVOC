@@ -902,6 +902,18 @@
      "lv": 1,
      "t": "b30",
      "how": "收集 30 個徽章"
+    },
+    {
+     "id": "runeband",
+     "name": "符文頭帶",
+     "b": "golem",
+     "how": "週末 BOSS 戰打倒「石像巨人」掉落"
+    },
+    {
+     "id": "demonhorns",
+     "name": "魔王之角",
+     "b": "chaos",
+     "how": "週末 BOSS 戰打倒「混沌魔王」掉落"
     }
    ]
   },
@@ -1046,6 +1058,18 @@
      "lv": 1,
      "t": "jt100",
      "how": "寂天答對 100 題（徽章「寂天新手」）"
+    },
+    {
+     "id": "slimewand",
+     "name": "果凍魔杖",
+     "b": "slime",
+     "how": "週末 BOSS 戰打倒「史萊姆王」掉落"
+    },
+    {
+     "id": "shadowstaff",
+     "name": "暗影法杖",
+     "b": "wizard",
+     "how": "週末 BOSS 戰打倒「暗影巫師」掉落"
     }
    ]
   },
@@ -1199,6 +1223,36 @@
      "lv": 1,
      "t": "b40",
      "how": "收集全部 40 個徽章"
+    },
+    {
+     "id": "crownslime",
+     "name": "王冠史萊姆",
+     "b": "slime",
+     "how": "週末 BOSS 戰打倒「史萊姆王」掉落"
+    },
+    {
+     "id": "golem",
+     "name": "小石像",
+     "b": "golem",
+     "how": "週末 BOSS 戰打倒「石像巨人」掉落"
+    },
+    {
+     "id": "shadowcat",
+     "name": "暗影黑貓",
+     "b": "wizard",
+     "how": "週末 BOSS 戰打倒「暗影巫師」掉落"
+    },
+    {
+     "id": "icedragon",
+     "name": "冰霜幼龍",
+     "b": "icedragon",
+     "how": "週末 BOSS 戰打倒「冰霜巨龍」掉落"
+    },
+    {
+     "id": "imp",
+     "name": "小惡魔",
+     "b": "chaos",
+     "how": "週末 BOSS 戰打倒「混沌魔王」掉落"
     }
    ]
   },
@@ -1391,6 +1445,13 @@
      "t": "b10",
      "how": "收集 10 個徽章",
      "c": "#2f3e66"
+    },
+    {
+     "id": "glacier",
+     "name": "冰川",
+     "b": "icedragon",
+     "how": "週末 BOSS 戰打倒「冰霜巨龍」掉落",
+     "c": "#cfeeff"
     }
    ]
   }

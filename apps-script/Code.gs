@@ -43,6 +43,8 @@ function doPost(e) {
     if (body.type === 'duelplay') return out_(duelPlay_(seat, body));
     if (body.type === 'duels') return out_(duels_(seat));
     if (body.type === 'dueldecline') return out_(duelDecline_(seat, body.id));
+    if (body.type === 'bossinfo') return out_(bossInfo_(seat));
+    if (body.type === 'boss') return out_(bossFight_(seat, body));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -1430,8 +1432,9 @@ function profiles_() {
   });
   const CR = L.coin || { right: 1, quiz: 20, badge: 20 };
   const G = giftTotals_();
-  let DT = {}, PA = {}, last = {};
+  let DT = {}, PA = {}, last = {}, BT = {};
   try { DT = duelTotals_(); } catch (e) {}
+  try { BT = bossTotals_(); } catch (e) {}
   try { PA = petAll_(); } catch (e) {}
   readRows_().forEach(function (r) { if (!last[r.seat] || r.d > last[r.seat]) last[r.seat] = r.d; });
   const today0 = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
@@ -1454,10 +1457,11 @@ function profiles_() {
     const dp = dper[k] || {};
     const earn = o.right * CR.right + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge + (dp.qcoin || 0) + (dp.scoin || 0) + (dp.gcoin || 0) + (dp.bcoin || 0);
     const g = G[k] || { recv: 0, cost: 0, items: [] };
-    const owned = (own[k] || []).concat(g.items.filter(function (x) { return (own[k] || []).indexOf(x) < 0; }));
+    const bt = BT[k] || { coin: 0, drops: [] };
+    const owned = (own[k] || []).concat(g.items.concat(bt.drops).filter(function (x, i, a) { return (own[k] || []).indexOf(x) < 0 && a.indexOf(x) === i; }));
     res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr,
       own: owned, earn: earn, spent: spent[k] || 0, giftIn: g.recv, giftOut: g.cost,
-      coin: Math.max(0, earn + g.recv - g.cost - (spent[k] || 0) + ((DT[k] || {}).coin || 0)),
+      coin: Math.max(0, earn + g.recv - g.cost - (spent[k] || 0) + ((DT[k] || {}).coin || 0) + bt.coin),
       duel: DT[k] || { coin: 0, win: 0, n: 0 },
       pets: PA[k] || {}, petXp: ((PA[k] || {})[(av[k] || {}).pet] || 0), petLv: petLv_((PA[k] || {})[(av[k] || {}).pet] || 0),
       away: last[k] ? Math.round((new Date(today0 + 'T12:00:00+08:00') - new Date(last[k] + 'T12:00:00+08:00')) / 864e5) : 99,
@@ -1494,7 +1498,7 @@ function saveAvatar_(seat, a) {
     // 寵物配件（pl）：要看「這次選的寵物」養到幾級
     const ok = it && (it.pl != null ? clean.pet && clean.pet !== 'none' && petLv_((p.pets || {})[clean.pet] || 0) >= it.pl
       : it.t ? (p.tr || []).indexOf(it.t) >= 0
-      : (it.lv != null && it.lv <= p.lv) || (it.s != null && (p.own || []).indexOf(c.key + ':' + it.id) >= 0));
+      : (it.lv != null && it.lv <= p.lv) || ((it.s != null || it.b) && (p.own || []).indexOf(c.key + ':' + it.id) >= 0));
     clean[c.key] = ok ? it.id : items.default[c.key];
   });
   const sh = avSheet_(), n = sh.getLastRow() - 1;
@@ -1859,5 +1863,108 @@ function buy_(seat, cat, id) {
     else sh.appendRow([seat, JSON.stringify(p.a || items.default), '', JSON.stringify(own), spent]);
     bump_();
     return { ok: true, coin: p.coin - it.s, own: own };
+  } finally { lock.releaseLock(); }
+}
+
+
+// ===================== 週末 BOSS 戰 =====================
+// 題目：寂天 U1–U20。答對＝打 BOSS 一下（扣 1 滴血），答錯或超時＝自己少 1 顆心。
+// 打倒 BOSS：拿代幣，並有機率掉落這隻 BOSS 的稀有寶物／寵物（每樣只會掉一次）。
+// 週六、週日開放（老師、測試帳號隨時可以試打）；每人每天最多挑戰 5 次；要先打倒前一隻才能挑戰下一隻。
+const BOSS_NAME = 'BOSS戰';
+const BOSS_PER_DAY = 5;
+const BOSSES = [
+  { id: 'slime', name: '史萊姆王', icon: '🟢', diff: '簡單', hp: 8, hearts: 4, sec: 20, u: [1, 10], j: ['e'], coin: 10, drop: 35, items: ['pet:crownslime', 'hold:slimewand'] },
+  { id: 'golem', name: '石像巨人', icon: '🗿', diff: '普通', hp: 12, hearts: 3, sec: 15, u: [1, 20], j: ['e', 'c'], coin: 15, drop: 40, items: ['pet:golem', 'acc:runeband'] },
+  { id: 'wizard', name: '暗影巫師', icon: '🧙', diff: '困難', hp: 15, hearts: 3, sec: 12, u: [1, 20], j: ['e', 'c', 's'], coin: 20, drop: 45, items: ['pet:shadowcat', 'hold:shadowstaff'] },
+  { id: 'icedragon', name: '冰霜巨龍', icon: '🐉', diff: '極難', hp: 20, hearts: 2, sec: 10, u: [1, 20], j: ['c', 's'], coin: 30, drop: 55, items: ['pet:icedragon', 'bg:glacier'] },
+  { id: 'chaos', name: '混沌魔王', icon: '😈', diff: '地獄', hp: 25, hearts: 2, sec: 9, u: [1, 20], j: ['e', 'c', 's'], coin: 50, drop: 70, items: ['pet:imp', 'acc:demonhorns'] }
+];
+function bossSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName(BOSS_NAME);
+  if (!sh) { sh = ss.insertSheet(BOSS_NAME); sh.getRange(1, 1, 1, 9).setValues([['時間', '座號', 'BOSS', '結果', '答對', '答錯', '秒數', '掉落', '代幣']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function bossRows_() {
+  const sh = bossSheet_(), n = sh.getLastRow() - 1;
+  if (n <= 0) return [];
+  return sh.getRange(2, 1, n, 9).getValues().map(function (r) {
+    const t = r[0] instanceof Date ? r[0] : new Date(String(r[0]));
+    return { day: isNaN(t) ? '' : Utilities.formatDate(t, 'Asia/Taipei', 'yyyy-MM-dd'), seat: parseInt(r[1], 10), boss: String(r[2]), win: String(r[3]) === 'win',
+      drop: String(r[7] || ''), coin: Number(r[8]) || 0 };
+  });
+}
+function bossTotals_() {
+  const t = {};
+  bossRows_().forEach(function (r) {
+    const x = t[r.seat] = t[r.seat] || { coin: 0, drops: [] };
+    x.coin += r.coin;
+    if (r.drop && r.drop.indexOf(':') > 0 && x.drops.indexOf(r.drop) < 0) x.drops.push(r.drop);
+  });
+  return t;
+}
+function bossOpen_(seat) {
+  if (seat === 30 || isStaff_(seat)) return true;
+  const u = parseInt(Utilities.formatDate(new Date(), 'Asia/Taipei', 'u'), 10);   // 1＝週一 … 7＝週日
+  return u >= 6;
+}
+function bossState_(seat, rows) {
+  const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), mine = rows.filter(function (r) { return r.seat === seat; });
+  const beat = {}, drops = [];
+  mine.forEach(function (r) { if (r.win) beat[r.boss] = (beat[r.boss] || 0) + 1; if (r.drop && r.drop.indexOf(':') > 0) drops.push(r.drop); });
+  const used = mine.filter(function (r) { return r.day === today; }).length;
+  return { beat: beat, drops: drops, used: used, left: Math.max(0, BOSS_PER_DAY - used) };
+}
+function bossInfo_(seat) {
+  const rows = bossRows_(), st = bossState_(seat, rows);
+  const p = profiles_()[seat] || {}, own = p.own || [];
+  const top = {};   // 每隻 BOSS 被打倒幾次（全校）
+  rows.forEach(function (r) { if (r.win) top[r.boss] = (top[r.boss] || 0) + 1; });
+  return { ok: true, open: bossOpen_(seat), perDay: BOSS_PER_DAY, left: st.left, used: st.used,
+    bosses: BOSSES.map(function (b, i) {
+      return { id: b.id, name: b.name, icon: b.icon, diff: b.diff, hp: b.hp, hearts: b.hearts, sec: b.sec, u: b.u, j: b.j, coin: b.coin, drop: b.drop,
+        items: b.items.map(function (x) { return { key: x, got: own.indexOf(x) >= 0 }; }),
+        beat: st.beat[b.id] || 0, unlocked: i === 0 || !!st.beat[BOSSES[i - 1].id], kills: top[b.id] || 0 };
+    }) };
+}
+function bossFight_(seat, b) {
+  const i = BOSSES.map(function (x) { return x.id; }).indexOf(String(b.boss || '')), B = BOSSES[i];
+  if (!B) return { ok: false, error: '找不到這隻 BOSS' };
+  if (!bossOpen_(seat)) return { ok: false, error: 'BOSS 戰只在週六、週日開放喔！' };
+  const key = loadKey_(), ans = (Array.isArray(b.answers) ? b.answers : []).slice(0, B.hp + B.hearts);
+  const seen = {};
+  for (let k = 0; k < ans.length; k++) {
+    const q = parseInt(ans[k][0], 10), e = key[q];
+    if (!e || q < 50000 || seen[q]) return { ok: false, error: '題目不正確' };
+    const u = parseInt(String(e[2] || '').replace(/^U/, ''), 10);
+    if (!(u >= B.u[0] && u <= B.u[1])) return { ok: false, error: '題目不在範圍內' };
+    seen[q] = 1;
+  }
+  // 照順序重算：答對扣 BOSS 血、答錯扣自己的心
+  let hp = B.hp, hearts = B.hearts, right = 0, wrong = 0;
+  for (let k = 0; k < ans.length && hp > 0 && hearts > 0; k++) {
+    if (key[parseInt(ans[k][0], 10)][0] === parseInt(ans[k][1], 10)) { hp--; right++; } else { hearts--; wrong++; }
+  }
+  const win = hp <= 0, secs = Math.max(1, Math.min(3600, parseInt(b.secs, 10) || 0));
+  if (win && secs < right * 1.5) return { ok: false, error: '作答時間不合理' };
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const rows = bossRows_(), st = bossState_(seat, rows);
+    if (st.left <= 0) return { ok: false, error: '今天的 ' + BOSS_PER_DAY + ' 次挑戰用完了，明天再來！' };
+    if (i > 0 && !st.beat[BOSSES[i - 1].id]) return { ok: false, error: '要先打倒「' + BOSSES[i - 1].name + '」才能挑戰這隻' };
+    let drop = '', coin = 0, bonus = 0;
+    if (win) {
+      coin = B.coin;
+      const own = (profiles_()[seat] || {}).own || [];
+      const left = B.items.filter(function (x) { return own.indexOf(x) < 0 && st.drops.indexOf(x) < 0; });
+      if (left.length && Math.random() * 100 < B.drop) drop = left[Math.floor(Math.random() * left.length)];
+      else if (!left.length) { bonus = Math.round(B.coin / 2); coin += bonus; }   // 寶物都拿到了：多給一點代幣
+    }
+    bossSheet_().appendRow([new Date(), seat, B.id, win ? 'win' : 'lose', right, wrong, secs, drop, coin]);
+    bump_();
+    return { ok: true, win: win, right: right, wrong: wrong, hp: hp, hearts: hearts, coin: coin, bonus: bonus, drop: drop, first: win && !st.beat[B.id],
+      next: win && BOSSES[i + 1] && !st.beat[B.id] ? BOSSES[i + 1].name : '', left: st.left - 1 };
   } finally { lock.releaseLock(); }
 }

@@ -370,6 +370,16 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 #tbPw{min-width:150px;flex:0 1 170px}
 .chip.quizchip{background:#fff1c2;border-color:var(--chalk);color:#7a5200;font-weight:900}
 .dupick{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}.dupick button{font:inherit;font-size:.85rem;border-radius:99px;border:1px solid #c9b8f0;background:#f3eeff;padding:3px 10px;cursor:pointer}
+.bossbar{display:flex;align-items:center;gap:10px;margin:8px 0 2px;padding:8px 10px;border-radius:12px;background:#2b2033;color:#fff}
+.bossbar .bi{font-size:2.2rem;line-height:1;transition:transform .15s}
+.bossbar .bi.hit{transform:scale(.8) rotate(-8deg);filter:brightness(1.8)}
+.bossbar b{font-size:.9rem}.bossbar .hpw{flex:1}.bossbar .hp{height:10px;border-radius:99px;background:#5a4a66;overflow:hidden;margin-top:4px}
+.bossbar .hp i{display:block;height:100%;background:linear-gradient(90deg,#e2445f,#f29d4c);transition:width .3s}
+.bsrow{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px dashed var(--line)}
+.bsrow.off{opacity:.55}.bsrow .bi{font-size:2.2rem}.bsrow small{display:block;color:var(--muted);font-size:.78rem;line-height:1.5}
+.bsrow .drops{display:flex;gap:6px;margin-top:4px}.bsrow .drops span{display:inline-flex;align-items:center;gap:3px;font-size:.75rem;border:1px solid var(--line);border-radius:10px;padding:1px 6px 1px 2px;background:#fff}
+.bsrow .drops span.got{border-color:#f2c94c;background:#fff8e1}.bsrow .drops svg{border-radius:50%}
+.bsdiff{font-size:.72rem;font-weight:800;border-radius:99px;padding:1px 7px;margin-left:4px;color:#fff}
 </style>
 </head>
 <body>
@@ -396,7 +406,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <div class="xpbar" aria-hidden="true"><span id="meXpBar"></span></div>
       <div class="xptxt" id="meXp"></div>
     </div>
-    <div class="mebtns"><button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button><button type="button" class="ghostbtn" id="meTr">🎁 寶物</button><button type="button" class="ghostbtn" id="meShop">🛒 商店</button><button type="button" class="ghostbtn" id="meGift">💝 送禮物</button><button type="button" class="ghostbtn" id="meDuel">🤺 單字對戰</button></div>
+    <div class="mebtns"><button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button><button type="button" class="ghostbtn" id="meTr">🎁 寶物</button><button type="button" class="ghostbtn" id="meShop">🛒 商店</button><button type="button" class="ghostbtn" id="meGift">💝 送禮物</button><button type="button" class="ghostbtn" id="meDuel">🤺 單字對戰</button><button type="button" class="ghostbtn" id="meBoss">👹 BOSS 戰</button></div>
       <div class="petbox hidden" id="petBox"></div>
   </div>
   <div class="taskban hidden" id="taskBan">
@@ -518,6 +528,12 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     </div>
   </div>
 </div>
+<div class="avmodal hidden" id="bossModal" role="dialog" aria-modal="true" aria-label="週末 BOSS 戰">
+  <div class="avbox">
+    <div class="avtop"><div style="font-size:2rem">👹</div><div><b>週末 BOSS 戰</b><div class="hint">題目是寂天 U1–U20。答對＝打 BOSS 一下，答錯或超時＝自己少一顆心。打倒 BOSS 拿代幣，還有機率掉落稀有寶物或寵物！</div></div><button type="button" class="avx" id="bsClose" aria-label="關閉">✕</button></div>
+    <div class="gfbody"><div class="duelhead" id="bsHead">載入中…</div><div id="bsList"></div></div>
+  </div>
+</div>
 <div class="avmodal hidden" id="giftModal" role="dialog" aria-modal="true" aria-label="送禮物">
   <div class="avbox">
     <div class="avtop"><div style="font-size:2rem">💝</div><div><b>送禮物給同學</b><div class="hint" id="gfHint"></div></div><button type="button" class="avx" id="gfClose" aria-label="關閉">✕</button></div>
@@ -547,6 +563,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <div class="row"><span class="qav" id="qAv"></span><span class="hint" id="qProg"></span><button id="ttsBtn" type="button" aria-pressed="false" title="作答後自動朗讀單字和句子">🗣️ 自動朗讀</button><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
     </div>
     <div class="bar"><span id="qBar"></span></div>
+    <div id="bossBar" class="bossbar hidden"></div>
     <p class="ask" id="qAsk">＿＿＿ 處適合填入何者？</p>
     <div id="qGloss" class="cgloss hidden"></div>
     <div class="sentence" id="qText"></div>
@@ -835,21 +852,24 @@ function start(items){
 const SURV_SEC = 15;
 function progText(s){
   if (!s.surv) return `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
-  const h = '❤️'.repeat(s.surv.lives) + '🖤'.repeat(3 - s.surv.lives);
-  return `${h} 第 ${s.i+1} 題・撐過 ${s.right} 題` + (s.surv.left != null && !s.answered ? `・⏱ ${s.surv.left} 秒` : '');
+  const h = '❤️'.repeat(Math.max(0, s.surv.lives)) + '🖤'.repeat(Math.max(0, (s.surv.max || 3) - s.surv.lives));
+  const t = s.surv.left != null && !s.answered ? `・⏱ ${s.surv.left} 秒` : '';
+  if (s.surv.boss) { drawBossBar(s); return `${h} 第 ${s.i+1} 題` + t; }
+  return `${h} 第 ${s.i+1} 題・撐過 ${s.right} 題` + t;
 }
 function survTick(){
   const s = session; if (!s || !s.surv || s.answered) return;
   const left = Math.max(0, Math.ceil((s.surv.end - Date.now()) / 1000));
   s.surv.left = left;
-  $('qBar').style.width = Math.max(0, (s.surv.end - Date.now()) / (SURV_SEC * 1000) * 100) + '%';
+  $('qBar').style.width = Math.max(0, (s.surv.end - Date.now()) / ((s.surv.sec || SURV_SEC) * 1000) * 100) + '%';
   $('qProg').textContent = progText(s);
   if (Date.now() >= s.surv.end) { clearInterval(s.surv.timer); answer(-1); }
 }
 function survStart(){
   const s = session; if (!s.surv) return;
   clearInterval(s.surv.timer);
-  s.surv.end = Date.now() + SURV_SEC * 1000; s.surv.left = SURV_SEC;
+  const sec = s.surv.sec || SURV_SEC;
+  s.surv.end = Date.now() + sec * 1000; s.surv.left = sec;
   s.surv.timer = setInterval(survTick, 200); survTick();
 }
 // 生存挑戰固定考寂天段考範圍（英翻中、中翻英、例句選擇題混合，同一個字只出一次）
@@ -979,7 +999,7 @@ function answer(oi){
   const q = DATA.bank[s.items[s.i]], ok = oi === q.c;
   if (ok) s.right++; else s.wrong.push({st: s.items[s.i], qi: s.items[s.i], pick: oi});
   s.log.push([q.r ?? s.items[s.i], oi, oi < 0 ? '（超時）' : q.o[oi], q.k]);
-  if (s.surv) { clearInterval(s.surv.timer); s.surv.left = null; if (!ok) s.surv.lives--; setTimeout(survAfter, 0); }  // 誘答變化題用原題編號計分（答案位置相同）；選的字與題型給老師儀表板
+  if (s.surv) { clearInterval(s.surv.timer); s.surv.left = null; if (!ok) s.surv.lives--; else if (s.surv.boss) { s.surv.boss.hp--; bossHit(); } setTimeout(survAfter, 0); }  // 誘答變化題用原題編號計分（答案位置相同）；選的字與題型給老師儀表板
   $('qOpts').querySelectorAll('.opt').forEach(b => {
     const v = +b.dataset.oi; b.disabled = true;
     if (v === q.c) b.classList.add('ok'); else if (v === oi) b.classList.add('bad');
@@ -1016,22 +1036,26 @@ function answer(oi){
 function survAfter(){
   const s = session; if (!s.surv) return;
   $('qProg').textContent = progText(s);
-  if (s.surv.lives <= 0) { $('nextBtn').textContent = '看成績'; const fb = $('qFb'); fb.insertAdjacentHTML('afterbegin', `<b class="survend">💀 三條命用完了！這次撐過 ${s.right} 題</b>`); }
+  const B = s.surv.boss;
+  if (B && B.hp <= 0) { $('nextBtn').textContent = '領取戰利品'; $('qFb').insertAdjacentHTML('afterbegin', `<b class="survend" style="color:#2a8a4a">⚔️ 你打倒了${esc(B.name)}！</b>`); }
+  else if (s.surv.lives <= 0) { $('nextBtn').textContent = '看成績'; const fb = $('qFb'); fb.insertAdjacentHTML('afterbegin', B ? `<b class="survend">💀 心用完了！${esc(B.name)}還剩 ${B.hp} 滴血</b>` : `<b class="survend">💀 三條命用完了！這次撐過 ${s.right} 題</b>`); }
 }
 function next(){
   const s = session; if (!s.answered) return;
-  if (s.surv && s.surv.lives <= 0) { s.items = s.items.slice(0, s.i + 1); finish(); return; }
+  if (s.surv && (s.surv.lives <= 0 || (s.surv.boss && s.surv.boss.hp <= 0))) { s.items = s.items.slice(0, s.i + 1); finish(); return; }
   s.i++; if (s.i >= s.items.length) finish(); else show();
 }
 function finish(){
   const s = session;
   if (s.surv) { clearInterval(s.surv.timer); s.items = s.items.slice(0, s.log.length); s.planned = s.items.length; $('quiz').classList.remove('survmode'); }
   if (s.duel && s.log.length) setTimeout(() => finishDuel(s), 300);
+  if (s.surv && s.surv.boss) { $('bossBar').classList.add('hidden'); if (s.log.length) setTimeout(() => finishBoss(s), 300); }
   const total = s.items.length;
   $('quiz').classList.add('hidden'); $('result').classList.remove('hidden'); $('board').classList.remove('hidden');
   const pct = Math.round(s.right / total * 100);
   countUp($('rScore'), pct);
-  $('rDetail').textContent = s.surv ? `💀 生存挑戰：撐過 ${s.right} 題` + (CH && s.right > (CH.survBest || 0) ? '・🎉 刷新個人最佳！' : '')
+  $('rDetail').textContent = s.surv && s.surv.boss ? `${s.surv.boss.icon} BOSS 戰：答對 ${s.right} 題、答錯 ${s.log.length - s.right} 題`
+    : s.surv ? `💀 生存挑戰：撐過 ${s.right} 題` + (CH && s.right > (CH.survBest || 0) ? '・🎉 刷新個人最佳！' : '')
     : (pct === 100 ? '🏆 ' : pct >= 90 ? '🎉 ' : pct >= 60 ? '💪 ' : '📚 ') + `答對 ${s.right} 題，共 ${total} 題`;
   if (pct === 100 && total >= 5) confetti();
   SND.win(pct === 100);
@@ -1502,7 +1526,7 @@ $('quitBtn').onclick = () => { if (session && session.surv) clearInterval(sessio
 function back(){ $('quiz').classList.add('hidden'); $('result').classList.add('hidden'); $('setup').classList.remove('hidden'); $('board').classList.remove('hidden'); update(); }
 $('backBtn').onclick = back;
 $('redoWrong').onclick = () => { const rt = session.rangeText; start(shuffle(session.wrong.map(w => w.st))); session.rangeText = (rt + '（錯題重做）').slice(0, 120); };
-$('againBtn').onclick = () => { if (session.surv) { startSurv(); return; } pendingQuiz = session.quiz || null; $('startBtn').click(); };
+$('againBtn').onclick = () => { if (session.surv && session.surv.boss) { openBoss(); return; } if (session.surv) { startSurv(); return; } pendingQuiz = session.quiz || null; $('startBtn').click(); };
 document.addEventListener('keydown', e => {
   if ($('quiz').classList.contains('hidden')) return;
   const k = e.key.toUpperCase(); const map = {A:0,B:1,C:2,D:3,'1':0,'2':1,'3':2,'4':3};
@@ -1548,6 +1572,7 @@ async function loadProfile(after){
     setTimeout(checkChests, after ? 1600 : 300);
     setTimeout(checkInbox, after ? 2200 : 900);
     setTimeout(() => loadDuels(false), after ? 2600 : 1200);
+    if (!after) setTimeout(weekendNotice, 1800);
   } catch (e) {}
 }
 function drawMe(){
@@ -1580,7 +1605,7 @@ const PET_NEED_C = [0, 20, 60, 120, 200, 300, 450, 650, 900, 1200];
 const petLvOf = id => { const xp = ((ME && ME.pets) || {})[id] || 0, N = (ME && ME.petNeed) || PET_NEED_C; let lv = 1; for (let i = 1; i < N.length; i++) if (xp >= N[i]) lv = i + 1; return lv; };
 // 寵物配件看「正在選的寵物」養到幾級；其他照舊（寶物看成就、一般看等級或有沒有買）
 const owned = (it, key) => it.pl != null ? !!(AVSEL && AVSEL.pet && AVSEL.pet !== 'none' && petLvOf(AVSEL.pet) >= it.pl)
-  : it.t ? (ME.tr || []).includes(it.t) : (it.lv != null && it.lv <= ME.lv) || (it.s != null && (ME.own || []).includes(key + ':' + it.id));
+  : it.t ? (ME.tr || []).includes(it.t) : (it.lv != null && it.lv <= ME.lv) || ((it.s != null || it.b) && (ME.own || []).includes(key + ':' + it.id));
 const shopList = () => AV.items ? AV.items.cats.flatMap(c => c.items.filter(it => it.s != null).map(it => Object.assign({cat: c.key}, it))) : [];
 let SHOP_SURE = '';
 const trList = () => (AV.items && AV.items.treasures) || [];
@@ -1762,6 +1787,81 @@ async function finishDuel(s){
   } catch (e) { box.textContent = '⚠️ 對戰成績送出失敗：' + e.message; }
 }
 $('meDuel').onclick = openDuel;
+
+// ===================== 週末 BOSS 戰 =====================
+let BOSS = null;
+const twDay = () => new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit', weekday: 'short'}).formatToParts(new Date()).reduce((o, p) => (o[p.type] = p.value, o), {});
+const isWeekend = () => ['Sat', 'Sun'].includes(twDay().weekday);
+const DIFFC = {'簡單': '#3fa66b', '普通': '#3b6fd1', '困難': '#8a5cc8', '極難': '#e8742c', '地獄': '#c8333f'};
+const itemOf = key => { const [c, i] = key.split(':'); return (AV.map && AV.map[c] && AV.map[c][i]) || {name: i}; };
+function weekendNotice(){
+  if (!PIN_OK || !isWeekend()) return;
+  const d = twDay(), k = 'bossNote|' + $('seat').value + '|' + d.year + d.month + d.day;
+  try { if (localStorage.getItem(k)) return; localStorage.setItem(k, '1'); } catch (e) {}
+  chestQ.push({weekend: true});
+  if ($('chest').classList.contains('hidden') && $('quiz').classList.contains('hidden')) nextChest();
+}
+async function openBoss(){
+  if (!ME) return;
+  $('bossModal').classList.remove('hidden');
+  $('bsHead').textContent = '載入中…'; $('bsList').innerHTML = '';
+  try { await loadJt(); } catch (e) {}
+  try {
+    const j = await postJ({type: 'bossinfo'});
+    if (!j.ok) throw new Error(j.error || '載入失敗');
+    BOSS = j; drawBoss();
+  } catch (e) { $('bsHead').textContent = '⚠️ ' + e.message; }
+}
+function drawBoss(){
+  const j = BOSS; if (!j) return;
+  $('bsHead').innerHTML = j.open ? `🗓️ 週末開放中・今天還能挑戰 <b>${j.left}</b> / ${j.perDay} 次` : '🗓️ BOSS 戰只在<b>週六、週日</b>開放，先看看有哪些 BOSS 和寶物吧！';
+  $('bsList').innerHTML = j.bosses.map((b, i) => {
+    const can = j.open && b.unlocked && j.left > 0;
+    const drops = b.items.map(x => { const [c, id] = x.key.split(':'); return `<span class="${x.got ? 'got' : ''}" title="${esc(itemOf(x.key).name)}">${AV.items ? AV.thumb(AV.norm(ME.a), c, id, 26) : ''}${x.got ? '💎' : '❔'}${esc(itemOf(x.key).name)}</span>`; }).join('');
+    return `<div class="bsrow${b.unlocked ? '' : ' off'}"><span class="bi">${b.unlocked ? b.icon : '🔒'}</span><div><b>${esc(b.name)}</b><span class="bsdiff" style="background:${DIFFC[b.diff] || '#888'}">${esc(b.diff)}</span>${b.beat ? ` <small style="display:inline">✓ 打倒 ${b.beat} 次</small>` : ''}` +
+      `<small>血量 ${b.hp}・你有 ${'❤️'.repeat(b.hearts)}・每題 ${b.sec} 秒・U${b.u[0]}–U${b.u[1]}・${b.j.map(x => ({e: '英翻中', c: '中翻英', s: '例句'})[x]).join('、')}<br>打倒 +${b.coin} 🪙・掉寶機率 ${b.drop}%${b.kills ? `・全校已打倒 ${b.kills} 次` : ''}${b.unlocked ? '' : '<br>🔒 先打倒「' + esc(j.bosses[i - 1].name) + '」才能挑戰'}</small><div class="drops">${drops}</div></div>` +
+      `<button type="button" class="${can ? 'primary' : 'ghostbtn'}" data-bs="${i}" ${can ? '' : 'disabled'}>挑戰</button></div>`;
+  }).join('');
+  $('bsList').querySelectorAll('[data-bs]').forEach(b => b.onclick = () => startBoss(j.bosses[+b.dataset.bs]));
+}
+function startBoss(B){
+  if (!JT) { $('bsHead').textContent = '⚠️ 寂天題庫載入失敗，請重新整理頁面。'; return; }
+  const byG = {};
+  JT.idx.forEach(qi => { const q = DATA.bank[qi]; if (q.u >= B.u[0] && q.u <= B.u[1] && B.j.includes(q.j)) (byG[q.g] = byG[q.g] || []).push(qi); });
+  const items = shuffle(Object.values(byG).map(xs => xs[Math.floor(Math.random() * xs.length)])).slice(0, B.hp + B.hearts - 1);
+  $('bossModal').classList.add('hidden');
+  start(items);
+  session.surv = {lives: B.hearts, max: B.hearts, sec: B.sec, boss: {id: B.id, name: B.name, icon: B.icon, hp: B.hp, max: B.hp}};
+  session.kind = 'jt';
+  session.rangeText = 'BOSS 戰｜' + B.name;
+  $('quiz').classList.add('survmode');
+  $('bossBar').classList.remove('hidden');
+  show();
+}
+function drawBossBar(s){
+  const B = s.surv.boss;
+  $('bossBar').innerHTML = `<span class="bi" id="bossIcon">${B.icon}</span><div class="hpw"><b>${esc(B.name)}　HP ${Math.max(0, B.hp)} / ${B.max}</b><div class="hp"><i style="width:${Math.max(0, B.hp) / B.max * 100}%"></i></div></div>`;
+}
+function bossHit(){
+  drawBossBar(session);
+  const i = $('bossIcon'); if (i) { i.classList.add('hit'); setTimeout(() => i.classList.remove('hit'), 220); }
+}
+async function finishBoss(s){
+  const B = s.surv.boss, box = $('rCh');
+  box.textContent = '👹 BOSS 戰結果送出中…';
+  try {
+    const j = await postJ({type: 'boss', boss: B.id, answers: s.log.map(x => [x[0], x[1]]), secs: Math.round((Date.now() - s.t0) / 1000)});
+    if (!j.ok) throw new Error(j.error || '送出失敗');
+    if (j.win) {
+      box.textContent = `⚔️ 打倒${B.name}！+${j.coin} 🪙` + (j.bonus ? `（寶物都收集齊了，多送 ${j.bonus} 🪙）` : '') + (j.drop ? '' : j.bonus ? '' : '・這次沒有掉寶，再接再厲！') + (j.next ? `・解鎖下一隻：${j.next}` : '') + `・今天還能挑戰 ${j.left} 次`;
+      confetti();
+      if (j.drop) { chestQ.push({bossDrop: {key: j.drop, boss: B}}); setTimeout(() => { if ($('chest').classList.contains('hidden')) nextChest(); }, 900); }
+    } else box.textContent = `💀 ${B.name}還剩 ${j.hp} 滴血，差一點！今天還能挑戰 ${j.left} 次。`;
+    loadProfile(true);
+  } catch (e) { box.textContent = '⚠️ BOSS 戰結果送出失敗：' + e.message; }
+}
+$('meBoss').onclick = openBoss;
+$('bsClose').onclick = () => $('bossModal').classList.add('hidden');
 $('duClose').onclick = () => $('duelModal').classList.add('hidden');
 
 // ===================== 送禮物 =====================
@@ -1879,6 +1979,28 @@ function nextChest(){
     if (typeof confetti === 'function') confetti();
     return;
   }
+  if (t.weekend) {   // 週末提醒
+    $('chestPic').innerHTML = '<div style="font-size:4.5rem;line-height:1.2">🏰</div>';
+    $('chestTitle').textContent = '🎉 週末 BOSS 戰開放中！';
+    $('chestText').textContent = '用寂天 U1–U20 的單字打倒 BOSS，有機會掉落稀有寶物和寵物！每天可以挑戰 5 次。';
+    $('chestWear').classList.add('hidden');
+    $('chestNo').classList.remove('hidden'); $('chestNo').textContent = '等等再說'; $('chestNo').onclick = nextChest;
+    $('chestOk').textContent = '去挑戰'; $('chestOk').onclick = () => { $('chest').classList.add('hidden'); chestQ = chestQ.filter(x => !x.weekend); openBoss(); };
+    $('chest').classList.remove('hidden');
+    return;
+  }
+  if (t.bossDrop) {   // BOSS 掉寶
+    const D = t.bossDrop, [c, id] = D.key.split(':'), it = itemOf(D.key);
+    $('chestPic').innerHTML = AV.thumb(AV.norm(ME && ME.a), c, id, 130);
+    $('chestTitle').textContent = `👹 ${D.boss.name}掉落了「${it.name}」！`;
+    $('chestText').textContent = c === 'pet' ? '稀有寵物！從蛋開始養，答題就會長大。' : '稀有寶物！只有打倒 BOSS 才拿得到。';
+    $('chestWear').classList.remove('hidden');
+    $('chestWear').onclick = async () => { await loadProfile(); if (ME) { AVSEL = AV.norm(ME.a); AVSEL[c] = id; await saveAv(); } nextChest(); };
+    $('chestOk').textContent = '收下';
+    $('chest').classList.remove('hidden');
+    confetti();
+    return;
+  }
   if (t.invite) {   // 有同學向你挑戰
     const L = t.invite, d = L[0];
     $('chestPic').innerHTML = '<div style="font-size:4.5rem;line-height:1.2">🤺</div>';
@@ -1978,7 +2100,7 @@ function openAvTab(){
   $('avGrid').innerHTML = cat.items.filter(it => (!it.t && it.lv != null) || owned(it, cat.key)).map(it => {
     const lock = !owned(it, cat.key);
     const pic = it.c && cat.key !== 'skin' && !it.t ? `<span class="sw" style="background:${it.c}"></span>` : AV.thumb(AVSEL, cat.key, it.id, 52);
-    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? (it.pl ? '寵物 Lv.' + it.pl : 'Lv.' + it.lv) + ' 解鎖' : esc(it.name)}">${it.t ? '<span class="gem">💎</span>' : ''}${pic}${lock ? `<span class="lock">🔒${it.pl ? '🐾' + it.pl : 'Lv.' + it.lv}</span>` : ''}${it.s != null && !it.t && it.lv == null ? '<span class="gem">🛒</span>' : ''}<span>${esc(it.name)}</span></button>`;
+    return `<button type="button" data-i="${it.id}" aria-pressed="${AVSEL[cat.key] === it.id}" ${lock ? 'disabled' : ''} title="${lock ? (it.pl ? '寵物 Lv.' + it.pl : 'Lv.' + it.lv) + ' 解鎖' : esc(it.name)}">${it.t ? '<span class="gem">💎</span>' : it.b ? '<span class="gem">👹</span>' : ''}${pic}${lock ? `<span class="lock">🔒${it.pl ? '🐾' + it.pl : 'Lv.' + it.lv}</span>` : ''}${it.s != null && !it.t && it.lv == null ? '<span class="gem">🛒</span>' : ''}<span>${esc(it.name)}</span></button>`;
   }).join('');
   $('avGrid').querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { AVSEL[AVCAT] = b.dataset.i; openAvTab(); });
 }
