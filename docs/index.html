@@ -369,6 +369,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 .taskban .tb-act{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 #tbPw{min-width:150px;flex:0 1 170px}
 .chip.quizchip{background:#fff1c2;border-color:var(--chalk);color:#7a5200;font-weight:900}
+.dupick{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}.dupick button{font:inherit;font-size:.85rem;border-radius:99px;border:1px solid #c9b8f0;background:#f3eeff;padding:3px 10px;cursor:pointer}
 </style>
 </head>
 <body>
@@ -508,7 +509,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <div class="avtop"><div style="font-size:2rem">🤺</div><div><b>單字對戰（友誼賽）</b><div class="hint">兩人寫同一份 10 題，答對多的贏，一樣多比快。贏 +15 🪙、輸 +5 🪙、平手各 +10 🪙，沒有人會失去東西。</div></div><button type="button" class="avx" id="duClose" aria-label="關閉">✕</button></div>
     <div class="gfbody">
       <div class="duelhead" id="duStats"></div>
-      <label class="gflab" for="duTo">挑戰誰</label><select id="duTo"></select>
+      <label class="gflab" for="duTo">挑戰誰（一次最多 3 人，大家寫同一份題目）</label><select id="duTo"></select><div id="duPick" class="dupick"></div>
       <div class="gfsend"><button type="button" class="primary" id="duGo">⚔️ 發起對戰（先由你作答）</button><span class="hint" id="duMsg" aria-live="polite"></span></div>
       <div class="gflab">等你應戰</div><div id="duIn" class="hint">載入中…</div>
       <div class="gflab">等對方應戰</div><div id="duWait" class="hint"></div>
@@ -588,7 +589,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     </div>
   </div>
   <div class="seg sortseg" role="group" aria-label="班級">
-    <button data-bc="" aria-pressed="true">兩班一起</button>
+    <button data-bc="" aria-pressed="true">三班一起</button>
     <button data-bc="904" aria-pressed="false">只看 904</button>
     <button data-bc="915" aria-pressed="false">只看 915</button>
     <button data-bc="916" aria-pressed="false">只看 916</button>
@@ -1655,8 +1656,23 @@ async function openDuel(){
   (GF.names || []).filter(x => x.seat !== me).forEach(x => (groups[x.cls] = groups[x.cls] || []).push(x));
   $('duTo').innerHTML = '<option value="">請選擇同學</option>' + Object.keys(groups).map(c => `<optgroup label="${esc(c === '老師' ? '老師' : c + ' 班')}">` +
     groups[c].map(x => `<option value="${x.seat}">${x.seat > 90000 ? x.seat % 100 + ' 號 ' : x.seat < 30 ? x.seat + ' 號 ' : ''}${esc(x.given)}</option>`).join('') + '</optgroup>').join('');
+  DUPICK = []; drawPick();
   loadDuels(true);
 }
+let DUPICK = [];   // 這次要挑戰的人 [{seat, name}]
+function drawPick(){
+  $('duPick').innerHTML = DUPICK.map((x, i) => `<button type="button" data-dpx="${i}" title="移除">${esc(x.name)} ✕</button>`).join('');
+  $('duPick').querySelectorAll('[data-dpx]').forEach(b => b.onclick = () => { DUPICK.splice(+b.dataset.dpx, 1); drawPick(); });
+  $('duGo').textContent = DUPICK.length > 1 ? `⚔️ 一次挑戰 ${DUPICK.length} 人（先由你作答）` : '⚔️ 發起對戰（先由你作答）';
+}
+$('duTo').onchange = () => {
+  const o = $('duTo').selectedOptions[0], v = $('duTo').value;
+  $('duTo').value = '';
+  if (!v || DUPICK.some(x => x.seat === v)) return;
+  if (DUPICK.length >= 3) { $('duMsg').textContent = '⚠️ 一次最多挑戰 3 人'; return; }
+  $('duMsg').textContent = '';
+  DUPICK.push({seat: v, name: o.textContent.replace(/^\d+ 號 /, '')}); drawPick();
+};
 async function loadDuels(draw){
   if (!PIN_OK) return;
   try {
@@ -1667,6 +1683,14 @@ async function loadDuels(draw){
     (j.fresh || []).filter(d => !d.iStarted ? false : true).forEach(d => chestQ.push({duel: d}));
     if ((j.fresh || []).some(d => d.iStarted) && $('chest').classList.contains('hidden')) nextChest();
     const n = (j.incoming || []).length;
+    let seenInv = [];
+    try { seenInv = JSON.parse(localStorage.getItem('duelInv|' + $('seat').value) || '[]'); } catch (e) {}
+    const newInv = (j.incoming || []).filter(d => !seenInv.includes(d.id));
+    if (newInv.length) {
+      try { localStorage.setItem('duelInv|' + $('seat').value, JSON.stringify(seenInv.concat(newInv.map(d => d.id)).slice(-60))); } catch (e) {}
+      chestQ.push({invite: newInv});
+      if ($('chest').classList.contains('hidden') && $('quiz').classList.contains('hidden')) nextChest();
+    }
     $('meDuel').textContent = '🤺 單字對戰' + (n ? `（${n} 場等你）` : '');
   } catch (e) {}
 }
@@ -1682,16 +1706,21 @@ function drawDuels(){
   $('duIn').querySelectorAll('[data-dno]').forEach(b => b.onclick = async () => { b.disabled = true; await postJ({type: 'dueldecline', id: +b.dataset.dno}); loadDuels(true); });
 }
 $('duGo').onclick = async () => {
-  const to = $('duTo').value, out = $('duMsg');
-  if (!to) { out.textContent = '⚠️ 請先選擇要挑戰誰'; return; }
+  const out = $('duMsg');
+  if (!DUPICK.length) { out.textContent = '⚠️ 請先選擇要挑戰誰'; return; }
   const pool = duelPool(), seenG = new Set(), qs = [];
   for (const qi of shuffle(pool.slice())) { if (qs.length >= 10) break; const g = DATA.bank[qi].g; if (seenG.has(g)) continue; seenG.add(g); qs.push(qi); }
   $('duGo').disabled = true; out.textContent = '建立對戰中…';
   try {
-    const j = await postJ({type: 'duelnew', to, qs: qs.map(qidOf)});
-    if (!j.ok) throw new Error(j.error || '建立失敗');
-    const name = $('duTo').selectedOptions[0].textContent.replace(/^\d+ 號 /, '');
-    playDuel(j.id, qs.map(qidOf), name);
+    const ok = [], bad = [];
+    for (const x of DUPICK) {
+      const j = await postJ({type: 'duelnew', to: x.seat, qs: qs.map(qidOf)});
+      if (j.ok) ok.push({id: j.id, name: x.name}); else bad.push(x.name + '：' + (j.error || '建立失敗'));
+    }
+    if (!ok.length) throw new Error(bad.join('；'));
+    if (bad.length) alert('有些對戰沒有建立成功：\n' + bad.join('\n') + '\n\n其他人的對戰照常開始。');
+    DUPICK = []; drawPick();
+    playDuel(ok.map(x => x.id), qs.map(qidOf), ok.map(x => x.name).join('、'));
   } catch (e) { out.textContent = '⚠️ ' + e.message; }
   $('duGo').disabled = false;
 };
@@ -1700,7 +1729,7 @@ function playDuel(id, ids, otherName){
   if (items.length !== ids.length) { $('duMsg').textContent = '⚠️ 題目載入失敗，請重新整理頁面'; return; }
   $('duelModal').classList.add('hidden');
   start(items);
-  session.duel = {id, ids, other: otherName, t0: Date.now()};
+  session.duel = {dids: [].concat(id), ids, other: otherName, t0: Date.now()};
   session.rangeText = ('單字對戰｜vs ' + otherName).slice(0, 120);
   session.kind = 'all';
   show();
@@ -1711,9 +1740,12 @@ async function finishDuel(s){
   const box = $('rCh');
   box.textContent = '⚔️ 對戰成績送出中…';
   try {
-    const j = await postJ({type: 'duelplay', id: s.duel.id, answers, secs});
-    if (!j.ok) throw new Error(j.error || '送出失敗');
-    if (j.done) {
+    const rs = [];
+    for (const id of s.duel.dids) rs.push(await postJ({type: 'duelplay', id, answers, secs}));
+    const j = rs.find(r => r.ok);
+    if (!j) throw new Error(rs[0].error || '送出失敗');
+    if (s.duel.dids.length > 1) box.textContent = `⚔️ 已送出（答對 ${j.right} 題、${j.secs} 秒），等 ${s.duel.other} 應戰！`;
+    else if (j.done) {
       const me = +$('seat').value;
       box.textContent = `⚔️ vs ${s.duel.other}：你 ${j.right} 題 ${j.secs} 秒，對方 ${j.other.right} 題 ${j.other.secs} 秒・` + (j.win === 0 ? '平手！各 +10 🪙' : j.win === me ? '🏆 你贏了！+15 🪙' : '對方贏了，下次再來！+5 🪙');
       if (j.win === me) confetti();
@@ -1827,7 +1859,7 @@ function nextChest(){
   if (!t) { $('chest').classList.add('hidden'); return; }
   const pic = g => { const [c, i] = (g.what || '').split(':'); return g.kind === 'item' && AV.items ? AV.thumb(AV.norm(ME && ME.a), c, i, 130) : '<div style="font-size:4.5rem;line-height:1.2">🪙</div>'; };
   const what = g => g.kind === 'item' ? '「' + g.name + '」' : ' ' + g.what + ' 枚代幣';
-  $('chestNo').classList.add('hidden'); $('chestOk').textContent = '收下';
+  $('chestNo').classList.add('hidden'); $('chestNo').textContent = '退回'; $('chestOk').textContent = '收下';
   $('chestOk').onclick = nextChest;
   if (t.pet) {   // 寵物孵化／升級
     const P = t.pet, name = petNameOf(P.pid);
@@ -1837,6 +1869,19 @@ function nextChest(){
     $('chestWear').classList.add('hidden'); $('chestOk').textContent = '好可愛！';
     $('chest').classList.remove('hidden');
     if (typeof confetti === 'function') confetti();
+    return;
+  }
+  if (t.invite) {   // 有同學向你挑戰
+    const L = t.invite, d = L[0];
+    $('chestPic').innerHTML = '<div style="font-size:4.5rem;line-height:1.2">🤺</div>';
+    $('chestTitle').textContent = L.length > 1 ? `⚔️ 有 ${L.length} 位同學向你挑戰！` : `⚔️ ${d.otherName} 向你挑戰！`;
+    $('chestText').textContent = (L.length > 1 ? L.map(x => x.otherName).join('、') + ' 都在等你應戰。' : `對方寫完 10 題，答對 ${d.theirs} 題，換你了！`) + '贏 +15 🪙、輸 +5 🪙，也可以拒絕。';
+    $('chestWear').classList.add('hidden');
+    $('chestNo').classList.remove('hidden'); $('chestNo').textContent = '等等再說';
+    $('chestNo').onclick = nextChest;
+    $('chestOk').textContent = L.length > 1 ? '去看看' : '現在應戰';
+    $('chestOk').onclick = () => { $('chest').classList.add('hidden'); chestQ = chestQ.filter(x => !x.invite); if (L.length > 1) openDuel(); else playDuel(d.id, d.qs, d.otherName); };
+    $('chest').classList.remove('hidden');
     return;
   }
   if (t.duel) {   // 自己發起的對戰有結果了
