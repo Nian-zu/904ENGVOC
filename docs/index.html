@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>永中904每日背英單</title>
+<title>永中 904・916 每日背英單</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
@@ -337,7 +337,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <h1>永中904每日背英單</h1>
+  <h1>永中 904・916 每日背英單</h1>
   <div class="today" id="todayLbl"></div>
 </div></header>
 <main><div class="wrap">
@@ -519,6 +519,11 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <button data-p="month" aria-pressed="false">本月</button>
       <button data-p="all" aria-pressed="false">全部</button>
     </div>
+  </div>
+  <div class="seg sortseg" role="group" aria-label="班級">
+    <button data-bc="" aria-pressed="true">兩班一起</button>
+    <button data-bc="904" aria-pressed="false">只看 904</button>
+    <button data-bc="916" aria-pressed="false">只看 916</button>
   </div>
   <div class="seg sortseg" role="group" aria-label="題型">
     <button data-bt="all" aria-pressed="true">單字書全部（不含克漏字）</button>
@@ -1167,7 +1172,7 @@ function drawChallenge(before){
   const top = (j.survTop || []).slice(0, 3).map((x, i) => `${['🥇', '🥈', '🥉'][i]}${esc(x.given)} ${x.best}`).join('　');
   $('chCard').innerHTML = `<h3>🎯 今日挑戰 <small>${all ? '🎉 全部完成！已領 +' + j.clear + ' 🪙' : `完成 ${done}/3・三項全完成再 +${j.clear} 🪙`}</small></h3>${rows}` +
     `<div class="chline">🔥 連續交卷 <b>${j.streak}</b> 天・${j.doneToday ? `今天已領連續獎勵 +${j.streakCoin} 🪙` : `今天交卷可得 +${j.streakCoin} 🪙`}<small class="hint">（連續越多天越多，最多每天 +20）</small></div>` +
-    `<div class="chline">🏫 全班本週目標：答對 <b>${w.total}</b> / ${w.goal} 題${w.total >= w.goal ? ' 🎉 達成！' : ''}<div class="qbar"><i style="width:${wp}%"></i></div>` +
+    `<div class="chline">🏫 ${esc(w.cls || '')} 班本週目標：答對 <b>${w.total}</b> / ${w.goal} 題${w.total >= w.goal ? ' 🎉 達成！' : ''}<div class="qbar"><i style="width:${wp}%"></i></div>` +
     `<small class="hint">你本週作答 ${w.mine} 題${w.mine >= 50 ? '（✓ 有出力）' : '，作答 50 題才算有出力'}・達成時有出力的人各得 +50 🪙（目前 ${w.people} 人有出力）</small></div>` +
     `<div class="survbox"><button type="button" class="survbtn" id="survBtn">💀 生存挑戰</button><small>寂天段考範圍 U${JT_EXAM[0]}–U${JT_EXAM[1]}，3 條命、每題 15 秒，看你能撐幾題！<br>個人最佳 <b>${j.survBest}</b> 題・本週最佳 ${j.survWeek} 題${top ? '<br>本週前三：' + top : ''}</small><span class="hint" id="chMsg"></span></div>`;
   $('chCard').classList.remove('hidden');
@@ -1401,11 +1406,22 @@ document.addEventListener('keydown', e => {
 });
 // ---- student info
 // 班級座號（沒有 8、22 號；30 號是老師測試用）
-const SEATS = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30,31,32,33,34];
+// 904：1–29；916：91601–91630（91605 = 916 班 5 號）；30 號以後是測試／老師／來賓
+const SEATS904 = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29];
+const SEATS916 = [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30].map(n => 91600 + n);
+const SEATS_STAFF = [30,31,32,33,34];
+const SEATS = [...SEATS904, ...SEATS916, ...SEATS_STAFF];
 // 31 號是玠汝老師：上排行榜，但不算進老師儀表板的班級統計
 const TEACHERS = {31: '玠汝', 32: 'Cathy', 33: 'Cindy', 34: '千瑜'};
-SEATS.forEach(i => $('seat').add(new Option(TEACHERS[i] || (i === 30 ? '30 號（測試用）' : i + ' 號'), i)));
-const seatLabel = n => TEACHERS[n] ? '老師' : n;
+const seatSel = $('seat');
+[['904 班', SEATS904], ['916 班', SEATS916], ['老師／測試', SEATS_STAFF]].forEach(([lab, list]) => {
+  const g = document.createElement('optgroup'); g.label = lab;
+  list.forEach(i => g.appendChild(new Option(TEACHERS[i] || (i === 30 ? '30 號（測試用）' : (i > 90000 ? '916 班 ' + (i % 100) : '904 班 ' + i) + ' 號'), i)));
+  seatSel.appendChild(g);
+});
+const clsOf = n => (n = +n) > 90000 ? '916' : n > 0 && n < 30 ? '904' : '';
+const seatNo = n => (n = +n) > 90000 ? n % 100 : n;
+const seatLabel = n => TEACHERS[n] ? '老師' : clsOf(n) + '-' + seatNo(n);
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; if (st.pin) $('spin').value = st.pin; } catch (e) {}
 function saveStudent(){ try { localStorage.setItem('student', JSON.stringify({seat: $('seat').value, name: $('sname').value.trim(), pin: PIN_OK ? $('spin').value.trim() : ''})); } catch (e) {} }
 // ---------------- 等級與人物造型 ----------------
@@ -1431,7 +1447,7 @@ function drawMe(){
   $('meCard').classList.remove('hidden');
   $('meAv').innerHTML = AV.svg(ME.a, {size: 76, label: '我的頭像'});
   $('qAv').innerHTML = AV.svg(ME.a, {size: 34});
-  $('meName').textContent = TEACHERS[ME.seat] || $('sname').value || (ME.seat + ' 號');
+  $('meName').textContent = TEACHERS[ME.seat] || $('sname').value || (seatNo(ME.seat) + ' 號');
   $('meLv').textContent = 'Lv.' + ME.lv;
   $('meTitle').innerHTML = esc(ME.title) + (AV.items && AV.items.treasures ? `<span class="trcount">・💎 寶物 ${trList().filter(t => (ME.tr || []).includes(t.t)).length}/${trList().length}</span>` : '') + (ME.coin != null ? `<span class="trcount">・<span class="coin">🪙 ${ME.coin}</span></span>` : '');
   $('meShop').classList.toggle('hidden', ME.coin == null);
@@ -1631,7 +1647,7 @@ async function upload(){
     seat: $('seat').value, name: $('sname').value.trim(), pin: $('spin').value.trim(), range: s.rangeText, kind: s.quiz ? 'all' : (s.kind || kindCode()),
     total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log, quiz: s.quiz || ''
   });
-  const okMsg = sc => `✓ 成績已上傳（${TEACHERS[$('seat').value] ? '' : $('seat').value + ' 號 '}${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
+  const okMsg = sc => `✓ 成績已上傳（${TEACHERS[$('seat').value] ? '' : clsOf($('seat').value) + ' 班 ' + seatNo($('seat').value) + ' 號 '}${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
   try {
     const r = await fetch(SHEET_URL, {method: 'POST', headers: {'Content-Type': 'text/plain;charset=utf-8'}, body});
     const j = await r.json();
@@ -1673,7 +1689,7 @@ async function loadBoard(){
   body.className = 'empty'; body.textContent = '載入中…';
   try {
     const mine = PIN_OK && $('seat').value && $('spin').value.trim() ? '&seat=' + $('seat').value + '&pin=' + encodeURIComponent($('spin').value.trim()) : '';
-    const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod + '&type=' + boardType + mine);
+    const r = await fetch(SHEET_URL + '?action=board&period=' + boardPeriod + '&type=' + boardType + (boardCls ? '&cls=' + boardCls : '') + mine);
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '');
     boardData = j; drawBoard();
@@ -1711,7 +1727,7 @@ function drawBoard(){
   const inList = list.some(x => x.seat === me);
   body.className = '';
   body.innerHTML = (titles ? `<div class="titles">${titles}</div>` : '') + myBox + podium + (list.length
-    ? `<table><thead><tr><th>名次</th><th>座號</th><th>名字</th>${cols[0]}</tr></thead><tbody>` +
+    ? `<table><thead><tr><th>名次</th><th>班-號</th><th>名字</th>${cols[0]}</tr></thead><tbody>` +
       list.map(x => `<tr class="r${x.rank}${x.seat === me ? ' me' : ''}"><td><span class="rk">${x.rank}</span></td><td>${seatLabel(x.seat)}</td><td><span class="nmav">${avOf(x.seat)}<span>${nm(x)}${lvOf(x.seat)}</span></span>${bic(x.seat)}</td>${cols[1](x)}</tr>`).join('') +
       (boardSort === 'right' && M && !inList && M.rank ? `<tr class="gap"><td colspan="${cols[0].split('<th').length + 2}">⋯</td></tr><tr class="me"><td><span class="rk">${M.rank}</span></td><td>${seatLabel(me)}</td><td><span class="nmav">${avOf(me)}<span>我${lvOf(me)}</span></span>${bic(me)}</td>${cols[1](M)}</tr>` : '') + '</tbody></table>'
     : `<div class="empty">${empty}</div>`);
@@ -1731,6 +1747,12 @@ document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
   loadBoard();
 });
 document.querySelectorAll('[data-s]').forEach(b => b.onclick = () => { boardSort = b.dataset.s; drawBoard(); });
+let boardCls = '';
+document.querySelectorAll('[data-bc]').forEach(b => b.onclick = () => {
+  boardCls = b.dataset.bc;
+  document.querySelectorAll('[data-bc]').forEach(x => x.setAttribute('aria-pressed', x === b));
+  loadBoard();
+});
 document.querySelectorAll('[data-bt]').forEach(b => b.onclick = () => {
   boardType = b.dataset.bt;
   document.querySelectorAll('[data-bt]').forEach(x => x.setAttribute('aria-pressed', x === b));

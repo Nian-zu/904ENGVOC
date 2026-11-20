@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>永中904每日背英單・家長查詢</title>
+<title>永中每日背英單・家長查詢</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
@@ -87,7 +87,7 @@ footer{font-size:.82rem;color:var(--muted);text-align:center;padding:10px 16px 3
 </head>
 <body>
 <header>
-  <h1>永中904<span>每日背英單</span>・家長查詢</h1>
+  <h1>永中<span id="clsName">904・916</span><span>每日背英單</span>・家長查詢</h1>
   <p>看看孩子每天的英文單字練習與小考狀況</p>
 </header>
 <main>
@@ -180,7 +180,8 @@ async function login(pw, quiet){
     if (!j.ok) { $('pwMsg').textContent = j.error || '密碼不正確'; $('pwMsg').className = 'err'; store.del('parentKey'); return; }
     store.set('parentKey', pw);
     $('login').classList.add('hidden'); $('pick').classList.remove('hidden');
-    $('seat').innerHTML = '<option value="">座號・姓名</option>' + j.roster.map(x => `<option value="${x.seat}">${x.seat} 號 ${esc(x.name)}</option>`).join('');
+    $('seat').innerHTML = '<option value="">座號・姓名</option>' + j.roster.map(x => `<option value="${x.seat}">${esc(x.label || x.seat)} 號 ${esc(x.name)}</option>`).join('');
+    if (j.cls) $('clsName').textContent = j.cls;
     const last = store.get('parentSeat');
     if (last && j.roster.some(x => String(x.seat) === last)) { $('seat').value = last; load(); }
   } catch (e) { $('pwMsg').textContent = '連線失敗，請稍後再試。'; $('pwMsg').className = 'err'; }
@@ -208,7 +209,7 @@ function stat(k, v, unit, c){ return `<div class="stat"><div class="k">${k}</div
 function render(j){
   const S = j.summary;
   $('report').classList.remove('hidden');
-  $('rName').textContent = `${j.seat} 號 ${j.name}`;
+  $('rName').textContent = `${j.seat > 90000 ? j.seat % 100 : j.seat} 號 ${j.name}`;
   $('rSince').textContent = S.firstDay ? `從 ${md(S.firstDay)} 開始練習` : '還沒有練習紀錄';
   const qDone = j.quiz.filter(q => q.passAt).length;
   $('rStats').innerHTML =

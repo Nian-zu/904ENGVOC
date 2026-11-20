@@ -8,6 +8,12 @@ const DETAIL_NAME = '作答明細';   // 每題一列，給老師儀表板用（
 const DETAIL_HEAD = ['日期', '座號', '姓名', '回', '題號', '單字', '題型', '答對', '選的', '訂正', '交卷時間'];
 // 直接指定試算表，不論這段程式放在哪個 Apps Script 專案都會寫進同一份試算表
 const SPREADSHEET_ID = '1v_YtQtmFH29t1Zugvi4A8pej9MHkGRB7_Oe9VtpiK3o';
+
+// ===== 兩個班：904 座號 1–29；916 用 91601–91699（例如 91605 = 916 班 5 號）；30–99 是測試／老師／來賓帳號 =====
+const CLASSES = ['904', '916'];
+function classOf_(seat) { seat = +seat; return seat >= 90000 ? String(Math.floor(seat / 100)) : seat > 0 && seat < 30 ? '904' : ''; }
+function isStudent_(seat) { return !!classOf_(seat); }
+function validSeat_(seat) { seat = +seat; return (seat >= 1 && seat <= 99) || (seat >= 91601 && seat <= 91699); }
 function sheet_() {
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(SHEET_NAME);
   if (!sh) throw new Error('試算表裡找不到「' + SHEET_NAME + '」分頁');
@@ -20,7 +26,7 @@ function doPost(e) {
   try {
     const body = JSON.parse(e.postData.contents);
     const seat = parseInt(body.seat, 10);
-    if (!(seat >= 1 && seat <= 60)) return out_({ ok: false, error: '座號不正確' });
+    if (!validSeat_(seat)) return out_({ ok: false, error: '座號不正確' });
     const pc = checkPin_(seat, body.pin);
     if (!pc.ok) return out_({ ok: false, error: pc.error, pin: true });
     if (body.type === 'avatar') return out_(saveAvatar_(seat, body.avatar));
@@ -195,18 +201,18 @@ function daily_() {
     p.streak = st; p.done = !!days[seat][today];
   });
   // 3) 全班週目標：本週全班答對題數；目標＝上週的 1.1 倍（至少 2000）。達成時本週作答 50 題以上的人各得 50 代幣
+  // 每個班各自的週目標（鍵：班級|週一日期）
   const wk = {}, wkSeat = {};
   rows.forEach(function (r) {
-    if (r.seat >= 30) return;
-    const w = mondayOf_(r.d);
+    const c = classOf_(r.seat); if (!c) return;
+    const w = c + '|' + mondayOf_(r.d);
     wk[w] = (wk[w] || 0) + r.right;
     const ws = wkSeat[w] = wkSeat[w] || {}; ws[r.seat] = (ws[r.seat] || 0) + r.answered;
   });
-  const goalOf = function (w) { return Math.max(2000, Math.round((wk[shift_(w, -7)] || 0) * 1.1 / 100) * 100); };
-  Object.keys(wk).forEach(function (w) {
-    if (w < mondayOf_(QUEST_START) || w === mondayOf_(today) && wk[w] < goalOf(w)) return;
-    if (wk[w] < goalOf(w)) return;
-    Object.keys(wkSeat[w]).forEach(function (seat) { if (wkSeat[w][seat] >= 50) { const p = P(+seat); p.gcoin += 50; p.goals++; } });
+  const goalOf = function (cw) { const c = cw.split('|')[0], w = cw.split('|')[1]; return Math.max(2000, Math.round((wk[c + '|' + shift_(w, -7)] || 0) * 1.1 / 100) * 100); };
+  Object.keys(wk).forEach(function (cw) {
+    if (cw.split('|')[1] < mondayOf_(QUEST_START) || wk[cw] < goalOf(cw)) return;
+    Object.keys(wkSeat[cw]).forEach(function (seat) { if (wkSeat[cw][seat] >= 50) { const p = P(+seat); p.gcoin += 50; p.goals++; } });
   });
   const thisW = mondayOf_(today);
   // 4) 生存挑戰紀錄
@@ -226,14 +232,16 @@ function daily_() {
     .map(function (k) { return { seat: +k, given: givenName(roster_()[k] || ''), best: per[k].survWeek }; })
     .sort(function (a, b) { return b.best - a.best; }).slice(0, 10);
   return { ok: true, today: today, quests: qs.map(function (q) { return { id: q.id, t: q.t, need: q.need, coin: q.coin, tier: q.tier }; }), clear: QUEST_CLEAR,
-    week: { from: thisW, total: wk[thisW] || 0, goal: goalOf(thisW), mine: wkSeat[thisW] || {} }, survTop: survTop, per: per };
+    week: CLASSES.reduce(function (o, c) { const cw = c + '|' + thisW; o[c] = { from: thisW, total: wk[cw] || 0, goal: goalOf(cw), mine: wkSeat[cw] || {} }; return o; }, {}),
+    survTop: survTop, per: per };
 }
 function dailyC_() { return cached_('daily|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, daily_); }
 function dailyFor_(seat) {
   const D = dailyC_(), s = parseInt(seat, 10), p = D.per[s] || { today: [0, 0, 0], streak: 0, survBest: 0, survWeek: 0 };
   return { ok: true, today: D.today, quests: D.quests.map(function (q, i) { return Object.assign({ val: (p.today || [])[i] || 0 }, q); }), clear: D.clear,
     streak: p.streak, doneToday: !!p.done, streakCoin: Math.min(p.done ? p.streak : p.streak + 1, 10) * 2, survBest: p.survBest, survWeek: p.survWeek, survTop: D.survTop,
-    week: { from: D.week.from, total: D.week.total, goal: D.week.goal, mine: (D.week.mine || {})[s] || 0, people: Object.keys(D.week.mine || {}).filter(function (k) { return D.week.mine[k] >= 50; }).length },
+    week: (function () { const W = D.week[classOf_(s) || '904'] || {}, M = W.mine || {};
+      return { cls: classOf_(s) || '904', from: W.from, total: W.total || 0, goal: W.goal || 2000, mine: M[s] || 0, people: Object.keys(M).filter(function (k) { return M[k] >= 50; }).length }; })(),
     coins: { quest: p.qcoin || 0, streak: p.scoin || 0, goal: p.gcoin || 0 }, clearDays: p.clear || 0 };
 }
 function badgesC_() { return cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_); }
@@ -251,7 +259,8 @@ function cached_(name, sec, fn) {
 function boardCached_(p) {
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const type = /^[a-z]{2,6}$/.test(String(p.type || '')) ? p.type : 'all';
-  const r = cached_('bd|' + period + '|' + type + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, function () { return boardCore_({ period: period, type: type }); });
+  const cls = CLASSES.indexOf(p.cls) >= 0 ? p.cls : '';
+  const r = cached_('bd|' + period + '|' + type + '|' + cls + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, function () { return boardCore_({ period: period, type: type, cls: cls }); });
   const all = r.mineAll || {};
   delete r.mineAll;
   r.me = null;
@@ -274,14 +283,16 @@ function boardCore_(p) {
   // type=word|verb|prep|cloze：只算這種題型（用「作答明細」逐題資料）；不給就是全部題型（用「成績」）
   const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
   const type = TYPE_ZH[p.type] ? p.type : 'all';
-  const allRows = readRows_();
-  const rows = type === 'all' ? allRows : readDetail_(TYPE_ZH[type]);
-  const clozeRows = readDetail_('克漏字');
+  // 只看某一班（cls=904／916）：其他班和老師帳號都不列入
+  const keep = CLASSES.indexOf(p.cls) >= 0 ? function (xs) { return xs.filter(function (r) { return classOf_(r.seat) === p.cls; }); } : function (xs) { return xs; };
+  const allRows = keep(readRows_());
+  const rows = type === 'all' ? allRows : keep(readDetail_(TYPE_ZH[type]));
+  const clozeRows = keep(readDetail_('克漏字'));
   const cur = agg_(rows, from, today), prv = prevFrom ? agg_(rows, prevFrom, prevTo) : {};
   // 「全部」排行不算克漏字：從每人的題數扣掉同期間克漏字的題數
   // 「全部」也不算寂天（寂天有自己的排行）
   if (type === 'all') {
-    const jtRows = readDetail_('寂天');
+    const jtRows = keep(readDetail_('寂天'));
     [clozeRows, jtRows].forEach(function (xs) { minus_(cur, agg_(xs, from, today)); if (prevFrom) minus_(prv, agg_(xs, prevFrom, prevTo)); });
     Object.keys(cur).forEach(function (k) { if (cur[k].answered <= 0) delete cur[k]; });
   }
@@ -319,7 +330,7 @@ function boardCore_(p) {
   });
   return { ok: true, period: period, from: from, today: today, top: boards.right, boards: boards, mineAll: mineAll, total: total,
     min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows.concat(readDetail_('寂天'))), av: avMap_() };
+    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows.concat(keep(readDetail_('寂天')))), av: avMap_() };
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -502,7 +513,7 @@ function givenName(n) {
   n = String(n || '').trim();
   // 30 號以後是老師／來賓帳號：名單上怎麼寫就怎麼顯示（不去掉姓）
   const ro = roster_();
-  if (Object.keys(ro).some(function (k) { return +k >= 30 && ro[k] === n; })) return n;
+  if (Object.keys(ro).some(function (k) { return !isStudent_(+k) && ro[k] === n; })) return n;
   if (!/^[\u4e00-\u9fff]{2,5}$/.test(n)) return n;
   const two = ['歐陽', '司馬', '諸葛', '上官', '張簡', '范姜', '端木', '皇甫', '司徒', '東方', '公孫', '令狐', '夏侯', '慕容', '尉遲', '長孫', '宇文', '軒轅', '單于', '呼延'];
   const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
@@ -1059,17 +1070,20 @@ function parentKey_() {
 }
 
 function parent_(key, seat) {
-  const want = parentKey_();
-  if (!want) return { ok: false, error: '家長密碼尚未設定，請洽導師。' };
-  if (String(key || '').trim() !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入密碼' };
+  // 904 用「家長密碼」、916 用「916家長密碼」（都在「設定」分頁）；家長只看得到自己班
+  const want = parentKey_(), want916 = String(setting_('916家長密碼') || '').trim();
+  if (!want && !want916) return { ok: false, error: '家長密碼尚未設定，請洽導師。' };
+  const k = String(key || '').trim();
+  const cls = want && k === want ? '904' : want916 && k === want916 ? '916' : '';
+  if (!cls) return { ok: false, error: key ? '密碼不正確' : '請輸入密碼' };
   const ro = roster_();
-  const roster = Object.keys(ro).map(Number).filter(function (x) { return x < 30; })   // 30 號以後是測試／老師／來賓帳號
-    .sort(function (a, b) { return a - b; }).map(function (x) { return { seat: x, name: ro[x] }; });
+  const roster = Object.keys(ro).map(Number).filter(function (x) { return classOf_(x) === cls; })
+    .sort(function (a, b) { return a - b; }).map(function (x) { return { seat: x, name: ro[x], label: x >= 90000 ? String(x % 100) : String(x) }; });
   const s = parseInt(seat, 10);
-  if (!s) return { ok: true, roster: roster };
-  if (!ro[s]) return { ok: false, error: '找不到這個座號' };
+  if (!s) return { ok: true, roster: roster, cls: cls };
+  if (!ro[s] || classOf_(s) !== cls) return { ok: false, error: '找不到這個座號' };
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const isStu = function (x) { return x && x < 30; };
+  const isStu = function (x) { return x && classOf_(x) === cls; };   // 班級比較只跟同班比
 
   // ---- 練習量：每次交卷（成績分頁）
   const rows = readRows_().filter(function (r) { return isStu(r.seat); });
