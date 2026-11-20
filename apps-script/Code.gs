@@ -38,6 +38,11 @@ function doPost(e) {
     if (body.type === 'inbox') return out_(inbox_(seat));
     if (body.type === 'giftact') return out_(giftAct_(seat, body.id, body.act));
     if (body.type === 'giftpref') return out_(giftPref_(seat, !!body.block));
+    if (body.type === 'feed') return out_(feedPet_(seat));
+    if (body.type === 'duelnew') return out_(duelNew_(seat, body));
+    if (body.type === 'duelplay') return out_(duelPlay_(seat, body));
+    if (body.type === 'duels') return out_(duels_(seat));
+    if (body.type === 'dueldecline') return out_(duelDecline_(seat, body.id));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -101,6 +106,7 @@ function doPost(e) {
     } finally {
       lock.releaseLock();
     }
+    try { petGain_(seat, right); } catch (e) {}   // 答對的題數也讓正在帶的寵物長大
     return out_({ ok: true, score: score, right: right, answered: answered, quiz: quiz ? true : (body.quiz ? false : null) });
   } catch (err) {
     return out_({ ok: false, error: String(err) });
@@ -703,7 +709,12 @@ const BADGE_DEFS = [
   { id: 'mvp4', icon: '💫', name: 'MVP 常客', desc: '當 4 次班級 MVP' },
   { id: 'gift1', icon: '🎁', name: '送禮新手', desc: '送出第一份禮物' },
   { id: 'gift10', icon: '💝', name: '慷慨大方', desc: '送出 10 份禮物' },
-  { id: 'friends5', icon: '🤗', name: '好人緣', desc: '收到 5 位不同同學的禮物' }
+  { id: 'friends5', icon: '🤗', name: '好人緣', desc: '收到 5 位不同同學的禮物' },
+  { id: 'duel1', icon: '🤺', name: '初次對戰', desc: '完成第一場單字對戰' },
+  { id: 'duelwin10', icon: '🥊', name: '對戰常勝', desc: '單字對戰贏 10 場' },
+  { id: 'duel30', icon: '🏟️', name: '對戰老手', desc: '完成 30 場單字對戰' },
+  { id: 'pet5', icon: '🐾', name: '寵物達人', desc: '把一隻寵物養到 Lv.5' },
+  { id: 'pet10', icon: '🐲', name: '神寵飼主', desc: '把一隻寵物養到 Lv.10' }
 ];
 // 徽章分類與等級（1 銅、2 銀、3 金、4 鑽石）：同一系列越後面越難
 const BADGE_SERIES = [
@@ -717,7 +728,8 @@ const BADGE_SERIES = [
   ['挑戰', '💀', [['quest1', 'quest7', 'quest30', 'quest60', 'quest100'], ['surv20', 'surv50', 'surv100', 'surv150']]],
   ['班級', '⚔️', [['goal1', 'goal4', 'goal10'], ['win1', 'win4', 'win10'], ['mvp1', 'mvp4'], ['week', 'month']]],
   ['收藏', '🛍️', [['shop5', 'shop15']]],
-  ['友誼', '🎁', [['gift1', 'gift10'], ['friends5']]]
+  ['友誼', '🎁', [['gift1', 'gift10'], ['friends5']]],
+  ['對戰與寵物', '🤺', [['duel1', 'duel30'], ['duelwin10'], ['pet5', 'pet10']]]
 ];
 (function () {
   const meta = {};
@@ -845,8 +857,10 @@ function badges_() {
   } catch (e) {}
   let dper = {};
   try { dper = dailyC_().per || {}; } catch (e) {}
-  let GT = {};
+  let GT = {}, DTb = {}, PAb = {};
   try { GT = giftTotals_(); } catch (e) {}
+  try { DTb = duelTotals_(); } catch (e) {}
+  try { PAb = petAll_(); } catch (e) {}
   const KINDS4 = ['單字', '動詞變化', '介系詞', '克漏字'];
   const out = {}, firstN = {};
   Object.keys(first).forEach(function (d) { const k = first[d].seat; firstN[k] = (firstN[k] || 0) + 1; });
@@ -923,6 +937,12 @@ function badges_() {
     if ((bought[seat] || 0) >= 15) ids.push('shop15');
     [[1, 'win1'], [4, 'win4'], [10, 'win10']].forEach(function (x) { if ((dp.wins || 0) >= x[0]) ids.push(x[1]); });
     [[1, 'mvp1'], [4, 'mvp4']].forEach(function (x) { if ((dp.mvp || 0) >= x[0]) ids.push(x[1]); });
+    const dt = DTb[seat] || { n: 0, win: 0 }, pxs = Object.keys(PAb[seat] || {}).map(function (k) { return petLv_(PAb[seat][k]); });
+    if (dt.n >= 1) ids.push('duel1');
+    if (dt.n >= 30) ids.push('duel30');
+    if (dt.win >= 10) ids.push('duelwin10');
+    if (pxs.some(function (l) { return l >= 5; })) ids.push('pet5');
+    if (pxs.some(function (l) { return l >= 10; })) ids.push('pet10');
     const gt = GT[seat] || { sent: 0, from: {} };
     if (gt.sent >= 1) ids.push('gift1');
     if (gt.sent >= 10) ids.push('gift10');
@@ -1372,6 +1392,11 @@ function profiles_() {
   });
   const CR = L.coin || { right: 1, quiz: 20, badge: 20 };
   const G = giftTotals_();
+  let DT = {}, PA = {}, last = {};
+  try { DT = duelTotals_(); } catch (e) {}
+  try { PA = petAll_(); } catch (e) {}
+  readRows_().forEach(function (r) { if (!last[r.seat] || r.d > last[r.seat]) last[r.seat] = r.d; });
+  const today0 = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
   const res = {};
   Object.keys(roster_()).concat(Object.keys(out)).forEach(function (k) {
     k = parseInt(k, 10); if (!k || k === 30 || res[k]) return;
@@ -1394,7 +1419,10 @@ function profiles_() {
     const owned = (own[k] || []).concat(g.items.filter(function (x) { return (own[k] || []).indexOf(x) < 0; }));
     res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr,
       own: owned, earn: earn, spent: spent[k] || 0, giftIn: g.recv, giftOut: g.cost,
-      coin: Math.max(0, earn + g.recv - g.cost - (spent[k] || 0)),
+      coin: Math.max(0, earn + g.recv - g.cost - (spent[k] || 0) + ((DT[k] || {}).coin || 0)),
+      duel: DT[k] || { coin: 0, win: 0, n: 0 },
+      pets: PA[k] || {}, petXp: ((PA[k] || {})[(av[k] || {}).pet] || 0), petLv: petLv_((PA[k] || {})[(av[k] || {}).pet] || 0),
+      away: last[k] ? Math.round((new Date(today0 + 'T12:00:00+08:00') - new Date(last[k] + 'T12:00:00+08:00')) / 864e5) : 99,
       show: (show[k] || []).filter(function (id) { return (bd[k] || []).indexOf(id) >= 0; }) };
   });
   try { cache.put(pk, JSON.stringify(res), 600); } catch (e) {}
@@ -1403,7 +1431,7 @@ function profiles_() {
 function avMap_() {
   try {
     const p = profiles_(), m = {};
-    Object.keys(p).forEach(function (k) { m[k] = { lv: p[k].lv, a: p[k].a, show: p[k].show || [] }; });
+    Object.keys(p).forEach(function (k) { m[k] = { lv: p[k].lv, a: p[k].a, show: p[k].show || [], petLv: p[k].petLv || 1 }; });
     return m;
   } catch (e) { return {}; }
 }
@@ -1413,7 +1441,8 @@ function profile_(seat) {
   const L = avItems_().levels;
   return { ok: true, seat: s, xp: p.xp, lv: p.lv, title: avTitle_(p.lv, L.titles), cur: avNeed_(p.lv, L.base), next: p.lv >= 50 ? null : avNeed_(p.lv + 1, L.base),
     right: p.right, quiz: p.quiz, days: p.days, a: p.a, xpRule: L.xp, tr: p.tr || [],
-    coin: p.coin || 0, earn: p.earn || 0, own: p.own || [], show: p.show || [], coinRule: L.coin || { right: 1, quiz: 20, badge: 20 } };
+    coin: p.coin || 0, earn: p.earn || 0, own: p.own || [], show: p.show || [],
+    pets: p.pets || {}, petXp: p.petXp || 0, petLv: p.petLv || 1, petNeed: PET_NEED, away: p.away == null ? 99 : p.away, duel: p.duel || { coin: 0, win: 0, n: 0 }, coinRule: L.coin || { right: 1, quiz: 20, badge: 20 } };
 }
 // 存造型：每個部件都要存在、而且等級夠才能用，否則換回預設
 function saveAvatar_(seat, a) {
@@ -1573,6 +1602,194 @@ function inbox_(seat) {
   return { ok: true, fresh: fresh.map(fmt), back: back.map(fmt), block: !!noGift_()[seat],
     recv: rows.filter(function (g) { return g.to === seat; }).slice(-10).reverse().map(fmt),
     sent: rows.filter(function (g) { return g.from === seat; }).slice(-10).reverse().map(fmt) };
+}
+
+// ===================== 寵物養成 =====================
+// 「寵物」分頁：座號 | 寵物 | 經驗 | 最後餵食日 | 當天餵食次數
+// 帶著的寵物（造型裡的 pet）會跟著你答對的題數長經驗；也可以花 10 代幣餵食（+15 經驗，每天 3 次）。
+// 寵物心情看你最近有沒有交卷：今天或昨天有交卷 😊，兩三天沒來 😐，四天以上 😢
+const PET_NAME = '寵物';
+const PET_NEED = [0, 20, 60, 120, 200, 300, 450, 650, 900, 1200];   // Lv1–Lv10 需要的累積經驗
+function petLv_(xp) { let lv = 1; for (let i = 1; i < PET_NEED.length; i++) if (xp >= PET_NEED[i]) lv = i + 1; return lv; }
+function petSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName(PET_NAME);
+  if (!sh) { sh = ss.insertSheet(PET_NAME); sh.getRange(1, 1, 1, 5).setValues([['座號', '寵物', '經驗', '最後餵食日', '當天餵食次數']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function petRows_() {
+  const sh = petSheet_(), n = sh.getLastRow() - 1;
+  if (n <= 0) return [];
+  return sh.getRange(2, 1, n, 5).getValues().map(function (r, i) {
+    return { row: i + 2, seat: parseInt(r[0], 10), pet: String(r[1]), xp: Number(r[2]) || 0,
+      fedDay: r[3] instanceof Date ? Utilities.formatDate(r[3], 'Asia/Taipei', 'yyyy-MM-dd') : String(r[3]).replace(/^'/, ''), fedN: Number(r[4]) || 0 };
+  });
+}
+function petAll_() {   // {座號: {寵物: 經驗}}
+  const o = {};
+  petRows_().forEach(function (r) { (o[r.seat] = o[r.seat] || {})[r.pet] = r.xp; });
+  return o;
+}
+function myPet_(seat) {
+  const sh = avSheet_(), n = sh.getLastRow() - 1;
+  let pet = 'none';
+  if (n > 0) sh.getRange(2, 1, n, 2).getValues().forEach(function (r) {
+    if (parseInt(r[0], 10) === seat) { try { pet = (JSON.parse(String(r[1] || '{}')).pet) || 'none'; } catch (e) {} }
+  });
+  return pet;
+}
+function petAdd_(seat, pet, xp, feed) {
+  const sh = petSheet_(), today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
+  const r = petRows_().filter(function (x) { return x.seat === seat && x.pet === pet; })[0];
+  if (r) {
+    const n = feed ? (r.fedDay === today ? r.fedN + 1 : 1) : r.fedN;
+    sh.getRange(r.row, 3, 1, 3).setValues([[r.xp + xp, feed ? "'" + today : (r.fedDay ? "'" + r.fedDay : ''), n]]);
+    return r.xp + xp;
+  }
+  sh.appendRow([seat, pet, xp, feed ? "'" + today : '', feed ? 1 : 0]);
+  return xp;
+}
+function petGain_(seat, right) {
+  if (!right) return;
+  const pet = myPet_(seat);
+  if (pet && pet !== 'none') petAdd_(seat, pet, right, false);
+}
+function feedPet_(seat) {
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const pet = myPet_(seat);
+    if (!pet || pet === 'none') return { ok: false, error: '你還沒有帶寵物，先到「換造型」選一隻寵物吧！' };
+    const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
+    const r = petRows_().filter(function (x) { return x.seat === seat && x.pet === pet; })[0];
+    if (r && r.fedDay === today && r.fedN >= 3) return { ok: false, error: '今天已經餵了 3 次，寵物吃飽了，明天再來！' };
+    bump_();
+    const p = profiles_()[seat] || { coin: 0 };
+    if ((p.coin || 0) < 10) return { ok: false, error: '代幣不夠（餵一次要 10 枚）' };
+    // 花掉的代幣記在「造型」分頁的已花代幣
+    const sh = avSheet_(), n = sh.getLastRow() - 1;
+    let row = 0;
+    if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (x, i) { if (parseInt(x[0], 10) === seat) row = i + 2; });
+    if (row) sh.getRange(row, 5).setValue((p.spent || 0) + 10);
+    const xp = petAdd_(seat, pet, 15, true);
+    bump_();
+    return { ok: true, pet: pet, xp: xp, lv: petLv_(xp), coin: (p.coin || 0) - 10, fedLeft: Math.max(0, 2 - (r && r.fedDay === today ? r.fedN : 0)) };
+  } finally { lock.releaseLock(); }
+}
+
+// ===================== 單字對戰（友誼賽） =====================
+// 「對戰」分頁：時間 | 挑戰者 | 對手 | 題號 | 挑戰者答對 | 挑戰者秒數 | 對手答對 | 對手秒數 | 狀態 | 已看結果
+// 規則：兩人寫同一份 10 題，答對多的贏，一樣多比快。贏的 +15 代幣、輸的 +5、平手各 +10，都是系統給的，沒有人會失去東西。
+//       每人每天最多發起 3 場；同一對每天 1 場；對手可以拒絕；2 天內沒應戰就結束（挑戰者拿 5 代幣參加獎）。
+const DUEL_NAME = '對戰';
+function duelSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName(DUEL_NAME);
+  if (!sh) { sh = ss.insertSheet(DUEL_NAME); sh.getRange(1, 1, 1, 10).setValues([['時間', '挑戰者', '對手', '題號', '挑戰者答對', '挑戰者秒數', '對手答對', '對手秒數', '狀態', '已看結果']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function duelRows_() {
+  const sh = duelSheet_(), n = sh.getLastRow() - 1, now = Date.now();
+  if (n <= 0) return [];
+  return sh.getRange(2, 1, n, 10).getValues().map(function (r, i) {
+    const t = r[0] instanceof Date ? r[0].getTime() : Date.parse(String(r[0])) || now;
+    const d = { id: i + 2, t: t, at: Utilities.formatDate(new Date(t), 'Asia/Taipei', 'yyyy-MM-dd HH:mm'), a: parseInt(r[1], 10), b: parseInt(r[2], 10),
+      qs: (function () { try { return JSON.parse(String(r[3] || '[]')); } catch (e) { return []; } })(),
+      aR: r[4] === '' ? null : Number(r[4]), aS: Number(r[5]) || 0, bR: r[6] === '' ? null : Number(r[6]), bS: Number(r[7]) || 0,
+      st: String(r[8] || ''), seen: String(r[9] || '') };
+    if (d.st === '' && now - t > 2 * 864e5) d.st = 'expired';
+    if (d.aR != null && d.bR != null) {
+      d.st = 'done';
+      d.win = d.aR !== d.bR ? (d.aR > d.bR ? d.a : d.b) : d.aS !== d.bS ? (d.aS < d.bS ? d.a : d.b) : 0;
+    }
+    return d;
+  });
+}
+// 每個人從對戰拿到的代幣、勝場、場數
+function duelTotals_() {
+  const t = {}, T = function (k) { return t[k] = t[k] || { coin: 0, win: 0, n: 0 }; };
+  duelRows_().forEach(function (d) {
+    if (d.st === 'done') {
+      [d.a, d.b].forEach(function (k) { const x = T(k); x.n++; if (d.win === 0) x.coin += 10; else if (d.win === k) { x.coin += 15; x.win++; } else x.coin += 5; });
+    } else if ((d.st === 'expired' || d.st === 'declined') && d.aR != null) T(d.a).coin += 5;
+  });
+  return t;
+}
+function duelNew_(seat, b) {
+  const to = parseInt(b.to, 10), ro = roster_();
+  if (!to || !ro[to] || to === 30) return { ok: false, error: '找不到這位同學' };
+  if (to === seat) return { ok: false, error: '不能跟自己對戰喔' };
+  const qs = (Array.isArray(b.qs) ? b.qs : []).map(function (x) { return parseInt(x, 10); }).filter(function (x, i, a) { return x >= 0 && a.indexOf(x) === i; }).slice(0, 10);
+  if (qs.length !== 10) return { ok: false, error: '題目不完整' };
+  const key = loadKey_();
+  if (qs.some(function (x) { return !key[x]; })) return { ok: false, error: '題目不正確' };
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), rows = duelRows_();
+    const mine = rows.filter(function (d) { return d.a === seat && d.at.slice(0, 10) === today; });
+    if (mine.length >= 3) return { ok: false, error: '今天已經發起 3 場對戰了，明天再來！' };
+    if (rows.some(function (d) { return d.at.slice(0, 10) === today && ((d.a === seat && d.b === to) || (d.a === to && d.b === seat)); })) return { ok: false, error: '你們今天已經對戰過了' };
+    if (rows.filter(function (d) { return d.b === to && d.st === '' && d.aR != null; }).length >= 3) return { ok: false, error: '對方還有 3 場對戰沒打，換個人挑戰吧！' };
+    const sh = duelSheet_();
+    sh.appendRow([new Date(), seat, to, JSON.stringify(qs), '', '', '', '', '', '']);
+    return { ok: true, id: sh.getLastRow() };
+  } finally { lock.releaseLock(); }
+}
+function duelPlay_(seat, b) {
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const d = duelRows_().filter(function (x) { return x.id === parseInt(b.id, 10); })[0];
+    if (!d || (d.a !== seat && d.b !== seat)) return { ok: false, error: '找不到這場對戰' };
+    if (d.st === 'declined' || d.st === 'expired') return { ok: false, error: '這場對戰已經結束了' };
+    const me = d.a === seat ? 'a' : 'b';
+    if ((me === 'a' ? d.aR : d.bR) != null) return { ok: false, error: '你已經打過這場了' };
+    if (me === 'b' && d.aR == null) return { ok: false, error: '對方還沒打完' };
+    const key = loadKey_(), ans = Array.isArray(b.answers) ? b.answers : [];
+    let right = 0;
+    d.qs.forEach(function (q) {
+      const a = ans.filter(function (x) { return parseInt(x[0], 10) === q; })[0];
+      if (a && key[q] && key[q][0] === parseInt(a[1], 10)) right++;
+    });
+    const secs = Math.max(1, Math.min(3600, parseInt(b.secs, 10) || 0));
+    const sh = duelSheet_();
+    sh.getRange(d.id, me === 'a' ? 5 : 7, 1, 2).setValues([[right, secs]]);
+    bump_();
+    const res = { ok: true, right: right, secs: secs };
+    if (me === 'b') {
+      res.done = true; res.other = { right: d.aR, secs: d.aS };
+      res.win = right !== d.aR ? (right > d.aR ? seat : d.a) : secs !== d.aS ? (secs < d.aS ? seat : d.a) : 0;
+      sh.getRange(d.id, 10).setValue(String(seat));   // 對手當場就看到結果
+    }
+    return res;
+  } finally { lock.releaseLock(); }
+}
+function duelDecline_(seat, id) {
+  const d = duelRows_().filter(function (x) { return x.id === parseInt(id, 10); })[0];
+  if (!d || d.b !== seat || d.st !== '') return { ok: false, error: '找不到這場對戰' };
+  duelSheet_().getRange(d.id, 9).setValue('declined');
+  bump_();
+  return { ok: true };
+}
+// 我的對戰：等我應戰的、我發起還在等的、剛出爐的結果（看過就不再跳）、最近戰績
+function duels_(seat) {
+  const rows = duelRows_(), ro = roster_(), sh = duelSheet_();
+  const nm = function (k) { return ro[k] ? givenName(ro[k]) : k + ' 號'; };
+  const fmt = function (d) {
+    const meA = d.a === seat;
+    return { id: d.id, at: d.at, other: meA ? d.b : d.a, otherName: nm(meA ? d.b : d.a), mine: meA ? d.aR : d.bR, mySecs: meA ? d.aS : d.bS,
+      theirs: meA ? d.bR : d.aR, theirSecs: meA ? d.bS : d.aS, st: d.st, win: d.win, iStarted: meA, qs: d.qs };
+  };
+  const incoming = rows.filter(function (d) { return d.b === seat && d.st === '' && d.aR != null && d.bR == null; });
+  const waiting = rows.filter(function (d) { return d.a === seat && d.st === '' && d.aR != null; });
+  const unplayed = rows.filter(function (d) { return d.a === seat && d.st === '' && d.aR == null; });
+  const fresh = rows.filter(function (d) { return d.st === 'done' && (d.a === seat || d.b === seat) && d.seen.split(',').indexOf(String(seat)) < 0; });
+  fresh.forEach(function (d) { sh.getRange(d.id, 10).setValue(d.seen ? d.seen + ',' + seat : String(seat)); });
+  const T = duelTotals_()[seat] || { coin: 0, win: 0, n: 0 };
+  return { ok: true, incoming: incoming.map(fmt), waiting: waiting.map(fmt), unplayed: unplayed.map(fmt), fresh: fresh.map(fmt),
+    recent: rows.filter(function (d) { return (d.a === seat || d.b === seat) && d.st === 'done'; }).slice(-10).reverse().map(fmt),
+    stats: T, petNeed: PET_NEED };
 }
 
 // 商店：用代幣買造型（代幣＝答對題數＋小考過關＋徽章，扣掉已經花掉的）

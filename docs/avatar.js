@@ -314,7 +314,14 @@
     g += acc(a.acc, hc);
     if (a.deco === 'sweatband') g += `<g${sx(BD[1])}>${deco(a.deco, 'top', DO)}</g>`; else g += deco(a.deco, 'top', DO);
     g += hold(a.hold, skin);
-    if (a.pet && a.pet !== 'none') g += `<g transform="translate(74 70) scale(.46)" class="avpet">${pet(a.pet)}</g>`;
+    if (a.pet && a.pet !== 'none') {
+      // 寵物等級（opt.petLv）：Lv4 起有光暈、Lv7 起有星星、Lv10 戴小皇冠
+      const pl = +opt.petLv || 0;
+      if (pl >= 4) g += `<circle cx="97" cy="93" r="${pl >= 10 ? 27 : 24}" fill="${pl >= 10 ? '#ffe680' : pl >= 7 ? '#c9e7ff' : '#fff6d6'}" opacity=".55"/>`;
+      g += `<g transform="translate(74 70) scale(.46)" class="avpet">${pet(a.pet)}</g>`;
+      if (pl >= 7) g += [[76, 72, .5], [116, 80, .4], [112, 112, .35]].map(([x, y, k]) => `<path transform="translate(${x} ${y}) scale(${k})" d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2Z" fill="#f7d35c"/>`).join('');
+      if (pl >= 10) g += '<path d="M89 70 L91 64 L95 68 L97 62 L99 68 L103 64 L105 70Z" fill="#f2c94c" stroke="#b98a12" stroke-width=".6"/>';
+    }
     g += '</g>';
     const size = opt.size || 64;
     return `<svg class="avatar${opt.cls ? ' ' + opt.cls : ''}" viewBox="0 0 120 120" width="${size}" height="${size}" role="img" aria-label="${opt.label || '人物頭像'}">${g}</svg>`;

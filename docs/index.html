@@ -276,7 +276,11 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .board td .nmav{display:inline-flex;align-items:center;gap:6px;vertical-align:middle}
 .board td .nmav svg.avatar{width:28px;height:28px}
 .board .lvs{font-size:.72rem;font-weight:900;color:var(--muted);margin-left:2px}
-.mebtns{display:flex;flex-direction:column;gap:6px}
+.mebtns{display:flex;flex-direction:row;flex-wrap:wrap;gap:6px;flex-basis:100%}
+.mebtns .ghostbtn{flex:1 1 auto}
+.mecard{flex-wrap:wrap}
+.meinfo{flex:1;min-width:160px}
+.petbox{flex-basis:100%;margin-top:0}
 .trcount{font-size:.8rem;color:var(--muted);margin-left:2px}
 .avgrid .gem{position:absolute;top:2px;right:4px;font-size:.8rem}
 .trgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
@@ -296,6 +300,17 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .shopcard .have{font-size:.78rem;color:var(--chalk);font-weight:800}
 .shopgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;padding:10px 12px;overflow-y:auto}
 .coin{font-weight:900;color:#a27400}
+.petbox{margin-top:8px;padding:8px 10px;border-radius:12px;background:var(--paper);border:1px solid var(--line);font-size:.86rem;display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center}
+.petbox .pbar{grid-column:1/-1;height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.petbox .pbar i{display:block;height:100%;background:linear-gradient(90deg,#f29d4c,#f2c94c)}
+.petbox button{font:inherit;font-size:.8rem;font-weight:800;border:0;border-radius:99px;padding:5px 12px;background:#f2c94c;color:#3a2a00;cursor:pointer}
+.duelrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:8px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+.duelrow .sp{margin-left:auto;display:flex;gap:6px}
+.duelrow button{font:inherit;font-size:.82rem;font-weight:800;border-radius:99px;padding:4px 12px;cursor:pointer;border:1px solid var(--line);background:var(--paper)}
+.duelrow button.go{background:#c8473a;color:#fff;border:0}
+.duelhead{padding:4px 0 8px;font-size:.88rem;line-height:1.6}
+.fifty{font:inherit;font-size:.8rem;font-weight:800;border-radius:99px;border:1px solid #e0a81a;background:#fff8e1;padding:3px 10px;cursor:pointer;margin-left:6px}
+#qOpts .opt.gone{opacity:.25;pointer-events:none}
 .trapnote{background:#fff0f3;border-left:4px solid #e2445f;padding:4px 8px;border-radius:6px}
 .carenote{background:#fff8e1;border-left:4px solid #e0a81a;padding:4px 8px;border-radius:6px;font-size:.9em}
 .tbpw{margin:8px 0;padding:10px 12px;border-radius:12px;background:#fff3c4;border:2px dashed #e0a81a;font-size:.92rem;line-height:1.6}
@@ -382,7 +397,8 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <div class="xpbar" aria-hidden="true"><span id="meXpBar"></span></div>
       <div class="xptxt" id="meXp"></div>
     </div>
-    <div class="mebtns"><button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button><button type="button" class="ghostbtn" id="meTr">🎁 寶物</button><button type="button" class="ghostbtn" id="meShop">🛒 商店</button><button type="button" class="ghostbtn" id="meGift">💝 送禮物</button></div>
+    <div class="mebtns"><button type="button" class="ghostbtn" id="meEdit">🎨 換造型</button><button type="button" class="ghostbtn" id="meTr">🎁 寶物</button><button type="button" class="ghostbtn" id="meShop">🛒 商店</button><button type="button" class="ghostbtn" id="meGift">💝 送禮物</button><button type="button" class="ghostbtn" id="meDuel">🤺 單字對戰</button></div>
+      <div class="petbox hidden" id="petBox"></div>
   </div>
   <div class="taskban hidden" id="taskBan">
     <div class="tb-text"><b>📋 今日任務</b><span id="tbRule"></span><span id="tbStat"></span></div>
@@ -489,6 +505,19 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
   </div>
 </div>
 
+<div class="avmodal hidden" id="duelModal" role="dialog" aria-modal="true" aria-label="單字對戰">
+  <div class="avbox">
+    <div class="avtop"><div style="font-size:2rem">🤺</div><div><b>單字對戰（友誼賽）</b><div class="hint">兩人寫同一份 10 題，答對多的贏，一樣多比快。贏 +15 🪙、輸 +5 🪙、平手各 +10 🪙，沒有人會失去東西。</div></div><button type="button" class="avx" id="duClose" aria-label="關閉">✕</button></div>
+    <div class="gfbody">
+      <div class="duelhead" id="duStats"></div>
+      <label class="gflab" for="duTo">挑戰誰</label><select id="duTo"></select>
+      <div class="gfsend"><button type="button" class="primary" id="duGo">⚔️ 發起對戰（先由你作答）</button><span class="hint" id="duMsg" aria-live="polite"></span></div>
+      <div class="gflab">等你應戰</div><div id="duIn" class="hint">載入中…</div>
+      <div class="gflab">等對方應戰</div><div id="duWait" class="hint"></div>
+      <div class="gflab">最近戰績</div><div id="duRecent" class="hint"></div>
+    </div>
+  </div>
+</div>
 <div class="avmodal hidden" id="giftModal" role="dialog" aria-modal="true" aria-label="送禮物">
   <div class="avbox">
     <div class="avtop"><div style="font-size:2rem">💝</div><div><b>送禮物給同學</b><div class="hint" id="gfHint"></div></div><button type="button" class="avx" id="gfClose" aria-label="關閉">✕</button></div>
@@ -843,6 +872,7 @@ function show(){
   const s = session, st = s.items[s.i];
   s.answered = false;
   if (s.surv) setTimeout(survStart, 0);
+  if (s.duel) setTimeout(() => { const ask = $('qAsk'); if (ask && !$('fiftyBtn') && s.duel.fifty) { ask.insertAdjacentHTML('beforeend', fiftyBtn()); const b = $('fiftyBtn'); if (b) b.onclick = useFifty; } }, 0);
   $('qGloss').classList.add('hidden');
   if (typeof st === 'object') return showCloze(st);
   const q = DATA.bank[st];
@@ -996,6 +1026,7 @@ function next(){
 function finish(){
   const s = session;
   if (s.surv) { clearInterval(s.surv.timer); s.items = s.items.slice(0, s.log.length); s.planned = s.items.length; $('quiz').classList.remove('survmode'); }
+  if (s.duel && s.log.length) setTimeout(() => finishDuel(s), 300);
   const total = s.items.length;
   $('quiz').classList.add('hidden'); $('result').classList.remove('hidden'); $('board').classList.remove('hidden');
   const pct = Math.round(s.right / total * 100);
@@ -1513,18 +1544,21 @@ async function loadProfile(after){
     if (after && old != null && j.lv > old) lvUp(j.lv);
     setTimeout(checkChests, after ? 1600 : 300);
     setTimeout(checkInbox, after ? 2200 : 900);
+    setTimeout(() => loadDuels(false), after ? 2600 : 1200);
   } catch (e) {}
 }
 function drawMe(){
   if (!ME) return;
   $('meCard').classList.remove('hidden');
-  $('meAv').innerHTML = AV.svg(ME.a, {size: 76, label: '我的頭像'});
-  $('qAv').innerHTML = AV.svg(ME.a, {size: 34});
+  $('meAv').innerHTML = AV.svg(ME.a, {size: 76, label: '我的頭像', petLv: ME.petLv});
+  $('qAv').innerHTML = AV.svg(ME.a, {size: 34, petLv: ME.petLv});
+  drawPet();
   $('meName').textContent = TEACHERS[ME.seat] || $('sname').value || (seatNo(ME.seat) + ' 號');
   $('meLv').textContent = 'Lv.' + ME.lv;
   $('meTitle').innerHTML = esc(ME.title) + (AV.items && AV.items.treasures ? `<span class="trcount">・💎 寶物 ${trList().filter(t => (ME.tr || []).includes(t.t)).length}/${trList().length}</span>` : '') + (ME.coin != null ? `<span class="trcount">・<span class="coin">🪙 ${ME.coin}</span></span>` : '');
   $('meShop').classList.toggle('hidden', ME.coin == null);
   $('meGift').classList.toggle('hidden', ME.coin == null);
+  $('meDuel').classList.toggle('hidden', ME.coin == null);
   const span = ME.next == null ? 1 : ME.next - ME.cur, got = ME.next == null ? 1 : ME.xp - ME.cur;
   $('meXpBar').style.width = Math.max(3, Math.min(100, got / span * 100)) + '%';
   $('meXp').textContent = ME.next == null ? `經驗值 ${ME.xp}・已達最高等級！` : `經驗值 ${ME.xp}・再 ${ME.next - ME.xp} 點升到 Lv.${ME.lv + 1}（答對 1 題 +${ME.xpRule.right}、小考過關 +${ME.xpRule.quiz}、每練習一天 +${ME.xpRule.day}）`;
@@ -1556,6 +1590,135 @@ function checkChests(){
   chestQ = chestQ.concat(fresh);
   if (fresh.length && $('chest').classList.contains('hidden')) nextChest();
 }
+// ===================== 寵物養成 =====================
+function petNameOf(id){ const it = AV.map && AV.map.pet && AV.map.pet[id]; return it ? it.name : id; }
+function drawPet(){
+  const box = $('petBox'); if (!box) return;
+  const pid = ME && ME.a && ME.a.pet;
+  if (!ME || ME.coin == null || !pid || pid === 'none') {
+    box.className = 'petbox' + (ME && ME.coin != null ? '' : ' hidden');
+    box.innerHTML = '🐾 還沒有帶寵物。到「換造型」選一隻寵物，牠會跟著你答對的題數一起長大！';
+    return;
+  }
+  const need = ME.petNeed || [0, 20, 60, 120, 200, 300, 450, 650, 900, 1200], lv = ME.petLv || 1, xp = ME.petXp || 0;
+  const lo = need[lv - 1] || 0, hi = need[lv] || lo, pct = lv >= 10 ? 100 : Math.round((xp - lo) / (hi - lo) * 100);
+  const away = ME.away == null ? 0 : ME.away, mood = away <= 1 ? ['😊', '心情很好'] : away <= 3 ? ['😐', '有點想你'] : ['😢', '好久沒見到你了，快來背單字！'];
+  box.className = 'petbox';
+  box.innerHTML = `<span>🐾 <b>${esc(petNameOf(pid))}</b> Lv.${lv}・${mood[0]} ${mood[1]}<br><small class="hint">${lv >= 10 ? '已經是最高等級！' : `再 ${hi - xp} 經驗升級・答對 1 題 +1`}${lv < 4 ? '・Lv.4 有光環、Lv.7 有星星、Lv.10 戴皇冠' : ''}・對戰時 Lv.3 起可用「刪去兩個選項」</small></span>` +
+    `<button type="button" id="petFeed">🍖 餵食 10🪙</button><span class="pbar"><i style="width:${pct}%"></i></span>`;
+  $('petFeed').onclick = async () => {
+    $('petFeed').disabled = true;
+    try {
+      const j = await postJ({type: 'feed'});
+      if (!j.ok) throw new Error(j.error || '餵食失敗');
+      ME.coin = j.coin; ME.petXp = j.xp;
+      const up = j.lv > (ME.petLv || 1); ME.petLv = j.lv;
+      drawMe();
+      box.insertAdjacentHTML('beforeend', `<small class="hint" style="grid-column:1/-1">😋 好吃！+15 經驗${up ? '・🎉 升到 Lv.' + j.lv + '！' : ''}（今天還能餵 ${j.fedLeft} 次）</small>`);
+      if (up && typeof confetti === 'function') confetti();
+    } catch (e) { box.insertAdjacentHTML('beforeend', `<small class="hint" style="grid-column:1/-1">⚠️ ${esc(e.message)}</small>`); }
+    const b = $('petFeed'); if (b) b.disabled = false;
+  };
+}
+
+// ===================== 單字對戰 =====================
+let DUEL = null;
+function duelPool(){   // 單字書的單字／動詞／介系詞題（每天題目清單裡有出的題）
+  const seen = new Set(), out = [];
+  DATA.days.forEach(d => d.forEach(qi => { const q = DATA.bank[qi]; if (['word', 'verb', 'prep'].includes(q.k) && !seen.has(qi)) { seen.add(qi); out.push(qi); } }));
+  return out;
+}
+const qidOf = qi => DATA.bank[qi].r ?? qi;
+function qiOf(id){ if (!qiOf.m) { qiOf.m = new Map(); DATA.bank.forEach((q, i) => qiOf.m.set(q.r ?? i, i)); } return qiOf.m.get(id); }
+async function openDuel(){
+  if (!ME) return;
+  $('duelModal').classList.remove('hidden');
+  $('duMsg').textContent = '';
+  if (!GF.names) { try { const j = await fetch(SHEET_URL + '?action=names').then(r => r.json()); GF.names = j.names; GF.msgs = j.msgs; } catch (e) {} }
+  const me = +$('seat').value, groups = {};
+  (GF.names || []).filter(x => x.seat !== me).forEach(x => (groups[x.cls] = groups[x.cls] || []).push(x));
+  $('duTo').innerHTML = '<option value="">請選擇同學</option>' + Object.keys(groups).map(c => `<optgroup label="${esc(c === '老師' ? '老師' : c + ' 班')}">` +
+    groups[c].map(x => `<option value="${x.seat}">${x.seat > 90000 ? x.seat % 100 + ' 號 ' : x.seat < 30 ? x.seat + ' 號 ' : ''}${esc(x.given)}</option>`).join('') + '</optgroup>').join('');
+  loadDuels(true);
+}
+async function loadDuels(draw){
+  if (!PIN_OK) return;
+  try {
+    const j = await postJ({type: 'duels'});
+    if (!j.ok) return;
+    DUEL = Object.assign(DUEL || {}, {list: j});
+    if (draw || !$('duelModal').classList.contains('hidden')) drawDuels();
+    (j.fresh || []).filter(d => !d.iStarted ? false : true).forEach(d => chestQ.push({duel: d}));
+    if ((j.fresh || []).some(d => d.iStarted) && $('chest').classList.contains('hidden')) nextChest();
+    const n = (j.incoming || []).length;
+    $('meDuel').textContent = '🤺 單字對戰' + (n ? `（${n} 場等你）` : '');
+  } catch (e) {}
+}
+function drawDuels(){
+  const j = DUEL && DUEL.list; if (!j) return;
+  const st = j.stats || {n: 0, win: 0, coin: 0};
+  $('duStats').innerHTML = `戰績：${st.n} 場、贏 ${st.win} 場・從對戰拿到 🪙 ${st.coin}` + ((ME.petLv || 1) >= 3 ? `<br>🐾 你的寵物 Lv.${ME.petLv}：對戰時可以用 ${(ME.petLv || 1) >= 7 ? 2 : 1} 次「刪去兩個選項」` : '<br>🐾 寵物養到 Lv.3，對戰時可以用「刪去兩個選項」');
+  const res = d => d.mine == null || d.theirs == null ? '' : `我 ${d.mine} 題 ${d.mySecs} 秒 vs ${d.theirs} 題 ${d.theirSecs} 秒・${d.win === 0 ? '平手' : d.win === +$('seat').value ? '🏆 我贏了' : '輸了'}`;
+  $('duIn').innerHTML = (j.incoming || []).map(d => `<div class="duelrow">⚔️ <b>${esc(d.otherName)}</b> 向你挑戰！<small>（對方答對 ${d.theirs} 題）</small><span class="sp"><button type="button" data-dno="${d.id}">拒絕</button><button type="button" class="go" data-dgo="${d.id}">應戰</button></span></div>`).join('') || '目前沒有';
+  $('duWait').innerHTML = (j.waiting || []).map(d => `<div class="duelrow">⏳ 等 <b>${esc(d.otherName)}</b> 應戰（你答對 ${d.mine} 題）</div>`).join('') || '目前沒有';
+  $('duRecent').innerHTML = (j.recent || []).map(d => `<div class="duelrow">${esc(d.at.slice(5))}・vs <b>${esc(d.otherName)}</b>・${res(d)}</div>`).join('') || '還沒有對戰紀錄';
+  $('duIn').querySelectorAll('[data-dgo]').forEach(b => b.onclick = () => { const d = j.incoming.find(x => x.id === +b.dataset.dgo); playDuel(d.id, d.qs, d.otherName); });
+  $('duIn').querySelectorAll('[data-dno]').forEach(b => b.onclick = async () => { b.disabled = true; await postJ({type: 'dueldecline', id: +b.dataset.dno}); loadDuels(true); });
+}
+$('duGo').onclick = async () => {
+  const to = $('duTo').value, out = $('duMsg');
+  if (!to) { out.textContent = '⚠️ 請先選擇要挑戰誰'; return; }
+  const pool = duelPool(), seenG = new Set(), qs = [];
+  for (const qi of shuffle(pool.slice())) { if (qs.length >= 10) break; const g = DATA.bank[qi].g; if (seenG.has(g)) continue; seenG.add(g); qs.push(qi); }
+  $('duGo').disabled = true; out.textContent = '建立對戰中…';
+  try {
+    const j = await postJ({type: 'duelnew', to, qs: qs.map(qidOf)});
+    if (!j.ok) throw new Error(j.error || '建立失敗');
+    const name = $('duTo').selectedOptions[0].textContent.replace(/^\d+ 號 /, '');
+    playDuel(j.id, qs.map(qidOf), name);
+  } catch (e) { out.textContent = '⚠️ ' + e.message; }
+  $('duGo').disabled = false;
+};
+function playDuel(id, ids, otherName){
+  const items = ids.map(qiOf).filter(x => x != null);
+  if (items.length !== ids.length) { $('duMsg').textContent = '⚠️ 題目載入失敗，請重新整理頁面'; return; }
+  $('duelModal').classList.add('hidden');
+  start(items);
+  session.duel = {id, ids, other: otherName, t0: Date.now(), fifty: (ME.petLv || 1) >= 7 ? 2 : (ME.petLv || 1) >= 3 ? 1 : 0};
+  session.rangeText = ('單字對戰｜vs ' + otherName).slice(0, 120);
+  session.kind = 'all';
+  show();
+}
+function fiftyBtn(){
+  const s = session; if (!s || !s.duel || !s.duel.fifty || s.answered) return '';
+  return `<button type="button" class="fifty" id="fiftyBtn">🐾 刪去兩個選項（剩 ${s.duel.fifty} 次）</button>`;
+}
+function useFifty(){
+  const s = session, q = DATA.bank[s.items[s.i]]; if (!s.duel || !s.duel.fifty || s.answered) return;
+  s.duel.fifty--;
+  const wrong = shuffle([...$('qOpts').querySelectorAll('.opt')].filter(b => +b.dataset.oi !== q.c)).slice(0, 2);
+  wrong.forEach(b => b.classList.add('gone'));
+  const fb = $('fiftyBtn'); if (fb) fb.remove();
+}
+async function finishDuel(s){
+  const secs = Math.round((Date.now() - s.duel.t0) / 1000);
+  const answers = s.log.map(x => [x[0], x[1]]);
+  const box = $('rCh');
+  box.textContent = '⚔️ 對戰成績送出中…';
+  try {
+    const j = await postJ({type: 'duelplay', id: s.duel.id, answers, secs});
+    if (!j.ok) throw new Error(j.error || '送出失敗');
+    if (j.done) {
+      const me = +$('seat').value;
+      box.textContent = `⚔️ vs ${s.duel.other}：你 ${j.right} 題 ${j.secs} 秒，對方 ${j.other.right} 題 ${j.other.secs} 秒・` + (j.win === 0 ? '平手！各 +10 🪙' : j.win === me ? '🏆 你贏了！+15 🪙' : '對方贏了，下次再來！+5 🪙');
+      if (j.win === me) confetti();
+    } else box.textContent = `⚔️ 已送出（答對 ${j.right} 題、${j.secs} 秒），等 ${s.duel.other} 應戰！`;
+    loadProfile();
+  } catch (e) { box.textContent = '⚠️ 對戰成績送出失敗：' + e.message; }
+}
+$('meDuel').onclick = openDuel;
+$('duClose').onclick = () => $('duelModal').classList.add('hidden');
+
 // ===================== 送禮物 =====================
 let GF = {kind: 'coin', amount: 10, item: '', names: null, sure: false};
 const isStaffSeat = s => +s >= 31 && +s < 100;
@@ -1661,6 +1824,15 @@ function nextChest(){
   const what = g => g.kind === 'item' ? '「' + g.name + '」' : ' ' + g.what + ' 枚代幣';
   $('chestNo').classList.add('hidden'); $('chestOk').textContent = '收下';
   $('chestOk').onclick = nextChest;
+  if (t.duel) {   // 自己發起的對戰有結果了
+    const d = t.duel, me = +$('seat').value;
+    $('chestPic').innerHTML = `<div style="font-size:4.5rem;line-height:1.2">${d.win === me ? '🏆' : d.win === 0 ? '🤝' : '🤺'}</div>`;
+    $('chestTitle').textContent = `⚔️ 你和 ${d.otherName} 的對戰結果出爐！`;
+    $('chestText').textContent = `你 ${d.mine} 題 ${d.mySecs} 秒 vs 對方 ${d.theirs} 題 ${d.theirSecs} 秒・` + (d.win === 0 ? '平手，各 +10 🪙' : d.win === me ? '你贏了！+15 🪙' : '對方贏了，+5 🪙 參加獎');
+    $('chestWear').classList.add('hidden'); $('chestOk').textContent = '好';
+    $('chest').classList.remove('hidden');
+    return;
+  }
   if (t.back) {   // 自己送的禮物被退回
     const g = t.back;
     $('chestPic').innerHTML = pic(g);
@@ -1935,10 +2107,10 @@ function drawBoard(){
     up: [`<th class="n">進步</th><th class="n">${PREV_ZH[boardPeriod] || '上期'}</th><th class="n">${PERIOD_ZH[boardPeriod]}</th>`, x => `<td class="n up">+${x.up}</td><td class="n">${pct(x.prevRate)}</td><td class="n">${pct(x.rate)}</td>`]
   }[boardSort];
   const empty = {right: '這段期間還沒有人交卷，搶第一名吧！', rate: `還沒有人作答滿 ${j.min ? j.min.rate : ''} 題，多做幾回就能上榜！`, up: `還沒有人比${PREV_ZH[boardPeriod] || '上期'}進步（兩段都要作答滿 ${j.min && j.min.up || ''} 題才算）。`}[boardSort];
-  const AVM = j.av || {}, avOf = seat => (window.AV && AV.items) ? AV.svg((AVM[seat] || {}).a, {size: 28}) : '';
+  const AVM = j.av || {}, avOf = seat => (window.AV && AV.items) ? AV.svg((AVM[seat] || {}).a, {size: 28, petLv: (AVM[seat] || {}).petLv}) : '';
   const lvOf = seat => AVM[seat] ? `<span class="lvs">Lv.${AVM[seat].lv}</span>` : '';
   const top3 = list.filter(x => x.rank <= 3).slice(0, 3);
-  const podium = top3.length && window.AV && AV.items ? `<div class="podium">${[top3[1], top3[0], top3[2]].filter(Boolean).map(x => `<div class="pd p${x.rank}"><span class="medal">${['🥇', '🥈', '🥉'][x.rank - 1]}</span>${AV.svg((AVM[x.seat] || {}).a, {size: x.rank === 1 ? 86 : 64})}<b>${nm(x)}</b><small>${AVM[x.seat] ? 'Lv.' + AVM[x.seat].lv + '・' : ''}${boardSort === 'right' ? '答對 ' + x.right + (x.answered != null ? '／' + x.answered + ' 題' : ' 題') : boardSort === 'rate' ? pct(x.rate) : '+' + x.up}</small></div>`).join('')}</div>` : '';
+  const podium = top3.length && window.AV && AV.items ? `<div class="podium">${[top3[1], top3[0], top3[2]].filter(Boolean).map(x => `<div class="pd p${x.rank}"><span class="medal">${['🥇', '🥈', '🥉'][x.rank - 1]}</span>${AV.svg((AVM[x.seat] || {}).a, {size: x.rank === 1 ? 86 : 64, petLv: (AVM[x.seat] || {}).petLv})}<b>${nm(x)}</b><small>${AVM[x.seat] ? 'Lv.' + AVM[x.seat].lv + '・' : ''}${boardSort === 'right' ? '答對 ' + x.right + (x.answered != null ? '／' + x.answered + ' 題' : ' 題') : boardSort === 'rate' ? pct(x.rate) : '+' + x.up}</small></div>`).join('')}</div>` : '';
   // 我自己的這段期間成績（沒上榜也看得到）
   const M = j.me && j.me.seat === me ? j.me : null;
   const myBox = M ? `<div class="mybox">${window.AV && AV.items ? AV.svg((AVM[me] || {}).a, {size: 40}) : ''}<div><b>我${PERIOD_ZH[boardPeriod] ? '（' + PERIOD_ZH[boardPeriod] + (tz ? '・' + tz : '') + '）' : ''}</b><div>作答 <b>${M.answered}</b> 題・答對 <b>${M.right}</b> 題・答對率 ${pct(M.rate)}・交卷 ${M.tests} 次</div><small>${M.rank ? `答對題數排第 ${M.rank} 名（共 ${M.total} 人）` : '這段期間還沒交卷，做一回就能上榜！'}</small></div></div>` : '';
