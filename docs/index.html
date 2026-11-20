@@ -309,8 +309,6 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .duelrow button{font:inherit;font-size:.82rem;font-weight:800;border-radius:99px;padding:4px 12px;cursor:pointer;border:1px solid var(--line);background:var(--paper)}
 .duelrow button.go{background:#c8473a;color:#fff;border:0}
 .duelhead{padding:4px 0 8px;font-size:.88rem;line-height:1.6}
-.fifty{font:inherit;font-size:.8rem;font-weight:800;border-radius:99px;border:1px solid #e0a81a;background:#fff8e1;padding:3px 10px;cursor:pointer;margin-left:6px}
-#qOpts .opt.gone{opacity:.25;pointer-events:none}
 .trapnote{background:#fff0f3;border-left:4px solid #e2445f;padding:4px 8px;border-radius:6px}
 .carenote{background:#fff8e1;border-left:4px solid #e0a81a;padding:4px 8px;border-radius:6px;font-size:.9em}
 .tbpw{margin:8px 0;padding:10px 12px;border-radius:12px;background:#fff3c4;border:2px dashed #e0a81a;font-size:.92rem;line-height:1.6}
@@ -873,7 +871,6 @@ function show(){
   const s = session, st = s.items[s.i];
   s.answered = false;
   if (s.surv) setTimeout(survStart, 0);
-  if (s.duel) setTimeout(() => { const ask = $('qAsk'); if (ask && !$('fiftyBtn') && s.duel.fifty) { ask.insertAdjacentHTML('beforeend', fiftyBtn()); const b = $('fiftyBtn'); if (b) b.onclick = useFifty; } }, 0);
   $('qGloss').classList.add('hidden');
   if (typeof st === 'object') return showCloze(st);
   const q = DATA.bank[st];
@@ -1616,7 +1613,7 @@ function drawPet(){
   const nextAcc = paccs.find(x => x.pl > lv);
   box.className = 'petbox';
   box.innerHTML = `<span>🐾 <b>${lv === 1 ? '神秘的蛋' : esc(petNameOf(pid))}</b> Lv.${lv}・${stage}・${mood[0]} ${mood[1]}<br><small class="hint">${lv === 1 ? `再 ${hi - xp} 經驗就會孵化！答對 1 題 +1` : lv >= 10 ? '已經是最高等級！' : `再 ${hi - xp} 經驗升級・答對 1 題 +1`}` +
-    `${nextAcc ? `・Lv.${nextAcc.pl} 解鎖配件「${esc(nextAcc.name)}」` : ''}・對戰時 Lv.3 起可用「刪去兩個選項」</small></span>` +
+    `${nextAcc ? `・Lv.${nextAcc.pl} 解鎖配件「${esc(nextAcc.name)}」` : ''}</small></span>` +
     `<button type="button" id="petFeed">🍖 餵食 10🪙</button><span class="pbar"><i style="width:${pct}%"></i></span>`;
   // 寵物升級：蛋孵化、解鎖配件時跳出通知（每隻寵物記住上次看到的等級）
   try {
@@ -1676,7 +1673,7 @@ async function loadDuels(draw){
 function drawDuels(){
   const j = DUEL && DUEL.list; if (!j) return;
   const st = j.stats || {n: 0, win: 0, coin: 0};
-  $('duStats').innerHTML = `戰績：${st.n} 場、贏 ${st.win} 場・從對戰拿到 🪙 ${st.coin}` + ((ME.petLv || 1) >= 3 ? `<br>🐾 你的寵物 Lv.${ME.petLv}：對戰時可以用 ${(ME.petLv || 1) >= 7 ? 2 : 1} 次「刪去兩個選項」` : '<br>🐾 寵物養到 Lv.3，對戰時可以用「刪去兩個選項」');
+  $('duStats').innerHTML = `戰績：${st.n} 場、贏 ${st.win} 場・從對戰拿到 🪙 ${st.coin}`;
   const res = d => d.mine == null || d.theirs == null ? '' : `我 ${d.mine} 題 ${d.mySecs} 秒 vs ${d.theirs} 題 ${d.theirSecs} 秒・${d.win === 0 ? '平手' : d.win === +$('seat').value ? '🏆 我贏了' : '輸了'}`;
   $('duIn').innerHTML = (j.incoming || []).map(d => `<div class="duelrow">⚔️ <b>${esc(d.otherName)}</b> 向你挑戰！<small>（對方答對 ${d.theirs} 題）</small><span class="sp"><button type="button" data-dno="${d.id}">拒絕</button><button type="button" class="go" data-dgo="${d.id}">應戰</button></span></div>`).join('') || '目前沒有';
   $('duWait').innerHTML = (j.waiting || []).map(d => `<div class="duelrow">⏳ 等 <b>${esc(d.otherName)}</b> 應戰（你答對 ${d.mine} 題）</div>`).join('') || '目前沒有';
@@ -1703,21 +1700,10 @@ function playDuel(id, ids, otherName){
   if (items.length !== ids.length) { $('duMsg').textContent = '⚠️ 題目載入失敗，請重新整理頁面'; return; }
   $('duelModal').classList.add('hidden');
   start(items);
-  session.duel = {id, ids, other: otherName, t0: Date.now(), fifty: (ME.petLv || 1) >= 7 ? 2 : (ME.petLv || 1) >= 3 ? 1 : 0};
+  session.duel = {id, ids, other: otherName, t0: Date.now()};
   session.rangeText = ('單字對戰｜vs ' + otherName).slice(0, 120);
   session.kind = 'all';
   show();
-}
-function fiftyBtn(){
-  const s = session; if (!s || !s.duel || !s.duel.fifty || s.answered) return '';
-  return `<button type="button" class="fifty" id="fiftyBtn">🐾 刪去兩個選項（剩 ${s.duel.fifty} 次）</button>`;
-}
-function useFifty(){
-  const s = session, q = DATA.bank[s.items[s.i]]; if (!s.duel || !s.duel.fifty || s.answered) return;
-  s.duel.fifty--;
-  const wrong = shuffle([...$('qOpts').querySelectorAll('.opt')].filter(b => +b.dataset.oi !== q.c)).slice(0, 2);
-  wrong.forEach(b => b.classList.add('gone'));
-  const fb = $('fiftyBtn'); if (fb) fb.remove();
 }
 async function finishDuel(s){
   const secs = Math.round((Date.now() - s.duel.t0) / 1000);
