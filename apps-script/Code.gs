@@ -1876,11 +1876,11 @@ const BOSS_PER_DAY = 3;
 // 難度設計（答對率 95% 的學生大約的勝率）：史萊姆王 97%、石像巨人 75%、暗影巫師 62%、冰霜巨龍 21%、混沌魔王 13%
 // 有限時、題型也比較難，實際勝率會再低一些
 const BOSSES = [
-  { id: 'slime', name: '史萊姆王', icon: '🟢', diff: '簡單', hp: 12, hearts: 3, sec: 15, u: [1, 10], j: ['e'], coin: 10, drop: 25, items: ['pet:crownslime', 'hold:slimewand'] },
-  { id: 'golem', name: '石像巨人', icon: '🗿', diff: '普通', hp: 18, hearts: 2, sec: 12, u: [1, 20], j: ['e', 'c'], coin: 20, drop: 30, items: ['pet:golem', 'acc:runeband'] },
-  { id: 'wizard', name: '暗影巫師', icon: '🧙', diff: '困難', hp: 25, hearts: 2, sec: 10, u: [1, 20], j: ['e', 'c', 's'], coin: 30, drop: 35, items: ['pet:shadowcat', 'hold:shadowstaff'] },
-  { id: 'icedragon', name: '冰霜巨龍', icon: '🐉', diff: '極難', hp: 30, hearts: 1, sec: 8, u: [1, 20], j: ['c', 's'], coin: 50, drop: 40, items: ['pet:icedragon', 'bg:glacier'] },
-  { id: 'chaos', name: '混沌魔王', icon: '😈', diff: '地獄', hp: 40, hearts: 1, sec: 7, u: [1, 20], j: ['e', 'c', 's'], coin: 80, drop: 50, items: ['pet:imp', 'acc:demonhorns'] }
+  { id: 'slime', name: '史萊姆王', icon: '🟢', diff: '簡單', hp: 12, hearts: 3, sec: 15, u: [1, 10], j: ['e'], coin: 10, drop: 15, items: ['pet:crownslime', 'hold:slimewand'] },
+  { id: 'golem', name: '石像巨人', icon: '🗿', diff: '普通', hp: 18, hearts: 2, sec: 12, u: [1, 20], j: ['e', 'c'], coin: 20, drop: 18, items: ['pet:golem', 'acc:runeband'] },
+  { id: 'wizard', name: '暗影巫師', icon: '🧙', diff: '困難', hp: 25, hearts: 2, sec: 10, u: [1, 20], j: ['e', 'c', 's'], coin: 30, drop: 20, items: ['pet:shadowcat', 'hold:shadowstaff'] },
+  { id: 'icedragon', name: '冰霜巨龍', icon: '🐉', diff: '極難', hp: 30, hearts: 1, sec: 8, u: [1, 20], j: ['c', 's'], coin: 50, drop: 25, items: ['pet:icedragon', 'bg:glacier'] },
+  { id: 'chaos', name: '混沌魔王', icon: '😈', diff: '地獄', hp: 40, hearts: 1, sec: 7, u: [1, 20], j: ['e', 'c', 's'], coin: 80, drop: 30, items: ['pet:imp', 'acc:demonhorns'] }
 ];
 function bossSheet_() {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
