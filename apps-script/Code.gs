@@ -355,7 +355,16 @@ function boardCore_(p) {
   // 「全部」也不算寂天（寂天有自己的排行）
   if (type === 'all') {
     const jtRows = keep(readDetail_('寂天'));
-    [clozeRows, jtRows].forEach(function (xs) { minus_(cur, agg_(xs, from, today)); if (prevFrom) minus_(prv, agg_(xs, prevFrom, prevTo)); });
+    // 逐題明細分不出哪些寂天題是生存挑戰／BOSS 戰；那些題本來就沒算進答對率，扣的時候要先排除
+    const timedRows = allRows.filter(function (r) { return timed_(r.range) && !r.redo; });
+    const jtMinus = function (a, b) {
+      const z = agg_(jtRows, a, b), t = agg_(timedRows.map(function (r) { return Object.assign({}, r, { range: '' }); }), a, b);
+      Object.keys(z).forEach(function (k) { if (t[k]) { z[k].fAns = Math.max(0, z[k].fAns - t[k].fAns); z[k].fRight = Math.max(0, z[k].fRight - t[k].fRight); } });
+      return z;
+    };
+    minus_(cur, agg_(clozeRows, from, today)); if (prevFrom) minus_(prv, agg_(clozeRows, prevFrom, prevTo));
+    minus_(cur, jtMinus(from, today)); if (prevFrom) minus_(prv, jtMinus(prevFrom, prevTo));
+    Object.keys(cur).forEach(function (k) { const c = cur[k]; c.fAns = Math.max(0, c.fAns); c.fRight = Math.max(0, Math.min(c.fRight, c.fAns)); });
     Object.keys(cur).forEach(function (k) { if (cur[k].answered <= 0) delete cur[k]; });
   }
   const list = Object.keys(cur).map(function (k) { return cur[k]; });
@@ -501,11 +510,13 @@ function agg_(rows, from, to) {
     if (r.d < from || r.d > to) return;
     const s = st[r.seat] || (st[r.seat] = { seat: r.seat, name: '', right: 0, answered: 0, tests: 0, fRight: 0, fAns: 0, days: {} });
     s.name = r.name; s.right += r.right; s.answered += r.answered; s.tests++; s.days[r.d] = 1;
-    if (!r.redo && (!r.range || r.range.indexOf('生存挑戰') !== 0)) { s.fRight += r.right; s.fAns += r.answered; }   // 答對率不算錯題重做和生存挑戰
+    if (!r.redo && !timed_(r.range)) { s.fRight += r.right; s.fAns += r.answered; }   // 答對率不算錯題重做、生存挑戰和 BOSS 戰
   });
   return st;
 }
 
+// 生存挑戰、BOSS 戰：限時、而且一定會答錯到結束，所以不算進答對率
+function timed_(range) { range = String(range || ''); return range.indexOf('生存挑戰') === 0 || range.indexOf('BOSS 戰') === 0; }
 function minus_(st, cz) {
   Object.keys(cz).forEach(function (k) {
     const s = st[k], c = cz[k];
@@ -824,7 +835,7 @@ function champsAll_(rows, clozeRows, today, keyOf) {
 function improveEver_(rows, today) {
   const byWeek = {};
   rows.forEach(function (r) {
-    if (r.redo || r.range.indexOf('生存挑戰') === 0) return;
+    if (r.redo || timed_(r.range)) return;
     const w = weekStart_(r.d);
     const s = byWeek[r.seat] = byWeek[r.seat] || {};
     const o = s[w] = s[w] || { fa: 0, fr: 0 };
