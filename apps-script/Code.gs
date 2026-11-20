@@ -32,6 +32,8 @@ function doPost(e) {
     if (body.type === 'avatar') return out_(saveAvatar_(seat, body.avatar));
     if (body.type === 'buy') return out_(buy_(seat, String(body.cat || ''), String(body.id || '')));
     if (body.type === 'show') return out_(saveShow_(seat, body.show));
+    if (body.type === 'gift') return out_(gift_(seat, body));
+    if (body.type === 'inbox') return out_(inbox_(seat));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -115,6 +117,7 @@ function doGet(e) {
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
   if (p.action === 'profile') return out_(profile_(p.seat));
   if (p.action === 'daily') return out_(dailyFor_(p.seat));
+  if (p.action === 'names') return out_(names_());
   if (p.action === 'parent') return out_(parent_(p.key, p.seat));
   if (p.action === 'who') { const ws = parseInt(p.seat, 10), wn = roster_()[ws]; return out_({ ok: true, given: wn ? givenName(wn) : '' }); }
   if (p.action === 'login') {
@@ -278,7 +281,7 @@ function dailyFor_(seat) {
 }
 function badgesC_() { return cached_('badges|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, badges_); }
 function ver_() { return CacheService.getScriptCache().get('ver') || '0'; }
-function bump_() { CacheService.getScriptCache().put('ver', String(Date.now()), 21600); }
+function bump_() { CacheService.getScriptCache().put('ver', Date.now() + '.' + Math.floor(Math.random() * 1e6), 21600); }
 function cached_(name, sec, fn) {
   const cache = CacheService.getScriptCache(), k = name + '|' + ver_(), hit = cache.get(k);
   if (hit) return JSON.parse(hit);
@@ -679,7 +682,10 @@ const BADGE_DEFS = [
   { id: 'win4', icon: '🏆', name: '常勝之班', desc: '幫自己的班贏得 4 次週對抗' },
   { id: 'win10', icon: '🏯', name: '王者之班', desc: '幫自己的班贏得 10 次週對抗' },
   { id: 'mvp1', icon: '🌟', name: '班級 MVP', desc: '某一週答對題數是全班第一' },
-  { id: 'mvp4', icon: '💫', name: 'MVP 常客', desc: '當 4 次班級 MVP' }
+  { id: 'mvp4', icon: '💫', name: 'MVP 常客', desc: '當 4 次班級 MVP' },
+  { id: 'gift1', icon: '🎁', name: '送禮新手', desc: '送出第一份禮物' },
+  { id: 'gift10', icon: '💝', name: '慷慨大方', desc: '送出 10 份禮物' },
+  { id: 'friends5', icon: '🤗', name: '好人緣', desc: '收到 5 位不同同學的禮物' }
 ];
 // 徽章分類與等級（1 銅、2 銀、3 金、4 鑽石）：同一系列越後面越難
 const BADGE_SERIES = [
@@ -692,7 +698,8 @@ const BADGE_SERIES = [
   ['探索', '🗺️', [['cover50', 'cover100', 'cover183']]],
   ['挑戰', '💀', [['quest1', 'quest7', 'quest30', 'quest60', 'quest100'], ['surv20', 'surv50', 'surv100', 'surv150']]],
   ['班級', '⚔️', [['goal1', 'goal4', 'goal10'], ['win1', 'win4', 'win10'], ['mvp1', 'mvp4'], ['week', 'month']]],
-  ['收藏', '🛍️', [['shop5', 'shop15']]]
+  ['收藏', '🛍️', [['shop5', 'shop15']]],
+  ['友誼', '🎁', [['gift1', 'gift10'], ['friends5']]]
 ];
 (function () {
   const meta = {};
@@ -820,6 +827,8 @@ function badges_() {
   } catch (e) {}
   let dper = {};
   try { dper = dailyC_().per || {}; } catch (e) {}
+  let GT = {};
+  try { GT = giftTotals_(); } catch (e) {}
   const KINDS4 = ['單字', '動詞變化', '介系詞', '克漏字'];
   const out = {}, firstN = {};
   Object.keys(first).forEach(function (d) { const k = first[d].seat; firstN[k] = (firstN[k] || 0) + 1; });
@@ -896,6 +905,10 @@ function badges_() {
     if ((bought[seat] || 0) >= 15) ids.push('shop15');
     [[1, 'win1'], [4, 'win4'], [10, 'win10']].forEach(function (x) { if ((dp.wins || 0) >= x[0]) ids.push(x[1]); });
     [[1, 'mvp1'], [4, 'mvp4']].forEach(function (x) { if ((dp.mvp || 0) >= x[0]) ids.push(x[1]); });
+    const gt = GT[seat] || { sent: 0, from: {} };
+    if (gt.sent >= 1) ids.push('gift1');
+    if (gt.sent >= 10) ids.push('gift10');
+    if (Object.keys(gt.from).filter(function (k) { return +k !== +seat; }).length >= 5) ids.push('friends5');
     if (ids.length) out[seat] = ids;
   });
   return { ok: true, defs: BADGE_DEFS, cats: BADGE_CATS, badges: out, today: today };
@@ -1340,6 +1353,7 @@ function profiles_() {
     try { show[k] = JSON.parse(String(r[5] || '[]')); } catch (e) { show[k] = []; }
   });
   const CR = L.coin || { right: 1, quiz: 20, badge: 20 };
+  const G = giftTotals_();
   const res = {};
   Object.keys(roster_()).concat(Object.keys(out)).forEach(function (k) {
     k = parseInt(k, 10); if (!k || k === 30 || res[k]) return;
@@ -1358,8 +1372,11 @@ function profiles_() {
     [['一字多義', 50, 'sense50'], ['片語', 50, 'phrase50'], ['會考文法', 30, 'cap30']].forEach(function (x) { if (dk[x[0]] && dk[x[0]].right >= x[1]) tr.push(x[2]); });
     const dp = dper[k] || {};
     const earn = o.right * CR.right + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge + (dp.qcoin || 0) + (dp.scoin || 0) + (dp.gcoin || 0) + (dp.bcoin || 0);
+    const g = G[k] || { recv: 0, cost: 0, items: [] };
+    const owned = (own[k] || []).concat(g.items.filter(function (x) { return (own[k] || []).indexOf(x) < 0; }));
     res[k] = { xp: xp, lv: lv, right: o.right, quiz: o.quiz, days: days, a: av[k] || null, tr: tr,
-      own: own[k] || [], earn: earn, coin: Math.max(0, earn - (spent[k] || 0)),
+      own: owned, earn: earn, spent: spent[k] || 0, giftIn: g.recv, giftOut: g.cost,
+      coin: Math.max(0, earn + g.recv - g.cost - (spent[k] || 0)),
       show: (show[k] || []).filter(function (id) { return (bd[k] || []).indexOf(id) >= 0; }) };
   });
   try { cache.put(pk, JSON.stringify(res), 600); } catch (e) {}
@@ -1411,6 +1428,91 @@ function saveShow_(seat, ids) {
   bump_();
   return { ok: true, show: clean };
 }
+// ===================== 送禮物 =====================
+// 「禮物」分頁：時間 | 送禮座號 | 收禮座號 | 類型（coin／item） | 內容（代幣數或 分類:商品） | 祝福語 | 花費 | 開啟時間
+// 規則：不能送自己；學生每天最多送 3 份、代幣一次 10–50 枚；商品＝幫對方買商店的東西（自己付錢）。
+//       老師帳號（31 號以後）送代幣不扣自己的錢，一次最多 200 枚，可以當作獎勵。
+const GIFT_NAME = '禮物';
+const GIFT_MSGS = ['加油！一起背單字 💪', '謝謝你幫我 🙏', '恭喜過關 🎉', '你超強 👍', '一起拚段考 📚', '生日快樂 🎂', '早安！今天也要努力 ☀️', '老師給你的獎勵 🏅'];
+function giftSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName(GIFT_NAME);
+  if (!sh) { sh = ss.insertSheet(GIFT_NAME); sh.getRange(1, 1, 1, 8).setValues([['時間', '送禮座號', '收禮座號', '類型', '內容', '祝福語', '花費', '開啟時間']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function giftRows_() {
+  const sh = giftSheet_(), n = sh.getLastRow() - 1;
+  if (n <= 0) return [];
+  return sh.getRange(2, 1, n, 8).getValues().map(function (r, i) {
+    return { row: i + 2, at: r[0] instanceof Date ? Utilities.formatDate(r[0], 'Asia/Taipei', 'yyyy-MM-dd HH:mm') : String(r[0]),
+      from: parseInt(r[1], 10), to: parseInt(r[2], 10), kind: String(r[3]), what: String(r[4]), msg: String(r[5]), cost: Number(r[6]) || 0, opened: !!r[7] };
+  });
+}
+// 每個人：收到的代幣、送禮花掉的代幣、收到的商品
+function giftTotals_() {
+  const t = {}, T = function (k) { return t[k] = t[k] || { recv: 0, cost: 0, items: [], sent: 0, from: {} }; };
+  giftRows_().forEach(function (g) {
+    if (g.kind === 'coin') T(g.to).recv += Number(g.what) || 0;
+    if (g.kind === 'item') T(g.to).items.push(g.what);
+    T(g.from).cost += g.cost; T(g.from).sent++;
+    T(g.to).from[g.from] = 1;
+  });
+  return t;
+}
+const isStaff_ = function (seat) { return seat >= 31 && seat < 100; };
+function names_() {
+  const ro = roster_(), out = [];
+  Object.keys(ro).forEach(function (k) { if (+k !== 30) out.push({ seat: +k, given: givenName(ro[k]), cls: classOf_(+k) || '老師' }); });
+  return { ok: true, names: out.sort(function (a, b) { return a.seat - b.seat; }), msgs: GIFT_MSGS };
+}
+function gift_(seat, b) {
+  const to = parseInt(b.to, 10), staff = isStaff_(seat);
+  const ro = roster_();
+  if (!to || !ro[to] || to === 30) return { ok: false, error: '找不到收禮的同學' };
+  if (to === seat) return { ok: false, error: '不能送給自己喔' };
+  const msg = GIFT_MSGS[parseInt(b.msg, 10)] || GIFT_MSGS[0];
+  if (!staff && msg === '老師給你的獎勵 🏅') return { ok: false, error: '這句只有老師能用' };
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
+    const sentToday = giftRows_().filter(function (g) { return g.from === seat && g.at.slice(0, 10) === today; }).length;
+    if (!staff && sentToday >= 3) return { ok: false, error: '今天已經送了 3 份禮物，明天再送吧！' };
+    bump_();
+    const P = profiles_(), me = P[seat] || { coin: 0, own: [] }, you = P[to] || { own: [] };
+    let kind, what, cost;
+    if (b.kind === 'item') {
+      const items = avItems_(), c = items.cats.filter(function (x) { return x.key === b.cat; })[0];
+      const it = c && c.items.filter(function (x) { return x.id === b.id; })[0];
+      if (!it || it.s == null) return { ok: false, error: '這個商品不能送' };
+      what = c.key + ':' + it.id;
+      if ((you.own || []).indexOf(what) >= 0) return { ok: false, error: '對方已經有這個了，換一個吧！' };
+      kind = 'item'; cost = it.s;
+    } else {
+      const n = parseInt(b.amount, 10);
+      const max = staff ? 200 : 50, min = staff ? 1 : 10;
+      if (!(n >= min && n <= max)) return { ok: false, error: '代幣一次可以送 ' + min + '–' + max + ' 枚' };
+      kind = 'coin'; what = String(n); cost = staff ? 0 : n;
+    }
+    if (cost > (me.coin || 0)) return { ok: false, error: '代幣不夠，還差 ' + (cost - (me.coin || 0)) + ' 枚' };
+    giftSheet_().appendRow([new Date(), seat, to, kind, what, msg, cost, '']);
+    bump_();
+    return { ok: true, coin: (me.coin || 0) - cost, left: staff ? null : 2 - sentToday };
+  } finally { lock.releaseLock(); }
+}
+// 收禮：回傳還沒打開的禮物並標記已開啟；也回傳最近送出的禮物
+function inbox_(seat) {
+  const rows = giftRows_(), ro = roster_(), sh = giftSheet_(), now = new Date();
+  const nm = function (k) { return ro[k] ? givenName(ro[k]) : k + ' 號'; };
+  const items = avItems_(), label = function (w) { const p = w.split(':'), c = items.cats.filter(function (x) { return x.key === p[0]; })[0], it = c && c.items.filter(function (x) { return x.id === p[1]; })[0]; return it ? it.name : w; };
+  const fresh = rows.filter(function (g) { return g.to === seat && !g.opened; });
+  fresh.forEach(function (g) { sh.getRange(g.row, 8).setValue(now); });
+  const fmt = function (g) { return { at: g.at, from: g.from, fromName: nm(g.from), to: g.to, toName: nm(g.to), kind: g.kind, what: g.what, name: g.kind === 'item' ? label(g.what) : '', msg: g.msg }; };
+  return { ok: true, fresh: fresh.map(fmt),
+    recv: rows.filter(function (g) { return g.to === seat; }).slice(-10).reverse().map(fmt),
+    sent: rows.filter(function (g) { return g.from === seat; }).slice(-10).reverse().map(fmt) };
+}
+
 // 商店：用代幣買造型（代幣＝答對題數＋小考過關＋徽章，扣掉已經花掉的）
 function buy_(seat, cat, id) {
   const items = avItems_(), c = items.cats.filter(function (x) { return x.key === cat; })[0];
@@ -1429,7 +1531,7 @@ function buy_(seat, cat, id) {
     const sh = avSheet_(), n = sh.getLastRow() - 1;
     let row = 0;
     if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (r, i) { if (parseInt(r[0], 10) === seat) row = i + 2; });
-    const spent = p.earn - p.coin + it.s;
+    const spent = (p.spent || 0) + it.s;
     if (row) sh.getRange(row, 4, 1, 2).setValues([[JSON.stringify(own), spent]]);
     else sh.appendRow([seat, JSON.stringify(p.a || items.default), '', JSON.stringify(own), spent]);
     bump_();
