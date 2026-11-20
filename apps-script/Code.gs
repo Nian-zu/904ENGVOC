@@ -183,12 +183,10 @@ function daily_() {
   });
   // 作答明細：每人每天各題型答對數（克漏字、寂天、動詞變化）
   const dkBy = {};
-  detailValues_().forEach(function (r) {
-    const seat = parseInt(r[1], 10); if (!seat || seat === 30) return;
-    const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).slice(0, 10);
-    if (d < QUEST_START || Number(r[7]) !== 1) return;
-    const m = dkBy[seat + '|' + d] = dkBy[seat + '|' + d] || {};
-    m[String(r[6])] = (m[String(r[6])] || 0) + 1;
+  digestRows_().forEach(function (r) {
+    if (r.d < QUEST_START || !r.right) return;
+    const m = dkBy[r.seat + '|' + r.d] = dkBy[r.seat + '|' + r.d] || {};
+    m[r.kind] = (m[r.kind] || 0) + r.right;
   });
   const per = {};
   const P = function (seat) { return per[seat] = per[seat] || { qcoin: 0, clear: 0, scoin: 0, streak: 0, gcoin: 0, goals: 0, survBest: 0, survWeek: 0, today: null }; };
@@ -280,7 +278,7 @@ function daily_() {
     week: CLASSES.reduce(function (o, c) { const cw = c + '|' + thisW; o[c] = { from: thisW, total: wk[cw] || 0, goal: goalOf(cw), mine: wkSeat[cw] || {} }; return o; }, {}),
     survTop: survTop, battle: battle, per: per };
 }
-function dailyC_() { return cachedSoft_('daily2|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, 60, daily_); }
+function dailyC_() { return cachedSoft_('daily2|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 21600, 60, daily_); }
 function dailyFor_(seat) {
   const D = dailyC_(), s = parseInt(seat, 10), p = D.per[s] || { today: [0, 0, 0], streak: 0, survBest: 0, survWeek: 0 };
   return { ok: true, today: D.today, quests: D.quests.map(function (q, i) { return Object.assign({ val: (p.today || [])[i] || 0 }, q); }), clear: D.clear,
@@ -290,7 +288,7 @@ function dailyFor_(seat) {
     battle: D.battle || null, wins: p.wins || 0, mvp: p.mvp || 0,
     coins: { quest: p.qcoin || 0, streak: p.scoin || 0, goal: p.gcoin || 0, battle: p.bcoin || 0 }, clearDays: p.clear || 0 };
 }
-function badgesC_() { return cachedSoft_('badges2|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, 90, badges_); }
+function badgesC_() { return cachedSoft_('badges2|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 21600, 90, badges_); }
 function ver_() { return CacheService.getScriptCache().get('ver') || '0'; }
 function bump_() { CacheService.getScriptCache().put('ver', Date.now() + '.' + Math.floor(Math.random() * 1e6), 21600); }
 // 排行榜這類「大家都在看、晚一分鐘也沒關係」的資料：有人交卷後，舊結果最多再用 stale 秒才重算，
@@ -320,7 +318,7 @@ function boardCached_(p) {
   const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
   const type = /^[a-z]{2,6}$/.test(String(p.type || '')) ? p.type : 'all';
   const cls = CLASSES.indexOf(p.cls) >= 0 ? p.cls : '';
-  const r = cachedSoft_('bd2|' + period + '|' + type + '|' + cls + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 600, 60, function () { return boardCore_({ period: period, type: type, cls: cls }); });
+  const r = cachedSoft_('bd2|' + period + '|' + type + '|' + cls + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 21600, 60, function () { return boardCore_({ period: period, type: type, cls: cls }); });
   const all = r.mineAll || {};
   delete r.mineAll;
   r.me = null;
@@ -437,19 +435,60 @@ function detailValues_() {
   DETAIL_VALUES_ = !sh || sh.getLastRow() < 2 ? [] : sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues();
   return DETAIL_VALUES_;
 }
-function readDetail_(kindZh) {
-  const tz = 'Asia/Taipei';
-  const out = [], by = {};
-  detailValues_().forEach(function (r) { // A:K
-    const seat = parseInt(r[1], 10);
-    if (!seat || seat === 30 || String(r[6]) !== kindZh) return;
-    const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).slice(0, 10);
-    const k = seat + '|' + String(r[10]);
-    let t = by[k];
-    if (!t) { t = by[k] = { d: d, seat: seat, name: roster_()[seat] || String(r[2]), redo: Number(r[9]) === 1, answered: 0, right: 0 }; out.push(t); }
-    t.answered++; t.right += Number(r[7]) === 1 ? 1 : 0;
+// ===== 作答明細摘要（加速）=====
+// 「作答明細」每答一題就多一列，幾萬列每次整張讀要好幾秒、而且越來越慢。
+// 改成把它濃縮成「每人每次交卷每種題型：日期、是否錯題重做、作答數、答對數」＋「每人練過哪些天數／單元」，
+// 存在快取；之後每次只讀新增的那幾列（舊的資料不會變），所以排行榜、徽章、每日挑戰都不用再整張讀。
+let DIGEST_ = null;
+function digest_() {
+  if (DIGEST_) return DIGEST_;
+  const cache = CacheService.getScriptCache(), tz = 'Asia/Taipei';
+  let dg = null;
+  try {
+    const meta = JSON.parse(cache.get('dg3|meta') || 'null');
+    if (meta && meta.n) {
+      const keys = []; for (let i = 0; i < meta.n; i++) keys.push('dg3|' + i);
+      const got = cache.getAll(keys);
+      if (keys.every(function (k) { return got[k] != null; })) dg = JSON.parse(keys.map(function (k) { return got[k]; }).join(''));
+    }
+  } catch (e) { dg = null; }
+  const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
+  const lastRow = sh ? sh.getLastRow() : 1;
+  if (!dg || dg.last > lastRow) dg = { last: 1, S: {}, U: {} };   // 第一次、或有人刪了列 → 從頭建
+  if (lastRow > dg.last) {
+    sh.getRange(dg.last + 1, 1, lastRow - dg.last, 11).getValues().forEach(function (r) {
+      const seat = parseInt(r[1], 10); if (!seat || seat === 30) return;
+      const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).replace(/^'/, '').slice(0, 10);
+      const k = seat + '|' + String(r[10]) + '|' + String(r[6]);
+      const t = dg.S[k] = dg.S[k] || [d, Number(r[9]) === 1 ? 1 : 0, 0, 0];
+      t[2]++; if (Number(r[7]) === 1) t[3]++;
+      const u = String(r[3]);
+      if (/^[DU]\d+$/.test(u)) { const us = dg.U[seat] = dg.U[seat] || ''; if ((',' + us + ',').indexOf(',' + u + ',') < 0) dg.U[seat] = us ? us + ',' + u : u; }
+    });
+    dg.last = lastRow;
+    try {
+      const t = JSON.stringify(dg), parts = {}, N = 90000, n = Math.ceil(t.length / N);
+      for (let i = 0; i < n; i++) parts['dg3|' + i] = t.slice(i * N, (i + 1) * N);
+      parts['dg3|meta'] = JSON.stringify({ n: n, last: dg.last });
+      cache.putAll(parts, 21600);
+    } catch (e) {}
+  }
+  DIGEST_ = dg;
+  return dg;
+}
+// 摘要逐筆：{seat, stamp, kind, d, redo, answered, right}
+function digestRows_() {
+  const dg = digest_();
+  return Object.keys(dg.S).map(function (k) {
+    const p = k.split('|'), v = dg.S[k];
+    return { seat: +p[0], stamp: p[1], kind: p.slice(2).join('|'), d: v[0], redo: v[1] === 1, answered: v[2], right: v[3] };
   });
-  return out;
+}
+function readDetail_(kindZh) {
+  const ro = roster_();
+  return digestRows_().filter(function (r) { return r.kind === kindZh; }).map(function (r) {
+    return { d: r.d, seat: r.seat, name: ro[r.seat] || '', redo: r.redo, answered: r.answered, right: r.right };
+  });
 }
 
 function agg_(rows, from, to) {
@@ -751,12 +790,11 @@ const BADGE_CATS = BADGE_SERIES.map(function (g) { return { name: g[0], icon: g[
 // 「作答明細」各題型統計（不含錯題重做）
 function detailStats_() {
   const out = {};
-  detailValues_().forEach(function (r) {
-    const seat = parseInt(r[1], 10);
-    if (!seat || seat === 30 || Number(r[9]) === 1) return;
-    const s = out[seat] = out[seat] || {};
-    const o = s[String(r[6])] = s[String(r[6])] || { ans: 0, right: 0 };
-    o.ans++; o.right += Number(r[7]) === 1 ? 1 : 0;
+  digestRows_().forEach(function (r) {
+    if (r.redo) return;
+    const s = out[r.seat] = out[r.seat] || {};
+    const o = s[r.kind] = s[r.kind] || { ans: 0, right: 0 };
+    o.ans += r.answered; o.right += r.right;
   });
   return out;
 }
@@ -841,11 +879,10 @@ function badges_() {
   const imp = improveEver_(rows, today);
   const det = detailStats_();
   // 練過哪些天數／單元（作答明細 D 欄：D183、U12）
-  const cover = {};
-  detailValues_().forEach(function (r) {
-    const seat = parseInt(r[1], 10); if (!seat || seat === 30) return;
-    const u = String(r[3]), c = cover[seat] = cover[seat] || { D: {}, U: {} };
-    if (/^D\d+$/.test(u)) c.D[u] = 1; else if (/^U\d+$/.test(u)) c.U[u] = 1;
+  const cover = {}, DU = digest_().U;
+  Object.keys(DU).forEach(function (seat) {
+    const c = cover[seat] = { D: {}, U: {} };
+    DU[seat].split(',').forEach(function (u) { if (/^D\d+$/.test(u)) c.D[u] = 1; else if (/^U\d+$/.test(u)) c.U[u] = 1; });
   });
   // 商店買了幾件（造型分頁 D 欄）
   const bought = {};
