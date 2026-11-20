@@ -1,0 +1,842 @@
+[
+ {
+  "v": "fly",
+  "stem": "Look! The children ＿＿ kites in the park.",
+  "o": [
+   "are flying",
+   "were flying",
+   "are flown",
+   "have flown"
+  ],
+  "c": 0,
+  "zh": "你看！孩子們正在公園裡放風箏。",
+  "why": "Look! 表示「現在」正在發生 → 現在進行式 are＋V-ing。were flying 是過去；are flown 是被動（孩子不會被放）；have flown 是完成式，不能配 Look!。",
+  "trap": "選 be＋V-ing 之前，還要看 be 動詞是現在（am/is/are）還是過去（was/were）！"
+ },
+ {
+  "v": "have",
+  "stem": "At eight last night, my family ＿＿ dinner together.",
+  "o": [
+   "was having",
+   "is having",
+   "has had",
+   "was had"
+  ],
+  "c": 0,
+  "zh": "昨晚八點，我們家正一起吃晚餐。",
+  "why": "at eight last night 是「過去某個時間點正在做」→ 過去進行式 was＋V-ing。is having 是現在；has had 是完成式；was had 是被動（家人不會被吃）。",
+  "trap": "看到 having 不一定配 is：時間是 last night，be 動詞要用過去式。"
+ },
+ {
+  "v": "talk",
+  "stem": "When the teacher walked in, the students ＿＿ loudly.",
+  "o": [
+   "were talking",
+   "are talking",
+   "have talked",
+   "were talked"
+  ],
+  "c": 0,
+  "zh": "老師走進來的時候，學生們正大聲講話。",
+  "why": "老師進來（過去）那一刻，學生「正在」講話 → 過去進行式 were＋V-ing。are talking 時態錯；have talked 是完成式；were talked 是被動，意思不通。",
+  "trap": "when＋過去式，另一邊常是「當時正在做」：were/was＋V-ing。"
+ },
+ {
+  "v": "play",
+  "stem": "Listen! Someone ＿＿ the piano upstairs.",
+  "o": [
+   "is playing",
+   "was playing",
+   "is played",
+   "has played"
+  ],
+  "c": 0,
+  "zh": "你聽！樓上有人在彈鋼琴。",
+  "why": "Listen! 表示現在正在發生 → is＋V-ing。was playing 是過去；is played 是被動（主詞 someone 是彈琴的人）；has played 是完成式。",
+  "trap": "同一個動詞，be 動詞的時態和後面的形式要「兩個都對」才算對。"
+ },
+ {
+  "v": "take",
+  "stem": "I ＿＿ a shower when you called me yesterday.",
+  "o": [
+   "was taking",
+   "am taking",
+   "was taken",
+   "have taken"
+  ],
+  "c": 0,
+  "zh": "你昨天打電話給我的時候，我正在洗澡。",
+  "why": "yesterday 你打來的那一刻，我「正在」洗澡 → was＋V-ing。am taking 是現在；was taken 是被動（我不會被洗）；have taken 是完成式。",
+  "trap": "看到 yesterday 就想選過去式？過去「正在做」要用 was/were＋V-ing。"
+ },
+ {
+  "v": "sleep",
+  "stem": "Be quiet! The baby ＿＿ in the next room.",
+  "o": [
+   "is sleeping",
+   "was sleeping",
+   "is slept",
+   "has slept"
+  ],
+  "c": 0,
+  "zh": "安靜！寶寶在隔壁房間睡覺。",
+  "why": "Be quiet! 是因為寶寶「現在」正在睡 → is＋V-ing。was sleeping 是過去；is slept 是被動；has slept 是完成式。",
+  "trap": "提示字是 Be quiet!（現在），不是過去的時間。"
+ },
+ {
+  "v": "do",
+  "stem": "What ＿＿ you doing at this time yesterday?",
+  "o": [
+   "were",
+   "are",
+   "did",
+   "have"
+  ],
+  "c": 0,
+  "zh": "你昨天這個時候在做什麼？",
+  "why": "doing 前面要 be 動詞；at this time yesterday 是過去 → were。are 是現在；did、have 後面不能接 doing。",
+  "trap": "看到 doing 不一定配 are！先看時間：yesterday → were/was。"
+ },
+ {
+  "v": "rain",
+  "stem": "It ＿＿ hard when I left home this morning, so I took an umbrella.",
+  "o": [
+   "was raining",
+   "is raining",
+   "has rained",
+   "was rained"
+  ],
+  "c": 0,
+  "zh": "今天早上我出門的時候雨下得很大，所以我帶了傘。",
+  "why": "我出門（過去）時「正在」下雨 → was＋V-ing。is raining 是現在；has rained 是完成式；rain 不能用被動。",
+  "trap": "this morning 已經過去了（I left、I took），所以 be 動詞用過去式。"
+ },
+ {
+  "v": "cook",
+  "stem": "Mom ＿＿ in the kitchen right now. She's making soup.",
+  "o": [
+   "is cooking",
+   "was cooking",
+   "has cooked",
+   "is cooked"
+  ],
+  "c": 0,
+  "zh": "媽媽現在正在廚房煮飯，她在煮湯。",
+  "why": "right now → 現在進行式 is＋V-ing。was cooking 是過去；has cooked 是完成式；is cooked 是被動（媽媽不會被煮）。",
+  "trap": "是 is 還是 was？看 right now。"
+ },
+ {
+  "v": "play",
+  "stem": "They ＿＿ basketball from three to five yesterday afternoon.",
+  "o": [
+   "were playing",
+   "are playing",
+   "have played",
+   "were played"
+  ],
+  "c": 0,
+  "zh": "他們昨天下午三點到五點在打籃球。",
+  "why": "昨天下午那段時間「一直在做」→ 過去進行式 were＋V-ing。are playing 是現在；have played 不能配 yesterday；were played 是被動。",
+  "trap": "yesterday 不能配完成式 have＋p.p.。"
+ },
+ {
+  "v": "build",
+  "stem": "This bridge ＿＿ more than one hundred years ago.",
+  "o": [
+   "was built",
+   "is built",
+   "has built",
+   "was building"
+  ],
+  "c": 0,
+  "zh": "這座橋是一百多年前建造的。",
+  "why": "橋是「被」建造 → 被動 be＋p.p.；ago 是過去 → was built。is built 時態錯；has built 是主動完成式；was building 是主動進行式（橋不會自己蓋）。",
+  "trap": "被動也有時態：現在 is＋p.p.、過去 was＋p.p.、未來 will be＋p.p.。"
+ },
+ {
+  "v": "clean",
+  "stem": "These days, our classroom ＿＿ by the students every afternoon.",
+  "o": [
+   "is cleaned",
+   "was cleaned",
+   "is cleaning",
+   "has cleaned"
+  ],
+  "c": 0,
+  "zh": "最近我們教室每天下午由學生打掃。",
+  "why": "教室是「被」打掃（by the students）→ 被動；These days、every afternoon 是現在的習慣 → is cleaned。was cleaned 是過去；is cleaning、has cleaned 都是主動。",
+  "trap": "先判斷主動／被動，再判斷時態，兩關都要過。"
+ },
+ {
+  "v": "announce",
+  "stem": "The winners ＿＿ at the end of the contest tomorrow.",
+  "o": [
+   "will be announced",
+   "were announced",
+   "will announce",
+   "have announced"
+  ],
+  "c": 0,
+  "zh": "得獎者明天會在比賽結束時公布。",
+  "why": "得獎者是「被」公布的 → 被動；tomorrow 是未來 → will be＋p.p.。were announced 時態錯；will announce、have announced 是主動。",
+  "trap": "未來的被動要寫 will be＋p.p.，不是 will＋p.p.。"
+ },
+ {
+  "v": "steal",
+  "stem": "My bike ＿＿ last night, so I walked to school today.",
+  "o": [
+   "was stolen",
+   "is stolen",
+   "stole",
+   "was stealing"
+  ],
+  "c": 0,
+  "zh": "我的腳踏車昨晚被偷了，所以我今天走路上學。",
+  "why": "腳踏車是「被」偷 → 被動；last night 是過去 → was stolen。is stolen 時態錯；stole、was stealing 都是主動（腳踏車不會偷東西）。",
+  "trap": "主詞是東西時，先想：它是做動作，還是被做？"
+ },
+ {
+  "v": "knock",
+  "stem": "Many trees ＿＿ down by the strong wind last week.",
+  "o": [
+   "were knocked",
+   "are knocked",
+   "knocked",
+   "were knocking"
+  ],
+  "c": 0,
+  "zh": "上週很多樹被強風吹倒了。",
+  "why": "樹是「被」風吹倒（by the strong wind）→ 被動；last week → were knocked。are knocked 時態錯；knocked、were knocking 是主動。",
+  "trap": "看到 by＋做動作的人或東西，常是被動的線索。"
+ },
+ {
+  "v": "speak",
+  "stem": "English ＿＿ in Singapore today.",
+  "o": [
+   "is spoken",
+   "was spoken",
+   "speaks",
+   "has spoken"
+  ],
+  "c": 0,
+  "zh": "現在新加坡說英語。",
+  "why": "英語是「被」說的 → 被動；today 是現在 → is spoken。was spoken 時態錯；speaks、has spoken 是主動。",
+  "trap": "被動的 be 動詞也要配合時間：today → is。"
+ },
+ {
+  "v": "make",
+  "stem": "The cake ＿＿ by my sister yesterday. It was delicious.",
+  "o": [
+   "was made",
+   "is made",
+   "made",
+   "was making"
+  ],
+  "c": 0,
+  "zh": "這個蛋糕是我姊姊昨天做的，很好吃。",
+  "why": "蛋糕是「被」做的（by my sister）→ 被動；yesterday → was made。is made 時態錯；made、was making 是主動（蛋糕不會做東西）。",
+  "trap": "只有 made 一個字不夠：被動一定要有 be 動詞。"
+ },
+ {
+  "v": "have",
+  "stem": "Mr. Lee ＿＿ breakfast at seven every morning.",
+  "o": [
+   "has",
+   "has had",
+   "is having",
+   "had"
+  ],
+  "c": 0,
+  "zh": "李先生每天早上七點吃早餐。",
+  "why": "這裡的 has 是「吃」的意思，every morning 是現在的習慣 → 現在簡單式 has。has had 是完成式；is having 是正在吃；had 是過去。",
+  "trap": "has 不一定是完成式的助動詞！has breakfast 的 has 是「吃」。"
+ },
+ {
+  "v": "have",
+  "stem": "Mr. Lee has already ＿＿ breakfast, so he isn't hungry.",
+  "o": [
+   "had",
+   "has",
+   "having",
+   "have"
+  ],
+  "c": 0,
+  "zh": "李先生已經吃過早餐了，所以他不餓。",
+  "why": "has already＋p.p. 是現在完成式，「吃」have 的 p.p. 是 had → has had breakfast。has has、has having、has have 都不對。",
+  "trap": "has had 不是寫錯！第一個 has 是助動詞，第二個 had 是「吃」的 p.p.。"
+ },
+ {
+  "v": "have",
+  "stem": "My sister ＿＿ long hair when she was a child.",
+  "o": [
+   "had",
+   "has",
+   "has had",
+   "is having"
+  ],
+  "c": 0,
+  "zh": "我姊姊小時候留長髮。",
+  "why": "這裡的 have 是「有」；when she was a child 是過去 → had。has 是現在；has had 是完成式；is having 不能表示「擁有」。",
+  "trap": "have/has/had 可以當一般動詞（有、吃），時態照樣要看時間。"
+ },
+ {
+  "v": "have",
+  "stem": "Tom ＿＿ a bad cold since last Monday.",
+  "o": [
+   "has had",
+   "has",
+   "had",
+   "is having"
+  ],
+  "c": 0,
+  "zh": "Tom 從上週一就一直感冒到現在。",
+  "why": "since last Monday 表示從過去持續到現在 → 現在完成式 has＋p.p.，have 的 p.p. 是 had → has had。has 是現在簡單式；had 是過去式；is having 不能配 since。",
+  "trap": "看到 since 才是完成式的線索，不是看到 has。"
+ },
+ {
+  "v": "have",
+  "stem": "We don't ＿＿ to wear uniforms on Fridays.",
+  "o": [
+   "have",
+   "has",
+   "had",
+   "having"
+  ],
+  "c": 0,
+  "zh": "我們星期五不用穿制服。",
+  "why": "have to＝必須；don't 後面接原形 → don't have to（不必）。has、had、having 都不能接在 don't 後面。",
+  "trap": "have to／has to 是「必須」，後面接原形動詞，不是完成式。"
+ },
+ {
+  "v": "have",
+  "stem": "Does your brother ＿＿ a smartphone?",
+  "o": [
+   "have",
+   "has",
+   "had",
+   "having"
+  ],
+  "c": 0,
+  "zh": "你哥哥有智慧型手機嗎？",
+  "why": "Does 已經表示第三人稱單數和現在式，後面的動詞用原形 → have。",
+  "trap": "主詞是 your brother 不一定用 has：前面有 Does，動詞要變回原形。"
+ },
+ {
+  "v": "be",
+  "stem": "She ＿＿ been to Japan three times so far.",
+  "o": [
+   "has",
+   "is",
+   "was",
+   "have"
+  ],
+  "c": 0,
+  "zh": "到目前為止她去過日本三次。",
+  "why": "been 前面要接 has/have 組成完成式；so far 是完成式的線索；主詞 She → has。is been、was been 文法錯；have 不配 She。",
+  "trap": "been 前面一定是 has/have/had，不能接 is/was。"
+ },
+ {
+  "v": "learn",
+  "stem": "He has been ＿＿ English for three years.",
+  "o": [
+   "learning",
+   "learned",
+   "learn",
+   "to learn"
+  ],
+  "c": 0,
+  "zh": "他已經學英文三年了（現在還在學）。",
+  "why": "has been＋V-ing 是現在完成進行式：從三年前一直學到現在。has been learned 是被動（他不會被學）；learn、to learn 不能接在 been 後面。",
+  "trap": "has 後面不一定直接接 p.p.：has been＋V-ing 表示一直在做。"
+ },
+ {
+  "v": "close",
+  "stem": "The bridge has been ＿＿ for a month, so we have to take another road.",
+  "o": [
+   "closed",
+   "closing",
+   "close",
+   "to close"
+  ],
+  "c": 0,
+  "zh": "那座橋已經封閉一個月了，所以我們得走別條路。",
+  "why": "橋是「被」封閉的 → has been＋p.p.（完成式的被動）。has been closing 表示橋自己一直在關，不合理；close、to close 不能接在 been 後面。",
+  "trap": "has been 後面是 V-ing 還是 p.p.？一樣先問主詞是做還是被做。"
+ },
+ {
+  "v": "go",
+  "stem": "Amy has ＿＿ to the library. She isn't home now.",
+  "o": [
+   "gone",
+   "been",
+   "go",
+   "went"
+  ],
+  "c": 0,
+  "zh": "Amy 去圖書館了，她現在不在家。",
+  "why": "has gone to＝去了（還沒回來），所以「她現在不在家」。has been to 是「去過」（已經回來）；go、went 不能接在 has 後面。",
+  "trap": "has gone to 和 has been to 都是完成式，但意思不一樣，要看後面的句子。"
+ },
+ {
+  "v": "go",
+  "stem": "I have ＿＿ to Tainan twice. I love the food there.",
+  "o": [
+   "been",
+   "gone",
+   "go",
+   "went"
+  ],
+  "c": 0,
+  "zh": "我去過台南兩次，我很愛那裡的食物。",
+  "why": "說的人現在不在台南、在分享經驗 → have been to（去過）。have gone to 表示人還在那裡；go、went 不能接在 have 後面。",
+  "trap": "twice、ever、never 這種「經驗」→ have been to。"
+ },
+ {
+  "v": "meet",
+  "stem": "Jenny ＿＿ her new classmates yesterday.",
+  "o": [
+   "met",
+   "has met",
+   "meets",
+   "is meeting"
+  ],
+  "c": 0,
+  "zh": "Jenny 昨天認識了她的新同學。",
+  "why": "yesterday 是明確的過去時間 → 過去簡單式 met。has met 是完成式，不能配 yesterday；meets、is meeting 是現在。",
+  "trap": "明確的過去時間（yesterday、ago、last…）不能用完成式。"
+ },
+ {
+  "v": "meet",
+  "stem": "Has Jenny ＿＿ her new classmates yet?",
+  "o": [
+   "met",
+   "meet",
+   "meeting",
+   "meets"
+  ],
+  "c": 0,
+  "zh": "Jenny 已經見過她的新同學了嗎？",
+  "why": "Has＋主詞＋p.p.＋yet? 是完成式的問句 → met（meet 的 p.p.）。",
+  "trap": "跟上一題對照：這題沒有 yesterday、有 yet，才用完成式。"
+ },
+ {
+  "v": "live",
+  "stem": "We ＿＿ in this city since 2016.",
+  "o": [
+   "have lived",
+   "lived",
+   "live",
+   "are living"
+  ],
+  "c": 0,
+  "zh": "我們從 2016 年就住在這個城市。",
+  "why": "since 2016 表示從過去一直到現在 → 現在完成式 have lived。lived 只講過去；live、are living 不能配 since。",
+  "trap": "since＋過去的時間點 → 現在完成式。"
+ },
+ {
+  "v": "live",
+  "stem": "We ＿＿ in Kaohsiung five years ago, but now we live in Taipei.",
+  "o": [
+   "lived",
+   "have lived",
+   "live",
+   "were lived"
+  ],
+  "c": 0,
+  "zh": "我們五年前住在高雄，但現在住在台北。",
+  "why": "five years ago 是明確的過去時間 → 過去式 lived。have lived 不能配 ago；live 是現在；were lived 是被動，不合理。",
+  "trap": "ago 和 since 都在講時間，但 ago 配過去式、since 配完成式。"
+ },
+ {
+  "v": "see",
+  "stem": "I ＿＿ this movie last weekend. It was great.",
+  "o": [
+   "saw",
+   "have seen",
+   "see",
+   "was seen"
+  ],
+  "c": 0,
+  "zh": "我上週末看了這部電影，很好看。",
+  "why": "last weekend 是過去 → saw。have seen 不能配 last weekend；see 是現在；was seen 是被動（我不會被看）。",
+  "trap": "看到「看過」的中文就想選完成式？有明確過去時間就用過去式。"
+ },
+ {
+  "v": "see",
+  "stem": "I ＿＿ this movie three times so far. I love it!",
+  "o": [
+   "have seen",
+   "saw",
+   "see",
+   "was seen"
+  ],
+  "c": 0,
+  "zh": "到目前為止我已經看過這部電影三次了，我好愛！",
+  "why": "so far（到目前為止）→ 現在完成式 have seen。saw 不能配 so far；see 是現在；was seen 是被動。",
+  "trap": "跟上一題對照：so far、three times 講到現在的經驗 → 完成式。"
+ },
+ {
+  "v": "know",
+  "stem": "How long ＿＿ you known each other?",
+  "o": [
+   "have",
+   "did",
+   "are",
+   "do"
+  ],
+  "c": 0,
+  "zh": "你們認識多久了？",
+  "why": "known 是 p.p.，前面要有 have → 現在完成式問句 How long have you known…?。did、are、do 後面都不能接 known。",
+  "trap": "先看空格後面：known 是 p.p.，所以前面要 have。"
+ },
+ {
+  "v": "start",
+  "stem": "When ＿＿ you start learning English?",
+  "o": [
+   "did",
+   "have",
+   "are",
+   "do"
+  ],
+  "c": 0,
+  "zh": "你什麼時候開始學英文的？",
+  "why": "When 問的是過去的某個時間點，後面是原形 start → did。have 後面要 p.p.；are 後面不能接原形；do 是現在習慣，不合理。",
+  "trap": "When 問「什麼時候」→ 過去式，不用完成式。"
+ },
+ {
+  "v": "rain",
+  "stem": "It ＿＿ for three days. When will it stop?",
+  "o": [
+   "has been raining",
+   "rained",
+   "is rained",
+   "was raining"
+  ],
+  "c": 0,
+  "zh": "已經連續下了三天雨，什麼時候才會停？",
+  "why": "for three days 而且現在還在下（When will it stop?）→ has been raining。rained、was raining 都是過去，跟「還沒停」矛盾；rain 不能用被動。",
+  "trap": "看後面的句子：還在下 → 完成進行式；已經停了才用過去式。"
+ },
+ {
+  "v": "bite",
+  "stem": "Tom was ＿＿ by a dog on his way home.",
+  "o": [
+   "bitten",
+   "biting",
+   "bit",
+   "bite"
+  ],
+  "c": 0,
+  "zh": "Tom 在回家的路上被狗咬了。",
+  "why": "Tom 是「被」狗咬（by a dog）→ was＋p.p.，bite 的 p.p. 是 bitten。was biting 是主動（Tom 在咬）；bit 是過去式不是 p.p.。",
+  "trap": "was 後面不一定接 V-ing：被做的 → was＋p.p.。"
+ },
+ {
+  "v": "walk",
+  "stem": "Tom was ＿＿ his dog when it started to rain.",
+  "o": [
+   "walking",
+   "walked",
+   "walk",
+   "to walk"
+  ],
+  "c": 0,
+  "zh": "開始下雨的時候，Tom 正在遛狗。",
+  "why": "Tom 自己在遛狗（主動），下雨那時「正在做」→ was＋V-ing。was walked 是被動（Tom 被遛），不合理。",
+  "trap": "跟上一題對照：同樣是 was，主動 → V-ing，被動 → p.p.。"
+ },
+ {
+  "v": "send",
+  "stem": "The letters ＿＿ yesterday, so they will arrive tomorrow.",
+  "o": [
+   "were sent",
+   "are sent",
+   "sent",
+   "were sending"
+  ],
+  "c": 0,
+  "zh": "信昨天寄出了，所以明天會到。",
+  "why": "信是「被」寄的 → 被動；yesterday → were sent。are sent 時態錯；sent 少了 be 動詞；were sending 是主動（信不會寄東西）。",
+  "trap": "主詞是 letters（東西）→ 想一想被動。"
+ },
+ {
+  "v": "send",
+  "stem": "My mom ＿＿ the letters to Grandma yesterday.",
+  "o": [
+   "sent",
+   "was sent",
+   "sends",
+   "has sent"
+  ],
+  "c": 0,
+  "zh": "我媽媽昨天把信寄給奶奶。",
+  "why": "媽媽自己寄信（主動），yesterday → 過去式 sent。was sent 是被動；sends 是現在；has sent 不能配 yesterday。",
+  "trap": "跟上一題對照：主詞換成人，就變回主動。"
+ },
+ {
+  "v": "sing",
+  "stem": "This song ＿＿ by many people every day.",
+  "o": [
+   "is sung",
+   "was sung",
+   "sings",
+   "is singing"
+  ],
+  "c": 0,
+  "zh": "這首歌每天都有很多人在唱。",
+  "why": "歌是「被」唱的（by many people）→ 被動；every day 是現在的習慣 → is sung。was sung 是過去；sings、is singing 是主動。",
+  "trap": "every day 配現在式，被動就是 is/are＋p.p.。"
+ },
+ {
+  "v": "sing",
+  "stem": "Listen! The band ＿＿ our favorite song on stage.",
+  "o": [
+   "is singing",
+   "was singing",
+   "is sung",
+   "has sung"
+  ],
+  "c": 0,
+  "zh": "你聽！樂團正在台上唱我們最愛的歌。",
+  "why": "樂團自己在唱（主動），Listen! → 現在正在 → is singing。was singing 是過去；is sung 是被動；has sung 是完成式。",
+  "trap": "跟上一題對照：主詞是人（樂團）→ 主動 V-ing。"
+ },
+ {
+  "v": "paint",
+  "stem": "This picture ＿＿ by my grandpa in 1990.",
+  "o": [
+   "was painted",
+   "is painted",
+   "painted",
+   "has painted"
+  ],
+  "c": 0,
+  "zh": "這幅畫是我爺爺在 1990 年畫的。",
+  "why": "畫是「被」畫的（by my grandpa）→ 被動；in 1990 是過去 → was painted。is painted 時態錯；painted 少了 be；has painted 是主動完成式。",
+  "trap": "被動＝be＋p.p.，be 動詞負責時態。"
+ },
+ {
+  "v": "break",
+  "stem": "＿＿ the window broken by Tom yesterday?",
+  "o": [
+   "Was",
+   "Did",
+   "Is",
+   "Has"
+  ],
+  "c": 0,
+  "zh": "窗戶昨天是被 Tom 打破的嗎？",
+  "why": "broken 是 p.p.，「窗戶被打破」是被動 be＋p.p.；yesterday → Was。Did 後面要原形；Is 是現在；Has 不能配 yesterday。",
+  "trap": "問句的助動詞也要配合：被動用 be 動詞，主動用 do/does/did。"
+ },
+ {
+  "v": "break",
+  "stem": "＿＿ Tom break the window yesterday?",
+  "o": [
+   "Did",
+   "Was",
+   "Is",
+   "Has"
+  ],
+  "c": 0,
+  "zh": "Tom 昨天打破窗戶了嗎？",
+  "why": "Tom 自己打破（主動），後面是原形 break；yesterday → Did。Was、Is、Has 後面都不能接原形。",
+  "trap": "跟上一題對照：後面是原形動詞 → Did；後面是 p.p.（被動）→ Was。"
+ },
+ {
+  "v": "close",
+  "stem": "The museum ＿＿ on Mondays. Let's go on Tuesday.",
+  "o": [
+   "is closed",
+   "was closed",
+   "has closed",
+   "is closing"
+  ],
+  "c": 0,
+  "zh": "博物館星期一不開放，我們星期二去吧。",
+  "why": "is closed 在這裡是「是關著的」的狀態，on Mondays 是固定的規定 → 現在式。was closed 是過去；has closed、is closing 不能表示每週一的規定。",
+  "trap": "is＋p.p. 也可以表示「狀態」：The door is closed.（門是關著的）"
+ },
+ {
+  "v": "lose",
+  "stem": "My brother ＿＿ a lot of weight since he started jogging.",
+  "o": [
+   "has lost",
+   "lost",
+   "loses",
+   "is lost"
+  ],
+  "c": 0,
+  "zh": "我哥哥開始慢跑之後，瘦了很多。",
+  "why": "since he started jogging 表示從那時到現在 → 現在完成式 has lost。lost 只講過去；loses 是現在習慣；is lost 是「迷路」。",
+  "trap": "since 後面可以接一個句子（since he started…），一樣用完成式。"
+ },
+ {
+  "v": "learn",
+  "stem": "She ＿＿ English when she was in the U.S.",
+  "o": [
+   "learned",
+   "has learned",
+   "learns",
+   "was learned"
+  ],
+  "c": 0,
+  "zh": "她在美國的時候學了英文。",
+  "why": "when she was in the U.S. 是過去的一段時間 → 過去式 learned。has learned 不能配 when＋過去；learns 是現在；was learned 是被動（她不會被學）。",
+  "trap": "when＋過去式 → 用過去式，不用完成式。"
+ },
+ {
+  "v": "visit",
+  "stem": "Cathy lives near her grandparents now, so she ＿＿ them every weekend.",
+  "o": [
+   "visits",
+   "visited",
+   "has visited",
+   "is visited"
+  ],
+  "c": 0,
+  "zh": "Cathy 現在住在爺爺奶奶家附近，所以她每個週末都去看他們。",
+  "why": "now、every weekend → 現在的習慣，用現在簡單式 visits。visited 是過去；has visited 不配 every weekend；is visited 是被動。",
+  "trap": "every weekend 是「習慣」→ 現在簡單式（三單加 s），不是進行式也不是完成式。"
+ },
+ {
+  "v": "hurt",
+  "stem": "Jack ＿＿ his leg when he played soccer last week.",
+  "o": [
+   "hurt",
+   "has hurt",
+   "hurts",
+   "was hurt"
+  ],
+  "c": 0,
+  "zh": "Jack 上週踢足球時弄傷了腿。",
+  "why": "last week → 過去式；hurt 的過去式還是 hurt。has hurt 不能配 last week；hurts 是現在；was hurt 是被動，後面不能再接 his leg。",
+  "trap": "hurt 三態都是 hurt，看到 hurt 要靠時間判斷它是現在還是過去。"
+ },
+ {
+  "v": "read",
+  "stem": "Ann ＿＿ in bed when her alarm rang.",
+  "o": [
+   "was reading",
+   "is reading",
+   "has read",
+   "was read"
+  ],
+  "c": 0,
+  "zh": "鬧鐘響的時候，Ann 正躺在床上看書。",
+  "why": "鬧鐘響（過去）那時 Ann「正在」看書 → was＋V-ing。is reading 是現在；has read 是完成式；was read 是被動（Ann 不會被讀）。",
+  "trap": "was reading（正在讀）和 was read（被讀）只差一點點，意思完全不同。"
+ },
+ {
+  "v": "give",
+  "stem": "The prizes ＿＿ to the winners tomorrow morning.",
+  "o": [
+   "will be given",
+   "were given",
+   "will give",
+   "have given"
+  ],
+  "c": 0,
+  "zh": "獎品明天早上會頒給得獎者。",
+  "why": "獎品是「被」頒發 → 被動；tomorrow → will be given。were given 是過去；will give、have given 是主動。",
+  "trap": "will 後面接 be＋p.p. 才是未來被動。"
+ },
+ {
+  "v": "have",
+  "stem": "Linda ＿＿ two brothers and one sister.",
+  "o": [
+   "has",
+   "is having",
+   "have",
+   "having"
+  ],
+  "c": 0,
+  "zh": "Linda 有兩個哥哥和一個姊姊。",
+  "why": "has 在這裡是「有」，Linda 是第三人稱單數 → has。「擁有」不能用進行式 is having；have 不配 Linda；having 不能當動詞。",
+  "trap": "has 自己就可以當動詞「有」，後面接名詞，不是完成式。"
+ },
+ {
+  "v": "be",
+  "stem": "My uncle has ＿＿ a teacher for twenty years.",
+  "o": [
+   "been",
+   "be",
+   "being",
+   "was"
+  ],
+  "c": 0,
+  "zh": "我叔叔當老師已經二十年了。",
+  "why": "for twenty years 一直到現在 → has＋p.p.；be 的 p.p. 是 been → has been。",
+  "trap": "這裡的 has 才是完成式：後面接 p.p.（been）。"
+ },
+ {
+  "v": "become",
+  "stem": "My uncle ＿＿ a teacher twenty years ago.",
+  "o": [
+   "became",
+   "has become",
+   "becomes",
+   "was become"
+  ],
+  "c": 0,
+  "zh": "我叔叔二十年前成為老師。",
+  "why": "twenty years ago → 過去式 became。has become 不能配 ago；becomes 是現在；was become 文法錯。",
+  "trap": "跟上一題對照：for 二十年 → 完成式；二十年 ago → 過去式。"
+ },
+ {
+  "v": "have",
+  "stem": "Ben has ＿＿ go to the dentist this afternoon. He has a toothache.",
+  "o": [
+   "to",
+   "gone",
+   "been",
+   "went"
+  ],
+  "c": 0,
+  "zh": "Ben 今天下午必須去看牙醫，他牙痛。",
+  "why": "空格後面是原形 go → has to＋原形（必須）。has gone go、has been go、has went go 都不通。",
+  "trap": "這句有兩個 has：has to（必須）、has a toothache（有／得了），都不是完成式！"
+ },
+ {
+  "v": "late",
+  "stem": "Many students ＿＿ late for school this morning because of the heavy rain.",
+  "o": [
+   "were",
+   "are",
+   "did",
+   "have"
+  ],
+  "c": 0,
+  "zh": "因為大雨，今天早上很多學生遲到。",
+  "why": "late 是形容詞，前面要 be 動詞；this morning 已經過去 → were。are 是現在；did、have 後面不能直接接 late。",
+  "trap": "this morning 不一定是現在：要看事情發生了沒有。"
+ },
+ {
+  "v": "write",
+  "stem": "The story ＿＿ by a high school student. Everyone loves it.",
+  "o": [
+   "was written",
+   "wrote",
+   "was writing",
+   "has written"
+  ],
+  "c": 0,
+  "zh": "這個故事是一位高中生寫的，大家都很喜歡。",
+  "why": "故事是「被」寫的（by a high school student）→ 被動 be＋p.p.，寫好了 → was written。wrote、was writing、has written 都是主動（故事不會寫東西）。",
+  "trap": "be＋p.p. 的 p.p. 要寫對：write → written，不是 wrote。"
+ },
+ {
+  "v": "invite",
+  "stem": "Were you ＿＿ to Amy's birthday party last Saturday?",
+  "o": [
+   "invited",
+   "inviting",
+   "invite",
+   "invites"
+  ],
+  "c": 0,
+  "zh": "上週六你有被邀請去 Amy 的生日派對嗎？",
+  "why": "你是「被」邀請的 → Were＋主詞＋p.p.? → invited。Were you inviting 是你去邀請別人，跟句意不合。",
+  "trap": "問句的 Were 後面一樣要判斷：被做 → p.p.，正在做 → V-ing。"
+ }
+]

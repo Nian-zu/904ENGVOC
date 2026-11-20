@@ -6,6 +6,8 @@
   u3_phrases.json   Unit 3 片語：看例句，選畫線片語的意思              → k = 'phrase'
   u4_cap.json       Unit 4 文法會考真題（原題、標年份題號）              → k = 'cap'
   u5_traps.json     文法陷阱題：同一個提示字、答案卻不同的對照題        → k = 'verb'、trap = 1
+  u6_double.json    雙重判斷題：空格含 be/has，要同時判斷時態和形式     → k = 'verb'、trap = 1
+                    （例：are flying／were flying／are flown；has had breakfast；has to go；has been closed）
                     （例：is cleaning／is cleaned、has to clean／has cleaned、to see／look forward to seeing），
                     破除「看到 is 就選 V-ing、看到 has 就選 p.p.」這種只看提示字的作答習慣
 
@@ -240,6 +242,17 @@ def main():
         d = day_for([x['v']], 'u5-' + x['stem']); load[d] += 1
         add({'k': 'verb', 'trap': 1, 'a': a, 'b': b, 'o': o, 'c': o.index(right), 'w': x['v'],
              'z': x['zh'], 'y': x['why'], 'tc': x['trap']}, f'u5|{x["stem"]}', d)
+
+    # ---------- 雙重判斷題：時態＋形式（is/was＋V-ing／p.p.）、has 的各種用法 ----------
+    u6 = json.load(open(os.path.join(SRC, 'u6_double.json'), encoding='utf-8'))
+    for x in u6:
+        a, b = x['stem'].split('＿＿')
+        right = x['o'][x['c']]
+        order = list(range(4)); random.Random('t6|' + x['stem']).shuffle(order)
+        o = [x['o'][j] for j in order]
+        d = day_for([x['v']], 'u6-' + x['stem']); load[d] += 1
+        add({'k': 'verb', 'trap': 1, 'a': a, 'b': b, 'o': o, 'c': o.index(right), 'w': x['v'],
+             'z': x['zh'], 'y': x['why'], 'tc': x['trap']}, f'u6|{x["stem"]}', d)
 
     # 寫回
     start = len(items)
