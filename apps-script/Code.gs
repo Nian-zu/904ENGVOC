@@ -574,7 +574,7 @@ function givenName(n) {
   // 30 號以後是老師／來賓帳號：名單上怎麼寫就怎麼顯示（不去掉姓）
   const ro = roster_();
   if (Object.keys(ro).some(function (k) { return +k >= 30 && +k < 100 && ro[k] === n; })) return n;
-  if (!/^[\u4e00-\u9fff]{2,5}$/.test(n)) return n;
+  if (!/^[\u4e00-\u9fff]{3,5}$/.test(n)) return n;   // 兩個字的名字（蒲桃、林琳）整個顯示
   const two = ['歐陽', '司馬', '諸葛', '上官', '張簡', '范姜', '端木', '皇甫', '司徒', '東方', '公孫', '令狐', '夏侯', '慕容', '尉遲', '長孫', '宇文', '軒轅', '單于', '呼延'];
   const cut = (n.length >= 4 || (n.length === 3 && two.indexOf(n.slice(0, 2)) >= 0)) ? 2 : 1;
   return n.slice(cut) || n;
@@ -1437,7 +1437,9 @@ function avMap_() {
   } catch (e) { return {}; }
 }
 function profile_(seat) {
-  const s = parseInt(seat, 10), p = profiles_()[s];
+  const s = parseInt(seat, 10);
+  let p = profiles_()[s];
+  if (!p && roster_()[s]) { bump_(); p = profiles_()[s]; }   // 名單剛新增的人：等級資料還沒算到，重算一次
   if (!p) return { ok: false, error: '找不到這個座號' };
   const L = avItems_().levels;
   return { ok: true, seat: s, xp: p.xp, lv: p.lv, title: avTitle_(p.lv, L.titles), cur: avNeed_(p.lv, L.base), next: p.lv >= 50 ? null : avNeed_(p.lv + 1, L.base),
