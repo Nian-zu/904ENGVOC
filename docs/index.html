@@ -761,8 +761,14 @@ function mixTraps(items, ratio){
   shuffle(vi).slice(0, want).forEach((k, j) => { if (pool[j] != null) items[k] = pool[j]; });
   return items;
 }
+// 同一個句子有「雙重判斷」版本（be／will 放進空格，同時考時態和形式）時，六成機會出這個版本
+function verOf(list){
+  const dual = new Map();
+  list.forEach(qi => { const q = DATA.bank[qi]; if (q.dual) dual.set(q.g, qi); });
+  return qi => { const d = dual.get(DATA.bank[qi].g); return d != null && Math.random() < 0.6 ? d : qi; };
+}
 function pickItems(all, n){
-  const take = (list, m, keys, out) => { for (const qi of shuffle(list.slice())) { if (out.length >= m) break; const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(qi); } };
+  const take = (list, m, keys, out) => { const V = verOf(list); for (const qi of shuffle(list.slice())) { if (out.length >= m) break; const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(V(qi)); } };
   const ex = all.filter(qi => EXTRA.has(DATA.bank[qi].k)), base = all.filter(qi => !EXTRA.has(DATA.bank[qi].k));
   const keys = new Set(), out = [];
   if (ex.length && base.length) take(ex, Math.max(1, Math.round(n / 4)), keys, out);
@@ -1501,7 +1507,7 @@ async function startQuiz(){
   // 講義題盡量挑不同題型
   const exPick = [], seen = new Set();
   for (const qi of shuffle(ex.slice())) { if (exPick.length >= nE) break; const k = DATA.bank[qi].k; if (seen.has(k) && ex.some(x => !seen.has(DATA.bank[x].k))) continue; seen.add(k); exPick.push(qi); }
-  const take = (list, m, keys) => { const out = []; for (const qi of shuffle(list.slice())) { if (out.length >= m) break; const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(qi); } return out; };
+  const take = (list, m, keys) => { const out = [], V = verOf(list); for (const qi of shuffle(list.slice())) { if (out.length >= m) break; const g = DATA.bank[qi].g; if (keys.has(g)) continue; keys.add(g); out.push(V(qi)); } return out; };
   const keys = new Set(exPick.map(qi => DATA.bank[qi].g));
   // 單字書三種題型平均分（介系詞題比較少，有多少出多少，不足的由其他兩種補）
   const want = Math.min(nB, n - nC - exPick.length), per = Math.floor(want / 3);
