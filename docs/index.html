@@ -511,6 +511,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <div class="duelhead" id="duStats"></div>
       <label class="gflab" for="duTo">挑戰誰（一次最多 3 人，大家寫同一份題目）</label><select id="duTo"></select><div id="duPick" class="dupick"></div>
       <div class="gfsend"><button type="button" class="primary" id="duGo">⚔️ 發起對戰（先由你作答）</button><span class="hint" id="duMsg" aria-live="polite"></span></div>
+      <div id="duUnBox" class="hidden"><div class="gflab">⚠️ 你發起但還沒寫完的對戰（寫完對方才會收到邀請）</div><div id="duUn" class="hint"></div></div>
       <div class="gflab">等你應戰</div><div id="duIn" class="hint">載入中…</div>
       <div class="gflab">等對方應戰</div><div id="duWait" class="hint"></div>
       <div class="gflab">最近戰績</div><div id="duRecent" class="hint"></div>
@@ -1691,7 +1692,8 @@ async function loadDuels(draw){
       chestQ.push({invite: newInv});
       if ($('chest').classList.contains('hidden') && $('quiz').classList.contains('hidden')) nextChest();
     }
-    $('meDuel').textContent = '🤺 單字對戰' + (n ? `（${n} 場等你）` : '');
+    const u = (j.unplayed || []).length;
+    $('meDuel').textContent = '🤺 單字對戰' + (n ? `（${n} 場等你）` : u ? '（有對戰還沒寫完）' : '');
   } catch (e) {}
 }
 function drawDuels(){
@@ -1701,6 +1703,12 @@ function drawDuels(){
   const res = d => d.mine == null || d.theirs == null ? '' : `我 ${d.mine} 題 ${d.mySecs} 秒 vs ${d.theirs} 題 ${d.theirSecs} 秒・${d.win === 0 ? '平手' : d.win === +$('seat').value ? '🏆 我贏了' : '輸了'}`;
   $('duIn').innerHTML = (j.incoming || []).map(d => `<div class="duelrow">⚔️ <b>${esc(d.otherName)}</b> 向你挑戰！<small>（對方答對 ${d.theirs} 題）</small><span class="sp"><button type="button" data-dno="${d.id}">拒絕</button><button type="button" class="go" data-dgo="${d.id}">應戰</button></span></div>`).join('') || '目前沒有';
   $('duWait').innerHTML = (j.waiting || []).map(d => `<div class="duelrow">⏳ 等 <b>${esc(d.otherName)}</b> 應戰（你答對 ${d.mine} 題）</div>`).join('') || '目前沒有';
+  const un = {};   // 同一份題目一次挑戰多人 → 合併成一列
+  (j.unplayed || []).forEach(d => { const k = JSON.stringify(d.qs); (un[k] = un[k] || []).push(d); });
+  const unL = Object.values(un);
+  $('duUnBox').classList.toggle('hidden', !unL.length);
+  $('duUn').innerHTML = unL.map((g, i) => `<div class="duelrow">✏️ 挑戰 <b>${g.map(d => esc(d.otherName)).join('、')}</b><span class="sp"><button type="button" class="go" data-dun="${i}">繼續作答</button></span></div>`).join('');
+  $('duUn').querySelectorAll('[data-dun]').forEach(b => b.onclick = () => { const g = unL[+b.dataset.dun]; playDuel(g.map(d => d.id), g[0].qs, g.map(d => d.otherName).join('、')); });
   $('duRecent').innerHTML = (j.recent || []).map(d => `<div class="duelrow">${esc(d.at.slice(5))}・vs <b>${esc(d.otherName)}</b>・${res(d)}</div>`).join('') || '還沒有對戰紀錄';
   $('duIn').querySelectorAll('[data-dgo]').forEach(b => b.onclick = () => { const d = j.incoming.find(x => x.id === +b.dataset.dgo); playDuel(d.id, d.qs, d.otherName); });
   $('duIn').querySelectorAll('[data-dno]').forEach(b => b.onclick = async () => { b.disabled = true; await postJ({type: 'dueldecline', id: +b.dataset.dno}); loadDuels(true); });
