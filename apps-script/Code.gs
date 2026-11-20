@@ -965,11 +965,34 @@ function readTasks_() {
   return out.sort(function (x, y) { return x.date < y.date ? -1 : x.date > y.date ? 1 : 0; });
 }
 
-function tasks_(key, seatOnly) {
+// 學生端（每次開網頁都會問）：只算今天的任務，全班共用一份快取，交卷後才重算
+function taskFor_(seat) {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const tasks = readTasks_();
-  const onlySeat = parseInt(seatOnly, 10);
-  if (!onlySeat) {
+  const C = cached_('tday|' + today, 120, function () { const r = tasks_(null, null, true); return { tasks: r.tasks || [], results: r.results || {} }; });
+  const ro = roster_();
+  let t = null, pw = '';
+  C.tasks.forEach(function (x) { if (x.date === today) { t = JSON.parse(JSON.stringify(x)); pw = x.pw || ''; } });
+  if (t) { delete t.dist; delete t.pw; }
+  // 「設定」分頁的「小考密碼公開時間」到了，就把今天的小考密碼直接顯示給學生
+  if (t && t.quiz) {
+    const show = hhmm_(setting_('小考密碼公開時間')), until = hhmm_(setting_('小考密碼公開到'));
+    const now = Utilities.formatDate(new Date(), tz, 'HH:mm');
+    if (show) {
+      t.pwAt = show; t.pwUntil = until || '';
+      if (pw && now >= show && (!until || now < until)) t.pwShow = pw;
+    }
+    t.now = now;
+  }
+  return { ok: true, today: today, task: t, me: t ? ((C.results[t.date] || {})[seat] || null) : null,
+    given: ro[seat] ? givenName(ro[seat]) : '' };
+}
+
+function tasks_(key, seatOnly, todayOnly) {
+  const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  if (parseInt(seatOnly, 10)) return taskFor_(parseInt(seatOnly, 10));
+  const tasks = readTasks_().filter(function (t) { return !todayOnly || t.date === today; });
+  const onlySeat = 0;
+  if (!todayOnly) {
     const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
     if (want && String(key || '') !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入老師密碼' };
   }
