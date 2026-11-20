@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>永中 904・916 每日背英單</title>
+<title>永中 904・915・916 每日背英單</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
@@ -213,7 +213,7 @@ input[type=text]{flex:1;min-width:200px}
 .battle{display:grid;grid-template-columns:auto 1fr auto;gap:4px 8px;align-items:center;margin-top:4px}
 .battle .bb{height:12px;background:var(--line);border-radius:99px;overflow:hidden}
 .battle .bb i{display:block;height:100%;border-radius:99px}
-.battle .c904 i{background:#3b6fd1}.battle .c916 i{background:#e2445f}
+.battle .c904 i{background:#3b6fd1}.battle .c916 i{background:#e2445f}.battle .c915 i{background:#3fa66b}
 .battle b.mine{color:var(--chalk)}
 .bk.shown{box-shadow:0 0 0 3px #f2c94c;background:#fff3c4}
 .bk.shown .got{color:#b98a12}
@@ -375,7 +375,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <h1>永中 904・916 每日背英單</h1>
+  <h1>永中 904・915・916 每日背英單</h1>
   <div class="today" id="todayLbl"></div>
 </div></header>
 <main><div class="wrap">
@@ -592,6 +592,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
   <div class="seg sortseg" role="group" aria-label="班級">
     <button data-bc="" aria-pressed="true">兩班一起</button>
     <button data-bc="904" aria-pressed="false">只看 904</button>
+    <button data-bc="915" aria-pressed="false">只看 915</button>
     <button data-bc="916" aria-pressed="false">只看 916</button>
   </div>
   <div class="seg sortseg" role="group" aria-label="題型">
@@ -1256,13 +1257,15 @@ async function loadChallenge(){
   } catch (e) {}
 }
 function battleHTML(j){
-  const B = j.battle; if (!B || !B['904'] || !B['916']) return '';
-  const my = j.week && j.week.cls, mx = Math.max(B['904'].avg, B['916'].avg, 1);
+  const B = j.battle; if (!B) return '';
+  const cs = Object.keys(B).filter(c => B[c] && B[c].n).sort((x, y) => B[y].avg - B[x].avg);
+  if (cs.length < 2) return '';
+  const my = j.week && j.week.cls, mx = Math.max(...cs.map(c => B[c].avg), 1);
   const row = c => `<b class="${c === my ? 'mine' : ''}">${c}${c === my ? '（我）' : ''}</b><span class="bb c${c}"><i style="width:${Math.round(B[c].avg / mx * 100)}%"></i></span><span>平均 <b>${B[c].avg}</b> 題</span>`;
-  const lead = B['904'].avg === B['916'].avg ? '目前平手！' : (B['904'].avg > B['916'].avg ? '904' : '916') + ' 暫時領先 ' + Math.abs(Math.round((B['904'].avg - B['916'].avg) * 10) / 10) + ' 題';
+  const lead = B[cs[0]].avg === B[cs[1]].avg ? '目前平手！' : cs[0] + ' 暫時領先 ' + Math.round((B[cs[0]].avg - B[cs[1]].avg) * 10) / 10 + ' 題';
   const pct = c => B[c].n ? Math.round(B[c].today / B[c].n * 100) : 0;
-  return `<div class="chline">⚔️ <b>本週班級對抗</b>（比平均每人答對題數）・${lead}<div class="battle">${row('904')}${row('916')}</div>` +
-    `<small class="hint">今天交卷率 904：${pct('904')}%・916：${pct('916')}%｜週日結算，贏的班作答 50 題以上的人各得 +40 🪙；每班本週答對最多的人是 MVP🌟` +
+  return `<div class="chline">⚔️ <b>本週班級對抗</b>（比平均每人答對題數，人少的班不吃虧）・${lead}<div class="battle">${cs.map(row).join('')}</div>` +
+    `<small class="hint">今天交卷率 ${cs.map(c => c + '：' + pct(c) + '%').join('・')}｜週日結算，第一名的班作答 50 題以上的人各得 +40 🪙；每班本週答對最多的人是 MVP🌟` +
     (j.wins || j.mvp ? `｜你已幫班上贏 ${j.wins} 次、當過 ${j.mvp} 次 MVP` : '') + `</small></div>`;
 }
 function drawChallenge(before){
@@ -1509,20 +1512,21 @@ document.addEventListener('keydown', e => {
 });
 // ---- student info
 // 班級座號（沒有 8、22 號；30 號是老師測試用）
-// 904：1–29；916：91601–91630（91605 = 916 班 5 號）；30 號以後是測試／老師／來賓
+// 904：1–29；915：91503 等（91503 = 915 班 3 號）；916：91601–91630；30 號以後是測試／老師／來賓
 const SEATS904 = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29];
 const SEATS916 = [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30].map(n => 91600 + n);
+const SEATS915 = [3,6,7,16,17,22,23,26,28].map(n => 91500 + n);
 const SEATS_STAFF = [30,31,32,33,34];
-const SEATS = [...SEATS904, ...SEATS916, ...SEATS_STAFF];
+const SEATS = [...SEATS904, ...SEATS915, ...SEATS916, ...SEATS_STAFF];
 // 31 號是玠汝老師：上排行榜，但不算進老師儀表板的班級統計
 const TEACHERS = {31: '玠汝', 32: 'Cathy', 33: 'Cindy', 34: '千瑜'};
 const seatSel = $('seat');
-[['904 班', SEATS904], ['916 班', SEATS916], ['老師／測試', SEATS_STAFF]].forEach(([lab, list]) => {
+[['904 班', SEATS904], ['915 班', SEATS915], ['916 班', SEATS916], ['老師／測試', SEATS_STAFF]].forEach(([lab, list]) => {
   const g = document.createElement('optgroup'); g.label = lab;
-  list.forEach(i => g.appendChild(new Option(TEACHERS[i] || (i === 30 ? '30 號（測試用）' : (i > 90000 ? '916 班 ' + (i % 100) : '904 班 ' + i) + ' 號'), i)));
+  list.forEach(i => g.appendChild(new Option(TEACHERS[i] || (i === 30 ? '30 號（測試用）' : (i > 90000 ? Math.floor(i / 100) + ' 班 ' + (i % 100) : '904 班 ' + i) + ' 號'), i)));
   seatSel.appendChild(g);
 });
-const clsOf = n => (n = +n) > 90000 ? '916' : n > 0 && n < 30 ? '904' : '';
+const clsOf = n => (n = +n) > 90000 ? String(Math.floor(n / 100)) : n > 0 && n < 30 ? '904' : '';
 const seatNo = n => (n = +n) > 90000 ? n % 100 : n;
 const seatLabel = n => TEACHERS[n] ? '老師' : clsOf(n) + '-' + seatNo(n);
 try { const st = JSON.parse(localStorage.getItem('student') || '{}'); if (st.seat) $('seat').value = st.seat; if (st.name) $('sname').value = st.name; if (st.pin) $('spin').value = st.pin; } catch (e) {}

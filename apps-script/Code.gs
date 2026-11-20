@@ -10,12 +10,12 @@ const DETAIL_HEAD = ['日期', '座號', '姓名', '回', '題號', '單字', '�
 const SPREADSHEET_ID = '1v_YtQtmFH29t1Zugvi4A8pej9MHkGRB7_Oe9VtpiK3o';
 
 // ===== 兩個班：904 座號 1–29；916 用 91601–91699（例如 91605 = 916 班 5 號）；30–99 是測試／老師／來賓帳號 =====
-const CLASSES = ['904', '916'];
+const CLASSES = ['904', '915', '916'];
 // 老師帳號加入某一班（算進那班的排行、週目標、班級對抗），例如 31 號玠汝老師算 916
 const STAFF_CLASS = { 31: '916' };
 function classOf_(seat) { seat = +seat; return seat >= 90000 ? String(Math.floor(seat / 100)) : seat > 0 && seat < 30 ? '904' : STAFF_CLASS[seat] || ''; }
 function isStudent_(seat) { return !!classOf_(seat); }
-function validSeat_(seat) { seat = +seat; return (seat >= 1 && seat <= 99) || (seat >= 91601 && seat <= 91699); }
+function validSeat_(seat) { seat = +seat; return (seat >= 1 && seat <= 99) || (seat >= 91501 && seat <= 91599) || (seat >= 91601 && seat <= 91699); }
 function sheet_() {
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(SHEET_NAME);
   if (!sh) throw new Error('試算表裡找不到「' + SHEET_NAME + '」分頁');
@@ -246,9 +246,10 @@ function daily_() {
       if (done && best && rs[best] > 0) P(+best).mvp = (P(+best).mvp || 0) + 1;
     });
     if (!done) return;
-    const a = avgOf('904', w), b = avgOf('916', w);
-    if (a === b) return;
-    const win = a > b ? '904' : '916', ws = wkSeat[win + '|' + w] || {};
+    // 各班平均最高的贏（平手就不算）
+    const avgs = CLASSES.map(function (c) { return [c, avgOf(c, w)]; }).sort(function (x, y) { return y[1] - x[1]; });
+    if (!avgs.length || avgs[0][1] <= 0 || (avgs[1] && avgs[1][1] === avgs[0][1])) return;
+    const win = avgs[0][0], ws = wkSeat[win + '|' + w] || {};
     Object.keys(ws).forEach(function (seat) { if (ws[seat] >= 50) { const p = P(+seat); p.bcoin = (p.bcoin || 0) + 40; p.wins = (p.wins || 0) + 1; } });
   });
   // 今天各班交卷率
@@ -1213,10 +1214,10 @@ function parentKey_() {
 
 function parent_(key, seat) {
   // 904 用「家長密碼」、916 用「916家長密碼」（都在「設定」分頁）；家長只看得到自己班
-  const want = parentKey_(), want916 = String(setting_('916家長密碼') || '').trim();
-  if (!want && !want916) return { ok: false, error: '家長密碼尚未設定，請洽導師。' };
+  const want = parentKey_(), want916 = String(setting_('916家長密碼') || '').trim(), want915 = String(setting_('915家長密碼') || '').trim();
+  if (!want && !want916 && !want915) return { ok: false, error: '家長密碼尚未設定，請洽導師。' };
   const k = String(key || '').trim();
-  const cls = want && k === want ? '904' : want916 && k === want916 ? '916' : '';
+  const cls = want && k === want ? '904' : want916 && k === want916 ? '916' : want915 && k === want915 ? '915' : '';
   if (!cls) return { ok: false, error: key ? '密碼不正確' : '請輸入密碼' };
   const ro = roster_();
   const roster = Object.keys(ro).map(Number).filter(function (x) { return classOf_(x) === cls && !isStaff_(x); })
