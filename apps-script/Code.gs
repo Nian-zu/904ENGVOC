@@ -125,7 +125,7 @@ function doGet(e) {
   if (p.action === 'dash') return out_(dash_(p.key));
   if (p.action === 'badges') return out_(badgesC_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
-  if (p.action === 'profile') return out_(profile_(p.seat));
+  if (p.action === 'profile') return out_(profile_(p.seat, p.fresh === '1'));
   if (p.action === 'daily') return out_(dailyFor_(p.seat));
   if (p.action === 'names') return out_(names_());
   if (p.action === 'parent') return out_(parent_(p.key, p.seat));
@@ -1468,14 +1468,16 @@ function profiles_() {
 }
 function avMap_() {
   try {
-    const p = profiles_(), m = {};
+    const p = profilesSoft_(), m = {};
     Object.keys(p).forEach(function (k) { m[k] = { lv: p[k].lv, a: p[k].a, show: p[k].show || [], petLv: p[k].petLv || 1 }; });
     return m;
   } catch (e) { return {}; }
 }
-function profile_(seat) {
+// 大家共用的等級資料：有人交卷後最多沿用 45 秒（剛交卷的本人會帶 fresh=1 拿最新的）
+function profilesSoft_() { return cachedSoft_('profS', 21600, 45, profiles_); }
+function profile_(seat, fresh) {
   const s = parseInt(seat, 10);
-  let p = profiles_()[s];
+  let p = (fresh ? profiles_() : profilesSoft_())[s];
   if (!p && roster_()[s]) { bump_(); p = profiles_()[s]; }   // 名單剛新增的人：等級資料還沒算到，重算一次
   if (!p) return { ok: false, error: '找不到這個座號' };
   const L = avItems_().levels;

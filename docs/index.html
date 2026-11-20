@@ -1539,7 +1539,7 @@ async function loadProfile(after){
   if (!seat || !SHEET_URL) { $('meCard').classList.add('hidden'); return; }
   try {
     await AV.load();
-    const j = await fetch(SHEET_URL + '?action=profile&seat=' + seat + '&_=' + Date.now()).then(r => r.json());
+    const j = await fetch(SHEET_URL + '?action=profile&seat=' + seat + (after ? '&fresh=1' : '') + '&_=' + Date.now()).then(r => r.json());
     if (!j.ok || j.lv == null || seat !== $('seat').value) return;   // 伺服器還沒更新時不顯示
     const old = ME && ME.seat === j.seat ? ME.lv : null;
     ME = j;
