@@ -333,6 +333,9 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 .gfbody select{font:inherit;padding:8px;border-radius:10px;border:1px solid var(--line);background:var(--paper)}
 .gfsend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:6px}
 .gflog{font-size:.85rem}
+#gfText{font:inherit;padding:8px;border-radius:10px;border:1px solid var(--line)}
+.gfblock{font-size:.86rem;display:flex;gap:6px;align-items:center}
+#chestNo{background:none;border:1px solid var(--line)}
 .gflog li{margin:3px 0}
 #gfItems .shopcard.on{border-color:#e2445f;box-shadow:0 0 0 2px #e2445f}
 .chestbox{background:var(--card);color:var(--ink);border-radius:20px;padding:22px 24px 14px;width:min(360px,100%);text-align:center}
@@ -493,15 +496,17 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <div class="seg" role="group" aria-label="禮物種類"><button type="button" data-gk="coin" aria-pressed="true">🪙 代幣</button><button type="button" data-gk="item" aria-pressed="false">🛍️ 商店商品</button></div>
       <div id="gfCoin" class="seg" role="group" aria-label="代幣數量"></div>
       <div id="gfItems" class="shopgrid hidden"></div>
-      <label class="gflab" for="gfMsg">祝福語</label><select id="gfMsg"></select>
+      <label class="gflab" for="gfMsg">想說的話</label><select id="gfMsg"></select>
+      <input type="text" id="gfText" class="hidden" maxlength="30" placeholder="自己寫（最多 30 字，請友善發言，老師看得到）" aria-label="自己寫想說的話">
       <div class="gfsend"><button type="button" class="primary" id="gfSend">送出禮物</button><span class="hint" id="gfMsgOut" aria-live="polite"></span></div>
+      <label class="gfblock"><input type="checkbox" id="gfBlock"> 🙅 暫停收禮（勾選後，同學就不能送禮物給你）</label>
       <details class="gflog"><summary>我的禮物紀錄</summary><div id="gfLog" class="hint">載入中…</div></details>
     </div>
   </div>
 </div>
 <div class="avmodal hidden" id="chest" role="dialog" aria-modal="true" aria-label="打開寶箱">
   <div class="chestbox"><div class="chestlid" id="chestPic"></div><h3 id="chestTitle">🎁 打開寶箱！</h3><p id="chestText"></p>
-  <div class="avact" style="justify-content:center;border:0"><button type="button" class="ghostbtn" id="chestOk">收下</button><button type="button" class="primary" id="chestWear">馬上戴上</button></div></div>
+  <div class="avact" style="justify-content:center;border:0"><button type="button" class="ghostbtn hidden" id="chestNo">退回</button><button type="button" class="ghostbtn" id="chestOk">收下</button><button type="button" class="primary" id="chestWear">馬上戴上</button></div></div>
 </div>
 
 <section id="quiz" class="panel hidden" aria-live="polite">
@@ -1550,10 +1555,11 @@ async function checkInbox(){
     const j = await postJ({type: 'inbox'});
     if (!j.ok) return;
     GF.log = j;
-    if (j.fresh && j.fresh.length) {
-      chestQ = chestQ.concat(j.fresh.map(g => ({gift: g})));
+    const add = (j.back || []).map(g => ({back: g})).concat((j.fresh || []).map(g => ({gift: g})));
+    if (add.length) {
+      chestQ = chestQ.concat(add);
       if ($('chest').classList.contains('hidden')) nextChest();
-      loadProfile();
+      if ((j.back || []).length) loadProfile();
     }
   } catch (e) {}
 }
@@ -1577,7 +1583,9 @@ async function openGift(){
   $('gfTo').innerHTML = '<option value="">請選擇同學</option>' + Object.keys(groups).map(c => `<optgroup label="${esc(c === '老師' ? '老師' : c + ' 班')}">` +
     groups[c].map(x => `<option value="${x.seat}">${x.seat > 90000 ? x.seat % 100 + ' 號 ' : x.seat < 30 ? x.seat + ' 號 ' : ''}${esc(x.given)}</option>`).join('') + '</optgroup>').join('');
   if (prev) $('gfTo').value = prev;
-  $('gfMsg').innerHTML = (GF.msgs || ['加油！']).map((m, i) => staff || !m.includes('老師') ? `<option value="${i}">${esc(m)}</option>` : '').join('');
+  $('gfMsg').innerHTML = (GF.msgs || ['加油！']).map((m, i) => staff || !m.includes('老師') ? `<option value="${i}">${esc(m)}</option>` : '').join('') + '<option value="custom">✏️ 自己寫…</option>';
+  $('gfText').classList.add('hidden');
+  if (GF.log) $('gfBlock').checked = !!GF.log.block;
   openGiftRefresh();
   drawGiftLog();
   if (!GF.log) checkInbox().then(drawGiftLog);
@@ -1597,23 +1605,32 @@ function openGiftRefresh(){
 }
 function drawGiftLog(){
   const j = GF.log; if (!j) return;
-  const li = g => `<li>${esc(g.at.slice(5))}・${g.kind === 'item' ? '「' + esc(g.name) + '」' : '🪙 ' + esc(g.what)}・${esc(g.msg)}</li>`;
+  const li = g => `<li>${esc(g.at.slice(5))}・${g.kind === 'item' ? '「' + esc(g.name) + '」' : '🪙 ' + esc(g.what)}・${esc(g.msg)}${g.rejected ? '（已退回）' : ''}</li>`;
   $('gfLog').innerHTML = `<b>收到</b><ul>${(j.recv || []).map(g => li(g).replace('<li>', `<li>${esc(g.fromName)} → 我・`)).join('') || '<li>還沒有</li>'}</ul>` +
     `<b>送出</b><ul>${(j.sent || []).map(g => li(g).replace('<li>', `<li>我 → ${esc(g.toName)}・`)).join('') || '<li>還沒有</li>'}</ul>`;
 }
 document.querySelectorAll('[data-gk]').forEach(b => b.onclick = () => { GF.kind = b.dataset.gk; GF.sure = false; openGiftRefresh(); });
-$('gfTo').onchange = $('gfMsg').onchange = () => { GF.sure = false; openGiftRefresh(); };
+$('gfTo').onchange = () => { GF.sure = false; openGiftRefresh(); };
+$('gfMsg').onchange = () => { GF.sure = false; $('gfText').classList.toggle('hidden', $('gfMsg').value !== 'custom'); if ($('gfMsg').value === 'custom') $('gfText').focus(); openGiftRefresh(); };
+$('gfBlock').onchange = async () => {
+  const v = $('gfBlock').checked, out = $('gfMsgOut');
+  out.textContent = '儲存中…';
+  try { const j = await postJ({type: 'giftpref', block: v}); if (!j.ok) throw new Error(j.error || '儲存失敗'); out.textContent = v ? '🙅 已暫停收禮，同學暫時不能送你禮物' : '✓ 已恢復收禮'; if (GF.log) GF.log.block = v; }
+  catch (e) { out.textContent = '⚠️ ' + e.message; $('gfBlock').checked = !v; }
+};
 $('gfClose').onclick = () => $('giftModal').classList.add('hidden');
 $('meGift').onclick = openGift;
 $('gfSend').onclick = async () => {
   const to = $('gfTo').value, out = $('gfMsgOut');
   if (!to) { out.textContent = '⚠️ 請先選擇要送給誰'; return; }
   if (GF.kind === 'item' && !GF.item) { out.textContent = '⚠️ 請先選一個商品'; return; }
+  const custom = $('gfMsg').value === 'custom', text = $('gfText').value.trim();
+  if (custom && !text) { out.textContent = '⚠️ 請寫下想說的話'; return; }
   if (!GF.sure) { GF.sure = true; openGiftRefresh(); return; }
   GF.sure = false; $('gfSend').disabled = true; out.textContent = '送出中…';
   try {
     const [cat, id] = GF.item.split(':');
-    const j = await postJ({type: 'gift', to, kind: GF.kind, amount: GF.amount, cat, id, msg: $('gfMsg').value});
+    const j = await postJ({type: 'gift', to, kind: GF.kind, amount: GF.amount, cat, id, msg: custom ? 0 : $('gfMsg').value, text: custom ? text : ''});
     if (!j.ok) throw new Error(j.error || '送禮失敗');
     out.textContent = '🎉 送出了！對方下次打開網頁就會收到' + (j.left != null ? `（今天還能送 ${j.left} 份）` : '');
     ME.coin = j.coin; drawMe(); if (typeof confetti === 'function') confetti();
@@ -1625,19 +1642,45 @@ $('gfSend').onclick = async () => {
 function nextChest(){
   const t = chestQ.shift();
   if (!t) { $('chest').classList.add('hidden'); return; }
-  if (t.gift) {   // 收到同學的禮物
+  const pic = g => { const [c, i] = (g.what || '').split(':'); return g.kind === 'item' && AV.items ? AV.thumb(AV.norm(ME && ME.a), c, i, 130) : '<div style="font-size:4.5rem;line-height:1.2">🪙</div>'; };
+  const what = g => g.kind === 'item' ? '「' + g.name + '」' : ' ' + g.what + ' 枚代幣';
+  $('chestNo').classList.add('hidden'); $('chestOk').textContent = '收下';
+  $('chestOk').onclick = nextChest;
+  if (t.back) {   // 自己送的禮物被退回
+    const g = t.back;
+    $('chestPic').innerHTML = pic(g);
+    $('chestTitle').textContent = `📦 ${g.toName} 退回了你送的${what(g)}`;
+    $('chestText').textContent = g.cost ? `🪙 ${g.cost} 枚代幣已經還給你了。` : '沒關係，下次再送別的吧！';
+    $('chestWear').classList.add('hidden'); $('chestOk').textContent = '知道了';
+    $('chest').classList.remove('hidden');
+    return;
+  }
+  if (t.gift) {   // 收到同學的禮物：可以收下，也可以退回
     const g = t.gift, [cat, id] = (g.what || '').split(':');
-    $('chestPic').innerHTML = g.kind === 'item' && AV.items ? AV.thumb(AV.norm(ME && ME.a), cat, id, 130) : '<div style="font-size:4.5rem;line-height:1.2">🪙</div>';
+    $('chestPic').innerHTML = pic(g);
     $('chestPic').style.animation = 'none'; void $('chestPic').offsetWidth; $('chestPic').style.animation = '';
-    $('chestTitle').textContent = `💝 ${g.fromName} 送你${g.kind === 'item' ? '「' + g.name + '」' : ' ' + g.what + ' 枚代幣'}！`;
+    $('chestTitle').textContent = `💝 ${g.fromName} 送你${what(g)}！`;
     $('chestText').textContent = '「' + g.msg + '」';
+    const act = async (a, wear) => {
+      $('chestOk').disabled = $('chestNo').disabled = $('chestWear').disabled = true;
+      try { await postJ({type: 'giftact', id: g.id, act: a}); } catch (e) {}
+      $('chestOk').disabled = $('chestNo').disabled = $('chestWear').disabled = false;
+      if (a === 'accept') { await loadProfile(); if (wear && ME) { AVSEL = AV.norm(ME.a); AVSEL[cat] = id; await saveAv(); } }
+      GF.log = null;
+      nextChest();
+    };
+    $('chestNo').classList.remove('hidden');
+    $('chestNo').onclick = () => act('reject');
+    $('chestOk').onclick = () => act('accept');
     $('chestWear').classList.toggle('hidden', g.kind !== 'item');
-    $('chestWear').onclick = async () => { AVSEL = AV.norm(ME.a); AVSEL[cat] = id; await saveAv(); nextChest(); };
+    $('chestWear').textContent = '收下並戴上';
+    $('chestWear').onclick = () => act('accept', true);
     $('chest').classList.remove('hidden');
     try { SND.ok(8); } catch (e) {}
     if (typeof confetti === 'function') confetti();
     return;
   }
+  $('chestWear').textContent = '馬上戴上';
   $('chestWear').classList.remove('hidden');
   $('chestPic').innerHTML = trThumb(t, 130);
   $('chestPic').style.animation = 'none'; void $('chestPic').offsetWidth; $('chestPic').style.animation = '';
@@ -1648,7 +1691,6 @@ function nextChest(){
   try { SND.ok(8); } catch (e) {}
   if (typeof confetti === 'function') confetti();
 }
-$('chestOk').onclick = nextChest;
 function openTr(){
   if (!ME || !AV.items) return;
   AVSEL = AV.norm(ME.a); AVCAT = '_tr'; openAv(true);

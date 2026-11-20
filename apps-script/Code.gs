@@ -34,6 +34,8 @@ function doPost(e) {
     if (body.type === 'show') return out_(saveShow_(seat, body.show));
     if (body.type === 'gift') return out_(gift_(seat, body));
     if (body.type === 'inbox') return out_(inbox_(seat));
+    if (body.type === 'giftact') return out_(giftAct_(seat, body.id, body.act));
+    if (body.type === 'giftpref') return out_(giftPref_(seat, !!body.block));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
@@ -1429,7 +1431,9 @@ function saveShow_(seat, ids) {
   return { ok: true, show: clean };
 }
 // ===================== 送禮物 =====================
-// 「禮物」分頁：時間 | 送禮座號 | 收禮座號 | 類型（coin／item） | 內容（代幣數或 分類:商品） | 祝福語 | 花費 | 開啟時間
+// 「禮物」分頁：時間 | 送禮座號 | 收禮座號 | 類型（coin／item） | 內容（代幣數或 分類:商品） | 祝福語 | 花費 | 開啟時間 | 狀態（收下／退回） | 退回已通知
+// 收禮的人可以「退回」：退回的禮物不算數，代幣自動還給送禮的人。也可以「暫停收禮」（造型分頁 G 欄）。
+// 祝福語可以自己寫（最多 30 字，有不雅字詞就擋下），所有內容老師都看得到。
 // 規則：不能送自己；學生每天最多送 3 份、代幣一次 10–50 枚；商品＝幫對方買商店的東西（自己付錢）。
 //       老師帳號（31 號以後）送代幣不扣自己的錢，一次最多 200 枚，可以當作獎勵。
 const GIFT_NAME = '禮物';
@@ -1437,23 +1441,27 @@ const GIFT_MSGS = ['加油！一起背單字 💪', '謝謝你幫我 🙏', '恭
 function giftSheet_() {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
   let sh = ss.getSheetByName(GIFT_NAME);
-  if (!sh) { sh = ss.insertSheet(GIFT_NAME); sh.getRange(1, 1, 1, 8).setValues([['時間', '送禮座號', '收禮座號', '類型', '內容', '祝福語', '花費', '開啟時間']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  if (!sh) { sh = ss.insertSheet(GIFT_NAME); sh.setFrozenRows(1); }
+  if (sh.getRange(1, 10).getValue() !== '退回已通知') sh.getRange(1, 1, 1, 10).setValues([['時間', '送禮座號', '收禮座號', '類型', '內容', '祝福語', '花費', '開啟時間', '狀態', '退回已通知']]).setFontWeight('bold');
   return sh;
 }
 function giftRows_() {
   const sh = giftSheet_(), n = sh.getLastRow() - 1;
   if (n <= 0) return [];
-  return sh.getRange(2, 1, n, 8).getValues().map(function (r, i) {
+  return sh.getRange(2, 1, n, 10).getValues().map(function (r, i) {
     return { row: i + 2, at: r[0] instanceof Date ? Utilities.formatDate(r[0], 'Asia/Taipei', 'yyyy-MM-dd HH:mm') : String(r[0]),
-      from: parseInt(r[1], 10), to: parseInt(r[2], 10), kind: String(r[3]), what: String(r[4]), msg: String(r[5]), cost: Number(r[6]) || 0, opened: !!r[7] };
+      from: parseInt(r[1], 10), to: parseInt(r[2], 10), kind: String(r[3]), what: String(r[4]), msg: String(r[5]), cost: Number(r[6]) || 0, opened: !!r[7],
+      rejected: String(r[8]) === '退回', told: !!r[9] };
   });
 }
 // 每個人：收到的代幣、送禮花掉的代幣、收到的商品
 function giftTotals_() {
   const t = {}, T = function (k) { return t[k] = t[k] || { recv: 0, cost: 0, items: [], sent: 0, from: {} }; };
   giftRows_().forEach(function (g) {
-    if (g.kind === 'coin') T(g.to).recv += Number(g.what) || 0;
-    if (g.kind === 'item') T(g.to).items.push(g.what);
+    if (g.rejected) return;   // 被退回的禮物不算：收禮的人沒拿到，送禮的人也不用付
+    // 送出就先扣送禮的人；收禮的人要按「收下」才拿到（避免先花掉再退回）
+    if (g.opened && g.kind === 'coin') T(g.to).recv += Number(g.what) || 0;
+    if (g.opened && g.kind === 'item') T(g.to).items.push(g.what);
     T(g.from).cost += g.cost; T(g.from).sent++;
     T(g.to).from[g.from] = 1;
   });
@@ -1470,8 +1478,16 @@ function gift_(seat, b) {
   const ro = roster_();
   if (!to || !ro[to] || to === 30) return { ok: false, error: '找不到收禮的同學' };
   if (to === seat) return { ok: false, error: '不能送給自己喔' };
-  const msg = GIFT_MSGS[parseInt(b.msg, 10)] || GIFT_MSGS[0];
-  if (!staff && msg === '老師給你的獎勵 🏅') return { ok: false, error: '這句只有老師能用' };
+  let msg;
+  if (b.text != null && String(b.text).trim()) {
+    msg = String(b.text).replace(/[\u0000-\u001f<>]/g, '').replace(/\s+/g, ' ').trim();
+    if (msg.length > 30) return { ok: false, error: '自己寫的話最多 30 個字' };
+    if (badWord_(msg)) return { ok: false, error: '這句話好像不太友善，換個說法吧！' };
+  } else {
+    msg = GIFT_MSGS[parseInt(b.msg, 10)] || GIFT_MSGS[0];
+    if (!staff && msg === '老師給你的獎勵 🏅') return { ok: false, error: '這句只有老師能用' };
+  }
+  if (noGift_()[to]) return { ok: false, error: '對方目前暫停收禮物' };
   const lock = LockService.getScriptLock();
   lock.waitLock(20000);
   try {
@@ -1487,6 +1503,7 @@ function gift_(seat, b) {
       if (!it || it.s == null) return { ok: false, error: '這個商品不能送' };
       what = c.key + ':' + it.id;
       if ((you.own || []).indexOf(what) >= 0) return { ok: false, error: '對方已經有這個了，換一個吧！' };
+      if (giftRows_().some(function (g) { return g.to === to && g.what === what && g.kind === 'item' && !g.opened && !g.rejected; })) return { ok: false, error: '已經有人送對方這個了，換一個吧！' };
       kind = 'item'; cost = it.s;
     } else {
       const n = parseInt(b.amount, 10);
@@ -1495,20 +1512,49 @@ function gift_(seat, b) {
       kind = 'coin'; what = String(n); cost = staff ? 0 : n;
     }
     if (cost > (me.coin || 0)) return { ok: false, error: '代幣不夠，還差 ' + (cost - (me.coin || 0)) + ' 枚' };
-    giftSheet_().appendRow([new Date(), seat, to, kind, what, msg, cost, '']);
+    giftSheet_().appendRow([new Date(), seat, to, kind, what, msg, cost, '', '', '']);
     bump_();
     return { ok: true, coin: (me.coin || 0) - cost, left: staff ? null : 2 - sentToday };
   } finally { lock.releaseLock(); }
 }
-// 收禮：回傳還沒打開的禮物並標記已開啟；也回傳最近送出的禮物
+// 不雅字詞（擋下自己寫的祝福語）
+const BAD_WORDS = ['幹', '靠北', '靠杯', '白痴', '白癡', '智障', '低能', '腦殘', '去死', '垃圾', '廢物', '賤', '婊', '操你', '雞掰', '機掰', '滾', '醜八怪', '肥豬', '死胖子', '笨蛋', '蠢', '神經病', '王八', '他媽', '你媽', '妳媽', 'fuck', 'shit', 'bitch', 'damn', 'stupid', 'idiot', 'loser', 'ugly', 'http', 'www', '.com'];
+function badWord_(t) { t = String(t).toLowerCase().replace(/\s/g, ''); return BAD_WORDS.some(function (w) { return t.indexOf(w) >= 0; }); }
+// 暫停收禮的人（造型分頁 G 欄填 1）
+function noGift_() {
+  const sh = avSheet_(), out = {};
+  if (sh.getLastRow() > 1 && sh.getLastColumn() >= 7) sh.getRange(2, 1, sh.getLastRow() - 1, 7).getValues().forEach(function (r) { if (String(r[6]) === '1') out[parseInt(r[0], 10)] = true; });
+  return out;
+}
+function giftPref_(seat, block) {
+  const sh = avSheet_(), n = sh.getLastRow() - 1;
+  if (sh.getRange(1, 7).getValue() !== '暫停收禮') sh.getRange(1, 7).setValue('暫停收禮').setFontWeight('bold');
+  let row = 0;
+  if (n > 0) sh.getRange(2, 1, n, 1).getValues().forEach(function (r, i) { if (parseInt(r[0], 10) === seat) row = i + 2; });
+  if (row) sh.getRange(row, 7).setValue(block ? '1' : '');
+  else sh.appendRow([seat, '', '', '[]', 0, '[]', block ? '1' : '']);
+  return { ok: true, block: !!block };
+}
+// 收下或退回一份禮物
+function giftAct_(seat, row, act) {
+  const g = giftRows_().filter(function (x) { return x.row === parseInt(row, 10); })[0];
+  if (!g || g.to !== seat) return { ok: false, error: '找不到這份禮物' };
+  if (g.opened) return { ok: true, already: true };
+  const sh = giftSheet_();
+  sh.getRange(g.row, 8, 1, 2).setValues([[new Date(), act === 'reject' ? '退回' : '收下']]);
+  bump_();
+  return { ok: true, act: act === 'reject' ? 'reject' : 'accept' };
+}
+// 收禮匣：還沒處理的禮物、自己送出被退回（還沒通知過）的禮物、最近紀錄
 function inbox_(seat) {
   const rows = giftRows_(), ro = roster_(), sh = giftSheet_(), now = new Date();
   const nm = function (k) { return ro[k] ? givenName(ro[k]) : k + ' 號'; };
   const items = avItems_(), label = function (w) { const p = w.split(':'), c = items.cats.filter(function (x) { return x.key === p[0]; })[0], it = c && c.items.filter(function (x) { return x.id === p[1]; })[0]; return it ? it.name : w; };
   const fresh = rows.filter(function (g) { return g.to === seat && !g.opened; });
-  fresh.forEach(function (g) { sh.getRange(g.row, 8).setValue(now); });
-  const fmt = function (g) { return { at: g.at, from: g.from, fromName: nm(g.from), to: g.to, toName: nm(g.to), kind: g.kind, what: g.what, name: g.kind === 'item' ? label(g.what) : '', msg: g.msg }; };
-  return { ok: true, fresh: fresh.map(fmt),
+  const back = rows.filter(function (g) { return g.from === seat && g.rejected && !g.told; });
+  back.forEach(function (g) { sh.getRange(g.row, 10).setValue(now); });
+  const fmt = function (g) { return { id: g.row, at: g.at, from: g.from, fromName: nm(g.from), to: g.to, toName: nm(g.to), kind: g.kind, what: g.what, name: g.kind === 'item' ? label(g.what) : '', msg: g.msg, cost: g.cost, rejected: g.rejected }; };
+  return { ok: true, fresh: fresh.map(fmt), back: back.map(fmt), block: !!noGift_()[seat],
     recv: rows.filter(function (g) { return g.to === seat; }).slice(-10).reverse().map(fmt),
     sent: rows.filter(function (g) { return g.from === seat; }).slice(-10).reverse().map(fmt) };
 }
