@@ -1959,7 +1959,9 @@ function bossFight_(seat, b) {
   const i = BOSSES.map(function (x) { return x.id; }).indexOf(String(b.boss || '')), B = BOSSES[i];
   if (!B) return { ok: false, error: '找不到這隻 BOSS' };
   if (!bossOpen_(seat)) return { ok: false, error: 'BOSS 戰只在週六、週日開放喔！' };
-  const key = loadKey_(), ans = (Array.isArray(b.answers) ? b.answers : []).slice(0, B.hp + B.hearts);
+  const ans = (Array.isArray(b.answers) ? b.answers : []).slice(0, B.hp + B.hearts);
+  let key = loadKey_();
+  if (ans.some(function (a) { return !key[parseInt(a[0], 10)]; })) key = loadKey_(true);   // 題庫剛加新題：重新抓答案檔
   const seen = {};
   for (let k = 0; k < ans.length; k++) {
     const q = parseInt(ans[k][0], 10), e = key[q];

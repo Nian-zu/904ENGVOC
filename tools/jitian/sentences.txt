@@ -1,8 +1,8 @@
-# 寂天 RS3 例句選擇題（老師段考範圍 U11–U20）
+# 寂天 RS3 例句選擇題（U1–U50 全部 775 字；誘答與答案同詞性、同變化形，只能靠字義判斷）
 # 格式：單元|單字（與 rs3.json 相同）|句子（___ 是空格）|答案（句中的樣子）|誘答（逗號分開；變化形寫成 形式=原形）|中文
 11|junior|Amy is in her third year of ___ high school.|junior|silly,amazing,tough|艾咪是國中三年級的學生。
-11|fellow|The players thanked their ___ teammates after the game.|fellow|explode,discover,luck|比賽結束後，球員們感謝他們的隊友。
-11|silly|Don't ask me such a ___ question! Everyone knows the answer.|silly|quit,explode,luck|別問我這麼蠢的問題！大家都知道答案。
+11|fellow|The players thanked their ___ teammates after the game.|fellow|disgusting,nasty,cruel|比賽結束後，球員們感謝他們的隊友。
+11|silly|Don't ask me such a ___ question! Everyone knows the answer.|silly|tough,amazing,dangerous|別問我這麼蠢的問題！大家都知道答案。
 11|principal|The ___ gave a speech to all the students at the school meeting.|principal|luck,experiment,beetle|校長在朝會上對全體學生演講。
 11|discover|Scientists hope to ___ new kinds of animals deep in the ocean.|discover|quit,explode,apologize|科學家希望在深海發現新的動物種類。
 11|feel at home|Our host family was so kind that I began to ___ in just a few days.|feel at home|result in,feed on,cut out|寄宿家庭非常親切，我才幾天就感到很自在。
@@ -93,7 +93,7 @@
 16|firsthand|Working at the hospital gave her ___ experience of a doctor's life.|firsthand|someday,moreover,secondly|在醫院工作讓她親身體驗了醫生的生活。
 16|naturally|Her hair is ___ curly. She never goes to the hair salon.|naturally|someday,secondly,moreover|她的頭髮是天生捲的，從來不去美髮院。
 16|belong|Wild animals ___ in nature, not in cages.|belong|weigh,hatch,apologize|野生動物應該待在大自然裡，而不是籠子裡。
-16|against|Most students voted ___ the new school rule.|against|onto,including,since|大部分學生投票反對新校規。
+16|against|Most students voted ___ the new school rule.|against|onto,including,within|大部分學生投票反對新校規。
 16|vote|Let's ___ to decide which movie to watch.|vote|breathe,lay,hatch|我們投票決定要看哪部電影吧。
 17|restaurant|We had dinner at a famous Italian ___ last night.|restaurant|ambulance,kilogram,beetle|我們昨晚在一家有名的義大利餐廳吃晚餐。
 17|host|Which country will ___ the next Olympic Games?|host|breathe,weigh,lay|下一屆奧運會由哪個國家主辦？
@@ -117,7 +117,7 @@
 18|mixed-breed|Max is a ___ dog. His mother was a poodle, and his father was a beagle.|mixed-breed|careless,ignorant,recent|麥克斯是混種狗，媽媽是貴賓狗，爸爸是米格魯。
 18|mostly|The dog is ___ white, with a few black spots.|mostly|someday,moreover,secondly|那隻狗大部分是白色的，有幾個黑色斑點。
 18|spot|Our dog has a brown ___ on its back.|spot|luck,kilogram,paperwork|我們的狗背上有一個棕色斑點。
-18|including|Everyone came to the party, ___ my grandparents.|including|onto,against,since|大家都來參加派對了，包括我的祖父母。
+18|including|Everyone came to the party, ___ my grandparents.|including|onto,against,below|大家都來參加派對了，包括我的祖父母。
 18|weigh|How much does your dog ___?|weigh|breathe,apologize,argue|你的狗有多重？
 18|kilogram|The dog weighs about ten ___.|kilograms|collars=collar,medals=medal,nests=nest|那隻狗大約十公斤重。
 18|centimeter|The dog is about 50 ___ tall.|centimeters|kilograms=kilogram,collars=collar,medals=medal|那隻狗大約 50 公分高。
@@ -131,7 +131,7 @@
 19|ambulance|Someone is hurt! Call an ___!|ambulance|aquarium,item,ocean|有人受傷了！快叫救護車！
 19|tap|He ___ me on the shoulder to get my attention.|tapped|buried=bury,hatched=hatch,weighed=weigh|他拍拍我的肩膀，引起我的注意。
 19|gently|Hold the baby bird ___. It's very weak.|gently|moreover,secondly,someday|輕輕地拿著小鳥，牠很虛弱。
-19|onto|The cat jumped ___ the table.|onto|since,including,whoever|貓跳到桌子上。
+19|onto|The cat jumped ___ the table.|onto|including,despite,within|貓跳到桌子上。
 19|tilt|___ the person's head back to open the airway.|Tilt|Weigh=weigh,Hatch=hatch,Apologize=apologize|把傷者的頭往後仰，打開呼吸道。
 19|remove|Please ___ your shoes before you enter the house.|remove|breathe,hatch,weigh|進屋前請把鞋子脫掉。
 19|breathe|Fish can ___ underwater, but we can't.|breathe|weigh,hatch,apologize|魚能在水中呼吸，但我們不行。
@@ -157,3 +157,624 @@
 20|seriously|Please take your homework ___.|seriously|moreover,someday,secondly|請認真看待你的作業。
 20|whenever|___ I feel sad, I listen to music.|Whenever|Whoever=whoever,Moreover=moreover,Including=including|每當我難過時，我就會聽音樂。
 20|address|Please write your name and ___ on the envelope.|address|blood,luck,dung|請在信封上寫上你的姓名和地址。
+# ---------- U1–U10（鑑別度：誘答都和答案同詞性、同變化形，只能靠字義判斷） ----------
+1|sail|Our ship will ___ to Okinawa tomorrow morning.|sail|entertain,forgive,remind|我們的船明天早上將航行到沖繩。
+1|in style|They arrived at the wedding ___ in a white limousine.|in style|over time,at hand,for sale|他們搭著白色加長禮車，風光體面地抵達婚禮。
+1|cruise|My grandparents went on a seven-day ___ around Japan on a huge ship.|cruise|shelter,funeral,stain|我爺爺奶奶搭大船去日本玩了七天的郵輪之旅。
+1|luxury|The hotel room had a private pool and its own chef. It was pure ___.|luxury|ketchup,difficulty,symptom|那間飯店房間有私人泳池和專屬主廚，真是極致奢華。
+1|float|Wood can ___ on water, but stones sink.|float|squirt,pinch,bless|木頭能浮在水上，但石頭會沉下去。
+1|onboard|The ship has its own ___ cinema and three restaurants.|onboard|clumsy,sore,miserable|這艘船上有自己的電影院和三間餐廳。
+1|performer|After the show, the ___ bowed to the audience.|performer|stem,article,curry|表演結束後，表演者向觀眾鞠躬。
+1|entertain|The clowns ___ the children with funny tricks.|entertained|forgave=forgive,adopted=adopt,regretted=regret|小丑用好笑的把戲逗孩子們開心。
+1|chef|The ___ in this restaurant cooks amazing French food.|chef|kitten,stem,shelter|這家餐廳的主廚會做很棒的法國菜。
+1|destination|Our final ___ is Paris; we'll stay there for a week.|destination|ketchup,muscle,behavior|我們的最終目的地是巴黎，會在那裡待一週。
+1|guide|Our tour ___ showed us around the old town.|guide|stain,joint,curry|我們的導遊帶我們參觀老城區。
+1|sight|The Eiffel Tower is one of the most famous ___ in Paris.|sights|stains=stain,muscles=muscle,symptoms=symptom|艾菲爾鐵塔是巴黎最有名的景點之一。
+1|local|We ate ___ food at a night market in Tainan.|local|clumsy,sore,mad|我們在台南的夜市吃當地的小吃。
+1|culture|Learning a language helps you understand another country's ___.|culture|ketchup,joint,stem|學一種語言能幫你了解另一個國家的文化。
+1|schedule|According to the ___, the train leaves at 9:15.|schedule|kitten,muscle,stain|根據時刻表，火車九點十五分開。
+1|information|You can find more ___ about the museum on its website.|information|ketchup,coordination,quarantine|你可以在博物館的網站上找到更多資訊。
+2|bless|"___ you!" Grandma said when I sneezed.|Bless|Pinch=pinch,Squirt=squirt,Adopt=adopt|我打噴嚏時，奶奶說：「保佑你！」
+2|favorite|Pizza is my ___ food. I could eat it every day.|favorite|clumsy,mad,sore|披薩是我最愛的食物，我可以天天吃。
+2|pinch|My little sister likes to ___ my cheeks when she wants attention.|pinch|bless,sail,float|我妹妹想引起注意時，喜歡捏我的臉頰。
+2|stem|Hold the flower by its long green ___.|stem|ketchup,kitten,stain|拿著花長長的綠色莖。
+2|clumsy|I'm so ___ that I dropped my phone three times today.|clumsy|favorite,local,previous|我笨手笨腳的，今天手機掉了三次。
+2|squirt|My brother ___ water at me with his water gun.|squirted|blessed=bless,forgave=forgive,adopted=adopt|我弟弟用水槍噴我水。
+2|mad|Mom was ___ at me because I came home late.|mad|favorite,local,online|媽媽因為我晚回家而對我很生氣。
+2|forgive|I'm really sorry. Please ___ me.|forgive|float,sail,solve|我真的很抱歉，請原諒我。
+2|on purpose|He didn't break the vase ___. It was an accident.|on purpose|in style,at hand,over time|他不是故意打破花瓶的，那是個意外。
+2|help out|My classmates always ___ when I have problems with math.|help out|come off,pass away,fall out|我數學有問題時，同學們總會幫忙。
+2|kitten|The mother cat is taking care of her five ___.|kittens|stains=stain,stems=stem,articles=article|貓媽媽正在照顧她的五隻小貓。
+2|accidentally|I ___ deleted my homework file, so I had to do it again.|accidentally|exactly,peacefully,secondly|我不小心刪掉了作業檔案，只好重做一次。
+2|ketchup|Do you want some ___ on your French fries?|ketchup|stain,stem,shelter|你的薯條要加番茄醬嗎？
+2|stain|There's a coffee ___ on your white shirt.|stain|stem,kitten,cruise|你的白襯衫上有一塊咖啡漬。
+2|come off|A button ___ my coat this morning.|came off|helped out=help out,passed away=pass away,fell out=fall out|今天早上我外套的一顆釦子掉了。
+3|puppy|Our dog just had four cute ___.|puppies|articles=article,shelters=shelter,owners=owner|我們家的狗剛生了四隻可愛的小狗。
+3|article|I read an interesting ___ about whales in the newspaper.|article|shelter,owner,instrument|我在報紙上讀到一篇關於鯨魚的有趣文章。
+3|shelter|We adopted our dog from an animal ___.|shelter|article,instrument,ability|我們從動物收容所領養了我們的狗。
+3|recently|I have ___ started learning Japanese.|recently|exactly,peacefully,secondly|我最近開始學日文。
+3|soft|This pillow is so ___ that I fell asleep right away.|soft|clumsy,mad,online|這個枕頭好軟，我馬上就睡著了。
+3|online|You can buy the concert tickets ___ or at the convenience store.|online|previous,favorite,loving|你可以在網路上或便利商店買演唱會門票。
+3|offer|My neighbor ___ to drive me to the station.|offered|adopted=adopt,forgave=forgive,blessed=bless|我的鄰居主動提出要載我去車站。
+3|adopt|They decided to ___ a cat from the shelter.|adopt|remind,forgive,pinch|他們決定從收容所領養一隻貓。
+3|remind|Please ___ me to buy milk on the way home.|remind|adopt,bless,forgive|請提醒我回家路上要買牛奶。
+3|loving|The puppy found a ___ family who takes good care of it.|loving|previous,clumsy,sore|小狗找到了一個會好好照顧牠、充滿愛的家庭。
+3|pet|Do you have any ___ at home, like a dog or a cat?|pets|articles=article,shelters=shelter,instruments=instrument|你家有養寵物嗎？像是狗或貓？
+3|previous|Our ___ English teacher moved to Canada last year.|previous|soft,online,homemade|我們之前的英文老師去年搬到加拿大了。
+3|owner|The dog's ___ was looking for it everywhere.|owner|shelter,article,stem|狗的主人到處在找牠。
+4|rock climbing|___ is a sport that uses both your body and your brain.|Rock climbing|Behavior=behavior,Information=information,Luxury=luxury|攀岩是一種同時要用到身體和頭腦的運動。
+4|difficulty|She had no ___ finding the hotel; it was right next to the station.|difficulty|muscle,detail,joint|她毫不困難就找到了飯店，就在車站旁邊。
+4|beginner|This yoga class is for ___, so you don't need any experience.|beginners|muscles=muscle,joints=joint,brains=brain|這堂瑜伽課是給初學者上的，你不需要任何經驗。
+4|activity|Swimming is my favorite summer ___.|activity|detail,brain,joint|游泳是我最喜歡的夏日活動。
+4|muscle|Lifting weights can make your arm ___ stronger.|muscles|details=detail,beginners=beginner,activities=activity|舉重可以讓你的手臂肌肉更強壯。
+4|stressful|Moving to a new country can be very ___.|stressful|soft,local,sore|搬到一個新的國家可能會壓力很大。
+4|joint|My knee ___ hurts after I run for a long time.|joint|brain,detail,message|我跑很久之後膝關節會痛。
+4|sore|My legs were ___ after the long hike.|sore|online,local,previous|走了很長的山路之後，我的腿很痠痛。
+4|develop|Playing sports helps children ___ strong bodies.|develop|solve,remind,adopt|運動能幫助孩子發展出強壯的身體。
+4|coordination|Dancing improves the ___ between your hands and feet.|coordination|message,beginner,ketchup|跳舞能增進手腳之間的協調。
+4|brain|Your ___ controls everything you think and do.|brain|muscle,joint,detail|你的大腦控制你所想和所做的一切。
+4|solve|Can you help me ___ this math problem?|solve|remind,adopt,bless|你可以幫我解這道數學題嗎？
+4|ability|She has the ___ to speak four languages.|ability|difficulty,detail,brain|她有說四種語言的能力。
+4|message|Please ___ me when you get home.|message|solve,develop,float|你到家時請傳訊息給我。
+4|detail|Please tell me every ___ of the story. I want to know everything.|detail|brain,muscle,joint|請告訴我這件事的每個細節，我全部都想知道。
+5|advice|Can you give me some ___ about which school to choose?|advice|curry,soccer,behavior|你可以給我一些選學校的建議嗎？
+5|experience|She has five years of ___ as a nurse.|experience|behavior,instrument,soccer|她有五年的護理師經驗。
+5|seem|You ___ tired today. Did you sleep well?|seem|suit,waste,regret|你今天看起來很累，有睡好嗎？
+5|behavior|The teacher praised the students for their good ___.|behavior|curry,instrument,soccer|老師稱讚學生們表現良好。
+5|suit|Short hair really ___ you. You look great!|suits|wastes=waste,seems=seem,regrets=regret|短髮真的很適合你，你看起來很棒！
+5|exactly|The train left at ___ 7:00, not a minute later.|exactly|instead,recently,accidentally|火車準時七點整開走，一分鐘都沒晚。
+5|instrument|The violin is a difficult ___ to learn.|instrument|curry,behavior,advice|小提琴是一種很難學的樂器。
+5|instead|I don't like coffee. Can I have tea ___?|instead|exactly,recently,accidentally|我不喜歡咖啡，可以改喝茶嗎？
+5|soccer|Brazil is famous for its great ___ players like Pelé.|soccer|curry,advice,behavior|巴西以比利等傑出的足球員聞名。
+5|such|It was ___ a beautiful day that we went to the beach.|such|homemade,favorite,previous|天氣實在太好了，所以我們去了海邊。
+5|miserable|I felt ___ when I had a bad cold and couldn't go out.|miserable|homemade,local,online|我得了重感冒又不能出門時，覺得好痛苦。
+5|regret|I ___ not studying harder for the test.|regret|suit,seem,waste|我很後悔考試前沒有更用功。
+5|homemade|My grandma's ___ dumplings are better than any restaurant's.|homemade|miserable,stressful,clumsy|我奶奶自己包的水餃比任何餐廳的都好吃。
+5|curry|I'd like some chicken ___ with rice, please.|curry|soccer,advice,behavior|我想要一份雞肉咖哩飯，謝謝。
+5|despite|___ the rain, we still went hiking.|Despite|Instead=instead,Exactly=exactly,Recently=recently|儘管下雨，我們還是去爬山了。
+5|waste|Don't ___ your time playing games all day.|waste|suit,seem,adopt|別把時間浪費在整天打電動上。
+6|story|The news ___ was about a fire in the city center.|story|virus,staff,symptom|這則新聞報導是關於市中心的一場火災。
+6|department|My mom works in the sales ___ of a big company.|department|symptom,virus,infection|我媽媽在一家大公司的業務部門工作。
+6|positive|He had a fever, and his COVID test was ___, so he had to stay home.|positive|loving,soft,homemade|他發燒了，新冠快篩是陽性，所以得待在家。
+6|symptom|A sore throat is a common ___ of a cold.|symptom|department,building,staff|喉嚨痛是感冒常見的症狀。
+6|government|The ___ decided to build a new MRT line.|government|symptom,virus,infection|政府決定要蓋一條新的捷運線。
+6|notify|The school will ___ parents by email if classes are canceled.|notify|receive,adopt,waste|如果停課，學校會用電子郵件通知家長。
+6|receive|Did you ___ my email yesterday?|receive|notify,regret,adopt|你昨天有收到我的電子郵件嗎？
+6|keep an eye on|Could you ___ my bag while I go to the restroom?|keep an eye on|help out,come off,pass away|我去洗手間的時候，你可以幫我看著包包嗎？
+6|ill|He was ___ in bed with a high fever for three days.|ill|positive,homemade,online|他發高燒臥病在床三天。
+6|building|Taipei 101 is a very tall ___.|building|virus,symptom,department|台北 101 是一棟非常高的建築。
+6|staff|The hotel ___ were very friendly and helpful.|staff|virus,symptom,infection|飯店的工作人員非常友善又樂於助人。
+6|source|The sun is our main ___ of light and energy.|source|symptom,staff,building|太陽是我們光和能量的主要來源。
+6|infection|Washing your hands can stop the spread of ___.|infection|department,government,building|洗手可以阻止感染擴散。
+6|negative|Good news! Your test is ___, so you can go back to school.|negative|ill,loving,clumsy|好消息！你的檢測是陰性，可以回學校了。
+6|quarantine|Travelers had to stay in ___ for 14 days during the pandemic.|quarantine|department,government,staff|疫情期間，旅客必須隔離十四天。
+6|virus|The flu is caused by a ___.|virus|staff,building,department|流感是由病毒引起的。
+7|studio apartment|She lives alone in a small ___ with just one room.|studio apartment|security deposit,front desk,exercise bike|她一個人住在只有一個房間的小套房。
+7|rent|We ___ a car during our trip to Hualien.|rented|included=include,received=receive,notified=notify|我們去花蓮旅行時租了一台車。
+7|closet|Hang your coat in the ___.|closet|location,university,bill|把你的外套掛在衣櫥裡。
+7|location|The hotel is in a great ___, close to the station.|location|closet,bill,electricity|這間飯店位置很好，離車站很近。
+7|university|My brother studies engineering at a ___ in Tainan.|university|closet,bill,landlord|我哥哥在台南的一所大學念工程。
+7|lively|The night market is ___ and full of people.|lively|sore,clumsy,previous|夜市熱鬧又擠滿了人。
+7|café|Let's meet at the ___ and have some coffee.|café|closet,bill,landlord|我們約在咖啡廳喝點咖啡吧。
+7|Tube|In London, you can take the ___ to get around the city quickly.|Tube|closet,bill,landlord|在倫敦，你可以搭地鐵快速在市區移動。
+7|nearby|Is there a convenience store ___?|nearby|lively,local,soft|附近有便利商店嗎？
+7|up front|You have to pay two months' rent ___ before you move in.|up front|in style,on purpose,in short|搬進去之前，你得先預付兩個月的房租。
+7|security deposit|The landlord will return your ___ when you move out.|security deposit|studio apartment,exercise bike,front desk|你搬走時，房東會退還你的押金。
+7|electricity|The ___ went off during the typhoon, so we used candles.|electricity|closet,bill,landlord|颱風時停電了，所以我們點蠟燭。
+7|bill|The phone ___ this month is very high.|bill|closet,café,location|這個月的電話帳單非常高。
+7|include|Does the price ___ breakfast?|include|rent,notify,receive|這個價錢有包含早餐嗎？
+7|landlord|The ___ came to fix the broken window.|landlord|closet,electricity,bill|房東來修理破掉的窗戶。
+7|look forward to|I ___ seeing you again next summer.|look forward to|keep an eye on,help out,come off|我很期待明年夏天再見到你。
+8|memory|I have a happy ___ of my first trip to the beach.|memory|funeral,adult,grandchild|我對第一次去海邊有很快樂的回憶。
+8|pass away|My grandfather ___ last year at the age of 90.|passed away|helped out=help out,came off=come off,fell out=fall out|我爺爺去年以九十歲高齡過世。
+8|peacefully|The old man died ___ in his sleep.|peacefully|exactly,instead,secondly|那位老先生在睡夢中安詳地離世。
+8|aged|The farmer, ___ 80, still works in the fields every day.|aged|enormous,natural,whole|那位八十歲的農夫每天仍在田裡工作。
+8|survive|He is ___ by his wife and three children.|survived|invented=invent,spun=spin,solved=solve|他身後留下妻子和三個孩子。
+8|grandchild|Grandma has six ___, and I'm the youngest.|grandchildren|funerals=funeral,memories=memory,muscles=muscle|奶奶有六個孫子女，我是最小的。
+8|outdoors|It's sunny today. Let's play ___.|outdoors|exactly,secondly,mostly|今天天氣晴朗，我們去戶外玩吧。
+8|adult|Children must come with an ___ to watch this movie.|adult|infection,activity,instrument|兒童必須由成人陪同才能看這部電影。
+8|natural|This juice has no sugar added; it's 100% ___.|natural|enormous,aged,clumsy|這果汁沒有加糖，是百分之百天然的。
+8|celebrate|We ___ Grandpa's 80th birthday with a big party.|celebrated|survived=survive,conquered=conquer,invented=invent|我們辦了一場盛大的派對慶祝爺爺八十大壽。
+8|enormous|The elephant is ___; it's as big as a truck.|enormous|aged,natural,peaceful|那隻大象好巨大，跟卡車一樣大。
+8|take pleasure in|My grandpa ___ growing vegetables in his garden.|takes pleasure in|passes away=pass away,comes off=come off,falls out=fall out|我爺爺很喜歡在他的花園裡種菜。
+8|whole|I spent the ___ day cleaning my room.|whole|enormous,natural,aged|我花了一整天打掃房間。
+8|funeral|Many people came to say goodbye at his ___.|funeral|memory,grandchild,adult|很多人來參加他的葬禮向他道別。
+9|climb|It took us three hours to ___ to the top of Jade Mountain.|climb|spin,wonder,regret|我們花了三小時爬到玉山山頂。
+9|step|Watch your ___! The floor is wet.|step|meter,summit,stone|小心腳步！地板是濕的。
+9|one…after another|The runners crossed the finish line ___.|one after another|at hand,up front,over time|跑者們一個接一個衝過終點線。
+9|ahead of|There's a long line ___ us. We'll have to wait.|ahead of|in style,on purpose,up front|我們前面排了很長的隊伍，得等一下了。
+9|meter|The tree is about ten ___ tall.|meters|stones=stone,summits=summit,memories=memory|那棵樹大約十公尺高。
+9|struggle|He had to ___ to keep his eyes open in the boring class.|struggle|conquer,spin,wonder|在無聊的課堂上，他得很努力才能讓眼睛睜開。
+9|spin|The dancer can ___ around on one foot ten times.|spin|conquer,wonder,regret|那位舞者可以單腳旋轉十圈。
+9|stone|The old house was built of ___.|stone|meter,summit,weather|那棟老房子是用石頭蓋的。
+9|conquer|She ___ her fear of water and learned to swim.|conquered|spun=spin,wondered=wonder,climbed=climb|她克服了對水的恐懼，學會了游泳。
+9|below|The temperature dropped ___ zero last night.|below|despite,onto,against|昨晚氣溫降到零度以下。
+9|wonder|I ___ why the sky is blue.|wonder|struggle,conquer,spin|我很好奇天空為什麼是藍色的。
+9|make it|The train leaves in five minutes. Run, and we can ___!|make it|come off,pass away,fall out|火車五分鐘後開，快跑，我們趕得上！
+9|summit|We reached the ___ of the mountain at sunrise.|summit|meter,weather,stone|我們在日出時抵達山頂。
+9|weather|The ___ was terrible, so the climb was canceled.|weather|summit,stone,meter|天氣太糟了，所以登山取消了。
+10|form|Ice is water in solid ___.|form|soul,awe,psychology|冰是固體形式的水。
+10|weep|The movie was so sad that I began to ___.|weep|invent,capture,inspire|這部電影太悲傷了，我哭了起來。
+10|scream|She ___ loudly when she saw the big spider.|screamed|invented=invent,captured=capture,inspired=inspire|她看到那隻大蜘蛛時大聲尖叫。
+10|unique|Every person's fingerprints are ___; no two are the same.|unique|ancient,alive,middle-class|每個人的指紋都是獨一無二的，沒有兩個一樣。
+10|portrait|The artist painted a ___ of the queen.|portrait|soul,awe,psychology|那位畫家畫了一幅女王的肖像。
+10|invent|Who ___ the telephone?|invented|captured=capture,inspired=inspire,screamed=scream|是誰發明了電話？
+10|capture|The police finally ___ the thief.|captured|invented=invent,inspired=inspire,wept=weep|警察終於抓到了小偷。
+10|image|The ___ of the sunset on the lake was beautiful.|image|awe,soul,psychology|湖面上夕陽的倒影好美。
+10|ancient|The pyramids were built in ___ Egypt.|ancient|unique,alive,middle-class|金字塔是在古埃及時代建造的。
+10|artist|Van Gogh was a famous Dutch ___.|artist|portrait,soul,image|梵谷是一位有名的荷蘭畫家。
+10|inspire|Her story ___ me to work harder.|inspired|captured=capture,invented=invent,wept=weep|她的故事激勵我更努力。
+10|awe|We stood in ___ of the huge waterfall.|awe|soul,form,psychology|我們對著巨大的瀑布肅然起敬。
+10|subject|The king ruled his ___ for forty years.|subjects|portraits=portrait,images=image,souls=soul|國王統治他的子民四十年。
+10|alive|The fish is still ___. Put it back into the water!|alive|ancient,unique,middle-class|這條魚還活著，快把牠放回水裡！
+10|middle-class|Most ___ families in the city live in apartments.|middle-class|ancient,alive,unique|城市裡大部分中產階級家庭住在公寓裡。
+10|personality|She has a cheerful ___, and everyone likes her.|personality|psychology,awe,portrait|她個性開朗，大家都喜歡她。
+10|soul|Music is food for the ___.|soul|image,form,portrait|音樂是靈魂的糧食。
+10|psychology|She studies ___ because she wants to understand how people think.|psychology|awe,portrait,soul|她念心理學，因為她想了解人們怎麼思考。
+# ---------- U21–U35 ----------
+21|confuse|These two words always ___ me because they look so similar.|confuse|pretend,chat,date|這兩個字長得很像，總是讓我搞混。
+21|difficult|This math problem is too ___ for me to solve.|difficult|honest,common,alone|這道數學題對我來說太難了，解不出來。
+21|date|Are you free on Saturday? Would you like to go on a ___ with me?|date|hobby,trouble,education|你星期六有空嗎？要不要跟我去約會？
+21|chat|We ___ for hours on the phone last night.|chatted|pretended=pretend,confused=confuse,adopted=adopt|我們昨晚講電話聊了好幾個小時。
+21|pretend|He ___ to be asleep when his mom came in.|pretended|chatted=chat,confused=confuse,offered=offer|媽媽進來時，他假裝睡著了。
+21|alone|She lives ___ in a small apartment.|alone|honest,common,difficult|她一個人住在一間小公寓裡。
+21|common|"Chen" is a very ___ family name in Taiwan.|common|honest,alone,clumsy|「陳」在台灣是很常見的姓。
+21|yet|I haven't finished my homework ___.|yet|exactly,secondly,peacefully|我還沒寫完作業。
+21|focus on|Turn off your phone and ___ your studies.|focus on|plenty of,come off,pass away|把手機關掉，專心念書。
+21|education|A good ___ can open many doors for you.|education|hobby,date,ketchup|良好的教育能為你打開許多扇門。
+21|hobby|My ___ is collecting stamps.|hobby|education,trouble,date|我的嗜好是集郵。
+21|plenty of|Don't hurry. We have ___ time.|plenty of|focus on,ahead of,on purpose|別急，我們有很多時間。
+21|honest|Please be ___ and tell me the truth.|honest|common,alone,difficult|請誠實告訴我真相。
+21|trouble|I had ___ sleeping last night because of the noise.|trouble|hobby,education,date|昨晚因為噪音，我很難入睡。
+22|yoga|My mom does ___ every morning to stay calm and flexible.|yoga|oxygen,chemical,chest|我媽媽每天早上做瑜伽，保持平靜和柔軟度。
+22|improve|Reading English books can ___ your vocabulary.|improve|release,kneel,adopt|讀英文書可以增進你的字彙量。
+22|memory|My grandma has a great ___; she remembers everyone's birthday.|memory|chest,mat,forearm|我奶奶記性很好，記得每個人的生日。
+22|exam (=examination)|I have a math ___ tomorrow, so I need to study tonight.|exam|mat,chest,oxygen|我明天有數學考試，所以今晚得念書。
+22|midnight|I went to bed at ___ because I was studying.|midnight|oxygen,chemical,yoga|我因為在念書，半夜才睡。
+22|oxygen|Plants give off ___ during the day.|oxygen|yoga,mat,chest|植物在白天會釋放氧氣。
+22|boost|A cup of coffee can ___ your energy in the morning.|boost|kneel,recall,adopt|一杯咖啡能在早上提振你的精神。
+22|release|The zoo ___ the bird back into the wild.|released|recalled=recall,knelt=kneel,boosted=boost|動物園把那隻鳥放回野外。
+22|chemical|Some cleaning products contain dangerous ___.|chemicals|mats=mat,chests=chest,forearms=forearm|有些清潔用品含有危險的化學物質。
+22|focus|The ___ of today's lesson is grammar.|focus|oxygen,chest,mat|今天這堂課的重點是文法。
+22|recall|I can't ___ his name. What was it again?|recall|kneel,boost,lift|我想不起他的名字，他叫什麼來著？
+22|forearm|He rested his ___ on the table.|forearm|oxygen,yoga,midnight|他把前臂靠在桌上。
+22|lift|This box is too heavy for me to ___.|lift|kneel,recall,boost|這個箱子太重了，我抬不起來。
+22|chest|He felt a pain in his ___ and went to see a doctor.|chest|mat,yoga,midnight|他覺得胸口痛，就去看醫生了。
+22|mat|Wipe your feet on the ___ before you come in.|mat|chest,yoga,oxygen|進來之前先在墊子上擦擦腳。
+22|kneel|The man ___ down and asked her to marry him.|knelt|lifted=lift,recalled=recall,boosted=boost|那個男人單膝跪下向她求婚。
+22|apart|The twins live 100 kilometers ___.|apart|alone,nearby,yet|那對雙胞胎住的地方相隔一百公里。
+23|exercise bike|I ride my ___ at home while watching TV.|exercise bike|security deposit,studio apartment,front desk|我在家一邊看電視一邊騎健身腳踏車。
+23|second-hand|I bought a ___ bike for only 1,000 dollars.|second-hand|sensitive,silent,elderly|我只花一千元買了一台二手腳踏車。
+23|condition|The old car is still in good ___.|condition|distance,calorie,screen|這台舊車的狀況還很好。
+23|deliver|The store will ___ the sofa to your home tomorrow.|deliver|improve,boost,kneel|店家明天會把沙發送到你家。
+23|offer|He made me an ___ of $500 for my old bike.|offer|oxygen,infection,activity|他出價五百元要買我的舊腳踏車。
+23|measurement|Before buying the sofa, check its ___ to see if it fits.|measurements|screens=screen,calories=calorie,distances=distance|買沙發前先確認尺寸，看放不放得下。
+23|upstairs|My bedroom is ___, on the second floor.|upstairs|apart,alone,yet|我的房間在樓上的二樓。
+23|elderly|We should give our seats to ___ people on the bus.|elderly|second-hand,silent,difficult|我們在公車上應該讓座給年長者。
+23|neighbor|Our ___ next door has a big dog.|neighbor|screen,condition,calorie|我們隔壁的鄰居養了一隻大狗。
+23|sensitive|My skin is very ___ to the sun; it burns easily.|sensitive|silent,elderly,second-hand|我的皮膚對陽光很敏感，很容易曬傷。
+23|silent|The classroom was ___ during the test.|silent|elderly,second-hand,sensitive|考試時教室一片寂靜。
+23|screen|Don't sit too close to the TV ___.|screen|calorie,speed,distance|不要坐得離電視螢幕太近。
+23|distance|The ___ from my home to school is about two kilometers.|distance|speed,calorie,screen|我家到學校的距離大約兩公里。
+23|speed|The train travels at a ___ of 300 kilometers per hour.|speed|distance,calorie,condition|這班火車以時速三百公里行駛。
+23|calorie|This cake has more than 500 ___.|calories|screens=screen,speeds=speed,neighbors=neighbor|這塊蛋糕超過五百大卡。
+24|imagination|Children have a wonderful ___; they can turn a box into a spaceship.|imagination|opinion,diary,community|孩子們有很棒的想像力，能把箱子變成太空船。
+24|mental|Exercise is good for both your physical and ___ health.|mental|regular,second-hand,silent|運動對身心健康都有好處。
+24|regular|Getting ___ exercise keeps you healthy.|regular|mental,silent,elderly|規律運動讓你保持健康。
+24|habit|Biting your nails is a bad ___.|habit|diary,club,community|咬指甲是個壞習慣。
+24|pack|Don't forget to ___ your swimsuit for the trip.|pack|kneel,recall,boost|別忘了把泳衣裝進行李帶去旅行。
+24|at hand|Always keep a pen ___ when you study.|at hand|over time,in person,in short|念書時手邊隨時準備一支筆。
+24|diary|I write in my ___ every night before bed.|diary|club,community,habit|我每晚睡前寫日記。
+24|opinion|In my ___, this is the best movie of the year.|opinion|diary,habit,club|在我看來，這是今年最好的電影。
+24|line|Can you read the first ___ of the poem aloud?|line|club,community,habit|你可以把這首詩的第一行唸出來嗎？
+24|over time|Your English will get better ___ if you keep practicing.|over time|at hand,in person,up front|只要持續練習，你的英文會隨著時間越來越好。
+24|keep up|You're doing great! ___ the good work!|Keep up|Help out=help out,Come off=come off,Pass away=pass away|你做得很好！繼續保持！
+24|community|Our ___ has a park, a library, and a small market.|community|habit,diary,opinion|我們社區有一座公園、一間圖書館和一個小市場。
+24|club|I joined the school's English ___ to make new friends.|club|habit,diary,opinion|我加入了學校的英文社團來交新朋友。
+24|in person|I'd like to thank you ___, not just by email.|in person|over time,at hand,up front|我想親自向你道謝，而不只是寄電子郵件。
+24|read|This novel is a really good ___; I finished it in one day.|read|habit,club,line|這本小說真的很好看，我一天就看完了。
+25|tough|The steak is so ___ that I can't cut it.|tough|edible,liquid,deadly|這塊牛排硬到我切不動。
+25|swallow|Chew your food well before you ___ it.|swallow|squeeze,hang,connect|食物要先嚼爛再吞下去。
+25|pee|The puppy ___ on the carpet again!|peed|squeezed=squeeze,hung=hang,connected=connect|小狗又在地毯上尿尿了！
+25|rotten|Throw away that apple. It's ___.|rotten|edible,deadly,liquid|把那顆蘋果丟掉，它爛掉了。
+25|shark|A ___ has many sharp teeth and lives in the ocean.|shark|sand,liquid,pee|鯊魚有很多尖牙，住在海裡。
+25|horrible|The food was ___; I couldn't eat it at all.|horrible|edible,second-hand,regular|這食物太難吃了，我完全吃不下。
+25|deadly|Some mushrooms are ___, so never eat wild ones.|deadly|edible,tough,liquid|有些菇類有劇毒，所以千萬別吃野生的。
+25|edible|Is this flower ___? Can I eat it?|edible|deadly,tough,mental|這朵花可以吃嗎？我可以吃嗎？
+25|sand|The children built a castle out of ___ at the beach.|sand|shark,liquid,pee|孩子們在海灘上用沙子堆城堡。
+25|squeeze|___ some lemon juice onto the fish.|Squeeze|Swallow=swallow,Hang=hang,Connect=connect|在魚上擠一些檸檬汁。
+25|liquid|Water and milk are ___, but ice is a solid.|liquids|sharks=shark,calories=calorie,screens=screen|水和牛奶是液體，但冰是固體。
+25|hang|Please ___ your wet towel on the hook.|hang|swallow,connect,squeeze|請把濕毛巾掛在掛鉤上。
+25|dry|Use a towel to ___ your hair.|dry|swallow,connect,kneel|用毛巾把頭髮擦乾。
+25|short on|We're ___ time, so let's hurry.|short on|plenty of,keep up,fall out|我們時間不夠了，快一點吧。
+25|connect|This bridge ___ the island to the city.|connects|squeezes=squeeze,swallows=swallow,hangs=hang|這座橋把小島和城市連接起來。
+26|fright|The loud noise gave me a terrible ___.|fright|tent,bush,wing|那聲巨響把我嚇壞了。
+26|unbelievable|He ran 10 kilometers in 30 minutes. That's ___!|unbelievable|aggressive,edible,second-hand|他三十分鐘跑了十公里，真是難以置信！
+26|unusual|It's ___ for it to snow in Taipei.|unusual|aggressive,edible,mental|台北下雪是很不尋常的事。
+26|tent|We slept in a ___ when we went camping.|tent|wing,sound,research|我們去露營時睡在帳篷裡。
+26|explore|We spent the day ___ the old town.|exploring|coughing=cough,flapping=flap,creeping=creep|我們花了一整天探索老城區。
+26|bush|The rabbit hid behind a ___.|bush|wing,sound,research|兔子躲在灌木叢後面。
+26|sound|I heard a strange ___ outside my window.|sound|wing,tent,research|我聽到窗外有奇怪的聲音。
+26|creep|The cat ___ slowly toward the bird.|crept|coughed=cough,flapped=flap,explored=explore|貓慢慢地爬向那隻鳥。
+26|cough|He has a cold and can't stop ___.|coughing|flapping=flap,exploring=explore,shooting=shoot|他感冒了，咳個不停。
+26|shoot|The cat ___ out of the bushes and caught the mouse.|shot|coughed=cough,flapped=flap,explored=explore|那隻貓從草叢衝出來抓住了老鼠。
+26|chase|The dog ___ the cat around the garden.|chased|coughed=cough,flapped=flap,crept=creep|狗在花園裡追著貓跑。
+26|flap|The bird ___ its wings and flew away.|flapped|chased=chase,coughed=cough,explored=explore|那隻鳥拍拍翅膀飛走了。
+26|wing|The eagle spread its ___ and flew over the valley.|wings|tents=tent,bushes=bush,sounds=sound|老鷹展開翅膀飛越山谷。
+26|research|Scientists are doing ___ on a new medicine.|research|fright,tent,bush|科學家正在研究一種新藥。
+26|aggressive|Be careful! That dog is ___ and might bite you.|aggressive|unusual,edible,unbelievable|小心！那隻狗很兇，可能會咬你。
+27|field trip|Our class went on a ___ to the science museum.|field trip|security deposit,exercise bike,front desk|我們班去科學博物館校外教學。
+27|valley|The village lies in a green ___ between two mountains.|valley|crop,corn,form|那座村莊位在兩座山之間的翠綠山谷裡。
+27|gather|Please ___ in front of the school gate at 8 a.m.|gather|attach,recommend,plant|請在早上八點到校門口集合。
+27|plant|We ___ some trees in the school garden last spring.|planted|attached=attach,recommended=recommend,gathered=gather|去年春天我們在學校花園種了一些樹。
+27|crop|Rice is the main ___ in this area.|crop|valley,form,opportunity|稻米是這個地區的主要作物。
+27|corn|Popcorn is made from ___.|corn|valley,form,sand|爆米花是用玉米做的。
+27|opportunity|Studying abroad is a great ___ to learn a new language.|opportunity|valley,crop,form|出國念書是學新語言的好機會。
+27|nowhere|There was ___ to sit, so we stood the whole time.|nowhere|alone,apart,yet|沒有地方可以坐，所以我們一直站著。
+27|recommend|Can you ___ a good restaurant near here?|recommend|attach,gather,return|你可以推薦這附近一家好餐廳嗎？
+27|suitable|This movie is not ___ for young children.|suitable|aggressive,unusual,edible|這部電影不適合小孩看。
+27|fill in|Please ___ this form with your name and address.|fill in|focus on,keep up,short on|請在這張表格填上你的姓名和地址。
+27|form|You need to fill in this ___ to join the club.|form|crop,valley,corn|你要填寫這張表格才能加入社團。
+27|attach|Please ___ a photo to your application.|attach|gather,plant,recommend|請在申請書附上一張照片。
+27|return|Please ___ the books to the library by Friday.|return|attach,gather,plant|請在星期五之前把書還給圖書館。
+27|sincerely|I ___ hope you can come to my party.|sincerely|accidentally,exactly,mostly|我真心希望你能來參加我的派對。
+28|teenager|As a ___, I often argue with my parents.|teenager|preface,grocery,meaning|身為青少年，我常常和爸媽吵架。
+28|preface|The author explains why she wrote the book in the ___.|preface|grocery,meaning,responsibility|作者在序言裡說明她寫這本書的原因。
+28|soon|Hurry up! The bus will come ___.|soon|alone,apart,yet|快點！公車很快就來了。
+28|responsibility|Taking care of a pet is a big ___.|responsibility|preface,grocery,meaning|照顧寵物是很大的責任。
+28|feed|Don't forget to ___ the fish every day.|feed|clothe,attach,gather|別忘了每天餵魚。
+28|clothe|Parents work hard to feed and ___ their children.|clothe|attach,gather,return|父母努力工作，讓孩子有得吃、有得穿。
+28|go through|She ___ a hard time after her dog died.|went through|filled in=fill in,kept up=keep up,focused on=focus on|她的狗死後，她經歷了一段難熬的日子。
+28|overwhelming|The amount of homework was ___; I didn't know where to start.|overwhelming|independent,confident,edible|作業量多到難以招架，我不知道從哪裡開始。
+28|meaning|What's the ___ of this word?|meaning|preface,grocery,teenager|這個字是什麼意思？
+28|grocery|I need to buy some ___ like milk, eggs, and bread.|groceries|prefaces=preface,teenagers=teenager,meanings=meaning|我需要買一些牛奶、雞蛋和麵包之類的食品雜貨。
+28|prepare|Mom is ___ dinner in the kitchen.|preparing|attaching=attach,gathering=gather,returning=return|媽媽正在廚房準備晚餐。
+28|hopefully|___, it won't rain tomorrow.|Hopefully|Sincerely=sincerely,Accidentally=accidentally,Exactly=exactly|但願明天不會下雨。
+28|confident|She felt ___ before the test because she had studied hard.|confident|independent,overwhelming,lost|因為認真準備過，她考試前很有信心。
+28|independent|He moved out at 18 because he wanted to be ___.|independent|overwhelming,edible,aggressive|他十八歲就搬出去住，因為他想要獨立。
+28|lost|I'm ___. Can you tell me how to get to the station?|lost|independent,confident,overwhelming|我迷路了，可以告訴我怎麼去車站嗎？
+29|assist|The nurse ___ the doctor during the operation.|assisted|swapped=swap,baked=bake,understood=understand|手術時，護理師協助醫生。
+29|grammar|English ___ can be difficult, especially verb tenses.|grammar|lunchtime,website,grade|英文文法可能很難，尤其是動詞時態。
+29|skill|Cooking is a useful life ___.|skill|grammar,lunchtime,website|煮飯是一項實用的生活技能。
+29|understand|I don't ___ this question. Can you explain it?|understand|swap,bake,assist|我看不懂這一題，你可以解釋一下嗎？
+29|tricky|This question is ___; read it carefully.|tricky|available,lost,edible|這一題很刁鑽，要仔細讀。
+29|lunchtime|At ___, we eat in the classroom.|lunchtime|grammar,skill,website|午餐時間我們在教室吃飯。
+29|swap|Can we ___ seats? I want to sit by the window.|swap|assist,bake,understand|我們可以換座位嗎？我想坐靠窗。
+29|grade|My little brother is in fifth ___.|grade|skill,grammar,website|我弟弟念五年級。
+29|for sale|The house next door is ___. Do you want to buy it?|for sale|at hand,in person,over time|隔壁的房子在出售，你想買嗎？
+29|science fiction|I love ___ movies about space and aliens.|science fiction|table tennis,front desk,field trip|我很愛關於太空和外星人的科幻電影。
+29|get rid of|We need to ___ these old clothes. We never wear them.|get rid of|go through,fill in,focus on|我們得處理掉這些舊衣服，我們從來不穿。
+29|available|Is this seat ___? Can I sit here?|available|tricky,lost,overwhelming|這個位子有人坐嗎？我可以坐這裡嗎？
+29|through|I found my old friend ___ Facebook.|through|despite,below,onto|我透過臉書找到了老朋友。
+29|website|You can buy tickets on our ___.|website|grammar,skill,lunchtime|你可以在我們的網站上買票。
+29|bake|My dad likes to ___ bread on weekends.|bake|swap,assist,understand|我爸爸週末喜歡烤麵包。
+30|phrase|"Thank you" is a polite ___.|phrase|colony,hive,risk|「謝謝」是一句有禮貌的話。
+30|come to (sb's) mind|When I think of summer, ice cream ___ first.|comes to mind|gets rid of=get rid of,goes through=go through,fills in=fill in|一想到夏天，我最先想到的是冰淇淋。
+30|stay|Please ___ calm and don't panic.|stay|forage,expose,prize|請保持冷靜，不要驚慌。
+30|honeybee|A ___ makes honey and lives in a hive.|honeybee|colony,offspring,contact|蜜蜂會製造蜂蜜，住在蜂巢裡。
+30|colony|A bee ___ can have thousands of bees.|colony|phrase,risk,contact|一個蜂群可以有好幾千隻蜜蜂。
+30|offspring|The mother bird feeds her ___ every few minutes.|offspring|phrase,risk,contact|鳥媽媽每隔幾分鐘就餵一次她的幼鳥。
+30|hive|The bees flew back to their ___.|hive|phrase,risk,measure|蜜蜂飛回牠們的蜂巢。
+30|travel|Sound ___ faster in water than in air.|travels|forages=forage,exposes=expose,prizes=prize|聲音在水中傳得比在空氣中快。
+30|forage|Bees ___ for food among the flowers.|forage|expose,prize,survive|蜜蜂在花叢間覓食。
+30|expose|Don't ___ your skin to strong sunlight for too long.|expose|forage,prize,travel|不要讓皮膚長時間暴露在強烈陽光下。
+30|risk|Smoking increases the ___ of cancer.|risk|hive,phrase,colony|抽菸會增加罹癌的風險。
+30|within|You must return the book ___ two weeks.|within|despite,below,onto|你必須在兩週內還書。
+30|contact|Wash your hands after ___ with animals.|contact|hive,phrase,risk|接觸動物之後要洗手。
+30|prize|People ___ honey for its sweet taste.|prize|forage,expose,travel|人們因為蜂蜜的甜味而珍視它。
+30|present|All the students were ___ at the meeting; nobody was absent.|present|tricky,lost,edible|所有學生都出席了會議，沒有人缺席。
+30|measure|The government took strong ___ to stop the virus.|measures|hives=hive,phrases=phrase,colonies=colony|政府採取強力措施阻止病毒擴散。
+30|survive|Camels can ___ without water for many days.|survive|expose,prize,swap|駱駝可以很多天不喝水而存活。
+31|eve|On New Year's ___, we stay up until midnight.|Eve|Tower=tower,Street=street,Map=map|除夕夜我們會熬夜到午夜。
+31|celebrate|Many people ___ the Lunar New Year with their families.|celebrate|strike,display,map|很多人和家人一起慶祝農曆新年。
+31|firework|We watched the ___ light up the sky at midnight.|fireworks|towers=tower,streets=street,lilies=lily|我們看著煙火在午夜照亮天空。
+31|display|The museum will ___ old coins next month.|display|strike,map,attach|博物館下個月將展出古錢幣。
+31|strike|The clock ___ twelve, and everyone cheered.|struck|displayed=display,mapped=map,celebrated=celebrate|時鐘敲了十二下，大家都歡呼起來。
+31|street|There are many shops on this busy ___.|street|tower,disruption,eve|這條熱鬧的街上有很多商店。
+31|disruption|The typhoon caused a ___ to train services.|disruption|tower,eve,rose|颱風造成火車服務中斷。
+31|tower|You can see the whole city from the top of the ___.|tower|street,eve,disruption|從塔頂可以看到整座城市。
+31|right|The bus stop is ___ in front of the school.|right|yet,alone,soon|公車站就在學校正前方。
+31|map|Let's check the ___ to find the way.|map|eve,lily,pear|我們看看地圖找路吧。
+31|colored|She used ___ pencils to draw the picture.|colored|following,edible,lost|她用彩色鉛筆畫這幅畫。
+31|following|We stayed in Tokyo for three days and went to Osaka the ___ day.|following|colored,suitable,available|我們在東京待了三天，隔天去了大阪。
+31|rose|A red ___ is a symbol of love.|rose|pear,peach,tower|紅玫瑰是愛的象徵。
+31|pear|A ___ is a sweet fruit that is wide at the bottom.|pear|lily,rose,tower|梨子是一種底部較寬的甜水果。
+31|peach|This ___ is soft and pink, and it tastes sweet.|peach|lily,rose,tower|這顆桃子軟軟的、粉粉的，吃起來很甜。
+31|lily|The white ___ in the vase smells wonderful.|lily|tower,street,map|花瓶裡的白色百合花聞起來好香。
+32|exercise|You should ___ for at least 30 minutes a day.|exercise|hold,limit,map|你一天應該至少運動三十分鐘。
+32|traffic|There was heavy ___ on the highway, so we were late.|traffic|facility,price,center|高速公路上交通很塞，所以我們遲到了。
+32|center|The sports ___ is open from 6 a.m. to 10 p.m.|center|price,traffic,environment|運動中心從早上六點開到晚上十點。
+32|facility|The school has great sports ___, like a pool and a gym.|facilities|prices=price,environments=environment,limits=limit|學校有很棒的運動設施，像是游泳池和健身房。
+32|environment|We should protect the ___ by recycling.|environment|price,limit,facility|我們應該透過回收來保護環境。
+32|hold|The school will ___ a sports day next Friday.|hold|limit,exercise,map|學校下週五將舉辦運動會。
+32|certain|The pool is only open at ___ times of the day.|certain|colored,edible,lost|游泳池只在一天中的某些時段開放。
+32|table tennis|___ is also called ping-pong.|Table tennis|Badminton=badminton,Front desk=front desk,Field trip=field trip|桌球也叫做乒乓球。
+32|take place|The concert will ___ in the park on Saturday.|take place|fill in,get rid of,go through|音樂會將在星期六於公園舉行。
+32|price|The ___ of this bag is 2,000 dollars.|price|traffic,center,environment|這個包包的價格是兩千元。
+32|limit|There's a time ___ of one hour for each person.|limit|price,center,traffic|每個人有一小時的時間限制。
+32|until|The store is open ___ 10 p.m.|until|despite,below,onto|這家店營業到晚上十點。
+32|badminton|We play ___ with rackets and a shuttlecock.|badminton|traffic,facility,environment|我們用球拍和羽毛球打羽球。
+32|front desk|Please leave your key at the ___ when you check out.|front desk|table tennis,field trip,exercise bike|退房時請把鑰匙留在櫃台。
+33|delivery|Food ___ apps are very popular these days.|delivery|chart,slice,half|外送美食的應用程式最近很流行。
+33|business|My uncle runs a small ___ selling tea.|business|chart,slice,survey|我叔叔經營一家賣茶的小公司。
+33|industry|Tourism is a big ___ in Taiwan.|industry|chart,slice,survey|觀光業在台灣是很大的產業。
+33|deal|She spent a great ___ of money on clothes.|deal|slice,chart,user|她花了很多錢買衣服。
+33|turn to|When I have problems, I always ___ my best friend for help.|turn to|get rid of,fill in,take place|我遇到問題時，總是向我最好的朋友求助。
+33|app (=application)|I use a language-learning ___ on my phone every day.|app|chart,slice,half|我每天用手機上的語言學習應用程式。
+33|avoid|You should ___ eating too much sugar.|avoid|lower,order,increase|你應該避免吃太多糖。
+33|lower|The store ___ its prices during the sale.|lowered|avoided=avoid,surveyed=survey,ordered=order|那家店在特賣期間降價了。
+33|survey|The ___ shows that most students sleep less than seven hours.|survey|slice,half,user|調查顯示大部分學生睡不到七小時。
+33|user|This app has over a million ___.|users|charts=chart,slices=slice,halves=half|這個應用程式有超過一百萬名使用者。
+33|chart|The ___ shows how sales changed over the year.|chart|slice,half,user|這張圖表顯示一年來銷售量的變化。
+33|slice|Would you like a ___ of pizza?|slice|chart,user,survey|你要來一片披薩嗎？
+33|half|I ate ___ of the cake and saved the rest for you.|half|chart,user,deal|我吃了一半的蛋糕，剩下的留給你。
+33|order|I'd like to ___ a large pizza, please.|order|avoid,lower,survey|我想訂一個大披薩，謝謝。
+33|increase|The number of tourists ___ every year.|increases|lowers=lower,avoids=avoid,orders=order|觀光客的人數每年都在增加。
+34|cost|This T-shirt ___ 300 dollars.|costs|compares=compare,estimates=estimate,lowers=lower|這件 T 恤要價三百元。
+34|abroad|She wants to study ___ in Canada next year.|abroad|upstairs,apart,nowhere|她明年想去加拿大留學。
+34|understanding|Traveling gives you a better ___ of other cultures.|understanding|clothing,transport,utility|旅行讓你更了解其他文化。
+34|everyday|Phones are part of our ___ life.|everyday|monthly,colored,edible|手機是我們日常生活的一部分。
+34|utility|Our monthly ___ bills include water, electricity, and gas.|utility|clothing,length,graph|我們每月的水電瓦斯費帳單包含水、電和瓦斯。
+34|make up|Women ___ about half of the world's population.|make up|turn to,take place,get rid of|女性約占世界人口的一半。
+34|clothing|We need warm ___ for the winter trip.|clothing|utility,transport,length|冬天旅行我們需要保暖的衣物。
+34|public|You can take ___ transport, like buses and the MRT.|public|monthly,colored,elderly|你可以搭乘大眾運輸，像是公車和捷運。
+34|transport|Public ___ in Taipei is fast and cheap.|transport|clothing,graph,length|台北的大眾運輸又快又便宜。
+34|bar|Look at the ___ graph. Which month has the highest sales?|bar|length,utility,clothing|看這張長條圖，哪個月的銷售量最高？
+34|graph|This ___ shows the rise in temperature over 100 years.|graph|length,clothing,utility|這張圖顯示一百年來氣溫的上升。
+34|length|The ___ of the bridge is about 500 meters.|length|graph,utility,bar|這座橋的長度大約五百公尺。
+34|compare|Let's ___ the prices before we buy anything.|compare|cost,avoid,swap|我們買東西之前先比價吧。
+34|estimate|Scientists ___ that the tree is 2,000 years old.|estimate|compare,cost,lower|科學家估計這棵樹有兩千歲了。
+34|monthly|Our ___ rent is 15,000 dollars.|monthly|public,everyday,colored|我們每月的房租是一萬五千元。
+34|expensive|This watch is too ___. I can't afford it.|expensive|monthly,everyday,public|這支手錶太貴了，我買不起。
+35|visitor|The museum had over 5,000 ___ last weekend.|visitors|flights=flight,shapes=shape,atmospheres=atmosphere|上週末博物館有超過五千名參觀者。
+35|scenery|The ___ in Taroko Gorge is breathtaking.|scenery|pandemic,flight,goods|太魯閣峽谷的風景美得令人屏息。
+35|friendly|The people here are very ___ and always smile at you.|friendly|expensive,monthly,public|這裡的人很友善，總是對你微笑。
+35|tourist|Many foreign ___ visit Taiwan for its night markets.|tourists|flights=flight,shapes=shape,pandemics=pandemic|許多外國觀光客為了夜市來台灣。
+35|pandemic|During the ___, many schools had online classes.|pandemic|scenery,flight,shape|疫情期間，許多學校改上線上課程。
+35|million|Taiwan has about 23 ___ people.|million|half,slice,shape|台灣大約有兩千三百萬人。
+35|Asian|Japan, Korea, and Taiwan are ___ countries.|Asian|friendly,expensive,monthly|日本、韓國和台灣是亞洲國家。
+35|mainland|Kinmen is closer to the ___ than to Taiwan.|mainland|atmosphere,flight,shape|金門離大陸比離台灣近。
+35|flight|Our ___ to Tokyo leaves at 8 a.m.|flight|shape,scenery,arrival|我們飛往東京的班機早上八點起飛。
+35|goods|The ship carries ___ from Taiwan to Japan.|goods|scenery,atmosphere,arrival|這艘船把貨物從台灣運到日本。
+35|atmosphere|The café has a warm and relaxing ___.|atmosphere|flight,shape,pandemic|這家咖啡廳的氣氛溫馨又放鬆。
+35|join|Would you like to ___ our club?|join|drop,estimate,compare|你想加入我們的社團嗎？
+35|shape|A ball has a round ___.|shape|flight,scenery,arrival|球是圓形的。
+35|drop|The temperature will ___ to 10°C tonight.|drop|join,estimate,compare|今晚氣溫將降到攝氏十度。
+35|arrival|The ___ of the train was delayed by 20 minutes.|arrival|scenery,atmosphere,shape|火車的抵達時間延誤了二十分鐘。
+# ---------- U36–U50 ----------
+36|age|We live in the computer ___.|age|war,event,timeline|我們生活在電腦時代。
+36|war|Many people lost their homes during the ___.|war|timeline,century,age|戰爭期間很多人失去了家園。
+36|shock|The news of his death ___ everyone.|shocked|continued=continue,lasted=last,joined=join|他過世的消息震驚了所有人。
+36|halfway|We stopped for lunch ___ between Taipei and Taichung.|halfway|abroad,upstairs,apart|我們在台北和台中之間的半路上停下來吃午餐。
+36|century|The 21st ___ began in 2001.|century|timeline,event,war|二十一世紀從 2001 年開始。
+36|peaceful|After the war, the country became ___ again.|peaceful|bloody,major,expensive|戰爭結束後，這個國家又恢復了和平。
+36|bloody|It was a ___ battle, and thousands of soldiers died.|bloody|peaceful,modern,friendly|那是一場血腥的戰役，數千名士兵陣亡。
+36|civil war|The American ___ was fought between the North and the South.|Civil War|Timeline=timeline,Invasion=invasion,Century=century|美國內戰是南北雙方之間的戰爭。
+36|timeline|The ___ shows the major events of the 20th century.|timeline|invasion,war,age|這條時間軸列出了二十世紀的重大事件。
+36|event|The moon landing was a major ___ in history.|event|timeline,age,century|登陸月球是歷史上的重大事件。
+36|major|Smoking is a ___ cause of cancer.|major|peaceful,bloody,modern|抽菸是癌症的主要原因之一。
+36|modern|This city has many ___ buildings made of glass and steel.|modern|bloody,peaceful,edible|這座城市有許多玻璃和鋼鐵建造的現代建築。
+36|last|The meeting ___ for two hours.|lasted|shocked=shock,celebrated=celebrate,joined=join|會議持續了兩個小時。
+36|continue|Please ___ reading from page 20.|continue|last,shock,join|請從第二十頁繼續讀下去。
+36|invasion|The ___ of the enemy army started the war.|invasion|timeline,century,age|敵軍的入侵引發了戰爭。
+37|insect|An ant is a kind of ___ with six legs.|insect|skeleton,chapter,flowerpot|螞蟻是一種有六隻腳的昆蟲。
+37|everywhere|I looked ___ for my keys, but I couldn't find them.|everywhere|abroad,halfway,apart|我到處找我的鑰匙，但都找不到。
+37|flowerpot|She planted some herbs in a small ___.|flowerpot|skeleton,chapter,garbage|她在一個小花盆裡種了一些香草。
+37|garbage|Please take out the ___; it smells bad.|garbage|energy,danger,advantage|請把垃圾拿出去，好臭。
+37|successful|Her new restaurant is very ___; it's always full.|successful|social,bloody,peaceful|她新開的餐廳非常成功，總是客滿。
+37|energy|Eating breakfast gives you ___ for the whole morning.|energy|garbage,danger,skeleton|吃早餐讓你整個早上都有活力。
+37|danger|The sign says "___! Do not swim here."|Danger|Energy=energy,Garbage=garbage,Advantage=advantage|告示牌上寫著：「危險！請勿在此游泳。」
+37|skeleton|The human ___ has 206 bones.|skeleton|insect,chapter,flowerpot|人體骨骼有 206 塊骨頭。
+37|protect|Wear sunglasses to ___ your eyes from the sun.|protect|disappear,continue,join|戴太陽眼鏡保護眼睛不受陽光傷害。
+37|advantage|One ___ of living in the city is the convenient transport.|advantage|energy,garbage,danger|住在城市的一個好處是交通方便。
+37|no wonder|You stayed up until 3 a.m.? ___ you're so tired!|No wonder|In short=in short,At hand=at hand,In person=in person|你熬夜到凌晨三點？難怪你這麼累！
+37|content|Check the table of ___ to find the chapter you need.|contents|skeletons=skeleton,insects=insect,flowerpots=flowerpot|查看目錄找到你要的章節。
+37|chapter|The story gets exciting in the last ___ of the book.|chapter|skeleton,insect,garbage|故事在書的最後一章變得很精彩。
+37|introduction|In the ___, the writer explains what the book is about.|introduction|skeleton,flowerpot,insect|作者在引言中說明這本書的內容。
+37|social|Ants are ___ insects that live in large groups.|social|bloody,peaceful,modern|螞蟻是群居的昆蟲，住在大型群體裡。
+37|disappear|The sun ___ behind the clouds.|disappeared|protected=protect,continued=continue,joined=join|太陽消失在雲層後面。
+38|fold|___ the paper in half to make a card.|Fold|Explain=explain,Type=type,Search=search|把紙對摺做成一張卡片。
+38|explain|Can you ___ this grammar rule to me again?|explain|fold,type,search|你可以再跟我解釋一次這個文法規則嗎？
+38|patience|Teaching small children takes a lot of ___.|patience|selection,crane,engine|教小小孩需要很大的耐心。
+38|basic|This class teaches the ___ skills of cooking, like cutting vegetables.|basic|social,modern,bloody|這堂課教切菜之類的基本烹飪技巧。
+38|design|She ___ her own wedding dress.|designed|explained=explain,searched=search,typed=type|她自己設計了她的婚紗。
+38|crane|The ___ is a bird with long legs and a long neck.|crane|engine,poem,site|鶴是一種腿長、脖子長的鳥。
+38|in no time|With your help, we finished the work ___.|in no time|in short,no wonder,at hand|有你的幫忙，我們一下子就完成了工作。
+38|search|Use a ___ engine like Google to find information.|search|crane,poem,wedding|用 Google 之類的搜尋引擎找資料。
+38|engine|The car won't start. Maybe there's a problem with the ___.|engine|poem,crane,wedding|車子發不動，可能是引擎有問題。
+38|site|You can find many free recipes on this web ___.|site|crane,poem,engine|你可以在這個網站上找到很多免費食譜。
+38|type|She can ___ 80 words a minute on the computer.|type|fold,explain,design|她一分鐘可以在電腦上打八十個字。
+38|poem|He wrote a beautiful ___ about the sea.|poem|crane,engine,site|他寫了一首關於大海的優美的詩。
+38|wedding|My cousin is getting married. I'm going to her ___ next month.|wedding|selection,crane,engine|我表姊要結婚了，我下個月要去參加她的婚禮。
+38|selection|The shop has a wide ___ of books.|selection|patience,wedding,engine|這家店的書種類很多。
+39|simple|The instructions are ___ enough for a child to follow.|simple|opposite,merry,satisfied|這份說明簡單到連小孩都看得懂。
+39|in short|___, the trip was a great success.|In short|At hand=at hand,Up front=up front,On purpose=on purpose|總而言之，這趟旅行非常成功。
+39|tend to|Teenagers ___ sleep late on weekends.|tend to|focus on,turn to,get rid of|青少年週末往往睡得很晚。
+39|joyful|The wedding was a ___ day for the whole family.|joyful|opposite,similar,bloody|婚禮對全家人來說是歡喜的一天。
+39|merry|We wish you a ___ Christmas!|merry|satisfied,opposite,similar|祝你聖誕快樂！
+39|describe|Can you ___ the man you saw? Was he tall?|describe|fold,type,design|你可以描述一下你看到的那個男人嗎？他高嗎？
+39|thesaurus|If you want a word with a similar meaning, look it up in a ___.|thesaurus|synonym,antonym,customer|如果你想找意思相近的字，可以查同義詞詞典。
+39|dictionary|Look up the word in a ___ to find its meaning.|dictionary|synonym,antonym,customer|查字典找出這個字的意思。
+39|synonym|"Big" is a ___ of "large."|synonym|antonym,customer,dictionary|big 是 large 的同義字。
+39|antonym|"Hot" is the ___ of "cold."|antonym|synonym,customer,thesaurus|hot 是 cold 的反義字。
+39|similar|My bag is ___ to yours, but mine is blue.|similar|opposite,joyful,merry|我的包包跟你的很像，但我的是藍色的。
+39|opposite|"Up" and "down" have ___ meanings.|opposite|similar,joyful,merry|up 和 down 的意思相反。
+39|entry|Each dictionary ___ shows how to say the word.|entry|customer,pleasure,accident|字典的每個詞條都會標出這個字怎麼唸。
+39|pleasure|It's a ___ to meet you.|pleasure|accident,customer,entry|很高興認識你。
+39|satisfied|The customer was not ___ with the service and asked for a refund.|satisfied|similar,opposite,merry|那位顧客對服務不滿意，要求退款。
+39|customer|The shop gives every ___ a free drink.|customer|accident,pleasure,entry|這家店送每位顧客一杯免費飲料。
+39|accident|He broke his leg in a car ___.|accident|entry,pleasure,customer|他在一場車禍中摔斷了腿。
+40|tasty|This soup is really ___. Can I have some more?|tasty|satisfied,opposite,similar|這碗湯真好喝，我可以再來一些嗎？
+40|ingredient|Flour, eggs, and sugar are the main ___ of a cake.|ingredients|recipes=recipe,vitamins=vitamin,dressings=dressing|麵粉、雞蛋和糖是蛋糕的主要材料。
+40|flavor|Which ice cream ___ do you like, chocolate or vanilla?|flavor|recipe,vitamin,dressing|你喜歡哪種口味的冰淇淋，巧克力還是香草？
+40|a ton of|I have ___ homework to do this weekend.|a ton of|tend to,in short,no wonder|我這個週末有一大堆作業要寫。
+40|vitamin|Oranges are rich in ___ C.|vitamin|flavor,recipe,dressing|柳橙富含維生素 C。
+40|recipe|Can you give me the ___ for your chocolate cake?|recipe|vitamin,dressing,vinegar|你可以給我你的巧克力蛋糕食譜嗎？
+40|peanut|___ butter sandwiches are popular in the U.S.|Peanut|Lettuce=lettuce,Onion=onion,Vinegar=vinegar|花生醬三明治在美國很受歡迎。
+40|dressing|Would you like some ___ on your salad?|dressing|vitamin,recipe,meaning|你的沙拉要加一些醬嗎？
+40|water|The smell of the fried chicken made my mouth ___.|water|serve,fold,type|炸雞的香味讓我直流口水。
+40|serve|The restaurant ___ breakfast from 7 to 10 a.m.|serves|waters=water,folds=fold,types=type|這家餐廳早上七點到十點供應早餐。
+40|vinegar|___ tastes sour and is used in salad dressing.|Vinegar|Peanut=peanut,Lettuce=lettuce,Cabbage=cabbage|醋嚐起來酸酸的，常用在沙拉醬裡。
+40|lettuce|A salad usually has ___, tomatoes, and cucumbers.|lettuce|vitamin,recipe,flavor|沙拉通常有萵苣、番茄和小黃瓜。
+40|cabbage|Kimchi is usually made from Chinese ___.|cabbage|carrot,onion,vinegar|韓式泡菜通常是用大白菜做的。
+40|carrot|Rabbits love to eat ___.|carrots|onions=onion,nuts=nut,peppers=pepper|兔子很愛吃胡蘿蔔。
+40|pepper|Green ___ are not my favorite vegetable; they taste a little bitter.|peppers|carrots=carrot,peanuts=peanut,nuts=nut|青椒不是我最愛的蔬菜，吃起來有點苦。
+40|onion|Cutting ___ always makes me cry.|onions|carrots=carrot,peppers=pepper,nuts=nut|切洋蔥總是讓我流淚。
+40|nut|Squirrels collect ___ for the winter.|nuts|onions=onion,carrots=carrot,peppers=pepper|松鼠會收集堅果過冬。
+41|mend|Grandma ___ the hole in my sweater with a needle.|mended|decorated=decorate,cracked=crack,honored=honor|奶奶用針補好了我毛衣上的破洞。
+41|traditional|Zongzi is a ___ food for the Dragon Boat Festival.|traditional|bloody,peaceful,opposite|粽子是端午節的傳統食物。
+41|folk|Many ___ songs tell stories about country life.|folk|sticky,glutinous,bloody|很多民謠訴說著鄉村生活的故事。
+41|goddess|Mazu is a sea ___ worshiped in Taiwan.|goddess|pillar,needle,calendar|媽祖是台灣人信奉的海上女神。
+41|legend|According to ___, a dragon once lived in this lake.|legend|pillar,needle,calendar|根據傳說，這座湖裡曾經住著一條龍。
+41|pillar|The roof of the temple is held up by four red ___.|pillars|needles=needle,calendars=calendar,legends=legend|廟的屋頂由四根紅色柱子撐著。
+41|heaven|Many people believe good people go to ___ after they die.|heaven|pillar,needle,calendar|很多人相信好人死後會上天堂。
+41|crack|The glass ___ when I poured hot water into it.|cracked|mended=mend,decorated=decorate,honored=honor|我把熱水倒進玻璃杯時，杯子裂開了。
+41|disaster|The earthquake was a terrible ___.|disaster|pillar,calendar,needle|那場地震是一場可怕的災難。
+41|temple|People pray at the ___ during Chinese New Year.|temple|needle,calendar,pillar|人們在農曆新年時到廟裡拜拜。
+41|glutinous|Tangyuan is made from ___ rice flour.|glutinous|folk,bloody,merry|湯圓是用糯米粉做的。
+41|sticky|My hands are ___ after eating the candy.|sticky|folk,traditional,merry|吃完糖果後我的手黏黏的。
+41|decorate|We ___ the Christmas tree with lights and stars.|decorated|mended=mend,cracked=crack,honored=honor|我們用燈飾和星星裝飾聖誕樹。
+41|needle|Can you thread this ___ for me? My eyes are not good.|needle|pillar,calendar,temple|你可以幫我穿這根針嗎？我眼睛不好。
+41|calendar|Mark the date of the test on your ___.|calendar|needle,pillar,temple|把考試日期標在你的月曆上。
+41|movement|The ___ of the dancers was smooth and beautiful.|movement|calendar,legend,pillar|舞者們的動作流暢又優美。
+41|honor|The statue was built to ___ the brave soldiers.|honor|crack,mend,decorate|這座雕像是為了紀念那些勇敢的士兵而建的。
+42|suffer|Many children in poor countries ___ from hunger.|suffer|deserve,achieve,rebuild|許多貧窮國家的孩子飽受飢餓之苦。
+42|hunger|Millions of people around the world die of ___ every year.|hunger|goal,operation,effort|全世界每年有數百萬人死於飢餓。
+42|reduce|Riding a bike instead of driving can ___ air pollution.|reduce|achieve,deserve,rebuild|騎腳踏車代替開車可以減少空氣污染。
+42|serve|Volunteers ___ meals to homeless people every weekend.|serve|achieve,deserve,suffer|志工們每個週末供餐給無家可歸的人。
+42|operation|The doctor said the ___ went well, and Dad can go home soon.|operation|hunger,violence,goal|醫生說手術很順利，爸爸很快就能回家了。
+42|go hand in hand|Health and happiness often ___.|go hand in hand|break out,take place,come off|健康和快樂常常是密不可分的。
+42|drive|War ___ millions of people from their homes.|drove|achieved=achieve,deserved=deserve,reduced=reduce|戰爭迫使數百萬人離開家園。
+42|likely|It's ___ to rain this afternoon, so take an umbrella.|likely|basic,merry,opposite|今天下午很可能會下雨，帶把傘吧。
+42|violence|There is too much ___ in some video games.|violence|effort,goal,operation|有些電玩遊戲裡的暴力太多了。
+42|achieve|If you work hard, you can ___ your dreams.|achieve|suffer,reduce,drive|只要努力，你就能實現夢想。
+42|goal|My ___ this year is to read 20 English books.|goal|violence,hunger,operation|我今年的目標是讀二十本英文書。
+42|break out|A fire ___ in the building last night.|broke out|went hand in hand=go hand in hand,came off=come off,turned to=turn to|昨晚那棟大樓發生了火災。
+42|(be) caught up|Many people were ___ in the war and lost their homes.|caught up|broken out=break out,gone through=go through,taken place=take place|很多人被捲入戰爭而失去家園。
+42|rebuild|After the earthquake, they had to ___ the school.|rebuild|suffer,deserve,achieve|地震後，他們必須重建學校。
+42|effort|Learning a new language takes a lot of time and ___.|effort|violence,hunger,operation|學一種新語言需要很多時間和努力。
+42|deserve|You worked so hard. You ___ a good rest.|deserve|suffer,reduce,rebuild|你這麼努力，值得好好休息一下。
+43|mystery|How the pyramids were built is still a ___.|mystery|planet,cemetery,bottom|金字塔是怎麼建成的至今仍是個謎。
+43|object|Scientists saw a strange flying ___ in the sky.|object|cemetery,bottom,bacteria|科學家看到天空中有一個奇怪的飛行物體。
+43|space|Astronauts live and work in ___ for months.|space|bottom,cemetery,mystery|太空人在太空中生活和工作好幾個月。
+43|though|___ it was raining, we still played soccer.|Though|Despite=despite,Hardly=hardly,Above=above|雖然在下雨，我們還是踢了足球。
+43|vertical|The walls of the cliff are almost ___, so it's hard to climb.|vertical|bloody,merry,sticky|懸崖的岩壁幾乎是垂直的，所以很難爬。
+43|above|The plane flew high ___ the clouds.|above|below,despite,until|飛機在雲層上方高高飛行。
+43|surround|Tall mountains ___ the small village.|surround|exist,dive,suffer|高山環繞著這座小村莊。
+43|dive|The boy ___ into the swimming pool.|dived|existed=exist,surrounded=surround,suffered=suffer|那個男孩跳進了游泳池。
+43|cemetery|His grandparents are buried in the ___ on the hill.|cemetery|planet,space,mystery|他的祖父母葬在山丘上的墓園裡。
+43|as well as|She speaks French ___ English.|as well as|in short,no wonder,a ton of|她除了會說英文，也會說法文。
+43|bottom|The treasure was found at the ___ of the sea.|bottom|planet,object,mystery|寶藏是在海底被發現的。
+43|hardly|I can ___ hear you. Please speak louder.|hardly|exactly,instead,mostly|我幾乎聽不到你說話，請大聲一點。
+43|bacteria|Some ___ can make you sick, so wash your hands.|bacteria|planets=planet,objects=object,cemeteries=cemetery|有些細菌會讓你生病，所以要洗手。
+43|exist|Do you think aliens really ___?|exist|surround,dive,suffer|你覺得外星人真的存在嗎？
+43|planet|Earth is the third ___ from the sun.|planet|cemetery,mystery,bottom|地球是離太陽第三近的行星。
+44|dear|___ Mr. Wang, Thank you for your letter.|Dear|Strong=strong,Helpful=helpful,Practical=practical|親愛的王先生：謝謝您的來信。
+44|graduate|My sister will ___ from college next June.|graduate|tour,dream,achieve|我姊姊明年六月將從大學畢業。
+44|vocational|He went to a ___ high school to learn how to fix cars.|vocational|academic,wonderful,helpful|他念高職學修車。
+44|academic|Her ___ results are excellent; she gets A's in every subject.|academic|vocational,merry,sticky|她的學業成績非常優秀，每一科都拿 A。
+44|practical|Cooking classes teach ___ skills you can use every day.|practical|merry,sticky,bloody|烹飪課教你每天都用得到的實用技能。
+44|passion|She has a ___ for music and plays the piano every day.|passion|path,tour,job|她熱愛音樂，每天彈鋼琴。
+44|path|Follow this ___ through the forest to reach the lake.|path|passion,job,dream|沿著這條穿過森林的小路就能到湖邊。
+44|hard|He studied ___ and passed the exam.|hard|hardly,exactly,mostly|他努力念書，通過了考試。
+44|wonderful|We had a ___ time at the beach.|wonderful|vocational,academic,practical|我們在海邊玩得很愉快。
+44|job|My dad's ___ is driving a bus.|job|path,passion,tour|我爸爸的工作是開公車。
+44|tour|We took a bus ___ around the city.|tour|path,job,passion|我們搭巴士遊覽市區。
+44|dream|My ___ job is to be a pilot.|dream|path,passion,tour|我夢想的工作是當飛行員。
+44|strong|He is ___ enough to carry the heavy box.|strong|helpful,practical,wonderful|他力氣夠大，搬得動那個重箱子。
+44|helpful|Thank you for your advice. It was very ___.|helpful|vocational,academic,strong|謝謝你的建議，很有幫助。
+45|go together|Do you think this red tie and blue shirt ___?|go together|break out,tend to,take place|你覺得這條紅領帶和藍襯衫搭嗎？
+45|remember|Do you ___ the first day we met?|remember|relax,add,create|你還記得我們第一次見面那天嗎？
+45|relax|After a long day, I like to ___ by listening to music.|relax|affect,create,add|忙了一整天之後，我喜歡聽音樂放鬆。
+45|mood|She's in a good ___ today because she got an A.|mood|task,period,distraction|她今天心情很好，因為她拿了 A。
+45|pressure|Students are under a lot of ___ before the big exam.|pressure|mood,period,task|大考前學生們承受很大的壓力。
+45|lighten (sth.) up|A funny joke can ___ the mood.|lighten up|go together,break out,tend to|一個好笑的笑話能讓氣氛輕鬆起來。
+45|period|The Tang ___ was a golden age in Chinese history.|period|mood,task,distraction|唐朝是中國歷史上的黃金時期。
+45|add|___ some salt to the soup.|Add|Relax=relax,Affect=affect,Create=create|在湯裡加一點鹽。
+45|pleasant|We had a ___ evening by the lake.|pleasant|helpful,practical,strong|我們在湖邊度過了一個愉快的夜晚。
+45|affect|Lack of sleep can ___ your health.|affect|relax,add,remember|睡眠不足會影響你的健康。
+45|create|The artist ___ a huge painting for the museum.|created|affected=affect,relaxed=relax,remembered=remember|那位藝術家為博物館創作了一幅巨大的畫。
+45|distraction|Turn off the TV. It's a ___ when you're studying.|distraction|mood,period,pressure|把電視關掉，它會讓你念書分心。
+45|task|Cleaning the whole house is a big ___.|task|mood,period,distraction|打掃整間房子是一項大工程。
+45|influence|My mom has a big ___ on my life.|influence|task,period,mood|我媽媽對我的人生影響很大。
+46|profile|Don't put your home address on your social media ___.|profile|thought,harm,conversation|不要把你家地址放在社群媒體的個人檔案上。
+46|conversation|I had a long ___ with my teacher about my future.|conversation|profile,photo,thought|我和老師針對我的未來談了很久。
+46|photo|Can you take a ___ of us in front of the tower?|photo|profile,thought,harm|你可以幫我們在塔前拍張照嗎？
+46|parent|Both of my ___ work in a hospital.|parents|photos=photo,profiles=profile,thoughts=thought|我爸媽都在醫院工作。
+46|what if|___ it rains tomorrow? Should we cancel the picnic?|What if|No wonder=no wonder,In short=in short,As well as=as well as|要是明天下雨怎麼辦？我們要取消野餐嗎？
+46|end up|If you don't study, you'll ___ failing the test.|end up|try out,go together,break out|如果你不念書，最後會考不及格。
+46|steal|Someone ___ my bike last night.|stole|threatened=threaten,happened=happen,ended up=end up|昨晚有人偷了我的腳踏車。
+46|happen|What ___ to your arm? It's all red.|happened|stole=steal,threatened=threaten,harmed=harm|你的手臂怎麼了？整個都紅了。
+46|possibly|He can't ___ finish all that food by himself.|possibly|nearly,exactly,instead|他不可能一個人吃完那麼多食物。
+46|nearly|I ___ missed the bus this morning; it was close!|nearly|possibly,exactly,instead|我今天早上差點沒趕上公車，好險！
+46|threaten|The man ___ to call the police if we didn't leave.|threatened|stole=steal,happened=happen,harmed=harm|那個人威脅說如果我們不離開，他就要報警。
+46|physical|Running is good for your ___ health.|physical|pleasant,helpful,practical|跑步對你的身體健康有好處。
+46|harm|Too much screen time can ___ your eyes.|harm|steal,happen,try out|看螢幕太久會傷害你的眼睛。
+46|thought|What are your ___ about the new school rules?|thoughts|photos=photo,profiles=profile,parents=parent|你對新校規有什麼想法？
+46|try out|You should ___ the new café. Their coffee is great.|try out|end up,go together,break out|你應該去試試那家新咖啡廳，他們的咖啡很棒。
+47|relate|This story ___ to my own life in many ways.|relates|settles=settle,traps=trap,reaches=reach|這個故事在很多方面都和我自己的生活有關。
+47|trap|The miners were ___ underground for three days.|trapped|settled=settle,reached=reach,inhaled=inhale|礦工們被困在地底三天。
+47|typical|Rice is a ___ food in Asia.|typical|toxic,shallow,wet|米飯是亞洲典型的食物。
+47|fire service|Call the ___ immediately if you see a fire.|fire service|front desk,field trip,exercise bike|如果看到火災，請立刻打電話給消防單位。
+47|toxic|Some plants are ___ to cats, so be careful.|toxic|typical,shallow,wet|有些植物對貓有毒，所以要小心。
+47|settle|Smoke rises, but dust ___ on the floor.|settles|relates=relate,traps=trap,inhales=inhale|煙會上升，但灰塵會沉積在地板上。
+47|toward(s)|The dog ran ___ me happily.|toward|despite,until,within|那隻狗開心地朝我跑來。
+47|base|There is a small shop at the ___ of the mountain.|base|fabric,exit,pillar|山腳下有一家小商店。
+47|fabric|This dress is made of soft cotton ___.|fabric|base,exit,pillar|這件洋裝是用柔軟的棉布做的。
+47|wet|My shoes got ___ in the rain.|wet|shallow,toxic,typical|我的鞋子在雨中濕了。
+47|shallow|The water here is ___, so it's safe for small kids.|shallow|toxic,typical,wet|這裡的水很淺，所以對小小孩來說很安全。
+47|reach|We will ___ Kaohsiung in about two hours.|reach|settle,relate,inhale|我們大約兩小時後會抵達高雄。
+47|immediately|Call 119 ___ if there is a fire.|immediately|briefly,nearly,hardly|如果發生火災，請立刻打 119。
+47|briefly|He ___ explained the rules, and then we started the game.|briefly|hardly,nearly,exactly|他簡短地說明了規則，然後我們就開始玩了。
+47|directly|This flight goes ___ to Tokyo without stopping.|directly|briefly,hardly,nearly|這班飛機直飛東京，中途不停。
+47|exit|In case of fire, use the emergency ___.|exit|fabric,base,pillar|發生火災時，請使用緊急出口。
+47|inhale|Try not to ___ the smoke; cover your nose and mouth.|inhale|settle,relate,reach|盡量不要吸入濃煙，摀住口鼻。
+48|comfortably|The cat was sleeping ___ on the sofa.|comfortably|suddenly,nearly,hardly|那隻貓舒服地睡在沙發上。
+48|suddenly|We were walking in the park when it ___ started to rain.|suddenly|comfortably,hardly,exactly|我們正在公園散步時，突然下起雨來。
+48|back and forth|The boat moved ___ in the strong wind.|back and forth|in short,as well as,a ton of|小船在強風中來回搖晃。
+48|realize|I didn't ___ that it was so late.|realize|cause,occur,quake|我沒意識到已經這麼晚了。
+48|earthquake|Taiwan has many ___ because it sits between two plates.|earthquakes|zones=zone,amounts=amount,pillars=pillar|台灣位在兩個板塊之間，所以地震很多。
+48|per|The speed limit here is 50 kilometers ___ hour.|per|beneath,toward=toward(s),despite|這裡的速限是每小時五十公里。
+48|undersea|They built an ___ tunnel between England and France.|undersea|active,unlucky,elderly|他們在英國和法國之間蓋了一條海底隧道。
+48|plate|The Earth's surface is made up of large ___ that move slowly.|plates|earthquakes=earthquake,amounts=amount,pillars=pillar|地球表面由緩慢移動的大板塊組成。
+48|cause|Heavy rain can ___ floods.|cause|realize,occur,quake|大雨會造成水災。
+48|beneath|The cat is hiding ___ the bed.|beneath|per,despite,until|貓躲在床底下。
+48|active|Taiwan is in an ___ earthquake zone.|active|undersea,unlucky,elderly|台灣位在地震活躍的地區。
+48|zone|This area is a no-parking ___.|zone|plate,amount,earthquake|這個區域是禁止停車區。
+48|constant|The ___ noise from the construction site gave me a headache.|constant|undersea,unlucky,shallow|工地不斷傳來的噪音讓我頭痛。
+48|amount|Drink a large ___ of water when it's hot.|amount|zone,plate,earthquake|天氣熱的時候要喝大量的水。
+48|occur|Earthquakes often ___ in Japan and Taiwan.|occur|realize,cause,relate|日本和台灣常發生地震。
+48|unlucky|He was ___ to lose his wallet on the first day of the trip.|unlucky|active,undersea,constant|他很倒楣，旅行第一天就弄丟了錢包。
+48|quake|The ground began to ___, and everyone ran outside.|quake|realize,cause,relate|地面開始震動，大家都跑到外面。
+49|football|In the UK, "___" means the game Americans call soccer.|football|helmet,pad,gear|在英國，football 指的是美國人說的 soccer。
+49|player|There are eleven ___ on a soccer team.|players|helmets=helmet,pads=pad,fields=field|一支足球隊有十一名球員。
+49|helmet|Always wear a ___ when you ride a scooter.|helmet|field,goal,shoulder|騎機車時一定要戴安全帽。
+49|oval|An egg has an ___ shape.|oval|active,undersea,elderly|蛋是橢圓形的。
+49|aim|The ___ of this project is to help kids read more.|aim|confusion,pad,gear|這個計畫的目標是幫助孩子多閱讀。
+49|score|Messi ___ two goals in the final.|scored|aimed=aim,shouldered=shoulder,realized=realize|梅西在決賽中踢進兩球。
+49|field|The players ran onto the ___ when the game started.|field|helmet,pad,gear|比賽開始時，球員們跑上球場。
+49|goal|The ball flew into the ___, and the fans cheered.|goal|helmet,pad,shoulder|球飛進球門，球迷們歡呼起來。
+49|confusion|There was some ___ about the time of the meeting.|confusion|gear,pad,helmet|大家對開會時間有些搞不清楚。
+49|former|I have a cat and a dog. The ___ is quiet, but the latter is noisy.|former|latter,helmet,pad|我有一隻貓和一隻狗，前者很安靜，後者很吵。
+49|latter|Tea or coffee? I prefer the ___ — coffee, please.|latter|former,helmet,gear|茶還是咖啡？我比較喜歡後者，請給我咖啡。
+49|shoulder|He carried his little sister on his ___.|shoulders|helmets=helmet,pads=pad,fields=field|他把妹妹扛在肩膀上。
+49|pad|Football players wear shoulder ___ to protect their bodies.|pads|goals=goal,fields=field,players=player|美式足球員穿戴護肩來保護身體。
+49|gear|Don't forget your camping ___: tent, sleeping bag, and flashlight.|gear|confusion,field,goal|別忘了你的露營裝備：帳篷、睡袋和手電筒。
+49|except|Everyone came to the party ___ Tom. He was sick.|except|beneath,toward=toward(s),per|除了 Tom 之外大家都來參加派對了，他生病了。
+49|goalkeeper|The ___ caught the ball with both hands.|goalkeeper|helmet,field,pad|守門員用雙手接住了球。
+50|cave|Bats live in dark ___.|caves|statues=statue,poles=pole,scrolls=scroll|蝙蝠住在黑暗的洞穴裡。
+50|statue|There is a bronze ___ of a famous general in the park.|statue|cave,index,scroll|公園裡有一座著名將軍的銅像。
+50|metal|Gold and silver are ___.|metals|caves=cave,poles=pole,armies=army|金和銀都是金屬。
+50|detailed|She gave a ___ description of the man, including his hair color and clothes.|detailed|oval,toxic,shallow|她詳細描述了那個男人，包括他的髮色和衣服。
+50|scene|The opening ___ of the movie was very exciting.|scene|index,pole,metal|這部電影的開場畫面非常精彩。
+50|scroll|___ down to see more photos.|Scroll|Cover=cover,Score=score,Aim=aim|往下滑可以看到更多照片。
+50|effect|The medicine had a good ___; I feel much better now.|effect|index,army,pole|這藥很有效，我現在覺得好多了。
+50|complete|The ___ set of Harry Potter books has seven volumes.|complete|oval,toxic,shallow|全套的《哈利波特》共有七冊。
+50|history|I love learning about ancient ___, like the Roman Empire.|history|photography,painting,index|我很喜歡學習古代歷史，像是羅馬帝國。
+50|cover|This book ___ the history of Taiwan from 1600 to today.|covers|scrolls=scroll,scores=score,aims=aim|這本書涵蓋了台灣從 1600 年到現在的歷史。
+50|specific|Can you give me a ___ example?|specific|toxic,shallow,wet|你可以給我一個具體的例子嗎？
+50|index|Look up the word in the ___ at the back of the book.|index|army,pole,statue|在書後面的索引裡查這個字。
+50|photography|He took a ___ class to learn how to use his new camera.|photography|history,index,army|他上了一堂攝影課，學怎麼用他的新相機。
+50|painting|The Mona Lisa is a famous ___ by Leonardo da Vinci.|painting|index,army,pole|《蒙娜麗莎》是達文西的名畫。
+50|army|He joined the ___ and became a soldier.|army|pole,index,cave|他加入軍隊成為一名士兵。
+50|pole|The flag hung from a tall ___.|pole|army,index,cave|旗子掛在一根高高的竿子上。

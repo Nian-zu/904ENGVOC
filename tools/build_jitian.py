@@ -7,7 +7,12 @@
   j = 'c'  中翻英：看中文（＋詞性）選英文
 同一個字的兩題 g 相同，一次測驗只會抽到其中一題。
 
-誘答：優先用同一單元、相近單元、同詞性的字；意思有任何重疊（共用兩個字或同一個漢字）的不用，避免出現兩個答案。
+誘答（鑑別度）：
+  1. 先放一個「長得像」的字（拼字只差一兩個字母，如 adopt／adapt、alive／alike，或同字根不同詞性，如 difficult／difficulty），
+     專門分辨「看過但沒記清楚」的學生；
+  2. 其餘用同一單元、相近單元、同詞性的字（同主題、詞性一樣，不能靠詞性猜）；
+  意思有任何重疊（共用兩個字或同一個漢字）的不用，避免出現兩個答案。
+  已經編號的題目，正確答案的位置（c）沿用舊的答案檔，換誘答不影響計分。
 
 題號：從 50000 開始，記在 tools/jitian_ids.json，已編過的永不改變。
 輸出：docs/jitian.json（題目）、docs/answer-key-jt.json（{題號: [答案位置, 字, 'U12']}，給 Apps Script 重新計分）。
@@ -63,8 +68,26 @@ def close(a, b):
     return bool(han(a) & han(b))
 
 
+def lev(a, b):
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return prev[-1]
+
+
+def lookalike(a, b):
+    a, b = a.lower(), b.lower()
+    if a == b or ' ' in a or ' ' in b or len(a) < 4 or len(b) < 4: return False
+    if (a.startswith(b) or b.startswith(a)) and min(len(a), len(b)) >= 5: return True   # 同字根：difficult／difficulty
+    return lev(a, b) <= 2 and (a[:2] == b[:2] or a[-3:] == b[-3:])
+
+
 def main():
     src = json.load(open(SRC, encoding='utf-8'))
+    oldkey = json.load(open(KEY, encoding='utf-8')) if os.path.exists(KEY) else {}
     ids = json.load(open(IDS, encoding='utf-8')) if os.path.exists(IDS) else {}
     nxt = max([BASE - 1] + list(ids.values())) + 1
     W = []
@@ -97,19 +120,21 @@ def main():
             tiers = {}
             for t in pool: tiers.setdefault((t[0], t[1]), []).append(t[2])
             chosen = []
+            looks = [y for y in W if lookalike(x['w'], y['w']) and not close(y['zh'], x['zh'])]
+            looks.sort(key=lambda y: (y['gp'] != x['gp'], abs(y['u'] - x['u']), rnd.random()))
+            if looks: chosen.append(looks[0])
             for k in sorted(tiers, key=lambda k: (not k[1], k[0])):
                 ys = tiers[k][:]; rnd.shuffle(ys)
                 for y in ys:
                     if len(chosen) == 3: break
-                    if close(y['zh'], x['zh']) or any(close(y['zh'], z['zh']) for z in chosen): continue
+                    if close(y['zh'], x['zh']) or any(close(y['zh'], z['zh']) or y['w'].lower() == z['w'].lower() for z in chosen): continue
                     if j == 'c' and any(y['w'].lower() == z['w'].lower() for z in chosen): continue
                     chosen.append(y)
                 if len(chosen) == 3: break
             assert len(chosen) == 3, x
-            opts = [x] + chosen
-            order = list(range(4)); rnd.shuffle(order)
-            opts = [opts[k] for k in order]
-            c = order.index(0)
+            rnd.shuffle(chosen)
+            c = oldkey[str(i)][0] if str(i) in oldkey else rnd.randrange(4)
+            opts = chosen[:c] + [x] + chosen[c:]
             q = {'k': 'jt', 'j': j, 'u': x['u'], 'w': x['w'], 'p': x['p'], 'zh': x['zh'], 'r': i, 'g': f"jt{x['u']}-{x['n']}",
                  'c': c, 'o': [y['zh'] if j == 'e' else y['w'] for y in opts], 'oz': [y['w'] if j == 'e' else y['zh'] for y in opts]}
             if x['nt']: q['nt'] = x['nt']
