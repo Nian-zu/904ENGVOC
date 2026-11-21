@@ -1889,6 +1889,14 @@ $('meBoss').onclick = openBoss;
 // ===================== 全校光榮榜 =====================
 let NEWS = [], NEWS_ALL = false;
 const NEWS_ICON = {drop: '👹', boss: '⚔️', tr: '💎', badge: '🏅', lv: '⬆️'};
+// 沒登入也看得到（唯讀、不能拍手）；登入後改用 POST，才會檢查自己的新成就、知道自己拍過哪些
+async function loadNewsPublic(){
+  if (PIN_OK) return;
+  try {
+    const j = await fetch(SHEET_URL + '?action=news&_=' + Date.now()).then(r => r.json());
+    if (j.ok && !PIN_OK) { NEWS = j.news || []; drawNews(); }
+  } catch (e) {}
+}
 async function loadNews(check){
   if (!PIN_OK) return;
   try {
@@ -1908,10 +1916,10 @@ const newsPic = n => { if (!n.pic || !AV.items) return ''; const [c, i] = n.pic.
 function drawNews(){
   $('newsBox').classList.toggle('hidden', !NEWS.length);
   if (!NEWS.length) return;
-  const me = +$('seat').value, L = NEWS_ALL ? NEWS : NEWS.slice(0, 6);
+  const me = PIN_OK ? +$('seat').value : 0, L = NEWS_ALL ? NEWS : NEWS.slice(0, 6);
   $('newsList').innerHTML = L.map(n => `<div class="newsrow${n.type === 'drop' || n.type === 'boss' ? ' hot' : ''}"><span>${AV.items ? AV.svg(n.a || {}, {size: 40}) : ''}</span>` +
     `<div class="nt">${NEWS_ICON[n.type] || '🎉'} ${newsWho(n)} ${esc(n.text)}${newsPic(n)}<br><small>${esc(n.at)}</small></div>` +
-    `<button type="button" class="clap${n.iClap ? ' on' : ''}" data-clap="${n.id}" ${n.seat === me || n.iClap ? 'disabled' : ''} title="${n.seat === me ? '大家幫你拍手的次數' : '恭喜一下'}">👏 ${n.claps || ''}</button></div>`).join('') +
+    `<button type="button" class="clap${n.iClap ? ' on' : ''}" data-clap="${n.id}" ${!me || n.seat === me || n.iClap ? 'disabled' : ''} title="${!me ? '登入後就可以拍手恭喜' : n.seat === me ? '大家幫你拍手的次數' : '恭喜一下'}">👏 ${n.claps || ''}</button></div>`).join('') +
     (NEWS.length > 6 ? `<button type="button" id="newsMore">${NEWS_ALL ? '收起' : '看更多（共 ' + NEWS.length + ' 則）'}</button>` : '');
   $('newsList').querySelectorAll('[data-clap]').forEach(b => b.onclick = async () => {
     b.disabled = true; const n = NEWS.find(x => x.id === +b.dataset.clap);
@@ -2405,6 +2413,7 @@ document.querySelectorAll('[data-bt]').forEach(b => b.onclick = () => {
   loadBoard();
 });
 loadBoard();
+setTimeout(loadNewsPublic, 800);
 
 fetch('bank.json').then(r => r.json()).then(d => {
   DATA = d; GL = d.gl || {};

@@ -132,6 +132,7 @@ function doGet(e) {
   if (p.action === 'profile') return out_(profile_(p.seat, p.fresh === '1'));
   if (p.action === 'daily') return out_(dailyFor_(p.seat));
   if (p.action === 'names') return out_(names_());
+  if (p.action === 'news') return out_(cachedSoft_('news0', 21600, 60, function () { return news_(0, false); }));   // 光榮榜：不用登入也能看
   if (p.action === 'parent') return out_(parent_(p.key, p.seat));
   if (p.action === 'who') { const ws = parseInt(p.seat, 10), wn = roster_()[ws]; return out_({ ok: true, given: wn ? givenName(wn) : '' }); }
   if (p.action === 'login') {
