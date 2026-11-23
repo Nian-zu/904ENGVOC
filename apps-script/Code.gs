@@ -126,7 +126,7 @@ const MIN_UP = { day: 10, week: 20, month: 20 };                 // 進步榜：
 
 function doGet(e) {
   const p = (e && e.parameter) || {};
-  if (p.action === 'dash') return out_(dash_(p.key));
+  if (p.action === 'dash') return out_(dash_(p.key, p.from, p.to));
   if (p.action === 'badges') return out_(badgesC_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
   if (p.action === 'profile') return out_(profile_(p.seat, p.fresh === '1'));
@@ -411,10 +411,12 @@ function boardCore_(p) {
 const DASH_BLOCKS = { daily: [1, 7], unit_stats: [9, 4], item_stats: [14, 3], wrong_picks: [18, 3],
   type_stats: [22, 4], wrong_words: [27, 3], redo_stats: [31, 4] }; // [起始欄（A=1）, 欄數]
 
-function dash_(key) {
+function dash_(key, from, to) {
   // 沒設 TEACHER_KEY 就不需要密碼；設了就要輸入正確密碼
   const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
   if (want && String(key || '') !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入老師密碼' };
+  // 直接從「成績」「作答明細」算，才能依期間（from～to，yyyy-MM-dd）篩選；沒給期間就是全部
+  try { return dashRange_(from, to); } catch (e) {}
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('儀表板資料');
   if (!sh) return { ok: false, error: '找不到「儀表板資料」分頁' };
   const n = Math.max(1, sh.getLastRow());
@@ -2084,4 +2086,48 @@ function clap_(seat, id) {
     if (r.claps.indexOf(seat) < 0) { r.claps.push(seat); newsSheet_().getRange(id, 7).setValue(JSON.stringify(r.claps)); }
     return { ok: true, claps: r.claps.length };
   } finally { lock.releaseLock(); }
+}
+
+
+// ===== 老師儀表板：依期間統計（格式和「儀表板資料」分頁的各區塊相同）=====
+function dashRange_(from, to) {
+  const tz = 'Asia/Taipei', ok = function (d) { return d && (!from || d >= from) && (!to || d <= to); };
+  const skip = function (seat) { return !seat || seat === 30 || isStaff_(seat); };
+  const dstr = function (v) { return v instanceof Date ? Utilities.formatDate(v, tz, 'yyyy-MM-dd') : String(v || '').slice(0, 10).replace(/\//g, '-'); };
+  // 成績：每日（不含錯題重做）＋錯題重做次數
+  const sh = sheet_(), n = sh.getLastRow() - 1;
+  const daily = {}, redo = {};
+  if (n > 0) sh.getRange(2, 1, n, 11).getValues().forEach(function (r) {
+    const seat = parseInt(r[2], 10), d = dstr(r[1]);
+    if (skip(seat) || !ok(d)) return;
+    const ans = Number(r[7]) || 0, right = Number(r[8]) || 0;
+    if (String(r[4]).indexOf('錯題重做') >= 0) {
+      const x = redo[seat] = redo[seat] || [seat, 0, 0, 0]; x[1]++; x[2] += ans; x[3] += right; return;
+    }
+    const k = d + '|' + seat, x = daily[k] = daily[k] || [d, seat, String(r[3]), 0, 0, 0, 0];
+    x[3]++; x[4] += ans; x[5] += right; x[6] += Number(r[10]) || 0;
+  });
+  // 作答明細：第一次作答（訂正＝0）
+  const unit = {}, item = {}, pick = {}, type = {}, wrong = {};
+  detailValues_().forEach(function (r) {
+    const seat = parseInt(r[1], 10), d = dstr(r[0]);
+    if (skip(seat) || !ok(d) || Number(r[9])) return;
+    const o = Number(r[7]) ? 1 : 0, q = r[4], u = String(r[3]), t = String(r[6] || ''), w = String(r[5] || '');
+    const a = unit[u + '|' + seat] = unit[u + '|' + seat] || [u, seat, 0, 0]; a[2]++; a[3] += o;
+    const b = item[q] = item[q] || [q, 0, 0]; b[1]++; b[2] += o;
+    const c = type[seat + '|' + t] = type[seat + '|' + t] || [seat, t, 0, 0]; c[2]++; c[3] += o;
+    if (!o) {
+      const pk = q + '|' + r[8], e = pick[pk] = pick[pk] || [q, String(r[8]), 0]; e[2]++;
+      const wk = seat + '|' + w, f = wrong[wk] = wrong[wk] || [seat, w, 0]; f[2]++;
+    }
+  });
+  const tbl = function (head, obj) { return [head].concat(Object.keys(obj).map(function (k) { return obj[k]; })); };
+  return { ok: true, at: Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd HH:mm'), from: from || '', to: to || '', blocks: {
+    daily: tbl(['日期', '座號', '姓名', '測驗次數', '作答題數', '答對題數', '用時秒數'], daily),
+    unit_stats: tbl(['回', '座號', '作答題數', '答對題數'], unit),
+    item_stats: tbl(['題號', '作答次數', '答對次數'], item),
+    wrong_picks: tbl(['題號', '選的', '次數'], pick),
+    type_stats: tbl(['座號', '題型', '作答題數', '答對題數'], type),
+    wrong_words: tbl(['座號', '單字', '答錯次數'], wrong),
+    redo_stats: tbl(['座號', '訂正次數', '訂正題數', '訂正答對'], redo) } };
 }

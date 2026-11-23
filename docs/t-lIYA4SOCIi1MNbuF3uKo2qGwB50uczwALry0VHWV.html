@@ -111,6 +111,11 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
 .tk td.c-late{background:#fff4dc}
 .tk td.c-no{background:#fdecea}
 .tk .empty{color:var(--color-fg-muted);padding:10px 0}
+.pbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px auto 0;max-width:1180px;padding:12px 16px;border:1px solid var(--color-border-line);border-radius:12px;background:var(--paper)}
+.pbar select,.pbar input,.pbar button{font:inherit;font-size:15px;padding:5px 8px;border-radius:8px;border:1px solid var(--color-border-line);background:#fff}
+.pbar button{cursor:pointer;font-weight:700}
+.pbar .pnote{color:var(--color-fg-muted);font-size:14px}
+.hidden{display:none!important}
 </style>
 </head>
 <body>
@@ -134,11 +139,17 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
   <p class="tk-rule" style="margin-top:0">綠色＝當天過關（顯示過關日期）、黃色＝之後補做過關、紅色＝有做但還沒過關（顯示最高答對率）、橘色＝當天做了但範圍或題數不對、空白＝還沒做。</p>
   <div class="scroll" id="tkHist"></div>
 </section>
+<div class="pbar" id="pbar">
+  <b>📅 統計期間</b>
+  <select id="pPick" aria-label="選擇統計期間"></select>
+  <span id="pCustom" class="hidden"><input type="date" id="pFrom" aria-label="起日"> ～ <input type="date" id="pTo" aria-label="迄日"> <button type="button" id="pGo">套用</button></span>
+  <span id="pNote" class="pnote"></span>
+</div>
 <div id="dash-root">
 <div class="t-wrap">
   <header id="top">
     <h1 class="t-title">904 每日背英單・老師儀表板</h1>
-    <p class="t-lede" id="summary">今天是 <b data-draw="todayDate">—</b>，進度 <b data-draw="todayUnit" data-source="c_kpi" data-field="今日回" data-row="0">—</b>。已有 <b data-draw="kpiSubs" data-source="c_kpi" data-field="今日交卷人數" data-row="0">—</b>／<b data-draw="kpiRoster" data-source="c_kpi" data-field="應交人數" data-row="0">—</b> 人交卷，今日答對率 <b data-draw="kpiToday" data-source="c_kpi" data-field="今日答對率" data-row="0">—</b>，近 7 天全班答對率 <b data-draw="kpiWeek" data-source="c_kpi" data-field="近7天答對率" data-row="0">—</b>。</p>
+    <p class="t-lede" id="summary"><span data-draw="refLabel">今天是</span> <b data-draw="todayDate">—</b>，進度 <b data-draw="todayUnit" data-source="c_kpi" data-field="今日回" data-row="0">—</b>。已有 <b data-draw="kpiSubs" data-source="c_kpi" data-field="今日交卷人數" data-row="0">—</b>／<b data-draw="kpiRoster" data-source="c_kpi" data-field="應交人數" data-row="0">—</b> 人交卷，今日答對率 <b data-draw="kpiToday" data-source="c_kpi" data-field="今日答對率" data-row="0">—</b>，近 7 天全班答對率 <b data-draw="kpiWeek" data-source="c_kpi" data-field="近7天答對率" data-row="0">—</b>。</p>
   </header>
 
   <section class="t-cards" id="cards">
@@ -273,7 +284,7 @@ const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxVmbIvH50EIkAU283p-M
       state = 'loading'; redraw(); st.textContent = '載入中…';
       try {
         const [d, b, jt] = await Promise.all([
-          fetch(SHEET_URL + '?action=dash&key=' + encodeURIComponent(key)).then(r => r.json()),
+          fetch(SHEET_URL + '?action=dash&key=' + encodeURIComponent(key) + '&from=' + T904.FROM + '&to=' + T904.TO).then(r => r.json()),
           raw.items ? null : fetch('bank.json').then(r => r.json()),
           raw.items ? null : fetch('jitian.json').then(r => r.json()).catch(() => null)
         ]);
@@ -287,6 +298,7 @@ const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxVmbIvH50EIkAU283p-M
             題目: q.j === 's' ? '選擇題：' + q.a + '____' + q.b : (q.j === 'e' ? '英翻中：' + q.w : '中翻英：' + q.zh) + ' ' + q.p, 答案: q.o[q.c], 中文: q.zh}));
           raw.items = items;
         }
+        ['daily', 'unit_stats', 'item_stats', 'wrong_picks', 'type_stats', 'wrong_words', 'redo_stats'].forEach(k => delete raw[k]);
         Object.assign(raw, d.blocks);
         state = 'ok'; errMsg = ''; st.textContent = '資料時間 ' + d.at;
         if (key) try { localStorage.setItem('904teacherKey', key); } catch (e) {}
@@ -304,6 +316,16 @@ window.T904 = {
   SEATS: [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29],
   START: '2026-11-13',
   today() { return new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Taipei'}).format(new Date()); },
+  // 統計期間（空字串＝全部）；「今日」「近 7 天」改以期間最後一天為準
+  FROM: '', TO: '',
+  ref() { const t = this.today(); return this.TO && this.TO < t ? this.TO : t; },
+  // 週次：第一週 11/14（六）～11/22（日），之後每週一到週日
+  weeks() {
+    const out = [['2026-11-14', '2026-11-22']], t = this.today();
+    let a = '2026-11-23';
+    while (a <= t) { out.push([a, this.addDays(a, 6)]); a = this.addDays(a, 7); }
+    return out;
+  },
   addDays(d, n) { return new Date(Date.parse(d) + n * 864e5).toISOString().slice(0, 10); },
   diff(a, b) { return Math.round((Date.parse(a) - Date.parse(b)) / 864e5); },
   unitOf(d) { const i = Math.round((Date.parse(d) - Date.parse('2026-11-13')) / 864e5); return i >= 0 && i < 183 ? 'D' + (183 - i) : ''; },
@@ -358,7 +380,7 @@ dash.calc('c_kpi', {
   title: '今日與近期摘要', description: '今天交卷人數與未交名單，今天、近 7 天、前 7 天與開學以來的答對率。',
   inputs: ['daily'],
   fn: (daily) => {
-    const today = T904.today(), w0 = T904.addDays(today, -6), p0 = T904.addDays(today, -13);
+    const today = T904.ref(), w0 = T904.addDays(today, -6), p0 = T904.addDays(today, -13);
     const names = {}; daily.forEach(r => { names[r['座號']] = r['姓名']; });
     const sum = (f) => { let a = 0, c = 0; daily.forEach(r => { if (f(r['日期'])) { a += r['作答題數'] || 0; c += r['答對題數'] || 0; } }); return [c, a]; };
     const subs = new Set(daily.filter(r => r['日期'] === today).map(r => r['座號']));
@@ -374,7 +396,7 @@ dash.calc('c_students', {
   title: '學生總表', description: '每位學生的交卷天數、最後交卷日、答對率（總、近 7 天、前 7 天、各題型）、每題秒數與錯題重做次數。',
   inputs: ['daily', 'type_stats', 'redo_stats'],
   fn: (daily, typeStats, redoStats) => {
-    const today = T904.today(), w0 = T904.addDays(today, -6), p0 = T904.addDays(today, -13);
+    const today = T904.ref(), w0 = T904.addDays(today, -6), p0 = T904.addDays(today, -13);
     return T904.SEATS.map(s => {
       const rows = daily.filter(r => r['座號'] === s);
       const days = new Set(rows.map(r => r['日期']));
@@ -448,7 +470,8 @@ const kpiVal = (field, f) => (el) => {
   const v = k.data[0][field];
   el.textContent = f ? f(v) : (v == null ? '—' : String(v));
 };
-dash.draw('todayDate', el => { el.textContent = T904.today().replace(/-/g, '/'); });
+dash.draw('refLabel', el => { el.textContent = T904.ref() < T904.today() ? '統計期間最後一天是' : '今天是'; });
+dash.draw('todayDate', el => { el.textContent = T904.ref().replace(/-/g, '/'); });
 dash.draw('todayUnit', kpiVal('今日回', v => v || '（不在進度內）'));
 dash.draw('kpiSubs', kpiVal('今日交卷人數'));
 dash.draw('kpiRoster', kpiVal('應交人數'));
@@ -737,6 +760,29 @@ dash.draw('wordRows', (tb) => {
   const k = document.getElementById('key');
   try { k.value = localStorage.getItem('904teacherKey') || ''; } catch (e) {}
   document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); dash._load(k.value); loadTasks(k.value); };
+  // ---- 統計期間 ----
+  const pick = document.getElementById('pPick'), pFrom = document.getElementById('pFrom'), pTo = document.getElementById('pTo'), md = d => d.slice(5).replace('-', '/');
+  const W = T904.weeks();
+  pick.replaceChildren(new Option('全部（開學至今）', 'all'),
+    ...W.map((w, i) => new Option(`第 ${i + 1} 週（${md(w[0])}–${md(w[1])}）${i === W.length - 1 ? '・本週' : ''}`, w.join('|'))).reverse(),
+    new Option('自訂起訖日期…', 'custom'));
+  const setRange = (f, t) => {
+    T904.FROM = f || ''; T904.TO = t || '';
+    document.getElementById('pNote').textContent = T904.FROM ? `目前顯示 ${T904.FROM.replace(/-/g, '/')} ～ ${T904.TO.replace(/-/g, '/')} 的資料；「今日」「近 7 天」以期間最後一天為準。` : '目前顯示開學至今全部資料。';
+    dash._load(k.value);
+  };
+  pick.onchange = () => {
+    const v = pick.value;
+    document.getElementById('pCustom').classList.toggle('hidden', v !== 'custom');
+    if (v === 'custom') { const t = T904.today(); pFrom.value = pFrom.value || T904.addDays(t, -6); pTo.value = pTo.value || t; return; }
+    if (v === 'all') setRange('', ''); else { const [f, t] = v.split('|'); setRange(f, t); }
+  };
+  document.getElementById('pGo').onclick = () => {
+    const f = pFrom.value, t = pTo.value;
+    if (!f || !t || f > t) { document.getElementById('pNote').textContent = '⚠ 請選擇正確的起日和迄日（起日不能晚於迄日）'; return; }
+    setRange(f, t);
+  };
+  document.getElementById('pNote').textContent = '目前顯示開學至今全部資料。';
   dash._load(k.value);
   loadTasks(k.value);
 })();
