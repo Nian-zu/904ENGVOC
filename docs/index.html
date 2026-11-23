@@ -390,6 +390,11 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 .toast{pointer-events:auto;display:flex;gap:10px;align-items:center;background:#2b2523;color:#fff;border-radius:14px;padding:10px 12px;box-shadow:0 8px 24px rgba(0,0,0,.25);animation:tin .35s ease-out;font-size:.9rem;line-height:1.45}
 .toast.out{opacity:0;transform:translateY(-10px);transition:.4s}.toast .ti{font-size:1.6rem}
 @keyframes tin{from{opacity:0;transform:translateY(-14px)}to{opacity:1;transform:none}}
+.taskban.owe{background:#fff6e6;border-color:#f0b45a}
+.owelist{display:flex;flex-direction:column;gap:6px;width:100%}
+.owerow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid #f3d9a8;border-radius:10px;padding:7px 10px;font-size:.9rem}
+.owerow b{white-space:nowrap}.owerow .sp{margin-left:auto}
+.owerow button{font:inherit;font-size:.88rem;font-weight:800;border-radius:99px;border:0;background:#e8742c;color:#fff;padding:5px 14px;cursor:pointer}
 </style>
 </head>
 <body>
@@ -424,6 +429,10 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <div class="tbpw hidden" id="tbPwShow" aria-live="polite"></div>
     <div class="tb-act"><input type="text" id="tbPw" class="hidden" maxlength="20" autocomplete="off" placeholder="輸入今日小考密碼" aria-label="今日小考密碼">
     <button class="primary" id="tbGo" type="button">開始今日任務</button></div>
+  </div>
+  <div class="taskban owe hidden" id="oweBan">
+    <div class="tb-text"><b>📌 補做任務</b><span id="oweRule"></span></div>
+    <div id="oweList" class="owelist"></div>
   </div>
   <div class="chcard hidden" id="chCard" aria-live="polite"></div>
   <div class="field">
@@ -864,8 +873,8 @@ function shuffle(a){ for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.ran
 function start(items){
   $('qStreak').classList.add('hidden');
   session = {items, i:0, right:0, wrong:[], answered:false, done:{}, streak:0, order: items.map(() => shuffle([0,1,2,3])),
-    log: [], t0: Date.now(), planned: items.length, rangeText: rangeText(), quiz: pendingQuiz, kind: kindCode()};
-  pendingQuiz = null; $('qQuiz').classList.toggle('hidden', !session.quiz);
+    log: [], t0: Date.now(), planned: items.length, rangeText: rangeText(), quiz: pendingQuiz, makeup: pendingMakeup, kind: kindCode()};
+  pendingQuiz = null; pendingMakeup = null; $('qQuiz').classList.toggle('hidden', !session.quiz);
   session.asked = new Set(items.filter(x => typeof x === 'object').map(x => x.u + '-' + x.p + '-' + x.b));
   $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); $('board').classList.add('hidden');
   show();
@@ -1344,6 +1353,7 @@ async function loadTodayTask(){
   if (!SHEET_URL || !seat) { $('taskBan').classList.add('hidden'); return; }
   try {
     const j = await fetch(SHEET_URL + '?action=tasks&seat=' + seat).then(r => r.json());
+    drawOwe(j.ok ? j.owe : null);
     if (!j.ok || !j.task) { $('taskBan').classList.add('hidden'); TODAY_TASK = null; return; }
     TODAY_TASK = j.task;
     const t = j.task, me = j.me, lbl = t.label || (t.from + (t.from !== t.to ? '–' + t.to : ''));
@@ -1393,6 +1403,13 @@ $('tbGo').onclick = async () => {
     finally { $('tbGo').disabled = false; }
     try { localStorage.setItem(pwKey(t.date), pw); } catch (e) {}
   }
+  if (!applyTask(t)) return;
+  if ($('startBtn').disabled) { $('seat').focus(); $('countLbl').textContent = '請先填好座號和姓名，再按一次「' + $('tbGo').textContent + '」。'; return; }
+  pendingQuiz = pw || null;
+  $('startBtn').click();
+};
+// 把任務的範圍和題數設好（今日任務、補做任務共用）
+function applyTask(t){
   if (!t.days) {
     // 小考沒有指定範圍：用同學自己選的範圍
   } else if (t.list) {
@@ -1401,17 +1418,34 @@ $('tbGo').onclick = async () => {
     setMode('pick'); syncGrid();
   } else {
     const a = DATA.labels.indexOf(t.from), b = DATA.labels.indexOf(t.to);
-    if (a < 0 || b < 0) return;
+    if (a < 0 || b < 0) return false;
     setMode('range');
     $('from').value = Math.min(a, b); $('to').value = Math.max(a, b);
   }
   const nb = document.querySelector('[data-n="' + t.n + '"]');
   if (nb) nb.click(); else num = t.n;
   update();
-  if ($('startBtn').disabled) { $('seat').focus(); $('countLbl').textContent = '請先填好座號和姓名，再按一次「' + $('tbGo').textContent + '」。'; return; }
-  pendingQuiz = pw || null;
-  $('startBtn').click();
-};
+  return true;
+}
+// ---- 補做任務：以前沒過關的任務，補完會記成「補做」（老師頁看得到） ----
+let OWE = [], pendingMakeup = null; const MADE_UP = new Set();   // 剛補做過關的（伺服器快取可能晚一分鐘才更新）
+function drawOwe(list){
+  OWE = (list || []).filter(t => t.days && !MADE_UP.has(t.date));   // 沒指定範圍的小考無法補做
+  $('oweBan').classList.toggle('hidden', !OWE.length);
+  if (!OWE.length) return;
+  const md = d => d.slice(5).replace('-', '/');
+  $('oweRule').textContent = `你有 ${OWE.length} 個任務還沒過關，補做過關一樣算數（老師那邊會標成「補做」）。`;
+  $('oweList').innerHTML = OWE.slice(0, 3).map((t, i) => `<div class="owerow"><b>${md(t.date)}</b><span>${t.quiz ? '📝 小考・' : ''}${esc(t.label)}・${t.n} 題・${t.pass}% 過關${t.attempts ? `（最高 ${t.best}%）` : ''}</span><span class="sp"><button type="button" data-owe="${i}">補做</button></span></div>`).join('')
+    + (OWE.length > 3 ? `<div class="hint">還有 ${OWE.length - 3} 個，先補完上面的就會出現。</div>` : '');
+  $('oweList').querySelectorAll('[data-owe]').forEach(b => b.onclick = () => {
+    const t = OWE[+b.dataset.owe];
+    if (book !== 'main') setBook('main');
+    if (!DATA || !applyTask(t)) return;
+    if ($('startBtn').disabled) { $('seat').focus(); $('countLbl').textContent = '請先填好座號和姓名，再按一次「補做」。'; return; }
+    pendingQuiz = null; pendingMakeup = t.date;
+    $('startBtn').click();
+  });
+}
 
 // wiring
 function setBook(b){
@@ -1548,7 +1582,7 @@ $('quitBtn').onclick = () => { if (session && session.surv) clearInterval(sessio
 function back(){ $('quiz').classList.add('hidden'); $('result').classList.add('hidden'); $('setup').classList.remove('hidden'); $('board').classList.remove('hidden'); update(); }
 $('backBtn').onclick = back;
 $('redoWrong').onclick = () => { const rt = session.rangeText; start(shuffle(session.wrong.map(w => w.st))); session.rangeText = (rt + '（錯題重做）').slice(0, 120); };
-$('againBtn').onclick = () => { if (session.surv && session.surv.boss) { openBoss(); return; } if (session.surv) { startSurv(); return; } pendingQuiz = session.quiz || null; $('startBtn').click(); };
+$('againBtn').onclick = () => { if (session.surv && session.surv.boss) { openBoss(); return; } if (session.surv) { startSurv(); return; } pendingQuiz = session.quiz || null; pendingMakeup = session.makeup || null; $('startBtn').click(); };
 document.addEventListener('keydown', e => {
   if ($('quiz').classList.contains('hidden')) return;
   const k = e.key.toUpperCase(); const map = {A:0,B:1,C:2,D:3,'1':0,'2':1,'3':2,'4':3};
@@ -2292,7 +2326,7 @@ async function upload(){
   box.className = 'upload'; box.textContent = '成績上傳中…';
   const body = JSON.stringify({
     seat: $('seat').value, name: $('sname').value.trim(), pin: $('spin').value.trim(), range: s.rangeText, kind: s.quiz ? 'all' : (s.kind || kindCode()),
-    total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log, quiz: s.quiz || ''
+    total: s.planned, seconds: Math.round((Date.now() - s.t0) / 1000), answers: s.log, quiz: s.quiz || '', makeup: s.makeup || ''
   });
   const okMsg = sc => `✓ 成績已上傳（${TEACHERS[$('seat').value] ? '' : clsOf($('seat').value) + ' 班 ' + seatNo($('seat').value) + ' 號 '}${$('sname').value.trim()}${sc != null ? '，' + sc + ' 分' : ''}）`;
   try {
@@ -2300,7 +2334,8 @@ async function upload(){
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '上傳失敗');
     if (j.quiz === false) { box.className = 'upload bad'; box.textContent = okMsg(j.score) + '，但小考密碼不對（或已過了當天），這次沒有算成每日小考。'; }
-    else { box.className = 'upload ok'; box.textContent = okMsg(j.score) + (j.quiz ? '・📝 已記錄為每日小考' : ''); }
+    else { box.className = 'upload ok'; box.textContent = okMsg(j.score) + (j.quiz ? '・📝 已記錄為每日小考' : j.makeup ? `・📌 已記錄為補做 ${j.makeup.slice(5).replace('-', '/')} 的任務` : ''); }
+    if (j.makeup) { const t = OWE.find(x => x.date === j.makeup); if (t && j.score >= t.pass && s.log.length >= t.n) { MADE_UP.add(j.makeup); drawOwe(OWE); } }
     setTimeout(() => loadProfile(true), 400);
     loadBoard();
   } catch (e) {

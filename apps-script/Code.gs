@@ -88,7 +88,13 @@ function doPost(e) {
     // 每日小考：密碼正確就在 N 欄記下小考日期（錯題重做不算小考）
     let quiz = '';
     if (body.quiz && !redo) { const qt = quizTask_(body.quiz); if (qt) quiz = qt.date; }
-    row.push(quiz ? "'" + quiz : '');
+    // 補做以前沒過關的任務：N 欄記「補＋任務日期」（任務統計會把它算進那天的任務，過關日期是今天＝補做）
+    let makeup = '';
+    if (!quiz && body.makeup && !redo) {
+      const md = String(body.makeup).slice(0, 10), td = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
+      if (md < td && readTasks_().some(function (t) { return t.date === md; })) makeup = md;
+    }
+    row.push(quiz ? "'" + quiz : makeup ? "'補" + makeup : '');
 
     const lock = LockService.getScriptLock();
     lock.waitLock(20000);
@@ -111,7 +117,7 @@ function doPost(e) {
       lock.releaseLock();
     }
     try { petGain_(seat, right); } catch (e) {}   // 答對的題數也讓正在帶的寵物長大
-    return out_({ ok: true, score: score, right: right, answered: answered, quiz: quiz ? true : (body.quiz ? false : null) });
+    return out_({ ok: true, score: score, right: right, answered: answered, quiz: quiz ? true : (body.quiz ? false : null), makeup: makeup || null });
   } catch (err) {
     return out_({ ok: false, error: String(err) });
   }
@@ -1096,15 +1102,36 @@ function taskFor_(seat) {
     t.now = now;
   }
   return { ok: true, today: today, task: t, me: t ? ((C.results[t.date] || {})[seat] || null) : null,
-    given: ro[seat] ? givenName(ro[seat]) : '' };
+    given: ro[seat] ? givenName(ro[seat]) : '', owe: oweFor_(seat, today) };
 }
 
-function tasks_(key, seatOnly, todayOnly) {
+// 補做任務：以前的任務還沒過關的（從這位同學第一次交卷那天之後的任務才算），最近的在前面
+function oweFor_(seat, today) {
+  if (seat === 30 || isStaff_(seat)) return [];
+  try {
+    const A = cachedSoft_('tall2|' + today, 600, 60, function () {
+      const r = tasks_(null, null, false, true), first = {};
+      readRows_().forEach(function (x) { if (!first[x.seat] || x.d < first[x.seat]) first[x.seat] = x.d; });
+      (r.tasks || []).forEach(function (t) { delete t.pw; delete t.dist; });
+      return { tasks: r.tasks || [], results: r.results || {}, first: first };
+    });
+    const f = A.first[seat];
+    if (!f) return [];
+    return A.tasks.filter(function (t) { return t.date < today && t.date >= f && !(((A.results[t.date] || {})[seat] || {}).passAt); })
+      .reverse().map(function (t) {
+        const me = (A.results[t.date] || {})[seat] || {};
+        return { date: t.date, label: t.label, from: t.from, to: t.to, list: t.list, days: t.days, n: t.n, pass: t.pass, quiz: t.quiz,
+          refLabel: t.refLabel || '', best: me.best || 0, attempts: me.attempts || 0 };
+      });
+  } catch (e) { return []; }
+}
+
+function tasks_(key, seatOnly, todayOnly, internal) {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
   if (parseInt(seatOnly, 10)) return taskFor_(parseInt(seatOnly, 10));
   const tasks = readTasks_().filter(function (t) { return !todayOnly || t.date === today; });
   const onlySeat = 0;
-  if (!todayOnly) {
+  if (!todayOnly && !internal) {
     const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
     if (want && String(key || '') !== want) return { ok: false, error: key ? '密碼不正確' : '請輸入老師密碼' };
   }
