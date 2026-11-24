@@ -139,6 +139,21 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
   <p class="tk-rule" style="margin-top:0">綠色＝當天過關（顯示過關日期）、黃色＝之後補做過關、紅色＝有做但還沒過關（顯示最高答對率）、橘色＝當天做了但範圍或題數不對、空白＝還沒做。</p>
   <div class="scroll" id="tkHist"></div>
 </section>
+<section class="tk" id="anomSec">
+  <div class="tk-head"><h2>⚠️ 可疑作答</h2><span class="mut" id="anomRange"></span></div>
+  <p class="tk-rule">系統每天自動檢查：被擋下的假交卷、同一份結果重複送出、短時間連續交卷、每題作答快到不像在讀題、每日小考一直重開、答對率突然暴增、亂猜。按「標成無效」會把那一段寫進「無效紀錄」分頁，排行榜自動扣掉；按「沒問題」就不再顯示。</p>
+  <div id="anomBody" class="mut">載入中…</div>
+</section>
+<style>
+.an-row{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid #0001}
+.an-row:first-child{border-top:0}
+.an-ic{font-size:20px;line-height:1.3}
+.an-main{flex:1;min-width:0}
+.an-ev{font-size:13px;color:#555;margin-top:2px;word-break:break-word}
+.an-btn{display:flex;gap:6px;flex-shrink:0}
+.an-btn button{font-size:13px;padding:4px 10px;border-radius:8px;border:1px solid #ccc;background:#fff;cursor:pointer}
+.an-btn button.bad{border-color:#d33;color:#b00}
+</style>
 <div class="pbar" id="pbar">
   <b>📅 統計期間</b>
   <select id="pPick" aria-label="選擇統計期間"></select>
@@ -759,7 +774,34 @@ dash.draw('wordRows', (tb) => {
 (() => {
   const k = document.getElementById('key');
   try { k.value = localStorage.getItem('904teacherKey') || ''; } catch (e) {}
-  document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); dash._load(k.value); loadTasks(k.value); };
+  document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); dash._load(k.value); loadTasks(k.value); loadAnom(); };
+  // ---- 可疑作答 ----
+  const AN_IC = {blocked: '🚫', same: '🤖', burst: '⏱', fast: '⚡', quiz: '🔁', jump: '📈', random: '🎲'};
+  const AN_TX = {blocked: '假交卷被擋下', same: '重複送出同一份結果', burst: '短時間大量交卷', fast: '作答速度異常快', quiz: '每日小考一直重開', jump: '答對率突然暴增', random: '疑似亂猜'};
+  const aesc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  async function loadAnom(){
+    const box = document.getElementById('anomBody');
+    let f = T904.FROM, t = T904.TO;
+    if (!f) { t = T904.today(); f = T904.addDays(t, -6); }
+    document.getElementById('anomRange').textContent = f.slice(5).replace('-', '/') + ' ～ ' + t.slice(5).replace('-', '/');
+    try {
+      const j = await fetch(SHEET_URL + '?action=anomaly&key=' + encodeURIComponent(k.value || '') + '&from=' + f + '&to=' + t).then(r => r.json());
+      if (!j.ok) { box.textContent = j.error ? '⚠ ' + j.error : '需要更新成績程式後才能使用。'; return; }
+      if (!j.items.length) { box.innerHTML = '✅ 這段期間沒有發現可疑作答。'; return; }
+      box.classList.remove('mut');
+      box.innerHTML = j.items.map(x => `<div class="an-row" data-k="${aesc(x.k)}"><div class="an-ic">${AN_IC[x.type] || '⚠️'}</div><div class="an-main"><b>${aesc(x.cls)} ${x.seat % 100} 號 ${aesc(x.name)}</b>・${x.d.slice(5).replace('-', '/')}・${AN_TX[x.type] || x.type}<div class="an-ev">${aesc(x.ev)}</div></div><div class="an-btn">${x.range && /^(same|burst|fast)$/.test(x.type) ? '<button class="bad" data-act="invalid">標成無效</button>' : ''}<button data-act="ok">沒問題</button></div></div>`).join('');
+      box.querySelectorAll('.an-btn button').forEach(b => b.onclick = async () => {
+        const row = b.closest('.an-row'), act = b.dataset.act;
+        if (act === 'invalid' && b.dataset.arm !== '1') { b.dataset.arm = '1'; b.textContent = '再按一次確認'; return; }
+        row.querySelectorAll('button').forEach(x => x.disabled = true);
+        try {
+          const r = await fetch(SHEET_URL + '?action=anomalyAct&key=' + encodeURIComponent(k.value || '') + '&k=' + encodeURIComponent(row.dataset.k) + '&act=' + act).then(r => r.json());
+          if (r.ok) { row.style.opacity = .45; row.querySelector('.an-btn').innerHTML = act === 'invalid' ? '已標成無效' : '已略過'; }
+          else { row.querySelector('.an-btn').innerHTML = '⚠ ' + aesc(r.error || '失敗'); }
+        } catch (e) { row.querySelectorAll('button').forEach(x => x.disabled = false); }
+      });
+    } catch (e) { box.textContent = '⚠ 暫時無法載入，請稍後按「載入／重新整理」。'; }
+  }
   // ---- 統計期間 ----
   const pick = document.getElementById('pPick'), pFrom = document.getElementById('pFrom'), pTo = document.getElementById('pTo'), md = d => d.slice(5).replace('-', '/');
   const W = T904.weeks();
@@ -769,7 +811,7 @@ dash.draw('wordRows', (tb) => {
   const setRange = (f, t) => {
     T904.FROM = f || ''; T904.TO = t || '';
     document.getElementById('pNote').textContent = T904.FROM ? `目前顯示 ${T904.FROM.replace(/-/g, '/')} ～ ${T904.TO.replace(/-/g, '/')} 的資料；「今日」「近 7 天」以期間最後一天為準。` : '目前顯示開學至今全部資料。';
-    dash._load(k.value);
+    dash._load(k.value); loadAnom();
   };
   pick.onchange = () => {
     const v = pick.value;
@@ -785,6 +827,7 @@ dash.draw('wordRows', (tb) => {
   document.getElementById('pNote').textContent = '目前顯示開學至今全部資料。';
   dash._load(k.value);
   loadTasks(k.value);
+  loadAnom();
 })();
 </script>
 </body>

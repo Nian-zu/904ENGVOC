@@ -47,14 +47,17 @@ function doPost(e) {
     if (body.type === 'boss') return out_(bossFight_(seat, body));
     if (body.type === 'news') return out_(news_(seat, !!body.check));
     if (body.type === 'clap') return out_(clap_(seat, parseInt(body.id, 10)));
-    if (body.type === 'start') return out_(startTok_(seat, body.ids));
+    if (body.type === 'start') return out_(startTok_(seat, body.ids, body.quiz));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
     const answers = Array.isArray(body.answers) ? body.answers.slice(0, 300) : [];
     if (!answers.length) return out_({ ok: false, error: '沒有作答資料' });
     const tk = checkTok_(seat, body, answers);
-    if (!tk.ok) return out_(tk);
+    if (!tk.ok) {
+      try { blockedSheet_().appendRow([new Date(), seat, String(body.name || '').slice(0, 20), tk.error, String(body.range || '').slice(0, 60), answers.length, parseInt(body.seconds, 10) || 0]); } catch (e) {}
+      return out_(tk);
+    }
 
     // 重新計分
     let key = loadKey_();
@@ -73,6 +76,12 @@ function doPost(e) {
       detail.push([id, k, ok, String(a[2] == null ? '' : a[2]).slice(0, 40), kindZh[a[3]] || '']);
     });
     const answered = answers.length;
+    // 同一題同一天只有「第一次答對」算進答對數／代幣／排行榜（答錯後訂正答對也算；已經答對過再刷就不算）
+    const todayK = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), okSet = okToday_(seat, todayK);
+    let counted = 0;
+    detail.forEach(function (x) {
+      if (x[2] && !okSet[x[0]]) { okSet[x[0]] = 1; x.push(1); counted++; } else x.push(0);
+    });
     const total = Math.max(answered, Math.min(300, parseInt(body.total, 10) || answered));
     const score = Math.round(right / answered * 100);
     const seconds = Math.max(0, Math.min(36000, parseInt(body.seconds, 10) || 0));
@@ -90,14 +99,24 @@ function doPost(e) {
     ];
     // 每日小考：密碼正確就在 N 欄記下小考日期（錯題重做不算小考）
     let quiz = '';
-    if (body.quiz && !redo) { const qt = quizTask_(body.quiz); if (qt) quiz = qt.date; }
+    let retry = false;
+    if (body.quiz && !redo) {
+      const qt = quizTask_(body.quiz);
+      if (qt) {
+        // 只有當天第一次開始的小考算正式成績；之後的（重新整理、重開）記成「重考」，不算任務
+        const mine = tk.tok ? quizStarts_(qt.date).filter(function (x) { return x.seat === seat; }).sort(function (a, b) { return a.t - b.t; }) : [];
+        if (mine.length && mine[0].tok !== tk.tok) retry = true; else quiz = qt.date;
+        if (retry) quiz = '';
+        if (retry) body._retryDate = qt.date;
+      }
+    }
     // 補做以前沒過關的任務：N 欄記「補＋任務日期」（任務統計會把它算進那天的任務，過關日期是今天＝補做）
     let makeup = '';
     if (!quiz && body.makeup && !redo) {
       const md = String(body.makeup).slice(0, 10), td = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
       if (md < td && readTasks_().some(function (t) { return t.date === md; })) makeup = md;
     }
-    row.push(quiz ? "'" + quiz : makeup ? "'補" + makeup : '');
+    row.push(quiz ? "'" + quiz : body._retryDate ? "'重考" + body._retryDate : makeup ? "'補" + makeup : '');
 
     const lock = LockService.getScriptLock();
     lock.waitLock(20000);
@@ -105,23 +124,27 @@ function doPost(e) {
       const sh = sheet_();
       if (sh.getMaxColumns() < row.length) sh.insertColumnsAfter(sh.getMaxColumns(), row.length - sh.getMaxColumns());
       if (!sh.getRange(1, 14).getValue()) sh.getRange(1, 14).setValue('小考').setFontWeight('bold');
+      row.push(counted);   // O 欄：計分答對（同題同日只算第一次答對）
+      if (!sh.getRange(1, 15).getValue()) sh.getRange(1, 15).setValue('計分答對').setFontWeight('bold');
       append_(sh, [row]);
       const day = "'" + p[0] + '-' + ('0' + p[1]).slice(-2) + '-' + ('0' + p[2]).slice(-2);
       const stamp = "'" + day.slice(1) + ' ' + ('0' + p[3]).slice(-2) + ':' + ('0' + p[4]).slice(-2) + ':' + ('0' + p[5]).slice(-2);
       const rows = detail.map(function (x) {
-        return [day, seat, "'" + name, typeof x[1][2] === 'string' ? x[1][2] : 'D' + (183 - x[1][2]), x[0], "'" + x[1][1], x[4], x[2] ? 1 : 0, "'" + x[3], redo, stamp];
+        return [day, seat, "'" + name, typeof x[1][2] === 'string' ? x[1][2] : 'D' + (183 - x[1][2]), x[0], "'" + x[1][1], x[4], x[2] ? 1 : 0, "'" + x[3], redo, stamp, x[5]];
       });
       if (rows.length) {
         const dt = detailSheet_();
         append_(dt, rows);
       }
+      saveOkToday_(seat, todayK, okSet);
       bump_();   // 經驗值要重算
     } finally {
       lock.releaseLock();
     }
     try { petGain_(seat, right); } catch (e) {}   // 答對的題數也讓正在帶的寵物長大
     if (tk.tok) CacheService.getScriptCache().put('tku|' + tk.tok, '1', 21600);   // 憑證用過就作廢
-    return out_({ ok: true, score: score, right: right, answered: answered, quiz: quiz ? true : (body.quiz ? false : null), makeup: makeup || null });
+    return out_({ ok: true, score: score, right: right, answered: answered, counted: counted, retry: retry || null,
+      quiz: quiz ? true : (body.quiz && !retry ? false : null), makeup: makeup || null });
   } catch (err) {
     return out_({ ok: false, error: String(err) });
   }
@@ -137,6 +160,8 @@ const MIN_UP = { day: 10, week: 20, month: 20 };                 // 進步榜：
 function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'dash') return out_(dash_(p.key, p.from, p.to));
+  if (p.action === 'anomaly') return out_(teacherOk_(p.key) ? anomalies_(p.from, p.to) : { ok: false, error: '請輸入老師密碼' });
+  if (p.action === 'anomalyAct') return out_(teacherOk_(p.key) ? anomalyAct_(p.k, p.act) : { ok: false, error: '請輸入老師密碼' });
   if (p.action === 'badges') return out_(badgesC_());
   if (p.action === 'tasks') return out_(tasks_(p.key, p.seat));
   if (p.action === 'profile') return out_(profile_(p.seat, p.fresh === '1'));
@@ -168,14 +193,14 @@ const QUESTS = [
   { id: 'cloze', tier: 1, coin: 10, need: 5, t: '克漏字答對 5 格', val: function (rs, dk) { return dk['克漏字'] || 0; } },
   { id: 'r60', tier: 2, coin: 20, need: 60, t: '今天答對 60 題', val: function (rs) { return sum_(rs, 'right'); } },
   { id: 'three', tier: 2, coin: 20, need: 3, t: '今天交卷 3 次', val: function (rs) { return rs.length; } },
-  { id: 'acc90', tier: 2, coin: 20, need: 1, t: '一次作答 20 題以上，答對率 90% 以上', val: function (rs) { return rs.filter(function (r) { return r.answered >= 20 && r.right >= r.answered * 0.9; }).length; } },
+  { id: 'acc90', tier: 2, coin: 20, need: 1, t: '一次作答 20 題以上，答對率 90% 以上', val: function (rs) { return rs.filter(function (r) { return r.answered >= 20 && r.raw >= r.answered * 0.9; }).length; } },
   { id: 'jt20', tier: 2, coin: 20, need: 20, t: '寂天答對 20 題', val: function (rs, dk) { return dk['寂天'] || 0; } },
   { id: 'surv8', tier: 2, coin: 20, need: 8, t: '生存挑戰撐到 8 題', val: function (rs) { return max_(rs.filter(isSurv_), 'right'); } },
   { id: 'verb10', tier: 2, coin: 20, need: 10, t: '動詞變化答對 10 題', val: function (rs, dk) { return dk['動詞變化'] || 0; } },
   { id: 'r100', tier: 3, coin: 30, need: 100, t: '今天答對 100 題', val: function (rs) { return sum_(rs, 'right'); } },
-  { id: 'full15', tier: 3, coin: 30, need: 1, t: '一次作答 15 題以上全對', val: function (rs) { return rs.filter(function (r) { return !isSurv_(r) && r.answered >= 15 && r.right === r.answered; }).length; } },
+  { id: 'full15', tier: 3, coin: 30, need: 1, t: '一次作答 15 題以上全對', val: function (rs) { return rs.filter(function (r) { return !isSurv_(r) && r.answered >= 15 && r.raw === r.answered; }).length; } },
   { id: 'surv15', tier: 3, coin: 30, need: 15, t: '生存挑戰撐到 15 題', val: function (rs) { return max_(rs.filter(isSurv_), 'right'); } },
-  { id: 'big40', tier: 3, coin: 30, need: 1, t: '一次作答 40 題以上，答對率 80% 以上', val: function (rs) { return rs.filter(function (r) { return r.answered >= 40 && r.right >= r.answered * 0.8; }).length; } }
+  { id: 'big40', tier: 3, coin: 30, need: 1, t: '一次作答 40 題以上，答對率 80% 以上', val: function (rs) { return rs.filter(function (r) { return r.answered >= 40 && r.raw >= r.answered * 0.8; }).length; } }
 ];
 const QUEST_CLEAR = 30;   // 三項全完成的額外獎勵
 function sum_(rs, k) { return rs.reduce(function (a, r) { return a + (r[k] || 0); }, 0); }
@@ -277,8 +302,8 @@ function daily_() {
   rows.forEach(function (r) {
     if (!isSurv_(r)) return;
     const p = P(r.seat);
-    p.survBest = Math.max(p.survBest, r.right);
-    if (r.d >= thisW) p.survWeek = Math.max(p.survWeek, r.right);
+    p.survBest = Math.max(p.survBest, r.raw);
+    if (r.d >= thisW) p.survWeek = Math.max(p.survWeek, r.raw);
   });
   // 今天每個人的挑戰進度
   const qs = questsOf_(today);
@@ -443,13 +468,16 @@ function dash_(key, from, to) {
 function readRows_() {
   const tz = 'Asia/Taipei', sh = sheet_(), n = sh.getLastRow() - 1, out = [];
   if (n <= 0) return out;
-  sh.getRange(2, 1, n, 10).getValues().forEach(function (r) { // A:J
+  const w = Math.min(15, sh.getLastColumn());
+  sh.getRange(2, 1, n, w).getValues().forEach(function (r) { // A:O（O＝計分答對）
     const seat = parseInt(r[2], 10);
     if (!seat || seat === 30) return;
     const d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]);
     if (invMatch_(seat, r[4], d)) return;   // 老師標成無效的紀錄
     out.push({ d: d, seat: seat, name: roster_()[seat] || String(r[3]),
-      redo: String(r[4]).indexOf('錯題重做') >= 0, answered: Number(r[7]) || 0, right: Number(r[8]) || 0,
+      redo: String(r[4]).indexOf('錯題重做') >= 0, answered: Number(r[7]) || 0,
+      right: (w >= 15 && r[14] !== '' && r[14] != null) ? Number(r[14]) || 0 : Number(r[8]) || 0,   // 計分答對（同題同日只算一次）
+      raw: Number(r[8]) || 0,                                                                     // 實際答對（算答對率用）
       range: String(r[4]), kind: String(r[5]), h: r[0] instanceof Date ? Number(Utilities.formatDate(r[0], tz, 'H')) : 12 });
   });
   return out;
@@ -460,7 +488,7 @@ let DETAIL_VALUES_ = null;   // 同一次執行內只讀一次「作答明細」
 function detailValues_() {
   if (DETAIL_VALUES_) return DETAIL_VALUES_;
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
-  DETAIL_VALUES_ = !sh || sh.getLastRow() < 2 ? [] : sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues();
+  DETAIL_VALUES_ = !sh || sh.getLastRow() < 2 ? [] : sh.getRange(2, 1, sh.getLastRow() - 1, Math.min(12, sh.getLastColumn())).getValues();
   const inv = invStamps_();
   if (inv.n) DETAIL_VALUES_ = DETAIL_VALUES_.filter(function (r) { return !inv.s[parseInt(r[1], 10) + '|' + String(r[10])]; });
   return DETAIL_VALUES_;
@@ -475,9 +503,9 @@ function digest_() {
   const cache = CacheService.getScriptCache(), tz = 'Asia/Taipei';
   let dg = null;
   try {
-    const meta = JSON.parse(cache.get('dg4|meta') || 'null');
+    const meta = JSON.parse(cache.get('dg5|meta') || 'null');
     if (meta && meta.n) {
-      const keys = []; for (let i = 0; i < meta.n; i++) keys.push('dg4|' + i);
+      const keys = []; for (let i = 0; i < meta.n; i++) keys.push('dg5|' + i);
       const got = cache.getAll(keys);
       if (keys.every(function (k) { return got[k] != null; })) dg = JSON.parse(keys.map(function (k) { return got[k]; }).join(''));
     }
@@ -487,21 +515,21 @@ function digest_() {
   if (!dg || dg.last > lastRow) dg = { last: 1, S: {}, U: {} };   // 第一次、或有人刪了列 → 從頭建
   if (lastRow > dg.last) {
     const inv = invStamps_();
-    sh.getRange(dg.last + 1, 1, lastRow - dg.last, 11).getValues().forEach(function (r) {
+    sh.getRange(dg.last + 1, 1, lastRow - dg.last, Math.min(12, sh.getLastColumn())).getValues().forEach(function (r) {
       const seat = parseInt(r[1], 10); if (!seat || seat === 30) return;
       if (inv.n && inv.s[seat + '|' + String(r[10])]) return;   // 老師標成無效的紀錄
       const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).replace(/^'/, '').slice(0, 10);
       const k = seat + '|' + String(r[10]) + '|' + String(r[6]);
-      const t = dg.S[k] = dg.S[k] || [d, Number(r[9]) === 1 ? 1 : 0, 0, 0];
-      t[2]++; if (Number(r[7]) === 1) t[3]++;
+      const t = dg.S[k] = dg.S[k] || [d, Number(r[9]) === 1 ? 1 : 0, 0, 0, 0];
+      t[2]++; if (Number(r[7]) === 1) { t[3]++; if (r[11] === '' || r[11] == null || Number(r[11]) === 1) t[4] = (t[4] || 0) + 1; }
       const u = String(r[3]);
       if (/^[DU]\d+$/.test(u)) { const us = dg.U[seat] = dg.U[seat] || ''; if ((',' + us + ',').indexOf(',' + u + ',') < 0) dg.U[seat] = us ? us + ',' + u : u; }
     });
     dg.last = lastRow;
     try {
       const t = JSON.stringify(dg), parts = {}, N = 90000, n = Math.ceil(t.length / N);
-      for (let i = 0; i < n; i++) parts['dg4|' + i] = t.slice(i * N, (i + 1) * N);
-      parts['dg4|meta'] = JSON.stringify({ n: n, last: dg.last });
+      for (let i = 0; i < n; i++) parts['dg5|' + i] = t.slice(i * N, (i + 1) * N);
+      parts['dg5|meta'] = JSON.stringify({ n: n, last: dg.last });
       cache.putAll(parts, 21600);
     } catch (e) {}
   }
@@ -513,13 +541,13 @@ function digestRows_() {
   const dg = digest_();
   return Object.keys(dg.S).map(function (k) {
     const p = k.split('|'), v = dg.S[k];
-    return { seat: +p[0], stamp: p[1], kind: p.slice(2).join('|'), d: v[0], redo: v[1] === 1, answered: v[2], right: v[3] };
+    return { seat: +p[0], stamp: p[1], kind: p.slice(2).join('|'), d: v[0], redo: v[1] === 1, answered: v[2], right: v[4] != null ? v[4] : v[3], raw: v[3] };
   });
 }
 function readDetail_(kindZh) {
   const ro = roster_();
   return digestRows_().filter(function (r) { return r.kind === kindZh; }).map(function (r) {
-    return { d: r.d, seat: r.seat, name: ro[r.seat] || '', redo: r.redo, answered: r.answered, right: r.right };
+    return { d: r.d, seat: r.seat, name: ro[r.seat] || '', redo: r.redo, answered: r.answered, right: r.right, raw: r.raw };
   });
 }
 
@@ -529,7 +557,7 @@ function agg_(rows, from, to) {
     if (r.d < from || r.d > to) return;
     const s = st[r.seat] || (st[r.seat] = { seat: r.seat, name: '', right: 0, answered: 0, tests: 0, fRight: 0, fAns: 0, days: {} });
     s.name = r.name; s.right += r.right; s.answered += r.answered; s.tests++; s.days[r.d] = 1;
-    if (!r.redo && !timed_(r.range)) { s.fRight += r.right; s.fAns += r.answered; }   // 答對率不算錯題重做、生存挑戰和 BOSS 戰
+    if (!r.redo && !timed_(r.range)) { s.fRight += (r.raw != null ? r.raw : r.right); s.fAns += r.answered; }   // 答對率不算錯題重做、生存挑戰和 BOSS 戰
   });
   return st;
 }
@@ -630,6 +658,7 @@ function fame_(rows, today, clozeRows) {
 
 // 接在最後一列後面；工作表列數不夠時先加列
 function append_(sh, rows) {
+  if (rows[0].length > sh.getMaxColumns()) sh.insertColumnsAfter(sh.getMaxColumns(), rows[0].length - sh.getMaxColumns());
   const at = sh.getLastRow() + 1, need = at + rows.length - 1 - sh.getMaxRows();
   if (need > 0) sh.insertRowsAfter(sh.getMaxRows(), Math.max(need, 500));
   sh.getRange(at, 1, rows.length, rows[0].length).setValues(rows);
@@ -731,6 +760,10 @@ const BADGE_DEFS = [
   { id: 'marathon', icon: '🏃', name: '單字馬拉松', desc: '單次測驗作答 50 題以上' },
   { id: 'day100', icon: '⚡', name: '爆發日', desc: '一天之內作答 100 題以上' },
   { id: 'redo50', icon: '🔁', name: '錯題剋星', desc: '完成錯題重做 50 次' },
+  { id: 'fix20', icon: '🩹', name: '訂正新手', desc: '錯題重做累積答對 20 題' },
+  { id: 'fix50', icon: '🔧', name: '訂正達人', desc: '錯題重做累積答對 50 題' },
+  { id: 'fix100', icon: '🛠️', name: '訂正職人', desc: '錯題重做累積答對 100 題' },
+  { id: 'fix300', icon: '🏗️', name: '訂正大師', desc: '錯題重做累積答對 300 題' },
   { id: 'first', icon: '🥇', name: '搶頭香', desc: '某一天全班第一個交卷' },
   { id: 'first10', icon: '🐓', name: '頭香常客', desc: '10 天是全班第一個交卷' },
   { id: 'weekend', icon: '🛋️', name: '週末也努力', desc: '8 個不同的週六、週日有交卷' },
@@ -800,7 +833,7 @@ const BADGE_SERIES = [
   ['堅持', '🔥', [['streak3', 'streak7', 'streak14', 'streak30', 'streak60', 'streak100', 'streak150'], ['days30', 'days100', 'days150'], ['weekend', 'week7'], ['comeback']]],
   ['題量', '📈', [['q100', 'q500', 'q1000', 'q2000', 'q5000', 'q10000'], ['marathon', 'day100']]],
   ['精準', '🎯', [['full', 'full5', 'full20', 'full50'], ['acc90', 'speed'], ['improve']]],
-  ['好習慣', '🌅', [['early', 'early20'], ['first', 'first10', 'first30'], ['redo10', 'redo50']]],
+  ['好習慣', '🌅', [['early', 'early20'], ['first', 'first10', 'first30'], ['redo10', 'redo50'], ['fix20', 'fix50', 'fix100', 'fix300']]],
   ['題型大師', '🧩', [['word300', 'word1000'], ['verb200', 'verb600'], ['prep200', 'prep600'], ['cloze85', 'cloze200', 'cloze500'], ['sense100', 'sense300'], ['phrase100', 'phrase300'], ['cap80', 'cap200'], ['allkind']]],
   ['寂天', '📘', [['jt100', 'jt500', 'jt1500'], ['jtcover25', 'jtcover50']]],
   ['探索', '🗺️', [['cover50', 'cover100', 'cover183']]],
@@ -897,7 +930,7 @@ function badges_() {
       if (invMatch_(seat, r[4], d)) return;
       p.days[d] = 1;
       const answered = Number(r[7]) || 0, right = Number(r[8]) || 0;
-      if (String(r[4]).indexOf('錯題重做') >= 0) p.redoN++;
+      if (String(r[4]).indexOf('錯題重做') >= 0) { p.redoN++; p.fixN = (p.fixN || 0) + (Number(r[8]) || 0); }
       else {
         p.ans += answered; p.right += right;
         if (answered >= 10 && right === answered) { p.full = true; p.fullN++; }
@@ -955,6 +988,7 @@ function badges_() {
     if (p.ans >= 1000) ids.push('q1000');
     if (p.early) ids.push('early');
     if (p.redoN >= 10) ids.push('redo10');
+    [[20, 'fix20'], [50, 'fix50'], [100, 'fix100'], [300, 'fix300']].forEach(function (x) { if ((p.fixN || 0) >= x[0]) ids.push(x[1]); });
     if (imp[seat]) ids.push('improve');
     const dk = det[seat] || {}, cz = dk['克漏字'];
     if (cz && cz.ans >= 50 && cz.right / cz.ans >= 0.85) ids.push('cloze85');
@@ -1161,7 +1195,8 @@ function tasks_(key, seatOnly, todayOnly, internal) {
       const answered = Number(r[7]) || 0;
       if (!days || !answered) return;
       rows.push({ seat: seat, days: days, key: days.join(','), range: String(r[4]), d: ymd_(r[1]),
-        answered: answered, right: Number(r[8]) || 0, quiz: w >= 14 ? ymd_(r[13]) : '',
+        answered: answered, right: Number(r[8]) || 0,
+        quiz: w >= 14 && String(r[13]).indexOf('重考') < 0 ? ymd_(r[13]) : '', retry: w >= 14 && String(r[13]).indexOf('重考') >= 0 ? ymd_(r[13]) : '',
         when: r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd HH:mm') : String(r[0]).replace(/\//g, '-') });
     });
   }
@@ -1185,6 +1220,9 @@ function tasks_(key, seatOnly, todayOnly, internal) {
       pool = rows.filter(function (x) { return x.d >= t.date; });
     }
     if (!ref) return;
+    if (t.pw) rows.forEach(function (x) {   // 重考（同一天第二次以後的小考）：只記次數，不算成績
+      if (x.retry === t.date && (!onlySeat || x.seat === onlySeat)) { const o3 = res[x.seat] = res[x.seat] || blank(); o3.retry = (o3.retry || 0) + 1; }
+    });
     const refDays = ref.split(',').map(Number);
     pool.forEach(function (x) {
       if (onlySeat && x.seat !== onlySeat) return;
@@ -1465,8 +1503,9 @@ function profiles_() {
   const L = avItems_().levels, out = {};
   const rows = readRows_();
   rows.forEach(function (r) {
-    const o = out[r.seat] || (out[r.seat] = { right: 0, quiz: 0, days: {} });
+    const o = out[r.seat] || (out[r.seat] = { right: 0, quiz: 0, days: {}, fix: 0 });
     o.right += r.right; o.days[r.d] = 1;
+    if (r.redo) o.fix += r.right;   // 錯題重做答對（訂正成功）：每題多 1 枚代幣
   });
   const tk = tasks_(PropertiesService.getScriptProperties().getProperty('TEACHER_KEY') || '');
   const perfect = {};
@@ -1516,7 +1555,7 @@ function profiles_() {
     if (nb >= BADGE_DEFS.length) tr.push('b40');
     [['一字多義', 50, 'sense50'], ['片語', 50, 'phrase50'], ['會考文法', 30, 'cap30']].forEach(function (x) { if (dk[x[0]] && dk[x[0]].right >= x[1]) tr.push(x[2]); });
     const dp = dper[k] || {};
-    const earn = o.right * CR.right + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge + (dp.qcoin || 0) + (dp.scoin || 0) + (dp.gcoin || 0) + (dp.bcoin || 0);
+    const earn = o.right * CR.right + (o.fix || 0) * (CR.fix == null ? 1 : CR.fix) + o.quiz * CR.quiz + (bd[k] || []).length * CR.badge + (dp.qcoin || 0) + (dp.scoin || 0) + (dp.gcoin || 0) + (dp.bcoin || 0);
     const g = G[k] || { recv: 0, cost: 0, items: [] };
     const bt = BT[k] || { coin: 0, drops: [] };
     const owned = (own[k] || []).concat(g.items.concat(bt.drops).filter(function (x, i, a) { return (own[k] || []).indexOf(x) < 0 && a.indexOf(x) === i; }));
@@ -2178,12 +2217,36 @@ function dashRange_(from, to) {
 //   3. 從開始到交卷的時間要合理（每題至少 1.5 秒）
 // 網站改版前已經開著的舊頁面沒有憑證：到 TOK_GRACE 之前，格式正常的舊頁面成績還收；之後一律要憑證
 const TOK_GRACE = '2026-11-25 06:00';
-function startTok_(seat, ids) {
+function startTok_(seat, ids, quizPw) {
   ids = (Array.isArray(ids) ? ids : []).slice(0, 300).map(function (x) { return parseInt(x, 10); }).filter(function (x) { return x >= 0; });
   if (!ids.length) return { ok: false, error: '沒有題目' };
   const tok = Utilities.getUuid().replace(/-/g, '').slice(0, 20);
   CacheService.getScriptCache().put('tk|' + tok, JSON.stringify({ s: seat, ids: ids, t: Date.now() }), 21600);
-  return { ok: true, tok: tok };
+  // 每日小考：記下開始時間；當天第一次開始的那一份才是正式成績
+  let first = null;
+  if (quizPw && quizTask_(quizPw)) {
+    const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
+    const prev = quizStarts_(today).filter(function (x) { return x.seat === seat; });
+    quizStartSheet_().appendRow([new Date(), seat, "'" + today, tok]);
+    first = !prev.length;
+  }
+  return { ok: true, tok: tok, first: first };
+}
+// 「小考開始」分頁：每次開始每日小考記一列（時間、座號、日期、憑證）
+function quizStartSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName('小考開始');
+  if (!sh) { sh = ss.insertSheet('小考開始'); sh.getRange(1, 1, 1, 4).setValues([['時間', '座號', '日期', '憑證']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function quizStarts_(from, to) {
+  to = to || from;
+  const sh = quizStartSheet_(), n = sh.getLastRow() - 1;
+  if (n <= 0) return [];
+  return sh.getRange(2, 1, n, 4).getValues().map(function (r) {
+    const d = r[2] instanceof Date ? Utilities.formatDate(r[2], 'Asia/Taipei', 'yyyy-MM-dd') : String(r[2]).replace(/^'/, '');
+    return { t: r[0] instanceof Date ? r[0].getTime() : 0, seat: parseInt(r[1], 10), d: d, tok: String(r[3]) };
+  }).filter(function (x) { return x.d >= from && x.d <= to; });
 }
 function checkTok_(seat, body, answers) {
   const tok = String(body.tok || '').slice(0, 40), C = CacheService.getScriptCache();
@@ -2220,7 +2283,7 @@ function invRules_() {
     const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(INV_NAME);
     if (sh && sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 4).getValues().forEach(function (r) {
       const seat = parseInt(r[0], 10); if (!seat) return;
-      const ds = function (v) { return v instanceof Date ? Utilities.formatDate(v, 'Asia/Taipei', 'yyyy-MM-dd') : String(v || '').trim().replace(/\//g, '-'); };
+      const ds = function (v) { return v instanceof Date ? Utilities.formatDate(v, 'Asia/Taipei', 'yyyy-MM-dd') : String(v || '').trim().replace(/^'/, '').replace(/\//g, '-'); };
       INV_RULES_.push({ seat: seat, range: String(r[1] || '').trim(), from: ds(r[2]), to: ds(r[3]) });
     });
   } catch (e) {}
@@ -2244,4 +2307,165 @@ function invStamps_() {
     INV_STAMPS_.s[seat + '|' + Utilities.formatDate(r[0], tz, 'yyyy-MM-dd HH:mm:ss')] = 1; INV_STAMPS_.n++;
   });
   return INV_STAMPS_;
+}
+
+
+// ===== 同一題同一天只算第一次答對 =====
+// 今天已經答對過的題號：先看快取；沒有就從「作答明細」最後幾千列重建
+function okToday_(seat, today) {
+  const C = CacheService.getScriptCache(), k = 'okq|' + seat + '|' + today, v = C.get(k);
+  const set = {};
+  if (v != null) { if (v) v.split(',').forEach(function (x) { set[x] = 1; }); return set; }
+  try {
+    const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
+    const last = sh ? sh.getLastRow() : 1, n = Math.min(6000, last - 1);
+    if (n > 0) sh.getRange(last - n + 1, 1, n, 8).getValues().forEach(function (r) {
+      const d = r[0] instanceof Date ? Utilities.formatDate(r[0], 'Asia/Taipei', 'yyyy-MM-dd') : String(r[0]).replace(/^'/, '').slice(0, 10);
+      if (d === today && parseInt(r[1], 10) === seat && Number(r[7]) === 1) set[r[4]] = 1;
+    });
+  } catch (e) {}
+  return set;
+}
+function saveOkToday_(seat, today, set) {
+  try { CacheService.getScriptCache().put('okq|' + seat + '|' + today, Object.keys(set).join(','), 21600); } catch (e) {}
+}
+
+
+// ===================== 可疑作答自動檢查 =====================
+// 規則（每人每天）：
+//   🚫 交卷被擋下（沒有憑證、太快、題目不符、重複交）
+//   🤖 連續 5 次以上用時秒數一模一樣
+//   ⏱ 任一小時內交卷 30 次以上
+//   ⚡ 當天每題平均不到 2 秒、答對率 90% 以上（作答 30 題以上）
+//   🔁 每日小考開始 3 次以上（重新整理／重開換題）
+//   📈 最近 3 天答對率比之前高 20 個百分點以上，而且每題時間變成 1.5 倍以上（可能查答案或代寫）
+//   🎲 當天答對率低於 35%、每題不到 4 秒（作答 20 題以上；接近亂猜，需要關心）
+// 已標成無效的紀錄不再提醒；老師按「沒問題」的也不再提醒（記在「異常處理」分頁）
+function teacherOk_(key) {
+  const want = PropertiesService.getScriptProperties().getProperty('TEACHER_KEY');
+  return !want || String(key || '') === want;
+}
+function blockedSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName('擋下紀錄');
+  if (!sh) { sh = ss.insertSheet('擋下紀錄'); sh.getRange(1, 1, 1, 7).setValues([['時間', '座號', '姓名', '原因', '範圍', '題數', '秒數']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function anomalyDoneSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName('異常處理');
+  if (!sh) { sh = ss.insertSheet('異常處理'); sh.getRange(1, 1, 1, 3).setValues([['代號', '處理', '時間']]).setFontWeight('bold'); sh.setFrozenRows(1); }
+  return sh;
+}
+function anomalies_(from, to) {
+  const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  to = to || today; from = from || shift_(to, -6);
+  const ro = roster_(), stu = function (s) { return s && s !== 30 && !isStaff_(s); };
+  const fmt = function (t) { return Utilities.formatDate(new Date(t), tz, 'HH:mm'); };
+  const items = [], add = function (type, seat, d, ev, range) {
+    items.push({ k: type + '|' + seat + '|' + d, type: type, seat: seat, name: ro[seat] || '', cls: classOf_(seat) || '', d: d, ev: ev, range: range || '' });
+  };
+  // 成績（含時間、秒數；已無效的跳過）
+  const sh = sheet_(), n = sh.getLastRow() - 1, by = {};
+  if (n > 0) sh.getRange(2, 1, n, 14).getValues().forEach(function (r) {
+    const seat = parseInt(r[2], 10); if (!stu(seat) || !(r[0] instanceof Date)) return;
+    const d = Utilities.formatDate(r[0], tz, 'yyyy-MM-dd');
+    if (d < shift_(from, -14) || d > to || invMatch_(seat, r[4], d)) return;
+    (by[seat] = by[seat] || []).push({ t: r[0].getTime(), d: d, range: String(r[4]), ans: Number(r[7]) || 0, right: Number(r[8]) || 0,
+      secs: Number(r[10]) || 0, redo: String(r[4]).indexOf('錯題重做') >= 0, timed: timed_(r[4]) });
+  });
+  Object.keys(by).forEach(function (k) {
+    const seat = +k, L = by[k].sort(function (a, b) { return a.t - b.t; });
+    const days = {};
+    L.forEach(function (x) { if (x.d >= from) (days[x.d] = days[x.d] || []).push(x); });
+    Object.keys(days).forEach(function (d) {
+      const X = days[d];
+      // 秒數一模一樣
+      let run = 1, best = 1, bs = 0, br = '';
+      for (let i = 1; i < X.length; i++) {
+        if (X[i].secs > 0 && X[i].secs === X[i - 1].secs) { run++; if (run > best) { best = run; bs = X[i].secs; br = X[i].range; } } else run = 1;
+      }
+      if (best >= 5) add('same', seat, d, '連續 ' + best + ' 次交卷，每次用時都剛好 ' + bs + ' 秒（範圍「' + br + '」）', br);
+      // 一小時內交卷次數
+      let mx = 0, a = 0, at = 0;
+      for (let i = 0; i < X.length; i++) { while (X[i].t - X[a].t > 3600000) a++; if (i - a + 1 > mx) { mx = i - a + 1; at = a; } }
+      if (mx >= 30) {
+        const rc = {}; X.slice(at, at + mx).forEach(function (x) { rc[x.range] = (rc[x.range] || 0) + 1; });
+        const top = Object.keys(rc).sort(function (p, q) { return rc[q] - rc[p]; })[0];
+        add('burst', seat, d, fmt(X[at].t) + '–' + fmt(X[at + mx - 1].t) + ' 一小時內交卷 ' + mx + ' 次（最多的範圍「' + top + '」）', rc[top] === mx ? top : '');
+      }
+      const N = X.filter(function (x) { return !x.redo && !x.timed && x.secs > 0 && x.secs < 3600; });
+      const ans = N.reduce(function (s, x) { return s + x.ans; }, 0), right = N.reduce(function (s, x) { return s + x.right; }, 0), secs = N.reduce(function (s, x) { return s + x.secs; }, 0);
+      if (ans >= 30 && secs / ans < 2 && right / ans >= 0.9) add('fast', seat, d, '當天 ' + ans + ' 題，每題平均 ' + (secs / ans).toFixed(1) + ' 秒，答對率 ' + Math.round(right / ans * 100) + '%');
+      if (ans >= 20 && right / ans < 0.35 && secs / ans < 4) add('random', seat, d, '當天 ' + ans + ' 題，答對率只有 ' + Math.round(right / ans * 100) + '%，每題平均 ' + (secs / ans).toFixed(1) + ' 秒（接近亂猜，可能沒在看題目）');
+    });
+    // 成績突然暴增（以期間最後一天往前 3 天 vs 之前）
+    const cut = shift_(to, -2), N2 = L.filter(function (x) { return !x.redo && !x.timed && x.secs > 0 && x.secs < 3600; });
+    const sum = function (X) { return X.reduce(function (o, x) { o.a += x.ans; o.r += x.right; o.s += x.secs; return o; }, { a: 0, r: 0, s: 0 }); };
+    const A = sum(N2.filter(function (x) { return x.d < cut; })), B = sum(N2.filter(function (x) { return x.d >= cut && x.d <= to; }));
+    if (A.a >= 40 && B.a >= 40) {
+      const ra = A.r / A.a, rb = B.r / B.a, sa = A.s / A.a, sb = B.s / B.a;
+      if (rb - ra >= 0.2 && sb >= sa * 1.5) add('jump', seat, to, '最近 3 天答對率 ' + Math.round(ra * 100) + '% → ' + Math.round(rb * 100) + '%，每題時間 ' + sa.toFixed(1) + ' → ' + sb.toFixed(1) + ' 秒（可能查答案或別人代寫，也可能真的進步）');
+    }
+  });
+  // 小考開始次數
+  const qs = {};
+  quizStarts_(from, to).forEach(function (x) { if (stu(x.seat)) { const k = x.seat + '|' + x.d; qs[k] = (qs[k] || 0) + 1; } });
+  Object.keys(qs).forEach(function (k) { if (qs[k] >= 3) { const p = k.split('|'); add('quiz', +p[0], p[1], '每日小考開始了 ' + qs[k] + ' 次（只有第一次算成績，之後算重考）'); } });
+  // 被擋下的交卷
+  const bsh = blockedSheet_(), bn = bsh.getLastRow() - 1, bl = {};
+  if (bn > 0) bsh.getRange(2, 1, bn, 7).getValues().forEach(function (r) {
+    if (!(r[0] instanceof Date)) return;
+    const seat = parseInt(r[1], 10), d = Utilities.formatDate(r[0], tz, 'yyyy-MM-dd');
+    if (!stu(seat) || d < from || d > to) return;
+    const o = bl[seat + '|' + d] = bl[seat + '|' + d] || { n: 0, why: {} }; o.n++; o.why[String(r[3])] = (o.why[String(r[3])] || 0) + 1;
+  });
+  Object.keys(bl).forEach(function (k) {
+    const p = k.split('|'), o = bl[k];
+    add('blocked', +p[0], p[1], '交卷被系統擋下 ' + o.n + ' 次：' + Object.keys(o.why).map(function (w) { return w.replace(/[，。].*$/, '') + ' ×' + o.why[w]; }).join('、'));
+  });
+  // 已處理的不再顯示
+  const dsh = anomalyDoneSheet_(), dn = dsh.getLastRow() - 1, done = {};
+  if (dn > 0) dsh.getRange(2, 1, dn, 2).getValues().forEach(function (r) { done[String(r[0])] = String(r[1]); });
+  const order = { blocked: 0, same: 1, burst: 2, fast: 3, quiz: 4, jump: 5, random: 6 };
+  const list = items.filter(function (x) { return !done[x.k]; }).sort(function (a, b) { return a.d < b.d ? 1 : a.d > b.d ? -1 : order[a.type] - order[b.type]; });
+  return { ok: true, from: from, to: to, items: list };
+}
+function anomalyAct_(k, act) {
+  k = String(k || ''); const p = k.split('|');
+  if (p.length !== 3) return { ok: false, error: '代號不正確' };
+  const sh = anomalyDoneSheet_();
+  if (act === 'invalid') {
+    const it = (anomalies_(p[2], p[2]).items || []).filter(function (x) { return x.k === k; })[0];
+    const range = it ? it.range : '';
+    SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(INV_NAME) || SpreadsheetApp.openById(SPREADSHEET_ID).insertSheet(INV_NAME).getRange(1, 1, 1, 5).setValues([['座號', '範圍（空白＝全部）', '起日', '迄日', '原因']]);
+    SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(INV_NAME).appendRow([+p[1], range, "'" + p[2], "'" + p[2], '老師從可疑作答標記：' + (it ? it.ev : p[0])]);
+    sh.appendRow([k, '標成無效', new Date()]);
+    bump_();
+  } else sh.appendRow([k, '沒問題', new Date()]);
+  return { ok: true };
+}
+
+// ===== 每天寄異常摘要給老師（寄到部署這支程式的帳號信箱）=====
+// 第一次使用：在 Apps Script 編輯器選 setupDailyMail 按「執行」，同意寄信權限；之後每天晚上 9 點半左右自動寄
+const TEACHER_PAGE = 'https://nian-zu.github.io/904ENGVOC/t-lIYA4SOCIi1MNbuF3uKo2qGwB50uczwALry0VHWV.html';
+function setupDailyMail() {
+  ScriptApp.getProjectTriggers().forEach(function (t) { if (t.getHandlerFunction() === 'dailyAnomalyMail') ScriptApp.deleteTrigger(t); });
+  ScriptApp.newTrigger('dailyAnomalyMail').timeBased().everyDays(1).atHour(21).nearMinute(30).inTimezone('Asia/Taipei').create();
+  dailyAnomalyMail();   // 先寄一封確認收得到
+}
+function dailyAnomalyMail() {
+  const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  const A = anomalies_(today, today), L = A.items || [];
+  const icon = { blocked: '🚫', same: '🤖', burst: '⏱', fast: '⚡', quiz: '🔁', jump: '📈', random: '🎲' };
+  const name = { blocked: '交卷被擋下', same: '秒數一模一樣', burst: '交卷太密', fast: '快到不合理', quiz: '小考一直重開', jump: '成績突然暴增', random: '接近亂猜' };
+  const esc = function (t) { return String(t).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); };
+  const subject = '【每日背英單】' + today.slice(5).replace('-', '/') + (L.length ? ' 可疑作答 ' + L.length + ' 筆' : ' 今天沒有可疑作答');
+  const html = '<div style="font-family:sans-serif;font-size:15px;line-height:1.6">' +
+    '<p>' + today + ' 自動檢查結果：' + (L.length ? '<b>' + L.length + ' 筆</b>需要看一下。' : '沒有發現異常 👍') + '</p>' +
+    (L.length ? '<table cellpadding="6" style="border-collapse:collapse;border:1px solid #ddd">' + L.map(function (x) {
+      return '<tr style="border-top:1px solid #ddd"><td>' + icon[x.type] + ' ' + name[x.type] + '</td><td><b>' + esc(x.cls) + ' ' + esc(x.name) + '</b>（' + x.seat + '）</td><td>' + esc(x.ev) + '</td></tr>';
+    }).join('') + '</table>' : '') +
+    '<p>這只是提醒，不代表一定作弊。到<a href="' + TEACHER_PAGE + '">老師儀表板</a>的「⚠️ 可疑作答」可以標成無效或按「沒問題」。</p></div>';
+  MailApp.sendEmail({ to: Session.getEffectiveUser().getEmail(), subject: subject, htmlBody: html });
 }
