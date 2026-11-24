@@ -395,6 +395,9 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 .owerow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid #f3d9a8;border-radius:10px;padding:7px 10px;font-size:.9rem}
 .owerow b{white-space:nowrap}.owerow .sp{margin-left:auto}
 .owerow button{font:inherit;font-size:.88rem;font-weight:800;border-radius:99px;border:0;background:#e8742c;color:#fff;padding:5px 14px;cursor:pointer}
+.actions .quitbtn{margin-right:auto;font-size:.85rem;padding:6px 12px;opacity:.75}
+.actions .quitbtn.armed{opacity:1;background:#fdeaea;border-color:#e2445f;color:#c8333f;font-weight:800}
+#qProg.hurry{color:#c8333f;font-weight:800}
 </style>
 </head>
 <body>
@@ -589,7 +592,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <div class="opts" id="qOpts"></div>
     <div id="qFb" class="feedback hidden"></div>
     <div class="actions">
-      <button class="ghost" id="quitBtn">結束測驗</button>
+      <button class="ghost quitbtn" id="quitBtn">結束測驗</button>
       <button class="primary hidden" id="nextBtn">下一題</button>
     </div>
   </div>
@@ -882,7 +885,7 @@ function start(items){
 // ===== 生存挑戰：3 條命、每題 15 秒，答錯或超時扣一條命 =====
 const SURV_SEC = 15;
 function progText(s){
-  if (!s.surv) return `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}`;
+  if (!s.surv) return `第 ${s.i+1} / ${s.items.length} 題・答對 ${s.right}` + (s.qt && s.qt.left != null && !s.answered ? `・⏱ ${s.qt.left} 秒` : '');
   const h = '❤️'.repeat(Math.max(0, s.surv.lives)) + '🖤'.repeat(Math.max(0, (s.surv.max || 3) - s.surv.lives));
   const t = s.surv.left != null && !s.answered ? `・⏱ ${s.surv.left} 秒` : '';
   if (s.surv.boss) { drawBossBar(s); return `${h} 第 ${s.i+1} 題` + t; }
@@ -895,6 +898,21 @@ function survTick(){
   $('qBar').style.width = Math.max(0, (s.surv.end - Date.now()) / ((s.surv.sec || SURV_SEC) * 1000) * 100) + '%';
   $('qProg').textContent = progText(s);
   if (Date.now() >= s.surv.end) { clearInterval(s.surv.timer); answer(-1); }
+}
+// 每日小考：每題限時 30 秒（降低邊查邊寫），時間到算答錯
+const QUIZ_SEC = 30;
+function qtTick(){
+  const s = session; if (!s || !s.qt || s.answered) return;
+  s.qt.left = Math.max(0, Math.ceil((s.qt.end - Date.now()) / 1000));
+  $('qProg').textContent = progText(s);
+  $('qProg').classList.toggle('hurry', s.qt.left <= 10);
+  if (Date.now() >= s.qt.end) { clearInterval(s.qt.timer); answer(-1); }
+}
+function qtStart(){
+  const s = session; if (!s || !s.quiz || s.surv) return;
+  if (s.qt) clearInterval(s.qt.timer);
+  s.qt = {end: Date.now() + QUIZ_SEC * 1000, left: QUIZ_SEC};
+  s.qt.timer = setInterval(qtTick, 250); qtTick();
 }
 function survStart(){
   const s = session; if (!s.surv) return;
@@ -924,6 +942,7 @@ function show(){
   const s = session, st = s.items[s.i];
   s.answered = false;
   if (s.surv) setTimeout(survStart, 0);
+  if (s.quiz && !s.surv) setTimeout(qtStart, 0);
   $('qGloss').classList.add('hidden');
   if (typeof st === 'object') return showCloze(st);
   const q = DATA.bank[st];
@@ -1017,7 +1036,7 @@ function answerCloze(oi){
   const nx = s.items[s.i + 1], last = !(nx && typeof nx === 'object' && nx.u === st.u && nx.p === st.p);
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-  fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(B.o[B.c])}</b>` + (TTS.ok ? `<span class="tts">${sayBtn(B.o[B.c], '答案')}</span>` : '') +
+  fb.innerHTML = `<b>${ok ? '答對了！' : (oi < 0 ? '⏱ 時間到！正確答案是 ' : '答錯了，正確答案是 ') + esc(B.o[B.c])}</b>` + (TTS.ok ? `<span class="tts">${sayBtn(B.o[B.c], '答案')}</span>` : '') +
     (B.why ? `<span class="why">詳解：${esc(B.why)}</span>` : '') +
     (last && P.zh ? `<div class="trans"><b>全文翻譯</b><br>${esc(P.zh)}</div>` : '');
   $('qProg').textContent = progText(s);
@@ -1026,6 +1045,7 @@ function answerCloze(oi){
 }
 function answer(oi){
   const s = session; if (s.answered) return; s.answered = true;
+  if (s.qt) { clearInterval(s.qt.timer); s.qt.left = null; $('qProg').classList.remove('hurry'); }
   if (typeof s.items[s.i] === 'object') return answerCloze(oi);
   const q = DATA.bank[s.items[s.i]], ok = oi === q.c;
   if (ok) s.right++; else s.wrong.push({st: s.items[s.i], qi: s.items[s.i], pick: oi});
@@ -1041,7 +1061,7 @@ function answer(oi){
   if (q.k === 'jt') {
     const fb = $('qFb');
     fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-    fb.innerHTML = `<b>${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + ttsBar(q) + (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`;
+    fb.innerHTML = `<b>${ok ? '答對了！' : (oi < 0 ? '⏱ 時間到！正確答案是 ' : '答錯了，正確答案是 ') + esc(q.o[q.c])}</b>` + ttsBar(q) + (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`;
     ttsAuto(q);
     $('qProg').textContent = progText(s);
     const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
@@ -1050,7 +1070,7 @@ function answer(oi){
   }
   const fb = $('qFb');
   fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-  fb.innerHTML = `<b>${q.trap ? '🪤 文法陷阱題・' : ''}${ok ? '答對了！' : '答錯了，正確答案是 ' + esc(q.o[q.c])}</b>` + ttsBar(q) +
+  fb.innerHTML = `<b>${q.trap ? '🪤 文法陷阱題・' : ''}${ok ? '答對了！' : (oi < 0 ? '⏱ 時間到！正確答案是 ' : '答錯了，正確答案是 ') + esc(q.o[q.c])}</b>` + ttsBar(q) +
     (q.z ? `<span class="zh">中文：${br(q.z)}</span>` : '') +
     (q.x ? xpHTML(q) : '') +
     (q.y ? `<span class="why">💡 ${esc(q.y)}</span>` : '') +
@@ -1078,6 +1098,7 @@ function next(){
 }
 function finish(){
   const s = session;
+  if (s.qt) { clearInterval(s.qt.timer); s.qt = null; }
   if (s.surv) { clearInterval(s.surv.timer); s.items = s.items.slice(0, s.log.length); s.planned = s.items.length; $('quiz').classList.remove('survmode'); }
   if (s.duel && s.log.length) setTimeout(() => finishDuel(s), 300);
   if (s.surv && s.surv.boss) { $('bossBar').classList.add('hidden'); if (s.log.length) setTimeout(() => finishBoss(s), 300); }
@@ -1578,7 +1599,21 @@ $('startBtn').onclick = async () => {
   update();
 };
 $('nextBtn').onclick = next;
-$('quitBtn').onclick = () => { if (session && session.surv) clearInterval(session.surv.timer); if (session.i === 0 && !session.answered) { back(); return; } session.items = session.items.slice(0, session.i + (session.answered?1:0)); finish(); };
+// 結束測驗：放在左邊、要按兩次（學生反映很容易誤按）
+let quitArm = 0;
+$('quitBtn').onclick = () => {
+  const b = $('quitBtn');
+  if (Date.now() - quitArm > 3000) {
+    quitArm = Date.now(); b.textContent = '確定要結束？再按一次'; b.classList.add('armed');
+    setTimeout(() => { if (Date.now() - quitArm >= 2900) { b.textContent = '結束測驗'; b.classList.remove('armed'); } }, 3000);
+    return;
+  }
+  quitArm = 0; b.textContent = '結束測驗'; b.classList.remove('armed');
+  doQuit();
+};
+function doQuit(){
+  if (session && session.qt) clearInterval(session.qt.timer);
+  if (session && session.surv) clearInterval(session.surv.timer); if (session.i === 0 && !session.answered) { back(); return; } session.items = session.items.slice(0, session.i + (session.answered?1:0)); finish(); }
 function back(){ $('quiz').classList.add('hidden'); $('result').classList.add('hidden'); $('setup').classList.remove('hidden'); $('board').classList.remove('hidden'); update(); }
 $('backBtn').onclick = back;
 $('redoWrong').onclick = () => { const rt = session.rangeText; start(shuffle(session.wrong.map(w => w.st))); session.rangeText = (rt + '（錯題重做）').slice(0, 120); };
