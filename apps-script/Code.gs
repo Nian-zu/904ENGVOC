@@ -446,7 +446,9 @@ function readRows_() {
   sh.getRange(2, 1, n, 10).getValues().forEach(function (r) { // A:J
     const seat = parseInt(r[2], 10);
     if (!seat || seat === 30) return;
-    out.push({ d: r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]), seat: seat, name: roster_()[seat] || String(r[3]),
+    const d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]);
+    if (invMatch_(seat, r[4], d)) return;   // 老師標成無效的紀錄
+    out.push({ d: d, seat: seat, name: roster_()[seat] || String(r[3]),
       redo: String(r[4]).indexOf('錯題重做') >= 0, answered: Number(r[7]) || 0, right: Number(r[8]) || 0,
       range: String(r[4]), kind: String(r[5]), h: r[0] instanceof Date ? Number(Utilities.formatDate(r[0], tz, 'H')) : 12 });
   });
@@ -459,6 +461,8 @@ function detailValues_() {
   if (DETAIL_VALUES_) return DETAIL_VALUES_;
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(DETAIL_NAME);
   DETAIL_VALUES_ = !sh || sh.getLastRow() < 2 ? [] : sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues();
+  const inv = invStamps_();
+  if (inv.n) DETAIL_VALUES_ = DETAIL_VALUES_.filter(function (r) { return !inv.s[parseInt(r[1], 10) + '|' + String(r[10])]; });
   return DETAIL_VALUES_;
 }
 // ===== 作答明細摘要（加速）=====
@@ -471,9 +475,9 @@ function digest_() {
   const cache = CacheService.getScriptCache(), tz = 'Asia/Taipei';
   let dg = null;
   try {
-    const meta = JSON.parse(cache.get('dg3|meta') || 'null');
+    const meta = JSON.parse(cache.get('dg4|meta') || 'null');
     if (meta && meta.n) {
-      const keys = []; for (let i = 0; i < meta.n; i++) keys.push('dg3|' + i);
+      const keys = []; for (let i = 0; i < meta.n; i++) keys.push('dg4|' + i);
       const got = cache.getAll(keys);
       if (keys.every(function (k) { return got[k] != null; })) dg = JSON.parse(keys.map(function (k) { return got[k]; }).join(''));
     }
@@ -482,8 +486,10 @@ function digest_() {
   const lastRow = sh ? sh.getLastRow() : 1;
   if (!dg || dg.last > lastRow) dg = { last: 1, S: {}, U: {} };   // 第一次、或有人刪了列 → 從頭建
   if (lastRow > dg.last) {
+    const inv = invStamps_();
     sh.getRange(dg.last + 1, 1, lastRow - dg.last, 11).getValues().forEach(function (r) {
       const seat = parseInt(r[1], 10); if (!seat || seat === 30) return;
+      if (inv.n && inv.s[seat + '|' + String(r[10])]) return;   // 老師標成無效的紀錄
       const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).replace(/^'/, '').slice(0, 10);
       const k = seat + '|' + String(r[10]) + '|' + String(r[6]);
       const t = dg.S[k] = dg.S[k] || [d, Number(r[9]) === 1 ? 1 : 0, 0, 0];
@@ -494,8 +500,8 @@ function digest_() {
     dg.last = lastRow;
     try {
       const t = JSON.stringify(dg), parts = {}, N = 90000, n = Math.ceil(t.length / N);
-      for (let i = 0; i < n; i++) parts['dg3|' + i] = t.slice(i * N, (i + 1) * N);
-      parts['dg3|meta'] = JSON.stringify({ n: n, last: dg.last });
+      for (let i = 0; i < n; i++) parts['dg4|' + i] = t.slice(i * N, (i + 1) * N);
+      parts['dg4|meta'] = JSON.stringify({ n: n, last: dg.last });
       cache.putAll(parts, 21600);
     } catch (e) {}
   }
@@ -888,6 +894,7 @@ function badges_() {
       if (!seat || seat === 30) return;
       const p = per[seat] = per[seat] || { days: {}, early: false, earlyD: {}, full: false, fullN: 0, ans: 0, right: 0, redoN: 0, dayAns: {}, big: false, speed: false };
       const d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]).replace(/\//g, '-');
+      if (invMatch_(seat, r[4], d)) return;
       p.days[d] = 1;
       const answered = Number(r[7]) || 0, right = Number(r[8]) || 0;
       if (String(r[4]).indexOf('錯題重做') >= 0) p.redoN++;
@@ -1090,7 +1097,7 @@ function readTasks_() {
 // 學生端（每次開網頁都會問）：只算今天的任務，全班共用一份快取，交卷後才重算
 function taskFor_(seat) {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
-  const C = cachedSoft_('tday2|' + today, 120, 45, function () { const r = tasks_(null, null, true); return { tasks: r.tasks || [], results: r.results || {} }; });
+  const C = cachedSoft_('tday3|' + today, 120, 45, function () { const r = tasks_(null, null, true); return { tasks: r.tasks || [], results: r.results || {} }; });
   const ro = roster_();
   let t = null, pw = '';
   C.tasks.forEach(function (x) { if (x.date === today) { t = JSON.parse(JSON.stringify(x)); pw = x.pw || ''; } });
@@ -1113,7 +1120,7 @@ function taskFor_(seat) {
 function oweFor_(seat, today) {
   if (seat === 30 || isStaff_(seat)) return [];
   try {
-    const A = cachedSoft_('tall2|' + today, 600, 60, function () {
+    const A = cachedSoft_('tall3|' + today, 600, 60, function () {
       const r = tasks_(null, null, false, true), first = {};
       readRows_().forEach(function (x) { if (!first[x.seat] || x.d < first[x.seat]) first[x.seat] = x.d; });
       (r.tasks || []).forEach(function (t) { delete t.pw; delete t.dist; });
@@ -2130,7 +2137,7 @@ function dashRange_(from, to) {
   const daily = {}, redo = {};
   if (n > 0) sh.getRange(2, 1, n, 11).getValues().forEach(function (r) {
     const seat = parseInt(r[2], 10), d = dstr(r[1]);
-    if (skip(seat) || !ok(d)) return;
+    if (skip(seat) || !ok(d) || invMatch_(seat, r[4], d)) return;
     const ans = Number(r[7]) || 0, right = Number(r[8]) || 0;
     if (String(r[4]).indexOf('錯題重做') >= 0) {
       const x = redo[seat] = redo[seat] || [seat, 0, 0, 0]; x[1]++; x[2] += ans; x[3] += right; return;
@@ -2197,4 +2204,44 @@ function checkTok_(seat, body, answers) {
   if (answers.some(function (a) { return !allow[parseInt(a[0], 10)]; })) return { ok: false, error: '交的題目和開始時的題目不符' };
   if (Date.now() - v.t < Math.max(2000, answers.length * 1500)) return { ok: false, error: '作答時間太短，這次成績不算。' };
   return { ok: true, tok: tok };
+}
+
+
+// ===================== 無效紀錄（老師標記，不刪資料）=====================
+// 「無效紀錄」分頁每一列是一條規則：座號｜範圍（空白＝任何範圍）｜起日｜迄日｜原因
+// 符合的「成績」列，以及同一次交卷的「作答明細」，都不算進排行榜、代幣、徽章、任務、老師儀表板。
+// 要恢復：把那一列刪掉即可（約 6 小時內生效；想立刻生效就重新部署）。
+const INV_NAME = '無效紀錄';
+let INV_RULES_ = null, INV_STAMPS_ = null;
+function invRules_() {
+  if (INV_RULES_) return INV_RULES_;
+  INV_RULES_ = [];
+  try {
+    const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName(INV_NAME);
+    if (sh && sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 4).getValues().forEach(function (r) {
+      const seat = parseInt(r[0], 10); if (!seat) return;
+      const ds = function (v) { return v instanceof Date ? Utilities.formatDate(v, 'Asia/Taipei', 'yyyy-MM-dd') : String(v || '').trim().replace(/\//g, '-'); };
+      INV_RULES_.push({ seat: seat, range: String(r[1] || '').trim(), from: ds(r[2]), to: ds(r[3]) });
+    });
+  } catch (e) {}
+  return INV_RULES_;
+}
+function invReset_() { INV_RULES_ = null; INV_STAMPS_ = null; DETAIL_VALUES_ = null; DIGEST_ = null; }   // 測試用
+function invMatch_(seat, range, d) {
+  const R = invRules_(); if (!R.length) return false;
+  range = String(range || '');
+  return R.some(function (x) { return x.seat === seat && (!x.range || x.range === range) && (!x.from || d >= x.from) && (!x.to || d <= x.to); });
+}
+// 無效的那幾次交卷時間（座號|yyyy-MM-dd HH:mm:ss），用來排除「作答明細」
+function invStamps_() {
+  if (INV_STAMPS_) return INV_STAMPS_;
+  INV_STAMPS_ = { n: 0, s: {} };
+  if (!invRules_().length) return INV_STAMPS_;
+  const tz = 'Asia/Taipei', sh = sheet_(), n = sh.getLastRow() - 1;
+  if (n > 0) sh.getRange(2, 1, n, 5).getValues().forEach(function (r) {
+    const seat = parseInt(r[2], 10), d = r[1] instanceof Date ? Utilities.formatDate(r[1], tz, 'yyyy-MM-dd') : String(r[1]);
+    if (!seat || !(r[0] instanceof Date) || !invMatch_(seat, r[4], d)) return;
+    INV_STAMPS_.s[seat + '|' + Utilities.formatDate(r[0], tz, 'yyyy-MM-dd HH:mm:ss')] = 1; INV_STAMPS_.n++;
+  });
+  return INV_STAMPS_;
 }
