@@ -47,11 +47,14 @@ function doPost(e) {
     if (body.type === 'boss') return out_(bossFight_(seat, body));
     if (body.type === 'news') return out_(news_(seat, !!body.check));
     if (body.type === 'clap') return out_(clap_(seat, parseInt(body.id, 10)));
+    if (body.type === 'start') return out_(startTok_(seat, body.ids));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
     const answers = Array.isArray(body.answers) ? body.answers.slice(0, 300) : [];
     if (!answers.length) return out_({ ok: false, error: '沒有作答資料' });
+    const tk = checkTok_(seat, body, answers);
+    if (!tk.ok) return out_(tk);
 
     // 重新計分
     let key = loadKey_();
@@ -117,6 +120,7 @@ function doPost(e) {
       lock.releaseLock();
     }
     try { petGain_(seat, right); } catch (e) {}   // 答對的題數也讓正在帶的寵物長大
+    if (tk.tok) CacheService.getScriptCache().put('tku|' + tk.tok, '1', 21600);   // 憑證用過就作廢
     return out_({ ok: true, score: score, right: right, answered: answered, quiz: quiz ? true : (body.quiz ? false : null), makeup: makeup || null });
   } catch (err) {
     return out_({ ok: false, error: String(err) });
@@ -2157,4 +2161,40 @@ function dashRange_(from, to) {
     type_stats: tbl(['座號', '題型', '作答題數', '答對題數'], type),
     wrong_words: tbl(['座號', '單字', '答錯次數'], wrong),
     redo_stats: tbl(['座號', '訂正次數', '訂正題數', '訂正答對'], redo) } };
+}
+
+
+// ===================== 作答憑證（防止用程式直接灌成績）=====================
+// 開始作答時，網頁先跟伺服器要一張憑證（記下座號、這次的題號、開始時間）；交卷時要附上憑證：
+//   1. 憑證要存在、是這個座號的、沒用過
+//   2. 交的題目都要在這次發的題號裡
+//   3. 從開始到交卷的時間要合理（每題至少 1.5 秒）
+// 網站改版前已經開著的舊頁面沒有憑證：到 TOK_GRACE 之前，格式正常的舊頁面成績還收；之後一律要憑證
+const TOK_GRACE = '2026-11-25 06:00';
+function startTok_(seat, ids) {
+  ids = (Array.isArray(ids) ? ids : []).slice(0, 300).map(function (x) { return parseInt(x, 10); }).filter(function (x) { return x >= 0; });
+  if (!ids.length) return { ok: false, error: '沒有題目' };
+  const tok = Utilities.getUuid().replace(/-/g, '').slice(0, 20);
+  CacheService.getScriptCache().put('tk|' + tok, JSON.stringify({ s: seat, ids: ids, t: Date.now() }), 21600);
+  return { ok: true, tok: tok };
+}
+function checkTok_(seat, body, answers) {
+  const tok = String(body.tok || '').slice(0, 40), C = CacheService.getScriptCache();
+  if (!tok) {
+    const now = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd HH:mm');
+    const range = String(body.range || '');
+    const siteLike = /^((D\d+(–D\d+)?|D\d+(, D\d+)*|寂天 U\d+(–U\d+)?)(（錯題重做）)*|(生存挑戰|BOSS 戰|單字對戰)｜.*)$/.test(range);
+    if (now < TOK_GRACE && siteLike) return { ok: true };
+    return { ok: false, error: '這份成績沒有作答憑證，請重新整理網頁後再寫一次。' };
+  }
+  if (C.get('tku|' + tok)) return { ok: false, error: '這份成績已經交過了' };
+  let v = null;
+  try { v = JSON.parse(C.get('tk|' + tok) || 'null'); } catch (e) {}
+  if (!v) return { ok: false, error: '作答憑證過期了（超過 6 小時），請重新整理網頁後再寫一次。' };
+  if (v.s !== seat) return { ok: false, error: '作答憑證和座號不符' };
+  const allow = {};
+  v.ids.forEach(function (x) { allow[x] = 1; });
+  if (answers.some(function (a) { return !allow[parseInt(a[0], 10)]; })) return { ok: false, error: '交的題目和開始時的題目不符' };
+  if (Date.now() - v.t < Math.max(2000, answers.length * 1500)) return { ok: false, error: '作答時間太短，這次成績不算。' };
+  return { ok: true, tok: tok };
 }
