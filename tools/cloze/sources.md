@@ -781,3 +781,22 @@ D71-22 未滿十八歲的打工規則：https://law.moj.gov.tw/LawClass/LawAll.a
 D71-23 韓國新歌的時鐘：https://www.koreaherald.com/article/10479580；https://www.allkpop.com/article/2020/10/k-pop-groups-are-timing-their-releases-on-international-time-instead-of-korean-time
 D71-25 兩個週末的音樂節：https://www.rollingstone.com/music/music-news/2023-coachella-headliners-bad-bunny-blackpink-frank-ocean-1234657207/；https://www.hollywoodreporter.com/news/music-news/blackpink-make-history-headliner-coachella-2023-1235376218/
 D71-26 一首歌為什麼選星期五：https://www.koreaherald.com/article/10479580；https://www.billboard.com/pro/billboard-charts-tracking-week-change-friday/
+D70-01 末日之鐘：https://thebulletin.org/doomsday-clock/2025-statement/；https://www.npr.org/2025/01/29/nx-s1-5279204/doomsday-clock-2025-history
+D70-02 再見，閏秒：https://www.scientificamerican.com/article/the-leap-seconds-time-is-up-world-votes-to-stop-pausing-clocks/；https://www.space.com/goodbye-leap-second-2035
+D70-03 第一個超過一點五度的年份：https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level；https://climate.copernicus.eu/global-climate-highlights-2024
+D70-04 活過一百年的人：https://www.euronews.com/2025/09/12/japan-sees-record-number-of-people-aged-100-or-older-and-most-are-women；https://www.nbcnewyork.com/news/national-international/japan-record-number-centenarians/6548462/
+D70-05 沉默五年的大鐘：https://www.euronews.com/travel/2022/11/16/big-ben-iconic-london-bells-chime-again-after-five-years-of-silence；https://www.timeout.com/london/news/big-ben-will-officially-be-bonging-again-from-remembrance-sunday-110422
+D70-06 十九位小數的鐘：https://www.nist.gov/news-events/news/2025/07/nist-ion-clock-sets-new-record-most-accurate-clock-world；https://www.sciencealert.com/we-have-a-new-record-for-the-most-accurate-clock-ever-built
+D70-07 消失的十天：https://www.britannica.com/topic/Gregorian-calendar；https://www.timeanddate.com/calendar/julian-gregorian-switch.html
+D70-10 每個細胞裡的鐘：https://www.nobelprize.org/prizes/medicine/2017/summary/；https://www.nobelprize.org/prizes/medicine/2017/press-release/
+D70-13 二十四秒的誕生：https://www.nba.com/history/season-recap/1954-55；https://time.com/3542567/shot-clock-nba
+D70-14 棒球裝上了計時器：https://www.mlb.com/news/lessons-learned-from-first-season-with-pitch-timer-new-mlb-rules；https://www.britannica.com/sports/baseball-pitch-clock
+D70-15 相隔一百年的巴黎：https://olympics.com/en/olympic-games/paris-1924；https://olympics.com/en/news/paris-2024-gender-equal-olympic-games
+D70-16 兩小時的那道牆：https://www.bbc.com/sport/athletics/50040286；https://worldathletics.org/news/
+D70-17 千分之一秒的勝負：https://olympics.com/en/olympic-games/munich-1972；https://www.omegawatches.com/en-us/chronicle/olympic-games
+D70-19 投票權只有一百年：https://www.archives.gov/milestone-documents/19th-amendment；https://nzhistory.govt.nz/politics/womens-suffrage
+D70-20 石牆之後的半個世紀：https://www.nps.gov/ston/learn/historyculture/index.htm；https://www.loc.gov/lgbt-pride-month/about/
+D70-21 她記得 1961 年，卻不記得昨天：https://www.who.int/news-room/fact-sheets/detail/dementia；https://www.alz.org/alzheimers-dementia/stages
+D70-22 一百年前的一週六十小時：https://www.ilo.org/international-labour-standards/conventions-and-recommendations（C001 Hours of Work (Industry) Convention, 1919）；https://www.dgpa.gov.tw/
+D70-23 年末的那本月曆：https://www.koreatimes.co.kr/entertainment/k-pop/20251020/k-pop-seasons-greetings-explained-holiday-merch-thats-more-than-a-gift-set；https://heyhallyu.com/blog/k-pop-season-s-greetings-english
+D70-24 在月曆上等一個人：https://abc7.com/post/bts-military-discharge-countdown-members-jin-jimin-jung-kook-rm-hope-suga-done-south-korea-service/16797018/；https://www.nbcnewyork.com/entertainment/entertainment-news/bts-members-done-with-mandatory-service/

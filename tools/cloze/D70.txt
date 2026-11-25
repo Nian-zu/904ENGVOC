@@ -1,0 +1,419 @@
+## 末日之鐘
+In 1947 a group of scientists who had helped build the atomic bomb drew a [[clock|calendar|machine|list]] on the cover of their magazine, with its hands close to midnight. Midnight stood for disaster. Every January since then, the group has decided where the hands should be. In January 2025 they moved them to 89 seconds before midnight — the closest the [[clock|calendar|machine|science]] had ever been to it in seventy-eight years. The scientists look at three things: nuclear weapons, a warming planet, and new technology that nobody quite controls. They are careful to say that the hands can move the other way too, as they did in 1991 when the Cold War [[ended|baked|borrowed|prayed]]. It is not a real [[clock|calendar|century|tomorrow]]; nobody can measure in seconds how close the world is to catastrophe, and some scientists dislike the whole idea. But it is a way of asking a question that is otherwise hard to ask out loud: are we leaving a safer world for [[tomorrow|yesterday|century|calendar]]?
+> 1 drew a clock on the cover「在封面上畫了一個鐘」，指針接近午夜。calendar、machine、list 都不會有「指針接近午夜」。
+> 2 the closest the clock had ever been to it「這個鐘從來沒有這麼接近午夜」。calendar、machine、science 都不能用「接近午夜」來描述。
+> 3 the Cold War ended「冷戰結束」，所以指針曾往後調。baked、borrowed、prayed 都不是冷戰會發生的事。
+> 4 It is not a real clock「它不是真的鐘」。calendar、century、tomorrow 都不是這個比喻在說的東西。
+> 5 a safer world for tomorrow「為明天留下更安全的世界」。yesterday 是過去，century、calendar 都不能這樣接在 for 後面指未來。
++ atomic bomb = 原子彈
++ disaster = 災難
++ catastrophe = 大災難
++ Cold War = 冷戰
++ out loud = 大聲說出來
+= 1947 年，一群曾參與製造原子彈的科學家在自己雜誌的封面上畫了一個鐘，指針接近午夜。午夜代表災難。從那時起，這個團體每年一月決定指針該放在哪裡。2025 年 1 月，他們把指針移到距午夜 89 秒——這個鐘七十八年來從未如此接近午夜。科學家看三件事：核武、暖化的地球，以及沒有人真正控制得住的新技術。他們也謹慎地說，指針也會往回調，例如 1991 年冷戰結束時。它不是真的鐘；沒有人能用秒數衡量世界離大災難有多近，也有科學家不喜歡這整個做法。但它是一種提問方式，問一個平常很難說出口的問題：我們要為明天留下一個更安全的世界嗎？
+
+## 再見，閏秒
+The Earth is not a very good [[clock|calendar|century|tomorrow]]. It turns a little unevenly, and slightly more slowly than it used to, while atomic clocks tick at a perfectly steady rate. Since 1972, whenever the two have drifted more than 0.9 seconds apart, timekeepers have added one extra second — a leap second — to official time. It has been done twenty-seven times. Computers hate it. A leap second in 2012 knocked several large websites offline, and another in 2017 caused [[trouble|garbage|traffic|weather]] for an internet company that millions of sites depend on. In November 2022, government representatives met near Paris and voted to stop adding leap seconds by 2035. Russia voted against, because it wanted to [[wait|bake|borrow|pray]] until 2040. After 2035 the difference will simply be allowed to grow, and somebody, perhaps in the next [[century|calendar|clock|tomorrow]], will have to decide what to do about a whole leap minute. Either way, the second itself will not change: it is defined by atoms, which means the most accurate [[clock|calendar|century|yesterday]] in the world no longer looks at the sky at all.
+> 1 The Earth is not a very good clock「地球不是個很好的鐘」，因為自轉不平均。calendar、century、tomorrow 都不能用「準不準」來形容。
+> 2 caused trouble for an internet company「給一家網路公司帶來麻煩」。garbage、traffic、weather 都不是閏秒造成的問題。
+> 3 it wanted to wait until 2040「它想等到 2040 年」。bake、borrow、pray 都接不上這個句子。
+> 4 perhaps in the next century「也許在下一個世紀」。calendar、clock、tomorrow 都不能和 in the next 搭配指那麼長的時間。
+> 5 the most accurate clock in the world「世界上最準的鐘」。calendar、century、yesterday 都不是會「看天空」或「不看天空」的東西。
++ unevenly = 不平均地
++ steady = 穩定的
++ drift = 偏離
++ leap second = 閏秒
++ define = 定義
+= 地球不是個很好的鐘。它自轉不太平均，而且比過去略慢，而原子鐘的滴答完全穩定。從 1972 年起，每當兩者相差超過 0.9 秒，計時人員就在官方時間加上一秒，稱為閏秒，至今已經加過二十七次。電腦很討厭它。2012 年的一次閏秒讓好幾個大型網站當機，2017 年又有一次給一家數百萬網站依賴的網路公司帶來麻煩。2022 年 11 月，各國政府代表在巴黎附近開會，表決在 2035 年前停止增加閏秒。俄羅斯投下反對票，因為它想等到 2040 年。2035 年之後，差距就任它擴大，而某個人，也許在下一個世紀，必須決定要怎麼處理整整一分鐘的落差。無論如何，秒本身不會改變：它由原子定義，也就是說世界上最準的鐘，已經完全不看天空了。
+
+## 第一個超過一點五度的年份
+In January 2025 the world's weather agencies announced the same result from six separate datasets: 2024 was the hottest year since records began, and the first [[calendar|clock|century|yesterday]] year in which the global average temperature was more than 1.5°C above the level of the late nineteenth [[century|calendar|clock|tomorrow]]. The ten warmest years on record were the last ten. On 22 July 2024 the daily global average reached a new high of 17.16°C, and scientists believe the year was probably the warmest in about 125,000 years. One hot year does not mean the Paris target has been lost, because that target is measured over decades, not over a single [[calendar|clock|century|yesterday]] year. What worries researchers is the direction of travel, not the single number; what it [[means|bakes|borrows|prays]] for farming, water supplies and storms is the real story. The figures are published every January, and the graph they draw now stretches back more than a [[century|calendar|clock|tomorrow]] and a half.
+> 1 the first calendar year「第一個整年」，calendar year 指一月到十二月的一年。clock、century、yesterday 都不能和 year 這樣搭配。
+> 2 the late nineteenth century「十九世紀末」，工業化前的基準期。calendar、clock、tomorrow 都不是用來講那個年代的詞。
+> 3 over a single calendar year「在單一個年度裡」。clock、century、yesterday 都不能這樣修飾 year。
+> 4 what it means for farming「它對農業意味著什麼」。bakes、borrows、prays 都接不上 what it … for。
+> 5 more than a century and a half「一個半世紀以上」，氣溫紀錄從 1850 年代開始。calendar、clock、tomorrow 都不能用「一個半」來算。
++ agency = 機構
++ dataset = 資料集
++ average = 平均
++ target = 目標
++ supply = 供應
+= 2025 年 1 月，世界各地的氣象機構根據六組獨立資料得到同樣的結論：2024 年是有紀錄以來最熱的一年，也是全球平均氣溫首次在一個完整年度中超過十九世紀末水準 1.5°C 的年份。有紀錄以來最熱的十年就是最近十年。2024 年 7 月 22 日，全球單日平均氣溫創下 17.16°C 的新高，科學家相信這一年可能是約十二萬五千年來最熱的一年。單一個高溫年份並不代表巴黎協定的目標已經失守，因為那個目標是以數十年為單位計算，而不是看某一個年度。研究者擔心的是趨勢，不是那個數字；它對農業、水源供應和風暴意味著什麼，才是真正的重點。這些數據每年一月公布，而他們畫出的那條曲線，如今已經延伸超過一個半世紀。
+
+## 活過一百年的人
+A person who lives for a whole [[century|calendar|clock|tomorrow]] used to be almost unheard of. In 1963, when the Japanese government first counted them, the country had 153 people aged 100 or over. In September 2026 the figure passed 100,000 for the first time: 107,677 people, nearly 88 percent of them women. Every year, on Respect for the Aged Day, the oldest citizens receive a letter from the prime minister and a silver cup. Doctors give three main [[reasons|garbage|traffic|weather]] for Japanese longevity: good medical care, a diet with plenty of fish and vegetables, and the habit of walking and moving every day. There is a harder side to the story. Japan is ageing faster than almost anywhere else: more than 29 percent of its people are over 65, and the number of babies born has fallen for sixteen years running. So the country that is best at reaching a [[century|calendar|clock|yesterday]] also has the most difficult [[future|calendar|clock|yesterday]] to plan. My own grandmother is 91. She has no interest in any of these statistics and only wants to know what happens [[tomorrow|yesterday|century|calendar]] in her drama.
+> 1 lives for a whole century「活滿一整個世紀」。calendar、clock、tomorrow 都不是一段一百年的時間。
+> 2 three main reasons for Japanese longevity「日本人長壽的三個主要原因」。garbage、traffic、weather 都不是醫師會列出的原因。
+> 3 best at reaching a century「最擅長活到一百歲」。calendar、clock、yesterday 都不是人可以「到達」的時間長度。
+> 4 the most difficult future to plan「最難規劃的未來」。calendar、clock、yesterday 都不是需要「規劃」的對象。
+> 5 what happens tomorrow in her drama「她的連續劇明天演什麼」。yesterday 是昨天已播過，century、calendar 都接不上。
++ unheard of = 前所未聞的
++ longevity = 長壽
++ diet = 飲食
++ running = 連續的
++ statistics = 統計數字
+= 活滿一整個世紀的人，過去幾乎前所未聞。1963 年日本政府首次統計時，全國有 153 位一百歲以上的人。2026 年 9 月，這個數字首次突破十萬：107,677 人，其中將近百分之八十八是女性。每年敬老日，最年長的國民會收到首相的信和一只銀杯。醫師列出日本人長壽的三個主要原因：良好的醫療、富含魚類和蔬菜的飲食，以及每天走路活動的習慣。這個故事也有比較艱難的一面。日本的老化速度幾乎快過任何地方：超過百分之二十九的人口在六十五歲以上，而出生嬰兒數已經連續十六年下降。所以，這個最擅長活到一百歲的國家，也擁有最難規劃的未來。我自己的阿嬤九十一歲。她對這些統計數字毫無興趣，只想知道她的連續劇明天演什麼。
+
+## 沉默五年的大鐘
+For five years London's most famous [[clock|calendar|century|tomorrow]] said nothing. Big Ben is really the nickname of the 13.7-tonne bell inside the Elizabeth Tower beside the British parliament, and neither the bell nor the tower had been properly repaired since they were built in the middle of the nineteenth [[century|calendar|clock|yesterday]]. In August 2017 the bells fell silent so that more than a thousand moving parts could be taken apart, cleaned and put back; a crowd gathered below to hear the last twelve strikes, and some people cried. The work cost about eighty million pounds. The bells did ring a few times anyway — at New Year, and ninety-six times at the funeral of Queen Elizabeth II, one for each year of her life. On 13 November 2022 they returned to normal [[service|garbage|traffic|weather]]. Three people are employed full time to look after the [[clock|calendar|century|yesterday]], and they still adjust its speed in the oldest possible way: by adding or removing old coins on the pendulum, each one worth about two fifths of a second a day. A machine from another [[century|calendar|clock|tomorrow]], kept accurate with pocket change.
+> 1 London's most famous clock「倫敦最有名的鐘」。calendar、century、tomorrow 都不會「沉默五年」。
+> 2 the middle of the nineteenth century「十九世紀中葉」。calendar、clock、yesterday 都不是指那個年代的詞。
+> 3 returned to normal service「恢復正常運作」。garbage、traffic、weather 都不能和 return to normal 搭配。
+> 4 look after the clock「照顧這座鐘」。calendar、century、yesterday 都不需要三個人全職維護。
+> 5 A machine from another century「來自另一個世紀的機器」。calendar、clock、tomorrow 都接不上 from another。
++ parliament = 國會
++ strike = 敲響
++ funeral = 葬禮
++ pendulum = 鐘擺
++ pocket change = 零錢
+= 倫敦最有名的鐘沉默了五年。大笨鐘其實是英國國會旁伊莉莎白塔內那座十三點七噸重的鐘的暱稱，而這座鐘和這座塔自十九世紀中葉建成以來，都沒有好好整修過。2017 年 8 月，鐘聲停止，好讓一千多個活動零件被拆開、清理、裝回；塔下聚集了人群聽最後十二響，有些人哭了。工程花費約八千萬英鎊。期間鐘聲還是響過幾次——跨年時，以及伊莉莎白二世女王葬禮上響了九十六次，代表她生命中的每一年。2022 年 11 月 13 日，鐘聲恢復正常運作。有三個人全職照顧這座鐘，而他們調整快慢的方法仍是最古老的那一種：在鐘擺上加減舊硬幣，每一枚大約讓它一天差五分之二秒。一台來自另一個世紀的機器，靠零錢維持準確。
+
+## 十九位小數的鐘
+How accurate can a [[clock|calendar|century|tomorrow]] be? In July 2025 a laboratory in the United States announced a new record: an atomic clock built around one single trapped aluminium ion, accurate to nineteen decimal places. Put in plainer words, it would not gain or lose a second over a period longer than the age of the universe. The record came after twenty years of small [[changes|garbage|traffic|weather]] to the laser, the ion trap and the vacuum chamber, and the new version is 41 percent more accurate than the previous best. Such clocks matter for satellites, for navigation and for physics, and they will probably be used to redefine the second, which has been based on caesium atoms since the 1960s. A [[machine|calendar|century|yesterday]] this accurate can even feel gravity: lift it a few centimetres and it ticks very slightly faster, exactly as Einstein predicted. Meanwhile the [[clock|calendar|century|tomorrow]] on our classroom wall is four minutes fast, and as far as anyone can tell, nobody has corrected it since the last [[century|calendar|clock|yesterday]].
+> 1 How accurate can a clock be?「鐘能有多準？」calendar、century、tomorrow 都不能用「準不準」來問。
+> 2 twenty years of small changes「二十年的細微調整」。garbage、traffic、weather 都不是科學家對雷射做的事。
+> 3 A machine this accurate can even feel gravity「這麼精準的機器甚至感覺得到重力」。calendar、century、yesterday 都不是機器。
+> 4 the clock on our classroom wall「我們教室牆上的鐘」。calendar、century、tomorrow 都不會快四分鐘。
+> 5 since the last century「從上個世紀以來」，誇張的說法。calendar、clock、yesterday 都不能和 the last 搭配表示那麼久。
++ laboratory = 實驗室
++ ion = 離子
++ decimal place = 小數位
++ vacuum chamber = 真空室
++ predict = 預測
+= 一個鐘能有多準？2025 年 7 月，美國一間實驗室宣布新紀錄：一座以單一個被困住的鋁離子為核心的原子鐘，精確到小數第十九位。用白話說，它在比宇宙年齡更長的時間裡都不會快或慢一秒。這項紀錄來自二十年來對雷射、離子陷阱和真空室的細微改良，新版本比前一個最佳紀錄精確百分之四十一。這樣的鐘對衛星、導航和物理都很重要，而且很可能會被用來重新定義「秒」——秒自 1960 年代以來一直以銫原子為基準。這麼精準的機器甚至感覺得到重力：把它抬高幾公分，它就滴答得稍微快一點，正如愛因斯坦預測的那樣。同時，我們教室牆上的鐘快了四分鐘，而且就大家所知，從上個世紀以來沒有人校正過它。
+
+## 消失的十天
+In 1582, ten days disappeared. People in Rome went to bed on 4 October and woke up on 15 October, because the Pope had changed the [[calendar|clock|century|tomorrow]]. The old Roman [[calendar|clock|century|yesterday]] treated a year as 365.25 days, which is about eleven minutes too long. Over more than a thousand years those eleven minutes had added up to ten whole days, and Easter was slowly drifting away from spring. The new rules kept the leap year but added an exception: a year divisible by 100 is not a leap year unless it is also divisible by 400. Not every country [[agreed|baked|borrowed|prayed]] at once, because the change came from the Pope. Britain and its colonies waited until 1752, by which time eleven days had to be dropped, and crowds complained that the government had stolen them. Russia changed only in 1918, which is why its October Revolution actually happened in November. So the [[calendar|clock|century|tomorrow]] on your wall is a political document as much as an astronomical one. It will go wrong again, but the error is only about one day in three thousand years, so nobody in this [[century|calendar|clock|yesterday]] needs to worry.
+> 1 the Pope had changed the calendar「教宗改了曆法」。clock、century、tomorrow 都不是會被「改掉十天」的東西。
+> 2 The old Roman calendar「舊的羅馬曆」。clock、century、yesterday 都不會把一年算成 365.25 天。
+> 3 Not every country agreed at once「不是每個國家都立刻同意」。baked、borrowed、prayed 都接不上這個意思。
+> 4 the calendar on your wall「你牆上的日曆」。clock、century、tomorrow 都不是這篇在講的文件。
+> 5 nobody in this century needs to worry「這個世紀的人都不用擔心」。calendar、clock、yesterday 都不能用 in this 加上「不用擔心」指那麼長的時間。
++ Pope = 教宗
++ Easter = 復活節
++ divisible = 可被整除的
++ colony = 殖民地
++ astronomical = 天文學的
+= 1582 年，有十天消失了。羅馬人在十月四日上床，醒來是十月十五日，因為教宗改了曆法。舊的羅馬曆把一年算成 365.25 天，大約多了十一分鐘。經過一千多年，這十一分鐘累積成整整十天，復活節也慢慢偏離春天。新規則保留閏年，但加了一個例外：能被 100 整除的年份不是閏年，除非它也能被 400 整除。不是每個國家都立刻同意，因為這個改變來自教宗。英國和它的殖民地等到 1752 年才改，那時得一次刪掉十一天，群眾抗議政府偷走了他們的日子。俄國要到 1918 年才改，所以它的「十月革命」其實發生在十一月。因此，你牆上的日曆既是天文文件，也是政治文件。它還會再出錯，但誤差大約是三千年差一天，所以這個世紀的人都不必擔心。
+
+## 二月為什麼有時候多一天
+Why does February sometimes have twenty-nine days? Because a year is not a whole number of days. The Earth takes about 365.2422 days to travel once around the sun, so a [[calendar|clock|century|yesterday]] of 365 days falls behind by nearly six hours every year. Adding one day every four years almost fixes the problem, but it overshoots slightly, so the rule has an exception and the exception has an exception. The year 2000 was a leap year; 1900 was not, and 2100 will not be either. That is the rule about the end of a [[century|calendar|clock|tomorrow]]: skip the extra day unless the year divides by 400. People born on 29 February have a real birthday only once every four years, and most of them [[celebrate|bake|borrow|pray]] on the 28th or on 1 March instead. Computers get this wrong surprisingly often: in 2024 some shop tills and even a few car models refused to work on the extra day. If you want to test somebody's arithmetic, ask whether the year 2400 will be a leap year and watch them reach for a [[calendar|clock|century|yesterday]]. The answer is yes — which makes it a problem for the twenty-fifth [[century|calendar|clock|tomorrow]], not for us.
+> 1 a calendar of 365 days「一部 365 天的曆法」。clock、century、yesterday 都不是以天數組成的東西。
+> 2 the rule about the end of a century「關於世紀末的規則」。calendar、clock、tomorrow 都不是一百年的單位。
+> 3 most of them celebrate on the 28th「大多數人在二十八日慶生」。bake、borrow、pray 都接不上 on the 28th。
+> 4 reach for a calendar「去拿日曆」。clock、century、yesterday 都不是用來查哪一年是閏年的工具。
+> 5 a problem for the twenty-fifth century「二十五世紀的問題」。calendar、clock、tomorrow 都不能用序數加上年代這樣說。
++ whole number = 整數
++ overshoot = 超過
++ exception = 例外
++ till = 收銀機
++ arithmetic = 算術
+= 二月為什麼有時候有二十九天？因為一年不是整數天。地球繞太陽一圈大約要 365.2422 天，所以一部 365 天的曆法每年會落後將近六小時。每四年加一天幾乎解決了問題，但又稍微過頭，於是規則有例外，例外還有例外。2000 年是閏年；1900 年不是，2100 年也不會是。這就是關於世紀末的規則：除非年份能被 400 整除，否則不加那一天。二月二十九日出生的人每四年才有一次真正的生日，大多數人改在二十八日或三月一日慶生。電腦在這件事上出錯的頻率高得驚人：2024 年有些收銀機、甚至少數車款在多出來的那天拒絕運作。如果你想考考別人的算術，就問 2400 年是不是閏年，看他伸手去拿日曆。答案是「是」——所以那是二十五世紀的問題，不是我們的。
+
+## 二十一世紀從哪一年開始
+When did the twenty-first [[century|calendar|clock|tomorrow]] begin? Most of the world celebrated on the night of 31 December 1999, but the careful answer is 1 January 2001. The reason is that our counting of years has no year zero: the first century ran from the year 1 to the year 100, so the twentieth ran from 1901 to 2000, and the twenty-first began in 2001. Exactly the same argument broke out a [[century|calendar|clock|yesterday]] earlier, in 1899, and newspapers printed furious letters from both sides. In the end people celebrate the moment when the first three digits [[change|bake|borrow|pray]], not the date a mathematician would choose. Historians rarely care at all; they cut the past into useful pieces instead, so you will read about a "long nineteenth century" running from 1789 to 1914. A [[century|calendar|clock|tomorrow]] is only a word we agreed on, like a week. Still, if you ever want a safe argument with an adult, ask which [[calendar|century|clock|yesterday]] year the twenty-first century started in, and then say nothing.
+> 1 When did the twenty-first century begin?「二十一世紀從哪一年開始？」calendar、clock、tomorrow 都不能用序數這樣數。
+> 2 a century earlier, in 1899「一個世紀前，1899 年」。calendar、clock、yesterday 都不是一百年前的說法。
+> 3 when the first three digits change「前三位數字改變的那一刻」。bake、borrow、pray 都接不上 digits。
+> 4 A century is only a word we agreed on「世紀只是我們約定好的一個詞」。calendar、clock、tomorrow 都不是這段在定義的詞。
+> 5 which calendar year the twenty-first century started in「二十一世紀是從哪一個年度開始」。century 已在句中出現，clock、yesterday 都不能這樣修飾 year。
++ careful = 謹慎的
++ argument = 爭論
++ furious = 憤怒的
++ digit = 數字
++ historian = 歷史學家
+= 二十一世紀從哪一年開始？世界上大多數人在 1999 年 12 月 31 日夜裡慶祝，但謹慎的答案是 2001 年 1 月 1 日。原因是我們的紀年沒有「第 0 年」：第一個世紀從第 1 年到第 100 年，所以二十世紀是 1901 到 2000 年，二十一世紀從 2001 年開始。完全相同的爭論在一個世紀前、1899 年就爆發過，報紙上刊出兩派憤怒的讀者投書。最後人們慶祝的是前三位數字改變的那一刻，而不是數學家會選的日期。歷史學家根本不太在意；他們把過去切成有用的段落，所以你會讀到從 1789 到 1914 年的「漫長的十九世紀」。「世紀」只是我們約定好的一個詞，就像「週」一樣。不過，如果你想跟大人來一場安全的爭論，就問他二十一世紀是從哪一個年度開始的，然後什麼都別說。
+
+## 每個細胞裡的鐘
+Nearly every living thing has an inner [[clock|calendar|century|tomorrow]]. In the 1970s scientists noticed that fruit flies with one damaged gene lost their daily rhythm completely. In 1984 three American researchers managed to copy that gene, and over the following years they worked out what it does: a protein builds up inside the cell during the night and is broken down during the day, so its rising and falling acts like a small [[machine|calendar|century|yesterday]] inside every cell. In 2017 the three of them received the Nobel Prize for this work. Plants, flies, mice and people all run versions of the same system, which is why a long flight leaves you hungry at strange times, and why night-shift workers struggle: the body's [[clock|calendar|century|yesterday]] can be shifted, but only slowly, roughly an hour a day. Light is the main signal it listens to, which is why a bright screen at one in the morning can persuade your brain that [[tomorrow|yesterday|century|calendar]] has not arrived yet. Researchers now think some medicines work better at particular times of day, so one day a prescription may come with a [[clock|calendar|century|yesterday]] printed on it.
+> 1 an inner clock「內在的時鐘」，也就是生理時鐘。calendar、century、tomorrow 都不是生物體內的構造。
+> 2 acts like a small machine inside every cell「像每個細胞裡的小機器一樣運作」。calendar、century、yesterday 都不是細胞裡的東西。
+> 3 the body's clock can be shifted「身體的時鐘可以被調整」。calendar、century、yesterday 都不能被「一天移動一小時」。
+> 4 persuade your brain that tomorrow has not arrived yet「讓大腦以為明天還沒到」。yesterday 已經過去，century、calendar 都接不上 has not arrived。
+> 5 a prescription may come with a clock printed on it「處方上可能印著一個時鐘」。calendar、century、yesterday 都不是標示服藥時間的圖示。
++ gene = 基因
++ rhythm = 節律
++ protein = 蛋白質
++ night shift = 夜班
++ prescription = 處方
+= 幾乎每一種生物都有內在的時鐘。1970 年代，科學家注意到有一個基因受損的果蠅完全失去日節律。1984 年，三位美國研究者成功複製出那個基因，並在接下來幾年弄清楚它的作用：一種蛋白質在夜間於細胞內累積、白天被分解，它的升降就像每個細胞裡的一台小機器。2017 年，這三人因此獲得諾貝爾獎。植物、果蠅、老鼠和人類都運行著同一套系統的不同版本，這就是為什麼長途飛行會讓你在奇怪的時間覺得餓，也是為什麼夜班工作者很辛苦：身體的時鐘可以被調整，但很慢，大約一天一小時。它主要聽光的訊號，所以凌晨一點的明亮螢幕，能讓你的大腦以為明天還沒到。研究者現在認為，有些藥在一天中的特定時段效果更好，所以將來處方上也許會印著一個時鐘。
+
+## 你真的記得昨天嗎
+Try to recall exactly what you ate [[yesterday|tomorrow|century|calendar]] at lunch, and who said what while you ate it. Most people cannot, and that is perfectly normal. Memory is not a recording; it is rebuilt every time you use it, and the rebuilding can go wrong. In a famous experiment, people who were asked how fast two cars were going when they "smashed" into each other gave higher speeds than people asked when the cars "hit" each other — the same film, a different word. Researchers have even been able to make volunteers [[remember|bake|borrow|pray]] details that never happened at all, simply by asking the question in a particular way. That is why police are trained to ask open questions, and why two completely honest witnesses can describe [[yesterday|tomorrow|century|calendar]] differently without either of them lying. This is useful in ordinary life too. When you and a friend argue about who promised what, both of you may be [[wrong|salty|crowded|windy]]. Writing things down helps, which is one reason a diary or a [[calendar|clock|century|tomorrow]] is more trustworthy than your own confidence.
+> 1 what you ate yesterday at lunch「你昨天午餐吃了什麼」。tomorrow 還沒發生，century、calendar 都不是時間點。
+> 2 make volunteers remember details that never happened「讓受試者記得從未發生的細節」。bake、borrow、pray 都接不上 details。
+> 3 can describe yesterday differently「對昨天的描述可能不同」。tomorrow 還沒發生，century、calendar 都不是目擊者描述的對象。
+> 4 both of you may be wrong「你們兩個可能都記錯」。salty、crowded、windy 都不能形容記憶對錯。
+> 5 a diary or a calendar is more trustworthy「日記或日曆比較可靠」。clock、century、tomorrow 都不能用來記下約定。
++ recall = 回想
++ rebuild = 重建
++ volunteer = 受試者、志願者
++ witness = 目擊者
++ trustworthy = 可信的
+= 試著回想你昨天午餐吃了什麼，以及吃的時候誰說了什麼。大多數人想不起來，而這完全正常。記憶不是錄影；你每次使用它，它就被重建一次，而重建可能出錯。在一個著名的實驗裡，被問「兩輛車『撞爛』時速度多少」的人，給出的速度比被問「兩輛車『碰到』時速度多少」的人更高——同一段影片，不同的動詞。研究者甚至能靠特定的問法，讓受試者記得根本沒發生過的細節。這就是為什麼警察受訓要問開放式問題，也是為什麼兩個完全誠實的目擊者，可以對昨天有不同描述，而兩人都沒有說謊。這在日常生活也有用。當你和朋友為了「誰答應了什麼」爭執時，你們兩個可能都記錯。把事情寫下來有幫助，這也是日記或日曆比你自己的自信更可靠的原因之一。
+
+## 為什麼年紀越大時間越快
+Ask a child how long the summer holiday is, and then ask an adult. Children live as if there were an endless supply of [[tomorrow|yesterday|century|calendar]]; adults complain that the years have started to slide past. Part of the explanation is simple arithmetic. For a seven-year-old, one year is a seventh of everything they can remember; for a fifty-year-old it is a fiftieth, so it feels proportionally smaller. Psychologists add a second reason: novelty. Your brain stores new experiences in detail and old ones as summaries, so one week of travelling leaves more memories than a month of the same [[habit|garbage|traffic|weather]]. This leads to a practical trick. Put at least one genuinely new thing in your [[calendar|clock|century|yesterday]] every month, however small: a different route home, an unfamiliar food, a skill you are bad at. People who do this report that a year feels long again. It also suggests that a long life is not only about reaching a [[century|calendar|clock|tomorrow]]; it is about having something to remember from each part of it. Otherwise the weeks blur together, and you cannot even say what you did [[yesterday|tomorrow|century|calendar]], let alone last March.
+> 1 an endless supply of tomorrow「無窮無盡的明天」。yesterday 是過去，century、calendar 都不能用 supply of 這樣搭配。
+> 2 the same habit「同樣的習慣（一成不變的生活）」。garbage、traffic、weather 都不能和 the same 加上「一個月」這樣對比。
+> 3 Put one new thing in your calendar every month「每個月在行事曆上放一件新的事」。clock、century、yesterday 都不是可以寫進去的東西。
+> 4 reaching a century「活到一百歲」。calendar、clock、tomorrow 都不是人可以「到達」的長度。
+> 5 what you did yesterday「你昨天做了什麼」。tomorrow 還沒發生，century、calendar 都不是時間點。
++ endless = 無盡的
++ proportionally = 按比例地
++ novelty = 新鮮感
++ unfamiliar = 不熟悉的
++ blur = 模糊成一片
+= 問一個小孩暑假有多長，再問一個大人。小孩活得好像明天永遠用不完；大人則抱怨年歲開始飛逝。一部分解釋是簡單的算術。對七歲的孩子來說，一年是他記得的一切的七分之一；對五十歲的人來說只有五十分之一，比例上就顯得短。心理學家補上第二個原因：新鮮感。大腦把新經驗存成細節，把舊經驗存成摘要，所以一週的旅行留下的記憶，比一個月一成不變的生活還多。這帶出一個實用的方法：每個月在行事曆上放進至少一件真正新鮮的事，再小都好——換一條回家的路、一種沒吃過的食物、一項你很不擅長的技能。這樣做的人說，一年又變長了。它也暗示，長壽不只是活到一百歲，而是在生命的每個階段都有事情可以記得。否則週與週會模糊成一片，你連昨天做了什麼都說不出來，更別說去年三月。
+
+## 二十四秒的誕生
+In 1950 a professional basketball game in America finished 19–18. Teams with a lead simply kept the ball and waited, crowds stopped buying tickets, and the sport was in trouble. Then the owner of the team in Syracuse worked something out. He looked at the games he had actually enjoyed and noticed that the two sides together took about 120 shots. A game lasts 2,880 seconds, and 2,880 divided by 120 is 24. So he proposed a [[clock|calendar|century|tomorrow]] that gave a team 24 seconds to get a shot away, or lose the ball. The league tried it for the 1954–55 season and the effect was instant: average team scoring rose from 79.5 points a game to 93.1. It is a rare example of one small [[change|garbage|traffic|weather]] rescuing an entire sport, and nobody has seriously suggested removing it since. Today a 24-second [[clock|calendar|century|yesterday]] sits above every backboard, and good players read it without turning their heads. Basketball before that must have looked like a different game — closer to chess. Which is worth remembering when somebody says the rules of a sport are sacred: the thing that feels timeless was invented in the middle of the last [[century|calendar|clock|tomorrow]] by a man who had simply [[counted|baked|borrowed|prayed]] the shots.
+> 1 he proposed a clock that gave a team 24 seconds「他提議一個給球隊 24 秒的計時器」。calendar、century、tomorrow 都不能用來限制進攻時間。
+> 2 one small change rescuing an entire sport「一個小改變救了整項運動」。garbage、traffic、weather 都不能拯救一項運動。
+> 3 a 24-second clock sits above every backboard「每個籃板上方都有一個 24 秒計時器」。calendar、century、yesterday 都不會裝在籃板上。
+> 4 the middle of the last century「上個世紀中葉」。calendar、clock、tomorrow 都不是年代。
+> 5 a man who had simply counted the shots「一個只是數了出手次數的人」。baked、borrowed、prayed 都接不上 the shots。
++ lead = 領先
++ league = 聯盟
++ instant = 立即的
++ backboard = 籃板
++ sacred = 神聖不可動的
+= 1950 年，美國一場職業籃球比賽以 19 比 18 結束。領先的球隊就是抱著球等時間過去，觀眾不再買票，這項運動陷入危機。後來，雪城那支球隊的老闆算出了一件事。他看了自己真正看得開心的比賽，發現兩隊合計大約出手 120 次。一場比賽是 2,880 秒，2,880 除以 120 等於 24。於是他提議設一個計時器，給每隊 24 秒內出手，否則失去球權。聯盟在 1954–55 球季試行，效果立竿見影：平均每隊得分從 79.5 分升到 93.1 分。這是「一個小改變救了整項運動」的罕見例子，之後也沒有人認真提議取消它。今天每個籃板上方都有一個 24 秒計時器，好球員不用轉頭就知道剩幾秒。在那之前的籃球一定像另一種運動，比較接近西洋棋。所以當有人說某項運動的規則神聖不可動時，值得想起這件事：那個感覺「自古如此」的東西，是上個世紀中葉一個只是數了出手次數的人發明的。
+
+## 棒球裝上了計時器
+Baseball has no [[clock|calendar|century|tomorrow]], which is part of its charm and also its problem. Games crept longer and longer, reaching an average of three hours and ten minutes in 2021. So in 2023 the league put a timer on the pitcher: fifteen seconds to throw with the bases empty, twenty with runners on, and the batter must be ready with eight seconds left. The effect was the largest in living memory. The average nine-inning game fell by twenty-four minutes, to two hours and forty, the shortest since 1985, and the number of games lasting over three and a half hours dropped from 390 to nine. Players were divided: many said the game [[improved|baked|borrowed|prayed]] and that they got home earlier, while others missed the slow moments when a pitcher could step back and think. Older fans argue that the slowness was the whole point, that baseball was the one sport where you could hold a conversation. Younger fans reply that they will not watch anything lasting four hours. The league chose the [[future|calendar|clock|yesterday]] over the past. So the sport that proudly had no [[clock|calendar|century|tomorrow]] for more than a [[century|calendar|clock|yesterday]] now has one on the field and another in the dugout.
+> 1 Baseball has no clock「棒球沒有時鐘」，這是它的特色也是問題。calendar、century、tomorrow 都不是比賽會用的計時工具。
+> 2 many said the game improved「許多人說比賽變好了」。baked、borrowed、prayed 都不是球員對規則的評價。
+> 3 chose the future over the past「選擇了未來而非過去」。calendar、clock、yesterday 都不能和 over the past 這樣對比。
+> 4 the sport that had no clock「沒有時鐘的運動」。calendar、century、tomorrow 都不合這個對照。
+> 5 for more than a century「超過一個世紀」。calendar、clock、yesterday 都不是一百年的長度。
++ charm = 魅力
++ creep = 慢慢變化
++ pitcher = 投手
++ batter = 打者
++ dugout = 球員休息區
+= 棒球沒有時鐘，這既是它的魅力，也是它的問題。比賽越來越長，2021 年平均達到三小時十分。於是 2023 年，聯盟給投手裝上計時器：壘上無人時十五秒內投球，有人時二十秒，而打者必須在剩八秒時準備好。效果是近年最大的。九局比賽的平均時間減少二十四分鐘，降到兩小時四十分，是 1985 年以來最短；超過三個半小時的比賽從 390 場降到九場。球員意見分歧：許多人說比賽變好了、可以早點回家，也有人懷念投手能退一步思考的慢節奏。年長球迷主張，慢就是重點，棒球是唯一能一邊看一邊聊天的運動。年輕球迷回答，他們不會看任何長達四小時的東西。聯盟選擇了未來而不是過去。於是這項驕傲地超過一個世紀沒有時鐘的運動，如今場上有一個、休息區還有一個。
+
+## 相隔一百年的巴黎
+Paris held the Olympic Games in 1900, in 1924, and again in 2024 — exactly a [[century|calendar|clock|tomorrow]] after the second of those. Comparing 1924 with 2024 is a short course in how much sport has changed. In 1924 about three thousand athletes competed, and only around 135 of them were women. In 2024 there were roughly ten and a half thousand athletes, and for the first time the organisers offered women and men the same number of places, which they called the most important [[difference|garbage|traffic|weather]] between the two Games. The 2024 opening ceremony was held on the river, with boats instead of a stadium parade: nothing like it had been tried in a [[century|calendar|clock|tomorrow]] of Olympic history. Some records make the gap very clear. The winning time in the men's 100 metres in 1924 would not even have qualified for the final in 2024. A [[century|calendar|clock|yesterday]] is a long while in running shoes. If Paris keeps to its pattern, the city's next Games will fall in a year none of us will see, which is a strange thought to find on a [[calendar|clock|century|tomorrow]].
+> 1 exactly a century after the second of those「正好在第二次的一百年後」。calendar、clock、tomorrow 都不是一百年。
+> 2 the most important difference between the two Games「兩屆之間最重要的差別」。garbage、traffic、weather 都不是可以比較的差異。
+> 3 in a century of Olympic history「在一百年的奧運史裡」。calendar、clock、tomorrow 都不能這樣修飾 history。
+> 4 A century is a long while in running shoes「對跑鞋來說，一百年很長」。calendar、clock、yesterday 都不合這個比喻。
+> 5 a strange thought to find on a calendar「在日曆上看到會覺得奇妙的念頭」。clock、century、tomorrow 都不是能寫上年份的東西。
++ compete = 比賽
++ organiser = 主辦單位
++ ceremony = 典禮
++ qualify = 取得資格
++ pattern = 規律
+= 巴黎在 1900 年、1924 年舉辦過奧運，2024 年又辦了一次——正好在第二次的一百年後。把 1924 和 2024 放在一起比較，就是一堂運動變遷的短課。1924 年約有三千名選手參賽，其中只有大約一百三十五位女性。2024 年大約有一萬零五百名選手，而主辦單位第一次給了女性和男性同樣的名額，他們稱這是兩屆之間最重要的差別。2024 年的開幕典禮辦在河上，用船隻取代體育場內的進場：一百年的奧運史裡從沒試過這種做法。有些紀錄讓落差非常明顯。1924 年男子一百公尺的冠軍成績，在 2024 年連決賽都進不了。對跑鞋來說，一百年是很長的時間。如果巴黎照這個規律，這座城市下一次辦奧運會落在我們都看不到的年份，這是在日曆上看到會覺得奇妙的念頭。
+
+## 兩小時的那道牆
+For a long time nobody believed the [[clock|calendar|century|tomorrow]] could show less than two hours for a marathon. In October 2019, in a park in Vienna, a Kenyan runner crossed the line in 1 hour 59 minutes and 40 seconds. It does not count officially, because the event was not a normal [[race|garbage|traffic|weather]]: forty pacemakers ran in formation in front of him, a car with a laser marked the pace, and his drinks were handed over from a bicycle. He said he only wanted to show that it was possible. His own official best, set in Berlin in 2022, was 2 hours 1 minute 9 seconds, and other runners have gone faster since. Athletes talk about the two-hour barrier the way pilots once talked about the sound barrier: a number that looked like a wall and turned out to be a question for [[tomorrow|yesterday|century|calendar]] rather than for never. A hundred years ago the best marathon time was about two and a half hours, so the event has lost roughly half an hour in a [[century|calendar|clock|yesterday]]. Our PE teacher says the useful part of the story is not the shoes but the [[plan|garbage|traffic|weather]]: he ran almost every kilometre within two seconds of the same pace.
+> 1 nobody believed the clock could show less than two hours「沒有人相信時鐘能顯示不到兩小時」。calendar、century、tomorrow 都不會顯示比賽成績。
+> 2 the event was not a normal race「這場活動不是正式比賽」。garbage、traffic、weather 都不能用 normal 加上「不算紀錄」來說明。
+> 3 a question for tomorrow rather than for never「是明天的問題，而不是永遠做不到」。yesterday、century、calendar 都接不上這個對比。
+> 4 lost roughly half an hour in a century「一百年內快了大約半小時」。calendar、clock、yesterday 都不是一百年。
+> 5 the useful part is not the shoes but the plan「有用的部分不是鞋子，而是配速計畫」。garbage、traffic、weather 都和跑法無關。
++ pacemaker = 配速員
++ formation = 隊形
++ barrier = 障礙、關卡
++ sound barrier = 音障
++ pace = 配速
+= 很長一段時間裡，沒有人相信馬拉松的時鐘能顯示不到兩小時。2019 年 10 月，在維也納的一座公園裡，一位肯亞跑者以 1 小時 59 分 40 秒通過終點。這個成績不算正式紀錄，因為那不是一場正常比賽：四十名配速員在他前方跑成隊形，一輛車用雷射標出配速，飲料由自行車遞上。他說自己只是想證明這件事做得到。他自己的官方最佳成績是 2022 年在柏林創下的 2 小時 1 分 9 秒，之後也有別的跑者跑得更快。選手談「兩小時關卡」的方式，就像飛行員當年談「音障」：一個看起來像牆的數字，結果只是明天的問題，而不是永遠做不到。一百年前最好的馬拉松成績大約兩個半小時，所以這個項目在一個世紀內快了大約半小時。我們的體育老師說，這個故事有用的部分不是鞋子，而是配速計畫：他幾乎每一公里都控制在相同配速的兩秒之內。
+
+## 千分之一秒的勝負
+A hand on a stopwatch cannot do better than about a tenth of a second, so for most of the twentieth [[century|calendar|clock|yesterday]] close finishes were settled by three judges and a long argument. Electronic timing changed that. At the 1972 Olympics a swimming final was decided by two thousandths of a second; the two men had touched the wall so nearly together that the judges could not separate them by eye. Afterwards the sport decided to [[stop|bake|borrow|pray]] measuring beyond hundredths, so that a race that close is now simply a dead heat. In athletics, a camera photographs the finish line a thousand times a second, and the picture, not the judge, decides. The [[clock|calendar|century|tomorrow]] starts the instant the gun fires, and a sensor in the starting blocks records the push of each runner's feet, which is also how false starts are caught: react in less than a tenth of a second and the [[machine|calendar|century|yesterday]] concludes that you guessed rather than heard. So in modern sport the [[clock|calendar|century|tomorrow]] is not the thing hanging on the wall; it is in the blocks, in the pool wall, and in the camera.
+> 1 for most of the twentieth century「二十世紀大部分時間」。calendar、clock、yesterday 都不是年代。
+> 2 decided to stop measuring beyond hundredths「決定不再測量到百分之一秒以下」。bake、borrow、pray 都接不上 measuring。
+> 3 The clock starts the instant the gun fires「槍聲一響，計時就開始」。calendar、century、tomorrow 都不會在槍響時啟動。
+> 4 the machine concludes that you guessed「機器判定你是猜的」。calendar、century、yesterday 都不會做出判定。
+> 5 the clock is not the thing hanging on the wall「時鐘不是掛在牆上的那個」。calendar、century、tomorrow 都不合這個結論。
++ stopwatch = 秒錶
++ judge = 裁判
++ thousandth = 千分之一
++ dead heat = 同時抵達、並列
++ false start = 偷跑
+= 手按秒錶最多只能準到大約十分之一秒，所以二十世紀大部分時間裡，接近的終點都由三位裁判和一場長長的爭論決定。電子計時改變了這件事。1972 年奧運有一場游泳決賽以千分之二秒分出勝負；兩個人觸壁幾乎同時，裁判用肉眼根本分不出來。之後這項運動決定不再測量到百分之一秒以下，所以今天那麼接近的比賽就直接算並列。在田徑場上，攝影機每秒拍攝終點線一千次，由照片而不是裁判來判定。槍聲一響，計時立刻開始，起跑架上的感測器會記錄每位跑者腳的推力，偷跑也是這樣抓出來的：反應時間少於十分之一秒，機器就判定你是猜的，而不是聽到的。所以在現代運動裡，時鐘不是掛在牆上那個，而是在起跑架裡、池壁上和攝影機裡。
+
+## 「我明天開始」
+Every athlete and every student knows the sentence: I will start [[tomorrow|yesterday|century|calendar]]. Psychologists call it procrastination, and they have found something that may surprise you — it is usually not laziness. It is a way of handling a bad feeling. The task makes you anxious, so you avoid it, and avoiding it genuinely does feel better, for about ten minutes. That is why making more detailed [[plans|garbage|traffic|weather]] rarely helps; the plan is not the problem. What works better is making the first step ridiculously small: put the shoes by the door, promise two minutes instead of an hour, and write it in a [[calendar|clock|century|yesterday]] where somebody else can see it. Telling one person is surprisingly powerful. Our basketball captain has one rule for the team, which he repeats in the same flat voice every week: whatever happened [[yesterday|tomorrow|century|calendar]], you turn up. He is not a scientist, but he has worked out the useful half of the research. The people who improve are not the ones who feel ready; they are the ones who [[begin|bake|borrow|pray]] while they still feel like waiting.
+> 1 I will start tomorrow「我明天開始」。yesterday 是過去，century、calendar 都不能這樣接在 start 後面。
+> 2 making more detailed plans rarely helps「做更詳細的計畫很少有用」。garbage、traffic、weather 都不是「做得更詳細」的東西。
+> 3 write it in a calendar where somebody else can see it「寫在別人看得到的行事曆上」。clock、century、yesterday 都不是能寫字的東西。
+> 4 whatever happened yesterday, you turn up「不管昨天發生什麼，你都要到」。tomorrow 還沒發生，century、calendar 都接不上 happened。
+> 5 the ones who begin while they still feel like waiting「在還想再等等的時候就開始的人」。bake、borrow、pray 都接不上這個對比。
++ procrastination = 拖延
++ laziness = 懶惰
++ anxious = 焦慮的
++ ridiculously = 誇張地
++ flat = 平淡的
+= 每個運動員和每個學生都知道這句話：我明天開始。心理學家稱它為拖延，而他們發現了一件可能讓你意外的事——它通常不是懶惰，而是一種處理壞情緒的方式。那件事讓你焦慮，所以你逃避，而逃避確實會讓人好過一點，大約十分鐘。這就是為什麼把計畫做得更詳細很少有用；計畫不是問題。比較有效的是把第一步縮到誇張地小：把鞋子放在門邊、承諾兩分鐘而不是一小時，並寫在別人看得到的行事曆上。告訴一個人，效果意外地大。我們籃球隊長對全隊只有一條規則，而且每週用同樣平淡的語氣重複：不管昨天發生什麼，你都要到。他不是科學家，但他掌握了研究中有用的那一半。會進步的人不是感覺準備好的人，而是在還想再等等的時候就開始的人。
+
+## 投票權只有一百年
+Women could not vote almost anywhere until a [[century|calendar|clock|yesterday]] or so ago. New Zealand was first, in 1893. Finland followed in 1906; Britain gave the vote to women over thirty in 1918 and the same rights as men in 1928; the United States changed its constitution in 1920. Switzerland, which many people imagine as the model of a calm democracy, waited until 1971, and Saudi Arabia until 2015. In many places the campaign took decades and was not polite: women were arrested, went on hunger strike, and some lost their jobs and their families. Reading the debate now is strange, because the [[reasons|garbage|traffic|weather]] given against them sound so weak. Women would simply vote as their husbands told them; politics would upset their nerves. A [[century|calendar|clock|tomorrow]] later those sentences appear in textbooks as examples of how confident nonsense can sound. Progress is not a straight line either: in several countries women's rights have moved backwards in the last ten years, so this is not a story that belongs only to [[yesterday|tomorrow|century|calendar]]. If you want to feel how recent all of it is, ask your great-grandmother what she was allowed to do, and then look at a [[calendar|clock|century|tomorrow]].
+> 1 until a century or so ago「直到大約一百年前」。calendar、clock、yesterday 都不是一段一百年的時間。
+> 2 the reasons given against them sound so weak「反對的理由聽起來多麼薄弱」。garbage、traffic、weather 都不是辯論中的理由。
+> 3 A century later those sentences appear in textbooks「一個世紀後，那些句子出現在教科書裡」。calendar、clock、tomorrow 都不能這樣接 later。
+> 4 not a story that belongs only to yesterday「不是只屬於昨天的故事」。tomorrow、century、calendar 都接不上 belongs only to。
+> 5 then look at a calendar「然後看看日曆」，才知道這一切多近。clock、century、tomorrow 都不能用來查年份。
++ constitution = 憲法
++ democracy = 民主
++ campaign = 運動
++ hunger strike = 絕食抗議
++ nerves = 神經、情緒
+= 直到大約一百年前，女性在幾乎任何地方都不能投票。紐西蘭最早，1893 年。芬蘭 1906 年跟進；英國 1918 年給三十歲以上女性投票權，1928 年才與男性相同；美國 1920 年修憲。許多人以為是平和民主典範的瑞士，等到 1971 年；沙烏地阿拉伯要到 2015 年。在許多地方，這場運動持續數十年，而且並不溫和：女性被逮捕、絕食抗議，有些人失去工作和家人。現在讀當年的辯論會覺得奇怪，因為反對的理由聽起來多麼薄弱。他們說女性只會照丈夫的話投票；政治會讓她們情緒不穩。一個世紀後，那些句子出現在教科書裡，成為「自信的胡說可以多麼理直氣壯」的例子。進步也不是一條直線：過去十年，有幾個國家的女性權利往後退，所以這不是只屬於昨天的故事。如果你想感受這一切有多近，去問你的曾祖母她當年被允許做什麼，然後看看日曆。
+
+## 石牆之後的半個世紀
+On a hot night in June 1969, police raided a bar called the Stonewall Inn in New York. Raids on bars where gay people met were routine at the time; what was not routine was that the customers refused to go quietly, and the trouble continued for several nights. A year later, in June 1970, marches were held to mark the anniversary, and that is where the parades now held every June around the world [[began|baked|borrowed|prayed]]. Half a [[century|calendar|clock|tomorrow]] later the bar is a national monument. It is easy to file all of this under ancient history, but it is not old at all: in many countries the laws changed within living memory, and in Taiwan two men or two women could marry only from 2019. For somebody my parents' age, that is [[yesterday|tomorrow|century|calendar]]. Our teacher made the point in a single sentence that I wrote down: almost every right that feels obvious to you today was argued about by somebody, often inside the last [[century|calendar|clock|yesterday]], and usually by people who were told to be patient. What happens [[tomorrow|yesterday|century|calendar]] is not guaranteed either, in either direction.
+> 1 that is where the parades began「遊行就是從那裡開始的」。baked、borrowed、prayed 都接不上 where。
+> 2 Half a century later「半個世紀後」。calendar、clock、tomorrow 都不能用「一半」來算。
+> 3 For somebody my parents' age, that is yesterday「對我父母那個年紀的人來說，那就是昨天」。tomorrow、century、calendar 都接不上這個說法。
+> 4 inside the last century「在最近一百年之內」。calendar、clock、yesterday 都不是一百年。
+> 5 What happens tomorrow is not guaranteed「明天會怎樣並不保證」。yesterday 已經發生，century、calendar 都接不上 what happens。
++ raid = 突襲檢查
++ routine = 例行的
++ anniversary = 週年
++ monument = 紀念地標
++ guarantee = 保證
+= 1969 年 6 月一個炎熱的夜晚，警察突襲紐約一家叫石牆酒吧的店。當時突襲同志聚集的酒吧是例行公事；不尋常的是客人拒絕安靜離開，衝突持續了好幾晚。一年後，1970 年 6 月，人們舉行遊行紀念週年，而這就是今天全世界每年六月遊行的起點。半個世紀後，那家酒吧成了國家紀念地標。我們很容易把這一切歸到古代歷史，但它根本不老：許多國家的法律是在還活著的人記憶中改變的，而在台灣，兩個男性或兩個女性要到 2019 年才能結婚。對我父母那個年紀的人來說，那就是昨天。老師用一句話說明重點，我把它抄了下來：幾乎每一項今天讓你覺得理所當然的權利，都曾經有人為它爭論過，常常就在最近一百年內，而且爭論者通常被叫做要有耐心。明天會怎樣也沒有保證，兩個方向都是。
+
+## 她記得 1961 年，卻不記得昨天
+My great-aunt can describe her wedding in 1961 in detail — the rain, the borrowed car, the colour of her shoes — but she cannot tell you whether she ate lunch [[yesterday|tomorrow|century|calendar]]. This is not a strange exception; it is how Alzheimer's disease usually begins. The part of the brain that files new memories is damaged first, while older memories, already stored elsewhere, survive far longer. So a person can be fluent about a childhood village and completely lost about this morning. Families find this the hardest thing to accept, because it looks like a [[choice|garbage|traffic|weather]]: surely she would remember if she tried? Doctors say the useful response is neither to correct nor to test. Asking "don't you remember?" only makes the person [[worried|salty|crowded|windy]] and does not bring the memory back; it is kinder to join whatever year she is in and talk about that. There is no cure yet, although a few new medicines slow the disease slightly, and the number of people living with dementia is expected to double or more before the middle of this [[century|calendar|clock|tomorrow]]. When I visit her now I bring photographs instead of questions. She always asks me to come again [[tomorrow|yesterday|century|calendar]], and I always say yes.
+> 1 whether she ate lunch yesterday「她昨天有沒有吃午餐」。tomorrow 還沒發生，century、calendar 都不是時間點。
+> 2 it looks like a choice「看起來像是一種選擇」，家人因此難以接受。garbage、traffic、weather 都和「記不記得」無關。
+> 3 only makes the person worried「只會讓對方焦慮」。salty、crowded、windy 都不能形容人的情緒。
+> 4 before the middle of this century「在本世紀中葉之前」。calendar、clock、tomorrow 都不是一百年的單位。
+> 5 asks me to come again tomorrow「要我明天再來」。yesterday 已經過去，century、calendar 都接不上 come again。
++ great-aunt = 姑婆、姨婆
++ Alzheimer's disease = 阿茲海默症
++ file = 歸檔
++ fluent = 流暢的
++ dementia = 失智症
+= 我姑婆能詳細描述她 1961 年的婚禮——那天的雨、借來的車、她鞋子的顏色——但她說不出昨天有沒有吃午餐。這不是奇怪的例外，而是阿茲海默症通常的開始方式。大腦中負責把新記憶歸檔的部位最先受損，而早已存放在別處的舊記憶活得久得多。所以一個人可以把童年的村子講得很流暢，卻對今天早上一片空白。家人最難接受的就是這一點，因為它看起來像是一種選擇：她如果願意，不就記得了嗎？醫師說，有用的回應既不是糾正，也不是測驗。問「你不記得了嗎？」只會讓對方焦慮，也喚不回記憶；更好的做法是走進她所在的那一年，陪她聊那一年。目前還沒有解藥，雖然有幾種新藥能稍微延緩病程，而失智人口預計在本世紀中葉之前會增加一倍以上。現在我去看她時帶照片，不帶問題。她總是要我明天再來，我也總是說好。
+
+## 一百年前的一週六十小時
+A [[century|calendar|clock|tomorrow]] ago, a working week of sixty hours was ordinary in factories across Europe and America. In 1919 the newly created International Labour Organization agreed its very first convention: eight hours a day, forty-eight hours a week. That sounds generous only when you know what came before it. Children had worked twelve-hour days; a six-day week was normal; a holiday, if it existed at all, was unpaid. None of this was given away freely — it followed strikes, politics, accidents and a great deal of [[trouble|garbage|traffic|weather]]. Hours went on falling for most of the twentieth century, and then stopped falling around 1980 in many rich countries, which is why the four-day week has come back as a question rather than an answer. The interesting part is how quickly a new normal starts to feel eternal. Ask anybody what a working week is and they will say five days, as though it had been printed in the [[calendar|clock|century|tomorrow]] by nature. Taiwan's public offices moved to a two-day weekend only in 2001, which is inside the working life of my own [[relatives|garbage|traffic|weather]]. The people arguing about hours [[tomorrow|yesterday|century|calendar]] are doing exactly what those factory workers did.
+> 1 A century ago「一百年前」。calendar、clock、tomorrow 都不是一段一百年的時間。
+> 2 a great deal of trouble「許多衝突與麻煩」。garbage、traffic、weather 都不是爭取工時會經歷的事。
+> 3 printed in the calendar by nature「好像是大自然印在日曆上的」。clock、century、tomorrow 都不能被「印上」星期幾。
+> 4 inside the working life of my own relatives「就在我自己親戚的工作生涯之內」。garbage、traffic、weather 都沒有工作生涯。
+> 5 The people arguing about hours tomorrow「明天還在為工時爭論的人」。yesterday 已經過去，century、calendar 都接不上。
++ convention = 公約
++ generous = 寬厚的
++ strike = 罷工
++ eternal = 永恆的
++ public office = 公家機關
+= 一百年前，在歐洲和美國的工廠裡，一週工作六十小時很普通。1919 年，剛成立的國際勞工組織通過了它的第一號公約：每天八小時、每週四十八小時。只有知道在那之前是什麼情形，這個數字才顯得寬厚。孩子曾經一天工作十二小時；一週六天是常態；假日如果存在，也是無薪的。這些都不是白白給的——它們來自罷工、政治、事故和大量的衝突與麻煩。工時在二十世紀大部分時間持續下降，接著在許多富裕國家於 1980 年左右停了下來，這就是為什麼「四天工作週」又成了一個問題，而不是答案。有趣的是，新的常態多快就開始顯得永恆。你問任何人一週工作幾天，他會說五天，好像那是大自然印在日曆上的。台灣的公家機關要到 2001 年才改成週休二日，那就在我自己親戚的工作生涯之內。明天還在為工時爭論的人，做的事情和當年那些工廠工人完全一樣。
+
+## 年末的那本月曆
+Every November something arrives in Korean pop fandoms that has nothing much to do with music. It is called Season's Greetings, and the main item inside the box is a [[calendar|clock|century|tomorrow]]. Around it come a planner, postcards, photocards, stickers and often a short film, and every group picks a fresh theme each year: a ballet school, a winter cabin, an imaginary hotel. Fans buy them partly for the pictures and partly because a [[calendar|clock|century|yesterday]] is something you look at every single day, which no album can claim. Prices have climbed steadily, and in 2025 fans complained loudly that one company had pushed them too far; these boxes are now a serious part of a label's winter [[business|garbage|traffic|weather]]. There is still something honest about the format. An album is about this week's charts, but a set like this is about [[tomorrow|yesterday|century|clock]] and the eleven months after it, so the quiet message is "we will still be here". My cousin has three of them on her bedroom wall. Not one is open at the right month, which rather defeats the purpose of a [[calendar|clock|century|yesterday]].
+> 1 the main item inside the box is a calendar「盒子裡的主角是一本月曆」。clock、century、tomorrow 都不是盒裝商品。
+> 2 a calendar is something you look at every single day「月曆是你每天都會看的東西」。clock、century、yesterday 都接不上「每天看、專輯做不到」的對比。
+> 3 a serious part of a label's winter business「唱片公司冬季生意的重要部分」。garbage、traffic、weather 都不是公司的收入。
+> 4 a set like this is about tomorrow「這樣一盒商品講的是明天」，也就是接下來的日子。yesterday 是過去，century、clock 都接不上。
+> 5 defeats the purpose of a calendar「失去月曆的意義」。clock、century、yesterday 都不需要翻到正確的月份。
++ fandom = 粉絲圈
++ planner = 行事曆本
++ theme = 主題
++ cabin = 小木屋
++ defeat the purpose = 失去原本的意義
+= 每年十一月，韓國流行音樂的粉絲圈都會收到一樣和音樂沒什麼關係的東西，叫做 Season's Greetings，而盒子裡的主角是一本月曆。圍繞著它的有行事曆本、明信片、小卡、貼紙，常常還有一支短片，而每個團體每年都挑新主題：芭蕾學校、冬天的小木屋、一間虛構的飯店。粉絲買它，一部分是為了照片，一部分是因為月曆是你每天都會看的東西，這是任何專輯都做不到的。價格一路上漲，2025 年還有粉絲大聲抗議某家公司定價太高；這些盒子如今是唱片公司冬季生意的重要部分。這個形式仍有某種誠實之處。專輯講的是這週的排行榜，而這樣一盒商品講的是明天和接下來的十一個月，所以它安靜的訊息是：「我們還會在這裡。」我表姊房間牆上掛了三本，沒有一本翻到正確的月份，這就相當失去月曆的意義了。
+
+## 在月曆上等一個人
+In South Korea almost every man has to serve in the military for about eighteen months, usually between the ages of 18 and 28, and pop stars are not excused. When the members of one very famous group enlisted one after another, their fans had to learn a different way of counting: not weeks until the next album, but the date on a [[calendar|clock|century|yesterday]] when all seven of them would be free again. The oldest member went first and was discharged in June 2024; the last of the seven finished in June 2025. Fans marked each [[date|garbage|traffic|weather]] with online parties and messages in several languages. During those years the members put out solo songs and wrote letters, and the company kept repeating one unpopular word: wait. Waiting does not fit easily into pop music, where everything is about [[tomorrow|yesterday|century|calendar]]'s release and this week's chart. Some fans drifted away; a great many did not. What struck outsiders was how ordinary it all was. Hundreds of thousands of young Korean men do the same thing every year with nobody counting the days for them, and they come back to a country where [[yesterday|tomorrow|century|calendar]]'s teenagers are suddenly adults. For the group, the [[calendar|clock|century|yesterday]] simply started again.
+> 1 the date on a calendar when all seven would be free「月曆上七個人都自由的那一天」。clock、century、yesterday 都不能標出一個日期。
+> 2 marked each date with online parties「為每一個日期辦線上派對」。garbage、traffic、weather 都不是可以標記的日子。
+> 3 tomorrow's release and this week's chart「明天的新歌和這週的排行榜」。yesterday 是過去，century、calendar 都接不上 release。
+> 4 yesterday's teenagers are suddenly adults「昨天的青少年突然成了大人」。tomorrow、century、calendar 都接不上這個對比。
+> 5 the calendar simply started again「日子就這樣重新開始」。clock、century、yesterday 都不合這個收尾。
++ serve = 服役
++ enlist = 入伍
++ discharge = 退伍
++ unpopular = 不受歡迎的
++ strike = 使人印象深刻
+= 在韓國，幾乎每個男性都必須服役大約十八個月，通常在十八到二十八歲之間，流行歌手也不例外。當某個非常有名的團體成員一個接一個入伍時，粉絲必須學會另一種數法：不是數到下一張專輯還有幾週，而是月曆上七個人都自由的那一天。最年長的成員最先入伍，2024 年 6 月退伍；七人中最後一位在 2025 年 6 月結束。粉絲用線上派對和多種語言的留言標記每一個日期。那幾年裡，成員推出個人歌曲、寫信，而公司不斷重複一個不受歡迎的詞：等。「等」在流行音樂裡很難安放，因為那裡的一切都關於明天的新歌和這週的排行榜。有些粉絲離開了，但很多人沒有。讓外人印象深刻的是，這一切有多平常。每年有幾十萬名韓國年輕男性做同樣的事，沒有人替他們數日子，而他們回來時，國家裡昨天的青少年已經突然成了大人。對這個團體來說，日子就這樣重新開始。
+
+## 練習生的時鐘
+Before a Korean group appears on a stage, there are years that nobody sees. Trainees live by a [[clock|calendar|century|tomorrow]] that is not really their own: school in the morning, dance practice in the afternoon, singing lessons, the gym, then home late enough that homework happens on the bus. Companies hold monthly tests, and those who do not improve are sent home. Some trainees spend five or six years preparing for a debut that never comes. Those who have talked about it afterwards describe the hardest part as not the work but the [[waiting|baking|borrowing|praying]] — never knowing whether the answer will arrive next month or never. Some of this has changed: contracts are shorter than they were, and there are now rules about the hours of trainees who are still at school. But the shape remains, and a group that debuts at nineteen has often been training since twelve, which is why they bow so low when they win a first trophy. Fans see three minutes on a stage; the [[clock|calendar|century|tomorrow]] in the practice room ran for years. Several groups now post practice videos with the time stamped in the corner, which has made the training part of the [[story|garbage|traffic|weather]]. Watching them, I am glad my own bad week only decides what happens [[tomorrow|yesterday|century|calendar]].
+> 1 live by a clock that is not really their own「照著不屬於自己的時鐘生活」。calendar、century、tomorrow 都不能用來安排一天的作息。
+> 2 the hardest part was the waiting「最難的是等待」。baking、borrowing、praying 都不是他們形容的那件事。
+> 3 the clock in the practice room ran for years「練習室裡的時鐘走了好幾年」。calendar、century、tomorrow 都不合這個對比。
+> 4 made the training part of the story「讓練習本身也成為故事的一部分」。garbage、traffic、weather 都不是粉絲在看的內容。
+> 5 only decides what happens tomorrow「只決定明天會怎樣」。yesterday 已經發生，century、calendar 都接不上 what happens。
++ trainee = 練習生
++ debut = 出道
++ contract = 合約
++ trophy = 獎盃
++ stamp = 標記
+= 在一個韓國團體登上舞台之前，有好幾年沒有人看見。練習生照著不屬於自己的時鐘生活：早上上學、下午跳舞、聲樂課、健身房，然後晚到只能在公車上寫功課的時間回家。公司每月考核，沒有進步的人就被送回家。有些練習生準備五、六年，卻等不到出道。事後談起這段日子的人說，最難的不是辛苦，而是等待——永遠不知道答案會在下個月出現，還是永遠不會。有些事情已經改變：合約比以前短，也有針對還在讀書的練習生的工時規定。但形狀沒變，一個十九歲出道的團體，常常從十二歲就開始受訓，這就是他們拿到第一座獎盃時鞠躬鞠得那麼低的原因。粉絲看到的是舞台上的三分鐘；練習室裡的時鐘已經走了好幾年。現在有些團體會放出角落標著時間的練習影片，讓練習本身也成為故事的一部分。看著他們，我很慶幸自己糟糕的一週只決定明天會怎樣。
+
+## 粉絲圈的紀念日
+Korean pop fandoms run on anniversaries. A group's debut date becomes a fixed point on the [[calendar|clock|century|tomorrow]], and every year on that day fans post old photographs, buy advertisements in subway stations, and often donate to a charity in the group's name. Birthdays work the same way: a café will decorate itself for one member for a week, with free cups, a photo wall and a queue outside. Outsiders find this strange for about a minute, and then remember that they do exactly the same for football clubs, temples and grandparents. What makes it interesting is the memory. A fandom keeps its own [[history|garbage|traffic|weather]] in enormous detail: which song was performed at which show, who cried at which concert, what somebody said [[yesterday|tomorrow|century|calendar]] in a live broadcast and what it probably meant. When a group disbands, those dates stay in the [[calendar|clock|century|tomorrow]] anyway, and people still mark them. My classmate keeps four of them in her phone and can tell you how many days until each, which is a great deal more organisation than she brings to any [[test|garbage|traffic|weather]].
+> 1 a fixed point on the calendar「日曆上固定的一點」。clock、century、tomorrow 都不能標出出道紀念日。
+> 2 keeps its own history in enormous detail「把自己的歷史記得極為詳細」。garbage、traffic、weather 都不是粉絲圈會記住的東西。
+> 3 what somebody said yesterday in a live broadcast「某人昨天在直播裡說了什麼」。tomorrow 還沒發生，century、calendar 都接不上 said。
+> 4 those dates stay in the calendar anyway「那些日期還是留在日曆上」。clock、century、tomorrow 都不合這個句子。
+> 5 more organisation than she brings to any test「比她準備任何考試都有條理」。garbage、traffic、weather 都不需要「有條理」。
++ anniversary = 紀念日
++ donate = 捐款
++ charity = 慈善機構
++ disband = 解散
++ organisation = 條理、組織能力
+= 韓國流行音樂的粉絲圈靠紀念日運轉。一個團體的出道日成為日曆上固定的一點，每年那天粉絲會貼出舊照片、在地鐵站買廣告，常常還以團體的名義捐款給慈善機構。生日也是同樣的玩法：咖啡店會為某個成員布置一整週，附免費杯子、照片牆，門外還排隊。外人覺得奇怪的時間大約只有一分鐘，接著就想起自己也為足球隊、廟和阿公阿嬤做完全一樣的事。有趣的是記憶這件事。粉絲圈把自己的歷史記得極為詳細：哪首歌在哪個節目表演過、誰在哪場演唱會哭了、某人昨天在直播裡說了什麼、那句話大概是什麼意思。就算團體解散，那些日期還是留在日曆上，人們依然會紀念。我同學手機裡存了四個這樣的日期，而且能告訴你各還有幾天，比她準備任何考試都有條理。
+
+## 關於鐘的笑話
+Four jokes about telling the time. One: why did the boy throw the [[clock|calendar|century|tomorrow]] out of the window? Because he wanted to see time fly. Two: my brother's watch has been broken for a year, and he points out that it is still right twice a day, which is more than he can say for his homework. Three: "You are late again." "The bus was late." "The bus was late yesterday, and the day before. Does your bus ever arrive on time?" "Only when I am not on it." Four: what did the [[clock|calendar|century|yesterday]] say to its own hands? "Keep going round, I will wait here." My sister says only the third one counts as a joke, because it actually [[happened|baked|borrowed|prayed]], and she is the one with the bus. My own test for a joke is whether you can still repeat it [[tomorrow|yesterday|century|calendar]]. By that test all four of them pass, which is more than I can say for anything I learned [[yesterday|tomorrow|century|calendar]] in science.
+> 1 throw the clock out of the window「把鐘丟出窗外」，因為想看「時間飛」。calendar、century、tomorrow 都讓笑點不成立。
+> 2 what did the clock say to its own hands「鐘對自己的指針說了什麼」。calendar、century、yesterday 都沒有指針。
+> 3 because it actually happened「因為那真的發生過」。baked、borrowed、prayed 都接不上。
+> 4 whether you can still repeat it tomorrow「明天還說得出來嗎」。yesterday 已經過去，century、calendar 都接不上 repeat it。
+> 5 anything I learned yesterday in science「我昨天在自然課學到的東西」。tomorrow 還沒上課，century、calendar 都接不上 learned。
++ time flies = 時間飛逝
++ point out = 指出
++ count as = 算作
++ repeat = 重複說
++ pass = 通過
+= 四個關於看時間的笑話。第一個：那個男孩為什麼把鐘丟出窗外？因為他想看時間飛。第二個：我哥的手錶壞了一年，他指出它每天還是會準兩次，這比他的作業好多了。第三個：「你又遲到了。」「公車誤點。」「昨天公車誤點，前天公車也誤點。你的公車有準時過嗎？」「只有我沒搭的時候。」第四個：鐘對自己的指針說了什麼？「你們繼續轉，我在這裡等。」我妹說只有第三個算笑話，因為那真的發生過，而且公車那個人就是她。我自己判斷笑話的標準是：明天你還說得出來嗎？按這個標準，四個都通過了，比我昨天在自然課學到的東西都強。
+
+## 關於明天的笑話
+Three jokes about putting things off. One: I was going to start my project [[tomorrow|yesterday|century|calendar]], but then I remembered that I had already promised to start it yesterday, so now I owe myself two days. Two: "Dad, can you help me with my homework?" "Of course. When is it due?" "[[Tomorrow|Yesterday|Century|Calendar]]." "And when were you given it?" "Last month." "Then tonight we will both learn something." Three: our teacher wrote on the board that a deadline is only a [[date|garbage|traffic|weather]] with consequences, and then gave us one. My mother's version is shorter and much less funny. She says that [[tomorrow|yesterday|century|calendar]] is the busiest day of the week, because everything gets moved there and nothing ever gets moved out. I laughed at that for a while, and then I [[realized|baked|borrowed|prayed]] that she was describing me.
+> 1 start my project tomorrow「明天開始做專題」。yesterday 是過去，century、calendar 都接不上 start。
+> 2 "Tomorrow."「明天。」回答「什麼時候要交」。Yesterday、Century、Calendar 都不是交件日。
+> 3 a deadline is only a date with consequences「截止日只是一個有後果的日期」。garbage、traffic、weather 都不能這樣定義截止日。
+> 4 tomorrow is the busiest day of the week「明天是一週最忙的一天」，因為事情都被搬過去。yesterday、century、calendar 都讓笑點不成立。
+> 5 then I realized that she was describing me「然後我意識到她在說我」。baked、borrowed、prayed 都接不上。
++ put off = 拖延
++ owe = 欠
++ due = 到期的
++ deadline = 截止日
++ consequence = 後果
+= 三個關於拖延的笑話。第一個：我本來要明天開始做專題，後來想起我已經答應過昨天就要開始，所以現在我欠自己兩天。第二個：「爸，你可以幫我寫作業嗎？」「當然。什麼時候要交？」「明天。」「那是什麼時候出的？」「上個月。」「那今晚我們兩個都會學到一些東西。」第三個：我們老師在黑板上寫「截止日只是一個有後果的日期」，然後就出了一個給我們。我媽的版本更短，也更不好笑。她說明天是一週最忙的一天，因為所有事情都被搬到那裡去，而且從來沒有被搬出來。我笑了一陣子，然後意識到她在說的是我。
+
+## 阿嬤廚房裡的那本曆
+My grandmother keeps a thick paper [[calendar|clock|century|tomorrow]] hanging from a nail in her kitchen. It is not the kind you buy for the photographs. Each page is a single day, printed with the date in two systems — the old lunar one and the modern one — together with advice about what to do and what to avoid. It tells her when to plant, when the tide will be high, which days suit moving house or cutting hair, and when the ancestors should be remembered. Every morning she tears off [[yesterday|tomorrow|century|calendar]] and drops it in the bin. I used to call it superstition, with all the confidence of someone aged fourteen. She did not argue. She pointed out that the farming notes work, because the pages mark the twenty-four solar terms, which really do follow the sun, and that her own grandfather used them to decide when to sow. The rest, she said, she takes or leaves. I rather like the thing now. There is something [[honest|salty|crowded|windy]] about a calendar that is thrown away one page at a time, instead of a phone that keeps every [[date|garbage|traffic|weather]] for ever. When she is gone I would like that nail, and whatever page is hanging on it, even if it is [[tomorrow|yesterday|century|calendar]]'s.
+> 1 a thick paper calendar「一本厚厚的紙本日曆」。clock、century、tomorrow 都不會掛在釘子上一張張撕。
+> 2 tears off yesterday「撕掉昨天那一張」。tomorrow 還沒到，century、calendar 都不是可以撕掉的一天。
+> 3 There is something honest about a calendar that is thrown away「一張張被丟掉的日曆有某種誠實」。salty、crowded、windy 都不能形容這種感覺。
+> 4 keeps every date for ever「永遠留著每一個日期」。garbage、traffic、weather 都不是手機記下的東西。
+> 5 even if it is tomorrow's「即使那是明天的那一張」。yesterday 已被撕掉，century、calendar 都接不上所有格。
++ nail = 釘子
++ lunar = 農曆的
++ tide = 潮水
++ superstition = 迷信
++ solar term = 節氣
+= 我阿嬤的廚房裡，釘子上掛著一本厚厚的紙本日曆。那不是為了照片才買的那種。每一張是一天，印著兩套日期——舊的農曆和現代的——還附上宜做與忌做的建議。它告訴她何時播種、何時漲潮、哪幾天適合搬家或剪頭髮，以及什麼時候該祭拜祖先。每天早上她撕掉昨天那一張，丟進垃圾桶。我以前說那是迷信，帶著十四歲特有的自信。她沒有爭辯。她指出，上面的農事提醒是有用的，因為那些頁面標著二十四節氣，而節氣真的跟著太陽走，她自己的祖父就靠它決定什麼時候播種。其餘的，她說，她看著取用。我現在反而喜歡這本曆。一張張被丟掉的日曆有某種誠實，不像手機永遠留著每一個日期。等她走了以後，我想要那根釘子，和上面掛著的那一張，即使那是明天的那一張。
+
+## 大鐘下面見
+Before everybody carried a phone, people arranged to meet under the big [[clock|calendar|century|tomorrow]] at the railway station. My parents did it, and so did theirs. If one of you was late, there was nothing to do but [[wait|bake|borrow|pray]] and watch the hands, because there was no way to say "I am five minutes away". My mother says the worst feeling of her teenage years was standing under that [[clock|calendar|century|yesterday]] for forty minutes in the rain, and the best feeling was the moment a familiar face finally came through the door. The two feelings were part of the same arrangement. Today we send a message, which removes the worry and also removes the [[moment|garbage|traffic|weather]], and I am not going to pretend that the old way was better. Nobody misses standing in the rain. But when I walk past the station I look up at the [[clock|calendar|century|tomorrow]], and there are always two or three people underneath it, not looking at their phones, watching the door instead.
+> 1 meet under the big clock at the station「在車站的大鐘下見面」。calendar、century、tomorrow 都不會掛在車站裡當地標。
+> 2 nothing to do but wait and watch the hands「只能等，看著指針」。bake、borrow、pray 都接不上 and watch the hands。
+> 3 standing under that clock for forty minutes「在那個鐘下站四十分鐘」。calendar、century、yesterday 都不是可以站在下面的東西。
+> 4 removes the worry and also removes the moment「少了擔心，也少了那一刻」。garbage、traffic、weather 都不是傳訊息會消除的東西。
+> 5 I look up at the clock「我抬頭看那個鐘」。calendar、century、tomorrow 都不是抬頭會看到的東西。
++ arrange = 約定
++ hands = 指針
++ familiar = 熟悉的
++ arrangement = 約定、安排
++ pretend = 假裝
+= 在人人都帶著手機以前，大家約在火車站的大鐘下見面。我父母這樣約，他們的父母也這樣。如果有一個人遲到，另一個人只能等，看著指針，因為沒有辦法說「我還有五分鐘就到」。我媽說她青少年時期最難受的感覺，就是在那個鐘下淋著雨站四十分鐘；最好的感覺，則是熟悉的面孔終於從門口出現的那一刻。這兩種感覺屬於同一個約定。今天我們傳訊息，少了擔心，也少了那一刻；我不打算假裝以前那樣比較好，沒有人懷念站在雨裡。但每次我走過車站，抬頭看那個鐘，底下總有兩三個人沒在看手機，而是看著門口。
