@@ -939,7 +939,7 @@ function tokIds(items){
   return items.map(st => typeof st === 'object' ? clozeOf(st).blanks[st.b].id : (DATA.bank[st].r ?? st));
 }
 function getTok(s){
-  if (!SHEET_URL || !$('seat').value || !$('spin').value.trim()) return;
+  if (!SHEET_URL || !$('seat').value) return;   // 沒設個人密碼的學生也要拿憑證（伺服器那邊沒密碼的座號不檢查密碼）
   const body = JSON.stringify({type: 'start', seat: $('seat').value, pin: $('spin').value.trim(), ids: tokIds(s.items), quiz: s.quiz || ''});
   s.tokP = (async () => {
     for (let k = 0; k < 8 && !s.tok; k++) {   // 網路不穩時多試幾次（約 1 分鐘內），拿不到憑證成績會傳不上去
