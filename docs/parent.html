@@ -83,6 +83,20 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 .strip svg{width:100%;height:auto;display:block}
 @media (max-width:520px){.cmp{grid-template-columns:1fr}.cmp .rk{grid-column:1}}
 footer{font-size:.82rem;color:var(--muted);text-align:center;padding:10px 16px 30px}
+
+.wq-list{display:grid;gap:8px}
+.wq-item{border:1px solid #0002;border-left:4px solid #c2412d;border-radius:10px;padding:8px 12px}
+.wq-item.fixed{border-left-color:#1f8a4c;opacity:.8}
+.wq-top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.8rem;opacity:.85}
+.wq-tag{font-weight:700}
+.wq-stem{font-family:"Atkinson Hyperlegible",system-ui,sans-serif;font-size:1rem;margin-top:4px}
+.wq-stem u{text-decoration:none;border-bottom:2px solid currentColor;padding:0 2px}
+.wq-zh{font-size:.85rem;opacity:.75}
+.wq-ans{display:flex;gap:14px;flex-wrap:wrap;margin-top:4px;font-size:.92rem}
+.wq-pick{color:#c2412d}.wq-right{color:#1f8a4c;font-weight:700}
+.wq-ok{color:#1f8a4c}.wq-no{color:#c2412d}
+.wq-empty{opacity:.7}
+.wq-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
 </style>
 </head>
 <body>
@@ -143,6 +157,12 @@ footer{font-size:.82rem;color:var(--muted);text-align:center;padding:10px 16px 3
       <div class="words" id="rWords"></div>
     </section>
 
+    <section class="card">
+      <h2>錯題本<small>最近 30 天答錯的題目，紅色是孩子選的、綠色是正確答案</small></h2>
+      <div class="wq-bar"><label><input type="checkbox" id="wqOpen" checked> 只看還沒訂正的</label><span class="muted" id="wqNote"></span></div>
+      <div id="rWQ"></div>
+    </section>
+
     <section class="card tips">
       <h2>可以怎麼陪孩子</h2>
       <ul>
@@ -164,6 +184,21 @@ const md = d => { const p = String(d).split('-'); return +p[1] + '/' + +p[2]; };
 let KEY = '', GLD = {gl: {}, more: {}};
 const store = { get(k){ try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v){ try { localStorage.setItem(k, v); } catch (e) {} }, del(k){ try { localStorage.removeItem(k); } catch (e) {} } };
 
+
+// ===== 錯題本：題目、孩子選的、正確答案（題目文字在 qtext.json）=====
+let QT = null, qtP = null;
+function loadQT(){ return qtP || (qtP = fetch('qtext.json').then(r => r.json()).then(j => (QT = j)).catch(() => { qtP = null; return null; })); }
+function wqRows(items, onlyOpen){
+  const e = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const L = items.filter(x => !onlyOpen || !x.fixed);
+  if (!L.length) return '<p class="wq-empty">' + (onlyOpen ? '錯過的題目都已經訂正答對了 👍' : '這段期間沒有答錯的題目。') + '</p>';
+  return '<div class="wq-list">' + L.map(x => {
+    const q = QT && QT[x.id], stem = q ? q[0] : '（' + (x.kind || '') + '）' + x.w, ans = q ? q[1] : x.w, zh = q && q[2] && q[2] !== stem ? q[2] : '';
+    return `<div class="wq-item${x.fixed ? ' fixed' : ''}"><div class="wq-top"><span class="wq-tag">${e(x.kind)}${x.unit ? '・' + e(x.unit) : ''}</span><span class="wq-meta">${e(x.d.slice(5).replace('-', '/'))}・錯 ${x.wrong} 次／作答 ${x.n} 次・${x.fixed ? '<b class="wq-ok">✓ 之後答對了</b>' : '<b class="wq-no">還沒訂正</b>'}</span></div>
+      <div class="wq-stem">${e(stem).replace(/____|【([^】]*)】/g, m => '<u>' + (m === '____' ? '＿＿＿' : m) + '</u>')}</div>${zh ? `<div class="wq-zh">${e(zh)}</div>` : ''}
+      <div class="wq-ans"><span class="wq-pick">選了：${e(x.pick || '（沒作答／超時）')}</span><span class="wq-right">正確：${e(ans)}</span></div></div>`;
+  }).join('') + '</div>';
+}
 fetch('gl.json').then(r => r.json()).then(j => { GLD = j; }).catch(() => {});
 
 async function api(params){
@@ -246,6 +281,13 @@ function render(j){
     </div>
     <span class="num"><b>${t.rate == null ? '—' : t.rate + '%'}</b><div class="n">${t.answered} 題</div></span></div>`).join('') ||
     '<p class="muted">還沒有作答紀錄。</p>';
+
+  // 錯題本（題目文字另外載入，慢一點出現）
+  const WQ = j.wrongQ || [];
+  const wqDraw = () => { $('rWQ').innerHTML = wqRows(WQ, $('wqOpen').checked); };
+  $('wqNote').textContent = WQ.length ? `共 ${WQ.length} 題，還沒訂正 ${WQ.filter(x => !x.fixed).length} 題` : '';
+  $('wqOpen').onchange = wqDraw;
+  if (WQ.length) { $('rWQ').innerHTML = '<p class="muted">題目載入中…</p>'; loadQT().then(wqDraw); } else wqDraw();
 
   // 常錯單字
   $('rWords').innerHTML = j.wrong.length ? j.wrong.map(w => {

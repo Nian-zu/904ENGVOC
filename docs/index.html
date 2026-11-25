@@ -328,6 +328,9 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .chline{font-size:.88rem;margin-top:8px;line-height:1.5}
 .chline .qbar{height:9px;background:var(--line);border-radius:99px;overflow:hidden;margin:3px 0}
 .chline .qbar i{display:block;height:100%;background:linear-gradient(90deg,#46c08a,#3b6fd1)}
+.bdweek{font:inherit;font-size:.85rem;border:1px solid var(--line);border-radius:10px;padding:4px 6px;background:#fff;color:inherit;margin-left:4px}
+.bdweek.on{border-color:#c8473a;color:#c8473a;font-weight:700}
+.bdrange{margin:6px 0 0;color:var(--muted);font-size:.85rem}
 .survbox{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
 .survbtn{font:inherit;font-weight:900;border:0;border-radius:12px;padding:9px 14px;background:#2b2523;color:#fff;cursor:pointer}
 .survbtn:hover{background:#c8473a}
@@ -630,10 +633,14 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <div class="seg" role="group" aria-label="期間">
       <button data-p="day" aria-pressed="false">今日</button>
       <button data-p="week" aria-pressed="true">本週</button>
+      <button data-p="lweek" aria-pressed="false">上週</button>
       <button data-p="month" aria-pressed="false">本月</button>
+      <button data-p="lmonth" aria-pressed="false">上月</button>
       <button data-p="all" aria-pressed="false">全部</button>
+      <select id="bdWeek" class="bdweek" aria-label="選擇週次"></select>
     </div>
   </div>
+  <p class="bdrange" id="bdRange"></p>
   <div class="seg sortseg" role="group" aria-label="班級">
     <button data-bc="" aria-pressed="true">三班一起</button>
     <button data-bc="904" aria-pressed="false">只看 904</button>
@@ -908,7 +915,7 @@ function progText(s){
   const h = '❤️'.repeat(Math.max(0, s.surv.lives)) + '🖤'.repeat(Math.max(0, (s.surv.max || 3) - s.surv.lives));
   const t = s.surv.left != null && !s.answered ? `・⏱ ${s.surv.left} 秒` : '';
   if (s.surv.boss) { drawBossBar(s); return `${h} 第 ${s.i+1} 題` + t; }
-  return `${h} 第 ${s.i+1} 題・撐過 ${s.right} 題` + t;
+  return `${h} 第 ${s.surv.stage || 1} 階・第 ${s.i+1} 題・撐過 ${s.right} 題` + t;
 }
 function survTick(){
   const s = session; if (!s || !s.surv || s.answered) return;
@@ -933,9 +940,17 @@ function qtStart(){
   s.qt = {end: Date.now() + QUIZ_SEC * 1000, left: QUIZ_SEC};
   s.qt.timer = setInterval(qtTick, 250); qtTick();
 }
+// 生存挑戰分階段加速：1–20 題 15 秒、21–40 題 12 秒、41–70 題 10 秒、71–100 題 8 秒、101 題起 6 秒
+const SURV_STAGES = [[0, 15], [20, 12], [40, 10], [70, 8], [100, 6]];
+function survStage(i){ let k = 0; SURV_STAGES.forEach((x, j) => { if (i >= x[0]) k = j; }); return k; }
 function survStart(){
   const s = session; if (!s.surv) return;
   clearInterval(s.surv.timer);
+  if (!s.surv.boss) {
+    const k = survStage(s.i);
+    s.surv.sec = SURV_STAGES[k][1];
+    if (k + 1 > (s.surv.stage || 1)) { s.surv.stage = k + 1; $('qFb').innerHTML = `<b class="survend">⚡ 進入第 ${k + 1} 階！每題只剩 ${s.surv.sec} 秒</b>`; $('qFb').className = 'feedback'; }
+  }
   const sec = s.surv.sec || SURV_SEC;
   s.surv.end = Date.now() + sec * 1000; s.surv.left = sec;
   s.surv.timer = setInterval(survTick, 200); survTick();
@@ -946,11 +961,19 @@ async function startSurv(){
   try { await loadJt(); } catch (e) {}
   if (!JT) { alertMsg('寂天題庫載入失敗，請重新整理頁面。'); return; }
   alertMsg('');
-  const [a, b] = JT_EXAM, byG = {};
-  JT.idx.forEach(qi => { const q = DATA.bank[qi]; if (q.u >= a && q.u <= b) (byG[q.g] = byG[q.g] || []).push(qi); });
-  const items = shuffle(Object.values(byG).map(xs => xs[Math.floor(Math.random() * xs.length)]));
+  // 越後面越難：前 25 題多出英翻中，之後改出中翻英和例句題；段考範圍出完，接著出 U1 起的舊單元，再換題型把段考範圍再考一輪
+  const [a, b] = JT_EXAM, byG = {}, old = {};
+  JT.idx.forEach(qi => { const q = DATA.bank[qi]; const o = q.u >= a && q.u <= b ? byG : q.u < a ? old : null; if (o) (o[q.g] = o[q.g] || []).push(qi); });
+  const word = qi => DATA.bank[qi].w;
+  const groupsByWord = o => { const m = {}; Object.values(o).forEach(xs => xs.forEach(qi => (m[word(qi)] = m[word(qi)] || []).push(qi))); return Object.values(m); };
+  const hard = qi => DATA.bank[qi].j !== 'e';
+  const pick = (xs, wantHard, not) => { const ys = xs.filter(qi => qi !== not && hard(qi) === wantHard); const zs = ys.length ? ys : xs.filter(qi => qi !== not); return (zs.length ? zs : xs)[Math.floor(Math.random() * (zs.length ? zs : xs).length)]; };
+  const first = shuffle(groupsByWord(byG)), used = new Map(), items = [];
+  first.forEach((xs, i) => { const qi = pick(xs, i >= 25); used.set(xs, qi); items.push(qi); });
+  shuffle(groupsByWord(old)).forEach(xs => items.push(pick(xs, true)));
+  shuffle(first.slice()).forEach(xs => items.push(pick(xs, true, used.get(xs))));
   start(items);
-  session.surv = {lives: 3};
+  session.surv = {lives: 3, stage: 1};
   session.kind = 'jt';
   session.rangeText = '生存挑戰｜寂天 U' + a + '–U' + b;
   $('quiz').classList.add('survmode');
@@ -1373,7 +1396,7 @@ function drawChallenge(before){
     `<div class="chline">🏫 ${esc(w.cls || '')} 班本週目標：答對 <b>${w.total}</b> / ${w.goal} 題${w.total >= w.goal ? ' 🎉 達成！' : ''}<div class="qbar"><i style="width:${wp}%"></i></div>` +
     `<small class="hint">你本週作答 ${w.mine} 題${w.mine >= 50 ? '（✓ 有出力）' : '，作答 50 題才算有出力'}・達成時有出力的人各得 +50 🪙（目前 ${w.people} 人有出力）</small></div>` +
     battleHTML(j) +
-    `<div class="survbox"><button type="button" class="survbtn" id="survBtn">💀 生存挑戰</button><small>寂天段考範圍 U${JT_EXAM[0]}–U${JT_EXAM[1]}，3 條命、每題 15 秒，看你能撐幾題！<br>個人最佳 <b>${j.survBest}</b> 題・本週最佳 ${j.survWeek} 題${top ? '<br>本週前三：' + top : ''}</small><span class="hint" id="chMsg"></span></div>`;
+    `<div class="survbox"><button type="button" class="survbtn" id="survBtn">💀 生存挑戰</button><small>寂天段考範圍 U${JT_EXAM[0]}–U${JT_EXAM[1]}，3 條命。越撐越快：每題從 15 秒一路縮到 6 秒，後面還會出中翻英、例句和舊單元！<br>個人最佳 <b>${j.survBest}</b> 題・本週最佳 ${j.survWeek} 題${top ? '<br>本週前三：' + top : ''}</small><span class="hint" id="chMsg"></span></div>`;
   $('chCard').classList.remove('hidden');
   $('survBtn').onclick = startSurv;
   if (before) {   // 剛交卷：新完成的挑戰給個慶祝
@@ -2419,8 +2442,30 @@ function givenName(n) {
 }
 let boardPeriod = 'week', boardSort = 'right', boardType = 'all', boardData = null;
 const TYPE_ZH = {all: '', word: '單字題', verb: '動詞變化題', prep: '介系詞題', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天 Reading Success 3 '};
-const PERIOD_ZH = {day: '今天', week: '本週', month: '本月', all: '開學以來'};
-const PREV_ZH = {day: '昨天', week: '上週', month: '上個月'};
+const PERIOD_ZH0 = {day: '今天', week: '本週', lweek: '上週', month: '本月', lmonth: '上個月', all: '開學以來'};
+const PREV_ZH0 = {day: '昨天', week: '上週', lweek: '前一週', month: '上個月', lmonth: '前一個月'};
+// 週次：第 1 週＝11/14–11/22，之後每週一到週日
+const BD_FIRST = ['2026-11-14', '2026-11-22'];
+const bdAdd = (d, n) => new Date(Date.parse(d) + n * 864e5).toISOString().slice(0, 10);
+function bdWeeks(){
+  const t = new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Taipei'}).format(new Date()), out = [BD_FIRST.slice()];
+  let a = bdAdd(BD_FIRST[1], 1);
+  while (a <= t) { out.push([a, bdAdd(a, 6)]); a = bdAdd(a, 7); }
+  return out;
+}
+const bdWeekNo = w => bdWeeks().findIndex(x => x[0] === w) + 1;
+const PERIOD_ZH = new Proxy(PERIOD_ZH0, {get: (o, k) => o[k] || (/^w\d/.test(k) ? '第 ' + bdWeekNo(k.slice(1)) + ' 週' : '')});
+const PREV_ZH = new Proxy(PREV_ZH0, {get: (o, k) => o[k] || (/^w\d/.test(k) ? '前一週' : '')});
+(() => {
+  const sel = $('bdWeek'), W = bdWeeks(), md = d => d.slice(5).replace('-', '/');
+  sel.innerHTML = '<option value="">選週次…</option>' + W.map((w, i) => `<option value="w${w[0]}">第 ${i + 1} 週（${md(w[0])}–${md(w[1])}）</option>`).reverse().join('');
+  sel.onchange = () => {
+    if (!sel.value) return;
+    boardPeriod = sel.value; sel.classList.add('on');
+    document.querySelectorAll('[data-p]').forEach(x => x.setAttribute('aria-pressed', 'false'));
+    loadBoard();
+  };
+})();
 async function loadBoard(){
   const body = $('boardBody');
   if (!SHEET_URL) { body.textContent = '尚未設定成績網址。'; return; }
@@ -2446,6 +2491,8 @@ function drawBoard(){
   if (!j) return;
   const boards = j.boards || {right: j.top || []};
   const tz = TYPE_ZH[j.type || 'all'] || '';
+  const mdd = d => d ? d.slice(5).replace('-', '/') : '';
+  $('bdRange').textContent = j.period === 'all' ? '📅 統計期間：開學至今' : j.from ? `📅 統計期間：${PERIOD_ZH[boardPeriod]}　${mdd(j.from)}～${mdd(j.to || j.today)}` : '';
   if (boardPeriod === 'all' && boardSort === 'up') boardSort = 'right';
   document.querySelectorAll('[data-s]').forEach(x => {
     x.setAttribute('aria-pressed', x.dataset.s === boardSort);
@@ -2489,6 +2536,7 @@ function drawBoard(){
 document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => {
   boardPeriod = b.dataset.p;
   document.querySelectorAll('[data-p]').forEach(x => x.setAttribute('aria-pressed', x === b));
+  $('bdWeek').value = ''; $('bdWeek').classList.remove('on');
   loadBoard();
 });
 document.querySelectorAll('[data-s]').forEach(b => b.onclick = () => { boardSort = b.dataset.s; drawBoard(); });

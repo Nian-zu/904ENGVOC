@@ -154,6 +154,27 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
 .an-btn button{font-size:13px;padding:4px 10px;border-radius:8px;border:1px solid #ccc;background:#fff;cursor:pointer}
 .an-btn button.bad{border-color:#d33;color:#b00}
 </style>
+<section class="tk" id="wqSec">
+  <div class="tk-head"><h2>📕 錯題本</h2><span class="mut" id="wqRange"></span></div>
+  <p class="tk-rule">選一位學生，看他答錯過的題目、選了什麼、正確答案，以及之後有沒有訂正答對（還沒訂正的排前面，最多 150 題）。期間跟著下面的「統計期間」；選「全部」時顯示最近 30 天。</p>
+  <div class="wq-bar"><select id="wqSeat" aria-label="選擇學生"><option value="">選擇學生…</option></select><label><input type="checkbox" id="wqOpen"> 只看還沒訂正的</label><span class="mut" id="wqNote"></span></div>
+  <div id="wqBody"></div>
+</section>
+<style>
+.wq-list{display:grid;gap:8px}
+.wq-item{border:1px solid #0002;border-left:4px solid #c2412d;border-radius:10px;padding:8px 12px}
+.wq-item.fixed{border-left-color:#1f8a4c;opacity:.8}
+.wq-top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.8rem;opacity:.85}
+.wq-tag{font-weight:700}
+.wq-stem{font-family:"Atkinson Hyperlegible",system-ui,sans-serif;font-size:1rem;margin-top:4px}
+.wq-stem u{text-decoration:none;border-bottom:2px solid currentColor;padding:0 2px}
+.wq-zh{font-size:.85rem;opacity:.75}
+.wq-ans{display:flex;gap:14px;flex-wrap:wrap;margin-top:4px;font-size:.92rem}
+.wq-pick{color:#c2412d}.wq-right{color:#1f8a4c;font-weight:700}
+.wq-ok{color:#1f8a4c}.wq-no{color:#c2412d}
+.wq-empty{opacity:.7}
+.wq-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+</style>
 <div class="pbar" id="pbar">
   <b>📅 統計期間</b>
   <select id="pPick" aria-label="選擇統計期間"></select>
@@ -775,6 +796,43 @@ dash.draw('wordRows', (tb) => {
   const k = document.getElementById('key');
   try { k.value = localStorage.getItem('904teacherKey') || ''; } catch (e) {}
   document.getElementById('keyForm').onsubmit = (e) => { e.preventDefault(); dash._load(k.value); loadTasks(k.value); loadAnom(); };
+
+// ===== 錯題本：題目、孩子選的、正確答案（題目文字在 qtext.json）=====
+let QT = null, qtP = null;
+function loadQT(){ return qtP || (qtP = fetch('qtext.json').then(r => r.json()).then(j => (QT = j)).catch(() => { qtP = null; return null; })); }
+function wqRows(items, onlyOpen){
+  const e = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const L = items.filter(x => !onlyOpen || !x.fixed);
+  if (!L.length) return '<p class="wq-empty">' + (onlyOpen ? '錯過的題目都已經訂正答對了 👍' : '這段期間沒有答錯的題目。') + '</p>';
+  return '<div class="wq-list">' + L.map(x => {
+    const q = QT && QT[x.id], stem = q ? q[0] : '（' + (x.kind || '') + '）' + x.w, ans = q ? q[1] : x.w, zh = q && q[2] && q[2] !== stem ? q[2] : '';
+    return `<div class="wq-item${x.fixed ? ' fixed' : ''}"><div class="wq-top"><span class="wq-tag">${e(x.kind)}${x.unit ? '・' + e(x.unit) : ''}</span><span class="wq-meta">${e(x.d.slice(5).replace('-', '/'))}・錯 ${x.wrong} 次／作答 ${x.n} 次・${x.fixed ? '<b class="wq-ok">✓ 之後答對了</b>' : '<b class="wq-no">還沒訂正</b>'}</span></div>
+      <div class="wq-stem">${e(stem).replace(/____|【([^】]*)】/g, m => '<u>' + (m === '____' ? '＿＿＿' : m) + '</u>')}</div>${zh ? `<div class="wq-zh">${e(zh)}</div>` : ''}
+      <div class="wq-ans"><span class="wq-pick">選了：${e(x.pick || '（沒作答／超時）')}</span><span class="wq-right">正確：${e(ans)}</span></div></div>`;
+  }).join('') + '</div>';
+}
+
+  let WQ = null;
+  const wqDraw = () => { if (WQ) document.getElementById('wqBody').innerHTML = wqRows(WQ.items, document.getElementById('wqOpen').checked); };
+  async function loadWQ(){
+    const seat = document.getElementById('wqSeat').value, note = document.getElementById('wqNote');
+    let f = T904.FROM, t = T904.TO;
+    if (!f) { t = T904.today(); f = T904.addDays(t, -29); }
+    document.getElementById('wqRange').textContent = f.slice(5).replace('-', '/') + ' ～ ' + t.slice(5).replace('-', '/');
+    if (!seat) { document.getElementById('wqBody').innerHTML = ''; note.textContent = ''; return; }
+    note.textContent = '載入中…';
+    try {
+      const [j] = await Promise.all([fetch(SHEET_URL + '?action=wrongq&key=' + encodeURIComponent(k.value || '') + '&seat=' + seat + '&from=' + f + '&to=' + t).then(r => r.json()), loadQT()]);
+      if (!j.ok) { note.textContent = '⚠ ' + (j.error || '需要更新成績程式'); return; }
+      WQ = j; note.textContent = `共 ${j.items.length} 題，還沒訂正 ${j.items.filter(x => !x.fixed).length} 題`; wqDraw();
+    } catch (e) { note.textContent = '⚠ 暫時無法載入'; }
+  }
+  fetch(SHEET_URL + '?action=names').then(r => r.json()).then(j => {
+    const sel = document.getElementById('wqSeat');
+    (j.names || []).filter(x => x.cls && x.cls !== '老師').forEach(x => sel.add(new Option(`${x.cls} ${x.seat % 100} 號 ${x.given}`, x.seat)));
+  }).catch(() => {});
+  document.getElementById('wqSeat').onchange = loadWQ;
+  document.getElementById('wqOpen').onchange = wqDraw;
   // ---- 可疑作答 ----
   const AN_IC = {blocked: '🚫', same: '🤖', burst: '⏱', fast: '⚡', quiz: '🔁', jump: '📈', random: '🎲'};
   const AN_TX = {blocked: '假交卷被擋下', same: '重複送出同一份結果', burst: '短時間大量交卷', fast: '作答速度異常快', quiz: '每日小考一直重開', jump: '答對率突然暴增', random: '疑似亂猜'};
@@ -811,7 +869,7 @@ dash.draw('wordRows', (tb) => {
   const setRange = (f, t) => {
     T904.FROM = f || ''; T904.TO = t || '';
     document.getElementById('pNote').textContent = T904.FROM ? `目前顯示 ${T904.FROM.replace(/-/g, '/')} ～ ${T904.TO.replace(/-/g, '/')} 的資料；「今日」「近 7 天」以期間最後一天為準。` : '目前顯示開學至今全部資料。';
-    dash._load(k.value); loadAnom();
+    dash._load(k.value); loadAnom(); loadWQ();
   };
   pick.onchange = () => {
     const v = pick.value;

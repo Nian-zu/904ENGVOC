@@ -159,6 +159,7 @@ const MIN_UP = { day: 10, week: 20, month: 20 };                 // 進步榜：
 function doGet(e) {
   const p = (e && e.parameter) || {};
   if (p.action === 'dash') return out_(dash_(p.key, p.from, p.to));
+  if (p.action === 'wrongq') return out_(teacherOk_(p.key) ? wrongQ_(p.seat, p.from, p.to) : { ok: false, error: '請輸入老師密碼' });
   if (p.action === 'anomaly') return out_(teacherOk_(p.key) ? anomalies_(p.from, p.to) : { ok: false, error: '請輸入老師密碼' });
   if (p.action === 'anomalyAct') return out_(teacherOk_(p.key) ? anomalyAct_(p.k, p.act) : { ok: false, error: '請輸入老師密碼' });
   if (p.action === 'badges') return out_(badgesC_());
@@ -353,8 +354,15 @@ function cached_(name, sec, fn) {
 }
 
 // 排行榜：同一個版本內大家共用計算結果；「我」的成績另外從裡面挑出來
+// 排行榜期間：day／week／month／all，或 w＋週一日期（例如 w2026-11-23＝那一週，用來看以前的週次）
+function boardPeriod_(v) {
+  v = String(v || '');
+  if (['day', 'week', 'month', 'all', 'lweek', 'lmonth'].indexOf(v) >= 0) return v;
+  if (/^w\d{4}-\d{2}-\d{2}$/.test(v) && v.slice(1) >= FIRST_WEEK[0]) return 'w' + weekStart_(v.slice(1));
+  return 'week';
+}
 function boardCached_(p) {
-  const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
+  const period = boardPeriod_(p.period);
   const type = /^[a-z]{2,6}$/.test(String(p.type || '')) ? p.type : 'all';
   const cls = CLASSES.indexOf(p.cls) >= 0 ? p.cls : '';
   const r = cachedSoft_('bd2|' + period + '|' + type + '|' + cls + '|' + Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd'), 21600, 60, function () { return boardCore_({ period: period, type: type, cls: cls }); });
@@ -368,14 +376,21 @@ function boardCached_(p) {
 }
 
 function boardCore_(p) {
-  const period = ['day', 'week', 'month', 'all'].indexOf(p.period) >= 0 ? p.period : 'week';
+  const period = boardPeriod_(p.period);
   const tz = 'Asia/Taipei';
   const today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
 
-  let from = '0000-00-00', prevFrom = '', prevTo = '';
+  let from = '0000-00-00', to = today, prevFrom = '', prevTo = '';
   if (period === 'day') { from = today; prevFrom = prevTo = shift_(today, -1); }
   if (period === 'week') { from = weekStart_(today); prevFrom = prevWeek_(from); prevTo = shift_(from, -1); }
   if (period === 'month') { from = today.slice(0, 8) + '01'; prevTo = shift_(from, -1); prevFrom = prevTo.slice(0, 8) + '01'; }
+  // 上週／上月／指定某一週：期間有結束日，進步榜跟再前一段比
+  const wOf = function (w) { from = w; to = weekEnd_(w); if (to > today) to = today; prevFrom = prevWeek_(w); prevTo = shift_(w, -1); };
+  if (period === 'lweek') wOf(prevWeek_(weekStart_(today)));
+  const isW = /^w\d/.test(period);
+  if (isW) wOf(period.slice(1));
+  if (period === 'lmonth') { to = shift_(today.slice(0, 8) + '01', -1); from = to.slice(0, 8) + '01'; prevTo = shift_(from, -1); prevFrom = prevTo.slice(0, 8) + '01'; }
+  const pk = period === 'lmonth' ? 'month' : period === 'lweek' || isW ? 'week' : period;   // 門檻、稱號用的期間種類
 
   // type=word|verb|prep|cloze：只算這種題型（用「作答明細」逐題資料）；不給就是全部題型（用「成績」）
   const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
@@ -385,7 +400,7 @@ function boardCore_(p) {
   const allRows = keep(readRows_());
   const rows = type === 'all' ? allRows : keep(readDetail_(TYPE_ZH[type]));
   const clozeRows = keep(readDetail_('克漏字'));
-  const cur = agg_(rows, from, today), prv = prevFrom ? agg_(rows, prevFrom, prevTo) : {};
+  const cur = agg_(rows, from, to), prv = prevFrom ? agg_(rows, prevFrom, prevTo) : {};
   // 「全部」排行不算克漏字：從每人的題數扣掉同期間克漏字的題數
   // 「全部」也不算寂天（寂天有自己的排行）
   if (type === 'all') {
@@ -397,22 +412,22 @@ function boardCore_(p) {
       Object.keys(z).forEach(function (k) { if (t[k]) { z[k].fAns = Math.max(0, z[k].fAns - t[k].fAns); z[k].fRight = Math.max(0, z[k].fRight - t[k].fRight); } });
       return z;
     };
-    minus_(cur, agg_(clozeRows, from, today)); if (prevFrom) minus_(prv, agg_(clozeRows, prevFrom, prevTo));
-    minus_(cur, jtMinus(from, today)); if (prevFrom) minus_(prv, jtMinus(prevFrom, prevTo));
+    minus_(cur, agg_(clozeRows, from, to)); if (prevFrom) minus_(prv, agg_(clozeRows, prevFrom, prevTo));
+    minus_(cur, jtMinus(from, to)); if (prevFrom) minus_(prv, jtMinus(prevFrom, prevTo));
     Object.keys(cur).forEach(function (k) { const c = cur[k]; c.fAns = Math.max(0, c.fAns); c.fRight = Math.max(0, Math.min(c.fRight, c.fAns)); });
     Object.keys(cur).forEach(function (k) { if (cur[k].answered <= 0) delete cur[k]; });
   }
   const list = Object.keys(cur).map(function (k) { return cur[k]; });
   const rateOf = function (s) { return s.fAns ? Math.round(s.fRight / s.fAns * 100) : null; };
   const entry = function (s) {
-    const q = prv[s.seat], d = upOf_(s, q, period);
+    const q = prv[s.seat], d = upOf_(s, q, pk);
     return { seat: s.seat, given: givenName(s.name), right: s.right, answered: s.answered, tests: s.tests,
       rate: rateOf(s), fAns: s.fAns, prevRate: q && q.fAns ? rateOf(q) : null, up: d };
   };
   const boards = {
     right: rank_(list, function (s) { return s.right || null; }, entry),
-    rate: rank_(list, function (s) { return s.fAns >= MIN_RATE[period] ? rateOf(s) : null; }, entry),
-    up: period === 'all' ? [] : rank_(list, function (s) { const d = upOf_(s, prv[s.seat], period); return d > 0 ? d : null; }, entry)
+    rate: rank_(list, function (s) { return s.fAns >= MIN_RATE[pk] ? rateOf(s) : null; }, entry),
+    up: pk === 'all' ? [] : rank_(list, function (s) { const d = upOf_(s, prv[s.seat], pk); return d > 0 ? d : null; }, entry)
   };
 
   // 連續交卷天數（不分期間）
@@ -434,9 +449,9 @@ function boardCore_(p) {
     m.total = total;
     mineAll[s.seat] = m;
   });
-  return { ok: true, period: period, from: from, today: today, top: boards.right, boards: boards, mineAll: mineAll, total: total,
-    min: { rate: MIN_RATE[period], up: MIN_UP[period] || null },
-    type: type, titles: titles_(list, prv, streaks, period), fame: fame_(allRows, today, clozeRows.concat(keep(readDetail_('寂天')))), av: avMap_() };
+  return { ok: true, period: period, from: from, to: to, today: today, top: boards.right, boards: boards, mineAll: mineAll, total: total,
+    min: { rate: MIN_RATE[pk], up: MIN_UP[pk] || null },
+    type: type, titles: titles_(list, prv, streaks, pk), fame: fame_(allRows, today, clozeRows.concat(keep(readDetail_('寂天')))), av: avMap_() };
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -1338,6 +1353,32 @@ function hhmm_(v) {
 
 // ===================== 家長查詢頁（docs/parent.html） =====================
 // 密碼放在試算表「設定」分頁：A 欄「家長密碼」、B 欄密碼（不放在 GitHub 上）
+// 錯題本：某位學生在期間內答錯過的題目（每題一列：錯幾次、最後選了什麼、之後有沒有答對）
+// 題目文字和正確答案由網頁從 qtext.json 補上（伺服器只有答案代號）
+function wrongQ_(seat, from, to) {
+  const s = parseInt(seat, 10);
+  if (!s) return { ok: false, error: '請選擇學生' };
+  const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
+  to = to || today; from = from || shift_(to, -29);
+  const by = {};
+  detailValues_().forEach(function (r) {
+    if (parseInt(r[1], 10) !== s) return;
+    const d = r[0] instanceof Date ? Utilities.formatDate(r[0], tz, 'yyyy-MM-dd') : String(r[0]).slice(0, 10);
+    if (d < from || d > to) return;
+    const id = parseInt(r[4], 10), ok = Number(r[7]) === 1;
+    if (!(id >= 0)) return;
+    const st = r[10] instanceof Date ? Utilities.formatDate(r[10], tz, 'yyyy-MM-dd HH:mm:ss') : String(r[10]);
+    const x = by[id] || (by[id] = { id: id, w: String(r[5]), kind: String(r[6]), unit: String(r[3]), n: 0, wrong: 0, pick: '', last: '', lastWrong: '', fixed: false });
+    x.n++;
+    if (!ok) { x.wrong++; if (st >= x.lastWrong) { x.lastWrong = st; x.pick = String(r[8]); } }
+    if (st >= x.last) { x.last = st; x.fixed = ok; }
+  });
+  const list = Object.keys(by).map(function (k) { return by[k]; }).filter(function (x) { return x.wrong > 0; })
+    .sort(function (a, b) { return (a.fixed === b.fixed ? 0 : a.fixed ? 1 : -1) || b.wrong - a.wrong || (a.lastWrong < b.lastWrong ? 1 : -1); })
+    .slice(0, 150).map(function (x) { return { id: x.id, w: x.w, kind: x.kind, unit: x.unit, n: x.n, wrong: x.wrong, pick: x.pick, d: x.lastWrong.slice(0, 10), fixed: x.fixed }; });
+  return { ok: true, seat: s, from: from, to: to, items: list };
+}
+
 function parentKey_() {
   const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('設定');
   if (sh && sh.getLastRow() >= 1) {
@@ -1464,7 +1505,8 @@ function parent_(key, seat) {
     quiz: metric(function (p) { return p.quiz; })
   };
 
-  return { ok: true, today: today, seat: s, name: ro[s], roster: roster, compare: compare,
+  const wq = wrongQ_(s, shift_(today, -29), today).items;
+  return { ok: true, today: today, seat: s, name: ro[s], roster: roster, compare: compare, wrongQ: wq,
     summary: { answered: tot.answered, rate: tot.answered ? Math.round(tot.right / tot.answered * 100) : null,
       classRate: ctot.answered ? Math.round(ctot.right / ctot.answered * 100) : null,
       classAnswered: Math.round(ctot.answered / nStu), days: Object.keys(days).length, streak: streak, tests: mine.length,
