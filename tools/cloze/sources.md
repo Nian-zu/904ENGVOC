@@ -743,3 +743,24 @@ D73-25 (G)I-DLE 的〈LION〉：https://en.wikipedia.org/wiki/Lion_((G)I-dle_son
 D73-26 少女時代的〈Lion Heart〉：https://en.wikipedia.org/wiki/Lion_Heart_(album)；https://www.allkpop.com/article/2015/08/album-mv-review-girls-generation-lion-heart-5th-album-part-1
 D73-29 林旺爺爺的一生：https://en.wikipedia.org/wiki/Lin_Wang；https://www.taipeitimes.com/News/front/archives/2003/02/27/0000196067
 D73-30 蛇梯棋來自古印度：https://en.wikipedia.org/wiki/Snakes_and_ladders；https://bharatiyakhel.in/moksh-patam/
+D72-01 2023 年台南的登革熱大流行：https://focustaiwan.tw/society/202311190009；https://www.cdc.gov.tw/Bulletin/Detail/
+D72-02 新加坡用蚊子打敗蚊子：https://www.nea.gov.sg/corporate-functions/resources/research/wolbachia-aedes-mosquito-suppression-strategy；https://www.science.org/doi/10.1126/scitranslmed.adk9938
+D72-03 台東長濱的藍鯨：https://www.cna.com.tw/news/ahel/202201250229.aspx；https://e-info.org.tw/node/222907
+D72-04 豆腐鯊不再上餐桌：https://www.fa.gov.tw/；https://www.twwiki.tw/；https://news.ltn.com.tw/news/life/paper/201512
+D72-05 龜山島的長須鯨：https://www.cna.com.tw/news/ahel/202503200178.aspx；https://e-info.org.tw/node/239291
+D72-06 三種大鯊魚禁捕令：https://www.fa.gov.tw/cht/NewsPaper/content.aspx；https://e-info.org.tw/node/224150
+D72-07 鯊魚比樹還老：https://ocean.si.edu/ocean-life/sharks-rays/sharks-are-older-trees；https://www.nhm.ac.uk/discover/greenland-shark-oldest-vertebrate.html
+D72-11 看懂蜜蜂跳的舞：https://www.nobelprize.org/prizes/medicine/1973/frisch/facts/；https://www.britannica.com/biography/Karl-von-Frisch
+D72-12 世界上最大的魚：https://www.guinnessworldrecords.com/world-records/largest-fish；https://ocean.si.edu/ocean-life/sharks-rays/whale-shark
+D72-13 鯊魚隊的第一次總冠軍賽：https://www.nhl.com/sharks/news/；https://www.espn.com/nhl/recap/_/gameId/400885447
+D72-14 菲爾普斯和大白鯊比賽：https://www.bbc.com/news/world-us-canada-40697561；https://www.discovery.com/shows/shark-week
+D72-15 黃蜂隊的吉祥物雨果：https://www.nba.com/hornets/hugo；https://www.charlotteobserver.com/sports/nba/charlotte-hornets/
+D72-16 消失的鯨魚隊：https://www.nhl.com/hurricanes/team/history；https://www.courant.com/2017/04/13/whalers-last-game-20-years/
+D72-17 叫做蜜蜂的足球隊：https://www.brentfordfc.com/en/club-history；https://www.bbc.com/sport/football/57253561
+D72-18 棒球場上的鯊魚寶寶：https://www.mlb.com/nationals/news/baby-shark-nationals；https://www.washingtonpost.com/sports/2019/10/
+D72-19 鯊魚女士尤金妮·克拉克：https://mote.org/about/eugenie-clark；https://www.nytimes.com/2015/02/26/science/eugenie-clark-shark-lady-dies.html
+D72-20 一本書救了鳥和蟲：https://www.epa.gov/history/milestones-epa-and-environment；https://www.fws.gov/story/rachel-carson-silent-spring
+D72-21 教室後面的觀察箱（台灣同婚合法化）：https://www.amnesty.org/en/latest/news/2019/05/taiwan-same-sex-marriage-law/；https://www.hrw.org/news/2019/05/17/lovewins-taiwan
+D72-23 鯊魚寶寶的一百億次：https://www.guinnessworldrecords.com/world-records/most-viewed-video-online；https://www.bbc.com/news/entertainment-arts-59997865
+D72-24 防彈少年團 Jin 的釣魚歌：https://www.koreaherald.com/view.php?ud=20211205000115；https://www.soompi.com/article/1500000wpp/
+D72-25 一支讓計數器壞掉的影片：https://guinnessworldrecords.com/world-records/381953-first-youtube-video-to-require-a-64-bit-counter；https://www.pbs.org/newshour/arts/gangnam-style-music-video-exceeds-youtubes-view-limit
