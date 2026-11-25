@@ -742,7 +742,7 @@ dash.draw('wordRows', (tb) => {
       const st = !x.r ? (x.w ? `<span class="late">⚠️ ${esc(wtxt(x.w))}，不算數</span>` : '<span class="mut">還沒做</span>')
         : x.r.passAt ? `<span class="${x.r.passDate > t.date ? 'late' : 'ok'}">✅ ${md(x.r.passDate)} ${hm(x.r.passAt)}${x.r.passDate > t.date ? ' 補做' : ''}</span>`
         : '<span class="no">⏳ 未達標</span>';
-      return `<tr><td>${x.r ? rank : '—'}</td><td>${x.seat}</td><td class="l">${nm(x)}</td><td class="${x.r ? (x.r.best >= t.pass ? 'ok' : 'no') : 'mut'}">${x.r ? x.r.best + '%' : '—'}</td><td>${x.r ? x.r.attempts : 0}</td><td class="l">${st}</td></tr>`;
+      return `<tr><td>${x.r ? rank : '—'}</td><td>${x.seat}</td><td class="l">${nm(x)}</td><td class="${x.r ? (x.r.best >= t.pass ? 'ok' : 'no') : 'mut'}">${x.r ? x.r.best + '%' + (x.r.attempts > 1 && x.r.first != null ? `<small class="mut">（首次 ${x.r.first}%）</small>` : '') : '—'}</td><td>${x.r ? x.r.attempts : 0}</td><td class="l">${st}</td></tr>`;
     }).join('');
     body.innerHTML = `
       <div class="tk-sum">

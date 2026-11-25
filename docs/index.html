@@ -613,7 +613,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
 <section id="quiz" class="panel hidden" aria-live="polite">
   <div>
     <div class="qhead">
-      <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span><span class="chip streak hidden" id="qStreak"></span><span class="chip quizchip hidden" id="qQuiz">📝 每日小考（今天第一份寫完的才算）</span></div>
+      <div class="row"><span class="chip" id="qDay"></span><span class="chip k" id="qKind"></span><span class="chip streak hidden" id="qStreak"></span><span class="chip quizchip hidden" id="qQuiz">📝 每日小考（寫完全部題目才算，可以重考）</span></div>
       <div class="row"><span class="qav" id="qAv"></span><span class="hint" id="qProg"></span><button id="ttsBtn" type="button" aria-pressed="false" title="作答後自動朗讀單字和句子">🗣️ 自動朗讀</button><button id="sndBtn" type="button" aria-pressed="false" title="音效開關" aria-label="音效開關">🔇</button></div>
     </div>
     <div class="bar"><span id="qBar"></span></div>
@@ -928,7 +928,7 @@ function start(items){
   $('qStreak').classList.add('hidden');
   session = {items, i:0, right:0, wrong:[], answered:false, done:{}, streak:0, order: items.map(() => shuffle([0,1,2,3])),
     log: [], t0: Date.now(), planned: items.length, rangeText: rangeText(), quiz: pendingQuiz, makeup: pendingMakeup, kind: kindCode()};
-  pendingQuiz = null; pendingMakeup = null; $('qQuiz').classList.toggle('hidden', !session.quiz); $('qQuiz').textContent = '📝 每日小考（今天第一份寫完的才算）';
+  pendingQuiz = null; pendingMakeup = null; $('qQuiz').classList.toggle('hidden', !session.quiz); $('qQuiz').textContent = '📝 每日小考（寫完全部題目才算，可以重考）';
   session.asked = new Set(items.filter(x => typeof x === 'object').map(x => x.u + '-' + x.p + '-' + x.b));
   getTok(session);
   $('setup').classList.add('hidden'); $('result').classList.add('hidden'); $('quiz').classList.remove('hidden'); $('board').classList.add('hidden');
@@ -2538,7 +2538,7 @@ async function upload(){
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || '上傳失敗');
     if (j.quiz === false) { box.className = 'upload bad'; box.textContent = okMsg(j.score) + '，但小考密碼不對（或已過了當天），這次沒有算成每日小考。'; }
-    else if (j.retry) { box.className = 'upload bad'; box.textContent = okMsg(j.score) + '，但這次不算每日小考成績（中途結束，或今天已經有一份寫完的小考），只算練習。'; }
+    else if (j.retry) { box.className = 'upload bad'; box.textContent = okMsg(j.score) + '，但這次沒有寫完全部題目，不算每日小考，只算練習。'; }
     else { box.className = 'upload ok'; box.textContent = okMsg(j.score) + (j.counted != null && j.counted < j.right ? `・其中 ${j.right - j.counted} 題今天已經答對過，不重複計分` : '') + (j.quiz ? '・📝 已記錄為每日小考' : j.makeup ? `・📌 已記錄為補做 ${j.makeup.slice(5).replace('-', '/')} 的任務` : ''); }
     if (j.cn) box.insertAdjacentHTML('beforeend', `<br>🔒 盲測題：${j.cn.ok ? '答對了！' : '答錯了'}正確答案是「${esc(j.cn.ans)}」`);
     if (j.makeup) { const t = OWE.find(x => x.date === j.makeup); if (t && j.score >= t.pass && s.log.length >= t.n) { MADE_UP.add(j.makeup); drawOwe(OWE); } }

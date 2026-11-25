@@ -103,8 +103,8 @@ function doPost(e) {
     if (body.quiz && !redo) {
       const qt = quizTask_(body.quiz);
       if (qt) {
-        // 當天第一份「寫完全部題目」的小考才是正式成績；中途結束、或已經有正式成績之後再考，都記成「重考」（只算練習）
-        if (answered < total || hasOfficialQuiz_(seat, qt.date)) retry = true; else quiz = qt.date;
+        // 寫完全部題目的小考都算正式作答（任一次達標就過關；老師頁另外看得到第一次分數和次數）；中途結束的記成「重考」，只算練習
+        if (answered < total) retry = true; else quiz = qt.date;
         if (retry) quiz = '';
         if (retry) body._retryDate = qt.date;
       }
@@ -1266,6 +1266,7 @@ function tasks_(key, seatOnly, todayOnly, internal) {
         return;
       }
       const o = res[x.seat] = res[x.seat] || blank(), rate = rateOf(x);
+      if (!o.attempts) o.first = rate;   // 第一次寫完的分數
       o.attempts++;
       if (rate > o.best) o.best = rate;
       if (!o.passAt && x.right * 100 >= t.pass * x.answered) { o.passAt = x.when; o.passDate = x.d; }
@@ -2287,7 +2288,7 @@ function startTok_(seat, ids, quizPw) {
   if (quizPw && quizTask_(quizPw)) {
     const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
     quizStartSheet_().appendRow([new Date(), seat, "'" + today, tok]);
-    first = !hasOfficialQuiz_(seat, today);
+    first = true;   // 可以重考：任一次達標就算過關
   }
   return { ok: true, tok: tok, first: first, cn: cn };
 }
