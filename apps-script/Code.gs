@@ -103,9 +103,8 @@ function doPost(e) {
     if (body.quiz && !redo) {
       const qt = quizTask_(body.quiz);
       if (qt) {
-        // 只有當天第一次開始的小考算正式成績；之後的（重新整理、重開）記成「重考」，不算任務
-        const mine = tk.tok ? quizStarts_(qt.date).filter(function (x) { return x.seat === seat; }).sort(function (a, b) { return a.t - b.t; }) : [];
-        if (mine.length && mine[0].tok !== tk.tok) retry = true; else quiz = qt.date;
+        // 當天第一份「寫完全部題目」的小考才是正式成績；中途結束、或已經有正式成績之後再考，都記成「重考」（只算練習）
+        if (answered < total || hasOfficialQuiz_(seat, qt.date)) retry = true; else quiz = qt.date;
         if (retry) quiz = '';
         if (retry) body._retryDate = qt.date;
       }
@@ -2226,11 +2225,17 @@ function startTok_(seat, ids, quizPw) {
   let first = null;
   if (quizPw && quizTask_(quizPw)) {
     const today = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd');
-    const prev = quizStarts_(today).filter(function (x) { return x.seat === seat; });
     quizStartSheet_().appendRow([new Date(), seat, "'" + today, tok]);
-    first = !prev.length;
+    first = !hasOfficialQuiz_(seat, today);
   }
   return { ok: true, tok: tok, first: first };
+}
+// 這個座號當天是否已經有正式的每日小考成績（N 欄＝當天日期，不含重考／補做）
+function hasOfficialQuiz_(seat, date) {
+  const sh = sheet_(), last = sh.getLastRow(), n = Math.min(1500, last - 1);
+  if (n <= 0 || sh.getLastColumn() < 14) return false;
+  const v = sh.getRange(last - n + 1, 3, n, 12).getValues();
+  return v.some(function (r) { return +r[0] === seat && ymd_(r[11]) === date && String(r[11]).indexOf('重考') < 0 && String(r[11]).indexOf('補') < 0; });
 }
 // 「小考開始」分頁：每次開始每日小考記一列（時間、座號、日期、憑證）
 function quizStartSheet_() {
@@ -2265,7 +2270,9 @@ function checkTok_(seat, body, answers) {
   const allow = {};
   v.ids.forEach(function (x) { allow[x] = 1; });
   if (answers.some(function (a) { return !allow[parseInt(a[0], 10)]; })) return { ok: false, error: '交的題目和開始時的題目不符' };
-  if (Date.now() - v.t < Math.max(2000, answers.length * 1500)) return { ok: false, error: '作答時間太短，這次成績不算。' };
+  // 錯題重做：題目剛看過，答得快很正常（每題 0.6 秒、至少 1 秒）；一般測驗每題 1.5 秒、至少 2 秒
+  const isRedo = String(body.range || '').indexOf('錯題重做') >= 0;
+  if (Date.now() - v.t < (isRedo ? Math.max(1000, answers.length * 600) : Math.max(2000, answers.length * 1500))) return { ok: false, error: '作答時間太短，這次成績不算。' };
   return { ok: true, tok: tok };
 }
 
@@ -2411,7 +2418,7 @@ function anomalies_(from, to) {
   // 小考開始次數
   const qs = {};
   quizStarts_(from, to).forEach(function (x) { if (stu(x.seat)) { const k = x.seat + '|' + x.d; qs[k] = (qs[k] || 0) + 1; } });
-  Object.keys(qs).forEach(function (k) { if (qs[k] >= 3) { const p = k.split('|'); add('quiz', +p[0], p[1], '每日小考開始了 ' + qs[k] + ' 次（只有第一次算成績，之後算重考）'); } });
+  Object.keys(qs).forEach(function (k) { if (qs[k] >= 3) { const p = k.split('|'); add('quiz', +p[0], p[1], '每日小考開始了 ' + qs[k] + ' 次（第一份寫完的才算成績；一直重開可能是在偷看題目）'); } });
   // 被擋下的交卷
   const bsh = blockedSheet_(), bn = bsh.getLastRow() - 1, bl = {};
   if (bn > 0) bsh.getRange(2, 1, bn, 7).getValues().forEach(function (r) {
