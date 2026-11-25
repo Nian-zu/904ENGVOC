@@ -142,8 +142,10 @@ function doPost(e) {
     }
     try { petGain_(seat, right); } catch (e) {}   // 答對的題數也讓正在帶的寵物長大
     if (tk.tok) CacheService.getScriptCache().put('tku|' + tk.tok, '1', 21600);   // 憑證用過就作廢
+    let cnRes = null;
+    try { cnRes = logBehavior_(seat, body, answered, right, tk.v); } catch (e) {}
     return out_({ ok: true, score: score, right: right, answered: answered, counted: counted, retry: retry || null,
-      quiz: quiz ? true : (body.quiz && !retry ? false : null), makeup: makeup || null });
+      quiz: quiz ? true : (body.quiz && !retry ? false : null), makeup: makeup || null, cn: cnRes });
   } catch (err) {
     return out_({ ok: false, error: String(err) });
   }
@@ -2273,7 +2275,13 @@ function startTok_(seat, ids, quizPw) {
   ids = (Array.isArray(ids) ? ids : []).slice(0, 300).map(function (x) { return parseInt(x, 10); }).filter(function (x) { return x >= 0; });
   if (!ids.length) return { ok: false, error: '沒有題目' };
   const tok = Utilities.getUuid().replace(/-/g, '').slice(0, 20);
-  CacheService.getScriptCache().put('tk|' + tok, JSON.stringify({ s: seat, ids: ids, t: Date.now() }), 21600);
+  // 盲測題：從試算表「暗樁題」分頁抽一題（答案只存在試算表，不在公開的網頁／GitHub 上）
+  let cn = null;
+  try {
+    const pool = ids.length >= 8 ? canaryPool_() : [];
+    if (pool.length) { const x = pool[Math.floor(Math.random() * pool.length)]; cn = { id: x.id, a: x.a, b: x.b, o: x.o, kind: x.kind }; }
+  } catch (e) {}
+  CacheService.getScriptCache().put('tk|' + tok, JSON.stringify({ s: seat, ids: ids, t: Date.now(), cn: cn ? cn.id : null }), 21600);
   // 每日小考：記下開始時間；當天第一次開始的那一份才是正式成績
   let first = null;
   if (quizPw && quizTask_(quizPw)) {
@@ -2281,7 +2289,47 @@ function startTok_(seat, ids, quizPw) {
     quizStartSheet_().appendRow([new Date(), seat, "'" + today, tok]);
     first = !hasOfficialQuiz_(seat, today);
   }
-  return { ok: true, tok: tok, first: first };
+  return { ok: true, tok: tok, first: first, cn: cn };
+}
+// 「暗樁題」分頁：編號｜題型｜題幹前｜題幹後｜A｜B｜C｜D｜答案（A–D）
+function canaryPool_() {
+  return cachedSoft_('cnpool', 600, 300, function () {
+    const sh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('暗樁題');
+    if (!sh || sh.getLastRow() < 2) return [];
+    return sh.getRange(2, 1, sh.getLastRow() - 1, 9).getValues().map(function (r) {
+      const A = String(r[2]).trim(), B = String(r[3]).trim();   // 試算表會吃掉頭尾空白，空格前後補回來
+      return { id: parseInt(r[0], 10), kind: String(r[1]), a: A ? A + ' ' : '', b: /^[A-Za-z0-9(]/.test(B) ? ' ' + B : B, o: [r[4], r[5], r[6], r[7]].map(String), c: 'ABCD'.indexOf(String(r[8]).trim().toUpperCase()) };
+    }).filter(function (x) { return x.id > 0 && x.c >= 0 && x.o.every(function (o) { return o; }); });
+  });
+}
+// 「作答行為」分頁：每份交卷一列，記下非真人點擊、每題秒數的平均與變異、盲測題結果（給「可疑作答」用）
+function behaviorSheet_() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  let sh = ss.getSheetByName('作答行為');
+  if (!sh) {
+    sh = ss.insertSheet('作答行為');
+    sh.appendRow(['時間', '座號', '範圍', '題數', '答對', '點擊次數', '非真人點擊', '每題平均秒數', '秒數變異係數', '盲測題', '盲測答對']);
+    sh.getRange(1, 1, 1, 11).setFontWeight('bold'); sh.setFrozenRows(1);
+  }
+  return sh;
+}
+function logBehavior_(seat, body, answered, right, v) {
+  const tm = (Array.isArray(body.tm) ? body.tm : []).slice(0, 300).map(function (x) { return Math.max(0, Math.min(600000, Number(x) || 0)) / 1000; });
+  let mean = '', cv = '';
+  if (tm.length >= 5) {
+    const m = tm.reduce(function (a, b) { return a + b; }, 0) / tm.length;
+    const sd = Math.sqrt(tm.reduce(function (a, b) { return a + (b - m) * (b - m); }, 0) / tm.length);
+    mean = Math.round(m * 100) / 100; cv = m > 0 ? Math.round(sd / m * 100) / 100 : 0;
+  }
+  // 盲測題：只批改這張憑證抽到的那一題
+  let cn = null, cnId = '', cnOk = '';
+  const ans = Array.isArray(body.cn) && body.cn[0];
+  if (v && v.cn && ans && parseInt(ans[0], 10) === v.cn) {
+    const x = canaryPool_().filter(function (q) { return q.id === v.cn; })[0];
+    if (x) { const pick = parseInt(ans[1], 10); cnId = x.id; cnOk = pick === x.c ? 1 : 0; cn = { ok: !!cnOk, ans: x.o[x.c] }; }
+  }
+  behaviorSheet_().appendRow([new Date(), seat, String(body.range || '').slice(0, 60), answered, right, parseInt(body.ev, 10) || 0, parseInt(body.ut, 10) || 0, mean, cv, cnId, cnOk]);
+  return cn;
 }
 // 這個座號當天是否已經有正式的每日小考成績（N 欄＝當天日期，不含重考／補做）
 function hasOfficialQuiz_(seat, date) {
@@ -2326,7 +2374,7 @@ function checkTok_(seat, body, answers) {
   // 錯題重做：題目剛看過，答得快很正常（每題 0.6 秒、至少 1 秒）；一般測驗每題 1.5 秒、至少 2 秒
   const isRedo = String(body.range || '').indexOf('錯題重做') >= 0;
   if (Date.now() - v.t < (isRedo ? Math.max(1000, answers.length * 600) : Math.max(2000, answers.length * 1500))) return { ok: false, error: '作答時間太短，這次成績不算。' };
-  return { ok: true, tok: tok };
+  return { ok: true, tok: tok, v: v };
 }
 
 
@@ -2484,10 +2532,30 @@ function anomalies_(from, to) {
     const p = k.split('|'), o = bl[k];
     add('blocked', +p[0], p[1], '交卷被系統擋下 ' + o.n + ' 次：' + Object.keys(o.why).map(function (w) { return w.replace(/[，。].*$/, '') + ' ×' + o.why[w]; }).join('、'));
   });
+  // 作答行為：非真人點擊、每題秒數太平均、盲測題（讀網頁答案作弊的程式答不出來）
+  const hsh = SpreadsheetApp.openById(SPREADSHEET_ID).getSheetByName('作答行為');
+  if (hsh && hsh.getLastRow() > 1) {
+    const bot = {}, even = {}, cnS = {};
+    hsh.getRange(2, 1, hsh.getLastRow() - 1, 11).getValues().forEach(function (r) {
+      if (!(r[0] instanceof Date)) return;
+      const seat = parseInt(r[1], 10), d = Utilities.formatDate(r[0], tz, 'yyyy-MM-dd');
+      if (!stu(seat) || d < from || d > to || invMatch_(seat, r[2], d)) return;
+      const n = Number(r[3]) || 0, ok = Number(r[4]) || 0, ut = Number(r[6]) || 0, mean = Number(r[7]), cv = Number(r[8]);
+      if (ut > 0) { const o = bot[seat + '|' + d] = bot[seat + '|' + d] || { ut: 0, ev: 0, k: 0, range: String(r[2]) }; o.ut += ut; o.ev += Number(r[5]) || 0; o.k++; }
+      if (n >= 10 && r[8] !== '' && cv < 0.2 && mean > 0 && mean < 5 && ok / n >= 0.9) { const o = even[seat + '|' + d] = even[seat + '|' + d] || { k: 0, mean: mean, cv: cv, range: String(r[2]) }; o.k++; }
+      if (r[9] !== '' && r[9] != null) { const o = cnS[seat] = cnS[seat] || { n: 0, ok: 0, a: 0, r: 0, d: d }; o.n++; o.ok += Number(r[10]) || 0; o.a += n; o.r += ok; if (d > o.d) o.d = d; }
+    });
+    Object.keys(bot).forEach(function (k) { const p = k.split('|'), o = bot[k]; add('bot', +p[0], p[1], o.k + ' 份測驗裡有 ' + o.ut + ' 次點選不是真人操作（共點 ' + o.ev + ' 次；可能用程式自動作答）', o.range); });
+    Object.keys(even).forEach(function (k) { const p = k.split('|'), o = even[k]; add('even', +p[0], p[1], o.k + ' 份測驗每題作答時間幾乎一樣（平均 ' + o.mean + ' 秒、變異係數 ' + o.cv + '，真人通常 0.4 以上），而且答對率 90% 以上', o.range); });
+    Object.keys(cnS).forEach(function (k) {
+      const o = cnS[k];
+      if (o.n >= 3 && o.ok / o.n <= 0.34 && o.a && o.r / o.a >= 0.85) add('canary', +k, o.d, '盲測題（答案不在網頁裡）' + o.n + ' 題只對 ' + o.ok + ' 題，但同一批測驗的一般題答對率 ' + Math.round(o.r / o.a * 100) + '%（可能是讓程式直接讀網頁裡的答案）');
+    });
+  }
   // 已處理的不再顯示
   const dsh = anomalyDoneSheet_(), dn = dsh.getLastRow() - 1, done = {};
   if (dn > 0) dsh.getRange(2, 1, dn, 2).getValues().forEach(function (r) { done[String(r[0])] = String(r[1]); });
-  const order = { blocked: 0, same: 1, burst: 2, fast: 3, quiz: 4, jump: 5, random: 6 };
+  const order = { bot: 0, canary: 1, blocked: 2, same: 3, even: 4, burst: 5, fast: 6, quiz: 7, jump: 8, random: 9 };
   const list = items.filter(function (x) { return !done[x.k]; }).sort(function (a, b) { return a.d < b.d ? 1 : a.d > b.d ? -1 : order[a.type] - order[b.type]; });
   return { ok: true, from: from, to: to, items: list };
 }
@@ -2517,8 +2585,8 @@ function setupDailyMail() {
 function dailyAnomalyMail() {
   const tz = 'Asia/Taipei', today = Utilities.formatDate(new Date(), tz, 'yyyy-MM-dd');
   const A = anomalies_(today, today), L = A.items || [];
-  const icon = { blocked: '🚫', same: '🤖', burst: '⏱', fast: '⚡', quiz: '🔁', jump: '📈', random: '🎲' };
-  const name = { blocked: '交卷被擋下', same: '秒數一模一樣', burst: '交卷太密', fast: '快到不合理', quiz: '小考一直重開', jump: '成績突然暴增', random: '接近亂猜' };
+  const icon = { bot: '🦾', canary: '🔒', even: '⏲', blocked: '🚫', same: '🤖', burst: '⏱', fast: '⚡', quiz: '🔁', jump: '📈', random: '🎲' };
+  const name = { bot: '非真人點擊', canary: '盲測題露餡', even: '每題秒數太平均', blocked: '交卷被擋下', same: '秒數一模一樣', burst: '交卷太密', fast: '快到不合理', quiz: '小考一直重開', jump: '成績突然暴增', random: '接近亂猜' };
   const esc = function (t) { return String(t).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); };
   const subject = '【每日背英單】' + today.slice(5).replace('-', '/') + (L.length ? ' 可疑作答 ' + L.length + ' 筆' : ' 今天沒有可疑作答');
   const html = '<div style="font-family:sans-serif;font-size:15px;line-height:1.6">' +

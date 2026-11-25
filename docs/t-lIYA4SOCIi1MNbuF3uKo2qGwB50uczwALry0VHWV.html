@@ -141,7 +141,7 @@ details.t-def ul{font-size:var(--t-small);color:var(--color-fg-muted);line-heigh
 </section>
 <section class="tk" id="anomSec">
   <div class="tk-head"><h2>⚠️ 可疑作答</h2><span class="mut" id="anomRange"></span></div>
-  <p class="tk-rule">系統每天自動檢查：被擋下的假交卷、同一份結果重複送出、短時間連續交卷、每題作答快到不像在讀題、每日小考一直重開、答對率突然暴增、亂猜。按「標成無效」會把那一段寫進「無效紀錄」分頁，排行榜自動扣掉；按「沒問題」就不再顯示。</p>
+  <p class="tk-rule">系統每天自動檢查：非真人的點選（程式自動作答）、盲測題（答案不在網頁裡，讀答案作弊的程式答不出來）、每題秒數太平均、被擋下的假交卷、同一份結果重複送出、短時間連續交卷、每題作答快到不像在讀題、每日小考一直重開、答對率突然暴增、亂猜。按「標成無效」會把那一段寫進「無效紀錄」分頁，排行榜自動扣掉；按「沒問題」就不再顯示。</p>
   <div id="anomBody" class="mut">載入中…</div>
 </section>
 <style>
@@ -834,8 +834,8 @@ function wqRows(items, onlyOpen){
   document.getElementById('wqSeat').onchange = loadWQ;
   document.getElementById('wqOpen').onchange = wqDraw;
   // ---- 可疑作答 ----
-  const AN_IC = {blocked: '🚫', same: '🤖', burst: '⏱', fast: '⚡', quiz: '🔁', jump: '📈', random: '🎲'};
-  const AN_TX = {blocked: '假交卷被擋下', same: '重複送出同一份結果', burst: '短時間大量交卷', fast: '作答速度異常快', quiz: '每日小考一直重開', jump: '答對率突然暴增', random: '疑似亂猜'};
+  const AN_IC = {bot: '🦾', canary: '🔒', even: '⏲', blocked: '🚫', same: '🤖', burst: '⏱', fast: '⚡', quiz: '🔁', jump: '📈', random: '🎲'};
+  const AN_TX = {bot: '有非真人的點選（可能用程式作答）', canary: '盲測題答不出來（可能讀網頁答案）', even: '每題作答秒數太平均', blocked: '假交卷被擋下', same: '重複送出同一份結果', burst: '短時間大量交卷', fast: '作答速度異常快', quiz: '每日小考一直重開', jump: '答對率突然暴增', random: '疑似亂猜'};
   const aesc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
   async function loadAnom(){
     const box = document.getElementById('anomBody');
@@ -847,7 +847,7 @@ function wqRows(items, onlyOpen){
       if (!j.ok) { box.textContent = j.error ? '⚠ ' + j.error : '需要更新成績程式後才能使用。'; return; }
       if (!j.items.length) { box.innerHTML = '✅ 這段期間沒有發現可疑作答。'; return; }
       box.classList.remove('mut');
-      box.innerHTML = j.items.map(x => `<div class="an-row" data-k="${aesc(x.k)}"><div class="an-ic">${AN_IC[x.type] || '⚠️'}</div><div class="an-main"><b>${aesc(x.cls)} ${x.seat % 100} 號 ${aesc(x.name)}</b>・${x.d.slice(5).replace('-', '/')}・${AN_TX[x.type] || x.type}<div class="an-ev">${aesc(x.ev)}</div></div><div class="an-btn">${x.range && /^(same|burst|fast)$/.test(x.type) ? '<button class="bad" data-act="invalid">標成無效</button>' : ''}<button data-act="ok">沒問題</button></div></div>`).join('');
+      box.innerHTML = j.items.map(x => `<div class="an-row" data-k="${aesc(x.k)}"><div class="an-ic">${AN_IC[x.type] || '⚠️'}</div><div class="an-main"><b>${aesc(x.cls)} ${x.seat % 100} 號 ${aesc(x.name)}</b>・${x.d.slice(5).replace('-', '/')}・${AN_TX[x.type] || x.type}<div class="an-ev">${aesc(x.ev)}</div></div><div class="an-btn">${x.range && /^(same|burst|fast|bot|even)$/.test(x.type) ? '<button class="bad" data-act="invalid">標成無效</button>' : ''}<button data-act="ok">沒問題</button></div></div>`).join('');
       box.querySelectorAll('.an-btn button').forEach(b => b.onclick = async () => {
         const row = b.closest('.an-row'), act = b.dataset.act;
         if (act === 'invalid' && b.dataset.arm !== '1') { b.dataset.arm = '1'; b.textContent = '再按一次確認'; return; }
