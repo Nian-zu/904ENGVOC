@@ -1,0 +1,302 @@
+﻿
+
+
+
+
+	本課主要的句型為以wh-疑問詞為首的名詞子句、名詞片語、以whether/if為首的名詞子句。
+一、wh-疑問詞為首的名詞子句的使用時機：
+1.	以前我們學過的wh-問句，稱為直接問句，句型如下：
+	Wh-問句：	What is your name? (你叫什麼名字？)
+			Where does your cousin come from? (你的表哥從哪裡來？)
+2.	至於間接問句，又稱為名詞子句，當成「主要子句中動詞的受詞」。
+3.	間接問句的基本句型：主要子句 + wh- + 主詞 + 動詞 + …
+   (wh-疑問詞包含who, what, where, when, how, why, which等)
+(1)		主要子句：I don’t know.     
+	直接問句：Who is in the room?
+		含間接問句的句子：
+		 I don’t know who is in the room. (我不知道誰在房間。)
+		 who當主詞，因此直接接be動詞is。
+(2)		主要子句：I don’t know.     
+	直接問句：What happened to our smart house? 
+		含間接問句的句子：
+		 I don’t know what happened to our smart house. 
+      (我不知道我們的智慧房子發生了什麼事情。)
+		 what當主詞，因此直接接動詞happened。
+(3)		主要子句：I don’t know.
+	直接問句：What is the wake word?
+		含間接問句的句子：
+		 I don’t know what the wake word is. (我不知道喚醒字詞是什麼。)
+		 主詞the wake word與be動詞is在間接問句中不可對調。
+(4)		主要子句：I don’t know.		
+	直接問句：How can we make things smart? 
+		含間接問句的句子：
+		 I don’t know how we can make things smart. (我不知道如何使事物變聰明。)
+		 主詞we與助動詞can在間接問句中不可對調。
+ (5)		主要子句：I don’t know.     
+		直接問句：When will my brother design new IoT products?
+		含間接問句的句子：
+		 I don’t know when my brother will design new IoT products. 
+(我不知道我弟弟何時可以設計出新的物聯網產品。)
+		 主詞my brother與助動詞will在間接問句中不可對調。
+(6)		主要子句：Can you tell me?
+	直接問句：What did Mary buy online?
+		含間接問句的句子：
+		Can you tell me what Mary bought online? 
+(你可以告訴我Mary在網路上買了什麼嗎？)
+		直接問句中的動詞若為一般動詞，在形成間接問句時，要先將助動詞do/does/did刪除，再依照人稱及時態去做變化，改成相符的時態。本句原本的助動詞為did，因此，間接問句的動詞要改成過去式bought。
+特別訊息：
+1.	有間接問句的句子，其標點符號要由主要子句決定。若主要子句本身是直述句，則標點符號使用句點；若主要子句是疑問句，則標點符號使用問號。
+	例：	I want to know where the cute girl lives. (我想知道那個可愛的女孩子住在哪裡。) 
+	　　		where the cute girl lives是know的受詞；主要子句是直述句，故使用句點。
+	　　	Can you tell me what time you will come back? (可以告訴我你幾點回來嗎？)
+				what time you will come back是tell的受詞；主要子句是疑問句，故使用問號。
+2.	間接問句中可當主詞的疑問詞，有what及who兩個，形成間接問句時，直接在這兩個疑問詞後面接動詞就可以。
+基礎練習
+1.	我不知道這個男孩叫什麼名字。
+	I don’t know \s\do1(_________) the boy’s \s\do1(_________) \s\do1(_________). 
+2.	我不知道那個女孩住那裡。
+	I don’t know \s\do1(_________) the girl \s\do1(_________).
+3.	我不知道他幾歲。
+	I don’t know \s\do1(_________) \s\do1(_________) he \s\do1(_________).
+
+4.	你可告訴我他何時將會到臺北嗎？
+	Can you tell me \s\do1(_________) he \s\do1(_________) \s\do1(_________) to Taipei?
+5.	你知道那個女生已經去過美國幾次了？
+	Do you know \s\do1(_________) many times the girl \s\do1(_________) \s\do1(_________) to the USA?
+6.	他們知道那個女生從哪裡來嗎？
+	Do they know \s\do1(_________) the girl \s\do1(_________) \s\do1(_________)?
+7.	John知道Helen喜歡什麼水果嗎？
+	Does John know \s\do1(_________) fruit Helen \s\do1(_________)?
+8.	我不知道誰喜歡他。
+	I don’t know \s\do1(_________) \s\do1(_________) him. 
+二、	wh-不定詞的用法
+	間接問句若有be going to, should, can, will等表示「將…、該…、能夠…」的情態助動詞時，常可簡化成「wh-不定詞片語」的形式，即「wh- + to V」。
+例：1.	He doesn’t know what he should do. (他不知該怎麼辦。)
+	 He doesn’t know what to do. 
+		 將主詞及助動詞省略掉，在動詞前面加上to即可。
+      此句子有其他兩種說法，說明如下：
+      He doesn’t know how he should do it. (他不知該怎麼辦。)
+      He doesn’t know how to do it. 
+       how本身是副詞，因此動詞do後面要加上受詞it。
+　　2.	Mary has no idea what she is going to enter. (Mary不知該輸入什麼。)
+	 Mary has no idea what to enter. 
+		 將主詞及助動詞省略掉，在動詞前面加上to即可。 
+基礎練習
+1.	Tom不知道他該怎麼辦。
+	(間接問句)	Tom doesn’t know \s\do1(_________) he \s\do1(_________) \s\do1(_________).
+	(不定詞片語)	Tom doesn’t know \s\do1(_________) \s\do1(_________) \s\do1(_________).
+2.	Tom不知道他該去哪裡。
+	(間接問句)	Tom doesn’t know \s\do1(_________) he \s\do1(_________) \s\do1(_________).
+	(不定詞片語)	Tom doesn’t know \s\do1(_________) \s\do1(_________) \s\do1(_________).
+
+3.	Tom不知道他何時該買新的沙發。
+	(間接問句)	Tom doesn’t know \s\do1(_________) he \s\do1(_________) \s\do1(_________) a new sofa.
+	(不定詞片語)	Tom doesn’t know \s\do1(_________) \s\do1(_________) \s\do1(_________) a new sofa.
+4.	Tom不知道他該去問誰。
+	(間接問句)	Tom doesn’t know \s\do1(_________) he \s\do1(_________) \s\do1(_________).
+	(不定詞片語)	Tom doesn’t know \s\do1(_________) \s\do1(_________) \s\do1(_________).
+5.	Tom不知道他該怎麼到達那座橋。
+	(間接問句)	Tom doesn’t know \s\do1(_________) he can \s\do1(_________) to the bridge.
+	(不定詞片語)	Tom doesn’t know \s\do1(_________) \s\do1(_________) \s\do1(_________) to the bridge.
+三、whether/if為首的名詞子句的使用時機
+1.	本課的句型為由yes-no問句變化而來的間接問句。當yes-no問句改寫成間接問句時，因為本身沒有wh-疑問詞，因此要加上whether或if (是否)來改寫，做為主要子句動詞的受詞。
+2.	whether/if為首的間接問句的基本句型：
+(1)	主要子句 + whether + 主詞 + 動詞 + … (or not). 
+(2)	主要子句 + if + 主詞 + 動詞 + …
+例：1.		主要子句：I want to know. 
+			直接問句：Will John be invited to the party?
+			含間接問句的句子：
+			 I want to know whether John will be invited to the party (or not). 
+			(我想知道John是否會受邀參加宴會。)
+	直接問句是yes-no問句，因此改間接問句要加whether或if，同時主詞John與助動詞will在間接問句中不可對調。
+　　2.		主要子句：Please tell me. 
+			直接問句：Is the smart house convenient for us?
+			含間接問句的句子：
+			Please tell me whether the smart house is convenient for us (or not). 
+(請告訴我這間智慧房子是否對我們來說很方便。)
+	直接問句是yes-no問句，因此改間接問句要加whether或if，同時主詞the smart
+house與be動詞is在間接問句中不可對調。
+　　3.		主要子句：I don’t know.  
+			直接問句：Has he lived in Taiwan for five years?
+			含間接問句的句子：
+			 I don’t know whether he has lived in Taiwan for five years (or not). 	
+		(我不知道他是否已經住在臺灣五年了。)
+	直接問句是yes-no問句，因此改間接問句要加whether或if，同時主詞he與助動詞has在間接問句中不可對調。
+　　4.		主要子句：Can you tell me?  
+			直接問句：Will we have a quiz tomorrow?
+			含間接問句的句子：
+			Can you tell me if we will have a quiz tomorrow?
+			(你可以告訴我是否我們明天會有小考？)
+	直接問句是yes-no問句，因此改間接問句要加whether或if，同時主詞we與助動詞will在間接問句中不可對調。
+　　5.		主要子句：Can you tell me?  
+			直接問句：Did Tom push the wrong button?
+			含間接問句的句子：
+			Can you tell me if Tom pushed the wrong button?
+			(你可以告訴我Tom是否按錯按鈕？)
+	直接問句是yes-no問句，因此改間接問句要加whether或if，改間接問句時，要將did去掉，並且將動詞要改成過去式的pushed。 (也就是間接問句若僅有一般動詞時，其時態要與主要子句相符。)
+特別訊息：
+1.	whether/if後面常跟or not，但or not可省略。
+2.	含有間接問句的主要子句，也可以是疑問句。
+3.	重要文法區分
+   a. if當「如果」的意思時，後面的子句若是表未來，就要用現在式取代未來式。
+b. if當「是否」的意思時，後面的子句若是表未來，就要用未來式。
+	例：	If he arrives on time, I will feel surprised. (如果他準時到達，我會感到很驚訝。)
+			 if當「如果」，後面的子句表未來，用現在簡單式取代未來式。
+	　　	I don’t know if he will arrive on time. (我不知道是否他會準時到達。)
+			 if當「是否」，後面的子句表未來，要用未來式。
+
+
+基礎練習
+1.	我不知道今天John是否很忙。
+	I don’t know \s\do1(_______________) John \s\do1(______) \s\do1(______) today ( \s\do1(______) \s\do1(______)). 
+2.	你知道是否Tom昨天生病了嗎？
+	Do you know \s\do1(_______________) Tom \s\do1(______) sick yesterday ( \s\do1(______) \s\do1(______))?
+3.	你可以告訴我是否我們今天將會透過影片和VR學習英文嗎？
+	Can you tell me \s\do1(_______________) we \s\do1(______) \s\do1(______) English through videos and VR today ( \s\do1(______) \s\do1(______))?
+4.	你可以告訴我是否你已經住在臺北十年了？
+	Can you tell me \s\do1(_______________) you \s\do1(______) \s\do1(______) in Taipei for ten years ( \s\do1(______) \s\do1(______))?
+5.	你們可以告訴我是否那個男人會修理這台機器嗎？
+	Can you tell me \s\do1(_______________) the man \s\do1(______) fix the \s\do1(___________) ( \s\do1(______) \s\do1(______))?
+6.	他們想知道是否明天將會下雨。
+	They wonder \s\do1(_______________) it \s\do1(______) \s\do1(______) ( \s\do1(______) \s\do1(______)) tomorrow. 
+	句型綜合練習
+a.	選擇題
+（C）1.	I understood 　　　 come to watch the show. 
+(A) why couldn’t you	(B) why can’t you
+(C) why you couldn’t	(D) why could you
+（C）2.	I’d like to know 　　　 me next weekend.
+(A) if you visit	(B) whether will you visit 
+(C) if you will visit	(D) when will you visit
+（C）3.	Nobody knows 　　　.
+(A) when will Mary come	(B) what is her name
+(C) who lives in the house	(D) how did they get to the station
+（D）4.	David always knows 　　　 to make friends.
+(A) should		(B) who	
+(C) what		(D) how 
+（B）5.	I don’t have any idea 　　　.
+(A) if Peter gets good grades tomorrow	
+(B) whether Peter likes me or not
+(C) why did Peter come late	
+(D) where is the book I bought last week
+（C）6.	No one knows 　　　. 
+(A) when did it happen	(B) what is her name
+(C) what happened		(D) why did it happen
+（A）7.	Tell me 　　　 she 　　　 take care of the baby for me or not. 
+(A) whether; can	(B) if; X  	
+(C) if; is	(D) whether; has
+b.	句子改寫：合併成間接問句
+1.	When do they usually meet? / I have no idea.
+	I have no \s\do1(_________) \s\do1(_________) \s\do1(_________) usually \s\do1(_________).
+2. Do you know? / Did Mary download the video on the Internet? 
+  Do you know \s\do1(_______________) Mary \s\do1(_______________) the video on the Internet ( \s\do1(_______) \s\do1(_______) )?
+3.	What time will the party be held? / Do you know?
+	Do you know \s\do1(_________) \s\do1(_________) the party \s\do1(_________) \s\do1(_________) \s\do1(_________)?
+4.	What happened to you? / Please let me know.
+	Please let me know \s\do1(_________) \s\do1(__________) \s\do1(_________) you.
+5.	We have no idea how we should prepare the house warming party. (用不定詞片語改寫)
+	We have no idea \s\do1(_________) \s\do1(_________) \s\do1(_________) the house warming party.
+6. Please tell me about it. / Is your favorite song Love?
+  Please tell me \s\do1(_______________) your favorite song \s\do1(_________) Love ( \s\do1(_______) \s\do1(_______) ). 
+7.	He hasn’t decided where to visit. (用間接問句改寫)
+	He hasn’t decided \s\do1(_________) he is going to \s\do1(_________).
+c.	句型翻譯題
+1.	我不知道今天早上他是否有將檯燈關掉。
+	I don’t know \s\do1(_______________) he turned \s\do1(_______) the lamp this morning ( \s\do1(______) \s\do1(______) ).
+2.	我還沒決定該送什麼禮物給那個女孩子。 (請分別用間接問句及wh-不定詞作答)
+	I haven’t decided \s\do1(_________) present I \s\do1(_________) give \s\do1(_________) the girl.
+	I haven’t decided \s\do1(_________) present \s\do1(_________) \s\do1(_________) \s\do1(_________) the girl.
+3.	她迷路了。她不知道該怎麼找到火車站。
+	She got \s\do1(_________). She didn’t know \s\do1(_________) \s\do1(_________) find the train station.  
+
+4.	我不確定是否Tom喜歡那座城堡。 
+	I’m not sure \s\do1(_______________) Tom \s\do1(_______) the castle ( \s\do1(_______) \s\do1(_______) ).
+5.	我很想知道David是否是個好店主。 
+	I wonder \s\do1(_______________) David is a good shopkeeper ( \s\do1(_______) \s\do1(_______) ).
+6.	我不知道你是否對加入樂團感到無聊。
+	I don’t know \s\do1(_______________) you are \s\do1(_______) with joining the band ( \s\do1(_______) \s\do1(_______) ).
+d.	課本重要句子
+1.	你不知道現在幾點了嗎？
+	Don’t you know \s\do1(_________) \s\do1(_________) \s\do1(_________) \s\do1(_________)?  
+2.	艾拉想不起來她把檔案存在哪裡去了，所以我留下來幫她。
+	   Ela couldn't remember \s\do1(_________) \s\do1(_________) \s\do1(_________) her file, so I stayed to help her.
+3.	寇弟，你知道為什麼螢幕顯示「錯誤」嗎？
+	   Cody, do you know \s\do1(_________) the \s\do1(_________) is showing “ERROR”?
+4.	我知道接下來該怎麼做。
+	I know \s\do1(_________) \s\do1(_________) \s\do1(_________) next. 
+5.	我不確定它有沒有聽見。
+	I’m not sure \s\do1(________) \s\do1(_________) \s\do1(_________) me. 
+6.	麵條怎麼知道我喜不喜歡它？
+	How did Noodle know \s\do1(_________) I’d like it \s\do1(_______) \s\do1(_______)?
+7. 它有一個你喜愛的歌曲清單，所以它知道要播放什麼。
+   It has a list of your favorite songs, so it knows \s\do1(_________) \s\do1(_________) \s\do1(_________).
+8. 隨著 AI 的興起，每隔幾天就會出現新的 AI 工具。
+ With the \s\do1(_________) of AI, new AI tools \s\do1(_________) every few days.
+9. 而且，AI 甚至可以看圖片中的食物，並提供脂肪含量或加熱方式等資訊。
+ \s\do1(_________) \s\do1(_________), AI can even look at food in pictures and provide information like how much fat it has or \s\do1(_________) \s\do1(_________) \s\do1(_________) it \s\do1(_________).
+    10. 然後 AI 可以糾正他們的錯誤，甚至向他們展示如何解數學題。
+       Then AI can \s\do1(_________) their mistakes and even show them \s\do1(_________) \s\do1(_________) \s\do1(_________) \s\do1(_________) a math problem.
+
+
+
+	重要單字
+大門
+gate
+煮沸
+boil
+檔案
+file
+冰箱
+refrigerator
+小考
+quiz
+上傳
+upload
+黑板
+blackboard
+電子郵件
+e-mail
+粉筆
+chalk
+鑰匙
+key
+螢幕
+screen
+興起；上升
+rise
+錯誤
+error
+收集
+collect
+按鈕；鈕扣
+button
+檯燈
+lamp
+輸入；進入
+enter
+沙發
+couch
+喚醒字詞
+wake word
+加熱；熱
+heat
+是否(w開頭)
+whether
+手機
+cellphone
+清單；列出
+list
+更正；正確的
+correct
+語音助理
+voice assistant 
+
+
+機器
+machine
+
+
+(一)打
+dozen
+
+
+

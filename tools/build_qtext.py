@@ -17,5 +17,12 @@ for q in jt['items']:
     elif q.get('j') == 'e': stem = '英翻中：' + q['w'] + ' ' + q.get('p', '')
     else: stem = '中翻英：' + q['zh'] + ' ' + q.get('p', '')
     out[q['r']] = [stem, q['o'][q['c']], q.get('zh', '')]
+tb = json.load(open(os.path.join(D, 'textbook.json')))
+for q in tb['items']:
+    if q['j'] == 'e': stem = '英翻中：' + q['w']
+    elif q['j'] == 'c': stem = '中翻英：' + q.get('zh', '')
+    elif q.get('nb'): stem = q['a'].strip()
+    else: stem = q['a'] + '____' + q['b']
+    out[q['r']] = [stem, q['o'][q['c']], q.get('z', '') if q['j'] in 'st' else '']
 json.dump(out, open(os.path.join(D, 'qtext.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
 print(len(out), os.path.getsize(os.path.join(D, 'qtext.json')))

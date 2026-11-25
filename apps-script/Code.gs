@@ -63,7 +63,7 @@ function doPost(e) {
     let key = loadKey_();
     // 新加的克漏字題號可能還不在快取裡：缺題號就重新抓一次答案檔
     if (answers.some(function (a) { return !key[parseInt(a[0], 10)]; })) key = loadKey_(true);
-    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
+    const kindZh = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天', tb: '課本' };
     const range = String(body.range || '').slice(0, 120);
     const redo = range.indexOf('錯題重做') >= 0 ? 1 : 0;
     let right = 0;
@@ -85,7 +85,7 @@ function doPost(e) {
     const total = Math.max(answered, Math.min(300, parseInt(body.total, 10) || answered));
     const score = Math.round(right / answered * 100);
     const seconds = Math.max(0, Math.min(36000, parseInt(body.seconds, 10) || 0));
-    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
+    const kinds = { all: '全部', word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天', tb: '課本' };
 
     // 台灣時間
     const now = new Date();
@@ -393,7 +393,7 @@ function boardCore_(p) {
   const pk = period === 'lmonth' ? 'month' : period === 'lweek' || isW ? 'week' : period;   // 門檻、稱號用的期間種類
 
   // type=word|verb|prep|cloze：只算這種題型（用「作答明細」逐題資料）；不給就是全部題型（用「成績」）
-  const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天' };
+  const TYPE_ZH = { word: '單字', verb: '動詞變化', prep: '介系詞', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天', tb: '課本' };
   const type = TYPE_ZH[p.type] ? p.type : 'all';
   // 只看某一班（cls=904／916）：其他班和老師帳號都不列入
   const keep = CLASSES.indexOf(p.cls) >= 0 ? function (xs) { return xs.filter(function (r) { return classOf_(r.seat) === p.cls; }); } : function (xs) { return xs; };
@@ -722,6 +722,8 @@ function loadKeyMain_(fresh) {
 // 講義題（一字多義／片語／會考文法）的答案另放 answer-key-extra.json（題號 40000 起），不跟克漏字的答案檔互相干擾
 const KEY_EXTRA_URL = 'https://nian-zu.github.io/904ENGVOC/answer-key-extra.json';
 const KEY_JT_URL = 'https://nian-zu.github.io/904ENGVOC/answer-key-jt.json';
+// 課本 翰林 iEnglish 三年級 L3–L4（題號 60000 起）
+const KEY_TB_URL = 'https://nian-zu.github.io/904ENGVOC/answer-key-tb.json';
 function loadKey_(fresh) {
   const key = loadKeyMain_(fresh);
   const cache = CacheService.getScriptCache();
@@ -738,6 +740,12 @@ function loadKey_(fresh) {
   }
   const jx = JSON.parse(jt);
   Object.keys(jx).forEach(function (id) { key[parseInt(id, 10)] = jx[id]; });
+  let tb = fresh ? null : cache.get('key_tb');
+  if (!tb) {
+    try { tb = UrlFetchApp.fetch(fresh_(KEY_TB_URL)).getContentText(); cache.put('key_tb', tb, 21600); } catch (e) { tb = '{}'; }
+  }
+  const tx = JSON.parse(tb);
+  Object.keys(tx).forEach(function (id) { key[parseInt(id, 10)] = tx[id]; });
   return key;
 }
 
@@ -2300,7 +2308,7 @@ function checkTok_(seat, body, answers) {
   if (!tok) {
     const now = Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM-dd HH:mm');
     const range = String(body.range || '');
-    const siteLike = /^((D\d+(–D\d+)?|D\d+(, D\d+)*|寂天 U\d+(–U\d+)?)(（錯題重做）)*|(生存挑戰|BOSS 戰|單字對戰)｜.*)$/.test(range);
+    const siteLike = /^((D\d+(–D\d+)?|D\d+(, D\d+)*|寂天 U\d+(–U\d+)?|課本 L\d+(–L\d+)?)(（錯題重做）)*|(生存挑戰|BOSS 戰|單字對戰)｜.*)$/.test(range);
     if (now < TOK_GRACE && siteLike) return { ok: true };
     return { ok: false, error: '這份成績沒有作答憑證，請重新整理網頁後再寫一次。' };
   }

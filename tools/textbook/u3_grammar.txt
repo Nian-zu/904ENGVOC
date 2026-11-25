@@ -1,0 +1,208 @@
+﻿
+
+
+
+
+	本課主要的句型為被動式。
+一、被動式的使用時機
+1.	語態可分「主動」與「被動」表示「某人或某物被…」。中文表被動語態只要加入「被」即可，但是英文中，要以被動式「be + P.P. + (by某人/某物)」表示。
+2.	被動語態的肯定句：
+(A)	現在式：主詞 + am/is/are + P.P. + (by + 某人/某物). 
+	例：The puppies are kept by Mr. Smith.
+	　　(這些小狗是Smith先生養的。)
+(B)	過去式：主詞 + was/were + P.P. + (by + 某人/某物).
+	例：The city was designed by Bill. (這個城市是Bill設計的。)
+(C)	未來式：主詞 + will/be going to be + P.P. + (by + 某人/某物).
+	例：The restaurant will be opened next Wednesday. (這間餐廳將在下週三開幕。)
+(D)	現在完成式：主詞 + have/has been + P.P. + (by + 某人/某物).
+	例：The book has been read by millions of people.
+	　　(這本書已經被幾百萬個讀者讀過了。)
+(E)	含助動詞的被動語態：
+	主詞 + 助動詞+ be + P.P. + (by + 某人/某物).
+	例：A new park will be built here soon. (這裡不久後將蓋座新的公園。) 
+特別訊息：
+1.	P.P.為過去分詞，過去分詞的形成已在第一課教過，請參照第一課內容。
+2.	可以形成被動語態的動詞，必須為「及物動詞」或是「不及物動詞 + 介系詞」。
+3.	主動句與被動句的互換：
+	原則：a. 原主動句的「受詞變成主詞」 
+　　　b. 動詞改「be動詞 + P.P.」 
+　　　c. 句尾加「by + 動作者(原句主詞)」。
+	例：My brother broke the glasses. (我弟打破了這些玻璃杯。)
+
+	　　The glasses were broken by my brother. (我弟打破了這些玻璃杯。)
+4.	當動作執行者為不特定的對象或泛指一群人時，「by + 某人/某物」可以省略不寫。且by後面若是人稱代名詞，要記得用「人稱代名詞的受格」。
+	例：Mary was not invited to the dinner party. (Mary並未獲邀參加這次晚宴。)
+	　　 此處不用by，是因為不確定是誰邀請的。
+5.	有些被動語態不能使用by這個介係詞，而是使用其他介係詞如about, in, at等等。如be interested in (對…有興趣)，be excited about (對…感到興奮)，be surprised at (對…感到驚訝)。
+6.	被動語態中也常會出現「地點、年代」等，請留意要使用其相對應的介係詞，如「in + 年代, at + 小地方」等等，不可使用by。
+	例：The umbrellas were made (by people) in Taiwan. (這些雨傘是臺灣製造的。)
+	　　 本句不可使用by Taiwan，因為臺灣不是動作執行者。
+7. 被動式改否定時，在be動詞或助動詞後面加not即可。改疑問句時，將主詞與be動詞或是助動詞對調即可。
+例：(改否定句) The puppies are kept by Mr. Smith. (這些小狗是Smith先生養的。)
+            The puppies are not kept by Mr. Smith. (這些小狗不是Smith先生養的。) 
+    (改疑問句) The puppies are kept by Mr. Smith. (這些小狗是Smith先生養的。)
+            Are the puppies kept by Mr. Smith? (這些小狗是Smith先生養的嗎？)
+	　　 Yes, they are. (是的，他們是。) 
+         No, they aren’t. (不，他們不是。)
+基礎練習
+1.	端午節被臺灣的人慶祝。
+	(主動)	People in Taiwan \s\do1(_________) the Dragon Boat Festival. 
+	(被動)	The Dragon Boat Festival \s\do1(_________) \s\do1(_________) \s\do1(_________) people in Taiwan. 
+2.	那隻狗被Wang先生豢養。
+	(主動)	Mr. Wang \s\do1(_________) the dog.
+	(被動)	The dog \s\do1(_________) \s\do1(_________) \s\do1(_________) Mr. Wang. 
+3.	那個窗戶是Peter打破的。
+	(主動)	Peter \s\do1(_________) the window.
+	(被動)	The window \s\do1(_________) \s\do1(_________) \s\do1(_________) Peter.  
+4.	那本書是John寫的。
+	(主動)	John \s\do1(_________) the book.
+	(被動)	The book \s\do1(_________) \s\do1(_________) \s\do1(_________) John.
+
+5.	那隻紙傘是我父親做的。
+	(主動)	My father \s\do1(_________) the paper umbrella.
+	(被動)	The paper umbrella \s\do1(_________) \s\do1(_________) \s\do1(_________) my father.
+6.	這些餅乾是我母親做的。
+	(主動)	My mother \s\do1(_________) the cookies. 
+	(被動)	The cookies \s\do1(_________) \s\do1(_________) \s\do1(_________) my mother.
+7.	我們將要在明天辦萬聖節宴會。
+	(主動)	We will \s\do1(_________) a Halloween party tomorrow.
+	(被動)	A Halloween party \s\do1(________) \s\do1(________) \s\do1(________) \s\do1(________) \s\do1(________) tomorrow.
+8.	他們明天將要辦聖誕節宴會。
+	(主動)	They will \s\do1(_________) a Christmas party tomorrow.
+	(被動)	A Christmas party \s\do1(________) \s\do1(________) \s\do1(________) \s\do1(________) \s\do1(________) tomorrow.
+9.	那些衣服必須被Mary清洗。
+	(主動)	Mary must \s\do1(_________) the clothes.
+	(被動)	The clothes \s\do1(_________) \s\do1(_________) \s\do1(_________) \s\do1(_________) Mary.
+10.	這些書可以在那間書局被找到。
+	(主動)	You \s\do1(_________) \s\do1(_________) the books in the bookstore. 
+	(被動)	The books \s\do1(_________) \s\do1(_________) \s\do1(_________) in the bookstore. 
+11.	那部電影已經被John看過五次了。
+	(主動)	John \s\do1(_________) \s\do1(_________) the movie five times.
+	(被動)	The movie \s\do1(_________) \s\do1(_________) \s\do1(_________) \s\do1(_________) John five times. 
+12.	那間博物館已經被他參觀過十次了。
+	(主動)	He \s\do1(_________) \s\do1(_________) the museum ten times. 
+	(被動)	The museum \s\do1(_________) \s\do1(_________) \s\do1(_________) \s\do1(_________) him ten times. 
+	句型綜合練習
+a.	選擇題
+（B）1.	The letter was written 　　　 Tom. 
+(A) with	(B) by	(C) from 	(D) in
+（A）2.	The cat 　　　 many times.
+(A) was lost 	(B) has lost	(C) is losing	(D) loses
+（C）3.	The pair of jogging shoes 　　　 the USA.
+(A) made by	(B) was making in	(C) was made in	(D) were making in
+（B）4.	Rice 　　　 in Taiwan.  
+(A) grows	(B) is grown	(C) growing	(D) grew
+（A）5.	John is interested 　　　 reading picture books.
+(A) in	(B) by	(C) with	(D) about
+（A）6.	The classroom 　　　 cleaned by the students already.
+(A) has been	(B) have been	(C) was	(D) is
+b.	句子改寫：將主動句改成被動句
+1.	Daddy bought the book.
+	The book \s\do1(_________) \s\do1(_________) \s\do1(_________) Daddy.
+2.	Everyone should practice English every day.
+	English \s\do1(_________) \s\do1(_________) \s\do1(_________) every day. 
+3.	The big dog has scared me many times.
+	I \s\do1(_________) \s\do1(_________) \s\do1(_________) \s\do1(_________) the big dog many times.
+c.	句型翻譯題
+1.	那些相機上週賣出去了。
+	Those cameras \s\do1(_________) \s\do1(_________) last week.
+2.	全世界都說英文。
+	English \s\do1(_________) \s\do1(_________) all over the world.
+3.	這些相片是我媽媽拍的。
+	These pictures \s\do1(_________) \s\do1(_________) \s\do1(_________) my mother.
+d.	課本重要句子
+1.	我很樂意。
+	With \s\do1(_________).
+2.	我正在過橋，當時一架飛機在附近投下了一枚炸彈。
+	I was crossing a \s\do1(_________) when a plane \s\do1(_________)  a bomb nearby.
+3.	那樣一來，人們就可以幫他找到回家的路。
+	\s\do1(_________) \s\do1(_________), people can help him \s\do1(_________) \s\do1(_________) \s\do1(_________) home.
+4.	他在一場戰爭中察覺到毒氣攻擊，就吠叫來警告士兵。
+	He \s\do1(_________) \s\do1(_________) attacks during a war and barked to warn the soldiers.
+
+
+5.	多虧了他，他們有時間戴上面罩並保持安全。
+	\s\do1(_________) \s\do1(_________) him, they had time to \s\do1(_________) \s\do1(_________) their masks and stay safe.
+6.	有些被訓練來抓壞人或尋找失蹤的人。
+	Some \s\do1(_________) \s\do1(_________) to catch bad guys or \s\do1(_________) \s\do1(_________) \s\do1(_________) people.
+7. 因為牠們，我們知道英雄可以是形形色色的，甚至也能在身邊的某處發現他們的蹤影。
+	\s\do1(_________) \s\do1(_________)them, we know that heroes can come in different shapes and sizes, and they can even \s\do1(_________) \s\do1(_________) \s\do1(_____________) nearby.
+	重要單字
+樂齡中心
+senior center
+長凳；長椅
+bench
+愉快；榮幸
+pleasure
+羽毛球
+badminton
+攻擊
+attack
+網球
+tennis
+腳趾
+toe
+滑梯
+slide
+橋
+bridge
+翹翹板
+seesaw
+（使）落下；丟下
+drop
+鞦韆
+swing
+煙霧；抽菸
+smoke
+工具
+tool
+幼犬
+puppy
+盆；鍋
+pot
+中間
+middle
+種子
+seed
+攜帶
+carry
+籃子
+basket
+紙條
+note
+烘焙
+bake
+錢包
+wallet
+注意到；告示
+notice
+口袋
+pocket
+（化學、天然）
+氣體；汽油
+gas
+祈求；祈禱
+pray
+現代的
+modern
+區域
+area
+計畫；節目
+program
+膠水
+glue
+側邊；面
+side
+黏貼
+paste
+在某處
+somewhere
+庭院
+yard
+
+
+水管
+pipe
+
+
+	

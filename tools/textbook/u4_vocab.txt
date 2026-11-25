@@ -1,0 +1,577 @@
+﻿	Unit 4　Do You Know Where the File Is?
+
+
+
+1.	gate [get]（名詞）大門
+(1)	指的是進去某大型場地或建築物時，要經過的「大門」。
+例：Most people go into the school through the front    gate   .
+（大部分的人從前門進入學校。）
+一字多義
+	乘坐飛機的旅客上下飛機時，需要經由「登機門；登機口」，也稱作gate。
+例：We’ll get on the plane through    Gate    A7.（我們要從A7門上飛機。）
+
+2.	file [faɪl]（名詞）檔案
+(1)	指「檔案；文件夾」，可為紙本或電子檔案。
+例：The company keeps a    file    on all workers.（公司持有全部員工的檔案。）
+
+3.	quiz [kwɪz]（名詞）小考
+(1)	指較不正式的「小考；小測驗」。
+例：Junior high school students take lots of   quizzes   every day.
+（國中生每天都有很多小考。）
+
+4.	blackboard [ˋblæk͵bɔrd]（名詞）黑板
+(1)	本字是由black＋board（板）組成，而「白板」則是whiteboard。和board相關的複合名詞還有cutting board（砧板）、board game（桌遊）等。
+例：Our   blackboard   fell during an earthquake and broke in half.
+（地震時我們的黑板掉落並裂成兩半。）
+【96年基測】
+(	A	 ) When I was a student, I liked to sit in the front of the classroom so that I could 
+see the words better on the _____.
+(A) background	(B) desk	(C) dictionary	(D) postcard
+
+5.	chalk [tʃɔk]（名詞）粉筆
+(1)	為不可數名詞，常搭配單位量詞piece。
+例：The teacher had his students prepare three pieces of    chalk    every day.
+（老師叫他的學生每天都要準備三枝粉筆。）
+
+6.	screen [skrin]（名詞）螢幕
+(1)	為可數名詞。英文中常會以the small screen稱呼「電視」，而the big screen 則指「電影」。
+例：My phone    screen    is 6.5 inches.（我的手機螢幕是 6.5 吋。）
+例：Harry is no stranger to the big    screen   . He’s a famous actor.
+（哈利時常參演電影。他是位知名演員。）
+7.	error [ˋɛrɚ]（名詞）錯誤
+(1)	表「錯誤；差錯」，常搭配動詞make。
+例：The problem was caused by a computer    error   .
+（這個問題是由電腦錯誤造成的。）
+(2)	error和mistake的比較：
+
+使用時機
+error
+錯誤；差錯
+多指因知識不足、系統故障、 觀念錯誤而犯的錯誤，涉及內容較為專業。
+mistake
+錯誤；過失
+多指因粗心、疲累、分心、口 誤而犯的錯誤，較常發生在日常生活情境。
+
+8.	button [ˋbʌtṇ]（名詞）按鈕；鈕扣
+(1)	可指實體或螢幕中虛擬的「按鈕」。常搭配動詞push或press [prɛs]（按壓）。
+例：He put some water into the coffee machine and pressed the Start   button  .
+（他在咖啡機中加水後按下啟動鍵。）
+(2)	也有「鈕扣」的意思。除了當名詞外，也可當動詞用，表「扣（鈕扣）」。
+例：You forgot to   button   up the last button on your shirt.
+（你忘記扣你襯衫上最後一顆鈕扣了。）
+
+9.	enter [ˋɛntɚ]（動詞）輸入；進入
+(1)	為及物動詞，表「進入」。
+例：The teacher   entered   the classroom, and everyone became quiet.
+（老師進入教室，然後所有人都安靜了下來。）
+(2)	也可指「輸入」。
+例：You need to   enter   the right numbers to open the door.
+（你需要輸入正確的數字來開門。）
+一字多義
+	也表「報名參加；開始從事」。
+例：Amelia   entered   the race in the hope of winning.
+（艾美莉亞抱著贏的希望參加比賽。）
+例：What made you decide to   enter   the restaurant business?
+（是什麼讓你決定從事餐飲業？）
+
+10.	wake word [ˋwek͵wɝd]（名詞）喚醒字詞
+(1)	wake word是用來啟動語音助理或智慧裝置的指令。
+例：“Hi, Siri” is the    wake       word    for my phone. 
+（「Hi, Siri」是我手機的喚醒字詞。）
+(2)	word 指「字；單字」，也可延伸指「談話」。
+例：The reading is about 800    words    long.（這篇閱讀大約有八百字。）
+例：Actions speak louder than    words   .（行動勝於空談。）
+(3)	補充：in a word 簡而言之；一言以蔽之
+例：A: How was the movie? 			B: In a word, boring.
+				（A：那部電影怎麼樣？） 	 （ B：簡單說，很無聊。）
+11.	whether [ˋ(h)wɛðɚ]（連接詞）是否
+(1)	為連接詞，表「是否」。除了可接名詞子句外，也常接不定詞，形成名詞片語。
+(2)	or not 常和whether連用，可以放句尾或是whether之後。
+例：I’m not sure   whether   to stay or leave.（我不確定要留下還是離開。）
+例：I don’t know   whether   or not our plan will work.
+（我不知道我們的計畫是否會成功。）
+【109年會考（補考）】
+(	D	) The weather is always changing, so I don’t know _____ I should bring an umbrella when I go out.
+			(A) how		 		(B) what	    	 	(C) where	    			(D) whether
+
+【102年會考（試辦）】
+(	C	) Jane is going fishing tomorrow. She wants to know _____ the weather will be fine.
+			(A) how		 		(B) what	    	 	(C) whether	    			(D) why
+
+【100年北北基測】
+(	C	) I want to go camping in the mountains this afternoon, but a typhoon is coming. I’m not sure _____ the road to the mountains will be closed.
+			(A) how		 		(B) what	    	 	(C) whether	    			(D) why
+
+【95年基測】
+(	C	) Jacky would like to bring that poor dog back home, but he isn’t sure _____ his mother likes dogs.
+			(A) how		 		(B) what	    	 	(C) whether	    			(D) which
+
+12.	list [lɪst]（名詞；動詞）清單；列出
+(1)	當名詞時，表「清單；名單」。
+例：The restaurant was full, so the waiter put us on the waiting    list   .
+（餐廳客滿了，所以服務生將我們列入等候名單。）
+(2)	當動詞時，表「列出」。
+例：She   listed   several things to buy at the supermarket.
+（她列出了幾樣要去超市購買的東西。）
+【99年基測】
+(	B	) Mike: I always forget what I want to buy when I go to the market. 
+Oscar: Well, you can make a _____ of things you want to buy.
+			(A) habit		 		(B) list	    	 	(C) pack	    			(D) wish
+
+13.	honey [ˋhʌnɪ]（名詞）親愛的（用於稱呼）	
+例：Hi,   honey  . Is there something to eat in the fridge?
+（嗨，親愛的。冰箱裡有吃的嗎？）
+
+
+14.	save [sev]（動詞）儲存	
+(1)	表「儲存；保存」。
+例：Some animals   save   food for winter.（有些動物會儲存食物過冬。）
+例：Don’t forget to   save   before you close the file.（關掉檔案前，別忘了存檔。）
+一字多義
+	也表「拯救」和「節省」。
+例：The dog   saved   the soldiers from a gas attack.
+   （這隻狗從毒氣攻擊中拯救了士兵們。）
+	  例：Going this way can   save   us a lot of time.（走這條路可以節省我們很多時間。）
+
+15.	through [θru]（介系詞）透過；憑藉	
+(1)	表「透過；憑藉；利用」。
+例：She got free concert tickets   through   a friend.
+（她透過朋友拿到免費的演唱會門票。）
+一字多義
+	也學過through當作介系詞或副詞，表「穿越；通過」。
+例：We just took a walk   through   the forest.（我們剛才步行穿過森林。）
+
+16.	if [ɪf]（連接詞）是否	
+(1)	作連接詞，表「是否」。
+例：I’m not sure   if   he got my e-mail.（我不確定他有沒有收到我的電子郵件。）
+
+17.	not...anymore [nɑt ˋɛnɪmɔr] 不再…
+(1)	表「不再…；再也不…」，英式英文也可寫作分開的any more。
+例：Sorry. Levi   doesn’t   work here   anymore  .（抱歉。李維不在這裡工作了。）
+例：A: Do you still smoke now? 		B: No,   not     anymore  .
+			（A：你現在還有抽菸嗎？）	  （B：不，再也沒抽了。）
+
+18.	voice assistant [͵vɔɪs əˋsɪstənt]（名詞）語音助理
+(1)	由voice（語音）和assistant（助理）所組成的複合名詞。
+(2)	voice指「說話聲；嗓音」，為可數名詞。voice、sound、noise的比較如下：
+sound
+泛指耳朵能接收到的任何聲音。
+例：They heard a strange    sound   .（他們聽到一個奇怪的聲響。）
+voice
+指說話或唱歌時喉嚨發出的聲音。
+例：Because of a bad cold, Irene lost her    voice    for two days.
+（因為重感冒，艾琳失聲了兩天。）
+noise
+通常指令人不愉快的聲音，如噪音。
+例：Those kids always make so much    noise   .
+（那些小孩總是製造一堆噪音。）
+(3)	assistant 表「助理；助手」。
+例：	Mr. Brown had his   assistant   copy the report.
+	     （布朗先生要他的助理影印報告。）
+【105年會考】
+(	D	) Carol sounded happy when we talked on the phone; I could feel joy in her _____.
+   (A) eyes		 (B) mail	    	 		(C) smile	    			(D) voice
+
+【91年基測】
+(	B	) Mrs. Kao: Raymond, there was a phone call for you. 
+Raymond: Oh? Who was it? 
+Mrs. Kao: I don’t know, but it was a girl’s _____.
+   (A) wish		 (B) voice	    	 	(C) answer	    		(D) number
+
+19.	machine [məˋʃin]（名詞）機器
+(1)	指「機器；機械裝置」，常見的複合名詞有washing machine（洗衣機）、copy machine（影印機）、coffee machine（咖啡機）等。
+例：Could you get me a bottle of black tea from the drink   machine  ?
+（你可以幫我去飲料販賣機買一瓶紅茶嗎？）
+【93年基測】
+(	B	) Lisa: I hate washing these pants by hand. 
+Jane: Perhaps we should get a _____ to do it for us. Let’s buy one tomorrow.
+(A) factory		 (B) machine	    	 	(C) supermarket	    		(D) towel
+
+20.	dozen [ˋdʌzṇ]（名詞）（一）打
+(1)	表「一打」，數量為十二個。dozen放在名詞前不加s ，如two dozen eggs（兩打蛋）。
+例：There are two   dozen   pencils in the box.（盒子裡有兩打鉛筆。）
+(2)	補充：dozens of 很多
+例：   Dozens   of people came to the concert.（很多人來看演唱會。）
+
+21.	boil [bɔɪl]（動詞）煮沸
+(1)	表「煮沸；烹煮；沸騰」
+例：Please   boil   the water before drinking it.（請將水煮沸後再飲用。）
+【100年基測】
+(	A	) If you want to drink the water from the lake, _____ it first, or you may get sick.
+   	(A) boil		 		(B) burn	    	 		(C) carry	    			(D) cook
+
+22.	refrigerator [rɪˋfrɪdʒə͵retɚ]（名詞）冰箱（= fridge [frɪdʒ]）
+(1)	可以簡寫為fridge。
+例：The food has been kept in the   fridge   for three years.
+（這食物已經在冰箱裡存放了三年。）
+【98年基測】
+(	D	) My brother enjoys having cold drinks, so he always puts his Coke in the _____ before he drinks it.
+(A) basket		 	(B) bottle	    	 (C) package	    		(D) refrigerator
+23.	upload [ʌpˋlod]（動詞）上傳
+(1)	指「上傳（資料）」。
+例：The file is so big that I can’t   upload   it to the web page.
+（這檔案太大了，我無法上傳至網頁。）
+
+24.	e-mail [ˋi͵mel]（名詞）電子郵件
+(1)	也可寫作email。當「（一封）電子郵件」時，為可數名詞；表「電子郵件系統」時，則為不可數名詞。
+例：You can send me the pictures by   e-mail  .
+（你可以透過電子郵件把照片寄給我。）
+一字多義
+	也可當授與動詞，表「給…發電子郵件」。
+例：Could you   e-mail   me the file? 
+= Could you   e-mail   the file to me?（你可以用電子郵件把檔案寄給我嗎？）
+
+25.	key [ki]（名詞）鑰匙
+(1)	指「…的鑰匙」，介系詞會搭配to。
+例：I’m not sure if this is the    key    to the door.
+（我不確定這是不是那扇門的鑰匙。）
+一字多義
+	也可作形容詞，表「關鍵的；極重要的」。
+例：Owen is the    key    person to decide everything in the office.
+（在辦公室裡，歐文是決定每件事的關鍵人物。）
+
+26.	the cloud [ðə ˋklaʊd]（名詞）雲端	
+(1)	cloud本意為「雲」，現今常被用來指「（網路）雲端」，要加定冠詞the，且只作單數形，如同the Internet。
+例：All of our files are saved on    the       cloud   .
+	 （我們所有的檔案都存在雲端。）
+
+27.	type [taɪp]（動詞）打字	
+(1)	指「（用鍵盤）打字」。
+例：He can only    type    with two fingers.（他只會用兩根手指頭打字。）
+(2)	補充：typewriter打字機
+例：My great grandpa typed letters with a typewriter.（我曾祖父使用打字機打信。）
+
+28.	rise [raɪz]（名詞；動詞）興起；上升
+(1)	動詞三態：rise — rose — risen [ˋrɪzəṇ]
+(2)	當不及物動詞，表「興起；上升」。勿與raise混淆，raise為及物動詞，表「提起；提高」。
+例：The lantern slowly    rose    in the air.（那盞燈籠緩緩升空。）
+(3)	也可當名詞。
+例：With the    rise    of AI, many people are learning how to use it.
+（隨著AI的興起，許多人正在學習如何使用它。）
+例：There’s been a sharp    rise    in house prices.（房價急劇上漲。）
+【108年會考】
+(	D	) Tom’s voice _____ when he talks about his neighbors. He speaks faster, his face becomes redder and you can almost see fire in his eyes.
+  (A) appears		 	(B) drops	    	 	(C) grows	    		(D) rises
+
+29.	collect [kəˋlɛkt]（動詞）收集
+(1)	表「收集；收藏」。
+例：When did you start   collecting   stamps?（你什麼時候開始收集郵票的？）
+【100年北北基測】
+(	A	) Every night at 7:00, the garbage truck appears on the streets to _____ the garbage that people take out of their houses.
+(A) collect		 	(B) drop	    	 		(C) hide	    			(D) save
+
+【91年基測】
+(	A	) Mr. and Mrs. Jones are crazy about dolls. In the past three years, they have _____ more than one hundred dolls.
+(A) collected		 	(B) guessed	    	 	(C) practiced	    		(D) repeated
+
+30.	lamp [læmp]（名詞）檯燈
+(1)	多指有燈罩的「燈；照明設備」。
+例：The street   lamp   on the corner didn’t work last night.（轉角的街燈昨晚故障。）
+
+31.	couch [kaʊtʃ]（名詞）沙發
+(1)	表「沙發」，意同sofa。
+例：The children jumped on the   couch   and broke it.
+	 （小孩們在沙發上跳，然後把它弄壞了。）
+
+32.	heat [hit]（動詞；名詞）加熱；熱
+(1)	當名詞，表「高溫；熱度」，通常當不可數名詞。
+例：The    heat    of the fire warmed up the house.（火的熱度讓屋子暖了起來。）
+(2)	當動詞，表「加熱」。
+例：He took the pizza out of the fridge and    heated    it up for lunch.
+			 （他把披薩從冰箱拿出來加熱當午餐。）
+【112年會考（大陸考區）】
+(	D	) I think I need to go to a cooler place; the summer _____ is making me crazy.
+  (A) sale		 	(B) rain	    	 	(C) break	    		(D) heat
+
+33.	cellphone [ˋsɛl͵fon]（名詞）手機
+  例：The 15-year-old boy wants a   cellphone   for his birthday.
+		   （那個十五歲的男孩生日想要一支手機。）
+
+34.	correct [kəˋrɛkt]（動詞；形容詞）更正；正確的	
+(1)	當動詞，表「更正；修正」。
+例：The problem should be easy to   correct  .（這個問題應該很容易修正。）
+(2)	也可當形容詞，表「正確的」。
+例：I got eight   correct   answers and two wrong ones on the exam.
+	 （這次考試我答對八題、答錯兩題。）
+
+35.	appear [əˋpɪr]（動詞）出現
+(1)	表「出現」，通常會搭配地方副詞。
+例：A cat suddenly   appeared   at my window.（一隻貓突然出現在我的窗邊。）
+
+36.	place [ples]（動詞）放置	
+(1)	當動詞，表「放置；擺放」。
+例：The waiter carefully   placed   the plates on the table.
+	 （服務生小心地把盤子擺放在桌上。）
+
+37.	fat [fæt]（名詞）脂肪
+(1)	當不可數名詞，表「脂肪；油脂」。
+例：I don’t like the meat. There’s too much   fat   on it.
+	 （我不喜歡這肉。上面的肥油太多了。）
+
+38.	point [pɔɪnt]（動詞）對準；指	
+(1)	當動詞，表「對準；指向」，常搭配介系詞at。
+例：Don’t   point   your finger at me!（別用你的手指指著我！）
+
+
+壹、認識間接問句
+基本定義：一個完整句子中包含的問句，常為了要簡化數個句子或修飾語氣。
+基本句型：主要子句 + 疑問詞 + 主詞 + 動詞…
+★最後的標點符號以主要子句為主
+例：We are not sure about that. How can they work out the problem?
+→ We are not sure how they can work out the problem.
+（合併簡化兩個句子，用句號）
+Would it be possible for you to tell me about that? Where does he live? 
+→ Would it be possible for you to tell me where he lives? （修飾語氣，用問號）
+貳、間接問句的句型
+一、動詞為be動詞
+句型：主要子句 + 疑問詞 + 主詞 + be動詞
+例：Please tell me what her name is. （請告訴我她的名字是什麼。）
+Can you tell me where the restroom is? （你可以告訴我廁所在哪裡嗎？）
+ 練習 
+ 1.	How old is Mrs. Collins?
+→ Tell me how old Mrs. Collins is.                                       	
+ 2.	Why are they not happy on weekends?
+→ Do you know why they are not happy on weekends?         	
+ 3.	What was my sister doing in the kitchen at that time?
+→ Grandpa asked me what my sister was doing in the kitchen at that time.        
+ 4.	你知道現在幾點嗎？
+Do you know what time it is?	
+ 5.	Ronald不確定他的錢包是在哪裡被偷的。
+Ronald is not sure where his wallet was stolen.	
+二、動詞為一般動詞（do/does/did）
+句型：主要子句 + 疑問詞 + 主詞 + 動詞（依時態變化）
+例：Let me know what you don’t sell in this store. （讓我知道店裡你不賣什麼。）
+She never knows how long it takes her son to go home by bike.
+（她從來不知道她兒子騎腳踏車回家需要多久時間。）
+They still didn’t know what time Carl woke up this morning.
+（他們還是不知道Carl今天早上幾點醒來。）
+ 練習 
+1.	What did they talk about to each other?
+→ I couldn’t hear what they talked about to each other.                         
+2.	How long does he have to stay?
+→Do you have any idea how long he has to stay?                           	
+3.	Who do you not invite?
+→ Is there any chance that you could tell me who you do not invite?             
+4.	我想知道你以前在哪所高中上學。（I’d…）
+I’d like to know which senior high school you went to before.	 
+5.	我需要知道她為什麼常常晚回家。
+I need to know why she often comes home late.	 
+三、動詞為情態助動詞（can/could/may/might/will/would/should/must）
+句型：主要子句 + 疑問詞 + 主詞 + 情態助動詞 + 原形動詞
+例：The teacher taught those kids what they mustn’t do.
+（這位老師教那群小孩他們不准做什麼。）
+Please let me know where my shoes can be placed. 
+（請讓我知道鞋子可以放在哪裡。）
+ 練習 
+1.	Whose towel can this be?
+→ No one tells me whose towel this can be.	
+2.	Who would you borrow the money from?
+→ I’ve already told him who you would borrow the money from.	
+3.	Where may Justin be today?
+→ They don’t remember where Justin may be today.	
+4.	有人知道我們接下來該怎麼做嗎？
+Does anyone know what we should do next?	
+5.	我不知道今晚的派對我必須幾點到。（…idea…）
+I have no idea what time I should get to the party tonight.	
+四、時態為現在完成式
+句型：主要子句 + 疑問詞 + 主詞 + have/has p.p.
+例：I don’t really understand why Rebecca has always loved shopping. 
+（我真的不瞭解為什麼Rebecca一直以來都很喜歡逛街購物。）
+Mr. Cooper can’t remember how long he has known his wife. 
+（Cooper先生記不得跟他老婆認識多久了。）
+ 練習 
+1.	When have the police caught the bad guy?
+→ Everyone here has been told when the police have caught the bad guy.         
+2.	Which country has your aunt gone to?
+→ Make sure which country your aunt has gone to.                             
+3.	Since when have you been sick?
+→ Does your husband know since when you have been sick?                    
+4.	猜猜看我在這邊多久了。
+Guess how long I have been here.	 
+5.	有人知道為什麼Jennifer還沒寫完功課嗎？
+Does anyone know why Jennifer hasn’t finished her homework yet?	 
+五、疑問詞為主詞
+句型：主要子句 + 疑問詞 + 動詞
+例：Guess what is on her mind.（猜猜看她在想什麼。）
+Does Linda know who left me the note?（Linda知道誰留紙條給我的嗎？）
+ 練習 
+1.	Who started the fight?
+→ Be honest and tell me who started the fight.                      	 
+2.	Who turned up the radio and made such loud noises?
+→ Be sure to ask Gloria who turned up the radio and made such loud noises.      
+3.	What was covered by the book on the top shelf?
+→ Judith didn’t tell us what was covered by the book on the top shelf.             
+4.	Ralph有告訴你箱子裡是什麼嗎？
+Did Ralph tell you what was in the box?     	 
+5.	讓我知道誰對我最新的書有興趣。
+Let me know who is interested in my latest book.	 
+六、名詞片語
+句型：主要子句 + 疑問詞 + to + 原形動詞
+例：The students are thinking about how to make a kite. 
+（學生們正在思考要怎麼做風箏。）
+Mrs. Moore isn’t sure when to take the medicine.
+（Moore太太不確定什麼時候要吃藥。）
+★	間接問句的主詞需與主要子句的主詞或受詞一致時，才能省略後形成片語
+★	疑問詞why不適於此用法
+ 練習  用名詞片語合併
+1.	He wants to know that. Which book should he take?
+→ He wants to know which book to take.                                	  	 
+2.	Jeff couldn’t remember that. Who could he ask for help?
+→ Jeff couldn’t remember who to ask for help.                            	  	 
+3.	Can you tell me about that? When can I leave?
+→ Can you tell me when to leave?                                   	     
+4.	他知道該去何處嗎？
+Does he know where to go?												 
+5.	Brian的媽媽不曉得如何跟你道歉。 
+Brian’s mother doesn’t know how to say sorry to you.							 
+七、whether/if（是否）所引導的間接問句
+句型：主要子句 + whether/if + 主詞 + 動詞…（or not）.
+例：She forgot whether/if she fed the cat (or not).（她忘了是否有餵過貓。）
+The fisherman wants to know whether/if the wind is blowing from the east (or not). （這位漁夫想知道風是否從東邊吹過來。）
+★有名詞片語whether to…的用法，但不適用於if to…
+ 練習 
+1.	Has the postman been here?
+→ Ask him whether/if the postman has been here (or not).                      
+2.	Do they have to go up the stairs?
+→ Does Carol have any idea whether/if they have to go up the stairs (or not)?     
+3.	Would you like my gift?
+→ I wasn’t sure whether/if you would like my gift (or not).                        
+4.	我不在乎是否會下雨。
+I don’t care whether/if it will rain (or not).                                      
+5.	Margaret問她男朋友是否計畫要去游泳。
+Margaret asked her boyfriend whether/if he planned to swim (or not).	             
+參、延伸補充
+一、when不同用法的比較
+當疑問詞，表「何時」：
+句中是表示「未來」的時間，時態是「未來式」
+例1：Tell me when he will call you.
+例2：Do you know when he will come to the office?
+當連接詞，表「當…的時候」：
+句中是表示「未來」的時間，時態要寫成「現在式」
+例1：Talk to him when he calls you tonight.
+例2：Will you be happy when he comes to the office?
+二、if不同用法的比較
+表「是否」：
+句中是表示「未來」的時間，時態是「未來式」
+例1：Tell me if he will come tomorrow.
+例2：	They are not sure if the weather will be nice this Tuesday.
+表「如果」：
+句中是表示「未來」的時間，時態要寫成「現在式」
+例1：	Tell him the truth if he comes tomorrow.
+例2：	Go for a picnic if the weather is nice this Tuesday.
+ 練習 
+1.	I’m not quite sure if you \s\do2(　　　　　　) yes. (say)
+2.	Will you leave me alone if I \s\do2(　　　　　　) yes? (say)
+3.	Guess when your dad \s\do2(　　　　　　) a dog house. (build)
+4.	Nothing will wake my dad up when he \s\do2(　　　　　　).(sleep)
+
+
+(	A	)	1.	Shelly dropped me a note to ask 　　　　　 to buy for her mom.
+(A) what	(B) where	(C) who	(D) that
+(	C	)	2.	A: Does Alex know 　　　　　 to play the guitar?
+B: Yes, of course.  He plays the best in the class.
+(A) where	(B) when	(C) how	(D) what
+(	D	)	3.	Allen: Excuse me. Could you tell me 　　　　　 Anny lives with?
+Betty: Yes, she lives with Anna, her best friend.
+(A) that	(B) what	(C) where	(D) who
+(	A	)	4.	I really have no idea 　　　　　 to do.
+(A) what	(B) how	(C) when	(D) where
+(	B	)	5.	Do you have any idea if the weather 　　　　　 fine tomorrow?
+(A) is	(B) will be	(C) was	(D) has been
+(	A	)	6.	Can you go picnicking with me if the weather 　　　　　 fine tomorrow?
+(A) is	(B) will be	(C) was	(D) has been
+(	D	)	7.	Ben: Jack, let’s go fishing this weekend. 
+Jack: I’d like to, but I am not sure 　　　　　 I can finish my homework.
+(A) where	(B) who	(C) what	(D) whether
+(	A	)	8.	Jack: Sue hasn’t come to the party.  I’m not sure 　　　　　 she is sick or not.
+Peter: Let’s call her now.
+(A) if	(B) so	(C) why	(D) but
+(	B	)	9.	Tell me 　　　　　. 
+(A) when he come next time	(B) what is on your mind
+(C) how long have you been married	(D) where’s Taipei 101
+(	B	)	10.	I’m getting lost. Would you please tell me 　　　　　 to the train station? 
+(A) where to get		(B) how to get
+(C) where I should get	(D) how can I get
+(	B	)	11.	I don’t know when John 　　　　　, but when he 　　　　　, you’ll be the first one to know about it. 
+(A) comes ; does		(B) will come ; does	
+(C) will come ; will		(D) comes ; will
+( 	B	)	12.	Please let me know 　　　　　.
+(A) whose ring is this		(B) which dress you like most
+(C) where does she live	(D) who do you live with
+(	D	)	13.	I’m not sure when 　　　　　.
+(A) is the teacher coming	(B) did the teacher come
+	(C) does the teacher come	(D) the teacher will come
+(	A	)	14.	Nobody really knows 　　　　　.
+(A) what’s going on		(B) how could this happen	
+(C) how far is the park from here	(D) who will Sam call
+(	B	)	15.	I want to know 　　　　　.
+(A) what will she say next	
+(B) how to talk nicely	
+(C) where did you lose your key	
+(D) how long is the train
+(	B	)	16.	I’d like to know 　　　　　.
+(A) where does Jane come from	
+(B) how the weather will be tomorrow
+	(C) who are you going jogging with	
+(D) which country will your parents visit this summer
+(	D	)	17.	Nobody knows 　　　　　.
+(A) how old is that lady	
+(B) how long is the bridge	
+(C) how much did the watch cost Ben		
+(D) how often the man goes to the supermarket
+(	A	)	18.	Tell me 　　　　　.
+(A) who will be with you	
+(B) what is he going to do
+(C) why did he cry so sadly yesterday
+(D) how long has your sister been a teacher
+(	D	)	19.	Jack wants to know 　　　　　.
+(A) how to make		
+(B) where can he find a gas station
+(C) what should he do	
+(D) who to play with
+(	B	)	20.	She isn’t sure 　　　　　.
+(A) does Andrew like drawing	
+(B) if the fish were caught by the young man	
+(C) whether will you go to the bookstore or not
+(D) has Albert been to London
+(	A	)	21.	I need to know 　　　　　.
+(A) if she is able to swim	
+(B) what is she interested in	
+(C) whether you stay here next week		
+(D) does the student know the answer
+(	B	)	22.	Can you tell me 　　　　　?
+(A) will you have free time this weekend	
+(B) whether I should stay here or leave now	
+(C) has she left the house
+(D) if he watches the movie with you tomorrow
+(	B	)	23.	Mr. Brown always tells us 　　　　　.
+(A) how did he become rich	
+(B) how important it is to be honest
+(C) how often is the book fair held	
+(D) how much money does he have
+(	C	)	24.	Jacky would like to bring that poor dog back home, but he isn’t sure 　　　　　 his mother likes dogs. 				
+(A) how	(B) what	(C) whether	(D) which
+(	C	)	25.	I want to go camping in the mountains this afternoon, but a typhoon is coming.  I’m not sure 　　　　　 the road to the mountains will be closed.	
+(A) how	(B) what	(C) whether	(D) why
+(	B	)	26.	Lisa is new here, so she doesn’t know 　　　　　 the restroom is.	
+(A) that	(B) where	(C) whether	(D) which
+(	C	)	27.	Teacher: Does anyone know 　　　　　 the famous writer was born?
+Mei-ling: I know! In Taitung, right?				
+Teacher: You got it!
+(A) how	(B) when	(C) where	(D) whether
+(	D	)	28.	Anita: I saw Nora in the teacher’s office this morning. Do you know 　　　　　
+she was there?				
+Brian: She cheated on tests.
+(A) how	(B) if	(C) when	(D) why
+(	C	)	29.	Nancy: Did the teacher tell us 　　　　　 to get to the station?	
+Susan: Yes. She said we should meet there at ten. 
+(A) how	(B) what	(C) when	(D) where
+(	C	)	30.	Jane is going fishing tomorrow.  She wants to know 　　　　　 the weather will be fine.					 
+(A) how	(B) what	(C) whether	(D) why
+(	A	)	31.	I’m not sure if Kevin 　　　　　 this morning, but if he does, I’ll tell him that you called.				
+(A) will come in	(B) comes in	(C) has come in	(D) came in
+(	D	)	32.	Jerry wanted to know 　　　　　 he was kicked off the soccer team, but no one gave him a good reason. 			【112.會考】
+(A) where	(B) when	(C) whether	(D) why
+(	A	)	33.	Alan works hard in his new job, and he wants to know 　　　　　 his boss feels about him! 					【115.會考】
+(A) how	(B) that	(C) whether	(D) why
+

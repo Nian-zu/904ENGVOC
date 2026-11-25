@@ -328,6 +328,12 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .chline{font-size:.88rem;margin-top:8px;line-height:1.5}
 .chline .qbar{height:9px;background:var(--line);border-radius:99px;overflow:hidden;margin:3px 0}
 .chline .qbar i{display:block;height:100%;background:linear-gradient(90deg,#46c08a,#3b6fd1)}
+.kbpass{margin-top:8px;border:1px dashed var(--line);border-radius:10px;padding:6px 12px;background:var(--paper)}
+.kbpass summary{cursor:pointer;font-weight:700}
+.kbpass ol{margin:8px 0 4px;padding-left:22px;display:grid;gap:8px}
+.kbpass .en{font-family:var(--font-en,inherit);white-space:pre-line}
+.kbpass .zh{color:var(--muted);font-size:.9rem}
+.kbz{display:block;margin-top:8px;color:var(--muted);font-size:.92rem}
 .bdweek{font:inherit;font-size:.85rem;border:1px solid var(--line);border-radius:10px;padding:4px 6px;background:#fff;color:inherit;margin-left:4px}
 .bdweek.on{border-color:#c8473a;color:#c8473a;font-weight:700}
 .bdrange{margin:6px 0 0;color:var(--muted);font-size:.85rem}
@@ -446,7 +452,27 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <div class="seg" role="group" aria-label="教材">
       <button id="bkMain" aria-pressed="true">📗 單字書</button>
       <button id="bkJt" aria-pressed="false">📘 寂天 RS3</button>
+      <button id="bkKb" aria-pressed="false">📙 課本 L3–L4</button>
     </div>
+  </div>
+  <div id="kbBox" class="field hidden">
+    <div class="label">課本範圍（翰林 iEnglish 三年級・段考範圍）</div>
+    <div class="seg multi" role="group" aria-label="課本單元">
+      <button data-ku="3" aria-pressed="true">L3 The Soldier Was Saved by a Dog</button>
+      <button data-ku="4" aria-pressed="true">L4 Do You Know Where the File Is?</button>
+    </div>
+    <div class="label" style="margin-top:8px">題型（可複選）</div>
+    <div class="seg multi" role="group" aria-label="課本題型">
+      <button data-kj="e" aria-pressed="true">英翻中</button>
+      <button data-kj="c" aria-pressed="true">中翻英</button>
+      <button data-kj="s" aria-pressed="true">例句填空</button>
+      <button data-kj="g" aria-pressed="true">文法句型</button>
+      <button data-kj="q" aria-pressed="true">會考考古題</button>
+      <button data-kj="d" aria-pressed="true">習作對話</button>
+      <button data-kj="t" aria-pressed="true">📜 背誦句</button>
+    </div>
+    <div class="hint" id="kbHint"></div>
+    <details class="kbpass"><summary>📜 要背的 10 句（點開看中英對照）</summary><ol id="kbPass"></ol></details>
   </div>
   <div id="jtBox" class="field hidden">
     <div class="label">寂天單元</div>
@@ -692,11 +718,16 @@ const EXTRA = new Set(['sense', 'phrase', 'cap']);   // 講義 Unit 2–4 的題
 const KIND_ZH = {verb: '動詞變化', word: '單字選擇', prep: '介系詞搭配', sense: '一字多義', phrase: '片語', cap: '會考文法'};
 let types = new Set(KINDS);
 try { const t = JSON.parse(localStorage.getItem('types') || 'null'); if (Array.isArray(t)) { types = new Set(t.filter(k => KINDS.includes(k))); if (!localStorage.getItem('types2')) EXTRA.forEach(k => types.add(k)); } } catch (e) {}
-const kindCode = () => book === 'jt' ? 'jt' : types.size === KINDS.length ? 'all' : KINDS.filter(k => types.has(k)).join('+');
+const kindCode = () => book === 'jt' ? 'jt' : book === 'kb' ? 'tb' : types.size === KINDS.length ? 'all' : KINDS.filter(k => types.has(k)).join('+');
 // 寂天 Ready for Reading Success 3：另一本教材，用單元（U1–U50）選範圍；題目在 jitian.json，載入後接在 DATA.bank 後面
 let book = 'main', JT = null, jtDirs = new Set(['e', 'c', 's']);
 const JT_EXAM = [11, 20];   // 本次段考範圍
-try { if (localStorage.getItem('book') === 'jt') book = 'jt'; const d = JSON.parse(localStorage.getItem('jtDirs') || 'null'); if (Array.isArray(d) && d.length) jtDirs = new Set(d.filter(x => 'ecs'.includes(x))); if (!localStorage.getItem('jtDirs2')) jtDirs.add('s'); } catch (e) {}
+// 課本（翰林 iEnglish 三年級 L3–L4）：題目在 textbook.json，題型代碼 k = 'tb'
+let KB = null, kbUnits = new Set([3, 4]), kbJs = new Set(['e', 'c', 's', 'g', 'q', 'd', 't']);
+try { const x = JSON.parse(localStorage.getItem('kbJs') || 'null'); if (Array.isArray(x) && x.length) kbJs = new Set(x); const y = JSON.parse(localStorage.getItem('kbUnits') || 'null'); if (Array.isArray(y) && y.length) kbUnits = new Set(y); } catch (e) {}
+const KB_J = {e: '英翻中', c: '中翻英', s: '例句填空', g: '文法句型', q: '會考考古題', d: '習作對話', t: '背誦句'};
+const isBk = q => q.k === 'jt' || q.k === 'tb';
+try { if (localStorage.getItem('book') === 'kb') book = 'kb'; if (localStorage.getItem('book') === 'jt') book = 'jt'; const d = JSON.parse(localStorage.getItem('jtDirs') || 'null'); if (Array.isArray(d) && d.length) jtDirs = new Set(d.filter(x => 'ecs'.includes(x))); if (!localStorage.getItem('jtDirs2')) jtDirs.add('s'); } catch (e) {}
 const jtRange = () => { let a = +$('jtFrom').value, b = +$('jtTo').value; if (a > b) [a, b] = [b, a]; return [a, b]; };
 const jtLab = q => 'U' + q.u;
 // 克漏字：docs/cloze/index.json 列出各回篇數，作答時才載入該回的文章
@@ -750,6 +781,13 @@ function selectedDays(){
   const out = []; for (let i = a; i <= b; i++) out.push(i); return out;
 }
 function pool(){
+  if (book === 'kb') {
+    session_days = new Set();
+    if (!KB) return {days: [], all: [], sentences: 0, passages: []};
+    const all = [], keys = new Set();
+    KB.idx.forEach(qi => { const q = DATA.bank[qi]; if (kbUnits.has(q.u) && kbJs.has(q.j)) { all.push(qi); keys.add(q.g); } });
+    return {days: [3], all, sentences: keys.size, passages: [], words: keys.size};
+  }
   if (book === 'jt') {
     session_days = new Set();
     if (!JT) return {days: [], all: [], sentences: 0, passages: []};
@@ -802,7 +840,12 @@ function update(){
   const {days, sentences, passages} = pool();
   const n = sentences + passages.length * 5;
   let msg = '';
-  if (book === 'jt') {
+  if (book === 'kb') {
+    $('kbHint').innerHTML = KB ? `範圍：<b>${rangeText()}</b>，共 ${sentences} 題可以抽` : '課本題庫載入中…';
+    if (!kbUnits.size) msg = '請至少選一課';
+    else if (!kbJs.size) msg = '請至少勾選一種題型';
+  }
+  else if (book === 'jt') {
     const [a, b] = JT ? jtRange() : [0, 0];
     $('jtHint').innerHTML = JT ? `範圍：<b>U${a}${a !== b ? '–U' + b : ''}</b>，共 ${sentences} 個單字／片語` + (a === JT_EXAM[0] && b === JT_EXAM[1] ? '（本次段考範圍）' : '') : '寂天題庫載入中…';
     $('jtExam').setAttribute('aria-pressed', JT && a === JT_EXAM[0] && b === JT_EXAM[1]);
@@ -823,7 +866,7 @@ function update(){
 function setMode(m){
   mode = m;
   $('mRange').setAttribute('aria-pressed', m==='range'); $('mPick').setAttribute('aria-pressed', m==='pick');
-  $('rangeBox').classList.toggle('hidden', m!=='range' || book === 'jt'); $('pickBox').classList.toggle('hidden', m!=='pick' || book === 'jt');
+  $('rangeBox').classList.toggle('hidden', m!=='range' || book !== 'main'); $('pickBox').classList.toggle('hidden', m!=='pick' || book !== 'main');
   update();
 }
 function gloss(q, i){ if (EXTRA.has(q.k)) return ''; const o = q.o[i]; return (q.k === 'verb' ? GL['v|' + q.w + '|' + o] : GL[o]) || ''; }
@@ -846,12 +889,12 @@ const TTS = {
 };
 if (TTS.ok) { try { TTS.auto = localStorage.getItem('tts') === '1'; } catch (e) {} speechSynthesis.onvoiceschanged = () => TTS.pick(); }
 const sayWord = q => String(q.w || '').split(' (')[0].replace(/\(=.*?\)/g, '').trim();
-const saySent = q => q.k === 'jt' && q.j !== 's' ? '' : String((q.a || '') + (q.m != null ? q.m : q.o[q.c]) + (q.b || '')).replace(/\n/g, ' ');
+const saySent = q => isBk(q) && (q.j === 'e' || q.j === 'c') ? '' : q.k === 'tb' && q.nb ? String(q.o[q.c]).replace(/\n/g, ' ') : String((q.a || '') + (q.m != null ? q.m : q.o[q.c]) + (q.b || '')).replace(/\n/g, ' ');
 const sayBtn = (t, label) => t ? `<button type="button" data-say="${esc(t)}">🔊 ${label}</button>` : '';
 function ttsBar(q){
   if (!TTS.ok) return '';
   const w = sayWord(q), st = saySent(q);
-  return `<span class="tts">${sayBtn(w, '單字')}${sayBtn(st, '整句')}${sayBtn(st, '慢速', 1)}</span>`;
+  return `<span class="tts">${q.k === 'tb' && / /.test(w) && !(q.j === 'e' || q.j === 'c') ? '' : sayBtn(w, '單字')}${sayBtn(st, '整句')}${sayBtn(st, '慢速', 1)}</span>`;
 }
 function ttsAuto(q){ if (TTS.auto) TTS.say([sayWord(q), saySent(q)]); }
 document.addEventListener('click', e => {
@@ -988,7 +1031,7 @@ function show(){
   $('qGloss').classList.add('hidden');
   if (typeof st === 'object') return showCloze(st);
   const q = DATA.bank[st];
-  if (q.k === 'jt') return showJt(q);
+  if (isBk(q)) return showJt(q);
   $('qAsk').textContent = q.k === 'sense' ? `句中畫線的「${q.m}」是什麼意思？` : q.k === 'phrase' ? '句中畫線的片語是什麼意思？' : '＿＿＿ 處適合填入何者？';
   $('qText').className = 'sentence';
   $('qDay').textContent = lab(q.d);
@@ -1008,14 +1051,14 @@ function show(){
   $('qFb').className = 'feedback hidden'; $('nextBtn').classList.add('hidden');
 }
 function showJt(q){
-  const s = session;
-  $('qAsk').textContent = q.j === 'e' ? '這個英文是什麼意思？' : q.j === 'c' ? '哪一個英文是這個意思？' : '＿＿＿ 處適合填入何者？';
-  $('qText').className = q.j === 's' ? 'sentence' : 'sentence jtq' + (q.j === 'e' ? '' : ' zhq');
-  $('qDay').textContent = jtLab(q);
-  $('qKind').textContent = '寂天・' + ({e: '英翻中', c: '中翻英', s: '選擇題'})[q.j];
+  const s = session, kb = q.k === 'tb', ec = q.j === 'e' || q.j === 'c';
+  $('qAsk').textContent = q.j === 'e' ? '這個英文是什麼意思？' : q.j === 'c' ? '哪一個英文是這個意思？' : kb && q.nb ? '選出正確的答案' : '＿＿＿ 處適合填入何者？';
+  $('qText').className = !ec ? 'sentence' : 'sentence jtq' + (q.j === 'e' ? '' : ' zhq');
+  $('qDay').textContent = kb ? 'L' + q.u : jtLab(q);
+  $('qKind').textContent = kb ? '課本・' + (q.j === 's' || q.j === 'e' || q.j === 'c' ? KB_J[q.j] : q.p) : '寂天・' + ({e: '英翻中', c: '中翻英', s: '選擇題'})[q.j];
   $('qProg').textContent = progText(s);
   if (!s.surv) $('qBar').style.width = (s.i / s.items.length * 100) + '%';
-  $('qText').innerHTML = q.j === 's' ? qHTML(q) : (q.j === 'e' ? `<span class="jw">${esc(q.w)}${TTS.ok ? ` <button type="button" class="jw-say" data-say="${esc(sayWord(q))}" title="朗讀" aria-label="朗讀">🔊</button>` : ''}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
+  $('qText').innerHTML = kb && !ec ? (q.nb ? br(q.a) : qHTML(q)) + ((q.j === 's' || q.j === 't') && q.z && !q.nb ? `<span class="kbz">中文：${esc(q.z)}</span>` : '') : q.j === 's' ? qHTML(q) : (q.j === 'e' ? `<span class="jw">${esc(q.w)}${TTS.ok ? ` <button type="button" class="jw-say" data-say="${esc(sayWord(q))}" title="朗讀" aria-label="朗讀">🔊</button>` : ''}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
   $('qText').classList.toggle('zhopts', q.j === 'e');
   if (q.j === 'e' && TTS.auto) TTS.say(sayWord(q));
   const box = $('qOpts'); box.innerHTML = '';
@@ -1096,14 +1139,16 @@ function answer(oi){
   $('qOpts').querySelectorAll('.opt').forEach(b => {
     const v = +b.dataset.oi; b.disabled = true;
     if (v === q.c) b.classList.add('ok'); else if (v === oi) b.classList.add('bad');
-    const g = q.k === 'jt' ? q.oz[v] : gloss(q, v);
+    const g = q.k === 'jt' ? q.oz[v] : q.k === 'tb' ? (q.oz ? q.oz[v] : '') : gloss(q, v);
     if (g) b.querySelector('.ow').insertAdjacentHTML('beforeend', `<span class="oz">${esc(g)}</span>`);
   });
   const bl = $('qText').querySelector('.blank'); if (bl) bl.textContent = q.o[q.c];
-  if (q.k === 'jt') {
-    const fb = $('qFb');
+  if (isBk(q)) {
+    const fb = $('qFb'), kb = q.k === 'tb';
     fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
-    fb.innerHTML = `<b>${ok ? '答對了！' : (oi < 0 ? '⏱ 時間到！正確答案是 ' : '答錯了，正確答案是 ') + esc(q.o[q.c])}</b>` + ttsBar(q) + (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`;
+    fb.innerHTML = `<b>${ok ? '答對了！' : (oi < 0 ? '⏱ 時間到！正確答案是 ' : '答錯了，正確答案是 ') + br(q.o[q.c])}</b>` + ttsBar(q) +
+      (kb ? (q.z && q.j !== 's' && q.j !== 't' ? `<span class="why">💡 ${esc(q.z)}</span>` : q.j === 'e' || q.j === 'c' ? `<span class="zh">${esc(q.w)} ${esc(q.p || '')} ${esc(q.zh || '')}</span>` : '') + `<span class="hint">📙 課本 L${q.u} ${esc(KB && KB.units[q.u] || '')}・${esc(q.p || '')}</span>`
+          : (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`);
     ttsAuto(q);
     $('qProg').textContent = progText(s);
     const nb = $('nextBtn'); nb.textContent = s.i === s.items.length - 1 ? '看成績' : '下一題'; nb.classList.remove('hidden'); nb.focus();
@@ -1166,6 +1211,13 @@ function finish(){
       ul.appendChild(li); return;
     }
     const q = DATA.bank[w.qi];
+    if (q.k === 'tb') {
+      li.innerHTML = (q.j === 'e' || q.j === 'c' ? `<div class="s"><b>${esc(q.w)}</b> ${esc(q.p || '')} ${esc(q.zh || '')}</div>`
+        : q.nb ? `<div class="s">${br(q.a)}</div>` : `<div class="s">${br(q.a)}<b>${br(q.o[q.c])}</b>${br(q.b)}</div>`) +
+        (q.z && !(q.nb && q.j === 't') ? `<div class="z">${q.j === 's' || q.j === 't' ? '' : '💡 '}${esc(q.z)}</div>` : '') +
+        `<div class="a">課本 L${q.u}・你選 <s>${br(q.o[w.pick] ?? '（超時）')}</s>，正確是 <b>${br(q.o[q.c])}</b></div>` + ttsBar(q);
+      ul.appendChild(li); return;
+    }
     if (q.k === 'jt') {
       li.innerHTML = (q.j === 's' ? `<div class="s">${br(q.a)}<b>${esc(q.o[q.c])}</b>${br(q.b)}</div><div class="z">${esc(q.z)}</div><div class="z"><b>${esc(q.w)}</b> ${esc(q.p)} ${esc(q.zh)}</div>`
         : `<div class="s"><b>${esc(q.w)}</b> ${esc(q.p)} ${esc(q.zh)}</div>`) + (q.nt ? `<div class="z">${esc(q.nt)}</div>` : '') +
@@ -1187,6 +1239,7 @@ function finish(){
 }
 function rangeText(){
   if (book === 'jt') { const [a, b] = jtRange(); return '寂天 U' + a + (a !== b ? '–U' + b : ''); }
+  if (book === 'kb') { const u = [...kbUnits].sort(); return u.length ? '課本 L' + u[0] + (u.length > 1 ? '–L' + u[u.length - 1] : '') : ''; }
   const ds = selectedDays().map(dnum);
   if (!ds.length) return '';
   if (mode === 'range') return ds.length === 1 ? 'D' + ds[0] : `D${ds[0]}–D${ds[ds.length-1]}`;
@@ -1513,12 +1566,13 @@ function drawOwe(list){
 // wiring
 function setBook(b){
   book = b;
-  $('bkMain').setAttribute('aria-pressed', b === 'main'); $('bkJt').setAttribute('aria-pressed', b === 'jt');
-  $('jtBox').classList.toggle('hidden', b !== 'jt');
-  ['rangeField', 'kindField'].forEach(id => $(id).classList.toggle('hidden', b === 'jt'));
-  $('rangeBox').classList.toggle('hidden', b === 'jt' || mode !== 'range'); $('pickBox').classList.toggle('hidden', b === 'jt' || mode !== 'pick');
+  $('bkMain').setAttribute('aria-pressed', b === 'main'); $('bkJt').setAttribute('aria-pressed', b === 'jt'); $('bkKb').setAttribute('aria-pressed', b === 'kb');
+  $('jtBox').classList.toggle('hidden', b !== 'jt'); $('kbBox').classList.toggle('hidden', b !== 'kb');
+  ['rangeField', 'kindField'].forEach(id => $(id).classList.toggle('hidden', b !== 'main'));
+  $('rangeBox').classList.toggle('hidden', b !== 'main' || mode !== 'range'); $('pickBox').classList.toggle('hidden', b !== 'main' || mode !== 'pick');
   try { localStorage.setItem('book', b); } catch (e) {}
   if (b === 'jt') loadJt();
+  if (b === 'kb') loadKb();
   update();
 }
 let jtP = null;
@@ -1539,6 +1593,28 @@ function loadJt(){
 function jtSet(a, b){ $('jtFrom').value = a; $('jtTo').value = b; try { localStorage.setItem('jtRange', JSON.stringify([a, b])); } catch (e) {} update(); }
 $('bkMain').onclick = () => setBook('main');
 $('bkJt').onclick = () => setBook('jt');
+$('bkKb').onclick = () => setBook('kb');
+let kbP = null;
+function loadKb(){
+  if (kbP) return kbP;
+  kbP = fetch('textbook.json').then(r => r.json()).then(j => {
+    const start = DATA.bank.length, idx = [];
+    j.items.forEach((q, i) => { DATA.bank.push(q); idx.push(start + i); });
+    KB = {units: j.units, idx, passages: j.passages};
+    $('kbPass').innerHTML = j.passages.map(p => `<li><div class="en">${esc(p.en)}</div><div class="zh">L${p.u}・${esc(p.zh)}</div></li>`).join('');
+    update();
+  }).catch(() => { kbP = null; $('kbHint').textContent = '課本題庫載入失敗，請重新整理頁面。'; });
+  return kbP;
+}
+const kbSync = () => {
+  document.querySelectorAll('[data-ku]').forEach(b => b.setAttribute('aria-pressed', kbUnits.has(+b.dataset.ku)));
+  document.querySelectorAll('[data-kj]').forEach(b => b.setAttribute('aria-pressed', kbJs.has(b.dataset.kj)));
+  try { localStorage.setItem('kbJs', JSON.stringify([...kbJs])); localStorage.setItem('kbUnits', JSON.stringify([...kbUnits])); } catch (e) {}
+  update();
+};
+document.querySelectorAll('[data-ku]').forEach(b => b.onclick = () => { const u = +b.dataset.ku; kbUnits.has(u) ? kbUnits.delete(u) : kbUnits.add(u); kbSync(); });
+document.querySelectorAll('[data-kj]').forEach(b => b.onclick = () => { const k = b.dataset.kj; kbJs.has(k) ? kbJs.delete(k) : kbJs.add(k); kbSync(); });
+kbSync();
 $('jtExam').onclick = () => jtSet(JT_EXAM[0], JT_EXAM[1]);
 $('jtAll').onclick = () => jtSet(1, 50);
 $('jtFrom').onchange = $('jtTo').onchange = () => { const [a, b] = jtRange(); jtSet(a, b); };
