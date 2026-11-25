@@ -764,3 +764,20 @@ D72-21 教室後面的觀察箱（台灣同婚合法化）：https://www.amnesty
 D72-23 鯊魚寶寶的一百億次：https://www.guinnessworldrecords.com/world-records/most-viewed-video-online；https://www.bbc.com/news/entertainment-arts-59997865
 D72-24 防彈少年團 Jin 的釣魚歌：https://www.koreaherald.com/view.php?ud=20211205000115；https://www.soompi.com/article/1500000wpp/
 D72-25 一支讓計數器壞掉的影片：https://guinnessworldrecords.com/world-records/381953-first-youtube-video-to-require-a-64-bit-counter；https://www.pbs.org/newshour/arts/gangnam-style-music-video-exceeds-youtubes-view-limit
+D71-01 英國的四天工作週實驗：https://autonomy.work/portfolio/uk4dwpilotresults/；https://www.npr.org/2023/02/21/1158507132/uk-study-companies-four-day-workweek
+D71-02 東京都也試四天工作週：https://www.nbcnews.com/business/business-news/tokyo-government-introduce-four-day-workweek-employees-rcna183442；https://www.tokyoweekender.com/japan-life/news-and-opinion/four-day-workweek-for-tokyo-government-workers/
+D71-03 加州讓學生晚點上課：https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB328；https://edsource.org/2026/california-later-school-start-benefits/765297
+D71-04 台灣的高中生八點十分到校：https://news.pts.org.tw/article/570704；https://udn.com/news/story/6885/7938502
+D71-05 101 的午夜煙火：https://www.taipeitimes.com/News/taiwan/archives/2025/01/02/2003829520；https://focustaiwan.tw/society/202501010001
+D71-06 歐洲為什麼還在調時鐘：https://oeil.europarl.europa.eu/oeil/en/procedure-document-summary/pdf?id=1579670；https://www.timeanddate.com/time/europe/eu-dst.html
+D71-13 週末運動員也算：https://www.massgeneral.org/news/press-release/weekend-warrior-physical-activity-heart-benefits；https://news.harvard.edu/gazette/story/2023/07/too-busy-for-daily-exercise-be-a-weekend-warrior/
+D71-14 午夜太陽下的馬拉松：https://www.visittromso.no/midnight-sun-marathon；https://www.eurosport.co.uk/athletics/race-profile-midnight-sun-marathon-tromso-norway_sto6726505/story.shtml
+D71-15 全明星週末：https://www.nba.com/allstar；https://www.nba.com/news/nba-all-star-2025-format
+D71-16 英國週六下午的電視禁令：https://theconversation.com/cristiano-ronaldos-return-to-manchester-united-wont-appear-on-live-uk-tv-the-3pm-blackout-no-longer-makes-sense-167578；https://www.live-footballontv.com/football-tv-blackout-rule-uk.html
+D71-17 史上最長的一場世界大賽：https://www.guinnessworldrecords.com/world-records/548283-longest-major-league-baseball-mlb-world-series-game-duration；https://sabr.org/gamesproj/game/october-26-2018-dodgers-prevail-over-red-sox-in-18-innings-longest-world-series-game-ever/
+D71-20 十月最後一個星期六：https://www.voanews.com/a/thousands-gather-for-east-asia-s-largest-pride-march-/7840664.html；https://www.taiwannews.com.tw/en/news/5959248
+D71-21 夜班的代價：https://www.iarc.who.int/wp-content/uploads/2019/07/QA_Monographs_Volume124.pdf；https://www.esmo.org/oncology-news/Night-Shift-Work-Classified-as-Probably-Carcinogenic-to-Humans
+D71-22 未滿十八歲的打工規則：https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0030001；https://www.legis-pedia.com/article/labor-work/190
+D71-23 韓國新歌的時鐘：https://www.koreaherald.com/article/10479580；https://www.allkpop.com/article/2020/10/k-pop-groups-are-timing-their-releases-on-international-time-instead-of-korean-time
+D71-25 兩個週末的音樂節：https://www.rollingstone.com/music/music-news/2023-coachella-headliners-bad-bunny-blackpink-frank-ocean-1234657207/；https://www.hollywoodreporter.com/news/music-news/blackpink-make-history-headliner-coachella-2023-1235376218/
+D71-26 一首歌為什麼選星期五：https://www.koreaherald.com/article/10479580；https://www.billboard.com/pro/billboard-charts-tracking-week-change-friday/
