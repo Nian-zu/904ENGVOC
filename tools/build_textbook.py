@@ -134,7 +134,7 @@ def main():
     nxt = max([BASE - 1] + list(ids.values())) + 1
     items, key, seen = [], {}, set()
 
-    def add(u, j, w, label, a, b, opts, z='', zh='', oz=None, g=None, nb=False):
+    def add(u, j, w, label, a, b, opts, z='', zh='', oz=None, g=None, nb=False, why=''):
         nonlocal nxt
         opts = [clean(o) if '\n' not in o else o for o in opts]
         if len(set(opts)) != 4: print('⚠ 選項重複', u, a[:40], opts); return
@@ -150,6 +150,7 @@ def main():
         if zh: q['zh'] = zh
         if oz: q['oz'] = [oz[opts.index(x)] for x in o]
         if nb: q['nb'] = 1
+        if why: q['y'] = why
         items.append(q); key[str(r)] = [c, w, 'L%d' % u]
 
     for u in (3, 4):
@@ -246,6 +247,9 @@ def main():
         i = en.find(part)
         assert i >= 0, (n, part)
         add(u, 't', part, '背誦句 %d' % (n + 1), en[:i], en[i + len(part):], [part] + bad, z=zh, zh=zh, g='tbt%d-%s' % (n, hashlib.md5(part.encode()).hexdigest()[:6]))
+    for (n, stem, opts, why) in manual.TENSE:
+        u = P[n][0]; a, b = split_blank(stem)
+        add(u, 't', opts[0], '背誦句 %d・時態' % (n + 1), a, b, opts, why=why, g='tbx%d-%s' % (n, hashlib.md5(stem.encode()).hexdigest()[:6]))
     for (n, opts, zh) in manual.WHOLE:
         u = P[n][0]
         add(u, 't', opts[0], '背誦句 %d' % (n + 1), '看中文，選出正確的英文：\n' + zh + '\n', '', opts, z=zh, zh=zh, nb=True)

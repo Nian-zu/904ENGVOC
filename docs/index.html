@@ -1147,7 +1147,7 @@ function answer(oi){
     const fb = $('qFb'), kb = q.k === 'tb';
     fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
     fb.innerHTML = `<b>${ok ? '答對了！' : (oi < 0 ? '⏱ 時間到！正確答案是 ' : '答錯了，正確答案是 ') + br(q.o[q.c])}</b>` + ttsBar(q) +
-      (kb ? (q.z && q.j !== 's' && q.j !== 't' ? `<span class="why">💡 ${esc(q.z)}</span>` : q.j === 'e' || q.j === 'c' ? `<span class="zh">${esc(q.w)} ${esc(q.p || '')} ${esc(q.zh || '')}</span>` : '') + `<span class="hint">📙 課本 L${q.u} ${esc(KB && KB.units[q.u] || '')}・${esc(q.p || '')}</span>`
+      (kb ? (q.y ? `<span class="why">💡 ${esc(q.y)}</span>` : '') + (q.z && q.j !== 's' && q.j !== 't' ? `<span class="why">💡 ${esc(q.z)}</span>` : q.j === 'e' || q.j === 'c' ? `<span class="zh">${esc(q.w)} ${esc(q.p || '')} ${esc(q.zh || '')}</span>` : '') + `<span class="hint">📙 課本 L${q.u} ${esc(KB && KB.units[q.u] || '')}・${esc(q.p || '')}</span>`
           : (q.z ? `<span class="zh">中文：${esc(q.z)}</span>` : '') + `<span class="hint">📘 ${jtInfo(q)}</span>`);
     ttsAuto(q);
     $('qProg').textContent = progText(s);
@@ -1214,7 +1214,7 @@ function finish(){
     if (q.k === 'tb') {
       li.innerHTML = (q.j === 'e' || q.j === 'c' ? `<div class="s"><b>${esc(q.w)}</b> ${esc(q.p || '')} ${esc(q.zh || '')}</div>`
         : q.nb ? `<div class="s">${br(q.a)}</div>` : `<div class="s">${br(q.a)}<b>${br(q.o[q.c])}</b>${br(q.b)}</div>`) +
-        (q.z && !(q.nb && q.j === 't') ? `<div class="z">${q.j === 's' || q.j === 't' ? '' : '💡 '}${esc(q.z)}</div>` : '') +
+        (q.y ? `<div class="z">💡 ${esc(q.y)}</div>` : '') + (q.z && !(q.nb && q.j === 't') ? `<div class="z">${q.j === 's' || q.j === 't' ? '' : '💡 '}${esc(q.z)}</div>` : '') +
         `<div class="a">課本 L${q.u}・你選 <s>${br(q.o[w.pick] ?? '（超時）')}</s>，正確是 <b>${br(q.o[q.c])}</b></div>` + ttsBar(q);
       ul.appendChild(li); return;
     }
