@@ -452,7 +452,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <div class="seg" role="group" aria-label="教材">
       <button id="bkMain" aria-pressed="true">📗 單字書</button>
       <button id="bkJt" aria-pressed="false">📘 寂天 RS3</button>
-      <button id="bkKb" aria-pressed="false">📙 課本 L3–L4</button>
+      <button id="bkKb" aria-pressed="false">📙 二段複習（課本 L3–L4）</button>
     </div>
   </div>
   <div id="kbBox" class="field hidden">
@@ -674,12 +674,10 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
     <button data-bc="916" aria-pressed="false">只看 916</button>
   </div>
   <div class="seg sortseg" role="group" aria-label="題型">
-    <button data-bt="all" aria-pressed="true">單字書全部（不含克漏字）</button>
-    <button data-bt="word" aria-pressed="false">單字</button>
-    <button data-bt="verb" aria-pressed="false">動詞變化</button>
-    <button data-bt="prep" aria-pressed="false">介系詞</button>
+    <button data-bt="all" aria-pressed="true">📗 單字書</button>
     <button data-bt="cloze" aria-pressed="false">克漏字</button>
     <button data-bt="jt" aria-pressed="false">📘 寂天</button>
+    <button data-bt="tb" aria-pressed="false">📙 二段複習</button>
   </div>
   <div class="seg sortseg" role="group" aria-label="排名方式">
     <button data-s="right" aria-pressed="true">答對數</button>
@@ -2517,7 +2515,7 @@ function givenName(n) {
   return n.slice(cut) || n;
 }
 let boardPeriod = 'week', boardSort = 'right', boardType = 'all', boardData = null;
-const TYPE_ZH = {all: '', word: '單字題', verb: '動詞變化題', prep: '介系詞題', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天 Reading Success 3 '};
+const TYPE_ZH = {all: '', word: '單字題', verb: '動詞變化題', prep: '介系詞題', cloze: '克漏字', sense: '一字多義', phrase: '片語', cap: '會考文法', jt: '寂天 Reading Success 3 ', tb: '二段複習（課本 L3–L4）'};
 const PERIOD_ZH0 = {day: '今天', week: '本週', lweek: '上週', month: '本月', lmonth: '上個月', all: '開學以來'};
 const PREV_ZH0 = {day: '昨天', week: '上週', lweek: '前一週', month: '上個月', lmonth: '前一個月'};
 // 週次：第 1 週＝11/14–11/22，之後每週一到週日
@@ -2603,7 +2601,7 @@ function drawBoard(){
     right: `依${PERIOD_ZH[boardPeriod]}${tz}答對題數加總排名，做越多、答對越多就越前面。`,
     rate: `依${PERIOD_ZH[boardPeriod]}${tz}答對率排名，至少作答 ${j.min ? j.min.rate : ''} 題才上榜；不含錯題重做。`,
     up: `${PERIOD_ZH[boardPeriod]}${tz}的答對率比${PREV_ZH[boardPeriod] || '上期'}進步多少分；兩段都要作答滿 ${j.min && j.min.up || ''} 題，不含錯題重做。`
-  }[boardSort] + '交卷後約 1 分鐘內更新。' + (boardType === 'jt' ? '寂天排行從 11/19 開始累積，單字書的排行不算寂天。' : tz ? '各題型排行從 11/15 開始累積。' : '');
+  }[boardSort] + '交卷後約 1 分鐘內更新。' + (boardType === 'jt' ? '寂天排行從 11/19 開始累積，單字書的排行不算寂天。' : boardType === 'tb' ? '二段複習（課本 L3–L4）排行從 11/25 開始累積，單字書的排行不算課本題。' : boardType === 'all' ? '單字書排行不含克漏字、寂天和二段複習，它們各有自己的排行。' : tz ? '各題型排行從 11/15 開始累積。' : '');
   const f = j.fame;
   const famed = (rows, title) => rows && rows.length ? `<div><h3>${title}</h3><ol>${rows.map(r => `<li class="${r.who.some(w => w.seat === me) ? 'me' : ''}"><span class="when">${esc(r.label)}${r.current ? '（進行中）' : ''}</span><span class="who">${r.who.map(w => esc(TEACHERS[w.seat] || w.given)).join('、')}</span><span class="v">${esc(r.value)}</span></li>`).join('')}</ol></div>` : '';
   $('fameBody').innerHTML = f ? `<div class="fame">${famed(f.weeks, '🏆 歷屆週冠王（不含克漏字）')}${famed(f.months, '🏆 歷屆月冠王（不含克漏字）')}</div>` : '';

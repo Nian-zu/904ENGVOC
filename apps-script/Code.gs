@@ -402,7 +402,7 @@ function boardCore_(p) {
   const clozeRows = keep(readDetail_('克漏字'));
   const cur = agg_(rows, from, to), prv = prevFrom ? agg_(rows, prevFrom, prevTo) : {};
   // 「全部」排行不算克漏字：從每人的題數扣掉同期間克漏字的題數
-  // 「全部」也不算寂天（寂天有自己的排行）
+  // 「全部」也不算寂天、二段複習（各有自己的排行）
   if (type === 'all') {
     const jtRows = keep(readDetail_('寂天'));
     // 逐題明細分不出哪些寂天題是生存挑戰／BOSS 戰；那些題本來就沒算進答對率，扣的時候要先排除
@@ -414,6 +414,9 @@ function boardCore_(p) {
     };
     minus_(cur, agg_(clozeRows, from, to)); if (prevFrom) minus_(prv, agg_(clozeRows, prevFrom, prevTo));
     minus_(cur, jtMinus(from, to)); if (prevFrom) minus_(prv, jtMinus(prevFrom, prevTo));
+    // 二段複習（課本 L3–L4）也有自己的排行，不算進單字書
+    const tbRows = keep(readDetail_('課本'));
+    minus_(cur, agg_(tbRows, from, to)); if (prevFrom) minus_(prv, agg_(tbRows, prevFrom, prevTo));
     Object.keys(cur).forEach(function (k) { const c = cur[k]; c.fAns = Math.max(0, c.fAns); c.fRight = Math.max(0, Math.min(c.fRight, c.fAns)); });
     Object.keys(cur).forEach(function (k) { if (cur[k].answered <= 0) delete cur[k]; });
   }
@@ -451,7 +454,7 @@ function boardCore_(p) {
   });
   return { ok: true, period: period, from: from, to: to, today: today, top: boards.right, boards: boards, mineAll: mineAll, total: total,
     min: { rate: MIN_RATE[pk], up: MIN_UP[pk] || null },
-    type: type, titles: titles_(list, prv, streaks, pk), fame: fame_(allRows, today, clozeRows.concat(keep(readDetail_('寂天')))), av: avMap_() };
+    type: type, titles: titles_(list, prv, streaks, pk), fame: fame_(allRows, today, clozeRows.concat(keep(readDetail_('寂天')), keep(readDetail_('課本')))), av: avMap_() };
 }
 
 // 老師儀表板：GET ?action=dash&key=密碼
@@ -968,7 +971,7 @@ function badges_() {
       if (hh >= 4 && hh < 7) { p.early = true; p.earlyD[d] = 1; }
     });
   }
-  const rows = readRows_(), cloze = readDetail_('克漏字').concat(readDetail_('寂天'));   // 週／月冠王不算克漏字和寂天
+  const rows = readRows_(), cloze = readDetail_('克漏字').concat(readDetail_('寂天'), readDetail_('課本'));   // 週／月冠王不算克漏字、寂天、二段複習
   const wk = champsAll_(rows, cloze, today, weekStart_);
   const mo = champsAll_(rows, cloze, today, function (d) { return d.slice(0, 7); });
   const imp = improveEver_(rows, today);
