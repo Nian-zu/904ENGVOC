@@ -1,0 +1,419 @@
+## 嘉義的燈會與一千三百萬人次
+Taiwan's national Lantern Festival moves to a different city every year, and in 2026 it was held in Chiayi. The county government counted about 13.6 million visits over the whole run and estimated that they brought in more than thirty billion Taiwan dollars for hotels, restaurants, transport and shops. On weekends, hotels in the nearby towns were 95 to 100 percent [[full|salty|crowded|windy]]. The festival has been held since 1990, which makes 2026 the thirty-seventh edition, and it has grown from a single evening of [[lanterns|Easters|Valentines|Halloweens]] into a month-long national event with light art, stage shows and international guests. The central government designs the main [[lantern|Easter|Valentine|Christmas]] and handles publicity; the host city deals with the ground, the traffic and the local lamp displays. Not everything always goes smoothly. In 2025, when the festival was in Taoyuan, more than a million people arrived in a single weekend and the metro queues were over an hour long; people online compared it unfavourably with Tainan the year before. Still, for a town that is not usually on the tourist map, a [[Lantern|Christmas|Valentine|Halloween]] Festival year is the biggest thing that will happen for a long time. Afterwards people there date things from it: before the [[lanterns|Easters|Valentines|Halloweens]], and after.
+> 1 hotels were 95 to 100 percent full「旅館住房率九成五到百分之百」。salty、crowded、windy 都不能用百分比接在後面形容住房。
+> 2 a single evening of lanterns「只有一個晚上的花燈」。Easters、Valentines、Halloweens 都不是台灣燈會的內容。
+> 3 designs the main lantern「設計主燈」。Easter、Valentine、Christmas 都不是燈會的展品。
+> 4 a Lantern Festival year「輪到辦燈會的那一年」。Christmas、Valentine、Halloween 都不是這個全國性節慶的名稱。
+> 5 before the lanterns, and after「燈會之前，和燈會之後」，當地人用那一年當分界。Easters、Valentines、Halloweens 都不是那座城市辦過的活動。
++ edition = 屆
++ publicity = 宣傳
++ host = 主辦
++ display = 展示
++ unfavourably = 不利地
+= 台灣燈會每年換一個城市舉辦，2026 年在嘉義。縣政府統計整個展期約有一千三百六十萬人次參觀，並估計為旅館、餐飲、交通和店家帶來超過三百億元。週末時，附近鄉鎮的旅館住房率達九成五到百分之百。這個燈會從 1990 年開辦，2026 年是第三十七屆，它已經從只有一個晚上的花燈，長成為期一個月、有光影藝術、舞台表演和國際賓客的全國性活動。中央政府負責設計主燈和宣傳，主辦城市負責場地、交通和地方燈區。不過並不是每次都順利。2025 年燈會在桃園時，單一個週末就湧入超過一百萬人，捷運排隊超過一小時，網路上有人拿它和前一年的台南相比。即使如此，對一個平常不在觀光地圖上的地方來說，輪到辦燈會的那一年，就是很長一段時間裡最大的事。之後當地人會用它來分界：燈會之前，和燈會之後。
+
+## 飛馬與回收金屬
+In February 2026 the city of Taoyuan held its own lantern festival, separate from the national one, and built something nobody in Taiwan had tried before: a mechanical horse as the main [[lantern|Easter|Valentine|Christmas]]. It stood thirteen metres tall with a wingspan of eighteen metres, it moved, and it was made largely of recycled metal. The theme was chosen because 2026 is a year of the horse, and because the city likes to call itself the gateway of the country, with the international airport inside its borders. Every evening the main display ran every thirty minutes with smoke, lasers and music in five scenes. Over twelve days more than 1.67 million people came. What interested me most was the [[material|garbage|traffic|weather]]. A festival of light uses a great deal of electricity and produces a great deal of rubbish, so building the centrepiece out of metal that had already been used once is a quiet argument about how festivals should work. There were also art installations along a river about ponds, forests and [[recycling|Christmas|Valentine|Halloween]]. My uncle, who is not sentimental, said the horse was the first [[lantern|Easter|Valentine|Halloween]] he had ever wanted to look at twice. A city that builds its [[lantern|Easter|Valentine|Christmas]] out of yesterday's metal is making a point about tomorrow.
+> 1 a mechanical horse as the main lantern「以機械飛馬當主燈」。Easter、Valentine、Christmas 都不是燈會的主角。
+> 2 What interested me most was the material「最讓我感興趣的是材料」。garbage、traffic、weather 都不是「用過一次的金屬」這件事的重點。
+> 3 art installations about ponds, forests and recycling「關於陂塘、森林和回收的藝術裝置」。Christmas、Valentine、Halloween 都不是河岸展區的主題。
+> 4 the first lantern he had ever wanted to look at twice「第一個他想看第二次的花燈」。Easter、Valentine、Halloween 都不是展出的物件。
+> 5 builds its lantern out of yesterday's metal「用昨天的金屬做主燈」。Easter、Valentine、Christmas 都不是用金屬做出來的展品。
++ mechanical = 機械的
++ wingspan = 翼展
++ recycled = 回收再製的
++ centrepiece = 主要展品
++ installation = 裝置藝術
+= 2026 年 2 月，桃園市辦了自己的燈會，和全國性的台灣燈會分開，並且做出台灣沒人試過的東西：以一匹機械飛馬當主燈。它高十三公尺、翼展十八公尺，會動，而且大部分用回收金屬製成。主題選馬，是因為 2026 年是馬年，也因為這座城市喜歡自稱國門之都，國際機場就在境內。每天傍晚主燈每三十分鐘演出一次，結合煙霧、雷射和音樂，分成五幕。十二天展期共有超過一百六十七萬人到場。最讓我感興趣的是材料。光的節慶會用掉大量電力、產生大量垃圾，所以用已經使用過一次的金屬做主要展品，是對「節慶該怎麼辦」提出的一個安靜的主張。河岸展區也有關於陂塘、森林和回收的藝術裝置。我那位不多情的叔叔說，這是第一個他想看第二次的花燈。一座用昨天的金屬做主燈的城市，其實是在談明天。
+
+## 四十萬顆天燈之後
+Pingxi, in the hills of New Taipei, is famous for sky [[lanterns|Easters|Valentines|Christmases]]. People write a wish on the paper, light the fuel at the bottom, and watch the hot air carry it into the dark; a travel website once named the Pingxi festival the cultural event in Taiwan most worth recommending to foreign visitors. About 400,000 of them are released there every year, and every one of them comes down somewhere. The paper and the wire frames land in forests and rivers, where they can injure wild animals and are extremely hard to collect. The city government now runs an exchange: bring in five sheets of used [[lantern|Easter|Valentine|Christmas]] paper and you get a rubbish bag, ten sheets a pack of tissues, fifty sheets a bottle of washing-up liquid, and local shops will take one sheet as one dollar off your shopping. After the 2025 festival, more than a hundred volunteers walked the mountain paths and brought down over 650 kilograms of [[garbage|Halloween|Valentine|Easter]] in fifty-three bags. A university has even been testing drones with claws to lift [[lanterns|Easters|Valentines|Christmases]] out of trees. Nobody wants to end the tradition; they want the wish without the mess. People in Pingxi put it more simply: keep the [[lanterns|Easters|Valentines|Christmases]], but take the paper back.
+> 1 famous for sky lanterns「以天燈聞名」。Easters、Valentines、Christmases 都不是平溪放的東西。
+> 2 five sheets of used lantern paper「五張用過的天燈紙」。Easter、Valentine、Christmas 都不是可以回收兌換的紙。
+> 3 brought down over 650 kilograms of garbage「清出超過六百五十公斤垃圾」。Halloween、Valentine、Easter 都不能用公斤計算。
+> 4 drones with claws to lift lanterns out of trees「裝吊爪的無人機把天燈從樹上取下」。Easters、Valentines、Christmases 都不會卡在樹上。
+> 5 keep the lanterns, but take the paper back「留下天燈，但把紙帶回來」。Easters、Valentines、Christmases 都不是會留下紙屑的東西。
++ sky lantern = 天燈
++ fuel = 燃料
++ wire frame = 鐵絲支架
++ exchange = 兌換
++ drone = 無人機
+= 新北市山區的平溪以天燈聞名。人們在紙上寫下願望，點燃底部的燃料，看著熱空氣把它帶進夜色；某個旅遊網站曾把平溪天燈節選為台灣最值得推薦給外國旅客的文化活動。那裡每年放掉大約四十萬顆天燈，而每一顆都會落在某個地方。紙和鐵絲支架掉進森林和河流，可能傷到野生動物，而且極難收回。市政府現在辦兌換活動：帶五張用過的天燈紙可換一個垃圾袋，十張換一包衛生紙，五十張換一瓶環保洗碗精，當地店家也接受一張折抵一元。2025 年天燈節之後，一百多位志工走遍山徑，清出超過六百五十公斤垃圾、裝了五十三袋。還有一所大學在測試裝吊爪的無人機，把天燈從樹上取下來。沒有人想終止這個傳統，大家想要的是願望，而不是善後。平溪人說得更簡單：天燈留下，紙帶回來。
+
+## 十二月二十五日為什麼放假
+If you are a student in Taiwan, you know that 25 December is a day off, and you may also know that it is not officially about [[Christmas|Easter|Halloween|Valentine]]. In Taiwan the day is Constitution Day, which marks the adoption of the constitution in 1946. It used to be a public holiday, then it stopped being one in 2001, and then in May 2025 the legislature passed a new law that made it a holiday again, together with the day before Lunar New Year's Eve, Teachers' Day and Retrocession Day. The law took effect at the end of that month, so the first of these new days off arrived in the second half of 2025. In 2026 the twenty-fifth falls on a Friday, which gives everybody a three-day [[holiday|Christmas|Easter|Halloween]]. Shops, of course, do not care what the day is called. Trees go up in November, and by the middle of December every café plays the same twelve songs. So Taiwan has the odd situation of a [[Christmas|Easter|Halloween|Valentine]] that is celebrated everywhere and named after a constitution, and nobody finds this strange — least of all students, who [[enjoy|bake|borrow|pray]] the day off whatever it is called. My cousin in Canada cannot believe that a country gives everybody 25 December off and still insists that the day is not [[Christmas|Easter|Halloween|Valentine]].
+> 1 it is not officially about Christmas「它正式上和聖誕節無關」。Easter、Halloween、Valentine 都不是十二月二十五日的節日。
+> 2 a three-day holiday「三天連假」。Christmas、Easter、Halloween 都不能用天數這樣算。
+> 3 a Christmas that is celebrated everywhere「到處都在過的聖誕節」。Easter、Halloween、Valentine 都不是十二月的節日。
+> 4 students enjoy the day off「學生享受這天放假」。bake、borrow、pray 都接不上 the day off。
+> 5 insists that the day is not Christmas「堅持這一天不是聖誕節」。Easter、Halloween、Valentine 都不是十二月二十五日。
++ constitution = 憲法
++ adoption = 通過、採用
++ legislature = 立法機關
++ take effect = 生效
++ Retrocession Day = 光復節
+= 如果你是台灣的學生，你知道十二月二十五日放假，也可能知道它正式上和聖誕節無關。在台灣，這一天是行憲紀念日，紀念 1946 年通過憲法。它以前是國定假日，2001 年起不再放假，接著 2025 年 5 月立法院通過新法，又把它和小年夜、教師節、光復節一起列為假日。這部法律在當月底生效，所以新增假日第一次放到，是 2025 年下半年。2026 年的二十五日落在星期五，大家因此多了三天連假。當然，商家根本不在意這一天叫什麼。十一月樹就立起來了，到十二月中，每家咖啡店都在放同樣那十二首歌。所以台灣出現一個奇特狀況：一個到處都在過的聖誕節，名字卻取自憲法，而沒有人覺得奇怪——尤其是學生，不管它叫什麼，他們都很享受這天放假。我在加拿大的表親無法相信，一個國家讓所有人十二月二十五日放假，卻還堅持那天不是聖誕節。
+
+## 二〇二五年，東西方同一天過復活節
+[[Easter|Christmas|Halloween|Valentine]] does not have a fixed date. It is fixed instead by a rule agreed in the year 325 at a council in Nicaea, in what is now Turkey: the first Sunday after the first full moon on or after the spring equinox. That is why it wanders between late March and late April. There is a complication. Eastern churches work the rule out using the older Julian [[calendar|Christmas|Easter|lantern]], while Western churches use the Gregorian one, so the two [[Easters|Christmases|Halloweens|lanterns]] usually land on different Sundays, sometimes weeks apart. In 2025 they did not. Both fell on 20 April, the first time since 2017, and it happened in the 1,700th year after that council in Nicaea, which several church leaders called an [[opportunity|garbage|traffic|weather]] rather than a coincidence. They have been asking for a common date for decades; so far nothing has changed, partly because the calendar of public holidays in many countries is tied to the Western date. The dates will meet again in 2028, 2031 and 2034. If you want to surprise an adult, ask them why the date of [[Easter|Christmas|Halloween|Valentine]] depends on the moon.
+> 1 Easter does not have a fixed date「復活節沒有固定日期」。Christmas、Halloween、Valentine 的日期都是固定的。
+> 2 the older Julian calendar「較舊的儒略曆」。Christmas、Easter、lantern 都不是曆法。
+> 3 the two Easters usually land on different Sundays「兩邊的復活節通常落在不同的星期日」。Christmases、Halloweens、lanterns 都不會分成東西兩套日期。
+> 4 called it an opportunity rather than a coincidence「稱它是機會，而不是巧合」。garbage、traffic、weather 都接不上這個對比。
+> 5 why the date of Easter depends on the moon「為什麼復活節的日期要看月亮」。Christmas、Halloween、Valentine 的日期都和月亮無關。
++ council = 大公會議
++ equinox = 分點（春分）
++ wander = 遊移
++ complication = 複雜之處
++ coincidence = 巧合
+= 復活節沒有固定日期。它是由西元 325 年在尼西亞（今土耳其）舉行的會議所訂下的規則決定：春分之後第一個滿月之後的第一個星期日。這就是它會在三月底到四月底之間遊移的原因。其中還有複雜之處。東方教會用較舊的儒略曆推算這條規則，西方教會用格里曆，所以兩邊的復活節通常落在不同的星期日，有時相差好幾週。2025 年卻沒有。兩者都在 4 月 20 日，是 2017 年以來第一次，而且發生在尼西亞會議之後的第一千七百年，好幾位教會領袖稱這是機會，而不是巧合。他們要求共同日期已經數十年；到目前為止沒有改變，部分原因是許多國家的國定假日行事曆綁著西方的日期。兩邊的日期會在 2028、2031 和 2034 年再度重合。如果你想讓大人意外，就問他們為什麼復活節的日期要看月亮。
+
+## 梨泰院的那一夜
+On 29 October 2022, about a hundred thousand people went to Itaewon, a lively district in Seoul, for [[Halloween|Easter|Christmas|lantern]]. It was the first one after the pandemic restrictions had been lifted, and most of the crowd were in their twenties. Many of them funnelled into one sloping alley about four metres wide. In a space that narrow a crowd stops behaving like a group of people and starts behaving like a fluid: once the density passes a certain point, nobody can move, nobody can [[breathe|bake|borrow|pray]] properly, and nobody can get out. By the end of the night 159 people had died and almost two hundred were injured. South Korea changed the way it thinks about [[safety|garbage|traffic|weather]] afterwards; crowd experts had been saying for years that such disasters are predictable and preventable, and that blaming the crowd misses the point, because planning, counting and one-way streets are the responsibility of the people in charge. Itaewon has held quiet [[Halloweens|Easters|Christmases|lanterns]] ever since, with a banner that asks for safety instead of decorations. The lesson that students are taught now is simple and worth keeping: if a crowd is pressing you and you cannot choose where your feet go, leave early, before leaving stops being a choice. Our own school added one line to its trip rules after that night: agree on a meeting point before you go in, and never follow a crowd into a narrow street, on [[Halloween|Easter|Christmas|lantern]] night or any other.
+> 1 went to Itaewon for Halloween「到梨泰院過萬聖節」。Easter、Christmas、lantern 都不是十月底的活動。
+> 2 nobody can breathe properly「沒有人能正常呼吸」。bake、borrow、pray 都和人群密度造成的危險無關。
+> 3 changed the way it thinks about safety「改變了對安全的思考方式」。garbage、traffic、weather 都不是這場事故後檢討的主題。
+> 4 has held quiet Halloweens ever since「此後都過著安靜的萬聖節」。Easters、Christmases、lanterns 都不是梨泰院那個日子。
+> 5 on Halloween night or any other「不管是萬聖節的晚上還是任何一晚」。Easter、Christmas、lantern 都不是那起事故發生的日子。
++ district = 區域
++ restriction = 限制
++ funnel = 像漏斗一樣湧入
++ density = 密度
++ preventable = 可預防的
+= 2022 年 10 月 29 日，大約十萬人前往首爾熱鬧的梨泰院過萬聖節。那是疫情限制解除後的第一個萬聖節，人群大多是二十多歲的年輕人。許多人湧進一條約四公尺寬的斜坡小巷。在那麼窄的空間裡，人群不再像一群人，而開始像流體：一旦密度超過某個點，沒有人能移動、沒有人能正常呼吸、也沒有人出得去。那一夜結束時，一百五十九人死亡，將近兩百人受傷。韓國此後改變了對「安全」的思考方式；群眾安全專家多年來一直說，這類災難是可以預測、可以預防的，而把責任推給人群根本搞錯方向，因為規劃、計算人數和設單行動線，是負責單位的責任。梨泰院從那之後都過著安靜的萬聖節，街上掛的不是裝飾，而是一條要求安全的布條。現在學生被教的那一課很簡單，也值得記住：如果人群正在推擠你、你已經不能選擇腳步往哪裡放，就提早離開，在「離開」還是一個選擇的時候。那一夜之後，我們自己學校也在校外活動規則裡加了一條：進去之前先約好集合點，而且永遠不要跟著人群走進狹窄的街道，不管是萬聖節的晚上還是任何一晚。
+
+## 南瓜燈本來是蕪菁
+The grinning pumpkin is the picture everybody has of [[Halloween|Easter|Christmas|Valentine]], and it is a fairly recent invention. The custom came from Ireland and Scotland, where people carved faces into turnips and beets, put a coal or a candle inside, and set the little [[lantern|Easter|Valentine|Christmas]] by the door on the night when, in the old belief, the border between this world and the next was thin. The point was to frighten away whatever might be wandering. When Irish families emigrated to North America in the nineteenth century they found a vegetable that was far easier to carve and much larger: the pumpkin. If you have ever tried to hollow out a turnip, you will understand why the pumpkin [[won|baked|borrowed|prayed]]. The old faces are worth looking up; photographs of nineteenth-century turnip lanterns are considerably more frightening than anything sold in a shop today. Modern [[Halloween|Easter|Christmas|lantern]] costumes, sweets and parties grew mostly in twentieth-century America and then travelled back to Europe and on to Asia, which is why a festival with roots in an old Celtic calendar now arrives in Taiwan as a cram-school party with plastic [[pumpkins|Easters|Valentines|Christmases]].
+> 1 the picture everybody has of Halloween「大家對萬聖節的印象」。Easter、Christmas、Valentine 都不是南瓜燈的節日。
+> 2 set the little lantern by the door「把那個小燈放在門邊」。Easter、Valentine、Christmas 都不是可以放在門邊的燈。
+> 3 why the pumpkin won「為什麼南瓜贏了」。baked、borrowed、prayed 都接不上這個比較。
+> 4 Modern Halloween costumes, sweets and parties「現代萬聖節的服裝、糖果和派對」。Easter、Christmas、lantern 都不合。
+> 5 a cram-school party with plastic pumpkins「補習班派對加塑膠南瓜」。Easters、Valentines、Christmases 都不是萬聖節的裝飾。
++ grinning = 露齒而笑的
++ carve = 雕刻
++ turnip = 蕪菁
++ emigrate = 移居外國
++ hollow out = 挖空
+= 露齒而笑的南瓜是大家對萬聖節的印象，而它其實是相當晚近的發明。這個習俗來自愛爾蘭和蘇格蘭，當地人把臉雕在蕪菁和甜菜上，裡面放一塊炭或一根蠟燭，然後在舊信仰中「此世與彼世界線最薄」的那一夜，把那個小燈放在門邊。目的是嚇走任何可能在外面遊蕩的東西。十九世紀愛爾蘭家庭移居北美後，發現一種容易雕刻得多、也大得多的作物：南瓜。如果你曾試著挖空一顆蕪菁，就會明白南瓜為什麼贏了。那些舊的臉值得找來看；十九世紀蕪菁燈的照片比今天店裡賣的任何東西都恐怖得多。現代萬聖節的服裝、糖果和派對，主要在二十世紀的美國長出來，然後傳回歐洲、再傳到亞洲，所以一個根源於古老凱爾特曆法的節日，如今以「補習班派對加塑膠南瓜」的形式抵達台灣。
+
+## 天燈為什麼飛得起來
+A sky [[lantern|Easter|Valentine|Christmas]] is a physics lesson you can hold in your hands. Inside the paper bag, a small pad of fuel burns and heats the air. Hot air is thinner than cold air — the same number of molecules spread out over more space — so the air inside weighs less than the air it has pushed out of the way, and the whole thing rises. It is exactly how a hot-air balloon works, at one-thousandth of the size. Three things decide whether it [[rises|bakes|borrows|prays]]: the paper must be light and must not leak, the fuel must burn steadily, and the night must not be too windy or too wet. This is also why the festival in Pingxi happens in winter, when the cold air outside makes the difference bigger. When the fuel runs out the air cools, and the [[lantern|Easter|Christmas|Valentine]] comes down — usually several kilometres away, which is the part of the physics that creates the rubbish problem. Our science teacher let us make a small one out of tissue paper and birthday candles in the school yard. It rose about four metres, caught on a basketball hoop, and taught us more about hot air than any [[test|garbage|traffic|weather]] could. If you ever release one, write your wish on it, and then pick up somebody else's [[lantern|Easter|Valentine|Christmas]] on the way home.
+> 1 A sky lantern is a physics lesson「天燈是一堂物理課」。Easter、Valentine、Christmas 都不是會飛的東西。
+> 2 Three things decide whether it rises「三件事決定它升不升得起來」。bakes、borrows、prays 都接不上 whether it。
+> 3 the lantern comes down「天燈就會落下」。Easter、Christmas、Valentine 都不會落下。
+> 4 taught us more than any test could「比任何考試都教得更多」。garbage、traffic、weather 都不是學習的方式。
+> 5 pick up somebody else's lantern on the way home「回家路上順手撿起別人的天燈」。Easter、Valentine、Christmas 都不是會掉在路上的東西。
++ pad = 墊、塊
++ molecule = 分子
++ hot-air balloon = 熱氣球
++ leak = 漏
++ hoop = 籃框
+= 天燈是一堂可以捧在手上的物理課。紙袋裡面有一小塊燃料燃燒，把空氣加熱。熱空氣比冷空氣稀薄——同樣數目的分子散開在更大的空間裡——所以裡面的空氣比它推開的空氣輕，整個東西就上升。這和熱氣球的原理完全一樣，只是小了一千倍。三件事決定它飛不飛得起來：紙必須輕而且不能漏、燃料必須穩定燃燒、當晚不能太大風或太濕。這也是平溪的天燈節在冬天舉行的原因，外面的冷空氣讓溫差更大。燃料燒完後空氣變冷，天燈就落下——通常在好幾公里外，而這正是造成垃圾問題的那一段物理。我們的自然老師讓我們在操場上用薄紙和生日蠟燭做了一個小的。它升高大約四公尺，卡在籃框上，卻比任何考試都更能教我們熱空氣是怎麼回事。如果你有機會放一顆，就把願望寫上去，然後回家路上順手撿起別人的天燈。
+
+## 聖誕樹與那株紅色植物
+Two plants turn up everywhere in December. The first is the [[Christmas|Easter|Halloween|Valentine]] tree, which is a fir, a spruce or a pine: trees that keep their needles through winter, which is exactly why they were brought indoors in northern Europe long before anybody called it Christmas. An evergreen in a dark month is a promise. The custom spread from Germany to Britain in the nineteenth century, partly because a royal family was drawn in a magazine standing around one, and from there it went everywhere. The second plant is the poinsettia, which comes from Mexico and is not really red at all: those are leaves, not petals, and they only turn colour when the nights are long enough. Growers therefore keep them in the dark on purpose, because a [[Christmas|Easter|Halloween|Valentine]] plant that is still green in December cannot be [[sold|baked|borrowed|prayed]]. Taiwan grows a great many of them in Nantou and Changhua. There is one more thing worth knowing if you have a cat: the poinsettia is often called poisonous, but most sources now say it causes only mild [[trouble|Christmas|Easter|lantern]], while the real danger at this time of year is chocolate. So both plants are winter engineering: one keeps its leaves against the cold, and the other is tricked into turning red in time for [[Christmas|Easter|Halloween|Valentine]].
+> 1 the Christmas tree「聖誕樹」。Easter、Halloween、Valentine 都不是十二月那棵樹的名字。
+> 2 a Christmas plant that is still green in December「十二月還是綠色的聖誕植物」。Easter、Halloween、Valentine 都不是這種植物的用途。
+> 3 cannot be sold「賣不出去」。baked、borrowed、prayed 都接不上 cannot be。
+> 4 causes only mild trouble「只造成輕微的不適」。Christmas、Easter、lantern 都不是中毒的症狀。
+> 5 in time for Christmas「趕在聖誕節之前」。Easter、Halloween、Valentine 都不是聖誕紅要趕上的節日。
++ fir / spruce = 冷杉／雲杉
++ needle = 針葉
++ evergreen = 常綠植物
++ poinsettia = 聖誕紅
++ petal = 花瓣
+= 十二月有兩種植物到處都看得到。第一種是聖誕樹，也就是冷杉、雲杉或松樹：這些樹整個冬天都保留針葉，而這正是它們在還沒有人稱之為聖誕節的年代，就被北歐人搬進屋裡的原因。在最暗的月份裡，一棵常綠樹就是一個承諾。這個習俗在十九世紀從德國傳到英國，部分原因是一本雜誌畫出了王室圍著一棵樹的樣子，從那裡就傳到各地。第二種植物是聖誕紅，它來自墨西哥，而且根本不是真的紅：那些是葉子，不是花瓣，而且只有在夜晚足夠長時才會轉色。所以栽培者會刻意把它們放在暗處，因為十二月還是綠色的聖誕植物賣不出去。台灣在南投和彰化種了非常多。如果你家有貓，還有一件事值得知道：聖誕紅常被說有毒，但現在多數資料認為它只會造成輕微的不適，這個季節真正的危險是巧克力。所以這兩種植物都是冬天的工程：一種靠著留住葉子對抗寒冷，另一種被人騙著在聖誕節前轉紅。
+
+## 巧克力為什麼要融在嘴裡
+Every February, shops fill up with chocolate because of one [[Valentine|Easter|Halloween|lantern]] in the middle of the month. The chocolate itself is better science than the marketing suggests. Cocoa butter is unusual among fats: it is solid at room temperature and melts at about 34°C, which is just below the temperature of your mouth. That is why good chocolate snaps when you break it and then disappears on your tongue. Getting it to behave takes work. Makers heat and cool the chocolate through a precise series of temperatures, a process called tempering, so that the fat forms the right kind of crystal; skip it and you get a soft bar with pale streaks. The taste comes earlier, from fermenting and roasting the beans, and the bitterness that adults claim to [[enjoy|bake|borrow|pray]] comes from the same chemicals that make cocoa interesting to study. Cocoa itself grows only near the equator, and in recent years disease and strange weather in West Africa have pushed prices to records, so your [[Valentine|Easter|Halloween|Christmas]] box is also a climate story. Dark chocolate, by the way, is dangerous for dogs for the same reason it is [[popular|salty|crowded|windy]] with people: the chemicals are strong. Give the dog a biscuit instead, and keep the [[Valentine|Easter|Halloween|lantern]] box for yourself.
+> 1 because of one Valentine in the middle of the month「因為月中那個情人節」。Easter、Halloween、lantern 都不在二月。
+> 2 the bitterness that adults claim to enjoy「大人聲稱喜歡的苦味」。bake、borrow、pray 都接不上 claim to。
+> 3 your Valentine box is also a climate story「你的情人節禮盒也是一個氣候故事」。Easter、Halloween、Christmas 都不是二月的禮盒。
+> 4 the same reason it is popular with people「它受人類歡迎的同一個原因」。salty、crowded、windy 都不能形容巧克力受不受歡迎。
+> 5 keep the Valentine box for yourself「情人節禮盒自己留著」。Easter、Halloween、lantern 都不是二月那個禮盒。
++ cocoa butter = 可可脂
++ snap = 清脆斷裂
++ temper = 調溫
++ crystal = 結晶
++ ferment = 發酵
+= 每年二月，店裡堆滿巧克力，因為月中那個情人節。巧克力本身的科學比它的行銷有趣。可可脂在油脂裡很特別：它在室溫下是固體，大約 34°C 融化，剛好低於你口腔的溫度。這就是為什麼好的巧克力折斷時會清脆作響，然後在舌頭上消失。要讓它乖乖聽話需要工夫。製作者會讓巧克力經過一連串精確的升溫與降溫，這個過程叫調溫，好讓油脂形成正確的結晶；省略它，你就會得到一條軟軟、帶著白色條紋的巧克力。味道來得更早，來自可可豆的發酵和烘焙，而大人聲稱喜歡的苦味，來自同一批讓可可值得研究的化學物質。可可只長在赤道附近，而近年西非的病害與異常天氣把價格推上新高，所以你的情人節禮盒也是一個氣候故事。順帶一提，黑巧克力對狗危險的原因，和它受人類歡迎的原因一樣：那些化學物質很強。給狗一塊餅乾就好，情人節禮盒自己留著。
+
+## 為什麼是十二月二十五日
+Nobody knows the date of the first [[Christmas|Easter|Halloween|Valentine]], and the Bible does not give one. The 25th of December was chosen in Rome, several hundred years later, and historians argue about why. One explanation is the sun. Around the winter solstice the days stop getting shorter, and Romans already held winter festivals at that time; placing a new feast there made it easy for people to [[change|bake|borrow|pray]] without losing their midwinter party. Another explanation is arithmetic: some early Christians dated the beginning of the story to late March, and nine months after late March is late December. Eastern churches that use a different calendar still celebrate [[Christmas|Easter|Halloween|Valentine]] on 7 January, which is the same day by the older reckoning. The familiar details came later and from everywhere: trees from Germany, cards from Victorian Britain, the red-suited figure largely from American illustrators and advertisements. None of this makes the festival less real. It does mean that when somebody tells you the "true" [[Christmas|Easter|Halloween|Valentine]] is being lost, it is worth asking which century they mean. Our class decided that the best argument for keeping the date in December is that a festival of light in the darkest month is a better [[idea|garbage|traffic|weather]] than one in June.
+> 1 the date of the first Christmas「第一個聖誕節的日期」。Easter、Halloween、Valentine 都不是十二月那個節日。
+> 2 easy for people to change「讓人們容易改變（信仰習慣）」。bake、borrow、pray 都接不上這個對比。
+> 3 still celebrate Christmas on 7 January「仍在 1 月 7 日過聖誕節」。Easter、Halloween、Valentine 都不是那一天在慶祝的節日。
+> 4 the "true" Christmas is being lost「「真正的」聖誕節正在流失」。Easter、Halloween、Valentine 都不是這個爭論的主題。
+> 5 is a better idea than one in June「比辦在六月是更好的主意」。garbage、traffic、weather 都不能接在 a better 後面。
++ solstice = 至日（冬至）
++ feast = 節慶
++ reckoning = 計算方式
++ illustrator = 插畫家
++ advertisement = 廣告
+= 沒有人知道第一個聖誕節的日期，聖經也沒有寫。十二月二十五日是好幾百年後在羅馬選定的，而歷史學家對原因仍有爭論。一種解釋是太陽。冬至前後，白天不再變短，而羅馬人原本就在那時舉行冬季節慶；把新的節日放在那裡，讓人們容易改變，又不必失去自己的仲冬派對。另一種解釋是算術：有些早期基督徒把故事的開始定在三月下旬，而三月下旬之後九個月就是十二月下旬。使用不同曆法的東方教會至今在 1 月 7 日慶祝，那依舊曆算是同一天。熟悉的細節都是後來才加上的，而且來自各地：樹來自德國，卡片來自維多利亞時代的英國，那位穿紅衣的角色主要來自美國插畫家和廣告。這些都不會讓這個節日變得不真實。但它確實意味著，當有人告訴你「真正的」聖誕節正在流失時，值得問一句：你說的是哪個世紀？我們班的結論是，把日期留在十二月最好的理由是——在最暗的月份辦一個光的節慶，比辦在六月合理得多。
+
+## 兔子、蛋，和春天
+Why does [[Easter|Christmas|Halloween|lantern]] involve a rabbit that delivers eggs? Neither appears in the story the festival is about. Both come from spring. An egg is the oldest possible symbol of new life, and in the weeks before the festival Christians traditionally did not eat eggs, so by the end there were a great many to use up; boiling and decorating them solved a practical problem and made a pretty one. The rabbit arrived from German folklore, where a hare brought coloured eggs to children who had been good, and German families carried the custom to America in the eighteenth [[century|Christmas|Easter|Valentine]]. Hares are everywhere in spring and famously good at producing families, which is probably enough explanation. Chocolate eggs are a Victorian invention, and in Britain only [[Christmas|Easter|Halloween|Valentine]] sells more chocolate than this festival does. In Taiwan, [[Easter|Christmas|Halloween|Valentine]] is mostly a church event and a hunt organised by English teachers, which is how I first met the word "hunt". My own teacher hid forty plastic eggs around the playground, and we found thirty-eight. The last two turned up in June, which the [[principal|garbage|traffic|weather]] did not find funny.
+> 1 Why does Easter involve a rabbit「為什麼復活節會有兔子」。Christmas、Halloween、lantern 都不是和兔子、蛋有關的節日。
+> 2 in the eighteenth century「在十八世紀」。Christmas、Easter、Valentine 都不是一百年的單位。
+> 3 only Christmas sells more chocolate「只有聖誕節賣出更多巧克力」。Easter 就是本篇的節日，Halloween、Valentine 的銷量都不是英國的第一名。
+> 4 In Taiwan, Easter is mostly a church event「在台灣，復活節主要是教會活動」。Christmas、Halloween、Valentine 在台灣都比復活節熱鬧。
+> 5 which the principal did not find funny「校長覺得不好笑」。garbage、traffic、weather 都不會覺得某件事好不好笑。
++ symbol = 象徵
++ decorate = 裝飾
++ folklore = 民間傳說
++ hare = 野兔
++ hunt = 尋找活動
+= 為什麼復活節會有一隻送蛋的兔子？這兩樣都沒有出現在這個節日所講的故事裡。兩者都來自春天。蛋是「新生命」最古老的象徵，而在節日前幾週，基督徒傳統上不吃蛋，所以到最後會剩下很多需要消耗；把蛋煮熟、彩繪，既解決了實際問題，也做出漂亮的東西。兔子來自德國民間傳說，傳說中一隻野兔會把彩蛋帶給乖小孩，而德國家庭在十八世紀把這個習俗帶到美國。野兔在春天到處都是，又以擅長生小孩聞名，這大概就夠解釋了。巧克力蛋是維多利亞時代的發明，而在英國，只有聖誕節的巧克力銷量比這個節日更高。在台灣，復活節主要是教會活動，以及英文老師辦的尋蛋遊戲，我就是這樣第一次學到 hunt 這個字的。我的老師在操場藏了四十顆塑膠蛋，我們找到三十八顆。最後兩顆在六月才出現，校長覺得不好笑。
+
+## 聖誕節的籃球
+In the United States, basketball on [[Christmas|Easter|Halloween|lantern]] Day is almost as traditional as the tree. The league has played on 25 December since its earliest seasons, and now puts its best teams on five games through the day, so that somebody in a living room in Taipei can watch them from the early morning through to the afternoon. Players are honest about mixed [[feelings|garbage|traffic|weather]]: they travel on the 24th, they see their families for a short morning, and then they work. Some say that a packed arena on that day is the best atmosphere of the year; others would rather be at home. The teams wear special shirts, and the whole thing is a reminder that a [[Christmas|Easter|Halloween|Valentine]] is also an industry — somebody has to drive the bus, open the arena and sell the hot dogs. For fans outside America the time difference turns it into a strange gift: a [[Christmas|Easter|Halloween|Valentine]] morning with live basketball, while the players themselves are still in the evening of the day before. My father watches with the sound off so as not to wake anybody, which is the most [[polite|salty|crowded|windy]] form of obsession I know.
+> 1 basketball on Christmas Day「聖誕節當天的籃球」。Easter、Halloween、lantern 都不是十二月二十五日。
+> 2 honest about mixed feelings「坦白說自己心情複雜」。garbage、traffic、weather 都不是球員會有的感受。
+> 3 a Christmas is also an industry「聖誕節也是一個產業」。Easter、Halloween、Valentine 都不是十二月那個節日。
+> 4 a Christmas morning with live basketball「有現場籃球的聖誕節早晨」。Easter、Halloween、Valentine 都不是十二月那個早晨。
+> 5 the most polite form of obsession「最有禮貌的一種痴迷」。salty、crowded、windy 都不能形容一種行為。
++ arena = 體育館
++ atmosphere = 氣氛
++ industry = 產業
++ time difference = 時差
++ obsession = 痴迷
+= 在美國，聖誕節當天打籃球幾乎和聖誕樹一樣傳統。聯盟從最早的球季就在十二月二十五日比賽，現在更把最強的球隊排進一天五場，所以台北客廳裡的某個人可以從清晨一路看到下午。球員坦白說自己心情複雜：他們二十四日移動，二十五日早上和家人短暈相處，然後就去上班。有人說那天滿場的體育館是一年中氣氛最好的；也有人寧願待在家。球隊會穿特別的球衣，而整件事提醒我們：假日也是一個產業——總得有人開巴士、開場館、賣熱狗。對美國以外的球迷來說，時差把它變成一份奇怪的禮物：有現場籃球的聖誕節早晨，而球員本人還在前一天的傍晚。我爸看球時把聲音關掉，以免吵醒別人，這是我所知最有禮貌的一種痴迷。
+
+## 節禮日的足球
+In England the day after [[Christmas|Easter|Halloween|Valentine]] is called Boxing Day, and it belongs to football. The fixtures go on through the holiday, which no other big European league does; Spain, Italy and Germany all stop. The tradition began in the nineteenth century, when working people had the day off and the trains were running, so clubs played local teams and whole families walked to the ground. Managers complain every year about the schedule, because players get almost no [[rest|garbage|traffic|weather]] between games, and foreign players find the whole thing baffling. The fans defend it absolutely. For many families it is the one match a year that three generations attend together, and the stadium is full of new [[Christmas|Easter|Halloween|Valentine]] sweaters that somebody received the day before. My cousin in Manchester says the football is usually bad and the day is always good. In Taiwan nothing closes for [[Christmas|Easter|Halloween|Valentine]], so the strange part for us is not that they play; it is that in England the shops and offices shut for two whole days and the only thing still [[busy|salty|crowded|windy]] is a football ground.
+> 1 the day after Christmas「聖誕節的隔天」，也就是節禮日。Easter、Halloween、Valentine 都不是十二月那個節日。
+> 2 players get almost no rest between games「球員比賽之間幾乎沒有休息」。garbage、traffic、weather 都不是球員缺少的東西。
+> 3 new Christmas sweaters「新的聖誕毛衣」，前一天收到的禮物。Easter、Halloween、Valentine 都不是十二月二十五日送禮的節日。
+> 4 nothing closes for Christmas in Taiwan「在台灣沒有店家為了聖誕節關門」。Easter、Halloween、Valentine 在台灣也都不放到關門的程度，但這裡說的是十二月那個節日。
+> 5 the only thing still busy is a football ground「唯一還熱鬧的是一座足球場」。salty、crowded、windy 都不能和 still 搭配表示這個意思。
++ Boxing Day = 節禮日（十二月二十六日）
++ fixture = 賽程
++ manager = 總教練
++ baffling = 令人困惑的
++ generation = 世代
+= 在英格蘭，聖誕節的隔天叫節禮日，而這一天屬於足球。賽程在假期中照常進行，這是其他歐洲大聯盟都沒有的事；西班牙、義大利和德國都停賽。這個傳統始於十九世紀，當時勞工放假、火車照開，所以俱樂部和鄰近球隊比賽，全家人走路去球場。總教練每年都抱怨賽程，因為球員比賽之間幾乎沒有休息，外籍球員更覺得整件事莫名其妙。球迷則絕對擁護它。對許多家庭來說，這是一年中唯一三代人一起去看的比賽，而球場上滿是前一天剛收到的新毛衣。我在曼徹斯特的表哥說，那天的足球通常很糟，但那一天永遠很好。在台灣沒有店家為了聖誕節關門，所以對我們來說奇怪的不是他們照打，而是在英格蘭，商店和辦公室整整關兩天，唯一還開著的是一座足球場。
+
+## 穿成南瓜去跑步
+Our town holds a five-kilometre run near the end of October, and for the last few years it has been a [[Halloween|Easter|Christmas|Valentine]] run. You are not required to dress up, but almost everybody does, and the costumes are the whole point. Last year the field included four pumpkins, a group of skeletons who had clearly trained together, a man carrying a door, and two girls dressed as a single very long dragon, who finished last and got the loudest [[cheer|garbage|traffic|weather]] of the morning. Runners will tell you that a costume is a bad idea: it is hot, it catches the wind, and a mask makes it hard to [[breathe|bake|borrow|pray]]. They still wear them. The organisers give the prize for the best costume more attention than the prize for the fastest time, which annoys exactly the people you would expect. What I like is that nobody is embarrassed, because a [[Halloween|Easter|Christmas|Valentine]] race is the one morning of the year when the whole street looks ridiculous together. My mother ran as a cat and beat me by four minutes, which I am told is not the point of a family [[Halloween|Easter|Christmas|lantern]].
+> 1 it has been a Halloween run「它變成了萬聖節路跑」。Easter、Christmas、Valentine 都不在十月底。
+> 2 got the loudest cheer of the morning「得到全場最大的歡呼」。garbage、traffic、weather 都不是觀眾會給的東西。
+> 3 a mask makes it hard to breathe「面具讓人難以呼吸」。bake、borrow、pray 都接不上 hard to。
+> 4 a Halloween race is the one morning「萬聖節路跑是一年裡唯一那個早上」。Easter、Christmas、Valentine 都不是這場比賽的主題。
+> 5 the point of a family Halloween「家庭萬聖節的重點」。Easter、Christmas、lantern 都不合這個玩笑。
++ field = 參賽者全體
++ skeleton = 骷髏
++ costume = 裝扮服裝
++ organiser = 主辦單位
++ ridiculous = 荒謬好笑的
+= 我們鎮上在十月底辦一場五公里路跑，最近幾年變成了萬聖節路跑。並沒有規定要變裝，但幾乎每個人都變裝，而服裝就是重點。去年的參賽者包括四顆南瓜、一群顯然一起練過的骷髏、一個扛著門的男人，還有兩個女生扮成一條很長的龍，她們最後一名抵達，卻得到全場最大的歡呼。跑者會告訴你變裝是個壞主意：很熱、會被風吹、面具讓人難以呼吸。他們還是穿。主辦單位給「最佳服裝獎」的關注比「最快時間獎」還多，這剛好惹到你想得到的那群人。我喜歡的是沒有人覺得尷尬，因為萬聖節路跑是一年裡唯一一個整條街一起變得荒謬好笑的早上。我媽扮成貓，比我快四分鐘，而據說那不是家庭萬聖節的重點。
+
+## 操場上的彩蛋接力
+Our school sports day happens in spring, and one year our teacher invented an [[Easter|Christmas|Halloween|Valentine]] relay. Each runner carried a plastic spoon with an egg on it, ran twenty metres, and handed the spoon over without touching the egg. If the egg fell, you went back to the start. It sounds easy. It is not. The first lesson is that running fast is the wrong [[plan|garbage|traffic|weather]]; the people who won were the ones who moved smoothly and did not look at their feet. The second lesson is that a relay is about the handover, which is true of the real thing as well. Our class came third out of nine, and we dropped the egg exactly once, when the fastest boy in the year tried to sprint the last five metres and learned something about [[balance|Easter|Christmas|lanterns]] in front of six hundred people. Afterwards the teacher explained where the [[Easter|Christmas|Halloween|Valentine]] egg comes from and why spring festivals are full of eggs, and then let us eat the chocolate ones. I remember the eggs better than the lecture, which is probably how a good [[Easter|Christmas|Halloween|lantern]] lesson is supposed to work.
+> 1 invented an Easter relay「發明了一種復活節接力」。Christmas、Halloween、Valentine 都不是春天的節日。
+> 2 running fast is the wrong plan「跑快是錯的策略」。garbage、traffic、weather 都不是比賽策略。
+> 3 learned something about balance「學到了一點關於平衡的事」。Easter、Christmas、lanterns 都不是他當下學到的東西。
+> 4 where the Easter egg comes from「復活節彩蛋的由來」。Christmas、Halloween、Valentine 都沒有彩蛋的傳統。
+> 5 how a good Easter lesson is supposed to work「一堂好的復活節課應該怎麼運作」。Christmas、Halloween、lantern 都不是那天上的主題。
++ relay = 接力
++ handover = 交接
++ smoothly = 平順地
++ sprint = 衝刺
++ balance = 平衡
+= 我們學校的運動會在春天，有一年老師發明了一種復活節接力。每個跑者拿一支塑膠湯匙，上面放一顆蛋，跑二十公尺，然後在不碰到蛋的情況下把湯匙交出去。如果蛋掉了，就得回到起點。聽起來很簡單，其實不是。第一課是：跑快是錯的策略；贏的人是動作平順、而且不看自己腳的人。第二課是：接力的重點在交接，真正的接力也是如此。我們班在九個班裡拿到第三名，只掉了一次蛋，就是全年級跑最快的男生想在最後五公尺衝刺的時候，他在六百個人面前學到了一點關於平衡的事。之後老師解釋復活節彩蛋的由來，以及春天的節日為什麼到處都是蛋，然後讓我們吃巧克力蛋。我記得蛋比記得那段講解清楚，而一堂好的復活節課，大概就該這樣運作。
+
+## 情人節的雙打
+Our badminton club has a tradition that I did not understand until I joined. On the Friday nearest 14 February, the coach puts up a list of doubles pairs drawn at random, and we play a [[Valentine|Easter|Christmas|lantern]] tournament. The point is not romance; the point is that you have to play with somebody you did not choose. I was put with a boy from another class who hits everything as hard as he can and never calls the score. We lost in the second round, mostly because neither of us would cover the back [[corner|garbage|traffic|weather]], and afterwards the coach made us write down one thing the other person did well. That part was harder than the match. By the next practice we could at least shout "mine" at the same time, which is more than half of doubles. The coach says the [[Valentine|Easter|Christmas|Halloween]] draw exists because a club where people only play with their friends stops [[improving|baking|borrowing|praying]]. I think she also enjoys the complaining. Either way, a [[Valentine|Easter|Christmas|lantern]] tournament with no flowers and a great deal of shouting is the least romantic thing in the building, and the most useful.
+> 1 we play a Valentine tournament「我們打一場情人節比賽」。Easter、Christmas、lantern 都不在二月十四日附近。
+> 2 cover the back corner「補後場的那個角」。garbage、traffic、weather 都不是球場上的位置。
+> 3 the Valentine draw「情人節的抽籤分組」。Easter、Christmas、Halloween 都不是這個傳統的名字。
+> 4 stops improving「不再進步」。baking、borrowing、praying 都接不上 stops。
+> 5 a Valentine tournament with no flowers「沒有花的情人節比賽」。Easter、Christmas、lantern 都接不上這個玩笑。
++ doubles = 雙打
++ at random = 隨機地
++ tournament = 比賽
++ romance = 浪漫
++ draw = 抽籤
+= 我們羽球社有個傳統，我加入之後才懂。在最接近 2 月 14 日的那個星期五，教練會貼出隨機抽出的雙打配對名單，我們打一場情人節比賽。重點不是浪漫，重點是你必須和不是自己選的人搭配。我被分到另一個班的男生，他每一球都盡全力打，而且從不報分。我們第二輪就輸了，主要是因為我們兩個都不肯移動到後場，而比賽後教練要我們各寫下對方做得好的一件事。那部分比比賽還難。到了下一次練習，我們至少能同時喊出「我的」，這已經是雙打的一半了。教練說情人節抽籤之所以存在，是因為一個大家只和朋友搭配的球隊會停止進步。我覺得她也挺享受大家的抱怨。不管怎樣，一場沒有花、卻充滿吼叫的情人節比賽，是這棟樓裡最不浪漫、也最有用的事。
+
+## 提著燈跑夜路
+On the fifteenth night of the first lunar month, our town closes two streets and holds a [[lantern|Easter|Christmas|Valentine]] walk. It is not a race, although some of us treat it as one. Children get a small plastic one with a light inside, handed out by the district office, and the rest of us bring whatever we have. The route is three kilometres along the river, and the only rule is that your light must still be [[bright|salty|crowded|windy]] at the end. Running with a [[lantern|Easter|Christmas|Valentine]] is harder than it sounds: the swinging makes a candle go out, and you spend the last kilometre walking anyway. From the bridge, the line of lights along the water looks like something out of a film, which is the real reason everybody comes. Last year my grandfather walked the whole thing for the first time in years. He said that when he was a boy the [[lanterns|Easters|Christmases|Valentines]] were made at home from bamboo and paper, and that every family's was a different shape, so you could tell from a distance who was coming. Now they are mostly the same and mostly plastic, and the river still looks [[beautiful|salty|crowded|windy]], which he says is both a loss and not one.
+> 1 holds a lantern walk「舉辦提燈健走」。Easter、Christmas、Valentine 都不是元宵節的活動。
+> 2 your light must still be bright at the end「到終點時燈還要亮著」。salty、crowded、windy 都不能形容燈亮不亮。
+> 3 Running with a lantern「提著燈跑」。Easter、Christmas、Valentine 都不是手上提的東西。
+> 4 the lanterns were made at home from bamboo and paper「燈籠是在家用竹子和紙做的」。Easters、Christmases、Valentines 都不是手工做的物品。
+> 5 the river still looks beautiful「河面看起來仍然很美」。salty、crowded、windy 都不是他想表達的感受。
++ lunar month = 農曆月
++ district office = 區公所
++ route = 路線
++ swing = 擺動
++ bamboo = 竹子
+= 農曆正月十五的晚上，我們鎮上封兩條街，舉辦提燈健走。它不是比賽，雖然我們有些人把它當成比賽。小孩會拿到區公所發的小塑膠提燈，裡面有燈泡，其他人就帶自己有的。路線沿河三公里，唯一的規則是你的燈必須一直亮著。提著燈跑比聽起來難：擺動會讓蠟燭熄掉，而你最後一公里反正都在走。從橋上看，沿著水面那條燈光的線像電影裡的畫面，這才是大家真正來的理由。去年我阿公多年來第一次走完全程。他說他小時候，燈籠是在家裡用竹子和紙做的，每家的形狀都不一樣，所以遠遠就能看出是誰來了。現在大多一樣、大多是塑膠的，而河面看起來仍然很美，他說這既是一種失去，也不算失去。
+
+## 二月十四日登記結婚
+Taiwan became the first place in Asia where two men or two women could marry, and the law took effect on 24 May 2019. More than five hundred couples registered on that first day. What I did not know until recently is how many couples choose 14 February. Household registration offices in several cities now open special desks for [[Valentine|Easter|Christmas|lantern]]'s Day, put flowers on the table, and hand out small gifts, and the queue includes same-sex couples alongside everybody else. One office in Taipei posts the number of couples who registered that day on a [[sign|garbage|traffic|weather]] outside. A classmate's aunt married her partner on a February 14th, after eleven years together and two earlier attempts to register that were refused before the law changed. She says the strangest part was how [[ordinary|salty|crowded|windy]] it felt: a form, a stamp, a photograph, twenty minutes. Not everybody in Taiwan agrees with the law, and a referendum in 2018 showed that clearly. Both things are true at once. But a [[Valentine|Easter|Christmas|Halloween]] queue at a government office, with two grandmothers arguing about where to stand, is a fairly good picture of what a [[Valentine|Easter|Christmas|lantern]] can turn into.
+> 1 special desks for Valentine's Day「情人節特別受理櫃台」。Easter、Christmas、lantern 都不是二月十四日。
+> 2 on a sign outside「寫在外面的牌子上」。garbage、traffic、weather 都不是會寫上數字的東西。
+> 3 how ordinary it felt「那感覺多麼平常」。salty、crowded、windy 都不能形容一個人的感受。
+> 4 a Valentine queue at a government office「公家機關裡的情人節隊伍」。Easter、Christmas、Halloween 都不合這個場景。
+> 5 what a Valentine can turn into「情人節可以變成什麼」。Easter、Christmas、lantern 都不是這篇在談的節日。
++ take effect = 生效
++ register = 登記
++ household registration office = 戶政事務所
++ partner = 伴侶
++ referendum = 公投
+= 台灣成為亞洲第一個兩個男性或兩個女性可以結婚的地方，法律在 2019 年 5 月 24 日生效。第一天就有超過五百對登記。我最近才知道的是，有多少對伴侶選在 2 月 14 日。好幾個城市的戶政事務所現在會為情人節開特別受理櫃台、在桌上放花、發送小禮物，而排隊的隊伍裡，同性伴侶和其他人站在一起。台北有一間事務所會把當天登記的結婚對數寫在外面的板子上。我同學的阿姨在某一年的 2 月 14 日和伴侶結婚，她們在一起十一年，在法律改變前曾兩次被拒絕登記。她說最奇怪的是那感覺多麼平常：一張表、一個章、一張照片，二十分鐘。並不是所有台灣人都同意這條法律，2018 年的公投清楚顯示了這一點。這兩件事同時都是真的。但公家機關裡的情人節隊伍，加上兩位阿嬤為了該站哪裡爭論，相當能說明情人節可以變成什麼。
+
+## 那不是服裝
+Two weeks before [[Halloween|Easter|Christmas|Valentine]], our English teacher showed us a set of photographs and asked which costumes we thought were fine. A ghost, a nurse, a dinosaur, a robot: easy. Then a boy in a feathered headdress, a girl in a kimono she had bought online, somebody dressed as a "gypsy fortune teller". The room went quiet, and then the arguments started. Her point was not that everything is forbidden. It was that a costume is a [[choice|garbage|traffic|weather]] you can take off, and that for the people whose clothes, faces or religion you are wearing, it is not. Campaigns in several countries use one sentence: my culture is not a [[Halloween|Easter|Christmas|lantern]] costume. The useful test she gave us was a question: am I dressing as a person, or as a whole group of people? Dressing as a specific character is usually fine. Painting your skin a different colour is not, anywhere, ever. We also talked about the other direction, because [[Halloween|Easter|Christmas|Valentine]] itself arrived in Taiwan from somewhere else, and nobody here thinks a [[Halloween|Easter|Christmas|Valentine]] pumpkin is theirs. Borrowing is normal; the question is whether the people you borrow from are laughing with you.
+> 1 Two weeks before Halloween「萬聖節前兩週」。Easter、Christmas、Valentine 都不是會討論變裝服裝的節日。
+> 2 a costume is a choice you can take off「服裝是一個你可以脫下來的選擇」。garbage、traffic、weather 都接不上 you can take off。
+> 3 my culture is not a Halloween costume「我的文化不是你的萬聖節變裝服」。Easter、Christmas、lantern 都不合這句標語。
+> 4 Halloween itself arrived in Taiwan from somewhere else「萬聖節本身也是從別的地方傳到台灣的」。Easter、Christmas、Valentine 不是這段在談的那個節日。
+> 5 nobody here thinks a Halloween pumpkin is theirs「這裡沒有人覺得萬聖節南瓜是自己的」。Easter、Christmas、Valentine 都沒有南瓜這個符號。
++ feathered headdress = 羽毛頭飾
++ fortune teller = 算命師
++ forbidden = 被禁止的
++ campaign = 行動、運動
++ borrow = 借用
+= 萬聖節前兩週，我們的英文老師給我們看一組照片，問我們覺得哪些變裝沒問題。鬼、護理師、恐龍、機器人：很簡單。接著是一個戴羽毛頭飾的男生、一個穿網購和服的女生，還有一個扮成「吉普賽算命師」的人。教室安靜下來，然後爭論就開始了。她的重點不是什麼都不准，而是：服裝是你可以脫下來的東西，而對那些你正穿著他們衣服、臉孔或信仰的人來說，那脫不下來。好幾個國家的行動都用同一句話：我的文化不是你的變裝服。她給我們一個好用的判斷方法，就是問一句：我是扮成一個人，還是扮成一整群人？扮成某個特定角色通常沒問題；把皮膚塗成另一種顏色則在任何地方、任何時候都不行。我們也談了相反的方向，因為萬聖節本身也是從別的地方傳到台灣的，而這裡沒有人認為南瓜屬於自己。借用是正常的；問題在於你借用的那群人，是不是和你一起笑。
+
+## 一個人的聖誕節
+In December the advertisements are full of large families around a table, which is one reason [[Christmas|Easter|Halloween|Valentine]] can be the hardest week of the year for somebody living alone. Charities in Britain and Japan report that calls to their helplines rise over the holiday, and the reason is not only loneliness but comparison: everybody else appears to be somewhere warm. In Taiwan the same thing happens around Lunar New Year rather than in December, which tells you that the festival is not the cause; the [[problem|garbage|traffic|weather]] is the comparison. Volunteers deliver meals, and some churches hold a lunch where nobody has to explain why they came. What the volunteers say, when asked, is that the useful thing is small and specific: not "come to our big [[Christmas|Easter|Halloween|lantern]] party" but "I am going to the market at ten, shall I knock?" Our class visited a day centre for older people last December, sang four songs badly, and then sat and listened for an hour, which was the part that mattered. One grandmother told me she did not mind being alone on a [[Christmas|Easter|Halloween|Valentine]]; she minded being alone in February, when nobody [[calls|bakes|borrows|prays]] because nothing is on the calendar.
+> 1 Christmas can be the hardest week of the year「聖誕節可能是一年中最難過的一週」。Easter、Halloween、Valentine 都不是十二月那個節日。
+> 2 the problem is the comparison「問題在於比較」。garbage、traffic、weather 都不是造成孤單感的原因。
+> 3 come to our big Christmas party「來我們盛大的聖誕派對」。Easter、Halloween、lantern 都不是十二月的活動。
+> 4 being alone on a Christmas「在聖誕節獨自一人」。Easter、Halloween、Valentine 都不是她提到的那一天。
+> 5 nobody calls because nothing is on the calendar「沒有人打電話來，因為行事曆上沒有節日」。bakes、borrows、prays 都接不上這個意思。
++ advertisement = 廣告
++ charity = 慈善團體
++ helpline = 求助熱線
++ comparison = 比較
++ day centre = 日間照顧中心
+= 十二月的廣告裡滿是圍著餐桌的大家庭，這也是為什麼對獨居的人來說，聖誕節可能是一年中最難過的一週。英國和日本的慈善團體都指出，求助熱線的來電在假期間增加，而原因不只是孤單，還有比較：別人看起來都在某個溫暖的地方。在台灣，同樣的事發生在農曆年前後，而不是十二月，這告訴你節日不是原因，問題在於比較。志工會送餐，有些教會辦午餐會，讓來的人不必解釋自己為什麼來。問志工的時候，他們說有用的事通常很小、很具體：不是「來我們盛大的聖誕派對」，而是「我十點要去市場，要不要我敲門叫你？」去年十二月我們班去了一間老人日照中心，唱了四首走音的歌，然後坐下來聽他們講一小時，那才是重要的部分。有位阿嬤告訴我，她不在意聖誕節獨自一人；她在意的是二月獨自一人，因為那時沒有人打電話來，行事曆上也沒有節日。
+
+## 元宵節的那一碗
+On the night of the first full moon of the lunar year, Taiwan eats tangyuan and lights [[lanterns|Easters|Christmases|Valentines]]. In the factory district where my aunt works, the company holds a small party on that evening, and most of the people there are migrant workers from Indonesia, Vietnam and the Philippines. For them it is not their festival at all. Some have been in Taiwan for eight years; many send most of their [[pay|garbage|traffic|weather]] home, and the hardest nights are the ones when everybody else is with family. The company's party is therefore a slightly strange event: Taiwanese managers explaining a [[Lantern|Christmas|Easter|Valentine]] Festival to people who are thinking about Eid or Tet or a birthday they are missing. My aunt says the part that works is the food, because everybody has a dish that means home, and the part that does not work is the speech. In recent years several cities have added their own celebrations to the calendar, and migrant workers' groups have set up [[lanterns|Easters|Christmases|Valentines]] with wishes written in four languages. One of them, translated for us, read: next year, at home. You do not have to share a festival to [[understand|bake|borrow|pray]] that.
+> 1 eats tangyuan and lights lanterns「吃湯圓、點燈籠」。Easters、Christmases、Valentines 都不是元宵節做的事。
+> 2 send most of their pay home「把大部分薪水寄回家」。garbage、traffic、weather 都不是會寄回家的東西。
+> 3 explaining a Lantern Festival「解釋元宵節」。Christmas、Easter、Valentine 都不是農曆正月十五的節日。
+> 4 set up lanterns with wishes in four languages「掛上寫著四種語言願望的燈籠」。Easters、Christmases、Valentines 都不是可以掛起來寫字的東西。
+> 5 You do not have to share a festival to understand that「你不必過同一個節日，也能懂那句話」。bake、borrow、pray 都接不上這個句型。
++ tangyuan = 湯圓
++ migrant worker = 移工
++ Eid / Tet = 開齋節／越南新年
++ speech = 致詞
++ translate = 翻譯
+= 農曆年第一個滿月的晚上，台灣吃湯圓、點燈籠。在我阿姨工作的工業區，公司那天晚上會辦一個小型活動，而在場的人大多是來自印尼、越南和菲律賓的移工。對他們來說，這根本不是自己的節日。有些人已經在台灣八年；許多人把大部分薪水寄回家，而最難過的夜晚，就是別人都和家人在一起的那些夜晚。所以公司的活動是個有點奇怪的場合：台灣主管向正在想著開齋節、越南新年，或某個錯過的生日的人，解釋元宵節是什麼。我阿姨說，有用的部分是食物，因為每個人都有一道代表家的菜；沒用的部分是致詞。近年有幾個城市也把自己的慶祝活動排進行事曆，移工團體則掛上寫著四種語言願望的燈籠。其中一個翻譯給我們聽，寫著：明年，在家。你不必過同一個節日，也能懂那句話。
+
+## 冬天的那張特別專輯
+Korean groups release winter albums the way other people put up decorations. Every November and December the same thing happens: a special single or a short album with bells, soft lighting, knitted jumpers and snow that is almost certainly fake, because Seoul does not always oblige. A [[Christmas|Easter|Halloween|lantern]] song is a strange thing to make, commercially speaking. It can only be played for about six weeks a year, so it has to work for several years running to be worth the [[cost|garbage|traffic|weather]], which is why companies aim for something gentle rather than clever. Several of these songs now come back every December like old friends, and fans compare the new ones unfavourably with the ones they heard when they were twelve. The videos follow rules of their own: a cabin, a fireplace, a dog, and at least one member failing to wrap a present. What interests me is the timing. These songs are released just before the award shows at the end of the year, so a [[Christmas|Easter|Halloween|Valentine]] single is also a way of staying visible in a crowded month. My favourite is nine years old, has no snow in it at all, and sounds like somebody singing in a kitchen — which is the only [[Christmas|Easter|Halloween|lantern]] song in the pile I would play in July. My brother, who is six, thinks it is a [[sad|salty|crowded|windy]] song, and he may be right.
+> 1 A Christmas song is a strange thing to make「做一首聖誕歌是件奇怪的事」。Easter、Halloween、lantern 都不是會做成冬季特別曲的節日。
+> 2 to be worth the cost「才划得來」。garbage、traffic、weather 都不能和 worth the 搭配。
+> 3 a Christmas single is also a way of staying visible「聖誕單曲也是一種保持曝光的方式」。Easter、Halloween、Valentine 都不是年底的節日。
+> 4 the only Christmas song in the pile「這一堆裡唯一一首聖誕歌」。Easter、Halloween、lantern 都不是這些歌的主題。
+> 5 thinks it is a sad song「覺得那是一首悲傷的歌」。salty、crowded、windy 都不能形容一首歌。
++ decoration = 裝飾
++ oblige = 配合
++ commercially = 商業上
++ cabin = 小木屋
++ visible = 被看見的
+= 韓國團體發行冬季專輯，就像別人掛裝飾一樣自然。每年十一月和十二月都會發生同樣的事：一首特別單曲或一張短專輯，裡面有鈴聲、柔和的燈光、針織毛衣，還有幾乎可以確定是假的雪，因為首爾不一定配合。從商業角度看，做一首聖誕歌是件奇怪的事。它一年只能播大約六週，所以必須能連續用好幾年才划得來，這也是為什麼公司追求的是溫柔，而不是聰明。這些歌裡有幾首現在每年十二月都像老朋友一樣回來，而粉絲總說新的不如自己十二歲時聽到的那些。影片也有自己的規則：一間小木屋、一個壁爐、一隻狗，還有至少一位成員把禮物包壞。我感興趣的是時間點。這些歌在年底的頒獎典禮前推出，所以聖誕單曲也是在擁擠的月份裡保持曝光的方式。我最喜歡的那首已經九歲，裡面完全沒有雪，聽起來像有人在廚房裡唱歌——那是這一堆裡唯一一首我七月也會放的聖誕歌。我六歲的弟弟覺得那是一首悲傷的歌，他說得也許沒錯。
+
+## 那一年，偶像取消了萬聖節
+Korean idols used to post costume photographs every year at the end of October. Companies organised studio shoots, variety shows ran [[Halloween|Easter|Christmas|lantern]] specials, and the costumes were half the fun of the season. In 2022 that stopped. Three days before the date, the crowd disaster in Itaewon killed 159 people, most of them the same age as the fans, and the industry cancelled everything within hours: posts deleted, specials pulled, concerts turned into quiet events with no [[Halloween|Easter|Christmas|Valentine]] decorations at all. Several groups released statements saying they could not celebrate that week. It would be easy to be cynical about this, but the people who died were from exactly that audience, and a few of the dead were themselves trainees or staff in the industry. In the years since, [[Halloween|Easter|Christmas|Valentine]] content has come back slowly and more carefully, with fewer street events and more indoor ones. Fans argue about where the line is. What strikes me is that a festival imported for fun became, in one country, a date that cannot be used lightly — which is also true of certain dates in Taiwan, and is the sort of thing you only [[learn|bake|borrow|pray]] by living somewhere. When our teacher asked us to name a date in Taiwan that cannot be used for a party, the room answered in one [[voice|garbage|traffic|weather]].
+> 1 variety shows ran Halloween specials「綜藝節目做萬聖節特輯」。Easter、Christmas、lantern 都不是十月底的節日。
+> 2 no Halloween decorations at all「完全沒有萬聖節裝飾」。Easter、Christmas、Valentine 都不是那一週要撤下的布置。
+> 3 Halloween content has come back slowly「萬聖節的內容慢慢回來」。Easter、Christmas、Valentine 都不是這段在說的節日。
+> 4 the sort of thing you only learn by living somewhere「只有住在那裡才會懂的事」。bake、borrow、pray 都接不上這個句型。
+> 5 the room answered in one voice「全班用同一個聲音回答」。garbage、traffic、weather 都接不上 in one。
++ variety show = 綜藝節目
++ special = 特輯
++ pull = 撤下
++ cynical = 嘲諷的、不信任的
++ trainee = 練習生
+= 韓國偶像以前每年十月底都會發變裝照片。公司安排攝影棚拍攝，綜藝節目做萬聖節特輯，而服裝是這個季節一半的樂趣。2022 年，這件事停了。在那個日子前三天，梨泰院的群眾事故造成一百五十九人死亡，大多和粉絲同年紀，整個產業在幾小時內取消了一切：貼文刪除、特輯撤下、演唱會改成沒有裝飾的安靜活動。好幾個團體發聲明說，那一週他們無法慶祝。對這件事抱持嘲諷態度很容易，但罹難者正是來自那個族群，其中幾位本身就是這個產業的練習生或工作人員。此後幾年，萬聖節的內容慢慢回來，也更小心，街頭活動變少、室內活動變多。粉絲仍在爭論界線在哪裡。讓我印象深刻的是，一個為了好玩而引進的節日，在某個國家變成一個不能輕率使用的日期——台灣某些日期也是如此，而這種事只有住在那裡才會懂。當老師要我們說出一個在台灣不能拿來辦派對的日期時，全班用同一個聲音回答。
+
+## 二月十四日與三月十四日
+Korea has turned [[Valentine|Easter|Christmas|lantern]]'s Day into a series. On 14 February women traditionally give chocolate; on 14 March, White Day, men give sweets in return; and on 14 April, which somebody invented for the people left out, single friends go and eat black noodles together. Fandoms have their own version. Fans send gifts to a group on 14 February, and the group usually posts something back, often a photograph holding a handwritten sign, because the exchange is the point. There is a limit to how [[sweet|salty|crowded|windy]] all this can get before it becomes a business, and it crossed that line years ago: the amount of chocolate sold in Korea in the two weeks before a [[Valentine|Easter|Christmas|Halloween]] is enormous, and the "gift" is often an officially licensed box. Some fandoms now do something different and donate instead: rice to a food bank, money to an animal shelter, or books to a library, in the group's name, on the [[date|garbage|traffic|weather]] itself. My cousin's fandom sent 300 kilograms of rice. I find that a better use of a [[Valentine|Easter|Christmas|lantern]] than another plastic heart, and so, apparently, do the people who received the rice.
+> 1 turned Valentine's Day into a series「把情人節變成一系列節日」。Easter、Christmas、lantern 都沒有二月、三月、四月的延伸。
+> 2 how sweet all this can get「這一切可以甜到什麼程度」。salty、crowded、windy 都不能形容禮物文化。
+> 3 in the two weeks before a Valentine「情人節前兩週」。Easter、Christmas、Halloween 都不是二月十四日。
+> 4 on the date itself「就在那一天」。garbage、traffic、weather 都不是日期。
+> 5 a better use of a Valentine「情人節更好的用法」。Easter、Christmas、lantern 都不是這篇在談的節日。
++ in return = 回禮
++ fandom = 粉絲圈
++ licensed = 官方授權的
++ donate = 捐贈
++ food bank = 食物銀行
+= 韓國把情人節變成了一系列節日。2 月 14 日傳統上由女生送巧克力；3 月 14 日白色情人節，男生回送糖果；4 月 14 日則是某人為被剩下的人發明的，單身的朋友一起去吃黑色炸醬麵。粉絲圈有自己的版本。粉絲在 2 月 14 日送禮物給團體，團體通常也會回應，常常是拿著手寫牌子的照片，因為「交換」本身就是重點。這一切能甜到什麼程度是有極限的，超過就變成生意，而它好幾年前就越過那條線了：韓國在情人節前兩週賣出的巧克力數量極其龐大，而那份「禮物」往往是官方授權的盒子。有些粉絲圈現在改做別的事，選擇捐贈：以團體的名義，在那一天捐米給食物銀行、捐錢給動物收容所，或捐書給圖書館。我表姊的粉絲圈送了三百公斤的米。我覺得那是比再一顆塑膠愛心更好的情人節用法，而收到米的人顯然也這麼想。
+
+## 一萬個燈在黑暗裡
+The first time I watched a concert film, the thing I could not stop looking at was the audience. Thirty thousand people were holding the same small light, and when the song changed they all changed colour together, because the lights are controlled from the stage by radio. From above it looks like a field of [[lanterns|Easters|Christmases|Valentines]] that has learned to breathe. Each group has its own design and its own colour, and fans will explain the difference to you at length. Before the official ones existed, Korean audiences brought balloons, and before that they brought nothing at all. There is a practical reason the companies like them: a sea of one colour makes a venue look [[full|salty|windy|crowded]] on camera, which matters when the film will be watched by millions. There is a less practical reason the fans like them, which is that holding a light in the dark with strangers is an old human habit; it is what people do at a [[Lantern|Christmas|Easter|Valentine]] Festival, at a vigil and at a temple. My grandmother, shown a photograph of the stadium, said it looked exactly like the river at [[Lantern|Christmas|Easter|Halloween]] Festival, and asked whether the wishes also went up. I said no, they came with batteries, and she said she [[preferred|baked|borrowed|prayed]] the paper ones.
+> 1 a field of lanterns「一片燈籠的田野」。Easters、Christmases、Valentines 都不是會在黑暗中發光的物件。
+> 2 makes a venue look full on camera「讓場館在鏡頭上看起來滿」。salty、windy、crowded 在這裡都不是公司想要的畫面效果（crowded 偏向擁擠不舒服）。
+> 3 what people do at a Lantern Festival「人們在元宵節做的事」。Christmas、Easter、Valentine 都不是提燈的節日。
+> 4 the river at Lantern Festival「元宵節的那條河」。Christmas、Easter、Halloween 都不是阿嬤想起的那個畫面。
+> 5 she said she preferred the paper ones「她說她比較喜歡紙做的那些」。baked、borrowed、prayed 都接不上 she said she。
++ audience = 觀眾
++ radio = 無線電
++ venue = 場館
++ vigil = 守夜
++ battery = 電池
+= 我第一次看演唱會影片時，無法停止注視的其實是觀眾。三萬人拿著同一款小燈，歌一換，他們就一起變色，因為那些燈由舞台上透過無線電控制。從上往下看，像一片學會呼吸的燈籠田野。每個團體有自己的設計和顏色，粉絲可以滔滔不絕地跟你解釋差別。在官方手燈出現之前，韓國觀眾帶氣球；更早之前什麼都不帶。公司喜歡手燈有個實際理由：一整片單一顏色，會讓場館在鏡頭上看起來很滿，而當影片會被幾百萬人觀看時，這很重要。粉絲喜歡它則有個比較不實際的理由：在黑暗中和陌生人一起舉著光，是人類古老的習慣；那正是人們在元宵節、在守夜活動、在廟裡做的事。我阿嬤看了體育館的照片，說它看起來就像元宵節的那條河，還問願望是不是也會飛上去。我說不會，它們是裝電池的，她說她還是比較喜歡紙做的那些。
+
+## 關於節日的笑話
+Four jokes. One: what do you call a [[Halloween|Easter|Christmas|Valentine]] ghost with a broken leg? A hoblin goblin. Two: why was the skeleton afraid to cross the road? He had no guts. Three: our teacher asked the class what we wanted for [[Christmas|Easter|Halloween|Valentine]], and my friend said "a dinosaur". The teacher said, "Be realistic." He said, "All right, world peace." Four: on 14 February my brother gave our mother a card he had made himself, which said "Happy [[Valentine|Easter|Christmas|Halloween]]'s Day, from your favourite child." She has four children. It is now on the refrigerator, where it has started a [[fight|garbage|traffic|weather]] that has lasted eleven months. My sister's revenge arrived in December in the form of a [[Christmas|Easter|Halloween|Valentine]] card that said "from the child who visits". Our family does not need television.
+> 1 a Halloween ghost「萬聖節的鬼」。Easter、Christmas、Valentine 都沒有鬼的笑話。
+> 2 what we wanted for Christmas「聖誕節想要什麼」。Easter、Halloween、Valentine 都不是送大禮的節日。
+> 3 Happy Valentine's Day「情人節快樂」，二月十四日的卡片。Easter、Christmas、Halloween 都不是那一天。
+> 4 has started a fight「引發了一場戰爭」。garbage、traffic、weather 都接不上 started a。
+> 5 a Christmas card that said「一張聖誕卡上寫著」。Easter、Halloween、Valentine 都不是十二月的卡片。
++ goblin = 小妖怪
++ guts = 膽子（也指內臟）
++ realistic = 現實的
++ revenge = 報復
++ refrigerator = 冰箱
+= 四個笑話。第一個：一隻斷了腿的萬聖節鬼要叫什麼？一跛一跛的小妖怪。第二個：骷髏為什麼不敢過馬路？因為他沒有膽（也沒有內臟）。第三個：老師問全班聖誕節想要什麼，我朋友說「一隻恐龍」。老師說：「現實一點。」他說：「好，那世界和平。」第四個：2 月 14 日，我弟給我媽一張自己做的卡片，上面寫著「情人節快樂，你最愛的孩子送」。她有四個小孩。那張卡現在貼在冰箱上，引發了一場已經持續十一個月的戰爭。我妹的報復在十二月到來，是一張聖誕卡，上面寫著「那個會回家看你的孩子送」。我們家不需要電視。
+
+## 交換禮物的規則
+Our class has exchanged presents in December for three years, and the rules have grown every year because of what happened the year before. The current list: a limit of two hundred dollars; nothing alive; nothing that makes a noise; and you must write a card, because the first year somebody received an unlabelled bag of garlic and nobody ever found out who sent it. We draw names in the last week of November, so the [[Christmas|Easter|Halloween|Valentine]] exchange runs on a good deal of secrecy for about three weeks. The best present I have received was a hand-drawn comic about our maths teacher; the worst was a mug with my own face printed on it, which I have to keep on display because the person who gave it sits behind me. The real rule, which is not written down, is that nobody is allowed to [[complain|bake|borrow|pray]], because somebody chose the thing. Our teacher joins in and always gives socks. Last year she drew my name and gave me socks with [[Christmas|Easter|Halloween|lantern]] trees on them. I wore them in June and she noticed from across the room, which I am counting as a [[win|garbage|traffic|weather]] for everybody involved. This year the list has one more line — no mugs — and somebody has already asked whether that includes [[Christmas|Easter|Halloween|Valentine]] mugs.
+> 1 the Christmas exchange「聖誕交換禮物」。Easter、Halloween、Valentine 都不是十二月的活動。
+> 2 nobody is allowed to complain「沒有人可以抱怨」。bake、borrow、pray 都接不上 allowed to。
+> 3 socks with Christmas trees on them「印著聖誕樹的襪子」。Easter、Halloween、lantern 都不是那種圖案。
+> 4 counting as a win for everybody「算是所有人都贏」。garbage、traffic、weather 都接不上 as a。
+> 5 whether that includes Christmas mugs「那是否包含聖誕馬克杯」。Easter、Halloween、Valentine 都不是這個活動的節日。
++ exchange = 交換
++ limit = 上限
++ unlabelled = 沒有標示的
++ secrecy = 保密
++ on display = 展示著
+= 我們班在十二月交換禮物已經三年，而規則每年都在增加，原因都是前一年發生過的事。目前的清單是：上限兩百元；不能是活的；不能會發出聲音；而且必須寫卡片，因為第一年有人收到一袋沒有標示的蒜頭，而且始終沒查出是誰送的。我們在十一月最後一週抽名字，所以聖誕交換禮物有大約三週靠大量的保密在運作。我收過最好的禮物是一本手繪漫畫，畫的是我們的數學老師；最糟的是一個印著我自己臉的馬克杯，而我必須把它擺出來，因為送的人坐我後面。真正的規則沒有寫下來：沒有人可以抱怨，因為那是有人替你挑的。我們老師也參加，而且永遠送襪子。去年她抽到我，送了一雙印著聖誕樹的襪子。我六月穿它，她從教室另一邊就看到了，我把這件事算成所有人都贏。今年規則多了一條——不准送馬克杯——而已經有人問，那包不包括聖誕馬克杯。
+
+## 關於春天與蛋的笑話
+Three jokes my uncle tells every spring, whether anybody asks or not. One: how does a rabbit travel at [[Easter|Christmas|Halloween|Valentine]]? By hare-plane. Two: what did the egg say to the boiling water? "It will take me a while to get hard, because I only came out of the fridge a minute ago." Three: my little cousin asked why we paint [[Easter|Christmas|Halloween|Valentine]] eggs, and my uncle said it is so you can find them, and she said that is why you should not paint them green. She is five and she had just won an argument about [[Easter|Christmas|Halloween|Valentine]] eggs, which he has never forgiven. There is a fourth one that he saves for the [[end|garbage|traffic|weather]] of the meal: why did the chicken cross the road on the morning after the hunt? To get its eggs back. Nobody laughs any more, which he says is proof that we have no [[respect|garbage|traffic|weather]] for tradition.
+> 1 travel at Easter「在復活節旅行」，hare-plane 是 aeroplane 的諧音。Christmas、Halloween、Valentine 都沒有兔子的笑話。
+> 2 why we paint Easter eggs「我們為什麼要彩繪復活節蛋」。Christmas、Halloween、Valentine 都沒有彩蛋。
+> 3 won an argument about Easter eggs「贏了一場關於復活節蛋的爭論」。Christmas、Halloween、Valentine 都沒有彩蛋這個傳統。
+> 4 saves for the end of the meal「留到飯後才講」。garbage、traffic、weather 都接不上 the … of the meal。
+> 5 we have no respect for tradition「我們對傳統毫無敬意」。garbage、traffic、weather 都接不上 no … for tradition。
++ hare = 野兔
++ boiling = 沸騰的
++ fridge = 冰箱
++ forgive = 原諒
++ proof = 證明
+= 三個我叔叔每年春天都要講的笑話，不管有沒有人想聽。第一個：兔子在復活節怎麼旅行？搭「野兔機」（hare-plane，諧音 aeroplane）。第二個：蛋對滾水說了什麼？「我可能要一陣子才會變硬，因為我一分鐘前才從冰箱出來。」第三個：我小表妹問為什麼要彩繪復活節蛋，我叔叔說這樣才找得到，她說那就不該把蛋塗成綠色。她五歲，而且剛剛贏了那場爭論，這件事我叔叔始終沒有原諒。還有第四個，他留到飯後才講：尋蛋活動隔天早上，雞為什麼要過馬路？為了把牠的蛋拿回來。現在沒有人笑了，他說這證明我們對傳統毫無敬意。
+
+## 阿嬤的湯圓
+On the afternoon of the [[Lantern|Christmas|Easter|Valentine]] Festival my grandmother makes tangyuan, and the kitchen becomes a small factory with bad management. She mixes glutinous rice flour with warm water until it feels right, which she cannot explain and I cannot copy, and then we roll the dough into balls. Mine are never the same size as hers. The filling is black sesame, and the test of a good one is that it is soft enough to [[escape|bake|borrow|pray]] when you bite it, which it does, usually onto somebody's shirt. We cook them in water until they rise to the top, and that is the whole recipe. The sweet soup is ginger for the adults and plain for the children. While we work she tells the same stories, and I have stopped minding that they are the same. The last thing we do is carry two bowls to the neighbour, who is ninety and does not cook now, and then we eat ours in front of a programme about the [[lanterns|Easters|Christmases|Valentines]] in Taipei. My grandmother is not interested in the big [[lantern|Easter|Christmas|Valentine]] displays on television. She says the festival is round, like the food, and that the point of a [[Lantern|Christmas|Easter|Halloween]] Festival is simply that the year has come back to where it started.
+> 1 the afternoon of the Lantern Festival「元宵節的下午」。Christmas、Easter、Valentine 都不是吃湯圓的節日。
+> 2 soft enough to escape when you bite it「軟到咬下去就會流出來」。bake、borrow、pray 都接不上 enough to。
+> 3 a programme about the lanterns in Taipei「關於台北那些燈的節目」。Easters、Christmases、Valentines 都不是電視上在轉播的東西。
+> 4 the big lantern displays on television「電視上的大型燈組」。Easter、Christmas、Valentine 都不是展出的燈。
+> 5 the point of a Lantern Festival「元宵節的意義」。Christmas、Easter、Halloween 都不是「一年回到起點」的那個節日。
++ glutinous rice flour = 糯米粉
++ dough = 麵團
++ filling = 內餡
++ sesame = 芝麻
++ ginger = 薑
+= 元宵節的下午，我阿嬤會做湯圓，廚房於是變成一間管理不良的小工廠。她把糯米粉和溫水混在一起，揉到「手感對了」為止，那是她無法解釋、我也複製不來的東西，然後我們把麵團搓成球。我搓的從來和她的不一樣大。內餡是黑芝麻，而好湯圓的檢驗標準是：軟到你一咬就流出來——而它確實會，通常流到某個人的衣服上。我們在水裡煮到它們浮上來，整個食譜就是這樣。甜湯給大人加薑，小孩的不加。我們一邊做，她一邊講同樣的故事，而我已經不介意它們都一樣。最後一件事是端兩碗給鄰居，她九十歲，現在不煮飯了；然後我們看著電視上關於台北那些燈的節目吃自己的。我阿嬤對電視上的大型燈組沒有興趣。她說這個節日是圓的，像那個食物一樣，而元宵節的意義很簡單：一年又回到了它開始的地方。

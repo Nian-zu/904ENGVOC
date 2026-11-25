@@ -800,3 +800,16 @@ D70-21 她記得 1961 年，卻不記得昨天：https://www.who.int/news-room/f
 D70-22 一百年前的一週六十小時：https://www.ilo.org/international-labour-standards/conventions-and-recommendations（C001 Hours of Work (Industry) Convention, 1919）；https://www.dgpa.gov.tw/
 D70-23 年末的那本月曆：https://www.koreatimes.co.kr/entertainment/k-pop/20251020/k-pop-seasons-greetings-explained-holiday-merch-thats-more-than-a-gift-set；https://heyhallyu.com/blog/k-pop-season-s-greetings-english
 D70-24 在月曆上等一個人：https://abc7.com/post/bts-military-discharge-countdown-members-jin-jimin-jung-kook-rm-hope-suga-done-south-korea-service/16797018/；https://www.nbcnewyork.com/entertainment/entertainment-news/bts-members-done-with-mandatory-service/
+D69-01 嘉義的燈會與一千三百萬人次：https://udn.com/news/story/7266/9394116；https://www.taiwannews.com.tw/zh/news/6032432
+D69-02 飛馬與回收金屬：https://www.ctee.com.tw/news/20260225701977-431401；https://news.ltn.com.tw/news/life/breakingnews/5363441
+D69-03 四十萬顆天燈之後：https://recycle.ntpc.gov.tw/Article/Index/category24；https://udn.com/news/story/6928/8632080；https://news.ltn.com.tw/news/life/breakingnews/4953866
+D69-04 十二月二十五日為什麼放假：https://news.pts.org.tw/article/750474；https://www.taiwannews.com.tw/zh/news/6121490
+D69-05 二〇二五年，東西方同一天過復活節：https://www.catholicnewsagency.com/news/263433/cna-explains-why-eastern-and-western-easter-dates-differ-and-why-2025-is-different；https://www.ncregister.com/news/this-year-s-shared-easter-provides-joy
+D69-06 梨泰院的那一夜：https://www.koreatimes.co.kr/opinion/editorial/20261029/ed-4-years-on-lessons-still-unlearned；https://pmc.ncbi.nlm.nih.gov/articles/PMC11456318/
+D69-07 南瓜燈本來是蕪菁：https://www.nationalgeographic.com/history/article/halloween-jack-o-lantern-turnip-history；https://www.britannica.com/topic/jack-o-lantern
+D69-12 兔子、蛋，和春天：https://www.britannica.com/topic/Easter-Bunny；https://www.english-heritage.org.uk/visit/whats-on/easter-traditions/
+D69-13 聖誕節的籃球：https://www.nba.com/news/nba-christmas-day-history；https://www.nba.com/schedule
+D69-14 節禮日的足球：https://www.premierleague.com/news；https://www.bbc.com/sport/football/articles/boxing-day-football-history
+D69-19 二月十四日登記結婚：https://www.amnesty.org/en/latest/news/2019/05/taiwan-same-sex-marriage-law/；https://focustaiwan.tw/society/201905240012
+D69-24 那一年，偶像取消了萬聖節：https://www.koreaherald.com/view.php?ud=20221031000623；https://www.soompi.com/article/1552831wpp/
+D69-25 二月十四日與三月十四日：https://www.koreatimes.co.kr/southkorea/society/20230314/white-day；https://www.koreaherald.com/
