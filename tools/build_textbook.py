@@ -119,6 +119,50 @@ def mcqs(name):
     return out
 
 
+# ---------- 教案「單字解析」：課本例句＋補充例句（都有中文翻譯） ----------
+def plan_ex(unit):
+    t = rd('u%d_plan.txt' % unit)
+    t = t[t.find('單字解析'):]
+    heads = list(re.finditer(r'^\s*(\d+)\.\t([^\[\n]+?)\s*\[[^\]]*\]', t, re.M))
+    out = []
+    for k, h in enumerate(heads):
+        w = h.group(2).strip()
+        body = t[h.end():heads[k + 1].start() if k + 1 < len(heads) else len(t)]
+        lines = body.split('\n')
+        for n, l in enumerate(lines):
+            m = re.match(r'^\t([A-Z][^\u4e00-\u9fff（]*?)\s*(（[^）]*）)?\s*$', l)
+            if not m: continue
+            sent = m.group(1).strip()
+            if re.match(r'^[AB]:', sent) or len(sent.split()) < 4: continue
+            zh = m.group(2)
+            if not zh and n + 1 < len(lines) and lines[n + 1].strip().startswith('（'): zh = lines[n + 1].strip()
+            if not zh: continue
+            if not zh.strip('（） '): continue
+            if w.startswith('not'): continue
+            loc = locate(sent, w)
+            if not loc: continue
+            a, ans, b = loc
+            out.append({'w': w, 'ans': ans, 'a': a, 'b': b, 'zh': zh.strip('（）')})
+    return out
+
+
+def locate(sent, w):
+    base = w.split('…')[0].split('...')[0].strip()
+    if not base or '(' in base: return None
+    last = base.split(' ')[-1]
+    stem = ' '.join(base.split(' ')[:-1])
+    forms = [last, last + 's', last + 'es', last + 'ed', last + 'd', last + 'ing']
+    if last.endswith('e'): forms.append(last[:-1] + 'ing')
+    if re.search(r'[^aeiou]y$', last): forms += [last[:-1] + 'ies', last[:-1] + 'ied']
+    if re.search(r'[^aeiou][aeiou][bdgmnprt]$', last): forms += [last + last[-1] + 'ed', last + last[-1] + 'ing']
+    forms.sort(key=len, reverse=True)
+    for f in forms:
+        pat = (re.escape(stem) + ' ' if stem else '') + re.escape(f)
+        m = re.search(r'(?<![A-Za-z’\'-])' + pat + r'(?![A-Za-z’\'-])', sent, re.I)
+        if m: return sent[:m.start()], m.group(0), sent[m.end():]
+    return None
+
+
 FIX_OPT = {'background': 'blackboard', 'if; X': 'if; （不用填）'}   # 講義把 96 年基測題的正確選項打錯了（答案 A 應是 blackboard）
 
 
@@ -138,9 +182,11 @@ def main():
         nonlocal nxt
         opts = [clean(o) if '\n' not in o else o for o in opts]
         if len(set(opts)) != 4: print('⚠ 選項重複', u, a[:40], opts); return
-        k = '%d|%s|%s|%s' % (u, re.sub(r'\s+', ' ', a), re.sub(r'\s+', ' ', b), opts[0])
-        if k in seen: return
-        seen.add(k)
+        k = '%d|%s|%s|%s' % (u, re.sub(r'\s+', ' ', a), re.sub(r'\s+', ' ', b), opts[0])   # 題號用的鍵（不要改格式，否則題號會變）
+        nz = lambda x: re.sub(r'\s+', ' ', x.replace('’', "'").replace('‘', "'")).strip().lower()
+        dk = '%d|%s|%s|%s' % (u, nz(a), nz(b), nz(opts[0]))   # 去重用：直引號／彎引號視為同一句
+        if dk in seen: return
+        seen.add(dk)
         if k not in ids: ids[k] = nxt; nxt += 1
         r = ids[k]
         c = oldkey[str(r)][0] if str(r) in oldkey else rnd.randrange(4)
@@ -156,6 +202,7 @@ def main():
     for u in (3, 4):
         W = words(u)
         pos, EX = entries(u)
+        EX = EX + plan_ex(u)
         # 英翻中／中翻英：誘答取同一課的其他字
         for i, x in enumerate(W):
             others = [y for y in W if y is not x and y['zh'].split('（')[0] != x['zh'].split('（')[0]]
@@ -247,6 +294,14 @@ def main():
         i = en.find(part)
         assert i >= 0, (n, part)
         add(u, 't', part, '背誦句 %d' % (n + 1), en[:i], en[i + len(part):], [part] + bad, z=zh, zh=zh, g='tbt%d-%s' % (n, hashlib.md5(part.encode()).hexdigest()[:6]))
+    # 課文理解（課本對話、閱讀、補充閱讀、聽力練習）
+    for (tk, q, opts, why) in manual.READING:
+        u = 3 if (tk or '').startswith('L3') else 4 if tk else (3 if manual.READING.index((tk, q, opts, why)) < 24 else 4)
+        stem = ('【' + manual.TEXT_NAME[tk] + '】\n' + manual.TEXTS[tk] + '\n\nQ: ' + q) if tk else q
+        add(u, 'r', opts[0], '課文理解・' + (manual.TEXT_NAME[tk] if tk else '課本聽力練習'), stem + '\n', '', opts, why=why, nb=True)
+    for (u, stem, opts, why) in manual.LESSON_G:
+        if '___' in stem: a, b = split_blank(stem); add(u, 'g', opts[0], '課文句型', a, b, opts, why=why)
+        else: add(u, 'g', opts[0], '課文句型', stem + '\n', '', opts, why=why, nb=True)
     for (n, stem, opts, why) in manual.TENSE:
         u = P[n][0]; a, b = split_blank(stem)
         add(u, 't', opts[0], '背誦句 %d・活用' % (n + 1), a, b, opts, why=why, g='tbx%d-%s' % (n, hashlib.md5(stem.encode()).hexdigest()[:6]))

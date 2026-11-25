@@ -334,6 +334,7 @@ svg.avatar{border-radius:50%;display:block;flex:none}
 .kbpass ol{margin:8px 0 4px;padding-left:22px;display:grid;gap:8px}
 .kbpass .en{font-family:var(--font-en,inherit);white-space:pre-line}
 .kbpass .zh{color:var(--muted);font-size:.9rem}
+.sentence.kbread{font-size:.98rem;line-height:1.6;text-align:left;max-height:52vh;overflow:auto;padding-right:4px}
 .kbz{display:block;margin-top:8px;color:var(--muted);font-size:.92rem}
 .bdweek{font:inherit;font-size:.85rem;border:1px solid var(--line);border-radius:10px;padding:4px 6px;background:#fff;color:inherit;margin-left:4px}
 .bdweek.on{border-color:#c8473a;color:#c8473a;font-weight:700}
@@ -470,6 +471,7 @@ tr.gap td{text-align:center;color:var(--muted);padding:0}
       <button data-kj="g" aria-pressed="true">文法句型</button>
       <button data-kj="q" aria-pressed="true">會考考古題</button>
       <button data-kj="d" aria-pressed="true">習作對話</button>
+      <button data-kj="r" aria-pressed="true">📖 課文理解</button>
       <button data-kj="t" aria-pressed="true">📜 背誦句</button>
     </div>
     <div class="hint" id="kbHint"></div>
@@ -722,9 +724,9 @@ const kindCode = () => book === 'jt' ? 'jt' : book === 'kb' ? 'tb' : types.size 
 let book = 'main', JT = null, jtDirs = new Set(['e', 'c', 's']);
 const JT_EXAM = [11, 20];   // 本次段考範圍
 // 課本（翰林 iEnglish 三年級 L3–L4）：題目在 textbook.json，題型代碼 k = 'tb'
-let KB = null, kbUnits = new Set([3, 4]), kbJs = new Set(['e', 'c', 's', 'g', 'q', 'd', 't']);
-try { const x = JSON.parse(localStorage.getItem('kbJs') || 'null'); if (Array.isArray(x) && x.length) kbJs = new Set(x); const y = JSON.parse(localStorage.getItem('kbUnits') || 'null'); if (Array.isArray(y) && y.length) kbUnits = new Set(y); } catch (e) {}
-const KB_J = {e: '英翻中', c: '中翻英', s: '例句填空', g: '文法句型', q: '會考考古題', d: '習作對話', t: '背誦句'};
+let KB = null, kbUnits = new Set([3, 4]), kbJs = new Set(['e', 'c', 's', 'g', 'q', 'd', 't', 'r']);
+try { const x = JSON.parse(localStorage.getItem('kbJs') || 'null'); if (Array.isArray(x) && x.length) { kbJs = new Set(x); if (!localStorage.getItem('kbJsR')) kbJs.add('r'); } localStorage.setItem('kbJsR', '1'); const y = JSON.parse(localStorage.getItem('kbUnits') || 'null'); if (Array.isArray(y) && y.length) kbUnits = new Set(y); } catch (e) {}
+const KB_J = {e: '英翻中', c: '中翻英', s: '例句填空', g: '文法句型', q: '會考考古題', d: '習作對話', t: '背誦句', r: '課文理解'};
 const isBk = q => q.k === 'jt' || q.k === 'tb';
 try { if (localStorage.getItem('book') === 'kb') book = 'kb'; if (localStorage.getItem('book') === 'jt') book = 'jt'; const d = JSON.parse(localStorage.getItem('jtDirs') || 'null'); if (Array.isArray(d) && d.length) jtDirs = new Set(d.filter(x => 'ecs'.includes(x))); if (!localStorage.getItem('jtDirs2')) jtDirs.add('s'); } catch (e) {}
 const jtRange = () => { let a = +$('jtFrom').value, b = +$('jtTo').value; if (a > b) [a, b] = [b, a]; return [a, b]; };
@@ -1091,12 +1093,14 @@ function answerCn(q, oi){
 function showJt(q){
   const s = session, kb = q.k === 'tb', ec = q.j === 'e' || q.j === 'c';
   $('qAsk').textContent = q.j === 'e' ? '這個英文是什麼意思？' : q.j === 'c' ? '哪一個英文是這個意思？' : kb && q.nb ? '選出正確的答案' : '＿＿＿ 處適合填入何者？';
-  $('qText').className = !ec ? 'sentence' : 'sentence jtq' + (q.j === 'e' ? '' : ' zhq');
+  $('qText').className = !ec ? 'sentence' + (kb && q.j === 'r' ? ' kbread' : '') : 'sentence jtq' + (q.j === 'e' ? '' : ' zhq');
   $('qDay').textContent = kb ? 'L' + q.u : jtLab(q);
   $('qKind').textContent = kb ? '課本・' + (q.j === 's' || q.j === 'e' || q.j === 'c' ? KB_J[q.j] : q.p) : '寂天・' + ({e: '英翻中', c: '中翻英', s: '選擇題'})[q.j];
   $('qProg').textContent = progText(s);
   if (!s.surv) $('qBar').style.width = (s.i / s.items.length * 100) + '%';
-  $('qText').innerHTML = kb && !ec ? (q.nb ? br(q.a) : qHTML(q)) + ((q.j === 's' || q.j === 't') && q.z && !q.nb ? `<span class="kbz">中文：${esc(q.z)}</span>` : '') : q.j === 's' ? qHTML(q) : (q.j === 'e' ? `<span class="jw">${esc(q.w)}${TTS.ok ? ` <button type="button" class="jw-say" data-say="${esc(sayWord(q))}" title="朗讀" aria-label="朗讀">🔊</button>` : ''}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
+  const rq = kb && q.j === 'r' && q.a.includes('\n\nQ: ') ? q.a.trim().split('\n\nQ: ') : null;   // 課文理解：問題放上面、文章放下面
+  if (rq) $('qAsk').innerHTML = '<b>Q: ' + esc(rq[1]) + '</b>';
+  $('qText').innerHTML = rq ? br(rq[0]) : kb && !ec ? (q.nb ? br(q.a) : qHTML(q)) + ((q.j === 's' || q.j === 't') && q.z && !q.nb ? `<span class="kbz">中文：${esc(q.z)}</span>` : '') : q.j === 's' ? qHTML(q) : (q.j === 'e' ? `<span class="jw">${esc(q.w)}${TTS.ok ? ` <button type="button" class="jw-say" data-say="${esc(sayWord(q))}" title="朗讀" aria-label="朗讀">🔊</button>` : ''}</span>` : `<span class="jw">${esc(q.zh)}</span>`) + `<span class="jp">${esc(q.p)}</span>`;
   $('qText').classList.toggle('zhopts', q.j === 'e');
   if (q.j === 'e' && TTS.auto) TTS.say(sayWord(q));
   const box = $('qOpts'); box.innerHTML = '';
@@ -1258,7 +1262,7 @@ function finish(){
     const q = DATA.bank[w.qi];
     if (q.k === 'tb') {
       li.innerHTML = (q.j === 'e' || q.j === 'c' ? `<div class="s"><b>${esc(q.w)}</b> ${esc(q.p || '')} ${esc(q.zh || '')}</div>`
-        : q.nb ? `<div class="s">${br(q.a)}</div>` : `<div class="s">${br(q.a)}<b>${br(q.o[q.c])}</b>${br(q.b)}</div>`) +
+        : q.nb ? `<div class="s">${br(q.j === 'r' && q.a.includes('\n\nQ: ') ? q.a.split('\n\nQ: ').pop() : q.a)}</div>` : `<div class="s">${br(q.a)}<b>${br(q.o[q.c])}</b>${br(q.b)}</div>`) +
         (q.y ? `<div class="z">💡 ${esc(q.y)}</div>` : '') + (q.z && !(q.nb && q.j === 't') ? `<div class="z">${q.j === 's' || q.j === 't' ? '' : '💡 '}${esc(q.z)}</div>` : '') +
         `<div class="a">課本 L${q.u}・你選 <s>${br(q.o[w.pick] ?? '（超時）')}</s>，正確是 <b>${br(q.o[q.c])}</b></div>` + ttsBar(q);
       ul.appendChild(li); return;
