@@ -29,6 +29,8 @@ function doPost(e) {
     const body = JSON.parse(e.postData.contents);
     const seat = parseInt(body.seat, 10);
     if (!validSeat_(seat)) return out_({ ok: false, error: '座號不正確' });
+    // 開始測驗的憑證不需要密碼（學生常常寫完才輸入密碼）；交卷時一定會驗密碼，所以不影響安全
+    if (body.type === 'start') return out_(startTok_(seat, body.ids, body.quiz));
     const pc = checkPin_(seat, body.pin);
     if (!pc.ok) return out_({ ok: false, error: pc.error, pin: true });
     if (body.type === 'avatar') return out_(saveAvatar_(seat, body.avatar));
@@ -47,7 +49,6 @@ function doPost(e) {
     if (body.type === 'boss') return out_(bossFight_(seat, body));
     if (body.type === 'news') return out_(news_(seat, !!body.check));
     if (body.type === 'clap') return out_(clap_(seat, parseInt(body.id, 10)));
-    if (body.type === 'start') return out_(startTok_(seat, body.ids, body.quiz));
     // 名單上有這個座號就用名單的姓名（學生打錯字也會自動更正）
     const name = (roster_()[seat] || String(body.name || '').trim()).slice(0, 20);
     if (!name) return out_({ ok: false, error: '請輸入姓名' });
